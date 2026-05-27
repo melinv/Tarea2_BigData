@@ -18,11 +18,13 @@ spark=SparkSession.builder.appName('Basics').getOrCreate()
 import os
 drive.mount('/content/drive', force_remount=True)
 print(os.listdir("/content/drive/MyDrive/T2-BigData"))
-with zipfile.ZipFile("/content/drive/MyDrive/T2-BigData/crossref.zip", 'r') as zip_ref:
-    zip_ref.extractall("/content/drive/MyDrive/T2-BigData/crossref")
+#with zipfile.ZipFile("/content/drive/MyDrive/T2-BigData/crossref.zip", 'r') as zip_ref:
+ #   zip_ref.extractall("/content/drive/MyDrive/T2-BigData/crossref")
 
+!cp /content/drive/MyDrive/T2-BigData/crossref.zip /content/
+!unzip /content/crossref.zip
 files=os.listdir("/content/drive/MyDrive/T2-BigData/crossref")
-df=spark.read.option("multiline", "true").json("/content/drive/MyDrive/T2-BigData/crossref/crossref")
+df=spark.read.option("multiline", "true").json("/content/crossref")
 
 df.printSchema()
 df.count()
@@ -52,3 +54,4 @@ df_year_month_grouped=df_year_month.groupBy("created_year","created_month")
 df_dates=df_year_month_grouped.agg(count("created_year").alias("total_articles"))
 df_dates.show()
 df.count()
+#df_dates.write.mode("overwrite").csv("/content/drive/MyDrive/T2-BigData/output/articles_month_year/")
