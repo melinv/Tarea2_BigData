@@ -1,0 +1,436 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:57:08Z",
+      "timestamp": 1768568228475,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          12
+        ]
+      ]
+    },
+    "group-title": "Intensive Care and Critical Care Medicine",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              12
+            ]
+          ],
+          "date-time": "2025-03-12T00:00:00Z",
+          "timestamp": 1741737600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Delirium is a serious complication in patients with COVID-19-related acute respiratory distress syndrome (ARDS) admitted to the intensive care unit (ICU). Although numerous clinical risk factors have been identified, the immunologic pathways underlying delirium remain unclear. In this retrospective cohort study, we investigated high-dimensional immune signatures in ICU patients to delineate peripheral immune markers associated with delirium. We also explored machine learning (ML) approaches to enhance biomarker discovery and strengthen predictive modelling through synthetic data generation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Sixty-two COVID-19 ARDS patients admitted to the ICU at Lausanne University Hospital, Switzerland, were studied; 39 (63%) developed delirium. Control cohorts consisted of 55 non-ICU COVID-19 patients and 450 healthy individuals. We performed high-dimensional immunophenotyping of cytokines, chemokines, and growth factors using multiplex beads assay, along with immune cell profiling via mass cytometry (CyTOF). Ridge regression has been employed to build classification models. To address the limited sample size and improve model stability, we generated a synthetic dataset using beta-variational autoencoders.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Delirious patients exhibited a distinctive immune signature, including elevated CXCL1, CCL11, CXCL13, HGF, and VEGF-A, coupled with reduced IL-1\u03b1, IL-21, and IL-22. Alterations in immune cell populations featured increased exhausted B cells and decreases in CXCR3+ CD4+ T cells, IgM+ unswitched memory B cells, and HLA-DR+ activated T cells. Leveraging these high-dimensional data, we trained ridge regression models to predict delirium. Incorporating synthetic data helped stabilize the models with a best-performing model achieving an area under the curve (AUC) of 0.95, with high sensitivity (93%) and specificity (86%), based on 12 identified markers.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our findings demonstrate a distinct immune profile linked to ICU delirium and illustrate how ML can enhance biomarker discovery. Further prospective validation may refine these markers and guide precision-targeted interventions for mitigating delirium in critically ill populations.</jats:p>\n                  <jats:p>\n                    <jats:bold>Graphical Abstract</jats:bold>\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.03.06.25323473",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2025-03-13T12:54:00Z",
+      "timestamp": 1741870440000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Unravelling the Complex Inflammatory Landscape of COVID-19 infection: A Pathway to Biomarkers Identification in Infection-Associated Delirium in the ICU"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0932-5955",
+        "authenticated-orcid": false,
+        "given": "Tristan",
+        "family": "Born",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Matthieu",
+        "family": "Perreau",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1446-3922",
+        "authenticated-orcid": false,
+        "given": "Pierre-Paul",
+        "family": "Axisa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9435-0110",
+        "authenticated-orcid": false,
+        "given": "Craig",
+        "family": "Fenwick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Pinto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4428-5223",
+        "authenticated-orcid": false,
+        "given": "Nawfel",
+        "family": "Ben-Hamouda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7878-172X",
+        "authenticated-orcid": false,
+        "given": "Andrea O.",
+        "family": "Rossetti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2786-3434",
+        "authenticated-orcid": false,
+        "given": "Renaud",
+        "family": "Du Pasquier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6433-6254",
+        "authenticated-orcid": false,
+        "given": "Jean-Daniel",
+        "family": "Chiche",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7447-344X",
+        "authenticated-orcid": false,
+        "given": "Rapha\u00ebl",
+        "family": "Bernard-Valnet",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41572-020-00223-4"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1301372"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n1007"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ebiom.2022.104043"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000201162"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30552-X"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Matschke J , L\u00fctgehetmann M , Hagel C , et al (2020) Neuropathology of patients with COVID-19 in Germany: a post-mortem case series. The Lancet Neurology",
+        "DOI": "10.1016/S1474-4422(20)30308-2"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.01.012"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/nxi.0000000000001029"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s2213-2600(20)30404-5"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-34068-0"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13613-019-0548-1"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.286.21.2703"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s001340100909"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2211868"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ccc.2016.12.005"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-25191-5"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2021436"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41584-020-0372-x"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCE.0000000000000729"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4266/acc.2021.01508"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1742-2094-9-18"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12974-018-1138-0"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2020.108150"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1172/JCI60842"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12035-018-1329-9"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2014.4761"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12974-021-02300-1"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12974-020-02013-x"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41593-022-01238-8"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature10357"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.06.008"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12974-015-0335-3"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/SHK.0000000000000619"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000004309"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.36",
+        "unstructured": "A blood atlas of COVID-19 defines hallmarks of disease severity and specificity. OPEN ACCESS"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/cc10457"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-015-3777-2"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.e420"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCE.0000000000000296"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000003299"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41582-021-00616-3"
+      },
+      {
+        "key": "2025032002545772000_2025.03.06.25323473v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ane.13447"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.06.25323473",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:30:11Z",
+      "timestamp": 1768509011000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.03.06.25323473"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          12
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2025.03.06.25323473",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          12
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

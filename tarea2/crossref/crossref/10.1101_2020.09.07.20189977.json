@@ -1,0 +1,470 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:22:55Z",
+      "timestamp": 1768551775260,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>This study investigated the performance and robustness of radiomics in predicting COVID-19 severity in a large public cohort.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>A public dataset of 1110 COVID-19 patients (1 CT/patient) was used. Using CTs and clinical data, each patient was classified into mild, moderate, and severe by two observers: (1) dataset provider and (2) a board-certified radiologist. For each CT, 107 radiomic features were extracted. The dataset was randomly divided into a training (60%) and holdout validation (40%) set. During training, features were selected and combined into a logistic regression model for predicting severe cases from mild and moderate cases. The models were trained and validated on the classifications by both observers. AUC quantified the predictive power of models. To determine model robustness, the trained models was cross-validated on the inter-observer\u2019s classifications.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    A single feature alone was sufficient to predict\n                    <jats:italic>mild from severe</jats:italic>\n                    COVID-19 with\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline1.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    and\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline2.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    (p&lt;&lt; 0.01). The most predictive features were the distribution of small size-zones (GLSZM-SmallAreaEmphasis) for provider\u2019s classification and linear dependency of neighboring voxels (GLCM-Correlation) for radiologist\u2019s classification. Cross-validation showed that both\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline3.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    . In predicting\n                    <jats:italic>moderate from severe COVID-19</jats:italic>\n                    , first-order-Median alone had sufficient predictive power of\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline4.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    . For radiologist\u2019s classification, the predictive power of the model increased to\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline5.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    as the number of features grew from 1 to 5. Cross-validation yielded\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline6.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    and\n                    <jats:inline-formula>\n                      <jats:alternatives>\n                        <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20189977v1_inline7.gif\"/>\n                      </jats:alternatives>\n                    </jats:inline-formula>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Radiomics significantly predicted different levels of COVID-19 severity. The prediction was moderately sensitive to inter-observer classifications, and thus need to be used with caution.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key points</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Interpretable radiomic features can predict different levels of COVID-19 severity</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Machine Learning-based radiomic models were moderately sensitive to inter-observer classifications, and thus need to be used with caution</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2020.09.07.20189977",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2020-09-09T17:46:14Z",
+      "timestamp": 1599673574000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Performance and Robustness of Machine Learning-based Radiomic COVID-19 Severity Prediction"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6469-3406",
+        "authenticated-orcid": false,
+        "given": "Stephen S.F.",
+        "family": "Yip",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Zan",
+        "family": "Klanecek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shotaro",
+        "family": "Naganawa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrej",
+        "family": "Studen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luciano",
+        "family": "Rivetti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Jeraj",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2214-109X(20)30074-7"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1212",
+        "DOI": "10.1038/s41591-020-0952-y",
+        "article-title": "Disease and healthcare burden of COVID-19 in the United States",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.3",
+        "unstructured": "World Health Organization (2020) Use of chest imaging in COVID-19. https://www.who.int/publications/i/item/use-of-chest-imaging-in-covid-19. Accessed 13 Aug 2020"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "200463",
+        "DOI": "10.1148/radiol.2020200463",
+        "article-title": "Chest CT Findings in Coronavirus Disease-19 (COVID-19): Relationship to Duration of Infection",
+        "volume": "295",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prokop M , van Everdingen W , van Rees Vellinga T , et al (2020) CO-RADS \u2013 A categorical CT assessment scheme for patients with suspected COVID-19: definition and evaluation. Radiology 201473. https://doi.org/10.1148/radiol.2020201473",
+        "DOI": "10.1148/radiol.2020201473"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zu ZY , Jiang M Di , Xu PP , et al (2020) Coronavirus Disease 2019 (COVID-19): A Perspective from China. Radiology 200490. https://doi.org/10.1148/radiol.2020200490",
+        "DOI": "10.1148/radiol.2020200490"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ye Z , Zhang Y , Wang Y , et al (2020) Chest CT manifestations of new coronavirus disease 2019 (COVID-19): a pictorial review. Eur Radiol. https://doi.org/10.1007/s00330-020-06801-0",
+        "DOI": "10.1007/s00330-020-06801-0"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai T , Yang Z , Hou H , et al (2020) Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases. Radiology 200642. https://doi.org/10.1148/radiol.2020200642",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie X , Zhong Z , Zhao W , et al (2020) Chest CT for Typical 2019-nCoV Pneumonia: Relationship to Negative RT-PCR Testing. Radiology 200343. https://doi.org/10.1148/radiol.2020200343",
+        "DOI": "10.1148/radiol.2020200343"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Colombi D , Bodini FC , Petrini M , et al (2020) Well-aerated Lung on Admitting Chest CT to Predict Adverse Outcome in COVID-19 Pneumonia. Radiology 201433. https://doi.org/10.1148/radiol.2020201433",
+        "DOI": "10.1148/radiol.2020201433"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "715",
+        "DOI": "10.1148/radiol.2020200370",
+        "article-title": "Time Course of Lung Changes at Chest CT during Recovery from Coronavirus Disease 2019 (COVID-19)",
+        "volume": "295",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "796",
+        "DOI": "10.1007/s00247-020-04656-7",
+        "article-title": "Chest computed tomography in children with COVID-19 respiratory infection",
+        "volume": "50",
+        "year": "2020",
+        "journal-title": "Pediatr Radiol"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0031-9155/61/13/r150"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms5006"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep11044"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "5765LP",
+        "DOI": "10.1158/1078-0432.CCR-16-0702",
+        "article-title": "Large-scale Radiomic Profiling of Recurrent Glioblastoma Identifies an Imaging Predictor for Stratifying Anti-Angiogenic Treatment Response",
+        "volume": "22",
+        "year": "2016",
+        "journal-title": "Clin Cancer Res"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "906",
+        "DOI": "10.1088/0031-9155/61/2/906",
+        "article-title": "Use of registration-based contour propagation in texture analysis for esophageal cancer pathologic response prediction",
+        "volume": "61",
+        "year": "2016",
+        "journal-title": "Phys Med Biol"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2967/jnumed.116.181826"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cllc.2016.02.001"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1186/s41747-017-0025-2",
+        "article-title": "Breast MRI radiomics: comparison of computer- and human-extracted imaging phenotypes",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Eur Radiol Exp"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0031-9155/59/18/5387"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e425",
+        "DOI": "10.1016/j.cllc.2017.05.014",
+        "article-title": "Radiomics-based Assessment of Radiation-induced Lung Injury After Stereotactic Body Radiotherapy",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "Clin Lung Cancer"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei W , Hu X , Cheng Q , et al (2020) Identification of common and severe COVID-19: the value of CT texture analysis and correlation with clinical characteristics. Eur Radiol. https://doi.org/10.1007/s00330-020-07012-3",
+        "DOI": "10.1007/s00330-020-07012-3"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "e200322",
+        "DOI": "10.1148/ryct.2020200322",
+        "article-title": "CT Radiomics, Radiologists and Clinical Information in Predicting Outcome of Patients with COVID-19 Pneumonia",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiol Cardiothorac Imaging"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.25",
+        "unstructured": "Morozov, S. Andreychenko AB et al (2020) MosMedData: Chest CT Scans with COVID-19 Related Findings, 2020, v. 1.0,. https://mosmed.ai/datasets/covid19_1110"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/0008-5472.CAN-17-0339"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "3519",
+        "DOI": "10.1038/s41598-017-02425-5",
+        "article-title": "Associations between radiologist-defined semantic and automatically computed radiomic features in non-small cell lung cancer",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.28",
+        "unstructured": "Chen Y , Wang D (2019) Lung Parenchymal Segmentation Algorithm Based on Improved Marker Watershed for Lung CT Images BT - Pattern Recognition and Computer Vision. In: Lin Z , Wang L , Yang J , et al (eds). Springer International Publishing, Cham, pp 126\u2013137"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.29",
+        "unstructured": "pyRadiomics (2020) pyRadiomics. https://pyradiomics.readthedocs.io/en/latest/. Accessed 20 May 2020"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1016/j.ejrad.2017.10.009",
+        "article-title": "Impact of experimental design on PET radiomics in predicting somatic mutation status",
+        "volume": "97",
+        "year": "2017",
+        "journal-title": "Eur J Radiol"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.4103/jpi.jpi_24_19",
+        "article-title": "Multi-Field-of-View Deep Learning Model Predicts Nonsmall Cell Lung Cancer Programmed Death-Ligand 1 Status from Whole-Slide Hematoxylin and Eosin Images",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "J Pathol Inform"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-1423-9"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1259/bjr/21256379"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.7326/M14-2086",
+        "article-title": "Performance of Lung-RADS in the National Lung Screening Trial",
+        "volume": "162",
+        "year": "2015",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiology.211.3.r99jn31845"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1975",
+        "DOI": "10.1148/rg.2017170051",
+        "article-title": "Lung-RADS: Pushing the Limits",
+        "volume": "37",
+        "year": "2017",
+        "journal-title": "RadioGraphics"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Funama Y , Awai K , Liu D , et al (2009) Detection of Nodules Showing Ground-Glass Opacity in the Lungs at Low-Dose Multidetector Computed Tomography: Phantom and Clinical Study. J Comput Assist Tomogr 33:",
+        "DOI": "10.1097/RCT.0b013e31815e6291"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.athoracsur.2017.01.060",
+        "article-title": "Mean Computed Tomography Value to Predict the Tumor Invasiveness in Clinical Stage IA Lung Cancer",
+        "volume": "104",
+        "year": "2017",
+        "journal-title": "Ann Thorac Surg"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "e200075",
+        "DOI": "10.1148/ryct.2020200075",
+        "article-title": "Serial Quantitative Chest CT Assessment of COVID-19: Deep-Learning Approach",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiol Cardiothorac Imaging"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li L , Qin L , Xu Z , et al (2020) Artificial Intelligence Distinguishes COVID-19 from Community Acquired Pneumonia on Chest CT. Radiology 200905. https://doi.org/10.1148/radiol.2020200905",
+        "DOI": "10.1148/radiol.2020200905"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "52138",
+        "DOI": "10.1109/ACCESS.2018.2870052",
+        "article-title": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2021020912050750000_2020.09.07.20189977v1.42",
+        "unstructured": "Razzak MI , Naz S , Zaib A (2018) Deep Learning for Medical Image Processing: Overview, Challenges and the Future BT - Classification in BioApps: Automation of Decision Making. In: Dey N , Ashour AS , Borra S (eds). Springer International Publishing, Cham, pp 323\u2013350"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.07.20189977",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:53:39Z",
+      "timestamp": 1768485219000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.07.20189977"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2020.09.07.20189977",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

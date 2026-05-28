@@ -1,0 +1,382 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:04:48Z",
+      "timestamp": 1768554288072,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          29
+        ]
+      ]
+    },
+    "group-title": "Emergency Medicine",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Supervised machine learning algorithms deployed in acute healthcare settings use data describing historical episodes to predict clinical outcomes. Clinical settings are dynamic environments and the underlying data distributions characterising episodes can change with time (a phenomenon known as data drift), and so can the relationship between episode characteristics and associated clinical outcomes (so-called, concept drift). We demonstrate how explainable machine learning can be used to monitor data drift in a predictive model deployed within a hospital emergency department. We use the COVID-19 pandemic as an exemplar cause of data drift, which has brought a severe change in operational circumstances. We present a machine learning classifier trained using (pre-COVID-19) data, to identify patients at high risk of admission to hospital during an emergency department attendance. We evaluate our model\u2019s performance on attendances occurring pre-pandemic (AUROC 0.856 95%CI [0.852, 0.859]) and during the COVID-19 pandemic (AUROC 0.826 95%CI [0.814, 0.837]). We demonstrate two benefits of explainable machine learning (SHAP) for models deployed in healthcare settings: (1) By tracking the variation in a feature\u2019s SHAP value relative to its global importance, a complimentary measure of data drift is found which highlights the need to retrain a predictive model. (2) By observing the relative changes in feature importance emergent health risks can be identified.</jats:p>",
+    "DOI": "10.1101/2021.05.27.21257713",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          29
+        ]
+      ],
+      "date-time": "2021-05-29T07:22:43Z",
+      "timestamp": 1622272963000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Emergency department admissions during COVID-19: explainable machine learning to characterise data drift and detect emergent health risks"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0659-2177",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Duckworth",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0674-8098",
+        "authenticated-orcid": false,
+        "given": "Francis P.",
+        "family": "Chmiel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6976-1068",
+        "authenticated-orcid": false,
+        "given": "Dan K.",
+        "family": "Burns",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6275-5626",
+        "authenticated-orcid": false,
+        "given": "Zlatko D.",
+        "family": "Zlatev",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1532-6452",
+        "authenticated-orcid": false,
+        "given": "Neil M.",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5249-5100",
+        "authenticated-orcid": false,
+        "given": "Thomas W. V.",
+        "family": "Daniels",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Kiuber",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9281-6095",
+        "authenticated-orcid": false,
+        "given": "Michael J.",
+        "family": "Boniface",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qui\u00f1onero-Candela, J. , Sugiyama, M. , Lawrence, N. D. & Schwaighofer, A. Dataset shift in machine learning (Mit Press, 2009).",
+        "DOI": "10.7551/mitpress/9780262170055.001.0001"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "521",
+        "DOI": "10.1016/j.patcog.2011.06.019",
+        "article-title": "A unifying view on dataset shift in classification",
+        "volume": "45",
+        "year": "2012",
+        "journal-title": "Pattern recognition"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.3",
+        "unstructured": "NHS England. Statistics on smoking in england 2020. DOI: https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-smoking/statistics-on-smoking-england-2020 (2020). Internet resource."
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1007/BF00116900",
+        "article-title": "Learning in the presence of concept drift and hidden contexts",
+        "volume": "23",
+        "year": "1996",
+        "journal-title": "Mach. learning"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/2523813",
+        "article-title": "A survey on concept drift adaptation",
+        "volume": "46",
+        "year": "2014",
+        "journal-title": "ACM computing surveys (CSUR)"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/emermed-2020-209660"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jech-2020-214764"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.8",
+        "unstructured": "Kelly, E. & Firth, Z. How is covid-19 changing the use of emergency care? DOI: https://www.health.org.uk/news-and-comment/charts-and-infographics/how-is-covid-19-changing-the-use-of-emergency-care (2020). Internet resource."
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1171",
+        "DOI": "10.1111/acem.12249",
+        "article-title": "Decreasing length of stay in the emergency department with a split emergency severity index 3 patient flow model",
+        "volume": "20",
+        "year": "2013",
+        "journal-title": "Acad. Emerg. Medicine"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0179159"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4338/ACI-2016-03-RA-0033"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/507533.507538"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akiba, T. , Sano, S. , Yanase, T. , Ohta, T. & Koyama, M. Optuna: A next-generation hyperparameter optimization framework. In Proceedings of the 25rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (2019).",
+        "DOI": "10.1145/3292500.3330701"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/206540"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.16",
+        "unstructured": "Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model predictions. In Guyon, I. et al. (eds.) Advances in Neural Information Processing Systems, vol. 30 (Curran Associates, Inc., 2017)."
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.17",
+        "article-title": "Explainable ai for trees: From local explanations to global understanding",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shapley, L. S. A value for n-person games. aw kuhn, hw tucker, ed., contributions to the thoery of games ii (1953).",
+        "DOI": "10.1515/9781400881970-018"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.02.20089052"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1111/j.1553-2712.2011.01125.x",
+        "article-title": "Predicting hospital admissions at emergency department triage using routine administrative data",
+        "volume": "18",
+        "year": "2011",
+        "journal-title": "Acad. Emerg. Medicine"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1136/emermed-2013-203200",
+        "article-title": "A simple tool to predict admission at the time of triage",
+        "volume": "32",
+        "year": "2015",
+        "journal-title": "Emerg. Medicine J"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0191962"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1498",
+        "DOI": "10.1016/j.ajem.2018.10.060",
+        "article-title": "Predicting hospital admission at the emergency department triage: A novel prediction model",
+        "volume": "37",
+        "year": "2019",
+        "journal-title": "The Am. J. Emerg. Medicine"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.24",
+        "article-title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+        "year": "2018",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.25",
+        "article-title": "C. Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift",
+        "year": "2018",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.26",
+        "article-title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+        "year": "2017",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.27",
+        "article-title": "ZOO: Zeroth Order Optimization based Black-box Attacks to Deep Neural Networks without Training Substitute Models",
+        "year": "2017",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3399/bjgp19X704621"
+      },
+      {
+        "key": "2021061105100867000_2021.05.27.21257713v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.02.20239194"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.27.21257713",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:16:47Z",
+      "timestamp": 1768486607000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.05.27.21257713"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          29
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1101/2021.05.27.21257713",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41598-021-02481-y",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

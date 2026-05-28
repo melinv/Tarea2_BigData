@@ -1,0 +1,276 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:51:27Z",
+      "timestamp": 1768499487950,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 25,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Modelling evolutionary elements inherent in protein sequences, emerging from one clade into another of the SARS-CoV-2 virus, would provide insights to augment our understanding of its impact on public health and may help in formulating better strategies to contain its spread. Deep learning methods have been used to model protein sequences for SARS-CoV-2 viruses. A few significant drawbacks in these studies include being deficient in modelling end-to-end protein sequences, modelling only those genomic positions that show high activity and upsampling the number of sequences at each genomic position for balancing the frequency of mutations. To mitigate such drawbacks, the current approach uses a generative model, an encoder-decoder neural network, to learn the natural progression of spike protein sequences through adjacent clades of the phylogenetic tree of Nextstrain clades. Encoder transforms a set of spike protein sequences from the source clade (20A) into its latent representation. Decoder uses the latent representation, along with Gaussian distributed noise, to generate a different set of protein sequences that are closer to the target clade (20B). The source and target clades are adjacent nodes in the phylogenetic tree of different evolving clades of the SARS-CoV-2 virus. Sequences of amino acids are generated, for the entire length, at each genomic position using the latent representation of the amino acid generated at a previous step. Using trained models, protein sequences from the source clade are used to generate sequences that form a collection of evolved sequences belonging to all children clades of the source clade. A comparison of this predicted evolution (between source and generated sequences) of proteins with the true evolution (between source and target sequences) shows a high pearson correlation (&gt; 0.7). Moreover, the distribution of the frequencies of substitutions per genomic position, including high- and low-frequency positions, in source-target sequences and source-generated sequences exhibit a high resemblance (pearson correlation &gt; 0.7). In addition, the model partially predicts a few substitutions at specific genomic positions for the sequences of unseen clades (20J (Gamma)) where they show little activity during training. These outcomes show the potential of this approach in learning the latent mechanism of evolution of SARS-CoV-2 viral sequences.</jats:p>\n                <jats:sec>\n                  <jats:title>Codebase</jats:title>\n                  <jats:p>\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/anuprulez/clade_prediction\">https://github.com/anuprulez/clade_prediction</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.04.12.487999",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2022-04-12T23:50:12Z",
+      "timestamp": 1649807412000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Model evolution in SARS-CoV-2 spike protein sequences using a generative neural network"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2068-4695",
+        "authenticated-orcid": false,
+        "given": "Anup",
+        "family": "Kumar",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.1",
+        "unstructured": "Berman, D. et al. (2020) MutaGAN: A Seq2seq GAN Framework to Predict Mutations of Evolving Protein Populations, ArXiv, 2020."
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.03773"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.3",
+        "unstructured": "Hodcroft, E. (2021) CoVariants: SARS-CoV-2 Mutations and Variants of Interest, 2021, https://covariants.org/"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2286-9"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1038/s41586-021-04245-0",
+        "article-title": "The N501Y spike substitution enhances SARS-CoV-2 infection and transmission, 2022",
+        "volume": "602",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "226",
+        "DOI": "10.1038/s41392-021-00644-x",
+        "article-title": "Fast-spreading SARS-CoV-2 variants: challenges to and new design strategies of COVID-19 vaccines, 2021",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Sig Transduct Target Ther"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.1016/j.crstbi.2021.11.002",
+        "article-title": "A rigorous framework for detecting SARS-CoV-2 spike protein mutational ensemble from genomic and structural features, 2021",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Current Research in Structural Biology"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Denny Britz and Anna Goldie and Minh-Thang Luong and Quoc V. L (2017). Massive Exploration of Neural Machine Translation Architectures, 2017, CoRR, abs/1703.03906 (2017). http://arxiv.org/abs/1703.03906.",
+        "DOI": "10.18653/v1/D17-1151"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.9",
+        "unstructured": "Ilya Sutskever and Oriol Vinyals and Quoc V. Le (2014). Sequence to Sequence Learning with Neural Networks, 2014, CoRR, abs/1409.3215 (2014). http://arxiv.org/abs/1409.3215."
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.10",
+        "unstructured": "Vishal Agarwal and Nischal Reddy and Ashish Anand (2019). Unsupervised Representation Learning of DNA Sequences, 2019, ArXiv, abs/1906.03087 (2019). https://arxiv.org/abs/1906.03087."
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.11",
+        "unstructured": "King, Samuel and Chen, Xinyi E. and Ng, Sarah W. S. and Rostin, Kimia and Roberts, Tylo and Hahn, Samuel V. and Schwab, Janella C. and Sekhon, Parneet and Kagieva, Madina and Reilly, Taylor and Qi, Ruo Chen and Salman, Paarsa and Hong, Ryan J. and Ma, Eric J. and Hallam, Steven J. (2021). Modeling the trajectory of SARS-CoV-2 spike protein evolution in continuous latent space using a neural network and Gaussian process, 2021, bioRxiv, abs/1906.03087 (2021). https://www.biorxiv.org/content/early/2021/12/06/2021.12.04.471198"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.12",
+        "first-page": "21",
+        "article-title": "Highly accurate whole-genome imputation of SARS-CoV-2 from partial or low-quality sequences, 2021",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "GigaScience"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky379"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN.1991.155284"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yin Cui and Menglin Jia and Tsung-Yi Lin and Yang Song and Serge Belongie (2019). Class-Balanced Loss Based on Effective Number of Samples, 2019, arXiv, abs/1901.05555 (2019). https://arxiv.org/abs/1901.05555.",
+        "DOI": "10.1109/CVPR.2019.00949"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Katrompas, Alexander and Metsis, Vangelis (2022). Enhancing LSTM Models with Selfattention and Stateful Training, 2022, Intelligent Systems and Applications, Springer International Publishing, 978-3-030-82193-7, 217\u2013235 (2022). https://link.springer.com/chapter/10.1007/978-3-030-82193-7_14.",
+        "DOI": "10.1007/978-3-030-82193-7_14"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.17",
+        "unstructured": "Steven Elsworth and Stefan G\u00fcttel 2020. Steven Elsworth and Stefan G\u00fcttel (2020). Time Series Forecasting Using LSTM Networks: A Symbolic Approach, 2020, arXiv, 2003.05672 (2020). https://arxiv.org/abs/2003.05672."
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.19",
+        "first-page": "12",
+        "article-title": "Efficient counting of k-mers in DNA sequences using a bloom filter, 2011",
+        "volume": "333",
+        "year": "2011",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.20",
+        "unstructured": "Chung, Junyoung et al. (2014). Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling, 2011, ArXiv (2014). https://arxiv.org/pdf/1412.3555.pdf."
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.21",
+        "unstructured": "Chung, Junyoung et al. (2022). PARALLEL TRAINING OF GRU NETWORKS WITH A MULTI-GRID SOLVER FOR LONG SEQUENCES, 2022, ArXiv (2022). https://arxiv.org/pdf/2203.04738.pdf."
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/ccdcw2021.255"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gch2.1018"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2022041504500516000_2022.04.12.487999v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.12.487999",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:55:05Z",
+      "timestamp": 1768445705000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.12.487999"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ]
+    },
+    "references-count": 25,
+    "URL": "https://doi.org/10.1101/2022.04.12.487999",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

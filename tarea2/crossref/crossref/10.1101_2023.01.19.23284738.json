@@ -1,0 +1,233 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:37:03Z",
+      "timestamp": 1768563423834,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 9,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To identify a cohort of COVID-19 cases, including when evidence of virus positivity was only mentioned in the clinical text, not in structured laboratory data in the electronic health record (EHR).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>\n                    Statistical classifiers were trained on feature representations derived from unstructured text in patient electronic health records (EHRs). We used a proxy dataset of patients\n                    <jats:italic>with</jats:italic>\n                    COVID-19 polymerase chain reaction (PCR) tests for training. We selected a model based on performance on our proxy dataset and applied it to instances without COVID-19 PCR tests. A physician reviewed a sample of these instances to validate the classifier.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>On the test split of the proxy dataset, our best classifier obtained 0.56 F1, 0.6 precision, and 0.52 recall scores for SARS-CoV2 positive cases. In an expert validation, the classifier correctly identified 90.8% (79/87) as COVID-19 positive and 97.8% (91/93) as not SARS-CoV2 positive. The classifier identified an additional 960 positive cases that did not have SARS-CoV2 lab tests in hospital, and only 177 of those cases had the ICD-10 code for COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>Proxy dataset performance may be worse because these instances sometimes include discussion of pending lab tests. The most predictive features are meaningful and interpretable. The type of external test that was performed is rarely mentioned.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>COVID-19 cases that had testing done outside of the hospital can be reliably detected from the text in EHRs. Training on a proxy dataset was a suitable method for developing a highly performant classifier without labor intensive labeling efforts.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.01.19.23284738",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2023-01-19T19:35:13Z",
+      "timestamp": 1674156913000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A computable phenotype for patients with SARS-CoV2 testing that occurred outside the hospital"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Lijing",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Amy",
+        "family": "Zipursky",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alon",
+        "family": "Geva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew J.",
+        "family": "McMurry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9781-0477",
+        "authenticated-orcid": false,
+        "given": "Kenneth D.",
+        "family": "Mandl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4513-403X",
+        "authenticated-orcid": false,
+        "given": "Timothy A.",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.1",
+        "first-page": "157",
+        "article-title": "A Computable Phenotype for Acute Respiratory Distress Syndrome Using Natural Language Processing and Machine Learning",
+        "volume": "2018",
+        "year": "2018",
+        "journal-title": "AMIA Annu Symp Proc"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1016/j.jpeds.2017.05.037",
+        "article-title": "A Computable Phenotype Improves Cohort Ascertainment in a Pediatric Pulmonary Hypertension Registry",
+        "volume": "188",
+        "year": "2017",
+        "journal-title": "J Pediatr"
+      },
+      {
+        "issue": "11",
+        "key": "2023012111250465000_2023.01.19.23284738v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1540",
+        "DOI": "10.1093/jamia/ocy101",
+        "article-title": "A case study evaluating the portability of an executable computable phenotype algorithm across multiple institutions and electronic health record environments",
+        "volume": "25",
+        "year": "2018",
+        "journal-title": "J Am Med Inform Assoc"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.4",
+        "first-page": "90",
+        "article-title": "Baselines and bigrams: Simple, good sentiment and topic classification",
+        "volume": "2",
+        "year": "2012",
+        "journal-title": "In: Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.5",
+        "first-page": "1746",
+        "article-title": "Convolutional Neural Networks for Sentence Classification",
+        "volume": "2014",
+        "year": "2014",
+        "journal-title": "Proc 2014 Conf Empir Methods Nat Lang Process EMNLP"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joulin A , Grave E , Bojanowski P , Mikolov T. Bag of tricks for efficient text classification. ArXiv Prepr ArXiv160701759. 2016;",
+        "DOI": "10.18653/v1/E17-2068"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wolf T , Debut L , Sanh V , Chaumond J , Delangue C , Moi A , et al. Huggingface\u2019s transformers: State-of-the-art natural language processing. ArXiv Prepr ArXiv191003771. 2019;",
+        "DOI": "10.18653/v1/2020.emnlp-demos.6"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2010.04.018"
+      },
+      {
+        "key": "2023012111250465000_2023.01.19.23284738v1.9",
+        "unstructured": "Miller T. Machine-Learning-for-Medical-Language/cnlp_transformers: Transformers for Clinical NLP [Internet]. [cited 2022 Nov 1]. Available from: https://github.com/Machine-Learning-for-Medical-Language/cnlp_transformers"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.19.23284738",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:25:33Z",
+      "timestamp": 1768505133000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.01.19.23284738"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "references-count": 9,
+    "URL": "https://doi.org/10.1101/2023.01.19.23284738",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

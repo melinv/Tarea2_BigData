@@ -1,0 +1,441 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:06:06Z",
+      "timestamp": 1768550766058,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Due to the high availability of large-scale annotated image datasets, knowledge transfer from pre-trained models showed outstanding performance in medical image classification. However, building a robust image classification model for datasets with data irregularity or imbalanced classes can be a very challenging task, especially in the medical imaging domain. In this paper, we propose a novel deep convolutional neural network, we called Self Supervised Super Sample Decomposition for Transfer learning (\n                  <jats:italic>4S-DT</jats:italic>\n                  ) model.\n                  <jats:italic>4S-DT</jats:italic>\n                  encourages a coarse-to-fine transfer learning from large-scale image recognition tasks to a specific chest X-ray image classification task using a generic self-supervised sample decomposition approach. Our main contribution is a novel self-supervised learning mechanism guided by a super sample decomposition of unlabelled chest X-ray images.\n                  <jats:italic>4S-DT</jats:italic>\n                  helps in improving the robustness of knowledge transformation via a downstream learning strategy with a class-decomposition layer to simplify the local structure of the data.\n                  <jats:italic>4S-DT</jats:italic>\n                  can deal with any irregularities in the image dataset by investigating its class boundaries using a downstream class-decomposition mechanism. We used 50,000 unlabelled chest X-ray images to achieve our coarse-to-fine transfer learning with an application to COVID-19 detection, as an exemplar.\n                  <jats:italic>4S-DT</jats:italic>\n                  has achieved a high accuracy of 99.8% (95% CI: 99.44 %, 99.98%) in the detection of COVID-19 cases on a large dataset and an accuracy of 97.54% (95% CI: 96.22%, 98.91%) on an extended test set enriched by augmented images of a small dataset, out of which all real COVID-19 cases were detected, which was the highest accuracy obtained when compared to other methods.\n                </jats:p>",
+    "DOI": "10.1101/2020.06.22.20137547",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2020-06-23T20:29:41Z",
+      "timestamp": 1592944181000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "<i>4S-DT</i>\n                  : Self Supervised Super Sample Decomposition for Transfer learning with application to COVID-19 detection"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Asmaa",
+        "family": "Abbas",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammed M.",
+        "family": "Abdelsamea",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohamed Medhat",
+        "family": "Gaber",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Shi , X. Han , N. Jiang , Y. Cao , O. Alwalid , J. Gu , Y. Fan , and C. Zheng , \u201cRadiological findings from 81 patients with covid-19 pneumonia in wuhan, china: a descriptive study,\u201d The Lancet Infectious Diseases, 2020.",
+        "DOI": "10.1016/S1473-3099(20)30086-4"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Dandil , M. Cakirolu , Z. Eki , M. Ozkan , O. K. Kurt , and A. Canan , \u201cArtificial neural network-based classification system for lung nodules on computed tomography scans,\u201d in 2014 6th International conference of soft computing and pattern recognition (SoCPaR). IEEE, 2014, pp. 382-386.",
+        "DOI": "10.1109/SOCPAR.2014.7008037"
+      },
+      {
+        "issue": "1",
+        "key": "2021021207100939000_2020.06.22.20137547v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "202",
+        "DOI": "10.1016/j.cmpb.2013.10.011",
+        "article-title": "Lung cancer classification using neural networks for ct images",
+        "volume": "113",
+        "year": "2014",
+        "journal-title": "Computer methods and programs in biomedicine"
+      },
+      {
+        "issue": "7",
+        "key": "2021021207100939000_2020.06.22.20137547v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1007/s10916-016-0539-9",
+        "article-title": "Lung cancer detection using fuzzy auto-seed cluster means morphological segmentation and svm classifier",
+        "volume": "40",
+        "year": "2016",
+        "journal-title": "Journal of medical systems"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Sangamithraa and S. Govindaraju , \u201cLung tumour detection and classi-fication using ek-mean clustering,\u201d in 2016 International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET). IEEE, 2016, pp. 2201-2206.",
+        "DOI": "10.1109/WiSPNET.2016.7566533"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1016/j.media.2018.12.007",
+        "article-title": "Learning to detect chest radiographs containing pulmonary lesions using visual attention networks",
+        "volume": "53",
+        "year": "2019",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1016/j.media.2019.07.004",
+        "article-title": "Semi-supervised adversarial model for benign-malignant lung nodule classification on chest ct",
+        "volume": "57",
+        "year": "2019",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Abbas and M. M. Abdelsamea , \u201cLearning transformations for auto-mated classification of manifestation of tuberculosis using convolutional neural network,\u201d in 2018 13th IEEE International Conference on Computer Engineering and Systems (ICCES), Dec 2018, pp. 122-126.",
+        "DOI": "10.1109/ICCES.2018.8639200"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2009.191"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Li , W. Cai , X. Wang , Y. Zhou , D. D. Feng , and M. Chen , \u201cMedical image classification with convolutional neural network,\u201d in 2014 13th International Conference on Control Automation Robotics Vision (ICARCV). IEEE, 2014, pp. 844-848.",
+        "DOI": "10.1109/ICARCV.2014.7064414"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1016/j.media.2019.06.006",
+        "article-title": "Fusing learned representations from riesz filters and deep cnn for lung tissue classification",
+        "volume": "56",
+        "year": "2019",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "issue": "1",
+        "key": "2021021207100939000_2020.06.22.20137547v2.13",
+        "first-page": "1",
+        "article-title": "Holistic classification of ct attenuation patterns for interstitial lung diseases via deep convolutional neural networks",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Computer Methods in Biomechanics and Biomedical Engineering: Imaging Visualization"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Jing and Y. Tian , \u201cSelf-supervised visual feature learning with deep neural networks: A survey,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.",
+        "DOI": "10.1109/TPAMI.2020.2992393"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Caron , P. Bojanowski , A. Joulin , and M. Douze , \u201cDeep clustering for unsupervised learning of visual features,\u201d in Proceedings of the European Conference on Computer Vision (ECCV), 2018, pp. 132-149.",
+        "DOI": "10.1007/978-3-030-01264-9_9"
+      },
+      {
+        "issue": "01",
+        "key": "2021021207100939000_2020.06.22.20137547v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1142/S146902680500143X",
+        "article-title": "Improving supervised learning by sample decomposition",
+        "volume": "5",
+        "year": "2005",
+        "journal-title": "International Journal of Computational Intelligence and Applications"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "74901",
+        "DOI": "10.1109/ACCESS.2020.2989273",
+        "article-title": "Detrac: Transfer learning of class decomposed medical images in convolutional neural networks",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.18",
+        "unstructured": "W. H. Organization , W. health organization et al., \u201cCoronavirus disease (covid-2019) situation reports,\u201d 2020."
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Shi , J. Wang , J. Shi , Z. Wu , Q. Wang , Z. Tang , K. He , Y. Shi , and D. Shen , \u201cReview of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for covid-19,\u201d IEEE Reviews in Biomedical Engineering, 2020.",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Dong , Z. Tang , S. Wang , H. Hui , L. Gong , Y. Lu , Z. Xue , H. Liao , F. Chen , F. Yang , R. Jin , K. Wang , Z. Liu , J. Wei , W. Mu , H. Zhang , J. Jiang , J. Tian , and H. Li , \u201cThe role of imaging in the detection and management of covid-19: a review,\u201d IEEE Reviews in Biomedical Engineering, pp. 1-1, 2020.",
+        "DOI": "10.1109/RBME.2020.2990959"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.21",
+        "unstructured": "L. Li , L. Qin , Z. Xu , Y. Yin , X. Wang , B. Kong , J. Bai , Y. Lu , Z. Fang , Q. Song et al., \u201cArtificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct,\u201d Radiology, p. 200905, 2020."
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Song , S. Zheng , L. Li , X. Zhang , X. Zhang , Z. Huang , J. Chen , H. Zhao , Y. Jie , R. Wang et al., \u201cDeep learning enables accurate diagnosis of novel coronavirus (covid-19) with ct images,\u201d medRxiv, 2020.",
+        "DOI": "10.1109/TCBB.2021.3065361"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Wang and A. Wong , \u201cCovid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest radiography images,\u201d 2020.",
+        "DOI": "10.1038/s41598-020-76550-z"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Wang , X. Deng , Q. Fu , Q. Zhou , J. Feng , H. Ma , W. Liu , and C. Zheng , \u201cA weakly-supervised framework for covid-19 classification and lesion localization from chest ct,\u201d IEEE Transactions on Medical Imaging, pp. 1-1, 2020.",
+        "DOI": "10.1109/TMI.2020.2995965"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. D. Apostolopoulos and T. A. Mpesiana , \u201cCovid-19: automatic detection from x-ray images utilizing transfer learning with convolutional neural networks,\u201d Physical and Engineering Sciences in Medicine, p. 1, 2020.",
+        "DOI": "10.1007/s13246-020-00865-4"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Oh , S. Park , and J. C. Ye , \u201cDeep learning covid-19 features on cxr using limited training data sets,\u201d IEEE Transactions on Medical Imaging, pp. 1-1, 2020.",
+        "DOI": "10.1109/TMI.2020.2993291"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "101539",
+        "DOI": "10.1016/j.media.2019.101539",
+        "article-title": "Self-supervised learning for medical image analysis using image context restoration",
+        "volume": "58",
+        "year": "2019",
+        "journal-title": "Medical image analysis"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10115-007-0114-2"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770-778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "2",
+        "key": "2021021207100939000_2020.06.22.20137547v2.30",
+        "first-page": "233",
+        "article-title": "Automatic tuberculosis screening using chest radiographs",
+        "volume": "33",
+        "year": "2013",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "issue": "2",
+        "key": "2021021207100939000_2020.06.22.20137547v2.31",
+        "first-page": "577",
+        "article-title": "Lung segmentation in chest radiographs using anatomical atlases with nonrigid registration",
+        "volume": "33",
+        "year": "2013",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.02.010"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Wang , Y. Peng , L. Lu , Z. Lu , M. Bagheri , and R. M. Summers , \u201cChestx-ray8: Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 2097-2106.",
+        "DOI": "10.1109/CVPR.2017.369"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2013.2290491"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2013.2284099"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.36",
+        "unstructured": "J. P. Cohen , P. Morrison , and L. Dao , \u201cCovid-19 image data collection,\u201d arXiv preprint arXiv:2003.11597, 2020."
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.37",
+        "first-page": "325",
+        "article-title": "The distance-weighted k-nearest-neighbor rule",
+        "volume": "4",
+        "year": "1976",
+        "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.38",
+        "unstructured": "A. Krizhevsky , I. Sutskever , and G. E. Hinton , \u201cImagenet classification with deep convolutional neural networks,\u201d in Advances in neural information processing systems, 2012, pp. 1097-1105."
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Szegedy , W. Liu , Y. Jia , P. Sermanet , S. Reed , D. Anguelov , D. Erhan , V. Vanhoucke , and A. Rabinovich , \u201cGoing deeper with convolutions,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2015, pp. 1-9.",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Abbas , M. M. Abdelsamea , and M. M. Gaber , \u201cClassification of covid-19 in chest x-ray images using detrac deep convolutional neural network,\u201d Appl Intell., pp. 1-11, 2020.",
+        "DOI": "10.1101/2020.03.30.20047456"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.41",
+        "unstructured": "K. Simonyan and A. Zisserman , \u201cVery deep convolutional networks for large-scale image recognition,\u201d arXiv preprint arXiv:1409.1556, 2014."
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Szegedy , S. Ioffe , V. Vanhoucke , and A. A. Alemi , \u201cInception-v4 inception-resnet and the impact of residual connections on learning,\u201d in Thirty-first AAAI conference on artificial intelligence, 2017.",
+        "DOI": "10.1609/aaai.v31i1.11231"
+      },
+      {
+        "key": "2021021207100939000_2020.06.22.20137547v2.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Sandler , A. Howard , M. Zhu , A. Zhmoginov , and L.-C. Chen , \u201cMobilenetv2: Inverted residuals and linear bottlenecks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510-4520.",
+        "DOI": "10.1109/CVPR.2018.00474"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.22.20137547",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:45:51Z",
+      "timestamp": 1768484751000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.22.20137547"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2020.06.22.20137547",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1109/TNNLS.2021.3082015",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

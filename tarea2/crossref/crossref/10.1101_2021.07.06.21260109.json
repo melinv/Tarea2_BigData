@@ -1,0 +1,603 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:37:08Z",
+      "timestamp": 1768552628477,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          8
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 55,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>Ground-glass opacity (GGO) \u2014 a hazy, gray appearing density on computed tomography (CT) of lungs \u2014 is one of the hallmark features of SARS-CoV-2 in COVID-19 patients. This AI-driven study is focused on segmentation, morphology, and distribution patterns of GGOs.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Method</jats:title>\n                  <jats:p>We use an AI-driven unsupervised machine learning approach called PointNet++ to detect and quantify GGOs in CT scans of COVID-19 patients and to assess the severity of the disease. We have conducted our study on the \u201cMosMedData\u201d, which contains CT lung scans of 1110 patients with or without COVID-19 infections. We quantify the morphologies of GGOs using Minkowski tensors and compute the abnormality score of individual regions of segmented lung and GGOs.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>PointNet++ detects GGOs with the highest evaluation accuracy (98%), average class accuracy (95%), and intersection over union (92%) using only a fraction of 3D data. On average, the shapes of GGOs in the COVID-19 datasets deviate from sphericity by 15% and anisotropies in GGOs are dominated by dipole and hexapole components. These anisotropies may help to quantitatively delineate GGOs of COVID-19 from other lung diseases.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The PointNet++ and the Minkowski tensor based morphological approach together with abnormality analysis will provide radiologists and clinicians with a valuable set of tools when interpreting CT lung scans of COVID-19 patients. Implementation would be particularly useful in countries severely devastated by COVID-19 such as India, where the number of cases has outstripped available resources creating delays or even breakdowns in patient care. This AI-driven approach synthesizes both the unique GGO distribution pattern and severity of the disease to allow for more efficient diagnosis, triaging and conservation of limited resources.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key Points</jats:title>\n                  <jats:p>Our approach to GGO analysis has four distinguishing features:</jats:p>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>We combine an unsupervised computer vision approach with convex hull and convex points algorithms to segment and preserve the actual structure of the lung.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>To the best of our knowledge, we are the first group to use PointNet++ architecture for 3D visualization, segmentation, classification, and pattern analysis of GGOs.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We make abnormality predictions using a deep network and Cox proportional hazards model using lung CT images of COVID-19 patients.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We quantify the shapes and sizes of GGOs using Minkowski tensors to understand the morphological variations of GGOs within the COVID-19 cohort.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2021.07.06.21260109",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2021-07-09T05:37:35Z",
+      "timestamp": 1625809055000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "AI-DRIVEN QUANTIFICATION OF GROUND GLASS OPACITIES IN LUNGS OF COVID-19 PATIENTS USING 3D COMPUTED TOMOGRAPHY IMAGING"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Monjoy",
+        "family": "Saha",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sagar B.",
+        "family": "Amin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ashish",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "T. K. Satish",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rajiv K.",
+        "family": "Kalia",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Yuki , M. Fujiogi , and S. Koutsogiannaki , \u201cCovid-19 pathophysiology: A review,\u201d Clinical immunology, p. 108427, 2020.",
+        "DOI": "10.1016/j.clim.2020.108427"
+      },
+      {
+        "issue": "7",
+        "key": "2021071011400502000_2021.07.06.21260109v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "699",
+        "DOI": "10.1002/jmv.25915",
+        "article-title": "Central nervous system involvement by severe acute respiratory syndrome coronavirus-2 (sars-cov-2)",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "Journal of medical virology"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.3",
+        "first-page": "1",
+        "article-title": "Severe acute respiratory syndrome coronavirus 2 (sars-cov-2): a review",
+        "volume": "19",
+        "year": "2020",
+        "journal-title": "Molecular cancer"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Acter , N. Uddin , J. Das , A. Akhter , T. R. Choudhury , and S. Kim , \u201cEvolution of severe acute respiratory syndrome coronavirus 2 (sars-cov-2) as coronavirus disease 2019 (covid-19) pandemic: A global health emergency,\u201d Science of the Total Environment, p. 138996, 2020.",
+        "DOI": "10.1016/j.scitotenv.2020.138996"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Zhang , K. S. Shan , S. Abdollahi , and T. Nace , \u201cAnosmia and ageusia as the only indicators of coronavirus disease 2019 (covid-19),\u201d Cureus, vol. 12, no. 5, 2020.",
+        "DOI": "10.7759/cureus.7918"
+      },
+      {
+        "issue": "7",
+        "key": "2021071011400502000_2021.07.06.21260109v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "874",
+        "DOI": "10.1007/s42399-020-00341-w",
+        "article-title": "Coronavirus: why men are more vulnerable to covid-19 than women\u00e3",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "SN comprehensive clinical medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2021071011400502000_2021.07.06.21260109v1.7",
+        "first-page": "1",
+        "article-title": "Male sex identified by global covid-19 meta-analysis as a abnormality factor for death and ITU admission",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "issue": "6",
+        "key": "2021071011400502000_2021.07.06.21260109v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "678",
+        "DOI": "10.1017/S000711452000330X",
+        "article-title": "Nutritional status of micronutrients as a possible and modifiable abnormality factor for covid-19: a UK perspective",
+        "volume": "125",
+        "year": "2021",
+        "journal-title": "British journal of nutrition"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3348/kjr.2020.0146"
+      },
+      {
+        "issue": "3",
+        "key": "2021071011400502000_2021.07.06.21260109v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "E145",
+        "DOI": "10.1148/radiol.2020201343",
+        "article-title": "Diagnostic performance of CT and reverse transcriptase polymerase chain reaction for coronavirus disease2019: a meta-analysis",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.11",
+        "unstructured": "E. Tenda , M. Yulianti , M. Asaf , R. Yunus , W. Septiyanti , V. Wulani , C. W. Pitoyo , C. M. Rumende , and S. Setiati , \u201cThe importance of chest CT scan in covid-19: A case series,\u201d Acta Med. Indones., vol. 52, no. 1,2020."
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chest.2020.04.003"
+      },
+      {
+        "issue": "3",
+        "key": "2021071011400502000_2021.07.06.21260109v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "E289",
+        "DOI": "10.1148/radiol.2020202504",
+        "article-title": "Review of the chest CT differential diagnosis of ground-glass opacities in the COVID era",
+        "volume": "297",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "1",
+        "key": "2021071011400502000_2021.07.06.21260109v1.14",
+        "first-page": "1",
+        "article-title": "CT chest of covid-19 patients: what should a radiologist know\u00e3",
+        "volume": "51",
+        "year": "2020",
+        "journal-title": "Egyptian Journal of Radiology and Nuclear Medicine"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "636",
+        "DOI": "10.1007/s11547-020-01237-4",
+        "article-title": "Chest CT features of coronavirus disease 2019 (covid-19) pneumonia: key points for radiologists",
+        "volume": "125",
+        "year": "2020",
+        "journal-title": "La radiologia medica"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "6129",
+        "DOI": "10.1007/s00330-020-06975-7",
+        "article-title": "Ct in coronavirus disease 2019 (covid-19): a systematic review of chest CT findings in 4410 adult patients",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "European radiology"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/jjinf.2020.03.007"
+      },
+      {
+        "issue": "8",
+        "key": "2021071011400502000_2021.07.06.21260109v1.18",
+        "first-page": "4407",
+        "article-title": "\u201cCt image visual quantitative evaluation and clinical classification of coronavirus disease (covid-19)",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "\u201dEuropean radiology"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Hu , L. F. d. F. Souza , G. B. Holanda , S. S. Alves , F. H. d. S. Silva , T. Han , and P. P. Reboucas Filho , \u201cAn effective approach for CT lung segmentation using mask region-based convolutional neural networks,\u201d Artificial intelligence in medicine, vol. 103, p. 101792, 2020.",
+        "DOI": "10.1016/j.artmed.2020.101792"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "101817",
+        "DOI": "10.1016/j.compmedimag.2020.101817",
+        "article-title": "LGAN: Lung segmentation in CT scans using generative adversarial network",
+        "volume": "87",
+        "year": "2021",
+        "journal-title": "Computerized Medical Imaging and Graphics"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "105864",
+        "DOI": "10.1016/j.cmpb.2020.105864",
+        "article-title": "\u201cPathological lung segmentation in chest ct images basedon improved random walker",
+        "volume": "200",
+        "year": "2021",
+        "journal-title": "\u201dComputer Methods and Programs inBiomedicine"
+      },
+      {
+        "issue": "1",
+        "key": "2021071011400502000_2021.07.06.21260109v1.22",
+        "first-page": "1",
+        "article-title": "CT image segmentation for inflamed and fibrotic lungs using a multi-resolution convolutional neural network",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "8",
+        "key": "2021071011400502000_2021.07.06.21260109v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2626",
+        "DOI": "10.1109/TMI.2020.2996645",
+        "article-title": "Inf-net: Automatic covid-19 lung infection segmentation from CT images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "issue": "7",
+        "key": "2021071011400502000_2021.07.06.21260109v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "e353",
+        "DOI": "10.1016/S2589-7500(19)30159-1",
+        "article-title": "Prediction of lung cancer abnormality at follow-up screening with low-dose CT: a training and validation study of a deep learning method",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1717139115"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2290085"
+      },
+      {
+        "issue": "1",
+        "key": "2021071011400502000_2021.07.06.21260109v1.27",
+        "first-page": "1",
+        "article-title": "\u201cDeveloping a covid-19 mortality abnormality prediction model when individual-level data are not",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "issue": "1",
+        "key": "2021071011400502000_2021.07.06.21260109v1.28",
+        "first-page": "1",
+        "article-title": "Early abnormality assessment for covid-19 patients from emergency department data using machine learning",
+        "volume": "11,no",
+        "year": "2021",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "5",
+        "key": "2021071011400502000_2021.07.06.21260109v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "100074",
+        "DOI": "10.1016/j.patter.2020.100074",
+        "article-title": "Machine-learning approaches in covid-19 survival analysis and discharge-time likelihood prediction using clinical data",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. B. Rusu and S. Cousins , \u201c3d is here: Point cloud library (PCL),\u201d in2011 IEEE international conference on robotics and automation. IEEE,2011, pp. 1\u20134.",
+        "DOI": "10.1109/ICRA.2011.5980567"
+      },
+      {
+        "issue": "2",
+        "key": "2021071011400502000_2021.07.06.21260109v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/S0890-6955(01)00120-1",
+        "article-title": "A new segmentation method for point cloud data",
+        "volume": "42",
+        "year": "2002",
+        "journal-title": "International Journal of Machine Tools and Manufacture"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.32",
+        "unstructured": ". R. Qi , H. Su , K. Mo , and L. J. Guibas , \u201cPointNet: Deep learning on point sets for 3d classification and segmentation,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp.652\u2013660."
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.33",
+        "article-title": "\u201cPointNet++: Deep hierarchical feature learning on point sets in a metric space",
+        "year": "2017",
+        "journal-title": "\u201darXiv preprint"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "105798",
+        "DOI": "10.1016/j.cmpb.2020.105798",
+        "article-title": "\u201cA novel segmentation method for cervical vertebrae based on pointnet++ and converge segmentation",
+        "volume": "200",
+        "year": "2021",
+        "journal-title": "\u201dComputer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Balsiger , Y. Soom , O. Scheidegger , and M. Reyes , \u201cLearning shape representation on sparse point clouds for volumetric image segmentation,\u201d in International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, 2019, pp. 273\u2013281.",
+        "DOI": "10.1007/978-3-030-32245-8_31"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Lian , T. Feng , and J. Zhou , \u201cA dense PointNet++ architecture for 3D point cloud semantic segmentation,\u201d in IGARSS 2019-2019 IEEE International Geoscience and Remote Sensing Symposium. IEEE, 2019,pp. 5061\u20135064.",
+        "DOI": "10.1109/IGARSS.2019.8898177"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Ni , W. Zhang , X. Zhu , and Q. Cao , \u201cPointNet++ grasping: learning an end-to-end spatial grasp generation algorithm from sparse point clouds,\u201din2020 IEEE International Conference on Robotics and Automation(ICRA). IEEE, 2020, pp. 3619\u20133625.",
+        "DOI": "10.1109/ICRA40945.2020.9196740"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "614440",
+        "DOI": "10.1117/12.653053",
+        "article-title": "Segmentation of ground glass opacities by asymmetric multi-phase deformable model",
+        "volume": "6144",
+        "year": "2006",
+        "journal-title": "in Medical Imaging 2006: Image Processing"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Zhou , S. Chang , D. N. Metaxas , B. Zhao , M. S. Ginsberg , and L. H. Schwartz , \u201cAn automatic method for ground glass opacity nodule detection and segmentation from CT studies,\u201d in2006 International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE, 2006, pp. 3062\u20133065.",
+        "DOI": "10.1109/IEMBS.2006.260285"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2214/AJR.12.9640"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13312-020-1816-8"
+      },
+      {
+        "issue": "4",
+        "key": "2021071011400502000_2021.07.06.21260109v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/S1473-3099(20)30086-4",
+        "article-title": "Radiological findings from 81 patients with covid-19 pneumonia in Wuhan, China: a descriptive study",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "The Lancet infectious diseases"
+      },
+      {
+        "issue": "2",
+        "key": "2021071011400502000_2021.07.06.21260109v1.43",
+        "first-page": "e200082",
+        "article-title": "Longitudinal assessment of covid-19 using a deep learning\u2013based quantitative CT pipeline: Illustration of two cases",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.44",
+        "first-page": "185786",
+        "article-title": "\u201dMsd-net: Multi-scale discriminative network for covid-19 lung infection segmentation on CT",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "\u201dIEEE Access"
+      },
+      {
+        "issue": "4",
+        "key": "2021071011400502000_2021.07.06.21260109v1.45",
+        "first-page": "e200048",
+        "article-title": "\u201cAutomated quantification of CT patterns associated with covid-19 from chest CT",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "\u201dRadiology: Artificial Intelligence"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Jin , H. Cui , C. Sun , Z. Meng , L. Wei , and R. Su , \u201cDomain adaptation based self-correction model for covid-19 infection segmentation in CT images,\u201d Expert Systems with Applications, p. 114848, 2021.",
+        "DOI": "10.1016/j.eswa.2021.114848"
+      },
+      {
+        "issue": "18",
+        "key": "2021071011400502000_2021.07.06.21260109v1.47",
+        "first-page": "6448",
+        "article-title": "\u201cNeural network based country wise abnormality prediction of covid-19",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "\u201dApplied Sciences"
+      },
+      {
+        "issue": "1",
+        "key": "2021071011400502000_2021.07.06.21260109v1.48",
+        "first-page": "1",
+        "article-title": "Machine learning based early warning system enables accurate mortality abnormality prediction for covid-19",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.isprsjprs.2020.05.008",
+        "article-title": "GrNet: Geometric relation network for 3d object detection from point clouds",
+        "volume": "165",
+        "year": "2020",
+        "journal-title": "ISPRS Journal of Photogrammetry and Remote Sensing"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O. Unal , L. Van Gool , and D. Dai , \u201cImproving point cloud semantic segmentation by learning 3d object detection,\u201d in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2021, pp. 2950\u20132959.",
+        "DOI": "10.1109/WACV48630.2021.00299"
+      },
+      {
+        "issue": "22-23",
+        "key": "2021071011400502000_2021.07.06.21260109v1.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "2535",
+        "DOI": "10.1002/adma.201100562",
+        "article-title": "Minkowski tensor shape analysis of cellular, granular and porous structures",
+        "volume": "23",
+        "year": "2011",
+        "journal-title": "Advanced Materials"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.52",
+        "unstructured": "\u201cMinkowski functionals: Robust and versatile shape descriptors,\u201dhttps://morphometry.org/morphometer/index.html?mode=EXPERT?type=IM?anapa ram=other\u00e3anatype=grayscale, accessed: 2021-03-31."
+      },
+      {
+        "issue": "Pt 3",
+        "key": "2021071011400502000_2021.07.06.21260109v1.53",
+        "first-page": "175",
+        "article-title": "3D shape analysis for early diagnosis of malignant lung nodules",
+        "volume": "14",
+        "year": "2011",
+        "journal-title": "Med Image Comput Assist Interv"
+      },
+      {
+        "issue": "9",
+        "key": "2021071011400502000_2021.07.06.21260109v1.54",
+        "first-page": "1220",
+        "volume-title": "in Mayo Clinic Proceedings",
+        "volume": "79",
+        "year": "2004"
+      },
+      {
+        "key": "2021071011400502000_2021.07.06.21260109v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/RCT.0b013e31815e6291"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.06.21260109",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:19:55Z",
+      "timestamp": 1768486795000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.07.06.21260109"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          8
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1101/2021.07.06.21260109",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0263916",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

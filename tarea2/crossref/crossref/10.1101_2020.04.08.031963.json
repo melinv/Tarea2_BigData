@@ -1,0 +1,481 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2026-03-06T03:07:35Z",
+      "timestamp": 1772766455783,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 48,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2020-04-10T00:00:00Z",
+          "timestamp": 1586476800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>\n                    Emerging and reemerging infectious diseases such as the novel Coronavirus disease, COVID-19 and Ebola pose a significant threat to global society and test the public health community\u2019s preparedness to rapidly respond to an outbreak with effective diagnostics and therapeutics. Recent advances in next generation sequencing technologies enable rapid generation of pathogen genome sequence data, within 24 hours of obtaining a sample in some instances. With these data, one can quickly evaluate the effectiveness of existing diagnostics and therapeutics using\n                    <jats:italic>in silico</jats:italic>\n                    approaches. The propensity of some viruses to rapidly accumulate mutations can lead to the failure of molecular detection assays creating the need for redesigned or newly designed assays.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    Here we describe a bioinformatics system named BioLaboro to identify signature regions in a given pathogen genome, design PCR assays targeting those regions, and then test the PCR assays\n                    <jats:italic>in silico</jats:italic>\n                    to determine their sensitivity and specificity. We demonstrate BioLaboro with two use cases: Bombali Ebolavirus (BOMV) and the novel Coronavirus 2019 (SARS-CoV-2). For the BOMV, we analyzed 30 currently available real-time reverse transcription-PCR assays against the three available complete genome sequences of BOMV. Only two met our\n                    <jats:italic>in silico</jats:italic>\n                    criteria for successful detection and neither had perfect matches to the primer/probe sequences. We designed five new primer sets against BOMV signatures and all had true positive hits to the three BOMV genomes and no false positive hits to any other sequence. Four assays are closely clustered in the nucleoprotein gene and one is located in the glycoprotein gene. Similarly, for the SARS-CoV-2, we designed five highly specific primer sets that hit all 145 whole genomes (available as of February 28, 2020) and none of the near neighbors.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    Here we applied BioLaboro in two real-world use cases to demonstrate its capability; 1) to identify signature regions, 2) to assess the efficacy of existing PCR assays to detect pathogens as they evolve over time, and 3) to design new assays with perfect\n                    <jats:italic>in silico</jats:italic>\n                    detection accuracy, all within hours, for further development and deployment. BioLaboro is designed with a user-friendly graphical user interface for biologists with limited bioinformatics experience.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.08.031963",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2020-04-10T13:56:03Z",
+      "timestamp": 1586526963000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "BioLaboro: A bioinformatics system for detecting molecular assay signature erosion and designing new assays in response to emerging and reemerging pathogens"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Mitchell",
+        "family": "Holland",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Negr\u00f3n",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shane",
+        "family": "Mitchell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nate",
+        "family": "Dellinger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mychal",
+        "family": "Ivancich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tyler",
+        "family": "Barrus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sterling",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katharine W.",
+        "family": "Jennings",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bruce",
+        "family": "Goodwin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6762-7874",
+        "authenticated-orcid": false,
+        "given": "Shanmuga",
+        "family": "Sozhamannan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1104.041167"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1003467"
+      },
+      {
+        "issue": "11",
+        "key": "2024080402534853000_2020.04.08.031963v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "805",
+        "DOI": "10.7326/M17-2496",
+        "article-title": "What Recent History Has Taught Us About Responding to Emerging Infectious Disease Threats",
+        "volume": "167",
+        "year": "2017",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/embor.2008.110"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1701410114"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.6",
+        "unstructured": "World Health Organization: Coronavirus disease 2019 (COVID-19) Situation Report \u2013 50 [https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200310-sitrep-50-covid-19.pdf?sfvrsn=55e904fb_2]"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.7",
+        "unstructured": "GISAID. [https://www.gisaid.org/epiflu-applications/global-cases-covid-19/]"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong E , Du H , Gardner L : An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis 2020.",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.9",
+        "unstructured": "World Health Organization: Fact Sheet/Details/Ebola virus disease [https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease]"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/emmm.201404792"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.11",
+        "unstructured": "World Health Organization: Situation Report-Ebola Virus Disease-10 June 2016. https://www.who.int/csr/disease/ebola/situation-reports/archive/en/."
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.12",
+        "unstructured": "World Health Organization: Ebola in the Democratic Republic of Congo-Health Emergecy Update [https://www.who.int/emergencies/diseases/ebola/drc-2019]."
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1910993"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.14",
+        "unstructured": "European Medicines Agency: First Vaccine to protect against Ebola. In: EMA/CHMP/565403/2019. 2019."
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.15",
+        "unstructured": "Food and Drug Administration: First FDA-approved vaccine for the prevention of Ebola virus disease, marking a critical milestone in public health preparedness and response. In.; 2019. https://www.fda.gov/news-events/press-announcements/first-fda-approved-vaccine-prevention-ebola-virus-disease-marking-critical-milestone-public-health."
+      },
+      {
+        "issue": "3",
+        "key": "2024080402534853000_2020.04.08.031963v1.16",
+        "first-page": "57",
+        "article-title": "General introduction into the Ebola virus biology and disease",
+        "volume": "54",
+        "year": "2014",
+        "journal-title": "Folia Med Cracov"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-pathol-052016-100506"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cantoni D , Hamlet A , Michaelis M , Wass MN , Rossman JS : Risks Posed by Reston, the Forgotten Ebolavirus. mSphere 2016, 1(6).",
+        "DOI": "10.1128/mSphere.00322-16"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/infdis/jir296"
+      },
+      {
+        "issue": "10",
+        "key": "2024080402534853000_2020.04.08.031963v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1084",
+        "DOI": "10.1038/s41564-018-0227-2",
+        "article-title": "The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses",
+        "volume": "3",
+        "year": "2018",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/438575a"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/527453a"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10393-015-1053-0"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/V6041759"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep23743"
+      },
+      {
+        "issue": "19",
+        "key": "2024080402534853000_2020.04.08.031963v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3553",
+        "DOI": "10.1093/bioinformatics/btz267",
+        "article-title": "Is the Bombali virus pathogenic in humans?",
+        "volume": "35",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.27",
+        "unstructured": "World Health Organization: WHO Director-General\u2019s opening remarks at the media briefing on COVID-19 - 11 March 2020. In.; 2020. https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020."
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.29",
+        "unstructured": "Zhou P , Yang XL , Wang XG , Hu B , Zhang L , Zhang W , Si HR , Zhu Y , Li B , Huang CL et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020."
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.30",
+        "unstructured": "World Health Organization: Coronavirus disease 2019 (COVID-19)Situation Report \u2013 49 [https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200309-sitrep-49-covid-19.pdf?sfvrsn=70dabe61_4]"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gch2.1018"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v7062763"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/4.2.133"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gki896"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jmbi.1990.9999"
+      },
+      {
+        "issue": "W1",
+        "key": "2024080402534853000_2020.04.08.031963v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "W636",
+        "DOI": "10.1093/nar/gkz268",
+        "article-title": "The EMBL-EBI search and sequence analysis tools APIs in 2019",
+        "volume": "47",
+        "year": "2019",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bao Y , Amarasinghe GK , Basler CF , Bavari S , Bukreyev A , Chandran K , Dolnik O , Dye JM , Ebihara H , Formenty P et al: Implementation of Objective PASC-Derived Taxon Demarcation Criteria for Official Classification of Filoviruses. Viruses 2017, 9(5).",
+        "DOI": "10.3390/v9050106"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zulkower V , and Rosser, S. : DNA Features Viewer, a sequence annotations formatting and plotting library for Python. BioRxiv 2020.",
+        "DOI": "10.1101/2020.01.09.900589"
+      },
+      {
+        "issue": "5",
+        "key": "2024080402534853000_2020.04.08.031963v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.15585/mmwr.mm6905e1",
+        "article-title": "Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak - United States, December 31, 2019-February 4, 2020",
+        "volume": "69",
+        "year": "2020",
+        "journal-title": "MMWR Morb Mortal Wkly Rep"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corman VM , Landt O , Kaiser M , Molenkamp R , Meijer A , Chu DKW , Bleicker T , Brunink S , Schneider J , Schmidt ML et al: Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro Surveill 2020, 25(3).",
+        "DOI": "10.2807/1560-7917.ES.2020.25.3.2000045"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Forbes KM , Webala PW , Jaaskelainen AJ , Abdurahman S , Ogola J , Masika MM , Kivisto I , Alburkat H , Plyusnin I , Levanov L et al: Bombali Virus in Mops condylurus Bat, Kenya. Emerg Infect Dis 2019, 25(5).",
+        "DOI": "10.3201/eid2505.181666"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karan LS , Makenov MT , Korneev MG , Sacko N , Boumbaly S , Yakovlev SA , Kourouma K , Bayandin RB , Gladysheva AV , Shipovalov AV et al: Bombali Virus in Mops condylurus Bats, Guinea. Emerg Infect Dis 2019, 25(9).",
+        "DOI": "10.3201/eid2509.190581"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1259657"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(19)30124-0"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst010"
+      },
+      {
+        "issue": "4",
+        "key": "2024080402534853000_2020.04.08.031963v1.46",
+        "first-page": "e000056",
+        "article-title": "SNP-sites: rapid efficient extraction of SNPs from multi-FASTA alignments",
+        "volume": "2",
+        "year": "2016",
+        "journal-title": "Microb Genom"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.47",
+        "unstructured": "R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. [https://www.R-project.org/]"
+      },
+      {
+        "key": "2024080402534853000_2020.04.08.031963v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks596"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.08.031963",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:13:39Z",
+      "timestamp": 1768436019000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.04.08.031963"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.1101/2020.04.08.031963",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

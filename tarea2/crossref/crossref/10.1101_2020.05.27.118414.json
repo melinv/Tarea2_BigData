@@ -1,0 +1,817 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:37:42Z",
+      "timestamp": 1768491462517,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 97,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2020-05-27T00:00:00Z",
+          "timestamp": 1590537600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Diseases imply dysregulation of cell\u2019s functions at several levels. The study of differentially expressed genes in case-control cohorts of patients is often the first step in understanding the details of the cell\u2019s dysregulation. A further level of analysis is introduced by noticing that genes are organized in functional modules (often called pathways), thus their action and their dysregulation may be better understood by the identification of the modules most affected by the disease (aka disease modules, or active subnetworks). We describe how an algorithm based on the Core&amp;Peel method developed originally for detecting protein complexes in PPI networks, can be adapted to detect disease modules in co-expression networks of genes. We first validate Core&amp;Peel for the easier general task of functional module detection by comparison with 42 methods participating in the Disease Module Identification DREAM challenge of 2019. Next, we use four specific disease test cases (colorectal cancer, prostate cancer, asthma and rheumatoid arthritis), four state-of-the-art algorithms (ModuleDiscoverer, Degas, KeyPathwayMiner and ClustEx), and several pathway databases to validate the proposed algorithm. Core&amp;Peel is the only method able to find significant associations of the predicted disease module with known validated relevant pathways for all four diseases. Moreover for the two cancer data sets, Core&amp;Peel detects further nine relevant pathways enriched in the predicted disease module, not discovered by the other methods used in the comparative analysis. Finally we apply Core&amp;Peel, along with other methods, to explore the transcriptional response of human cells to SARS-CoV-2 infection, at a modular level, aiming at finding supporting evidence for drug repositioning efforts.</jats:p>",
+    "DOI": "10.1101/2020.05.27.118414",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2020-05-28T06:25:14Z",
+      "timestamp": 1590647114000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Finding disease modules for cancer and COVID-19 in gene co-expression networks with the Core&amp;Peel method"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "M.",
+        "family": "Lucchetta",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Pellegrini",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Ideker and R. Nussinov , \u201cNetwork approaches and applications in biology,\u201d PLoS computational biology, vol. 13, no. 10, 2017.",
+        "DOI": "10.1371/journal.pcbi.1005771"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Pellegrini , M. Antoniotti , and B. Mishra , Network Bioscience. Frontiers Media SA, 2020.",
+        "DOI": "10.3389/978-2-88963-289-3"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg3552"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/18.suppl_1.S233"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1186/s12859-017-1567-2",
+        "article-title": "Comparison of statistical methods for subnetwork detection in the integration of gene expression and protein interaction network",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "BMC bioinformatics"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbw139"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. A. Chowdhury , D. K. Bhattacharyya , and J. K. Kalita , \u201c(Differential) co-expression analysis of gene expression: a survey of best practices,\u201d IEEE/ACM transactions on computational biology and bioinformatics, 2019.",
+        "DOI": "10.1109/TCBB.2019.2893170"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.3389/fgene.2019.00155",
+        "article-title": "A comprehensive survey of tools and software for active subnetwork identification",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in genetics"
+      },
+      {
+        "issue": "3",
+        "key": "2024080407275352000_2020.05.27.118414v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "333",
+        "DOI": "10.1016/j.pharmthera.2013.01.016",
+        "article-title": "Structure and dynamics of molecular networks: a novel paradigm of drug discovery: a comprehensive review",
+        "volume": "138",
+        "year": "2013",
+        "journal-title": "Pharmacology & therapeutics"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Shen , M. J. Alvarez , B. Bisikirska , A. Lachmann , R. Realubit , S. Pampou , J. Coku , C. Karan , and A. Califano , \u201cSystematic, network-based characterization of therapeutic target inhibitors,\u201d PLoS computational biology, vol. 13, no. 10, 2017.",
+        "DOI": "10.1371/journal.pcbi.1005599"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H.-Y. Chuang , E. Lee , Y.-T. Liu , D. Lee , and T. Ideker , \u201cNetwork-based classification of breast cancer metastasis,\u201d Molecular systems biology, vol. 3, no. 1, 2007.",
+        "DOI": "10.1038/msb4100180"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.1522"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.13",
+        "first-page": "1",
+        "article-title": "Differential co-expression analysis reveals a novel prognostic gene module in ovarian cancer",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku1350"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-1191-6"
+      },
+      {
+        "issue": "9",
+        "key": "2024080407275352000_2020.05.27.118414v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1038/s41592-019-0509-5",
+        "article-title": "Assessment of network module identification across complex diseases",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.17",
+        "unstructured": "S. Choobdar , M. E. Ahsen , J. Crawford , M. Tomasoni , T. Fang , D. Lamparter , J. Lin , B. Hescott , X. Hu , J. Mercer , T. Natoli , R. Narayan ,, A. Subramanian , J. D. Zhang , G. Stolovitzky , Z. Kutalik , K. Lage , D. K. Slonim , J. Saez-Rodriguez , L. J. Cowen , S. Bergmann , D. Marbach , F. Aicheler , N. Amoroso , A. Arenas , K. Azhagesan , A. Baker , M. Banf , S. Batzoglou , A. Baudot , R. Bellotti , S. Bergmann , K. A. Boroevich , C. Brun , S. Cai , M. Caldera , A. Calderone , G. Cesareni , W. Chen , C. Chichester , S. Choobdar , L. Cowen , J. Crawford , H. Cui , P. Dao , M. D. Domenico , A. Dhroso , G. Didier , M. Divine , A. d. Sol , T. Fang , X. Feng , J. C. Flores-Canales , S. Fortunato , A. Gitter , A. Gorska , Y. Guan , A. Gu\u00e9noche , S. G\u00f3mez , H. Hamza , A. Hartmann , S. He , A. Heijs , J. Heinrich , B. Hescott , X. Hu , Y. Hu , X. Huang , V. K. Hughitt , M. Jeon , L. Jeub , N. Johnson , K. Joo , I. Joung , S. Jung , S. G. Kalko , P. J. Kamola , J. Kang , B. Kaveelerdpotjana , M. Kim , Y.-A. Kim , O. Kohlbacher , D. Korkin , K. Krzysztof , K. Kunji , Z. Kutalik , K. Lage , D. Lamparter , S. Lang-Brown , T. D. Le , J. Lee , S. Lee , J. Lee , D. Li , J. Li , J. Lin , L. Liu , A. Loizou , Z. Luo , A. Lysenko , T. Ma , R. Mall , D. Marbach , T. Mattia , M. Medvedovic , J. Menche , J. Mercer , E. Micarelli , A. Monaco , F. M\u00fcller , R. Narayan , O. Narykov , T. Natoli , T. Norman , S. Park , L. Perfetto , D. Perrin , S. Pirr`o , T. M. Przytycka , X. Qian , K. Raman , D. Ramazzotti , E. Ramsahai , B. Ravindran , P. Rennert , J. SaezRodriguez , C. Sch\u00e4rfe , R. Sharan , N. Shi , W. Shin , H. Shu , H. Sinha , D. K. Slonim , L. Spinelli , S. Srinivasan , A. Subramanian , C. Suver , D. Szklarczyk , S. Tangaro , S. Thiagarajan , L. Tichit , T. Tiede , B. Tripathi , A. Tsherniak , T. Tsunoda , D. T\u00fcrei , E. Ullah , G. Vahedi , A. Valdeolivas , J. Vivek , C. v. Mering , A. Waagmeester , B. Wang , Y. Wang , B. A. Weir , S. White , S. Winkler , K. Xu , T. Xu , C. Yan , L. Yang , K. Yu , X. Yu , G. Zaffaroni , M. Zaslavskiy , T. Zeng , J. D. Zhang , L. Zhang , W. Zhang , L. Zhang , X. Zhang , J. Zhang , X. Zhou , J. Zhou , H. Zhu , J. Zhu , and G. Zuccon , \u201cOpen community challenge reveals molecular network modules with key roles in diseases,\u201d bioRxiv, 2019."
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.3389/fgene.2019.00164",
+        "article-title": "Adapting community detection algorithms for disease module identification in heterogeneous biological networks",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in genetics"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1004714",
+        "DOI": "10.1371/journal.pcbi.1004714",
+        "article-title": "Fast and rigorous computation of gene and pathway scores from snp-based summary statistics",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "issue": "suppl_1",
+        "key": "2024080407275352000_2020.05.27.118414v1.20",
+        "first-page": "D1005",
+        "article-title": "Ncbi geo: archive for functional genomics data sets\u201410 years on",
+        "volume": "39",
+        "year": "2010",
+        "journal-title": "Nucleic acids research"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Levi , R. Elkon , and R. Shamir , \u201cDomino: a novel network-based module detection algorithm with reduced rate of false calls,\u201d bioRxiv, 2020.",
+        "DOI": "10.15252/msb.20209593"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.22",
+        "first-page": "1",
+        "article-title": "Prioritizing network communities",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv1507"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. C. Silva , A. Colaprico , C. Olsen , F. D\u2019Angelo , G. Bontempi , M. Ceccarelli , and H. Noushmehr , \u201cTcga workflow: Analyze cancer genomics and epigenomics data using bioconductor packages,\u201d F1000Research, vol. 5, 2016.",
+        "DOI": "10.12688/f1000research.8923.2"
+      },
+      {
+        "issue": "3",
+        "key": "2024080407275352000_2020.05.27.118414v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006701",
+        "DOI": "10.1371/journal.pcbi.1006701",
+        "article-title": "New functionalities in the tcgabiolinks package for the study and integration of cancer data from gdc and gtex",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "8971",
+        "DOI": "10.1038/ncomms9971",
+        "article-title": "Systematic pan-cancer analysis of tumour purity",
+        "volume": "6",
+        "year": "2015",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp616"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm254"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-322"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv007"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "761",
+        "DOI": "10.1080/22221751.2020.1747363",
+        "article-title": "Transcriptomic characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in covid-19 patients",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Emerging Microbes & Infections"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Blanco-Melo , B. Nilsson-Payant , W.-C. Liu , R. M\u00f8ller , M. Panis , D. Sachs , R. Albrecht , et al., \u201cSars-cov-2 launches a unique transcriptional signature from in vitro, ex vivo, and in vivo systems,\u201d BioRxiv, 2020.",
+        "DOI": "10.1101/2020.03.24.004655"
+      },
+      {
+        "issue": "2",
+        "key": "2024080407275352000_2020.05.27.118414v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "477",
+        "DOI": "10.1039/C5MB00663E",
+        "article-title": "Reactomepa: an r/bioconductor package for reactome pathway analysis and visualization",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "Molecular BioSystems"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Pi\u00f1ero , \u00c0. Bravo , N. Queralt-Rosinach , A. Guti\u00e9rrez-Sacrist\u00e1n , J. Deu-Pons , E. Centeno , J. Garc\u00eda-Garc\u00eda , F. Sanz , and L. I. Furlong , \u201cDisgenet: a comprehensive platform integrating information on human disease-associated genes and variants,\u201d Nucleic acids research, p. gkw943, 2016.",
+        "DOI": "10.1093/nar/gkw943"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw377"
+      },
+      {
+        "issue": "W1",
+        "key": "2024080407275352000_2020.05.27.118414v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "W191",
+        "DOI": "10.1093/nar/gkz369",
+        "article-title": "g: Profiler: a web server for functional enrichment analysis and conversions of gene lists (2019 update)",
+        "volume": "47",
+        "year": "2019",
+        "journal-title": "Nucleic acids research"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2014.11.020"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/30.1.52"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. R. Pico , T. Kelder , M. P. Van Iersel , K. Hanspers , B. R. Conklin , and C. Evelo , \u201cWikipathways: pathway editing for the people,\u201d PLoS biology, vol. 6, no. 7, 2008.",
+        "DOI": "10.1371/journal.pbio.0060184"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1039"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.41",
+        "first-page": "1",
+        "article-title": "Modulediscoverer: identification of regulatory modules in protein-protein interaction networks",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "4",
+        "key": "2024080407275352000_2020.05.27.118414v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1080/15427951.2011.604548",
+        "article-title": "Keypathwayminer: detecting case-specific biological pathways using expression data",
+        "volume": "7",
+        "year": "2011",
+        "journal-title": "Internet Mathematics"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1186/1752-0509-4-47",
+        "article-title": "Identification of responsive gene modules by network-based gene clustering and extending: application to inflammation and angiogenesis",
+        "volume": "4",
+        "year": "2010",
+        "journal-title": "BMC systems biology"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Ulitsky , A. Krishnamurthy , R. M. Karp , and R. Shamir , \u201cDegas: de novo discovery of dysregulated pathways in human diseases,\u201d PloS one, vol. 5, no. 10, 2010.",
+        "DOI": "10.1371/journal.pone.0013367"
+      },
+      {
+        "issue": "4",
+        "key": "2024080407275352000_2020.05.27.118414v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.1016/j.cels.2018.03.001",
+        "article-title": "Systematic evaluation of molecular networks for discovery of disease genes",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Cell systems"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.122653799"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng993"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg1272"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2918"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1186/1752-0509-1-8",
+        "article-title": "Identification of functional modules using network topology and high-throughput data",
+        "volume": "1",
+        "year": "2007",
+        "journal-title": "BMC systems biology"
+      },
+      {
+        "issue": "6",
+        "key": "2024080407275352000_2020.05.27.118414v1.51",
+        "first-page": "1010428317701918",
+        "article-title": "Overexpression of spindle and kinetochore\u2013associated protein 1 contributes to the progression of prostate cancer",
+        "volume": "39",
+        "year": "2017",
+        "journal-title": "Tumor Biology"
+      },
+      {
+        "issue": "3",
+        "key": "2024080407275352000_2020.05.27.118414v1.52",
+        "first-page": "2823",
+        "article-title": "Overexpression of tpx2 is associated with progression and prognosis of prostate cancer",
+        "volume": "16",
+        "year": "2018",
+        "journal-title": "Oncology letters"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrc3560"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-cancerbio-030617-050502"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1083/jcb.201102147"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pros.1070"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jnci/djt174"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.58",
+        "first-page": "16",
+        "volume-title": "Seminars in cancer biology",
+        "volume": "37",
+        "year": "2016"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrm.2016.171"
+      },
+      {
+        "issue": "2",
+        "key": "2024080407275352000_2020.05.27.118414v1.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1111/j.1474-8673.2007.00389.x",
+        "article-title": "P2y2-and p2y4 purinergic receptors are over-expressed in human colon cancer",
+        "volume": "27",
+        "year": "2007",
+        "journal-title": "Autonomic and Autacoid Pharmacology"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/0008-5472.CAN-06-2233"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1026060426569"
+      },
+      {
+        "issue": "10",
+        "key": "2024080407275352000_2020.05.27.118414v1.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1038/nrrheum.2014.80",
+        "article-title": "The multifactorial role of neutrophils in rheumatoid arthritis",
+        "volume": "10",
+        "year": "2014",
+        "journal-title": "Nature Reviews Rheumatology"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eji.1830181122"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/art.22705"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1016005108"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1189/jlb.1209779"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tips.2008.07.008"
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.69",
+        "doi-asserted-by": "crossref",
+        "first-page": "3270",
+        "DOI": "10.1016/j.bbagen.2016.08.009",
+        "article-title": "Toll-like receptor-mediated involvement of innate immune cells in asthma disease",
+        "volume": "1861",
+        "year": "2017",
+        "journal-title": "Biochimica et Biophysica Acta (BBA)-General Subjects"
+      },
+      {
+        "issue": "3",
+        "key": "2024080407275352000_2020.05.27.118414v1.70",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1097/WOX.0b013e31821188e0",
+        "article-title": "Interleukin-13 signaling and its role in asthma",
+        "volume": "4",
+        "year": "2011",
+        "journal-title": "World Allergy Organization Journal"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.molmed.2004.08.004"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.it.2011.09.007"
+      },
+      {
+        "issue": "12",
+        "key": "2024080407275352000_2020.05.27.118414v1.73",
+        "doi-asserted-by": "crossref",
+        "first-page": "1732",
+        "DOI": "10.1111/j.1365-2222.2010.03630.x",
+        "article-title": "Leukotriene modifiers for asthma treatment",
+        "volume": "40",
+        "year": "2010",
+        "journal-title": "Clinical & Experimental Allergy"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaci.2007.10.028"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00210-008-0263-1"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.76",
+        "doi-asserted-by": "crossref",
+        "first-page": "117652",
+        "DOI": "10.1016/j.lfs.2020.117652",
+        "article-title": "In silico studies on therapeutic agents for covid-19: Drug repurposing approach",
+        "volume": "252",
+        "year": "2020",
+        "journal-title": "Life Sciences"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.97.4.788"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Chen , J. Song , H. Liu , H. Zheng , and C. Chen , \u201cPositive epstein-barr virus detection in corona virus disease 2019 (covid-19) patients,\u201d Available at SSRN 3555268, 2020.",
+        "DOI": "10.2139/ssrn.3555268"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. T. Hassan , \u201cShedding light on the effect of natural anti-herpesvirus alkaloids on sars-cov-2: A treatment option for covid-19,\u201d 2020.",
+        "DOI": "10.3390/v12040476"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Wu , L. Wang , H.-C. D. Kuo , A. Shannar , R. Peter , P. J. Chou , S. Li , R. Hudlikar , X. Liu , Z. Liu , et al., \u201cAn update on current therapeutic drugs treating covid-19,\u201d Current Pharmacology Reports, p. 1, 2020.",
+        "DOI": "10.1007/s40495-020-00216-7"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0014-5793(90)81459-2"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Gao , Z. Tian , and X. Yang , \u201cBreakthrough: Chloroquine phosphate has shown apparent efficacy in treatment of covid-19 associated pneumonia in clinical studies,\u201d Bioscience trends, 2020.",
+        "DOI": "10.5582/bst.2020.01047"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Cortegiani , G. Ingoglia , M. Ippolito , A. Giarratano , and S. Einav , \u201cA systematic review on the efficacy and safety of chloroquine for the treatment of covid-19,\u201d Journal of critical care, 2020.",
+        "DOI": "10.1016/j.jcrc.2020.03.005"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. L. Ofstead , K. M. Hopkins , M. J. Binnicker , and G. A. Poland , \u201cPotential impact of contaminated bronchoscopes on novel coronavirus disease (covid-19) patients,\u201d Infection Control & Hospital Epidemiology, pp. 1\u20133, 2020.",
+        "DOI": "10.1017/ice.2020.102"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tips.2005.02.007"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrd3456"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-physiol-030212-183811"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.3009"
+      },
+      {
+        "issue": "3",
+        "key": "2024080407275352000_2020.05.27.118414v1.89",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.3390/ph9030052",
+        "article-title": "Trpv1: a target for rational drug design",
+        "volume": "9",
+        "year": "2016",
+        "journal-title": "Pharmaceuticals"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.90",
+        "unstructured": "A. S. Jazzi , K. Mahnam , S. H. Hejazi , M. S. Damavandi , P. Sadeghi , M. Zeinalian , F. Tabesh , S. M. Mirbod , and H. Khanahmad , \u201cInhibition of viral macrodomain of covid-19 and human trpm2 by losartan,\u201d Preprint, 2020."
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "\u00c1. Zsembery , K. K\u00e1d\u00e1r , P. Jaikumpun , M. Deli , F. Jakab , and O. Dobay , \u201cBicarbonate: An ancient concept to defeat pathogens in light of recent findings beneficial for covid-19 patients?,\u201d Available at SSRN 3589403, 2020.",
+        "DOI": "10.2139/ssrn.3589403"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Fu , Y. Cheng , and Y. Wu , \u201cUnderstanding sars-cov-2-mediated inflammatory responses: from mechanisms to potential therapeutic tools,\u201d Virologica Sinica, pp. 1\u20136, 2020.",
+        "DOI": "10.1007/s12250-020-00207-4"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.93",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Kumar , B. Mishra , A. Mehmood , M. Athar , and M. S. Mukhtar , \u201cIntegrative network biology framework elucidates molecular mechanisms of sars-cov-2 pathogenesis,\u201d bioRxiv, 2020.",
+        "DOI": "10.1101/2020.04.09.033910"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.94",
+        "unstructured": "D. E. Gordon , G. M. Jang , M. Bouhaddou , J. Xu , K. Obernier , K. M. White , M. J. O\u2019Meara , V. V. Rezelj , J. Z. Guo , D. L. Swaney , et al., \u201cA sars-cov-2 protein interaction map reveals targets for drug repurposing,\u201d Nature, pp. 1\u201313, 2020."
+      },
+      {
+        "issue": "1",
+        "key": "2024080407275352000_2020.05.27.118414v1.95",
+        "first-page": "1",
+        "article-title": "Network-based drug repurposing for novel coronavirus 2019-ncov/sars-cov-2",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Cell discovery"
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.96",
+        "unstructured": "D. M. Gysi , \u00cdtalo Do Valle , M. Zitnik , A. Ameli , X. Gan , O. Varol , H. Sanchez , R. M. Baron , D. Ghiassian , J. Loscalzo , and A.-L. Barab\u00e1si , \u201cNetwork medicine framework for identifying drug repurposing opportunities for covid-19,\u201d 2020."
+      },
+      {
+        "key": "2024080407275352000_2020.05.27.118414v1.97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Ideker and N. J. Krogan , \u201cDifferential network biology,\u201d Molecular systems biology, vol. 8, no. 1, 2012.",
+        "DOI": "10.1038/msb.2011.99"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.27.118414",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:26:30Z",
+      "timestamp": 1768436790000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.05.27.118414"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "references-count": 97,
+    "URL": "https://doi.org/10.1101/2020.05.27.118414",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

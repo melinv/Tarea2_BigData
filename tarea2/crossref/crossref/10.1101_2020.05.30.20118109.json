@@ -1,0 +1,445 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:01:22Z",
+      "timestamp": 1768546882664,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 35,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>IMPORTANCE</jats:title>\n                  <jats:p>Objective and early identification of hospitalized patients, and particularly those with novel coronavirus disease 2019 (COVID-19), who may require mechanical ventilation is of great importance and may aid in delivering timely treatment.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>OBJECTIVE</jats:title>\n                  <jats:p>To develop, externally validate and prospectively test a transparent deep learning algorithm for predicting 24 hours in advance the need for mechanical ventilation in hospitalized patients and those with COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>DESIGN</jats:title>\n                  <jats:p>Observational cohort study</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>SETTING</jats:title>\n                  <jats:p>Two academic medical centers from January 01, 2016 to December 31, 2019 (Retrospective cohorts) and February 10, 2020 to May 4, 2020 (Prospective cohorts).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>PARTICIPANTS</jats:title>\n                  <jats:p>Over 31,000 admissions to the intensive care units (ICUs) at two hospitals. Additionally, 777 patients with COVID-19 patients were used for prospective validation. Patients who were placed on mechanical ventilation within four hours of their admission were excluded.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>MAIN OUTCOME(S) and MEASURE(S)</jats:title>\n                  <jats:p>\n                    Electronic health record (EHR) data were extracted on an hourly basis, and a set of 40 features were calculated and passed to an interpretable deep-learning algorithm to predict the future need for mechanical ventilation 24 hours in advance. Additionally, commonly used clinical criteria (based on heart rate, oxygen saturation, respiratory rate, FiO\n                    <jats:sub>2</jats:sub>\n                    and pH) was used to assess future need for mechanical ventilation. Performance of the algorithms were evaluated using the area under receiver-operating characteristic curve (AUC), sensitivity, specificity and positive predictive value.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>RESULTS</jats:title>\n                  <jats:p>After applying exclusion criteria, the external validation cohort included 3,888 general ICU and 402 COVID-19 patients. The performance of the model (AUC) with a 24-hour prediction horizon at the validation site was 0.882 for the general ICU population and 0.918 for patients with COVID-19. In comparison, commonly used clinical criteria and the ROX score achieved AUCs in the range of 0.773 \u2013 0.782 and 0.768 \u2013 0.810 for the general ICU population and patients with COVID-19, respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>CONCLUSIONS and RELEVANCE</jats:title>\n                  <jats:p>A generalizable and transparent deep-learning algorithm improves on traditional clinical criteria to predict the need for mechanical ventilation in hospitalized patients, including those with COVID-19. Such an algorithm may help clinicians with optimizing timing of tracheal intubation, better allocation of mechanical ventilation resources and staff, and improve patient care.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.30.20118109",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2020-06-03T15:01:51Z",
+      "timestamp": 1591196511000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Development and Prospective Validation of a Transparent Deep Learning Algorithm for Predicting Need for Mechanical Ventilation"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Supreeth P.",
+        "family": "Shashikumar",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Gabriel",
+        "family": "Wardi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paulina",
+        "family": "Paul",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paulina",
+        "family": "Paul",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Morgan",
+        "family": "Carlile",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laura N",
+        "family": "Brenner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kathryn A",
+        "family": "Hibbert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Crystal M.",
+        "family": "North",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shibani S.",
+        "family": "Mukerji",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gregory K.",
+        "family": "Robbins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu-Ping",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Atul",
+        "family": "Malhotra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Brandon Westover",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shamim",
+        "family": "Nemati",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Emanuel EJ , Persad G , Upshur R , et al. Fair Allocation of Scarce Medical Resources in the Time of Covid-19. Mass Medical Soc; 2020.",
+        "DOI": "10.1056/NEJMsb2005114"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feinstein MM , Niforatos JD , Hyun I , et al. Considerations for ventilator triage during the COVID-19 pandemic. The Lancet Respiratory Medicine. Published online 2020.",
+        "DOI": "10.1016/S2213-2600(20)30192-2"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0146736(20)30183-5"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.1585"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.6",
+        "unstructured": "Zhou F , Yu T , Du R , et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. The Lancet. Published online 2020."
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.7",
+        "unstructured": "Staff CS , Archives CC , iCritical Care AA , et al. United States Resource Availability for COVID-19."
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Truog RD , Mitchell C , Daley GQ . The toughest triage\u2014allocating ventilators in a pandemic. New England Journal of Medicine. Published online 2020.",
+        "DOI": "10.1056/NEJMp2005689"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-150-2-200901200-00011"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.10",
+        "unstructured": "Organization WH . Infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected Interim guidance, 19 March 2020. Published online 2020."
+      },
+      {
+        "issue": "2",
+        "key": "2020122804050945000_2020.05.30.20118109v1.11",
+        "first-page": "S122",
+        "article-title": "Severe acute respiratory syndrome (SARS): lessons learnt in Hong Kong",
+        "volume": "5",
+        "year": "2013",
+        "journal-title": "Journal of thoracic disease"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.12",
+        "first-page": "E020",
+        "article-title": "Expert consensus on preventing nosocomial transmission during respiratory care for critically ill patients infected by 2019 novel coronavirus pneumonia",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Zhonghua jie he he hu xi za zhi"
+      },
+      {
+        "issue": "4",
+        "key": "2020122804050945000_2020.05.30.20118109v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e19",
+        "DOI": "10.1016/S2213-2600(20)30084-9",
+        "article-title": "Staff safety during emergency airway management for COVID-19 in Hong Kong",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "issue": "6",
+        "key": "2020122804050945000_2020.05.30.20118109v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.1097/ALN.0000000000003296",
+        "article-title": "Intubation and Ventilation amid the COVID-19 OutbreakWuhan\u2019s Experience",
+        "volume": "132",
+        "year": "2020",
+        "journal-title": "Anesthesiology: The Journal of the American Society of Anesthesiologists"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.202003-0817LE"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gattinoni L , Chiumello D , Caironi P , et al. COVID-19 pneumonia: different respiratory treatments for different phenotypes? Intensive care medicine. Published online 2020:1.",
+        "DOI": "10.1007/s00134-020-06033-2"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.14-0742"
+      },
+      {
+        "issue": "11",
+        "key": "2020122804050945000_2020.05.30.20118109v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1368",
+        "DOI": "10.1164/rccm.201803-0589OC",
+        "article-title": "An index combining respiratory rate and oxygenation to predict outcome of nasal high-flow therapy",
+        "volume": "199",
+        "year": "2019",
+        "journal-title": "American journal of respiratory and critical care medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2020122804050945000_2020.05.30.20118109v1.19",
+        "first-page": "1",
+        "article-title": "Rapid progression to acute respiratory distress syndrome: review of current understanding of critical illness from COVID-19 Infection",
+        "volume": "49",
+        "year": "2020",
+        "journal-title": "Ann Acad Med Singapore"
+      },
+      {
+        "issue": "1",
+        "key": "2020122804050945000_2020.05.30.20118109v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1038/s41746-018-0029-1",
+        "article-title": "Scalable and accurate deep learning with electronic health records",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "NPJ Digital Medicine"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1390-1"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000002936"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.24",
+        "unstructured": "Shashikumar SP , Josef C , Sharma A , Nemati S . DeepAISE \u2013-An End-to-End Development and Deployment of a Recurrent Neural Survival Model for Early Prediction of Sepsis. arXiv:190804759 [cs, stat]. Published online August 10, 2019. Accessed January 30, 2020. http://arxiv.org/abs/1908.04759"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Milea D , Najjar RP , Zhubo J , et al. Artificial Intelligence to Detect Papilledema from Ocular Fundus Photographs. New England Journal of Medicine. Published online 2020.",
+        "DOI": "10.1056/NEJMoa1917130"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bjs.9736"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1127647"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeLong ER , DeLong DM , Clarke-Pearson DL . Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach. Biometrics. Published online 1988:837\u2013845.",
+        "DOI": "10.2307/2531595"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie J , Tong Z , Guan X , Du B , Qiu H , Slutsky AS . Critical care crisis and some recommendations during the COVID-19 epidemic in China. Intensive care medicine. Published online 2020:1\u20134.",
+        "DOI": "10.1007/s00134-020-05979-7"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu S , Li Y . Beware of the second wave of COVID-19. The Lancet. Published online 2020.",
+        "DOI": "10.1016/S0140-6736(20)30845-X"
+      },
+      {
+        "issue": "2",
+        "key": "2020122804050945000_2020.05.30.20118109v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1016/j.ccm.2008.01.001",
+        "article-title": "Mechanical ventilation in an airborne epidemic",
+        "volume": "29",
+        "year": "2008",
+        "journal-title": "Clinics in chest medicine"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1016/j.resuscitation.2017.09.020",
+        "article-title": "Factors and outcomes associated with inpatient cardiac arrest following emergent endotracheal intubation",
+        "volume": "121",
+        "year": "2017",
+        "journal-title": "Resuscitation"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Flores MV , Cohen M . Preventing airborne disease transmission: Implications for patients during mechanical ventilation. In: Noninvasive Ventilation in High-Risk Infections and Mass Casualty Events. Springer; 2014:305\u2013313.",
+        "DOI": "10.1007/978-3-7091-1496-4_34"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/ajrccm.165.7.2105078"
+      },
+      {
+        "key": "2020122804050945000_2020.05.30.20118109v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-020-02926-2"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.30.20118109",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:42:23Z",
+      "timestamp": 1768484543000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.30.20118109"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1101/2020.05.30.20118109",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.chest.2020.12.009",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ],
+      "date-time": "2026-03-26T11:21:46Z",
+      "timestamp": 1774524106427,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          14
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>This study aims to develop a machine learning approach for automated severity assessment of COVID-19 patients based on clinical and imaging data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>Clinical data\u2014demographics, signs, symptoms, comorbidities and blood test results\u2014and chest CT scans of 346 patients from two hospitals in the Hubei province, China, were used to develop machine learning models for automated severity assessment of diagnosed COVID-19 cases. We compared the predictive power of clinical and imaging data by testing multiple machine learning models, and further explored the use of four oversampling methods to address the imbalance distribution issue. Features with the highest predictive power were identified using the SHAP framework.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Targeting differentiation between mild and severe cases, logistic regression models achieved the best performance on clinical features (AUC:0.848, sensitivity:0.455, specificity:0.906), imaging features (AUC:0.926, sensitivity:0.818, specificity:0.901) and the combined features (AUC:0.950, sensitivity:0.764, specificity:0.919). The SMOTE oversampling method further improved the performance of the combined features to AUC of 0.960 (sensitivity:0.845, specificity:0.929).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>Imaging features had the strongest impact on the model output, while a combination of clinical and imaging features yielded the best performance overall. The identified predictive features were consistent with findings from previous studies. Oversampling yielded mixed results, although it achieved the best performance in our study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>This study indicates that clinical and imaging features can be used for automated severity assessment of COVID-19 patients and have the potential to assist with triaging COVID-19 patients and prioritizing care for patients at higher risk of severe cases.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.08.12.20173872",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2020-08-14T19:35:14Z",
+      "timestamp": 1597433714000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Severity Assessment of COVID-19 based on Clinical and Imaging Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Juan C.",
+        "family": "Quiroz",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "You-Zhen",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhong-Yuan",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dana",
+        "family": "Rezazadegan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ping-Kang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qi-Ting",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Long",
+        "family": "Qian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiao-Fang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shlomo",
+        "family": "Berkovsky",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Enrico",
+        "family": "Coiera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lei",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiao-Ming",
+        "family": "Qiu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sidong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiang-Ran",
+        "family": "Cai",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcv.2020.104357"
+      },
+      {
+        "issue": "22",
+        "key": "2021012701250713000_2020.08.12.20173872v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2247",
+        "DOI": "10.1001/jama.2020.7872",
+        "article-title": "Reopening Society and the Need for Real-Time Assessment of COVID-19 at the Community Level",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.3",
+        "unstructured": "\u201cJohns Hopkins Coronavirus Resource Center.\u201d [Online]. Available: https://coronavirus.jhu.edu/map.html. [Accessed: 30-Jun-2020]."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Madjid , P. Safavi-Naeini , S. D. Solomon , and O. Vardeny , \u201cPotential Effects of Coronaviruses on the Cardiovascular System: A Review,\u201d JAMA Cardiol., Mar. 2020.",
+        "DOI": "10.1001/jamacardio.2020.1286"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. M. Petrilli et al., \u201cFactors associated with hospital admission and critical illness among 5279 people with coronavirus disease 2019 in New York City: prospective cohort study,\u201d BMJ, vol. 369, 2020.",
+        "DOI": "10.1136/bmj.m1966"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Jin et al., \u201cCore Outcome Set for Clinical Trials on Coronavirus Disease 2019 (COS-COVID),\u201d Engineering, 2020.",
+        "DOI": "10.1016/j.eng.2020.03.002"
+      },
+      {
+        "issue": "2",
+        "key": "2021012701250713000_2020.08.12.20173872v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e200110",
+        "DOI": "10.1148/ryct.2020200110",
+        "article-title": "Chest CT Findings in Cases from the Cruise Ship \u2018Diamond Princess\u2019 with Coronavirus Disease 2019 (COVID-19)",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiol. Cardiothorac. Imaging"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.9",
+        "unstructured": "T. Ai et al., \u201cCorrelation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases,\u201d Radiology, p. 200642, Feb. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.10",
+        "unstructured": "L. Yan et al., \u201cPrediction of criticality in patients with severe Covid-19 infection using three clinical features: a machine learning-based prognostic model with clinical data in Wuhan,\u201d medRxiv, p. 2020.02.27.20028027, Jan. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Butt , J. Gill , D. Chun , and B. A. Babu , \u201cDeep learning system to screen coronavirus disease 2019 pneumonia,\u201d Appl. Intell., pp. 1-7, Apr. 2020.",
+        "DOI": "10.1007/s10489-020-01714-3"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.12",
+        "unstructured": "H. X. Bai et al., \u201cAI Augmentation of Radiologist Performance in Distinguishing COVID-19 from Pneumonia of Other Etiology on Chest CT,\u201d Radiology, p. 201491, Apr. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103792"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Wang and A. Wong , \u201cCOVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images.\u201d 2020.",
+        "DOI": "10.1038/s41598-020-76550-z"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.15",
+        "unstructured": "J. Chen et al., \u201cDeep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography: a prospective study,\u201d medRxiv, p. 2020.02.25.20021568, Jan. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.16",
+        "unstructured": "O. Gozes et al., \u201cRapid AI Development Cycle for the Coronavirus (COVID-19) Pandemic: Initial Results for Automated Detection & Patient Monitoring using Deep Learning CT Image Analysis.\u201d 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.17",
+        "unstructured": "L. Li et al., \u201cArtificial Intelligence Distinguishes COVID-19 from Community Acquired Pneumonia on Chest CT,\u201d Radiology, p. 200905, Mar. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.18",
+        "unstructured": "Y. Song et al., \u201cDeep learning Enables Accurate Diagnosis of Novel Coronavirus (COVID-19) with CT images,\u201d medRxiv, p. 2020.02.23.20026930, Jan. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.19",
+        "unstructured": "S. Wang et al., \u201cA deep learning algorithm using CT images to screen for Corona Virus Disease (COVID-19),\u201d medRxiv, p. 2020.02.14.20023028, Jan. 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y.-Z. Feng et al., \u201cSeverity Assessment and Progression Prediction of COVID-19 Patients based on the LesionEncoder Framework and Chest CT,\u201d 2020.",
+        "DOI": "10.1101/2020.08.03.20167007"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Chaganti et al., \u201cQuantification of Tomographic Patterns associated with COVID-19 from Chest CT.\u201d 2020.",
+        "DOI": "10.1148/ryai.2020200048"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Wong et al., \u201cTowards computer-aided severity assessment: training and validation of deep neural networks for geographic extent and opacity extent scoring of chest X-rays for SARS-CoV-2 lung disease severity.\u201d 2020.",
+        "DOI": "10.1038/s41598-021-88538-4"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200034"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.24",
+        "unstructured": "L. Wynants et al., \u201cPrediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal,\u201d BMJ, vol. 369, 2020."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Shi et al., \u201cReview of Artificial Intelligence Techniques in Imaging Data Acquisition, Segmentation and Diagnosis for COVID-19,\u201d IEEE Rev. Biomed. Eng., pp. 1-1, 2020.",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "issue": "4",
+        "key": "2021012701250713000_2020.08.12.20173872v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/S1473-3099(20)30086-4",
+        "article-title": "Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Lancet Infect. Dis."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.28",
+        "unstructured": "C. M. Bishop , Pattern Recognition and Machine Learning (Information Science and Statistics). Berlin, Heidelberg: Springer-Verlag, 2006."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Chen and C. Guestrin , \u201cXGBoost: A Scalable Tree Boosting System,\u201d in Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2016, pp. 785-794.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02478259"
+      },
+      {
+        "issue": "1",
+        "key": "2021012701250713000_2020.08.12.20173872v1.31",
+        "first-page": "321",
+        "article-title": "SMOTE: Synthetic Minority over-Sampling Technique",
+        "volume": "16",
+        "year": "2002",
+        "journal-title": "J. Artif. Int. Res."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.32",
+        "unstructured": "H. He , Y. Bai , E. A. Garcia , and S. Li , \u201cADASYN: Adaptive synthetic sampling approach for imbalanced learning,\u201d in 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), 2008, pp. 1322-1328."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "118",
+        "DOI": "10.1016/j.ins.2019.06.007",
+        "article-title": "Geometric SMOTE a geometrically enhanced drop-in replacement for SMOTE",
+        "volume": "501",
+        "year": "2019",
+        "journal-title": "Inf. Sci. (Ny)."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.34",
+        "unstructured": "L. Xu , M. Skoularidou , A. Cuesta-Infante , and K. Veeramachaneni , \u201cModeling Tabular data using Conditional GAN,\u201d in Advances in Neural Information Processing Systems 32, H. Wallach , H. Larochelle , A. Beygelzimer , F. d\\textquotesingle Alche-Buc , E. Fox , and R. Garnett , Eds. Curran Associates, Inc., 2019, pp. 7335-7345."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.35",
+        "unstructured": "S. M. Lundberg and S.-I. Lee , \u201cA Unified Approach to Interpreting Model Predictions,\u201d in Advances in Neural Information Processing Systems 30, I. Guyon , U. V Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , Eds. Curran Associates, Inc., 2017, pp. 4765-4774."
+      },
+      {
+        "issue": "1",
+        "key": "2021012701250713000_2020.08.12.20173872v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "7733",
+        "DOI": "10.1038/s41598-020-64588-y",
+        "article-title": "Isocitrate dehydrogenase (IDH) status prediction in histopathology images of gliomas using deep learning",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Hofmanninger , F. Prayer , J. Pan , S. Rohrich , H. Prosch , and G. Langs , \u201cAutomatic lung segmentation in routine imaging is a data diversity problem, not a methodology problem.\u201d 2020.",
+        "DOI": "10.1186/s41747-020-00173-2"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.38",
+        "unstructured": "\u201cCOVID-19 CT segmentation dataset.\u201d [Online]. Available: http://medicalsegmentation.com/covid19/."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.39",
+        "unstructured": "R. Kikinis , S. D. Pieper , and K. G. Vosburgh , \u201c3D Slicer: A Platform for Subject-Specific Image Analysis, Visualization, and Clinical Support BT \u2013 Intraoperative Imaging and Image-Guided Therapy,\u201d F. A. Jolesz , Ed. New York, NY: Springer New York, 2014, pp. 277-289."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2010.04.018"
+      },
+      {
+        "issue": "2",
+        "key": "2021012701250713000_2020.08.12.20173872v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.3390/info11020108",
+        "article-title": "Fastai: A Layered API for Deep Learning",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Information"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.42",
+        "unstructured": "L. N. Smith , \u201cCyclical Learning Rates for Training Neural Networks.\u201d 2015."
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3"
+      },
+      {
+        "issue": "3",
+        "key": "2021012701250713000_2020.08.12.20173872v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1016/j.artmed.2015.07.005",
+        "article-title": "A hybrid cost-sensitive ensemble for imbalanced breast thermogram classification",
+        "volume": "65",
+        "year": "2015",
+        "journal-title": "Artif. Intell. Med."
+      },
+      {
+        "issue": "1",
+        "key": "2021012701250713000_2020.08.12.20173872v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1186/s12938-017-0420-1",
+        "article-title": "Automatic diagnosis of imbalanced ophthalmic images using a cost-sensitive deep convolutional neural network",
+        "volume": "16",
+        "year": "2017",
+        "journal-title": "Biomed. Eng. Online"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "106266",
+        "DOI": "10.1016/j.cie.2019.106266",
+        "article-title": "Integrating TANBN with cost sensitive classification algorithm for imbalanced data in medical diagnosis",
+        "volume": "140",
+        "year": "2020",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "issue": "1",
+        "key": "2021012701250713000_2020.08.12.20173872v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1186/s12938-018-0604-3",
+        "article-title": "Imbalanced biomedical data classification using self-adaptive multilayer ELM combined with dynamic GAN",
+        "volume": "17",
+        "year": "2018",
+        "journal-title": "Biomed. Eng. Online"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.50"
+      },
+      {
+        "key": "2021012701250713000_2020.08.12.20173872v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Raina , A. Battle , H. Lee , B. Packer , and A. Y. Ng , \u201cSelf-Taught Learning: Transfer Learning from Unlabeled Data,\u201d in Proceedings of the 24th International Conference on Machine Learning, 2007, pp. 759-766.",
+        "DOI": "10.1145/1273496.1273592"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.12.20173872",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:51:23Z",
+      "timestamp": 1768485083000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.08.12.20173872"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          14
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2020.08.12.20173872",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/24572",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ],
+      "date-time": "2026-04-15T23:21:03Z",
+      "timestamp": 1776295263302,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          27
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 55,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2024-05-27T00:00:00Z",
+          "timestamp": 1716768000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The wealth of genomic data that was generated during the COVID-19 pandemic provides an exceptional opportunity to obtain information on the transmission of SARS-CoV-2. Specifically, there is great interest to better understand how the effective reproduction number\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>e</jats:italic>\n                  </jats:sub>\n                  and the overdispersion of secondary cases, which can be quantified by the negative binomial dispersion parameter\n                  <jats:italic>k</jats:italic>\n                  , changed over time and across regions and viral variants. The aim of our study was to develop a Bayesian framework to infer\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>e</jats:italic>\n                  </jats:sub>\n                  and\n                  <jats:italic>k</jats:italic>\n                  from viral sequence data. First, we developed a mathematical model for the distribution of the size of identical sequence clusters, in which we integrated viral transmission, the mutation rate of the virus, and incomplete case-detection. Second, we implemented this model within a Bayesian inference framework, allowing the estimation of\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>e</jats:italic>\n                  </jats:sub>\n                  and\n                  <jats:italic>k</jats:italic>\n                  from genomic data only. We validated this model in a simulation study. Third, we identified clusters of identical sequences in all SARS-CoV-2 sequences in 2021 from Switzerland, Denmark, and Germany that were available on GISAID. We obtained monthly estimates of the posterior distribution of\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>e</jats:italic>\n                  </jats:sub>\n                  and\n                  <jats:italic>k</jats:italic>\n                  , with the resulting\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>e</jats:italic>\n                  </jats:sub>\n                  estimates slightly lower than resulting obtained by other methods, and\n                  <jats:italic>k</jats:italic>\n                  comparable with previous results. We found comparatively higher estimates of\n                  <jats:italic>k</jats:italic>\n                  in Denmark which suggests less opportunities for superspreading and more controlled transmission compared to the other countries in 2021. Our model included an estimation of the case detection and sampling probability, but the estimates obtained had large uncertainty, reflecting the difficulty of estimating these parameters simultaneously. Our study presents a novel method to infer information on the transmission of infectious diseases and its heterogeneity using genomic data. With increasing availability of sequences of pathogens in the future, we expect that our method has the potential to provide new insights into the transmission and the overdispersion in secondary cases of other pathogens.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>\n                    Pathogen transmission is a stochastic process that can be characterized by two parameters: the effective reproduction number\n                    <jats:italic>R</jats:italic>\n                    <jats:sub>\n                      <jats:italic>e</jats:italic>\n                    </jats:sub>\n                    relates to the average number of secondary cases per infectious case in the current conditions of transmission and immunity, and the overdispersion parameter\n                    <jats:italic>k</jats:italic>\n                    captures the variability in the number of secondary cases. While\n                    <jats:italic>R</jats:italic>\n                    <jats:sub>\n                      <jats:italic>e</jats:italic>\n                    </jats:sub>\n                    can be estimated well from case data,\n                    <jats:italic>k</jats:italic>\n                    is more difficult to quantify since detailed information about who infected whom is required. Here, we took advantage of the enormous number of sequences available of SARS-CoV-2 to identify clusters of identical sequences, providing indirect information about the size of transmission chains at different times in the pandemic, and thus about epidemic parameters. We then extended a previously defined method to estimate\n                    <jats:italic>R</jats:italic>\n                    <jats:sub>\n                      <jats:italic>e</jats:italic>\n                    </jats:sub>\n                    ,\n                    <jats:italic>k</jats:italic>\n                    , and the probability of detection from this sequence data. We validated our approach on simulated and real data from three countries, with our resulting estimates compatible with previous estimates. In a future with increased pathogen sequence availability, we believe this method will pave the way for the estimation of epidemic parameters in the absence of detailed contact tracing data.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2024.05.26.24307940",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2024-05-27T06:20:14Z",
+      "timestamp": 1716790814000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Estimating\n                  <i>\n                    R\n                    <sub>e</sub>\n                  </i>\n                  and overdispersion in secondary cases from the size of identical sequence clusters of SARS-CoV-2"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0078-2212",
+        "authenticated-orcid": false,
+        "given": "Emma B.",
+        "family": "Hodcroft",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5252-0484",
+        "authenticated-orcid": false,
+        "given": "Martin S.",
+        "family": "Wohlfender",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2525-1407",
+        "authenticated-orcid": false,
+        "given": "Richard A.",
+        "family": "Neher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3808-2852",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Riou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5230-6760",
+        "authenticated-orcid": false,
+        "given": "Christian L.",
+        "family": "Althaus",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6130"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bsheal.2020.03.004"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12688/wellcomeopenres.16006.2"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-19248-0"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.25723"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.71345"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2011.10.039"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1207965110"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/currents.outbreaks.6f7025f1271821d4c815385b08f5f80e"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.28721"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12889-023-15915-1"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.63537"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(21)00406-0"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.65774"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.csbj.2021.08.045"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tig.2021.09.003"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe2424"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1092-0"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30287-5"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12889-020-09624-2"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-79352-5"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhin.2020.05.027"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2011802117"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-020-01615-9"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12874-021-01225-w"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph17103705"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-01178-5"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0238800"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-93578-x"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12688/wellcomeopenres.15842.3"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2020.25.4.2000058"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Susswein Z , Bansal S. Characterizing superspreading of SARS-CoV-2 : from mechanism to measurement; 2020. Available from: https://www.medrxiv.org/content/10.1101/2020.12.08.20246082v1.",
+        "DOI": "10.1101/2020.12.08.20246082"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002993"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(13)61492-0"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES2015.20.25.21167"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1519235113"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2013.05.002"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.39",
+        "unstructured": "Nextstrain Team. ncov-ingest pipeline; 2024. Available from: https://github.com/nextstrain/ncov-ingest."
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.03773"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.41",
+        "unstructured": "Hodcroft EB , Aksamentov I , Zuber M , Neher RA . CoVariants; 2024. Available from: https://covariants.org/."
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.42",
+        "unstructured": "Federal Department of Home Affairs FDHA, Federal Office of Public Health, Prevention and Public Health Services Directorate, Communicable Diseases Division. Infectious Diseases Dashboard (IDD); 2024. Available from: https://idd.bag.admin.ch/portal-data."
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.43",
+        "unstructured": "Statens Serum Institut. Covid-19 - Danmark (region); 2024. Available from: https://experience.arcgis.com/experience/220fef27d07d438889d651cc2e00076c/page/Covid-19-Regionalt/."
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.44",
+        "unstructured": "Robert Koch-Institut. 7-Tage-Inzidenz der COVID-19-F\u00e4lle in Deutschland; 2024. Available from: https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland/."
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1009849"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-38809-7"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/veac113"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2020.25.17.2000257"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v076.i01"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3002118"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2305299121"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04153"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/infdis/jiab299"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2023.0134"
+      },
+      {
+        "key": "2024100222551172000_2024.05.26.24307940v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2021.0308"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.05.26.24307940",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:01:54Z",
+      "timestamp": 1768507314000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.05.26.24307940"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          27
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1101/2024.05.26.24307940",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

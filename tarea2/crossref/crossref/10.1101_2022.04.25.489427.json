@@ -1,0 +1,295 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:33:23Z",
+      "timestamp": 1768502003725,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          27
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>In 2020 and 2021, more than 1.5 million SARS-CoV-2 sequences were submitted to GenBank. The initial version (v1.0) of the VADR (Viral Annotation DefineR) software package that GenBank uses to automatically validate and annotate incoming viral sequences is too slow and memory intensive to process many thousands of SARS-CoV-2 sequences in a reasonable amount of time. Additionally, long stretches of ambiguous N nucleotides, which are common in many SARS-CoV-2 sequences, prevent VADR from accurate validation and annotation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    VADR has been updated to more accurately and rapidly annotate SARS-CoV-2 sequences. Stretches of consecutive Ns are now identified and temporarily replaced with expected nucleotides to facilitate processing, and the slowest steps have been overhauled using\n                    <jats:italic>blastn</jats:italic>\n                    and\n                    <jats:italic>glsearch</jats:italic>\n                    , increasing speed, reducing the memory requirement from 64Gb to 2Gb per thread, and allowing simple, coarse-grained parallelization on multiple processors per host.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>\n                    VADR is now nearly 1000 times faster than it was in early 2020 for processing SARS-CoV-2 sequences submitted to GenBank. It has been used to screen and annotate more than 1.5 million SARS-CoV-2 sequences since June 2020, and it is now efficient enough to cope with the current rate of hundreds of thousands of submitted sequences per month. Version 1.4.1 is freely available (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/ncbi/vadr\">https://github.com/ncbi/vadr</jats:ext-link>\n                    ) for local installation and use.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.04.25.489427",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2022-04-29T02:30:17Z",
+      "timestamp": 1651199417000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Faster SARS-CoV-2 sequence validation and annotation for GenBank using VADR"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2497-3427",
+        "authenticated-orcid": false,
+        "given": "Eric P",
+        "family": "Nawrocki",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.3",
+        "first-page": "10",
+        "article-title": "Financial Markets Under the Global Pandemic of COVID-19",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Financ Res Lett"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb9263"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.371.6524.10"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2115221118"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-021-00065-4"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "757",
+        "DOI": "10.1038/s41576-021-00408-x",
+        "article-title": "The Biological and Clinical Significance of Emerging SARS-CoV-2 Variants",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "Nat Rev Genet"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1093/nar/gkaa892",
+        "article-title": "Database Resources of the National Center for Biotechnology Information",
+        "volume": "49",
+        "year": "2021",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.10",
+        "first-page": "10",
+        "article-title": "The European Nucleotide Archive in 2021",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.11",
+        "first-page": "10",
+        "article-title": "DNA Data Bank of Japan (DDBJ) Update Report 2021",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.12",
+        "first-page": "10",
+        "article-title": "The International Nucleotide Sequence Database Collaboration",
+        "volume": "49",
+        "year": "2021",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.13",
+        "first-page": "10",
+        "article-title": "The Sequence Read Archive: a Decade More of Explosive Growth",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.14",
+        "first-page": "10",
+        "article-title": "Rapid Automated Validation, Annotation and Publication of SARS-CoV-2 Sequences to GenBank",
+        "volume": "2022",
+        "year": "2022",
+        "journal-title": "Database (Oxford)"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.15",
+        "first-page": "10",
+        "article-title": "Genomic Surveillance to Combat COVID-19: Challenges and Opportunities",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Lancet Microbe"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.16",
+        "first-page": "10",
+        "article-title": "VADR: Validation and Annotation of Virus Sequence Submissions to GenBank",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/25.17.3389"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.85.8.2444"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btl582"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt509"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt403"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.22",
+        "first-page": "57",
+        "article-title": "Small Subunit Ribosomal RNA Modeling Using Stochastic Context-Free Grammars",
+        "volume": "8",
+        "year": "2000",
+        "journal-title": "ISMB"
+      },
+      {
+        "key": "2022052006074904000_2022.04.25.489427v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2836(70)90057-4"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.25.489427",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:58:06Z",
+      "timestamp": 1768445886000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.25.489427"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          27
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2022.04.25.489427",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/nargab/lqad002",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

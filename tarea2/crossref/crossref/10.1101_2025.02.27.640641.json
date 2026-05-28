@@ -1,0 +1,319 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2026-04-11T19:43:35Z",
+      "timestamp": 1775936615515,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 28,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2025-03-02T00:00:00Z",
+          "timestamp": 1740873600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  There is growing interest in pre-training antibody language models (\n                  <jats:bold>AbLMs</jats:bold>\n                  ) with a mixture of unpaired and natively paired sequences, seeking to combine the proven benefits of training with natively paired sequences with the massive scale of unpaired antibody sequence datasets. However, given the novelty of this strategy, the field lacks a systematic evaluation of data processing methods and training strategies that maximize the benefits of mixed training data while accommodating the significant imbalance in the size of existing paired and unpaired datasets. Here we introduce a method of curriculum learning for AbLMs, which facilitates a gradual transition from unpaired to paired sequences during training. We optimize this method and show that a 650M-parameter curriculum model, CurrAb, outperforms existing mixed AbLMs in downstream classification tasks.\n                </jats:p>",
+    "DOI": "10.1101/2025.02.27.640641",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2025-03-02T21:40:19Z",
+      "timestamp": 1740951619000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "A curriculum learning approach to training antibody language models"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8929-5727",
+        "authenticated-orcid": false,
+        "given": "Sarah M.",
+        "family": "Burbach",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Immunology and Microbiology, The Scripps Research Institute, La Jolla, CA 92037 USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9535-2866",
+        "authenticated-orcid": false,
+        "given": "Bryan",
+        "family": "Briney",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Immunology and Microbiology, The Scripps Research Institute, La Jolla, CA 92037 USA"
+          },
+          {
+            "name": "Center for Viral Systems Biology, The Scripps Research Institute, La Jolla, CA 92037 USA"
+          },
+          {
+            "name": "Multi-omics Vaccine Evaluation Consortium, The Scripps Research Institute, La Jolla, CA 92037 USA"
+          },
+          {
+            "name": "Scripps Consortium for HIV/AIDS Vaccine Development, The Scripps Research Institute, La Jolla, CA 92037 USA"
+          },
+          {
+            "name": "San Diego Center for AIDS Research, The Scripps Research Institute, La Jolla, CA 92037 USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-0879-y"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.2",
+        "unstructured": "Ruffolo, J.A. , Gray, J.J. , and Sulam, J. (2021). Deciphering antibody affinity maturation with language models and weakly supervised learning. arXiv [q-bio.BM]."
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.02.02.578678"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patter.2024.100967"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.5",
+        "unstructured": "Kaplan, J. , McCandlish, S. , Henighan, T. , Brown, T.B. , Chess, B. , Child, R. , Gray, S. , Radford, A. , Wu, J. , and Amodei, D. (2020). Scaling laws for neural language models. arXiv [cs.LG]."
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hoffmann, J. , Borgeaud, S. , Mensch, A. , Buchatskaya, E. , Cai, T. , Rutherford, E. , Casas, D. de L. , Hendricks, L.A. , Welbl, J. , Clark, A. , et al. (2022). Training Compute-Optimal Large Language Models. arXiv [cs.CL].",
+        "DOI": "10.52202/068431-2176"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kenlay, H. , Dreyer, F.A. , Kovaltsuk, A. , Miketa, D. , Pires, D. , and Deane, C.M. (2024). Large scale paired antibody language models. arXiv [q-bio.BM].",
+        "DOI": "10.1371/journal.pcbi.1012646"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.12.12.569610"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1611835114"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1553374.1553380"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00354-022-00198-8"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.13",
+        "unstructured": "Su, J. , Lu, Y. , Pan, S. , Murtadha, A. , Wen, B. , and Liu, Y. (2021). RoFormer: Enhanced transformer with Rotary Position Embedding. arXiv [cs.CL]."
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.14",
+        "unstructured": "Hu, S. , Tu, Y. , Han, X. , He, C. , Cui, G. , Long, X. , Zheng, Z. , Fang, Y. , Huang, Y. , Zhao, W. , et al. (2024). MiniCPM: Unveiling the potential of Small Language Models with scalable training strategies. arXiv [cs.CL]."
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.15",
+        "unstructured": "Loshchilov, I. , and Hutter, F. (2016). SGDR: Stochastic gradient descent with warm restarts. arXiv [cs.LG]."
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.10.23.619908"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, T.-Y. , Goyal, P. , Girshick, R. , He, K. , and Doll\u00e1r, P. (2017). Focal Loss for dense object detection. arXiv [cs.CV].",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.1800708"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.12.30.522338"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa739"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.11.557288"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.6348137"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-022-01230-1"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wolf, T. , Debut, L. , Sanh, V. , Chaumond, J. , Delangue, C. , Moi, A. , Cistac, P. , Rault, T. , Louf, R. , Funtowicz, M. , et al. (2019). HuggingFace\u2019s Transformers: State-of-the-art Natural Language Processing. arXiv [cs.CL].",
+        "DOI": "10.18653/v1/2020.emnlp-demos.6"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3620665.3640366"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajbhandari, S. , Rasley, J. , Ruwase, O. , and He, Y. (2019). ZeRO: Memory Optimizations Toward Training Trillion Parameter Models. arXiv [cs.LG].",
+        "DOI": "10.1109/SC41405.2020.00024"
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.27",
+        "unstructured": "Sylvain Gugge , Lysandre Debut , Thomas Wolf , Philipp Schmid , Zachary Mueller , Sourab Mangrulkar , Marc Sun , Benjamin Bossan (2022). Accelerate: Training and inference at scale made simple, efficient and adaptable (Github)."
+      },
+      {
+        "key": "2026041111535279000_2025.02.27.640641v1.28",
+        "unstructured": "H\u00e4gele, A. , Bakouch, E. , Kosson, A. , Allal, L.B. , Von Werra, L. , and Jaggi, M. (2024). Scaling laws and compute-optimal training beyond fixed training durations. arXiv [cs.LG]."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.02.27.640641",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2026-04-11T18:54:00Z",
+      "timestamp": 1775933640000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.02.27.640641"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1101/2025.02.27.640641",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

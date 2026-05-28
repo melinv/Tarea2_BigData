@@ -1,0 +1,506 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:48:43Z",
+      "timestamp": 1768553323174,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          22
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 39,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The genomes of SARS-CoV-2 are classified into variants, some of which are monitored as variants of concern (e.g. the delta variant B.1.617.2 or omicron variant B.1.1.529). Proportions of these variants in a population are typically estimated by large-scale sequencing of individual patient samples. Sequencing a mixture of SARS-CoV-2 RNA molecules from wastewater provides a cost-effective alternative, but requires methods for estimating variant proportions in a mixed sample.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We propose a new method based on a probabilistic model of sequencing reads, capturing sequence diversity present within individual variants, as well as sequencing errors. The algorithm is implemented in an open source Python program called VirPool. We evaluated the accuracy of VirPool on several simulated and real sequencing data sets from both Illumina and nanopore sequencing platforms, including wastewater samples from Austria and France monitoring the onset of alpha and delta variants.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>VirPool is a versatile tool for wastewater and other mixed-sample analysis that can handle both short- and long-read sequencing data. Our approach does not require pre-selection of characteristic mutations for variant profiles, it is able to use the entire length of reads instead of just the most informative positions, and can also capture haplotype dependencies within a single read.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    VirPool is an open source software available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/fmfi-compbio/virpool\">https://github.com/fmfi-compbio/virpool</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.06.21.22276717",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2022-06-22T17:25:11Z",
+      "timestamp": 1655918711000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "VirPool: Model-Based Estimation of SARS-CoV-2 Variant Proportions in Wastewater Samples"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Askar",
+        "family": "Gafurov",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3113-3389",
+        "authenticated-orcid": false,
+        "given": "Andrej",
+        "family": "Bal\u00e1\u017e",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8646-859X",
+        "authenticated-orcid": false,
+        "given": "Fabian",
+        "family": "Amman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1086-3219",
+        "authenticated-orcid": false,
+        "given": "Krist\u00edna",
+        "family": "Bor\u0161ov\u00e1",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8725-9362",
+        "authenticated-orcid": false,
+        "given": "Vikt\u00f3ria",
+        "family": "\u010cabanov\u00e1",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6931-1224",
+        "authenticated-orcid": false,
+        "given": "Boris",
+        "family": "Klempa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0597-1976",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Bergthaler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3898-3447",
+        "authenticated-orcid": false,
+        "given": "Tom\u00e1\u0161",
+        "family": "Vina\u0159",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9483-1766",
+        "authenticated-orcid": false,
+        "given": "Bro\u0148a",
+        "family": "Brejov\u00e1",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "15",
+        "key": "2022062401401512000_2022.06.21.22276717v1.1",
+        "first-page": "e00280",
+        "article-title": "Metatranscriptomic Analysis Reveals SARS-CoV-2 Mutations in Wastewater of the Frankfurt Metropolitan Area in Southern Germany",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Microbiology Resource Announcements"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "118162",
+        "DOI": "10.1016/j.watres.2022.118162",
+        "article-title": "Prevalence and circulation patterns of SARS-CoV-2 variants in European sewage mirror clinical data of 54 European cities",
+        "volume": "214",
+        "year": "2022",
+        "journal-title": "Water Research"
+      },
+      {
+        "issue": "7",
+        "key": "2022062401401512000_2022.06.21.22276717v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.1089/cmb.2017.0249",
+        "article-title": "aBayesQR: A Bayesian Method for Reconstruction of Viral Populations Characterized by Low Diversity",
+        "volume": "25",
+        "year": "2018",
+        "journal-title": "Journal of Computational Biology"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amman F , Markt R , Endler L , Hupfauf S , Agerer B , Schedl A , Richter L , Zechmeister M , Bicher M , Heiler G , et al (2022) National-scale surveillance of emerging SARS-CoV-2 variants in wastewater. medRxiv 2022.01.14.21267633",
+        "DOI": "10.1101/2022.01.14.21267633"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "117438",
+        "DOI": "10.1016/j.watres.2021.117438",
+        "article-title": "Making waves: Plausible lead time for wastewater based epidemiology as an early warning system for COVID-19",
+        "volume": "202",
+        "year": "2021",
+        "journal-title": "Water Research"
+      },
+      {
+        "issue": "10",
+        "key": "2022062401401512000_2022.06.21.22276717v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0259277",
+        "DOI": "10.1371/journal.pone.0259277",
+        "article-title": "Nanopore sequencing of sars-cov-2: Comparison of short and long pcr-tiling amplicon protocols",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bridle JS (1990) Probabilistic interpretation of feedforward classification network outputs, with relationships to statistical pattern recognition. In: Neurocomputing, Springer, pp 227\u2013236",
+        "DOI": "10.1007/978-3-642-76153-9_28"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brunner FS , Brown MR , Bassano I , Denise H , Khalifa MS , Wade M , Kevill JL , Jones DL , Farkas K , Jeffries AR , et al (2022) City-wide wastewater genomic surveillance through the successive emergence of SARS-CoV-2 Alpha and Delta variants. medRxiv 2022.02.16.22269810",
+        "DOI": "10.1101/2022.02.16.22269810"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2683591"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mBio.02703-20"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.11",
+        "unstructured": "De Maio N , Walker C , Borges R , Weilguny L , Slodkowicz G , Goldman N (2020) Issues with SARS-CoV-2 sequencing data. virologicalorg https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473/1. Accessed 13 June 2022"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17504/protocols.io.befyjbpw"
+      },
+      {
+        "issue": "1",
+        "key": "2022062401401512000_2022.06.21.22276717v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1002/gch2.1018",
+        "article-title": "Data, disease and diplomacy: GISAID\u2019s innovative contribution to global health",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Global Challenges"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ellmen I , Lynch MD , Nash D , Cheng J , Nissimov JI , Charles TC (2021) Alcov: Estimating variant of concern abundance from SARS-CoV-2 wastewater sequencing data. medRxiv 2021.06.03.21258306",
+        "DOI": "10.1101/2021.06.03.21258306"
+      },
+      {
+        "issue": "5",
+        "key": "2022062401401512000_2022.06.21.22276717v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1000074",
+        "DOI": "10.1371/journal.pcbi.1000074",
+        "article-title": "Viral population estimation using pyrosequencing",
+        "volume": "4",
+        "year": "2008",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fontenele RS , Kraberger S , Hadfield J , Driver EM , Bowes D , Holland LA , Faleye TO , Adhikari S , Kumar R , Inchausti R , et al (2021) High-throughput sequencing of SARS-CoV-2 in wastewater provides insights into circulating variants. medRxiv 2021.01.22.21250320",
+        "DOI": "10.1016/j.watres.2021.117710"
+      },
+      {
+        "issue": "1",
+        "key": "2022062401401512000_2022.06.21.22276717v1.17",
+        "first-page": "bpaa014",
+        "article-title": "Rapid and inexpensive whole-genome sequencing of SARS-CoV-2 using 1200 bp tiled amplicons and Oxford Nanopore Rapid Barcoding",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Biology Methods&Protocols"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.18",
+        "first-page": "301",
+        "article-title": "Estimation of proportions of SARS-CoV-2 variants in a mixed sequencing sample",
+        "volume": "2962",
+        "year": "2021",
+        "journal-title": "CEUR Workshop Proceedings"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117214"
+      },
+      {
+        "issue": "1",
+        "key": "2022062401401512000_2022.06.21.22276717v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "246",
+        "DOI": "10.2166/wh.2021.186",
+        "article-title": "The devil is in the details: emerging insights on the relevance of wastewater surveillance for SARS-CoV-2 to public health",
+        "volume": "20",
+        "year": "2022",
+        "journal-title": "Journal of Water and Health"
+      },
+      {
+        "issue": "5",
+        "key": "2022062401401512000_2022.06.21.22276717v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1405",
+        "DOI": "10.3201/eid2705.204410",
+        "article-title": "Monitoring SARS-CoV-2 circulation and diversity through community wastewater sequencing, the netherlands and belgium",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Emerging Infectious Diseases"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.22",
+        "unstructured": "Jahn K , Dreifuss D , Topolsky I , Kull A , Ganesanandamoorthy P , Fernandez-Cassi X , B\u00e4nziger C , Stachler E , Fuhrmann L , Philipp Jablonski K , Chen C , Aquino C , Stadler T , Ort C , Kohn T , Julian TR , Beerenwinkel N (2021) Detection of SARS-CoV-2 variants in Switzerland by genomic analysis of wastewater samples. medRxiv 2021.01.08.21249379"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117104"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.25",
+        "unstructured": "Loman N , et al (2020) ARTIC nanopore protocol for nCoV2019 novel coronavirus. https://github.com/artic-network/artic-ncov2019. Accessed 13 June 2022."
+      },
+      {
+        "issue": "6",
+        "key": "2022062401401512000_2022.06.21.22276717v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "100098",
+        "DOI": "10.1016/j.xcrm.2020.100098",
+        "article-title": "Temporal detection and phylogenetic assessment of SARS-CoV-2 in municipal wastewater",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Cell Reports Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2022062401401512000_2022.06.21.22276717v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2659",
+        "DOI": "10.1038/s41598-022-06625-6",
+        "article-title": "Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "6",
+        "key": "2022062401401512000_2022.06.21.22276717v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1038/nprot.2017.066",
+        "article-title": "Multiplex PCR method for MinION and Illumina sequencing of Zika and other virus genomes directly from clinical samples",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "Nature Protocols"
+      },
+      {
+        "issue": "11",
+        "key": "2022062401401512000_2022.06.21.22276717v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Resende PC , Motta FC , Roy S , Appolinario L , Fabri A , Xavier J , Harris K , Matos AR , Caetano B , Orgeswal-ska M , et al (2020) SARS-CoV-2 genomes recovered by long amplicon tiling multiplex approach using nanopore sequencing and applicable to other sequencing platforms. bioRxiv 2020.04.30.069039",
+        "DOI": "10.1101/2020.04.30.069039"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.31",
+        "unstructured": "Rios G , Lacoux C , Leclercq V , Diamant A , Lebrigand K , Lazuka A , Soyeux E , Lacroix S , Fassy J , Couesnon A , et al (2021a) Characteristic mutations of SARS-CoV-2 variants. https://github.com/ucagenomix/cagablea/blob/main/data_base/agg_data_lineage_All_2019-12-15-2020-12-31_top_2000.csv. Accessed 13 June 2022."
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "100202",
+        "DOI": "10.1016/j.lanepe.2021.100202",
+        "article-title": "Monitoring SARS-CoV-2 variants alterations in Nice neighborhoods by wastewater nanopore sequencing",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "The Lancet Regional Health-Europe"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2119600119"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "747458",
+        "DOI": "10.3389/fmicb.2021.747458",
+        "article-title": "Strategy and performance evaluation of low-frequency variant calling for SARS-CoV-2 using targeted deep Illumina sequencing",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Frontiers in Microbiology"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "article-title": "SciPy 1.0: Fundamental algorithms for scientific computing in python",
+        "volume": "17",
+        "author": "SciPy 10 Contributors",
+        "year": "2020",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "issue": "8",
+        "key": "2022062401401512000_2022.06.21.22276717v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1042",
+        "DOI": "10.3390/pathogens10081042",
+        "article-title": "Monitoring the circulation of SARS-CoV-2 variants by genomic analysis of wastewater in Marseille, south-east France",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Pathogens"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie Y , Challis JK , Oloye FF , Asadi M , Cantin J , Brinkmann M , McPhedran KN , Hogan N , Sadowski M , Jones PD , Landgraff C , Mangat C , Servos MR , Giesy JP (2022) RNA in municipal wastewater reveals magnitudes of COVID-19 outbreaks across four waves driven by SARS-CoV-2 variants of concern. ACS ES&T Water",
+        "DOI": "10.1021/acsestwater.1c00349"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-119"
+      },
+      {
+        "key": "2022062401401512000_2022.06.21.22276717v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/279232.279236"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.21.22276717",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:45:29Z",
+      "timestamp": 1768488329000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.06.21.22276717"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          22
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1101/2022.06.21.22276717",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1186/s12859-022-05100-3",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

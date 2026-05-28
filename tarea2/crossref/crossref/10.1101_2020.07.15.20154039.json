@@ -1,0 +1,635 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:38:07Z",
+      "timestamp": 1768549087939,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 94,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  An essential indicator of COVID-19 transmission is the effective reproduction number (\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  ), the number of cases which an infected individual is expected to infect at a particular point in time; curves of the evolution of\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  over time (transmission curves) reflect the impact of preventive measures and whether an epidemic is controlled. We have created a Shiny/R web application (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://alfredob.shinyapps.io/estRO/\">https://alfredob.shinyapps.io/estRO/</jats:ext-link>\n                  ) with user-selectable features: open data sources with daily COVID-19 incidences from all countries and many regions, customizable preprocessing options (smoothing, proportional increment, backwards distribution of negative corrections, etc), different MonteCarlo-Markov-Chain estimates of the generation time or serial interval distributions and state-of-the-art\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  estimation frameworks (EpiEstim, R0). We have analyzed the impact of these factors in the obtained transmission curves. We also have obtained curves at the national and sub-national level and analyzed the impact of epidemic control strategies, superspreading events, socioeconomic factors and outbreaks.\n                </jats:p>\n                <jats:p>We conclude that country wealth and, to a lesser extent, mitigation strategies, were associated with poorer epidemic control. Dataset quality was an important factor, and sometimes dictated the necessity of time series smoothing. We couldn\u2019t find conclusive evidence regarding the impact of alleged superspreading events. In the reopening phase, outbreaks had an impact on transmission curves. This application could be used interactively as a tool both to obtain transmission estimates and to perform interactive sensitivity analysis.</jats:p>",
+    "DOI": "10.1101/2020.07.15.20154039",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2020-07-16T12:17:41Z",
+      "timestamp": 1594901861000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "COVID-19 effective reproductive ratio determination: An application, and analysis of issues and influential factors"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9470-8717",
+        "authenticated-orcid": false,
+        "given": "Luis Alfredo Bautista",
+        "family": "Baib\u00e1s",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Mario Gil",
+        "family": "Conesa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8370-6003",
+        "authenticated-orcid": false,
+        "given": "Gil Rodr\u00edguez",
+        "family": "Caravaca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Blanca Bautista",
+        "family": "Baib\u00e1s",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.1",
+        "unstructured": "Note: Unless otherwise specified, all datasets have been used in their latest update available as of August 11, 2020."
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2501.171901"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wan H , Cui J-a , Yang G-J . Risk estimation and prediction by modeling the transmission of the novel coronavirus (COVID-19) in mainland china excluding hubei province. 2020 Mar; Available from: https://doi.org/10.1101/2020.03.01.20029629",
+        "DOI": "10.1101/2020.03.01.20029629"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dropkin G . COVID-19 UK lockdown forecasts and r0. Frontiers in Public Health. 2020 May;8. Available from: https://doi.org/10.3389/fpubh.2020.00256",
+        "DOI": "10.3389/fpubh.2020.00256"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arenas A , Cota W , Gomez-Gardenes J , Gomez S , Granell C , Matamalas JT , et al. Derivation of the effective reproduction number r for COVID-19 in relation to mobility restrictions and confinement. 2020 Apr; Available from: https://doi.org/10.1101/2020.04.06.20054320",
+        "DOI": "10.1101/2020.04.06.20054320"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.6.1",
+        "unstructured": "European Centre for Disease Prevention and Control. Rapid risk assessment: Outbreak of novel coronavirus disease 2019 (covid-19): Increased transmission globally - fifth update. 2020 Mar 2"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.6.2",
+        "unstructured": "[accessed: 12 Jul 2020] Available from: https://www.ecdc.europa.eu/en/publications-data/rapid-risk-assessment-outbreak-novel-coronavirus-disease-2019-covid-19-increased"
+      },
+      {
+        "issue": "1",
+        "key": "2021012812001724000_2020.07.15.20154039v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ajg.2020.04.010",
+        "article-title": "COVID-19: Mitigation or suppression",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "Arab Journal of Gastroenterology"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.8",
+        "unstructured": "Ferguson N , Laydon D , Nedjati Gilani G , Imai N , Ainslie K , Baguelin M , et al. Report 9: Impact of non-pharmaceutical interventions (npis) to reduce covid19 mortality and healthcare demand. 2020; Available from: http://spiral.imperial.ac.Uk/handle/10044/l/77482"
+      },
+      {
+        "issue": "15",
+        "key": "2021012812001724000_2020.07.15.20154039v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1441",
+        "DOI": "10.1001/jama.2020.3882",
+        "article-title": "From containment to mitigation of COVID-19 in the US",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.10",
+        "unstructured": "World Health Organization. Managing epidemics: Key facts about major deadly diseases. 2018. [accessed 2 Aug 2020] Available from: https://www.who.int/emergencies/diseases/managing-epidemics/en/"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.11.1",
+        "unstructured": "European Centre for Disease Prevention and Control. Rapid risk assessment: Coronavirus disease 2019 (covid-19) in the eu/eea and the uk-ninth update. 2020 Apr 23"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.11.2",
+        "unstructured": "[accessed 12 Jul 2020] Available from: https://www.ecdc.europa.eu/en/publications-data/rapid-risk-assessment-coronavirus-disease-2019-covid-19-pandemic-ninth-update"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.12",
+        "unstructured": "Ministerio de Sanidad. Plan para la transicion hacia una nueva normalidad. 2020. [accessed 5 Jun 2020] Available from: https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/PlanTransicionNuevaNormalidad.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.13",
+        "unstructured": "United Kingdom Cabinet Office. Our plan to rebuild: The uk government\u2019s covid-19 recovery strategy. Command paper number cp 239. 2020. [accessed 5 Jun 2020] Available from: https://www.gov.uk/government/publications/our-plan-to-rebuild-the-uk-governments-covid-19-recovery-strategy/our-plan-to-rebuild-the-uk-governments-covid-19-recovery-strategy"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.14",
+        "unstructured": "Varela JCA , Mexico G de . ACUERDO por el que se establece una estrategia para la reapertura de las actividades sociales, educativas y econ\u00f3micas, as\u00ed como un sistema de sem\u00e1foro por regiones para evaluar semanalmente el riesgo epidemiol\u00f3gico relacionado con la reapertura de actividades en cada entidad federativa, as\u00ed como se establecen acciones extraordinarias. 2020. [accessed: 21 Jun 2020] Available from: https://dof.gob.mx/nota_detalle.php?codigo=5593313&fecha=14/05/2020"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.15",
+        "unstructured": "Gouvernement de la France. 2\u00e8me \u00e9tape du plan de d\u00e9confinement. 2020. [accessed: 7 Jun 2020] Available from: https://www.gouvernement.fr/sites/default/files/document/document/2020/05/presentation_-_2eme_etape_du_plan_de_deconfinement_-_28.05.2020.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.16",
+        "unstructured": "C\u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u0441\u043b\u0443\u0436\u0431\u0430 \u043f\u043e \u043d\u0430\u0434\u0437\u043e\u0440\u0443 \u0432 \u0441\u0444\u0435\u0440\u0435 \u0437\u0430\u0449\u0438\u0442\u044b \u043f\u0440\u0430\u0432 \u043f\u043e\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u0435\u0439 \u0438 \u0431\u043b\u0430\u0433\u043e\u043f\u043e\u043b\u0443\u0447\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 (Federal Service for Surveillance on Consumer Rights Protection and Human Wellbeing). \u041f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0430 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0431\u043e\u043b\u0435\u0437\u043d\u0435\u0439 \u043c\u0435\u0442\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0438 \u043c\u0440 3.1.0178-20. 2020. [accessed: 13 Jun 2020] Available from: https://xn--80aesfpebagmfblc0a.xn--p1ai/ai/doc/214/attach/mr_poetapnoe_snyatie_ogranich._08.05.2020.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.17",
+        "unstructured": "WHO Team. Department of Communications. Annex: Public health criteria to adjust public health and social measures in the context of covid-19. World Health Organization; 2020. [accessed: 27 Jun 2020] Available from: https://www.who.int/publications/i/item/public-health-criteria-to-adjust-public-health-and-social-measures-in-the-context-of-covid-19"
+      },
+      {
+        "issue": "2",
+        "key": "2021012812001724000_2020.07.15.20154039v2.18",
+        "first-page": "lll",
+        "article-title": "Super-spreading events and contribution to transmission of MERS, SARS, and SARS-CoV-2 (COVID-19)",
+        "volume": "105",
+        "year": "2020",
+        "journal-title": "Journal of Hospital Infection"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.19.1",
+        "unstructured": "Bengel C . Coronavirus: How a champions league match contributed to italy's covid-19 outbreak. CBS Sports. 2020 Mar 26"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.19.2",
+        "unstructured": "[accessed: 1 Jun 2020] Available from: https://www.cbssports.com/soccer/news/coronavirus-how-a-champions-league-match-contributed-to-italys-covid-19-outbreak/"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.20",
+        "unstructured": "Parra E . Sanidad defiende marcha del 8M en madrid porque el aumento de casos de coronavirus \u201cse concret\u00f3 el lunes por la ma\u00f1ana\u201d. Europa Press. 2020 Mar; [accessed: 1 Jun 2020] Available from: https://www.europapress.es/epsocial/igualdad/noticia-sanidad-defiende-marcha-8m-madrid-porque-aumento-casos-coronavirus-concreto-lunes-manana-20200311132735.html"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.21",
+        "unstructured": "Gomez MV , Quesada JD . Women\u2019s day marches in spain attract mass numbers despite coronavirus fears. El Pais. 2020 Mar; [accessed: 1 Jun 2020] Available from: https://english.elpais.com/society/2020-03-09/womens-day-marches-in-spain-attract-mass-numbers-despite-coronavirus-fears.html"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.22",
+        "unstructured": "Sala\u00fcn T . Special report: Five days of worship that set a virus time bomb in france. Reuters. 2020 Mar 30; [accessed: 30 Jun 2020] Available from: https://www.reuters.com/article/us-health-coronavirus-france-church-spec/special-report-five-days-of-worship-that-set-a-virus-time-bomb-in-france-idUSKBN21H0Q2"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.23",
+        "unstructured": "Zdanowicz C . More than 40 spring breakers who ignored public health advice test positive for coronavirus. CNN travel. 2020 Apr 2; [accessed: 1 Jun 2020] Available from: https://edition.cnn.com/travel/article/austin-spring-breakers-coronavirus-trnd/index.html"
+      },
+      {
+        "issue": "6",
+        "key": "2021012812001724000_2020.07.15.20154039v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1059",
+        "DOI": "10.3201/eid2606.200495",
+        "article-title": "Identifying and interrupting superspreading eventsImplications for control of severe acute respiratory syndrome coronavirus 2",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Emerging Infectious Diseases"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Griffin JM , Collins AB , Hunt K , McEvoy D , Casey M , Byrne AW , et al. A rapid review of available evidence on the serial interval and generation time of COVID-19. 2020 May; Available from: https://doi.org/10.1101/2020.05.08.20095075",
+        "DOI": "10.1101/2020.05.08.20095075"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ganyani T , Kremer C , Chen D , Torneri A , Faes C , Wallinga J , et al. Estimating the generation interval for coronavirus disease (COVID-19) based on symptom onset data, march 2020. Eurosurveillance. 2020 Apr;25(17). Available from: https://doi.org/10.2807/1560-7917.es.2020.25.17.2000257",
+        "DOI": "10.2807/1560-7917.ES.2020.25.17.2000257"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.3659"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao S , Gao D , Zhuang Z , Chong M , Cai Y , Ran J , et al. Estimating the serial interval of the novel coronavirus disease (COVID-19): A statistical analysis using the public data in hong kong from january 16 to february 15, 2020. 2020 Feb; Available from: https://doi.org/10.1101/2020.02.21.20026559",
+        "DOI": "10.1101/2020.02.21.20026559"
+      },
+      {
+        "issue": "6",
+        "key": "2021012812001724000_2020.07.15.20154039v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1341",
+        "DOI": "10.3201/eid2606.200357",
+        "article-title": "Serial interval of COVID-19 among publicly reported confirmed cases",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Emerging Infectious Diseases"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2006.3754"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0000758"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwh255"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.35",
+        "unstructured": "Chang W , Cheng J , Allaire J , Xie Y , McPherson J . Shiny: Web application framework for r. 2020. Available from: https://CRAN.R-project.org/package=shiny"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cota W . Monitoring the number of COVID-19 cases and deaths in brazil at municipal and federative units level. SciELOPreprints:362. 2020 May; Available from: https://doi.org/10.1590/scielopreprints.362",
+        "DOI": "10.1590/SciELOPreprints.362"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.06.20055582"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30227-9"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1016/j.ijid.2020.06.009",
+        "article-title": "Estimating the undetected infections in the covid-19 outbreak by harnessing capturerecapture methods",
+        "volume": "97",
+        "year": "2020",
+        "journal-title": "International Journal of Infectious Diseases"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2019.100356"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.41",
+        "unstructured": "International Monetary Fund. World economic outlook, October 2019. Global manufacturing downturn, rising trade barriers. WorldBank; 2019. [accessed: 13 Jul 2020] Available from: https://www.imf.org/en/Publications/WEO/Issues/2019/10/01/world-economic-outlook-october-2019"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.42",
+        "unstructured": "International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme. WorldBank; [accessed: 1 Jul 2020] Available from: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.43",
+        "unstructured": "Ministerio de Sanidad. Evoluci\u00f3n de enfermedad por el coronavirus (covid-19). 2020. [accessed: 11 Aug 2020] Available from: https://datos.gob.es/es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.44",
+        "unstructured": "Ponencia de Alertas y Planes de Preparaci\u00f3n y Respuesta and Comisi\u00f3n de Salud P\u00fablica del Consejo Interterritorial. Ministerio de Sanidad. Estrategia de diagn\u00f3stico, vigilancia y control en la fase de transici\u00f3n de la pandemia de covid-19. Indicadores de seguimiento. 2020. [accessed: 5 Jun 2020] Available from: https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/C0VID19_Estrategia_vigilancia_y_control_e_indicadores.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.45",
+        "unstructured": "OECD. Regional economy - gross domestic product, large regions tl2. OECD; [accessed: 25 Jun 2020] Available from: https://stats.oecd.org/Index.aspx?DataSetCode=REGION_ECONOM"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.46",
+        "unstructured": "Departament de Salut. Registre de casos de covid-19 realitzats a catalunya. Segregaci\u00f3 per sexe i area basica de salut (abs). dades obertes catalunya; [accessed: 11 Aug 2020] Available from: https://analisi.transparenciacatalunya.cat/Salut/Registre-de-casos-de-C0VID-19-realitzats-a-Catalun/xuwf-dxjd"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.47",
+        "unstructured": "Societ\u00e0 Italiana di Anestesia Analgesia Rianimazione e Terapia Intensiva, Grupo di Lavoro. Raccomandazioni di etica clinica per l\u2019ammissione a trattamenti intensivi e per la loro sospensione, in condizioni eccezionali di squilibrio tra necessit\u00e0 e risorse disponibili. 2020. [accessed: 24 May 2020] Available from: http://www.siaarti.it/SiteAssets/News/COVID19%20-%20documenti%20SIAARTI/SIAARTI%20-%20Covidl9%20-%20Raccomandazioni%20di%20etica%20clinica.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.48",
+        "unstructured": "Disease Prevention EC for, Control. COVID-19 coronavirus data. EU Open Data Portal; 2020. [accessed: 11 Aug 2020] Available from: https://data.europa.eu/euodp/es/data/dataset/covid-19-coronavirus-data"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.49.1",
+        "unstructured": "P\u00e9rez R . Temor por el crecimiento de contagios en m\u00e1laga tras confirmarse tres nuevos brotes de covid en andaluc\u00eda. ABC. 2020 Jun 23"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.49.2",
+        "unstructured": "[accessed: 3 Jul 2020] Available from: https://www.abc.es/espana/aragon/abci-agravan-brotes-aragon-66-casos-covid-solo-dias-diez-veces-mas-hace-semana-202006231332_noticia.html"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.50.1",
+        "unstructured": "El Mundo . Temor por el crecimiento de contagios en m\u00e1laga tras confirmarse tres nuevos brotes de covid en andalucfa. El Mundo. 2020 Jun 26"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.50.2",
+        "unstructured": "[accessed: 3 Jul 2020] Available from: https://www.elmundo.es/andalucia/2020/06/26/5ef5e0ec21efa0580e8b4617.html"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.51",
+        "unstructured": "Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. COVID-19 data repository. John Hopkins University; 2020. [accessed: 11 Aug 2020] Available from: https://github.com/CSSEGISandData/C0VID-19"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.52",
+        "unstructured": "Centro Nacional de Epemiolog\u00eda ISCIII.. Consejo Interterritorial. Ministerio de Sanidad. Estudio ene-covidl9: Segunda ronda. Estudio nacional de seroprevlaencia de la infecci\u00f3n por sars-cov-2 en espa\u00f1a. 2020. [accessed: 5 Jun 2020] Available from: https://portalcne.isciii.es/enecovidl9/ene_covidl9_inf_pre2.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2006100"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.54",
+        "unstructured": "Instituto Nacional de Salud, Colombia Government. Casos positivos de covid-19 en Colombia. [accessed: 11 Aug 2020] Available from: https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.55",
+        "unstructured": "Equipo COVID-19. RENAVE. CNE. CNM (ISCIII). Informe n-38. Situacion de covid-19 en espana. Casos diagnosticados a partir 10 de mayo. 2020. [accessed: 11 Aug 2020] Available from: https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/GRIPE/Informe%20n%C2%BA%2038.Situaci%C3%B3n%20de%20COVID-19%20en%20Espa%C3%Bla%20a%206%20de%20agosto%20de%202020.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.56",
+        "unstructured": "Direcci\u00f3n General de Salud P\u00fablica, Calidad e Innovaci\u00f3n. Ministerio de Sanidad. Actualizaci\u00f3n no 102. Enfermedad por el coronavirus (covid-19). 11.05.2020. 2020. [accessed: 10 Jun 2020] Available from: https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/Actualizacion_102_COVID-19.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.57",
+        "unstructured": "Ministerio de Sanidad. Estrategia de diagn\u00f3stico, vigilancia y control en la fase de transici\u00f3n de la pandemia de covid-19. Indicadores de seguimiento. 2020. [accessed: 30 Jun 2020] Available from: https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/Anexo_I_PANEL_DE_INDICADORES.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.58",
+        "unstructured": "Llaneras K . The problems spain\u2019s outdated data methods have caused during a 21st-century pandemic. El Pa\u00eds. 2020 Jun 24; Available from: https://english.elpais.com/society/2020-06-24/the-problems-spains-outdated-data-methods-have-caused-during-a-21st-century-pandemic.html"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.59",
+        "unstructured": "Equipo COVID-19. RENAVE. CNE. CNM (ISCIII). Informe sobre la situaci\u00f3n de covid-19 en espa\u00f1a. 2020. [accessed: 11 Jun 2020] Available from: https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/Informe%20n%C2%BA%2032.%20Situaci%C3%B3n%20de%20COVID-19%20en%20Espa%C3%Bla%20a%2021%20de%20mayo%20de%202020.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbott S , Hellewell J , Thompson RN , Sherratt K , Gibbs HP , Bosse NI , et al. Estimating the time-varying reproduction number of SARS-CoV-2 using national and subnational case counts. Wellcome Open Research. 2020 Jun;5:112. Available from: https://doi.Org/10.12688/wellcomeopenres.16006.1",
+        "DOI": "10.12688/wellcomeopenres.16006.1"
+      },
+      {
+        "issue": "19",
+        "key": "2021012812001724000_2020.07.15.20154039v2.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "1915",
+        "DOI": "10.1001/jama.2020.6130",
+        "article-title": "Association of public health interventions with the epidemiology of the COVID-19 outbreak in wuhan, china",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee VJ , Chiew CJ , Khong WX . Interrupting transmission of COVID-19: Lessons from containment efforts in Singapore. Journal of Travel Medicine. 2020 Mar;27(3). Available from: https://doi.org/10.1093/jtm/taaa039",
+        "DOI": "10.1093/jtm/taaa039"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.63.1",
+        "unstructured": "European Centre for Disease Prevention and Control. Projected baselines of covid-19 in the eu/eea and the uk for assessing the impact of de-escalation of measures. 2020 May 26"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.63.2",
+        "unstructured": "[accessed: 27 Jun 2020] Available from: https://www.ecdc.europa.eu/en/publications-data/projected-baselines-covid-19-eueea-and-uk-assessing-impact-de-escalation-measures"
+      },
+      {
+        "issue": "03",
+        "key": "2021012812001724000_2020.07.15.20154039v2.64",
+        "first-page": "194",
+        "article-title": "Grupo de Trabajo Hotel Medicalizado Tenerife Sur COVID 19",
+        "volume": "32",
+        "year": "2020",
+        "journal-title": "First public health measures for the containment of covid-19: A hotel in quarantine"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.65",
+        "unstructured": "Gabinete de Prensa. Ministerio de Sanidad y Consumo. Gobierno de Espa\u00f1a. El consejo interterritorial del sns acuerda medidas concretas para zonas con transmisi\u00f3n comunitaria significativa de coronavirus. 2020. [accessed: 12 Jun 2020] Available from: https://www.mscbs.gob.es/gabinete/notasPrensa.do?id=4806"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bergman NK , Fishman R . Correlations of mobility and covid-19 transmission in global data. 2020 May; Available from: https://doi.org/10.1101/2020.05.06.20093039",
+        "DOI": "10.1101/2020.05.06.20093039"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.67",
+        "unstructured": "The Swedish Government. Strategy in response to the covid-19 pandemic. Government Offices of Sweden; 2020. [accessed: 9 Jul 2020] Available from: https://www.government.se/articles/2020/04/strategy-in-response-to-the-covid-19-pandemic/"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.68.1",
+        "unstructured": "European Centre for Disease Prevention and Control. Rapid risk assessment: Resurgence of reported cases of covid 19 in the eu/eea, the uk and eu candidate and potential candidate countries. 2020 Jul 2"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.68.2",
+        "unstructured": "[accessed: 12 Jul 2020] Available from: https://www.ecdc.europa.eu/en/publications-data/rapid-risk-assessment-resurgence-reported-cases-covid-19"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torres-Roman JS , Kobiak IC , Valcarcel B , Diaz-Velez C , Vecchia CL . The reproductive number rO of COVID-19 in peru: An opportunity for effective changes. Travel Medicine and Infectious Disease. 2020 Apr;101689. Available from: https://doi.Org/10.1016/j.tmaid.2020.101689",
+        "DOI": "10.1016/j.tmaid.2020.101689"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.70",
+        "unstructured": "Ministerio de Ciencia, Tecnolog\u00eda, Conocimiento e Innovaci\u00f3n. Datos-covidl9. [accessed: 11 Aug 2020] Available from: https://github.com/MinCiencia/Datos-C0VID19"
+      },
+      {
+        "issue": "0",
+        "key": "2021012812001724000_2020.07.15.20154039v2.71",
+        "doi-asserted-by": "crossref",
+        "first-page": "0",
+        "DOI": "10.4103/ijmr.IJMR_860_20",
+        "article-title": "COVID-19 in india: Moving from containment to mitigation",
+        "volume": "0",
+        "year": "2020",
+        "journal-title": "Indian Journal of Medical Research"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Herzog S , Bie JD , Abrams S , Wouters I , Ekinci E , Patteet L , et al. Seroprevalence of IgG antibodies against SARS coronavirus 2 in belgium: A prospective cross-sectional study of residual samples. 2020 Jun; Available from: https://doi.org/10.1101/2020.06.08.20125179",
+        "DOI": "10.1101/2020.06.08.20125179"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijheh.2020.113555"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Y , Gayle AA , Wilder-Smith A , Rockl\u00f6v J . The reproductive number of COVID-19 is higher compared to SARS coronavirus. Journal of Travel Medicine. 2020 Feb;27(2). Available from: https://doi.org/10.1093/jtm/taaa021",
+        "DOI": "10.1093/jtm/taaa021"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.75",
+        "unstructured": "Equipo COVID-19. RENAVE. CNE. CNM (ISCIII). Informe sobre la situaci\u00f3n de covid-19 en espa\u00f1a. 2020. [accessed: 11 Jun 2020] Available from: https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/Informe%20n%C2%BA%2032.%20Situaci%C3%B3n%20de%20COVID-19%20en%20Espa%C3%Bla%20a%2021%20de%20mayo%20de%202020.pdf"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.76",
+        "unstructured": "John Hopkins Testing Hub. Johns hopkins covid-19 testing insights initiative. Coronavirus Resource Center (John Hopkins University of Medicine); 2020. [accessed: 11 Aug 2020] Available from: https://coronavirus.jhu.edu/testing"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.77",
+        "unstructured": "Minsal M. CJ . Jmcastagnetto/covid-19-peru-data: Datos actualizados al 2020-06-19. Zenodo; 2020. [accessed: 11 Aug 2020] Available from: https://zenodo.org/record/3901865"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.78",
+        "unstructured": "Public Health Agency of Canada. Public health infobase - data on covid-19 in canada. Government of Canada; [accessed: 11 Aug 2020] Available from: https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.79",
+        "unstructured": "Direcci\u00f3n General de Sistemas de Informaci\u00f3n, Calidad y Prestaci\u00f3n Farmac\u00e9utica - Consejer\u00eda de Sanidad. Pruebas realizadas coronavirus. Junta de Castilla y Le\u00f3n; [accessed: 11 Aug 2020] Available from: https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/pruebas-coronavirus/1284947954927"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.80",
+        "unstructured": "Ministerio de Sanidad. Evoluci\u00f3n de enfermedad por el coronavirus (covid-19). 2020. [accessed: 21 May 2020] Available from: https://datos.gob.es/es/catalogo/e05070101-evolucion-de-enfermedad-por-el-coronavirus-covid-19"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.81",
+        "unstructured": "Sciensano, Belgium. COVID-19. Sciensano; 2020. [accessed: 11 Aug 2020] Available from: https://epistatwiv-isp.be/covid/"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.82",
+        "unstructured": "Data from The New York Times, based on reports from state and local health agencies. Coronavirus (covid-19) data in the united states. The New York Times; 2020. [accessed: 11 Aug 2020] Available from: https://github.com/nytimes/covid-19-data"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.83",
+        "unstructured": "Immanuel Marcus . Berlin: Authorities fight coronavirus outbreak in apartment building. Berlin Inspectator; 2020. [accessed: 24 Jun 2020] Available from: https://berlinspectator.com/2020/06/15/berlin-authorities-fight-coronavirus-outbreak-in-apartment-building/"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.84",
+        "unstructured": "Deutsche Welle and dj/rc (Reuters, dpa, AFP). Germany puts two western districts on lockdown. Deutsche Welle; 2020. [accessed: 24 Jun 2020] Available from: https://p.dw.com/p/3eEdt"
+      },
+      {
+        "key": "2021012812001724000_2020.07.15.20154039v2.85",
+        "unstructured": "J Gehrcke , based on reports from Robert-Koch-Institut, and health agencies. COVID-19 case numbers in germany by state, over time. The New York Times; 2020. [accessed: 11 Aug 2020] Available from: https://github.com/jgehrcke/covid-19-germany-gae"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.86.1",
+        "unstructured": "S\u00e0nchez G , P\u00e9rez B . Catalunya decreta el confinamiento de lleida y su comarca por los rebrotes. elPeriodico. 2020 Jul 4"
+      },
+      {
+        "key": "#cr-split#-2021012812001724000_2020.07.15.20154039v2.86.2",
+        "unstructured": "[accessed: 4 Jul 2020] Available from: https://www.elperiodico.com/es/sociedad/20200704/el-govern-decreta-el-confinamiento-de-la-comarca-del-segria-lleida-8026251"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.15.20154039",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:48:16Z",
+      "timestamp": 1768484896000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.15.20154039"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "references-count": 94,
+    "URL": "https://doi.org/10.1101/2020.07.15.20154039",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1515/em-2020-0048",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

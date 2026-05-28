@@ -1,0 +1,512 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:07:43Z",
+      "timestamp": 1768550863617,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          4
+        ]
+      ]
+    },
+    "group-title": "Respiratory Medicine",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>An artificial intelligence (AI)-based model to predict COVID-19 likelihood from chest x-ray (CXR) findings can serve as an important adjunct to accelerate immediate clinical decision making and improve clinical decision making. Despite significant efforts, many limitations and biases exist in previously developed AI diagnostic models for COVID-19. Utilizing a large set of local and international CXR images, we developed an AI model with high performance on temporal and external validation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>Investigate real-time performance of an AI-enabled COVID-19 diagnostic support system across a 12-hospital system.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Prospective observational study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Labeled frontal CXR images (samples of COVID-19 and non-COVID-19) from the M Health Fairview (Minnesota, USA), Valencian Region Medical ImageBank (Spain), MIMIC-CXR, Open-I 2013 Chest X-ray Collection, GitHub COVID-19 Image Data Collection (International), Indiana University (Indiana, USA), and Emory University (Georgia, USA)</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>Internal (training, temporal, and real-time validation): 51,592 CXRs; Public: 27,424 CXRs; External (Indiana University): 10,002 CXRs; External (Emory University): 2002 CXRs</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main Outcome and Measure</jats:title>\n                  <jats:p>Model performance assessed via receiver operating characteristic (ROC), Precision-Recall curves, and F1 score.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Patients that were COVID-19 positive had significantly higher COVID-19 Diagnostic Scores (median .1 [IQR: 0.0-0.8] vs median 0.0 [IQR: 0.0-0.1], p &lt; 0.001) than patients that were COVID-19 negative. Pre-implementation the AI-model performed well on temporal validation (AUROC 0.8) and external validation (AUROC 0.76 at Indiana U, AUROC 0.72 at Emory U). The model was noted to have unrealistic performance (AUROC &gt; 0.95) using publicly available databases. Real-time model performance was unchanged over 19 weeks of implementation (AUROC 0.70). On subgroup analysis, the model had improved discrimination for patients with \u201csevere\u201d as compared to \u201cmild or moderate\u201d disease, p &lt; 0.001. Model performance was highest in Asians and lowest in whites and similar between males and females.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions and Relevance</jats:title>\n                  <jats:p>AI-based diagnostic tools may serve as an adjunct, but not replacement, for clinical decision support of COVID-19 diagnosis, which largely hinges on exposure history, signs, and symptoms. While AI-based tools have not yet reached full diagnostic potential in COVID-19, they may still offer valuable information to clinicians taken into consideration along with clinical signs and symptoms.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.06.04.21258316",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2021-06-04T21:00:28Z",
+      "timestamp": 1622840428000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "A Prospective Observational Study to Investigate Performance of a Chest X-ray Artificial Intelligence Diagnostic Support Tool Across 12 U.S. Hospitals"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Ju",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Le",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Taihui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dyah",
+        "family": "Adila",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zach",
+        "family": "Zaiman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Genevieve B.",
+        "family": "Melton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicholas",
+        "family": "Ingraham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Boley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sean",
+        "family": "Switzer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John L.",
+        "family": "Burns",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kun",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tadashi",
+        "family": "Allen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Scott D.",
+        "family": "Steenburg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Judy Wawira",
+        "family": "Gichoya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Erich",
+        "family": "Kummerfeld",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher",
+        "family": "Tignanelli",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.1",
+        "unstructured": "Press briefing by WHO Director General [press release]. 03/11/2020"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.5046"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.3",
+        "unstructured": "Prevention CfDCa. Interim Guidelines for Collecting, Handling, and Testing Clinical Specimens from Persons for Coronavirus Disease 2019 (COVID-19). https://www.cdc.gov/coronavirus/2019-ncov/lab/guidelines-clinical-specimens.html. Published 2020. Accessed 04/26/2020."
+      },
+      {
+        "issue": "6",
+        "key": "2021060703050690000_2021.06.04.21258316v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e38",
+        "DOI": "10.1056/NEJMp2015897",
+        "article-title": "False Negative Tests for SARS-CoV-2 Infection - Challenges and Implications",
+        "volume": "383",
+        "year": "2020",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1038/s42256-021-00307-0",
+        "article-title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeGrave AJ , Janizek JD , Lee SI . AI for radiographic COVID-19 detection selects shortcuts over signal. medRxiv. 2020.",
+        "DOI": "10.1101/2020.09.13.20193565"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.7",
+        "unstructured": "Was there COVID-19 back in 2012? Challenge for AI in Diagnosis with Similar Indications. https://arxiv.org/abs/2006.13262. 2020.."
+      },
+      {
+        "issue": "3",
+        "key": "2021060703050690000_2021.06.04.21258316v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1038/s41432-020-0115-5",
+        "article-title": "Can medical practitioners rely on prediction models for COVID-19? A systematic review",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "Evid Based Dent"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.9",
+        "unstructured": "BIMCV COVID-19+: a large annotated dataset of RX and CT images from COVID-19 patients. https://arxiv.org/abs/2006.01174. Retrieval Date: Aug 20 2020."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.10",
+        "unstructured": "Covid-19 Chest Xray Dataset: https://github.com/ieee8023/covid-chestxray-dataset. Retrieval Date: Oct 18th 2020."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.11",
+        "unstructured": "Medical Imaging and Data Resource Center (MIDRC). https://www.midrc.org/midrc-data. Accessed on May 20, 2021.."
+      },
+      {
+        "issue": "1",
+        "key": "2021060703050690000_2021.06.04.21258316v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "317",
+        "DOI": "10.1038/s41597-019-0322-0",
+        "article-title": "MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports",
+        "volume": "6",
+        "year": "2019",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.13",
+        "unstructured": "Open-i Open Access Biomedical Image Search Engine National Library of Medicine. https://openi.nlm.nih.gov/.."
+      },
+      {
+        "issue": "8",
+        "key": "2021060703050690000_2021.06.04.21258316v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1007/s11547-020-01232-9",
+        "article-title": "Chest X-ray in new Coronavirus Disease 2019 (COVID-19) infection: findings and correlation with clinical outcome",
+        "volume": "125",
+        "year": "2020",
+        "journal-title": "Radiol Med"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201160"
+      },
+      {
+        "issue": "3",
+        "key": "2021060703050690000_2021.06.04.21258316v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "E346",
+        "DOI": "10.1148/radiol.2020209021",
+        "article-title": "Emerging 2019 Novel Coronavirus (2019-nCoV) Pneumonia",
+        "volume": "297",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "1",
+        "key": "2021060703050690000_2021.06.04.21258316v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.2214/AJR.20.23034",
+        "article-title": "Coronavirus Disease 2019 (COVID-19): A Systematic Review of Imaging Findings in 919 Patients",
+        "volume": "215",
+        "year": "2020",
+        "journal-title": "AJR Am J Roentgenol"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.18",
+        "unstructured": "Lung Segmentation from Chest X-Ray dataset. https://www.kaggle.com/nikhilpandey360/lung-segmentation-from-chest-x-ray-dataset. Accessed on August 27, 2020."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O , Fischer P , Brox T. U-Net: Convolutional Networks for Biomedical Image Segmentation. 2015; Cham.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.20",
+        "unstructured": "Montgomery County X-ray Set. https://academictorrents.com/details/ac786f74878a5775c81d490b23842fd4736bfe33. Accessed on August 27, 2020.."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3978/j.issn.2223-4292.2014.11.20"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.22",
+        "unstructured": "Japanese Socieity of Radiological Technology Digital Image Database. http://db.jsrt.or.jp/eng.php. Accessed on August 27, 2020.."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-019-03013-5"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.24",
+        "author": "Conditional Generative Adversarial Nets"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.25",
+        "author": "Automatic Liver and Lesion Segmentation in CT Using Cascaded Fully Convolutional Neural Networks and 3D Conditional Random Fields"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.26",
+        "unstructured": "ImageNet Large ScaleVisual Recognition Challenge, https://arxiv.org/abs/1409.0575. 2014.."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.27",
+        "unstructured": "PyTorch: An Imperative Style, High-Performance Deep Learning Library. https://arxiv.org/abs/1912.01703. 2019."
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7860/JCDR/2016/18129.8744"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "issue": "6",
+        "key": "2021060703050690000_2021.06.04.21258316v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1581",
+        "DOI": "10.7150/ijbs.58855",
+        "article-title": "Artificial intelligence in the diagnosis of COVID-19: challenges and perspectives",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "Int J Biol Sci"
+      },
+      {
+        "issue": "7845",
+        "key": "2021060703050690000_2021.06.04.21258316v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "202",
+        "DOI": "10.1038/d41586-021-00332-4",
+        "article-title": "Rapid coronavirus tests: a guide for the perplexed",
+        "volume": "590",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1749-7922-7-32"
+      },
+      {
+        "issue": "7",
+        "key": "2021060703050690000_2021.06.04.21258316v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "769",
+        "DOI": "10.1016/j.ajem.2007.10.036",
+        "article-title": "Receiver operating characteristic analysis of leukocyte counts in operations for suspected appendicitis",
+        "volume": "26",
+        "year": "2008",
+        "journal-title": "Am J Emerg Med"
+      },
+      {
+        "issue": "1",
+        "key": "2021060703050690000_2021.06.04.21258316v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1",
+        "DOI": "10.1016/S2589-7500(20)30295-8",
+        "article-title": "Artificial intelligence for COVID-19: saviour or saboteur?",
+        "volume": "3",
+        "author": "The Lancet Digital H",
+        "year": "2021",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnson-Mann CN , Loftus TJ , Bihorac A. Equity and Artificial Intelligence in Surgical Care. JAMA Surg. 2021.",
+        "DOI": "10.1001/jamasurg.2020.7208"
+      },
+      {
+        "issue": "3",
+        "key": "2021060703050690000_2021.06.04.21258316v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "326",
+        "DOI": "10.1093/jamiaopen/ooaa033",
+        "article-title": "Evaluating artificial intelligence in medicine: phases of clinical research",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMIA Open"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ingraham NE , Purcell LN , Karam BS , et al. Racial and Ethnic Disparities in Hospital Admissions from COVID-19: Determining the Impact of Neighborhood Deprivation and Primary Language. J Gen Intern Med. 2021.",
+        "DOI": "10.1007/s11606-021-06790-w"
+      },
+      {
+        "issue": "3",
+        "key": "2021060703050690000_2021.06.04.21258316v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "362",
+        "DOI": "10.7326/M20-6306",
+        "article-title": "Racial and Ethnic Disparities in COVID-19-Related Infections, Hospitalizations, and Deaths : A Systematic Review",
+        "volume": "174",
+        "year": "2021",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "2021060703050690000_2021.06.04.21258316v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ingraham NE , Barakat AG , Reilkoff R , et al. Understanding the renin-angiotensin-aldosterone-SARS-CoV axis: a comprehensive review. Eur Respir J. 2020;56(1).",
+        "DOI": "10.1183/13993003.00912-2020"
+      },
+      {
+        "issue": "3",
+        "key": "2021060703050690000_2021.06.04.21258316v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "E303",
+        "DOI": "10.1148/radiol.2020202602",
+        "article-title": "Racial and Ethnic Disparities in Disease Severity on Admission Chest Radiographs among Patients Admitted with Confirmed Coronavirus Disease 2019: A Retrospective Cohort Study",
+        "volume": "297",
+        "year": "2020",
+        "journal-title": "Radiology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.04.21258316",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:17:26Z",
+      "timestamp": 1768486646000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.06.04.21258316"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          4
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1101/2021.06.04.21258316",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1148/ryai.210217",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

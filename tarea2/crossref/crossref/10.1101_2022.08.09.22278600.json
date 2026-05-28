@@ -1,0 +1,414 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:09:11Z",
+      "timestamp": 1768554551357,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          10
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  COVID-19 is unlikely to be the last pandemic that we face. According to an analysis of a global dataset of historical pandemics from 1600 to the present, the risk of a COVID-like pandemic has been estimated as 2.63% annually or a 38% lifetime probability. This rate may double over the coming decades. While we may be unable to prevent future pandemics, we can reduce their impact by investing in preparedness. In this study, we propose\n                  <jats:italic>RapiD_AI</jats:italic>\n                  : a framework to guide the use of pretrained neural network models as a pandemic preparedness tool to enable healthcare system resilience and effective use of ML during future pandemics. The RapiD_AI framework allows us to build high-performing ML models using data collected in the first weeks of the pandemic and provides an approach to adapt the models to the local populations and healthcare needs. The motivation is to enable healthcare systems to overcome data limitations that prevent the development of effective ML in the context of novel diseases. We digitally recreated the first 20 weeks of the COVID-19 pandemic and experimentally demonstrated the RapiD_AI framework using domain adaptation and inductive transfer. We (i) pretrain two neural network models (Deep Neural Network and TabNet) on a large Electronic Health Records dataset representative of a general in-patient population in Oxford, UK, (ii) fine-tune using data from the first weeks of the pandemic, and (iii) simulate local deployment by testing the performance of the models on a held-out test dataset of COVID-19 patients. Our approach has demonstrated an average relative/absolute gain of 4.92/4.21% AUC compared to an XGBoost benchmark model trained on COVID-19 data only. Moreover, we show our ability to identify the most useful historical pretraining samples through clustering and to expand the task of deployed models through inductive transfer to meet the emerging needs of a healthcare system without access to large historical pretraining datasets.\n                </jats:p>",
+    "DOI": "10.1101/2022.08.09.22278600",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2022-08-11T02:30:13Z",
+      "timestamp": 1660185013000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "RapiD_AI: A framework for Rapidly Deployable AI for novel disease &amp; pandemic preparedness"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Alexey",
+        "family": "Youssef",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Tingting",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anshul",
+        "family": "Thakur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Watkinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Horby",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David W",
+        "family": "Eyre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01381-y"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bcheraoui, C.E. , Weishaar, H. , Pozo-Martin, F. , Hanefeld, J. : Assessing covid-19 through the lens of health systems\u2019 preparedness: time for a change. Globalization and Health 16 (2020). https://doi.org/10.1186/s12992-020-00645-5",
+        "DOI": "10.1186/s12992-020-00645-5"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.3",
+        "unstructured": "Maxman, A. , Tollefson, J. : The problem with pandemic planning (2020)"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.4",
+        "unstructured": "Marani, M. , Katul, G.G. , Pan, W.K. , Parolari, A.J. : Intensity and frequency of extreme novel epidemics. https://doi.org/10.1073/pnas.2105482118/-/DCSupplemental"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chaos.2020.109853"
+      },
+      {
+        "issue": "1",
+        "key": "2022082104050528000_2022.08.09.22278600v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1148/radiol.2020203511",
+        "article-title": "Deepcovid-xr: an artificial intelligence algorithm to detect covid-19 on chest radiographs trained and tested on a large us clinical data set",
+        "volume": "299",
+        "year": "2021",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "5",
+        "key": "2022082104050528000_2022.08.09.22278600v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1038/s42256-020-0180-7",
+        "article-title": "An interpretable mortality prediction model for covid-19 patients",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature machine intelligence"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.jcrc.2020.10.033",
+        "article-title": "Development of a machine learning algorithm to predict intubation among hospitalized patients with covid-19",
+        "volume": "62",
+        "year": "2021",
+        "journal-title": "Journal of critical care"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.9",
+        "article-title": "Prediction of potential commercially inhibitors against sars-cov-2 by multi-task deep model",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ong, E. , Wong, M.U. , Huffman, A. , He, Y. : Covid-19 coronavirus vaccine design using reverse vaccinology and machine learning. Frontiers in immunology, 1581 (2020)",
+        "DOI": "10.1101/2020.03.20.000141"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.11",
+        "first-page": "0000023",
+        "article-title": "Generalizability challenges of mortality risk prediction models: A retrospective analysis on a multi-center database",
+        "volume": "1",
+        "year": "2022",
+        "journal-title": "PLOS Digital Health"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.12",
+        "first-page": "1",
+        "article-title": "Using explainable machine learning to characterise data drift and detect emergent health risks for emergency department admissions during covid-19",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports 2021 11:1"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1016/j.inffus.2021.11.011",
+        "article-title": "Tabular data: Deep learning is not all you need",
+        "volume": "81",
+        "year": "2022",
+        "journal-title": "Information Fusion"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Youssef, A. , Kouchaki, S. , Shamout, F. , Armstrong, J. , El-Bouri, R. , Taylor, T. , Birrenkott, D. , Vasey, B. , Soltan, A. , Zhu, T. , et al.: Development and validation of early warning score systems for covid-19 patients. Healthcare Technology Letters (2021)",
+        "DOI": "10.1101/2020.11.04.20225904"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "6679",
+        "DOI": "10.1609/aaai.v35i8.16826",
+        "article-title": "Tabnet: Attentive interpretable tabular learning",
+        "volume": "35",
+        "year": "2021",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.16",
+        "unstructured": "https://coronavirus.data.gov.uk/details/healthcare"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y. , Yang, Q. : A survey on multi-task learning. IEEE Transactions on Knowledge and Data Engineering (2021)",
+        "DOI": "10.1109/TKDE.2021.3070203"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants, L. , Van Calster, B. , Collins, G.S. , Riley, R.D. , Heinze, G. , Schuit, E. , Bonten, M.M. , Dahly, D.L. , Damen, J.A. , Debray, T.P. , et al.: Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. bmj 369 (2020)",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, J. , Hungerford, D. , Chen, H. , Abrams, S.T. , Li, S. , Wang, G. , Wang, Y. , Kang, H. , Bonnett, L. , Zheng, R. , et al.: Development and external validation of a prognostic multivariable model on admission for hospitalized patients with covid-19 (2020)",
+        "DOI": "10.1101/2020.03.28.20045997"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.20",
+        "unstructured": "Yan, L. , Zhang, H.-T. , Xiao, Y. , Wang, M. , Sun, C. , Liang, J. , Li, S. , Zhang, M. , Guo, Y. , Xiao, Y. , et al.: Prediction of survival for severe covid-19 patients with three clinical features: development of a machine learning-based prognostic model with clinical data in wuhan. medRxiv (2020)"
+      },
+      {
+        "issue": "3",
+        "key": "2022082104050528000_2022.08.09.22278600v2.21",
+        "first-page": "0230548",
+        "article-title": "Association of radiologic findings with mortality of patients infected with 2019 novel coronavirus in wuhan, china",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.22",
+        "unstructured": "Qi, X. , Jiang, Z. , Yu, Q. , Shao, C. , Zhang, H. , Yue, H. , Ma, B. , Wang, Y. , Liu, C. , Meng, X. , et al.: Machine learning-based ct radiomics model for predicting hospital stay in patients with pneumonia associated with sars-cov-2 infection: A multicenter study. MedRxiv (2020)"
+      },
+      {
+        "issue": "1",
+        "key": "2022082104050528000_2022.08.09.22278600v2.23",
+        "first-page": "017833",
+        "article-title": "Multicentre validation of a sepsis prediction algorithm using only vital sign data in the emergency department, general ward and icu",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "BMJ open"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zheng, J. , Yu, H. : Identifying key concepts from ehr notes using domain adaptation. In: Proceedings of the Sixth International Workshop on Health Text Mining and Information Analysis, pp. 115\u2013119 (2015)",
+        "DOI": "10.18653/v1/W15-2615"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.neunet.2019.08.032",
+        "article-title": "Named entity recognition in electronic health records using transfer learning bootstrapped neural networks",
+        "volume": "121",
+        "year": "2020",
+        "journal-title": "Neural Networks"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.26",
+        "article-title": "Model adaptation and unsupervised learning with non-stationary batch data under smooth concept drift",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beede, E. , Baylor, E. , Hersch, F. , Iurchenko, A. , Wilcox, L. , Ruamviboonsuk, P. , Vardoulakis, L.M. : A human-centered evaluation of a deep learning system deployed in clinics for the detection of diabetic retinopathy. In: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, pp. 1\u201312 (2020)",
+        "DOI": "10.1145/3313831.3376718"
+      },
+      {
+        "issue": "1",
+        "key": "2022082104050528000_2022.08.09.22278600v2.28",
+        "first-page": "1",
+        "article-title": "Key challenges for delivering clinical impact with artificial intelligence",
+        "volume": "17",
+        "year": "2019",
+        "journal-title": "BMC medicine"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gilbert, S. , Fenech, M. , Hirsch, M. , Upadhyay, S. , Biasiucci, A. , Starlinger, J. : Algorithm change protocols in the regulation of adaptive machine learning\u2013based medical devices. Journal of Medical Internet Research 23(10) (2021). https://doi.org/10.2196/30545",
+        "DOI": "10.2196/30545"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.30",
+        "unstructured": "Raghu, M. , Zhang, C. , Kleinberg, J. , Bengio, S. : Transfusion: Understanding transfer learning for medical imaging. Advances in neural information processing systems 32 (2019)"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1609/aaai.v33i01.3301590",
+        "article-title": "Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.17216"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.33",
+        "first-page": "21",
+        "article-title": "Gradient boosting machines, a tutorial",
+        "volume": "7",
+        "year": "2013",
+        "journal-title": "Frontiers in neurorobotics"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, T. , Guestrin, C. : Xgboost: A scalable tree boosting system. In: Proceedings of the 22nd Acm Sigkdd International Conference on Knowledge Discovery and Data Mining, pp. 785\u2013794 (2016)",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brarda, S. , Yeres, P. , Bowman, S. : Sequential attention: A contextaware alignment function for machine reading. In: Proceedings of the 2nd Workshop on Representation Learning for NLP, pp. 75\u201380. Association for Computational Linguistics, Vancouver, Canada (2017). https://doi.org/10.18653/v1/W17-2610. https://aclanthology.org/W17-2610",
+        "DOI": "10.18653/v1/W17-2610"
+      },
+      {
+        "key": "2022082104050528000_2022.08.09.22278600v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tkde.2009.191"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.09.22278600",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:48:21Z",
+      "timestamp": 1768488501000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.08.09.22278600"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          10
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2022.08.09.22278600",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

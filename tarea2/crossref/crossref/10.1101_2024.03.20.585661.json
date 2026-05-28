@@ -1,0 +1,535 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:57:23Z",
+      "timestamp": 1768510643178,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 58,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The accurate computational prediction of B cell epitopes can vastly reduce the cost and time required for identifying potential epitope candidates for the design of vaccines and immunodiagnostics. However, current computational tools for B cell epitope prediction perform poorly and are not fit-for-purpose, and there remains enormous room for improvement and the need for superior prediction strategies.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Here we propose a novel approach that improves B cell epitope prediction by encoding epitopes as binary molecular permutation vectors that represent the position and structural properties of the amino acids within a protein antigen sequence that interact with an antibody, rather than the traditional approach of defining epitopes as scores per amino acid on a protein sequence that pertain to their probability of partaking in a B cell epitope antibody interaction. In addition to defining epitopes as binary molecular permutation vectors, the approach also uses the 3D macrostructure features of the unbound 3D protein structures, and in turn uses these features to train another deep learning model on the corresponding antibody-bound protein 3D structures. We demonstrate that the strategy predicts B cell epitopes with improved accuracy compared to the existing tools. Additionally, we demonstrate that this approach reliably identifies the majority of experimentally verified epitopes on the spike protein of SARS-CoV-2 not seen by the model in training and generalizes in very robust manner on dissimilar data not seen by the model in training.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>With the approach described herein, a primary protein sequence with the query molecular permutation vector alone is required to predict B cell epitopes in a reliable manner, potentially advancing the use of computational prediction of B cell epitopes in biomedical research applications.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2024.03.20.585661",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          21
+        ]
+      ],
+      "date-time": "2024-03-21T22:40:11Z",
+      "timestamp": 1711060811000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Deep learning of antibody epitopes using molecular permutation vectors"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0296-1687",
+        "authenticated-orcid": false,
+        "given": "Ioannis",
+        "family": "Vardaxis",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3629-1570",
+        "authenticated-orcid": false,
+        "given": "Boris",
+        "family": "Simovski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-8635-6377",
+        "authenticated-orcid": false,
+        "given": "Irantzu",
+        "family": "Anzar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Stratford",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9896-0613",
+        "authenticated-orcid": false,
+        "given": "Trevor",
+        "family": "Clancy",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0065-2776(08)60363-6"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmr.768"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/138161210793292447"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.trivac.2016.04.003",
+        "article-title": "B-cell epitope mapping for the design of vaccines and effective diagnostics",
+        "volume": "5",
+        "year": "2016",
+        "journal-title": "Trials in Vaccinology"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1016/S0065-3527(08)60085-8",
+        "article-title": "Synthetic peptides as diagnostic tools in virology",
+        "volume": "42",
+        "year": "1993",
+        "journal-title": "Adv Virus Res"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.6",
+        "first-page": "6760830",
+        "article-title": "An Introduction to B-Cell Epitope Mapping and In Silico Epitope Prediction",
+        "volume": "2016",
+        "year": "2016",
+        "journal-title": "J Immunol Res"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cia G , Pucci F , Rooman M . Critical review of conformational B-cell epitope prediction methods. Brief Bioinform. 2023;24(1).",
+        "DOI": "10.1093/bib/bbac567"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1007/978-1-0716-2609-2_12",
+        "article-title": "B-Cell Epitope Predictions Using Computational Methods",
+        "volume": "2552",
+        "year": "2023",
+        "journal-title": "Methods Mol Biol"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1110/ps.041059505"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.10",
+        "first-page": "2680160",
+        "article-title": "Fundamentals and Methods for T- and B-Cell Epitope Prediction",
+        "volume": "2017",
+        "year": "2017",
+        "journal-title": "J Immunol Res"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "908459",
+        "DOI": "10.3389/fimmu.2022.908459",
+        "article-title": "Comprehending B-Cell Epitope Prediction to Develop Vaccines and Immunodiagnostics",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "issue": "1",
+        "key": "2024032508400703000_2024.03.20.585661v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.1038/s41592-023-02087-4",
+        "article-title": "AlphaFold predictions are valuable hypotheses and accelerate but do not replace experimental structure determination",
+        "volume": "21",
+        "year": "2024",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/28.1.235"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.185.4154.862"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/protein/1.4.289"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-5193(68)90069-6"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/277491a0"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/275673a0"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0006-3495(85)83877-7"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/282109a0"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-4838(86)90295-5"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/bi00613a026"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470122921.ch2"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ma00145a039"
+      },
+      {
+        "issue": "4",
+        "key": "2024032508400703000_2024.03.20.585661v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1111/j.1399-3011.1988.tb01258.x",
+        "article-title": "Positional flexibilities of amino acid residues in globular proteins",
+        "volume": "32",
+        "year": "1988",
+        "journal-title": "International Journal of Peptide and Protein Research"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1110/ps.062286306"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.27",
+        "unstructured": "Cooper GM , Hausman RE . The Cell: A Molecular Approach: ASM Press; 2007."
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2836(76)90191-1"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.4023714"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.55.3.836-839.1985"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeng Y , Wei Z , Yuan Q , Chen S , Yu W , Lu Y , et al. Identifying B-cell epitopes using AlphaFold2 predicted structures and pretrained language model. Bioinformatics. 2023;39(4).",
+        "DOI": "10.1093/bioinformatics/btad187"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1322712",
+        "DOI": "10.3389/fimmu.2024.1322712",
+        "article-title": "DiscoTope-3.0: improved B-cell epitope prediction using inverse folding latent representations",
+        "volume": "15",
+        "year": "2024",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1745-7580-6-6"
+      },
+      {
+        "issue": "W1",
+        "key": "2024032508400703000_2024.03.20.585661v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "W276",
+        "DOI": "10.1093/nar/gkac240",
+        "article-title": "Search and sequence analysis tools services from EMBL-EBI in 2022",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-015-0245-0"
+      },
+      {
+        "issue": "2",
+        "key": "2024032508400703000_2024.03.20.585661v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.2174/1568026619666181130111827",
+        "article-title": "Advances in In-silico B-cell Epitope Prediction",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "Curr Top Med Chem"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm471"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bukhari SNH , Jain A , Haq E , Mehbodniya A , Webber J . Machine Learning Techniques for the Prediction of B-Cell and T-Cell Epitopes as Potential Vaccine Targets with a Specific Focus on SARS-CoV-2 Pathogen: A Review. Pathogens. 2022;11(2).",
+        "DOI": "10.3390/pathogens11020146"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.39",
+        "first-page": "943636",
+        "article-title": "Bioinformatics resources and tools for conformational B-cell epitope prediction",
+        "volume": "2013",
+        "year": "2013",
+        "journal-title": "Comput Math Methods Med"
+      },
+      {
+        "issue": "6",
+        "key": "2024032508400703000_2024.03.20.585661v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "382",
+        "DOI": "10.1038/s41577-021-00542-x",
+        "article-title": "Neutralizing monoclonal antibodies for treatment of COVID-19",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Nat Rev Immunol"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "da Silva BM , Myung Y , Ascher DB , Pires DEV . epitope3D: a machine learning method for conformational B-cell epitope prediction. Brief Bioinform. 2022;23(1).",
+        "DOI": "10.1093/bib/bbab423"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-16-S13-S12"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-017-1528-9"
+      },
+      {
+        "issue": "5",
+        "key": "2024032508400703000_2024.03.20.585661v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0128194",
+        "DOI": "10.1371/journal.pone.0128194",
+        "article-title": "Accurate prediction of immunogenic T-cell epitopes from epitope sequences using the genetic algorithm-based ensemble learning",
+        "volume": "10",
+        "year": "2015",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang J , Zhao X , Sun P , Gao B , Ma Z . Conformational B-cell epitopes prediction from sequences using cost-sensitive ensemble classifiers and spatial clustering. Biomed Res Int. 2014;2014:689219.",
+        "DOI": "10.1155/2014/689219"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-341"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "890943",
+        "DOI": "10.3389/fimmu.2022.890943",
+        "article-title": "A Structure-Based B-cell Epitope Prediction Model Through Combing Local and Global Features",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1110/ps.062405906"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002829"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKAB1061"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bip.360221211"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp163"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab1136"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkt382"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/28.1.214"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lefranc M-P , Lefranc G . The immunoglobulin factsbook. San Diego: Academic Press; 2001. xiv, 457 p. p.",
+        "DOI": "10.1016/B978-012441352-8/50008-4"
+      },
+      {
+        "key": "2024032508400703000_2024.03.20.585661v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-10-421"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.20.585661",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:08:47Z",
+      "timestamp": 1768457327000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.20.585661"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          21
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1101/2024.03.20.585661",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

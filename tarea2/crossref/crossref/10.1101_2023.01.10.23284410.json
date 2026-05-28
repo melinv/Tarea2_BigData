@@ -1,0 +1,291 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          10
+        ]
+      ],
+      "date-time": "2026-02-10T17:50:27Z",
+      "timestamp": 1770745827104,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          11
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Areal spatial misalignment, which occurs when data on multiple variables are collected using mismatched boundary definitions, is a ubiquitous obstacle to data analysis in public health and social science research. As one example, the emerging sub-field studying the links between political context and health in the United States faces significant spatial misalignment-related challenges, as the congressional districts (CDs) over which political metrics are measured and administrative units, e.g., counties, for which health data are typically released, have a complex misalignment structure. Standard population-weighted data realignment procedures can induce measurement error and invalidate inference, which has prompted the development of fully model-based approaches for analyzing spatially misaligned data. One such approach, atom-based regression models (ABRM), holds particular promise but has scarcely been used in practice due to the lack of appropriate software or examples of implementation. ABRM use \u201catoms\u201d, the areas created by intersecting all sets of units on which variables of interest are measured, as the units of analysis and build models for the atom-level data, treating the atom-level variables (generally unmeasured) as latent variables. In this paper, we demonstrate the feasibility and strengths of the ABRM in a case study of the association between political representatives\u2019 voting behavior (CD-level) and COVID-19 mortality rates (county-level) in a post-vaccine period. The adjusted ABRM results suggest that more conservative voting record is associated with an increase in COVID-19 mortality rates, with estimated associations smaller in magnitude but consistent in direction with those of standard realignment methods. The results also indicate that ABRM may enable more robust confounding adjustment and more realistic uncertainty estimates, properly representing the uncertainties arising from all analytic procedures. We also implement the ABRM in modern optimized Bayesian computing programs and make our code publicly available, which may enable these methods to be more widely adopted.</jats:p>",
+    "DOI": "10.1101/2023.01.10.23284410",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2023-01-11T19:45:12Z",
+      "timestamp": 1673466312000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Addressing spatial misalignment in population health research: a case study of US congressional district political metrics and county health data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9895-1477",
+        "authenticated-orcid": false,
+        "given": "Rachel C.",
+        "family": "Nethery",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Christian",
+        "family": "Testa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Loni P.",
+        "family": "Tabb",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "William P.",
+        "family": "Hanage",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jarvis T.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nancy",
+        "family": "Krieger",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.1",
+        "unstructured": "Nadeem R. The Changing Political Geography of COVID-19 Over the Last Two Years. Pew Research Center - U.S. Politics & Policy. Published March 3, 2022. Accessed December 21, 2022. https://www.pewresearch.org/politics/2022/03/03/the-changing-political-geography-of-covid-19-over-the-last-two-years/"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.35500/jghs.2020.2.e22"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ssmph.2021.100950"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ssqu.13035"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lana.2022.100384"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214502760047140"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Banerjee S , Carlin BP , Gelfand AE . Spatial Misalignment. In: Hierarchical Modeling and Analysis for Spatial Data. Second edition. CRC Press, Taylor; 2015:165\u2013198.",
+        "DOI": "10.1201/b17115"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00477-007-0136-z"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12942-020-00200-w"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/108571102348"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/2041-210X.12189"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecy.2709"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1400646"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/2.1.31"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxn033"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxq083"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2669471"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/106186007X179257"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.spasta.2019.04.001"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.20",
+        "unstructured": "Jacobson GC , Carson JL . The Politics of Congressional Elections. 10th ed. Rowman & Littlefield; 2019."
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-35588-2_25"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10618600.2016.1172487"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.23",
+        "unstructured": "de Valpine P , Paciorek Christopher J. , Turek D , et al. NIMBLE: MCMC, Particle Filtering, and Programmable Hierarchical Modeling. Published online 2022. https://doi.org/10.5281/zenodo.1211190"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.24",
+        "unstructured": "R Core Team. R: A Language and Environment for Statistical Computing. Published online 2020. https://www.R-project.org/"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0898588X16000110"
+      },
+      {
+        "key": "2023011304450520000_2023.01.10.23284410v1.26",
+        "unstructured": "Los Angeles County Department of Public Health. LA County COVID-19 Surveillance Dashboard. Published January 8, 2023. Accessed January 10, 2023. http://dashboard.publichealth.lacounty.gov/covid19_surveillance_dashboard/"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.10.23284410",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:25:03Z",
+      "timestamp": 1768505103000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.01.10.23284410"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          11
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2023.01.10.23284410",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

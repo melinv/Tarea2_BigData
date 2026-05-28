@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:34:54Z",
+      "timestamp": 1768548894629,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          3
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 15,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Early CoVID-19 growth often obeys:\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20143149v1_inline1.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  , with\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  = [(ln 2)/(\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  )], where\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  is the pandemic\n                  <jats:italic>doubling time</jats:italic>\n                  , prior to society-wide\n                  <jats:italic>Social Distancing</jats:italic>\n                  . Previously, we modeled\n                  <jats:italic>Social Distancing</jats:italic>\n                  with\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  as a linear function of time, where\n                  <jats:italic>N</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ]\n                  <jats:bold>1</jats:bold>\n                  \u2248 exp[+\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>\n                    <jats:italic>A</jats:italic>\n                  </jats:sub>\n                  <jats:italic>t</jats:italic>\n                  / (1+,\n                  <jats:italic>\u03b3</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  <jats:italic>t</jats:italic>\n                  )] is used here. Additional parameters besides {\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  ,\n                  <jats:italic>\u03b3</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  } are needed to better model different\n                  <jats:italic>\u03c1</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] =\n                  <jats:italic>dN</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ]/\n                  <jats:italic>dt</jats:italic>\n                  shapes. Thus, a new\n                  <jats:italic>Orthogonal Function Model</jats:italic>\n                  [\n                  <jats:italic>OFM</jats:italic>\n                  ] is developed here using these orthogonal function series:\n                  <jats:disp-formula id=\"ueqn1\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20143149v1_ueqn1.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  where\n                  <jats:italic>N</jats:italic>\n                  (\n                  <jats:italic>Z</jats:italic>\n                  ) and\n                  <jats:italic>Z</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] form an implicit\n                  <jats:italic>N</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ]\n                  <jats:italic>N</jats:italic>\n                  (\n                  <jats:italic>Z</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ]) function, giving:\n                  <jats:disp-formula id=\"ueqn2\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20143149v1_ueqn2.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  with\n                  <jats:italic>L</jats:italic>\n                  <jats:sub>\n                    <jats:italic>m</jats:italic>\n                  </jats:sub>\n                  (\n                  <jats:italic>Z</jats:italic>\n                  ) being the\n                  <jats:italic>Laguerre Polynomials</jats:italic>\n                  . At large\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\n                    <jats:italic>F</jats:italic>\n                  </jats:sub>\n                  values, nearly\n                  <jats:italic>arbitrary</jats:italic>\n                  functions for\n                  <jats:italic>N</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] and\n                  <jats:italic>\u03c1</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] =\n                  <jats:italic>dN</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ]/\n                  <jats:italic>dt</jats:italic>\n                  can be accommodated. How to determine {\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>\n                    <jats:italic>A</jats:italic>\n                  </jats:sub>\n                  ,\n                  <jats:italic>\u03b3</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  } and the {\n                  <jats:italic>g</jats:italic>\n                  <jats:sub>\n                    <jats:italic>m</jats:italic>\n                  </jats:sub>\n                  ;\n                  <jats:italic>m</jats:italic>\n                  = (0, +\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\n                    <jats:italic>F</jats:italic>\n                  </jats:sub>\n                  )} constants from any given\n                  <jats:italic>N</jats:italic>\n                  (\n                  <jats:italic>Z</jats:italic>\n                  ) dataset is derived, with\n                  <jats:italic>\u03c1</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] set by:\n                  <jats:disp-formula id=\"ueqn3\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20143149v1_ueqn3.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                </jats:p>\n                <jats:p>\n                  The\n                  <jats:italic>bing com</jats:italic>\n                  USA CoVID-19 data was analyzed using\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\n                    <jats:italic>F</jats:italic>\n                  </jats:sub>\n                  = (0, 1, 2) in the\n                  <jats:italic>OFM</jats:italic>\n                  . All results agreed to within about 10 percent, showing model robustness. Averaging over all these predictions gives the following overall estimates for the number of USA CoVID-19 cases at the pandemic end:\n                  <jats:disp-formula id=\"ueqn4\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20143149v1_ueqn4.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  which compares the pre- and post-early May\n                  <jats:italic>bing com</jats:italic>\n                  revisions. The CoVID-19 pandemic in Italy was examined next. The\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\n                    <jats:italic>F</jats:italic>\n                  </jats:sub>\n                  = 2 limit was inadequate to model the Italy\n                  <jats:italic>\u03c1</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] pandemic tail. Thus, regions with a quick CoVID-19 pandemic shutoff may have additional\n                  <jats:italic>Social Distancing</jats:italic>\n                  factors operating, beyond what can be easily modeled by just progressively lengthening pandemic\n                  <jats:italic>doubling times</jats:italic>\n                  (with\n                  <jats:italic>13 Figures</jats:italic>\n                  ).\n                </jats:p>",
+    "DOI": "10.1101/2020.06.30.20143149",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2020-07-03T13:50:34Z",
+      "timestamp": 1593784234000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Orthogonal Functions for Evaluating Social Distancing Impact on CoVID-19 Spread"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2044-3461",
+        "authenticated-orcid": false,
+        "given": "Genghmun",
+        "family": "Eng",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.1",
+        "unstructured": "https://www.MedRxiv.org/ID=MedRxiv/2020/043752v1, 03.25.2020, \u201cForecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months\u201d,"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.2",
+        "unstructured": "IHME COVID-19 Health Service Utilization Forecasting Team."
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.3",
+        "unstructured": "https://www.MedRxiv.org/content/10.1101/2020.05.04.20091207v1, https://doi.org/10.1101/2020.05.04.20091207, \u201cInitial Model for the Impact of Social Distancing on CoVID-19 Spread \u201c, Genghmun Eng"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.4",
+        "unstructured": "https://www.geekwire.com/2020/univ-washington--epidemiologists-predict-80000-covid-19-deaths-u-s-july,"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.5",
+        "unstructured": "\u201cUniv. of Washington researchers predict 80,000 COVID-19 deaths in U.S. by July\u201d, Alan Boyle, GeekWire, March 26, 2020."
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.6",
+        "unstructured": "https://www.yahoo.com/finance/news/coronavirus-modelers-raise-projected-u-041641553.html, \u201cCoronavirus modelers raise projected"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.7",
+        "unstructured": "U.S. death toll and lengthen state-by-state recovery timeline\u201d, Alan Boyle, GeekWire, April 27, 2020."
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.8",
+        "unstructured": "https://finance.yahoo.com/news/pandemic-projection-puts-u-death-220824741.html,"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.9",
+        "unstructured": "\u201cNew pandemic projection puts U.S. death toll at nearly 135,000, due to less social distancing\u201d, Alan Boyle, GeekWire, May 4, 2020."
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.10",
+        "unstructured": "http://www.healthdata.org/covid/updates"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.11",
+        "unstructured": "\u201cCOVID-19: What7s New for May 4, 2020: Updated IHME COVID-19 projections: Predicting the Next Phase of the Epidemic\u201d,"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.12",
+        "unstructured": "IHME COVID-19 Health Service Utilization Forecasting Team."
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.13",
+        "first-page": "29",
+        "article-title": "Note of the Polynomials of Hermite and Laguerre",
+        "volume": "13",
+        "year": "1938",
+        "journal-title": "Journal of the London Mathematical Society"
+      },
+      {
+        "issue": "69",
+        "key": "2021011308550425000_2020.06.30.20143149v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1090/S0025-5718-1960-0109902-X",
+        "article-title": "Products of Laguerre Polynomials",
+        "volume": "14",
+        "year": "1960",
+        "journal-title": "Math. Comput"
+      },
+      {
+        "key": "2021011308550425000_2020.06.30.20143149v1.15",
+        "unstructured": "www.bing.com/covid: \u2018Bing COVID-19 Tracker \u2018, and https://www.bing.com/covid?form=CPVD07."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.30.20143149",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:46:46Z",
+      "timestamp": 1768484806000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.30.20143149"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          3
+        ]
+      ]
+    },
+    "references-count": 15,
+    "URL": "https://doi.org/10.1101/2020.06.30.20143149",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

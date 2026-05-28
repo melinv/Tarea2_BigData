@@ -1,0 +1,1282 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2026-02-27T01:38:19Z",
+      "timestamp": 1772156299166,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 50,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Short-term forecasts of infectious disease burden can contribute to situational awareness and aid capacity planning. Based on best practice in other fields and recent insights in infectious disease epidemiology, one can maximise the predictive performance of such forecasts if multiple models are combined into an ensemble. Here we report on the performance of ensembles in predicting COVID-19 cases and deaths across Europe between 08 March 2021 and 07 March 2022.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We used open-source tools to develop a public European COVID-19 Forecast Hub. We invited groups globally to contribute weekly forecasts for COVID-19 cases and deaths reported from a standardised source over the next one to four weeks. Teams submitted forecasts from March 2021 using standardised quantiles of the predictive distribution. Each week we created an ensemble forecast, where each predictive quantile was calculated as the equally-weighted average (initially the mean and then from 26th July the median) of all individual models\u2019 predictive quantiles. We measured the performance of each model using the relative Weighted Interval Score (WIS), comparing models\u2019 forecast accuracy relative to all other models. We retrospectively explored alternative methods for ensemble forecasts, including weighted averages based on models\u2019 past predictive performance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Over 52 weeks we collected and combined up to 28 forecast models for 32 countries. We found a weekly ensemble had a consistently strong performance across countries over time. Across all horizons and locations, the ensemble performed better on relative WIS than 84% of participating models\u2019 forecasts of incident cases (with a total N=862), and 92% of participating models\u2019 forecasts of deaths (N=746). Across a one to four week time horizon, ensemble performance declined with longer forecast periods when forecasting cases, but remained stable over four weeks for incident death forecasts. In every forecast across 32 countries, the ensemble outperformed most contributing models when forecasting either cases or deaths, frequently outperforming all of its individual component models. Among several choices of ensemble methods we found that the most influential and best choice was to use a median average of models instead of using the mean, regardless of methods of weighting component forecast models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our results support the use of combining forecasts from individual models into an ensemble in order to improve predictive performance across epidemiological targets and populations during infectious disease epidemics. Our findings further suggest that median ensemble methods yield better predictive performance more than ones based on means. Our findings also highlight that forecast consumers should place more weight on incident death forecasts than incident case forecasts at forecast horizons greater than two weeks.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Code and data availability</jats:title>\n                  <jats:p>All data and code are publicly available on Github: covid19-forecast-hub-europe/euro-hub-ensemble.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.06.16.22276024",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2022-11-04T12:26:35Z",
+      "timestamp": 1667564795000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Predictive performance of multi-model ensemble forecasts of COVID-19 across European nations"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2049-3423",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Sherratt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4094-1476",
+        "authenticated-orcid": false,
+        "given": "H.",
+        "family": "Gruson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.",
+        "family": "Grah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H.",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.",
+        "family": "Niehus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Prasse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "F.",
+        "family": "Sandman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7070-2241",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Deuschel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0318-3669",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Wolffram",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8057-8037",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Abbott",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4894-6124",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Ullrich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6662-3903",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Gibson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4035-0243",
+        "authenticated-orcid": false,
+        "given": "EL.",
+        "family": "Ray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3503-9899",
+        "authenticated-orcid": false,
+        "given": "NG.",
+        "family": "Reich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D.",
+        "family": "Sheldon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4438-6366",
+        "authenticated-orcid": false,
+        "given": "Y.",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "N.",
+        "family": "Wattanachit",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L.",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1786-7562",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Trnka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "G.",
+        "family": "Obozinski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "T.",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D.",
+        "family": "Thanou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L.",
+        "family": "Pottier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5313-3451",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Krymova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8788-1709",
+        "authenticated-orcid": false,
+        "given": "MV.",
+        "family": "Barbarossa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5812-707X",
+        "authenticated-orcid": false,
+        "given": "N.",
+        "family": "Leith\u00e4user",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Mohring",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Schneider",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Wlazlo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7091-3740",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Fuhrmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Lange",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "I.",
+        "family": "Rodiah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Baccam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H.",
+        "family": "Gurung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Stage",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Suchoski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Budzinski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.",
+        "family": "Walraven",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4940-085X",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "Villanueva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0860-6296",
+        "authenticated-orcid": false,
+        "given": "V.",
+        "family": "Tucek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1140-3510",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "\u0160m\u00edd",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3226-7266",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Zaj\u00edcek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0095-2605",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "P\u00e9rez \u00c1lvarez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5879-1480",
+        "authenticated-orcid": false,
+        "given": "B.",
+        "family": "Reina",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7750-5280",
+        "authenticated-orcid": false,
+        "given": "NI.",
+        "family": "Bosse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6385-2652",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Meakin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6075-3659",
+        "authenticated-orcid": false,
+        "given": "P. Alaimo",
+        "family": "Di Loro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8377-9950",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Maruotti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8476-7740",
+        "authenticated-orcid": false,
+        "given": "V.",
+        "family": "Eclerov\u00e1",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9191-4294",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Kraus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4376-3932",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Kraus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9027-4333",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Pribylova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Dimitris",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2456-4831",
+        "authenticated-orcid": false,
+        "given": "ML.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Saksham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1728-2505",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Dehning",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4721-0561",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Mohr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8905-5873",
+        "authenticated-orcid": false,
+        "given": "V.",
+        "family": "Priesemann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "G.",
+        "family": "Redlarski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Bejar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5154-5973",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Ardenghi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2497-7276",
+        "authenticated-orcid": false,
+        "given": "N.",
+        "family": "Parolini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "G.",
+        "family": "Ziarelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8400-0416",
+        "authenticated-orcid": false,
+        "given": "W.",
+        "family": "Bock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3371-4072",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Heyder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "T.",
+        "family": "Hotz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8125-0049",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "E. Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9933-5537",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Guzman-Merino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1636-244X",
+        "authenticated-orcid": false,
+        "given": "JL.",
+        "family": "Aznarte",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5949-7443",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Mori\u00f1a",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3989-8757",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Alonso",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6824-6857",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "\u00c1lvarez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0408-4526",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "L\u00f3pez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1398-7559",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Prats",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5771-6179",
+        "authenticated-orcid": false,
+        "given": "JP.",
+        "family": "Burgard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Rodloff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "T.",
+        "family": "Zimmermann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Kuhlmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2312-5431",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Zibert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6331-7211",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Pennoni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4107-3727",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Divino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3308-9905",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Catal\u00e0",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3861-8204",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Lovison",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4198-0127",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Giudici",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Tarantino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7057-1421",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Bartolucci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8912-5018",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Jona Lasinio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5662-3499",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Mingione",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7104-5826",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Farcomeni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8706-5717",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Srivastava",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Montero-Manso",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Adiga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Hurt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Marathe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Porebski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Venkatramanan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0433-7327",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Bartczuk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1812-8216",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Dreger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3476-3017",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Gambin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5523-5198",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Gogolewski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6882-7408",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Gruziel-Slomka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Krupa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0128-7384",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Moszynski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7405-2207",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Niedzielewski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9627-3008",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Nowosielski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5789-316X",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Radwan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6133-8900",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Rakowski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3136-7249",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Semeniuk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1320-6695",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Szczurek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8935-8137",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Zielinski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1082-4324",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Kisielewski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1461-8667",
+        "authenticated-orcid": false,
+        "given": "B.",
+        "family": "Pabjan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3126-7950",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Holger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8356-2724",
+        "authenticated-orcid": false,
+        "given": "Y.",
+        "family": "Kheifetz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4059-1779",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Scholz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6390-0338",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Bodych",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9785-5133",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Filinski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5232-1998",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Idzikowski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6983-7413",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Krueger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3331-6637",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Ozanski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Bracher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3406",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Funk",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23941/ejpe.v14i1.582"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.2",
+        "unstructured": "CDC, \u201cCoronavirus Disease 2019 (COVID-19),\u201d Feb. 11, 2020. https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/forecasting.html (accessed Jan. 09, 2022)."
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.3",
+        "unstructured": "European Centre for Disease Prevention and Control, \u201cForecasting COVID-19 cases and deaths in Europe - new hub will support European pandemic planning,\u201d Apr. 22, 2021. https://www.ecdc.europa.eu/en/news-events/forecasting-covid-19-cases-and-deaths-europe-new-hub"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patter.2021.100310"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0272989X21990391"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1812594116"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1909865116"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007486"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.11.04.21265886"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.08.19.20177493"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-25207-0"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.11.11.20220962"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.10.18.20214767"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.EPIDEM.2017.08.002."
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.3370"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/infdis/jiw375"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.17",
+        "unstructured": "European Covid-19 Forecast Hub, European COVID-19 Forecast Hub. covid19-forecast-hub-europe, 2021.Available: https://github.com/covid19-forecast-hub-europe/covid19-forecast-hub-europe"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5208210"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5207940"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.20",
+        "unstructured": "J. Bracher et al., The German and Polish COVID-19 Forecast Hub. 2020.Available: https://github.com/KITmetricslab/covid19-forecast-hub-de"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.22",
+        "unstructured": "European Covid-19 Forecast Hub, \u201cCommunity.\u201d https://covid19forecasthub.eu/community.html"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.23",
+        "unstructured": "European Covid-19 Forecast Hub, \u201cCovid19-forecast-hub-europe: Wiki.\u201d https://github.com/covid19-forecast-hub-europe/covid19-forecast-hub-europe"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.24",
+        "unstructured": "European Covid-19 Forecast Hub, \u201cEuropean Covid-19 Forecast Hub.\u201d https://covid19forecasthub.eu/index.html"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.25",
+        "unstructured": "EpiForecasts, \u201cProject: ECDC European COVID-19 Forecast Hub - Zoltar,\u201d 2021. https://www.zoltardata.com/project/238"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-021-00839-5"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.27",
+        "unstructured": "Predictive performance of multi-model ensemble forecasts of Covid-19 across European nations. covid19-forecast-hub-europe, 2022.Available: https://github.com/covid19-forecast-hub-europe/euro-hub-ensemble"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nikos I Bosse , Hugo Gruson , Sebastian Funk , Epi Forecasts , and Sam Abbott , Scoringutils: Utilities for Scoring and Assessing Predictions. 2020.Available: https://github.com/epiforecasts/scoringutils",
+        "DOI": "10.32614/CRAN.package.scoringutils"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/jour-nal.pcbi.1008618"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214506000001437"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.02.03.21250974"
+      },
+      {
+        "issue": "2",
+        "key": "2022110408540693000_2022.06.16.22276024v1.32",
+        "first-page": "1137",
+        "article-title": "Vincentization Revisited",
+        "volume": "20",
+        "year": "1992",
+        "journal-title": "The Annals of Statistics"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejor.2021.06.044"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. L. Ray et al., \u201cComparing trained and untrained probabilistic ensemble forecasts of COVID-19 cases and deaths in the United States,\u201d Jan. 28, 2022. Accessed: Mar. 30, 2022. [Online]. Available: http://arxiv.org/abs/2201.12387",
+        "DOI": "10.1016/j.ijforecast.2022.06.005"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/69.3.635"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.36",
+        "unstructured": "European Centre for Disease Prevention and Control, \u201cInterim guidance on the benefits of full vaccination against COVID-19 for transmission and implications for non-pharmaceutical interventions - 21 April 2021,\u201d ECDC, Stockholm, 2021.Available: https://www.ecdc.europa.eu/en/publications-data/interim-guidance-benefits-full-vaccination-against-covid-19-transmission"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.37",
+        "unstructured": "European Centre for Disease Prevention and Control, \u201cThreat Assessment Brief: Implications for the EU/EEA on the spread of the SARS-CoV-2 Delta (B.1.617.2) variant of concern,\u201d ECDC, Stockholm, Jun. 2021.Available: https://www.ecdc.europa.eu/en/publications-data/threat-assessment-emergence-and-impact-sars-cov-2-delta-variant"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.38",
+        "unstructured": "European Centre for Disease Prevention and Control, \u201cAssessment of the further spread and potential impact of the SARS-CoV-2 Omicron variant of concern in the EU/EEA, 19th update,\u201d Jan. 27, 2022. https://www.ecdc.europa.eu/en/publications-data/covid-19-omicron-risk-assessment-further-emergence-and-potential-impact"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.39",
+        "unstructured": "European Centre for Disease Prevention and Control, \u201cOverview of the implementation of COVID-19 vaccination strategies and deployment plans in the EU/EEA,\u201d ECDC, Stockholm, Nov. 2021.Available: https://www.ecdc.europa.eu/en/publications-data/overview-implementation-covid-19-vaccination-strategies-and-deployment-plans"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2007868117"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-22457-w"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879-021-05950-x"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4081/jphr.2021.2049"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/jour-nal.pone.0243701"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.45",
+        "unstructured": "L. Brooks , \u201cComparing ensemble approaches for short-term probabilistic COVID-19 forecasts in the U.S.\u201d 2020. https://forecasters.org/blog/2020/10/28/comparing-ensemble-approaches-for-short-term-probabilistic-covid-19-forecasts-in-the-u-s/ (accessed Jul. 15, 2021)."
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.11.05.21265810"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjgh-2020-003126"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjgh-2021-005207"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.9020"
+      },
+      {
+        "key": "2022110408540693000_2022.06.16.22276024v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7019e3"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.16.22276024",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:45:05Z",
+      "timestamp": 1768488305000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.06.16.22276024"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 50,
+    "URL": "https://doi.org/10.1101/2022.06.16.22276024",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.81916",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.81916",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

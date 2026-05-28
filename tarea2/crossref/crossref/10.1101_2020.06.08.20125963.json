@@ -1,0 +1,387 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          14
+        ]
+      ],
+      "date-time": "2026-02-14T11:09:05Z",
+      "timestamp": 1771067345356,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          9
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  COVID-19 pandemic has spread all over the world for months. As its transmissibility and high pathogenicity seriously threaten people\u2019s lives, the accurate and fast detection of the COVID-19 infection is crucial. Although many recent studies have shown that deep learning based solutions can help detect COVID-19 based on chest CT scans, there lacks a consistent and systematic comparison and evaluation on these techniques. In this paper, we first build a clean and segmented CT dataset called Clean-CC-CCII by fixing the errors and removing some noises in a large CT scan dataset CC-CCII with three classes: novel coronavirus pneumonia (NCP), common pneumonia (CP), and normal controls (Normal). After cleaning, our dataset consists of a total of 340,190 slices of 3,993 scans from 2,698 patients. Then we benchmark and compare the performance of a series of state-of-the-art (SOTA) 3D and 2D convolutional neural networks (CNNs). The results show that 3D CNNs outperform 2D CNNs in general. With extensive effort of hyperparameter tuning, we find that the 3D CNN model DenseNet3D121 achieves the highest accuracy of 88.63% (F1-score is 88.14% and AUC is 0.940), and another 3D CNN model ResNet3D34 achieves the best AUC of 0.959 (accuracy is 87.83% and F1-score is 86.04%). We further demonstrate that the mixup data augmentation technique can largely improve the model performance. At last, we design an automated deep learning methodology to generate a lightweight deep learning model MNas3DNet41 that achieves an accuracy of 87.14%, F1-score of 87.25%, and AUC of 0.957, which are on par with the best models made by AI experts. The automated deep learning design is a promising methodology that can help health-care professionals develop effective deep learning models using their private data sets. Our Clean-CC-CCII dataset and source code are available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/HKBU-HPML/HKBU_HPML_COVID-19\">https://github.com/HKBU-HPML/HKBU_HPML_COVID-19</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2020.06.08.20125963",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          9
+        ]
+      ],
+      "date-time": "2020-06-09T19:04:36Z",
+      "timestamp": 1591729476000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 30,
+    "title": [
+      "Benchmarking Deep Learning Models and Automated Model Design for COVID-19 Detection with Chest CT Scans"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8764-8157",
+        "authenticated-orcid": false,
+        "given": "Xin",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Shihao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shaohuai",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaowen",
+        "family": "Chu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiangping",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chenggang",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9600-8477",
+        "authenticated-orcid": false,
+        "given": "Jiyong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guiguang",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.1",
+        "unstructured": "W. H. Organization et al., \u201cNaming the coronavirus disease (covid-19) and the virus that causes it,\u201d World Health Organization. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it, 2020."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.2",
+        "unstructured": "W. H. Organization, \u201cQ&a on coronaviruses (covid-19),\u201d World Health Organization, 2020."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Chin , J. Chu , M. Perera , K. Hui , H.-L. Yen , M. Chan , M. Peiris , and L. Poon , \u201cStability of SARS-CoV-2 in different environmental conditions,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.03.15.20036673"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.4",
+        "unstructured": "W. H. Organization et al., \u201cCoronavirus disease (covid-2019) situation reports,\u201d Accessd 3 June 2020. [Online]. Available: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Ai , Z. Yang , H. Hou , C. Zhan , C. Chen , W. Lv , Q. Tao , Z. Sun , and L. Xia , \u201cCorrelation of chest ct and rt-pcr testing in coronavirus disease 2019 (covid-19) in china: a report of 1014 cases,\u201d Radiology, p. 200642, 2020.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Zhang , X. Liu , J. Shen , Z. Li , Y. Sang , X. Wu , Y. Zha , W. Liang , C. Wang , K. Wang et al., \u201cClinically applicable AI system for accurate diagnosis, quantitative measurements, and prognosis of covid-19 pneu-monia using computed tomography,\u201d Cell, 2020.",
+        "DOI": "10.1016/j.cell.2020.08.029"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.7",
+        "unstructured": "J. Zhang , Y. Xie , Y. Li , C. Shen , and Y. Xia , \u201cCOVID-19 Screening on Chest X-ray Images Using Deep Learning based Anomaly Detection,\u201d 2020. [Online]. Available: http://arxiv.org/abs/2003.12338"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.8",
+        "unstructured": "B. Ghoshal and A. Tucker , \u201cEstimating Uncertainty and Interpretability in Deep Learning for Coronavirus (COVID-19) Detection,\u201d pp. 1\u201314, 2020. [Online]. Available: http://arxiv.org/abs/2003.10769"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Narin , C. Kaya , and Z. Pamuk , \u201cAutomatic Detection of Coronavirus Disease (COVID-19) Using X-ray Images and Deep Convolutional Neural Networks,\u201d 2020. [Online]. Available: http://arxiv.org/abs/2003.10849",
+        "DOI": "10.1007/s10044-021-00984-y"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Singh , V. Kumar Vaishali , and M. Kaur , \u201cClassification of COVID-19 patients from chest CT images using multi-objective differential evolution-based convolutional neural networks,\u201d European journal of clinical microbiology & infectious diseases : official publication of European Society of Clinical Microbiology, 2020.",
+        "DOI": "10.1007/s10096-020-03901-z"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103795"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.12",
+        "unstructured": "M. Z. Alom , M. M. S. Rahman , M. S. Nasrin , T. M. Taha , and V. K. Asari , \u201cCovid MTNet: Covid-19 detection with multi-task deep learning approaches,\u201d 2020."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. He , X. Yang , S. Zhang , J. Zhao , Y. Zhang , E. Xing , and P. Xie , \u201cSample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans,\u201d medRxiv, vol. XX, no. Xx, p. 2020.04.13.20063941, 2020.",
+        "DOI": "10.1101/2020.04.13.20063941"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.14",
+        "unstructured": "A. Mobiny , P. A. Cicalese , S. Zare , P. Yuan , M. Abavisani , C. C. Wu , J. Ahuja , P. M. de Groot , and H. Van Nguyen , \u201cRadiologist-Level COVID-19 Detection Using CT Scans with Detail-Oriented Capsule Networks,\u201d 2020. [Online]. Available: http://arxiv.org/abs/2004.07407"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.15",
+        "unstructured": "C. Zheng , X. Deng , Q. Fu , Q. Zhou , J. Feng , H. Ma , W. Liu , and X. Wang , \u201cDeep Learning-based Detection for COVID-19 from Chest CT using Weak Label,\u201d medRxiv, p. 2020.03.12.20027185, 2020. [Online]. Available: http://medrxiv.org/content/early/2020/03/17/2020.03.12.20027185"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.16",
+        "unstructured": "L. Li , L. Qin , Z. Xu , Y. Yin , X. Wang , B. Kong , J. Bai , Y. Lu , Z. Fang , Q. Song et al., \u201cArtificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct,\u201d Radiology, p. 200905, 2020."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Hara , H. Kataoka , and Y. Satoh , \u201cCan spatiotemporal 3D CNNs retrace the history of 2D CNNs and ImageNet?\u201d in Proceedings of the IEEE conference on Computer Vision and Pattern Recognition, 2018, pp. 6546\u20136555.",
+        "DOI": "10.1109/CVPR.2018.00685"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Tran , H. Wang , L. Torresani , J. Ray , Y. LeCun , and M. Paluri , \u201cA closer look at spatiotemporal convolutions for action recognition,\u201d 2017.",
+        "DOI": "10.1109/CVPR.2018.00675"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Huang , Z. Liu , L. Van Der Maaten , and K. Q. Weinberger , \u201cDensely connected convolutional networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 4700\u20134708.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Xie , R. Girshick , P. Doll\u00e1r , Z. Tu , and K. He , \u201cAggregated residual transformations for deep neural networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1492\u2013 1500.",
+        "DOI": "10.1109/CVPR.2017.634"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.22",
+        "article-title": "Automl: A survey of the state-of-the-art",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Hutter , L. Kotthoff , and J. Vanschoren , \u201cAutomated machine learning: Methods, systems, challenges,\u201d Automated Machine Learning, 2019.",
+        "DOI": "10.1007/978-3-030-05318-5"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Zhang , M. Cisse , Y. N. Dauphin , and D. Lopez-Paz , \u201cmixup: Beyond empirical risk minimization,\u201d 2017.",
+        "DOI": "10.1007/978-1-4899-7687-1_79"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2017.07.005"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.26",
+        "year": "2020",
+        "journal-title": "\u201cCovid-19 image data collection"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.27",
+        "unstructured": "J. Zhao , X. He , X. Yang , Y. Zhang , S. Zhang , and P. Xie , \u201cCovid-ct-dataset: A ct scan dataset about covid-19,\u201d 2020."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.28",
+        "unstructured": "M. Jun , G. Cheng , W. Yixin , A. Xingle , G. Jiantao , Y. Ziqi , Z. Minqing , L. Xin , D. Xueyuan , C. Shucheng , W. Hao , M. Sen , Y. Xiaoyu , N. Ziwei , L. Chen , T. Lu , Z. Yuntao , Z. Qiongjie , D. Guoqiang , and H. Jian , \u201cCOVID-19 CT Lung and Infection Segmentation Dataset,\u201d Apr. 2020. [Online]. Available: https://doi.org/10.5281/zenodo.3757476"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.29",
+        "article-title": "Neural architecture search: A survey",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "5",
+        "key": "2021110711000430000_2020.06.08.20125963v3.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e232",
+        "DOI": "10.1016/S2589-7500(19)30108-6",
+        "article-title": "Automated deep learning design for medical image classification by health-care professionals with no coding experience: a feasibility study",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.31",
+        "unstructured": "A. G. Howard , M. Zhu , B. Chen , D. Kalenichenko , W. Wang , T. Weyand , M. Andreetto , and H. Adam , \u201cMobilenets: Efficient convolutional neural networks for mobile vision applications,\u201d 2017."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Sandler , A. Howard , M. Zhu , A. Zhmoginov , and L.-C. Chen , \u201cMobilenetv2: Inverted residuals and linear bottlenecks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510\u20134520.",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Tan , B. Chen , R. Pang , V. Vasudevan , M. Sandler , A. Howard , and Q. V. Le , \u201cMnasnet: Platform-aware neural architecture search for mobile,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2019, pp. 2820\u20132828.",
+        "DOI": "10.1109/CVPR.2019.00293"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Wu , X. Dai , P. Zhang , Y. Wang , F. Sun , Y. Wu , Y. Tian , P. Vajda , Y. Jia , and K. Keutzer , \u201cFbnet: Hardware-aware efficient convnet design via differentiable neural architecture search,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2019, pp. 10 734\u201310 742.",
+        "DOI": "10.1109/CVPR.2019.01099"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.35",
+        "article-title": "Random search and reproducibility for neural architecture search",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.36",
+        "article-title": "Evaluating the search phase of neural architecture search",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.37",
+        "unstructured": "D. P. Kingma and J. Ba , \u201cAdam: A method for stochastic optimization,\u201d 2014."
+      },
+      {
+        "key": "2021110711000430000_2020.06.08.20125963v3.38",
+        "unstructured": "I. Loshchilov and F. Hutter , \u201cSGDR: Stochastic gradient descent with warm restarts,\u201d International Conference on Learning Representations (ICLR), 2017."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.08.20125963",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:44:18Z",
+      "timestamp": 1768484658000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.08.20125963"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          9
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2020.06.08.20125963",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:14:41Z",
+      "timestamp": 1768508081283,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 85,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>COVID-19 disease is characterized by a spectrum of disease phases (mild, moderate, and severe). Each disease phase is marked by changes in omics profiles with corresponding changes in the expression of features (biosignatures). However, integrative analysis of multiple omics data from different experiments across studies to investigate biosignatures at various disease phases is limited. Exploring an integrative multi-omics profile analysis through a network approach could be used to determine biosignatures associated with specific disease phases and enable the examination of the relationships between the biosignatures.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Aim</jats:title>\n                  <jats:p>To identify and characterize biosignatures underlying various COVID-19 disease phases in an integrative multi-omics data analysis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Method</jats:title>\n                  <jats:p>We leveraged the correlation network approach to integrate transcriptomics, metabolomics, proteomics, and lipidomics data. The World Health Organization (WHO) Ordinal Scale (WOS) was used as a disease severity reference to harmonize COVID-19 patient metadata across two studies with independent data. A unified COVID-19 knowledge graph was constructed by assembling a disease-specific interactome from the literature and databases. Disease-state omics-specific graphs were constructed by integrating multi-omics data with the unified COVID-19 knowledge graph. We expanded on the network layers of multiXrank, a random walk with restart on multilayer network algorithm, to explore disease state omics-specific graphs and perform enrichment analysis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Network analysis revealed the biosignatures involved in inducing chemokines and inflammatory responses as hubs in the severe and moderate disease phases. We observed more shared biosignatures between severe and moderate disease phases as compared to mild-moderate and mild-severe disease phases. We further identified both biosignatures that discriminate between the disease states and interactions between biosignatures that are either common between or associated with COVID-19 disease phases. Interestingly, cross-layer interactions between different omics profiles increased with disease severity.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>This study identified both biosignatures of different omics types enriched in disease-related pathways and their associated interactions that are either common between or unique to mild, moderate, and severe COVID-19. These biosignatures include molecular features that underlie the observed clinical heterogeneity of COVID-19 and emphasize the need for disease-phase-specific treatment strategies. In addition, the approach implemented here can be used for other diseases.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key findings</jats:title>\n                  <jats:list list-type=\"simple\">\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>Integrative multi-omics analysis revealed biosignatures and biosignature interactions associated with COVID-19 disease states.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>Disease severity increases with biosignature interactions across different multi-omics data.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>The harmonization approach proposed and implemented here can be applied to other diseases</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2023.09.29.560110",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2023-09-29T20:40:22Z",
+      "timestamp": 1696020022000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Network-based integrative multi-omics approach reveals biosignatures specific to COVID-19 disease phases"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Francis E.",
+        "family": "Agamah",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas H.A.",
+        "family": "Ederveen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michelle",
+        "family": "Skelton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Darren P.",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emile R.",
+        "family": "Chimusa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter A.C.",
+        "family": "\u2019t Hoen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karim H , Khan MS. A Systematic Review on Coronavirus Disease 2019 (COVID-19). 2020.",
+        "DOI": "10.20944/preprints202008.0516.v1"
+      },
+      {
+        "issue": "10223",
+        "key": "2023100504200719000_2023.09.29.560110v1.2",
+        "first-page": "507",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study"
+      },
+      {
+        "issue": "4",
+        "key": "2023100504200719000_2023.09.29.560110v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1007/s12098-020-03263-6",
+        "article-title": "A review of coronavirus disease-2019 (COVID-19)",
+        "volume": "87",
+        "year": "2020",
+        "journal-title": "The indian journal of pediatrics"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.cels.2020.05.012",
+        "article-title": "Ultra-high-throughput clinical proteomics reveals classifiers of COVID-19 infection",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Cell systems"
+      },
+      {
+        "issue": "5",
+        "key": "2023100504200719000_2023.09.29.560110v1.5",
+        "first-page": "1036",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Imbalanced host response to SARS-CoV-2 drives development of COVID-19"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "584987",
+        "DOI": "10.3389/fcvm.2020.584987",
+        "article-title": "Lipid profile features and their associations with disease severity and mortality in patients with COVID-19",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Frontiers in cardiovascular medicine"
+      },
+      {
+        "issue": "6",
+        "key": "2023100504200719000_2023.09.29.560110v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1296",
+        "DOI": "10.1016/j.immuni.2020.11.017",
+        "article-title": "Longitudinal multi-omics analyses identify responses of megakaryocytes, erythroid cells, and plasmablasts as hallmarks of severe COVID-19",
+        "volume": "53",
+        "year": "2020",
+        "journal-title": "Immunity"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.8",
+        "first-page": "1",
+        "article-title": "Disease severity-specific neutrophil signatures in blood transcriptomes stratify COVID-19 patients",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Genome medicine"
+      },
+      {
+        "issue": "6",
+        "key": "2023100504200719000_2023.09.29.560110v1.9",
+        "first-page": "1419",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Severe COVID-19 is marked by a dysregulated myeloid cell compartment"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.10",
+        "first-page": "205",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "The role of host genetics in the immune response to SARS[CoV[2 and COVID[19 susceptibility and severity"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.11",
+        "first-page": "1",
+        "article-title": "Comprehensive transcriptomic analysis of COVID-19 blood, lung, and airway",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep-Uk"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alqutami F , Senok A , Hachim M . COVID-19 transcriptomic atlas: A comprehensive analysis of COVID-19 related transcriptomics datasets. Frontiers in Genetics. 2021:2500.",
+        "DOI": "10.3389/fgene.2021.755222"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/j.csbj.2020.12.016",
+        "article-title": "Host transcriptomic profiling of COVID-19 patients with mild, moderate, and severe clinical outcomes",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Computational structural biotechnology journal"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "103723",
+        "DOI": "10.1016/j.ebiom.2021.103723",
+        "article-title": "Next generation plasma proteome profiling of COVID-19 patients with mild to moderate symptoms",
+        "volume": "74",
+        "year": "2021",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.15",
+        "first-page": "6",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "Untargeted metabolomics of COVID-19 patient serum reveals potential prognostic markers of both severity and outcome"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0274910"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia H , Liu C , Li D , Huang Q , Liu D , Zhang Y , et al. Metabolomic analyses reveal new stage-specific features of COVID-19. European Respiratory Journal. 2022;59(2).",
+        "DOI": "10.1183/13993003.00284-2021"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fraser DD , Slessarev M , Martin CM , Daley M , Patel MA , Miller MR , et al. Metabolomics profiling of critically ill coronavirus disease 2019 patients: identification of diagnostic and prognostic biomarkers. Critical Care Explorations. 2020;2(10).",
+        "DOI": "10.1097/CCE.0000000000000272"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ciccarelli M , Merciai F , Carrizzo A , Sommella E , Di Pietro P , Caponigro V , et al. Untargeted lipidomics reveals specific lipid profiles in COVID-19 patients with different severity from Campania region (Italy). Journal of pharmaceutical biomedical analysis. 2022;217:114827.",
+        "DOI": "10.1016/j.jpba.2022.114827"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.20",
+        "first-page": "5935",
+        "article-title": "Identification of robust protein associations with COVID-19 disease based on five clinical studies",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "6357",
+        "DOI": "10.1038/s41598-021-85877-0",
+        "article-title": "Proteomic blood profiling in mild, severe and critical COVID-19 patients",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep-Uk"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01329-2"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.23",
+        "first-page": "7319",
+        "article-title": "Single-cell multiomics revealed the dynamics of antigen presentation, immune response and T cell activation in the COVID-19 positive and recovered individuals",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.24",
+        "unstructured": "Su Y , Chen D , Yuan D , Lausted C , Choi J , Dai CL , et al. Multi-omics resolves a sharp disease-state shift between mild and moderate COVID-19. Cell. 2020."
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Overmyer KA , Shishkova E , Miller IJ , Balnis J , Bernstein MN , Peters-Clarke TM , et al. Large-scale multi-omic analysis of COVID-19 severity. Cell systems. 2020.",
+        "DOI": "10.1101/2020.07.17.20156513"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.26",
+        "first-page": "1",
+        "article-title": "Longitudinal multi-omics transition associated with fatality in critically ill COVID-19 patients",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Intensive care medicine experimental"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jproteome.1c00215"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.28",
+        "first-page": "104051",
+        "volume": "126",
+        "year": "2020",
+        "journal-title": "Multi-omics-based identification of SARS-CoV-2 infection biology and candidate drugs against COVID-19"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Agamah FE , Bayjanov JR , Niehues A , Njoku KF , Skelton M , Mazandu GK , et al. Computational approaches for network-based integrative multi-omics analysis. Frontiers in Molecular Biosciences. 2022:1214.",
+        "DOI": "10.3389/fmolb.2022.967205"
+      },
+      {
+        "issue": "7821",
+        "key": "2023100504200719000_2023.09.29.560110v1.30",
+        "first-page": "463",
+        "volume": "584",
+        "year": "2020",
+        "journal-title": "Longitudinal analyses reveal immunological misfiring in severe COVID-19"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eji.202149575"
+      },
+      {
+        "issue": "16",
+        "key": "2023100504200719000_2023.09.29.560110v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "5323",
+        "DOI": "10.3390/molecules27165323",
+        "article-title": "The Impact of Severe COVID-19 on Plasma Antioxidants",
+        "volume": "27",
+        "year": "2022",
+        "journal-title": "Molecules"
+      },
+      {
+        "issue": "3",
+        "key": "2023100504200719000_2023.09.29.560110v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "444",
+        "DOI": "10.3390/cells11030444",
+        "article-title": "Post-mortem Findings of Inflammatory Cells and the Association of 4-Hydroxynonenal with Systemic Vascular and Oxidative Stress in Lethal COVID-19",
+        "volume": "11",
+        "year": "2022",
+        "journal-title": "Cells"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e10322",
+        "DOI": "10.7717/peerj.10322",
+        "article-title": "The efficacy of IL-6 inhibitor Tocilizumab in reducing severe COVID-19 mortality: a systematic review",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Samaee H , Mohsenzadegan M , Ala S , Maroufi SS , Moradimajd P . Tocilizumab for treatment patients with COVID-19: recommended medication for novel disease. International immunopharmacology. 2020;89:107018.",
+        "DOI": "10.1016/j.intimp.2020.107018"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc6027"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaci.2020.08.031"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.38",
+        "first-page": "1",
+        "article-title": "Therapeutic mechanisms of mesenchymal stem cells in acute respiratory distress syndrome reveal potentials for Covid-19 treatment",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Journal of Translational Medicine"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quartuccio L , Fabris M , Sonaglia A , Peghin M , Domenis R , Cifu A , et al. Interleukin 6, soluble interleukin 2 receptor alpha (CD25), monocyte colony-stimulating factor, and hepatocyte growth factor linked with systemic hyperinflammation, innate immunity hyperactivation, and organ damage in COVID-19 pneumonia. Cytokine. 2021;140:155438.",
+        "DOI": "10.1016/j.cyto.2021.155438"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thomas T , Stefanoni D , Reisz JA , Nemkov T , Bertolone L , Francis RO , et al. COVID-19 infection alters kynurenine and fatty acid metabolism, correlating with IL-6 levels and renal status. JCI insight. 2020;5(14).",
+        "DOI": "10.1172/jci.insight.140327"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.05.032"
+      },
+      {
+        "issue": "2",
+        "key": "2023100504200719000_2023.09.29.560110v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "e06187",
+        "DOI": "10.1016/j.heliyon.2021.e06187",
+        "article-title": "SARS-CoV-2 spike protein S1 subunit induces pro-inflammatory responses via toll-like receptor 4 signaling in murine and human macrophages",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "Heliyon"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41591-020-1051-9"
+      },
+      {
+        "issue": "9",
+        "key": "2023100504200719000_2023.09.29.560110v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1016/j.micinf.2020.05.016",
+        "article-title": "Clinical features of COVID-19 and influenza: a comparative study on Nord Franche-Comte cluster",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Microbes infection"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41591-020-0901-9"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weiner J , Suwalski P , Holtgrewe M , Rakitko A , Thibeault C , Mueller M , et al. Increased risk of severe clinical course of COVID-19 in carriers of HLA-C* 04: 01. EClinicalMedicine. 2021;40.",
+        "DOI": "10.1016/j.eclinm.2021.101099"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mart\u00ednez-Fleta P , Vera-Tom\u00e9 P , Jim\u00e9nez-Fern\u00e1ndez M , Requena S , Roy-Vallejo E , Sanz-Garc\u00eda A , et al. A differential signature of circulating miRNAs and cytokines between COVID-19 and community-acquired pneumonia uncovers novel physiopathological mechanisms of COVID-19. Frontiers in immunology. 2022;12:815651.",
+        "DOI": "10.3389/fimmu.2021.815651"
+      },
+      {
+        "issue": "11",
+        "key": "2023100504200719000_2023.09.29.560110v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "e653",
+        "DOI": "10.1016/S2665-9913(20)30309-X",
+        "article-title": "Accumulating evidence suggests anti-TNF therapy needs to be given trial priority in COVID-19 treatment",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Rheumatology"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.cytogfr.2020.05.003",
+        "article-title": "The cytokine storm in COVID-19: An overview of the involvement of the chemokine/chemokine-receptor system",
+        "volume": "53",
+        "year": "2020",
+        "journal-title": "Cytokine growth factor reviews"
+      },
+      {
+        "issue": "2",
+        "key": "2023100504200719000_2023.09.29.560110v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1016/j.jpha.2020.03.001",
+        "article-title": "Molecular immune pathogenesis and diagnosis of COVID-19",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Journal of pharmaceutical analysis"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.51",
+        "first-page": "100307",
+        "article-title": "Multiplex sensing of IL-10 and CRP towards predicting critical illness in COVID-19 infections",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Biosensors Bioelectronics: X"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Theken KN , Tang SY , Sengupta S , FitzGerald GA . The roles of lipids in SARS-CoV-2 viral replication and the host immune response. Journal of lipid research. 2021;62.",
+        "DOI": "10.1016/j.jlr.2021.100129"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "595150",
+        "DOI": "10.3389/fimmu.2021.595150",
+        "article-title": "Systems immunology analysis reveals the contribution of pulmonary and extrapulmonary tissues to the immunopathogenesis of severe COVID-19 patients",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "issue": "7",
+        "key": "2023100504200719000_2023.09.29.560110v1.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.36347/sasjm.2021.v07i07.001",
+        "article-title": "To Correlate Serum Lipid Parameters with Clinical Outcome in COVID-19 Patients",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "SAS Journal of Medicine"
+      },
+      {
+        "issue": "5",
+        "key": "2023100504200719000_2023.09.29.560110v1.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "724",
+        "DOI": "10.1016/j.jacl.2021.08.002",
+        "article-title": "Hypertriglyceridemia during hospitalization independently associates with mortality in patients with COVID-19",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "Journal of Clinical Lipidology"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jproteome"
+      },
+      {
+        "issue": "3",
+        "key": "2023100504200719000_2023.09.29.560110v1.57",
+        "first-page": "1",
+        "article-title": "Vitamin C and COVID-19: An orthomolecular perspective on physiological mechanisms",
+        "volume": "36",
+        "year": "2021",
+        "journal-title": "Orthomol Med"
+      },
+      {
+        "issue": "19",
+        "key": "2023100504200719000_2023.09.29.560110v1.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "10198",
+        "DOI": "10.3390/ijms221910198",
+        "article-title": "Severity of COVID-19 patients predicted by serum sphingolipids signature",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "International Journal of Molecular Sciences"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Veras FP , Pontelli MC , Silva CM , Toller-Kawahisa JE , de Lima M , Nascimento DC , et al. SARS-CoV-2\u2013triggered neutrophil extracellular traps mediate COVID-19 pathology. Journal of Experimental Medicine. 2020;217(12).",
+        "DOI": "10.1101/2020.06.08.20125823"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-0320-7"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-020-2600-6"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2020.06.034"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1182/blood-2004-10-4166"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-0331-4"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nsr/nwaa041"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb8925"
+      },
+      {
+        "issue": "8",
+        "key": "2023100504200719000_2023.09.29.560110v1.67",
+        "doi-asserted-by": "crossref",
+        "first-page": "1486",
+        "DOI": "10.1038/s41418-022-00936-x",
+        "article-title": "T cell apoptosis characterizes severe Covid-19 disease",
+        "volume": "29",
+        "year": "2022",
+        "journal-title": "Cell Death Differentiation"
+      },
+      {
+        "issue": "5",
+        "key": "2023100504200719000_2023.09.29.560110v1.68",
+        "doi-asserted-by": "crossref",
+        "first-page": "2867",
+        "DOI": "10.1002/jmv.26742",
+        "article-title": "Apoptosis[induced T[cell lymphopenia is related to COVID[19 severity",
+        "volume": "93",
+        "year": "2021",
+        "journal-title": "Journal of medical virology"
+      },
+      {
+        "issue": "2",
+        "key": "2023100504200719000_2023.09.29.560110v1.69",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1016/j.cmet.2020.06.016",
+        "article-title": "Omics-driven systems interrogation of metabolic dysregulation in COVID-19 pathogenesis",
+        "volume": "32",
+        "year": "2020",
+        "journal-title": "Cell metabolism"
+      },
+      {
+        "issue": "22",
+        "key": "2023100504200719000_2023.09.29.560110v1.70",
+        "doi-asserted-by": "crossref",
+        "first-page": "8623",
+        "DOI": "10.3390/ijms21228623",
+        "article-title": "Large-scale plasma analysis revealed new mechanisms and molecules associated with the host response to SARS-CoV-2",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "International journal of molecular sciences"
+      },
+      {
+        "issue": "4",
+        "key": "2023100504200719000_2023.09.29.560110v1.71",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1007/s00109-022-02177-4",
+        "article-title": "Disturbed lipid and amino acid metabolisms in COVID-19 patients",
+        "volume": "100",
+        "year": "2022",
+        "journal-title": "Journal of molecular medicine"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khan SA , Goliwas KF , Deshane JS . Sphingolipids in lung pathology in the coronavirus disease era: A review of sphingolipid involvement in the pathogenesis of lung damage. Frontiers in Physiology. 2021:1757.",
+        "DOI": "10.3389/fphys.2021.760638"
+      },
+      {
+        "issue": "12",
+        "key": "2023100504200719000_2023.09.29.560110v1.73",
+        "doi-asserted-by": "crossref",
+        "first-page": "2679",
+        "DOI": "10.3390/cells9122679",
+        "article-title": "Taming the Autophagy as a Strategy for Treating COVID-19",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Cells"
+      },
+      {
+        "issue": "10",
+        "key": "2023100504200719000_2023.09.29.560110v1.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "1724",
+        "DOI": "10.7150/ijbs.45498",
+        "article-title": "Targeting the endocytic pathway and autophagy process as a novel therapeutic strategy in COVID-19",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "International journal of biological sciences"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.75",
+        "first-page": "1116",
+        "article-title": "Metabolomic profiling of plasma reveals differential disease severity markers in COVID-19 patients",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Front Microbiol"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.76",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1038/s41392-022-00976-2",
+        "article-title": "Novel potential metabolic biomarker panel for early detection of severe COVID-19 using full-spectrum metabolome and whole-transcriptome analyses",
+        "volume": "7",
+        "year": "2022",
+        "journal-title": "Signal transduction targeted therapy"
+      },
+      {
+        "issue": "W1",
+        "key": "2023100504200719000_2023.09.29.560110v1.77",
+        "doi-asserted-by": "crossref",
+        "first-page": "W388",
+        "DOI": "10.1093/nar/gkab382",
+        "article-title": "MetaboAnalyst 5.0: narrowing the gap between raw spectra and functional insights",
+        "volume": "49",
+        "year": "2021",
+        "journal-title": "Nucleic acids research"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Eijk LE , Offringa AK , Bernal M-E , Bourgonje AR , van Goor H , Hillebrands J-L . The Disease-Modifying Role of Taurine and Its Therapeutic Potential in Coronavirus Disease 2019 (COVID-19). Taurine 12: A Conditionally Essential Amino Acid: Springer; 2022. p. 3\u201321.",
+        "DOI": "10.1007/978-3-030-93337-1_1"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eteraf-Oskouei T , Najafi M . The relationship between the serotonergic system and COVID-19 disease: A review. Heliyon. 2022:e09544.",
+        "DOI": "10.1016/j.heliyon.2022.e09544"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKZ1021"
+      },
+      {
+        "issue": "W1",
+        "key": "2023100504200719000_2023.09.29.560110v1.81",
+        "first-page": "W60",
+        "volume": "46",
+        "year": "2018",
+        "journal-title": "GeneMANIA update 2018. Nucleic acids research"
+      },
+      {
+        "issue": "9",
+        "key": "2023100504200719000_2023.09.29.560110v1.82",
+        "doi-asserted-by": "crossref",
+        "first-page": "1332",
+        "DOI": "10.1093/bioinformatics/btaa834",
+        "article-title": "COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology",
+        "volume": "37",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "1",
+        "key": "2023100504200719000_2023.09.29.560110v1.83",
+        "first-page": "1",
+        "article-title": "Universal multilayer network exploration by random walk with restart",
+        "volume": "5",
+        "year": "2022",
+        "journal-title": "Communications Physics"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Acevedo A , Dur\u00e1n C , Ciucci S , Gerl M , Cannistraci CV . LIPEA: lipid pathway enrichment analysis. BioRxiv. 2018:274969.",
+        "DOI": "10.1101/274969"
+      },
+      {
+        "key": "2023100504200719000_2023.09.29.560110v1.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw377"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.29.560110",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:18:24Z",
+      "timestamp": 1768454304000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.29.560110"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ]
+    },
+    "references-count": 85,
+    "URL": "https://doi.org/10.1101/2023.09.29.560110",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

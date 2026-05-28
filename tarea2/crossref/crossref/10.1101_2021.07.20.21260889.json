@@ -1,0 +1,431 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:10:47Z",
+      "timestamp": 1768554647463,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          22
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>For the control of COVID-19, vaccination programmes provide a long-term solution. The amount of available vaccines is often limited, and thus it is crucial to determine the allocation strategy. While mathematical modelling approaches have been used to find an optimal distribution of vaccines, there is an excessively large number of possible schemes to be simulated.</jats:p>\n                <jats:p>Here, we propose an algorithm to find a near-optimal allocation scheme given an intervention objective such as minimization of new infections, hospitalizations, or deaths, where multiple vaccines are available. The proposed principle for allocating vaccines is to target subgroups with the largest reduction in the outcome of interest, such as new infections, due to vaccination that fully immunizes a single individual. We express the expected impact of vaccinating each subgroup in terms of the observed incidence of infection and force of infection. The proposed approach is firstly evaluated with a simulated epidemic and then applied to the epidemiological data on COVID-19 in the Netherlands.</jats:p>\n                <jats:p>Our results reveal how the optimal allocation depends on the objective of infection control. In the case of COVID-19, if we wish to minimize deaths, the optimal allocation strategy is not efficient for minimizing other outcomes, such as infections. In simulated epidemics, an allocation strategy optimized for an outcome outperforms other strategies such as the allocation from young to old, from old to young, and at random. Our simulations clarify that the current policy in the Netherlands (i.e., allocation from old to young) was concordant with the allocation scheme that minimizes deaths.</jats:p>\n                <jats:p>The proposed method provides an optimal allocation scheme, given routine surveillance data that reflect ongoing transmissions. The principle of allocation is useful for providing plausible simulation scenarios for complex models, which give a more robust basis to determine intervention strategies.</jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Vaccination is the key to controlling the ongoing COVID-19 pandemic. In the early stages of an epidemic, there is shortage of vaccine stocks. Here, we propose an algorithm that computes an optimal vaccine distribution among groups for each intervention objective (e.g., minimizing new infections, hospitalizations, or deaths). Unlike existing approaches that use detailed information on at-risk contacts between and among groups, the proposed algorithm requires only routine surveillance data on the number of cases. This method is applicable even when multiple vaccines are available. Simulation results show that the allocation scheme optimized by our algorithm performed the best compared with other strategies such as allocating vaccines at random and in the order of age. Our results also reveal that an allocation scheme optimized for one specific objective is not necessarily efficient for another, indicating the importance of the decision-making at the early phase of distributions.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.07.20.21260889",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          23
+        ]
+      ],
+      "date-time": "2021-07-23T00:45:20Z",
+      "timestamp": 1627001120000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Optimal vaccine allocation for COVID-19 in the Netherlands: a data-driven prioritization"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8235-757X",
+        "authenticated-orcid": false,
+        "given": "Fuminari",
+        "family": "Miura",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7596-7641",
+        "authenticated-orcid": false,
+        "given": "Ka Yin",
+        "family": "Leung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9449-6873",
+        "authenticated-orcid": false,
+        "given": "Don",
+        "family": "Klinkenberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5419-7206",
+        "authenticated-orcid": false,
+        "given": "Kylie E. C.",
+        "family": "Ainslie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1725-5627",
+        "authenticated-orcid": false,
+        "given": "Jacco",
+        "family": "Wallinga",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.1",
+        "unstructured": "ECDC. COVID-19 situation update for the EU/EEA, as of week 26. European Centre for Disease Prevention and Control (ECDC). [cited 2021 Jul 9]. Available from: https://www.ecdc.europa.eu/en/cases-2019-ncov-eueea"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.2",
+        "unstructured": "WHO Coronavirus (COVID-19) Dashboard. [cited 2021 Jul 9]. Available from: https://covid19.who.int/"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30457-6"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferretti L , Wymant C , Kendall M , Zhao L , Nurtay A , Abeler-D\u00f6rner L , et al. Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing. Science. 2020 May 8;368(6491). Available from: http://dx.doi.org/10.1126/science.abb6936",
+        "DOI": "10.1126/science.abb6936"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sandmann FG , Davies NG , Vassall A , Edmunds WJ , Jit M , Centre for the Mathematical Modelling of Infectious Diseases COVID-19 working group. The potential health and economic value of SARS-CoV-2 vaccination alongside physical distancing in the UK: a transmission model-based future scenario analysis and economic evaluation. Lancet Infect Dis. 2021 Mar 18; Available from: http://dx.doi.org/10.1016/S1473-3099(21)00079-7",
+        "DOI": "10.1101/2020.09.24.20200857"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.19759"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shrotri M , Swinnen T , Kampmann B , Parker EPK . An interactive website tracking COVID-19 vaccine development. Lancet Glob Health. 2021 Mar 2; Available from: http://dx.doi.org/10.1016/S2214-109X(21)00043-7",
+        "DOI": "10.1016/S2214-109X(21)00043-7"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kluge H , McKee M. COVID-19 vaccines for the European region: an unprecedented challenge. Lancet. 2021 Mar 25; Available from: http://dx.doi.org/10.1016/S0140-6736(21)00709-1",
+        "DOI": "10.1016/S0140-6736(21)00709-1"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cowling BJ , Lim WW , Cobey S. Fractionation of COVID-19 vaccine doses could extend limited supplies and reduce mortality. Nat Med. 2021 Jul 5;1\u20132.",
+        "DOI": "10.1038/s41591-021-01440-4"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.vaccine.2008.04.043"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1175570"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.0030387"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moore S , Hill EM , Tildesley MJ , Dyson L , Keeling MJ . Vaccination and non-pharmaceutical interventions for COVID-19: a mathematical modelling study. Lancet Infect Dis. 2021 Mar 18; Available from: https://www.sciencedirect.com/science/article/pii/S1473309921001432",
+        "DOI": "10.1016/S1473-3099(21)00143-2"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Viana J , van Dorp CH , Nunes A , Gomes MC , van Boven M , Kretzschmar ME , et al. Controlling the pandemic during the SARS-CoV-2 vaccination rollout: a modeling study. medRxiv. medRxiv; 2021. Available from: http://medrxiv.org/lookup/doi/10.1101/2021.03.24.21254188",
+        "DOI": "10.1101/2021.03.24.21254188"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Giordano G , Colaneri M , Di Filippo A , Blanchini F , Bolzern P , De Nicolao G , et al. Modeling vaccination rollouts, SARS-CoV-2 variants and the requirement for non-pharmaceutical interventions in Italy. Nat Med. 2021 Apr 16; Available from: http://dx.doi.org/10.1038/s41591-021-01334-5",
+        "DOI": "10.1038/s41591-021-01334-5"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bubar KM , Reinholt K , Kissler SM , Lipsitch M , Cobey S , Grad YH , et al. Model-informed COVID-19 vaccine prioritization strategies by age and serostatus. Science. 2021 Jan 21 [cited 2021 Jan 22]; Available from: https://science.sciencemag.org/content/early/2021/01/21/science.abe6959",
+        "DOI": "10.1101/2020.09.08.20190629"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abf1374"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buckner JH , Chowell G , Springborn MR . Dynamic prioritization of COVID-19 vaccines when social distancing is limited for essential workers. Proc Natl Acad Sci U S A. 2021 Apr 20;118(16). Available from: http://dx.doi.org/10.1073/pnas.2025786118",
+        "DOI": "10.1073/pnas.2025786118"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0962-9"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb8001"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc3517"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc0035"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Levin AT , Hanage WP , Owusu-Boaitey N , Cochran KB , Walsh SP , Meyerowitz-Katz G. Assessing the age specificity of infection fatality rates for COVID-19: systematic review, meta-analysis, and public policy implications. Eur J Epidemiol. 2020 Dec 8; Available from: http://dx.doi.org/10.1007/s10654-020-00698-1",
+        "DOI": "10.3386/w27597"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O\u2019Driscoll M , Ribeiro Dos Santos G , Wang L , Cummings DAT , Azman AS , Paireau J , et al. Age-specific mortality and immunity patterns of SARS-CoV-2. Nature. 2020 Nov 2; Available from: http://dx.doi.org/10.1038/s41586-020-2918-0",
+        "DOI": "10.1101/2020.08.24.20180851"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.25",
+        "unstructured": "Diekmann O , Heesterbeek JAP . Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation. John Wiley & Sons; 2000. 303 p."
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2009.0386"
+      },
+      {
+        "issue": "3",
+        "key": "2021072600351139000_2021.07.20.21260889v1.27",
+        "first-page": "288",
+        "article-title": "Reproduction numbers of infectious disease models",
+        "volume": "2",
+        "year": "2017",
+        "journal-title": "Infect Dis Model"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0908491107"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.29",
+        "unstructured": "Government of the Netherlands. Approach to corona vaccination in the Netherlands. 2021 [cited 2021 Jul 9]. Available from: https://www.rijksoverheid.nl/onderwerpen/coronavirus-vaccinatie/aanpak-coronavaccinatie/kinderen-en-jongeren"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.30",
+        "unstructured": "Cormen TH , Leiserson CE , Rivest RL , Stein C. Introduction To Algorithms. MIT Press; 2001. 1180 p."
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-20241-w"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Backer JA , Mollema L , Vos ER , Klinkenberg D , van der Klis FR , de Melker HE , et al. Impact of physical distancing measures against COVID-19 on contacts and mixing patterns: repeated cross-sectional surveys, the Netherlands, 2016-17, April 2020 and June 2020. Euro Surveill. 2021 Feb;26(8). Available from: http://dx.doi.org/10.2807/1560-7917.ES.2021.26.8.2000994",
+        "DOI": "10.2807/1560-7917.ES.2021.26.8.2000994"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.33",
+        "unstructured": "Roser M , Ritchie H , Ortiz-Ospina E , Hasell J. Coronavirus pandemic (COVID-19). OurWorldInData.org. 2021 [cited 2021 Jul 12]. Available from: https://ourworldindata.org/coronavirus"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-020-01790-9"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.04.080"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwj317"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vos ERA , van Boven M , den Hartog G , Backer JA , Klinkenberg D , van Hagen CCE , et al. Associations between measures of social distancing and SARS-CoV-2 seropositivity: a nationwide population-based study in the Netherlands. medRxiv. medRxiv; 2021. Available from: http://medrxiv.org/lookup/doi/10.1101/2021.02.10.21251477",
+        "DOI": "10.1101/2021.02.10.21251477"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Polack FP , Thomas SJ , Kitchin N , Absalon J , Gurtman A , Lockhart S , et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. N Engl J Med. 2020 Dec 10; Available from: https://doi.org/10.1056/NEJMoa2034577",
+        "DOI": "10.1056/NEJMoa2034577"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baden LR , El Sahly HM , Essink B , Kotloff K , Frey S , Novak R , et al. Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine. N Engl J Med. 2020 Dec 30; Available from: http://dx.doi.org/10.1056/NEJMoa2035389",
+        "DOI": "10.1056/NEJMoa2035389"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)32661-1"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7009e4"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caswell H. Sensitivity Analysis: Matrix Methods in Demography and Ecology. Springer, Cham; 2019.",
+        "DOI": "10.1007/978-3-030-10534-1"
+      },
+      {
+        "issue": "2",
+        "key": "2021072600351139000_2021.07.20.21260889v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.2307/1403510",
+        "article-title": "Sensitivity and Uncertainty Analysis of Complex Models of Disease Transmission: An HIV Model, as an Example",
+        "volume": "62",
+        "year": "1994",
+        "journal-title": "Int Stat Rev"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Inaba H. Age-Structured Population Dynamics in Demography and Epidemiology. Springer; 2017. 555 p.",
+        "DOI": "10.1007/978-981-10-0188-8"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Magnus JR , Neudecker H. Matrix Differential Calculus with Applications in Statistics and Econometrics. Wiley; 1988. 393 p.",
+        "DOI": "10.2307/2531754"
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.46",
+        "unstructured": "Caswell H. Matrix population models. Vol. 1. Sinauer Sunderland, MA, USA; 2000."
+      },
+      {
+        "key": "2021072600351139000_2021.07.20.21260889v1.47",
+        "unstructured": "Golub GH , Van Loan CF . Matrix computations (3rd ed.). USA: Johns Hopkins University Press; 1996."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.20.21260889",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:20:55Z",
+      "timestamp": 1768486855000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.07.20.21260889"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          22
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1101/2021.07.20.21260889",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1009697",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

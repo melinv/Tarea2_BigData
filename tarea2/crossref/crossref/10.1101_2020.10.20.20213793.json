@@ -1,0 +1,508 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:45:55Z",
+      "timestamp": 1768549555457,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The coronavirus disease of 2019 (COVID-19) pandemic exposed a limitation of artificial intelligence (AI) based medical image interpretation systems. Early in the pandemic, when need was greatest, the absence of sufficient training data prevented effective deep learning (DL) solutions. Even now, there is a need for Chest-X-ray (CxR) screening tools in low and middle income countries (LMIC), when RT-PCR is delayed, to exclude COVID-19 pneumonia (Cov-Pneum) requiring transfer to higher care. In absence of local LMIC data and poor portability of CxR DL algorithms, a new approach is needed. Axiomatically, it is faster to repurpose existing data than to generate new datasets. Here, we describe CovBaseAI, an explainable tool which uses an ensemble of three DL models and an expert decision system (EDS) for Cov-Pneum diagnosis, trained entirely on datasets from the pre-COVID-19 period. Portability, performance, and explainability of CovBaseAI was primarily validated on two independent datasets. First, 1401 randomly selected CxR from an Indian quarantine-center to assess effectiveness in excluding radiologic Cov-Pneum that may require higher care. Second, a curated dataset with 434 RT-PCR positive cases of varying levels of severity and 471 historical scans containing normal studies and non-COVID pathologies, to assess performance in advanced medical settings. CovBaseAI had accuracy of 87% with negative predictive value of 98% in the quarantine-center data for Cov-Pneum. However, sensitivity varied from 0.66 to 0.90 depending on whether RT-PCR or radiologist opinion was set as ground truth. This tool with explainability feature has better performance than publicly available algorithms trained on COVID-19 data but needs further improvement.</jats:p>",
+    "DOI": "10.1101/2020.10.20.20213793",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2020-10-21T17:20:44Z",
+      "timestamp": 1603300844000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Validation of expert system enhanced deep learning algorithm for automated screening for COVID-Pneumonia on chest X-rays"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8925-8400",
+        "authenticated-orcid": false,
+        "given": "Prashant Sadashiv",
+        "family": "Gidde",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Shyam Sunder",
+        "family": "Prasad",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ajay Pratap",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nitin",
+        "family": "Bhatheja",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Satyartha",
+        "family": "Prakash",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Prateek",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aakash",
+        "family": "Saboo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rohit",
+        "family": "Thakar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Salil",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sumeet",
+        "family": "Saurav",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M V",
+        "family": "Raghunandanan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amritpal",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Viren",
+        "family": "Sardana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Harsh",
+        "family": "Mahajan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Arjun",
+        "family": "Kalyanpur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Atanendu Shekhar",
+        "family": "Mandal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vidur",
+        "family": "Mahajan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anurag",
+        "family": "Agrawal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anjali",
+        "family": "Agrawal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vasantha Kumar",
+        "family": "Venugopal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sanjay",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Debasis",
+        "family": "Dash",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.1",
+        "unstructured": "Rsna pneumonia detection challenge, 2018."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.2",
+        "article-title": "COVID-CAPS: A Capsule Network-based Framework for Identification of COVID-19 cases from X-ray Images",
+        "year": "2020",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "105608",
+        "DOI": "10.1016/j.cmpb.2020.105608",
+        "article-title": "Explainable deep learning for pulmonary disease and coronavirus covid-19 detection from x-rays",
+        "volume": "196",
+        "year": "2020",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "issue": "9",
+        "key": "2020102322400579000_2020.10.20.20213793v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1432",
+        "DOI": "10.1289/ehp.8377",
+        "article-title": "Lung radiology and pulmonary function of children chronically exposed to air pollution",
+        "volume": "114",
+        "year": "2006",
+        "journal-title": "Environmental Health Perspectives"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "132665",
+        "DOI": "10.1109/ACCESS.2020.3010287",
+        "article-title": "Can ai help in screening viral and covid-19 pneumonia?",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.6",
+        "year": "2020",
+        "journal-title": "Covid-19 image data collection"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Deng , W. Dong , R. Socher , L.-J. Li , K. Li , and L. Fei-Fei . ImageNet: A Large-Scale Hierarchical Image Database. In CVPR09, 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Eelbode , J. Bertels , M. Berman , D. Vandermeulen , F. Maes , R. Bisschops , and M. B. Blaschko . Optimization for medical image segmentation: Theory and practice when evaluating with dice score or jaccard index. IEEE Transactions on Medical Imaging, pages 1\u20131, 2020.",
+        "DOI": "10.1109/TMI.2020.3002417"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ross Girshick . Fast r-cnn. In Proceedings of the 2015 IEEE International Conference on Computer Vision (ICCV), ICCV \u201815, page 1440\u20131448, USA, 2015. IEEE Computer Society.",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.10",
+        "unstructured": "Arman Haghanifar , Mahdiyar Molahasani Majdabadi , Younhee Choi , S. Deivalakshmi , and Seokbum Ko . COVID-CXNet: Detecting COVID-19 in Frontal Chest X-ray Images using Deep Learning. arXiv e-prints, page arXiv:2006.13807, June 2020."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun . Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770\u2013778, 2016.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "10223",
+        "key": "2020102322400579000_2020.10.20.20213793v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1016/S0140-6736(20)30183-5",
+        "article-title": "Clinical features of patients infected with 2019 novel coronavirus in wuhan, china",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao Huang , Zhuang Liu , Laurens van der Maaten , and Kilian Q. Weinberger . Densely connected convolutional networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), July 2017.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Irvin , Pranav Rajpurkar , M. Ko , Yifan Yu , Silviana Ciurea-Ilcus , Chris Chute , Henrik Marklund , Behzad Haghgoo , R. Ball , K. Shpanskaya , Jayne Seekins , D. Mong , S. Halabi , J. Sandberg , R. Jones , D. Larson , C. Langlotz , B. N. Patel , M. Lungren , and A. Ng . Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison. In AAAI, 2019.",
+        "DOI": "10.1609/aaai.v33i01.3301590"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.15",
+        "unstructured": "Md. Rezaul Karim , Till D\u00f6hmen , Dietrich Rebholz-Schuhmann , Stefan Decker , Michael Cochez , and Oya Deniz Beyan . Deepcovidexplainer: Explainable covid-19 diagnosis based on chest x-ray images. arXiv: Image and Video Processing, 2020."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.16",
+        "unstructured": "A. Khan , A. Zaidi , R. Philipsen , B S. Khowaja , van Ginneken, A. Khan , and T. Dossul . Detection of chest x-ray abnormalities and tuberculosis using computer-aided detection vs in-terpretation by radiologists and a clinical officer. 45th World Conference on Lung Health, 2014."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "105581",
+        "DOI": "10.1016/j.cmpb.2020.105581",
+        "article-title": "Coronet: A deep neural network for detection and diagnosis of covid-19 from chest x-ray images",
+        "volume": "196",
+        "year": "2020",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.18",
+        "unstructured": "Z. Lin , M. Shafiee , S. Bochkarev , Michael St. Jules , X. Y. Wang , and A. Wong . Do explanations reflect decisions? a machine-centric strategy to quantify the performance of explainability algorithms. ArXiv, abs/1910.07387, 2019."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ling LIU and M. Tamer\u00d6zsu , editors. Mean Average Precision, pages 1703\u20131703. Springer US, Boston, MA, 2009.",
+        "DOI": "10.1007/978-0-387-39940-9_3032"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.20",
+        "article-title": "A Critic Evaluation of Methods for COVID-19 Automatic Detection from X-Ray Images",
+        "year": "2020",
+        "journal-title": "arXiv e-prints, page"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "103869",
+        "DOI": "10.1016/j.compbiomed.2020.103869",
+        "article-title": "Covxnet: A multidilation convolutional neural network for automatic covid-19 and other pneumonia detection from chest x-ray images with transferable multi-receptive feature optimization",
+        "volume": "122",
+        "year": "2020",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.22",
+        "unstructured": "Xueyan Mei , Hao-Chih Lee , Kaiyue Diao , Mingqian Huang , Bin Lin, Chenyu Liu , Zongyu Xie , Yixuan Ma , Philip M. Robson , Michael Chung , Adam Bernheim , Venkatesh Mani , Claudia Calcagno , Kunwei Li , Shaolin Li , Hong Shan , Jian Lv , Tongtong Zhao , Junli Xia , Qihua Long , Sharon Steinberger , Adam Jacobi , Timothy Deyer , Marta Luksza , Fang Liu , Brent P. Little , Zahi A. Fayad, and Yang Yang. Artificial intelligence-enabled rapid diagnosis of covid-19 patients. medRxiv, 2020."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103792"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harsh Panwar , P.K. Gupta , Mohammad Khubeb Siddiqui , Ruben Morales-Menendez , Prakhar Bhardwaj , and Vaishnavi Singh . A deep learning and grad-cam based color visualization approach for fast detection of covid-19 cases using chest x-ray and ct-scan images. Chaos, Solitons Fractals, page 110190, 2020.",
+        "DOI": "10.1016/j.chaos.2020.110190"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.1983.4307610"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.26",
+        "unstructured": "Hieu H. Pham , Tung T. Le , Dat Q. Tran , Dat T. Ngo , and Ha Q. Nguyen . Interpreting chest X-rays via CNNs that exploit hierarchical disease dependencies and uncertainty labels. arXiv e-prints, page arXiv:1911.06475, November 2019."
+      },
+      {
+        "issue": "1",
+        "key": "2020102322400579000_2020.10.20.20213793v1.27",
+        "first-page": "1",
+        "article-title": "Using artificial intelligence to read chest radiographs for tuberculosis detection: A multi-site evaluation of the diagnostic accuracy of three deep learning systems",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.28",
+        "unstructured": "Pranav Rajpurkar , J. Irvin , Kaylie Zhu , B. Yang , Hershel Mehta , T. Duan , D. Ding , Aarti Bagul , C. Langlotz , K. Shpanskaya , M. Lungren , and A. Ng . Chexnet: Radiologist-level pneumonia detection on chest x-rays with deep learning. ArXiv, abs/1711.05225, 2017."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Redmon , S. Divvala , R. Girshick , and A. Farhadi . You only look once: Unified, real-time object detection. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779\u2013788, 2016.",
+        "DOI": "10.1109/CVPR.2016.91"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Redmon and A. Farhadi . Yolo9000: Better, faster, stronger. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 6517\u20136525, 2017.",
+        "DOI": "10.1109/CVPR.2017.690"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.31"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O. Ronneberger , P. Fischer , and T. Brox . U-net: Convolutional networks for biomedical image segmentation. In Medical Image Computing and Computer-Assisted Intervention (MICCAI), volume 9351 of LNCS, pages 234\u2013241. Springer, 2015. (available on arXiv:1505.04597 [cs.CV]).",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.33",
+        "unstructured": "Sara Sabour , Nicholas Frosst , and Geoffrey E. Hinton . Dynamic routing between capsules. In Proceedings of the 31st International Conference on Neural Information Processing Systems, NIPS\u201917, page 3859\u20133869, Red Hook, NY, USA, 2017. Curran Associates Inc."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.34",
+        "unstructured": "Karen Simonyan and Andrew Zisserman . Very deep convolutional networks for large-scale image recognition. In International Conference on Learning Representations, 2015."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vasantha Kumar Venugopal , Vidur Mahajan , Sriram Rajan , Vikash Kumar Agarwal , Ruchika Rajan , Salsabeel Syed , and Harsh Mahajan . A systematic meta-analysis of ct features of covid-19: Lessons from radiology. medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.04.20052241"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.36",
+        "unstructured": "Linda Wang and Alexander Wong . COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images. arXiv e-prints, page arXiv:2003.09871, March 2020."
+      },
+      {
+        "issue": "18",
+        "key": "2020102322400579000_2020.10.20.20213793v1.37",
+        "first-page": "1843",
+        "article-title": "Detection of SARS-CoV-2 in Different Types of Clinical Specimens",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.38",
+        "unstructured": "WHO. Who characterizes covid-19 as a pandemic, 11 March 2020."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.39",
+        "unstructured": "WHO. Use of chest imaging in covid-19: a rapid advice guide. 2020."
+      },
+      {
+        "key": "2020102322400579000_2020.10.20.20213793v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201160"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.20.20213793",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:56Z",
+      "timestamp": 1768485416000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.20.20213793"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1101/2020.10.20.20213793",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41598-021-02003-w",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

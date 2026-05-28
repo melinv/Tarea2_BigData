@@ -1,0 +1,429 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:43:21Z",
+      "timestamp": 1768556601255,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          13
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 51,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We have developed a two-module pipeline for the detection of SARS-CoV-2 from chest X-rays (CXRs). Module 1 is a traditional convnet that generates masks of the lungs overlapping the heart and large vasa. Module 2 is a hybrid convnet that preprocesses CXRs and corresponding lung masks by means of the Wavelet Scattering Transform, and passes the resulting feature maps through an Attention block and a cascade of Separable Atrous Multiscale Convolutional Residual blocks to produce a class assignment as Covid or non-Covid. Module 1 was trained on a public dataset of 6395 CXRs with radiologist annotated lung contours. Module 2 was trained on a dataset of 2362 non-Covid and 1435 Covid CXRs acquired at the Henry Ford Health System Hospital in Detroit. Six distinct cross-validation models, were combined into an ensemble model that was used to classify the CXR images of the test set. An intuitive graphic interphase allows for rapid Covid\n                  <jats:italic>vs</jats:italic>\n                  . non-Covid classification of CXRs, and generates high resolution heat maps that identify the affected lung regions.\n                </jats:p>",
+    "DOI": "10.1101/2022.03.13.22272311",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2022-03-14T01:15:17Z",
+      "timestamp": 1647220517000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "A Hybrid Pipeline for Covid-19 Screening Incorporating Lungs Segmentation and Wavelet Based Preprocessing of Chest X-Rays"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Haikal",
+        "family": "Abdulah",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin",
+        "family": "Huber",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hassan",
+        "family": "Abdallah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luigi L.",
+        "family": "Palese",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hamid",
+        "family": "Soltanian-Zadeh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6357-3530",
+        "authenticated-orcid": false,
+        "given": "Domenico L.",
+        "family": "Gatti",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200034"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.2",
+        "unstructured": "J. P. Cohen , P. Morrison , and L. Dao , \u201cCOVID-19 Image Data Collection,\u201d ArXiv, vol. abs/2003.11597, 2020."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.02.06.21251271"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0247839"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2021/5513679"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-70479-z"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13246-020-00865-4"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mehy.2020.109761"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.ijcce.2021.04.001",
+        "article-title": "DDCNNC: Dilated and depthwise separable convolutional neural Network for diagnosis COVID-19 via chest X-ray images",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "International Journal of Cognitive Computing in Engineering"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020203511"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.12",
+        "unstructured": "I. Banerjee et al., \u201cReading Race: AI Recognises Patient\u2019s Racial Identity In Medical Images,\u201d ArXiv, vol. abs/2107.10356, 2021."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00338-7"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2021.04.008"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3017915"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12553-021-00520-2"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4015/S1016237221500101"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00330-021-08050-1"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2020.3037127"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-87994-2"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2632-2153/aba8e8"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O. Ronneberger , P. Fischer , and T. Brox , \u201cU-Net: Convolutional Networks for Biomedical Image Segmentation,\u201d in Medical Image Computing and Computer-Assisted Intervention \u2013 MICCAI 2015, Cham, N. Navab , J. Hornegger , W. M. Wells , and A. F. Frangi , Eds., 2015// 2015: Springer International Publishing, pp. 234\u2013241.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.192463"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Oyallon , E. Belilovsky , and S. Zagoruyko , \u201cScaling the Scattering Transform: Deep Hybrid Networks,\u201d CoRR, vol. abs/1703.08961, 2017. [Online]. Available: http://arxiv.org/abs/1703.08961.",
+        "DOI": "10.1109/ICCV.2017.599"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2855738"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.26",
+        "unstructured": "F. Chollet . \u201cKeras.\u201d https://keras.io (accessed."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.27",
+        "unstructured": "M. Abadi and e. al . \u201cTensorFlow: Large-scale machine learning on heterogeneous systems.\u201d https://www.tensorflow.org/ (accessed."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.28",
+        "unstructured": "L.-C. Chen , G. Papandreou , I. Kokkinos , K. Murphy , and A. L. Yuille , \u201cDeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs,\u201d CoRR, vol. abs/1606.00915, 2016. [Online]. Available: http://arxiv.org/abs/1606.00915."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.29",
+        "unstructured": "L.-C. Chen , G. Papandreou , F. Schroff , and A. Adam , \u201cRethinking Atrous Convolution for Semantic Image Segmentation,\u201d CoRR, vol. abs/1706.05587, 2017. [Online]. Available: http://arxiv.org/abs/1706.05587."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.30",
+        "unstructured": "F. I. Diakogiannis , F. Waldner , P. Caccetta , and C. Wu , \u201cResUNet-a: a deep learning framework for semantic segmentation of remotely sensed data,\u201d CoRR, vol. abs/1904.00592, 2019. [Online]. Available: http://arxiv.org/abs/1904.00592."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-018-0261-2"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.32",
+        "unstructured": "F. Milletari , N. Navab , and S.-A. Ahmadi , \u201cFully Convolutional Neural Networks for Volumetric Medical Image Segmentation,\u201d CoRR, vol. abs/1606.04797, 2016. [Online]. Available: http://arxiv.org/abs/1606.04797."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.33",
+        "unstructured": "D. P. Kingma and J. Ba , \u201cAdam: A Method for Stochastic Optimization,\u201d CoRR, vol. abs/1412.6980, 2015."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Oyallon and S. Mallat , \u201cDeep roto-translation scattering for object classification.,\u201d in IEEE Conference on Computer Vision and Pattern Recognition, 2015, pp. 2865\u2013 2873.",
+        "DOI": "10.1109/CVPR.2015.7298904"
+      },
+      {
+        "issue": "10",
+        "key": "2022031509201013000_2022.03.13.22272311v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1331",
+        "DOI": "10.1002/cpa.21413",
+        "article-title": "Group invariant scattering",
+        "volume": "65",
+        "year": "2012",
+        "journal-title": "Communications on Pure and Applied Mathematics"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.36",
+        "unstructured": "M. Andreux et al., \u201cKymatio: Scattering Transforms in Python,\u201d CoRR, vol. abs/1812.11214, 2018. [Online]. Available: http://arxiv.org/abs/1812.11214."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.37",
+        "unstructured": "I. Dokmanic , J. Bruna , S. Mallat , and M. V. de Hoop , \u201cInverse Problems with Invariant Multiscale Statistics,\u201d CoRR, vol. abs/1609.05502, 2016. [Online]. Available: http://arxiv.org/abs/1609.05502."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26599/BDMA.2020.9020012"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.39",
+        "unstructured": "A. Vaswani et al., \u201cAttention Is All You Need,\u201d CoRR, vol. abs/1706.03762, 2017. [Online]. Available: http://arxiv.org/abs/1706.03762."
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.40",
+        "first-page": "4055",
+        "volume-title": "in Proceedings of the 35th International Conference on Machine Learning, J. Dy and A. Krause, Eds",
+        "volume": "80",
+        "year": "2018"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.06.06.21258428"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1016/j.cmpb.2019.06.005",
+        "article-title": "An automatic method for lung segmentation and reconstruction in chest X-ray using deep neural networks",
+        "volume": "177",
+        "year": "2019",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.43",
+        "unstructured": "R. Selvan et al. Lung Segmentation from Chest X-rays using Variational Data Imputation"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Deng , A. C. Berg , K. Li , and L. Fei-Fei , \u201cWhat Does Classifying More Than 10,000 Image Categories Tell Us?,\u201d in Computer Vision \u2013 ECCV 2010, Berlin, Heidelberg, K. Daniilidis , P. Maragos , and N. Paragios , Eds., 2010// 2010: Springer Berlin Heidelberg, pp. 71\u201384.",
+        "DOI": "10.1007/978-3-642-15555-0_6"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.healun.2020.03.012"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201160"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thoraxjnl-2017-211280"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201754"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11547-020-01200-3"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.2994762"
+      },
+      {
+        "key": "2022031509201013000_2022.03.13.22272311v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics11050895"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.13.22272311",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:38:56Z",
+      "timestamp": 1768487936000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.03.13.22272311"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          13
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1101/2022.03.13.22272311",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

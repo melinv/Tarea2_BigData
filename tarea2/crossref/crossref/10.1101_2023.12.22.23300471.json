@@ -1,0 +1,485 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:48:25Z",
+      "timestamp": 1768564105987,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2023-12-26T00:00:00Z",
+          "timestamp": 1703548800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We propose, implement, and evaluate a method for nowcasting the daily number of new COVID-19 hospitalizations, at the level of individual US states, based on de-identified, aggregated medical insurance claims data. Our analysis proceeds under a hypothetical scenario in which, during the Delta wave, states only report data on the first day of each month, and on this day, report COVID-19 hospitalization counts for each day in the previous month. In this hypothetical scenario (just as in reality), medical insurance claims data continues to be available daily. At the beginning of each month, we train a regression model, using all data available thus far, to predict hospitalization counts from medical insurance claims. We then use this model to nowcast the (unseen) values of COVID-19 hospitalization counts from medical insurance claims, at each day in the following month. Our analysis uses properly-versioned data, which would have been available in real-time at the time predictions are produced (instead of using data that would have only been available in hindsight). In spite of the difficulties inherent to real-time estimation (e.g., latency and backfill) and the complex dynamics behind COVID-19 hospitalizations themselves, we find altogether that medical insurance claims can be an accurate predictor of hospitalization reports, with mean absolute errors typically around 0.4 hospitalizations per 100,000 people, i.e., proportion of variance explained around 75%. Perhaps more importantly, we find that nowcasts made using medical insurance claims are able to qualitatively capture the dynamics (upswings and downswings) of hospitalization waves, which are key features that inform public health decision-making.</jats:p>",
+    "DOI": "10.1101/2023.12.22.23300471",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2023-12-26T20:25:36Z",
+      "timestamp": 1703622336000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Nowcasting Reported COVID-19 Hospitalizations Using De-Identified, Aggregated Medical Insurance Claims Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1218-5068",
+        "authenticated-orcid": false,
+        "given": "Xueda",
+        "family": "Shen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9181-1794",
+        "authenticated-orcid": false,
+        "given": "Aaron",
+        "family": "Rumack",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bryan",
+        "family": "Wilder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2158-8304",
+        "authenticated-orcid": false,
+        "given": "Ryan J.",
+        "family": "Tibshirani",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "2025011312050670000_2023.12.22.23300471v4.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2148",
+        "DOI": "10.1177/1460458219897152",
+        "article-title": "Assessing the utility of a smart thermometer and mobile application as a surveillance tool for influenza and influenza-like illness",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Health Informatics Journal"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.2",
+        "unstructured": "A. N. Angelopoulos , E. J. Cand\u00e8s , and R. J. Tibshirani . Conformal PID control for time series prediction. In Advances in Neural Information Processing Systems, 2023."
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.8303"
+      },
+      {
+        "issue": "12",
+        "key": "2025011312050670000_2023.12.22.23300471v4.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1010767",
+        "DOI": "10.1371/journal.pcbi.1010767",
+        "article-title": "Bayesian nowcasting with leading indicators applied to COVID-19 fatalities in Sweden",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.5",
+        "unstructured": "L. C. Brooks. Pancasting: Forecasting epidemics from provisional data. PhD thesis, Carnegie Mellon University, 2020."
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2113561119"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.7",
+        "unstructured": "Department of Health and Human Services. COVID-19 guidance for hospital reporting and FAQs for hospitals, hospital laboratory, and acute care facility data reporting, 2023. URL https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf."
+      },
+      {
+        "issue": "10",
+        "key": "2025011312050670000_2023.12.22.23300471v4.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2187",
+        "DOI": "10.1002/hec.4568",
+        "article-title": "Toward mandatory health insurance in low-income countries? An analysis of claims data in Tanzania",
+        "volume": "31",
+        "year": "2022",
+        "journal-title": "Health Economics"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.9",
+        "unstructured": "D. C. Farrow. Modeling the past, present, and future of influenza. PhD thesis, Carnegie Mellon University, 2016. D. C. Farrow, L. C. Brooks, R. J. Tibshirani, and R. Rosenfield. Delphi Epidata API, 2015. URL https://github.com/cmu-delphi/delphi-epidata."
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Geng , X. Chen , J. Shi , H. Bao , Q. Chen , and H. Yu . Assessment of the satisfaction with public health insurance programs by patients with chronic diseases in China: A structural equation modeling approach. BMC Public Health, 21(1), 2021.",
+        "DOI": "10.1186/s12889-021-11947-7"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.11",
+        "unstructured": "R. J. Hyndman and G. Athanasopoulos . Forecasting: Principles and Practice. OTexts, third edition, 2021."
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.12",
+        "unstructured": "M. Jahja , D. Farrow , R. Rosenfeld , and R. J. Tibshirani . Kalman Filter, sensor fusion, and constrained regression: Equivalences and insights. In Advances in Neural Information Processing Systems, 2019."
+      },
+      {
+        "issue": "2",
+        "key": "2025011312050670000_2023.12.22.23300471v4.13",
+        "first-page": "207",
+        "article-title": "Real-time estimation of COVID-19 infections: Deconvolution and sensor fusion",
+        "volume": "37",
+        "year": "2021",
+        "journal-title": "Statistical Science"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.14",
+        "unstructured": "B. Jones and J. Kiley . The Changing Geography of COVID-19 in the U.S., 2020. URL https://www.pewresearch.org/politics/wp-content/uploads/sites/4/2020/12/PP_2020.12.08_COVID-19-Deaths-Geography_Data-Essay.pdf."
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y.-S. Jung , Y.-E. Kim , D.-S. Go , R. Munkhzul , J. Jung , and S.-J. Yoon . Associations between private health insurance and medical care utilization for musculoskeletal disorders: Using the Korea Health Panel Survey Data for 2014 to 2015. INQUIRY: The Journal of Health Care Organization , Provision, and Financing, 57:004695802098146, 2020.",
+        "DOI": "10.1177/0046958020981467"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. S. Khan , A. E. Krefman , M. E. McCabe , L. C. Petito , X. Yang , K. N. Kershaw , L. R. Pool , and N. B. Allen . Association between county-level risk groups and COVID-19 outcomes in the United States: A socioecological study. BMC Public Health, 22(81), 2022.",
+        "DOI": "10.1186/s12889-021-12469-y"
+      },
+      {
+        "issue": "11",
+        "key": "2025011312050670000_2023.12.22.23300471v4.17",
+        "first-page": "1",
+        "article-title": "Tracking and predicting U.S. influenza activity with a real-time surveillance network",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Li and Y. Yang . An empirical study on the influence of the basic medical insurance for urban and rural residents on Family Financial Asset Allocation. Frontiers in Public Health, 9, 2021.",
+        "DOI": "10.3389/fpubh.2021.725608"
+      },
+      {
+        "issue": "7",
+        "key": "2025011312050670000_2023.12.22.23300471v4.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009210",
+        "DOI": "10.1371/journal.pcbi.1009210",
+        "article-title": "Bayesian back-calculation and nowcasting for line list data during the COVID-19 pandemic",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "4",
+        "key": "2025011312050670000_2023.12.22.23300471v4.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1012021",
+        "DOI": "10.1371/journal.pcbi.1012021",
+        "article-title": "Generative Bayesian modeling to nowcast the effective reproduction number from line list data with missing symptom onset dates",
+        "volume": "20",
+        "year": "2024",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2111453118"
+      },
+      {
+        "issue": "11",
+        "key": "2025011312050670000_2023.12.22.23300471v4.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009570",
+        "DOI": "10.1371/journal.pcbi.1009570",
+        "article-title": "A nowcasting framework for correcting for reporting delays in Malaria surveillance",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0000000000001495"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Mori , J. Komiyama , T. Fujii , M. Sanuki , K. Kume , G. Kato , Y. Mori , H. Ueshima , H. Matsui , N. Tamiya , and T. Sugiyama . Medical expenditures for fragility hip fracture in Japan: a study using the Nationwide Health Insurance Claims Database. Archives of Osteoporosis, 17(1), 2022.",
+        "DOI": "10.1007/s11657-022-01096-8"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Nakayama , Y. Imanaka , Y. Okuno , G. Kato , T. Kuroda , R. Goto , S. Tanaka , H. Tamura , S. Fukuhara , S. Fukuma , M. Muto , M. Yanagita , and Y. Yamamoto . Analysis of the evidence-practice gap to facilitate proper medical care for the elderly: Investigation, using databases, of utilization measures for National Database of Health Insurance Claims and Specific Health Checkups of Japan (NDB). Environmental Health and Preventive Medicine, 22(1), 2017.",
+        "DOI": "10.1186/s12199-017-0644-5"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. P. Nickels . RE: CMS-3401-IFC, 2020. URL https://www.aha.org/system/files/media/file/2020/11/aha-comment-cms-aug-25-interim-final-rule-on-covid-19-data-reporting-letter-11-2-20.pdf.",
+        "DOI": "10.1097/01.NT.0000666936.41849.4a"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Panczak , V. von Wyl , O. Reich , X. Luta , M. Maessen , A. E. Stuck , C. Berlin , K. Schmidlin , D. C. Goodman , M. Egger , K. Clough-Gorr , and M. Zwahlen . Death at no cost? Persons with no health insurance claims in the last year of life in Switzerland. BMC Health Services Research, 18(1), 2018.",
+        "DOI": "10.1186/s12913-018-2984-2"
+      },
+      {
+        "issue": "2",
+        "key": "2025011312050670000_2023.12.22.23300471v4.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e85",
+        "DOI": "10.1016/S2589-7500(19)30222-5",
+        "article-title": "Harnessing wearable device data to improve state-level real-time surveillance of influenza-like illness in the USA: A population-based study",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "issue": "3",
+        "key": "2025011312050670000_2023.12.22.23300471v4.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1366",
+        "DOI": "10.1016/j.ijforecast.2022.06.005",
+        "article-title": "Comparing trained and untrained probabilistic ensemble forecasts of COVID-19 cases and deaths in the United States",
+        "volume": "39",
+        "year": "2023",
+        "journal-title": "International Journal of Forecasting"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2111452118"
+      },
+      {
+        "issue": "51",
+        "key": "2025011312050670000_2023.12.22.23300471v4.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2111456118",
+        "DOI": "10.1073/pnas.2111456118",
+        "article-title": "Epidemic tracking and forecasting: Lessons learned from a tumultuous year",
+        "volume": "118",
+        "year": "2021",
+        "journal-title": "Proceeding of the National Academy of Sciences"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Sakai , S. Ohtera , T. Iwao , Y. Neff , G. Kato , Y. Takahashi , and T. Nakayama . Validation of claims data to identify death among aged persons utilizing enrollment data from Health Insurance Unions. Environmental Health and Preventive Medicine, 24(1), 2019.",
+        "DOI": "10.1186/s12199-019-0819-3"
+      },
+      {
+        "issue": "3",
+        "key": "2025011312050670000_2023.12.22.23300471v4.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009964",
+        "DOI": "10.1371/journal.pcbi.1009964",
+        "article-title": "Near real-time surveillance of the SARS-CoV-2 epidemic with incomplete data",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "1",
+        "key": "2025011312050670000_2023.12.22.23300471v4.34",
+        "first-page": "1",
+        "article-title": "Cloud-based electronic health records for real-time, region-specific influenza surveillance",
+        "volume": "6",
+        "year": "2016",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "5",
+        "key": "2025011312050670000_2023.12.22.23300471v4.35",
+        "first-page": "1266",
+        "article-title": "Nowcasting COVID-19 deaths in England by age and region",
+        "volume": "71",
+        "year": "2022",
+        "journal-title": "Journal of the Royal Statistical Society: Series C"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2105/AJPH.2015.302696"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. O. Song , E. Han , K. J. Son , B.-S. Cha , and B.-W. Lee . Age at mortality in patients with type 2 diabetes who underwent kidney transplantation: An analysis of data from the Korean National Health Insurance and Statistical Information Service, 2006 to 2018. Journal of Clinical Medicine, 12(9), 2023.",
+        "DOI": "10.3390/jcm12093160"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0089680"
+      },
+      {
+        "issue": "8",
+        "key": "2025011312050670000_2023.12.22.23300471v4.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1011394",
+        "DOI": "10.1371/journal.pcbi.1011394",
+        "article-title": "Collaborative nowcasting of COVID-19 hospitalization incidences in Germany",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/12341"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1515373112"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Yao , H. Li , and C. Liu . Use of social health insurance for hospital care by internal migrants in China\u2014Evidence from the 2018 China migrants dynamic survey. Frontiers in Public Health, 10, 2022.",
+        "DOI": "10.3389/fpubh.2022.1008720"
+      },
+      {
+        "key": "2025011312050670000_2023.12.22.23300471v4.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Zheng and L. Peng . Effect of major illness insurance on vulnerability to poverty: Evidence from China. Frontiers in Public Health, 9, 2021.",
+        "DOI": "10.3389/fpubh.2021.791817"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.22.23300471",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:47:20Z",
+      "timestamp": 1768506440000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.12.22.23300471"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2023.12.22.23300471",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1012717",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

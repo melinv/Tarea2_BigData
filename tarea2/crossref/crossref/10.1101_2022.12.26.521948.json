@@ -1,0 +1,403 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:24:47Z",
+      "timestamp": 1768505087084,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "group-title": "Molecular Biology",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>With machine learning now transforming the sciences, successful prediction of biological structure or activity is mainly limited by the extent and quality of data available for training, the astute choice of features for prediction, and thorough assessment of the robustness of prediction on a variety of new cases. Here we address these issues while developing and sharing protocols to build a robust dataset and rigorously compare several predictive classifiers using the opensource Python machine learning library, scikit-learn. We show how to evaluate whether enough data has been used for training and whether the classifier has been overfit to training data. The most telling experiment is 500-fold repartitioning of the training and test sets, followed by prediction, which gives a good indication of whether a classifier performs consistently well on different datasets. An intuitive method is used to quantify which features are most important for correct prediction.</jats:p>\n                <jats:p>\n                  The resulting well-trained classifier,\n                  <jats:italic>hotspotter</jats:italic>\n                  , can robustly predict the small subset of amino acid residues on the surface of a protein that are energetically most important for binding a protein partner: the interaction hot spots.\n                  <jats:italic>Hotspotter</jats:italic>\n                  has been trained and tested here on a curated dataset assembled from 1,046 non-redundant alanine scanning mutation sites with experimentally measured change in binding free energy values from 97 different protein complexes; this dataset is available to download. The accessible surface area of the wild-type residue at a given site and its degree of evolutionary conservation proved the most important features to identify hot spots. A variant classifier was trained and validated for proteins where only the amino acid sequence is available, augmented by secondary structure assignment. This version of\n                  <jats:italic>hotspotter</jats:italic>\n                  requiring fewer features is almost as robust as the structure-based classifier. Application to the ACE2 receptor, which mediates COVID-19 virus entry into human cells, identified the critical hot spot triad of ACE2 residues at the center of the small interface with the CoV-2 spike protein.\n                  <jats:italic>Hotspotter</jats:italic>\n                  results can be used to guide the strategic design of protein interfaces and ligands and also to identify likely interfacial residues for protein:protein docking.\n                </jats:p>",
+    "DOI": "10.1101/2022.12.26.521948",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2022-12-27T18:35:11Z",
+      "timestamp": 1672166111000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Techniques for Developing Reliable Machine Learning Classifiers Applied to Understanding and Predicting Protein:Protein Interaction Hot Spots"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0150-1387",
+        "authenticated-orcid": false,
+        "given": "Jiaxing",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9370-0978",
+        "authenticated-orcid": false,
+        "given": "Leslie A.",
+        "family": "Kuhn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6989-4493",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Raschka",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "14350",
+        "DOI": "10.1002/anie.201805869",
+        "article-title": "Expanding the genetic code to study protein\u2013protein interactions",
+        "volume": "57",
+        "year": "2018",
+        "journal-title": "Angew Chemie - Int Ed"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.52760"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.5560010117"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.4",
+        "first-page": "659",
+        "article-title": "Las instituciones de ciencia y tecnolog\u00eda en los procesos de aprendizaje de la producci\u00f3n agroalimentaria en Argentina",
+        "volume": "14",
+        "year": "2013",
+        "journal-title": "El Sist argentino innovaci\u00f3n Inst Empres y redes"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jmbi.1998.2439"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moreira IS , Fernandes PA , Ramos MJ (2007) Hot spots\u2014A review of the protein \u2013 protein interface determinant amino-acid residues. 803\u2013812. https://doi.org/10.1002/prot",
+        "DOI": "10.1002/prot.21396"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/17.3.284"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pbiomolbio.2014.06.003"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2881",
+        "DOI": "10.3762/bjoc.14.267",
+        "article-title": "Protein-protein interactions in bacteria: A promising and challenging avenue towards the discovery of new antibiotics",
+        "volume": "14",
+        "year": "2018",
+        "journal-title": "Beilstein J Org Chem"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.1153"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/cmb.2013.0083"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-2836(02)00442-4"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkn346"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.202485799"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2671",
+        "DOI": "10.1002/prot.23094",
+        "article-title": "KFC2: A knowledge-based hot spot prediction method based on interface solvation, atomic density, and plasticity features",
+        "volume": "79",
+        "year": "2011",
+        "journal-title": "Proteins Struct Funct Bioinforma"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-174"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-018-2201-7"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-23276-8"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jordan MI , Mitchell TM (2015) Machine learning: Trends, perspectives, and prospects. 349:",
+        "DOI": "10.1126/science.aaa8415"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1000"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btg163"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bts489"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.2829"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1016/j.sbi.2016.07.012",
+        "article-title": "Engineering antibody therapeutics",
+        "volume": "38",
+        "year": "2016",
+        "journal-title": "Curr Opin Struct Biol"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.25",
+        "first-page": "150",
+        "volume": "165",
+        "year": "2001",
+        "journal-title": "Protein Flexibility Predictions Using Graph Theory"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.26",
+        "first-page": "1888",
+        "volume": "84",
+        "year": "2016",
+        "journal-title": "Detecting the native ligand orientation by interfacial rigidity: SiteInterlock"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.5560071002"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-018-2201-7"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1016/j.ymeth.2016.06.020",
+        "article-title": "Conservation of hot regions in protein\u2013protein interaction in evolution",
+        "volume": "110",
+        "year": "2016",
+        "journal-title": "Methods"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv1289"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkq1105"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kabsch W , Sander C (1983) A dictionary of protein secondary structure: Pattern recognition of hydrogen-bonded and geometrical features. Biopolymers 2577\u20132637",
+        "DOI": "10.1002/bip.360221211"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.SOFTX.2015.06.001"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.540160303"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.35",
+        "unstructured": "Raschka S , Liu YH , Mirjalili V (2022) Machine Learning with PyTorch and Scikit-Learn. Packt, Birmingham-Mumbai"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.36",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research. J Mach Learn Res"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "638",
+        "DOI": "10.21105/joss.00638",
+        "article-title": "MLxtend: Providing machine learning and data science utilities and extensions to Python\u2019s scientific computing stack",
+        "volume": "3",
+        "year": "2018",
+        "journal-title": "J Open Source Softw"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc0870"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2180-5"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/30.1.245"
+      },
+      {
+        "key": "2022122902350544000_2022.12.26.521948v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1038/s41586-021-03828-1",
+        "article-title": "Highly accurate protein structure prediction for the human proteome",
+        "volume": "596",
+        "year": "2021",
+        "journal-title": "Nature"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.26.521948",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:03:52Z",
+      "timestamp": 1768449832000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.12.26.521948"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2022.12.26.521948",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

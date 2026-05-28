@@ -1,0 +1,375 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:43:45Z",
+      "timestamp": 1768553025904,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 39,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  The agent-based model CovidSIMVL (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://github.com/ecsendmail/MultiverseContagion\">github.com/ecsendmail/MultiverseContagion</jats:ext-link>\n                  ) is employed in this paper to delineate different network structures of transmission chains in simulated COVID-19 epidemics, where initial parameters are set to approximate spread from a single transmission source, and R\n                  <jats:sub>0</jats:sub>\n                  ranges between 1.5 and 2.5.\n                </jats:p>\n                <jats:p>The resulting Transmission Trees are characterized by breadth, depth and generations needed to reach a target of 50% infected from a starting population of 100, or self-extinction prior to reaching that target. Metrics reflecting efficiency of an epidemic relate closely to topology of the trees.</jats:p>\n                <jats:p>It can be shown that the notion of superspreading individuals may be a statistical artefact of Transmission Tree growth, while superspreader events can be readily simulated with appropriate parameter settings. The potential use of contact tracing data to identify chain length and shared paths is explored as a measure of epidemic progression. This characterization of epidemics in terms of topological characteristics of Transmission Trees may complement equation-based models that work from rates of infection. By constructing measures of efficiency of spread based on Transmission Tree topology and distribution, rather than rates of infection over time, the agent-based approach may provide a method to characterize and project risks associated with collections of transmission events, most notably at relatively early epidemic stages, when rates are low and equation-based approaches are challenged in their capacity to describe or predict.</jats:p>\n                <jats:sec>\n                  <jats:title>MOTIVATION \u2013 MODELS KEYED TO CONTEMPLATED DECISIONS</jats:title>\n                  <jats:p>\n                    Outcomes are altered by changing the processes that determine them. If we wish to alter contagion-based spread of infection as reflected in curves that characterize changes in transmission rates over time, we must intervene at the level of the processes that are directly involved in preventing viral spread. If we are going to employ\n                    <jats:italic>models</jats:italic>\n                    to evaluate different candidate arrays of localized preventive policies, those models must be posed at the same level of\n                    <jats:italic>granularity</jats:italic>\n                    as the entities (people enacting processes) to which preventive measures will be applied. As well, the models must be able to represent the transmission-relevant\n                    <jats:italic>dynamics</jats:italic>\n                    of the systems to which policies could be applied. Further, the\n                    <jats:italic>parameters</jats:italic>\n                    that govern dynamics within the models must embody the actions that are prescribed/proscribed by the preventive measures that are contemplated. If all of those conditions are met, then at a formal or structural level, the models are conformant with the provisions of the Law of Requisite Variety\n                    <jats:sup>1</jats:sup>\n                    or the restated version of that law \u2013 the good regulator theorem.\n                    <jats:sup>2</jats:sup>\n                  </jats:p>\n                  <jats:p>\n                    On a more logistical or practical level, the models must yield\n                    <jats:italic>summary measures</jats:italic>\n                    that are responsive to changes in key parameters, highlight the dynamics, quantify outcomes associated with the dynamics, and communicate that information in a form that can be understood correctly by parties who are adjudicating on policy options.\n                  </jats:p>\n                  <jats:p>If the models meet formal/structural requirements regarding requisite variety, and the parameters have a plausible interpretation in relationship to real-world situations, and the metrics do not overly-distort the data contents that they summarize, then the models provide information that is directly relevant to decision-making processes. Models that meet these requirements will minimize the gap that separates models from decisions, a gap that will otherwise be filled by considerations other than the data used to create the models (for equation-based models) or the data generated by the simulations.</jats:p>\n                  <jats:p>\n                    In this work, we present an agent-based model that targets information requirements of decision-makers who are setting policy at a local level, or translate population level directives to local entities and operations. We employ an agent-based modeling approach, which enables us to generate simulations that respond directly to the requirements of the good regulator theorem. Transmission events take place within a spatio-temporal frame of reference in this model, and rates are not conditioned by a reproduction rate (R0) that is specified\n                    <jats:italic>a priori</jats:italic>\n                    . Events are a function of movement and proximity. To summarize dynamics and associated outcomes of simulated epidemics, we employ metrics reflecting topological structure of transmission chains, and distributions of those structures. These measures point directly to dynamic features of simulated outbreaks, they operationalize the \u201cefficiency\u201d construct, and they are responsive to changes in parameters that govern dynamics of the simulations.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.12.21.20248673",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2020-12-23T05:43:26Z",
+      "timestamp": 1608702206000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "CovidSIMVL --Transmission Trees, Superspreaders and Contact Tracing in Agent Based Models of Covid-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Ernie",
+        "family": "Chang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Kenneth A.",
+        "family": "Moselle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ashlin",
+        "family": "Richardson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ashby, W.R. 1956, An Introduction to Cybernetics, Chapman & Hall, 1956, ISBN 0-416-68300-2",
+        "DOI": "10.5962/bhl.title.5851"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00207727008920220"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "The material in this background section is abstracted from Moselle, K. & Chang, E. CovidSIMVL \u2013 Agent-Based Modeling of Localized Transmission within a Heterogeneous Array of Locations \u2013 Motivation, Configuration and Calibration. medRxiv 2020.11.01.20217943; doi: https://doi.org/10.1101/2020.11.01.20217943",
+        "DOI": "10.1101/2020.11.01.20217943"
+      },
+      {
+        "issue": "2",
+        "key": "2020122612150787000_2020.12.21.20248673v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1016/S0167-9473(98)00007-3",
+        "volume": "27",
+        "year": "1998",
+        "journal-title": "Overdispersion: Models and estimation,Computational Statistics & Data Analysis,Volume",
+        "ISSN": "https://id.crossref.org/issn/0167-9473",
+        "issn-type": "print"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04153"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0000180"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.31.1.24"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van den Driessche P. (2008) Spatial Structure: Patch Models. In: Brauer F. , van den Driessche P. , Wu J. (eds) Mathematical Epidemiology. Lecture Notes in Mathematics, vol 1945. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-78911-6_7",
+        "DOI": "10.1007/978-3-540-78911-6_7"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/j.epidem.2014.08.001",
+        "article-title": "Seven challenges for metapopulation models of epidemics, including households models",
+        "volume": "10",
+        "year": "2015,",
+        "journal-title": "Epidemics"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.10",
+        "unstructured": "Ibid."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.11",
+        "unstructured": "Lloyd-Smith, et al. (2005), op. cit."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.113.154856"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "4716",
+        "DOI": "10.1038/s41467-019-12172-y",
+        "article-title": "A unified framework for analysis of individual-based models in ecology and beyond",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0004005"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bershteyn, A. , Gerardin, J. , Bridenbecker, D. , Lorton, C. , Bloedow, J. , Baker, R. , Chabot-Couture, G. , Chen, Y. , Fischle, T. , Frey, K. Gault, J. , Jhu, H. Izzo, A. , Klein, D. Lukavec, D. , McCarthy, K. , Miller, H , Ouedraogo, A. , Perkis, T. , Steinkraus, J. , ten Bosch, Q. , Ting, H , Titova, S. , Wagner, B. , Welkhoff, P. , Wenger, E. Wiswell, C. Implementation and applications of EMOD, an individual-based multidisease modeling platform, Pathogens and Disease, Volume 76, Issue 5, July 2018, fty059, https://doi-org.ezproxy.library.uvic.ca/10.1093/femspd/fty059",
+        "DOI": "10.1093/femspd/fty059"
+      },
+      {
+        "issue": "5",
+        "key": "2020122612150787000_2020.12.21.20248673v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007893",
+        "DOI": "10.1371/journal.pcbi.1007893",
+        "article-title": "Calibration of individualbased models to epidemiological data: A systematic review",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.94.1.338"
+      },
+      {
+        "issue": "8",
+        "key": "2020122612150787000_2020.12.21.20248673v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e510",
+        "DOI": "10.1016/j.ijid.2010.06.020",
+        "article-title": "Super-spreaders in infectious diseases",
+        "volume": "15",
+        "year": "2011,",
+        "journal-title": "International Journal of Infectious Diseases,Volume",
+        "ISSN": "https://id.crossref.org/issn/1201-9712",
+        "issn-type": "print"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.19",
+        "unstructured": "Ibid."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.10.1038/s41540-020-0128-x"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.21",
+        "unstructured": "Ypma et al., 2013 loc. cit."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ng, V. , Fazil, A. , Waddell, L , Bancej, C. Turgeon, P. , Otten, A. , Atchessi, N. , Ogden, N. Projected effects of nonpharmaceutical public health interventions to prevent resurgence of SARS-CoV-2 transmission in Canada CMAJ | SEPTEMBER 14, 2020 | VOLUME 192 | ISSUE 37",
+        "DOI": "10.1503/cmaj.200990"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.23",
+        "unstructured": "Osgood, Hybrid Dynamic Models in COVID-19 Planning and Beyond. https://www.anylogic.com/resources/educational-videos/webinar-hybrid-dynamic-models-in-covid-19-planning-and-beyond/"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.24",
+        "unstructured": "Moselle & Chang, op. cit."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.25",
+        "unstructured": "Chang, E. , Moselle, K. & Richardson, A. (2020) The anatomy of simulated Covid."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.26",
+        "unstructured": "Ibid."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.27",
+        "unstructured": "Presentation at conference: Petri Nets 2008 Xi\u2019an \u201cOn the physical Basis of information Flow"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0025-5564(03)00088-9"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.29",
+        "unstructured": "Ibid."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.30",
+        "unstructured": "For a complete set of transmission trees associated with these trials, See Chang, Moselle & Richardson (2020) CovidSIMVL Agent-Based Model \u2013 transmission trees, superspreaders, contact tracing \u2013 supplementary material (medRxiv)."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.31",
+        "unstructured": "Moselle & Chang (2020), op. cit."
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.32",
+        "unstructured": "Lloyd-Smith (2007), op. cit."
+      },
+      {
+        "issue": "9",
+        "key": "2020122612150787000_2020.12.21.20248673v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/0895-7177(94)90041-8",
+        "article-title": "Mathematical and computer modeling of the Pareto principle",
+        "volume": "19",
+        "year": "1994",
+        "journal-title": "Mathl. Comput. Modeling, Vol"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1003277"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/438293a"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goyal, A. Reeves , D., Cardozo-Ojeda, E. , Schiffer, J , Mayer, B. Wrong person , place and time: viral load and contact network structure predict SARS-CoV-2 transmission and super-spreading events. medRxiv 2020.08.07.20169920; doi: https://doi.org/10.1101/2020.08.07.20169920",
+        "DOI": "10.1101/2020.08.07.20169920"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "672",
+        "DOI": "10.1038/s41591-020-0869-5",
+        "article-title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.38",
+        "unstructured": "Ball, F. et al. (2007)"
+      },
+      {
+        "key": "2020122612150787000_2020.12.21.20248673v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brauer, F. Chapter 4. An Introduction to Networks in Epidemic Modeling. In: Brauer F. , van den Driessche P. , Wu J. (eds) Mathematical Epidemiology. Lecture Notes in Mathematics, 2008, vol 1945. Springer, Berlin, Heidelberg",
+        "DOI": "10.1007/978-3-540-78911-6"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.12.21.20248673",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:01:54Z",
+      "timestamp": 1768485714000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.12.21.20248673"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1101/2020.12.21.20248673",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

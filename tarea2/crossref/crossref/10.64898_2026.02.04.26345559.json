@@ -1,0 +1,373 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          8
+        ]
+      ],
+      "date-time": "2026-02-08T20:00:54Z",
+      "timestamp": 1770580854332,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          5
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2026-02-05T00:00:00Z",
+          "timestamp": 1770249600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Rapid emergence and replacement of SARS-CoV-2 variants underscore the need for early and reliable indicators of variant dominance to guide timely public health response. However, early genomic trajectories are typically short, sparse, and noisy, with strong fluctuations and substantial cross-country heterogeneity in sequencing intensity and reporting.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We develop a scalable forecasting framework that predicts whether new variants will reach high prevalence and how long they will persist based on their initial genomic growth patterns. Using more than nine million sequences from 15 countries (GISAID, 2020\u20132024), we characterize dominance through peak prevalence and duration above 10% and extract early growth descriptors from the first 2\u20134 weeks after a lineage surpasses 1% frequency. Outcomes were classified using multiple models (GLM, GAM, SVM, CART, Elastic Net, and SuperLearner). We evaluated performance based on accuracy and utilized SHAP analysis to interpret feature importance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The Super Learner ensemble model achieved the best performance, achieving up to 0.76 accuracy for peak-share prediction, and up to 0.70 accuracy for duration classification\u2014substantially outperforming all individual models. SHAP analysis showed that variants achieving high peaks exhibit strong but structurally coherent early growth, whereas prolonged dominance is associated not with early surges but with sustained, moderate short-term fluctuations embedded within a stable trajectory.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>This framework defines minimum surveillance thresholds (\u2265100 sequences in 30 days, \u22651% detection share), variant grouping rules, and noise-filtering protocols, enabling cross-country comparison and country-specific forecasting. It provides a lightweight, reproducible early-warning tool for genomic surveillance and real-time epidemic intelligence.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Significance</jats:title>\n                  <jats:p>Identifying emerging SARS-CoV-2 variants capable of driving new surges is critical for global preparedness but remains challenging due to sparse early data. We present a machine learning framework that forecasts variant dominance using only the first 2\u20134 weeks of genomic growth. Analyzing nine million sequences across 15 countries, we reveal two distinct epidemiological signatures: high peak prevalence is driven by explosive, coherent early expansion, while long-term persistence is predicted by sustained, moderate fluctuations rather than initial speed. By establishing minimum surveillance thresholds, this work delivers a scalable, data-efficient early-warning tool that links early genomic signatures of viral fitness to downstream population-level dominance, achieving high predictive accuracy with a minimal number of sequences.</jats:p>\n                </jats:sec>",
+    "DOI": "10.64898/2026.02.04.26345559",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2026-02-06T00:25:14Z",
+      "timestamp": 1770337514000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predictive Modeling of COVID-19 Variant Peak Prevalence and Duration Using GISAID Data Across 15 Countries"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0001-6654-1040",
+        "authenticated-orcid": false,
+        "given": "Yifan",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, University of Connecticut, Storr, CT, USA"
+          }
+        ]
+      },
+      {
+        "given": "Rob",
+        "family": "Paton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Infectious Disease Modelling Team, Modelling Division, Analysis and Intelligence Assessment, Chief Data Officer Group, UK Health Security Agency, London, UK"
+          }
+        ]
+      },
+      {
+        "given": "Kun",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, University of Connecticut, Storr, CT, USA"
+          }
+        ]
+      },
+      {
+        "given": "Christopher E.",
+        "family": "Overton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Infectious Disease Modelling Team, Modelling Division, Analysis and Intelligence Assessment, Chief Data Officer Group, UK Health Security Agency, London, UK"
+          },
+          {
+            "name": "Department of Mathematical Sciences, University of Liverpool, Liverpool, UK"
+          }
+        ]
+      },
+      {
+        "given": "Jaehun",
+        "family": "Jung",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Preventive Medicine, Korea University College of Medicine, Seoul, Korea"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1440-2786",
+        "authenticated-orcid": false,
+        "given": "Youngji",
+        "family": "Jo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departments of Public Health Sciences, School of Medicine, UConn Health, Farmington, CT, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-021-00573-0"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.2",
+        "unstructured": "\u201cTracking SARS-CoV-2 variants.\u201d Accessed: Oct. 20, 2025. [Online]. Available: https://www.who.int/activities/tracking-SARS-CoV-2-variants"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.3",
+        "unstructured": "CDC, \u201cCDC\u2019s Role in Tracking Variants,\u201d COVID-19. Accessed: Oct. 20, 2025. [Online]. Available: https://www.cdc.gov/covid/php/variants/index.html"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-33713-y"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.csbj.2025.03.044"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.plrev.2024.10.011"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abm1208"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1012443"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.55876/gis8.220330me"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.10",
+        "unstructured": "W. H. Organization , \u201cSARS-CoV-2 genomic sequencing for public health goals: interim guidance, 8 January 2021,\u201d Art. no. WHO/2019-nCoV/genomic_sequencing/2021.1, 2021, Accessed: Jul. 16, 2025. [Online]. Available: https://iris.who.int/handle/10665/338483"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03677-y"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab856"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.13",
+        "unstructured": "\u201cTracking SARS-CoV-2 variants.\u201d Accessed: Jul. 16, 2025. [Online]. Available: https://www.who.int/activities/tracking-SARS-CoV-2-variants"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abj0113"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03470-x"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/10-0340.1"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1901.10200"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.18",
+        "unstructured": "\u201cGeneralized Linear Models on JSTOR.\u201d Accessed: Oct. 20, 2025. [Online]. Available: https://www.jstor.org/stable/2344614?seq=1"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781315370279"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00527.x"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00994018"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511812651"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781315139470"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Polley and M. van der Laan , \u201cSuper Learner In Prediction,\u201d UC Berkeley Div. Biostat. Work. Pap. Ser., May 2010, [Online]. Available: https://biostats.bepress.com/ucbbiostat/paper266",
+        "DOI": "10.32614/CRAN.package.SuperLearner"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ipm.2009.03.002"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ipm.2009.03.002"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1705.07874"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1012520"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cnsns.2020.105372"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.12.02.24318334"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd7331"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.01.02.23284123"
+      },
+      {
+        "key": "2026020720350321000_2026.02.04.26345559v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.csbj.2025.03.044"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.04.26345559",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          8
+        ]
+      ],
+      "date-time": "2026-02-08T04:35:07Z",
+      "timestamp": 1770525307000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.02.04.26345559"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          5
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.64898/2026.02.04.26345559",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

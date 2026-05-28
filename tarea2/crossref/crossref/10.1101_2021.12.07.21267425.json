@@ -1,0 +1,419 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:34:30Z",
+      "timestamp": 1768552470065,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 48,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>BACKGROUND</jats:title>\n                  <jats:p>Risk prediction scores and classification models are fundamental tools to effectively triage incoming COVID-19 patients. However, current triaging methods often have poor predictive performance, are based on variables that are expensive to measure, and lead to decisions that are sometimes hard to interpret.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>OBJECTIVE</jats:title>\n                  <jats:p>We introduce two new classification methods that are able to predict COVID-19 mortality risk from the automatic analysis of routine clinical variables with high accuracy and interpretability. The classifiers, denominated SVM22-GASS and Clinical-GASS, leverage machine learning methods and clinical expertise, respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>METHODS</jats:title>\n                  <jats:p>Both classifiers were developed using a derivation cohort of 499 patients and were validated with an independent validation cohort of 250 patients. The cohorts included COVID-19 positive patients admitted to two hospitals in the Italian Province of Ferrara between March 2020 and June 2020 (derivation cohort) and between September 2020 and March 2021 (validation cohort). The potential predictive variables analyzed in this study included demographic, anamnestic, and laboratory data, retrieved with the patients\u2019 consents from their electronic health records.</jats:p>\n                  <jats:p>The SVM22-GASS classifier is based on a Support Vector Machine model (SVM) with Radial Basis Function kernel (RBF). Importantly, the model uses only a subset of predictive variables that were automatically selected with the Least Absolute Shrinkage and Selection Operator (LASSO), while the RBF kernel is approximated with random feature expansions to reduce the computational requirements. The Clinical-GASS classifier is a threshold-based classifier that leverages the General Assessment of SARS-CoV-2 Severity (GASS) score: a highly interpretable COVID-19-specific clinical score that has been recently shown to be more effective at predicting the COVID-19 mortality risk than standard clinical scores.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>RESULTS</jats:title>\n                  <jats:p>The SVM22-GASS model was able to predict the mortality risk of the validation cohort with an Area Under the Receiver Operating Characteristic Curve (AUC) of 0.87 and an accuracy of 0.88 \u2014 performing on par with influential classification methods that exploit variables derived from expensive analyses such as medical imaging. Furthermore, variable importance analyses showed that the model relies primarily on eight variables for its predictions: White Blood Cell Count, Lymphocyte Count, Brain Natriuretic Peptide, Creatine Phosphokinase, Lactate Dehydrogenase, Fibrinogen, PaO2/FiO2 Ratio, and High-Sensitivity Troponin I.</jats:p>\n                  <jats:p>Similarly, the Clinical-GASS classifier predicted the mortality risk of the validation cohort with an AUC of 0.77 and an accuracy of 0.78 \u2014 on par with other established and emerging machine-learning-based methods.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>CONCLUSIONS</jats:title>\n                  <jats:p>Our results demonstrate that it is possible to accurately predict the COVID-19 mortality risk using only routine clinical variables that can be readily collected in the very early stages of hospital admission. The classifiers have the potential to assist the clinicians in quickly identifying the patients\u2019 mortality risk to optimally allocate both human and financial resources.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.07.21267425",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2021-12-09T03:11:42Z",
+      "timestamp": 1639019502000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Rapid assessment of COVID-19 mortality risk with GASS classifiers"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Salvatore",
+        "family": "Greco",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alessandro",
+        "family": "Salatiello",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicol\u00f2",
+        "family": "Fabbri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fabrizio",
+        "family": "Riguzzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emanuele",
+        "family": "Locorotondo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Riccardo",
+        "family": "Spaggiari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alfredo",
+        "family": "De Giorgi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8462-7000",
+        "authenticated-orcid": false,
+        "given": "Angelina",
+        "family": "Passaro",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/ccdcw2020.022"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.2",
+        "unstructured": "Worldometers.info. Worldometer COVID-19 Data. Dover, Delaware, U.S.A. 2020.https://www.worldometers.info/coronavirus/country/malaysia/"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.3",
+        "unstructured": "Charlson ME , Pompei P , Ales KL , et al. Charlson comorbidity index. J. Chronic Dis. 1987. doi:0021-9681/87"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsx.2020.10.022"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11606-020-05991-z"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thx.51.10.1010"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.10-1296"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2020.05.049"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.06.038"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-74761-9_18"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3339"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/L21-0490"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0001-2998(78)80014-2"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1022627411411"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1613/jair.953"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.19",
+        "unstructured": "Fonti V , Belitser E. Feature Selection using LASSO. 2017. file:///C:/Users/psn/Downloads/werkstuk-fonti_tcm235-836234(1).pdf"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2346178"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0916069"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.22",
+        "unstructured": "Le Q , Sarl\u00f3s T , Smola A. Fastfood - Approximating kernel expansions in loglinear time. In: 30th International Conference on Machine Learning, ICML 2013. 2013. 1281\u20139."
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2005.10.010"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-05318-5_1"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.25",
+        "unstructured": "Snoek J , Larochelle H , Adams RP . Practical Bayesian optimization of machine learning algorithms. In: Advances in Neural Information Processing Systems. 2012. 2951\u20139."
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ress.2015.05.018"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.27",
+        "unstructured": "Fisher A , Rudin C , Dominici F. All Models are Wrong, but Many are Useful: Learning a Variable\u2019s Importance by Studying an Entire Class of Prediction Models Simultaneously. J Mach Learn Res 2019;20.http://www.ncbi.nlm.nih.gov/pubmed/34335110"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ijcp.13858"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-19741-6"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3855/jidc.13288"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lfs.2020.117788"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/cclm-2020-0198"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.0994"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc3517"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.4683"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2005412"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40620-021-00997-0"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ntr/ntaa082"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jiph.2020.07.014"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00325481.2020.1786964"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26355/eurrev_202010_23250"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2217/bmm-2021-0061"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eng.2020.10.013"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0236618"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/DIAGNOSTICS11040596"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/29058"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm9092957"
+      },
+      {
+        "key": "2021121009451540000_2021.12.07.21267425v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsx.2020.11.007"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.07.21267425",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:31:31Z",
+      "timestamp": 1768487491000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.12.07.21267425"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.1101/2021.12.07.21267425",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/biomedicines11030831",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

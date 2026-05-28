@@ -1,0 +1,499 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2026-02-12T10:32:32Z",
+      "timestamp": 1770892352483,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 45,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>A patient\u2019s disease phenotype can be driven and determined by specific groups of cells whose marker genes are either unknown, or can only be detected at late-stage using conventional bulk assays such as RNA-Seq technology. Recent advances in single-cell RNA sequencing (scRNA-seq) enable gene expression profiling in cell-level resolution, and therefore have the potential to identify those cells driving the disease phenotype even while the number of these cells is small. However, most existing methods rely heavily on accurate cell type detection, and the number of available annotated samples is usually too small for training deep learning predictive models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Here we propose the method ScRAT for clinical phenotype prediction using scRNA-seq data. To train ScRAT with a limited number of samples of different phenotypes, such as COVID and non-COVID, ScRAT first applies a mixup module to increase the number of training samples. A multi-head attention mechanism is employed to learn the most informative cells for each phenotype without relying on a given cell type annotation. Using three public COVID datasets, we show that ScRAT outperforms other phenotype prediction methods. The performance edge of ScRAT over its competitors increases as the number of training samples decreases, indicating the efficacy of our sample mixup. Critical cell types detected based on high-attention cells also support novel findings in the original papers and the recent literature. This suggests that ScRAT overcomes the challenge of missing marker genes and limited sample number with great potential revealing novel molecular mechanisms and/or therapies.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.03.31.532253",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2023-04-03T00:35:21Z",
+      "timestamp": 1680482121000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Clinical Phenotype Prediction From Single-cell RNA-seq Data using Attention-Based Neural Networks"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5212-1512",
+        "authenticated-orcid": false,
+        "given": "Yuzhen",
+        "family": "Mao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4379-1231",
+        "authenticated-orcid": false,
+        "given": "Yen-Yi",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7003-6020",
+        "authenticated-orcid": false,
+        "given": "Nelson K.Y.",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8379-8887",
+        "authenticated-orcid": false,
+        "given": "Stanislav",
+        "family": "Volik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4498-211X",
+        "authenticated-orcid": false,
+        "given": "Funda",
+        "family": "Sar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6148-6110",
+        "authenticated-orcid": false,
+        "given": "Colin",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7732-2815",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Ester",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.1",
+        "article-title": "Neural machine translation by jointly learning to align and translate",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.2",
+        "article-title": "Longformer: The long-document transformer",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "12",
+        "key": "2023040502351220000_2023.03.31.532253v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1200",
+        "DOI": "10.1038/s41592-020-00979-3",
+        "article-title": "MARS: discovering novel cell types across heterogeneous single-cell experiments",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2015.10.025"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.5",
+        "article-title": "On mixup regularization",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chefer, H. et al. (2021a). Generic attention-model explainability for interpreting bi-modal and encoder-decoder transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 397\u2013406.",
+        "DOI": "10.1109/ICCV48922.2021.00045"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chefer, H. et al. (2021b). Transformer interpretability beyond attention visualization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 782\u2013791.",
+        "DOI": "10.1109/CVPR46437.2021.00084"
+      },
+      {
+        "issue": "9",
+        "key": "2023040502351220000_2023.03.31.532253v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "879",
+        "DOI": "10.1038/s43018-021-00250-4",
+        "article-title": "Moving pan-cancer studies from basic research toward the clinic",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Nat Cancer"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ching, T. et al. (2018). Opportunities and obstacles for deep learning in biology and medicine. J. R. Soc. Interface, 15(141).",
+        "DOI": "10.1098/rsif.2017.0387"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.10",
+        "article-title": "What does bert look at? an analysis of bert\u2019s attention",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "5",
+        "key": "2023040502351220000_2023.03.31.532253v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "916",
+        "DOI": "10.1016/j.cell.2022.01.012",
+        "article-title": "A blood atlas of COVID-19 defines hallmarks of disease severity and specificity",
+        "volume": "185",
+        "author": "COvid-19 Multi-omics Blood ATlas (COMBAT) Consortium",
+        "year": "2022",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "1",
+        "key": "2023040502351220000_2023.03.31.532253v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1016/j.eururo.2014.11.030",
+        "article-title": "A biopsy-based 17-gene genomic prostate score predicts recurrence after radical prostatectomy and adverse surgical pathology in a racially diverse population of men with clinically low- and intermediate-risk prostate cancer",
+        "volume": "68",
+        "year": "2015",
+        "journal-title": "Eur. Urol"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/bjc.2012.39"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.14",
+        "article-title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.15",
+        "article-title": "An image is worth 16\u00d716 words: Transformers for image recognition at scale",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0066855"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.17",
+        "article-title": "Memory-efficient transformers via top-k attention",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, B. et al. (2021). Cloudpred: Predicting patient phenotypes from single-cell rna-seq. In PACIFIC SYMPOSIUM ON BIOCOMPUTING 2022, pages 337\u2013348. World Scientific.",
+        "DOI": "10.1142/9789811250477_0031"
+      },
+      {
+        "issue": "11",
+        "key": "2023040502351220000_2023.03.31.532253v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1330",
+        "DOI": "10.1182/blood.2020007252",
+        "article-title": "Platelet activation and platelet-monocyte aggregate formation trigger tissue factor expression in patients with severe COVID-19",
+        "volume": "136",
+        "year": "2020",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.20",
+        "article-title": "Attention is not explanation",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3065386."
+      },
+      {
+        "issue": "6",
+        "key": "2023040502351220000_2023.03.31.532253v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e438",
+        "DOI": "10.1016/S2352-3026(20)30145-9",
+        "article-title": "Coagulation abnormalities and thrombosis in patients with COVID-19",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Lancet Haematol"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.23",
+        "article-title": "Multi-head or single-head? an empirical comparison for transformer training",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.2653"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01336-8"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01356-z"
+      },
+      {
+        "issue": "7",
+        "key": "2023040502351220000_2023.03.31.532253v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.1038/s41587-019-0114-2",
+        "article-title": "Determining cell type abundance and expression from bulk tissues with digital cytometry",
+        "volume": "37",
+        "year": "2019",
+        "journal-title": "Nat. Biotechnol"
+      },
+      {
+        "issue": "1",
+        "key": "2023040502351220000_2023.03.31.532253v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1111/imr.13115",
+        "article-title": "COVID-19 and plasma cells: Is there long-lived protection?",
+        "volume": "309",
+        "year": "2022",
+        "journal-title": "Immunol. Rev"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1200/JCO.2010.32.6421"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35021093"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ravindra, N. et al. (2020). Disease state prediction from single-cell data using graph attention networks. In Proceedings of the ACM conference on health, inference, and learning, pages 121\u2013130.",
+        "DOI": "10.1145/3368555.3384449"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.01.053"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.33",
+        "article-title": "Is attention interpretable?",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01329-2"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.35",
+        "unstructured": "Tay, Y. et al. (2020). Efficient transformers: A survey. ACM Computing Surveys (CSUR)."
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aan2507"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.37",
+        "unstructured": "Vaswani, A. et al. (2017). Attention is all you need. In Advances in neural information processing systems, pages 5998\u20136008."
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.38",
+        "unstructured": "Verma, V. et al. (2019). Manifold mixup: Better representations by interpolating hidden states. In International Conference on Machine Learning, pages 6438\u20136447. PMLR."
+      },
+      {
+        "issue": "2",
+        "key": "2023040502351220000_2023.03.31.532253v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/j.immuni.2020.07.014",
+        "article-title": "The more, the merrier: DC3s join the human dendritic cell family",
+        "volume": "53",
+        "year": "2020",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.40",
+        "article-title": "Attention is not not explanation",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "10",
+        "key": "2023040502351220000_2023.03.31.532253v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009742",
+        "DOI": "10.1371/journal.ppat.1009742",
+        "article-title": "Impaired function and delayed regeneration of dendritic cells in COVID-19",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS Pathog"
+      },
+      {
+        "issue": "1",
+        "key": "2023040502351220000_2023.03.31.532253v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbab508",
+        "DOI": "10.1093/bib/bbab508",
+        "article-title": "sciae: an integrative autoencoder-based ensemble classification framework for single-cell rna-seq data",
+        "volume": "23",
+        "year": "2022",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeng, F. et al. (2022). scpheno: A deep generative model to integrate scrna-seq with disease phenotypes and its application on prediction of covid-19 pneumonia and severe assessment. bioRxiv.",
+        "DOI": "10.1101/2022.06.20.496916"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.44",
+        "article-title": "mixup: Beyond empirical risk minimization",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023040502351220000_2023.03.31.532253v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, H. et al. (2021). Informer: Beyond efficient transformer for long sequence time-series forecasting. In Proceedings of AAAI.",
+        "DOI": "10.1609/aaai.v35i12.17325"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.31.532253",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:29:33Z",
+      "timestamp": 1768451373000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.31.532253"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          2
+        ]
+      ]
+    },
+    "references-count": 45,
+    "URL": "https://doi.org/10.1101/2023.03.31.532253",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bioinformatics/btae067",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:08:26Z",
+      "timestamp": 1768550906199,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 17,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We introduce a lightweight model based on Mask R-CNN with ResNet18 and ResNet34 backbone models that segments lesions and predicts COVID-19 from chest CT scans in a single shot. The model requires a small dataset to train: 650 images for the segmentation branch and 3000 for the classification branch, and it is evaluated on 21292 images to achieve a\n                  <jats:bold>42</jats:bold>\n                  .\n                  <jats:bold>45%</jats:bold>\n                  average precision (main MS COCO criterion) on the segmentation test split (100 images),\n                  <jats:bold>93</jats:bold>\n                  .\n                  <jats:bold>00%</jats:bold>\n                  COVID-19 sensitivity and F1-score of\n                  <jats:bold>96</jats:bold>\n                  .\n                  <jats:bold>76%</jats:bold>\n                  on the classification test split (21192 images) across 3 classes: COVID-19, Common Pneumonia and Control/Negative. The full source code, models and pretrained weights are available on\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/AlexTS1980/COVID-Single-Shot-Model\">https://github.com/AlexTS1980/COVID-Single-Shot-Model</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2020.12.01.20241786",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2020-12-03T11:25:53Z",
+      "timestamp": 1606994753000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Single-Shot Lightweight Model For The Detection of Lesions And The Prediction of COVID-19 From Chest CT Scans"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Aram",
+        "family": "Ter-Sarkisov",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tao Ai , Zhenlu Yang , Hongyan Hou , Chenao Zhan , Chong Chen , Wenzhi Lv , Qian Tao , Ziyong Sun , and Liming Xia . Correlation of chest ct and rt-pcr testing in coronavirus disease 2019 (covid-19) in china: a report of 1014 cases. Radiology, page 200642, 2020.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.2",
+        "unstructured": "Charmaine Butt , Jagpal Gill , David Chun , and Benson A Babu . Deep learning system to screen coronavirus disease 2019 pneumonia. Applied Intelligence, pages 1\u20137, 2020."
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.3",
+        "unstructured": "Deng-Ping Fan , Tao Zhou , Ge-Peng Ji , Yi Zhou , Geng Chen , Huazhu Fu , Jianbing Shen , and Ling Shao . Inf-net: Automatic covid-19 lung infection segmentation from ct images. IEEE Transactions on Medical Imaging, 2020."
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.4",
+        "article-title": "Covidnet-ct: A tailored deep convolutional neural network design for detection of covid-19 cases from chest ct images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.5",
+        "unstructured": "Kaiming He , Georgia Gkioxari , Piotr Doll\u00e1r , and Ross Girshick. Mask r-cnn. In Proceedings of the IEEE international conference on computer vision, pages 2961\u20132969, 2017."
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.6",
+        "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770\u2013778, 2016."
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.7",
+        "unstructured": "Lin Li , Lixin Qin , Zeguo Xu , Youbing Yin , Xin Wang , Bin Kong , Junjie Bai , Yi Lu , Zhenghan Fang , Qi Song , et al. Artificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct. Radiology, 2020."
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jonathan Long , Evan Shelhamer , and Trevor Darrell . Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431\u20133440, 2015.",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.9",
+        "article-title": "A light cnn for detecting covid-19 from ct scans of the chest",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Olaf Ronneberger , Philipp Fischer , and Thomas Brox . U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234\u2013241. Springer, 2015.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.11",
+        "unstructured": "Shaoqing Ren , Kaiming He , Ross Girshick , and Jian Sun . Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91\u201399, 2015."
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aram Ter-Sarkisov. COVID-CT-Mask-Net: Prediction of COVID-19 from CT Scans Using Regional Features. medRxiv, 2020.",
+        "DOI": "10.1101/2020.10.11.20211052"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aram Ter-Sarkisov. Detection and segmentation of lesion areas in chest CT scans for the prediction of COVID-19. medRxiv, 2020.",
+        "DOI": "10.1101/2020.10.23.20218461"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aram Ter-Sarkisov . Lightweight model for the prediction of COVID-19 through the Detection and Segmentation of lesions in chest ct scans. medRxiv, 2020.",
+        "DOI": "10.1101/2020.10.30.20223586"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.15",
+        "article-title": "Jcs: An explainable covid-19 diagnosis system by joint classification and segmentation",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020120609300539000_2020.12.01.20241786v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kang Zhang , Xiaohong Liu , Jun Shen , Zhihuan Li , Ye Sang , Xingwang Wu , Yunfei Zha , Wenhua Liang , Chengdi Wang , Ke Wang , et al. Clinically applicable ai system for accurate diagnosis, quantitative measurements, and prognosis of covid-19 pneumonia using computed tomography. Cell, 2020.",
+        "DOI": "10.1016/j.cell.2020.04.045"
+      },
+      {
+        "issue": "8",
+        "key": "2020120609300539000_2020.12.01.20241786v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2638",
+        "DOI": "10.1109/TMI.2020.3001810",
+        "article-title": "A rapid, accurate and machine-agnostic segmentation and quantification method for ct-based covid-19 diagnosis",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.12.01.20241786",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:00:26Z",
+      "timestamp": 1768485626000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.12.01.20241786"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "references-count": 17,
+    "URL": "https://doi.org/10.1101/2020.12.01.20241786",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

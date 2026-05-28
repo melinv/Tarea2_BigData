@@ -1,0 +1,909 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:19:17Z",
+      "timestamp": 1768551557455,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 121,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Both COVID-19 and novel pandemics challenge those of us within the modeling community, specifically in establishing suitable relations between lifecycles, scales, and existing methods. Herein we demonstrate transitions between models in space/time, individual-to-community, county-to-city, along with models for the trace beginning with exposure, then to symptom manifest, then to community transmission. To that end, we leverage publicly available data to compose a chain of Graphical Models (GMs) for predicting infection rates across communities, space, and time. We\u2019ll anchor our GMs against the more expensive yet state-of-the-art Agent-Based Models (ABMs). Insight obtained from designing novel GMs calibrated to ABMs furnishes reduced, yet reliable surrogates for the end-to-end public health challenge of community contact tracing and transmission. Further, this novel research transcends and synergizes information integration and informatics, leading to an advance in the science of GMs. Cognizance into the data lifecycle using properly coarse-grained modeling will broaden the toolkit available to public health specialists, and hopefully empower governments and health agencies, here and abroad, in addressing the profound challenges in disease and vaccination campaigns confronting us by COVID and future pandemics.</jats:p>\n                <jats:p>In this proof of principle study, focusing on the GM methodology development, we show, first, how static GM of the Ising model type (characterized by pair-wise interaction between nodes related to traffic and communications between nodes representing communities, or census tracts within a given city, and with local infection bias) emerge from a dynamic GM of the Independent Cascade type, introduced and studied in Computer and Networks sciences mainly in the context of the spread of social influences. Second, we formulate the problem of inference in epidemiology as inference problems in the Ising model setting. Specifically, we pose the challenge of computing Conditional A-posteriori Level of Infection (CALI), which provides a quantitative answer to the questions: What is the probability that a given node in the GM (given census tract within the city) becomes infected in the result of injection of the infection at another node, e.g. due to arrival of a super-spreader agent or occurence of the super-spreader event in the area. To answer the question exactly is not feasible for any realistic size (larger than 30-50 nodes) model. We therefore adopt and develop approximate inference techniques, of the variational and variable elimination types, developed in the GM literature. To demonstrate utility of the methodology, which seems new for the public health application, we build a 123-node model of Seattle, as well as its 10-node and 20-node coarsegrained variants, and then conduct the proof of principles experimental studies. The experiments on the coarse-grained models have helped us to validate the approximate inference by juxtaposing it to the exact inference. The experiments also lead to discovery of interesting and most probably universal phenomena. In particular, we observe (a) a strong sensitivity of CALI to the location of the initial infection, and (b) strong alignment of the resulting infection probability (values of CALI) observed at different nodes in the regimes of moderate interaction between the nodes. We then speculate how these, and other observations drawn from the synthetic experiments, can be extended to a more realistic, data driven setting of actual operation importance. We conclude the manuscript with an extensive discussion of how the methodology should be developed further, both at the level of devising realistic GMs from observational data (and also enhancing it with microscopic ABM modeling and simulations) and also regarding utilization of the GM inference methodology for more complex problems of the pandemic mitigation and control.</jats:p>",
+    "DOI": "10.1101/2021.02.24.21252390",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2021-03-01T10:11:27Z",
+      "timestamp": 1614593487000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Graphical Models of Pandemic"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6758-515X",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Chertkov",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ruby",
+        "family": "Abrams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6105-5089",
+        "authenticated-orcid": false,
+        "given": "Amir Mohammad Esmaieeli",
+        "family": "Sikaroudi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mikhail",
+        "family": "Krechetov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8062-9444",
+        "authenticated-orcid": false,
+        "given": "CNP",
+        "family": "Slagle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9834-4132",
+        "authenticated-orcid": false,
+        "given": "Alon",
+        "family": "Efrat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8485-1774",
+        "authenticated-orcid": false,
+        "given": "Radoslav",
+        "family": "Fulek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7817-3516",
+        "authenticated-orcid": false,
+        "given": "Eyal",
+        "family": "Oren",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.1",
+        "unstructured": "CDC center for Disease Control and Prevention, Implementation of Mitigation Strategies for Communities with Local COVID-19 Transmission. https://www.cdc.gov/coronavirus/2019-ncov/community/community-mitigation.html."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.2",
+        "unstructured": "CDC center for Disease Control and Prevention, Morbility and Mortality Weekly Reports. https://www.cdc.gov/mmwr/volumes/69/wr/mm6915e2.htm?s_cid=mm6915e2_x."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.3",
+        "unstructured": "Confirmed cases and deaths by country, territory, or conveyance, https://www.worldometers.info/coronavirus/\\#countries."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.4",
+        "unstructured": "Covid-19 confirmed and forecasted case data. los alamos national laboratory. https://covid-19.bsvgateway.org/. xAccessed: 2010-10-26."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.5",
+        "unstructured": "Covid-19 global cases at johns hopkins university. https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.6",
+        "unstructured": "Covid-19 scenarios. https://neherlab.org/covid19/."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.7",
+        "unstructured": "Gleamviz: Real time forecast of global epidemic. http://www.gleamviz.org/."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.8",
+        "unstructured": "Institute for health metrics & evaluation. http://www.healthdata.org/."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.9",
+        "unstructured": "MIDAS: Accessed: Models of Infectious Disease Agent Study, https://midasnetwork.us/."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.10",
+        "unstructured": "SafeGraph COVID-19 Data Consortium. Accessed: San Francisco, CA: SafeGraph Inc. https://www.safegraph.com/covid-19-data-consortium."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.11",
+        "unstructured": "Safegraph social distancing metrics. Accessed: san francisco, ca: Safegraph inc. https://docs.safegraph.com/docs/social-distancing-metrics."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.12",
+        "unstructured": "What about bias in safegraph data set? san francisco, Accessed: ca: Safegraph inc. https://www.safegraph.com/blog/what-about-bias-in-the-safegraph-dataset."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.13",
+        "unstructured": "Wiki template:2019\u201320 coronavirus pandemic data. https://en.wikipedia.org/wiki/Template:2019\\%E2\\%80\\%9320_coronavirus_pandemic_data"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.14",
+        "unstructured": "2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1016/j.jare.2020.08.002",
+        "article-title": "Molecular diagnostic technologies for covid-19: Limitations and challenges",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Journal of Advanced Research"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Ahn , M. Chertkov , and J. Shin . Synthesis of mcmc and belief propagation. In D. D. Lee , M. Sugiyama , U. V. Luxburg , I. Guyon , and R. Garnett , editors, Advances in Neural Information Processing Systems 29, pages 1453\u20131461. Curran Associates, Inc., 2016.",
+        "DOI": "10.2172/1254988"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Ahn , M. Chertkov , and J. Shin. Synthesis of MCMC and Belief Propagation. In D. D. Lee , M. Sugiyama , U. V. Luxburg , I. Guyon , and R. Garnett , editors, Advances in Neural Information Processing Systems 29, pages 1453\u20131461. Curran Associates, Inc., 2016.",
+        "DOI": "10.2172/1254988"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Ahn , M. Chertkov , and J. Shin. Gauging Variational Inference. In I. Guyon , U. V. Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , editors, Advances in Neural Information Processing Systems 30, pages 2885\u20132894. Curran Associates, Inc., 2017.",
+        "DOI": "10.2172/1360686"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Ahn , M. Chertkov , and J. Shin. Gauging Variational Inference . In I. Guyon , U. V. Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , editors, Advances in Neural Information Processing Systems 30, pages 2885\u20132894. Curran Associates, Inc., 2017.",
+        "DOI": "10.2172/1360686"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.20",
+        "first-page": "10",
+        "volume-title": "International Conference on Artificial Intelligence and Statistics, AISTATS 2018, 9-11 April 2018, Playa Blanca, Lanzarote, Canary Islands, Spain",
+        "volume": "84 of",
+        "year": "2018"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.21",
+        "first-page": "109",
+        "volume-title": "Proceedings of the 35th International Conference on Machine Learning, ICML 2018, Stockholmsm\u00e4ssan, Stockholm, Sweden, July 10-15, 2018",
+        "volume": "80",
+        "year": "2018"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ethem Alpaydin . Introduction to machine learning. MIT press, 2020.",
+        "DOI": "10.7551/mitpress/13811.001.0001"
+      },
+      {
+        "issue": "4",
+        "key": "2021030308450589000_2021.02.24.21252390v1.23",
+        "first-page": "1",
+        "article-title": "Bard: Better automated redistricting",
+        "volume": "42",
+        "year": "2011",
+        "journal-title": "Journal of Statistical Software"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R.M. Anderson and R.M. May . Infectious Disease of Humans: Dynamics and Control. Oxford University Press, Oxford, 1991.",
+        "DOI": "10.1093/oso/9780198545996.001.0001"
+      },
+      {
+        "issue": "1",
+        "key": "2021030308450589000_2021.02.24.21252390v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "408",
+        "DOI": "10.1016/j.cie.2011.09.018",
+        "article-title": "Facility location dynamics: An overview of classifications and applications",
+        "volume": "62",
+        "year": "2012",
+        "journal-title": "Computers & Industrial Engineering"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1016/j.idm.2020.04.002",
+        "article-title": "A simple model for covid-19",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.27",
+        "unstructured": "Esther Arkin , Alon Efrat , Cesim Erten , Ferran Hurtado , Joseph Mitchell , Valentin Polishchuk , and Carola Wenk . Shortest tour of a sequence of disjoint segments in l1. Proc. 16th Fall Workshop on Computational and Combinatorial Geometry, 2006."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.28",
+        "unstructured": "Esther M Arkin , Faryad Darabi Sahneh , Alon Efrat , Fabian Frank , Radoslav Fulek , Stephen Kobourov , and Joseph SB Mitchell . Computing \u03b2-stretch paths in drawings of graphs. In 17th Scandinavian Symposium and Workshops on Algorithm Theory (SWAT 2020). Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik, 2020."
+      },
+      {
+        "issue": "10",
+        "key": "2021030308450589000_2021.02.24.21252390v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "3241",
+        "DOI": "10.1088/0305-4470/15/10/028",
+        "article-title": "On the computational complexity of Ising spin glass models",
+        "volume": "15",
+        "year": "1982",
+        "journal-title": "Journal of Physics A: Mathematical and General"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.30",
+        "unstructured": "Martin Z. Bazant and John W. M. Bush . Beyond six feet: A guideline to limit indoor airborne transmission of covid-19. medRxiv, https://web.mit.edu/bazant/www/COVID-19/, 2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anass Bouchnita and Aissam Jebrane . A hybrid multi-scale model of covid-19 transmission dynamics to assess the potential of non-pharmaceutical interventions. Chaos, Solitons & Fractals, page 109941, 2020.",
+        "DOI": "10.1016/j.chaos.2020.109941"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Serina Chang , Emma Pierson , Pang Wei Koh , Jaline Gerardin , Beth Redbird , David Grusky , and Jure Leskovec . Mobility network models of COVID-19 explain inequities and inform reopening. Nature, November 2020.",
+        "DOI": "10.1038/s41586-020-2923-3"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000656"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/asu051"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Chertkov , R. Abrams , A. Esmaieeli , and A. Efrat . Graphical models of pandemic. In preparation, 2020.",
+        "DOI": "10.1101/2021.02.24.21252390"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "065102",
+        "DOI": "10.1103/PhysRevE.73.065102",
+        "article-title": "Loop calculus in statistical physics and information science",
+        "volume": "73",
+        "year": "2006",
+        "journal-title": "Phys. Rev. E"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.37",
+        "year": "2018",
+        "journal-title": "Gauges, Loops, and Polynomials for Partition Functions of Graphical Models"
+      },
+      {
+        "issue": "06",
+        "key": "2021030308450589000_2021.02.24.21252390v1.38",
+        "first-page": "P06009",
+        "article-title": "Loop series for discrete statistical models on graphs",
+        "volume": "2006",
+        "year": "2006",
+        "journal-title": "Journal of Statistical Mechanics: Theory and Experiment"
+      },
+      {
+        "issue": "4",
+        "key": "2021030308450589000_2021.02.24.21252390v1.39",
+        "first-page": "513",
+        "volume-title": "IEEE transactions on information technology in biomedicine : a publication of the IEEE Engineering in Medicine and Biology Society",
+        "volume": "12",
+        "year": "2008"
+      },
+      {
+        "issue": "1",
+        "key": "2021030308450589000_2021.02.24.21252390v1.40",
+        "first-page": "41",
+        "article-title": "Bucket elimination: A unifying framework for reasoning",
+        "volume": "113",
+        "year": "1999",
+        "journal-title": "Artificial Intelligence"
+      },
+      {
+        "issue": "2",
+        "key": "2021030308450589000_2021.02.24.21252390v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1145/636865.636866",
+        "article-title": "Mini-buckets: A general scheme for bounded inference",
+        "volume": "50",
+        "year": "2003",
+        "journal-title": "J. ACM"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2501.171901"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.43",
+        "unstructured": "Josip Djolonga and Andreas Krause . From map to marginals: Variational inference in bayesian submodular models. In Advances in Neural Information Processing Systems, pages 244\u2013252, 2014."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.44",
+        "unstructured": "Allen Downey . Think Complexity: Complexity Science and Computational Modeling. O\u2019Reilly Media, Inc., 2nd edition, 2018."
+      },
+      {
+        "issue": "9",
+        "key": "2021030308450589000_2021.02.24.21252390v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "715",
+        "DOI": "10.1016/0167-8655(93)90140-9",
+        "article-title": "The complexity of computing minimum separating polygons",
+        "volume": "14",
+        "year": "1993",
+        "journal-title": "Pattern Recognition Letters"
+      },
+      {
+        "issue": "2",
+        "key": "2021030308450589000_2021.02.24.21252390v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1007/PL00009494",
+        "article-title": "On the complexity of the union of fat convex objects in the plane",
+        "volume": "23",
+        "year": "2000",
+        "journal-title": "Discrete & Computational Geometry"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "David Eppstein , Michael T Goodrich , Doruk Korkmaz , and Nil Mamano . Defining equitable geographic districts in road networks via stable matching. In Proceedings of the 25th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, pages 1\u20134, 2017.",
+        "DOI": "10.1145/3139958.3140015"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Eubank , I. Eckstrand , B. Lewis , S. Venkatramanan , M. Marathe , and C. L. Barrett . Commentary on ferguson, et al., \u201cimpact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand\u201d. 82(4):52.",
+        "DOI": "10.1007/s11538-020-00726-x"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature02541"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.50",
+        "unstructured": "Sandor Fekete . On the complexity of min-link red-blue separation. Manuscript, 1992."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.51",
+        "unstructured": "Neil Ferguson , Daniel Laydon , Gemma Nedjati-Gilani , Natsuko Imai , Kylie Ainslie , Marc Baguelin , Sangeeta Bhatia , Adhiratha Boonyasiri , Zulma M. Cucunub\u00e1, Gina Cuomo-Dannenburg , Amy Dighe , Ilaria Dorigatti , Han Fu , Katy Gaythorpe , Will Green , Arran Hamlet , Wes Hinsley , Lucy Okell , Sabine van Elsland , and Azra Ghani . Report 9: Impact of non-pharmaceutical interventions (npis) to reduce covid-19 mortality and healthcare demand. 2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04795"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04017"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2312726"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.55",
+        "unstructured": "M. R. Garey and D. S. Johnson . Computers and Intractability: A Guide to the Theory of NP-Completeness. W. H. Freeman, 1979."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0601266103"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Globerson and T.S. Jaakkola . Approximate inference using planar graph decomposition. In Advances in Neural Information Processing Systems, pages 473\u2013480, 2007.",
+        "DOI": "10.7551/mitpress/7503.003.0064"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.58",
+        "first-page": "1273",
+        "article-title": "Approximate inference on planar graphs using loop calculus and belief propagation",
+        "volume": "11",
+        "year": "2010",
+        "journal-title": "J. Mach. Learn. Res"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manuel Gomez-Rodriguez , Jure Leskovec , and Andreas Krause . Inferring networks of diffusion and influence. ACM Trans. Knowl. Discov. Data, 5(4), February 2012.",
+        "DOI": "10.1145/2086737.2086741"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guy Grebla , Alon Efrat , Esther Ezra , Rom Pinchasi , and Swaminathan Sankararaman . Data recovery after geographic correlated attacks. In 11th International Conference on the Design of Reliable Communication Networks, DRCN 2015, Kansas City, MO, USA, March 24-27, 2015, pages 65\u201372, 2015.",
+        "DOI": "10.1109/DRCN.2015.7148986"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C.G. Grijalva , M.A. Rolfes , Y. Zhu , and et al. Transmission of sars-cov-2 infections in households \u2014 tennessee and wisconsin, http://dx.doi.org/10.15585/mmwr.mm6944e1. MMWR Morb Mortal Wkly Rep. ePub, 2020.",
+        "DOI": "10.15585/mmwr.mm6944e1"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "7834",
+        "DOI": "10.1609/aaai.v33i01.33017834",
+        "article-title": "Marginal inference in continuous markov random fields using mixtures",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0706849105"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Hartmann and H. Rieger . New Optimization Algorithms in Physics. Wiley-VCH, 2004.",
+        "DOI": "10.1002/3527603794"
+      },
+      {
+        "issue": "8",
+        "key": "2021030308450589000_2021.02.24.21252390v1.65",
+        "first-page": "1",
+        "article-title": "Estimating time-varying mixed graphical models in highdimensional data",
+        "volume": "93",
+        "year": "2020",
+        "journal-title": "Journal of Statistical Software"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.66",
+        "unstructured": "U. Heinemann and A. Globerson . Inferning with high girth graphical models. ICML, 2014."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S0036144500371907"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marco F. Huber , Tim Bailey , Hugh Durrant-Whyte , and Uwe D. Hanebeck . On entropy approximation for gaussian mixture random vectors. 10 2008.",
+        "DOI": "10.1109/MFI.2008.4648062"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0054583"
+      },
+      {
+        "issue": "5",
+        "key": "2021030308450589000_2021.02.24.21252390v1.70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1087",
+        "DOI": "10.1137/0222066",
+        "article-title": "Polynomial-time approximation algorithms for the ising model",
+        "volume": "22",
+        "year": "1993",
+        "journal-title": "SIAM Journal on Computing"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jason K. Johnson , Vladimir Y. Chernyak , and Michael Chertkov . Orbit-product representation and correction of gaussian belief propagation. In Proceedings of the 26th Annual International Conference on Machine Learning, ICML \u201809, pages 473\u2013480, New York, NY, USA, 2009. ACM.",
+        "DOI": "10.1145/1553374.1553436"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Karzand and G. Bresler. Inferning trees. In 2015 53rd Annual Allerton Conference on Communication, Control, and Computing (Allerton), pages 1344\u20131351, 2015.",
+        "DOI": "10.1109/ALLERTON.2015.7447164"
+      },
+      {
+        "issue": "7",
+        "key": "2021030308450589000_2021.02.24.21252390v1.73",
+        "doi-asserted-by": "crossref",
+        "first-page": "e20912",
+        "DOI": "10.2196/20912",
+        "article-title": "Multiple epidemic wave model of the covid-19 pandemic: Modeling study",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Journal of Medical Internet Research"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "David Kempe , Jon Kleinberg , and \u00c9va Tardos . Maximizing the spread of influence through a social network. In Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD \u201903, page 137\u2013146, New York, NY, USA, 2003. Association for Computing Machinery.",
+        "DOI": "10.1145/956750.956769"
+      },
+      {
+        "issue": "772",
+        "key": "2021030308450589000_2021.02.24.21252390v1.75",
+        "doi-asserted-by": "crossref",
+        "first-page": "700",
+        "DOI": "10.1098/rspa.1927.0118",
+        "article-title": "A contribution to the mathematical theory of epidemics",
+        "volume": "115",
+        "year": "1927",
+        "journal-title": "Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.76",
+        "unstructured": "Elias Khalil , Bistra Dilkina , and Le Song . Cuttingedge: influence minimization in networks. In Proceedings of Workshop on Frontiers of Network Analysis: Methods, Models, and Applications at NIPS, 2013."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.77",
+        "unstructured": "Elias B. Khalil , Bistra Dilkina , and Le Song . Cuttingedge: Influence minimization in networks. In Workshop on Frontiers of Network Analysis: Methods, Models, and Applications at NIPS, 2013."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.78",
+        "unstructured": "D. Koller and N. Friedman . Probabilistic Graphical Models. Massachusetts: MIT Press, 2009."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.79",
+        "unstructured": "Vladimir Kolmogorov and Martin J. Wainwright . On the optimality of tree-reweighted max-product messagepassing. In Proceedings of the Twenty-First Conference on Uncertainty in Artificial Intelligence, UAI\u201905, page 316\u2013323, Arlington, Virginia, USA, 2005. AUAI Press."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chaos.2020.110059"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.amepre.2009.11.009"
+      },
+      {
+        "issue": "1",
+        "key": "2021030308450589000_2021.02.24.21252390v1.82",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1080/10618600.2014.900500",
+        "article-title": "Learning the Structure of Mixed Graphical Models",
+        "volume": "24",
+        "year": "2015",
+        "journal-title": "Journal of computational and graphical statistics : a joint publication of American Statistical Association, Institute of Mathematical Statistics, Interface Foundation of North America"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.83",
+        "year": "2018",
+        "journal-title": "Inference and sampling of k33-free Ising models"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.84",
+        "year": "2019",
+        "journal-title": "A new family of tractable Ising models"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.85",
+        "year": "2019",
+        "journal-title": "Tractable minor-free generalization of planar zero-field Ising models"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.86",
+        "unstructured": "Qiang Liu and A. Ihler . Bounding the partition function using holder\u2019s inequality. In ICML, 2011."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A.Y. Lokhov , M. Vuffray , S. Misra , and M. Chertkov . Optimal structure and parameter learning of ising models. Science Advances, 4(3), 2018.",
+        "DOI": "10.1126/sciadv.1700791"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1115717"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.89",
+        "unstructured": "Gina Lovasi and et.al. Population health methods: Agent based modeling, 2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maimuna Majumder and Kenneth D. Mandl . Early transmissibility assessment of a novel coronavirus in wuhan, china (january 26, 2020). In SSRN.",
+        "DOI": "10.2139/ssrn.3524675"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.91",
+        "first-page": "2031",
+        "article-title": "Walk-sums and belief propagation in gaussian graphical models",
+        "volume": "7",
+        "year": "2006",
+        "journal-title": "J. Mach. Learn. Res"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.92",
+        "unstructured": "Sergei Maslov and Nigel Goldenfeld . Flattening the curve fails unless done very early: results from a simulation of icu capacity in chicago, 2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.93",
+        "article-title": "Redistricting and the will of the people",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jep.13459"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Merow and M. C. Urban . Seasonality and uncertainty in global covid-19 growth rates. Proceedings of the National Academy of Sciences, 2020.",
+        "DOI": "10.1101/2020.04.19.20071951"
+      },
+      {
+        "issue": "2",
+        "key": "2021030308450589000_2021.02.24.21252390v1.96",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/0925-7721(95)00006-U",
+        "article-title": "Separation and approximation of polyhedral objects",
+        "volume": "5",
+        "year": "1995",
+        "journal-title": "Computational Geometry"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.97",
+        "unstructured": "K. Murphy . Machine Learning: A Probabilistic Perspective. Massachusetts: MIT Press, 2011."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.98",
+        "unstructured": "Mukund Narasimhan and Jeff Bilmes . A submodular-supermodular procedure with applications to discriminative structure learning. In Proceedings of the Twenty-First Conference on Uncertainty in Artificial Intelligence, UAI\u201905, page 404\u2013412. AUAI Press, 2005."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.99",
+        "unstructured": "Radford M. Neal . Probabilistic inference using markov chain monte carlo methods. Technical report, 1993."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Praneeth Netrapalli and Sujay Sanghavi . Learning the graph of epidemic cascades. In Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE Joint International Conference on Measurement and Modeling of Computer Systems, SIGMETRICS \u201812, page 211\u2013222, New York, NY, USA, 2012. Association for Computing Machinery.",
+        "DOI": "10.1145/2254756.2254783"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.101",
+        "unstructured": "Even the coauthor CNP Slagle and his immediate family have suffered greatly from the illness."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.102",
+        "unstructured": "This data has recently been used by the Centers for Disease Control and Prevention to gather information on the degree to which social distancing has been predictive in the United States following the COVID-19 outbreak [2]. Notice also, that analyses by SafeGraph show that their sample correlates very highly with the true Census populations [0.97 across U.S. counties] and with the proportion of the population across educational attainment and income levels [correlation of 0.99]. See: [12]."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.103",
+        "unstructured": "OpenStreetMap contributors. Planet dump retrieved from https://planet.osm.org, 2017."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1377/hlthaff.2020.02054"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.105",
+        "unstructured": "Georgios Papachristoudis and John W. Fisher . Adaptive belief propagation. In Proceedings of ICML, 2015."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.106",
+        "unstructured": "Tomas Pueyo. Coronavirus: The hammer and the dance. https://tomaspueyo.medium.com/coronavirus-the-hammer-and-the-dance-be9337092b56."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.107",
+        "unstructured": "Robert C. Reiner , Ryan M. Barber , James K. Collins , Peng Zheng , Christopher Adolph , James Albright , Catherine M. Antony , Aleksandr Y. Aravkin , Steven D. Bachmeier , Bree Bang-Jensen , Marlena S. Bannick , Sabina Bloom , Austin Carter , Emma Castro , Kate Causey , Suman Chakrabarti , Fiona J. Charlson , Rebecca M. Cogen , Emily Combs , Xiaochen Dai , William James Dangel , Lucas Earl , Samuel B. Ewald , Maha Ezalarab , Alize J. Ferrari , Abraham Flaxman , Joseph Jon Frostad , Nancy Fullman , Emmanuela Gakidou , John Gallagher , Scott D. Glenn , Erik A. Goosmann , Jiawei He , Nathaniel J. Henry , Erin N. Hulland , Benjamin Hurst , Casey Johanns , Parkes J. Kendrick , Apurva Khemani , Samantha Leigh Larson , Alice Lazzar-Atwood , Kate E. LeGrand , Haley Lescinsky , Akiaja Lindstrom , Emily Linebarger , Rafael Lozano , Rui Ma , Johan M\u00e5nsson , Beatrice Magistro , Ana M. Mantilla Herrera , Laurie B. Marczak , Molly K. Miller-Petrie , Ali H. Mokdad , Julia Deryn Morgan , Paulami Naik , Christopher M. Odell , James K. O\u2019Halloran , Aaron E. Osgood-Zimmerman , Samuel M. Ostroff , Maja Pasovic , Louise Penberthy , Geoffrey Phipps , David M. Pigott , Ian Pollock , Rebecca E. Ramshaw , Sofia Boston Redford , Grace Reinke , Sam Rolfe , Damian Francesco Santomauro , John R. Shackleton , David H. Shaw , Brittney S. Sheena , Aleksei Sholokhov , Reed J. D. Sorensen , Gianna Sparks , Emma Elizabeth Spurlock , Michelle L. Subart , Ruri Syailendrawati , Anna E. Torre , Christopher E. Troeger , Theo Vos , Alexandrea Watson , Stefanie Watson , Kirsten E. Wiens , Lauren Woyczynski , Liming Xu , Jize Zhang , Simon I. Hay , Stephen S. Lim , Christopher J. L. Murray , and IHME COVID-19 Forecasting Team. Modeling COVID-19 scenarios for the United States. Nature Medicine, October 2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.108",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nir Rosenfeld , Mor Nitzan , and Amir Globerson . Discriminative learning of infection models. In Proceedings of the Ninth ACM International Conference on Web Search and Data Mining, WSDM \u201916, page 563\u2013572, New York, NY, USA, 2016. Association for Computing Machinery.",
+        "DOI": "10.1145/2835776.2835802"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.109",
+        "unstructured": "R. Ross . The Prevention of Malaria. John Murray, London, 1910."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.110",
+        "first-page": "113",
+        "article-title": "Syntatic analysis of two-dimensional visual signals in noisy conditions",
+        "volume": "4",
+        "year": "1976",
+        "journal-title": "Kibernetika [in Russian]"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-0389-z"
+      },
+      {
+        "issue": "2",
+        "key": "2021030308450589000_2021.02.24.21252390v1.112",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.18564/jasss.4298",
+        "article-title": "Computational models that matter during a global pandemic outbreak: A call to action",
+        "volume": "23",
+        "year": "2020",
+        "journal-title": "Journal of Artificial Societies and Social Simulation"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.113",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Devi Sridhar and Maimuna S Majumder . Modelling the pandemic. BMJ, 369, 2020.",
+        "DOI": "10.1136/bmj.m1567"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.114",
+        "unstructured": "M. Vuffray , S. Misra , A. Lokhov , and M. Chertkov . Interaction Screening: Efficient and Sample-Optimal Learning of Ising Models. In D. D. Lee , M. Sugiyama , U. V. Luxburg , I. Guyon , and R. Garnett , editors, Advances in Neural Information Processing Systems 29, pages 2595\u20132603. Curran Associates, Inc., 2016."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Philip V\u2019kovski , Annika Kratzel , Silvio Steiner , Hanspeter Stalder , and Volker Thiel . Coronavirus biology and replication: implications for SARS-CoV-2. Nature Reviews Microbiology, October 2020.",
+        "DOI": "10.1038/s41579-020-00468-6"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000001"
+      },
+      {
+        "issue": "1",
+        "key": "2021030308450589000_2021.02.24.21252390v1.117",
+        "doi-asserted-by": "crossref",
+        "first-page": "5006",
+        "DOI": "10.1038/s41467-020-18836-4",
+        "article-title": "Inference of person-to-person transmission of COVID-19 reveals hidden super-spreading events during the early outbreak phase",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.118",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xinjue Wang , Ke Deng , Jianxin Li , Jeffery Xu Yu , Christian S Jensen , and Xiaochun Yang . Efficient targeted influence minimization in big social networks. World Wide Web, pages 1\u201318, 2020.",
+        "DOI": "10.1007/s11280-019-00748-z"
+      },
+      {
+        "issue": "7",
+        "key": "2021030308450589000_2021.02.24.21252390v1.119",
+        "doi-asserted-by": "crossref",
+        "first-page": "1165",
+        "DOI": "10.1109/TPAMI.2007.1036",
+        "article-title": "A linear programming approach to max-sum problem: A review",
+        "volume": "29",
+        "year": "2007",
+        "journal-title": "Pattern Analysis and Machine Intelligence, IEEE Transactions on"
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.120",
+        "unstructured": "Wikipedia. Agent Based Models, 2020."
+      },
+      {
+        "key": "2021030308450589000_2021.02.24.21252390v1.121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2005.850085"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.24.21252390",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:08:30Z",
+      "timestamp": 1768486110000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.02.24.21252390"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 121,
+    "URL": "https://doi.org/10.1101/2021.02.24.21252390",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

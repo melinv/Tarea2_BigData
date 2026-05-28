@@ -1,0 +1,721 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2026-02-27T01:39:37Z",
+      "timestamp": 1772156377096,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          6
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 68,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Bulk RNA sequencing (RNA-seq) of blood is typically used for gene expression analysis in biomedical research but is still rarely used in clinical practice. In this study, we argue that RNA-seq should be considered a routine diagnostic tool, as it offers not only insights into aberrant gene expression and splicing but also delivers additional readouts on immune cell type composition as well as B-cell and T-cell receptor (BCR/TCR) repertoires. We demonstrate that RNA-seq offers vital insights into a patient\u2019s immune status via integrative analysis of RNA-seq data from patients infected with various SARS-CoV-2 variants (in total 240 samples with up to 200 million reads sequencing depth). We compare the results of computational cell-type deconvolution methods (e.g., MCP-counter, xCell, EPIC, quanTIseq) to complete blood count data, the current gold standard in clinical practice. We observe varying levels of lymphocyte depletion and significant differences in neutrophil levels between SARS-CoV-2 variants. Additionally, we identify B and T cell receptor (BCR/TCR) sequences using the tools MiXCR and TRUST4 to show that - combined with sequence alignments and pBLAST - they could be used to classify a patient\u2019s disease. Finally, we investigated the sequencing depth required for such analyses and concluded that 10 million reads per sample is sufficient. In conclusion, our study reveals that computational cell-type deconvolution and BCR/TCR methods using bulk RNA-seq analyses can supplement missing CBC data and offer insights into immune responses, disease severity, and pathogen-specific immunity, all achievable with a sequencing depth of 10 million reads per sample.</jats:p>\n                <jats:sec>\n                  <jats:title>Key Points</jats:title>\n                  <jats:list list-type=\"order\">\n                    <jats:list-item>\n                      <jats:p>Computational deconvolution of transcriptomes can estimate immune cell abundances in SARS-CoV-2 patients, supplementing missing CBC data.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>10 million RNA sequencing reads per sample suffice for analyzing immune responses and disease severity, including BCR/TCR identification.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2023.11.03.564190",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2023-11-07T00:35:18Z",
+      "timestamp": 1699317318000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Blood transcriptomics analysis offers insights into variant-specific immune response to SARS-CoV-2"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1920-288X",
+        "authenticated-orcid": false,
+        "given": "Markus",
+        "family": "Hoffmann",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0335-4918",
+        "authenticated-orcid": false,
+        "given": "Lina-Liv",
+        "family": "Willruth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8661-0453",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Dietrich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7785-5942",
+        "authenticated-orcid": false,
+        "given": "Hye Kyung",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8280-8991",
+        "authenticated-orcid": false,
+        "given": "Ludwig",
+        "family": "Knabl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4639-0935",
+        "authenticated-orcid": false,
+        "given": "Nico",
+        "family": "Trummer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0282-0462",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Baumbach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3883-0715",
+        "authenticated-orcid": false,
+        "given": "Priscilla A.",
+        "family": "Furth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8319-9841",
+        "authenticated-orcid": false,
+        "given": "Lothar",
+        "family": "Hennighausen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0941-4168",
+        "authenticated-orcid": false,
+        "given": "Markus",
+        "family": "List",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1357",
+        "DOI": "10.1038/s41598-023-28156-4",
+        "article-title": "Hepatitis C and HIV detection by blood RNA-sequencing in cohort of smokers",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0261679"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1839",
+        "DOI": "10.3389/fimmu.2017.01839",
+        "article-title": "Transcriptomics in Human Challenge Models",
+        "volume": "8",
+        "year": "2017",
+        "journal-title": "Front. Immunol"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Supplitt S , Karpinski P , Sasiadek M , Laczmanska I. Current Achievements and Applications of Transcriptomics in Personalized Cancer Medicine. Int. J. Mol. Sci. 2021;22(3.):",
+        "DOI": "10.3390/ijms22031422"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4065/80.7.923"
+      },
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.4997/JRCPE.2014.109",
+        "article-title": "Interpretation of the full blood count in systemic disease--a guide for the physician",
+        "volume": "44",
+        "year": "2014",
+        "journal-title": "J. R. Coll. Physicians Edinb"
+      },
+      {
+        "issue": "4",
+        "key": "2023111007050876000_2023.11.03.564190v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0215987",
+        "DOI": "10.1371/journal.pone.0215987",
+        "article-title": "Insights from deconvolution of cell subtype proportions enhance the interpretation of functional genomic data",
+        "volume": "14",
+        "year": "2019",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1016/j.ejca.2021.03.005",
+        "article-title": "Applications of single-cell and bulk RNA sequencing in onco-immunology",
+        "volume": "149",
+        "year": "2021",
+        "journal-title": "Eur. J. Cancer"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11060-022-04047-y"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1515/tnsci-2018-0024",
+        "article-title": "Analysis of Early Stroke-induced Changes in Circulating Leukocyte Counts using Transcriptomic Deconvolution",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Transl. Neurosci"
+      },
+      {
+        "issue": "6",
+        "key": "2023111007050876000_2023.11.03.564190v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e100934",
+        "DOI": "10.1371/journal.pone.0100934",
+        "article-title": "Deconvolution of the gene expression profiles of valuable banked blood specimens for studying the prognostic values of altered peripheral immune cell proportions in cancer patients",
+        "volume": "9",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1186/s13075-023-03089-5",
+        "article-title": "Deconvolution of whole blood transcriptomics identifies changes in immune cell composition in patients with systemic lupus erythematosus (SLE) treated with mycophenolate mofetil",
+        "volume": "25",
+        "year": "2023",
+        "journal-title": "Arthritis Res. Ther"
+      },
+      {
+        "issue": "6",
+        "key": "2023111007050876000_2023.11.03.564190v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1016/j.celrep.2019.01.041",
+        "article-title": "RNA-Seq Signatures Normalized by mRNA Abundance Allow Absolute Deconvolution of Human Immune Cell Types",
+        "volume": "26",
+        "year": "2019",
+        "journal-title": "Cell Rep"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02107-4"
+      },
+      {
+        "issue": "D1",
+        "key": "2023111007050876000_2023.11.03.564190v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "D129",
+        "DOI": "10.1093/nar/gkab1030",
+        "article-title": "Expression Atlas update: gene and protein expression in multiple species",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2019.00317"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-016-1070-5"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.18"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Racle J , de Jonge K , Baumgaertner P , Speiser DE , Gfeller D. Simultaneous enumeration of cancer and immune cell types from bulk tumor gene expression data. Elife. 2017;6.:",
+        "DOI": "10.7554/eLife.26476"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Finotello F , Mayer C , Plattner C , et al. Molecular and pharmacological modulators of the tumor immune contexture revealed by deconvolution of RNA-seq data. Genome Medicine. 2019;11(1.):",
+        "DOI": "10.1186/s13073-019-0638-6"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00262-018-2150-z"
+      },
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2784",
+        "DOI": "10.1038/s41598-022-06752-0",
+        "article-title": "Immune transcriptome analysis of COVID-19 patients infected with SARS-CoV-2 variants carrying the E484K escape mutation identifies a distinct gene module",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4243",
+        "DOI": "10.1038/s41598-021-83110-6",
+        "article-title": "Immune transcriptomes of highly exposed SARS-CoV-2 asymptomatic seropositive versus seronegative individuals from the Ischgl community",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "916686",
+        "DOI": "10.3389/fimmu.2022.916686",
+        "article-title": "Prior Vaccination Exceeds Prior Infection in Eliciting Innate and Humoral Immune Responses in Omicron Infected Outpatients",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Front. Immunol"
+      },
+      {
+        "issue": "11",
+        "key": "2023111007050876000_2023.11.03.564190v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "105369",
+        "DOI": "10.1016/j.isci.2022.105369",
+        "article-title": "Limited cross-variant immune response from SARS-CoV-2 Omicron BA.2 in na\u00efve but not previously infected outpatients",
+        "volume": "25",
+        "year": "2022",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0439-x"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.27",
+        "unstructured": "Babraham Bioinformatics - FastQC A Quality Control tool for High Throughput Sequence Data."
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btw354"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.29",
+        "first-page": "2122",
+        "article-title": "A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor",
+        "volume": "5",
+        "year": "2016",
+        "journal-title": "F1000Res"
+      },
+      {
+        "issue": "3",
+        "key": "2023111007050876000_2023.11.03.564190v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e05533",
+        "DOI": "10.1002/ccr3.5533",
+        "article-title": "Myelodysplastic syndrome in a case of new-onset pancytopenia",
+        "volume": "10",
+        "year": "2022",
+        "journal-title": "Clin. Case Rep"
+      },
+      {
+        "issue": "9",
+        "key": "2023111007050876000_2023.11.03.564190v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0239495",
+        "DOI": "10.1371/journal.pone.0239495",
+        "article-title": "Sources of variation in cell-type RNA-Seq profiles",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz363"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.3364"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01142-2"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz845"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkn838"
+      },
+      {
+        "issue": "8",
+        "key": "2023111007050876000_2023.11.03.564190v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1450",
+        "DOI": "10.1002/2211-5463.12690",
+        "article-title": "Comparative analysis of CDR3 regions in paired human \u03b1\u03b2 CD8 T cells",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "FEBS Open Bio"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.38",
+        "unstructured": "Scirpy: A Scanpy extension for analyzing single-cell T-cell receptor sequencing data."
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/22.22.4673"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.89.22.10915"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.41",
+        "unstructured": "igraph \u2013 Network analysis software."
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bodenhofer U , Bonatesta E , Horej\u0161-Kainrath C , Hochreiter S. msa: an R package for multiple sequence alignment. Bioinformatics. 2015;btv494.",
+        "DOI": "10.1093/bioinformatics/btv494"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx469"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.44",
+        "unstructured": "Protein BLAST: search protein databases using a protein query."
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkn201"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danecek P , Bonfield JK , Liddle J , et al. Twelve years of SAMtools and BCFtools. Gigascience. 2021;10(2.):",
+        "DOI": "10.1093/gigascience/giab008"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.4197"
+      },
+      {
+        "issue": "3",
+        "key": "2023111007050876000_2023.11.03.564190v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1093/infdis/jiac411",
+        "article-title": "Alpha to Omicron: Disease Severity and Clinical Outcomes of Major SARS-CoV-2 Variants",
+        "volume": "227",
+        "year": "2023",
+        "journal-title": "J. Infect. Dis"
+      },
+      {
+        "issue": "11",
+        "key": "2023111007050876000_2023.11.03.564190v1.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1443",
+        "DOI": "10.1111/jcmm.17747",
+        "article-title": "Severity of the Omicron SARS-CoV-2 variant compared with the previous lineages: A systematic review",
+        "volume": "27",
+        "year": "2023",
+        "journal-title": "J. Cell. Mol. Med"
+      },
+      {
+        "issue": "3",
+        "key": "2023111007050876000_2023.11.03.564190v1.50",
+        "first-page": "162",
+        "article-title": "SARS-CoV-2 variant biology: immune escape, transmission and fitness",
+        "volume": "21",
+        "year": "2023",
+        "journal-title": "Nat. Rev. Microbiol"
+      },
+      {
+        "issue": "7896",
+        "key": "2023111007050876000_2023.11.03.564190v1.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1038/s41586-021-04245-0",
+        "article-title": "The N501Y spike substitution enhances SARS-CoV-2 infection and transmission",
+        "volume": "602",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.52",
+        "unstructured": "Pontelli MC , Castro \u00edA, Martins RB , et al. SARS-CoV-2 productively infects primary human immune system cells in vitro and in COVID-19 patients. J. Mol. Cell Biol. 2022;14(4.):"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Merotto L , Zopoglou M , Zackl C , Finotello F. Next-generation deconvolution of transcriptomic data to investigate the tumor microenvironment. International Review of Cell and Molecular Biology. 2023;",
+        "DOI": "10.1016/bs.ircmb.2023.05.002"
+      },
+      {
+        "issue": "10",
+        "key": "2023111007050876000_2023.11.03.564190v1.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "105002",
+        "DOI": "10.1016/j.isci.2022.105002",
+        "article-title": "B-cell receptor repertoire sequencing: Deeper digging into the mechanisms and clinical aspects of immune-mediated diseases",
+        "volume": "25",
+        "year": "2022",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pogorelyy MV , Minervina AA , Chudakov DM , et al. Method for identification of condition-associated public antigen receptor sequences. Elife. 2018;7.:",
+        "DOI": "10.7554/eLife.33050"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.56",
+        "unstructured": "Hayden EC . Technology: The $1,000 genome. Nature Publishing Group UK. 2014;"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.add4867"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmicb.2017.00108"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3000867"
+      },
+      {
+        "issue": "10",
+        "key": "2023111007050876000_2023.11.03.564190v1.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1299",
+        "DOI": "10.1038/s41564-020-0761-6",
+        "article-title": "Analytical sensitivity and efficiency comparisons of SARS-CoV-2 RT-qPCR primer-probe sets",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "8067",
+        "DOI": "10.1038/s41598-023-34384-5",
+        "article-title": "Revealing the immune cell subtype reconstitution profile in patients from the CLARITY study using deconvolution algorithms after cladribine tablets treatment",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi W , Li T , Li H , et al. Bioinformatics approach to identify the hub gene associated with COVID-19 and idiopathic pulmonary fibrosis. IET Syst. Biol. 2023;",
+        "DOI": "10.1049/syb2.12080"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaid A , Sawant A , Suarez-Farinas M , et al. Implications of the Use of Artificial Intelligence Predictive Models in Health Care Settings : A Simulation Study. Ann. Intern. Med. 2023;",
+        "DOI": "10.7326/M23-0949"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robinson ML , Garibaldi BT , Lindquist MA . When Clinical Prediction Is Steering the Ship, Beware the Drift of Its Wake. Ann. Intern. Med. 2023;",
+        "DOI": "10.7326/M23-2345"
+      },
+      {
+        "issue": "1",
+        "key": "2023111007050876000_2023.11.03.564190v1.65",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.1186/s13613-021-00820-w",
+        "article-title": "Intensive care management of patients with COVID-19: a practical approach",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Ann. Intensive Care"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-022-01019-9"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv717"
+      },
+      {
+        "key": "2023111007050876000_2023.11.03.564190v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-11049-4"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.03.564190",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:29:29Z",
+      "timestamp": 1768454969000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.11.03.564190"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          6
+        ]
+      ]
+    },
+    "references-count": 68,
+    "URL": "https://doi.org/10.1101/2023.11.03.564190",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41598-024-53117-w",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.1162/2e3983f5.69dce788",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1162/2e3983f5.9451e00f",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1162/2e3983f5.a8aa59c3",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

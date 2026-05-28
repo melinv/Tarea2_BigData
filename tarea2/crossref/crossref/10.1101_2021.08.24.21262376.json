@@ -1,0 +1,522 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:15:55Z",
+      "timestamp": 1768554955278,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          31
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Uncertainty in patients\u2019 COVID-19 status contributes to treatment delays, nosocomial transmission, and operational pressures in hospitals. However, typical turnaround times for batch-processed laboratory PCR tests remain 12-24h. Although rapid antigen lateral flow testing (LFD) has been widely adopted in UK emergency care settings, sensitivity is limited. We recently demonstrated that AI-driven triage (CURIAL-1.0) allows high-throughput COVID-19 screening using clinical data routinely available within 1h of arrival to hospital. Here we aimed to determine operational and safety improvements over standard-care, performing external/prospective evaluation across four NHS trusts with updated algorithms optimised for generalisability and speed, and deploying a novel lab-free screening pathway in a UK emergency department.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We rationalised predictors in CURIAL-1.0 to optimise separately for generalisability and speed, developing CURIAL-Lab with vital signs and routine laboratory blood predictors (FBC, U&amp;E, LFT, CRP) and CURIAL-Rapide with vital signs and FBC alone. Models were calibrated during training to 90% sensitivity and validated externally for unscheduled admissions to Portsmouth University Hospitals, University Hospitals Birmingham and Bedfordshire Hospitals NHS trusts, and prospectively during the second-wave of the UK COVID-19 epidemic at Oxford University Hospitals (OUH). Predictions were generated using first-performed blood tests and vital signs and compared against confirmatory viral nucleic acid testing. Next, we retrospectively evaluated a novel clinical pathway triaging patients to COVID-19-suspected clinical areas where either model prediction or LFD results were positive, comparing sensitivity and NPV with LFD results alone. Lastly, we deployed CURIAL-Rapide alongside an approved point-of-care FBC analyser (OLO; SightDiagnostics, Israel) to provide lab-free COVID-19 screening in the John Radcliffe Hospital\u2019s Emergency Department (Oxford, UK), as trust-approved service improvement. Our primary improvement outcome was time-to-result availability; secondary outcomes were sensitivity, specificity, PPV, and NPV assessed against a PCR reference standard. We compared CURIAL-Rapide\u2019s performance with clinician triage and LFD results within standard-care.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>72,223 patients met eligibility criteria across external and prospective validation sites. Model performance was consistent across trusts (CURIAL-Lab: AUROCs range 0.858-0.881; CURIAL-Rapide 0.836-0.854), with highest sensitivity achieved at Portsmouth University Hospitals (CURIAL-Lab:84.1% [95% Wilson\u2019s score CIs 82.5-85.7]; CURIAL-Rapide:83.5% [81.8 - 85.1]) at specificities of 71.3% (95% Wilson\u2019s score CIs: 70.9 - 71.8) and 63.6% (63.1 - 64.1). For 3,207 patients receiving LFD-triage within routine care for OUH admissions between December 23, 2021 and March 6, 2021, a combined clinical pathway increased sensitivity from 56.9% for LFDs alone (95% CI 51.7-62.0) to 88.2% with CURIAL-Rapide (84.4-91.1; AUROC 0.919) and 85.6% with CURIAL-Lab (81.6-88.9; AUROC 0.925). 520 patients were prospectively enrolled for point-of-care FBC analysis between February 18, 2021 and May 10, 2021, of whom 436 received confirmatory PCR testing within routine care and 10 (2.3%) tested positive. Median time from patient arrival to availability of CURIAL-Rapide result was 45:00 min (32-64), 16 minutes (26.3%) sooner than LFD results (61:00 min, 37-99; log-rank p&lt;0.0001), and 6:52 h (90.2%) sooner than PCR results (7:37 h, 6:05-15:39; p&lt;0.0001). Sensitivity and specificity of CURIAL-Rapide were 87.5% (52.9-97.8) and 85.4% (81.3-88.7), therefore achieving high NPV (99.7%, 98.2-99.9). CURIAL-Rapide correctly excluded COVID-19 for 58.5% of negative patients who were triaged by a clinician to \u2018COVID-19-suspected\u2019 (amber) areas.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Impact</jats:title>\n                  <jats:p>CURIAL-Lab &amp; CURIAL-Rapide are generalisable, high-throughput screening tests for COVID-19, rapidly excluding the illness with higher NPV than LFDs. CURIAL-Rapide can be used in combination with near-patient FBC analysis for rapid, lab-free screening, and may reduce the number of COVID-19-negative patients triaged to enhanced precautions (\u2018amber\u2019) clinical areas.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.08.24.21262376",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          31
+        ]
+      ],
+      "date-time": "2021-08-31T13:54:35Z",
+      "timestamp": 1630418075000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Real-world evaluation of AI-driven COVID-19 triage for emergency admissions: External validation &amp; operational assessment of lab-free and high-throughput screening solutions"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Andrew A. S.",
+        "family": "Soltan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jenny",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ravi",
+        "family": "Pattanshetty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5880-8235",
+        "authenticated-orcid": false,
+        "given": "Alex",
+        "family": "Novak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Omid",
+        "family": "Rohanian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0988-3458",
+        "authenticated-orcid": false,
+        "given": "Sally",
+        "family": "Beer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6015-9409",
+        "authenticated-orcid": false,
+        "given": "Marina A.",
+        "family": "Soltan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5456-6080",
+        "authenticated-orcid": false,
+        "given": "David R.",
+        "family": "Thickett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rory",
+        "family": "Fairhead",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "CURIAL Translational Collaborative",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1552-5630",
+        "authenticated-orcid": false,
+        "given": "Tingting",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5095-6367",
+        "authenticated-orcid": false,
+        "given": "David W.",
+        "family": "Eyre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.1",
+        "unstructured": "The Guardian UK. 40,600 people likely caught Covid while hospital inpatients in England. The Guardian https://www.theguardian.com/world/2021/may/24/up-to-8700-patients-died-after-catching-covid-in-english-hospitals (2021)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "100109",
+        "DOI": "10.1016/j.lanepe.2021.100109",
+        "article-title": "Factors associated with deaths due to COVID-19 versus other causes: population-based cohort analysis of UK primary care data and linked national death registrations within the OpenSAFELY platform",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "The Lancet Regional Health - Europe"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/SO140-6736(20)30566-3"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.4",
+        "unstructured": "UK National Medical Director, Chief Nursing Officer for England, Chief People Officer & National Director for Emergency and Elective Care. Letter: Healthcare associated COVID-19 infections \u2013 further action. NHS England and NHS Improvement."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clift, A. K. et al. Living risk prediction algorithm (QCOVID) for risk of hospital admission and mortality from coronavirus 19 in adults: national derivation and validation cohort study. The BMJ 371, (2020).",
+        "DOI": "10.1136/bmj.m3731"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wikramaratna, P. S. , Paton, R. S. , Ghafari, M. & Louren\u00e7o, J. Estimating the false-negative test probability of SARSCoV-2 by RT-PCR. Eurosurveillance 25, (2020).",
+        "DOI": "10.2807/1560-7917.ES.2020.25.50.2000568"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/m20-1495"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.8",
+        "unstructured": "UK Government. COVID-19: investigation and initial clinical management of possible cases. https://www.gov.uk/government/publications/wuhan-novel-coronavirus-initial-investigation-of-possible-cases/investigation-and-initial-clinical-management-of-possible-cases-of-wuhan-novel-coronavirus-wn-cov-infection#criteria (2020)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Assennato, S. M. et al. Performance evaluation of the SAMBA II SARS-CoV-2 test for point-of-care detection of SARS-CoV-2. Journal of Clinical Microbiology 59, (2021).",
+        "DOI": "10.1128/JCM.01262-20"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2021.02.025"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.11",
+        "unstructured": "University Hospitals Birmingham NHS Foundation Trust. Pathway for processing urgent COVID-19 samples. https://www.uhb.nhs.uk/coronavirus-staff/pathway-for-processing-urgent-covid-19-samples.htm (2020)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.12",
+        "unstructured": "Portsmouth University Hospitals NHS Trust. Trust Standard Operating Procedure COVID-19 Testing. (2020)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2021.01.008"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.14",
+        "unstructured": "Wolf, A. , Hulmes, J. & Hopkins, S. Lateral flow device specificity in phase 4 (post marketing) surveillance. https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/UK%20evaluation_PHE%20Porton%20Down%20%2 (2021)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.15",
+        "unstructured": "Public Health England and University of Oxford SARS-CoV-2 Test Development and Validation Cell. Rapid evaluation of Lateral Flow Viral Antigen detection devices (LFDs) for mass community testing. https://www.gov.uk/government/publications/assessment-and-procurement-of-coronavirus-covid-19-."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m4744"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m4268"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Iacobucci, G. Covid-19: MHRA is concerned over use of rapid lateral flow devices for mass testing. BMJ 373, (2021).",
+        "DOI": "10.1136/bmj.n1090"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Iacobucci, G. Covid-19: US regulator raises significant concerns over safety of rapid lateral flow tests. BMJ 373, (2021).",
+        "DOI": "10.1136/bmj.n1514"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e78",
+        "DOI": "10.1016/S2589-7500(20)30274-0",
+        "article-title": "Rapid triage for COVID-19 using routine clinical data for patients attending hospital: development and prospective validation of an artificial intelligence screening test",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.05.11.21256877"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2052",
+        "DOI": "10.1001/jama.2020.6775",
+        "article-title": "Presenting Characteristics, Comorbidities, and Outcomes among 5700 Patients Hospitalized with COVID-19 in the New York City Area",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA - Journal of the American Medical Association"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1224",
+        "DOI": "10.1038/s41591-020-0931-3",
+        "article-title": "Artificial intelligence\u2013enabled rapid diagnosis of patients with COVID-19",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.07.07.20148361"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e286",
+        "DOI": "10.1016/S2589-7500(21)00039-X",
+        "article-title": "Prognostication of patients with COVID-19 using artificial intelligence based on chest x-rays and clinical data: a retrospective study",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1109/OJEMB.2020.3026928",
+        "article-title": "COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "IEEE Open Journal of Engineering in Medicine and Biology"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1038/s42256-021-00307-0",
+        "article-title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.28",
+        "unstructured": "Wynants, L. et al. Prediction models for diagnosis and prognosis of covid-19: Systematic review and critical appraisal. The BMJ 369, (2020)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "e225",
+        "DOI": "10.1016/S2589-7500(20)30079-0",
+        "article-title": "Cautions about radiologic diagnosis of COVID-19 infection driven by artificial intelligence",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1",
+        "DOI": "10.1016/S2589-7500(20)30295-8",
+        "article-title": "Artificial intelligence for COVID-19: saviour or saboteur?",
+        "volume": "3",
+        "author": "The Lancet Digital Health",
+        "year": "2021",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.04.27.21255770"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.32",
+        "unstructured": "UK Government. Over half of UK adults vaccinated with second dose. https://www.gov.uk/government/news/over-half-of-uk-adults-vaccinated-with-second-dose (2021)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.33",
+        "unstructured": "Newcombe, R. G. & Altman, D. G. Proportions and their differences, in Statisics with Confidence: Confidence intervals and statisctical guidelines, 2nd Ed. (BMJ Books, 2000)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1389",
+        "DOI": "10.1109/LSP.2014.2337313",
+        "article-title": "Fast implementation of DeLong\u2019s algorithm for comparing the areas under correlated receiver operating characteristic curves",
+        "volume": "21",
+        "year": "2014",
+        "journal-title": "IEEE Signal Processing Letters"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1553-2712.1996.tb03538.x"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.36",
+        "unstructured": "Arifin, W. N. Sample size calculator. https://wnarifin.github.io/ssc/sssnsp.html https://wnarifin.github.io/ssc/sssnsp.html (2021)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "120",
+        "DOI": "10.1016/j.jmii.2020.05.006",
+        "article-title": "Effective strategies to prevent in-hospital infection in the emergency department during the novel coronavirus disease 2019 pandemic",
+        "volume": "54",
+        "year": "2021",
+        "journal-title": "Journal of Microbiology, Immunology and Infection"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.38",
+        "unstructured": "University Hospitals Plymouth NHS Trust. Ward and Department -Coronavirus Infectious Disease-19 Zone Status. (2020)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1425",
+        "DOI": "10.1016/S0140-6736(21)00425-6",
+        "article-title": "Clarifying the evidence on SARS-CoV-2 antigen rapid tests in public health responses to COVID-19",
+        "volume": "397",
+        "year": "2021",
+        "journal-title": "Lancet (London, England)"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Kampen, J. J. A. et al. Duration and key determinants of infectious virus shedding in hospitalized patients with coronavirus disease-2019 (COVID-19). Nature Communications 12, (2021).",
+        "DOI": "10.1038/s41467-020-20568-4"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dinnes, J. et al. Rapid, point-of-care antigen and molecular-based tests for diagnosis of SARS-CoV-2 infection. Cochrane Database of Systematic Reviews vol. 2021 (2021).",
+        "DOI": "10.1002/14651858.CD013705.pub2"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.42",
+        "unstructured": "Office for National Statistics (UK). Coronavirus (COVID-19) Infection Survey, UK: 21 May 2021. https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/bulletins/coronaviruscovid19infectionsurveypilot/21may2021 (2021)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.43",
+        "unstructured": "Islam, N. et al. Thoracic imaging tests for the diagnosis of COVID-19. Cochrane Database of Systematic Reviews vol. 2021 (2021)."
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, T. & Guestrin, C. XGBoost: A scalable tree boosting system. n Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining vols. 13-17-August-2016 785\u2013794 (Association for Computing Machinery, 2016).",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Collier, D. A. et al. Point of Care Nucleic Acid Testing for SARS-CoV-2 in Hospitalized Patients: A Clinical Validation Trial and Implementation Study. Cell Reports Medicine 1, (2020).",
+        "DOI": "10.1101/2020.05.31.20114520"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bossuyt, P. M. et al. STARD 2015: An updated list of essential items for reporting diagnostic accuracy studies. The BMJ 351, (2015).",
+        "DOI": "10.1136/bmj.h5527"
+      },
+      {
+        "key": "2021110911300498000_2021.08.24.21262376v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1034-x"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.08.24.21262376",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:23:15Z",
+      "timestamp": 1768486995000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.08.24.21262376"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          31
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1101/2021.08.24.21262376",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/S2589-7500(21)00272-7",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:20:48Z",
+      "timestamp": 1768562448346,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          26
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>As clinical understanding of pediatric Post-Acute Sequelae of SARS CoV-2 (PASC) develops, and hence the clinical definition evolves, it is desirable to have a method to reliably identify patients who are likely to have post-acute sequelae of SARS CoV-2 (PASC) in health systems data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and Findings</jats:title>\n                  <jats:p>In this study, we developed and validated a machine learning algorithm to classify which patients have PASC (distinguishing between Multisystem Inflammatory Syndrome in Children (MIS-C) and non-MIS-C variants) from a cohort of patients with positive SARS-CoV-2 test results in pediatric health systems within the PEDSnet EHR network. Patient features included in the model were selected from conditions, procedures, performance of diagnostic testing, and medications using a tree-based scan statistic approach. We used an XGboost model, with hyperparameters selected through cross-validated grid search, and model performance was assessed using 5-fold cross-validation. Model predictions and feature importance were evaluated using Shapley Additive exPlanation (SHAP) values.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>The model provides a tool for identifying patients with PASC and an approach to characterizing PASC using diagnosis, medication, laboratory, and procedure features in health systems data. Using appropriate threshold settings, the model can be used to identify PASC patients in health systems data at higher precision for inclusion in studies or at higher recall in screening for clinical trials, especially in settings where PASC diagnosis codes are used less frequently or less reliably. Analysis of how specific features contribute to the classification process may assist in gaining a better understanding of features that are associated with PASC diagnoses.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding Source</jats:title>\n                  <jats:p>This research was funded by the National Institutes of Health (NIH) Agreement OT2HL161847-01 as part of the Researching COVID to Enhance Recovery (RECOVER) program of research.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Disclaimer</jats:title>\n                  <jats:p>The content is solely the responsibility of the authors and does not necessarily represent the official views of the RECOVER Program, the NIH or other funders.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.12.22.22283791",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2022-12-26T18:30:13Z",
+      "timestamp": 1672079413000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "A machine learning-based phenotype for long COVID in children: an EHR-based study from the RECOVER program"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0561-6587",
+        "authenticated-orcid": false,
+        "given": "Vitaly",
+        "family": "Lorman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5001-1590",
+        "authenticated-orcid": false,
+        "given": "Hanieh",
+        "family": "Razzaghi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xing",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8307-1642",
+        "authenticated-orcid": false,
+        "given": "Keith",
+        "family": "Morse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2189-108X",
+        "authenticated-orcid": false,
+        "given": "Levon",
+        "family": "Utidjian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9846-0280",
+        "authenticated-orcid": false,
+        "given": "Andrea J.",
+        "family": "Allen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0334-6301",
+        "authenticated-orcid": false,
+        "given": "Suchitra",
+        "family": "Rao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5251-2399",
+        "authenticated-orcid": false,
+        "given": "Colin",
+        "family": "Rogerson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1483-4236",
+        "authenticated-orcid": false,
+        "given": "Tellen D.",
+        "family": "Bennett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9678-5564",
+        "authenticated-orcid": false,
+        "given": "Hiroki",
+        "family": "Morizono",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Eckrich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9921-0419",
+        "authenticated-orcid": false,
+        "given": "Ravi",
+        "family": "Jhaveri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3265-9902",
+        "authenticated-orcid": false,
+        "given": "Yungui",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daksha",
+        "family": "Ranade",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1637-4942",
+        "authenticated-orcid": false,
+        "given": "Nathan",
+        "family": "Pajor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Grace M.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1252-068X",
+        "authenticated-orcid": false,
+        "given": "Christopher B.",
+        "family": "Forrest",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8967-0662",
+        "authenticated-orcid": false,
+        "given": "L. Charles",
+        "family": "Bailey",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/life12020285"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40124-021-00260-x"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.05.24.22275544"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.05.24.22275398"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(22)00048-6"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.04.23.22274218"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.7",
+        "unstructured": "HAN Archive - 00432 | Health Alert Network (HAN). Published September 21, 2021. Accessed August 18, 2022. https://emergency.cdc.gov/han/2020/han00432.asp"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12519-021-00499-w"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40124-021-00259-4"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00431-021-04345-z"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2021.686029"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1541-0420.00039"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.13",
+        "unstructured": "CDC. Healthcare Workers. Centers for Disease Control and Prevention. Published February 11, 2020. Accessed August 18, 2022. https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/post-covid-public-health-recs.html"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.14",
+        "unstructured": "Coding Long COVID: Characterizing a new disease through an ICD-10 lens | medRxiv. Accessed August 18, 2022. https://www.medrxiv.org/content/10.1101/2022.04.18.22273968v1"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.15",
+        "unstructured": "CDC Announces Approval of ICD-10 Code for Post-Acute Sequelae of COVID-19. aapmr.org. Accessed August 22, 2022. https://www.aapmr.org/members-publications/member-news/member-news-details/2021/07/20/cdc-announces-approval-of-icd-10-code-for-post-acute-sequelae-of-covid-19"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0000000000000907"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0118432"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.18",
+        "unstructured": "Lundberg SM , Lee SI. A Unified Approach to Interpreting Model Predictions. In: Advances in Neural Information Processing Systems. Vol 30. Curran Associates, Inc.; 2017. Accessed August 18, 2022. https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "GPUTreeShap: massively parallel exact calculation of SHAP scores for tree ensembles [PeerJ]. Accessed August 18, 2022. https://peerj.com/articles/cs-880/",
+        "DOI": "10.7717/peerj-cs.880"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.20",
+        "unstructured": "XGBoost | Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. Accessed August 18, 2022. https://dl.acm.org/doi/10.1145/2939672.2939785"
+      },
+      {
+        "key": "2022122802000890000_2022.12.22.22283791v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00431-022-04600-x"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.22.22283791",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:24:09Z",
+      "timestamp": 1768505049000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.12.22.22283791"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          26
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2022.12.22.22283791",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0289774",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

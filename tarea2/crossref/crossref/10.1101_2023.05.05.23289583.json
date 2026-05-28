@@ -1,0 +1,253 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:19:54Z",
+      "timestamp": 1768562394977,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          5
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 13,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>\n                  Dynamic distribution shifts caused by evolving diseases and demographic changes require domain-incremental adaptation of clinical deep learning models. However, this process of adaptation is often accompanied by\n                  <jats:italic>catastrophic forgetting</jats:italic>\n                  , and even the most sophisticated methods are not good enough for clinical applications. This paper studies incremental learning from the perspective of\n                  <jats:italic>mode connections</jats:italic>\n                  , that is, the low-loss paths connecting the minimisers of neural architectures (modes or trained weights) in the parameter space. The paper argues for learning the low-loss paths originating from an existing mode and exploring the learned paths to find an acceptable mode for the new domain. The learned paths, and hence the new domain mode, are a\n                  <jats:italic>function</jats:italic>\n                  of the existing mode. As a result, unlike traditional incremental learning, the proposed approach is able to exploit information from a deployed model without changing its weights. Pre-COVID and COVID-19 data collected in Oxford University hospitals are used as a case study to demonstrate the need for domain-incremental learning and the advantages of the proposed approach.\n                </jats:p>",
+    "DOI": "10.1101/2023.05.05.23289583",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2023-05-05T18:55:11Z",
+      "timestamp": 1683312911000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Mode Connections For Clinical Incremental Learning: Lessons From The COVID-19 Pandemic"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Anshul",
+        "family": "Thakur",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chenyang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Taha",
+        "family": "Ceritli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Eyre",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.1",
+        "article-title": "Continual learning of longitudinal health records",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhiyuan Chen and Bing Liu . Lifelong Machine Learning, chapter 1 & 2. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool, 2 edition, 2018. ISBN 1681733021; 9781681733029.",
+        "DOI": "10.2200/S00832ED1V01Y201802AIM037"
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.3",
+        "unstructured": "Timur Garipov , Pavel Izmailov , Dmitrii Podoprikhin , Dmitry P Vetrov , and Andrew G Wilson . Loss surfaces, mode connectivity, and fast ensembling of dnns. Advances in Neural Information Pro-cessing Systems, 31, 2018."
+      },
+      {
+        "issue": "6",
+        "key": "2023050823551147000_2023.05.05.23289583v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e279",
+        "DOI": "10.1016/S2589-7500(20)30102-3",
+        "article-title": "Clinical applications of continual learning machine learning",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "issue": "6",
+        "key": "2023050823551147000_2023.05.05.23289583v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e271",
+        "DOI": "10.1016/S2589-7500(19)30123-2",
+        "article-title": "A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: a systematic review and meta-analysis",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.6",
+        "unstructured": "David Lopez-Paz and Marc\u2019Aurelio Ranzato . Gradient episodic memory for continual learning. Advances in neural information processing systems, 30, 2017."
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ameya Prabhu , Philip HS Torr , and Puneet K Dokania . GDumb: A simple approach that questions our progress in continual learning. Proceedings of European Conference on Computer vVision, pp. 524\u2013540, 2020.",
+        "DOI": "10.1007/978-3-030-58536-5_31"
+      },
+      {
+        "issue": "1",
+        "key": "2023050823551147000_2023.05.05.23289583v1.8",
+        "first-page": "1",
+        "article-title": "Scalable and accurate deep learning with electronic health records",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "NPJ digital medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2023050823551147000_2023.05.05.23289583v1.9",
+        "first-page": "1",
+        "article-title": "Automated tracking of level of consciousness and delirium in critical illness using deep learning",
+        "volume": "2",
+        "year": "2019",
+        "journal-title": "NPJ digital medicine"
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.10",
+        "first-page": "15300",
+        "article-title": "Optimizing mode connectivity via neuron alignment",
+        "volume": "33",
+        "year": "2020",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2023.3237592"
+      },
+      {
+        "issue": "12",
+        "key": "2023050823551147000_2023.05.05.23289583v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e677",
+        "DOI": "10.1016/S2589-7500(20)30200-4",
+        "article-title": "Time to reality check the promises of machine learning-powered precision medicine",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023050823551147000_2023.05.05.23289583v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexey Youssef , Samaneh Kouchaki , Farah Shamout , Jacob Armstrong , Rasheed El-Bouri , Thomas Taylor , Drew Birrenkott , Baptiste Vasey , Andrew Soltan , Tingting Zhu , et al. Development and validation of early warning score systems for COVID-19 patients. medRxiv, 2020.",
+        "DOI": "10.1101/2020.11.04.20225904"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.05.23289583",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:33:18Z",
+      "timestamp": 1768505598000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.05.05.23289583"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          5
+        ]
+      ]
+    },
+    "references-count": 13,
+    "URL": "https://doi.org/10.1101/2023.05.05.23289583",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

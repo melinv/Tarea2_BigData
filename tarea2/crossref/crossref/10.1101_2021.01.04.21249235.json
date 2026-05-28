@@ -1,0 +1,554 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:43:46Z",
+      "timestamp": 1768553026114,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          6
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 51,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>National governments have implemented non-pharmaceutical interventions to control and mitigate against the COVID-19 pandemic. A deep understanding of these interventions is required.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>We investigate the prediction of future daily national Confirmed Infection Growths \u2013 the percentage change in total cumulative cases across 14 days \u2013 using metrics representative of non-pharmaceutical interventions and cultural dimensions of each country.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    We combine the OxCGRT dataset, Hofstede\u2019s cultural dimensions, and COVID-19 daily reported infection case numbers to train and evaluate five non-time series machine learning models in predicting Confirmed Infection Growth. We use three validation methods \u2013\n                    <jats:italic>in-distribution, out-of-distribution</jats:italic>\n                    , and\n                    <jats:italic>country-based cross-validation</jats:italic>\n                    \u2013 for evaluation, each applicable to a different use case of the models.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    Our results demonstrate high\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                    values between the labels and predictions for the\n                    <jats:italic>in-distribution, out-of-distribution</jats:italic>\n                    , and\n                    <jats:italic>country-based cross-validation</jats:italic>\n                    methods (0.959, 0.513, and 0.574 respectively) using random forest and AdaBoost regression. While these models may be used to predict the Confirmed Infection Growth, the differing accuracies obtained from the three tasks suggest a strong influence of the use case.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>This work provides new considerations in using machine learning techniques with non-pharmaceutical interventions and cultural dimensions data for predicting the national growth of confirmed infections of COVID-19.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.04.21249235",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2021-01-06T17:00:51Z",
+      "timestamp": 1609952451000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Machine Learning Forecast of Growth in COVID-19 Confirmed Infection Cases with Non-Pharmaceutical Interventions and Cultural Dimensions: Algorithm Development and Validation"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Arnold YS",
+        "family": "Yeung",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Francois",
+        "family": "Roewer-Despres",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laura",
+        "family": "Rosella",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Frank",
+        "family": "Rudzicz",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.1",
+        "unstructured": "Hale T , Petherick A , Phillips T , Webster S. Variation in government responses to COVID-19. Blavatnik Sch Gov Work Pap. 2020;31."
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.2",
+        "article-title": "Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in European countries: technical description update",
+        "year": "2020",
+        "journal-title": "arXiv Prepr"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McCoy LG , Smith J , Anchuri K , Berry I , Pineda J , Harish V , et al. CAN-NPI: A Curated Open Dataset of Canadian Non-Pharmaceutical Interventions in Response to the Global COVID-19 Pandemic. medRxiv. Cold Spring Harbor Laboratory Press; 2020;",
+        "DOI": "10.1101/2020.04.17.20068460"
+      },
+      {
+        "issue": "3",
+        "key": "2021010709401524000_2021.01.04.21249235v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "204",
+        "DOI": "10.1177/2048872620924922",
+        "article-title": "The COVID-19 epidemic, its mortality, and the role of non-pharmaceutical interventions",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Eur Hear J Acute Cardiovasc Care"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.5",
+        "article-title": "Modelling transmission and control of the COVID-19 pandemic in Australia",
+        "year": "2020",
+        "journal-title": "arXiv Prepr"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davies NG , Kucharski AJ , Eggo RM , Gimma A , Edmunds WJ , Jombart T , et al. Effects of non-pharmaceutical interventions on COVID-19 cases, deaths, and demand for hospital services in the UK: a modelling study. Lancet Public Heal. Elsevier; 2020;",
+        "DOI": "10.1101/2020.04.01.20049908"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cowling BJ , Ali ST , Ng TWY , Tsang TK , Li JCM , Fong MW , et al. Impact assessment of non-pharmaceutical interventions against coronavirus disease 2019 and influenza in Hong Kong: an observational study. Lancet Public Heal. Elsevier; 2020;",
+        "DOI": "10.1016/S2468-2667(20)30090-6"
+      },
+      {
+        "issue": "19",
+        "key": "2021010709401524000_2021.01.04.21249235v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1915",
+        "DOI": "10.1001/jama.2020.6130",
+        "article-title": "Association of public health interventions with the epidemiology of the COVID-19 outbreak in Wuhan, China",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Jama. American Medical Association"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brauner JM , Sharma M , Mindermann S , Stephenson AB , Gaven\u010diak T , Johnston D , et al. The effectiveness and perceived burden of nonpharmaceutical interventions against COVID-19 transmission: a modelling study with 41 countries. medRxiv. Cold Spring Harbor Laboratory Press; 2020;",
+        "DOI": "10.1101/2020.05.28.20116129"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "208",
+        "DOI": "10.1186/1471-2458-7-208",
+        "article-title": "Non-pharmaceutical public health interventions for pandemic influenza: an evaluation of the evidence base",
+        "volume": "7",
+        "year": "2007",
+        "journal-title": "BMC Public Health. Springer"
+      },
+      {
+        "issue": "2",
+        "key": "2021010709401524000_2021.01.04.21249235v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "204",
+        "DOI": "10.1016/S1473-3099(14)71074-6",
+        "article-title": "Spatiotemporal spread of the 2014 outbreak of Ebola virus disease in Liberia and the effectiveness of non-pharmaceutical interventions: a computational modelling analysis",
+        "volume": "15",
+        "year": "2015",
+        "journal-title": "Lancet Infect Dis. Elsevier"
+      },
+      {
+        "issue": "5",
+        "key": "2021010709401524000_2021.01.04.21249235v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2101",
+        "DOI": "10.1371/journal.pone.0002101",
+        "article-title": "Preliminary findings of a randomized trial of non-pharmaceutical interventions to prevent influenza transmission in households",
+        "volume": "3",
+        "year": "2008",
+        "journal-title": "PLoS One. Public Library of Science"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.13",
+        "first-page": "77482",
+        "article-title": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Imp Coll London"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lai S , Ruktanonchai NW , Zhou L , Prosper O , Luo W , Floyd JR , et al. Effect of non-pharmaceutical interventions for containing the COVID-19 outbreak in China. medRxiv. Cold Spring Harbor Laboratory Preprints; 2020;",
+        "DOI": "10.1101/2020.03.03.20029843"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3201/eid2501.171901",
+        "article-title": "Complexity of the basic reproduction number (R0)",
+        "volume": "25",
+        "year": "2019",
+        "journal-title": "Emerg Infect Dis. Centers for Disease Control and Prevention"
+      },
+      {
+        "issue": "2",
+        "key": "2021010709401524000_2021.01.04.21249235v1.16",
+        "first-page": "169",
+        "article-title": "Dynamics of measles epidemics: estimating scaling of transmission rates using a time series SIR model",
+        "volume": "72",
+        "year": "2002",
+        "journal-title": "Ecol Monogr. Wiley Online Library"
+      },
+      {
+        "issue": "772",
+        "key": "2021010709401524000_2021.01.04.21249235v1.17",
+        "first-page": "700",
+        "article-title": "A contribution to the mathematical theory of epidemics. Proc R Soc london Ser A, Contain Pap a Math Phys character",
+        "volume": "115",
+        "year": "1927",
+        "journal-title": "The Royal Society London"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N\u00e5sell I. The quasi-stationary distribution of the closed endemic SIS model. Adv Appl Probab. JSTOR; 1996;895\u2013932.",
+        "DOI": "10.1017/S0001867800046541"
+      },
+      {
+        "issue": "2",
+        "key": "2021010709401524000_2021.01.04.21249235v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1016/0025-5564(95)92756-5",
+        "article-title": "Global stability for the SEIR model in epidemiology",
+        "volume": "125",
+        "year": "1995",
+        "journal-title": "Math Biosci. Elsevier"
+      },
+      {
+        "issue": "4",
+        "key": "2021010709401524000_2021.01.04.21249235v1.20",
+        "first-page": "674",
+        "article-title": "Testing the social identity relative deprivation (SIRD) model of social change: The political rise of Scottish nationalism",
+        "volume": "51",
+        "year": "2012",
+        "journal-title": "Br J Soc Psychol. Wiley Online Library"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen Y-C , Lu P-E , Chang C-S , Liu T-H. A Time-dependent SIR model for COVID-19 with undetectable infected persons. IEEE Trans Netw Sci Eng. IEEE; 2020;",
+        "DOI": "10.1109/TNSE.2020.3024723"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.22",
+        "article-title": "A modified sir model for the covid-19 contagion in italy",
+        "year": "2020",
+        "journal-title": "arXiv Prepr"
+      },
+      {
+        "issue": "3",
+        "key": "2021010709401524000_2021.01.04.21249235v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.21037/jtd.2020.02.64",
+        "article-title": "Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "J Thorac Dis. AME Publications"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fern\u00e1ndez-Villaverde J , Jones CI . Estimating and Simulating a SIRD Model of COVID-19 for Many Countries, States, and Cities. 2020.",
+        "DOI": "10.3386/w27128"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.25",
+        "article-title": "A machine learning methodology for real-time forecasting of the 2019-2020 COVID-19 outbreak using Internet searches, news alerts, and estimates from mechanistic models",
+        "year": "2020",
+        "journal-title": "arXiv Prepr"
+      },
+      {
+        "issue": "6",
+        "key": "2021010709401524000_2021.01.04.21249235v1.26",
+        "first-page": "890",
+        "article-title": "COVID-19 Pandemic Prediction for Hungary; a Hybrid Machine Learning Approach. Mathematics",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Multidisciplinary Digital Publishing Institute"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alimadadi A , Aryal S , Manandhar I , Munroe PB , Joe B , Cheng X. Artificial intelligence and machine learning to fight COVID-19. American Physiological Society Bethesda, MD; 2020.",
+        "DOI": "10.1152/physiolgenomics.00029.2020"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.28",
+        "unstructured": "Yan L , Zhang H-T , Xiao Y , Wang M , Sun C , Liang J , et al. Prediction of criticality in patients with severe Covid-19 infection using three clinical features: a machine learning-based prognostic model with clinical data in Wuhan. MedRxiv. Cold Spring Harbor Laboratory Press; 2020;"
+      },
+      {
+        "issue": "4",
+        "key": "2021010709401524000_2021.01.04.21249235v1.29",
+        "first-page": "e0232391",
+        "volume-title": "PLoS One",
+        "volume": "15",
+        "year": "2020"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.30",
+        "first-page": "1",
+        "article-title": "Artificial intelligence for the detection of COVID-19 pneumonia on chest CT using multinational datasets",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat Commun. Nature Publishing Group"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van Bavel JJ , Baicker K , Boggio PS , Capraro V , Cichocka A , Cikara M , et al. Using social and behavioural science to support COVID-19 pandemic response. Nat Hum Behav. Nature Publishing Group; 2020;1\u201312.",
+        "DOI": "10.31234/osf.io/y38m9"
+      },
+      {
+        "issue": "3",
+        "key": "2021010709401524000_2021.01.04.21249235v1.32",
+        "first-page": "173",
+        "article-title": "Debate: Facing uncertainty with (out) a sense of control--cultural influence on adolescents\u2019 response to the COVID-19 pandemic. Child Adolesc Ment Health",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Wiley Online Library"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dryhurst S , Schneider CR , Kerr J , Freeman ALJ , Recchia G , Van Der Bles AM , et al. Risk perceptions of COVID-19 around the world. J Risk Res. Taylor & Francis; 2020;1\u201313.",
+        "DOI": "10.1080/13669877.2020.1758193"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0022002184015004003"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.35",
+        "unstructured": "McKinney W , others. pandas: a foundational Python library for data analysis and statistics. Python High Perform Sci Comput. Seattle; 2011;14(9)."
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.36",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "J Mach Learn Res. JMLR. org"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.37",
+        "unstructured": "Hofstede G. Dimension data matrix [Internet]. GeertHoftstede.com. 2015. https://geerthofstede.com/research-and-vsm/dimension-data-matrix/"
+      },
+      {
+        "issue": "3",
+        "key": "2021010709401524000_2021.01.04.21249235v1.38",
+        "first-page": "277",
+        "article-title": "Hofstede\u2019s dimensions of culture in international marketing studies",
+        "volume": "60",
+        "year": "2007",
+        "journal-title": "J Bus Res. Elsevier"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.39",
+        "first-page": "919",
+        "article-title": "Dimensionalizing cultures: The Hofstede model in context",
+        "volume": "2",
+        "year": "2011",
+        "journal-title": "Online readings Psychol Cult"
+      },
+      {
+        "issue": "5",
+        "key": "2021010709401524000_2021.01.04.21249235v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1016/S1473-3099(20)30120-1",
+        "article-title": "An interactive web-based dashboard to track COVID-19 in real time",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Lancet Infect Dis. Elsevier"
+      },
+      {
+        "issue": "2",
+        "key": "2021010709401524000_2021.01.04.21249235v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "e87357",
+        "DOI": "10.1371/journal.pone.0087357",
+        "article-title": "Mutual information between discrete and continuous data sets",
+        "volume": "9",
+        "year": "2014",
+        "journal-title": "PLoS One. Public Library of Science"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pirbazari AM , Chakravorty A , Rong C. Evaluating feature selection methods for short-term load forecasting. 2019 IEEE Int Conf Big Data Smart Comput. 2019. p. 1\u20138.",
+        "DOI": "10.1109/BIGCOMP.2019.8679188"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.43",
+        "first-page": "55",
+        "article-title": "Ridge regression: Biased estimation for nonorthogonal problems",
+        "volume": "12",
+        "year": "1970",
+        "journal-title": "Technometrics. Taylor & Francis Group"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1006/jcss.1997.1504",
+        "article-title": "A decision-theoretic generalization of on-line learning and an application to boosting",
+        "volume": "55",
+        "year": "1997",
+        "journal-title": "J Comput Syst Sci. Elsevier"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.46",
+        "first-page": "155",
+        "article-title": "Support vector regression machines",
+        "volume": "9",
+        "year": "1996",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/cr030079"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.48",
+        "first-page": "128",
+        "article-title": "Assessing the performance of prediction models: a framework for some traditional and novel measures",
+        "volume": "21",
+        "year": "2010",
+        "journal-title": "Epidemiology. NIH Public Access"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.49",
+        "first-page": "135",
+        "volume-title": "Mach Learn",
+        "volume": "13",
+        "year": "1993"
+      },
+      {
+        "issue": "1",
+        "key": "2021010709401524000_2021.01.04.21249235v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1006/jmps.1999.1279",
+        "article-title": "Cross-validation methods",
+        "volume": "44",
+        "year": "2000",
+        "journal-title": "J Math Psychol. Elsevier"
+      },
+      {
+        "key": "2021010709401524000_2021.01.04.21249235v1.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ardabili SF , Mosavi A , Ghamisi P , Ferdinand F , Varkonyi-Koczy AR , Reuter U , et al. Covid-19 outbreak prediction with machine learning. Available SSRN 3580188. 2020;",
+        "DOI": "10.31234/osf.io/5dyfc"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.04.21249235",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:02:29Z",
+      "timestamp": 1768485749000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.04.21249235"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          6
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1101/2021.01.04.21249235",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/26628",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

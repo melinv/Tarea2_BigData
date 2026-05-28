@@ -1,0 +1,370 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2026-01-18T21:49:24Z",
+      "timestamp": 1768772964658,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          4
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 32,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Clinical activity of 3740 de-identified COVID-19 positive patients treated at NYU Langone Health (NYULH) were collected between January and August 2020. XGBoost model trained on clinical data from the final 24 hours excelled at predicting mortality (AUC=0.92, specificity=86% and sensitivity=85%). Respiration rate was the most important feature, followed by SpO2 and age 75+. Performance of this model to predict the deceased outcome extended 5 days prior with AUC=0.81, specificity=70%, sensitivity=75%. When only using clinical data from the first 24 hours, AUCs of 0.79, 0.80, and 0.77 were obtained for deceased, ventilated, or ICU admitted, respectively. Although respiration rate and SpO2 levels offered the highest feature importance, other canonical markers including diabetic history, age and temperature offered minimal gain. When lab values were incorporated, prediction of mortality benefited the most from blood urea nitrogen (BUN) and lactate dehydrogenase (LDH). Features predictive of morbidity included LDH, calcium, glucose, and C-reactive protein (CRP). Together this work summarizes efforts to systematically examine the importance of a wide range of features across different endpoint outcomes and at different hospitalization time points.</jats:p>",
+    "DOI": "10.1101/2020.12.02.20235879",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2020-12-04T21:29:13Z",
+      "timestamp": 1607117353000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Predictive modeling of morbidity and mortality in COVID-19 hospitalized patients and its clinical implications"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Joshua M.",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Wenke",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaoshan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2126-9442",
+        "authenticated-orcid": false,
+        "given": "Michael P.",
+        "family": "McRae",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John T.",
+        "family": "McDevitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Feny\u00f6",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.1",
+        "unstructured": "CDC. COVID-19 Cases, Deaths, and Trends in the US | CDC COVID Data Tracker. Centers for Disease Control and Prevention https://covid.cdc.gov/covid-data-tracker (2020)."
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1038/s42256-020-0180-7",
+        "article-title": "An interpretable mortality prediction model for COVID-19 patients",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nat. Mach. Intell"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yao, H. et al. Severity Detection for the Coronavirus Disease 2019 (COVID-19) Patients Using a Machine Learning Model Based on the Blood and Urine Tests. Front. Cell Dev. Biol. 8, (2020).",
+        "DOI": "10.3389/fcell.2020.00683"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.1585"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1668",
+        "DOI": "10.3390/jcm9061668",
+        "article-title": "Using Machine Learning to Predict ICU Transfer in Hospitalized COVID-19 Patients",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "J. Clin. Med"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/22033"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+        "article-title": "Regression Shrinkage and Selection via the Lasso",
+        "volume": "58",
+        "year": "1996",
+        "journal-title": "J. R. Stat. Soc. Ser. B Methodol"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.9",
+        "unstructured": "keras-team/keras. (Keras, 2020)."
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-020-0221-y"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, W. et al. Estimating the infection-fatality risk of SARS-CoV-2 in New York City during the spring 2020 pandemic wave: a model-based analysis. Lancet Infect. Dis. 0, (2020).",
+        "DOI": "10.1016/S1473-3099(20)30769-6"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nut.2010.07.013"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0749-0704(05)70154-8"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00408-013-9530-0"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.15",
+        "first-page": "121",
+        "article-title": "Severe acute respiratory syndrome: clinical and laboratory manifestations",
+        "volume": "25",
+        "year": "2004",
+        "journal-title": "Clin. Biochem. Rev"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-020-03161-5"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.17",
+        "unstructured": "LitCovid. https://www.ncbi.nlm.nih.gov/research/coronavirus/."
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0009-8981(87)90394-9"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cardfail.2007.02.005"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5603/CJ.a2017.0075"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/MD.0000000000015275"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1373/clinchem.2019.306787"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Procalcitonin\u2019s Adjunct Role in the Diagnosis and Management of Pneumonia | Clinical Chemistry | Oxford Academic. https://academic.oup.com/clinchem/article/65/12/1474/5715861.",
+        "DOI": "10.1373/clinchem.2019.312520"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1093/cid/cix317",
+        "article-title": "Procalcitonin as a Marker of Etiology in Adults Hospitalized With Community-Acquired Pneumonia",
+        "volume": "65",
+        "year": "2017",
+        "journal-title": "Clin. Infect. Dis. Off. Publ. Infect. Dis. Soc. Am"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7150/ijms.48396"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijantimicag.2020.106051"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "104370",
+        "DOI": "10.1016/j.jcv.2020.104370",
+        "article-title": "Prognostic value of interleukin-6, C-reactive protein, and procalcitonin in patients with COVID-19",
+        "volume": "127",
+        "year": "2020",
+        "journal-title": "J. Clin. Virol. Off. Publ. Pan Am. Soc. Clin. Virol"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1224",
+        "DOI": "10.1016/j.jiph.2020.05.029",
+        "article-title": "Prevalence and predictive value of hypocalcemia in severe COVID-19 patients",
+        "volume": "13",
+        "year": "2020",
+        "journal-title": "J. Infect. Public Health"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "11287",
+        "DOI": "10.18632/aging.103526",
+        "article-title": "Serum calcium as a biomarker of clinical severity and prognosis in patients with coronavirus disease 2019",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "Aging"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/cclm-2020-0611"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11063-020-10195-x"
+      },
+      {
+        "key": "2021033112050956000_2020.12.02.20235879v5.32",
+        "unstructured": "Predicting Clinical Events by Combining Static and Dynamic Information Using Recurrent Neural Networks. https://www.computer.org/csdl/proceedings-article/ichi/2016/6117a093/12OmNBBhN70."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.12.02.20235879",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:00:31Z",
+      "timestamp": 1768485631000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.12.02.20235879"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          4
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1101/2020.12.02.20235879",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/29514",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

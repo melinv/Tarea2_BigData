@@ -1,0 +1,496 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:25:21Z",
+      "timestamp": 1768555521768,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          18
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Publicly available audio data presents a unique opportunity for the development of digital health technologies with large language models (LLMs). In this study, YouTube was mined to collect audio data from individuals with self-declared positive COVID-19 tests as well as those with other upper respiratory infections (URI) and healthy subjects discussing a diverse range of topics. The resulting dataset was transcribed with the Whisper model and used to assess the capacity of LLMs for detecting self-reported COVID-19 cases and performing variant classification. Following prompt optimization, LLMs achieved accuracies of 0.89, 0.97, respectively, in the tasks of identifying self-reported COVID-19 cases and other respiratory illnesses. The model also obtained a mean accuracy of 0.77 at identifying the variant of self-reported COVID-19 cases using only symptoms and other health-related factors described in the YouTube videos. In comparison with past studies, which used scripted, standardized voice samples to capture biomarkers, this study focused on extracting meaningful information from public online audio data. This work introduced novel design paradigms for pandemic management tools, showing the potential of audio data in clinical and public health applications.</jats:p>",
+    "DOI": "10.1101/2022.09.13.22279673",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2022-09-18T16:40:12Z",
+      "timestamp": 1663519212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Omicron detection with large language models and YouTube audio data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "James T.",
+        "family": "Anibal",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Adam J.",
+        "family": "Landa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nguyen T. T.",
+        "family": "Hang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4448-277X",
+        "authenticated-orcid": false,
+        "given": "Miranda J.",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alec K.",
+        "family": "Peltekian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ashley",
+        "family": "Shin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hannah B.",
+        "family": "Huth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lindsey A.",
+        "family": "Hazen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anna S.",
+        "family": "Christou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jocelyne",
+        "family": "Rivera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert A.",
+        "family": "Morhard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ulas",
+        "family": "Bagci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ming",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yael",
+        "family": "Bensoussan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bradford J.",
+        "family": "Wood",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.1",
+        "unstructured": "Dixon, S. Number of social media users worldwide from 2018 to 2022, with forecasts from 2023 to 2027. Statista https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/ (2022)."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.2",
+        "unstructured": "Ceci, L. Hours of video uploaded to YouTube every minute as of February 2020. Statista https://www.statista.com/statistics/259477/hours-of-video-uploaded-to-youtube-every-minute/ (2022)."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.3",
+        "unstructured": "https://github.com/topics/youtube-api-v3?l=python"
+      },
+      {
+        "issue": "1",
+        "key": "2024032904100957000_2022.09.13.22279673v4.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1038/s41746-021-00553-x",
+        "article-title": "Sounds of COVID-19: exploring realistic performance of audio-based digital testing",
+        "volume": "5",
+        "year": "2022",
+        "journal-title": "Npj Digital Medicine"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0956797614557867"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sadasivuni, S. T. , & Zhang, Y. Using Gradient Methods to Predict Twitter Users\u2019 Mental Health with Both COVID-19 Growth Patterns and Tweets. 2020 IEEE International Conference on Humanized Computing and Communication with Artificial Intelligence (HCCAI), 65\u201366 (2020).",
+        "DOI": "10.1109/HCCAI49649.2020.00017"
+      },
+      {
+        "issue": "01",
+        "key": "2024032904100957000_2022.09.13.22279673v4.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.1609/aaai.v33i01.3301110",
+        "article-title": "Cooperative Multimodal Approach to Depression Detection in Twitter",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chatterjee, M. , Samanta, P. , Kumar, P. , & Sarkar, D. Suicide Ideation Detection using Multiple Feature Analysis from Twitter Data. 2022 IEEE Delhi Section Conference (DELCON), 1\u20136 (2022).",
+        "DOI": "10.1109/DELCON54057.2022.9753295"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0093533"
+      },
+      {
+        "issue": "11",
+        "key": "2024032904100957000_2022.09.13.22279673v4.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "e24012",
+        "DOI": "10.2196/24012",
+        "article-title": "The Relationships of Deteriorating Depression and Anxiety With Longitudinal Behavioral Changes in Google and YouTube Use During COVID-19: Observational Study",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "JMIR Ment Health"
+      },
+      {
+        "issue": "3",
+        "key": "2024032904100957000_2022.09.13.22279673v4.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1080/17538157.2021.1885036",
+        "article-title": "Depiction of Obsessive-Compulsive Disorder in YouTube videos",
+        "volume": "46",
+        "year": "2021",
+        "journal-title": "Informatics for Health and Social Care"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deshpande, G. , & Schuller, B. W. COVID-19 Biomarkers in Speech: On Source and Filter Components. 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), 800\u2013803 (2021).",
+        "DOI": "10.1109/EMBC46164.2021.9629831"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1109/OJEMB.2020.3026928",
+        "article-title": "COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "IEEE Open Journal of Engineering in Medicine and Biology"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "100378",
+        "DOI": "10.1016/j.imu.2020.100378",
+        "article-title": "AI4COVID-19: AI enabled preliminary diagnosis for COVID-19 from cough samples via an app",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Informatics in Medicine Unlocked"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104572"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahman, T. et al. QUCoughScope: An Intelligent Application to Detect COVID-19 Patients Using Cough and Breath Sounds. Diagnostics 12(4) (2022).",
+        "DOI": "10.3390/diagnostics12040920"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Z. et al. Diagnosis of COVID-19 via acoustic analysis and artificial intelligence by monitoring breath sounds on smartphones. Journal of Biomedical Informatics 130, (2022).",
+        "DOI": "10.1016/j.jbi.2022.104078"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0262491"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.2011.04299"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Usman, Mohammed , et al. \u201cSpeech as a Biomarker for COVID-19 Detection Using Machine Learning.\u201d Computational Intelligence and Neuroscience 2022 (2022).",
+        "DOI": "10.1155/2022/6093613"
+      },
+      {
+        "issue": "1",
+        "key": "2024032904100957000_2022.09.13.22279673v4.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1038/s41597-023-02266-0",
+        "article-title": "Coswara: A respiratory sounds and symptoms dataset for remote screening of SARS-CoV-2 infection",
+        "volume": "10",
+        "year": "2023",
+        "journal-title": "Scientific Data"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.105405"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "65750",
+        "DOI": "10.1109/ACCESS.2021.3075571",
+        "article-title": "Exploring the Use of Artificial Intelligence Techniques to Detect the Presence of Coronavirus Covid-19 Through Speech and Voice Analysis",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13369-021-06041-4"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.25",
+        "article-title": "COVYT: Introducing the Coronavirus YouTube and TikTok speech dataset featuring the same speakers with and without infection",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.26",
+        "article-title": "Analyzing the impact of SARS-CoV-2 variants on respiratory sound signals",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "4",
+        "key": "2024032904100957000_2022.09.13.22279673v4.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.1016/j.anl.2022.08.007",
+        "article-title": "COVID-19 Omicron variant-induced laryngitis",
+        "volume": "50",
+        "year": "2023",
+        "journal-title": "Auris nasus larynx"
+      },
+      {
+        "issue": "1",
+        "key": "2024032904100957000_2022.09.13.22279673v4.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1093/nsr/nwx106",
+        "article-title": "A brief introduction to weakly supervised learning",
+        "volume": "5",
+        "year": "2018",
+        "journal-title": "National science review"
+      },
+      {
+        "issue": "3",
+        "key": "2024032904100957000_2022.09.13.22279673v4.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1038/s42256-021-00307-0",
+        "article-title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.30",
+        "unstructured": "World Health Organization. Tracking SARS-CoV-2 variants. https://www.who.int/activities/tracking-SARS-CoV-2-variants (2022)."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.31",
+        "unstructured": "Centers for Disease Control and Prevention. Potential Rapid Increase of Omicron Variant Infections in the United States. https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/mathematical-modeling-outbreak.html (2021)."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.32",
+        "unstructured": "Centers for Disease Control and Prevention. Omicron Variant: What You Need to Know. https://www.cdc.gov/coronavirus/2019-ncov/variants/Omicron-variant.html (2022)."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.33",
+        "unstructured": "Centers for Disease Control and Prevention. COVID Data Tracker. https://covid.cdc.gov/covid-data-tracker/#variant-proportions (2022)."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.34",
+        "unstructured": "Radford, Alec , et al. \u201cRobust speech recognition via large-scale weak supervision.\u201d International Conference on Machine Learning. PMLR, 2023."
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.35",
+        "unstructured": "OpenAI. \u201cGPT-4 technical report.\u201d arXiv (2023): 2303\u201308774."
+      },
+      {
+        "issue": "3",
+        "key": "2024032904100957000_2022.09.13.22279673v4.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "869",
+        "DOI": "10.1016/j.dsx.2021.04.007",
+        "article-title": "Long COVID: an overview",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "Diabetes & Metabolic Syndrome: Clinical Research & Reviews"
+      },
+      {
+        "key": "2024032904100957000_2022.09.13.22279673v4.37",
+        "unstructured": "Menni, Cristina , et al. \u201cSymptom prevalence, duration, and risk of hospital admission in individuals infected with SARS-CoV-2 during periods of omicron and delta variant dominance: a prospective observational study"
+      },
+      {
+        "issue": "2",
+        "key": "2024032904100957000_2022.09.13.22279673v4.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "412",
+        "DOI": "10.1021/acs.jcim.1c01451",
+        "article-title": "Omicron variant (B. 1.1. 529): infectivity, vaccine breakthrough, and antibody resistance",
+        "volume": "62",
+        "year": "2022",
+        "journal-title": "Journal of chemical information and modeling"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.09.13.22279673",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:50:24Z",
+      "timestamp": 1768488624000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.09.13.22279673"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          18
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2022.09.13.22279673",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s44401-025-00022-7",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T01:22:34Z",
+      "timestamp": 1768526554537,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 87,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2025-10-21T00:00:00Z",
+          "timestamp": 1761004800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Circulating blood cell clusters (CCCs) containing red blood cells (RBCs), white blood cells (WBCs), and platelets are significant biomarkers linked to conditions like thrombosis, infection, and inflammation. Flow cytometry, paired with fluorescence staining, is commonly used to analyze these cell clusters, revealing cell morphology and protein profiles. While computational approaches based on machine learning have advanced the automatic analysis of single-cell flow cytometry images, there is a lack of effort to build tools to automatically analyze images containing CCCs. Unlike single cells, cell clusters often exhibit irregular shapes and sizes. In addition, these cell clusters often consist of heterogeneous cell types, which require multi-channel staining to identify the specific cell types within the clusters. This study introduces a new computational framework for analyzing CCC images and identifying cell types within clusters. Our framework uses a two-step analysis strategy. First, it categorizes images into cell cluster and non-cluster groups by fine-tuning the You Only Look Once(YOLOv11) model, which outperforms traditional convolutional neural networks (CNNs), Vision Transformers (ViT). Then, it identifies cell types by overlaying cluster contours with regions from multi-channel fluorescence stains, enhancing accuracy despite cell debris and staining artifacts. This approach achieved over 95% accuracy in both cluster classification and phenotype identification. In summary, our automated framework effectively analyzes CCC images from flow cytometry, leveraging both bright-field and fluorescence data. Initially tested on blood cells, it holds potential for broader applications, such as analyzing immune and tumor cell clusters, supporting cellular research across various diseases.</jats:p>",
+    "DOI": "10.1101/2025.10.20.683505",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2025-10-22T04:50:16Z",
+      "timestamp": 1761108616000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Automatic Classification of Circulating Blood Cell Clusters based on Multi-channel Flow Cytometry Imaging"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Suqiang",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Subhadeep",
+        "family": "Sengupta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yao",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Beikang",
+        "family": "Gu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xianyan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xianqiao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mengjia",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Galit H.",
+        "family": "Frydman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "He",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1131",
+        "DOI": "10.3389/fimmu.2020.01131",
+        "article-title": "Lessons learned to date on covid-19 hyperinflammatory syndrome: considerations for interventions to mitigate sars-cov-2 viral infection and detrimental hyperinflammation",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.thromres.2020.08.020"
+      },
+      {
+        "issue": "3",
+        "key": "2025102419351326000_2025.10.20.683505v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "412",
+        "DOI": "10.1002/rth2.12496",
+        "article-title": "Risk of thrombotic complications in influenza versus covid-19 hospitalized patients",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "Research and Practice in Thrombosis and Haemostasis"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-021-00536-9"
+      },
+      {
+        "issue": "07",
+        "key": "2025102419351326000_2025.10.20.683505v1.5",
+        "first-page": "224",
+        "article-title": "The molecular basis of platelet and endothelial cell interaction with neutrophils and monocytes: role of P-selectin and the P-selectin ligand, PSGL-1",
+        "volume": "74",
+        "year": "1995",
+        "journal-title": "Thrombosis and Haemostasis"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1189/jlb.1TA1115-517RR"
+      },
+      {
+        "issue": "6",
+        "key": "2025102419351326000_2025.10.20.683505v1.7",
+        "first-page": "753",
+        "article-title": "The role of leukocytes in thrombosis",
+        "volume": "128",
+        "year": "2016",
+        "journal-title": "Blood, The Journal of the American Society of Hematology"
+      },
+      {
+        "issue": "7",
+        "key": "2025102419351326000_2025.10.20.683505v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1559",
+        "DOI": "10.1111/jth.14849",
+        "article-title": "Thromboinflammation and the hypercoagulability of COVID-19",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Journal of Thrombosis and Haemostasis"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.9",
+        "unstructured": "G. A. Dorken , L. Naar , E. M. Van Cott , R. P. Rosovsky , D. J. Gregory , D. Annamalai , J. Lee , H. M. A. Kaafarani , G. Velmahos , R. G. Tompkins , and G. H. Frydman . Circulating cellular clusters are correlated with thrombotic complications and clinical outcomes in COVID-19. Research and Practice in Thrombosis and Haemostasis, 5(1), 2021."
+      },
+      {
+        "issue": "12",
+        "key": "2025102419351326000_2025.10.20.683505v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1733",
+        "DOI": "10.1055/s-0040-1718732",
+        "article-title": "Neutrophil\u2013platelet and monocyte\u2013platelet aggregates in COVID-19 patients",
+        "volume": "120",
+        "year": "2020",
+        "journal-title": "Thrombosis and Haemostasis"
+      },
+      {
+        "issue": "4",
+        "key": "2025102419351326000_2025.10.20.683505v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "790",
+        "DOI": "10.1007/s11239-020-02245-x",
+        "article-title": "In vivo demonstration of microvascular thrombosis in severe covid-19",
+        "volume": "50",
+        "year": "2020",
+        "journal-title": "Journal of Thrombosis and Thrombolysis"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/CIRCULATIONAHA.120.048488"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ander Dorken-Gallastegi , Yao Lee , Guansheng Li , He Li , Leon Naar , Xuejin Li , Ting Ye , Elizabeth Van Cott , Rachel Rosovsky , David Gregory , et al. Circulating cellular clusters are associated with thrombotic complications and clinical outcomes in covid-19. Iscience, 26(7), 2023.",
+        "DOI": "10.1016/j.isci.2023.107202"
+      },
+      {
+        "issue": "Suppl 1",
+        "key": "2025102419351326000_2025.10.20.683505v1.14",
+        "first-page": "A13066",
+        "article-title": "Circulating cellular clusters: A proposed mechanism and novel biomarker for immunothrombosis and clinical outcomes in patients with covid-19",
+        "volume": "144",
+        "year": "2021",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-bioeng-071516-044442"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "100297",
+        "DOI": "10.1016/j.imu.2020.100297",
+        "article-title": "Deep learning approaches to biomedical image segmentation",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Informatics in Medicine Unlocked"
+      },
+      {
+        "issue": "8",
+        "key": "2025102419351326000_2025.10.20.683505v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1167/tvst.11.8.7",
+        "article-title": "Aoslo-net: a deep learning-based method for automatic segmentation of retinal microaneurysms from adaptive optics scanning laser ophthalmoscopy images",
+        "volume": "11",
+        "year": "2022",
+        "journal-title": "Translational Vision Science & Technology"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/j.cmpb.2018.05.024",
+        "article-title": "Finegrained leukocyte classification with deep residual learning for microscopic images",
+        "volume": "162",
+        "year": "2018",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.19",
+        "unstructured": "Seifedine Kadry , Venkatesan Rajinikanth , David Taniar , Robertas Dama\u0161evi\u010dius , and Xiomara Patricia Blanco Valencia . Automated segmentation of leukocyte from hematological images\u2014a study using various cnn schemes. The Journal of Supercomputing, pages 1\u201321, 2022."
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.20",
+        "first-page": "1748301818813322",
+        "article-title": "Leukocyte recognition with convolutional neural network",
+        "volume": "13",
+        "year": "2018",
+        "journal-title": "Journal of Algorithms & Computational Technology"
+      },
+      {
+        "issue": "1",
+        "key": "2025102419351326000_2025.10.20.683505v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.1002/mp.13904",
+        "article-title": "Human peripheral blood leukocyte classification method based on convolutional neural network and data augmentation",
+        "volume": "47",
+        "year": "2020",
+        "journal-title": "Medical Physics"
+      },
+      {
+        "issue": "8",
+        "key": "2025102419351326000_2025.10.20.683505v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "3732",
+        "DOI": "10.1002/mp.14144",
+        "article-title": "Hybrid adversarial-discriminative network for leukocyte classification in leukemia",
+        "volume": "47",
+        "year": "2020",
+        "journal-title": "Medical Physics"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mu-Chun Su , Chun-Yen Cheng , and Pa-Chun Wang . A neural-network-based approach to white blood cell classification. The scientific world journal, 2014, 2014.",
+        "DOI": "10.1155/2014/796371"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1016/j.procs.2014.11.053",
+        "article-title": "Computer aided system for red blood cell classification in blood smear image",
+        "volume": "42",
+        "year": "2014",
+        "journal-title": "Procedia Computer Science"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "813996",
+        "DOI": "10.3389/fcell.2021.813996",
+        "article-title": "Retracted: Bcnet: A novel network for blood cell classification",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Frontiers in cell and developmental biology"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.26",
+        "article-title": "Deep cnns for peripheral blood cell classification",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Merl James Macawile , Vonn Vincent Qui\u00f1ones , Alejandro Ballado , Jennifer Dela Cruz , and Meo Vincent Caya . White blood cell classification and counting using convolutional neural network. In 2018 3rd International conference on control and robotics engineering (ICCRE), pages 259\u2013263. IEEE, 2018.",
+        "DOI": "10.1109/ICCRE.2018.8376476"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.28",
+        "first-page": "274",
+        "volume-title": "In Tenth international conference on machine vision (ICMV 2017)",
+        "volume": "10696",
+        "year": "2018"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.29",
+        "first-page": "135",
+        "volume-title": "In Soft Computing and Signal Processing: Proceedings of ICSCSP 2018",
+        "volume": "1",
+        "year": "2019"
+      },
+      {
+        "issue": "1",
+        "key": "2025102419351326000_2025.10.20.683505v1.30",
+        "first-page": "160",
+        "article-title": "Blood cell classification based on hyperspectral imaging with modulated gabor and cnn",
+        "volume": "24",
+        "year": "2019",
+        "journal-title": "IEEE journal of biomedical and health informatics"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ishpreet Singh , Narinder Pal Singh , Harnoor Singh , Saharsh Bawankar , and Alioune Ngom . Blood cell types classification using cnn. In Bioinformatics and Biomedical Engineering: 8th International Work-Conference, IWBBIO 2020, Granada, Spain, May 6\u20138, 2020, Proceedings 8, pages 727\u2013738. Springer, 2020.",
+        "DOI": "10.1007/978-3-030-45385-5_65"
+      },
+      {
+        "issue": "1",
+        "key": "2025102419351326000_2025.10.20.683505v1.32",
+        "first-page": "1",
+        "article-title": "Deep transfer learning and data augmentation improve glucose levels prediction in type 2 diabetes patients",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "NPJ Digital Medicine"
+      },
+      {
+        "issue": "10",
+        "key": "2025102419351326000_2025.10.20.683505v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1005746",
+        "DOI": "10.1371/journal.pcbi.1005746",
+        "article-title": "A deep convolutional neural network for classification of red blood cells in sickle cell anemia",
+        "volume": "13",
+        "year": "2017",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mo Zhang , Xiang Li , Mengjia Xu , and Quanzheng Li . Rbc semantic segmentation for sickle cell disease based on deformable u-net. In Medical Image Computing and Computer Assisted Intervention\u2013MICCAI 2018: 21st International Conference, Granada, Spain, September 16-20, 2018, Proceedings, Part IV 11, pages 695\u2013702. Springer, 2018.",
+        "DOI": "10.1007/978-3-030-00937-3_79"
+      },
+      {
+        "issue": "11",
+        "key": "2025102419351326000_2025.10.20.683505v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "3095",
+        "DOI": "10.1109/JBHI.2020.3000484",
+        "article-title": "Automated semantic segmentation of red blood cells for sickle cell disease",
+        "volume": "24",
+        "year": "2020",
+        "journal-title": "IEEE journal of biomedical and health informatics"
+      },
+      {
+        "issue": "2",
+        "key": "2025102419351326000_2025.10.20.683505v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1007/s42979-021-00458-2",
+        "article-title": "Red blood cell classification using image processing and cnn",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "SN Computer Science"
+      },
+      {
+        "issue": "2",
+        "key": "2025102419351326000_2025.10.20.683505v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.3390/diagnostics12020248",
+        "article-title": "An efficient multi-level convolutional neural network approach for white blood cells classification",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan Ha , Zeyu Du , and Junfeng Tian . Fine-grained interactive attention learning for semisupervised white blood cell classification. Biomedical Signal Processing and Control, 75:103611, 2022.",
+        "DOI": "10.1016/j.bspc.2022.103611"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.39",
+        "unstructured": "Glenn Jocher , Ayush Chaurasia , and Jing Qiu . YOLO by Ultralytics, January 2023."
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yunfeng Yang and Jiaqi Wang . Research on breast cancer pathological image classification method based on wavelet transform and yolov8. Journal of X-Ray Science and Technology, pages 1\u201311, 2024.",
+        "DOI": "10.3233/XST-230296"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N Palanivel , S Deivanai , B Sindhuja , et al. The art of yolov8 algorithm in cancer diagnosis using medical imaging. In 2023 International Conference on System, Computation, Automation and Networking (ICSCAN), pages 1\u20136. IEEE, 2023.",
+        "DOI": "10.1109/ICSCAN58655.2023.10395046"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "106611",
+        "DOI": "10.1016/j.bspc.2024.106611",
+        "article-title": "Quadratic convolution-based yolov8 (q-yolov8) for localization of intracranial hemorrhage from head ct images",
+        "volume": "96",
+        "year": "2024",
+        "journal-title": "Biomedical Signal Processing and Control"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.43",
+        "first-page": "7",
+        "article-title": "Detection, classification, and counting blood cells using yolov8",
+        "volume": "15",
+        "year": "2023",
+        "journal-title": "International Journal of Computer Information Systems and Industrial Management Applications"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Chen , Z. Wu , and X. Zhang . Nbcdc-yolov8: A new framework to improve blood cell detection and classification based on yolov8. IET Computer Vision, 2024.",
+        "DOI": "10.1049/cvi2.12341"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.45",
+        "unstructured": "D. T. Duong et al. Detection, classification, and counting of white blood cells using yolov8. International Journal of Computational Intelligence and Simulation, 2023."
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.46",
+        "article-title": "Early diagnosis of acute lymphoblastic leukemia using yolov8 and yolov11 deep learning models",
+        "year": "2024",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexander Kirillov , Eric Mintun , Nikhila Ravi , Hanzi Mao , Chloe Rolland , Laura Gustafson , Tete Xiao , Spencer Whitehead , Alexander C Berg , Wan-Yen Lo , et al. Segment anything. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 4015\u20134026, 2023.",
+        "DOI": "10.1109/ICCV51070.2023.00371"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770\u2013778, 2016.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao Huang , Zhuang Liu , Laurens Van Der Maaten , and Kilian Q. Weinberger. Densely connected convolutional networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2261\u20132269, 2017.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.50",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "volume": "25",
+        "year": "2012",
+        "journal-title": "In Advances in Neural Information Processing Systems (NeurIPS)"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.51",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "year": "2015",
+        "journal-title": "In International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.52",
+        "article-title": "An image is worth 16\u00d716 words: Transformers for image recognition at scale",
+        "year": "2021",
+        "journal-title": "International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.53",
+        "unstructured": "Mingxing Tan and Quoc Le . Efficientnet: Rethinking model scaling for convolutional neural networks. In International conference on machine learning, pages 6105\u20136114. PMLR, 2019."
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.54",
+        "unstructured": "Glenn Jocher , Ayush Chaurasia , and Jing Qiu . YOLO by ultralytics. https://github.com/ultralytics/ultralytics, 2023."
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.55",
+        "first-page": "618",
+        "article-title": "Grad-cam: Visual explanations from deep networks via gradientbased localization",
+        "volume": "2017",
+        "year": "2017",
+        "journal-title": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nigel Mackman and Yohei Hisada . Circulating tumor cells and cancer-associated venous thrombosis: a missing link, 2023.",
+        "DOI": "10.1161/ATVBAHA.122.318715"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/ajpcell.00315.2014"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.58",
+        "first-page": "1",
+        "article-title": "Platelets, immune cells and the coagulation cascade; friend or foe of the circulating tumour cell?",
+        "volume": "20",
+        "year": "2021",
+        "journal-title": "Molecular cancer"
+      },
+      {
+        "issue": "7",
+        "key": "2025102419351326000_2025.10.20.683505v1.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "2653",
+        "DOI": "10.3390/ijms21072653",
+        "article-title": "Circulating tumor cell clusters: united we stand divided we fall",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "International journal of molecular sciences"
+      },
+      {
+        "issue": "13",
+        "key": "2025102419351326000_2025.10.20.683505v1.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "3397",
+        "DOI": "10.3390/cancers15133397",
+        "article-title": "Association of circulating tumor cells, megakaryocytes and a high immune-inflammatory environment in metastatic breast cancer",
+        "volume": "15",
+        "year": "2023",
+        "journal-title": "Cancers"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yoshiaki Yasumizu , Daiki Takeuchi , Reo Morimoto , Yusuke Takeshima , Tatsusada Okuno , Makoto Kinoshita , Takayoshi Morita , Yasuhiro Kato , Min Wang , Daisuke Motooka , et al. Single-cell transcriptome landscape of circulating cd4+ t cell populations in autoimmune diseases. Cell Genomics, 4(2), 2024.",
+        "DOI": "10.1016/j.xgen.2023.100473"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-022-00693-5"
+      },
+      {
+        "issue": "3",
+        "key": "2025102419351326000_2025.10.20.683505v1.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009892",
+        "DOI": "10.1371/journal.pcbi.1009892",
+        "article-title": "Multiphysics and multiscale modeling of microthrombosis in covid-19",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "issue": "18",
+        "key": "2025102419351326000_2025.10.20.683505v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "3309",
+        "DOI": "10.1016/j.bpj.2022.08.031",
+        "article-title": "Circulating cell clusters aggravate the hemorheological abnormalities in covid-19",
+        "volume": "121",
+        "year": "2022",
+        "journal-title": "Biophysical Journal"
+      },
+      {
+        "issue": "6",
+        "key": "2025102419351326000_2025.10.20.683505v1.65",
+        "doi-asserted-by": "crossref",
+        "first-page": "4891",
+        "DOI": "10.3892/ol.2016.5358",
+        "article-title": "A circulating tumor cell cluster-based model for tumor metastasis (hypothesis)",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "Oncology letters"
+      },
+      {
+        "issue": "11",
+        "key": "2025102419351326000_2025.10.20.683505v1.66",
+        "doi-asserted-by": "crossref",
+        "first-page": "1020",
+        "DOI": "10.1016/j.trecan.2021.07.001",
+        "article-title": "Better together: circulating tumor cell clustering in metastatic cancer",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "Trends in cancer"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/0008-5472.CAN-17-2748"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2014.07.013"
+      },
+      {
+        "issue": "1",
+        "key": "2025102419351326000_2025.10.20.683505v1.69",
+        "first-page": "5",
+        "article-title": "Flow cytometry: an overview",
+        "volume": "120",
+        "year": "2018",
+        "journal-title": "Current protocols in immunology"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1759(00)00234-9"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.71",
+        "first-page": "380",
+        "article-title": "An introduction to automated flow cytometry gating tools and their implementation",
+        "volume": "6",
+        "year": "2015",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.72",
+        "first-page": "164",
+        "article-title": "High throughput automated analysis of big flow cytometry data",
+        "volume": "134",
+        "year": "2018",
+        "journal-title": "Methods"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.73",
+        "doi-asserted-by": "crossref",
+        "first-page": "1177932219838851",
+        "DOI": "10.1177/1177932219838851",
+        "article-title": "Highthroughput analysis of clinical flow cytometry data by automated gating",
+        "volume": "13",
+        "year": "2019",
+        "journal-title": "Bioinformatics and biology insights"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1007/s12026-014-8519-y",
+        "article-title": "Autogate: automating analysis of flow cytometry data",
+        "volume": "58",
+        "year": "2014",
+        "journal-title": "Immunologic research"
+      },
+      {
+        "issue": "4",
+        "key": "2025102419351326000_2025.10.20.683505v1.75",
+        "first-page": "606",
+        "article-title": "flowdensity: reproducing manual gating of flow cytometry data by automated density-based cell population identification",
+        "volume": "31",
+        "year": "2014",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "2",
+        "key": "2025102419351326000_2025.10.20.683505v1.76",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1002/cyto.a.23664",
+        "article-title": "Implementation and validation of an automated flow cytometry analysis pipeline for human immune profiling",
+        "volume": "95",
+        "year": "2019",
+        "journal-title": "Cytometry Part A"
+      },
+      {
+        "issue": "18",
+        "key": "2025102419351326000_2025.10.20.683505v1.77",
+        "doi-asserted-by": "crossref",
+        "first-page": "3583",
+        "DOI": "10.1039/D1LC00454A",
+        "article-title": "Simultaneous biochemical and functional phenotyping of single circulating tumor cells using ultrahigh throughput and recovery microfluidic devices",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Lab on a Chip"
+      },
+      {
+        "issue": "12",
+        "key": "2025102419351326000_2025.10.20.683505v1.78",
+        "doi-asserted-by": "crossref",
+        "first-page": "8683",
+        "DOI": "10.1021/acsnano.3c09450",
+        "article-title": "Ctc-race: Single-cell motility assay of circulating tumor cells from metastatic lung cancer patients",
+        "volume": "18",
+        "year": "2024",
+        "journal-title": "ACS nano"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1203543"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2016.11.037"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12032-016-0859-0"
+      },
+      {
+        "issue": "1",
+        "key": "2025102419351326000_2025.10.20.683505v1.82",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.1038/s41392-021-00817-8",
+        "article-title": "Circulating tumor cells: biology and clinical significance",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Signal transduction and targeted therapy"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C9LC00210C"
+      },
+      {
+        "key": "2025102419351326000_2025.10.20.683505v1.84",
+        "doi-asserted-by": "crossref",
+        "first-page": "109198",
+        "DOI": "10.1016/j.compbiomed.2024.109198",
+        "article-title": "Red blood cell passage through deformable interendothelial slits in the spleen: Insights into splenic filtration and hemodynamics",
+        "volume": "182",
+        "year": "2024",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2025102419351326000_2025.10.20.683505v1.85",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009728",
+        "DOI": "10.1371/journal.pcbi.1009728",
+        "article-title": "Computational investigation of blood cell transport in retinal microaneurysms",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "issue": "12",
+        "key": "2025102419351326000_2025.10.20.683505v1.86",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1011223",
+        "DOI": "10.1371/journal.pcbi.1011223",
+        "article-title": "A combined computational and experimental investigation of the filtration function of splenic macrophages in sickle cell disease",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "175",
+        "key": "2025102419351326000_2025.10.20.683505v1.87",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200834",
+        "DOI": "10.1098/rsif.2020.0834",
+        "article-title": "Integrating blood cell mechanics, platelet adhesive dynamics and coagulation cascade for modelling thrombus formation in normal and diabetic blood",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "Journal of the Royal Society Interface"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.20.683505",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T09:51:55Z",
+      "timestamp": 1768470715000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.20.683505"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 87,
+    "URL": "https://doi.org/10.1101/2025.10.20.683505",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:20:06Z",
+      "timestamp": 1768551606628,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          5
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Mendelian randomization (MR) is a statistical method exploiting genetic variants as instrumental variables to estimate the causal effect of modifiable risk factors on an outcome of interest. Despite wide uses of various popular two-sample MR methods based on genome-wide association study summary level data, however, those methods could suffer from potential power loss or/and biased inference when the chosen genetic variants are in linkage disequilibrium (LD), and also have relatively large direct effects on the outcome whose distribution might be heavy-tailed which is commonly referred to as the idiosyncratic pleiotropy phenomenon. To resolve those two issues, we propose a novel Robust Bayesian Mendelian Randomization (RBMR) model that uses the more robust multivariate generalized\n                  <jats:italic>t</jats:italic>\n                  -distribution (Arellano-Valle and Bolfarine, 1995) to model such direct effects in a probabilistic model framework which can also incorporate the LD structure explicitly. The generalized\n                  <jats:italic>t</jats:italic>\n                  -distribution can be represented as a Gaussian scaled mixture so that our model parameters can be estimated by the EM-type algorithms. We compute the standard errors by calibrating the evidence lower bound using the likelihood ratio test. Through extensive simulation studies, we show that our RBMR has robust performance compared to other competing methods. We also apply our RBMR method to two benchmark data sets and find that RBMR has smaller bias and standard errors. Using our proposed RBMR method, we find that coronary artery disease is associated with increased risk of critically ill coronavirus disease 2019 (COVID-19). We also develop a user-friendly R package\n                  <jats:italic>RBMR</jats:italic>\n                  (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/AnqiWang2021/RBMR\">https://github.com/AnqiWang2021/RBMR</jats:ext-link>\n                  ) for public use.\n                </jats:p>",
+    "DOI": "10.1101/2021.03.02.21252801",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          5
+        ]
+      ],
+      "date-time": "2021-03-05T17:40:13Z",
+      "timestamp": 1614966013000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Two-Sample Robust Bayesian Mendelian Randomization Method Accounting for Linkage Disequilibrium and Idiosyncratic Pleiotropy with Applications to the COVID-19 Outcome"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Anqi",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Zhonghua",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ala-Luhtala, J. and Pich\u00e9, R. (2016). Gaussian scale mixture models for robust linear multivariate regression with missing data. Communications in Statistics-Simulation and Computation, 45(3).",
+        "DOI": "10.1080/03610918.2013.875565"
+      },
+      {
+        "issue": "1",
+        "key": "2021033112102957000_2021.03.02.21252801v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1016/0167-7152(94)00208-P",
+        "article-title": "On some characterizations of the t-distribution",
+        "volume": "25",
+        "year": "1995",
+        "journal-title": "Statistics & Probability Letters"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.3",
+        "unstructured": "Beal, M. J. et al. (2003). Variational algorithms for approximate Bayesian inference. University of London London."
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv546"
+      },
+      {
+        "issue": "528",
+        "key": "2021033112102957000_2021.03.02.21252801v2.5",
+        "first-page": "859",
+        "article-title": "Variational inference: A review for statisticians",
+        "volume": "112",
+        "year": "2017",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2291055"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyv080"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gepi.21758"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.9",
+        "unstructured": "Cheng, Q. , Yang, Y. , Shi, X. , Yeung, K.-F. , Yang, C. , Peng, H. , and Liu, J. (2020). MR-LDP: a two-sample mendelian randomization for gwas summary statistics accounting for linkage disequilibrium and horizontal pleiotropy. NAR Genomics and Bioinformatics, 2(2):qaa028."
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature11632"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.782"
+      },
+      {
+        "issue": "18",
+        "key": "2021033112102957000_2021.03.02.21252801v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2882",
+        "DOI": "10.1093/bioinformatics/btx314",
+        "article-title": "IGESS: a statistical approach to integrating individual-level genotype data and summary statistics in genome-wide association studies",
+        "volume": "33",
+        "year": "2017",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1977.tb01600.x"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00439-007-0448-6"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature10405"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1003919"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-genom-090314-050016"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.18",
+        "unstructured": "Frahm, G. (2004). Generalized elliptical distributions: theory and applications. PhD thesis, Universit\u00e4tsbibliothek."
+      },
+      {
+        "issue": "4",
+        "key": "2021033112102957000_2021.03.02.21252801v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1198/073500108000000024",
+        "article-title": "Estimation with many instrumental variables",
+        "volume": "26",
+        "year": "2008",
+        "journal-title": "Journal of Business & Economic Statistics"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hemani, G. , Zheng, J. , Wade, K. H. , Laurin, C. , Elsworth, B. , Burgess, S. , Bowden, J. , Langdon, R. , Tan, V. , Yarmolinsky, J. , et al. (2016). MR-Base: a platform for systematic causal inference across the phenome using billions of genetic associations. BioRxiv, page 078972.",
+        "DOI": "10.1101/078972"
+      },
+      {
+        "issue": "6",
+        "key": "2021033112102957000_2021.03.02.21252801v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "715",
+        "DOI": "10.1038/s41431-020-0636-6",
+        "article-title": "The covid-19 host genetics initiative, a global initiative to elucidate the role of host genetic factors in susceptibility and severity of the sars-cov-2 virus pandemic",
+        "volume": "28",
+        "year": "2020",
+        "journal-title": "European Journal of Human Genetics"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.22",
+        "unstructured": "Initiative, C.-. H. G. et al. (2021). Mapping the human genetic architecture of covid-19 by worldwide meta-analysis. MedRxiv."
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kotz, S. and Nadarajah, S. (2004). Multivariate t-distributions and their applications. Cambridge University Press.",
+        "DOI": "10.1017/CBO9780511550683"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.3034"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/85.4.755"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14177"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1133"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martens, E. P. , Pestman, W. R. , de Boer, A. , Belitser, S. V. , and Klungel, O. H. (2006). Instrumental variables: application and limitations. Epidemiology, pages 260\u2013267.",
+        "DOI": "10.1097/01.ede.0000215160.88317.cb"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3570"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/519795"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/ass025"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.784"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg3461"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.34",
+        "unstructured": "Van der Vaart, A. W. (2000). Asymptotic Statistics, volume 3. Cambridge University Press."
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-018-0099-7"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.36",
+        "unstructured": "Wang, B. and Titterington, D. (2005). Inadequacy of interval estimates corresponding variational bayesian approximations. In AISTATS. Citeseer."
+      },
+      {
+        "issue": "1",
+        "key": "2021033112102957000_2021.03.02.21252801v2.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1186/s12864-018-4851-2",
+        "article-title": "LPG: A four-group probabilistic approach to leveraging pleiotropy in genome-wide association studies",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "issue": "7",
+        "key": "2021033112102957000_2021.03.02.21252801v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "2009",
+        "DOI": "10.1093/bioinformatics/btz880",
+        "article-title": "CoMM-S2: a collaborative mixed model using summary statistics in transcriptome-wide association studies",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "5",
+        "key": "2021033112102957000_2021.03.02.21252801v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1501",
+        "DOI": "10.1093/bioinformatics/btz749",
+        "article-title": "Bayesian weighted mendelian randomization for causal inference based on summary statistics",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2021033112102957000_2021.03.02.21252801v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/19-aos1866"
+      },
+      {
+        "issue": "3",
+        "key": "2021033112102957000_2021.03.02.21252801v2.41",
+        "first-page": "1561",
+        "article-title": "Bayesian large-scale multiple regression with summary statistics from genome-wide association studies",
+        "volume": "11",
+        "year": "2017",
+        "journal-title": "The Annals of Applied Statistics"
+      },
+      {
+        "issue": "1",
+        "key": "2021033112102957000_2021.03.02.21252801v2.42",
+        "first-page": "1",
+        "article-title": "Causal associations between risk factors and common diseases inferred from gwas summary data",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nature Communications"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.02.21252801",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:09:08Z",
+      "timestamp": 1768486148000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.03.02.21252801"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          5
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2021.03.02.21252801",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1002/gepi.22445",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

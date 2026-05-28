@@ -1,0 +1,460 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:52:13Z",
+      "timestamp": 1768553533506,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          10
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Forecasting infection case counts and estimating accurate epidemiological parameters are critical components of managing the response to a pandemic. This paper describes a modular, extensible framework for a COVID-19 forecasting system, primarily deployed during the first Covid wave in Mumbai and Jharkhand, India. We employ a variant of the SEIR compartmental model motivated by the nature of the available data and operational constraints. We estimate best fit parameters using Sequential Model-Based Optimization (SMBO), and describe the use of a novel, fast and approximate Bayesian model averaging method (ABMA) for parameter uncertainty estimation that compares well with a more rigorous Markov Chain Monte Carlo (MCMC) approach in practice. We address on-the-ground deployment challenges such as spikes in the reported input data using a novel weighted smoothing method. We describe extensive empirical analyses to evaluate the accuracy of our method on ground truth as well as against other state-of-the-art approaches. Finally, we outline deployment lessons and describe how inferred model parameters were used by government partners to interpret the state of the epidemic and how model forecasts were used to estimate staffing and planning needs essential for addressing COVID-19 hospital burden.</jats:p>\n                <jats:sec>\n                  <jats:title>CCS CONCEPTS</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Applied computing</jats:bold>\n                        \u2192\n                        <jats:bold>Health care information systems</jats:bold>\n                        ; Forecasting;\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Computing methodologies</jats:bold>\n                        \u2192\n                        <jats:italic>Modeling methodologies</jats:italic>\n                        .\n                      </jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2021.11.01.21260020",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2021-11-10T04:30:52Z",
+      "timestamp": 1636518652000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Flexible Data-Driven Framework for COVID-19 Case Forecasting Deployed in a Developing-world Public Health Setting"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3975-9108",
+        "authenticated-orcid": false,
+        "given": "Sansiddh",
+        "family": "Jain",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Avtansh",
+        "family": "Tiwari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nayana",
+        "family": "Bannur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ayush",
+        "family": "Deva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Siddhant",
+        "family": "Shingi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vishwa",
+        "family": "Shah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mihir",
+        "family": "Kulkarni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Namrata",
+        "family": "Deka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Keshav",
+        "family": "Ramaswami",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vasudha",
+        "family": "Khare",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Harsh",
+        "family": "Maheshwari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Soma",
+        "family": "Dhavala",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jithin",
+        "family": "Sreedharan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jerome",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7849-9743",
+        "authenticated-orcid": false,
+        "given": "Srujana",
+        "family": "Merugu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2689-3594",
+        "authenticated-orcid": false,
+        "given": "Alpan",
+        "family": "Raval",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.1",
+        "unstructured": "Reichlab UMass Amherst. 2020. COVID-19 Forecast Hub. https://github.com/reichlab/covid19-forecast-hub"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Balabdaoui and D. Mohr . 2020. Age-stratified model of the COVID-19 epidemic to analyze the impact of relaxing lockdown measures: nowcasting and forecasting for Switzerland. medRxiv (2020).",
+        "DOI": "10.1101/2020.05.08.20095059"
+      },
+      {
+        "issue": "58",
+        "key": "2021111207351130000_2021.11.01.21260020v1.3",
+        "first-page": "1705",
+        "article-title": "Clustering with Bregman Divergences",
+        "volume": "6",
+        "author": "Banerjee",
+        "year": "2005",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Bannur et al. 2020. Synthetic Data Generation for Improved COVID-19 Epidemic Forecasting. medRxiv (2020).",
+        "DOI": "10.1101/2020.12.04.20243956"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.5",
+        "unstructured": "O. Barndorff-Nielsen . 1978. Information and Exponential Families in Statistical Theory. Wiley."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.6",
+        "unstructured": "J. Bergstra et al. 2011. Algorithms for Hyper-Parameter Optimization. In NeurIPS. 2546\u20132554."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.7",
+        "unstructured": "J. Bergstra et al. 2013. Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures. In Intl. conf. on machine learning. 115\u2013123."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2006520117"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0003808"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.10",
+        "unstructured": "Bhardwaj et al. 2020. Robust Lock-Down Optimization for COVID-19 Policy Guidance. In AAAI Fall Symposium."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "553",
+        "DOI": "10.3934/mbe.2012.9.553",
+        "article-title": "Parameter estimation and uncertainty quantification for an epidemic model",
+        "volume": "9",
+        "author": "Capaldi",
+        "year": "2012",
+        "journal-title": "Mathematical biosciences and engineering"
+      },
+      {
+        "issue": "3",
+        "key": "2021111207351130000_2021.11.01.21260020v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1016/j.idm.2017.08.001",
+        "article-title": "Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts",
+        "volume": "2",
+        "year": "2017",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.13",
+        "unstructured": "Covid19India. 2020. Coronavirus in India: Latest Map and Case Count. https://www.covid19india.org/"
+      },
+      {
+        "issue": "2",
+        "key": "2021111207351130000_2021.11.01.21260020v1.14",
+        "first-page": "269",
+        "article-title": "Conjugate Priors for Exponential Families",
+        "volume": "7",
+        "year": "1979",
+        "journal-title": "Ann. Statist"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0600816103"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.25750"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.17",
+        "unstructured": "Ferguson et al. 2020. Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.18",
+        "unstructured": "Center for Systems Science and Engineering at Johns Hopkins University. 2020. COVID-19 Data Repository. https://github.com/CSSEGISandData/COVID-19/"
+      },
+      {
+        "issue": "2",
+        "key": "2021111207351130000_2021.11.01.21260020v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006785",
+        "DOI": "10.1371/journal.pcbi.1006785",
+        "article-title": "Assessing the performance of real-time epidemic forecasts: A case study of Ebola in the Western Area region of Sierra Leone, 2014-15",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0883-7"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.21",
+        "unstructured": "IHME COVID-19 health service utilization forecasting team. 2020. Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries. medRxiv (2020)."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S0036144500371907"
+      },
+      {
+        "issue": "4",
+        "key": "2021111207351130000_2021.11.01.21260020v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1023/A:1012771025575",
+        "article-title": "A taxonomy of global optimization methods based on response surfaces",
+        "volume": "21",
+        "author": "Jones",
+        "year": "2001",
+        "journal-title": "J. of global optimization"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.24",
+        "unstructured": "Kaggle. 2020. COVID19 Global Forecasting. https://www.kaggle.com/c/covid19-global-forecasting-week-1"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1927.0118"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/ijmr.ijmr_504_20"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Massonis et al. 2020. Structural identifiability and observability of compart-mental models of the COVID-19 pandemic. Annu Rev Control (Dec 2020).",
+        "DOI": "10.1016/j.arcontrol.2020.12.001"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004064117"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.29",
+        "unstructured": "Covid Act Now. 2020. America\u2019s COVID warning system. https://covidactnow.org"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.30",
+        "year": "2020",
+        "journal-title": "Simulation of Covid-19 epidemic evolution: are compartmental models really predictive?"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.31",
+        "first-page": "1761",
+        "volume-title": "Handbook of Health Economics",
+        "volume": "1",
+        "year": "2000"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Roosa and G. Chowell . 2019. Assessing parameter identifiability in compart-mental dynamic models using a computational approach: application to infectious disease transmission models. Theor. Biol. Medical Model. 16 (Jan 2019).",
+        "DOI": "10.1186/s12976-018-0097-6"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "110173",
+        "DOI": "10.1016/j.chaos.2020.110173",
+        "article-title": "A mathematical model for COVID-19 transmission dynamics with a case study of India",
+        "volume": "140",
+        "year": "2020",
+        "journal-title": "Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.34",
+        "first-page": "1",
+        "article-title": "Mathematical modeling of COVID-19 spreading with asymptomatic infected and interacting peoples",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "J. Appl. Math. Comput"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1186/s12879-017-2365-1",
+        "article-title": "A Framework for Evaluating Epidemic Forecasts",
+        "volume": "17",
+        "year": "2017",
+        "journal-title": "BMC Infectious Diseases"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.36",
+        "unstructured": "N. Thakkar et al. 2020. Social distancing and mobility reductions have reduced COVID-19 transmission in King County, WA. Institute for Disease Modeling."
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc0035"
+      },
+      {
+        "key": "2021111207351130000_2021.11.01.21260020v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2010651117"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.01.21260020",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:28:47Z",
+      "timestamp": 1768487327000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.11.01.21260020"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          10
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2021.11.01.21260020",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:24:41Z",
+      "timestamp": 1768490681474,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          9
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 28,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2020-10-09T00:00:00Z",
+          "timestamp": 1602201600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>BACKGROUND</jats:title>\n                  <jats:p>Since the first reports of COVID-19, decision-makers have been using traditional epidemiological models to predict the days to come. However, the enhancement of computational power, the demand for adaptable predictive frameworks, the short past of the disease, and uncertainties related to input data and prediction rules, also make other classical and machine learning techniques viable options.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>OBJECTIVE</jats:title>\n                  <jats:p>This study investigates the efficiency of six models in forecasting COVID-19 confirmed cases with 17 days ahead. We compare the models autoregressive integrated moving average (ARIMA), Holt-Winters, support vector regression (SVR), k-nearest neighbors regressor (KNN), random trees regressor (RTR), seasonal linear regression with change-points (Prophet), and simple logistic regression (SLR).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>MATERIAL AND METHODS</jats:title>\n                  <jats:p>We implement the models to data provided by the health surveillance secretary of Amap\u00e1a, a Brazilian state fully carved in the Amazon rainforest, which has been experiencing high infection rates. We evaluate the models according to their capacity to forecast in different historical scenarios of the COVID-19 progression, such as exponential increases, sudden decreases, and stability periods of daily cases. To do so, we use a rolling forward splitting approach for out-of-sample validation. We employ the metrics RMSE, R-squared, and sMAPE in evaluating the model in different cross-validation sections.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>FINDINGS</jats:title>\n                  <jats:p>All models outperform SLG, especially Holt-Winters, that performs satisfactorily in all scenarios. SVR and ARIMA have better performances in isolated scenarios. To implement the comparisons, we have created a web application, which is available online.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>CONCLUSION</jats:title>\n                  <jats:p>This work represents an effort to assist the decision-makers of Amap\u00e1 in future decisions to come, especially under scenarios of sudden variations in the number of confirmed cases of Amap\u00e1, which would be caused, for instance, by new contamination waves or vaccination. It is also an attempt to highlight alternative models that could be used in future epidemics.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.10.09.332908",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2020-10-10T07:40:12Z",
+      "timestamp": 1602315612000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Forecasting COVID-19 cases at the Amazon region: a comparison of classical and machine learning models"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3872-0594",
+        "authenticated-orcid": false,
+        "given": "Dalton Garcia Borges",
+        "family": "de Souza",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1137-8346",
+        "authenticated-orcid": false,
+        "given": "Francisco Tarc\u00edsio",
+        "family": "Alves J\u00fanior",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nei Yoshihiro",
+        "family": "Soma",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.1",
+        "unstructured": "Organization WH, et al. Coronavirus disease 2019 (COVID-19): Situation Report \u2013 64. 2020;."
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.2",
+        "unstructured": "of Health of Brazil M. Painel Coronav\u00edrus. Coronav\u00edrus Brasil. 2020;."
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.3",
+        "unstructured": "Max Roser EOO Hannah Ritchie, Hasell J. Coronavirus Pandemic (COVID-19). Our World in Data. 2020;."
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro MHDM , da Silva RG , Mariani VC , dos Santos Coelho L. Short-term forecasting COVID-19 cumulative confirmed cases: Perspectives for Brazil. Chaos, Solitons & Fractals. 2020; p. 109853.",
+        "DOI": "10.1016/j.chaos.2020.109853"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang X , Ma R , Wang L. Predicting turning point, duration and attack rate of COVID-19 outbreaks in major Western countries. Chaos, Solitons & Fractals. 2020; p. 109829.",
+        "DOI": "10.1016/j.chaos.2020.109829"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.6",
+        "article-title": "Modeling and forecasting the Covid-19 pandemic in Brazil",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "da Cruz PA , Cruz LCC . Mathematical Modeling and Epidemic Prediction of COVID-19 of the State of S\u00e3o Paulo, Brazil. International Journal of Advanced Engineering Research and Science. 2020;7(5).",
+        "DOI": "10.22161/ijaers.75.42"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang P , Zheng X , Li J , Zhu B. Prediction of epidemic trends in COVID-19 with logistic model and machine learning technics. Chaos, Solitons & Fractals. 2020; p. 110058.",
+        "DOI": "10.1016/j.chaos.2020.110058"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "110027",
+        "DOI": "10.1016/j.chaos.2020.110027",
+        "article-title": "Forecasting Brazilian and American COVID-19 cases based on artificial intelligence coupled with climatic exogenous variables",
+        "volume": "139",
+        "year": "2020",
+        "journal-title": "Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.10",
+        "unstructured": "Justen A. COVID-19: coronavirus newsletters and cases by municipality per day. Brasilio. 2020;."
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kaplan HS , Trumble BC , Stieglitz J , Mamany RM , Cayuba MG , Moye LM , et al. Voluntary collective isolation as a best response to COVID-19 for indigenous populations? A case study and protocol from the Bolivian Amazon. The Lancet. 2020;.",
+        "DOI": "10.1016/S0140-6736(20)31104-1"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.12",
+        "unstructured": "Box GE , Jenkins GM , Reinsel GC . Time series analysis: forecasting and control. vol. 734. John Wiley & Sons; 2011."
+      },
+      {
+        "issue": "3",
+        "key": "2024080419302326000_2020.10.09.332908v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1080/07350015.1995.10524598",
+        "article-title": "Are seasonal patterns constant over time? A test for seasonal stability",
+        "volume": "13",
+        "year": "1995",
+        "journal-title": "Journal of Business & Economic Statistics"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Benvenuto D , Giovanetti M , Vassallo L , Angeletti S , Ciccozzi M. Application of the ARIMA model on the COVID-2019 epidemic dataset. Data in brief. 2020; p. 105340.",
+        "DOI": "10.1016/j.dib.2020.105340"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ceylan Z. Estimation of COVID-19 prevalence in Italy, Spain, and France. Science of The Total Environment. 2020; p. 138817.",
+        "DOI": "10.1016/j.scitotenv.2020.138817"
+      },
+      {
+        "issue": "2",
+        "key": "2024080419302326000_2020.10.09.332908v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e19115",
+        "DOI": "10.2196/19115",
+        "article-title": "Prediction of the COVID-19 pandemic for the top 15 affected countries: Advanced autoregressive integrated moving average (ARIMA) model",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "JMIR public health and surveillance"
+      },
+      {
+        "issue": "1",
+        "key": "2024080419302326000_2020.10.09.332908v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1016/j.ijforecast.2003.09.015",
+        "article-title": "Forecasting seasonals and trends by exponentially weighted moving averages",
+        "volume": "20",
+        "year": "2004",
+        "journal-title": "International journal of forecasting"
+      },
+      {
+        "issue": "3",
+        "key": "2024080419302326000_2020.10.09.332908v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "324",
+        "DOI": "10.1287/mnsc.6.3.324",
+        "article-title": "Forecasting sales by exponentially weighted moving averages",
+        "volume": "6",
+        "year": "1960",
+        "journal-title": "Management science"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Panda M. Application of ARIMA and Holt-Winters forecasting model to predict the spreading of COVID-19 for India and its states. medRxiv. 2020;.",
+        "DOI": "10.1101/2020.07.14.20153908"
+      },
+      {
+        "issue": "3",
+        "key": "2024080419302326000_2020.10.09.332908v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0231236",
+        "DOI": "10.1371/journal.pone.0231236",
+        "article-title": "Forecasting the novel coronavirus COVID-19",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vapnik VN . The nature of statistical learning theory. 1995;.",
+        "DOI": "10.1007/978-1-4757-2440-0"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.22",
+        "unstructured": "Drucker H , Burges CJ , Kaufman L , Smola AJ , Vapnik V. Support vector regression machines. In: Advances in neural information processing systems; 1997. p. 155\u2013161."
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rustam F , Reshi AA , Mehmood A , Ullah S , On B , Aslam W , et al. COVID-19 Future Forecasting Using Supervised Machine Learning Models. IEEE Access. 2020;.",
+        "DOI": "10.1109/ACCESS.2020.2997311"
+      },
+      {
+        "issue": "1",
+        "key": "2024080419302326000_2020.10.09.332908v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.33558/piksel.v8i1.2024",
+        "article-title": "COVID-19 Spread Pattern Using Support Vector Regression",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "PIKSEL: Penelitian Ilmu Komputer Sistem Embedded and Logic"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2685209"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781107415324.004"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ye\u015filkanat CM . Spatio-temporal estimation of the daily cases of COVID-19 in worldwide using random forest machine learning algorithm. Chaos, Solitons & Fractals. 2020; p. 110210.",
+        "DOI": "10.1016/j.chaos.2020.110210"
+      },
+      {
+        "key": "2024080419302326000_2020.10.09.332908v1.28",
+        "first-page": "11",
+        "article-title": "Outbreak prediction of covid-19 in most susceptible countries",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Global Journal of Environmental Science and Management"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.09.332908",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:55:46Z",
+      "timestamp": 1768438546000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.10.09.332908"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          9
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1101/2020.10.09.332908",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

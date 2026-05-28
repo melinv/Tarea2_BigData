@@ -1,0 +1,933 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:21:36Z",
+      "timestamp": 1768551696525,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 100,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The global COVID-19 pandemic has accelerated the development of numerous digital technologies in medicine from telemedicine to remote monitoring. Concurrently, the pandemic has resulted in huge pressures on healthcare systems. Medical imaging (MI) from chest radiographs to computed tomography and ultrasound of the thorax have played an important role in the diagnosis and management of the coronavirus infection.</jats:p>\n                <jats:p>We conducted the, to date, largest systematic review of the literature addressing the utility of Artificial Intelligence (AI) in MI for COVID-19 management. Through keyword matching on PubMed and preprint servers, including arXiv, bioRxiv and medRxiv, 463 papers were selected for a meta-analysis, with manual reviews to assess the clinical relevance of AI solutions. Further, we evaluated the maturity of the papers based on five criteria assessing the state of the field: peer-review, patient dataset size and origin, algorithmic complexity, experimental rigor and clinical deployment.</jats:p>\n                <jats:p>In 2020, we identified 4977 papers on MI in COVID-19, of which 872 mentioned the term AI. 2039 papers of the 4977 were specific to imaging modalities with a majority of 83.8% focusing on CT, while 10% involved CXR and 6.2% used LUS. Meanwhile, the AI literature predominantly analyzed CXR data (49.7%), with 38.7% using CT and 1.5% LUS. Only a small portion of the papers were judged as mature (2.7 %). 71.9% of AI papers centered on disease detection.</jats:p>\n                <jats:p>This review evidences a disparity between clinicians and the AI community, both in the focus on imaging modalities and performed tasks. Therefore, in order to develop clinically relevant AI solutions, rigorously validated on large-scale patient data, we foresee a need for improved collaboration between the two communities ensuring optimal outcomes and allocation of resources. AI may aid clinicians and radiologists by providing better tools for localization and quantification of disease features and changes thereof, and, with integration of clinical data, may provide better diagnostic performance and prognostic value.</jats:p>",
+    "DOI": "10.1101/2020.09.02.20187096",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2020-09-09T16:26:00Z",
+      "timestamp": 1599668760000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "On the Role of Artificial Intelligence in Medical Imaging of COVID-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8307-5670",
+        "authenticated-orcid": false,
+        "given": "Jannis",
+        "family": "Born",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Beymer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Deepta",
+        "family": "Rajan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0520-7612",
+        "authenticated-orcid": false,
+        "given": "Adam",
+        "family": "Coy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vandana V.",
+        "family": "Mukherjee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8872-0269",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Manica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6799-4909",
+        "authenticated-orcid": false,
+        "given": "Prasanth",
+        "family": "Prasanna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Deddeh",
+        "family": "Ballah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0777-0011",
+        "authenticated-orcid": false,
+        "given": "Michal",
+        "family": "Guindy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2654-0967",
+        "authenticated-orcid": false,
+        "given": "Dorith",
+        "family": "Shaham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9052-4638",
+        "authenticated-orcid": false,
+        "given": "Pallav L.",
+        "family": "Shah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3231-7267",
+        "authenticated-orcid": false,
+        "given": "Emmanouil",
+        "family": "Karteris",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0433-7965",
+        "authenticated-orcid": false,
+        "given": "Jan L.",
+        "family": "Robertus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5044-8012",
+        "authenticated-orcid": false,
+        "given": "Maria",
+        "family": "Gabrani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7616-9724",
+        "authenticated-orcid": false,
+        "given": "Michal",
+        "family": "Rosen-Zvi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Dong et al., \u201cThe role of imaging in the detection and management of COVID-19: a review,\u201d IEEE Rev. Biomed. Eng., 2020.",
+        "DOI": "10.1109/RBME.2020.2990959"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/joim.13091"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rubin, G.D. , Ryerson, C.J. , Haramati, L.B. , Sverzellati, N. , Kanne, J.P. , Raoof, S. , Schluger, N.W. , Volpi, A. , Yim, J.J. , Martin, I.B. and Anderson, D.J. , 2020. The role of chest imaging in patient management during the COVID-19 pandemic: a multinational consensus statement from the Fleischner Society. Chest.",
+        "DOI": "10.1148/radiol.2020201365"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.4",
+        "unstructured": "American College of Radiology, 2020. ACR recommendations for the use of chest radiography and computed tomography (CT) for suspected COVID-19 infection. ACR website. Advocacy-and Economics/ACR-Position-Statements/Recommendations-for-Chest-Radiography-and-CTfor-Suspected-COVID19-Infection. Updated March, 22."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Lomoro et al., \u201cCOVID-19 pneumonia manifestations at the admission on chest ultrasound, radiographs, and CT: single-center study and comprehensive radiologic literature review,\u201d European journal of radiology open, 2020.",
+        "DOI": "10.1016/j.ejro.2020.100231"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Shi , Feng and Wang, Jun and Shi, Jun and Wu, Ziyan and Wang, Qian and Tang, Zhenyu and He, Kelei and Shi, Yinghuan and Shen, \u201cReview of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for covid-19,\u201d IEEE Rev. Biomed. Eng., 2020",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.7",
+        "unstructured": "L. Wynants et al., \u201cPrediction models for diagnosis and prognosis of covid-19: Systematic review and critical appraisal,\u201d BMJ, vol. 369, p. 18, Apr. 20."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.8",
+        "first-page": "e255",
+        "article-title": "An awakening in medicine: the partnership of humanity and intelligent machines",
+        "volume": "1.6",
+        "year": "2019",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "issue": "3",
+        "key": "2021040110301340000_2020.09.02.20187096v3.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e138",
+        "DOI": "10.1016/S2589-7500(20)30003-0",
+        "article-title": "Changes in cancer detection and false-positive recall in mammography using artificial intelligence: a retrospective, multireader study",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit. Heal"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2019182622"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1799-6"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.12",
+        "first-page": "357",
+        "volume-title": "Clinical Radiology",
+        "volume": "74, no. 5",
+        "year": "2019"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Halling-Brown, Mark D. , et al. \u201cOPTIMAM Mammography Image Database: A Large-Scale Resource of Mammography Images and Clinical Data.\u201d Radiology: Artificial Intelligence (2020): e200103.",
+        "DOI": "10.1148/ryai.2020200103"
+      },
+      {
+        "issue": "01",
+        "key": "2021040110301340000_2020.09.02.20187096v3.14",
+        "first-page": "590",
+        "article-title": "CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-019-0447-x"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrad.2019.02.038"
+      },
+      {
+        "issue": "1",
+        "key": "2021040110301340000_2020.09.02.20187096v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e23811",
+        "DOI": "10.2196/23811",
+        "article-title": "Role of Machine Learning Techniques to Tackle the COVID-19 Crisis: Systematic Review",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "JMIR medical informatics"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e313",
+        "DOI": "10.7717/peerj-cs.313",
+        "article-title": "Early survey with bibliometric analysis on machine learning approaches in controlling COVID-19 outbreaks",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "PeerJ Computer Science"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.19",
+        "unstructured": "Albahri, O. S. , et al. \u201cSystematic review of artificial intelligence techniques in the detection and classification of COVID-19 medical images in terms of evaluation and benchmarking: Taxonomy analysis, challenges, future solutions and methodological aspects.\u201d Journal of infection and public health (2020)."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0968-3"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.1000097"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.22",
+        "unstructured": "Barbosa Jr , Eduardo J. Mortani , et al. \u201cAutomated Detection and Quantification of COVID-19 Airspace Disease on Chest Radiographs: A Novel Approach Achieving Expert Radiologist-Level Performance Using a Deep Convolutional Neural Network Trained on Digital Reconstructed Radiographs From Computed Tomography\u2013Derived Ground Truth.\u201d Investigative radiology (2021)."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.23",
+        "unstructured": "Soares, Eduardo , et al. \u201cSARS-CoV-2 CT-scan dataset: A large dataset of real patients CT scans for SARS-CoV-2 identification.\u201d medRxiv (2020)."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.24",
+        "article-title": "Covid-19 image data collection: Prospective predictions are the future",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "672",
+        "DOI": "10.3390/app11020672",
+        "article-title": "Accelerating Detection of Lung Pathologies with Explainable Ultrasound Image Analysis",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Appl. Sci"
+      },
+      {
+        "issue": "6",
+        "key": "2021040110301340000_2020.09.02.20187096v3.26",
+        "first-page": "1360",
+        "article-title": "Clinically Applicable AI System for Accurate Diagnosis, Quantitative Measurements, and Prognosis of COVID-19 Pneumonia Using Computed Tomography",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "8",
+        "key": "2021040110301340000_2020.09.02.20187096v3.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1224",
+        "DOI": "10.1038/s41591-020-0931-3",
+        "article-title": "Artificial intelligence-enabled rapid diagnosis of patients with COVID-19",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.28",
+        "first-page": "101860",
+        "article-title": "AI-driven quantification, staging and outcome prediction of COVID-19 pneumonia",
+        "volume": "67",
+        "year": "2020",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "issue": "1",
+        "key": "2021040110301340000_2020.09.02.20187096v3.29",
+        "first-page": "1",
+        "article-title": "Development and evaluation of an artificial intelligence system for COVID-19 diagnosis",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "issue": "8",
+        "key": "2021040110301340000_2020.09.02.20187096v3.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2664",
+        "DOI": "10.1109/TMI.2020.2995108",
+        "article-title": "Relational modeling for robust and efficient pulmonary lobe segmentation in CT scans",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.31",
+        "first-page": "106897",
+        "article-title": "AI-assisted CT imaging analysis for COVID-19 screening: Building and deploying a medical AI system",
+        "volume": "98",
+        "year": "2020",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "issue": "4",
+        "key": "2021040110301340000_2020.09.02.20187096v3.32",
+        "first-page": "e200079",
+        "article-title": "Automated assessment and tracking of COVID-19 pulmonary disease severity on chest radiographs using convolutional siamese neural networks",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Artificial Intelligence"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai, H. X. , Wang, R. , Xiong, Z. , Hsieh, B. , Chang, K. , Halsey, K. , et al. Artificial Intelligence Augmentation of Radiologist Performance in Distinguishing COVID-19 from Pneumonia of Other Origin at Chest CT. Radiology. 2020; 296(3).",
+        "DOI": "10.1148/radiol.2020201491"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.34",
+        "unstructured": "Lessmann, N. , S\u00e1nchez, C. I. , Beenen, L. , Boulogne, L. H. , Brink, M. , Calli, E. , et al. Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence. Radiology. 2020; 202439."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.35",
+        "unstructured": "Zhang, Ran , et al. \u201cDiagnosis of covid-19 pneumonia using chest radiography: Value of artificial intelligence.\u201d Radiology (2020): 202944."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "109233",
+        "DOI": "10.1016/j.ejrad.2020.109233",
+        "article-title": "Development and clinical implementation of tailored image analysis tools for COVID-19 in the midst of the pandemic: The synergetic effect of an open, clinically embedded software development platform and machine learning",
+        "volume": "131",
+        "year": "2020",
+        "journal-title": "European Journal of Radiology"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.37",
+        "first-page": "101836",
+        "article-title": "Dual-branch combination network (DCN): Towards accurate diagnosis and lesion segmentation of COVID-19 using CT images",
+        "volume": "67",
+        "year": "2020",
+        "journal-title": "Medical image analysis"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/joim.13091"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. W. Tang , J. E. Schmitz , D. H. Persing , and C. W. Stratton , \u201cLaboratory diagnosis of COVID-19: Current issues and challenges,\u201d Journal of Clinical Microbiology, vol. 58, no. 6. American Society for Microbiology, 01- Jun-2020.",
+        "DOI": "10.1128/JCM.00512-20"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.40",
+        "unstructured": "T. Ai et al., \u201cCorrelation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases,\u201d Radiology, p. 200642, 2020."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. B. Mendel , J. T. Lee , and D. Rosman , \u201cCurrent Concepts Imaging in COVID-19 and the Challenges for Low and Middle Income Countries The Journal of Global Radiology Imaging findings,\u201d J. Glob. Radiol., 2020.",
+        "DOI": "10.7191/jgr.2020.1106"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.42",
+        "unstructured": "L. Li et al., \u201cArtificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct,\u201d Radiology, p. 200905, 2020."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Song et al., \u201cEnd-to-end automatic differentiation of the coronavirus disease 2019 (COVID-19) from viral pneumonia based on chest CT,\u201d Eur. J. Nucl. Med. Mol. Imaging, 2020.",
+        "DOI": "10.1007/s00259-021-05267-6"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri, Isaac , et al. \u201cUltra-low-dose chest CT imaging of COVID-19 patients using a deep residual neural network.\u201d European radiology (2020): 1\u201312.",
+        "DOI": "10.1007/s00330-020-07225-6"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.45",
+        "unstructured": "World Health Organization, \u201cUse of chest imaging in COVID-19: a rapid advice guide, 11 June 2020,\u201d 2020."
+      },
+      {
+        "issue": "2",
+        "key": "2021040110301340000_2020.09.02.20187096v3.46",
+        "first-page": "e200130",
+        "article-title": "Computed Tomographic Features and Short-term Prognosis of Coronavirus Disease 2019 (COVID-19) Pneumonia: A Single-Center Study from Kashan, Iran",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiol. Cardiothorac. Imaging, vol"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acra.2020.03.003"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2020.3001810"
+      },
+      {
+        "issue": "1",
+        "key": "2021040110301340000_2020.09.02.20187096v3.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.5152/dir.2020.20205",
+        "article-title": "Determination of disease severity in COVID-19 patients using deep learning in chest X-ray images",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Diagnostic and Interventional Radiology"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "101975",
+        "DOI": "10.1016/j.media.2021.101975",
+        "article-title": "Modality alignment contrastive learning for severity assessment of COVID-19 from lung ultrasound and clinical information",
+        "volume": "69",
+        "year": "2021",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "issue": "10",
+        "key": "2021040110301340000_2020.09.02.20187096v3.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1636",
+        "DOI": "10.1038/s41591-020-1051-9",
+        "article-title": "An inflammatory cytokine signature predicts COVID-19 severity and survival",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nature medicine"
+      },
+      {
+        "issue": "4",
+        "key": "2021040110301340000_2020.09.02.20187096v3.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/S1473-3099(20)30086-4",
+        "article-title": "Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Lancet Infect. Dis"
+      },
+      {
+        "issue": "4",
+        "key": "2021040110301340000_2020.09.02.20187096v3.53",
+        "first-page": "e200048",
+        "article-title": "Automated quantification of CT patterns associated with COVID-19 from chest CT",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Artificial Intelligence"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.54",
+        "article-title": "Comparative study of deep learning methods for the automatic segmentation of lung, lesion and lesion type in CT scans of COVID-19 patients",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "8",
+        "key": "2021040110301340000_2020.09.02.20187096v3.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "2653",
+        "DOI": "10.1109/TMI.2020.3000314",
+        "article-title": "A noise-robust framework for automatic segmentation of covid-19 pneumonia lesions from ct images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/eurheartj/ehu207"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2013-001964"
+      },
+      {
+        "issue": "7829",
+        "key": "2021040110301340000_2020.09.02.20187096v3.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "E14",
+        "DOI": "10.1038/s41586-020-2766-y",
+        "article-title": "Transparency and reproducibility in artificial intelligence",
+        "volume": "586",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.59",
+        "unstructured": "Yan, Li , et al. \u201cAn interpretable mortality prediction model for COVID-19 patients.\u201d Nature Machine Intelligence (2020): 1\u20136."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barish, Matthew , et al. \u201cExternal validation demonstrates limited clinical utility of the interpretable mortality prediction model for patients with COVID-19.\u201d Nature Machine Intelligence (2020): 1\u20133.",
+        "DOI": "10.1038/s42256-020-00254-2"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quanjel, Marian JR , et al. \u201cReplication of a mortality prediction model in Dutch patients with COVID-19.\u201d Nature Machine Intelligence (2020): 1\u20132.",
+        "DOI": "10.1038/s42256-020-00253-3"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dupuis, C. , et al. \u201cLimited applicability of a COVID-19 specific mortality prediction rule to the intensive care setting.\u201d Nature Machine Intelligence (2020): 1\u20133",
+        "DOI": "10.1038/s42256-020-00252-4"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.63",
+        "first-page": "2443",
+        "article-title": "The need for open source software in machine learning",
+        "volume": "8",
+        "year": "2007",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang, Xueping , et al. \u201cIntegrating blockchain for data sharing and collaboration in mobile healthcare applications.\u201d 2017 IEEE 28th annual international symposium on personal, indoor, and mobile radio communications (PIMRC). IEEE, 2017.",
+        "DOI": "10.1109/PIMRC.2017.8292361"
+      },
+      {
+        "issue": "2",
+        "key": "2021040110301340000_2020.09.02.20187096v3.65",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3298981",
+        "article-title": "Federated machine learning: Concept and applications",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "ACM Transactions on Intelligent Systems and Technology (TIST)"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qian, Feng , and Andrew Zhang . \u201cThe Value of Federated Learning During and Post COVID-19.\u201d International Journal for Quality in Health Care (2021).",
+        "DOI": "10.1093/intqhc/mzab010"
+      },
+      {
+        "issue": "1",
+        "key": "2021040110301340000_2020.09.02.20187096v3.67",
+        "doi-asserted-by": "crossref",
+        "first-page": "e24207",
+        "DOI": "10.2196/24207",
+        "article-title": "Federated Learning of Electronic Health Records to Improve Mortality Prediction in Hospitalized Patients With COVID-19: Machine Learning Approach",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "JMIR medical informatics"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.68",
+        "article-title": "Blockchain-federated-learning and deep learning models for covid-19 detection using ct imaging",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.69",
+        "article-title": "Experiments of federated learning for covid-19 chest x-ray images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "2021040110301340000_2020.09.02.20187096v3.70",
+        "doi-asserted-by": "crossref",
+        "first-page": "e24207",
+        "DOI": "10.2196/24207",
+        "article-title": "Federated Learning of Electronic Health Records to Improve Mortality Prediction in Hospitalized Patients With COVID-19: Machine Learning Approach",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "JMIR medical informatics"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.71",
+        "unstructured": "M. Castillo , \u201cThe industry of CT scanning.\u201d Am Soc Neuroradiology, 2012."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.72",
+        "unstructured": "H. Y. F. Wong et al., \u201cFrequency and Distribution of Chest Radiographic Findings in COVID-19 Positive Patients,\u201d Radiology, p. 201160, Mar. 2019."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. J. Smith , S. A. Hayward , S. M. Innes , and A. Miller , \u201cPoint-of-care lung ultrasound in patients with COVID-19--a narrative review,\u201d Anaesthesia, 2020.",
+        "DOI": "10.1111/anae.15082"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020203173"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Vetrugno et al., \u201cOur Italian experience using lung ultrasound for identification, grading and serial follow-up of severity of lung involvement for management of patients with COVID-19,\u201d Echocardiography, vol. 37, no. 4. Blackwell Publishing Inc., 2020.",
+        "DOI": "10.1111/echo.14664"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.76",
+        "unstructured": "E. M. S.-P. J.R. Pare , I. Camelo , K.C. Mayo , M.M. Leo , J.N. Dugas , K.P. Nelson , W.E. Baker , F. Shareef , R.N. Mitchell , M. Patrica , \u201cPoint-of-care Lung Ultrasound Is More Sensitive than Chest Radiograph for Evaluation of COVID-19,\u201d West. J. Emerg. Med. Integr. Emerg. Care with Popul. Heal., 2020"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.77",
+        "unstructured": "Lieveld, A. W. E. , et al. \u201cDiagnosing COVID-19 pneumonia in a pandemic setting: Lung Ultrasound versus CT (LUVCT) A multi-centre, prospective, observational study.\u201d ERJ Open Research (2020)."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ultrasmedbio.2020.07.003"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Tung-Chen et al., \u201cCorrelation between Chest Computed Tomography and Lung Ultrasonography in Patients with Coronavirus Disease 2019 (COVID-19),\u201d Ultrasound Med. Biol., vol. 0, no. 0, 2020",
+        "DOI": "10.1016/j.ultrasmedbio.2020.07.003"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Buonsenso , D. Pata , and A. Chiaretti , \u201cCOVID-19 outbreak: less stethoscope, more ultrasound,\u201d Lancet Respir. Med., 2020.",
+        "DOI": "10.1016/S2213-2600(20)30120-X"
+      },
+      {
+        "issue": "5",
+        "key": "2021040110301340000_2020.09.02.20187096v3.81",
+        "first-page": "e34.",
+        "volume-title": "The Lancet Respiratory Medicine",
+        "volume": "8",
+        "year": "2020"
+      },
+      {
+        "issue": "3",
+        "key": "2021040110301340000_2020.09.02.20187096v3.82",
+        "doi-asserted-by": "crossref",
+        "first-page": "e045120",
+        "DOI": "10.1136/bmjopen-2020-045120",
+        "article-title": "Development of a convolutional neural network to differentiate among the etiology of similar appearing pathological B lines on lung ultrasound: a deep learning study",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "BMJ open"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Lei , et al. \u201cSemi-Supervised Active Learning for COVID-19 Lung Ultrasound Multi-symptom Classification.\u201d 2020 IEEE 32nd International Conference on Tools with Artificial Intelligence (ICTAI). IEEE, 2020.",
+        "DOI": "10.1109/ICTAI50040.2020.00191"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-042946"
+      },
+      {
+        "issue": "4",
+        "key": "2021040110301340000_2020.09.02.20187096v3.85",
+        "first-page": "771",
+        "article-title": "Point-of-care lung ultrasound is more sensitive than chest radiograph for evaluation of COVID-19",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "Western Journal of Emergency Medicine"
+      },
+      {
+        "issue": "4",
+        "key": "2021040110301340000_2020.09.02.20187096v3.86",
+        "doi-asserted-by": "crossref",
+        "first-page": "S3",
+        "DOI": "10.1016/j.annemergmed.2020.09.016",
+        "article-title": "6 Lung Ultrasound versus Chest X-ray for the Diagnosis of COVID-19 Pneumonia",
+        "volume": "76",
+        "year": "2020",
+        "journal-title": "Annals of Emergency Medicine"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.87",
+        "doi-asserted-by": "crossref",
+        "first-page": "100231",
+        "DOI": "10.1016/j.ejro.2020.100231",
+        "article-title": "COVID-19 pneumonia manifestations at the admission on chest ultrasound, radiographs, and CT: single-center study and comprehensive radiologic literature review",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "European journal of radiology open"
+      },
+      {
+        "issue": "3",
+        "key": "2021040110301340000_2020.09.02.20187096v3.88",
+        "doi-asserted-by": "crossref",
+        "first-page": "e190043",
+        "DOI": "10.1148/ryai.2020190043",
+        "article-title": "On the Interpretability of Artificial Intelligence in Radiology: Challenges and Opportunities",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiol. Artif. Intell"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju, Ramprasaath R. , et al. \u201cGrad-cam: Visual explanations from deep networks via gradient-based localization.\u201d Proceedings of the IEEE international conference on computer vision. 2017.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.90",
+        "unstructured": "Jost Tobias Springenberg , Alexey Dosovitskiy , Thomas Brox , Martin A. Riedmiller : Striving for Simplicity: The All Convolutional Net. ICLR (Workshop) 2015"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.91",
+        "unstructured": "Gal, Yarin , and Zoubin Ghahramani . \u201cDropout as a bayesian approximation: Representing model uncertainty in deep learning.\u201d In international conference on machine learning, pp. 1050-1059. PMLR, 2016."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.92",
+        "doi-asserted-by": "crossref",
+        "first-page": "101557",
+        "DOI": "10.1016/j.media.2019.101557",
+        "article-title": "Exploring uncertainty measures in deep networks for multiple sclerosis lesion detection and segmentation",
+        "volume": "59",
+        "year": "2020",
+        "journal-title": "Medical image analysis"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.93",
+        "unstructured": "Ayhan, Murat Seckin , and Philipp Berens . \u201cTest-time data augmentation for estimation of heteroscedastic aleatoric uncertainty in deep neural networks.\u201d International conference on Medical Imaging with Deep Learning (2018)."
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.94",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Byrne, Ruth MJ . \u201cCounterfactuals in Explainable Artificial Intelligence (XAI): Evidence from Human Reasoning.\u201d IJCAI. 2019.",
+        "DOI": "10.24963/ijcai.2019/876"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thiagarajan, Jayaraman J. , et al. \u201cImproving Reliability of Clinical Models Using Prediction Calibration.\u201d Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Graphs in Biomedical Image Analysis. Springer, Cham, 2020. 71\u201380.",
+        "DOI": "10.1007/978-3-030-60365-6_8"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.96",
+        "unstructured": "Nagendran, Myura , et al. \u201cArtificial intelligence versus clinicians: systematic review of design, reporting standards, and claims of deep learning studies.\u201d bmj 368 (2020)."
+      },
+      {
+        "issue": "1",
+        "key": "2021040110301340000_2020.09.02.20187096v3.97",
+        "first-page": "1",
+        "article-title": "Key challenges for delivering clinical impact with artificial intelligence",
+        "volume": "17",
+        "year": "2019",
+        "journal-title": "BMC medicine"
+      },
+      {
+        "issue": "3",
+        "key": "2021040110301340000_2020.09.02.20187096v3.98",
+        "doi-asserted-by": "crossref",
+        "first-page": "e200265",
+        "DOI": "10.1001/jamanetworkopen.2020.0265",
+        "article-title": "Evaluation of combined artificial intelligence and radiologist assessment to interpret screening mammograms",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMA network open"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.99",
+        "unstructured": "Opportunity, O. E. C. D. \u201cOECD Science, Technology and Innovation Outlook 2021.\u201d"
+      },
+      {
+        "key": "2021040110301340000_2020.09.02.20187096v3.100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai, X. , Fry, C. V. , & Wagner, C. S. (2021). International collaboration during the COVID-19 crisis: autumn 2020 developments. Scientometrics, 1\u201310.",
+        "DOI": "10.1007/s11192-021-03873-7"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.02.20187096",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:53:18Z",
+      "timestamp": 1768485198000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.02.20187096"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "references-count": 100,
+    "URL": "https://doi.org/10.1101/2020.09.02.20187096",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.patter.2021.100269",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

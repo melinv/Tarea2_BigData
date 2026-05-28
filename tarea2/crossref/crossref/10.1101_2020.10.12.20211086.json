@@ -1,0 +1,325 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:55:19Z",
+      "timestamp": 1768550119080,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>In a pandemic, it is important for clinicians to stratify patients and decide who receives limited medical resources. In this study, we used automated machine learning (autoML) to develop and compare between multiple machine learning (ML) models that predict the chance of patient survival from COVID-19 infection and identified the best-performing model. In addition, we investigated which biomarkers are the most influential in generating an accurate model. We believe an ML model such as this could be a useful tool for clinicians stratifying hospitalized SARS-CoV-2 patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The data was retrospectively collected from Clinical Looking Glass (CLG) on all patients testing positive for COVID-19 through a nasopharyngeal specimen by real-time RT-PCR and admitted between 3/1/2020-7/3/2020 (4376 patients) at our institution. We collected 47 biomarkers from each patient within 36 hours before or after the index time: RT-PCR positivity, and tracked whether a patient survived or not for one month following this time. We utilized the autoML from H2O.ai, an open source package for R language. The autoML generated 20 ML models and ranked them by area under the precision-recall curve (AUCPR) on the test set. We selected the best model (model_var_47) and chose a threshold probability that maximized F2 score to make a binary classifier: dead or alive. Subsequently, we ranked the relative importance of variables that generated model_var_47 and chose the 10 most influential variables. Next, we reran the autoML with these 10 variables and likewise selected the model with the best AUCPR on the test set (model_var_10). Again, threshold probability that maximized F2 score for model_var_10 was chosen to make a binary classifier. We calculated and compared the sensitivity, specificity, and positive predicate value (PPV) for model_var_10 and model_var_47.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The best model that autoML generated using all 47 variables was the stacked ensemble model of all models (AUCPR = 0.836). The most influential variables were: systolic and diastolic blood pressure, age, respiratory rate, pulse oximetry, blood urea nitrogen, lactate dehydrogenase, d-dimer, troponin, and glucose. When the autoML was retrained with these 10 most important variables, it did not significantly affect the performance (AUCPR= 0.828). For the binary classifiers, sensitivity, specificity, and PPV of model_var_47 was 83.6%, 87.7%, and 69.8% respectively, while for model_var_10 they were 90.9%, 71.1%, and 51.8% respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    By using autoML, we developed high-performing models that predict patient mortality from COVID-19 infection. In addition, we identified the most important biomarkers correlated with mortality. This ML model can be used as a decision supporting tool for medical practitioners to efficiently triage COVID-19 infected patients. From our literature review, this will be the largest COVID-19 patient cohort to train ML models and the first to utilize autoML. The COVID-19 survival calculator based on this study can be found at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.tsubomitech.com/\">https://www.tsubomitech.com/</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.10.12.20211086",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2020-10-14T14:01:47Z",
+      "timestamp": 1602684107000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Using Automated-Machine Learning to Predict COVID-19 Patient Survival: Identify Influential Biomarkers"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0799-4242",
+        "authenticated-orcid": false,
+        "given": "Kenji",
+        "family": "Ikemura",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "D.Y.",
+        "family": "Goldstein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0202-7058",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Szymanski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eran",
+        "family": "Bellin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lindsay",
+        "family": "Stahl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yukako",
+        "family": "Yagi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mahmoud",
+        "family": "Saada",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katelyn",
+        "family": "Simone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Morayma Gil",
+        "family": "Reyes",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.1",
+        "unstructured": "\u201cCases in the U.S.\u201d Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 2020, www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html. https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.2",
+        "unstructured": "\u201cCOVID-19: Data.\u201d COVID-19: Data Summary - NYC Health, 2020, www1.nyc.gov/site/doh/covid/covid-19-data.page."
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm9061668"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kermali M , Khalsa RK , Pillai K , Ismail Z , Harky A. The role of biomarkers in diagnosis of COVID-19 - A systematic review. Life Sci. 2020. https://doi.org/10.1016/j.lfs.2020.117788.",
+        "DOI": "10.1016/j.lfs.2020.117788"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05991-x"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.8",
+        "unstructured": "J. Yang , Y. Zheng , X. Gou , et al. Prevalence of comorbidities in the novel Wuhan coronavirus (COVID-19) infection: a systematic review and meta-analysis. Int. J. Infect. Dis. (2020)"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05991-x"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen R , Liang W , Jiang M , et al. Risk factors of fatal outcome in hospitalized subjects with coronavirus disease 2019 from a nationwide analysis in China. Chest 2020; : 1\u20139.",
+        "DOI": "10.1016/j.chest.2020.04.010"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang X , Wu C , Li X , et al. On the origin and continuing evolution of SARS-CoV-2. Natl Sci Rev 2020; : 1\u201324.",
+        "DOI": "10.1093/nsr/nwaa036"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-020-0180-7"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang W , Liang H , Ou L , Development and validation of a clinical risk score to predict the occurrence of critical illness in hospitalized patients with COVID-19. JAMA Intern. Med. e202033. https://doi.org/10.1001/jamainternmed.2020.2033 (2020).",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.14",
+        "unstructured": "H2O.ai (Oct. 2016). R Interface for H2O, R package version 3.10.0.8. https://github.com/h2oai/h2o-3."
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.15",
+        "unstructured": "H2O.ai. H2O AutoML, June 2017. URL http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html. H2O version 3.30.0.5."
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.16",
+        "unstructured": "Bellin E. Riddles in Accountable Healthcare: A primer to develop analytic intuition for medical homes and population health. South Carolina: Create Space; 2015."
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.17",
+        "unstructured": "Bellin E. How to Ask and Answer your Research Question using Electronic Medical Record Data. South Carolina: Create Space; 2017"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.18",
+        "unstructured": "Bellin E. Missing Management: Health-Care Analytic Discovery in a Learning Health System. South Carolina: Kindle direct publishing; 2019."
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ACM.0b013e3181df0f3b"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.20",
+        "unstructured": "R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/."
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pei G , Zhang Z , Peng J , et al. Renal involvement and early prognosis in patients with COVID-19 pneumonia. J Am Soc Nephrol 2020 April 28",
+        "DOI": "10.1681/ASN.2020030276"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng Q. , Hu B. , Zhang Y. , Wang H. , Zhou X. , Hu W. Suspected myocardial injury in patients with COVID-19: evidence from front-line clinical observation in Wuhan. China. Int J Cardiol. 2020",
+        "DOI": "10.1016/j.ijcard.2020.03.087"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thachil J , Tang N , Gando S , Falanga A , Cattaneo M , Levi M , Clark C , Iba T (2020) ISTH interim guidance on recognition and management of coagulopathy in COVID-19. J Thromb Haemost. https://doi.org/10.1111/jth.14860",
+        "DOI": "10.1111/jth.14860"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2007575"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang S , Ma P , Zhang S , Song S , Wang Z , Ma Y , et al. Fasting blood glucose at admission is an independent predictor for 28-day mortality in patients with COVID-19 without previous diagnosis of diabetes: a multi-centre retrospective study. Diabetologia. 2020.",
+        "DOI": "10.1007/s00125-020-05209-1"
+      },
+      {
+        "key": "2020102011400735000_2020.10.12.20211086v1.26",
+        "first-page": "2522",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nat Mach Intell"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.12.20211086",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:27Z",
+      "timestamp": 1768485387000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.12.20211086"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2020.10.12.20211086",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/23458",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

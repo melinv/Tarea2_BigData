@@ -1,0 +1,339 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:14:48Z",
+      "timestamp": 1768547688248,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Coronavirus disease 2019 (COVID-19), a highly infectious disease, was first detected in Wuhan, China, in December 2019. The disease has spread to 212 countries and territories around the world and infected (confirmed) more than three million people. In India, the disease was first detected on 30 January 2020 in Kerala in a student who returned from Wuhan. The total (cumulative) number of confirmed infected people is more than 37000 till now across India (3 May 2020). Most of the research and newspaper articles focus on the number of infected people in the entire country. However, given the size and diversity of India, it may be a good idea to look at the spread of the disease in each state separately, along with the entire country. For example, currently, Maharashtra has more than 10000 confirmed cumulative infected cases, whereas West Bengal has less than 800 confirmed infected cases (1 May 2020). The approaches to address the pandemic in the two states must be different due to limited resources. In this article, we will focus the infected people in each state (restricting to only those states with enough data for prediction) and build three growth models to predict infected people for that state in the next 30 days. The impact of preventive measures on daily infected-rate is discussed for each state.</jats:p>\n                <jats:sec>\n                  <jats:title>Highlights of the Analysis</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Data considered for analysis: up to 1 May 2020.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>One model can mislead us. Here, we consider the exponential, the logistic and the SIS models along with daily infection-rate (DIR). We interpret the results jointly from all models rather than individually.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We expect DIR to be zero or negative to conclude that COVID-19 is not spreading in a state. Even a small positive DIR (say 0.01) indicates virus is spreading in the community. The virus can potentially increase the DIR anytime.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>\n                          <jats:underline>Severe</jats:underline>\n                          :\n                        </jats:bold>\n                        The states without a decreasing trend in DIR and near exponential growth in active infected cases are Maharashtra, Delhi, Gujarat, Madhya Pradesh, Andhra Pradesh, Uttar Pradesh, and West Bengal.\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>\n                          <jats:underline>Moderate</jats:underline>\n                          :\n                        </jats:bold>\n                        The states with an almost decreasing trend in DIR and non-increasing growth in active infected cases are Tamil Nadu, Rajasthan, Punjab and Bihar.\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>\n                          <jats:underline>Controlled</jats:underline>\n                          :\n                        </jats:bold>\n                        The states with a decreasing trend in DIR and decreasing growth in active infected cases in the last few days are Kerala, Haryana, Jammu and Kashmir, Karnataka, and Telangana.\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>States with non-decreasing DIR need to do much more in terms of the preventive measures immediately to combat the COVID-19 pandemic. On the other hand, the states with decreasing DIR can maintain the same status to see the DIR become zero or negative for consecutive 14 days to be able to declare the end of the pandemic.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.24.20077792",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2020-04-29T11:51:24Z",
+      "timestamp": 1588161084000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "title": [
+      "COVID-19 in India: State-wise Analysis and Prediction"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9605-1213",
+        "authenticated-orcid": false,
+        "given": "Palash",
+        "family": "Ghosh",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Rik",
+        "family": "Ghosh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bibhas",
+        "family": "Chakraborty",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.1",
+        "unstructured": "(No Title). https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf. Accessed April 5, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.2",
+        "unstructured": "(No Title). https://www.who.int/docs/default-source/sri-lanka-documents/what-is-coronavirus-english.pdf?sfvrsn=a6b21ac_2. Accessed April 5, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.25763"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.4",
+        "unstructured": "(No Title). https://www.ecdc.europa.eu/sites/default/files/documents/RRA-sixth-update-Outbreak-of-novel-coronavirus-disease-2019-COVID-19.pdf. Accessed April 5, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.5",
+        "unstructured": "Coronavirus latest: pandemic could have killed 40 million without any action. https://www.nature.com/articles/d41586-020-00154-w. Accessed March 27, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.6",
+        "unstructured": "Countries where Coronavirus has spread - Worldometer. https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/. Accessed March 27, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.7",
+        "unstructured": "Kerala reports first confirmed coronavirus case in India - India News. https://www.indiatoday.in/india/story/kerala-reports-first-confirmed-novel-coronavirus-case-in-india-1641593-2020-01-30. Accessed March 28, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/ijmr.IJMR_502_20"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.9",
+        "unstructured": "Is India entering stage 3 of covid-19 outbreak? | IndiaToday. https://www.indiatoday.in/programme/to-the-point/video/is-india-entering-stage-3-of-covid-19-outbreak-1661544-2020-03-30. Accessed April 1, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.10",
+        "unstructured": "(No Title). https://www.cdc.gov/flu/pandemic-resources/pdf/community_mitigation-sm.pdf. Accessed April 5, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.11",
+        "unstructured": "Stage 3 begins, we are running out of time: Covid-19 task force. https://www.nationalheraldindia.com/flick-past/stage-3-begins-we-are-running-out-of-time-covid-19-task-force. Accessed April 1, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.12",
+        "unstructured": "Coronavirus update: Has Covid-19 entered Stage 3? Experts, government disagree - india news - Hindustan Times. https://www.hindustantimes.com/india-news/has-covid-19-entered-stage-3-experts-government-disagree/story-u22337reY9uO1ZSeHPIUiK.html. Accessed April 1, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.13",
+        "unstructured": "Census of India: Area And Population. https://censusindia.gov.in/Census_And_You/area_and_population.aspx. Accessed March 28, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.14",
+        "unstructured": "Covid-19: Govt bans all international flights to India from March 22 to 29 | India News - Times of India. https://timesofindia.indiatimes.com/india/govt-bans-all-international-flights-to-india-from-march-22-to-29/articleshow/74720923.cms. Accessed March 28, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.15",
+        "unstructured": "#COVID19 Government Measures Dataset | ACAPS. https://www.acaps.org/covid19-government-measures-dataset. Accessed April 9, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.16",
+        "unstructured": "MoHFW | Home. https://www.mohfw.gov.in/. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.17",
+        "unstructured": "COVID-19 Tracker | India. https://www.covid19india.org/. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.18",
+        "unstructured": "2020 coronavirus pandemic in India - Wikipedia. https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India#Statistics. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm9020596"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2016.01.002"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-40055-1"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.22",
+        "unstructured": "Modi extends India\u2019s nationwide coronavirus lockdown till May 3 \u2014 Quartz India. https://qz.com/india/1836425/modi-extends-indias-nationwide-coronavirus-lockdown-till-may-3/. Accessed April 19, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.23",
+        "unstructured": "Lockdown extended till May 17; some relaxations in green, orange zones - The Hindu BusinessLine. https://www.thehindubusinessline.com/news/covid-19-govt-extends-lockdown-by-two-more-weeks/article31482605.ece. Accessed May 3, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0209039"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(09)70069-6"
+      },
+      {
+        "issue": "11",
+        "key": "2021011110541184000_2020.04.24.20077792v3.26",
+        "first-page": "1415",
+        "article-title": "Identification and containment of an outbreak of SARS in a community hospital",
+        "volume": "168",
+        "year": "2003",
+        "journal-title": "CMAJ"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.28",
+        "unstructured": "Considerations for Quarantine of Individuals in the Context of Containment for Coronavirus Disease (COVID-19): Interim Guidance-2.; 2020. https://www.who.int/news-. Accessed April 19, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.29",
+        "unstructured": "(No Title). https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_19April_9PM_IST.pdf. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.30",
+        "unstructured": "Coronavirus: Why is India testing so little? - BBC News. https://www.bbc.com/news/world-asia-india-51922204. Accessed April 20, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13140/RG.2.2.35948.10880"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.32",
+        "unstructured": "Bacille Calmette-Gu\u00e9rin (BCG) vaccination and COVID-19. https://www.who.int/news-room/commentaries/detail/bacille-calmette-guerin-(bcg)-vaccination-and-covid-19. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.33",
+        "unstructured": "Mayo Clinic is studying antimalarial drug for COVID-19 treatment | Healthcare Finance News. https://www.healthcarefinancenews.com/node/139936. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.34",
+        "unstructured": "Why India has the upper hand against COVID-19 | World Economic Forum. https://www.weforum.org/agenda/2020/04/india-covid19-coronavirus-response-kerala-uttar-pradesh/. Accessed April 20, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.3556998"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.36",
+        "unstructured": "Hydroxychloroquine Post Exposure Prophylaxis for Coronavirus Disease (COVID-19) - Full Text View - ClinicalTrials.gov. https://clinicaltrials.gov/ct2/show/NCT04318444. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.37",
+        "unstructured": "Das S . Prediction of COVID-19 Disease Progression in India: Under the Effect of National Lockdown. April 2020. http://arxiv.org/abs/2004.03147. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.15.20067256"
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.39",
+        "unstructured": "In South Korea, A Growing Number Of COVID-19 Patients Test Positive After Recovery: Coronavirus Live Updates: NPR. https://www.npr.org/sections/coronavirus-live-updates/2020/04/17/836747242/in-south-korea-a-growing-number-of-covid-19-patients-test-positive-after-recover. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.40",
+        "unstructured": "Covid-19 virus can \u2018reactivate\u2019 in some recovered patients, study suggests. https://www.dispatchlive.co.za/news/2020-04-19-covid-19-virus-can-reactivate-in-some-recovered-patients/. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.41",
+        "unstructured": "WHO is investigating reports of recovered COVID patients testing positive again - Reuters. https://www.reuters.com/article/us-health-coronavirus-who/who-is-investigating-reports-of-recovered-covid-patients-testing-positive-again-idUSKCN21T0F1. Accessed April 21, 2020."
+      },
+      {
+        "key": "2021011110541184000_2020.04.24.20077792v3.42",
+        "unstructured": "growthrates package | R Documentation. https://www.rdocumentation.org/packages/growthrates/versions/0.8.1. Accessed April 5, 2020."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.24.20077792",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:38:28Z",
+      "timestamp": 1768484308000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.04.24.20077792"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2020.04.24.20077792",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/20341",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

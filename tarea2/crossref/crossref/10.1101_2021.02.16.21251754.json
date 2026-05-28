@@ -1,0 +1,363 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:49:26Z",
+      "timestamp": 1768553366814,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 34,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We present a model that fuses instance segmentation, Long Short-Term Memory Network and Attention mechanism to predict COVID-19 and segment chest CT scans. The model works by extracting a sequence of Regions of Interest that contain class-relevant information, and applies two Long Short-Term Memory networks with attention to this sequence to extract class-relevant features. The model is trained in one shot: both segmentation and classification branches, using two different sets of data. We achieve a 95.74% COVID-19 sensitivity, 98.13% Common Pneumonia sensitivity, 99.27% Control sensitivity and 98.15% class-adjusted F1 score on the main dataset of 21191 chest CT scan slices, and also run a number of ablation studies in which we achieve 97.73% COVID-19 sensitivity and 98.41% F1 score. All source code and models are available on\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/AlexTS1980/COVID-LSTM-Attention\">https://github.com/AlexTS1980/COVID-LSTM-Attention</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2021.02.16.21251754",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2021-02-19T14:54:42Z",
+      "timestamp": 1613746482000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "One Shot Model For COVID-19 Classification and Lesions Segmentation In Chest CT Scans Using LSTM With Attention Mechanism"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1300-6132",
+        "authenticated-orcid": false,
+        "given": "Aram",
+        "family": "Ter-Sarkisov",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.1",
+        "article-title": "Jcs: An explainable covid-19 diagnosis system by joint classification and segmentation",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Zhao , F. Yao , L. Wang , L. Zheng , Y. Gao , J. Ye , F. Guo , H. Zhao , and R. Gao , \u201cA comparative study on the clinical features of covid-19 pneumonia to other pneumonias,\u201d Clinical Infectious Diseases, 2020.",
+        "DOI": "10.1093/cid/ciaa247"
+      },
+      {
+        "issue": "10",
+        "key": "2021022106050391000_2021.02.16.21251754v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "4606",
+        "DOI": "10.7150/thno.45016",
+        "article-title": "Ct scans of patients with 2019 novel coronavirus (covid-19) pneumonia",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Theranostics"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Li , X. Fang , Y. Bian , and J. Lu , \u201cComparison of chest ct findings between covid-19 pneumonia and other types of viral pneumonia: a two-center retrospective study,\u201d European radiology, pp. 1\u20139, 2020.",
+        "DOI": "10.1007/s00330-020-06925-3"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Ter-Sarkisov , \u201cDetection and segmentation of lesion areas in chest CT scans for the prediction of COVID-19,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.10.23.20218461"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.6",
+        "unstructured": "S. Ren , K. He , R. Girshick , and J. Sun , \u201cFaster r-cnn: Towards real-time object detection with region proposal networks,\u201d in Advances in neural information processing systems, 2015, pp. 91\u201399."
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , G. Gkioxari , P. Doll\u00e1r , and R. Girshick , \u201cMask r-cnn,\u201d in Proceedings of the IEEE international conference on computer vision, 2017, pp. 2961\u20132969.",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T.-Y. Lin , M. Maire , S. Belongie , J. Hays , P. Perona , D. Ramanan , P. Doll\u00e1r , and C. L. Zitnick , \u201cMicrosoft coco: Common objects in context,\u201d in European conference on computer vision. Springer, 2014, pp. 740\u2013755.",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "issue": "2",
+        "key": "2021022106050391000_2021.02.16.21251754v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "303",
+        "DOI": "10.1007/s11263-009-0275-4",
+        "article-title": "The pascal visual object classes (voc) challenge",
+        "volume": "88",
+        "year": "2010",
+        "journal-title": "International journal of computer vision"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Long , E. Shelhamer , and T. Darrell , \u201cFully convolutional networks for semantic segmentation,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2015, pp. 3431\u20133440.",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.12",
+        "article-title": "Effective approaches to attention-based neural machine translation",
+        "year": "2015",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.13",
+        "article-title": "Neural machine translation by jointly learning to align and translate",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Ter-Sarkisov , \u201cSingle-shot lightweight model for the detection of lesions and the prediction of covid-19 from chest ct scans,\u201d medRxiv, 2020.",
+        "DOI": "10.21203/rs.3.rs-119569/v1"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Ter-Sarkisov , \u201cOne shot model for the prediction of covid-19 and lesions segmentation in chest ct scans through the affinity among lesion mask features,\u201d medRxiv, 2021.",
+        "DOI": "10.1101/2020.12.29.20248987"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "100412",
+        "DOI": "10.1016/j.imu.2020.100412",
+        "article-title": "A combined deep cnn-lstm network for the detection of novel coronavirus (covid-19) using x-ray images",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Informatics in medicine unlocked"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.17",
+        "article-title": "Attention is all you need",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "20462",
+        "DOI": "10.1109/ACCESS.2019.2893806",
+        "article-title": "Enhancing attention-based lstm with position context for aspect-level sentiment classification",
+        "volume": "7",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.19",
+        "article-title": "Covid ct-net: Predicting covid-19 from chest ct images using attentional convolutional network",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "8",
+        "key": "2021022106050391000_2021.02.16.21251754v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "2572",
+        "DOI": "10.1109/TMI.2020.2994908",
+        "article-title": "Prior-attention residual learning for more discriminative covid-19 screening in ct images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Sitaula and M. B. Hossain , \u201cAttention-based vgg-16 model for covid-19 chest x-ray image classification,\u201d Applied Intelligence, pp. 1\u201314, 2020.",
+        "DOI": "10.1007/s10489-020-02055-x"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.22",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Ter-Sarkisov , \u201cCOVID-CT-Mask-Net: Prediction of COVID-19 from CT Scans Using Regional Features,\u201d medRxiv, 2020. [Online]. Available: https://github.com/AlexTS1980/COVID-CT-Mask-Net",
+        "DOI": "10.21203/rs.3.rs-104621/v1"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.24",
+        "article-title": "Covidnet-ct: A tailored deep convolutional neural network design for detection of covid-19 cases from chest ct images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.25",
+        "unstructured": "Y. Song , S. Zheng , L. Li , X. Zhang , X. Zhang , Z. Huang , J. Chen , H. Zhao , Y. Jie , R. Wang , Y. Chong , J. Shen , Y. Zha , and Y. Yang , \u201cDeep learning enables accurate diagnosis of novel coronavirus (covid-19) with ct images,\u201d medRxiv."
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.26",
+        "unstructured": "L. Li , L. Qin , Z. Xu , Y. Yin , X. Wang , B. Kong , J. Bai , Y. Lu , Z. Fang , Q. Song et al., \u201cArtificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct,\u201d Radiology, 2020."
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.27",
+        "article-title": "A light cnn for detecting covid-19 from ct scans of the chest",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.28",
+        "article-title": "Covid-ct-dataset: a ct scan dataset about covid-19",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Gunraj , A. Sabri , D. Koff , and A. Wong , \u201cCovid-net ct-2: Enhanced deep neural networks for detection of covid-19 from chest ct images through bigger, more diverse learning,\u201d 2021.",
+        "DOI": "10.3389/fmed.2020.608525"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T.-Y. Lin , P. Doll\u00e1r , R. Girshick , K. He , B. Hariharan , and S. Belongie , \u201cFeature pyramid networks for object detection,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 2117\u20132125.",
+        "DOI": "10.1109/CVPR.2017.106"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.32",
+        "article-title": "Adam: A method for stochastic optimization",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Huang , Z. Liu , L. Van Der Maaten , and K. Q. Weinberger , \u201cDensely connected convolutional networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 4700\u20134708.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2021022106050391000_2021.02.16.21251754v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Ning , S. Lei , J. Yang , Y. Cao , P. Jiang , Q. Yang , J. Zhang , X. Wang , F. Chen , Z. Geng et al., \u201cOpen resource of clinical data from patients with pneumonia for the prediction of covid-19 outcomes via deep learning,\u201d Nature biomedical engineering, pp. 1\u201311, 2020.",
+        "DOI": "10.1038/s41551-020-00633-5"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.16.21251754",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:07:18Z",
+      "timestamp": 1768486038000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.02.16.21251754"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ]
+    },
+    "references-count": 34,
+    "URL": "https://doi.org/10.1101/2021.02.16.21251754",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1109/MIS.2021.3135474",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

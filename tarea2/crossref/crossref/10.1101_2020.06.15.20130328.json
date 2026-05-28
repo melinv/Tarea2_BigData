@@ -1,0 +1,419 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:30:48Z",
+      "timestamp": 1768548648283,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 12,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>SARS-CoV-2 is straining healthcare systems globally. The burden on hospitals during the pandemic could be reduced by implementing prediction models that can discriminate between patients requiring hospitalization and those who do not. The COVID-19 vulnerability (C-19) index, a model that predicts which patients will be admitted to hospital for treatment of pneumonia or pneumonia proxies, has been developed and proposed as a valuable tool for decision making during the pandemic. However, the model is at high risk of bias according to the Prediction model Risk Of Bias ASsessment Tool and has not been externally validated.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We followed the OHDSI framework for external validation to assess the reliability of the C-19 model. We evaluated the model on two different target populations: i) 41,381 patients that have SARS-CoV-2 at an outpatient or emergency room visit and ii) 9,429,285 patients that have influenza or related symptoms during an outpatient or emergency room visit, to predict their risk of hospitalization with pneumonia during the following 0 to 30 days. In total we validated the model across a network of 14 databases spanning the US, Europe, Australia and Asia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>The internal validation performance of the C-19 index was a c-statistic of 0.73 and calibration was not reported by the authors. When we externally validated it by transporting it to SARS-CoV-2 data the model obtained c-statistics of 0.36, 0.53 (0.473-0.584) and 0.56 (0.488-0.636) on Spanish, US and South Korean datasets respectively. The calibration was poor with the model under-estimating risk. When validated on 12 datasets containing influenza patients across the OHDSI network the c-statistics ranged between 0.40-0.68.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>The results show that the discriminative performance of the C-19 model is low for influenza cohorts, and even worse amongst COVID-19 patients in the US, Spain and South Korea. These results suggest that C-19 should not be used to aid decision making during the COVID-19 pandemic. Our findings highlight the importance of performing external validation across a range of settings, especially when a prediction model is being extrapolated to a different population. In the field of prediction, extensive validation is required to create appropriate trust in a model.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.06.15.20130328",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2020-06-17T10:40:14Z",
+      "timestamp": 1592390414000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Can we trust the prediction model? Demonstrating the importance of external validation by investigating the COVID-19 Vulnerability (C-19) Index across an international network of observational healthcare datasets"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jenna M.",
+        "family": "Reps",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chungsoo",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ross D.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aniek F.",
+        "family": "Markus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cynthia",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Talita Duarte",
+        "family": "Salles",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Falconer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jitendra",
+        "family": "Jonnagaddala",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sergio",
+        "family": "Fern\u00e1ndez-Bertol\u00edn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Scott L.",
+        "family": "DuVall",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristin",
+        "family": "Kostka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gowtham",
+        "family": "Rao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Azza",
+        "family": "Shoaibi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anna",
+        "family": "Ostropolets",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew E",
+        "family": "Spotnitz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paula",
+        "family": "Casajust",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ewout W.",
+        "family": "Steyerberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fredrik",
+        "family": "Nyberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin Skov",
+        "family": "Kaas-Hansen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Young Hwa",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Morales",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Siaw-Teng",
+        "family": "Liaw",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria Tereza",
+        "family": "Fernandes Abrah\u00e3o",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlos",
+        "family": "Areia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael E.",
+        "family": "Matheny",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mar\u00eda",
+        "family": "Arag\u00f3n",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rae Woong",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "George",
+        "family": "Hripcsak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christian G.",
+        "family": "Reich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marc A.",
+        "family": "Suchard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seng Chan",
+        "family": "You",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Patrick B.",
+        "family": "Ryan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Prieto-Alhambra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter R.",
+        "family": "Rijnbeek",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Remuzzi A , Remuzzi G. COVID-19 and Italy: what next?. The Lancet. 2020 Mar 13.",
+        "DOI": "10.1016/S0140-6736(20)30627-9"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants, L. , Van Calster, B. , Bonten, M.M. , Collins, G.S. , Debray, T.P. , De Vos, M. , Haller, M.C. , Heinze, G. , Moons, K.G. , Riley, R.D. and Schuit, E. , 2020. Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal. bmj, 369",
+        "DOI": "10.1101/2020.03.24.20041020"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.3",
+        "unstructured": "Zhang H , Wang X , Fu Z , Luo M , Zhang Z , Zhang K , He Y , Wan D , Zhang L , Wang J , Yan X. Potential Factors for Prediction of Disease Severity of COVID-19 Patients."
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.02.20.20025510"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.5",
+        "article-title": "Building a COVID-19 Vulnerability Index",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M18-1376"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocz130"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.8",
+        "first-page": "574",
+        "article-title": "Observational health data sciences and informatics (OHDSI): opportunities for observational researchers",
+        "volume": "216",
+        "year": "2015",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.9",
+        "first-page": "1",
+        "article-title": "Feasibility and evaluation of a large-scale external validation approach for patient-level prediction in an international data network: validation of models predicting stroke in female patients newly diagnosed with atrial fibrillation",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "BMC Medical Research Methodology"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bjs.9736"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocu023"
+      },
+      {
+        "key": "2021010203251940000_2020.06.15.20130328v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0118432"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.15.20130328",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:45:01Z",
+      "timestamp": 1768484701000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.15.20130328"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "references-count": 12,
+    "URL": "https://doi.org/10.1101/2020.06.15.20130328",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/21547",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

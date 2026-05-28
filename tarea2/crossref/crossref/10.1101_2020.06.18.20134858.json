@@ -1,0 +1,618 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2026-01-29T20:41:26Z",
+      "timestamp": 1769719286761,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          21
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Estimation of the effective reproductive number,\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  , is important for detecting changes in disease transmission over time. During the COVID-19 pandemic, policymakers and public health officials are using\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  to assess the effectiveness of interventions and to inform policy. However, estimation of\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  from available data presents several challenges, with critical implications for the interpretation of the course of the pandemic. The purpose of this document is to summarize these challenges, illustrate them with examples from synthetic data, and, where possible, make recommendations. For near real-time estimation of\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  , we recommend the approach of Cori et al. (2013), which uses data from before time t and empirical estimates of the distribution of time between infections. Methods that require data from after time\n                  <jats:italic>t</jats:italic>\n                  , such as Wallinga and Teunis (2004), are conceptually and methodologically less suited for near real-time estimation, but may be appropriate for retrospective analyses of how individuals infected at different time points contributed to spread. We advise against using methods derived from Bettencourt and Ribeiro (2008), as the resulting\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  estimates may be biased if the underlying structural assumptions are not met. Two key challenges common to all approaches are accurate specification of the generation interval and reconstruction of the time series of new infections from observations occurring long after the moment of transmission. Naive approaches for dealing with observation delays, such as subtracting delays sampled from a distribution, can introduce bias. We provide suggestions for how to mitigate this and other technical challenges and highlight open problems in\n                  <jats:italic>\n                    R\n                    <jats:sub>t</jats:sub>\n                  </jats:italic>\n                  estimation.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>\n                    The effective reproductive number,\n                    <jats:italic>\n                      R\n                      <jats:sub>t</jats:sub>\n                    </jats:italic>\n                    , is a key epidemic parameter used to assess whether an epidemic is growing, shrinking or holding steady.\n                    <jats:italic>\n                      R\n                      <jats:sub>t</jats:sub>\n                    </jats:italic>\n                    estimates can be used as a near real-time indicator of epidemic growth or to assess the effectiveness of interventions. But due to delays between infection and case observation, estimating\n                    <jats:italic>\n                      R\n                      <jats:sub>t</jats:sub>\n                    </jats:italic>\n                    in near real-time, and correctly inferring the timing of changes in\n                    <jats:italic>\n                      R\n                      <jats:sub>t</jats:sub>\n                    </jats:italic>\n                    is challenging. Here, we provide an overview of challenges and best practices for accurate, timely\n                    <jats:italic>\n                      R\n                      <jats:sub>t</jats:sub>\n                    </jats:italic>\n                    estimation.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.06.18.20134858",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2020-06-23T22:35:13Z",
+      "timestamp": 1592951713000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 84,
+    "title": [
+      "Practical considerations for measuring the effective reproductive number,\n                  <i>\n                    R\n                    <sub>t</sub>\n                  </i>"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9369-6371",
+        "authenticated-orcid": false,
+        "given": "Katelyn M.",
+        "family": "Gostic",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren",
+        "family": "McGough",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4124-6472",
+        "authenticated-orcid": false,
+        "given": "Edward B.",
+        "family": "Baskerville",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8057-8037",
+        "authenticated-orcid": false,
+        "given": "Sam",
+        "family": "Abbott",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Keya",
+        "family": "Joshi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3403-5765",
+        "authenticated-orcid": false,
+        "given": "Christine",
+        "family": "Tedijanto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9511-6142",
+        "authenticated-orcid": false,
+        "given": "Rebecca",
+        "family": "Kahn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6751-4124",
+        "authenticated-orcid": false,
+        "given": "Rene",
+        "family": "Niehus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1998-1844",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Hay",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pablo M.",
+        "family": "De Salazar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2683-0849",
+        "authenticated-orcid": false,
+        "given": "Joel",
+        "family": "Hellewell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6385-2652",
+        "authenticated-orcid": false,
+        "given": "Sophie",
+        "family": "Meakin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James",
+        "family": "Munday",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nikos I.",
+        "family": "Bosse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katharine",
+        "family": "Sherrat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8545-5212",
+        "authenticated-orcid": false,
+        "given": "Robin N.",
+        "family": "Thompson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0588-8235",
+        "authenticated-orcid": false,
+        "given": "Laura F.",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1782-8109",
+        "authenticated-orcid": false,
+        "given": "Jana S.",
+        "family": "Huisman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0059-645X",
+        "authenticated-orcid": false,
+        "given": "J\u00e9r\u00e9mie",
+        "family": "Scire",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8052-3925",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Bonhoeffer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6431-535X",
+        "authenticated-orcid": false,
+        "given": "Tanja",
+        "family": "Stadler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1725-5627",
+        "authenticated-orcid": false,
+        "given": "Jacco",
+        "family": "Wallinga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3406",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Funk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1504-9213",
+        "authenticated-orcid": false,
+        "given": "Marc",
+        "family": "Lipsitch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5298-8979",
+        "authenticated-orcid": false,
+        "given": "Sarah",
+        "family": "Cobey",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6130"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4414/smw.2020.20271"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kucharski AJ , Russell TW , Diamond C , Liu Y , Edmunds J , Funk S , et al. Early dynamics of transmission and control of COVID-19: a mathematical modelling study. The lancet infectious diseases. 2020;.",
+        "DOI": "10.1101/2020.01.31.20019901"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1201.050593"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.5",
+        "unstructured": "Flaxman S , Mishra S , Gandy A , et al. Estimating the number of infections and the impact of nonpharmaceutical interventions on COVID-19 in 11 European countries. Imperial College London; 2020. Available from: https://doi.org/10.25561/77731."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.6",
+        "unstructured": "rt.live.; 2020. Available from: http://rt.live [cited 3-June-2020.]."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.7",
+        "unstructured": "covidactnow.; 2020. Available from: https://covidactnow.org/?s=39636 [cited 3-June-2020.]."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.8",
+        "unstructured": "Effective reproductive number.; 2020. Available from: https://ibz-shiny.ethz.ch/covid-19-re/ [cited 20-Aug-2020.]."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.9",
+        "unstructured": "Coronavirus disease 2019 Real-time dashboard.;. Available from: https://covid19.sph.hku.hk/ [cited 3-June-2020]."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.10",
+        "unstructured": "Modeling Covid-19.;. Available from: https://modelingcovid.com/ [cited 3-June-2020]."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6130"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwh255"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0002185"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2019.100356"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb9789"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4414/smw.2020.20295"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2014.09.003"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2006.3754"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.20",
+        "unstructured": "Cori A. EpiEstim: Estimate Time Varying Reproduction Numbers from Epidemic Curves; 2020."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ganyani T , Kremer C , Chen D , Torneri A , Faes C , Wallinga J , et al. Estimating the generation interval for coronavirus disease (COVID-19) based on symptom onset data, March 2020. Eurosurveillance. 2020;25(17). doi:https://doi.org/10.2807/1560-7917.ES.2020.25.17.2000257.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.17.2000257"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb6936"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.23",
+        "unstructured": "Systrom K. The Metric We Need to Manage COVID-19.; 2020. Available from: http://systrom.com/blog/the-metric-we-need-to-manage-covid-19/[cited 3-June-2020]."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.24",
+        "unstructured": "Stan Development Team. RStan: the R interface to Stan; 2020. Available from: http://mc-stan.org/."
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0000758"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kws006"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1742-7622-11-4"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2018.12.002"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/18M1186411"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwj274"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2015.2026"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.04.20122713"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2019.0719"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc9004"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1086616"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2018.0670"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mbs.2006.10.010"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2606.200357"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.03.20029983"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12688/wellcomeopenres.16006.1"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moser CB , Gupta M , Archer BN , White LF . The impact of prior information on estimates of disease transmissibility using Bayesian tools. PloS one. 2015;10(3).",
+        "DOI": "10.1371/journal.pone.0118762"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1750-2659.2009.00106.x"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sam Abbott , Hellewell J , Munday J , Thompson R , Funk S . EpiNow: Estimate Realtime Case Counts and Time-varying Epidemiological Parameters; 2020. Available from: https://github.com/epiforecasts/EpiNow.",
+        "DOI": "10.32614/CRAN.package.EpiNow2"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0902958106"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.12.20099366"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.4780101005"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268820001065"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v077.i11"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v070.i10"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3315826.n1"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007735"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1989.10478780"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/biom.12194"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ede.0000000000001050"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.26.20140210"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.20.20073338"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1742-5573-7-12"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.15.20066431"
+      },
+      {
+        "key": "2021020512501056000_2020.06.18.20134858v3.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/835181"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.18.20134858",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:45:29Z",
+      "timestamp": 1768484729000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.18.20134858"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          21
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2020.06.18.20134858",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1008409",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

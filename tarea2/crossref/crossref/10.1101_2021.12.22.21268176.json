@@ -1,0 +1,226 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:22:47Z",
+      "timestamp": 1768551767903,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          29
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 16,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>To validate commercially available general-purpose artificial intelligence (AI)-based software for detecting airspace opacity in chest radiographs (CXRs) of COVID-19 patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>We used the ieee8023-covid-chestxray-dataset to validate commercial AI software capable of detecting \u201cNodule/Mass\u201d and \u201cAirspace opacity\u201d as regions of interest with probability scores. From this dataset, we excluded computed tomography images and CXR images taken using an anteroposterior spine view and analyzed CXR images tagged with \u201cPneumonia/Viral/COVID-19\u201d and \u201cno findings.\u201d A radiologist then reviewed the images and rated them on a 3-point opacity score for the presence of airspace opacity. The maximum probability score of airspace opacity for each image was calculated using this software. The difference in each maximum probability for each opacity score was evaluated using Wilcoxon\u2019s rank sum test. The threshold of the probability score was determined by receiver operator characteristic curve analysis for the presence or absence of COVID-19, and the true positive rate (TPR) and false positive rate (FPR) were determined for the individual and overall opacity scores.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Images from 342 patients with COVID-19 and 15 normal images were included. Opacity scores of 1, 2, and 3 were observed in 44, 70, and 243 images, respectively, of which 33 (75%), 66 (94.2%), and 243 (100%), respectively, were from COVID-19 patients. The overall TPR and FPR were 0.82 and 0.13, respectively, at an area under the curve of 0.88 and a threshold of 0.06, while the FPR for opacity score 1 was 0.18 and the TPR for score 3 was 0.97.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Using a public database containing CXR images of COVID-19 patients, commercial AI software was shown to be able to detect airspace opacity in severe pneumonia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:p>Commercially available AI software was capable of detecting airspace opacity in CXR images of COVID-19 patients in a public database.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.22.21268176",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2021-12-30T06:15:35Z",
+      "timestamp": 1640844935000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A preliminary study of commercially available general-purpose chest radiography artificial intelligence-based software for detecting airspace opacity lesions in COVID-19 patients"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Munemura",
+        "family": "Suzuki",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Aruta",
+        "family": "Niimura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yusuke",
+        "family": "Nakamura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yujiro",
+        "family": "Otsuka",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.1",
+        "unstructured": "Information on COVID-19 by the Ministry of Health, Labour and Welfare (MHLW). Accessed December 5, 2021. https://www.mhlw.go.jp/stf/covid-19/kokunainohasseijoukyou.html"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201160"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0245518"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryai.2020200079"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(21)00039-X"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.6",
+        "unstructured": "COVID-19 Radiography Database | Kaggle. Accessed December 5, 2021. https://www.kaggle.com/tawsifurrahman/covid19-radiography-database"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.COMPBIOMED.2021.104319"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3010287"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.10",
+        "unstructured": "Ethical guidance for medical and health science research involving human subjecs. Accessed December 21, 2021. https://www.lifescience.mext.go.jp/bioethics/seimeikagaku_igaku"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.11",
+        "unstructured": "THE INTERNATIONAL JOURNAL OF MICRODENTISTRY 60."
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201754"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2169/internalmedicine.5205-20"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11547-020-01200-3"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.15",
+        "unstructured": "ieee8023/covid-chestxray-dataset: We are building an open database of COVID-19 cases with chest X-ray or CT images. Accessed December 6, 2021. https://github.com/ieee8023/covid-chestxray-dataset"
+      },
+      {
+        "key": "2022010303350492000_2021.12.22.21268176v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jamda.2006.02.004"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.22.21268176",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:32:39Z",
+      "timestamp": 1768487559000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.12.22.21268176"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          29
+        ]
+      ]
+    },
+    "references-count": 16,
+    "URL": "https://doi.org/10.1101/2021.12.22.21268176",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

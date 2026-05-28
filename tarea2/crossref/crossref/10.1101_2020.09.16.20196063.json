@@ -1,0 +1,167 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:10:29Z",
+      "timestamp": 1768547429789,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          21
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 8,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Early CoVID-19 growth obeys:\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20196063v1_inline1.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  , with\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  = [(ln 2)/(\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  )], where t\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  is the pandemic growth\n                  <jats:italic>doubling time</jats:italic>\n                  . Given\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20196063v1_inline2.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  , the daily number of new CoVID-19 cases is\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20196063v1_inline3.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  . Implementing society-wide\n                  <jats:italic>Social Distancing</jats:italic>\n                  increases the\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  <jats:italic>doubling time</jats:italic>\n                  , and a linear function of time for\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  was used in our\n                  <jats:italic>Initial Model</jats:italic>\n                  :\n                  <jats:disp-formula id=\"ueqn1\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20196063v1_ueqn1.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  to describe these changes, where the [t]-axis is time-shifted from the\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20196063v1_inline4.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  \u2013axis back to the pandemic start, and\n                  <jats:italic>G</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  \u2261 [\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>\n                    <jats:italic>A</jats:italic>\n                  </jats:sub>\n                  /\n                  <jats:italic>\u03b3</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  ]. While this N\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  [t] successfully modeled the USA CoVID-19 progress from 3/2020 to 6/2020, this equation could not easily model some quickly decreasing\n                  <jats:italic>\u03c1</jats:italic>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] cases (\u201c\n                  <jats:italic>fast pandemic shutoff</jats:italic>\n                  \u201c), indicating that a second process was involved. This situation was most evident in the initial CoVID-19 data from\n                  <jats:italic>China, South Korea</jats:italic>\n                  , and\n                  <jats:italic>Italy</jats:italic>\n                  . Modifying\n                  <jats:italic>Z</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] to allow exponential cutoffs:\n                  <jats:disp-formula id=\"ueqn2\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"20196063v1_ueqn2.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  resulted in an\n                  <jats:italic>Enhanced Initial Model (EIM)</jats:italic>\n                  that significantly improved data fits for these cases.\n                </jats:p>\n                <jats:p>\n                  After 6/2020, many regions of the USA \u201c\n                  <jats:italic>opened up</jats:italic>\n                  \u201d, loosening their\n                  <jats:italic>Social Distancing</jats:italic>\n                  requirements, which led to a sudden USA CoVID-19\n                  <jats:italic>Resurgence</jats:italic>\n                  . Extrapolating the USA\n                  <jats:italic>N</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ] 3/2020-6/2020 results to 9/2020 as an\n                  <jats:italic>Initial Model Baseline (IMB)</jats:italic>\n                  , and subtracting this\n                  <jats:italic>IMB</jats:italic>\n                  from the newer USA data gives a\n                  <jats:italic>Resurgence Only</jats:italic>\n                  function, which is analyzed here. This USA CoVID-19\n                  <jats:italic>Resurgence</jats:italic>\n                  function differs significantly from the N\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  [t] IMB functional form, but it was well-modeled by the\n                  <jats:italic>N</jats:italic>\n                  <jats:sub>\n                    <jats:italic>A</jats:italic>\n                  </jats:sub>\n                  [\n                  <jats:italic>t</jats:italic>\n                  ]\n                  <jats:italic>fast pandemic shutoff</jats:italic>\n                  function. These results indicate that: (a) the gradual increase in\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  <jats:italic>doubling time</jats:italic>\n                  from society-wide shut-downs is likely due to eliminating of a large number of population gathering points that could have enabled CoVID-19 spread; and (b) having a non-zero\n                  <jats:italic>\u03b4</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  <jats:italic>fast pandemic shutoff</jats:italic>\n                  is likely due to more people wearing masks more often [with\n                  <jats:italic>12 Figures</jats:italic>\n                  ].\n                </jats:p>",
+    "DOI": "10.1101/2020.09.16.20196063",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2020-09-21T14:50:10Z",
+      "timestamp": 1600699810000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Initial Model for USA CoVID-19 Resurgence"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2044-3461",
+        "authenticated-orcid": false,
+        "given": "Genghmun",
+        "family": "Eng",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.1",
+        "unstructured": "www.bing.com/ covid: \u2018Bing COVID-19 Tracker \u2018, and https://www.bing.com/covid?form=CPVD07."
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.2",
+        "unstructured": "https://www.MedRxiv.org/content/10.1101/2020.05.04.20091207v1, https://doi.org/10.1101/2020.05.04.20091207, \u201cInitial Model Jor the Impact oJ Social Distancing on CoVID-19 Spread \u201c, Genghmun Eng."
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.3",
+        "unstructured": "https://www.MedRxiv.org/content/10.1101/2020.06.30.20143149v1, https://doi:.org/10.1101/2020.06.30.20143149, \u201cOrthogonal Functions Jor Evaluating Social Distancing Impact on Covid-19 Spread \u201c, G. Eng."
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.4",
+        "unstructured": "https://www.MedRxiv.org/content/10.1101/2020.08.07.20169904v1, https://doi:.org/10.1101/2020.08.07.20169904, \u201cModel to Describe Fast Shutoff oJ CoVID-19 Pandemic Spread \u201c, Genghmun Eng."
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.5",
+        "unstructured": "https://covid19.healthdata.org/united-states-oJ-america?view=total-deaths&tab=trend, Institute of Health Metrics and Evaluation (IHME), University of Washington, 9/3/2020."
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.6",
+        "unstructured": "https://www.reuters.com/article/us-health-coronavirus-usa/u-s-coronavirus-deaths-projected-to-more-than-double-to-410000-by-january-idUSKBN25V2A7, \u201cU.S. Coronavirus Deaths Projected to More Than Double to 410,000 by January\u201d, Daniel Trotta; additional reporting by P. Szekely ; editing by H. Goller , 9/4/2020"
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.7",
+        "unstructured": "K. A. Moore , M. Lipsitch , J. M. Barry , M. T. Osterholm , \u201cFuture oJ the COVID-19 Pandemic: Lessons Learned Jrom Pandemic Influenza\u201d. Center for Infectious Disease and Research [CIDRAP], Academic Health Center, University of Minnesota, April 30, 2020, pp. 1\u20139."
+      },
+      {
+        "key": "2021021406401163000_2020.09.16.20196063v1.8",
+        "unstructured": "https://www.yahoo.com/news/coronavirus-may-last-2-years-172805061.html, \u201cCoronavirus May Last 2 Years, Study Warns. Its 2nd wave could be Worse\u201d, xDennis Wagner, USA Today, 5/1/20, 10:07 PM PDT."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.16.20196063",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:54:30Z",
+      "timestamp": 1768485270000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.16.20196063"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          21
+        ]
+      ]
+    },
+    "references-count": 8,
+    "URL": "https://doi.org/10.1101/2020.09.16.20196063",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

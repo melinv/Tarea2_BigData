@@ -1,0 +1,405 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:41:10Z",
+      "timestamp": 1768495270613,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Interleukin 13 (IL-13) is an immunoregulatory cytokine that is primarily released by activated T-helper 2 cells. It induces the pathogenesis of many allergic diseases, such as airway hyperresponsiveness, glycoprotein hypersecretion and goblet cell hyperplasia. IL-13 also inhibits tumor immunosurveillance, which leads to carcinogenesis. In recent studies, elevated IL-13 serum levels have been shown in severe COVID-19 patients. Thus it is important to predict IL-13 inducing peptides or regions in a protein for designing safe protein therapeutics particularly immunotherapeutic. This paper describes a method developed for predicting, designing and scanning IL-13 inducing peptides. The dataset used in this study contain experimentally validated 313 IL-13 inducing peptides and 2908 non-inducing homo-sapiens peptides extracted from the immune epitope database (IEDB). We have extracted 95 key features using SVC-L1 technique from the originally generated 9165 features using Pfeature. Further, these key features were ranked based on their prediction ability, and top 10 features were used for building machine learning prediction models. In this study, we have deployed various machine learning techniques to develop models for predicting IL-13 inducing peptides. These models were trained, test and evaluated using five-fold cross-validation techniques; best model were evaluated on independent dataset. Our best model based on XGBoost achieves a maximum AUC of 0.83 and 0.80 on the training and independent dataset, respectively. Our analysis indicate that certain SARS-COV2 variants are more prone to induce IL-13 in COVID-19 patients. A standalone package as well as a web server named \u2018IL-13Pred\u2019 has been developed for predicting IL-13 inducing peptides (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://webs.iiitd.edu.in/raghava/il13pred/\">https://webs.iiitd.edu.in/raghava/il13pred/</jats:ext-link>\n                  ).\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Key Points</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Interleukin-13, an immunoregulatory cytokine plays an important role in increasing severity of COVID-19 and other diseases.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>IL-13Pred is a highly accurate in-silico method developed for predicting the IL-13 inducing peptides/ epitopes.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>IL-13 inducing peptides are reported in various SARS-CoV2 strains/variants proteins.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>This method can be used to detect IL-13 inducing peptides in vaccine candidates.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>User friendly web server and standalone software is freely available for IL-13Pred</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Author\u2019s Biography</jats:title>\n                  <jats:list list-type=\"order\">\n                    <jats:list-item>\n                      <jats:p>Shipra Jain is currently working as Ph.D. in Computational Biology from Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Anjali Dhall is currently working as Ph.D. in Computational Biology from Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Sumeet Patiyal is currently working as Ph.D. in Computational Biology from Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Gajendra P. S. Raghava is currently working as Professor and Head of Department of Computational Biology, Indraprastha Institute of Information Technology, New Delhi, India.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2021.09.19.460950",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2021-09-21T19:30:14Z",
+      "timestamp": 1632252614000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "IL13Pred: A method for predicting immunoregulatory cytokine IL-13 inducing peptides for managing COVID-19 severity"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7045-5188",
+        "authenticated-orcid": false,
+        "given": "Shipra",
+        "family": "Jain",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0400-2084",
+        "authenticated-orcid": false,
+        "given": "Anjali",
+        "family": "Dhall",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1358-292X",
+        "authenticated-orcid": false,
+        "given": "Sumeet",
+        "family": "Patiyal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8902-2876",
+        "authenticated-orcid": false,
+        "given": "Gajendra P. S.",
+        "family": "Raghava",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.90.8.3735"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/362248a0"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.immunol.21.120601.141142"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/gutjnl-2012-303461"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000049523"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/cimm.2001.1828"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00262-003-0445-0"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1016/j.gene.2012.11.035",
+        "article-title": "Association between IL13 gene polymorphisms and susceptibility to cancer: a meta-analysis",
+        "volume": "515",
+        "author": "T S, Y M, L Z,",
+        "year": "2013",
+        "journal-title": "Gene"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B T, L S, Y M, et al. Endogenously Expressed IL-4R\u03b1 Promotes the Malignant Phenotype of Human Pancreatic Cancer In Vitro and In Vivo. Int. J. Mol. Sci. 2017; 18:",
+        "DOI": "10.3390/ijms18040716"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms22031010"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "38113",
+        "DOI": "10.18632/oncotarget.17494",
+        "article-title": "Interleukin-4 and interleukin-13 increase NADPH oxidase 1-related proliferation of human colon cancer cells",
+        "volume": "8",
+        "author": "H L, S A, K R,",
+        "year": "2017",
+        "journal-title": "Oncotarget"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/j.je.2016.06.002",
+        "article-title": "Association of IL4, IL13, and IL4R polymorphisms with gastrointestinal cancer risk: A meta-analysis",
+        "volume": "27",
+        "author": "YA C, J K",
+        "year": "2017",
+        "journal-title": "J. Epidemiol"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gde.2007.12.007"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4161/cc.9.24.14322"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.15",
+        "unstructured": "Debinski W , Gibo D , Hulet SW , et al. Receptor for interleukin 13 is a marker and therapeutic target for human high-grade gliomas. undefined 1999;"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1515/labmed-2018-0323",
+        "article-title": "Interleukin-13 in the pathogenesis of pulmonary artery hypertension",
+        "volume": "43",
+        "year": "2019",
+        "journal-title": "J. Lab. Med"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U A, D K, A W, et al. New Role for Interleukin-13 Receptor \u03b11 in Myocardial Homeostasis and Heart Failure. J. Am. Heart Assoc. 2017; 6:",
+        "DOI": "10.1161/JAHA.116.005108"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1097/WOX.0b013e31821188e0",
+        "article-title": "Interleukin-13 signaling and its role in asthma",
+        "volume": "4",
+        "author": "EL R, RF L",
+        "year": "2011",
+        "journal-title": "World Allergy Organ. J"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11882-013-0373-9"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1106469"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000447692"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bochner BS , Klunk DA , Sterbinsky SA , et al. IL-13 selectively induces vascular cell adhesion molecule-1 expression in human endothelial cells. J. Immunol. 1995; 154:",
+        "DOI": "10.4049/jimmunol.154.2.799"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1067/mai.2001.112265"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "2477",
+        "DOI": "10.4049/jimmunol.162.5.2477",
+        "article-title": "Effects of Th2 cytokines on chemokine expression in the lung: IL-13 potently induces eotaxin expression by airway epithelial cells",
+        "volume": "162",
+        "author": "L L, Y X, A N,",
+        "year": "1999",
+        "journal-title": "J. Immunol"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2017.08.006"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.26",
+        "unstructured": "AN D, TE S, C M, et al. IL-13 is a driver of COVID-19 severity. medRxiv Prepr. Serv. Heal. Sci. 2021;"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1016/j.jaci.2020.04.027",
+        "article-title": "Plasma IP-10 and MCP-3 levels are highly associated with disease severity and predict the progression of COVID-19",
+        "volume": "146",
+        "author": "Y Y, C S, J L",
+        "year": "2020",
+        "journal-title": "J. Allergy Clin. Immunol"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1006"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "936",
+        "DOI": "10.1093/bib/bbaa259",
+        "article-title": "Computer-aided prediction and design of IL-6 inducing peptides: IL-6 plays a crucial role in COVID-19",
+        "volume": "22",
+        "author": "A D, S P, N S,",
+        "year": "2021",
+        "journal-title": "Brief. Bioinform"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pande A , Patiyal S , Lathwal A , et al. Computing wide range of protein/peptide features from their sequence and structure. bioRxiv 2019; 599126",
+        "DOI": "10.1101/599126"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.32",
+        "unstructured": "Tang J , Alelyani S , Liu H. Feature Selection for Classification: A Review."
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.33",
+        "unstructured": "Ke G , Meng Q , Finley T , et al. LightGBM: A Highly Efficient Gradient Boosting Decision Tree."
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep42851"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13398-014-0173-7.2. 1201.0490"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1364",
+        "DOI": "10.1007/s12325-017-0525-8",
+        "article-title": "RPC4046, A Novel Anti-interleukin-13 Antibody, Blocks IL-13 Binding to IL-13 \u03b11 and \u03b12 Receptors: A Randomized, Double-Blind, Placebo-Controlled, Dose-Escalation First-in-Human Study",
+        "volume": "34",
+        "author": "CS T, C C, AL C,",
+        "year": "2017",
+        "journal-title": "Adv. Ther"
+      },
+      {
+        "key": "2021092309000773000_2021.09.19.460950v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.molimm.2005.11.001"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.09.19.460950",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:11:21Z",
+      "timestamp": 1768443081000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.09.19.460950"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          21
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2021.09.19.460950",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.compbiomed.2022.105297",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

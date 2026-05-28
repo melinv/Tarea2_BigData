@@ -1,0 +1,361 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T23:35:19Z",
+      "timestamp": 1768520119975,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              10
+            ]
+          ],
+          "date-time": "2024-12-10T00:00:00Z",
+          "timestamp": 1733788800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The COVID-19 pandemic has profoundly impacted global health, economics, and daily life, with over 776 million cases and 7 million deaths from December 2019 to November 2024. Since the original SARS-CoV-2 Wuhan strain emerged, the virus has evolved into variants such as Alpha, Beta, Gamma, Delta, and Omicron, all characterized by mutations in the Spike glycoprotein, critical for viral entry into human cells via its S1 and S2 subunits. The S1 subunit, binding to the ACE2 receptor and mutating frequently, affects infectivity and immune evasion; the more conserved S2, on the other hand, facilitates membrane fusion. Predicting future mutations is crucial for developing vaccines and treatments adaptable to emerging strains, enhancing preparedness and intervention design. Generative Large Language Models (LLMs) are becoming increasingly common in the field of genomics, given their ability to generate realistic synthetic biological sequences, including applications in protein design and engineering. Here we present SARITA, an LLM with up to 1.2 billion parameters, based on GPT-3 architecture, designed to generate high-quality synthetic SARS-CoV-2 Spike S1 sequences. SARITA is trained via continuous learning on the pre-existing protein model RITA. When trained on Alpha, Beta, and Gamma variants (data up to February 2021 included), SARITA correctly predicts the evolution of future S1 mutations, including characterized mutations of Delta, Omicron and Iota variants. Furthermore, we show how SARITA outperforms alternative approaches, including other LLMs, in terms of sequence quality, realism, and similarity with real-world S1 sequences. These results indicate the potential of SARITA to predict future SARS-CoV-2 S1 evolution, potentially aiding in the development of adaptable vaccines and treatments.</jats:p>",
+    "DOI": "10.1101/2024.12.10.627777",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ],
+      "date-time": "2024-12-10T21:50:59Z",
+      "timestamp": 1733867459000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "SARITA: A Large Language Model for Generating the S1 Subunit of the SARS-CoV-2 Spike Protein"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-4405-1697",
+        "authenticated-orcid": false,
+        "given": "Simone",
+        "family": "Rancati",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7007-0862",
+        "authenticated-orcid": false,
+        "given": "Giovanna",
+        "family": "Nicora",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-0359-5128",
+        "authenticated-orcid": false,
+        "given": "Laura",
+        "family": "Bergomi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2887-088X",
+        "authenticated-orcid": false,
+        "given": "Tommaso Mario",
+        "family": "Buonocore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7491-5292",
+        "authenticated-orcid": false,
+        "given": "Daniel M",
+        "family": "Czyz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0679-828X",
+        "authenticated-orcid": false,
+        "given": "Enea",
+        "family": "Parimbelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6974-9808",
+        "authenticated-orcid": false,
+        "given": "Riccardo",
+        "family": "Bellazzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marco",
+        "family": "Salemi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9021-5595",
+        "authenticated-orcid": false,
+        "given": "Mattia",
+        "family": "Prosperi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5704-3533",
+        "authenticated-orcid": false,
+        "given": "Simone",
+        "family": "Marini",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41401-020-0485-4"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.coviro.2021.08.010"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.3",
+        "first-page": "2024",
+        "article-title": "JavaScript",
+        "volume": "05",
+        "author": "JGraph, draw.io. (Oct",
+        "year": "2021",
+        "journal-title": "Accessed: Dec"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjhci-2022-100643"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.06.21.21259286"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbae535"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06617-0"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2108.07435"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-024-05779-6"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/pdb.ip59"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.01.17.524472"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1011790"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.13",
+        "unstructured": "D. Hesslow , N. Zanichelli , P. Notin , I. Poli , and D. Marks , \u2018RITA: a Study on Scaling Up Generative Protein Sequence Models\u2019, arXiv.org. Accessed: Oct. 04, 2024. [Online]. Available: https://arxiv.org/abs/2205.05789v2"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2005.14165"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2104.09864"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4169/000298910x523344"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-32007-7"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm098"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz1035"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-04964-5"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vead022"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v15040856"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/vaccines9101195"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.crstbi.2022.01.002"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.genrep.2020.100682"
+      },
+      {
+        "key": "2024121220100302000_2024.12.10.627777v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2023.112621"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.10.627777",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T07:38:46Z",
+      "timestamp": 1768462726000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.10.627777"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2024.12.10.627777",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

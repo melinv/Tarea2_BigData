@@ -1,0 +1,631 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:35:31Z",
+      "timestamp": 1768566931868,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          16
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 65,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Recurring COVID-19 waves highlight the need for tools able to quantify transmission risk, and identify geographical areas at risk of outbreaks. Local outbreak risk depends on complex immunity patterns resulting from previous infections, vaccination, waning and immune escape, alongside other factors (population density, social contact patterns). Immunity patterns are spatially and demographically heterogeneous, and are challenging to capture in country-level forecast models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We used a spatiotemporal regression model to forecast subnational case and death counts and applied it to three EU countries as test cases: France, Czechia, and Italy. Cases in local regions arise from importations or local transmission. Our model produces age-stratified forecasts given age-stratified data, and links reported case counts to routinely collected covariates (test number, vaccine coverage..). We assessed the predictive performance of our model up to four weeks ahead using proper scoring rules and compared it to the European COVID-19 Forecast Hub ensemble model. Using simulations, we evaluated the impact of variations in transmission on the forecasts. We developed an open-source RShiny App to visualise the forecasts and scenarios.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>At a national level, the median relative difference between our median weekly case forecasts and the data up to four weeks ahead was 25% (IQR: 12-50%) over the prediction period. The accuracy decreased as the forecast horizon increased (on average 24% increase in the median ranked probability score per added week), while the accuracy of death forecasts remained stable. Beyond two weeks, the model generated a narrow range of likely transmission dynamics. The median national case forecasts showed similar accuracy to forecasts from the European COVID-19 Forecast Hub ensemble model, but the prediction interval was narrower in our model. Generating forecasts under alternative transmission scenarios was therefore key to capturing the range of possible short-term transmission dynamics.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>Our model captures changes in local COVID-19 outbreak dynamics, and enables quantification of short-term transmission risk at a subnational level. The outputs of the model improve our ability to identify areas where outbreaks are most likely, and are available to a wide range of public health professionals through the Shiny App we developed.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.08.11.23293400",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          16
+        ]
+      ],
+      "date-time": "2023-08-16T12:15:17Z",
+      "timestamp": 1692188117000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting subnational incidence of COVID-19 cases and deaths in EU countries"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4516-2965",
+        "authenticated-orcid": false,
+        "given": "Alexis",
+        "family": "Robert",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7727-7102",
+        "authenticated-orcid": false,
+        "given": "Lloyd AC",
+        "family": "Chapman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rok",
+        "family": "Grah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rene",
+        "family": "Niehus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Frank",
+        "family": "Sandmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7935-9109",
+        "authenticated-orcid": false,
+        "given": "Bastian",
+        "family": "Prasse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3406",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Funk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8814-9421",
+        "authenticated-orcid": false,
+        "given": "Adam J",
+        "family": "Kucharski",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2023081815050758000_2023.08.11.23293400v1.1",
+        "first-page": "2101038",
+        "article-title": "Unexposed populations and potential COVID-19 hospitalisations and deaths in European countries as per data up to 21 November 2021",
+        "volume": "27",
+        "year": "2022",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.2",
+        "unstructured": "Response Measures Database (RMD) [Internet]. European Centre for Disease Prevention and Control. 2022 [cited 2023 May 19]. Available from: https://www.ecdc.europa.eu/en/publications-data/response-measures-database-rmd"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davies NG , Abbott S , Barnard RC , Jarvis CI , Kucharski AJ , Munday JD , et al. Estimated transmissibility and impact of SARS-CoV-2 lineage B.1.1.7 in England. Science [Internet]. 2021 Apr 9;372(6538). Available from: http://dx.doi.org/10.1126/science.abg3055",
+        "DOI": "10.1126/science.abg3055"
+      },
+      {
+        "issue": "10313",
+        "key": "2023081815050758000_2023.08.11.23293400v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1825",
+        "DOI": "10.1016/S0140-6736(21)02276-5",
+        "article-title": "Non-pharmaceutical interventions, vaccination, and the SARS-CoV-2 delta variant in England: a mathematical modelling study",
+        "volume": "398",
+        "year": "2021",
+        "journal-title": "Lancet"
+      },
+      {
+        "issue": "1829",
+        "key": "2023081815050758000_2023.08.11.23293400v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200279",
+        "DOI": "10.1098/rstb.2020.0279",
+        "article-title": "Real-time nowcasting and forecasting of COVID-19 dynamics in England: the first wave",
+        "volume": "376",
+        "year": "2021",
+        "journal-title": "Philos Trans R Soc Lond B Biol Sci"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-20241-w"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Funk S , Abbott S , Atkins BD , Baguelin M , Baillie JK , Birrell P , et al. Short-term forecasts to inform the response to the Covid-19 epidemic in the UK [Internet]. medRxiv. 2020 [cited 2023 May 19]. p. 2020.11.11.20220962. Available from: https://www.medrxiv.org/content/10.1101/2020.11.11.20220962v2.abstract",
+        "DOI": "10.1101/2020.11.11.20220962"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fonseca-Rodr\u00edguez O , Gustafsson PE , San Sebasti\u00e1n M , Connolly A-MF. Spatial clustering and contextual factors associated with hospitalisation and deaths due to COVID-19 in Sweden: a geospatial nationwide ecological study. BMJ Glob Health [Internet]. 2021 Jul;6(7). Available from: http://dx.doi.org/10.1136/bmjgh-2021-006247",
+        "DOI": "10.1136/bmjgh-2021-006247"
+      },
+      {
+        "issue": "1",
+        "key": "2023081815050758000_2023.08.11.23293400v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "5378",
+        "DOI": "10.1038/s41598-021-83780-2",
+        "article-title": "Modelling and predicting the spatio-temporal spread of COVID-19, associated deaths and impact of key risk factors in England",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1016/j.ijid.2021.03.014",
+        "article-title": "Temporal and spatial analysis of COVID-19 transmission in China and its influencing factors",
+        "volume": "105",
+        "year": "2021",
+        "journal-title": "Int J Infect Dis"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aba9757"
+      },
+      {
+        "issue": "1829",
+        "key": "2023081815050758000_2023.08.11.23293400v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200272",
+        "DOI": "10.1098/rstb.2020.0272",
+        "article-title": "A spatial model of COVID-19 transmission in England and Wales: early spread, peak timing and the impact of seasonality",
+        "volume": "376",
+        "year": "2021",
+        "journal-title": "Philos Trans R Soc Lond B Biol Sci"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004978117"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pei S , Kandula S , Shaman J. Differential effects of intervention timing on COVID-19 spread in the United States. Sci Adv [Internet]. 2020 Dec;6(49). Available from: http://dx.doi.org/10.1126/sciadv.abd6370",
+        "DOI": "10.1126/sciadv.abd6370"
+      },
+      {
+        "issue": "1829",
+        "key": "2023081815050758000_2023.08.11.23293400v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200265",
+        "DOI": "10.1098/rstb.2020.0265",
+        "article-title": "Novel coronavirus 2019-nCoV (COVID-19): early estimation of epidemiological parameters and epidemic size estimates",
+        "volume": "376",
+        "year": "2021",
+        "journal-title": "Philos Trans R Soc Lond B Biol Sci"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.16",
+        "unstructured": "covid19uk [Internet]. GitLab. [cited 2023 May 19]. Available from: https://fhm-chicas-code.lancs.ac.uk/jewell/covid19uk"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2113561119"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.18",
+        "unstructured": "stsmodel [Internet]. GitLab. [cited 2023 May 19]. Available from: https://gitlab.com/chicas-covid19/stsmodel"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879-020-05415-7"
+      },
+      {
+        "issue": "3",
+        "key": "2023081815050758000_2023.08.11.23293400v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "713",
+        "DOI": "10.1002/cjs.11723",
+        "article-title": "Extended Bayesian endemic-epidemic models to incorporate mobility data into COVID-19 forecasting",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Can J Stat"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fronterre C , Read JM , Rowlingson B , Bridgen J , Alderton S , Diggle PJ , et al. COVID-19 in England: spatial patterns and regional outbreaks [Internet]. bioRxiv. medRxiv; 2020. Available from: http://medrxiv.org/lookup/doi/10.1101/2020.05.15.20102715",
+        "DOI": "10.1101/2020.05.15.20102715"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ssentongo P , Fronterre C , Geronimo A , Greybush SJ , Mbabazi PK , Muvawala J , et al. Pan-African evolution of within- and between-country COVID-19 dynamics. Proc Natl Acad Sci U S A [Internet]. 2021 Jul 13;118(28). Available from: http://dx.doi.org/10.1073/pnas.2026664118",
+        "DOI": "10.1073/pnas.2026664118"
+      },
+      {
+        "issue": "3",
+        "key": "2023081815050758000_2023.08.11.23293400v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1833",
+        "DOI": "10.1007/s11071-020-05853-7",
+        "article-title": "Assessing the effect of containment measures on the spatio-temporal dynamic of COVID-19 in Italy",
+        "volume": "101",
+        "year": "2020",
+        "journal-title": "Nonlinear Dyn"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "100552",
+        "DOI": "10.1016/j.spasta.2021.100552",
+        "article-title": "SUSPend modelling consortium. Modelling the effect of a border closure between Switzerland and Italy on the spatiotemporal spread of COVID-19 in Switzerland",
+        "volume": "49",
+        "year": "2022",
+        "journal-title": "Spat Stat"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berlemann M , Haustein E. Right and Yet Wrong: A Spatio-Temporal Evaluation of Germany\u2019s COVID-19 Containment Policy [Internet]. 2020 [cited 2023 May 22]. Available from: https://papers.ssrn.com/abstract=3662054",
+        "DOI": "10.2139/ssrn.3662054"
+      },
+      {
+        "issue": "1",
+        "key": "2023081815050758000_2023.08.11.23293400v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "400",
+        "DOI": "10.1111/rssa.12753",
+        "article-title": "On the interplay of regional mobility, social connectedness and the spread of COVID-19 in Germany",
+        "volume": "185",
+        "year": "2022",
+        "journal-title": "J R Stat Soc Ser A Stat Soc"
+      },
+      {
+        "issue": "5",
+        "key": "2023081815050758000_2023.08.11.23293400v1.27",
+        "first-page": "565",
+        "article-title": "Endemic-Epidemic Framework Used in Covid-19 Modelling",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Revstat Stat J"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "100528",
+        "DOI": "10.1016/j.spasta.2021.100528",
+        "article-title": "Endemic-epidemic models to understand COVID-19 spatio-temporal evolution",
+        "volume": "49",
+        "year": "2022",
+        "journal-title": "Spat Stat"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meyer S , Held L , H\u00f6hle M. Spatio-temporal analysis of epidemic phenomena using the R package surveillance. J Stat Softw [Internet]. 2017;77(11). Available from: http://www.jstatsoft.org/v77/i11/",
+        "DOI": "10.18637/jss.v077.i11"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.30",
+        "unstructured": "Temporal and Spatio-Temporal Modeling and Monitoring of Epidemic Phenomena [R package surveillance version 1.21.1]. 2023 May 19 [cited 2023 May 19]; Available from: https://CRAN.R-project.org/package=surveillance"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008618"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.32",
+        "unstructured": "Bracher J , Held L. hhh4addon: extending the functionality of surveillance: hhh4. R package. 2019."
+      },
+      {
+        "issue": "3",
+        "key": "2023081815050758000_2023.08.11.23293400v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1221",
+        "DOI": "10.1016/j.ijforecast.2020.07.002",
+        "article-title": "Endemic-epidemic models with discrete-time serial interval distributions for infectious disease prediction",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Int J Forecast"
+      },
+      {
+        "issue": "1",
+        "key": "2023081815050758000_2023.08.11.23293400v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1186/s12916-022-02277-5",
+        "article-title": "The impact of local vaccine coverage and recent incidence on measles transmission in France between 2009 and 2018",
+        "volume": "20",
+        "year": "2022",
+        "journal-title": "BMC Med"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879-021-05950-x"
+      },
+      {
+        "issue": "10303",
+        "key": "2023081815050758000_2023.08.11.23293400v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.1016/S0140-6736(21)01697-4",
+        "article-title": "Serial intervals in SARS-CoV-2 B.1.617.2 variant cases",
+        "volume": "398",
+        "author": "CMMID COVID-19 working group",
+        "year": "2021",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.38",
+        "unstructured": "Meyer S. Age-Structured Spatio-Temporal Models for Infectious Disease Counts [R package hhh4contacts version 0.13.1]. 2020 Mar 20 [cited 2023 May 19]; Available from: https://CRAN.R-project.org/package=hhh4contacts"
+      },
+      {
+        "issue": "2",
+        "key": "2023081815050758000_2023.08.11.23293400v1.39",
+        "first-page": "338",
+        "article-title": "Incorporating social contact data in spatio-temporal models for infectious disease spread",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0133203"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/JOURNAL.PCBI.1009098"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Linton NM , Kobayashi T , Yang Y , Hayashi K , Akhmetzhanov AR , Jung S-M , et al. Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data. J Clin Med Res [Internet]. 2020 Feb 17;9(2). Available from: http://dx.doi.org/10.3390/jcm9020538",
+        "DOI": "10.3390/jcm9020538"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268820001430"
+      },
+      {
+        "issue": "9",
+        "key": "2023081815050758000_2023.08.11.23293400v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1686",
+        "DOI": "10.1177/09622802211065159",
+        "article-title": "Meta-analysis of the severe acute respiratory syndrome coronavirus 2 serial intervals and the impact of parameter uncertainty on the coronavirus disease 2019 reproduction number",
+        "volume": "31",
+        "year": "2022",
+        "journal-title": "Stat Methods Med Res"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.45",
+        "unstructured": "European Centre for Disease Prevention and Control. Data on SARS-CoV-2 variants in the EU/EEA [Internet]. [cited 2022 Jul 26]. Available from: https://www.ecdc.europa.eu/en/publications-data/data-virus-variants-covid-19-eueea"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.46",
+        "unstructured": "Eurostat. Methodology - Rural development [Internet]. [cited 2022 Jul 26]. Available from: https://ec.europa.eu/eurostat/web/rural-development/methodology"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.47",
+        "unstructured": "World Health Organization. Daily cases and deaths by date reported to WHO [Internet]. 2023 [cited 2023 Jan 30]. Available from: https://covid19.who.int/WHO-COVID-19-global-data.csv"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.48",
+        "unstructured": "Sant\u00e9 publique France. Donn\u00e9es de laboratoires pour le d\u00e9pistage [Internet]. [cited 2022 Jul 26]. Available from: https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-pour-le-depistage-a-compter-du-18-05-2022-si-dep/"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.49",
+        "unstructured": "Ministerstvo Zdravotnictv\u00ed \u010cesk\u00e9 republiky. COVID-19 in the Czech Republic: Open data sets and downloadable sets [Internet]. [cited 2022 Jul 26]. Available from: https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.50",
+        "unstructured": "Dipartimento della Protezione Civile. Dati COVID-19 Italia [Internet]. [cited 2022 Jul 26]. Available from: https://github.com/pcm-dpc/COVID-19"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.51",
+        "unstructured": "datavaccin-covid. Donn\u00e9es vaccination par tranche d\u2019\u00e2ge, type de vaccin et d\u00e9partement / r\u00e9gion [Internet]. [cited 2022 Jul 26]. Available from: https://datavaccin-covid.ameli.fr/explore/dataset/donnees-vaccination-par-tranche-dage-type-de-vaccin-et-departement/information/"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.52",
+        "unstructured": "European Centre for Disease Prevention and Control. Data on COVID-19 vaccination in the EU/EEA [Internet]. [cited 2022 Jul 26]. Available from: https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.53",
+        "unstructured": "Insee. Estimation de la population au 1er janvier 2022 [Internet]. [cited 2022 Jul 26]. Available from: https://www.insee.fr/fr/statistiques/1893198"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.54",
+        "unstructured": "Eurostat. Population on 1 January by age group, sex and NUTS 3 region [Internet]. [cited 2023 Jan 2]. Available from: https://ec.europa.eu/eurostat/web/products-datasets/product?code=demo_r_pjangrp3"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.55",
+        "unstructured": "O. Wahltinez and others. COVID-19 Open-Data: curating a fine-grained, global-scale data repository for SARS-CoV-2. 2020; Available from: https://goo.gle/covid-19-open-data"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1541-0420.2009.01191.x"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.57",
+        "unstructured": "Sherratt K , Gruson H , Grah R , Johnson H , Niehus R , Prasse B , et al. Predictive performance of multi-model ensemble forecasts of COVID-19 across European nations [Internet]. 2022. Available from: http://medrxiv.org/lookup/doi/10.1101/2022.06.16.22276024"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-28731-9"
+      },
+      {
+        "issue": "7",
+        "key": "2023081815050758000_2023.08.11.23293400v1.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2016818",
+        "DOI": "10.1001/jamanetworkopen.2020.16818",
+        "article-title": "Assessment of SARS-CoV-2 Screening Strategies to Permit the Safe Reopening of College Campuses in the United States",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Munday JD , Abbott S , Meakin S , Funk S. Evaluating the use of social contact data to produce age-specific forecasts of SARS-CoV-2 incidence [Internet]. bioRxiv. 2022. Available from: https://www.medrxiv.org/content/10.1101/2022.12.02.22282935.abstract",
+        "DOI": "10.1101/2022.12.02.22282935"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.61",
+        "unstructured": "Google. COVID-19 Community Mobility Reports [Internet]. [cited 2023 May 19]. Available from: https://www.google.com/covid19/mobility/"
+      },
+      {
+        "issue": "4",
+        "key": "2023081815050758000_2023.08.11.23293400v1.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1038/s41562-021-01079-8",
+        "article-title": "A global panel database of pandemic policies (Oxford COVID-19 Government Response Tracker)",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "Nat Hum Behav"
+      },
+      {
+        "issue": "7",
+        "key": "2023081815050758000_2023.08.11.23293400v1.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0008422",
+        "DOI": "10.1371/journal.pntd.0008422",
+        "article-title": "A spatio-temporal approach to short-term prediction of visceral leishmaniasis diagnoses in India",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "PLoS Negl Trop Dis"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "113295",
+        "DOI": "10.1016/j.socscimed.2020.113295",
+        "article-title": "Long-term changes in endemic threshold populations for pertussis in England and Wales: A spatiotemporal analysis of Lancashire and South Wales, 1940-69",
+        "volume": "288",
+        "year": "2021",
+        "journal-title": "Soc Sci Med"
+      },
+      {
+        "key": "2023081815050758000_2023.08.11.23293400v1.65",
+        "unstructured": "Jeandron A. Tap water access and its relationship with cholera and other diarrhoeal diseases in an urban, cholera-endemic setting in the Democratic Republic of the Congo [Internet] [doctoral]. London School of Hygiene & Tropical Medicine; 2020 [cited 2023 May 22]. Available from: https://researchonline.lshtm.ac.uk/id/eprint/4659288/"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.11.23293400",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:38:54Z",
+      "timestamp": 1768505934000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.08.11.23293400"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          16
+        ]
+      ]
+    },
+    "references-count": 65,
+    "URL": "https://doi.org/10.1101/2023.08.11.23293400",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1186/s12879-024-08986-x",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

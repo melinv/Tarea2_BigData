@@ -1,0 +1,488 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:40:02Z",
+      "timestamp": 1768502402383,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  The impact of common and rare variants in COVID-19 host genetics is widely studied in [16]. Here, common and rare variants were used to define an interpretable machine learning model for predicting COVID-19 severity. Firstly, variants were converted into sets of Boolean features, depending on the absence or the presence of variants in each gene. An ensemble of LASSO logistic regression models was used to identify the most informative Boolean features with respect to the genetic bases of severity. After that, the Boolean features, selected by these logistic models, were combined into an Integrated PolyGenic Score, the so called IPGS, which offers a very simple description of the contribution of host genetics in COVID-19 severity. IPGS leads to an accuracy of 55-60% on different cohorts and, after a logistic regression with in input both IPGS and the age, it leads to an accuracy of 75%. The goal of this paper is to improve the previous results, using the information on the host organs involved in the disease. We generalized the IPGS adding a statistical weight for each organ, through the transformation of Boolean features into \u201cBoolean quantum features\u201d, inspired by the Quantum Mechanics. The organs\u2019 coefficients were set via the application of the genetic algorithm Pygad and, after that, we defined two new Integrated PolyGenic Score (\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"527291v1_inline1.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  and\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"527291v1_inline2.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  ). By applying a logistic regression with both\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"527291v1_inline3.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  (or indifferently\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"527291v1_inline4.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  ) and age as input, we reach an accuracy of 84-86%, thus improving the results previously shown in [16] by a factor of 10%.\n                </jats:p>",
+    "DOI": "10.1101/2023.02.06.527291",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2023-02-07T22:05:22Z",
+      "timestamp": 1675807522000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Host genetics and COVID-19 severity: increasing the accuracy of latest severity scores by Boolean quantum features"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2699-6013",
+        "authenticated-orcid": false,
+        "given": "Gabriele",
+        "family": "Martelloni",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3439-8005",
+        "authenticated-orcid": false,
+        "given": "Alessio",
+        "family": "Turchi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7386-3224",
+        "authenticated-orcid": false,
+        "given": "Chiara",
+        "family": "Fallerini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5204-5601",
+        "authenticated-orcid": false,
+        "given": "Andrea",
+        "family": "Degl\u2019Innocenti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0391-1980",
+        "authenticated-orcid": false,
+        "given": "Margherita",
+        "family": "Baldassarri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "GEN-COVID Multicenter study",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8272-3493",
+        "authenticated-orcid": false,
+        "given": "Simona",
+        "family": "Olmi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1099-8279",
+        "authenticated-orcid": false,
+        "given": "Simone",
+        "family": "Furini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0846-9220",
+        "authenticated-orcid": false,
+        "given": "Alessandra",
+        "family": "Renieri",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.3390/risks8030077",
+        "article-title": "A poisson autoregressive model to understand covid-19 contagion dynamics",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Risks"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "558",
+        "DOI": "10.3390/jpm11060558",
+        "article-title": "Severe covid-19 in hospitalized carriers of single cftr pathogenic variants",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Journal of personalized medicine"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "103246",
+        "DOI": "10.1016/j.ebiom.2021.103246",
+        "article-title": "Shorter androgen receptor polyq alleles protect against life-threatening covid-19 disease in european males",
+        "volume": "65",
+        "year": "2021",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0242534",
+        "DOI": "10.1371/journal.pone.0242534",
+        "article-title": "Clinical and molecular characterization of covid-19 hospitalized patients",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "Plos one"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1602",
+        "DOI": "10.1038/s41431-020-0691-z",
+        "article-title": "Ace2 gene variants may underlie interindividual variability and susceptibility to covid-19 in the italian population",
+        "volume": "28",
+        "year": "2020",
+        "journal-title": "European Journal of Human Genetics"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2017.05.038"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2050103",
+        "DOI": "10.1142/S012918312050103X",
+        "article-title": "Data analysis on coronavirus spreading by macroscopic growth laws",
+        "volume": "31",
+        "year": "2020",
+        "journal-title": "International Journal of Modern Physics C"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "064006",
+        "DOI": "10.1088/1742-5468/2016/06/064006",
+        "article-title": "The quench action",
+        "volume": "2016",
+        "year": "2016",
+        "journal-title": "Journal of Statistical Mechanics: Theory and Experiment"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.25681"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Covid, C., Team, R., COVID, C., Team, R., Bialek, S. , Boundy, E. , Bowen, V. , Chow, N. , Cohn, A. , Dowling, N. , et al., 2020. Severe outcomes among patients with coronavirus disease 2019 (covid-19)2014united states, february 12\u2013march 16, 2020 Morbidity and mortality weekly report 69, 343.",
+        "DOI": "10.15585/mmwr.mm6912e2"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1662",
+        "DOI": "10.1080/15548627.2021.1995152",
+        "article-title": "The polymorphism l412f in tlr3 inhibits autophagy and is a marker of severe covid-19 in males",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "Autophagy"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1038/s41431-020-00793-7",
+        "article-title": "Employing a systematic approach to biobanking and analyzing clinical and genetic data for advancing covid-19 research",
+        "volume": "29",
+        "year": "2021",
+        "journal-title": "European Journal of Human Genetics"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.14",
+        "first-page": "1",
+        "article-title": "Selp asp603asn and severe thrombosis in covid-19 males",
+        "volume": "14",
+        "year": "2021",
+        "journal-title": "Journal of hematology & oncology"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.67569"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1007/s00439-021-02397-7",
+        "article-title": "Common, low-frequency, rare, and ultra-rare coding variants contribute to covid-19 severity",
+        "volume": "141",
+        "year": "2022",
+        "journal-title": "Human genetics"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "109761",
+        "DOI": "10.1016/j.chaos.2020.109761",
+        "article-title": "Analysis and forecast of covid-19 spreading in china, italy and france",
+        "volume": "134",
+        "year": "2020",
+        "journal-title": "Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e10819",
+        "DOI": "10.7717/peerj.10819",
+        "article-title": "Covid-19: an automatic, semiparametric estimation method for the population infected in italy",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "PeerJ"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.19",
+        "unstructured": "Gad, A.F. , 2021. Pygad: An intuitive genetic algorithm python library. arXiv preprint arXiv:2106.06158."
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2020283"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.21",
+        "first-page": "1",
+        "article-title": "Coregulation of hiv-1 dependency factors in individuals heterozygous to the ccr5-delta32 deletion",
+        "volume": "10",
+        "year": "2013",
+        "journal-title": "AIDS research and therapy"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1350",
+        "DOI": "10.1016/j.ajhg.2021.05.017",
+        "article-title": "Pan-ancestry exome-wide association analyses of covid-19 outcomes in 586,157 individuals",
+        "volume": "108",
+        "year": "2021",
+        "journal-title": "The American Journal of Human Genetics"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kousathanas, A. , Pairo-Castineira, E. , Rawlik, K. , Stuckey, A. , Odhams, C.A. , Walker, S. , Russell, C.D. , Malinauskas, T. , Millar, J. , Elliott, K.S. , et al., 2021. Whole genome sequencing identifies multiple loci for critical illness caused by covid-19. medRxiv.",
+        "DOI": "10.1101/2021.09.02.21262965"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kramer, O. , Kramer, O. , 2016. Scikit-learn. Machine learning for evolution strategies, 45\u201353.",
+        "DOI": "10.1007/978-3-319-33383-0_5"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1002/jmv.25723",
+        "article-title": "Early phylogenetic estimate of the effective reproduction number of sars-cov-2",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "Journal of medical virology"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2050112",
+        "DOI": "10.1142/S0129183120501120",
+        "article-title": "How macroscopic laws describe complex dynamics: asymptomatic population and covid-19 spreading",
+        "volume": "31",
+        "year": "2020",
+        "journal-title": "International Journal of Modern Physics C"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1038/s41435-021-00157-1",
+        "article-title": "Rare variants in toll-like receptor 7 results in functional impairment and downregulation of cytokine-mediated signaling in covid-19 patients",
+        "volume": "23",
+        "year": "2022",
+        "journal-title": "Genes & Immunity"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature21039"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "110150",
+        "DOI": "10.1016/j.chaos.2020.110150",
+        "article-title": "Analysis of the evolution of the sars-cov-2 in italy, the role of the asymptomatics and the success of logistic model",
+        "volume": "140",
+        "year": "2020",
+        "journal-title": "Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chaos.2020.110064"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/genes12040596"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-03065-y"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "472",
+        "DOI": "10.1038/s41586-021-03767-x",
+        "article-title": "Mapping the human genetic architecture of covid-19",
+        "volume": "600",
+        "author": "group Writing group leaders Pathak Gita A",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.34",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "the Journal of machine Learning research"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26502/fccm92920232"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0034-4257(97)00083-7"
+      },
+      {
+        "key": "2023020921201283000_2023.02.06.527291v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "934",
+        "DOI": "10.1001/jamainternmed.2020.0994",
+        "article-title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in wuhan, china",
+        "volume": "180",
+        "year": "2020",
+        "journal-title": "JAMA internal medicine"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.02.06.527291",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:14:33Z",
+      "timestamp": 1768450473000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.02.06.527291"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2023.02.06.527291",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2026-03-17T17:37:45Z",
+      "timestamp": 1773769065806,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2026-03-13T00:00:00Z",
+          "timestamp": 1773360000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000272",
+        "name": "NIHR",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "MC_PC_19027"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MC_PC_19027"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000272",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000272",
+        "name": "NIHR",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "NIHR207397"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NIHR207397"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000272",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010269",
+        "name": "Wellcome Trust",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "227438/Z/23/Z"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "227438/Z/23/Z"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010269",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010269",
+        "name": "Wellcome Trust",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "107652/Z/15/Z"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "107652/Z/15/Z"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010269",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010269",
+        "name": "Wellcome Trust",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "203141/Z/16/Z"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "203141/Z/16/Z"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010269",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000288",
+        "name": "Royal Society",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "107652/Z/15/Z"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "107652/Z/15/Z"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000288",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000266",
+        "name": "Engineering and Physical Sciences Research Council",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "EP/S02428X/1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EP/S02428X/1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000266",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Research England\u2019s Expanding Excellence in England (E3) Fund"
+      },
+      {
+        "id": [
+          {
+            "id": "https://ror.org/01g6g9h28",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Deep sequencing data are increasingly used to study within-host viral diversity and to inform evolutionary inference. For SARS-CoV-2, analyses based on intra-host single-nucleotide variants (iSNVs) have been widely applied to quantify within-host diversity and infer transmission dynamics. However, these applications critically depend on the reliable identification of low-frequency variants, which remain vulnerable to systematic and technical artefacts. In this study, we show that recurrent artefactual iSNVs are common in large-scale SARS-CoV-2 sequencing data and can persist even under conservative minor allele frequency (MAF) thresholds. Using data from the UK\u2019s Office for National Statistics COVID-19 Infection Survey, we demonstrate that such artefacts are predominantly sequencing centre-rather than protocol-specific. Each centre exhibits a modest, distinct set of recurrent artefactual variants showing little overlap with sites routinely masked at the consensus level. To address this, we developed a systematic, dataset-aware framework that uses recurrence within sequencing datasets to identify small, noise-adapted sets of artefactual iSNVs to mask. Applying this framework reduces spurious sharing of low-frequency variants between samples and qualitatively alters downstream inferences, including estimates of within-host diversity and transmission bottleneck sizes. Together, these findings highlight the importance of explicit, dataset-aware artefact control for robust inference from within-host variation, particularly as genomic studies increasingly seek to exploit sub-consensus diversity in rapidly evolving pathogens such as SARS-CoV-2.</jats:p>",
+    "DOI": "10.64898/2026.03.13.711550",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2026-03-14T01:00:13Z",
+      "timestamp": 1773450013000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Identification and Masking of Artefactual and Misleading Within-Host Variants in Deep-Sequencing SARS-CoV-2 Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Klara M.",
+        "family": "Anker",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "given": "Matthew",
+        "family": "Hall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Department of Clinical Research, London School of Hygiene & Tropical Medicine, London, UK"
+          }
+        ]
+      },
+      {
+        "given": "Rosario",
+        "family": "Evans Pena",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Department of Biology, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "given": "Steven A.",
+        "family": "Kemp",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "given": "Joseph",
+        "family": "Clarke",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "given": "Lele",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Bonsall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Wellcome Centre for Human Genetics, Nuffield Department of Medicine, NIHR Biomedical Research Centre, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Grayson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Wellcome Centre for Human Genetics, Nuffield Department of Medicine, NIHR Biomedical Research Centre, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6847-1525",
+        "authenticated-orcid": false,
+        "given": "Matthew",
+        "family": "Bashton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hub for Biotechnology in the Built Environment, Northumbria University, Newcastle-Upon-Tyne, UK"
+          }
+        ]
+      },
+      {
+        "name": "The COVID-19 Genomics UK (COG-UK) Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ann Sarah",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "The National Institute for Health Research Health Protection Research Unit in Healthcare Associated Infections and Antimicrobial Resistance at the University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "The National Institute for Health Research Oxford Biomedical Research Centre, University of Oxford, Oxford, UK"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2765-9828",
+        "authenticated-orcid": false,
+        "given": "Tanya",
+        "family": "Golubchik",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "The Sydney Infectious Diseases Institute (Sydney ID), School of Medical Sciences, University of Sydney, Sydney, Australia"
+          }
+        ]
+      },
+      {
+        "given": "Katrina",
+        "family": "Lythgoe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pandemic Sciences Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Big Data Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Department of Biology, University of Oxford, Oxford, UK"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2026031701100908000_2026.03.13.711550v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1186/s13073-021-00839-5",
+        "article-title": "CoronaHiT: high-throughput sequencing of SARS-CoV-2 genomes",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Genome Medicine"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ben Zvi, Adi , et al. (2025), \u2018Diverse patterns of intra-host genetic diversity in chronically infected SARS-CoV-2 patients\u2019, Virus Evolution, 11 (1).",
+        "DOI": "10.1093/ve/veaf047"
+      },
+      {
+        "issue": "1",
+        "key": "2026031701100908000_2026.03.13.711550v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1038/s41467-023-36001-5",
+        "article-title": "Rapid transmission and tight bottlenecks constrain the evolution of highly transmissible SARS-CoV-2 variants",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "4",
+        "key": "2026031701100908000_2026.03.13.711550v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1013134",
+        "DOI": "10.1371/journal.ppat.1013134",
+        "article-title": "In depth sequencing of a serially sampled household cohort reveals the within-host dynamics of Omicron SARS-CoV-2 and rare selection of novel spike variants",
+        "volume": "21",
+        "year": "2025",
+        "journal-title": "PLOS Pathogens"
+      },
+      {
+        "issue": "9",
+        "key": "2026031701100908000_2026.03.13.711550v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1058",
+        "DOI": "10.3390/pathogens11091058",
+        "article-title": "SARS-CoV-2 Variants Identification: Overview of Molecular Existing Methods",
+        "volume": "11",
+        "year": "2022",
+        "journal-title": "Pathogens"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu170"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1062",
+        "DOI": "10.12688/f1000research.7111.1",
+        "article-title": "ve-SEQ: Robust, unbiased enrichment for streamlined detection and whole-genome sequencing of HCV and other highly diverse pathogens",
+        "volume": "4",
+        "year": "2015",
+        "journal-title": "F1000Res"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bonsall, D. , et al. (2020), \u2018A Comprehensive Genomics Solution for HIV Surveillance and Clinical Monitoring in Low-Income Settings\u2019, J Clin Microbiol, 58 (10).",
+        "DOI": "10.1128/JCM.00382-20"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1009849"
+      },
+      {
+        "issue": "2",
+        "key": "2026031701100908000_2026.03.13.711550v1.10",
+        "first-page": "616",
+        "article-title": "Next generation sequencing of SARS-CoV-2 genomes: challenges, applications and opportunities",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx364"
+      },
+      {
+        "issue": "3",
+        "key": "2026031701100908000_2026.03.13.711550v1.12",
+        "first-page": "e01803",
+        "article-title": "Analysis of the ARTIC Version 3 and Version 4 SARS-CoV-2 Primers and Their Impact on the Detection of the G142D Amino Acid Substitution in the Spike Protein",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Microbiology Spectrum"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.13",
+        "unstructured": "De Maio, Nicola , et al. (2020), \u2018Issues with SARS-CoV-2 sequencing data\u2019."
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong, Xiaofeng , et al. (2025), \u2018Using minor variant genomes and machine learning to study the genome biology of SARS-CoV-2 over time\u2019, Nucleic Acids Research, 53 (4).",
+        "DOI": "10.1093/nar/gkaf077"
+      },
+      {
+        "issue": "10",
+        "key": "2026031701100908000_2026.03.13.711550v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0334009",
+        "DOI": "10.1371/journal.pone.0334009",
+        "article-title": "SARS-CoV-2 sequencing artifacts associated with targeted PCR enrichment and read mapping",
+        "volume": "20",
+        "year": "2025",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goh, Cyndi , et al. (2019), \u2018Targeted metagenomic sequencing enhances the identification of pathogens associated with acute infection\u2019, bioRxiv, 716902.",
+        "DOI": "10.1101/716902"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-018-1618-7"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2164-13-666"
+      },
+      {
+        "issue": "2",
+        "key": "2026031701100908000_2026.03.13.711550v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "veac052",
+        "DOI": "10.1093/ve/veac052",
+        "article-title": "Narrow transmission bottlenecks and limited within-host viral diversity during a SARS-CoV-2 outbreak on a fishing boat",
+        "volume": "8",
+        "year": "2022",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.20",
+        "unstructured": "Hunt, Martin , et al. (2024), \u2018Addressing pandemic-wide systematic errors in the SARS-CoV-2 phylogeny\u2019, bioRxiv, 2024.04.29.591666."
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1146/annurev-virology-010320-061642",
+        "article-title": "Within-Host Viral Diversity: A Window into Viral Evolution",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Annual Review of Virology"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.00171-17"
+      },
+      {
+        "issue": "1",
+        "key": "2026031701100908000_2026.03.13.711550v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "460",
+        "DOI": "10.1038/s41467-022-28089-y",
+        "article-title": "Viral infection and transmission in a large, well-traced outbreak caused by the SARS-CoV-2 Delta variant",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.24",
+        "unstructured": "Lythgoe, K. A. , et al. (2021), \u2018SARS-CoV-2 within-host diversity and transmission\u2019, Science, 372 (6539)."
+      },
+      {
+        "issue": "2009",
+        "key": "2026031701100908000_2026.03.13.711550v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "20231284",
+        "DOI": "10.1098/rspb.2023.1284",
+        "article-title": "Lineage replacement and evolution captured by 3 years of the United Kingdom Coronavirus (COVID-19) Infection Survey",
+        "volume": "290",
+        "year": "2023",
+        "journal-title": "Proceedings of the Royal Society B: Biological Sciences"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abh1803"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00667-16"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.35962"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mostefai, Fatima , et al. (2024), \u2018Refining SARS-CoV-2 intra-host variation by leveraging large-scale sequencing data\u2019, NAR Genomics and Bioinformatics, 6 (4).",
+        "DOI": "10.1093/nargab/lqae145"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-021-02395-y"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O\u2019Toole, \u00c1ine , et al. (2021), \u2018Assignment of epidemiological lineages in an emerging pandemic using the pangolin tool\u2019, Virus Evolution, 7 (2).",
+        "DOI": "10.1093/ve/veab064"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3479"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.33",
+        "first-page": "573",
+        "article-title": "Genomic epidemiology of superspreading events in Austria reveals mutational dynamics and transmission properties of SARS-CoV-2",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "Sci Transl Med"
+      },
+      {
+        "issue": "1",
+        "key": "2026031701100908000_2026.03.13.711550v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e30",
+        "DOI": "10.1016/S2468-2667(20)30282-6",
+        "article-title": "Community prevalence of SARS-CoV-2 in England from April to November, 2020: results from the ONS Coronavirus Infection Survey",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "The Lancet Public Health"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quick, Josh (2020), \u2018nCoV-2019 sequencing protocol v3 (LoCost)\u2019, protocols.io.",
+        "DOI": "10.17504/protocols.io.bp2l6n26rgqe/v3"
+      },
+      {
+        "issue": "4",
+        "key": "2026031701100908000_2026.03.13.711550v1.36",
+        "first-page": "e01046",
+        "article-title": "Optimized quantification of intra-host viral diversity in SARS-CoV-2 and influenza virus sequence data",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "mBio"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stoler, Nicholas and Nekrutenko, Anton (2021), \u2018Sequencing error profiles of Illumina sequencing instruments\u2019, NAR Genomics and Bioinformatics, 3 (1).",
+        "DOI": "10.1093/nargab/lqab019"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.66857"
+      },
+      {
+        "issue": "11",
+        "key": "2026031701100908000_2026.03.13.711550v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009175",
+        "DOI": "10.1371/journal.pgen.1009175",
+        "article-title": "Stability of SARS-CoV-2 phylogenies",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Genetics"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ulhuq, Fatima R. , et al. (2023), \u2018Analysis of the ARTIC V4 and V4.1 SARS-CoV-2 primers and their impact on the detection of Omicron BA.1 and BA.2 lineage-defining mutations\u2019, Microbial Genomics, 9 (4).",
+        "DOI": "10.1099/mgen.0.000991"
+      },
+      {
+        "issue": "1",
+        "key": "2026031701100908000_2026.03.13.711550v1.41",
+        "first-page": "11.10.1",
+        "article-title": "From FastQ Data to High-Confidence Variant Calls: The Genome Analysis Toolkit Best Practices Pipeline",
+        "volume": "43",
+        "year": "2013",
+        "journal-title": "Current Protocols in Bioinformatics"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Walter, Katharine S , et al. (2023), \u2018Challenges in Harnessing Shared Within-Host Severe Acute Respiratory Syndrome Coronavirus 2 Variation for Transmission Inference\u2019, Open Forum Infectious Diseases, 10 (2).",
+        "DOI": "10.1093/ofid/ofad001"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks918"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-019-1891-0"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vey007"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, Lei and Illingworth, Christopher J R (2019), \u2018Measurements of intrahost viral diversity require an unbiased diversity metric\u2019, Virus Evolution, 5 (1).",
+        "DOI": "10.1093/ve/vey041"
+      },
+      {
+        "key": "2026031701100908000_2026.03.13.711550v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.13.711550",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2026-03-17T14:36:04Z",
+      "timestamp": 1773758164000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.13.711550"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.64898/2026.03.13.711550",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

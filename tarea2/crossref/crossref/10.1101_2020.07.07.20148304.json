@@ -1,0 +1,429 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:23:22Z",
+      "timestamp": 1768548202079,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Timely identification of COVID-19 patients at high risk of mortality can significantly improve patient management and resource allocation within hospitals. This study seeks to develop and validate a data-driven personalized mortality risk calculator for hospitalized COVID-19 patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>De-identified data was obtained for 3,927 COVID-19 positive patients from six independent centers, comprising 33 different hospitals. Demographic, clinical, and laboratory variables were collected at hospital admission. The COVID-19 Mortality Risk (CMR) tool was developed using the XGBoost algorithm to predict mortality. Its discrimination performance was subsequently evaluated on three validation cohorts.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>\n                    The derivation cohort of 3,062 patients has an observed mortality rate of 26.84%. Increased age, decreased oxygen saturation (\u2264 93%), elevated levels of C-reactive protein (\u2265 130 mg/L), blood urea nitrogen (\u2265 18 mg/dL), and blood creatinine (\u2265 1.2 mg/dL) were identified as primary risk factors, validating clinical findings. The model obtains out-of-sample AUCs of 0.90 (95% CI, 0.87-0.94) on the derivation cohort. In the validation cohorts, the model obtains AUCs of 0.92 (95% CI, 0.88-0.95) on Seville patients, 0.87 (95% CI, 0.84-0.91) on Hellenic COVID-19 Study Group patients, and 0.81 (95% CI, 0.76-0.85) on Hartford Hospital patients. The CMR tool is available as an online application at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://covidanalytics.io/mortality_calculator\">covidanalytics.io/mortality_calculator</jats:ext-link>\n                    and is currently in clinical use.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>The CMR model leverages machine learning to generate accurate mortality predictions using commonly available clinical features. This is the first risk score trained and validated on a cohort of COVID-19 patients from Europe and the United States.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>\n                      We searched PubMed, BioRxiv, MedRxiv, arXiv, and SSRN for peer-reviewed articles, preprints, and research reports in English from inception to March 25\n                      <jats:sup>th</jats:sup>\n                      , 2020 focusing on disease severity and mortality risk scores for patients that had been infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Earlier investigations showed promise at predicting COVID-19 disease severity using data at admission. However, existing work was limited by its data scope, either relying on a single center with rich clinical information or broader cohort with sparse clinical information. No analysis has leveraged Electronic Health Records data from an international multi-center cohort from both Europe and the United States.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>We present the first multi-center COVID-19 mortality risk study that uses Electronic Health Records data from 3,062 patients across four different countries, including Greece, Italy, Spain, and the United States, encompassing 33 hospitals. We employed state-of-the-art machine learning techniques to develop a personalized COVID-19 mortality risk (CMR) score for hospitalized patients upon admission based on clinical features including vitals, lab results, and comorbidities. The model validates clinical findings of mortality risk factors and exhibits strong performance, with AUCs ranging from 0.81 to 0.92 across external validation cohorts. The model identifies increased age as a primary mortality predictor, consistent with observed disease trends and subsequent public health guidelines. Additionally, among the vital and lab values collected at admission, decreased oxygen saturation (\u2264 93%) and elevated levels of C-reactive protein (\u2265 130 mg/L), blood urea nitrogen (\u2265 18 mg/dL), blood creatinine (\u2265 1.2 mg/dL), and blood glucose (\u2265180 mg/dL) are highlighted as key biomarkers of mortality risk. These findings corroborate previous studies that link COVID-19 severity to hypoxemia, impaired kidney function, and diabetes. These features are also consistent with risk factors used in severity risk scores for related respiratory conditions such as community-acquired pneumonia.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>Our work presents the development and validation of a personalized mortality risk score. We take a data-driven approach to derive insights from Electronic Health Records data spanning Europe and the United States. While many existing papers on COVID-19 clinical characteristics and risk factors are based on Chinese hospital data, the similarities in our findings suggest consistency in the disease characteristics across international cohorts. Additionally, our machine learning model offers a novel approach to understanding the disease and its risk factors. By creating a single comprehensive risk score that integrates various admission data components, the calculator offers a streamlined way of evaluating COVID-19 patients upon admission to augment clinical expertise. The CMR model provides a valuable clinical decision support tool for patient triage and care management, improving risk estimation early within admission, that can significantly affect the daily practice of physicians.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.07.20148304",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2020-07-08T16:44:44Z",
+      "timestamp": 1594226684000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "COVID-19 Mortality Risk Assessment: An International Multi-Center Study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1985-1003",
+        "authenticated-orcid": false,
+        "given": "Dimitris",
+        "family": "Bertsimas",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3855-766X",
+        "authenticated-orcid": false,
+        "given": "Galit",
+        "family": "Lukin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6448-9333",
+        "authenticated-orcid": false,
+        "given": "Luca",
+        "family": "Mingardi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6332-3403",
+        "authenticated-orcid": false,
+        "given": "Omid",
+        "family": "Nohadani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3737-4826",
+        "authenticated-orcid": false,
+        "given": "Agni",
+        "family": "Orfanoudaki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4684-7111",
+        "authenticated-orcid": false,
+        "given": "Bartolomeo",
+        "family": "Stellato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4251-905X",
+        "authenticated-orcid": false,
+        "given": "Holly",
+        "family": "Wiberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sara",
+        "family": "Gonzalez-Garcia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlos Luis",
+        "family": "Parra-Calder\u00f3n",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "The Hellenic COVID-19 Study Group",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4312-4524",
+        "authenticated-orcid": false,
+        "given": "Kenneth",
+        "family": "Robinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michelle",
+        "family": "Schneider",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Barry",
+        "family": "Stein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alberto",
+        "family": "Estirado",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lia a",
+        "family": "Beccara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rosario",
+        "family": "Canino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3706-2929",
+        "authenticated-orcid": false,
+        "given": "Martina Dal",
+        "family": "Bello",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Federica",
+        "family": "Pezzetti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Angelo",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/physiolgenomics.00029.2020"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C. XGBoost: A scalable tree boosting system. In: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 2016: 785\u201394.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pourhomayoun M , Shakibi M. Predicting Mortality Risk in Patients with COVID-19 Using Artificial Intelligence to Help Medical Decision-Making. medRxiv 2020; : 2020.03.30.20047308.",
+        "DOI": "10.1101/2020.03.30.20047308"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.6",
+        "unstructured": "Yan L , Zhang H-T , Goncalves J , et al. An interpretable mortality prediction model for COVID-19 patients. Nat Mach Intell 2020; : 1\u20136."
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang X , Wu C , Li X , et al. On the origin and continuing evolution of SARS-CoV-2. Natl Sci Rev 2020; : 1\u201324.",
+        "DOI": "10.1093/nsr/nwaa036"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.8",
+        "unstructured": "Agency for Healthcare Research and Quality. HCUP CCS. 2017."
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/17.6.520"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akiba T , Sano S , Yanase T , Ohta T , Koyama M. Optuna: A Next-generation Hyperparameter Optimization Framework. In: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 2019: 2623\u201331.",
+        "DOI": "10.1145/3292500.3330701"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.11",
+        "first-page": "2522",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nat Mach Intell"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.13",
+        "unstructured": "Center for Disease Control and Prevention. Groups at Higher Risk for Severe Illness. 2020. https://www.cdc.gov/aging/covid19-guidance.html."
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mayocp.2020.04.006"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "568",
+        "DOI": "10.1002/jmv.25748",
+        "article-title": "Unique epidemiological and clinical features of the emerging 2019 novel coronavirus pneumonia (COVID-19) implicate special control measures",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "J Med Virol"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05991-x"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilkerson RG , Adler JD , Shah NG , Brown R. Silent hypoxia: A harbinger of clinical deterioration in patients with COVID-19. Am J Emerg Med 2020; : undefined-undefined.",
+        "DOI": "10.1016/j.ajem.2020.05.044"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen R , Liang W , Jiang M , et al. Risk factors of fatal outcome in hospitalized subjects with coronavirus disease 2019 from a nationwide analysis in China. Chest 2020; : 1\u20139.",
+        "DOI": "10.1016/j.chest.2020.04.010"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.1016/j.eimc.2013.07.006",
+        "article-title": "Correlation of inflammatory and cardiovascular biomarkers with pneumonia severity scores",
+        "volume": "32",
+        "year": "2014",
+        "journal-title": "Enfermedades Infecc y Microbiol Clininica"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thorax.58.5.377"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11739-011-0521-y"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1750-2659.2011.00244.x"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ofid/ofaa153"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.kint.2020.03.005"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.25",
+        "unstructured": "of California San Francisco U. Basic metabolic panel. 2019. https://www.ucsfhealth.org/medical-tests/003462."
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.26"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cca.2020.03.022"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30234-4"
+      },
+      {
+        "key": "2021011009050544000_2020.07.07.20148304v3.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30228-9"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.07.20148304",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:47:25Z",
+      "timestamp": 1768484845000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.07.20148304"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2020.07.07.20148304",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0243262",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

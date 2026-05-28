@@ -1,0 +1,598 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:44:28Z",
+      "timestamp": 1768549468267,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:sec>\n                  <jats:title>Introduction</jats:title>\n                  <jats:p>The Consortium for Clinical Characterization of COVID-19 by EHR (4CE) includes hundreds of hospitals internationally using a federated computational approach to COVID-19 research using the EHR.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>We sought to develop and validate a standard definition of COVID-19 severity from readily accessible EHR data across the Consortium.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We developed an EHR-based severity algorithm and validated it on patient hospitalization data from 12 4CE clinical sites against the outcomes of ICU admission and/or death. We also used a machine learning approach to compare selected predictors of severity to the 4CE algorithm at one site.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The 4CE severity algorithm performed with pooled sensitivity of 0.73 and specificity 0.83 for the combined outcome of ICU admission and/or death. The sensitivity of single code categories for acuity were unacceptably inaccurate - varying by up to 0.65 across sites. A multivariate machine learning approach identified codes resulting in mean AUC 0.956 (95% CI: 0.952, 0.959) compared to 0.903 (95% CI: 0.886, 0.921) using expert-derived codes. Billing codes were poor proxies of ICU admission, with 49% precision and recall compared against chart review at one partner institution.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>We developed a proxy measure of severity that proved resilient to coding variability internationally by using a set of 6 code classes. In contrast, machine-learning approaches may tend to overfit hospital-specific orders. Manual chart review revealed discrepancies even in the gold standard outcomes, possibly due to pandemic conditions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>We developed an EHR-based algorithm for COVID-19 severity and validated it at 12 international sites.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.10.13.20201855",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2020-10-14T14:50:22Z",
+      "timestamp": 1602687022000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Validation of a Derived International Patient Severity Algorithm to Support COVID-19 Analytics from Electronic Health Record Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2043-1601",
+        "authenticated-orcid": false,
+        "given": "Jeffrey G",
+        "family": "Klann",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2597-881X",
+        "authenticated-orcid": false,
+        "given": "Griffin M",
+        "family": "Weber",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0204-8978",
+        "authenticated-orcid": false,
+        "given": "Hossein",
+        "family": "Estiri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9197-721X",
+        "authenticated-orcid": false,
+        "given": "Bertrand",
+        "family": "Moal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0235-7543",
+        "authenticated-orcid": false,
+        "given": "Paul",
+        "family": "Avillach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7056-9559",
+        "authenticated-orcid": false,
+        "given": "Chuan",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Victor",
+        "family": "Castro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3184-1366",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Maulhardt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0623-6623",
+        "authenticated-orcid": false,
+        "given": "Amelia LM",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8574-0133",
+        "authenticated-orcid": false,
+        "given": "Alon",
+        "family": "Geva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6700-1468",
+        "authenticated-orcid": false,
+        "given": "Brett K",
+        "family": "Beaulieu-Jones",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2857-5773",
+        "authenticated-orcid": false,
+        "given": "Alberto",
+        "family": "Malovini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3204-4142",
+        "authenticated-orcid": false,
+        "given": "Andrew M",
+        "family": "South",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2079-8684",
+        "authenticated-orcid": false,
+        "given": "Shyam",
+        "family": "Visweswaran",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8976-6074",
+        "authenticated-orcid": false,
+        "given": "Gilbert S",
+        "family": "Omenn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5676-2520",
+        "authenticated-orcid": false,
+        "given": "Kee Yuan",
+        "family": "Ngiam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9781-0477",
+        "authenticated-orcid": false,
+        "given": "Kenneth D",
+        "family": "Mandl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2972-2042",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Boeker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5124-6129",
+        "authenticated-orcid": false,
+        "given": "Karen L",
+        "family": "Olson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3802-4457",
+        "authenticated-orcid": false,
+        "given": "Danielle L",
+        "family": "Mowery",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3255-5727",
+        "authenticated-orcid": false,
+        "given": "Michele",
+        "family": "Morris",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1618-2817",
+        "authenticated-orcid": false,
+        "given": "Robert W",
+        "family": "Follett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6931-3791",
+        "authenticated-orcid": false,
+        "given": "David A",
+        "family": "Hanauer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6974-9808",
+        "authenticated-orcid": false,
+        "given": "Riccardo",
+        "family": "Bellazzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5015-1099",
+        "authenticated-orcid": false,
+        "given": "Jason H",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4114-1286",
+        "authenticated-orcid": false,
+        "given": "Ne-Hooi Will",
+        "family": "Loh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5063-8294",
+        "authenticated-orcid": false,
+        "given": "Douglas S.",
+        "family": "Bell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6219-861X",
+        "authenticated-orcid": false,
+        "given": "Kavishwar B",
+        "family": "Wagholikar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luca",
+        "family": "Chiovato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Valentina",
+        "family": "Tibollo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7493-7080",
+        "authenticated-orcid": false,
+        "given": "Siegbert",
+        "family": "Rieg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anthony L.L.J.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5272-2265",
+        "authenticated-orcid": false,
+        "given": "Vianney",
+        "family": "Jouhet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emily",
+        "family": "Schriver",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Malarkodi J",
+        "family": "Samayamuthu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1500-2589",
+        "authenticated-orcid": false,
+        "given": "Zongqi",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "The Consortium for Clinical Characterization of COVID-19 by EHR (4CE) (CONSORTIA AUTHOR)",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isaac S",
+        "family": "Kohane",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3928-5931",
+        "authenticated-orcid": false,
+        "given": "Gabriel A",
+        "family": "Brat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shawn N",
+        "family": "Murphy",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e10020",
+        "DOI": "10.1002/lrh2.10020",
+        "article-title": "The science of Learning Health Systems: Foundations for a new journal",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Learn Health Syst"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1093/jamiaopen/ooy033",
+        "article-title": "Accrual to Clinical Trials (ACT): A Clinical and Translational Science Award Consortium Network",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "JAMIA Open"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2014-002864"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.4",
+        "unstructured": "SPHN -Swiss Personalized Health Network (SPHN). https://sphn.ch/ (accessed 3 Sep 2020)."
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1016/j.jbi.2016.09.018",
+        "article-title": "The Learning Healthcare System: Where are we now? A systematic review",
+        "volume": "64",
+        "year": "2016",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.6",
+        "first-page": "574",
+        "article-title": "Observational Health Data Sciences and Informatics (OHDSI): Opportunities for Observational Researchers",
+        "volume": "216",
+        "year": "2015",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jamia.2009.000893"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1038/s41746-020-00308-0",
+        "article-title": "International electronic health record-derived COVID-19 clinical course profiles: the 4CE consortium",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2013-001935"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2012-001145"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2014.06.007"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocx111"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2012-000896"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijcard.2015.03.075"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/MD.0000000000001474"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.17",
+        "unstructured": "World Health Organization, Others. Clinical management of severe acute respiratory infection (SARI) when COVID-19 disease is suspected: interim guidance, 13 March 2020. World Health Organization 2020.https://apps.who.int/iris/bitstream/handle/10665/331446/WHO-2019-nCoV-clinical-2020.4-chi.pdf (accessed 17 Jun 2020)."
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.18",
+        "unstructured": "Diagnosis When There Is No Testing.\u201cwww.acep.org/corona/covid-19-field-guide/diagnosis/diagnosis-when-there-is-no-testing/ (accessed 3 Sep 2020)."
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1503/cmaj.200648"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJM200106283442606"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocv188"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.22",
+        "unstructured": "MGH COVID-19 Registry. 2020.https://rc.partners.org/about/projects-initiatives/new-covid-19-research-tools-researchers/covid-19-external-data-sets#mgh-covid-registry (accessed 8 Sep 2020)."
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "100051",
+        "DOI": "10.1016/j.patter.2020.100051",
+        "article-title": "Transitive Sequencing Medical Records for Mining Predictive and Interpretable Temporal Representations",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Patterns (N Y)"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hossein Estiri , Sebastien Vasey , Shawn N Murphy . Transitive sequential pattern mining for discrete clinical data. In: Martin Michalowski RM , ed. Artificial Intelligence in Medicine. Springer 2020.",
+        "DOI": "10.1007/978-3-030-59137-3_37"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.25",
+        "first-page": "2109",
+        "article-title": "Model-based Boosting 2.0",
+        "volume": "11",
+        "year": "2010",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.26",
+        "unstructured": "Hothorn T , B\u00fchlmann P , Kneib T , et al. mboost: Model-based boosting. R package version 2012;:2\u20131."
+      },
+      {
+        "key": "2020102010150736000_2020.10.13.20201855v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.k1479"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.13.20201855",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:30Z",
+      "timestamp": 1768485390000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.13.20201855"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2020.10.13.20201855",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/jamia/ocab018",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

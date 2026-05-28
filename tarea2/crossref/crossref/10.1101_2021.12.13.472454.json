@@ -1,0 +1,322 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:40:40Z",
+      "timestamp": 1768498840709,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          14
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 22,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Building reliable phylogenies from very large collections of sequences with a limited number of phylogenetically informative sites is challenging because sequencing errors and recurrent/backward mutations interfere with the phylogenetic signal, confounding true evolutionary relationships. Massive global efforts of sequencing genomes and reconstructing the phylogeny of SARS-CoV-2 strains exemplify these difficulties since there are only hundreds of phylogenetically informative sites and millions of genomes. For such datasets, we set out to develop a method for building the phylogenetic tree of genomic haplotypes consisting of positions harboring common variants to improve the signal-to-noise ratio for more accurate phylogenetic inference of resolvable phylogenetic features.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We present the\n                    <jats:italic>TopHap</jats:italic>\n                    approach that determines spatiotemporally common haplotypes of common variants and builds their phylogeny at a fraction of the computational time of traditional methods. To assess topological robustness, we develop a bootstrap resampling strategy that resamples genomes spatiotemporally. The application of\n                    <jats:italic>TopHap</jats:italic>\n                    to build a phylogeny of 68,057 genomes (68KG) produced an evolutionary tree of major SARS-CoV-2 haplotypes. This phylogeny is concordant with the mutation tree inferred using the co-occurrence pattern of mutations and recovers key phylogenetic relationships from more traditional analyses. We also evaluated alternative roots of the SARS-CoV-2 phylogeny and found that the earliest sampled genomes in 2019 likely evolved by four mutations of the most recent common ancestor of all SARS-CoV-2 genomes. An application of\n                    <jats:italic>TopHap</jats:italic>\n                    to more than 1 million genomes reconstructed the most comprehensive evolutionary relationships of major variants, which confirmed the 68KG phylogeny and provided evolutionary origins of major variants of concern.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    <jats:italic>TopHap</jats:italic>\n                    is available on the web at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/SayakaMiura/TopHap\">https://github.com/SayakaMiura/TopHap</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>s.kumar@temple.edu</jats:email>\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.13.472454",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          14
+        ]
+      ],
+      "date-time": "2021-12-14T17:45:13Z",
+      "timestamp": 1639503913000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "TopHap: Rapid inference of key phylogenetic structures from common haplotypes in large genome collections with limited diversity"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4063-3657",
+        "authenticated-orcid": false,
+        "given": "Marcos A.",
+        "family": "Caraballo-Ortiz",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sayaka",
+        "family": "Miura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maxwell",
+        "family": "Sanderford",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tenzin",
+        "family": "Dolker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7360-409X",
+        "authenticated-orcid": false,
+        "given": "Qiqing",
+        "family": "Tao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven",
+        "family": "Weaver",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sergei L. K.",
+        "family": "Pond",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9918-8212",
+        "authenticated-orcid": false,
+        "given": "Sudhir",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0820-9"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syr010"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msab246"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2408678"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-016-0936-x"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "3046",
+        "DOI": "10.1093/molbev/msab118",
+        "article-title": "An evolutionary portrait of the progenitor sars-cov-2 and its dominant offshoots in covid-19 pandemic",
+        "volume": "38",
+        "year": "2021",
+        "journal-title": "Mol. Biol. Evol"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/106351501753462876"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008421",
+        "DOI": "10.1371/journal.ppat.1008421",
+        "article-title": "Are pangolins the intermediate host of the 2019 novel coronavirus (sars-cov-2)?",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS Path"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-538"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.10",
+        "first-page": "1777",
+        "article-title": "Phylogenetic analysis of sars-cov-2 data is difficult",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Mol. Biol. Evol"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.191098.115"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2020.198098"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.13",
+        "unstructured": "Pekar, J. , et al. (2021) Evidence against the veracity of sars-cov-2 genomes intermediate between lineages a and b. In, Virological.org."
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.14",
+        "first-page": "1537",
+        "article-title": "Assessing uncertainty in the rooting of the sars-cov-2 phylogeny",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Mol. Biol. Evol"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for sars-cov-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nat. Microbiol"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2016.07.042."
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1063994980"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu033"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00862-7"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.20"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "iyab074",
+        "DOI": "10.1093/genetics/iyab074",
+        "article-title": "Rapid detection of inter-clade recombination in sars-cov-2 with bolotie",
+        "volume": "218",
+        "year": "2021",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "2021121610051504000_2021.12.13.472454v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.13.472454",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:29:03Z",
+      "timestamp": 1768444143000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.13.472454"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          14
+        ]
+      ]
+    },
+    "references-count": 22,
+    "URL": "https://doi.org/10.1101/2021.12.13.472454",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bioinformatics/btac186",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

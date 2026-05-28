@@ -1,0 +1,350 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:17:57Z",
+      "timestamp": 1768555077167,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          14
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>\n                    When novel diseases such as COVID-19 emerge, predictors of clinical outcomes might be unknown. Using data from electronic medical records (EMR) allows evaluation of potential predictors without selecting specific features\n                    <jats:italic>a priori</jats:italic>\n                    for a model. We evaluated different machine learning models for predicting outcomes among COVID-19 inpatients using raw EMR data.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>In Premier Healthcare Data Special Release: COVID-19 Edition (PHD-SR COVID-19, release date March, 24 2021), we included patients admitted with COVID-19 during February 2020 through April 2021 and built time-ordered medical histories. Setting the prediction horizon at 24 hours into the first COVID-19 inpatient visit, we aimed to predict intensive care unit (ICU) admission, hyperinflammatory syndrome (HS), and death. We evaluated the following models: L2-penalized logistic regression, random forest, gradient boosting classifier, deep averaging network, and recurrent neural network with a long short-term memory cell.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>There were 57,355 COVID-19 patients identified in PHD-SR COVID-19. ICU admission was the easiest outcome to predict (best AUC=79%), and HS was the hardest to predict (best AUC=70%). Models performed similarly within each outcome.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>Although the models learned to attend to meaningful clinical information, they performed similarly, suggesting performance limitations are inherent to the data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Predictive models using raw EMR data are promising because they can use many observations and encompass a large feature space; however, traditional and deep learning models may perform similarly when few features are available at the individual patient level.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.04.13.22273835",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2022-04-14T16:20:12Z",
+      "timestamp": 1649953212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Evaluation of machine learning for predicting COVID-19 outcomes from a national electronic medical records database"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Sean",
+        "family": "Browning",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Scott H.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ermias",
+        "family": "Belay",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jennifer",
+        "family": "DeCuir",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shana Godfred",
+        "family": "Cato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pragna",
+        "family": "Patel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Noah",
+        "family": "Schwartz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karen K.",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2022041605550717000_2022.04.13.22273835v1.1",
+        "first-page": "1",
+        "article-title": "Scalable and accurate deep learning with electronic health records",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "npj Digital Medicine"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shang J , Ma T , Xiao C , Sun J. Pre-training of Graph Augmented Transformers for Medication Recommendation. arXiv:190600346 [cs]. 2019 Nov [cited 2021 Nov 17]. Available from: http://arxiv.org/abs/1906.00346",
+        "DOI": "10.24963/ijcai.2019/825"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1390-1"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.4",
+        "unstructured": "Choi E , Biswal S , Malin B , Duke J , Stewart WF , Sun J. Generating Multi-label Discrete Patient Records using Generative Adversarial Networks. arXiv:170306490 [cs]. 2018 Jan [cited 2021 Nov 17]. Available from: http://arxiv.org/abs/1703.06490"
+      },
+      {
+        "issue": "1",
+        "key": "2022041605550717000_2022.04.13.22273835v1.5",
+        "first-page": "1",
+        "article-title": "Natural language generation for electronic health records",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "npj Digital Med"
+      },
+      {
+        "issue": "1",
+        "key": "2022041605550717000_2022.04.13.22273835v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "5033",
+        "DOI": "10.1038/s41467-020-18684-2",
+        "article-title": "Machine learning based early warning system enables accurate mortality risk prediction for COVID-19",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268822000024"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.8",
+        "unstructured": "Xu K , Lam M , Pang J , Gao X , Band C , Md PM , et al. Multimodal Machine Learning for Automated ICD Coding. arXiv:181013348 [cs, stat]. 2019 Aug [cited 2021 Nov 17]. Available from: http://arxiv.org/abs/1810.13348"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.9",
+        "first-page": "301",
+        "article-title": "Doctor AI: Predicting Clinical Events via Recurrent Neural Networks",
+        "volume": "56",
+        "year": "2016",
+        "journal-title": "JMLR Workshop Conf Proc"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.10",
+        "unstructured": "Ranganath R , Perotte A , Elhadad N , Blei D. Deep Survival Analysis. arXiv:160802158 [cs, stat]. 2016 Sep [cited 2021 Nov 17]. Available from: http://arxiv.org/abs/1608.02158"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.11",
+        "unstructured": "Putzel P , Smyth P , Yu J , Zhong H. Dynamic Survival Analysis with Individualized Truncated Parametric Distributions. Proceedings of AAAI Spring Symposium on Survival Prediction - Algorithms, Challenges, and Applications 2021. PMLR; 2021; [cited 2021 Nov 17]; pp 159\u201370."
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocw112"
+      },
+      {
+        "issue": "6",
+        "key": "2022041605550717000_2022.04.13.22273835v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1668",
+        "DOI": "10.3390/jcm9061668",
+        "article-title": "Using Machine Learning to Predict ICU Transfer in Hospitalized COVID-19 Patients",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Journal of Clinical Medicine"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.jcrc.2020.10.033",
+        "article-title": "Development of a machine learning algorithm to predict intubation among hospitalized patients with COVID-19",
+        "volume": "62",
+        "year": "2021",
+        "journal-title": "J Crit Care"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/24018"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1038/s41746-021-00383-x",
+        "article-title": "Predicting COVID-19 mortality with electronic medical records",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.17",
+        "unstructured": "Vaswani A , Shazeer N , Parmar N , Uszkoreit J , Jones L , Gomez AN , et al. Attention Is All You Need. arXiv:170603762 [cs]. 2017 Dec [cited 2021 Nov 17]. Available from: http://arxiv.org/abs/1706.03762"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23915/distill.00022"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Iyyer M , Manjunatha V , Boyd-Graber J , Iii H. Deep Unordered Composition Rivals Syntactic Methods for Text Classification. 2015.",
+        "DOI": "10.3115/v1/P15-1162"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.21",
+        "unstructured": "Multisystem Inflammatory Syndrome in Adults (MIS-A) Case Definition Information for Healthcare Providers [Internet]. [cited 2022 Feb 7]. Available from: https://www.cdc.gov/mis/mis-a/hcp.html"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.22",
+        "unstructured": "Chollet F , others. Keras. 2015Available from: https://keras.io"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.23",
+        "unstructured": "Kingma DP , Ba J. Adam: A Method for Stochastic Optimization. arXiv:14126980 [cs]. 2017 Jan [cited 2021 Nov 17]. Available from: http://arxiv.org/abs/1412.6980"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "issue": "5",
+        "key": "2022041605550717000_2022.04.13.22273835v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1189",
+        "DOI": "10.1214/aos/1013203450",
+        "article-title": "Greedy function approximation: A gradient boosting machine",
+        "volume": "29",
+        "year": "2001",
+        "journal-title": "The Annals of Statistics"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.26",
+        "unstructured": "Pedregosa F , Varoquaux G , Gramfort A , Michel V , Thirion B , Grisel O , et al. Scikit-learn: Machine Learning in Python. MACHINE LEARNING IN PYTHON. 6."
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2289144"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.28",
+        "unstructured": "R Core Team. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing; 2021.Available from: https://www.R-project.org/"
+      },
+      {
+        "key": "2022041605550717000_2022.04.13.22273835v1.29",
+        "unstructured": "Abadi M , Barham P , Chen J , Chen Z , Davis A , Dean J , et al. TensorFlow: A system for large-scale machine learning. 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16). 2016; [cited 2021 Nov 17]; pp 265\u201383."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.13.22273835",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:41:24Z",
+      "timestamp": 1768488084000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.04.13.22273835"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          14
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1101/2022.04.13.22273835",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

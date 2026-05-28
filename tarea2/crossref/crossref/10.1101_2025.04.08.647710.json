@@ -1,0 +1,487 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T00:24:19Z",
+      "timestamp": 1768523059687,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ]
+    },
+    "group-title": "Bioengineering",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2025-04-09T00:00:00Z",
+          "timestamp": 1744156800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>While semantic segmentation allows precise localization of potential lesions, a segmentation based on object detection using bounding boxes is considered more effective for indicating the location of the target without replacing clinical expertise, reducing potential attentional and automation biases.</jats:p>\n                <jats:p>In this context, this work lays a foundation for better and more explainable localization of lesions in the lungs due to pneumonia by applying a combined approach first using a Bayesian uncertainty measure to evaluate the likelihood of a specific slice being positive in a particular disease and, second, directing the localization of the lesions toward those positive images following object detection methods. This approach provides confidence measures for the model\u2019s predictions and the regions of interest (i.e., bounding boxes) pointing to the lesions, improves the overall model\u2019s explainability, and leaves the expert at the centre of the decision. However, despite its advantages, identifying the existing lesions using bounding boxes also comes with challenges, especially in effectively managing overlapping boxes and developing a fusion strategy to combine smaller boxes into larger ones. In this respect, this paper also proposes a methodology to deal with such a problem.</jats:p>\n                <jats:p>The methods proposed are tested with a large corpus of approximately 90,000 Computed Tomography (CT) images extracted from public datasets of COVID-19, bacterial, fungal and other viral types of pneumonia, as well as control individuals, paying special attention to the first of these diseases due to the increasing interest raised by the recent pandemic.</jats:p>\n                <jats:p>\n                  For this aim, this work uses a Bayesian neural network based on DenseNet121 for the screening module; and Cascade R-CNN, RetinaNet, and YOLO architectures for identifying the lesions. The method shows screening accuracies for COVID-19 up to 94.61%, which are complemented with robust uncertainty measures. The localization of the associated lesions is carried out with an\n                  <jats:italic>mAP</jats:italic>\n                  <jats:sub>50</jats:sub>\n                  of 0.5559. The results and the methodology can easily be extrapolated to other pneumonias.\n                </jats:p>",
+    "DOI": "10.1101/2025.04.08.647710",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2025-04-09T23:40:11Z",
+      "timestamp": 1744242011000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Bayesian automatic screening of pneumonia and lung lesions localization from CT scans. A combined method toward a more user-centred and explainable approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "\u00c1lvaro Moure",
+        "family": "Prado",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8869-3363",
+        "authenticated-orcid": false,
+        "given": "Alejandro",
+        "family": "Guerrero-L\u00f3pez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1928-773X",
+        "authenticated-orcid": false,
+        "given": "Juli\u00e1n D.",
+        "family": "Arias-Londo\u00f1o",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7348-3291",
+        "authenticated-orcid": false,
+        "given": "Juan I.",
+        "family": "Godino-Llorente",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.1",
+        "unstructured": "Geoffrey D. Rubin et al. The role of chest imaging in patient management during the COVID19 pandemic: A multinational consensus statement from the fleischner society. RSNA Radiology, 296(1), 2020."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1752-2897-7-1"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201160"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rxeng.2020.11.001"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/rg.2020200159"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.6",
+        "unstructured": "Covid-19 ct segmentation dataset. http://medicalsegmentation.com/covid19/. Last accesed [2023-12-20]."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6560/abe838"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cdt3.17"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3044858"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00307-0"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2020.10.001"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.12",
+        "unstructured": "Jinyu Zhao , Yichen Zhang , Xuehai He , and Pengtao Xie . COVID-CT-Dataset: A CT scan dataset about COVID-19. arXiv preprint arxiv:2003.13865, 2020."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.13",
+        "unstructured": "SIDRMeI SIRM. Covid-19 database. URL: https://www.sirm.org/category/senza-categoria/covid-19, 2020."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.14",
+        "first-page": "87",
+        "article-title": "Deep transfer learning based classification model for covid-19 disease",
+        "volume": "43",
+        "year": "2020",
+        "journal-title": "Ingenierie et Recherche Biomedicale"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-21834/v1"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2021.102987"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2021.116377"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imu.2020.100427"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.19",
+        "unstructured": "Eduardo Soares , Plamen Angelov , Sarah Biaso , Michele Higa Froes , and Daniel Kanda Abe . SARS-CoV-2 CT-scan dataset: A large dataset of real patients CT scans for SARS-CoV-2 identification. MedRxiv, pages 2020\u201304, 2020."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.matpr.2021.12.121"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10489-021-02731-6"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.08.029"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artmed.2021.102082"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2021.07.001"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2023.102797"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mp.14676"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marius Schmidt-Mengin , Alexis Benichoux , Shibeshih Belachew , Nikos Komodakis , and Nikos Paragios . Tonno: Tomographic reconstruction of a neural network\u2019s output for weakly supervised segmentation of 3d medical images. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 11428\u201311438, 2024.",
+        "DOI": "10.1109/CVPR52733.2024.01086"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.20.20100362"
+      },
+      {
+        "issue": "1",
+        "key": "2025041122302211000_2025.04.08.647710v1.29",
+        "first-page": "233",
+        "article-title": "Domain and content adaptive convolution based multi-source domain generalization for medical image segmentation",
+        "volume": "42",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.30",
+        "unstructured": "E. Tsai , S. Simpson , M.P. Lungren , M. Hershman , L. Roshkovan , E. Colak , B.J. Erickson , G. Shih , A. Stein , J. Kalpathy-Cramer , J. Shen , M.A.F. Hafez , S. John , P. Rajiah , B.P. Pogatchnik , J.T. Mongan , E. Altinmakas , E. Ranschaert , F.C. Kitamura , L. Topff , L. Moy , J.P. Kanne , and C. Wu . Data from the medical imaging data resource center \u2013 rsna international covid radiology database release 1a \u2013 chest ct covid+ (midrc-ricord-1a), 2020."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2022.104430"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jnlssr.2024.06.001"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11547-020-01135-9"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/make4020026"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-42384-8"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0956797617739369"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-021-00385-9"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-28633-w"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2019.12.012"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrad.2023.110786"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2023.105831"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Julian D. Arias-Londo\u00f1o , Alvaro Moure-Prado , and Juan I. Godino-Llorente . Automatic identification of lung opacities due to covid-19 from chest x-ray images\u2014focussing attention on the lungs. Diagnostics, 13(8), 2023. ISSN 2075-4418.",
+        "DOI": "10.3390/diagnostics13081381"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.43",
+        "unstructured": "Maria de la Iglesia Vay\u00e1 , Jose Manuel Saborit , Joaquim Angel Montell , Antonio Pertusa , Aurelia Bustos , Miguel Cazorla , Joaquin Galant , Xavier Barber , Domingo Orozco-Beltr\u00e1n , Francisco Garc\u00eda-Garc\u00eda , Marisa Caparr\u00f3s , Germ\u00e1n Gonz\u00e1lez , and Jose Mar\u00eda Salinas . BIMCV COVID-19+: a large annotated dataset of rx and CT images from COVID-19 patients, 2020."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-021-00900-3"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.45",
+        "unstructured": "William Silversmith . cc3d: Connected components on multilabel 3d & 2d images. Zenodo https://zenodo.org/record/5535251, 2021."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.46",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ricardo J. G. B. Campello , Davoud Moulavi , and Joerg Sander . Density-based clustering based on hierarchical density estimates. In Jian Pei , Vincent S. Tseng , Longbing Cao , Hiroshi Motoda , and Guandong Xu , editors, Advances in Knowledge Discovery and Data Mining, pages 160\u2013172, Berlin, Heidelberg, 2013. Springer Berlin Heidelberg. ISBN 978-3-642-37456-2.",
+        "DOI": "10.1007/978-3-642-37456-2_14"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0734-189X(87)80186-X"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karel Zuiderveld . Contrast limited adaptive histogram equalization. In Graphics Gems IV, pages 474\u2013485. 1994.",
+        "DOI": "10.1016/B978-0-12-336156-1.50061-6"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.50",
+        "unstructured": "Alex Graves . Practical variational inference for neural networks. Advances in neural information processing systems, 24, 2011."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.51",
+        "unstructured": "Ranganath Krishnan , Pi Esposito , and Mahesh Subedar . Bayesian-torch: Bayesian neural network layers for uncertainty estimation, 2022."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.52",
+        "unstructured": "Charles Blundell , Julien Cornebise , Koray Kavukcuoglu , and Daan Wierstra . Weight uncertainty in neural network. In International Conference on Machine Learning, pages 1613\u20131622. PMLR, 2015."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.53",
+        "unstructured": "Glenn Jocher , Ayush Chaurasia , and Jing Qiu . Ultralytics YOLO, January 2023."
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2956516"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2858826"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/machines11070677"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsung-Yi Lin , Michael Maire , Serge Belongie , James Hays , Pietro Perona , Deva Ramanan , Piotr Doll\u00e1r , and C Lawrence Zitnick . Microsoft coco: Common objects in context. In Computer vision\u2013ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13, pages 740\u2013755. Springer, 2014.",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00338-7"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2021.114602"
+      },
+      {
+        "key": "2025041122302211000_2025.04.08.647710v1.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Emiro J. Ibarra , Juli\u00e1n D. Arias-Londo\u00f1o , Mat\u00edas Za\u00f1artu , and Juan I. Godino-Llorente. Towards a corpus (and language)-independent screening of parkinson\u2019s disease from voice and speech through domain adaptation. Bioengineering, 10(11), 2023. ISSN 2306-5354.",
+        "DOI": "10.3390/bioengineering10111316"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.08.647710",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T08:27:01Z",
+      "timestamp": 1768465621000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.08.647710"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2025.04.08.647710",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1109/ACCESS.2025.3607282",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

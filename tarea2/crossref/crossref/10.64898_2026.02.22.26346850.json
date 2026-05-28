@@ -1,0 +1,368 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2026-02-26T12:07:40Z",
+      "timestamp": 1772107660864,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              24
+            ]
+          ],
+          "date-time": "2026-02-24T00:00:00Z",
+          "timestamp": 1771891200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The COVID-19 pandemic has presented severe challenges in understanding and predicting the spread of infectious diseases, necessitating innovative approaches beyond traditional epidemiological models. This study introduces an advanced method for automated model discovery using the\n                  <jats:bold>S</jats:bold>\n                  parse\n                  <jats:bold>I</jats:bold>\n                  dentification of\n                  <jats:bold>N</jats:bold>\n                  onlinear\n                  <jats:bold>Dy</jats:bold>\n                  namics (SINDy) algorithm, leveraging a dataset from the COVID-19 outbreak in Thuringia, Germany, encompassing over 400,000 patient records and vaccination data. By analysing this dataset, we develop a flexible, data-driven model that captures many aspects of the complex dynamics of the pandemic\u2019s spread. Our approach incorporates external factors and interventions into the mathematical framework, leading to more accurate modelling of the pandemic\u2019s behaviour. The fixed coefficient values of the differential equation as globally determined by the SINDy were not found to be accurate for locally modelling the measured data. We therefore refined our technique based on the differential equations as found by SINDy, by investigating three modifications that account for recent local data. In a first approach, we re-optimized the coefficient values using seven days of past data, without changing the globally determined differential equation. In a second approach, we allowed a temporal dependence of the coefficient values fitted using all previous data in combination with regularization. As a last method, we kept the coefficients fixed to the original values but augmented the differential equation with a small neural network, locally optimized to the data of the past week. Our findings reveal the critical role of vaccination and public health measures in the pandemic\u2019s trajectory. The proposed model offers a robust tool for policymakers and health professionals to mitigate future outbreaks, providing insights into the efficacy of intervention strategies and vaccination campaigns. This study advances the understanding of COVID-19 dynamics and lays the groundwork for future research in epidemic modelling, emphasising the importance of adaptive, data-informed approaches in public health planning.\n                </jats:p>",
+    "DOI": "10.64898/2026.02.22.26346850",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2026-02-25T02:50:23Z",
+      "timestamp": 1771987823000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Automated Model Discovery Based on COVID-19 Epidemiologic Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7217-3689",
+        "authenticated-orcid": false,
+        "given": "Morteza",
+        "family": "Babazadeh Shareh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Leibniz Institute of Photonic Technology, Jena, Thuringia, Germany,"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6002-0829",
+        "authenticated-orcid": false,
+        "given": "Florian",
+        "family": "Kleiner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Leibniz Institute of Photonic Technology, Jena, Thuringia, Germany,"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "B\u00f6hme",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Leibniz Institute of Photonic Technology, Jena, Thuringia, Germany,"
+          },
+          {
+            "name": "Institute of Inorganic and Analytical Chemistry, Friedrich Schiller University Jena, Thuringia, Germany,"
+          }
+        ]
+      },
+      {
+        "given": "Corinna",
+        "family": "H\u00e4gele",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Leibniz Institute of Photonic Technology, Jena, Thuringia, Germany,"
+          }
+        ]
+      },
+      {
+        "given": "Petra",
+        "family": "Dickmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Anaesthesiology and Intensive Care, Jena University Hospital, Jena, Germany,"
+          },
+          {
+            "name": "Leibniz Centre for Photonics in Infection Research (LPI), Jena, Germany"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4950-1936",
+        "authenticated-orcid": false,
+        "given": "Rainer",
+        "family": "Heintzmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Leibniz Institute of Photonic Technology, Jena, Thuringia, Germany,"
+          },
+          {
+            "name": "Institute of Physical Chemistry and Abbe Center of Photonics, Friedrich Schiller University Jena, Jena, Thuringia, Germany,"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1927.0118"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.amc.2014.04.061"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physa.2017.11.116"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/sym13040676"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ifacol.2016.10.249"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13662-020-03192-w"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/forecast4010005"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/appliedmath4020022"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb9789"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00103-021-03390-1"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02064-y"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-37118-9"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-38756-3"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.idm.2023.02.001"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.15",
+        "article-title": "Novel closed-form point estimators for the beta distribution [Internet]",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-55125/v1"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v107.i04"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249499"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-022-02547-2"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-039856"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s2213-2600(22)00226-0"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v098.i16"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.10896571"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.151"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.25",
+        "first-page": "1682",
+        "volume-title": "Proceedings of the Twenty-First International Conference on Artificial Intelligence and Statistics",
+        "volume": "84",
+        "year": "2018"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.151"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.00615"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.7808904"
+      },
+      {
+        "key": "2026022603200714000_2026.02.22.26346850v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10182-006-0013-y"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.22.26346850",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2026-02-26T11:20:15Z",
+      "timestamp": 1772104815000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.02.22.26346850"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.64898/2026.02.22.26346850",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

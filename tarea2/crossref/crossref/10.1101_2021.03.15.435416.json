@@ -1,0 +1,456 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:24:05Z",
+      "timestamp": 1768494245193,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          16
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              16
+            ]
+          ],
+          "date-time": "2021-03-16T00:00:00Z",
+          "timestamp": 1615852800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Sequence simulators are fundamental tools in bioinformatics, as they allow us to test data processing and inference tools, as well as being part of some inference methods. The ongoing surge in available sequence data is however testing the limits of our bioinformatics software. One example is the large number of SARS-CoV-2 genomes available, which are beyond the processing power of many methods, and simulating such large datasets is also proving difficult. Here we present a new algorithm and software for efficiently simulating sequence evolution along extremely large trees (e.g. &lt; 100, 000 tips) when the branches of the tree are short, as is typical in genomic epidemiology. Our algorithm is based on the Gillespie approach, and implements an efficient multi-layered search tree structure that provides high computational efficiency by taking advantage of the fact that only a small proportion of the genome is likely to mutate at each branch of the considered phylogeny. Our open source software is available from\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/NicolaDM/phastSim\">https://github.com/NicolaDM/phastSim</jats:ext-link>\n                  and allows easy integration with other Python packages as well as a variety of evolutionary models, including indel models and new hypermutatability models that we developed to more realistically represent SARS-CoV-2 genome evolution.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>One of the most influential responses to the SARS-CoV-2 pandemic has been the widespread adoption of genome sequencing to keep track of viral spread and evolution. This has resulted in vast availability of genomic sequence data, that, while extremely useful and promising, is also increasingly hard to store and process efficiently. An important task in the processing of this genetic data is simulation, that is, recreating potential histories of past and future virus evolution, to benchmark data analysis methods and make statistical inference. Here, we address the problem of efficiently simulating large numbers of closely related genomes, similar to those sequenced during SARS-CoV-2 pandemic, or indeed to most scenarios in genomic epidemiology. We develop a new algorithm to perform this task, that provides not only computational efficiency, but also extreme flexibility in terms of possible evolutionary models, allowing variation in mutation rates, non-stationary evolution, and indels; all phenomena that play an important role in SARS-CoV-2 evolution, as well as many other real-life epidemiological scenarios.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.03.15.435416",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          16
+        ]
+      ],
+      "date-time": "2021-03-16T23:10:30Z",
+      "timestamp": 1615936230000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "phastSim: efficient simulation of sequence evolution for pandemic-scale datasets"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1776-8564",
+        "authenticated-orcid": false,
+        "given": "Nicola",
+        "family": "De Maio",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "William",
+        "family": "Boulton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6459-0431",
+        "authenticated-orcid": false,
+        "given": "Lukas",
+        "family": "Weilguny",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5617-5086",
+        "authenticated-orcid": false,
+        "given": "Conor R.",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5600-2900",
+        "authenticated-orcid": false,
+        "given": "Yatish",
+        "family": "Turakhia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6535-2478",
+        "authenticated-orcid": false,
+        "given": "Russell",
+        "family": "Corbett-Detig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8486-2211",
+        "authenticated-orcid": false,
+        "given": "Nick",
+        "family": "Goldman",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002495"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msq115"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msr272"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msy055"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc8169"
+      },
+      {
+        "issue": "2",
+        "key": "2024080515573272000_2021.03.15.435416v2.6",
+        "first-page": "57",
+        "article-title": "Some probabilistic and statistical problems in the analysis of DNA sequences",
+        "volume": "17",
+        "year": "1986",
+        "journal-title": "Lectures on mathematics in the life sciences"
+      },
+      {
+        "issue": "4",
+        "key": "2024080515573272000_2021.03.15.435416v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2025",
+        "DOI": "10.1093/genetics/162.4.2025",
+        "article-title": "Approximate Bayesian computation in population genetics",
+        "volume": "162",
+        "year": "2002",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msn264"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.116.198796"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msz307"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syz060"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msaa164"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm024"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/18.2.337"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bth264"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq322"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/13.3.235"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msp098"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-1"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morel B , Barbera P , Czech L , Bettisworth B , H\u00fcbner L , Lutteropp S , et al. Phylogenetic analysis of SARS-CoV-2 data is difficult. bioRxiv. 2020;.",
+        "DOI": "10.1101/2020.08.05.239046"
+      },
+      {
+        "issue": "13",
+        "key": "2024080515573272000_2021.03.15.435416v2.21",
+        "first-page": "30494",
+        "article-title": "GISAID: Global initiative on sharing all influenza data\u2013from vision to reality",
+        "volume": "22",
+        "year": "2017",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Maio N , Walker CR , Turakhia Y , Lanfear R , Corbett-Detig R , Goldman N . Mutation rates and selection on synonymous mutations in SARS-CoV-2. bioRxiv. 2021;.",
+        "DOI": "10.1101/2021.01.14.426705"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1009175"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rice AM , Morales AC , Ho AT , Mordstein C , M\u00fchlhausen S , Watson S , et al. Evidence for strong mutation bias towards, and selection against, U content in SARS-CoV-2: implications for vaccine design. Molecular Biology and Evolution. 2020;.",
+        "DOI": "10.1101/2020.05.11.088112"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/j100540a008"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hodcroft EB , De Maio N , Lanfear R , MacCannell DR , Minh BQ , Schmidt HA , et al Want to track pandemic variants faster? Fix the bioinformatics bottleneck; 2021.",
+        "DOI": "10.1038/d41586-021-00525-x"
+      },
+      {
+        "issue": "6",
+        "key": "2024080515573272000_2021.03.15.435416v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "809",
+        "DOI": "10.1038/s41588-021-00862-7",
+        "article-title": "Ultrafast Sample placement on Existing tRees (UShER) enables real-time phylogenetics for the SARS-CoV-2 pandemic",
+        "volume": "53",
+        "year": "2021",
+        "journal-title": "Nature Genetics"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.28",
+        "first-page": "21",
+        "article-title": "Evolution of protein molecules",
+        "volume": "3",
+        "year": "1969",
+        "journal-title": "Mammalian protein metabolism"
+      },
+      {
+        "issue": "6",
+        "key": "2024080515573272000_2021.03.15.435416v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "562",
+        "DOI": "10.1016/j.gde.2003.10.008",
+        "article-title": "Mutation rate variation in the mammalian genome",
+        "volume": "13",
+        "year": "2003",
+        "journal-title": "Current opinion in genetics & development"
+      },
+      {
+        "issue": "9",
+        "key": "2024080515573272000_2021.03.15.435416v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1016/0169-5347(96)10041-0",
+        "article-title": "Among-site rate variation and its impact on phylogenetic analyses",
+        "volume": "11",
+        "year": "1996",
+        "journal-title": "Trends in Ecology & Evolution"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00178256"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.32",
+        "article-title": "Efficient algorithms for modifying and sampling from a categorical distribution",
+        "year": "2019",
+        "journal-title": "arXiv"
+      },
+      {
+        "issue": "9",
+        "key": "2024080515573272000_2021.03.15.435416v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1098",
+        "DOI": "10.1109/JRPROC.1952.273898",
+        "article-title": "A method for the construction of minimum-redundancy codes",
+        "volume": "40",
+        "year": "1952",
+        "journal-title": "Proceedings of the IRE"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02101694"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.molbev.a040153"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0139047"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msab264"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msw046"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.39",
+        "unstructured": "Tresoldi T . Ngesh, a tool for simulating random phylogenetic trees. Version 0.5; 2021. https://github.com/tresoldi/ngesh."
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.277.5331.1453"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brown T , Didelot X , Wilson DJ , De Maio N . SimBac: simulation of whole bacterial genomes with homologous recombination. Microbial genomics. 2016;2(1).",
+        "DOI": "10.1099/mgen.0.000044"
+      },
+      {
+        "key": "2024080515573272000_2021.03.15.435416v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shchur V , Spirin V , Pokrovskii V , Burovski E , De Maio N , Corbett-Detig R . VGsim: scalable viral genealogy simulator for global pandemic. medRxiv. 2021;.",
+        "DOI": "10.1101/2021.04.21.21255891"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.15.435416",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:27:10Z",
+      "timestamp": 1768440430000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.15.435416"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          16
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2021.03.15.435416",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

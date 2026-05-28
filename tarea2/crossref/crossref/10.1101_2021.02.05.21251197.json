@@ -1,0 +1,275 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:33:22Z",
+      "timestamp": 1768548802393,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "group-title": "Primary Care Research",
+    "reference-count": 13,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To develop an algorithm (sCOVID) to predict the risk of severe complications of COVID- 19 in a community-dwelling population to optimise vaccination scenarios.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Population based cohort study</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>264 Dutch general practices contributing to the NL-COVID database</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>6074 people aged 0-99 diagnosed with COVID-19</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main outcome measures</jats:title>\n                  <jats:p>\n                    Severe complications (hospitalisation, institutionalisation, death). The algorithm was developed from a training dataset comprising 70% of the patients and validated in the remaining 30%. Potential predictor variables included age, sex, a chronic co-morbidity score (CCS) based on risk factors for COVID-19 complications as defined by the National Institute of Public Health and the Environment (RIVM), obesity, neighborhood deprivation score (NDS), first or second COVID wave, and confirmation test. Six different population vaccination scenarios were explored: 1) random (\n                    <jats:italic>naive</jats:italic>\n                    ), 2) random for persons above 60 years (\n                    <jats:italic>60plus</jats:italic>\n                    ), 3) oldest patients first in age bands of five years (\n                    <jats:italic>oldest first</jats:italic>\n                    ), 4) target population of the annual influenza vaccination program (\n                    <jats:italic>influenza</jats:italic>\n                    ) and 5) those 25-65 years of age first (\n                    <jats:italic>worker</jats:italic>\n                    ), and 6) risk-based using the prediction algorithm (\n                    <jats:italic>sCOVID</jats:italic>\n                    ). For each vaccination strategy the amount of vaccinations needed to reach a 50% reduction of severe complications was calculated.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    Severe complications were reported in 243 (4.8%) people with 59 (20.3%) nursing home admissions, 181 (62.2%) hospitalisations and 51 (17.5%) deaths. The algorithm included age, sex, CCS, NDS, wave, and confirmation test with a c statistic of 0.91 (95% CI 0.88-0.94) in the validation set. Applied to different vaccination scenarios, the proportion of people needed to be vaccinated to reach a 50% reduction of severe complications was 67.5%, 50.0%, 26.1%, 16.0%, 10.0%, and 8.4% for the\n                    <jats:italic>worker, naive, infuenza, 60plus, oldest first</jats:italic>\n                    , and\n                    <jats:italic>sCOVID</jats:italic>\n                    scenarios respectively.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>\n                    <jats:bold>C</jats:bold>\n                    OVID-19 related\n                    <jats:bold>s</jats:bold>\n                    evere complications will be reduced most efficiently when vaccinations are risk-based, prioritizing the highest risk group using the sCOVID algorithm. The vaccination scenario, prioritising oldest people in age bands of 5 years down to 60 years of age, performed second best. The sCOVID algorithm can readily be applied to identify persons with highest risks from data in the electronic health records of GPs.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>What is already known on this topic?</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Severe COVID-19 complications may be reduced when persons at the highest risk will be vaccinated first.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>To identify persons at a high risk for hospitalization or death in the general population, a limited number of prediction algorithms have been developed.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Most of these algorithms were based on data from the first wave of infections (spring 2020) when widespread testing was not always possible, limiting the usefulness of these algorithms.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>What this study adds</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Including data up to January 2021, we developed and validated a prediction algorithm (sCOVID) with a c-statistic of 0.91 (95% CI 0.88-0.94) based on age, sex, chronic comorbidity score, economic status, wave, and a confirmation test to identify patients in the general population that are at risk of severe COVID-19 complication.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Using the algorithm, a 50% reduction of patients with severe complications could be obtained with a vaccination coverage of only 8%. This vaccination scenario based on this algorithm was superior to other calculated vaccination scenarios.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The sCOVID algorithm can readily be implemented in the electronic health records of general practitioners.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2021.02.05.21251197",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ],
+      "date-time": "2021-02-08T11:15:58Z",
+      "timestamp": 1612782958000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Development and validation of an algorithm to estimate the risk of severe complications of COVID-19 to prioritise vaccination"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2561-8734",
+        "authenticated-orcid": false,
+        "given": "Ron MC",
+        "family": "Herings",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Karin MA",
+        "family": "Swart",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bernard AM",
+        "family": "Van der Zeijst",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amber A",
+        "family": "van der Heijden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Koos",
+        "family": "van der Velden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric G",
+        "family": "Hiddink",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martijn W",
+        "family": "Heymans",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Reinier AR",
+        "family": "Herings",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hein PJ",
+        "family": "van Hout",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joline WJ",
+        "family": "Beulens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giel",
+        "family": "Nijpels",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Petra JM",
+        "family": "Elders",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.17.20064691"
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.13.20064329"
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3731"
+      },
+      {
+        "issue": "8",
+        "key": "2021021004251245000_2021.02.05.21251197v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0237419",
+        "DOI": "10.1371/journal.pone.0237419",
+        "article-title": "Development and validation of a model for individualized prediction of hospitalization risk in 4,536 patients with COVID-19",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2521-4"
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.7",
+        "unstructured": "WHO. 22nd WHO Regulatory Update on COVID-19: World Health Organization, 2020."
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.8",
+        "unstructured": "Gezondheidsraad. Strategie\u00ebn voor COVID-19-vaccinatie. Den Haag: Gezondheidsraad, 2020."
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.9",
+        "unstructured": "COVID-19 Datacoalitie. 2021 [Available from: www.covid-data.nl]."
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.10",
+        "unstructured": "RIVM. 2020 [Available from: https://www.rivm.nl/coronavirus-covid-19/risicogroepen] accessed 20 April 2020."
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.11",
+        "unstructured": "CBS. Sociaaleconomische status van huishoudens in Nederland Den Haag: CBS; 2020 [Available from: www.cbs.nl] accessed 24 January 2021."
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0b013e3181c30fb2"
+      },
+      {
+        "key": "2021021004251245000_2021.02.05.21251197v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.g7594"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.05.21251197",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:05:55Z",
+      "timestamp": 1768485955000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.02.05.21251197"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "references-count": 13,
+    "URL": "https://doi.org/10.1101/2021.02.05.21251197",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1136/bmjopen-2021-050059",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

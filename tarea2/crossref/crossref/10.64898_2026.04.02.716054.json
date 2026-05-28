@@ -1,0 +1,676 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          7
+        ]
+      ],
+      "date-time": "2026-04-07T00:04:59Z",
+      "timestamp": 1775520299958,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 48,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              3
+            ]
+          ],
+          "date-time": "2026-04-03T00:00:00Z",
+          "timestamp": 1775174400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.biorxiv.org/about/FAQ#license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100016302",
+        "name": "CEPI",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100016302",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Coronavirus outbreaks remain a persistent threat to global health, and vaccines based primarily on spike-specific immune responses are susceptible to antigenic variation. T-cell immunity directed against conserved internal viral proteins may provide a complementary and more variant-tolerant strategy for next-generation coronavirus vaccines.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    We combined machine learning\u2013guided antigen prioritization with ex vivo functional immunological validation to identify conserved non-spike T-cell targets across betacoronaviruses. Candidate sequences were screened for immunogenicity using primary human peripheral blood mononuclear cells from healthy donors using intracellular cytokine staining and activation-induced marker assays. Top-ranked conserved regions were incorporated into multiepitope mRNA constructs, and their intracellular expression and HLA class I presentation were confirmed by immunopeptidomics. Immunogenicity was further evaluated\n                    <jats:italic>ex vivo</jats:italic>\n                    and\n                    <jats:italic>in vivo</jats:italic>\n                    using mRNA immunization of mice and T-cell FluoroSpot assays.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>Across a panel of 97 peptides derived from 19 viral proteins, evolutionary conservation across distinct betacoronavirus taxa was strongly associated with functional T-cell immunogenicity in human donors. Highly conserved peptides elicited significantly stronger and more frequent CD4\u207a and CD8\u207a T-cell responses than taxon-restricted peptides. Multiepitope mRNA constructs encoding conserved regions were efficiently expressed and presented on HLA class I molecules and induced T-cell responses in human PBMCs. In mice, mRNA immunization with conserved multiepitope constructs generated robust interferon-\u03b3\u2013 and interleukin-2\u2013producing T-cell responses that exceeded those induced by unconserved control constructs.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>These results link evolutionary conservation to functional cellular immunogenicity and demonstrate the feasibility of multiepitope mRNA delivery for inducing conserved coronavirus-directed T-cell responses. Although protective efficacy remains to be established, conservation-guided antigen selection represents a scalable strategy for developing T-cell\u2013focused vaccines with broad lineage coverage, supporting pandemic preparedness beyond spike-centered immunity.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>The research was supported by CEPI, NEC, University of Oslo and Oslo university hospital.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>\n                      Prior coronavirus vaccine development has focused predominantly on spike protein\u2013directed neutralizing antibodies. While highly effective against matched strains, spike-centered immunity is vulnerable to antigenic drift and lineage-specific escape. Multiple observational and experimental studies have shown that T-cell responses, particularly against internal viral proteins, are more conserved and correlate with reduced disease severity and cross-variant recognition. Epitope prediction algorithms and immunoinformatics approaches have been widely used to nominate candidate T-cell targets; however, systematic functional validation of conserved non-spike antigens across betacoronaviruses in primary human immune systems, combined with antigen presentation data and\n                      <jats:italic>in vivo</jats:italic>\n                      vaccine testing, has remained limited. Searches of PubMed and bioRxiv up to December 2025 using terms including \u201ccoronavirus T-cell vaccine,\u201d \u201cconserved coronavirus epitopes,\u201d \u201cbetacoronavirus cross-reactive T cells,\u201d and \u201cmRNA T-cell vaccine\u201d identified studies demonstrating cross-reactive T-cell immunity and computational epitope selection, but few integrated machine-learning\u2013guided antigen prioritization with\n                      <jats:italic>ex vivo</jats:italic>\n                      human functional screening, immunopeptidomics, and\n                      <jats:italic>in vivo</jats:italic>\n                      mRNA immunization in a unified workflow.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>\n                      This study provides an integrated experimental and computational framework for identifying and validating conserved non-spike T-cell antigens across betacoronaviruses. We functionally screened a panel of candidate peptides derived from multiple viral proteins and demonstrated that evolutionary conservation across species is strongly associated with T-cell immunogenicity. We further demonstrate that multiepitope mRNA constructs encoding these top-ranked conserved regions can be intracellularly expressed, presented on HLA class I molecules to induce polyfunctional T-cell responses in primary human PBMCs. Finally,\n                      <jats:italic>in vivo</jats:italic>\n                      mRNA immunization in mice induces robust interferon-\u03b3 and interleukin-2 T-cell responses exceeding those induced by unconserved control constructs. Together, these findings link evolutionary conservation to functional cellular immunogenicity and extend beyond in silico prediction by demonstrating antigen processing, presentation, and immunogenicity across human and murine systems.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>Collectively, the available evidence indicates that T-cell immunity directed toward conserved internal coronavirus proteins represents a complementary and potentially more variant-tolerant axis of vaccine design than spike-only strategies. Our findings suggest that evolutionary conservation can serve as a practical selection principle for prioritizing T-cell antigens with broad lineage coverage and that multiepitope mRNA delivery is a feasible platform for inducing such responses. While direct protection and heterologous challenge studies will be required to establish clinical efficacy, the integration of computational prioritization with functional validation supports a scalable approach to pandemic preparedness that may be applicable to other rapidly evolving viral families.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.64898/2026.04.02.716054",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          4
+        ]
+      ],
+      "date-time": "2026-04-04T02:15:10Z",
+      "timestamp": 1775268910000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Machine Learning\u2013Driven Antigen Selection Reveals Conserved T-Cell Targets for Broad Coronavirus Vaccination"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1911-6711",
+        "authenticated-orcid": false,
+        "given": "Lorenzo",
+        "family": "Federico",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "PRIMA, Precision Immunotherapy Alliance, Department of Immunology, Institute of Clinical Medicine, University of Oslo and Oslo University Hospital"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2806-6904",
+        "authenticated-orcid": false,
+        "given": "Alexandru",
+        "family": "Odainic",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Bio, Schiphol, The Netherlands"
+          }
+        ]
+      },
+      {
+        "given": "Katrine Persg\u00e5rd",
+        "family": "Lund",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "PRIMA, Precision Immunotherapy Alliance, Department of Immunology, Institute of Clinical Medicine, University of Oslo and Oslo University Hospital"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-8235-9508",
+        "authenticated-orcid": false,
+        "given": "Ingrid Marie",
+        "family": "Egner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "PRIMA, Precision Immunotherapy Alliance, Department of Immunology, Institute of Clinical Medicine, University of Oslo and Oslo University Hospital"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1603-2846",
+        "authenticated-orcid": false,
+        "given": "Katrin E",
+        "family": "Wiese",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen Bioveterinary Research, Wageningen University & Research, Lelystad, The Netherlands"
+          }
+        ]
+      },
+      {
+        "given": "Lisette A H M",
+        "family": "Cornelissen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen Bioveterinary Research, Wageningen University & Research, Lelystad, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8220-997X",
+        "authenticated-orcid": false,
+        "given": "Hassen",
+        "family": "Kared",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "PRIMA, Precision Immunotherapy Alliance, Department of Immunology, Institute of Clinical Medicine, University of Oslo and Oslo University Hospital"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Stratford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Bio, Schiphol, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9304-558X",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Kapell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Corporation, Tokyo, Japan"
+          }
+        ]
+      },
+      {
+        "given": "Brandon",
+        "family": "Malone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Bio, Schiphol, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9666-0809",
+        "authenticated-orcid": false,
+        "given": "Marius",
+        "family": "Gheorghe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Bio, Schiphol, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2646-3674",
+        "authenticated-orcid": false,
+        "given": "Pierre",
+        "family": "Machart",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Laboratories Europe, Heidelberg, Germany"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5615-9430",
+        "authenticated-orcid": false,
+        "given": "Raman",
+        "family": "Siarheyeu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Laboratories Europe, Heidelberg, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Yuki",
+        "family": "Tanaka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Corporation, Tokyo, Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9896-0613",
+        "authenticated-orcid": false,
+        "given": "Trevor",
+        "family": "Clancy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Bio, Schiphol, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2185-9116",
+        "authenticated-orcid": false,
+        "given": "Kaidre",
+        "family": "Bendjama",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NEC Bio, Schiphol, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0344-3654",
+        "authenticated-orcid": false,
+        "given": "Ludvig A.",
+        "family": "Munthe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "PRIMA, Precision Immunotherapy Alliance, Department of Immunology, Institute of Clinical Medicine, University of Oslo and Oslo University Hospital"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-021-00652-2"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-018-0118-9"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41579-020-00468-6"
+      },
+      {
+        "issue": "4",
+        "key": "2026040616201313000_2026.04.02.716054v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "536",
+        "DOI": "10.1038/s41564-020-0695-z",
+        "article-title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2704.203945"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-00479-7"
+      },
+      {
+        "issue": "8",
+        "key": "2026040616201313000_2026.04.02.716054v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "113044",
+        "DOI": "10.1016/j.isci.2025.113044",
+        "article-title": "T cell epitope mapping reveals immunodominance of evolutionarily conserved regions within SARS-CoV-2 proteome",
+        "volume": "28",
+        "year": "2025",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sagar, M. , et al., Recent endemic coronavirus infection is associated with less-severe COVID-19. The Journal of Clinical Investigation, 2021. 131(1).",
+        "DOI": "10.1172/JCI143380"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.ado7588"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2108453"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dangi, T. , et al., Cross-protective immunity following coronavirus vaccination and coronavirus infection. J Clin Invest, 2021. 131(24).",
+        "DOI": "10.1172/JCI151969"
+      },
+      {
+        "issue": "9",
+        "key": "2026040616201313000_2026.04.02.716054v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1324",
+        "DOI": "10.1038/s41590-022-01292-1",
+        "article-title": "Airway-resident T cells from unexposed individuals cross-recognize SARS-CoV-2",
+        "volume": "23",
+        "year": "2022",
+        "journal-title": "Nat Immunol"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abh1823"
+      },
+      {
+        "issue": "1",
+        "key": "2026040616201313000_2026.04.02.716054v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2938",
+        "DOI": "10.1038/s41467-021-23074-3",
+        "article-title": "Cross-reactive serum and memory B-cell responses to spike protein in SARS-CoV-2 and endemic coronavirus infection",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/irv.13309"
+      },
+      {
+        "issue": "1",
+        "key": "2026040616201313000_2026.04.02.716054v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1038/s41467-021-27674-x",
+        "article-title": "Cross-reactive memory T cells associate with protection against SARS-CoV-2 infection in COVID-19 contacts",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04085-y"
+      },
+      {
+        "issue": "1",
+        "key": "2026040616201313000_2026.04.02.716054v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.7774/cevr.2022.11.1.96",
+        "article-title": "Large inter-individual variability of cellular and humoral immunological responses to mRNA-1273 (Moderna) vaccination against SARS-CoV-2 in health care workers",
+        "volume": "11",
+        "year": "2022",
+        "journal-title": "Clin Exp Vaccine Res"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Narowski, T.M. , et al., SARS-CoV-2 mRNA vaccine induces robust specific and cross-reactive IgG and unequal neutralizing antibodies in naive and previously infected people. Cell Reports, 2022. 38(5).",
+        "DOI": "10.1016/j.celrep.2022.110336"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.00169-22"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd3871"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04186-8"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amoutzias, G.D. , et al., The Remarkable Evolutionary Plasticity of Coronaviruses by Mutation and Recombination: Insights for the COVID-19 Pandemic and the Future Evolutionary Paths of SARS-CoV-2. Viruses, 2022. 14(1).",
+        "DOI": "10.3390/v14010078"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1016/j.virol.2023.02.011",
+        "article-title": "Genetic conservation across SARS-CoV-2 non-structural proteins - Insights into possible targets for treatment of future viral outbreaks",
+        "volume": "581",
+        "year": "2023",
+        "journal-title": "Virology"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Federico, L. , et al., Experimental validation of immunogenic SARS-CoV-2 T cell epitopes identified by artificial intelligence. Frontiers in Immunology, 2023. Volume 14 - 2023.",
+        "DOI": "10.3389/fimmu.2023.1265044"
+      },
+      {
+        "issue": "1",
+        "key": "2026040616201313000_2026.04.02.716054v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "22375",
+        "DOI": "10.1038/s41598-020-78758-5",
+        "article-title": "Artificial intelligence predicts the immunogenic landscape of SARS-CoV-2 leading to universal blueprints for vaccine designs",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/hum.2009.080"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Federico, L. , et al., Robust spike-specific CD4+ and CD8+ T cell responses in SARS-CoV-2 vaccinated hematopoietic cell transplantation recipients: a prospective, cohort study. Frontiers in Immunology, 2023. Volume 14 - 2023.",
+        "DOI": "10.3389/fimmu.2023.1210899"
+      },
+      {
+        "issue": "2",
+        "key": "2026040616201313000_2026.04.02.716054v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1002/cyto.a.21015",
+        "article-title": "SPICE: Exploration and analysis of post-cytometric complex multivariate datasets",
+        "volume": "79A",
+        "year": "2011",
+        "journal-title": "Cytometry Part A"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.30",
+        "unstructured": "; Available from: https://niaid.github.io/spice."
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.31",
+        "first-page": "1235210",
+        "article-title": "People who use drugs show no increase in pre-existing T-cell cross-reactivity toward SARS-CoV-2 but develop a normal polyfunctional T-cell response after standard mRNA vaccination",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.vaccine.2025.126909"
+      },
+      {
+        "issue": "1",
+        "key": "2026040616201313000_2026.04.02.716054v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "8699",
+        "DOI": "10.1038/s41467-025-63726-2",
+        "article-title": "Protein corona formed on lipid nanoparticles compromises delivery efficiency of mRNA cargo",
+        "volume": "16",
+        "year": "2025",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mallajosyula, V. , et al., CD8+ T cells specific for conserved coronavirus epitopes correlate with milder disease in patients with COVID-19. Science Immunology, 2021. 6.",
+        "DOI": "10.1126/sciimmunol.abg5669"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kundu, R. , et al., Cross-reactive memory T cells associate with protection against SARS-CoV-2 infection in COVID-19 contacts. Nature Communications, 2022. 13.",
+        "DOI": "10.1038/s41467-021-27674-x"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2023.111995"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saini, S.K. , et al., SARS-CoV-2 genome-wide T cell epitope mapping reveals immunodominance and substantial CD8(+) T cell activation in COVID-19 patients. Sci Immunol, 2021. 6(58).",
+        "DOI": "10.1126/sciimmunol.abf7550"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2021.04.006"
+      },
+      {
+        "issue": "20",
+        "key": "2026040616201313000_2026.04.02.716054v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "5653",
+        "DOI": "10.1016/j.cell.2025.07.015",
+        "article-title": "Highly conserved Betacoronavirus sequences are broadly recognized by human T cells",
+        "volume": "188",
+        "year": "2025",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.09.038"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2021.108728"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-020-03041-6"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Swadling, L. , et al., Pre-existing polymerase-specific T cells expand in abortive seronegative SARS-CoV-2. Nature, 2021.",
+        "DOI": "10.1101/2021.06.26.21259239"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2550-z"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.45",
+        "first-page": "2392 \u2013 2409.e21",
+        "article-title": "The T-cell-directed vaccine BNT162b4 encoding conserved non-spike antigens protects animals from severe SARS-CoV-2 infection",
+        "volume": "186",
+        "year": "2023",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wee, E. , et al., Design, Immunogenicity and Preclinical Efficacy of the ChAdOx1.COVconsv12 Pan-Sarbecovirus T-Cell Vaccine. Vaccines, 2024. 12.",
+        "DOI": "10.20944/preprints202408.0038.v1"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lauren, M.M. , et al., Highly conserved, non-human-like, and cross-reactive SARS-CoV-2 T cell epitopes for COVID-19 vaccine design and validation. NPJ Vaccines, 2021. 6.",
+        "DOI": "10.1038/s41541-021-00331-6"
+      },
+      {
+        "key": "2026040616201313000_2026.04.02.716054v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prakash, S. , et al., Cross-protection induced by highly conserved human B, CD4+, and CD8+ T-cell epitopes-based vaccine against severe infection, disease, and death caused by multiple SARS-CoV-2 variants of concern. Frontiers in Immunology, 2024. 15.",
+        "DOI": "10.3389/fimmu.2024.1328905"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.02.716054",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          6
+        ]
+      ],
+      "date-time": "2026-04-06T23:20:20Z",
+      "timestamp": 1775517620000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.02.716054"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.64898/2026.04.02.716054",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

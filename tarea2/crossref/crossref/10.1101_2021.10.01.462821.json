@@ -1,0 +1,339 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:45:52Z",
+      "timestamp": 1768495552628,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          4
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                  Gaussian processes (GPs) are a versatile nonparametric model for nonlinear regression and have been widely used to study spatiotemporal phenomena. However, standard GPs offer limited interpretability and generalizability for datasets with naturally occurring hierarchies. With large-scale, rapidly-updating electronic health record (EHR) data, we want to study patient trajectories across diverse patient cohorts while preserving patient subgroup structure. In this work, we partition our cohort of over 2000 COVID-19 patients by sex and ethnicity. We develop and apply a hierarchical Gaussian process and a mixture of experts (MOE) hierarchical GP model to fit patient trajectories on clinical markers of disease progression. A case study for albumin, an effective predictor of COVID-19 patient outcomes, highlights the predictive performance of these models. These hierarchical spatiotemporal models of EHR data bring us a step closer toward our goal of building flexible approaches to capture patient data that can be used in real-time systems\n                  <jats:sup>*</jats:sup>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2021.10.01.462821",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2021-10-05T01:57:25Z",
+      "timestamp": 1633399045000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Hierarchical Gaussian Processes and Mixtures of Experts to Model COVID-19 Patient Trajectories"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4665-0626",
+        "authenticated-orcid": false,
+        "given": "Sunny",
+        "family": "Cui",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4776-3884",
+        "authenticated-orcid": false,
+        "given": "Elizabeth C.",
+        "family": "Yoo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9146-705X",
+        "authenticated-orcid": false,
+        "given": "Didong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Krzysztof",
+        "family": "Laudanski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6139-7334",
+        "authenticated-orcid": false,
+        "given": "Barbara E.",
+        "family": "Engelhardt",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1001/jamainternmed.2020.3857",
+        "article-title": "Assessment of COVID-19 hospitalizations by race/ethnicity in 12 states",
+        "volume": "181",
+        "year": "2021",
+        "journal-title": "JAMA internal medicine"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2332",
+        "DOI": "10.1161/CIRCULATIONAHA.120.052278",
+        "article-title": "Racial and ethnic differences in presentation and outcomes for patients hospitalized with COVID-19: findings from the American Heart Association\u2019s COVID-19 Cardiovascular Disease Registry",
+        "volume": "143",
+        "year": "2021",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. E. Rasmussen , Gaussian processes in machine learning, in Summer school on machine learning, 2003.",
+        "DOI": "10.1007/978-3-540-28650-9_4"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Banerjee , B. P. Carlin and A. E. Gelfand , Hierarchical modeling and analysis for spatial data (CRC press, 2014).",
+        "DOI": "10.1201/b17115"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Q. Shi and T. Choi , Gaussian process regression analysis for functional data (CRC press, 2011).",
+        "DOI": "10.1201/b11038"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Ghosal and A. Van der Vaart , Fundamentals of nonparametric Bayesian inference (Cambridge University Press, 2017).",
+        "DOI": "10.1017/9781139029834"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.7",
+        "unstructured": "J. Futoma , S. Hariharan , K. Heller , M. Sendak , N. Brajer , M. Clement , A. Bedoya and C. O\u2019brien , An improved multi-output Gaussian process RNN with real-time validation for early sepsis detection, in Machine Learning for Healthcare Conference, 2017."
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.8",
+        "unstructured": "J. Futoma , S. Hariharan and K. Heller , Learning to detect sepsis with a multitask Gaussian process RNN classifier, in International Conference on Machine Learning, 2017."
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1186/s12911-020-1069-4",
+        "article-title": "Sparse multi-output Gaussian processes for online medical time series prediction",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "BMC Medical Informatics and Decision Making"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.10",
+        "article-title": "A framework for individualizing predictions of disease trajectories by exploiting multi-resolution structure",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. C. Tan , H. Fang , L. S. Magder and M. A. Petri , Differences between male and female systemic lupus erythematosus in a multiethnic population, The Journal of Rheumatology (2012).",
+        "DOI": "10.3899/jrheum.111061"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2005.11.006"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214508000000959"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "7048",
+        "DOI": "10.1038/s41598-017-07478-0",
+        "article-title": "Improving satellite-based pm2.5 estimates in China using Gaussian processes modeling in a Bayesian hierarchical setting",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-14-252"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/004017008000000082"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.17",
+        "article-title": "Hierarchical mixture-of-experts model for large-scale Gaussian process regression",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.18",
+        "unstructured": "A. Damianou and N. D. Lawrence , Deep Gaussian processes, in Artificial intelligence and statistics, 2013."
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.19",
+        "unstructured": "B.-J. Lee , J. Lee and K.-E. Kim , Hierarchically-partitioned Gaussian process approximation, in Artificial Intelligence and Statistics, 2017."
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.20",
+        "unstructured": "M. L. Stein , Interpolation of spatial data: some theory for kriging (Springer Science & Business Media, 2012)."
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.21",
+        "first-page": "881",
+        "article-title": "Infinite mixtures of Gaussian process experts",
+        "volume": "2",
+        "year": "2002",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.22",
+        "first-page": "1141",
+        "article-title": "Human motion tracking by temporal-spatial local Gaussian process experts",
+        "volume": "20",
+        "year": "2010",
+        "journal-title": "IEEE Transactions on Image Processing"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. feng Huang , A. Cheng , R. Kumar , Y. Fang , G. Chen , Y. Zhu and S. Lin , Hypoalbuminemia predicts the outcome of COVID-19 independent of age and co-morbidity, Journal of Medical Virology (2020).",
+        "DOI": "10.1002/jmv.26003"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.24",
+        "first-page": "2238",
+        "article-title": "Contrastive learning using spectral methods",
+        "volume": "26",
+        "year": "2013",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "2134",
+        "DOI": "10.1038/s41467-018-04608-8",
+        "article-title": "Exploring patterns enriched in a dataset with contrastive principal component analysis",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.26",
+        "article-title": "Probabilistic contrastive principal component analysis",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021100612550833000_2021.10.01.462821v1.27",
+        "article-title": "Contrastive latent variable modeling with application to case-control sequencing experiments",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.10.01.462821",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:14:21Z",
+      "timestamp": 1768443261000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.10.01.462821"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          4
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2021.10.01.462821",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

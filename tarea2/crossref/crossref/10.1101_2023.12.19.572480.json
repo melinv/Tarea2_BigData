@@ -1,0 +1,416 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:30:14Z",
+      "timestamp": 1768509014790,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          20
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>As the SARS-CoV-2 virus rapidly evolves, predicting the trajectory of viral variations has become a critical yet complex task. A deep understanding of future mutation patterns, in particular the mutations that will prevail in the near future, is vital in steering diagnostics, therapeutics, and vaccine strategies in the coming months.</jats:p>\n                <jats:p>In this study, we developed a model to forecast future SARS-CoV-2 mutation surges in real-time, using historical mutation frequency data from the USA. To improve upon the accuracy of traditional time-series models, we transformed the prediction problem into a supervised learning framework using a sliding window approach. This involved breaking the time series of mutation frequencies into very short segments. Considering the time-dependent nature of the data, we focused on modeling the first-order derivative of the mutation frequency. We predicted the final derivative in each segment based on the preceding derivatives, employing various machine learning methods, including random forest, XGBoost, support vector machine, and neural network models, in this supervised learning setting. Empowered by the novel transformation strategy and the high capacity of machine learning models, we witnessed low prediction error that is confined within 0.1% and 1% when making predictions for future 30 and 80 days respectively. In addition, the method also led to a notable increase in prediction accuracy compared to traditional time-series models, as evidenced by lower MAE, and MSE for predictions made within different time horizons. To further assess the method\u2019s effectiveness and robustness in predicting mutation patterns for unforeseen mutations, we categorized all mutations into three major patterns. The model demonstrated its robustness by accurately predicting unseen mutation patterns when training on data from two pattern categories while testing on the third pattern category, showcasing its potential in forecasting a variety of mutation trajectories.</jats:p>\n                <jats:p>\n                  To enhance accessibility and utility, we built our methodology into an R-shiny app (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://swdatpredicts.shinyapps.io/rshiny_predict/\">https://swdatpredicts.shinyapps.io/rshiny_predict/</jats:ext-link>\n                  ), a tool with potential applicability in studying other infectious diseases, thus extending its relevance beyond the current pandemic.\n                </jats:p>",
+    "DOI": "10.1101/2023.12.19.572480",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2023-12-20T21:45:43Z",
+      "timestamp": 1703108743000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting the Trend of SARS-CoV-2 Mutation Frequencies Using Historical Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Xinyu",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Kevin",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Minmin",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yajie",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9553-0925",
+        "authenticated-orcid": false,
+        "given": "Chi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sha",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.1",
+        "unstructured": "W. H. Organization . WHO Coronavirus (COVID-19) Dashboard. 2023. url: https://covid19.who.int."
+      },
+      {
+        "issue": "12",
+        "key": "2024010921154963000_2023.12.19.572480v3.2",
+        "first-page": "757",
+        "article-title": "\u201cThe biological and clinical significance of emerging SARS-CoV-2 variants",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "In: Nature Reviews Genetics"
+      },
+      {
+        "issue": "5",
+        "key": "2024010921154963000_2023.12.19.572480v3.3",
+        "first-page": "a041390",
+        "article-title": "\u201cThe evolution and biology of SARS-CoV-2 variants",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "In: Cold Spring Harbor perspectives in medicine"
+      },
+      {
+        "issue": "23",
+        "key": "2024010921154963000_2023.12.19.572480v3.4",
+        "first-page": "2212",
+        "article-title": "\u201cVaccine breakthrough infections with SARS-CoV-2 variants",
+        "volume": "384",
+        "year": "2021",
+        "journal-title": "In: New England Journal of Medicine"
+      },
+      {
+        "issue": "3",
+        "key": "2024010921154963000_2023.12.19.572480v3.5",
+        "first-page": "162",
+        "article-title": "\u201cSARS-CoV-2 variant biology: immune escape, transmission and fitness",
+        "volume": "21",
+        "author": "C.-1",
+        "year": "2023",
+        "journal-title": "In: Nature Reviews Microbiology"
+      },
+      {
+        "issue": "7",
+        "key": "2024010921154963000_2023.12.19.572480v3.6",
+        "first-page": "409",
+        "article-title": "\u201cSARS-CoV-2 variants, spike mutations and immune escape",
+        "volume": "19",
+        "author": "C.-1",
+        "year": "2021",
+        "journal-title": "In: Nature Reviews Microbiology"
+      },
+      {
+        "issue": "11",
+        "key": "2024010921154963000_2023.12.19.572480v3.7",
+        "first-page": "1037",
+        "article-title": "\u201cSARS-CoV-2 variants of concern in the United States\u2014challenges and opportunities",
+        "volume": "325",
+        "year": "2021",
+        "journal-title": "In: Jama"
+      },
+      {
+        "issue": "4",
+        "key": "2024010921154963000_2023.12.19.572480v3.8",
+        "first-page": "499",
+        "article-title": "\u201cGlobal landscape of SARS-CoV-2 genomic surveillance and data sharing",
+        "volume": "54",
+        "year": "2022",
+        "journal-title": "In: Nature genetics"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.9",
+        "first-page": "1",
+        "article-title": "\u201cEmerging SARS-CoV-2 mutation hot spots include a novel RNA-dependent-RNA polymerase variant",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "In: Journal of translational medicine"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.10",
+        "unstructured": "H. Lodish , A. Berk , S. L. Zipursky , P. Matsudaira , D. Baltimore , and J. Darnell . \u201cMutations: types and causes\u201d. In: Molecular Cell Biology 4 (2000)."
+      },
+      {
+        "issue": "4",
+        "key": "2024010921154963000_2023.12.19.572480v3.11",
+        "first-page": "512",
+        "article-title": "\u201cOutbreak. info genomic reports: scalable and dynamic surveillance of SARS-CoV-2 variants and mutations",
+        "volume": "20",
+        "year": "2023",
+        "journal-title": "In: Nature Methods"
+      },
+      {
+        "issue": "9",
+        "key": "2024010921154963000_2023.12.19.572480v3.12",
+        "first-page": "1518",
+        "article-title": "\u201cThe next phase of SARS-CoV-2 surveillance: real-time molecular epidemiology",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "In: Nature medicine"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Singer , R. Gifford , M. Cotten , and D. Robertson . \u201cCoV-GLUE: a web application for tracking SARS-CoV-2 genomic variation\u201d. In: (2020).",
+        "DOI": "10.20944/preprints202006.0225.v1"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.14",
+        "first-page": "e63409",
+        "article-title": "\u201cCOVID-19 CG enables SARS-CoV-2 mutation and lineage tracking by locations and dates of interest",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "In: Elife"
+      },
+      {
+        "issue": "5",
+        "key": "2024010921154963000_2023.12.19.572480v3.15",
+        "first-page": "997",
+        "article-title": "\u201cGenomic epidemiology of SARS-CoV-2 in Guangdong province, China",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "In: Cell"
+      },
+      {
+        "issue": "6508",
+        "key": "2024010921154963000_2023.12.19.572480v3.16",
+        "first-page": "1255",
+        "article-title": "\u201cEvolution and epidemic spread of SARS-CoV-2 in Brazil",
+        "volume": "369",
+        "year": "2020",
+        "journal-title": "In: Science"
+      },
+      {
+        "issue": "6530",
+        "key": "2024010921154963000_2023.12.19.572480v3.17",
+        "first-page": "708",
+        "article-title": "\u201cEstablishment and lineage dynamics of the SARS-CoV-2 epidemic in the UK",
+        "volume": "371",
+        "year": "2021",
+        "journal-title": "In: Science"
+      },
+      {
+        "issue": "1",
+        "key": "2024010921154963000_2023.12.19.572480v3.18",
+        "first-page": "64",
+        "article-title": "\u201cEvaluating the effects of SARS-CoV-2 spike mutation D614G on transmissibility and pathogenicity",
+        "volume": "184",
+        "year": "2021",
+        "journal-title": "In: Cell"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.19",
+        "first-page": "e82980",
+        "article-title": "\u201cFuture COVID19 surges prediction based on SARS-CoV-2 mutations surveillance",
+        "volume": "12",
+        "year": "2023",
+        "journal-title": "In: Elife"
+      },
+      {
+        "issue": "633",
+        "key": "2024010921154963000_2023.12.19.572480v3.20",
+        "first-page": "eabk3445",
+        "article-title": "\u201cPredicting the mutational drivers of future SARS-CoV-2 variants of concern",
+        "volume": "14",
+        "year": "2022",
+        "journal-title": "In: Science translational medicine"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.21",
+        "first-page": "147020",
+        "article-title": "\u201cGeographical distribution of host\u2019s specific SARS-CoV-2 mutations in the early phase of the COVID-19 pandemic",
+        "volume": "851",
+        "year": "2023",
+        "journal-title": "In: Gene"
+      },
+      {
+        "issue": "4",
+        "key": "2024010921154963000_2023.12.19.572480v3.22",
+        "first-page": "594",
+        "article-title": "\u201cBinding of human ACE2 and RBD of omicron enhanced by unique interaction patterns among SARS-CoV-2 variants of concern",
+        "volume": "44",
+        "year": "2023",
+        "journal-title": "In: Journal of computational chemistry"
+      },
+      {
+        "issue": "22",
+        "key": "2024010921154963000_2023.12.19.572480v3.23",
+        "first-page": "4267",
+        "article-title": "\u201cCOVID-19 Genome Sequence Analysis for New Variant Prediction and Generation",
+        "volume": "10",
+        "year": "2022",
+        "journal-title": "In: Mathematics"
+      },
+      {
+        "issue": "9",
+        "key": "2024010921154963000_2023.12.19.572480v3.24",
+        "first-page": "1188",
+        "article-title": "\u201cSARS-CoV-2 variant prediction and antiviral drug design are enabled by RBD in vitro evolution",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "In: Nature microbiology"
+      },
+      {
+        "issue": "42",
+        "key": "2024010921154963000_2023.12.19.572480v3.25",
+        "first-page": "17646",
+        "article-title": "\u201cPredicting mutational effects on receptor binding of the spike protein of SARS-CoV-2 variants",
+        "volume": "143",
+        "year": "2021",
+        "journal-title": "In: Journal of the American Chemical Society"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.26",
+        "first-page": "100232",
+        "article-title": "Beyond COVID-19: Do biothermodynamic properties allow predicting the future evolution of SARS-CoV-2 variants?",
+        "volume": "22",
+        "year": "2022",
+        "journal-title": "In: Microbial risk analysis"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.27",
+        "first-page": "31",
+        "article-title": "\u201cCOVID-19: challenges of viral variants",
+        "volume": "74",
+        "year": "2023",
+        "journal-title": "In: Annual Review of Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2024010921154963000_2023.12.19.572480v3.28",
+        "first-page": "145",
+        "article-title": "\u201cSources, diffusion and prediction in COVID-19 pandemic: lessons learned to face next health emergency",
+        "volume": "10",
+        "year": "2023",
+        "journal-title": "In: AIMS Public Health"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.29",
+        "first-page": "113193",
+        "article-title": "\u201cCompetition of SARS-CoV-2 variants on the pandemic transmission dynamics",
+        "volume": "169",
+        "year": "2023",
+        "journal-title": "In: Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2024010921154963000_2023.12.19.572480v3.30",
+        "first-page": "1800",
+        "article-title": "\u201cGeographic and genomic distribution of SARS-CoV-2 mutations",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "In: Frontiers in microbiology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.19.572480",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:41:50Z",
+      "timestamp": 1768455710000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.19.572480"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          20
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2023.12.19.572480",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

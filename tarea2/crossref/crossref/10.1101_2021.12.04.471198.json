@@ -1,0 +1,555 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:53:21Z",
+      "timestamp": 1768499601272,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          6
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Viral vaccines can lose their efficacy as the genomes of targeted viruses rapidly evolve, resulting in new variants that may evade vaccine-induced immunity. This process is apparent in the emergence of new SARS-CoV-2 variants which have the potential to undermine vaccination efforts and cause further outbreaks. Predictive vaccinology points to a future of pandemic preparedness in which vaccines can be developed preemptively based in part on predictive models of viral evolution. Thus, modeling the trajectory of SARS-CoV-2 spike protein evolution could have value for mRNA vaccine development. Traditionally,\n                  <jats:italic>in silico</jats:italic>\n                  sequence evolution has been modeled discretely, while there has been limited investigation into continuous models. Here we present the Viral Predictor for mRNA Evolution (VPRE), an open-source software tool which learns from mutational patterns in viral proteins and models their most statistically likely evolutionary trajectories. We trained a variational autoencoder with real-time and simulated SARS-CoV-2 genome data from Australia to encode discrete spike protein sequences into continuous numerical variables. To simulate evolution along a phylogenetic path, we trained a Gaussian process model with the numerical variables to project spike protein evolution up to five months in advance. Our predictions mapped primarily to a sequence that differed by a single amino acid from the most reported spike protein in Australia within the prediction timeframe, indicating the utility of deep learning and continuous latent spaces for modeling viral protein evolution. VPRE can be readily adapted to investigate and predict the evolution of viruses other than SARS-CoV-2 in temporal, geographic, and lineage-specific pathways.\n                </jats:p>",
+    "DOI": "10.1101/2021.12.04.471198",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2021-12-06T23:10:12Z",
+      "timestamp": 1638832212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Modeling the trajectory of SARS-CoV-2 spike protein evolution in continuous latent space using a neural network and Gaussian process"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1260-5045",
+        "authenticated-orcid": false,
+        "given": "Samuel",
+        "family": "King",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xinyi E.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah W. S.",
+        "family": "Ng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kimia",
+        "family": "Rostin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tylo",
+        "family": "Roberts",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Samuel V.",
+        "family": "Hahn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Janella C.",
+        "family": "Schwab",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Parneet",
+        "family": "Sekhon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Madina",
+        "family": "Kagieva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Taylor",
+        "family": "Reilly",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ruo Chen",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paarsa",
+        "family": "Salman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan J.",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0041-5989",
+        "authenticated-orcid": false,
+        "given": "Eric J.",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4889-6876",
+        "authenticated-orcid": false,
+        "given": "Steven J.",
+        "family": "Hallam",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe6522"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe5960"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2323"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.coviro.2016.03.003",
+        "article-title": "Vaccinology in the third millennium: scientific and social challenges",
+        "volume": "17",
+        "year": "2016",
+        "journal-title": "Current Opinion in Virology"
+      },
+      {
+        "issue": "5",
+        "key": "2021120823001230000_2021.12.04.471198v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1038/d41573-020-00073-5",
+        "article-title": "The COVID-19 vaccine development landscape",
+        "volume": "19",
+        "year": "2020",
+        "journal-title": "Nature Reviews Drug Discovery"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, D. , Lee, J. Y. , Yang, J. S. , Kim, J. W. , Kim, V. N. , & Chang, H. (2020). The architecture of SARS-CoV-2 transcriptome. Cell.",
+        "DOI": "10.1101/2020.03.12.988865"
+      },
+      {
+        "issue": "1",
+        "key": "2021120823001230000_2021.12.04.471198v1.7",
+        "first-page": "1",
+        "article-title": "Characterization of spike glycoprotein of SARS-CoV-2 on virus entry and its immune cross-reactivity with SARS-CoV",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05985-9"
+      },
+      {
+        "issue": "1",
+        "key": "2021120823001230000_2021.12.04.471198v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1016/j.cam.2004.07.034",
+        "article-title": "Genetic algorithms for modelling and optimisation",
+        "volume": "184",
+        "year": "2005",
+        "journal-title": "Journal of Computational and Applied Mathematics"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature13087"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01861-14"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tim.2017.09.004"
+      },
+      {
+        "issue": "5",
+        "key": "2021120823001230000_2021.12.04.471198v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "368",
+        "DOI": "10.1287/inte.2016.0862",
+        "article-title": "Machine learning for predicting vaccine immunogenicity",
+        "volume": "46",
+        "year": "2016",
+        "journal-title": "Interfaces"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.14"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crossman, L. C. (2020). Leveraging deep learning to simulate coronavirus spike proteins has the potential to predict future zoonotic sequences. bioRxiv.",
+        "DOI": "10.1101/2020.04.20.046920"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sawmya, S. , Saha, A. , Tasnim, S. , Anjum, N. , Toufikuzzaman, M. , Rafid, A. H. M. , \u2026 & Rahman, M. S. (2020). Analyzing hCov genome sequences: Applying machine intelligence and beyond. bioRxiv.",
+        "DOI": "10.1101/2020.06.03.131987"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Younis, M. C. (2021). Evaluation of deep learning approaches for identification of different corona-virus species and time series prediction. Computerized Medical Imaging and Graphics, 101921.",
+        "DOI": "10.1016/j.compmedimag.2021.101921"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd7331"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.116.187013"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hou, X. , Shen, L. , Sun, K. , & Qiu, G. (2017). Deep feature consistent variational autoencoder. 2017 IEEE Winter Conference on Applications of Computer Vision (WACV).",
+        "DOI": "10.1109/WACV.2017.131"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowman, S. , Vilnis, L. , Vinyals, O. , Dai, A. , Jozefowicz, R. , & Bengio, S. (2016). Generating Sentences from a Continuous Space. In Proceedings of the 20th SIGNLL Conference on Computational Natural Language Learning. 10\u201321.",
+        "DOI": "10.18653/v1/K16-1002"
+      },
+      {
+        "issue": "10",
+        "key": "2021120823001230000_2021.12.04.471198v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "816",
+        "DOI": "10.1038/s41592-018-0138-4",
+        "article-title": "Deep generative models of genetic variation capture the effects of mutations",
+        "volume": "15",
+        "year": "2018",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1205",
+        "DOI": "10.3389/fgene.2019.01205",
+        "article-title": "Variational autoencoders for cancer data integration: design principles and computational practice",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in Genetics"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/9789813235533_0008"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.25",
+        "unstructured": "Rasmussen, C. E. , & Williams, C. K. (2008). Gaussian processes for machine learning. Cambridge, MA: MIT Press."
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1215251110"
+      },
+      {
+        "issue": "1",
+        "key": "2021120823001230000_2021.12.04.471198v1.27",
+        "first-page": "1",
+        "article-title": "An additive Gaussian process regression model for interpretable non-parametric analysis of longitudinal data",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "1984",
+        "key": "2021120823001230000_2021.12.04.471198v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "20110550",
+        "DOI": "10.1098/rsta.2011.0550",
+        "article-title": "Gaussian processes for time-series modelling",
+        "volume": "371",
+        "year": "2013",
+        "journal-title": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences"
+      },
+      {
+        "issue": "1",
+        "key": "2021120823001230000_2021.12.04.471198v1.29",
+        "first-page": "1",
+        "article-title": "Deciphering protein evolution and fitness landscapes with latent space models",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btn278"
+      },
+      {
+        "issue": "1",
+        "key": "2021120823001230000_2021.12.04.471198v1.31",
+        "first-page": "1",
+        "article-title": "Design of metalloproteins and novel protein folds using variational autoencoders",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "78",
+        "key": "2021120823001230000_2021.12.04.471198v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "20120616",
+        "DOI": "10.1098/rsif.2012.0616",
+        "article-title": "Evolutionary inference for function-valued traits: Gaussian process regression on phylogenies",
+        "volume": "10",
+        "year": "2013",
+        "journal-title": "Journal of the Royal Society Interface"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.33",
+        "unstructured": "Mathworks. (2021). Global Optimization Toolbox: User\u2019s Guide (r2021a). Retrieved from: https://www.mathworks.com/help/bioinfo/ref/multialign.html"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.34",
+        "unstructured": "Chollet, F. , & others. (2015). Keras. GitHub. https://keras.io"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.35",
+        "article-title": "Tensorflow: Large-scale machine learning on heterogeneous distributed systems",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "6",
+        "key": "2021120823001230000_2021.12.04.471198v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "064004",
+        "DOI": "10.1088/1361-6579/ab921e",
+        "article-title": "Personalized automatic sleep staging with single-night data: a pilot study with Kullback\u2013Leibler divergence regularization",
+        "volume": "41",
+        "year": "2020",
+        "journal-title": "Physiological Measurement"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj-cs.55"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.38",
+        "article-title": "Theano: A Python framework for fast computation of mathematical expressions",
+        "author": "Theano Development Team",
+        "year": "2016",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "article-title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.41",
+        "first-page": "51",
+        "article-title": "Data structures for statistical computing in python",
+        "volume": "445",
+        "year": "2010",
+        "journal-title": "In Proceedings of the 9th Python in Science Conference"
+      },
+      {
+        "issue": "8",
+        "key": "2021120823001230000_2021.12.04.471198v1.42",
+        "first-page": "707",
+        "article-title": "Binary codes capable of correcting deletions, insertions, and reversals",
+        "volume": "10",
+        "year": "1966",
+        "journal-title": "Soviet Physics Doklady"
+      },
+      {
+        "issue": "5",
+        "key": "2021120823001230000_2021.12.04.471198v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1295",
+        "DOI": "10.1016/j.cell.2020.08.012",
+        "article-title": "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.06.043"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants, L. , Van Calster, B. , Collins, G. S. , Riley, R. D. , Heinze, G. , Schuit, E. , \u2026 & van Smeden, M. (2020). Prediction models for diagnosis and prognosis of COVID-19: systematic review and critical appraisal. BMJ, 369.",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.46",
+        "article-title": "Auto-encoding variational bayes",
+        "year": "2013",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021120823001230000_2021.12.04.471198v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1016/j.ymeth.2019.04.008",
+        "article-title": "Deep learning in bioinformatics: Introduction, application, and perspective in the big data era",
+        "volume": "166",
+        "year": "2019",
+        "journal-title": "Methods"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.04.471198",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:27:17Z",
+      "timestamp": 1768444037000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.04.471198"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          6
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1101/2021.12.04.471198",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

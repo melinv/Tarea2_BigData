@@ -1,0 +1,587 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ],
+      "date-time": "2026-03-26T15:23:33Z",
+      "timestamp": 1774538613676,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          22
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 63,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              22
+            ]
+          ],
+          "date-time": "2024-01-22T00:00:00Z",
+          "timestamp": 1705881600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Preventing and treating post-acute sequelae of SARS-CoV-2 infection (PASC), commonly known as Long COVID, has become a public health priority. Researchers have begun to explore whether Paxlovid treatment in the acute phase of COVID-19 could help prevent the onset of PASC.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and Findings</jats:title>\n                  <jats:p>We used electronic health records from the National Clinical Cohort Collaborative (N3C) to define a cohort of 410,026 patients who had COVID-19 since April 1, 2022, and were eligible for Paxlovid treatment due to risk for progression to severe COVID-19. We used the target trial emulation framework to estimate the effect of Paxlovid treatment on PASC incidence. The treatment group was defined as outpatients prescribed Paxlovid within five days of COVID-19 index, and the control group was defined as all patients meeting eligibility criteria not in the treatment group. The follow-up period was 180 days. We estimated overall PASC incidence using a computable phenotype. We also measured incident cognitive, fatigue, and respiratory symptoms in the post-acute period. Paxlovid treatment had a small effect on overall PASC incidence (relative risk [RR] 0.94; 95% CI [0.90, 0.99]; p=0.011). It had a slightly stronger protective effect against cognitive (RR 0.86; 95% CI [0.77, 0.95]; p&lt;0.001) and fatigue (RR 0.92; 95% CI [0.86, 0.97]; p=0.002) symptoms.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>In this study, Paxlovid had a weaker preventative effect on PASC than in prior observational studies, suggesting that Paxlovid is unlikely to become a definitive solution for preventing PASC. Differing effects by symptom cluster suggest that the etiology of cognitive and fatigue symptoms may be more closely related to viral load than that of respiratory symptoms. Future research should explore potential heterogeneous treatment effects across PASC subphenotypes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>AUTHOR SUMMARY</jats:title>\n                  <jats:sec>\n                    <jats:title>Why was this study done?</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>Paxlovid is indicated to prevent severe COVID-19.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Long COVID is more likely after more severe COVID-19, so there is a plausible mechanism for Paxlovid to reduce the risk of developing Long COVID by preventing severe COVID-19.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Only a few studies have examined the relationship between Paxlovid and Long COVID, with mixed results. To our knowledge, no studies have used causal inference methods to estimate Paxlovid\u2019s effect on PASC.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>If Paxlovid helps prevent Long COVID, it could be a powerful addition to the public health effort to reduce the burden of COVID-19.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What did the researchers do and find?</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>We used a cohort of 410,026 patients from the National Covid Cohort Collaborative\u2019s (N3C\u2019s) electronic health record database to estimate the effect of Paxlovid treatment during acute COVID-19 on the likelihood of developing Long COVID.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We used the target trial emulation technique to estimate the causal effect of Paxlovid treatment using observational data.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We found that Paxlovid treatment had a small effect on overall Long COVID incidence.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We found that Paxlovid treatment had a slightly stronger effect on certain symptoms (cognitive and fatigue) of Long COVID.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What do these findings mean?</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>Paxlovid is unlikely to become a definitive solution for preventing Long COVID.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>However, Paxlovid may have a stronger effect on certain subtypes of Long COVID.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>This difference in effect by symptom also suggests that viral load may be a more common cause of cognitive and fatigue symptoms than of other Long COVID symptoms.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>This study\u2019s main limitation is that it estimates causal effects, but it is not randomized like a clinical trial. Instead, we control for other variables which could bias the estimate, but if we missed some important variables, the estimates could be incorrect.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2024.01.20.24301525",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2024-01-22T18:52:57Z",
+      "timestamp": 1705949577000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Effect of Paxlovid Treatment During Acute Covid-19 on Long Covid Onset: An EHR-Based Target Trial Emulation from the N3C and RECOVER Consortia"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7966-527X",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Preiss",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0063-368X",
+        "authenticated-orcid": false,
+        "given": "Abhishek",
+        "family": "Bhatia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-9429-0218",
+        "authenticated-orcid": false,
+        "given": "Leyna V.",
+        "family": "Aragon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1124-7928",
+        "authenticated-orcid": false,
+        "given": "John M.",
+        "family": "Baratta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-1949-8734",
+        "authenticated-orcid": false,
+        "given": "Monika",
+        "family": "Baskaran",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Frank",
+        "family": "Blancero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8095-547X",
+        "authenticated-orcid": false,
+        "given": "M. Daniel",
+        "family": "Brannock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6979-1766",
+        "authenticated-orcid": false,
+        "given": "Robert F.",
+        "family": "Chew",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9056-2047",
+        "authenticated-orcid": false,
+        "given": "Iv\u00e1n",
+        "family": "D\u00edaz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4787-6208",
+        "authenticated-orcid": false,
+        "given": "Megan",
+        "family": "Fitzgerald",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3722-8928",
+        "authenticated-orcid": false,
+        "given": "Elizabeth P.",
+        "family": "Kelly",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1845-5620",
+        "authenticated-orcid": false,
+        "given": "Andrea",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0059-1990",
+        "authenticated-orcid": false,
+        "given": "Thomas W.",
+        "family": "Carton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5437-2545",
+        "authenticated-orcid": false,
+        "given": "Christopher G.",
+        "family": "Chute",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9114-8737",
+        "authenticated-orcid": false,
+        "given": "Melissa",
+        "family": "Haendel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2723-5902",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Moffitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6840-9756",
+        "authenticated-orcid": false,
+        "given": "Emily",
+        "family": "Pfaff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "N3C Consortium and the RECOVER EHR Cohort",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M22-2141"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2118542"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.05.03.23289084"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciac443"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7125"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciac687"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2023.35077"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.20411/pai.v7i1.518"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14218/erhm.2022.00045"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2022.1003103"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-3359429/v1"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/14656566.2023.2262387"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2024.2007"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-26513-3"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.26649"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12889-023-16916-w"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejim.2021.06.009"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2023.0743"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.29333"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-3231786/v1"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2022-069176"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.22",
+        "unstructured": "Canadian Adaptive Platform Trial of Treatments for COVID-19 in Community Settings (CanTreatCOVID). In: ClinicalTrials.gov [Internet]. 6 Jul 2023 [cited 26 Mar 2024]. Available: https://clinicaltrials.gov/study/NCT05614349"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocaa196"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.24",
+        "unstructured": "RECOVER: Researching COVID to Enhance Recovery. In: RECOVER: Researching COVID to Enhance Recovery [Internet]. [cited 26 Mar 2023]. Available: https://recovercovid.org/"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocab217"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.26",
+        "unstructured": "Phenotype_Data_Acquisition: The repository for code and documentation produced by the N3C Phenotype and Data Acquisition workstream. Github; Available: https://github.com/National-COVID-Cohort-Collaborative/Phenotype_Data_Acquisition"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwv254"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2022.21383"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jpc.15811"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.12.23.22283868"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.31",
+        "unstructured": "CDC. Interim Clinical Considerations for COVID-19 Treatment in Outpatients. In: Centers for Disease Control and Prevention [Internet]. 10 Feb 2023 [cited 26 Mar 2023]. Available: https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/outpatient-treatment-overview.html"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.32",
+        "unstructured": "Paxlovid Drug-Drug Interactions. In: COVID-19 Treatment Guidelines [Internet]. [cited 27 Nov 2023]. Available: https://www.covid19treatmentguidelines.nih.gov/therapies/antivirals-including-antibody-products/ritonavir-boosted-nirmatrelvir--paxlovid-/paxlovid-drug-drug-interactions/"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.12.08.23299718"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2022.18931"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.39386.490150.94"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2023.8823"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(23)00053-1"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.38",
+        "unstructured": "Anschuetz N. DU Study Finds History of TBI Likely Worsens Long COVID Symptoms. In: University of Denver [Internet]. 28 Mar 2023 [cited 15 Dec 2023]. Available: https://www.du.edu/news/du-study-finds-history-tbi-likely-worsens-long-covid-symptoms."
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/STROKEAHA.123.042360"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph192316305"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.41",
+        "unstructured": "PTSD: National Center for PTSD. [cited 15 Dec 2023]. Available: https://www.ptsd.va.gov/professional/treat/essentials/epidemiology.asp"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.42",
+        "unstructured": "Munz A. Why should veterans diagnosed with mesothelioma seek legal help? Mesothelioma Center - Vital Services for Cancer Patients & Families; 2022. Available: https://www.asbestos.com/veterans/"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1475-6773.2005.00448.x"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-38388-7"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclinepi.2011.01.001"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/09-STS313"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-985X.2007.00527.x"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.6252"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2020.0452"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-019-0597-x"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1513/AnnalsATS.201903-241OC"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(21)00703-9"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.53",
+        "unstructured": "Department of Health and Human Services , Office of the Assistant Secretary for Health. National Research Action Plan on Long COVID. 200 Independence Ave SW, Washington, DC 20201.; 2022."
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(22)00135-7"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.55",
+        "unstructured": "EnSpark Consulting. What We Heard: Engagement Report on the Working Definition for Long COVID. Washington, DC; 2023 Jun."
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13063/2327-9214.1035"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0000000000000794"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/15-AOAS891"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s42399-020-00363-4"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18632/aging.103579"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000513288"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.62",
+        "unstructured": "Palantir Foundry. In: Palantir [Internet]. [cited 9 Jan 2023]. Available: https://www.palantir.com/platforms/foundry/"
+      },
+      {
+        "key": "2025041000151078000_2024.01.20.24301525v4.63",
+        "unstructured": "SPH and Sharecare Release Community Well-Being Rankings. [cited 30 Mar 2023]. Available: https://www.bu.edu/sph/news/articles/2020/sph-and-sharecare-release-community-well-being-rankings/"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.20.24301525",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:49:09Z",
+      "timestamp": 1768506549000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.01.20.24301525"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          22
+        ]
+      ]
+    },
+    "references-count": 63,
+    "URL": "https://doi.org/10.1101/2024.01.20.24301525",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

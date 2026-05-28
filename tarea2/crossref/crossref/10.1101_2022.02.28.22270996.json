@@ -1,0 +1,229 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:11:19Z",
+      "timestamp": 1768554679072,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          1
+        ]
+      ]
+    },
+    "group-title": "Health Systems and Quality Improvement",
+    "reference-count": 10,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Research Objective</jats:title>\n                  <jats:p>Health systems use clinical predictive algorithms to allocate resources to high-risk patients. Such algorithms are trained using historical data and are later implemented in clinical settings. During this implementation period, predictive algorithms are prone to performance changes (\u201cdrift\u201d) due to exogenous shocks in utilization or shifts in patient characteristics. Our objective was to examine the impact of sudden utilization shifts during the SARS-CoV-2 pandemic on the performance of an electronic health record (EHR)-based prognostic algorithm.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Study Design</jats:title>\n                  <jats:p>We studied changes in the performance of Conversation Connect, a validated machine learning algorithm that predicts 180-day mortality among outpatients with cancer receiving care at medical oncology practices within a large academic cancer center. Conversation Connect generates mortality risk predictions before each encounter using data from 159 EHR variables collected in the six months before the encounter. Since January 2019, Conversation Connect has been used as part of a behavioral intervention to prompt clinicians to consider early advance care planning conversations among patients with \u226510% mortality risk. First, we descriptively compared encounter-level characteristics in the following periods: January 2019\u2013February 2020 (\u201cpre-pandemic\u201d), March-May 2020 (\u201cearly-pandemic\u201d), and June\u2013December 2020 (\u201clater-pandemic\u201d). Second, we quantified changes in high-risk patient encounters using interrupted time series analyses that controlled for pre-pandemic trends and demographic, clinical, and practice covariates. Our primary metric of performance drift was false negative rate (FNR). Third, we assessed contributors to performance drift by comparing distributions of key EHR inputs across periods and predicting later pandemic utilization using pre-pandemic inputs.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Population Studied</jats:title>\n                  <jats:p>237,336 in-person and telemedicine medical oncology encounters.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Principal Findings</jats:title>\n                  <jats:p>Age, race, average patient encounters per month, insurance type, comorbidity counts, laboratory values, and overall mortality were similar among encounters in the pre-, early-, and later-pandemic periods. Relative to the pre-pandemic period, the later-pandemic period was characterized by a 6.5-percentage-point decrease (28.2% vs. 34.7%) in high-risk encounters (p&lt;0.001). FNR increased from 41.0% (95% CI 38.0-44.1%) in the pre-pandemic period to 57.5% (95% CI 51.9-63.0%) in the later pandemic period. Compared to the pre-pandemic period, the early and later pandemic periods had higher proportions of telemedicine encounters (0.01% pre-pandemic vs. 20.0% early-pandemic vs. 26.4% later-pandemic) and encounters with no preceding laboratory draws (17.7% pre-pandemic vs. 19.8% early-pandemic vs. 24.1% later-pandemic). In the later pandemic period, observed laboratory utilization was lower than predicted (76.0% vs 81.2%, p&lt;0.001). In the later-pandemic period, mean 180-day mortality risk scores were lower for telemedicine encounters vs. in-person encounters (10.3% vs 11.2%, p&lt;0.001) and encounters with no vs. any preceding laboratory draws (1.5% vs. 14.0%, p&lt;0.001).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>During the SARS-CoV-2 pandemic period, the performance of a machine learning prognostic algorithm used to prompt advance care planning declined substantially. Increases in telemedicine and declines in laboratory utilization contributed to lower performance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Implications for Policy or Practice</jats:title>\n                  <jats:p>This is the first study to show algorithm performance drift due to SARS-CoV-2 pandemic-related shifts in telemedicine and laboratory utilization. These mechanisms of performance drift could apply to other EHR clinical predictive algorithms. Pandemic-related decreases in care utilization may negatively impact the performance of clinical predictive algorithms and warrant assessment and possible retraining of such algorithms.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.02.28.22270996",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2022-03-01T22:20:12Z",
+      "timestamp": 1646173212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Performance Drift in a Mortality Prediction Algorithm during the SARS-CoV-2 Pandemic"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Ravi B.",
+        "family": "Parikh",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yichen",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Corey",
+        "family": "Chivers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katherine R.",
+        "family": "Courtright",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jingsan",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Caleb M.",
+        "family": "Hearn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amol S.",
+        "family": "Navathe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jinbo",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.1",
+        "first-page": "1109",
+        "article-title": "Developing predictive models using electronic medical records: challenges and pitfalls",
+        "volume": "2013",
+        "year": "2013",
+        "journal-title": "AMIA Annu Symp Proc"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocx030"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2021.2626"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-045343"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaoncol.2020.4331"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaoncol.2020.4759"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4899-4541-9"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davison A. C. , Hinkley, D. V. Bootstrap Methods and Their Application. Cambridge University Press; 1997.",
+        "DOI": "10.1017/CBO9780511802843"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2021.35286"
+      },
+      {
+        "key": "2022030311300424000_2022.02.28.22270996v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2021.24935"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.28.22270996",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:38:02Z",
+      "timestamp": 1768487882000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.02.28.22270996"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 10,
+    "URL": "https://doi.org/10.1101/2022.02.28.22270996",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

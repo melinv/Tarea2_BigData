@@ -1,0 +1,238 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:38:09Z",
+      "timestamp": 1768556289372,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          26
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 15,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The response to the ongoing second wave of the COVID-19 pandemic can be helped by giving medical professionals access to models learned on patient data. To achieve this, we learned a Bayesian network model to predict risk of ICU admission, death and time of stay in the hospital from patient history, initial vital signs, initial laboratory tests and medication. Data were obtained from patients that were admitted to an HM hospital with suspicion of COVID-19 until 24/04/2020, excluding unconfirmed diagnosis, those who were admitted before the epidemic started in Madrid, had an outcome that was not discharge or death or died within 24 hours of presentation. Relevant variables for the model were selected with help from medical professionals. We learned the model using Bayesian search as implemented in GeNIe. Of 2,307 patients in the dataset, 679 were excluded. With the remaining 1,645 patients, we learned a model that predicted death with 86.4% accuracy. Some of the initial variables were discarded because they were independent of the outcomes of interest conditioned on some of the other variables. This high redundancy might be useful to build simpler tests for the severity of COVID-19. We show how the model can be used at different stages of patient admission and even with only partial information about the patient. This can be done by clinicians that want a fast second opinion or a summary of the available data from previous patients similar to the one at hand. We then include how we plan to improve the model with extra patient data and how it could be expanded to other contexts, like for example, an epidemiological one.</jats:p>",
+    "DOI": "10.1101/2022.10.24.22281436",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2022-10-26T19:20:11Z",
+      "timestamp": 1666812011000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "COVID-19 prognostic model using Bayesian networks learnt on patient data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8780-6837",
+        "authenticated-orcid": false,
+        "given": "Nikolas",
+        "family": "Bernaola",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Concha",
+        "family": "Bielza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pedro",
+        "family": "Larra\u00f1aga",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.1",
+        "unstructured": "\u201cNaming the coronavirus disease (COVID-19) and the virus that causes it,\u201d 2020. [Online]. Available: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it [Accessed: 20-Nov-2020]"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.2",
+        "unstructured": "\u201cCOVID-19 situation update worldwide, as of 20 October 2020,\u201d European Centre for Disease Prevention and Control, 20-Oct-2020. [Online]. Available: https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases [Accessed: 20-Nov-2020]"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, Fei , et al. \u201cClinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: A retrospective cohort study.\u201d The Lancet (2020).",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.4",
+        "unstructured": "Jianfeng, Xie , et al. \u201cDevelopment and external validation of a prognostic multivariable model on admission for hospitalized patients with covid-19.\u201d medRxiv (2020)"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yadaw, Arjun S. , et al. \u201cClinical predictors of COVID-19 mortality.\u201d medRxiv (2020).",
+        "DOI": "10.1101/2020.05.19.20103036"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soto-Mota, Adrian , et al. \u201cThe low-harm score for predicting mortality in patients diagnosed with COVID-19: A multicentric validation study\u201d medRxiv (2020).",
+        "DOI": "10.1002/emp2.12259"
+      },
+      {
+        "issue": "10",
+        "key": "2022102810350802000_2022.10.24.22281436v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "3066",
+        "DOI": "10.3390/jcm9103066",
+        "article-title": "The PANDEMYC Score. An easily applicable and interpretable model for predicting mortality associated with COVID-19",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Journal of Clinical Medicine"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.8",
+        "unstructured": "Wynants, Laure , et al. \u201cPrediction models for diagnosis and prognosis of covid-19: Systematic review and critical appraisal.\u201d BMJ 369 (2020)."
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.9",
+        "unstructured": "Max Roser , et al. (2020) - \u201cCoronavirus pandemic (COVID-19)\u201d. [Online] Available: https://ourworldindata.org/coronavirus [Accessed: 20-Nov-2020]"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bernaola, Nikolas , et al. \u201cObservational Study of the Efficiency of Treatments in Patients Hospitalized with Covid-19 in Madrid\u201d. medRxiv, 2020. Available: https://www.medrxiv.org/content/10.1101/2020.07.17.20155960v1",
+        "DOI": "10.1101/2020.07.17.20155960"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.11",
+        "unstructured": "HM Hospitales , \u201cCOVID data save lives\u201d [Online]. Available:https://www.hmhospitales.com/coronavirus/covid-data-save-lives. [Accessed: 20-Nov-2020]"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.12",
+        "unstructured": "Koller, Daphne , and Nir Friedman . Probabilistic Graphical Models: Principles and Techniques. MIT press, 2009."
+      },
+      {
+        "issue": "2",
+        "key": "2022102810350802000_2022.10.24.22281436v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "302",
+        "DOI": "10.1111/j.2517-6161.1960.tb00375.x",
+        "article-title": "A method of estimation of missing values in multivariate data suitable for use with an electronic computer",
+        "volume": "22",
+        "year": "1960",
+        "journal-title": "Journal of the Royal Statistical Society: Series B (Methodological)"
+      },
+      {
+        "key": "2022102810350802000_2022.10.24.22281436v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cooper, Gregory F. , and Edward Herskovits . \u201cA Bayesian method for constructing Bayesian belief networks from databases.\u201d Uncertainty Proceedings 1991. Morgan Kaufmann, 1991, 86\u201394.",
+        "DOI": "10.1016/B978-1-55860-203-8.50015-2"
+      },
+      {
+        "issue": "3",
+        "key": "2022102810350802000_2022.10.24.22281436v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1007/BF00994016",
+        "article-title": "Learning Bayesian networks: The combination of knowledge and statistical data",
+        "volume": "20",
+        "year": "1995",
+        "journal-title": "Machine Learning"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.10.24.22281436",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:52:54Z",
+      "timestamp": 1768488774000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.10.24.22281436"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          26
+        ]
+      ]
+    },
+    "references-count": 15,
+    "URL": "https://doi.org/10.1101/2022.10.24.22281436",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

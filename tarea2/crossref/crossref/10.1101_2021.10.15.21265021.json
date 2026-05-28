@@ -1,0 +1,443 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:25:10Z",
+      "timestamp": 1768555510910,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>The COVID-19 pandemic poses a heightened risk to health workers, especially in low- and middle-income countries such as Indonesia. Due to the limitations of implementing mass RT-PCR testing for health workers, high-performing and cost-effective methodologies must be developed to help identify COVID-19 positive health workers and protect the spearhead of the battle against the pandemic. This study aimed to investigate the application of machine learning classifiers to predict the risk of COVID-19 positivity (by RT-PCR) using data obtained from a survey specific to health workers. Machine learning tools can enhance COVID-19 screening capacity in high-risk populations such as health workers in environments where cost is a barrier to the accessibility of adequate testing and screening supplies. We built two sets of COVID-19 Likelihood Meter (CLM) models: one trained on data from a broad population of health workers in Jakarta and Semarang (full model) and tested on the same, and one trained on health workers from Jakarta only (Jakarta model) and tested on both the same and an independent population of Semarang health workers. The area under the receiver-operating-characteristic curve (AUC), average precision (AP), and the Brier score (BS) were used to assess model performance. Shapely additive explanations (SHAP) were used to analyse future importance. The final dataset for the study included 5,393 healthcare workers. For the full model, the random forest was selected as the algorithm choice. It achieved cross-validation of mean AUC of 0.832 \u00b1 0.015, AP of 0.513 \u00b1 0.039, and BS of 0.124 \u00b1 0.005, and was high performing during testing with AUC and AP of 0.849 and 0.51, respectively. The random forest classifier also displayed the best and most robust performance for the Jakarta model, with AUC of 0.856 \u00b1 0.015, AP of 0.434 \u00b1 0.039, and BS of 0.08 \u00b1 0.0003. The performance when testing on the Semarang healthcare workers was AUC of 0.745 and AP of 0.694. Meanwhile, the performance for Jakarta 2022 test set was an AUC of 0.761 and AP of 0.535. Our models yielded high predictive performance and can be used as an alternative COVID-19 methodology for healthcare workers in Indonesia, therefore helping in predicting an increased trend of transmission during the transition into endemic.</jats:p>",
+    "DOI": "10.1101/2021.10.15.21265021",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2021-10-18T16:48:13Z",
+      "timestamp": 1634575693000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Application of Machine Learning in Prediction of COVID-19 Diagnosis for Indonesian Healthcare Workers"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1912-7901",
+        "authenticated-orcid": false,
+        "given": "Shreyash",
+        "family": "Sonthalia",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Muhammad Aji",
+        "family": "Muharoom",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sinta Amalia Kusumastuti",
+        "family": "Sumulyo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fariza Zahra",
+        "family": "Kamilah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fatma",
+        "family": "Aldila",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bijak",
+        "family": "Rabbani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andhika",
+        "family": "Tirtawisata",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Olivia",
+        "family": "Herlinda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jatin",
+        "family": "Khaimani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Levana",
+        "family": "Sani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Astrid",
+        "family": "Irwanto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rebriarina",
+        "family": "Hapsari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nurul",
+        "family": "Luntungan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Diah",
+        "family": "Saminarsih",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Akmal",
+        "family": "Taher",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.1",
+        "unstructured": "COVID-19 Hotline. Informasi terbaru seputar penanganan COVID-19 di Indonesia [cited 2023 Mar 1]. [Internet]. Available from: https://covid19.go.id/id"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.2",
+        "unstructured": "World Health Organization. Prevention, Identification and Management of Health Worker Infection in the Context of COVID-19. 2020 October 30 [cited 2023 March 1]. WHO Reference Number: WHO/2019-nCoV/HW_infection/2020/1. Available from: https://www.who.int/publications/i/item/10665-336265"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.3",
+        "unstructured": "LaporCovid-19. Statistik Kematian Tenaga Kesehatan Indonesia. Database: LaporCovid-19 [Internet]. Available from: https://nakes.laporcovid19.org/statistik"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.4",
+        "unstructured": "Redaksi Sehat Negeriku . Kasus Konfirmasi Turun , Pemerintah Terus Perkuat Upaya Pencegahan. [Internet]. 2022 Feb 13 [cited 2023 Feb 27]. Available from: https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20220213/0439309/kasus-konfirmasi-turun-pemerintah-terus-perkuat-upaya-pencegahan/"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.5",
+        "unstructured": "World Health Organization. WHO Coronavirus (COVID-19) Dashboard. [Internet]. [cited 2023 Feb 27]. Available from: https://covid19.who.int/table"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Day M . Covid-19: identifying and isolating asymptomatic people helped eliminate virus in Italian village. BMJ [Internet]. 2020 Mar 23;m1165. Available from: https://www.bmj.com/lookup/doi/10.1136/bmj.m1165",
+        "DOI": "10.1136/bmj.m1165"
+      },
+      {
+        "issue": "8",
+        "key": "2023072207000716000_2021.10.15.21265021v3.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1007/s10916-020-01597-4",
+        "article-title": "Detection of COVID-19 Infection from Routine Blood Exams with Machine Learning: A Feasibility Study",
+        "volume": "44",
+        "year": "2020",
+        "journal-title": "J Med Syst [Internet]"
+      },
+      {
+        "issue": "5",
+        "key": "2023072207000716000_2021.10.15.21265021v3.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.1007/s00134-020-05979-7",
+        "article-title": "Critical care crisis and some recommendations during the COVID-19 epidemic in China",
+        "volume": "46",
+        "year": "2020",
+        "journal-title": "Intensive Care Med [Internet]"
+      },
+      {
+        "issue": "16",
+        "key": "2023072207000716000_2021.10.15.21265021v3.9",
+        "first-page": "1545",
+        "article-title": "Critical Care Utilization for the COVID-19 Outbreak in Lombardy",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Italy. JAMA [Internet]"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.10",
+        "unstructured": "WHO. WHO provides one million antigen-detecting rapid diagnostic test kits to accelerate COVID-19 testing in Indonesia [Internet]. 2021 [cited 2021 Jun 17]. Available from: https://www.who.int/indonesia/news/detail/17-03-2021-who-provides-one-million-antigen-detecting-rapid-diagnostic-test-kits-to-accelerate-covid-19-testing-in-indonesia"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.11",
+        "unstructured": "WHO. Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries [Internet]. 2020 [cited 2021 Jun 18]. Available from: https://www.who.int/news/item/28-09-2020-global-partnership-to-make-available-120-million-affordable-quality-covid-19-rapid-tests-for-low--and-middle-incomecountries"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.12",
+        "unstructured": "Syambudi I . Pasokan Reagen PCR Menipis, Testing COVID-19 Terbengkalai [Internet]. 2021 [cited 2021 Jun 17]. Available from: https://tirto.id/pasokan-reagen-pcr-menipis-testing-covid-19-terbengkalai-ga6z"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.13",
+        "unstructured": "BBC. Lonjakan Covid-19 di Indonesia diprediksi sampai awal Juli, daerah lain bisa menyusul Kudus [Internet]. 2021 [cited 2021 Jun 17]. Available from: https://www.bbc.com/indonesia/indonesia-57492990"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.14",
+        "unstructured": "Our World in Data. Coronavirus (COVID-19) Testing - Statistics and Research [Internet]. [cited 2021 Jun 17]. Available from: https://ourworldindata.org/coronavirus-testing"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.15",
+        "unstructured": "Tirto. Ridwan Kamil Kritik Pelacakan COVID-19 RI Jauh dari Standar WHO [Internet]. 2020 [cited 2021 Jun 17]. Available from: https://tirto.id/ridwan-kamil-kritik-pelacakan-covid-19-ri-jauh-dari-standar-who-f9RL"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpubh.2021.649819"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/2224-3151.294307"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0251150"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00330-021-07715-1"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.medj.2020.10.002"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2020.25.16.2000508"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-020-00372-6"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12911-020-01266-z"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa1175"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-90265-9"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng C , Huang Z , Wang L , Chen X , Zhai Y , Zhu F , Chen H , Wang Y , Su X, H. S. & Al., E. A Novel Triage Tool of Artificial Intelligence-Assisted Diagnosis Aid System for Suspected COVID-19 Pneumonia in Fever Clinics. medRxiv: 2020.03.19.20039099 [Preprint]. 2020 [cited 2021 Jun 17]. Available from: https://www.medrxiv.org/content/10.1101/2020.03.19.20039099v2 doi: https://doi.org/10.1101/2020.03.19.20039099",
+        "DOI": "10.1101/2020.03.19.20039099"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcv.2020.104455"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.28",
+        "first-page": "16",
+        "article-title": "Risk Factors of health workers With Coronavirus Disease 2019: A Retrospective Cohort Study in a Designated Hospital of Wuhan in China",
+        "volume": "71",
+        "year": "2020",
+        "journal-title": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.29",
+        "first-page": "3",
+        "article-title": "Assessment of hand hygiene techniques using the World Health Organization\u2019s six steps",
+        "volume": "9",
+        "year": "2016",
+        "journal-title": "Journal of infection and public health"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.30",
+        "unstructured": "World Health Organization. Coronavirus disease (COVID-19) advice for the public: When and how to use masks [Internet]. Available from: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks/"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-006-6226-1"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.33",
+        "unstructured": "Buitinck L , Louppe G , Blondel M , et al. API design for machine learning software: experiences from the scikit-learn project. 2013."
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.34",
+        "first-page": "281",
+        "article-title": "Random search for hyper-parameter optimization",
+        "volume": "13",
+        "year": "2012",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.35",
+        "unstructured": "Lundberg SM , Lee SI . A unified approach to interpreting model predictions. In: Advances in Neural Information Processing Systems 30 (NIPS 2017). 2017 Presented at: 31st Conference on Neural Information Processing Systems (NIPS 2017); 2017; Long Beach, CA."
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.36",
+        "first-page": "95",
+        "article-title": "Estimating the efficacy of symptom-based screening for COVID-19. npj Digit",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "Med"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/resp.13953"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7189/jogh-10-010345"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.39",
+        "unstructured": "Hafizon I , Kautsar F , Amalia S . Tren kasus COVID-19 Sepanjang Bulan April 2022 (Tanggal 1-28 April). CISDI Insight [Internet]. 2022 [cited 28 July 2022];1. Available from: https://storage.googleapis.com/cisdi_document/CISDI-Insight-Vol-1.pdf."
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30457-6"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21109/kesmas.v17i2.6006"
+      },
+      {
+        "key": "2023072207000716000_2021.10.15.21265021v3.42",
+        "unstructured": "Vaksin Dashboard [Internet]. Database: Vaksin.kemkes.go.id. 2023 [cited 1 March 2023]. Available from: https://vaksin.kemkes.go.id/#/vaccines"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.10.15.21265021",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:27:42Z",
+      "timestamp": 1768487262000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.10.15.21265021"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2021.10.15.21265021",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

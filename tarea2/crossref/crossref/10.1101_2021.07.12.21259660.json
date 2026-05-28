@@ -1,0 +1,801 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:40:34Z",
+      "timestamp": 1768552834823,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          16
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The COVID-19 pandemic presented enormous data challenges in the United States. Policy makers, epidemiological modelers, and health researchers all require up-to-date data on the pandemic and relevant public behavior, ideally at fine spatial and temporal resolution. The COVIDcast API is our attempt to fill this need: operational since April 2020, it provides open access to both traditional public health surveillance signals (cases, deaths, and hospitalizations) and many auxiliary indicators of COVID-19 activity, such as signals extracted from de-identified medical claims data, massive online surveys, cell phone mobility data, and internet search trends. These are available at a fine geographic resolution (mostly at the county level) and are updated daily. The COVIDcast API also tracks all revisions to historical data, allowing modelers to account for the frequent revisions and backfill that are common for many public health data sources. All of the data is available in a common format through the API and accompanying R and Python software packages. This paper describes the data sources and signals, and provides examples demonstrating that the auxiliary signals in the COVIDcast API present information relevant to tracking COVID activity, augmenting traditional public health reporting and empowering research and decision-making.</jats:p>",
+    "DOI": "10.1101/2021.07.12.21259660",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2021-07-16T14:40:24Z",
+      "timestamp": 1626446424000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "An Open Repository of Real-Time COVID-19 Indicators"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6658-514X",
+        "authenticated-orcid": false,
+        "given": "Alex",
+        "family": "Reinhart",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Logan",
+        "family": "Brooks",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria",
+        "family": "Jahja",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aaron",
+        "family": "Rumack",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jingjing",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sumit",
+        "family": "Agrawal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wael Al",
+        "family": "Saeed",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Taylor",
+        "family": "Arnold",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amartya",
+        "family": "Basu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jacob",
+        "family": "Bien",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "\u00c1ngel A.",
+        "family": "Cabrera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Chin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eu Jing",
+        "family": "Chua",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Brian",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah",
+        "family": "Colquhoun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nat",
+        "family": "DeFries",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David C.",
+        "family": "Farrow",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jodi",
+        "family": "Forlizzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jed",
+        "family": "Grabman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Samuel",
+        "family": "Gratzl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alden",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "George",
+        "family": "Haff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robin",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kate",
+        "family": "Harwood",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Addison J.",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raphael",
+        "family": "Hyde",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sangwon",
+        "family": "Hyun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ananya",
+        "family": "Joshi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jimi",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Kuznetsov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wichada La",
+        "family": "Motte-Kerr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yeon Jin",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kenneth",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zachary C.",
+        "family": "Lipton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael X.",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lester",
+        "family": "Mackey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kathryn",
+        "family": "Mazaitis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel J.",
+        "family": "McDonald",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Phillip",
+        "family": "McGuinness",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Balasubramanian",
+        "family": "Narasimhan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael P.",
+        "family": "O\u2019Brien",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Natalia L.",
+        "family": "Oliveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pratik",
+        "family": "Patil",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Adam",
+        "family": "Perer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Collin A.",
+        "family": "Politsch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Samyak",
+        "family": "Rajanala",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dawn",
+        "family": "Rucker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chris",
+        "family": "Scott",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9385-7158",
+        "authenticated-orcid": false,
+        "given": "Nigam H.",
+        "family": "Shah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vishnu",
+        "family": "Shankar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James",
+        "family": "Sharpnack",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dmitry",
+        "family": "Shemetov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Noah",
+        "family": "Simon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin Y.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vishakha",
+        "family": "Srivastava",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shuyi",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Tibshirani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elena",
+        "family": "Tuzhilina",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ana Karina",
+        "family": "Van Nortwick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Val\u00e9rie",
+        "family": "Ventura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Larry",
+        "family": "Wasserman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin",
+        "family": "Weaver",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeremy C.",
+        "family": "Weiss",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Spencer",
+        "family": "Whitman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristin",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Roni",
+        "family": "Rosenfeld",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan J.",
+        "family": "Tibshirani",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.2",
+        "unstructured": "New York Times. Coronavirus in the U.S.: Latest map and case count. https://www.nytimes.com/interactive/2021/us/covid-cases.html, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.3",
+        "unstructured": "USAFacts. US COVID-19 cases and deaths by state. https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2011-000793"
+      },
+      {
+        "issue": "10",
+        "key": "2021111308451470000_2021.07.12.21259660v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1004513",
+        "DOI": "10.1371/journal.pcbi.1004513",
+        "article-title": "Combining search, social media, and traditional data sources to improve influenza surveillance",
+        "volume": "11",
+        "year": "2015",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.6",
+        "unstructured": "David C Farrow . Modeling the Past, Present, and Future of Influenza. PhD thesis, Carnegie Mellon University, 2016."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006134"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.8",
+        "unstructured": "Logan C Brooks . Pancasting: Forecasting epidemics from provisional data. PhD thesis, Carnegie Mellon University, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMp0900702"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taha A Kass-Hout and Xiaohui Zhang . Biosurveillance: Methods and Case Studies. CRC Press, 2011.",
+        "DOI": "10.1201/b10315"
+      },
+      {
+        "issue": "7",
+        "key": "2021111308451470000_2021.07.12.21259660v2.11",
+        "first-page": "1",
+        "article-title": "Digital epidemiology",
+        "volume": "8",
+        "year": "2012",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bmb/ldt028"
+      },
+      {
+        "issue": "12",
+        "key": "2021111308451470000_2021.07.12.21259660v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "2833",
+        "DOI": "10.1016/j.cgh.2020.06.058",
+        "article-title": "Increased internet search interest for GI symptoms may predict COVID-19 cases in US hotspots",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Clinical Gastroenterology and Hepatology"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abd6989"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2007658117"
+      },
+      {
+        "issue": "1",
+        "key": "2021111308451470000_2021.07.12.21259660v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1090",
+        "DOI": "10.1038/s41467-021-21358-2",
+        "article-title": "Reduction in mobility and COVID-19 transmission",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "6",
+        "key": "2021111308451470000_2021.07.12.21259660v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0252315",
+        "DOI": "10.1371/journal.pone.0252315",
+        "article-title": "Association between COVID-19 outcomes and mask mandates, adherence, and attitudes",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sean Jewell , Joseph Futoma , Lauren Hannah , Andrew C Miller , Nicholas J Foti , and Emily B Fox . It\u2019s complicated: Characterizing the time-varying relationship between cell phone mobility and COVID-19 spread in the US. medRxiv, 2021.",
+        "DOI": "10.1101/2021.04.24.21255827"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.19",
+        "unstructured": "Delphi Research Group. COVIDcast Epidata API. https://cmu-delphi.github.io/delphi-epidata/api/covidcast.html, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.20",
+        "unstructured": "Delphi Research Group. covidcast R package. https://cmu-delphi.github.io/covidcast/covidcastR, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.21",
+        "unstructured": "Delphi Research Group. COVIDcast Python API client. https://cmu-delphi.github.io/covidcast/covidcast-py/html/, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.22",
+        "unstructured": "Delphi Research Group. Welcome to COVIDcast. https://delphi.cmu.edu/covidcast/, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Daniel J. McDonald , Jacob Bien , Alden Green , Addison J. Hu , Nat DeFries , Sangwon Hyun , Natalia L. Oliveira , James Sharpnack , Jingjing Tang , Robert Tibshirani , Val\u00e9rie Ventura , Larry Wasserman , and Ryan J. Tibshirani . Can auxiliary indicators improve COVID-19 forecasting and hotspot prediction? medRxiv, 2021. URL https://doi.org/10.1101/2021.06.22.21259346.",
+        "DOI": "10.1101/2021.06.22.21259346"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joshua A. Salomon , Alex Reinhart , Alyssa Bilinski , Eu Jing Chua , Wichada La MotteKerr , Minttu M. R\u00f6nn , Marissa Reitsma , Katherine Ann Morris , Sarah LaRocca , Tamer Farag , Frauke Kreuter , Roni Rosenfeld , and Ryan J. Tibshirani . The U.S. COVID-19 Trends and Impact Survey, 2020-2021: Continuous real-time measurement of COVID-19 symptoms, risks, protective behaviors, testing and vaccination. medRxiv, 2021. URL https://doi.org/10.1101/2021.07.24.21261076.",
+        "DOI": "10.1101/2021.07.24.21261076"
+      },
+      {
+        "issue": "2",
+        "key": "2021111308451470000_2021.07.12.21259660v2.25",
+        "first-page": "159",
+        "article-title": "Partnering with a global platform to inform research and public policy making",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "Survey Research Methods"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.26",
+        "unstructured": "Google. COVID-19 search trends symptoms dataset. http://goo.gle/covid19symptomdataset, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.27",
+        "unstructured": "SafeGraph. Social distancing metrics. https://docs.safegraph.com/docs/social-distancing-metrics, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.28",
+        "unstructured": "SafeGraph. Weekly patterns. https://docs.safegraph.com/docs/weekly-patterns, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.29",
+        "unstructured": "National Center for Health Statistics. Provisional death counts for coronavirus disease 2019 (COVID-19). https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm, 2021."
+      },
+      {
+        "issue": "8",
+        "key": "2021111308451470000_2021.07.12.21259660v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "3146",
+        "DOI": "10.1073/pnas.1812594116",
+        "article-title": "A collaborative multiyear, multimodel assessment of seasonal influenza forecasting in the United States",
+        "volume": "116",
+        "year": "2019",
+        "journal-title": "Proceedings of the National Academies of Sciences"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.31",
+        "year": "2021",
+        "journal-title": "Back2Future: Leveraging backfill dynamics for improving real-time predictions in future"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.32",
+        "unstructured": "Reich Lab. The COVID-19 Forecast Hub. https://covid19forecasthub.org, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.33",
+        "unstructured": "COVID Act Now. COVID risk & vaccine tracker. https://covidactnow.org, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.34",
+        "unstructured": "COVID Exit Strategy. Tracking our COVID-19 response. https://www.covidexitstrategy.org, 2020."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "15393",
+        "DOI": "10.1609/aaai.v35i17.17808",
+        "article-title": "DeepCOVID: An operational deep learning-driven framework for explainable real-time COVID-19 forecasting",
+        "volume": "35",
+        "year": "2021",
+        "journal-title": "In Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.36",
+        "unstructured": "Institute for Health Metrics and Evaluation. COVID-19 projections. https://covid19.healthdata.org, 2021."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.37",
+        "article-title": "The impact of online misinformation on U.S",
+        "year": "2021",
+        "journal-title": "COVID-19 vaccinations"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajashri Chakrabarti , Lindsay Meyerson , William Nober , and Maxim Pinkovskiy . The Affordable Care Act and the COVID-19 pandemic: A regression discontinuity analysis, 2020.",
+        "DOI": "10.2139/ssrn.3733129"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexa J Doerr . Locked (down) and loaded (language): Effect of policy and speech on COVID-19 outcomes. Journal of Leadership & Organizational Studies, 1, 2021.",
+        "DOI": "10.1177/15480518211012404"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peter F. Rebeiro , David M. Aronoff , and M. Kevin Smith . The impact of state maskwearing requirements on the growth of coronavirus disease 2019 cases, hospitalizations, and deaths in the United States. Clinical Infectious Diseases, page ciab101, 2021.",
+        "DOI": "10.1093/cid/ciab101"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.41",
+        "unstructured": "Kara W Schechtman . Federal testing data\u2019s last mile. COVID Tracking Project, https://covidtracking.com/analysis-updates/federal-testing-datas-last-mile, 2021."
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.42",
+        "unstructured": "Sara Simon . Inconsistent reporting practices hampered our ability to analyze COVID-19 data. Here are three common problems we identified. COVID Tracking Project, https://covidtracking.com/analysis-updates/three-covid-19-data-problems, 2021."
+      },
+      {
+        "issue": "6",
+        "key": "2021111308451470000_2021.07.12.21259660v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "920",
+        "DOI": "10.1093/cid/ciaa1686",
+        "article-title": "What the coronavirus disease 2019 (COVID-19) pandemic has reinforced: The need for accurate data",
+        "volume": "72",
+        "year": "2021",
+        "journal-title": "Clinical Infectious Diseases",
+        "ISSN": "https://id.crossref.org/issn/1058-4838",
+        "issn-type": "print"
+      },
+      {
+        "key": "2021111308451470000_2021.07.12.21259660v2.44",
+        "unstructured": "Joey Palacios . \u2018It\u2019s frustrating\u2019: Bexar County adds 5,000 COVID-19 cases from backlog as Texas disagrees on data. Texas Public Radio, https://www.tpr.org/news/2020-07-16/its-frustrating-bexar-county-adds-5-000-covid-19-cases-from-backlog-as-texas-disagrees-on-data, 2020."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.12.21259660",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:20:17Z",
+      "timestamp": 1768486817000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.07.12.21259660"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          16
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2021.07.12.21259660",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1073/pnas.2111452118",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:29:29Z",
+      "timestamp": 1768490969517,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ]
+    },
+    "group-title": "Systems Biology",
+    "reference-count": 59,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              23
+            ]
+          ],
+          "date-time": "2020-06-23T00:00:00Z",
+          "timestamp": 1592870400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The SARS-CoV-2 pandemic of 2020 has mobilised scientists around the globe to research all aspects of the coronavirus virus and its infection. For fruitful and rapid investigation of viral pathomechanisms, a collaborative and interdisciplinary approach is required. Therefore, we have developed ViralLink: a systems biology workflow which reconstructs and analyses networks representing the effect of viruses on intracellular signalling. These networks trace the flow of signal from intracellular viral proteins through their human binding proteins and downstream signalling pathways, ending with transcription factors regulating genes differentially expressed upon viral exposure. In this way, the workflow provides a mechanistic insight from previously identified knowledge of virally infected cells. By default, the workflow is set up to analyse the intracellular effects of SARS-CoV-2, requiring only transcriptomics counts data as input from the user: thus, encouraging and enabling rapid multidisciplinary research. However, the wide-ranging applicability and modularity of the workflow facilitates customisation of viral context,\n                  <jats:italic>a priori</jats:italic>\n                  interactions and analysis methods. Through a case study of SARS-CoV-2 infected bronchial/tracheal epithelial cells, we evidence the functionality of the workflow and its ability to identify key pathways and proteins in the cellular response to infection. The application of ViralLink to different viral infections in a cell-type specific manner using different available transcriptomics datasets will uncover key mechanisms in viral pathogenesis. The workflow is available on GitHub (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/korcsmarosgroup/ViralLink\">https://github.com/korcsmarosgroup/ViralLink</jats:ext-link>\n                  ) in an easily accessible Python wrapper script, or as customisable modular R and Python scripts.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Collaborative and multidisciplinary science provides increased value for experimental datasets and speeds the process of discovery. Such ways of working are especially important at present due to the urgency of the SARS-CoV-2 pandemic. Here, we present a systems biology workflow which models the effect of viral proteins on the infected host cell, to aid collaborative and multidisciplinary research. Through integration of gene expression datasets with context-specific and context-agnostic molecular interaction datasets, the workflow can be easily applied to different datasets as they are made available. Application to diverse SARS-CoV-2 datasets will increase our understanding of the mechanistic details of the infection at a cell type specific level, aid drug target discovery and help explain the variety of clinical manifestations of the infection.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.06.23.167254",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2020-06-24T04:34:35Z",
+      "timestamp": 1592973275000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "ViralLink: An integrated workflow to investigate the effect of SARS-CoV-2 on intracellular signalling and regulatory pathways"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5600-8189",
+        "authenticated-orcid": false,
+        "given": "Agatha",
+        "family": "Treveil",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Balazs",
+        "family": "Bohar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Padhmanand",
+        "family": "Sudhakar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lejla",
+        "family": "Gul",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luca",
+        "family": "Csabai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marton",
+        "family": "Olbei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martina",
+        "family": "Poletti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Madgwick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tahila",
+        "family": "Andrighetti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isabelle",
+        "family": "Hautefort",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dezso",
+        "family": "Modos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1717-996X",
+        "authenticated-orcid": false,
+        "given": "Tamas",
+        "family": "Korcsmaros",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/cshperspect.a006114"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3593"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrighetti, T. , Bohar, B. , Lemke, N. , Sudhakar, P. and Korcsmaros, T. 2020. MicrobioLink: An Integrated Computational Pipeline to Infer Functional Effects of Microbiome-Host Interactions. Cells 9(5).",
+        "DOI": "10.3390/cells9051278"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1016/j.coisb.2016.12.003",
+        "article-title": "An operational view of intercellular signaling pathways",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Current Opinion in Systems Biology"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1043-2760(98)00007-1"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/75556"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-4-2"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2918"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks1193"
+      },
+      {
+        "issue": "1",
+        "key": "2024080412314811000_2020.06.23.167254v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1049/enb.2017.0004",
+        "article-title": "Biochemical complexity drives log-normal variation in genetic expression",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Engineering Biology"
+      },
+      {
+        "issue": "5",
+        "key": "2024080412314811000_2020.06.23.167254v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1016/j.cell.2020.04.026",
+        "article-title": "Imbalanced Host Response to SARS-CoV-2 Drives Development of COVID-19",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "10",
+        "key": "2024080412314811000_2020.06.23.167254v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1616",
+        "DOI": "10.1038/nprot.2008.100",
+        "article-title": "Network Analysis Tools: from biological networks to clusters and pathways",
+        "volume": "3",
+        "year": "2008",
+        "journal-title": "Nature Protocols"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-0308-3"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chua, R.L. , Lukassen, S. , Trump, S. , et al. 2020. Cross-talk between the airway epithelium and activated immune cells defines severity in COVID-19. medRxiv.",
+        "DOI": "10.1101/2020.04.29.20084327"
+      },
+      {
+        "issue": "9",
+        "key": "2024080412314811000_2020.06.23.167254v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1038/nrg.2017.38",
+        "article-title": "Network propagation: a universal amplifier of genetic associations",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "Nature Reviews. Genetics"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.16",
+        "unstructured": "Cs\u00e1rdi, G. and Nepusz, T. 2006. The igraph software package for complex network research. undefined."
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.17",
+        "unstructured": "Ding, J. , Lugo-Martinez, J. , Yuan, Y. , Kotton, D.N. and Bar-Joseph, Z. 2020. Reconstructing SARS-CoV-2 response signaling and regulatory networks. BioRxiv."
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dugourd, A. , Kuppe, C. , Sciacovelli, M. , et al. 2020. Causal integration of multi-omics data with prior knowledge to generate mechanistic hypotheses. BioRxiv.",
+        "DOI": "10.1101/2020.04.23.057893"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/30.1.207"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkx1132"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/22221751.2020.1736644"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.240663.118"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.138628.112"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.24",
+        "unstructured": "Gordon, D.E. , Jang, G.M. , Bouhaddou, M. , et al. 2020. A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. Nature."
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1774",
+        "DOI": "10.12688/f1000research.20887.2",
+        "article-title": "RCy3: Network biology using Cytoscape from within R. [version 3; peer review: 3 approved]",
+        "volume": "8",
+        "year": "2019",
+        "journal-title": "F1000Research"
+      },
+      {
+        "issue": "10",
+        "key": "2024080412314811000_2020.06.23.167254v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1005579",
+        "DOI": "10.1371/journal.pcbi.1005579",
+        "article-title": "Structural host-microbiota interaction networks",
+        "volume": "13",
+        "year": "2017",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guzzi, P.H. , Mercatelli, D. , Ceraolo, C. and Giorgi, F.M. 2020. Master Regulator Analysis of the SARS-CoV-2/Human Interactome. Journal of clinical medicine 9(4).",
+        "DOI": "10.3390/jcm9040982"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.28",
+        "unstructured": "Gysi, D.M. , Valle, \u00cd.D. , Zitnik, M. , et al. 2020. Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19. arXiv."
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkh052"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, L. , Shi, Y. , Gong, B. , et al. 2020. Blood single cell immune profiling reveals the interferon-MAPK pathway mediated adaptive immune response for COVID-19. medRxiv.",
+        "DOI": "10.1101/2020.03.15.20033472"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kirby, T. 2020. Evidence mounts on the disproportionate effect of COVID-19 on ethnic minorities. The Lancet. Respiratory medicine.",
+        "DOI": "10.1016/S2213-2600(20)30228-9"
+      },
+      {
+        "issue": "2",
+        "key": "2024080412314811000_2020.06.23.167254v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1039/c6ib00215c",
+        "article-title": "Next generation of network medicine: interdisciplinary signaling approaches",
+        "volume": "9",
+        "year": "2017",
+        "journal-title": "Integrative Biology: Quantitative Biosciences from Nano to Macro"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.33",
+        "first-page": "193",
+        "article-title": "Centrality analysis methods for biological networks and their application to gene regulatory networks",
+        "volume": "2",
+        "year": "2008",
+        "journal-title": "Gene regulation and systems biology"
+      },
+      {
+        "issue": "7807",
+        "key": "2024080412314811000_2020.06.23.167254v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1038/d41586-020-01394-6",
+        "article-title": "How swamped preprint servers are blocking bad coronavirus research",
+        "volume": "581",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lamers, M.M. , Beumer, J. , van der Vaart, J. , et al. 2020. SARS-CoV-2 productively infects human gut enterocytes. Science.",
+        "DOI": "10.1101/2020.04.25.060350"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3168"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liao, M. , Liu, Y. , Yuan, J. , et al. 2020. The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing. medRxiv.",
+        "DOI": "10.1101/2020.02.23.20026690"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1038/s41540-019-0118-z",
+        "article-title": "From expression footprints to causal pathways: contextualizing large signaling networks with CARNIVAL",
+        "volume": "5",
+        "year": "2019",
+        "journal-title": "NPJ Systems Biology and Applications"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-014-0550-8"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Messina, F. , Giombini, E. , Agrati, C. , et al. 2020. COVID-19: Viral-host interactome analyzed by network based-approach model to study pathogenesis of SARS-CoV-2 infection. BioRxiv.",
+        "DOI": "10.1101/2020.05.07.082487"
+      },
+      {
+        "issue": "2",
+        "key": "2024080412314811000_2020.06.23.167254v2.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.1111/j.1574-695X.2005.00028.x",
+        "article-title": "Inhibition of cell proliferation by SARS-CoV infection in Vero E6 cells",
+        "volume": "46",
+        "year": "2006",
+        "journal-title": "FEMS Immunology and Medical Microbiology"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.04.013"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkt1115"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt471"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1186/1756-0381-1-12",
+        "article-title": "A survey of visualization tools for biological network analysis",
+        "volume": "1",
+        "year": "2008",
+        "journal-title": "BioData mining"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pfaender, S. , Mar, K.B. , Michailidis, E. , et al. 2020. LY6E impairs coronavirus fusion and confers immune control of viral disease. BioRxiv.",
+        "DOI": "10.1101/2020.03.05.979260"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.47",
+        "unstructured": "R Core Team 2013. R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing."
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.antiviral.2020.104791"
+      },
+      {
+        "issue": "1",
+        "key": "2024080412314811000_2020.06.23.167254v2.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1038/s41467-017-02391-6",
+        "article-title": "Perturbation-response genes reveal signaling footprints in cancer gene expression",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.1239303"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi, Y. , Tan, M. , Chen, X. , et al. 2020. Immunopathological characteristics of coronavirus disease 2019 cases in Guangzhou, China. medRxiv.",
+        "DOI": "10.1101/2020.03.12.20034736"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.52",
+        "first-page": "8.13.1",
+        "article-title": "Biological network exploration with Cytoscape 3",
+        "volume": "47",
+        "year": "2014",
+        "journal-title": "Current Protocols in Bioinformatics"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1042/BJ20131461"
+      },
+      {
+        "issue": "12",
+        "key": "2024080412314811000_2020.06.23.167254v2.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "966",
+        "DOI": "10.1038/nmeth.4077",
+        "article-title": "OmniPath: guidelines and gateway for literature-curated signaling pathway resources",
+        "volume": "13",
+        "year": "2016",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1049"
+      },
+      {
+        "issue": "2",
+        "key": "2024080412314811000_2020.06.23.167254v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "477",
+        "DOI": "10.1039/C5MB00663E",
+        "article-title": "ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "Molecular Biosystems"
+      },
+      {
+        "issue": "5",
+        "key": "2024080412314811000_2020.06.23.167254v2.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "284",
+        "DOI": "10.1089/omi.2011.0118",
+        "article-title": "clusterProfiler: an R package for comparing biological themes among gene clusters",
+        "volume": "16",
+        "year": "2012",
+        "journal-title": "Omics : a journal of integrative biology"
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.58",
+        "unstructured": "Zhang, H. , Ai, J.-W. , Yang, W. , et al. 2020. Metatranscriptomic Characterization of COVID-19 Identified A Host Transcriptional Classifier Associated With Immune Signaling. Clinical Infectious Diseases."
+      },
+      {
+        "key": "2024080412314811000_2020.06.23.167254v2.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1038/s41421-020-0153-3",
+        "article-title": "Network-based drug repurposing for novel coronavirus 2019-nCoV/SARS-CoV-2",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Cell discovery"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.23.167254",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:32:27Z",
+      "timestamp": 1768437147000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.23.167254"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ]
+    },
+    "references-count": 59,
+    "URL": "https://doi.org/10.1101/2020.06.23.167254",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

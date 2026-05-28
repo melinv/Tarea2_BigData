@@ -1,0 +1,399 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2026-04-09T01:32:37Z",
+      "timestamp": 1775698357669,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 34,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>\n                    Deconvolution is used to estimate the proportion of mixed cell types from tissue or blood samples based on genomic profiling. DNA methylation is commonly used because specific CpG positions reflect cell type identity and can be accurately measured at either the population or single-molecule level. Methylation sequencing techniques can profile multiple individual CpGs on a single DNA molecule, but few deconvolution models have been developed to exploit these single-molecule\n                    <jats:italic>methylation haplotypes</jats:italic>\n                    for cell type deconvolution.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results and Conclusions</jats:title>\n                  <jats:p>\n                    We used simulated whole-genome methylation data and\n                    <jats:italic>in silico</jats:italic>\n                    mixtures of real data to compare existing deconvolution tools with two new models developed here. We found that adapting an existing model\n                    <jats:italic>CelFiE</jats:italic>\n                    to incorporate methylation haplotype information improved deconvolution accuracy by \u223c30% over other tools, including the original CelFiE. In addition to overall higher accuracy, our new tool CelFiE Integrated Single-molecule Haplotypes (or\n                    <jats:italic>CelFiE-ISH</jats:italic>\n                    ) outperformed others in detecting rare cell types present at 0.1% and below. Detection of rare cell types is important for the analysis of circulating DNA, which we demonstrate using a patient-derived plasma sequencing dataset.Finally,we show that marker selection strategy has a strong effect on deconvolution accuracy, concluding that haplotype-aware deconvolution can take advantage of markers tailored for that purpose.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.08.20.554012",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2023-08-21T23:25:15Z",
+      "timestamp": 1692660315000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Multi-cell type deconvolution using a probabilistic model for single-molecule DNA methylation haplotypes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5697-9612",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "Unterman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "D.",
+        "family": "Avrahami",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4897-8783",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Katsman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5665-946X",
+        "authenticated-orcid": false,
+        "suffix": "Jr.",
+        "given": "T.J.",
+        "family": "Triche",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4711-5000",
+        "authenticated-orcid": false,
+        "given": "B.",
+        "family": "Glaser",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2099-9005",
+        "authenticated-orcid": false,
+        "given": "B.P.",
+        "family": "Berman",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.1",
+        "unstructured": "Loyfer N , Magenheim J , Peretz A , Cann G , Bredno J , Klochendler A , et al. A DNA methylation atlas of normal human cell types. Nature. 2023;1\u201310."
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cedar H , Sabag O , Reizel Y. The role of DNA methylation in genome-wide gene regulation during development. Development [Internet]. 2022;149. Available from: http://dx.doi.org/10.1242/dev.200118",
+        "DOI": "10.1242/dev.200118"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrc3130"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1186/s13148-022-01253-3",
+        "article-title": "Cell-type heterogeneity: Why we should adjust for it in epigenome and biomarker studies",
+        "volume": "14",
+        "year": "2022",
+        "journal-title": "Clin Epigenetics"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature11251"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrc.2017.7"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.7",
+        "first-page": "1",
+        "article-title": "Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nature Communications 2018 9:1"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1373/clinchem.2018.301341"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "502",
+        "DOI": "10.3389/fimmu.2019.00502",
+        "article-title": "Cell-Free DNA as a Biomarker in Autoimmune Rheumatic Diseases",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McNamara ME , Loyfer N , Kiliti AJ , Schmidt MO , Shabi-Porat S , Jain SS , et al. Circulating cell-free methylated DNA reveals tissue-specific, cellular damage from radiation treatment. JCI Insight [Internet]. 2023; Available from: http://dx.doi.org/10.1172/jci.insight.156529",
+        "DOI": "10.1172/jci.insight.156529"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2305236120",
+        "DOI": "10.1073/pnas.2305236120",
+        "article-title": "Comprehensive tissue deconvolution of cell-free DNA by deep learning for disease diagnosis and monitoring",
+        "volume": "120",
+        "year": "2023",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.12",
+        "first-page": "129",
+        "article-title": "Statistical and integrative system-level analysis of DNA methylation data",
+        "volume": "19",
+        "year": "2017",
+        "journal-title": "Nature Reviews Genetics 2017 19:3"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2217/epi-2016-0153"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "671057",
+        "DOI": "10.3389/fgene.2021.671057",
+        "article-title": "Detection of Cell Types Contributing to Cancer From Circulating, Cell-Free Methylated DNA",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Front Genet"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-022-02710-1"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu SCY , Jiang P , Peng W , Cheng SH , Cheung YTT , Tse OYO , et al. Single-molecule sequencing reveals a large population of long cell-free DNA molecules in maternal plasma. Proc Natl Acad Sci U S A [Internet]. 2021;118. Available from: http://dx.doi.org/10.1073/pnas.2114937118",
+        "DOI": "10.1073/pnas.2114937118"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2203"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.18",
+        "first-page": "1",
+        "article-title": "Systematic pan-cancer analysis of tumour purity",
+        "volume": "6",
+        "year": "2015",
+        "journal-title": "Nature Communications 2015 6:1"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-27864-7"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1508736112"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.21",
+        "first-page": "1",
+        "article-title": "Comprehensive cell type decomposition of circulating cell-free DNA with CelFiE",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature Communications 2021 12:1"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3805"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1201310109"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2014-15-1-r1"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kang S , Li Q , Chen Q , Zhou Y , Park S , Lee G , et al. CancerLocator: non-invasive cancer diagnosis and tissue-of-origin prediction using methylation profiles of cell-free DNA. Genome Biol [Internet]. 2017;18. Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5364586/",
+        "DOI": "10.1186/s13059-017-1191-5"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.2442"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng1909"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.28",
+        "first-page": "411",
+        "volume-title": "Cell-free DNA tissues of origin by methylation profiling reveals significant cell, tissue, and organ-specific injury related to COVID-19 severity. Med",
+        "volume": "2",
+        "year": "2021"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Keukeleire P , Makrodimitris S , Reinders M. Cell type deconvolution of methylated cell-free DNA at the resolution of individual reads [Internet]. bioRxiv. 2022 [cited 2023 Feb 2]. p. 2022.09.30.510300. Available from: https://www.biorxiv.org/content/10.1101/2022.09.30.510300v1.abstract",
+        "DOI": "10.1093/nargab/lqad048"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky423"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2402",
+        "DOI": "10.1109/TPAMI.2016.2522425",
+        "article-title": "EM Algorithms for Weighted-Data Clustering with Application to Audio-Visual Scene Analysis",
+        "volume": "38",
+        "year": "2016",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1044",
+        "DOI": "10.1038/s41587-020-0503-6",
+        "article-title": "Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.33",
+        "unstructured": "Ewels P , H\u00fcther P , Hammar\u00e9n R, mashehu , Peltzer A , Bot N-C , et al. nf-core/methylseq: nf-core/methylseq version 1.6.1 [Nauseous Serpent] [Internet]. 2021. Available from: https://zenodo.org/record/4744708"
+      },
+      {
+        "key": "2023082415200440000_2023.08.20.554012v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0439-x"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.20.554012",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:06:22Z",
+      "timestamp": 1768453582000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.20.554012"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ]
+    },
+    "references-count": 34,
+    "URL": "https://doi.org/10.1101/2023.08.20.554012",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1186/s13059-024-03275-x",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

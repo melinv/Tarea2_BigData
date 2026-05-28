@@ -1,0 +1,456 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:48:28Z",
+      "timestamp": 1768549708221,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Chest computed tomography (CT) based analysis and diagnosis of the Coronavirus Disease 2019 (COVID-19) plays a key role in combating the outbreak of the pandemic that has rapidly spread worldwide. To date, the disease has infected more than 18 million people with over 690k deaths reported. Reverse transcription polymerase chain reaction (RTPCR) is the current gold standard for clinical diagnosis but may produce false positives; thus, chest CT based diagnosis is considered more viable. However, accurate screening is challenging due to difficulty in annotation efforts of infected areas, curation of large datasets, and the slight discrepancies between COVID-19 and other viral pneumonia. In this study, we propose an attention-based end-to-end weakly supervised framework for the rapid diagnosis of COVID-19 and bacterial pneumonia based on multiple instance learning (MIL). We further incorporate unsupervised contrastive learning for improved accuracy with attention applied both in spatial and latent contexts, herein we propose Dual Attention Contrastive based MIL (D\n                  <jats:italic>A</jats:italic>\n                  -CMIL). D\n                  <jats:italic>A</jats:italic>\n                  -CMIL takes as input a several patient CT slices (considered as a bag of instances) and outputs a single label. Attention based pooling is applied to implicitly select key slices in latent space, and spatial attention learns slice spatial context for interpretable diagnosis. A contrastive loss is applied at the instance level to encode similarity in features from the same patient against pooled patient features. Empirical results show our algorithm achieves an overall accuracy of 98.6% and an AUC of 98.4%. Moreover, ablation studies show the benefit of contrastive learning with MIL.\n                </jats:p>",
+    "DOI": "10.1101/2020.09.14.20194654",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2020-09-18T16:30:19Z",
+      "timestamp": 1600446619000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Dual Attention Multiple Instance Learning with Unsupervised Complementary Loss for COVID-19 Screening"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Philip",
+        "family": "Chikontwe",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Miguel",
+        "family": "Luna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Myeongkyun",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kyung Soo",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "June Hong",
+        "family": "Ahn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sang Hyun",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.1",
+        "first-page": "1",
+        "article-title": "Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach",
+        "volume": "5",
+        "year": "2014",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai, T. , Yang, Z. , Hou, H. , Zhan, C. , Chen, C. , Lv, W. , Tao, Q. , Sun, Z. , Xia, L. , 2020. Correlation of chest ct and rt-pcr testing in coronavirus disease 2019 (covid-19) in china: a report of 1014 cases. Radiology, 200642.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.3",
+        "unstructured": "Alom, M.Z. , Rahman, M. , Nasrin, M.S. , Taha, T.M. , Asari, V.K. , 2020. Covid mtnet: Covid-19 detection with multi-task deep learning approaches. arXiv preprint arXiv:2004.03747."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1301",
+        "DOI": "10.1038/s41591-019-0508-1",
+        "article-title": "Clinical-grade computational pathology using weakly supervised deep learning on whole slide images",
+        "volume": "25",
+        "year": "2019",
+        "journal-title": "Nature medicine"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1016/j.patcog.2017.10.009",
+        "article-title": "Multiple instance learning: A survey of problem characteristics and applications",
+        "volume": "77",
+        "year": "2018",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.6",
+        "unstructured": "Chen, T. , Kornblith, S. , Norouzi, M. , Hinton, G. , 2020a. A simple framework for contrastive learning of visual representations. arXiv preprint arXiv:2002.05709."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.7",
+        "unstructured": "Chen, X. , Fan, H. , Girshick, R. , He, K. , 2020b. Improved baselines with momentum contrastive learning. arXiv preprint arXiv:2003.04297."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chikontwe, P. , Kim, M. , Nam, S.J. , Go, H. , Park, S.H. , 2020. Multiple instance learning with center embeddings for histopathology classification, in: International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer (In Press). pp. 1\u20131.",
+        "DOI": "10.1007/978-3-030-59722-1_50"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.9",
+        "unstructured": "Dauphin, Y.N. , Fan, A. , Auli, M. , Grangier, D. , 2017. Language modeling with gated convolutional networks, in: International conference on machine learning, pp. 933\u2013941."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, J. , Zhou, Z.H. , 2017. Deep miml network, in: Thirty-First AAAI conference on artificial intelligence.",
+        "DOI": "10.1609/aaai.v31i1.10890"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.11",
+        "unstructured": "Gozes, O. , Frid-Adar, M. , Greenspan, H. , Browning, P.D. , Zhang, H. , Ji, W. , Bernheim, A. , Siegel, E. , 2020a. Rapid ai development cycle for the coronavirus (covid-19) pandemic: Initial results for automated detection & patient monitoring using deep learning ct image analysis. arXiv preprint arXiv:2003.05037."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.12",
+        "unstructured": "Gozes, O. , Frid-Adar, M. , Sagie, N. , Zhang, H. , Ji, W. , Greenspan, H. , 2020b. Coronavirus detection and analysis on chest ct with deep learning. arXiv preprint arXiv:2004.02640."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han, Z. , Wei, B. , Hong, Y. , Li, T. , Cong, J. , Zhu, X. , Wei, H. , Zhang, W. , 2020. Accurate screening of covid-19 using attention based deep 3d multiple instance learning. IEEE Transactions on Medical Imaging.",
+        "DOI": "10.1109/TMI.2020.2996256"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hashimoto, N. , Fukushima, D. , Koga, R. , Takagi, Y. , Ko, K. , Kohno, K. , Nakaguro, M. , Nakamura, S. , Hontani, H. , Takeuchi, I. , 2020. Multi-scale domain-adversarial multiple-instance cnn for cancer subtype classification with unannotated histopathological images, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 3852\u20133861.",
+        "DOI": "10.1109/CVPR42600.2020.00391"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K. , Zhang, X. , Ren, S. , Sun, J. , 2016. Deep residual learning for image recognition, in: Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, X. , Yang, X. , Zhang, S. , Zhao, J. , Zhang, Y. , Xing, E. , Xie, P. , 2020. Sample-efficient deep learning for covid-19 diagnosis based on ct scans. medRxiv.",
+        "DOI": "10.1101/2020.04.13.20063941"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hou, L. , Samaras, D. , Kurc, T.M. , Gao, Y. , Davis, J.E. , Saltz, J.H. , 2016. Patch-based convolutional neural network for whole slide tissue image classification, in: Proceedings of the ieee conference on computer vision and pattern recognition, pp. 2424\u20132433.",
+        "DOI": "10.1109/CVPR.2016.266"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1016/j.sigpro.2017.04.008",
+        "article-title": "Robust object tracking via multi-cue fusion",
+        "volume": "139",
+        "year": "2017",
+        "journal-title": "Signal Processing"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3005510"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200075"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.21",
+        "unstructured": "Ilse, M. , Tomczak, J.M. , Welling, M. , 2018. Attention-based deep multiple instance learning. arXiv preprint arXiv:1802.04712."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jin, S. , Wang, B. , Xu, H. , Luo, C. , Wei, L. , Zhao, W. , Hou, X. , Ma, W. , Xu, Z. , Zheng, Z. , et al., 2020. Aiassisted ct imaging analysis for covid-19 screening: Building and deploying a medical ai system in four weeks. medRxiv.",
+        "DOI": "10.1101/2020.03.19.20039354"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.3757476"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.02.010"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2017.07.005"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahase, E. , 2020. Coronavirus: covid-19 has killed more people than sars and mers combined, despite lower case fatality rate.",
+        "DOI": "10.1136/bmj.m641"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mei, X. , Lee, H.C. , Diao, K. y., Huang, M. , Lin, B. , Liu, C. , Xie, Z. , Ma, Y. , Robson, P.M. , Chung, M. , et al., 2020. Artificial intelligence\u2013enabled rapid diagnosis of patients with covid-19. Nature Medicine, 1\u20135.",
+        "DOI": "10.1101/2020.04.12.20062661"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.29",
+        "first-page": "e200034",
+        "article-title": "Imaging profile of the covid-19 infection: radiologic findings and literature review",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, Y. , Park, S. , Ye, J.C. , 2020. Deep learning covid-19 features on cxr using limited training data sets. IEEE Transactions on Medical Imaging.",
+        "DOI": "10.1109/TMI.2020.2993291"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.31",
+        "unstructured": "Oord, A.v.d. , Li, Y. , Vinyals, O. , 2018. Representation learning with contrastive predictive coding. arXiv preprint arXiv:1807.03748."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ouyang, X. , Huo, J. , Xia, L. , Shan, F. , Liu, J. , Mo, Z. , Yan, F. , Ding, Z. , Yang, Q. , Song, B. , et al., 2020. Dual-sampling attention network for diagnosis of covid-19 from community acquired pneumonia. IEEE Transactions on Medical Imaging.",
+        "DOI": "10.1109/TMI.2020.2995508"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pathak, D. , Krahenbuhl, P. , Donahue, J. , Darrell, T. , Efros, A.A. , 2016. Context encoders: Feature learning by inpainting, in: Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 2536\u20132544.",
+        "DOI": "10.1109/CVPR.2016.278"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger, O. , Fischer, P. , Brox, T. , 2015. U-net: Convolutional networks for biomedical image segmentation, in: International Conference on Medical image computing and computer-assisted intervention, Springer. pp. 234\u2013241.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.35",
+        "unstructured": "Shan, F. , Gao, Y. , Wang, J. , Shi, W. , Shi, N. , Han, M. , Xue, Z. , Shi, Y. , 2020. Lung infection quantification of covid-19 in ct images with deep learning. arXiv preprint arXiv:2003.04655."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi, F. , Wang, J. , Shi, J. , Wu, Z. , Wang, Q. , Tang, Z. , He, K. , Shi, Y. , Shen, D. , 2020a. Review of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for covid-19. IEEE reviews in biomedical engineering.",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi, F. , Xia, L. , Shan, F. , Wu, D. , Wei, Y. , Yuan, H. , Jiang, H. , Gao, Y. , Sui, H. , Shen, D. , 2020b. Large-scale screening of covid-19 from community acquired pneumonia using infection size-aware classification. arXiv preprint arXiv:2003.09860.",
+        "DOI": "10.1088/1361-6560/abe838"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y. , Zheng, S. , Li, L. , Zhang, X. , Zhang, X. , Huang, Z. , Chen, J. , Zhao, H. , Jie, Y. , Wang, R. , et al., 2020. Deep learning enables accurate diagnosis of novel coronavirus (covid-19) with ct images. medRxiv.",
+        "DOI": "10.1109/TCBB.2021.3065361"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.1585"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, S. , Kang, B. , Ma, J. , Zeng, X. , Xiao, M. , Guo, J. , Cai, M. , Yang, J. , Li, Y. , Meng, X. , et al., 2020b. A deep learning algorithm using ct images to screen for corona virus disease (covid-19). MedRxiv.",
+        "DOI": "10.1101/2020.02.14.20023028"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X. , Deng, X. , Fu, Q. , Zhou, Q. , Feng, J. , Ma, H. , Liu, W. , Zheng, C. , 2020c. A weakly-supervised framework for covid-19 classification and lesion localization from chest ct. IEEE Transactions on Medical Imaging.",
+        "DOI": "10.1109/TMI.2020.2995965"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, W. , Jacobs, C. , Charbonnier, J.P. , van Ginneken, B. , 2020. Relational modeling for robust and efficient pulmonary lobe segmentation in ct scans. IEEE Transactions on Medical Imaging.",
+        "DOI": "10.1109/TMI.2020.2995108"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yao, J. , Zhu, X. , Huang, J. , 2019. Deep multi-instance learning for survival prediction from whole slide images, in: International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer. pp. 496\u2013504.",
+        "DOI": "10.1007/978-3-030-32239-7_55"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.44",
+        "first-page": "865",
+        "article-title": "Co-saliency detection via a self-paced multiple-instance learning framework",
+        "volume": "39",
+        "year": "2016",
+        "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.45",
+        "unstructured": "Zhang, H. , Wu, C. , Zhang, Z. , Zhu, Y. , Zhang, Z. , Lin, H. , Sun, Y. , He, T. , Mueller, J. , Manmatha, R. , et al., 2020a. Resnest: Split-attention networks. arXiv preprint arXiv:2004.08955."
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, K. , Liu, X. , Shen, J. , Li, Z. , Sang, Y. , Wu, X. , Zha, Y. , Liang, W. , Wang, C. , Wang, K. , et al., 2020b. Clinically applicable ai system for accurate diagnosis, quantitative measurements, and prognosis of covid-19 pneumonia using computed tomography. Cell.",
+        "DOI": "10.1016/j.cell.2020.04.045"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, R. , Isola, P. , Efros, A.A. , 2016b. Colorful image colorization, in: European conference on computer vision, Springer. pp. 649\u2013666.",
+        "DOI": "10.1007/978-3-319-46487-9_40"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zheng, C. , Deng, X. , Fu, Q. , Zhou, Q. , Feng, J. , Ma, H. , Liu, W. , Wang, X. , 2020. Deep learning-based detection for covid-19 from chest ct using weak label. medRxiv.",
+        "DOI": "10.1101/2020.03.12.20027185"
+      },
+      {
+        "key": "2021021208251129000_2020.09.14.20194654v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zu, Z.Y. , Jiang, M.D. , Xu, P.P. , Chen, W. , Ni, Q.Q. , Lu, G.M. , Zhang, L.J. , 2020. Coronavirus disease 2019 (covid-19): a perspective from china. Radiology, 200490.",
+        "DOI": "10.1148/radiol.2020200490"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.14.20194654",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:54:17Z",
+      "timestamp": 1768485257000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.14.20194654"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2020.09.14.20194654",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.media.2021.102105",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T09:45:00Z",
+      "timestamp": 1774950300237,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          30
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 56,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2024-04-30T00:00:00Z",
+          "timestamp": 1714435200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The SARS-CoV-2 genome occupies a unique place in infection biology \u2013 it is the most highly sequenced genome on earth (making up over 20% of public sequencing datasets) with fine scale information on sampling date and geography, and has been subject to unprecedented intense analysis. As a result, these phylogenetic data are an incredibly valuable resource for science and public health. However, the vast majority of the data was sequenced by tiling amplicons across the full genome, with amplicon schemes that changed over the pandemic as mutations in the viral genome interacted with primer binding sites. In combination with the disparate set of genome assembly workflows and lack of consistent quality control (QC) processes, the current genomes have many systematic errors that have evolved with the virus and amplicon schemes. These errors have significant impacts on the phylogeny, and therefore over the last few years, many thousands of hours of researchers time has been spent in \u201ceyeballing\u201d trees, looking for artefacts, and then patching the tree.</jats:p>\n                <jats:p>\n                  Given the huge value of this dataset, we therefore set out to reprocess the complete set of public raw sequence data in a rigorous amplicon-aware manner, and build a cleaner phylogeny. Here we provide a global tree of 4,471,579 samples, built from a consistently assembled set of high quality consensus sequences from all available public data as of June 2024, viewable at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://viridian.taxonium.org\">https://viridian.taxonium.org</jats:ext-link>\n                  . Each genome was constructed using a novel assembly tool called Viridian (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/iqbal-lab-org/viridian\">https://github.com/iqbal-lab-org/viridian</jats:ext-link>\n                  ), developed specifically to process amplicon sequence data, eliminating artefactual errors and mask the genome at low quality positions. We provide simulation and empirical validation of the methodology, and quantify the improvement in the phylogeny. We hope the tree, consensus sequences and Viridian will be a valuable resource for researchers.\n                </jats:p>",
+    "DOI": "10.1101/2024.04.29.591666",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2024-05-01T09:09:56Z",
+      "timestamp": 1714554596000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Addressing pandemic-wide systematic errors in the SARS-CoV-2 phylogeny"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8060-4335",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Hunt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Angie S.",
+        "family": "Hinrichs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4422-9520",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lily",
+        "family": "Karim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bethany L",
+        "family": "Dearlove",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeff",
+        "family": "Knaggs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3480-3819",
+        "authenticated-orcid": false,
+        "given": "Bede",
+        "family": "Constantinides",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0912-4483",
+        "authenticated-orcid": false,
+        "given": "Philip W.",
+        "family": "Fowler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6051-8985",
+        "authenticated-orcid": false,
+        "given": "Gillian",
+        "family": "Rodger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Teresa",
+        "family": "Street",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6825-9324",
+        "authenticated-orcid": false,
+        "given": "Sheila",
+        "family": "Lumley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hermione",
+        "family": "Webster",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4177-2851",
+        "authenticated-orcid": false,
+        "given": "Theo",
+        "family": "Sanderson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher",
+        "family": "Ruis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin",
+        "family": "Kotzen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1776-8564",
+        "authenticated-orcid": false,
+        "given": "Nicola",
+        "family": "de Maio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4468-0506",
+        "authenticated-orcid": false,
+        "given": "Lucas N.",
+        "family": "Amenga-Etego",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8920-0708",
+        "authenticated-orcid": false,
+        "given": "Dominic S. Y.",
+        "family": "Amuzu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martin",
+        "family": "Avaro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8793-3641",
+        "authenticated-orcid": false,
+        "given": "Gordon A.",
+        "family": "Awandare",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Reuben",
+        "family": "Ayivor-Djanie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Timothy",
+        "family": "Barkham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6847-1525",
+        "authenticated-orcid": false,
+        "given": "Matthew",
+        "family": "Bashton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8559-452X",
+        "authenticated-orcid": false,
+        "given": "Elizabeth M",
+        "family": "Batty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9786-7564",
+        "authenticated-orcid": false,
+        "given": "Yaw",
+        "family": "Bediako",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Denise De",
+        "family": "Belder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Estefania",
+        "family": "Benedetti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0597-1976",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Bergthaler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1560-6799",
+        "authenticated-orcid": false,
+        "given": "Stefan A.",
+        "family": "Boers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Josefina",
+        "family": "Campos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rosina Afua Ampomah",
+        "family": "Carr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuan Yi Constance",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Facundo",
+        "family": "Cuba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7081-6449",
+        "authenticated-orcid": false,
+        "given": "Maria Elena",
+        "family": "Dattero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wanwisa",
+        "family": "Dejnirattisai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6394-4581",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Dilthey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kwabena Obeng",
+        "family": "Duedu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lukas",
+        "family": "Endler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7489-3786",
+        "authenticated-orcid": false,
+        "given": "Ilka",
+        "family": "Engelmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3255-8968",
+        "authenticated-orcid": false,
+        "given": "Ngiambudulu M.",
+        "family": "Francisco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1974-212X",
+        "authenticated-orcid": false,
+        "given": "Jonas",
+        "family": "Fuchs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5338-084X",
+        "authenticated-orcid": false,
+        "given": "Etienne Z.",
+        "family": "Gnimpieba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Soraya",
+        "family": "Groc",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jones",
+        "family": "Gyamfi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dennis",
+        "family": "Heemskerk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Torsten",
+        "family": "Houwaart",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4926-6216",
+        "authenticated-orcid": false,
+        "given": "Nei-yuan",
+        "family": "Hsiao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Huska",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martin",
+        "family": "H\u00f6lzer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4413-2569",
+        "authenticated-orcid": false,
+        "given": "Arash",
+        "family": "Iranzadeh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hanna",
+        "family": "Jarva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chandima",
+        "family": "Jeewandara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7969-1606",
+        "authenticated-orcid": false,
+        "given": "Bani",
+        "family": "Jolly",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-9330-9783",
+        "authenticated-orcid": false,
+        "given": "Rageema",
+        "family": "Joseph",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3878-9775",
+        "authenticated-orcid": false,
+        "given": "Ravi",
+        "family": "Kant",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5968-1870",
+        "authenticated-orcid": false,
+        "given": "Karrie Ko Kwan",
+        "family": "Ki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2911-3212",
+        "authenticated-orcid": false,
+        "given": "Satu",
+        "family": "Kurkela",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maija",
+        "family": "Lappalainen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3637-5870",
+        "authenticated-orcid": false,
+        "given": "Marie",
+        "family": "Lataretu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jacob",
+        "family": "Lemieux",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9201-0449",
+        "authenticated-orcid": false,
+        "given": "Gathsaurie Neelika",
+        "family": "Malavige",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tapfumanei",
+        "family": "Mashe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Juthathip",
+        "family": "Mongkolsapaya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Brigitte",
+        "family": "Montes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9764-4192",
+        "authenticated-orcid": false,
+        "given": "Jose Arturo Molina",
+        "family": "Mora",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6988-150X",
+        "authenticated-orcid": false,
+        "given": "Collins M.",
+        "family": "Morang\u2019a",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bernard",
+        "family": "Mvula",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0850-5604",
+        "authenticated-orcid": false,
+        "given": "Niranjan",
+        "family": "Nagarajan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6665-4929",
+        "authenticated-orcid": false,
+        "given": "Andrew",
+        "family": "Nelson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1698-609X",
+        "authenticated-orcid": false,
+        "given": "Joyce M.",
+        "family": "Ngoi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1084-930X",
+        "authenticated-orcid": false,
+        "given": "Joana Paula",
+        "family": "da Paix\u00e3o",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3596-5964",
+        "authenticated-orcid": false,
+        "given": "Marcus",
+        "family": "Panning",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0384-6066",
+        "authenticated-orcid": false,
+        "given": "Tomas",
+        "family": "Poklepovich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4114-5460",
+        "authenticated-orcid": false,
+        "given": "Peter K.",
+        "family": "Quashie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5151-8908",
+        "authenticated-orcid": false,
+        "given": "Diyanath",
+        "family": "Ranasinghe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mara",
+        "family": "Russo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5736-664X",
+        "authenticated-orcid": false,
+        "given": "James Emmanuel",
+        "family": "San",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicholas D.",
+        "family": "Sanderson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vinod",
+        "family": "Scaria",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gavin",
+        "family": "Screaton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "October Michael",
+        "family": "Sessions",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2344-2755",
+        "authenticated-orcid": false,
+        "given": "Tarja",
+        "family": "Sironen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6646-1868",
+        "authenticated-orcid": false,
+        "given": "Abay",
+        "family": "Sisay",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4925-467X",
+        "authenticated-orcid": false,
+        "given": "Darren",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9187-3151",
+        "authenticated-orcid": false,
+        "given": "Teemu",
+        "family": "Smura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Piyada",
+        "family": "Supasa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4777-4586",
+        "authenticated-orcid": false,
+        "given": "Chayaporn",
+        "family": "Suphavilai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeremy",
+        "family": "Swann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Houriiyah",
+        "family": "Tegally",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8763-6516",
+        "authenticated-orcid": false,
+        "given": "Bryan",
+        "family": "Tegomoh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2270-6824",
+        "authenticated-orcid": false,
+        "given": "Olli",
+        "family": "Vapalahti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8736-0863",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2753-1800",
+        "authenticated-orcid": false,
+        "given": "Robert J",
+        "family": "Wilkinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carolyn",
+        "family": "Williamson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xavier",
+        "family": "Zair",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "IMSSC2 Laboratory Network Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3027-5254",
+        "authenticated-orcid": false,
+        "given": "Tulio",
+        "family": "de Oliveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Timothy EA",
+        "family": "Peto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Derrick",
+        "family": "Crook",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Russell",
+        "family": "Corbett-Detig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8466-7547",
+        "authenticated-orcid": false,
+        "given": "Zamin",
+        "family": "Iqbal",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1009175"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.2",
+        "unstructured": "Nicola De Maio , Conor Walker , Rui Borges , Lukas Weilguny , Greg Slodkowicz , and Nick Goldman . Issues with sars-cov-2 sequencing data, https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473. May 2020."
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1002529"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.4",
+        "unstructured": "Edward Holmes . Novel 2019 coronavirus genome, https://virological.org/t/novel-2019-coronavirus-genome/319/1. January 2020."
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17504/protocols.io.bbmuik6w"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1009772"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abb5813"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gbe/evab087"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0239403"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gch2.1018"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/veab006"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.13",
+        "unstructured": "Carmen Lia Murall , Fatima Mostefai , Jean-Christophe Grenier , Rapha\u00ebl Poujol , Julie Hussin Hussin , Sandrine Moreira , B. Jesse Shapiro Shapiro , and the CoVSeQ consortium. Recent evolution and international transmission of SARS-CoV-2 clade 19B (Pango A lineages), https://virological.org/t/recent-evolution-and-international-transmission-of-sars-cov-2-clade-19b-pango-a-lineages/711. June 2021."
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Theo Sanderson and Jeffrey C. Barrett . Variation at Spike position 142 in SARS-CoV-2 Delta genomes is a technical artifact caused by dropout of a sequencing amplicon. Wellcome Open Research, 6:305, November 2021.",
+        "DOI": "10.12688/wellcomeopenres.17295.1"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.15",
+        "unstructured": "Theo Sanderson , Nicola De Maio , Angie S. Hinrichs , Adriano de Bernardi Schneider , Conor Walker , Nick Goldman , Yatish Turakhia , Robert Lanfear , and Russell Corbett-Detig . Systematic errors associated with some implementations of artic v4 and a fast workflow to prescreen samples for new problematic sites, https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473/16. November 2021."
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.16",
+        "unstructured": "Josh Quick . Sars-cov-2 v4.1 update for omicron variant. December 2021."
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.17",
+        "unstructured": "Lorenzo Cerutti . Missing g21987a mutation in sars-cov-2 delta variants due to non-specific amplification by artic v3 primers, https://virological.org/t/missing-g21987a-mutation-in-sars-cov-2-delta-variants-due-to-non-specific-amplification-by-artic-v3-primers/764. October 2021."
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomethods/bpaa014"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msab264"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.214270.116"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04411-y"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00862-7"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-023-01622-5"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst010"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abm1208"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac401"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/veac048"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Christopher Ruis , Thomas P. Peacock , Luis M. Polo , Diego Masone , Maria Soledad Alvarez , Angie S. Hinrichs , Yatish Turakhia , Ye Cheng , Jakob McBroome , Russell Corbett-Detig , Julian Parkhill , and R. Andres Floto . A lung-specific mutational signature enables inference of viral and bacterial respiratory niche. Microbial Genomics, 9(5), May 2023.",
+        "DOI": "10.1099/mgen.0.001018"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicola De Maio , Myrthe Willemsen , Zihao Guo , Abhratanu Saha , Martin Hunt , Nhan Ly-Trong , Bui Quang Minh , Zamin Iqbal , and Nick Goldman . Rate variation and recurrent sequence errors in pandemic-scale phylogenetics, July 2024.",
+        "DOI": "10.1101/2024.07.12.603240"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amanda Warr , Caitlin Newman , Nicky Craig , Ingrida Vendele , Rizalee Pilare , Lilet Cariazo Cruz , Twinkle Galase Barangan , Reildrin G. Morales , Tanja Opriessnig , Virginia Mauro Venturina , Milagros R. Mananggit , Samantha Lycett , Clarissa YJ Domingo , and Christine Tait-Burkard . No part gets left behind: Tiled nanopore sequencing of whole ASFV genomes stitched together using Lilo. bioRxiv, December 2021.",
+        "DOI": "10.1101/2021.12.01.470769"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-021-01019-2"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "John R. Tyson , Phillip James , David Stoddart , Natalie Sparks , Arthur Wickenhagen , Grant Hall , Ji Hyun Choi , Hope Lapointe , Kimia Kamelian , Andrew D. Smith , Natalie Prystajecky , Ian Goodfellow , Sam J. Wilson , Richard Harrigan , Terrance P. Snutch , Nicholas J. Loman , and Joshua Quick . Improvements to the ARTIC multiplex PCR method for SARS-CoV-2 genome sequencing using nanopore, September 2020.",
+        "DOI": "10.1101/2020.09.04.283077"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp352"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gigascience/giab008"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-018-2579-2"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1005944"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-022-02714-x"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bts480"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1010056"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp324"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr708"
+      },
+      {
+        "issue": "36",
+        "key": "2024110904451253000_2024.04.29.591666v3.43",
+        "first-page": "2019",
+        "article-title": "Badread: simulation of error-prone long reads",
+        "volume": "4",
+        "year": "1316",
+        "journal-title": "Journal of Open Source Software"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6019/S-BSST1334"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.05.014"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-015-0220-9"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liana E. Kafetzopoulou , Kyriakos Efthymiadis , Kuiama Lewandowski , Ant Crook , Dan Carter , Jane Osborne , Emma Aarons , Roger Hewson , Julian A. Hiscox , Miles W. Carroll , Richard Vipond , and Steven T. Pullan . Assessment of metagenomic Nanopore and Illumina sequencing for recovering whole genome sequences of chikungunya and dengue viruses directly from clinical samples. Eurosurveillance, 23(50), December 2018.",
+        "DOI": "10.2807/1560-7917.ES.2018.23.50.1800228"
+      },
+      {
+        "issue": "1",
+        "key": "2024110904451253000_2024.04.29.591666v3.48",
+        "first-page": "e00963",
+        "article-title": "Metagenomic Nanopore Sequencing of Influenza Virus Direct from Clinical Respiratory Samples",
+        "volume": "58",
+        "year": "2019",
+        "journal-title": "Journal of Clinical Microbiology"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dave J. Baker , Alp Aydin , Thanh Le-Viet , Gemma L. Kay , Steven Rudder , Leonardo De Oliveira Martins , Ana P. Tedim , Anastasia Kolyva , Maria Diaz , Nabil-Fareed Alikhan , Lizzie Meadows , Andrew Bell , Ana Victoria Gutierrez , Alexander J. Trotter , Nicholas M. Thomson , Rachel Gilroy , Luke Griffith , Evelien M. Adriaenssens , Rachael Stanley , Ian G. Charles , Ngozi Elumogo , John Wain , Reenesh Prakash , Emma Meader , Alison E. Mather , Mark A. Webber , Samir Dervisevic , Andrew J. Page , and Justin O\u2019Grady . CoronaHiT: high-throughput sequencing of SARS-CoV-2 genomes. Genome Medicine, 13(1):21, December 2021.",
+        "DOI": "10.1186/s13073-021-00839-5"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr703"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.82392"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3820"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gigascience/giab007"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq033"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "2024110904451253000_2024.04.29.591666v3.56",
+        "first-page": "51",
+        "article-title": "Data structures for statistical computing in python",
+        "volume": "445",
+        "year": "2010",
+        "journal-title": "In Proceedings of the 9th Python in Science Conference"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.29.591666",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:22:37Z",
+      "timestamp": 1768458157000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.04.29.591666"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          30
+        ]
+      ]
+    },
+    "references-count": 56,
+    "URL": "https://doi.org/10.1101/2024.04.29.591666",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          30
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:29:36Z",
+      "timestamp": 1768490976729,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          30
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 35,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2020-04-30T00:00:00Z",
+          "timestamp": 1588204800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Large-scale serological testing in the population is essential to determine the true extent of the current SARS-CoV-2 pandemic. Serological tests measure antibody responses against pathogens and use predefined cutoff levels that dichotomize the quantitative test measures into sero-positives and negatives and use this as a proxy for past infection. With the imperfect assays that are currently available to test for past SARS-CoV-2 infection, the fraction of seropositive individuals in serosurveys is a biased estimator of the cumulative incidence and is usually corrected to account for the sensitivity and specificity. Here we use an inference method \u2014 referred to as\n                  <jats:italic>mixture-model approach</jats:italic>\n                  \u2014 for the estimation of the cumulative incidence that does not require to define cutoffs by integrating the quantitative test measures directly into the statistical inference procedure. We confirm that the mixture model outperforms the methods based on cutoffs, leading to less bias and error in estimates of the cumulative incidence. We illustrate how the mixture model can be used to optimize the design of serosurveys with imperfect serological tests. We also provide guidance on the number of control and case sera that are required to quantify the test\u2019s ambiguity sufficiently to enable the reliable estimation of the cumulative incidence. Lastly, we show how this approach can be used to estimate the cumulative incidence of classes of infections with an unknown distribution of quantitative test measures. This is a very promising application of the mixture-model approach that could identify the elusive fraction of asymptomatic SARS-CoV-2 infections. An R-package implementing the inference methods used in this paper is provided. Our study advocates using serological tests without cutoffs, especially if they are used to determine parameters characterizing populations rather than individuals. This approach circumvents some of the shortcomings of cutoff-based methods at exactly the low cumulative incidence levels and test accuracies that we are currently facing in SARS-CoV-2 serosurveys.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>As other pathogens, SARS-CoV-2 elicits antibody responses in infected people that can be detected in their blood serum as early as a week after the infection until long after recovery. The presence of SARS-CoV-2 specific antibodies can therefore be used as a marker of past infection, and the prevalence of seropositive people, i.e. people with specific antibodies, is a key measure to determine the extent of the SARS-CoV-2 pandemic. The serological tests, however, are usually not perfect, yielding false positive and false negative results. Here we exploit an approach that refrains from classifying people as seropositive or negative, but rather compares the antibody level of an individual to that of confirmed cases and controls. This approach leads to more reliable estimates of cumulative incidence, especially for the low prevalence and low test accuracies that we face during the current SARS-CoV-2 pandemic. We also show how this approach can be extended to infer the presence of specific types of cases that have not been used for validating the test, such as people that underwent a mild or asymptomatic infection.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.29.068999",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2020-05-01T01:05:20Z",
+      "timestamp": 1588295120000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Estimating cumulative incidence of SARS-CoV-2 with imperfect serological tests: exploiting cutoff-free approaches"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3781-0675",
+        "authenticated-orcid": false,
+        "given": "Judith A",
+        "family": "Bouman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3808-2852",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Riou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8052-3925",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Bonhoeffer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8319-5293",
+        "authenticated-orcid": false,
+        "given": "Roland R",
+        "family": "Regoes",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.1",
+        "unstructured": "J. H. C. for Health Security, Global progress on COVID-19 serology-based testing, 2020. [Online]. Available: http://www.centerforhealthsecurity.org/resources/COVID-19/serology/Serology-based-tests-for-COVID-19.html."
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Lin , L. Liu , M. Zhang , Y. Hu , Q. Yang , J. Guo , Y. Dai , Y. Xu , Y. Cai , X. Chen , et al., \u201cEvaluations of the serological test in the diagnosis of 2019 novel coronavirus (sars-cov-2) infections during the covid-19 outbreak,\u201d European Journal of Clinical Microbiology & Infectious Diseases, pp. 1\u20137, 2020.",
+        "DOI": "10.1007/s10096-020-03978-6"
+      },
+      {
+        "issue": "5",
+        "key": "2024080405560983000_2020.04.29.068999v3.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.3390/diagnostics10050319",
+        "article-title": "Antibody tests in detecting sars-cov-2 infection: A meta-analysis",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Diagnostics"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-16256-y"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. S. Theel , J. Harring , H. Hilgart , and D. Granger , \u201cPerformance characteristics of four high-throughput immunoassays for detection of IgG antibodies against SARS-CoV-2,\u201d Journal of Clinical Microbiology, 2020.",
+        "DOI": "10.1128/JCM.01243-20"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Kr\u00fcttgen , C. G. Cornelissen , M. Dreher , M. Hornef , M. Im\u00f6hl , and M. Kleines , \u201cComparison of four new commercial serologic assays for determination of sars-cov-2 igg,\u201d Journal of Clinical Virology, p. 104 394, 2020.",
+        "DOI": "10.1016/j.jcv.2020.104394"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1016/j.cca.2020.07.007",
+        "article-title": "Comparison of test performance of commercial anti-sars-cov-2 immunoassays in serum and plasma samples",
+        "volume": "510",
+        "year": "2020",
+        "journal-title": "Clinica chimica acta; international journal of clinical chemistry"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.aje.a112510"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/25.6.1107"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. J. Diggle , \u201cEstimating prevalence using an imperfect test,\u201d Epidemiology Research International, vol. 2011, 2011.",
+        "DOI": "10.1155/2011/608719"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.14.20062463"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.aje.a117428"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Vilar , J Ranta , S Virtanen , and H Korkeala , \u201cBayesian estimation of the true prevalence and of the diagnostic test sensitivity and specificity of enteropathogenic yersinia in finnish pig serum samples,\u201d BioMed research international, vol. 2015, 2015.",
+        "DOI": "10.1155/2015/931542"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Stringhini , A. Wisniak , G. Piumatti , A. S. Azman , S. A. Lauer , H. Baysson , D. De Ridder , D. Petrovic , S. Schrempft , K. Marcus , et al., \u201cRepeated seroprevalence of anti-sars-cov-2 igg antibodies in a population-based sample from geneva, switzerland,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.05.02.20088898"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. B. Larremore , B. K. Fosdick , S. Zhang , and Y. H. Grad , \u201cJointly modeling prevalence, sensitivity and specificity for optimal sample allocation,\u201d bioRxiv, 2020.",
+        "DOI": "10.1101/2020.05.23.112649"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Gelman and B. Carpenter , \u201cBayesian analysis of tests with unknown specificity and sensitivity,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.05.22.20108944"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwr245"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268812000404"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. te Beest , E. De Bruin , S. Imholz , J. Wallinga , P. Teunis , M. Koopmans , and M. Van Boven , \u201cDiscrimination of influenza infection (A/2009 H1N1) from prior exposure by antibody protein microarray analysis,\u201d PloS one, vol. 9, no. 11, 2014.",
+        "DOI": "10.1371/journal.pone.0113021"
+      },
+      {
+        "issue": "103",
+        "key": "2024080405560983000_2020.04.29.068999v3.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "20 141 244",
+        "DOI": "10.1098/rsif.2014.1244",
+        "article-title": "Joint modelling of serological and hospitalization data reveals that high levels of pre-existing immunity and school holidays shaped the influenza a pandemic of 2009 in the netherlands",
+        "volume": "12",
+        "year": "2015",
+        "journal-title": "Journal of The Royal Society Interface"
+      },
+      {
+        "issue": "1",
+        "key": "2024080405560983000_2020.04.29.068999v3.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1097/EDE.0000000000000196",
+        "article-title": "Estimating seroprevalence of human papillomavirus type 16 using a mixture model with smoothed age-dependent mixing proportions",
+        "volume": "26",
+        "year": "2015",
+        "journal-title": "Epidemiology"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. A. Vink , J. Berkhof , J. van de Kassteele , M. van Boven , and J. A. Bogaards , \u201cA bivariate mixture model for natural antibody levels to human papillomavirus types 16 and 18: Baseline estimates for monitoring the herd effects of immunization,\u201d PloS one, vol. 11, no. 8, 2016.",
+        "DOI": "10.1371/journal.pone.0161109"
+      },
+      {
+        "issue": "9",
+        "key": "2024080405560983000_2020.04.29.068999v3.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1005719",
+        "DOI": "10.1371/journal.pcbi.1005719",
+        "article-title": "Infectious reactivation of cytomegalovirus explaining age-and sex-specific patterns of seroprevalence",
+        "volume": "13",
+        "year": "2017",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Lassauni\u00e8re , A. Frische , Z. B. Harboe , A. C. Nielsen , A. Fomsgaard , K. A. Krogfelt , and C. S. J\u00f8rgensen , \u201cEvaluation of nine commercial SARS-CoV-2 immunoassays,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.09.20056325"
+      },
+      {
+        "issue": "7",
+        "key": "2024080405560983000_2020.04.29.068999v3.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1478",
+        "DOI": "10.3201/eid2607.200841",
+        "article-title": "Severe acute respiratory syndrome coronavirus 2-specific antibody responses in coronavirus disease patients",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Emerging infectious diseases"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Meyer , G. Torriani , S. Yerly , L. Mazza , A. Calame , I. Arm-Vernez , G. Zimmer , T. Agoritsas , J. Stirnemann , H. Spechbach , et al., \u201cValidation of a commercially available sars-cov-2 serological immunoassay,\u201d Clinical microbiology and infection, 2020.",
+        "DOI": "10.1101/2020.05.02.20080879"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. C. Buitrago-Garcia , D. Egli-Gany , M. J. Counotte , S. Hossmann , H. Imeri , G. Salanti , and N. Low , \u201cThe role of asymptomatic sars-cov-2 infections: Rapid living systematic review and meta-analysis,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.25.20079103"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X.-Y. Yao , W. Liu , Z.-Y. Li , H.-L. Xiong , Y.-Y. Su , T. Li , S.-Y. Zhang , X.-J. Zhang , Z.-F. Bi , C.-X. Deng , et al., \u201cNeutralizing and binding antibody kinetics of COVID-19 patients during hospital and convalescent phases,\u201d medRxiv, 2020.",
+        "DOI": "10.21203/rs.3.rs-327912/v1"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. B. Larremore , B. K. Fosdick , K. M. Bubar , S. Zhang , S. M. Kissler , C. J. E. Metcalf , C. Buckee , and Y. Grad , \u201cEstimating sars-cov-2 seroprevalence and epidemiological parameters with uncertainty from serological surveys,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.15.20067066"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.30",
+        "unstructured": "X.-H. Zhou , D. K. McClish , and N. A. Obuchowski , Statistical methods in diagnostic medicine. John Wiley & Sons, 2009, vol. 569."
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. S. Pepe et al., The statistical evaluation of medical tests for classification and prediction. Medicine, 2003.",
+        "DOI": "10.1093/oso/9780198509844.001.0001"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3"
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.33",
+        "unstructured": "R Core Team, R: A language and environment for statistical computing, R Foundation for Statistical Computing, Vienna, Austria, 2018. [Online]. Available: https://www.R-project.org/."
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.34",
+        "unstructured": "Stan Development Team, RStan: The R interface to Stan, R package version 2.21.2, 2020. [Online]. Available: http://mc-stan.org/."
+      },
+      {
+        "key": "2024080405560983000_2020.04.29.068999v3.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Carpenter , A. Gelman , M. D. Hoffman , D. Lee , B. Goodrich , M. Betancourt , M. Brubaker , J. Guo , P. Li , and A. Riddell , \u201cStan: A probabilistic programming language,\u201d Journal of statistical software, vol. 76, no. 1, 2017.",
+        "DOI": "10.18637/jss.v076.i01"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.29.068999",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:19:21Z",
+      "timestamp": 1768436361000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.04.29.068999"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          30
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1101/2020.04.29.068999",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          30
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

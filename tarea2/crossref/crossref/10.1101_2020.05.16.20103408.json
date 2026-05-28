@@ -1,0 +1,306 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T17:58:41Z",
+      "timestamp": 1768586321992,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          18
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 24,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:label>1</jats:label>\n                <jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:label>1.1</jats:label>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The use of CT imaging enhanced by artificial intelligence to effectively diagnose COVID-19, instead of or in addition to reverse transcription-polymerase chain reaction (RT-PCR), can improve widespread COVID-19 detection and resource allocation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:label>1.2</jats:label>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>904 axial lung window CT slices from 338 patients in 17 countries were collected and labeled. The data included 606 images from COVID-19 positive patients (confirmed via RT-PCR), 224 images of a variety of other pulmonary diseases including viral pneumonias, and 74 images of normal patients. We developed, trained, validated, and tested an object detection model which detects features in three categories: ground-glass opacities (GGOs) for COVID-19, GGOs for non-COVID-19 diseases, and features that are inconsistent with a COVID-19 diagnosis. These collected features are passed into an interpretable decision tree model to make a suggested diagnosis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:label>1.3</jats:label>\n                  <jats:title>Results</jats:title>\n                  <jats:p>On an independent test of 219 images from COVID-19 positive, a variety of pneumonia, and healthy patients, the model predicted COVID-19 diagnoses with an accuracy of 96.80 % (95% confidence interval [CI], 96.75 to 96.86), AUC-ROC of 0.9664 (95% CI, 0.9659 to 0.9671), sensitivity of 98.33% (95% CI, 98.29 to 98.40), precision of 95.93% (95% CI, 95.83 to 95.99), and specificity of 94.95% (95% CI, 94.84 to 95.05). On an independent test of 34 images from asymptomatic COVID-19 positive patients, our model achieved an accuracy of 97.06% (95% CI, 96.81 to 97.06) and a sensitivity of 96.97% (95% CI, 96.71 to 96.97). Similarly high performance was also obtained for out-of-sample countries, and no significant performance difference was obtained between genders.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:label>1.4</jats:label>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>We present an interpretable artificial intelligence CT analysis tool to diagnose COVID-19 in both symptomatic and asymptomatic patients. Further, our model is able to differentiate COVID-19 GGOs from similar pathologies suggesting that GGOs can be disease-specific.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.16.20103408",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          18
+        ]
+      ],
+      "date-time": "2020-05-18T16:41:56Z",
+      "timestamp": 1589820116000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Interpretable Artificial Intelligence for COVID-19 Diagnosis from Chest CT Reveals Specificity of Ground-Glass Opacities"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5564-6747",
+        "authenticated-orcid": false,
+        "given": "Anmol",
+        "family": "Warman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Pranav I.",
+        "family": "Warman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ayushman",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Puja",
+        "family": "Parikh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Roshan",
+        "family": "Warman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Narayan",
+        "family": "Viswanadhan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Subhra",
+        "family": "Mohapatra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shyam S",
+        "family": "Mohapatra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guillermo",
+        "family": "Sapiro",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.5388"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.2",
+        "unstructured": "Clinical management of severe acute respiratory infection when COVID-19 is suspected. https://www.who.int/publications-detail/clinical-management-of-severe-acute-respiratory-infection-when-novel-coronavirus-(ncov)-infection-is-suspected. Accessed May 6, 2020."
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4414/smw.2020.20225"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30673-5"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200230"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200330"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.02.11.20021493"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.25820"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200152"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200034"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200463"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200905"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201491"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.17",
+        "unstructured": "Gozes O , Ayan Frid-Adar M\u2019 , Greenspan H , et al. Title: Rapid AI Development Cycle for the Coronavirus (COVID-19) Pandemic: Initial Results for Automated Detection & Patient Monitoring Using Deep Learning CT Image Analysis Authors."
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bullock J , Luccioni A , Hoffmann Pham K , Sin Nga Lam C , Luengo-Oroz M. Mapping the Landscape of Artificial Intelligence Applications against COVID-19.; 2020.",
+        "DOI": "10.1613/jair.1.12162"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2214/AJR.17.17857"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.20",
+        "unstructured": "Redmon J , Farhadi A. YOLOv3: An Incremental Improvement. April 2018. http://arxiv.org/abs/1804.02767. Accessed May 6, 2020."
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18178/ijmlc.2018.8.6.744"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.22",
+        "unstructured": "Lin T-Y , Maire M , Belongie S , et al. Microsoft COCO: Common Objects in Context."
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2531595"
+      },
+      {
+        "key": "2021011111223020000_2020.05.16.20103408v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1097-0258(19960229)15:4<361::AID-SIM168>3.0.CO;2-4"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.16.20103408",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:40:55Z",
+      "timestamp": 1768484455000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.16.20103408"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          18
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.1101/2020.05.16.20103408",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

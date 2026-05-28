@@ -1,0 +1,561 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2026-02-07T08:46:37Z",
+      "timestamp": 1770453997377,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 45,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ],
+          "date-time": "2026-01-21T00:00:00Z",
+          "timestamp": 1768953600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Target-conditioned molecular design requires optimizing binding affinity to a proposed therapeutic protein target while balancing competing developability constraints (e.g., absorption, distribution, metabolism, excretion, and toxicity; ADMET). Yet many computational pipelines either optimize a single objective or rely on fully de novo generation that can be difficult to control and interpret. We present Nevermore, a target-conditioned, database-grounded framework that combines a geometry-aware protein\u2013ligand affinity oracle with Pareto-aware multi-objective search over an explicit molecular feature space. A central design choice is to optimize in\n                  <jats:italic>count-based Morgan fingerprint</jats:italic>\n                  space, where each feature corresponds to a chemically meaningful substructure count, enabling discrete, interpretable \u201cbucket-level\u201d edits. Nevermore learns target-conditioned scores by aligning protein and ligand representations under contrastive objectives and using a similarity-based prediction head; the resulting affinity oracle improves over previously reported benchmark baselines, providing a stronger scoring signal for downstream optimization. Nevermore then steers candidate selection by proposing sparse fingerprint edits, re-ranking candidates under multiple objectives, and projecting edited fingerprints back to valid molecules via nearest-neighbor retrieval from a large compound library. This yields efficient screening without exhaustive enumeration and provides transparent attributions that connect optimization steps to concrete chemical motifs. We evaluate Nevermore on two target case studies (Menin and SARS-CoV-2 Mpro). Across targets, the closed-loop search consistently retrieves candidate sets with improved affinity\u2013property trade-offs compared with random sampling and similarity-only retrieval baselines, while maintaining explicit control and interpretability through discrete feature-space edits. These results support database-grounded, feature-space steering as a practical route to target-conditioned multi-objective lead refinement without relying on fully de novo generation.\n                </jats:p>",
+    "DOI": "10.64898/2026.01.20.700610",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2026-01-22T03:00:13Z",
+      "timestamp": 1769050813000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Nevermore: Target-Conditioned Protein\u2013Ligand Representation Learning for Multi-Objective Lead Optimization with Database-Grounded Retrieval"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-9581-5883",
+        "authenticated-orcid": false,
+        "given": "Mohammad Saleh",
+        "family": "Refahi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Eng. Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Milad",
+        "family": "Toutounchian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing & Informatics, Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5050-5926",
+        "authenticated-orcid": false,
+        "given": "Bahrad A.",
+        "family": "Sokhansanj",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Eng. Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3862-4006",
+        "authenticated-orcid": false,
+        "given": "Hyunwoo",
+        "family": "Yoo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Eng. Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9368-627X",
+        "authenticated-orcid": false,
+        "given": "James R.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Eng. Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5450-0121",
+        "authenticated-orcid": false,
+        "given": "Hai-Feng",
+        "family": "Ji",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1763-5750",
+        "authenticated-orcid": false,
+        "given": "Gail",
+        "family": "Rosen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Eng. Drexel University, Philadelphia, PA, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saro Passaro , Gabriele Corso , Jeremy Wohlwend , Mateo Reveiz , Stephan Thaler , Vignesh Ram Somnath , Noah Getz , Tally Portnoi , Julien Roy , Hannes Stark , et al. Boltz-2: Towards accurate and efficient binding affinity prediction. BioRxiv, 2025.",
+        "DOI": "10.1101/2025.06.14.659707"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.2",
+        "first-page": "7236",
+        "article-title": "Tankbind: Trigonometry-aware neural networks for drug-protein binding structure prediction",
+        "volume": "35",
+        "year": "2022",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "issue": "4",
+        "key": "2026020607575443000_2026.01.20.700610v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "317",
+        "DOI": "10.1038/s41573-022-00633-x",
+        "article-title": "The evolving role of investigative toxicology in the pharmaceutical industry",
+        "volume": "22",
+        "year": "2023",
+        "journal-title": "Nature reviews drug discovery"
+      },
+      {
+        "issue": "7",
+        "key": "2026020607575443000_2026.01.20.700610v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "3049",
+        "DOI": "10.1016/j.apsb.2022.02.002",
+        "article-title": "Why 90% of clinical drug development fails and how to improve it?",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Acta Pharmaceutica Sinica B"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "208",
+        "DOI": "10.1186/s12859-024-05822-6",
+        "article-title": "Integrating transformers and many-objective optimization for drug design",
+        "volume": "25",
+        "year": "2024",
+        "journal-title": "BMC bioinformatics"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btae416"
+      },
+      {
+        "issue": "2",
+        "key": "2026020607575443000_2026.01.20.700610v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbae008",
+        "DOI": "10.1093/bib/bbae008",
+        "article-title": "Chemmort: an automatic admet optimization platform using deep learning and multi-objective particle swarm optimization",
+        "volume": "25",
+        "year": "2024",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "17304",
+        "DOI": "10.1038/s41598-021-96812-8",
+        "article-title": "Evolutionary design of molecules based on deep learning and a genetic algorithm",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "10",
+        "key": "2026020607575443000_2026.01.20.700610v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2910",
+        "DOI": "10.1039/D5DD00188A",
+        "article-title": "Adaptive subspace bayesian optimization over molecular descriptor libraries for data-efficient chemical design",
+        "volume": "4",
+        "year": "2025",
+        "journal-title": "Digital Discovery"
+      },
+      {
+        "issue": "46",
+        "key": "2026020607575443000_2026.01.20.700610v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "18193",
+        "DOI": "10.1021/acs.est.3c02198",
+        "article-title": "Count-based morgan fingerprint: A more efficient and interpretable molecular representation in developing machine learning-based predictive regression models for water contaminants\u2019 activities and properties",
+        "volume": "57",
+        "year": "2023",
+        "journal-title": "Environmental science & technology"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41573-023-00832-0"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ethan Perez , Florian Strub , Harm De Vries , Vincent Dumoulin , and Aaron Courville . Film: Visual reasoning with a general conditioning layer. In Proceedings of the AAAI conference on artificial intelligence, volume 32, 2018.",
+        "DOI": "10.1609/aaai.v32i1.11671"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.13",
+        "unstructured": "J. Rapin and O. Teytaud . Nevergrad - A gradient-free optimization platform. https://GitHub.com/FacebookResearch/Nevergrad, 2018."
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty593"
+      },
+      {
+        "issue": "6",
+        "key": "2026020607575443000_2026.01.20.700610v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007129",
+        "DOI": "10.1371/journal.pcbi.1007129",
+        "article-title": "Deepconv-dti: Prediction of drug-target interactions via deep learning with convolution on protein sequences",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty535"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa880"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "issue": "10",
+        "key": "2026020607575443000_2026.01.20.700610v1.19",
+        "first-page": "7112",
+        "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+        "volume": "44",
+        "year": "2021",
+        "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "9431",
+        "DOI": "10.1038/s41467-024-53751-y",
+        "article-title": "Mole: a foundation model for molecular graphs using disentangled attention",
+        "volume": "15",
+        "year": "2024",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.21",
+        "article-title": "Chemberta: large-scale self-supervised pretraining for molecular property prediction",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2220778120"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.23",
+        "article-title": "Learning to align molecules and proteins: A geometry-aware approach to binding affinity",
+        "year": "2025",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.24",
+        "first-page": "vbaf060",
+        "article-title": "Aggregating residue-level protein language model embeddings with optimal transport",
+        "volume": "5",
+        "year": "2025",
+        "journal-title": "Bioinformatics Advances"
+      },
+      {
+        "issue": "6781",
+        "key": "2026020607575443000_2026.01.20.700610v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "eads9530",
+        "DOI": "10.1126/science.ads9530",
+        "article-title": "Deep contrastive learning enables genome-wide virtual screening",
+        "volume": "391",
+        "year": "2026",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "2",
+        "key": "2026020607575443000_2026.01.20.700610v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "268",
+        "DOI": "10.1021/acscentsci.7b00572",
+        "article-title": "Automatic chemical design using a data-driven continuous representation of molecules",
+        "volume": "4",
+        "year": "2018",
+        "journal-title": "ACS central science"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1186/s13321-017-0235-x",
+        "article-title": "Molecular de-novo design through deep reinforcement learning",
+        "volume": "9",
+        "year": "2017",
+        "journal-title": "Journal of cheminformatics"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aap7885"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "10752",
+        "DOI": "10.1038/s41598-019-47148-x",
+        "article-title": "Optimization of molecules via deep reinforcement learning",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "9",
+        "key": "2026020607575443000_2026.01.20.700610v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "3826",
+        "DOI": "10.1021/acs.jcim.4c00234",
+        "article-title": "Streamlining computational fragment-based drug discovery through evolutionary optimization informed by ligand-based virtual prescreening",
+        "volume": "64",
+        "year": "2024",
+        "journal-title": "Journal of chemical information and modeling"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.8b00839"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.32",
+        "article-title": "Bayesian optimization for molecules should be pareto-aware",
+        "year": "2025",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yiming Zhang , Jun Jin Choong , Kaushalya Madhawa , and Keisuke Ozawa . Autolead: An llm-guided bayesian optimization framework for multi-objective lead optimization. bioRxiv, pages 2025\u201308, 2025.",
+        "DOI": "10.1101/2025.08.19.671029"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.34",
+        "article-title": "Therapeutics data commons: Machine learning datasets and tasks for drug discovery and development",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1074"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.1990"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkl999"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.38",
+        "unstructured": "Marinka Zitnik , Rok Sosic , and Jure Leskovec . Biosnap datasets: Stanford biomedical network dataset collection. Note: http://snap.stanford.edu/biodata Cited by, 5(1), 2018."
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tibs.2013.05.005"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "101118",
+        "DOI": "10.1016/j.currproblcancer.2024.101118",
+        "article-title": "Menin signaling and therapeutic targeting in breast cancer",
+        "volume": "51",
+        "year": "2024",
+        "journal-title": "Current Problems in Cancer"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-020-2223-Y"
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.42",
+        "unstructured": "National Center for Biotechnology Information. PubChem Compound Summary for CID 132212657, Revumenib. PubChem, 2025. URL https://pubchem.ncbi.nlm.nih.gov/compound/Revumenib. Accessed: 2025-12-28."
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.43",
+        "unstructured": "National Center for Biotechnology Information. PubChem Compound Summary for CID 5475158, Cinanserin. PubChem, 2025. URL https://pubchem.ncbi.nlm.nih.gov/compound/Cinanserin. Accessed: 2025-12-28."
+      },
+      {
+        "key": "2026020607575443000_2026.01.20.700610v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.20084"
+      },
+      {
+        "issue": "1",
+        "key": "2026020607575443000_2026.01.20.700610v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1186/s13321-025-01074-5",
+        "article-title": "Reverse engineering molecules from fingerprints through deterministic enumeration and generative models",
+        "volume": "17",
+        "year": "2025",
+        "journal-title": "Journal of Cheminformatics"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.20.700610",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2026-02-06T15:58:08Z",
+      "timestamp": 1770393488000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.20.700610"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ]
+    },
+    "references-count": 45,
+    "URL": "https://doi.org/10.64898/2026.01.20.700610",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:12:07Z",
+      "timestamp": 1768565527944,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          13
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Emerging data-driven technologies in healthcare, such as risk prediction models, hold great promise but also pose challenges regarding potential bias and exacerbation of existing health inequalities, which have been observed across diseases such as cardiovascular disease (CVD) and COVID-19. This study addresses the impact of ethnicity in risk prediction modelling for cardiovascular events following SARS-CoV-2 infection and explores the potential of ethnicity-specific models to mitigate disparities.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>This retrospective cohort study utilises six linked datasets accessed through National Health Service (NHS) England\u2019s Secure Data Environment (SDE) service for England, via the BHF Data Science Centre\u2019s CVD-COVID-UK/COVID-IMPACT Consortium. Inclusion criteria were established, and demographic information, risk factors, and ethnicity categories were defined. Four feature selection methods (LASSO, Random Forest, XGBoost, QRISK) were employed and ethnicity-specific prediction models were trained and tested using logistic regression. Discrimination (AUROC) and calibration performance were assessed for different populations and ethnicity groups.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>Several differences were observed in the models trained on the whole study cohort vs ethnicity-specific groups. At the feature selection stage, ethnicity-specific models yielded different selected features. AUROC discrimination measures showed consistent performance across most ethnicity groups, with QRISK-based models performing relatively poorly. Calibration performance exhibited variation across ethnicity groups and age categories. Ethnicity-specific models demonstrated the potential to enhance calibration performance for certain ethnic groups.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>This research highlights the importance of considering ethnicity in risk prediction modelling to ensure equitable healthcare outcomes. Differences in selected features and asymmetric calibration across ethnicities underscore the necessity of tailored approaches. Ethnicity-specific models offer a pathway to addressing disparities and improving model performance. The study emphasises the role of data-driven technologies in either alleviating or exacerbating existing health inequalities.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Evidence before this study</jats:title>\n                  <jats:p>Research has suggested that SARS-CoV-2 infections may have prognostic value in predicting later cardiovascular disease outcomes, two diseases where ethnicity-based health inequalities have been observed. Existing health inequalities are at risk of being exacerbated by bias in emerging data-driven technologies such as risk prediction models, and there currently exists no recommended practice to mitigate this issue. Model performances are not typically stratified by ethnic groups and, if reported, ethnic groups are often only included in higher-level categories that have been criticised for simplicity of definition and for missing key ethnic heterogeneity.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Added value of this study</jats:title>\n                  <jats:p>This study demonstrates the impact of including an in-depth consideration of ethnicity and its granularity in risk prediction modelling for cardiovascular event prediction in patients following a SARS-CoV-2 infection. This is one of, if not the first, set of models specifically built for and representative of all ethnic groups across an entire population, evaluating different practices to best mitigate ethnicity-based disparities in prediction algorithms. Moreover, ethnicity data has historically not been well captured, with as many as 1 in 3 individuals missing ethnicity data in their health records. With data linkage, this work is the first to analyse 96% complete ethnicity records in one of the world\u2019s largest ethnically diverse routinely collected datasets.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Implications of all of the available evidence</jats:title>\n                  <jats:p>This study highlights the potential of tailoring feature selection, performance measures, and probability scores to different ethnic groups through ethnicity-specific risk prediction models to mitigate prediction bias. We identify differences between models trained on the global study populations to cohorts of specific ethnicities, and encourage the use of more granular ethnicity categories to capture the diversity of underlying populations. Such approaches will allow for newly developed data-driven tools to cater to the ethnic heterogeneity present between populations and ensure that emerging technologies translate into equitable health outcomes for everyone.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.09.13.23295489",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          13
+        ]
+      ],
+      "date-time": "2023-09-13T23:10:17Z",
+      "timestamp": 1694646617000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Towards mitigating health inequity via machine learning: a nationwide cohort study to develop and validate ethnicity-specific models for prediction of cardiovascular disease risk in COVID-19 patients"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Freya",
+        "family": "Allery",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Marta",
+        "family": "Pineda-Moncus\u00ed",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0903-5395",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Tomlinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1782-4711",
+        "authenticated-orcid": false,
+        "given": "Nikolas",
+        "family": "Pontikos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7479-3459",
+        "authenticated-orcid": false,
+        "given": "Johan H",
+        "family": "Thygesen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sara",
+        "family": "Khalid",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "the CVD-COVID-UK/COVID-IMPACT Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "2023091806350702000_2023.09.13.23295489v2.1",
+        "first-page": "68",
+        "article-title": "Race, Culture and Ethnicity in Minority Research: A Critical Discussion",
+        "volume": "13",
+        "year": "2006",
+        "journal-title": "J Cult Divers"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01419870903527801"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03075070701794783"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/09540260500238470"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12889-020-09792-1"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/0971-4065.106033"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23750/abm.v91i1.9397"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eclinm.2020.100404"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa815"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/puar.13264"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30228-9"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40615-020-00833-4"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11096-018-0760-3"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1185/03007995.2010.490468"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01689-3"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.16",
+        "unstructured": "J. Russel , \u201cElectronic health records,\u201d Chartered Society of Physiotherapy, 2020. https://www.csp.org.uk/professional-clinical/digital-physiotherapy/electronic-health-records (accessed Sep. 30, 2022)."
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. E. Gliklich , M. B. Leavy , and N. A. Dreyer , \u201cTools and Technologies for Registry Interoperability, 2nd addendum of Registries for Evaluating Patient Outcomes, A User\u2019s Guide,\u201d Dec. 2019.",
+        "DOI": "10.23970/AHRQEPCREGISTRIES3ADDENDUM2"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.18",
+        "unstructured": "\u201cHospital Episode Statistics Data Dictionary - NHS Digital,\u201d NHS Digital, 2021. https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics/hospital-episode-statistics-data-dictionary (accessed Sep. 30, 2022)."
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.19",
+        "unstructured": "NHS Digital, \u201cSNOMED CT,\u201d 2021."
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/pubmed/fdaa198"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/pubmed/fdl044"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1258/jrsm.2008.080007"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14236/jhi.v23i4.920"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41436-020-0869-3"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/svn-2017-000101"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.procs.2020.10.042"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjhci-2020-100253"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aax2342"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.socscimed.2013.09.006"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n826"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(22)00091-7"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(19)30012-3"
+      },
+      {
+        "key": "2023091806350702000_2023.09.13.23295489v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.j2099"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.13.23295489",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:41:03Z",
+      "timestamp": 1768506063000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.09.13.23295489"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          13
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.1101/2023.09.13.23295489",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

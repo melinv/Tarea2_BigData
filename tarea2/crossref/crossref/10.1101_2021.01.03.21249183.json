@@ -1,0 +1,381 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:43:46Z",
+      "timestamp": 1768553026033,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Value of radiomics features from the adrenal gland and periadrenal fat CT images for predicting disease progression in patients with COVID-19 has not been studied.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>A total of 1,245 patients (685 moderate and 560 severe patients) were enrolled in a retrospective study. We proposed 3D V-Net to segment adrenal glands in onset CT images automatically, and periadrenal fat was obtained using inflation operation around the adrenal gland. Next, we built a clinical model (CM), three radiomics models (adrenal gland model [AM], periadrenal fat model [PM], and fusion of adrenal gland and periadrenal fat model [FM]), and radiomics nomogram (RN) after radiomics features extracted to predict disease progression in patients with COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    The auto-segmentation framework yielded a dice value of 0.79 in the training set. CM, AM, PM, FM, and RN obtained AUCs of 0.712, 0.692, 0.763, 0.791, and 0.806, respectively in the training set. FM and RN had better predictive efficacy than CM (\n                    <jats:italic>P</jats:italic>\n                    &lt; 0.0001) in the training set. RN showed that there was no significant difference in the validation set (mean absolute error [MAE] = 0.04) and test set (MAE = 0.075) between predictive and actual results. Decision curve analysis showed that if the threshold probability was more than 0.3 in the validation set or between 0.4 and 0.8 in the test set, it could gain more net benefits using RN than FM and CM.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Radiomics features extracted from the adrenal gland and periadrenal fat CT images may predict progression in patients with COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>This study was funded by Science and Technology Foundation of Guizhou Province (QKHZC [2020]4Y002, QKHPTRC [2019]5803), the Guiyang Science and Technology Project (ZKXM [2020]4), Guizhou Science and Technology Department Key Lab. Project (QKF [2017]25), Beijing Medical and Health Foundation (YWJKJJHKYJJ-B20261CS) and the special fund for basic Research Operating Expenses of public welfare research institutes at the central level from Chinese Academy of Medical Sciences (2019PT320003).</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.03.21249183",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2021-01-06T01:59:28Z",
+      "timestamp": 1609898368000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Value of radiomics features from adrenal gland and periadrenal fat CT images predicting COVID-19 progression"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Mudan",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xuntao",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wuchao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yan",
+        "family": "Zha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xianchun",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaoyong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jingjing",
+        "family": "Cui",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jie",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rongpin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5149-2496",
+        "authenticated-orcid": false,
+        "given": "Chen",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "8",
+        "key": "2021010708201008000_2021.01.03.21249183v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3588",
+        "DOI": "10.1111/1462-2920.15156",
+        "article-title": "The treatment and follow-up of\u2018recurrence\u2019 with discharged COVID-19 patients: data from Guizhou, China",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Environmental Microbiology"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-020-02661-2"
+      },
+      {
+        "issue": "6",
+        "key": "2021010708201008000_2021.01.03.21249183v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1423",
+        "DOI": "10.1016/j.cell.2020.04.045",
+        "article-title": "Clinically Applicable AI System for Accurate Diagnosis, Quantitative Measurements and Prognosis of COVID-19 Pneumonia Using Computed Tomography",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "CELL"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0824-5"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/postgradmedj-2020-137934"
+      },
+      {
+        "issue": "8",
+        "key": "2021010708201008000_2021.01.03.21249183v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1169",
+        "DOI": "10.1007/s40618-020-01311-8",
+        "article-title": "Endocrine complications of COVID-19: what happens to the thyroid and adrenal glands?",
+        "volume": "43",
+        "year": "2020",
+        "journal-title": "Journal of Endocrinological Investigation"
+      },
+      {
+        "issue": "3",
+        "key": "2021010708201008000_2021.01.03.21249183v1.7",
+        "first-page": "251",
+        "volume": "16",
+        "year": "2017",
+        "journal-title": "2. The adrenal gland microenvironment in health, disease and during regeneration"
+      },
+      {
+        "issue": "7",
+        "key": "2021010708201008000_2021.01.03.21249183v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1027",
+        "DOI": "10.1007/s40618-020-01276-8",
+        "article-title": "COVID-19 and the endocrine system: exploring the unexplored",
+        "volume": "43",
+        "year": "2020",
+        "journal-title": "Journal of Endocrinological Investigation"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1470320320926911"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "198",
+        "DOI": "10.1016/j.jsbmb.2019.04.006",
+        "article-title": "The adrenal gland in stress \u2013 Adaptation on a cellular level",
+        "volume": "190",
+        "year": "2019",
+        "journal-title": "The Journal of Steroid Biochemistry and Molecular Biology"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2015151169"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.12",
+        "unstructured": "Han, M. , Yao, G. , Zhang, W. , Mu, G. , Zhan, Y. , Zhou, X. , & Gao, Y. Segmentation of CT Thoracic Organs by Multi-resolution VB-nets. SegTHOR@ISBI. 2019. Corpus ID: 139100153"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fncom.2020.00009"
+      },
+      {
+        "issue": "9",
+        "key": "2021010708201008000_2021.01.03.21249183v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "639",
+        "DOI": "10.1055/a-1191-8094",
+        "article-title": "Inflammatory Cell Infiltration of Adrenals in COVID-19",
+        "volume": "52",
+        "year": "2020",
+        "journal-title": "Horm Metab Res"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2353/ajpath.2007.061088"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/j.cca.2020.04.027",
+        "article-title": "Hyperinflammation and derangement of renin-angiotensin-aldosterone system in COVID-19: A novel hypothesis for clinically suspected hypercoagulopathy and microvascular immunothrombosis",
+        "volume": "507",
+        "year": "2020",
+        "journal-title": "Clin Chim Acta"
+      },
+      {
+        "issue": "3",
+        "key": "2021010708201008000_2021.01.03.21249183v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1620/tjem.140.259",
+        "article-title": "Extrapulmonary lesions in influenza",
+        "volume": "140",
+        "year": "1983",
+        "journal-title": "Tohoku J Exp Med"
+      },
+      {
+        "issue": "6",
+        "key": "2021010708201008000_2021.01.03.21249183v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "389",
+        "DOI": "10.1002/kjm2.12237",
+        "article-title": "Two hits to the renin-angiotensin system may play a key role in severe COVID-19",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Kaohsiung J Med Sci"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc20-1333"
+      },
+      {
+        "issue": "16",
+        "key": "2021010708201008000_2021.01.03.21249183v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "7448",
+        "DOI": "10.7150/thno.48076",
+        "article-title": "SARS-CoV-2 pandemic and research gaps: Understanding SARS-CoV-2 interaction with the ACE2 receptor and implications for therapy",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Theranostics"
+      },
+      {
+        "key": "2021010708201008000_2021.01.03.21249183v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "340",
+        "DOI": "10.3389/fcimb.2020.00340",
+        "article-title": "SARS-CoV-2 Pathogenesis: Imbalance in the Renin-Angiotensin System Favors Lung Fibrosis",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Front Cell Infect Microbiol"
+      },
+      {
+        "issue": "7",
+        "key": "2021010708201008000_2021.01.03.21249183v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "726",
+        "DOI": "10.1002/jmv.25785",
+        "article-title": "Organ - protective effect of angiotensin - converting enzyme 2 and its effect on the prognosis of COVID-19",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "Journal of Medical Virology"
+      },
+      {
+        "issue": "2",
+        "key": "2021010708201008000_2021.01.03.21249183v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1007/s12020-020-02325-1",
+        "article-title": "COVID-19, hypothalamo-pituitary-adrenal axis and clinical implications",
+        "volume": "68",
+        "year": "2020",
+        "journal-title": "Endocrine"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.03.21249183",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:02:26Z",
+      "timestamp": 1768485746000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.03.21249183"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2021.01.03.21249183",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

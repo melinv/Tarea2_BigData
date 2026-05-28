@@ -1,0 +1,412 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T21:12:12Z",
+      "timestamp": 1768511532412,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          22
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 32,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  SARS-CoV-2 can infect alveoli, inducing a lung injury and thereby impairing the lung function. Healthy alveolar type II (AT2) cells play a major role in lung injury repair as well as keeping alveoli space free from fluids, which is not the case for infected AT2 cells. Unlike previous studies, this novel study aims to automatically differentiate between healthy and infected AT2 cells with SARS-CoV-2 through using efficient AI-based models, which can aid in disease control and treatment. Therefore, we introduce a highly accurate deep transfer learning (DTL) approach that works as follows. First, we downloaded and processed 286 images pertaining to healthy and infected human AT2 (hAT2) cells, obtained from the electron microscopy public image archive. Second, we provided processed images to two DTL computations to induce ten DTL models. The first DTL computation employs five pre-trained models (including DenseNet201 and ResNet152V2) trained on more than million images from ImageNet database to extract features from hAT2 images. Then, flattening and providing the output feature vectors to a trained densely connected classifier with Adam optimizer. The second DTL computation works in a similar manner with a minor difference in which we freeze the first layers for feature extraction in pre-trained models while unfreezing and training the next layers. Compared to TFtDenseNet201, experimental results using five-fold cross-validation demonstrate that TFeDenseNet201 is 12.37 \u00d7 faster and superior, yielding the highest average ACC of 0.993 (F1 of 0.992 and MCC of 0.986) with statistical significance (\n                  <jats:italic>p</jats:italic>\n                  &lt; 2.2 \u00d7 10\n                  <jats:sup>\u221216</jats:sup>\n                  from a\n                  <jats:italic>t</jats:italic>\n                  -test).\n                </jats:p>",
+    "DOI": "10.1101/2024.04.22.590420",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2024-04-23T00:20:22Z",
+      "timestamp": 1713831622000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Novel Automatic Classification of Human Adult Lung Alveolar Type II Cells Infected with SARS-CoV-2 through Deep Transfer Learning Approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9491-2435",
+        "authenticated-orcid": false,
+        "given": "Turki",
+        "family": "Turki",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah",
+        "family": "Al Habib",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0867-8986",
+        "authenticated-orcid": false,
+        "given": "Y-h.",
+        "family": "Taguchi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van Slambrouck, J. , et al., Visualising SARS-CoV-2 infection of the lung in deceased COVID-19 patients. EBioMedicine, 2023. 92.",
+        "DOI": "10.1016/j.ebiom.2023.104608"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.202012-4461oc"
+      },
+      {
+        "issue": "9",
+        "key": "2024042604050482000_2024.04.22.590420v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0238907",
+        "DOI": "10.1371/journal.pone.0238907",
+        "article-title": "A new advanced in silico drug discovery method for novel coronavirus (SARS-CoV-2) with tensor decomposition-based unsupervised feature extraction",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PloS one"
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1038/s41556-021-00809-4",
+        "article-title": "Human alveolar type 2 epithelium transdifferentiates into metaplastic KRT5+ basal cells",
+        "volume": "24",
+        "year": "2022",
+        "journal-title": "Nature cell biology"
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "534",
+        "DOI": "10.1038/s41598-023-47038-3",
+        "article-title": "Auto-detection of the coronavirus disease by using deep convolutional neural networks and X-ray photographs",
+        "volume": "14",
+        "year": "2024",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1186/s12880-024-01227-2",
+        "article-title": "PulmoNet: a novel deep learning based pulmonary diseases detection model",
+        "volume": "24",
+        "year": "2024",
+        "journal-title": "BMC Medical Imaging"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "107789",
+        "DOI": "10.1016/j.compbiomed.2023.107789",
+        "article-title": "Empowering covid-19 detection: Optimizing performance through fine-tuned efficientnet deep learning architecture",
+        "volume": "168",
+        "year": "2024",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abdullah, M. , B. Kedir , and T.T. Takore , A Hybrid Deep Learning CNN model for COVID-19 detection from chest X-rays. Heliyon, 2024.",
+        "DOI": "10.1016/j.heliyon.2024.e26938"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1157000",
+        "DOI": "10.3389/fmed.2023.1157000",
+        "article-title": "Prediction of the COVID disease using lung CT images by deep learning algorithm: DETS-optimized Resnet 101 classifier",
+        "volume": "10",
+        "year": "2023",
+        "journal-title": "Frontiers in Medicine"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "109906",
+        "DOI": "10.1016/j.asoc.2022.109906",
+        "article-title": "Detection of Covid-19 and other pneumonia cases from CT and X-ray chest images using deep learning based on feature reuse residual block and depthwise dilated convolutions neural network",
+        "volume": "133",
+        "year": "2023",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "13420",
+        "DOI": "10.1038/s41598-023-40506-w",
+        "article-title": "Development and validation of a hybrid deep learning\u2013machine learning approach for severity assessment of COVID-19 and other pneumonias",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1672",
+        "DOI": "10.1038/s41598-024-52135-y",
+        "article-title": "\u201cKAIZEN\u201d method realizing implementation of deep-learning models for COVID-19 CT diagnosis in real world hospitals",
+        "volume": "14",
+        "year": "2024",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "10",
+        "key": "2024042604050482000_2024.04.22.590420v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "5347",
+        "DOI": "10.1007/s00521-023-09346-7",
+        "article-title": "COVID-19 classification based on a deep learning and machine learning fusion technique using chest CT images",
+        "volume": "36",
+        "year": "2024",
+        "journal-title": "Neural Computing and Applications"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ju, H. , et al., CODE-NET: A deep learning model for COVID-19 detection. Computers in Biology and Medicine, 2024: p. 108229.",
+        "DOI": "10.1016/j.compbiomed.2024.108229"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.15",
+        "unstructured": "Chollet, F. , Deep learning with Python. 2021: Simon and Schuster."
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, G. , et al. Densely connected convolutional networks. in Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zoph, B. , et al. Learning transferable architectures for scalable image recognition. in Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.",
+        "DOI": "10.1109/CVPR.2018.00907"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K. , et al. Identity mappings in deep residual networks. in Computer Vision\u2013ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11\u201314, 2016, Proceedings, Part IV 14. 2016. Springer.",
+        "DOI": "10.1007/978-3-319-46493-0_38"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.19",
+        "unstructured": "Simonyan, K. and A. Zisserman , Very Deep Convolutional Networks for Large-Scale Image Recognition, in 3rd International Conference on Learning Representations. 2015: San Diego, CA, USA."
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chollet, F. Xception: Deep learning with depthwise separable convolutions. in Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "issue": "6",
+        "key": "2024042604050482000_2024.04.22.590420v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "905",
+        "DOI": "10.1016/j.stem.2020.10.004",
+        "article-title": "Three-dimensional human alveolar stem cell culture models reveal infection response to SARS-CoV-2",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "Cell Stem Cell"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.22",
+        "unstructured": "Clark, A. , Pillow (pil fork) documentation. readthedocs, 2015."
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4491",
+        "DOI": "10.1038/s41598-024-54923-y",
+        "article-title": "A novel interpretable deep transfer learning combining diverse learnable parameters for improved T2D prediction based on single-cell gene regulatory networks",
+        "volume": "14",
+        "year": "2024",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.1016/j.compbiomed.2018.08.006",
+        "article-title": "Boosting support vector machines for cancer discrimination tasks",
+        "volume": "101",
+        "year": "2018",
+        "journal-title": "Computers in biology and medicine"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fatica, M. CUDA toolkit and libraries. in 2008 IEEE hot chips 20 symposium (HCS). 2008. IEEE.",
+        "DOI": "10.1109/HOTCHIPS.2008.7476520"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.26",
+        "article-title": "cudnn: Efficient primitives for deep learning",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.27",
+        "unstructured": "Abadi, M. , et al. TensorFlow: a system for Large-Scale machine learning. in 12th USENIX symposium on operating systems design and implementation (OSDI 16). 2016."
+      },
+      {
+        "issue": "2",
+        "key": "2024042604050482000_2024.04.22.590420v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1109/MCSE.2021.3059263",
+        "article-title": "Jupyter: Thinking and storytelling with code and data",
+        "volume": "23",
+        "year": "2021",
+        "journal-title": "Computing in Science & Engineering"
+      },
+      {
+        "issue": "207",
+        "key": "2024042604050482000_2024.04.22.590420v1.29",
+        "first-page": "108",
+        "article-title": "Project Jupyter: Computational narratives as the engine of collaborative data science",
+        "volume": "11",
+        "year": "2015",
+        "journal-title": "Retrieved September"
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.30",
+        "unstructured": "McKinney, W. , Python for data analysis. 2022: \u201cO\u2019Reilly Media, Inc.\u201d."
+      },
+      {
+        "key": "2024042604050482000_2024.04.22.590420v1.31",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "the Journal of machine Learning research"
+      },
+      {
+        "issue": "1",
+        "key": "2024042604050482000_2024.04.22.590420v1.32",
+        "first-page": "1",
+        "article-title": "Package \u2018ggplot2\u2019",
+        "volume": "2",
+        "year": "2016",
+        "journal-title": "Create elegant data visualisations using the grammar of graphics. Version"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.22.590420",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:19:26Z",
+      "timestamp": 1768457966000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.04.22.590420"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          22
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1101/2024.04.22.590420",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/math12101573",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

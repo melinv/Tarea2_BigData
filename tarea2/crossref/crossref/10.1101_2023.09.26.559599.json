@@ -1,0 +1,434 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:13:28Z",
+      "timestamp": 1768508008796,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          27
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 35,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The covid-19 pandemic brought negative impacts in almost every country in the world. These impacts were observed mainly in the public health sphere, with a rapid raise and spread of the disease and failed attempts to restrain it while there was no treatment. However, in developing countries, the impacts were severe in other aspects such as the intensification of social inequality, poverty and food insecurity. Specifically in Brazil, the miscommunication among the government layers conducted the control measures to a complete chaos in a country of continental dimensions. Brazil made an effort to register granular informative data about the case reports and their outcomes, while this data is available and can be consumed freely, there are issues concerning the integrity and inconsistencies between the real number of cases and the number of notifications in this dataset.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We projected and implemented four types of analysis to explore the Brazilian public dataset of Severe Acute Respiratory Syndrome (srag dataset) notifications and the google dataset of community mobility change (mobility dataset). These analysis provides some diagnosis of data integration issues and strategies to integrate data and experimentation of surveillance analysis. The first type of analysis aims at describing and exploring the data contained in both datasets, starting by assessing the data quality concerning missing data, then summarizing the patterns found in this datasets. The Second type concerns an statistical experiment to estimate the cases from mobility patterns organized in periods of time. We also developed, as the third analysis type, an algorithm to help the understanding of the disease waves by detecting them and compare the time periods across the cities. Lastly, we build time series datasets considering deaths, overall cases and residential mobility change in regular time periods and used as features to group cities with similar behavior.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The exploratory data analysis showed the under representation of covid-19 cases in many small cities in Brazil that were absent in the srag dataset or with a number of cases very low than real projections. We also assessed the availability of data for the Brazilian cities in the mobility dataset in each state, finding out that not all the states were represented and the best coverage occurred in Rio de Janeiro state. We compared the capacity of place categories mobility change combination on estimating the number of cases measuring the errors and identifying the best components in mobility that could affect the cases. In order to target specific strategies for groups of cities, we compared strategies to cluster cities that obtained similar outcomes behavior along the time, highlighting the divergence on handling the disease.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/YasCoMa/dashboard-srag-mobility\">https://github.com/YasCoMa/dashboard-srag-mobility</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.09.26.559599",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2023-09-27T20:20:20Z",
+      "timestamp": 1695846020000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "survInTime - Exploring surveillance methods and data analysis on Brazilian respiratory syndrome dataset and community mobility changes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6830-1948",
+        "authenticated-orcid": false,
+        "given": "Yasmmin C\u00f4rtes",
+        "family": "Martins",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7419-3907",
+        "authenticated-orcid": false,
+        "suffix": "Jr",
+        "given": "Ronaldo Francisco",
+        "family": "da Silva",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "2023093011000967000_2023.09.26.559599v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200709",
+        "DOI": "10.1590/0001-3765202020200709",
+        "article-title": "COVID-19 pandemic outbreak: the brazilian reality from the first case to the collapse of health services",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "An. Acad. Bras. Cienc"
+      },
+      {
+        "issue": "7",
+        "key": "2023093011000967000_2023.09.26.559599v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1133",
+        "DOI": "10.1038/s41591-021-01423-5",
+        "article-title": "Brazil needs a coordinated and cooperative approach to tackle COVID-19",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Nat. Med"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "911036",
+        "DOI": "10.3389/fmicb.2022.911036",
+        "article-title": "Epidemiologic profile of severe acute respiratory infection in brazil during the COVID-19 pandemic: An epidemiological study",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Front. Microbiol"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lima, T.M. , Palamim, C.V.C. , Melani, V.F. , Mendes, M.F. , Pereira, L.R. , Marson, F.A.L. : COVID-19 underreporting in brazil among patients with severe acute respiratory syndrome during the pandemic: An ecological study. Diagnostics (Basel) 12(6) (2022)",
+        "DOI": "10.3390/diagnostics12061505"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nascimento, I.J.B. , Pinto, L.R. , Fernandes, V.A. , et al.: Clinical characteristics and outcomes among brazilian patients with severe acute respiratory syndrome coronavirus 2 infection: an observational retrospective \u2026. Sao Paulo Med. J. (2020)",
+        "DOI": "10.1590/1516-3180.2020.00365.r1.08092020"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "230012",
+        "DOI": "10.1590/1980-549720230012",
+        "article-title": "COVID-19 severe acute respiratory syndrome in brazilian newborns in 2020-2021",
+        "volume": "26",
+        "year": "2023",
+        "journal-title": "Rev. Bras. Epidemiol"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "461",
+        "DOI": "10.1590/1806-9304202100s200008",
+        "article-title": "Severe acute respiratory syndrome by COVID-19 in pregnant and postpartum women",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Rev. Bras. Saude Mater. Infant"
+      },
+      {
+        "issue": "12",
+        "key": "2023093011000967000_2023.09.26.559599v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1388",
+        "DOI": "10.1016/j.jiph.2022.10.016",
+        "article-title": "Factors associated with death due to severe acute respiratory syndrome caused by influenza: Brazilian population study",
+        "volume": "15",
+        "year": "2022",
+        "journal-title": "J. Infect. Public Health"
+      },
+      {
+        "issue": "10",
+        "key": "2023093011000967000_2023.09.26.559599v1.9",
+        "first-page": "0274797",
+        "article-title": "Demographic and epidemiological characteristics of pregnant and postpartum women who died from severe acute respiratory syndrome in brazil: A retrospective cohort study comparing COVID-19 and nonspecific etiologic causes",
+        "volume": "17",
+        "year": "2022",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sansone, N.M.S. , Boschiero, M.N. , Ortega, M.M. , et al.: Severe acute respiratory syndrome by SARS-CoV-2 infection or other etiologic agents among brazilian indigenous population: an observational study from \u2026. The Lancet Regional (2022)",
+        "DOI": "10.1016/j.lana.2021.100177"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0903215107"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "012017",
+        "DOI": "10.1088/1757-899X/336/1/012017",
+        "article-title": "Integration kmeans clustering method and elbow method for identification of the best customer profile cluster",
+        "volume": "336",
+        "year": "2018",
+        "journal-title": "In: IOP Conference Series: Materials Science and Engineering"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.8259"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/scientificamerican0503-60"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.15",
+        "unstructured": "Craven, B.D. , Islam, S.M.N. : Ordinary least-squares regression. The SAGE dictionary of quantitative (2011)"
+      },
+      {
+        "issue": "15",
+        "key": "2023093011000967000_2023.09.26.559599v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "2919",
+        "DOI": "10.1002/sim.2759",
+        "article-title": "Statistical evidence for GLM regression parameters: a robust likelihood approach",
+        "volume": "26",
+        "year": "2007",
+        "journal-title": "Stat. Med"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "623",
+        "DOI": "10.7717/peerj-cs.623",
+        "article-title": "The coefficient of determination r-squared is more informative than SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "PeerJ Comput Sci"
+      },
+      {
+        "issue": "3",
+        "key": "2023093011000967000_2023.09.26.559599v1.18",
+        "first-page": "0248029",
+        "article-title": "First and second waves of coronavirus disease-19: A comparative study in hospitalized patients in reus, spain",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.04.018"
+      },
+      {
+        "issue": "6",
+        "key": "2023093011000967000_2023.09.26.559599v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "2190",
+        "DOI": "10.55730/1300-0632.3933",
+        "article-title": "A new network-based community detection algorithm for disjoint communities",
+        "volume": "30",
+        "year": "2022",
+        "journal-title": "TURK. J. OF ELECTR. ENG. COMPUT. SCI"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0031-3203(02)00060-2"
+      },
+      {
+        "issue": "3",
+        "key": "2023093011000967000_2023.09.26.559599v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.3390/epidemiologia2030018",
+        "article-title": "The COVID-19 pandemic in brazil: Some aspects and tools",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Epidemiologia (Basel)"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10109-020-00344-0"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.prrv.2020.06.013"
+      },
+      {
+        "issue": "Pt D",
+        "key": "2023093011000967000_2023.09.26.559599v1.25",
+        "first-page": "112369",
+        "article-title": "Negative-Binomial and quasi-poisson regressions between COVID-19, mobility and environment in s\u00e3o paulo, brazil",
+        "volume": "204",
+        "year": "2022",
+        "journal-title": "Environ. Res"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arag\u00e3o, D.P. , Junior, A.G.d.S. , Mondini, A. , Distante, C. , Gon\u00e7alves, L.M.G. : COVID-19 patterns in araraquara, brazil: A multimodal analysis. Int. J. Environ. Res. Public Health 20(6) (2023)",
+        "DOI": "10.3390/ijerph20064740"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nesteruk, I. : Waves of COVID-19 pandemic. Detection and SIR simulations (2020)",
+        "DOI": "10.1101/2020.08.03.20167098"
+      },
+      {
+        "issue": "9",
+        "key": "2023093011000967000_2023.09.26.559599v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1109/MCOM.101.2001252",
+        "article-title": "Quickest detection and forecast of pandemic outbreaks: Analysis of COVID-19 waves",
+        "volume": "59",
+        "year": "2021",
+        "journal-title": "IEEE Commun. Mag"
+      },
+      {
+        "issue": "1",
+        "key": "2023093011000967000_2023.09.26.559599v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "18464",
+        "DOI": "10.1038/s41598-021-97990-1",
+        "article-title": "Early outcome detection for COVID-19 patients",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "656635",
+        "DOI": "10.3389/fpubh.2021.656635",
+        "article-title": "Prediction of COVID-19 waves using social media and google search: A case study of the US and canada",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Front Public Health"
+      },
+      {
+        "issue": "4",
+        "key": "2023093011000967000_2023.09.26.559599v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1007/s10654-021-00750-8",
+        "article-title": "Second wave of COVID-19 in brazil: younger at higher risk",
+        "volume": "36",
+        "year": "2021",
+        "journal-title": "Eur. J. Epidemiol"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.32",
+        "first-page": "100041",
+        "article-title": "Clinical characteristics of the first and second COVID-19 waves in the bronx, new york: A retrospective cohort study",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Lancet Reg Health Am"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mitrofanova, L.B. , Makarov, I.A. , Gorshkov, A.N. , Runov, A.L. , Vonsky, M.S. , Pisareva, M.M. , Komissarov, A.B. , Makarova, T.A. , Li, Q. , Karonova, T.L. , Konradi, A.O. , Shlaykhto, E.V. : Comparative study of the myocardium of patients from four COVID-19 waves. Diagnostics (Basel) 13(9) (2023)",
+        "DOI": "10.3390/diagnostics13091645"
+      },
+      {
+        "key": "2023093011000967000_2023.09.26.559599v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "100287",
+        "DOI": "10.1016/j.onehlt.2021.100287",
+        "article-title": "Collapse of the public health system and the emergence of new variants during the second wave of the COVID-19 pandemic in brazil",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "One Health"
+      },
+      {
+        "issue": "11",
+        "key": "2023093011000967000_2023.09.26.559599v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1190",
+        "DOI": "10.6004/jnccn.2022.7075",
+        "article-title": "Incident cancer detection during multiple waves of COVID-19: The tsunami after the earthquake",
+        "volume": "20",
+        "year": "2022",
+        "journal-title": "J. Natl. Compr. Canc. Netw"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.26.559599",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:17:24Z",
+      "timestamp": 1768454244000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.26.559599"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          27
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1101/2023.09.26.559599",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

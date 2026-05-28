@@ -1,0 +1,355 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T23:21:10Z",
+      "timestamp": 1768519270037,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          17
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              17
+            ]
+          ],
+          "date-time": "2024-12-17T00:00:00Z",
+          "timestamp": 1734393600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NSF grant #1725729, UIUC, labs and sequence contributors"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The severe acute respiratory system coronavirus 2 (SARS-CoV-2) pandemic led to 700 million infections and 7 million deaths worldwide. While studying these viruses, scientists developed a large amount of sequencing data that was made available to researchers. Large language models (LLMs) are pre-trained on large databases of proteins and prior work has shown its use in studying the structure and function of proteins. This paper proposes an unsupervised framework for characterizing SARS-CoV-2 sequences using large language models. First, we perform a comparison of several protein language models previously proposed by other authors. This step is used to determine how clustering and classification approaches perform on SARS-CoV-2 sequence embeddings. In this paper, we focus on surface glycoprotein sequences, also known as spike proteins in SARS-CoV-2 because scientists have previously studied their involvement in being recognized by the human immune system. Our contrastive learning framework is trained in an unsupervised manner, leveraging the Levenshtein distance from pairwise alignment of sequences when the contrastive loss is computed by the Siamese Neural Network. The final part of this paper focuses on a comparison with a previous approach on a test dataset containing data from the latter part of the pandemic. In the prediction of emerging variants, the proposed LLM-based approach shows an improvement of 0.1914 in terms of the adjusted rand index clustering compared to a previously proposed approach. This shows the potential of applying large-language models to this field.</jats:p>",
+    "DOI": "10.1101/2024.12.16.628708",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2025-01-02T02:47:54Z",
+      "timestamp": 1735786074000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "An unsupervised framework for comparing SARS-CoV-2 protein sequences using LLMs"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Sayantani B.",
+        "family": "Littlefield",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Roy H.",
+        "family": "Campbell",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1631/jzus.B2000479"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2020.35057"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41580-021-00418-x"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-019-0143-6"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. N. Flamholz , S. J. Biller , and L. Kelly , \u201cLarge\n                        language models improve annotation of viral proteins,\u201d Research square,\n                        2023.",
+        "DOI": "10.1038/s41564-023-01584-8"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-024-03236-4"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.03773"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Huddleston , J. Hadfield , T. R. Sibley , J. Lee , K.\n                        Fay , M. Ilcisin , E. Harkins , T. Bedford , R. A. Neher , and E. B.\n                        Hodcroft , \u201cAugur: a bioinformatics toolkit for phylogenetic analyses of\n                        human pathogens,\u201d Journal of open source software, vol. 6, no. 57,\n                        2021.",
+        "DOI": "10.21105/joss.02906"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.9"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-31368-3"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.11",
+        "unstructured": "S. Basu , \u201cA study of the dynamics and genetics of\n                        COVID-19 through machine learning,\u201d Master\u2019s thesis, University of Illinois\n                        Urbana-Champaign, 2020."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0232391"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1009149"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Basu and R. H. Campbell , \u201cClassifying COVID-19\n                        variants based on genetic sequences using deep learning models,\u201d in System\n                        Dependability and Analytics: Approaching System Dependability from Data,\n                        System and Analytics Perspectives. Springer, 2022, pp.\n                        347\u2013360.",
+        "DOI": "10.1007/978-3-031-02063-6_19"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0141287"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac020"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.17",
+        "unstructured": "T. Mikolov , I. Sutskever , K. Chen , G. S. Corrado , and\n                        J. Dean , \u201cDistributed representations of words and phrases and their\n                        compositionality,\u201d Advances in neural information processing systems, vol.\n                        26, 2013."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.18",
+        "unstructured": "J. Devlin , M.-W. Chang , K. Lee , and K. Toutanova ,\n                        \u201cBERT: Pre-training of Deep Bidirectional Transformers for Language\n                        Understanding,\u201d in Proceedings of the 2019 Conference of the North American\n                        Chapter of the Association for Computational Linguistics: Human Language\n                        Technologies, Volume 1 (Long and Short Papers), 2019, pp.\n                        4171\u20134186."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.19",
+        "unstructured": "A. Vaswani , N. Shazeer , N. Parmar , J. Uszkoreit , L.\n                        Jones , A. N. Gomez , \u0141. Kaiser , and I. Polosukhin , \u201cAttention is all you\n                        need,\u201d Advances in neural information processing systems, vol. 30,\n                        2017."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.20",
+        "unstructured": "A. Radford , K. Narasimhan , T. Salimans , I. Sutskever\n                        et al., \u201cImproving language understanding by generative pre-training,\u201d\n                        OpenAI, 2018."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/10943420231201154"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Rives , J. Meier , T. Sercu , S. Goyal , Z. Lin , J.\n                        Liu , D. Guo , M. Ott , C. L. Zitnick , J. Ma , and R. Fergus , \u201cBiological\n                        structure and function emerge from scaling unsupervised learning to 250\n                        million protein sequences,\u201d PNAS, 2019. [Online]. Available:\n                        https://www.biorxiv.org/content/10.1101/622803v4",
+        "DOI": "10.1101/622803"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. M. Rao , J. Meier , T. Sercu , S. Ovchinnikov , and A.\n                        Rives , \u201cTransformer protein language models are unsupervised structure\n                        learners,\u201d bioRxiv, 2020. [Online]. Available:\n                        https://www.biorxiv.org/content/10.1101/2020.12.15.422761v1",
+        "DOI": "10.1101/2020.12.15.422761"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.24",
+        "unstructured": "Z. Lin , H. Akin , R. Rao , B. Hie , Z. Zhu , W. Lu , N.\n                        Smetanin , A. dos Santos Costa , M. Fazel-Zarandi , T. Sercu , S. Candido et\n                        al., \u201cLanguage models of protein sequences at the scale of evolution enable\n                        accurate structure prediction,\u201d bioRxiv, 2022."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.25",
+        "unstructured": "G. Koch , R. Zemel , R. Salakhutdinov et al., \u201cSiamese\n                        neural networks for one-shot image recognition,\u201d in ICML deep learning\n                        workshop, vol. 2, no. 1. Lille, 2015."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Madan , V. Demina , M. Stapf , O. Ernst , and H.\n                        Fr\u00f6hlich , \u201cAccurate prediction of virus-host protein-protein interactions\n                        via a Siamese neural network using deep protein sequence embeddings,\u201d\n                        Patterns, vol. 3, no. 9, 2022.",
+        "DOI": "10.1016/j.patter.2022.100551"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbab228"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Basu , R. H. Campbell , and K. Karahalios , \u201cDetection\n                        of Novel COVID-19 Variants with Zero-Shot Learning,\u201d HealthNLP\u201923, IEEE\n                        ICHI, 2023.",
+        "DOI": "10.1109/ICHI57859.2023.00106"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-020-0770-5"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/veab064"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Bromley , I. Guyon , Y. LeCun , E. S\u00e4ckinger , and R.\n                        Shah , \u201cSignature verification using a \u201csiamese\u201d time delay neural network,\u201d\n                        Advances in neural information processing systems, vol. 6,\n                        1993.",
+        "DOI": "10.1142/9789812797926_0003"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.coviro.2022.101200"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.33",
+        "article-title": "Adam: A method for stochastic optimization",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "V. Kindratenko , D. Mu , Y. Zhan , J. Maloney , S. H.\n                        Hashemi , B. Rabe , K. Xu , R. Campbell , J. Peng , and W. Gropp , \u201cHAL:\n                        Computer system for scalable deep learning,\u201d in Practice and experience in\n                        advanced research computing, 2020, pp. 41\u201348.",
+        "DOI": "10.1145/3311790.3396649"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.35",
+        "unstructured": "G. E. Hinton and S. Roweis , \u201cStochastic neighbor\n                        embedding,\u201d Advances in neural information processing systems, vol. 15,\n                        2002."
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.36",
+        "unstructured": "L. Van der Maaten and G. Hinton , \u201cVisualizing data using\n                        t-SNE,\u201d Journal of machine learning research, vol. 9, no. 11,\n                        2008."
+      },
+      {
+        "issue": "2",
+        "key": "2025010122301049000_2024.12.16.628708v1.37",
+        "first-page": "136",
+        "article-title": "Diffusion models in bioinformatics and computational biology",
+        "volume": "2",
+        "year": "2024",
+        "journal-title": "Nature reviews bioengineering"
+      },
+      {
+        "key": "2025010122301049000_2024.12.16.628708v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0219720017500172"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.16.628708",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T07:44:02Z",
+      "timestamp": 1768463042000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.16.628708"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          17
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2024.12.16.628708",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

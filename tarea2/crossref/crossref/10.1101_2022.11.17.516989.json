@@ -1,0 +1,656 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:44:13Z",
+      "timestamp": 1768502653888,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          19
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The never-ending emergence of SARS-CoV-2 variations of concern (VOCs) has challenged the whole world for pandemic control. In order to develop effective drugs and vaccines, one needs to efficiently simulate SARS-CoV-2 spike receptor binding domain (RBD) mutations and identify high-risk variants. We pretrain a large protein language model with approximately 408 million protein sequences and construct a high-throughput screening for the prediction of binding affinity and antibody escape. As the first work on SARS-CoV-2 RBD mutation simulation, we successfully identify mutations in the RBD regions of 5 VOCs and can screen millions of potential variants in seconds. Our workflow scales to 4096 NPUs with 96.5% scalability and 493.9\u00d7 speedup in mixed precision computing, while achieving a peak performance of 366.8 PFLOPS (reaching 34.9% theoretical peak) on Pengcheng Cloudbrain-II. Our method paves the way for simulating coronavirus evolution in order to prepare for a future pandemic that will inevitably take place. Our models are released at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/ZhiweiNiepku/SARS-CoV-2_mutation_simulation\">https://github.com/ZhiweiNiepku/SARS-CoV-2_mutation_simulation</jats:ext-link>\n                  to facilitate future related work.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Justification</jats:title>\n                  <jats:p>We develop a novel multi-constraint variation prediction framework to simulate SARS-CoV-2 RBD mutations, reaching a peak performance of 366.8 PFLOPS with 96.5% scalability and achieving 493.9\u00d7 speedup. Our method facilitates the prediction and prioritization of future high-risk variants for the early deployment of drugs and vaccines.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Performance attributes</jats:title>\n                  <jats:table-wrap id=\"utbl1\" orientation=\"portrait\" position=\"float\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"516989v4_utbl1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:table-wrap>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Overview of the problem</jats:title>\n                  <jats:p>\n                    Coronavirus Disease 2019 (COVID-19) has spread rapidly to more than 200 countries or regions since December 2019. Due to its high infectivity, there have been over 645 million confirmed cases, including approximately 6.6 million deaths, reported by the World Health Organization (WHO) as of December 2022\n                    <jats:sup>1</jats:sup>\n                    . In addition to being a serious threat to human health, COVID-19 has had a catastrophic impact on the global economy.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.11.17.516989",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2022-11-19T14:35:10Z",
+      "timestamp": 1668868510000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Running ahead of evolution - AI based simulation for predicting future high-risk SARS-CoV-2 variants"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jie",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Zhiwei",
+        "family": "Nie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4976-9366",
+        "authenticated-orcid": false,
+        "given": "Yu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kai",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhiheng",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bing",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhennan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guoli",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jingyi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jie",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiansong",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhongqi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhixiang",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qiankun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daixi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dongqing",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bin",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chao",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yonghong",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wen",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/emph/eoac010"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm024"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0809524106"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-022-01240-x"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2020.07.009"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc6952"
+      },
+      {
+        "issue": "4",
+        "key": "2023011402501548000_2022.11.17.516989v4.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "536",
+        "DOI": "10.1038/s41564-020-0695-z",
+        "article-title": "The species severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+        "volume": "5",
+        "author": "Coronaviridae Study Group of the International Committee on Taxonomy of Viruses",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "issue": "4",
+        "key": "2023011402501548000_2022.11.17.516989v4.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1010056",
+        "DOI": "10.1371/journal.pcbi.1010056",
+        "article-title": "phastsim: efficient simulation of sequence evolution for pandemic-scale datasets",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.9",
+        "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa030747"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3000003"
+      },
+      {
+        "issue": "10",
+        "key": "2023011402501548000_2022.11.17.516989v4.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "7112",
+        "DOI": "10.1109/TPAMI.2021.3095381",
+        "article-title": "ProtTrans: Toward understanding the language of life through self-supervised learning",
+        "volume": "44",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq322"
+      },
+      {
+        "issue": "1",
+        "key": "2023011402501548000_2022.11.17.516989v4.14",
+        "first-page": "1",
+        "article-title": "ProtGPT2 is a deep unsupervised language model for protein design",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msp098"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/viro.2000.0757"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.17",
+        "article-title": "Accurate, large minibatch SGD: Training imagenet in 1 hour",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.18",
+        "article-title": "Large-scale deep learning optimizations: A comprehensive survey",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.19",
+        "unstructured": "Hoffer E , Hubara I and Soudry D (2017) Train longer, generalize better: closing the generalization gap in large batch training of neural networks. Advances in neural information processing systems 30."
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.02.052"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.21",
+        "article-title": "Universal language model fine-tuning for text classification",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/18.2.337"
+      },
+      {
+        "issue": "27",
+        "key": "2023011402501548000_2022.11.17.516989v4.23",
+        "first-page": "2100570",
+        "article-title": "Predicted dominance of variant Delta of SARS-CoV-2 before Tokyo olympic games, Japan, July 2021",
+        "volume": "26",
+        "year": "2021",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.24",
+        "article-title": "On large-batch training for deep learning: Generalization gap and sharp minima",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lamers MM and Haagmans BL (2022) SARS-CoV-2 pathogenesis. Nature Reviews Microbiology : 1\u201315.",
+        "DOI": "10.1038/s41579-022-00713-0"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.26",
+        "article-title": "ALBERT: A lite BERT for self-supervised learning of language representations",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bth264"
+      },
+      {
+        "issue": "3",
+        "key": "2023011402501548000_2022.11.17.516989v4.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbac036",
+        "DOI": "10.1093/bib/bbac036",
+        "article-title": "Deep learning based on biologically interpretable genome representation predicts two types of human adaptation of SARS-CoV-2 variants",
+        "volume": "23",
+        "year": "2022",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature02145"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.30",
+        "unstructured": "Li Z , Wallace E , Shen S , Lin K , Keutzer K , Klein D and Gonzalez J (2020) Train big, then compress: Rethinking model size for efficient training and inference of transformers. In: International Conference on Machine Learning. pp. 5958\u20135968."
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.31",
+        "article-title": "RoBERTa: A robustly optimized BERT pretraining approach",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tim.2015.06.003"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30251-8/ATTACHMENT/1686D69B-3F2C44B2-A8A5-C648EF9D1C2B/MMC1.PDF"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohamed T , Sayed S , Salah A and Houssein EH (2021) Next generation sequence prediction intelligent system for SARS-CoV-2 using deep learning neural network. In: 2021 17th International Computer Engineering Conference (ICENCO). IEEE, pp. 88\u201393.",
+        "DOI": "10.1109/ICENCO49852.2021.9698948"
+      },
+      {
+        "issue": "6599",
+        "key": "2023011402501548000_2022.11.17.516989v4.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1327",
+        "DOI": "10.1126/science.abm1208",
+        "article-title": "Analysis of 6.4 million SARS-CoV-2 genomes identifies mutations associated with fitness",
+        "volume": "376",
+        "year": "2022",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1750",
+        "DOI": "10.1016/j.csbj.2021.03.022",
+        "article-title": "The language of proteins: Nlp, machine learning & protein sequences",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Computational and Structural Biotechnology Journal"
+      },
+      {
+        "issue": "1",
+        "key": "2023011402501548000_2022.11.17.516989v4.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.1109/TPAMI.2020.3004354",
+        "article-title": "Scalable and practical natural gradient for large-scale deep learning",
+        "volume": "44",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "issue": "5",
+        "key": "2023011402501548000_2022.11.17.516989v4.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "935",
+        "DOI": "10.3390/v13050935",
+        "article-title": "Prediction and evolution of the molecular fitness of SARS-CoV-2 variants: Introducing SpikePro",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Viruses"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/13.3.235"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2016239118"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2024815118"
+      },
+      {
+        "issue": "8",
+        "key": "2023011402501548000_2022.11.17.516989v4.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1010409",
+        "DOI": "10.1371/journal.pcbi.1010409",
+        "article-title": "Vgsim: scalable viral genealogy simulator for global pandemic",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "13",
+        "key": "2023011402501548000_2022.11.17.516989v4.43",
+        "first-page": "30494",
+        "article-title": "GISAID: Global initiative on sharing all influenza data\u2013from vision to reality",
+        "volume": "22",
+        "year": "2017",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.antiviral.2013.09.028"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-1"
+      },
+      {
+        "issue": "5",
+        "key": "2023011402501548000_2022.11.17.516989v4.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1295",
+        "DOI": "10.1016/j.cell.2020.08.012",
+        "article-title": "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0006-3495(96)79210-X"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tim.2016.03.003"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm098"
+      },
+      {
+        "issue": "7",
+        "key": "2023011402501548000_2022.11.17.516989v4.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1016/j.resmic.2009.05.004",
+        "article-title": "The origin of the genetic code and of the earliest oligopeptides",
+        "volume": "160",
+        "year": "2009",
+        "journal-title": "Research in Microbiology"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.51"
+      },
+      {
+        "issue": "7",
+        "key": "2023011402501548000_2022.11.17.516989v4.52",
+        "first-page": "e00127",
+        "article-title": "Receptor recognition by the novel coronavirus from Wuhan: an analysis based on decade-long structural studies of SARS coronavirus",
+        "volume": "94",
+        "year": "2020",
+        "journal-title": "Journal of Virology"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb2507"
+      },
+      {
+        "issue": "5",
+        "key": "2023011402501548000_2022.11.17.516989v4.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "766",
+        "DOI": "10.1016/j.apsb.2020.02.008",
+        "article-title": "Analysis of therapeutic targets for SARS-CoV-2 and discovery of potential drugs by computational methods",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Acta Pharmaceutica Sinica B"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.55",
+        "article-title": "Phylotransformer: A discriminative model for mutation prediction based on a multi-head self-attention mechanism",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.56",
+        "unstructured": "Yang Z , Dai Z , Yang Y , Carbonell J , Salakhutdinov RR and Le QV (2019) XLNet: Generalized autoregressive pretraining for language understanding. Advances in neural information processing systems 32."
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/resp.13196"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1814684116"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1211721"
+      },
+      {
+        "key": "2023011402501548000_2022.11.17.516989v4.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.17.516989",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T03:53:21Z",
+      "timestamp": 1768449201000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.17.516989"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          19
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2022.11.17.516989",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1177/10943420231188077",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

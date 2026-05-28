@@ -1,0 +1,157 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T01:13:23Z",
+      "timestamp": 1768526003203,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 0,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2025-09-03T00:00:00Z",
+          "timestamp": 1756857600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The rapid evolution of SARS-CoV-2 presents significant challenges for modeling viral dynamics, driven by lineage diversification and region-specific mutation patterns. While phylogenetic trees are traditionally used for evolutionary inference, the massive volume of SARS-CoV-2 genomic data, with many similar sequences and few distinguishing mutations, poses computational and methodological limitations. The quasispecies theory instead models viral evolution as a cloud of mutants, motivating a graph-based representation that better captures the complexity of mutational events. Geographic variation adds another critical layer to this complexity. Mutation trends often differ across regions due to local transmission dynamics, host population structures, and selective pressures. In this study, we present the Mutation Learning Graph (MLG), a directed graph framework that organizes SARS-CoV-2 variants based on their cumulative mutation profiles relative to the reference genome (NC_045512.2), thereby capturing the dynamics of mutation propagation. This structure captures fine-grained mutational transitions and encodes plausible evolutionary relationships among variants. To construct these graphs, we introduce an alignment-aware mutation profiling method and a novel ANCESTOR JOINING algorithm, which incorporates ancestral variants as inferred intermediate nodes to connect observed genomes through biologically coherent mutational paths. We generate MLG datasets for ten geographically and epidemiologically diverse regions and benchmark them on two graph-based tasks: node-level lineage classification and edge-level mutational transition prediction. Using baseline graph neural network architectures (GCN, GraphSAGE, GAT, GGNN, VGAE), we demonstrate how mutation-centric graph structures expose key biological challenges, such as lineage imbalance and location-specific mutation spectra. For node classification, GraphSAGE and GGNN consistently achieved high accuracy (up to 0.96) and AUROC (up to 0.98). In contrast, VGAE and GraphSAGE led the way in link prediction, with AUPRCs of up to 0.96. These results highlight the effectiveness of MLG for capturing biologically meaningful mutation patterns and underscore the importance of localized, mutation-aware modeling for predicting viral mutations and future variant emergence.</jats:p>",
+    "DOI": "10.1101/2025.09.02.673804",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2025-09-04T03:45:14Z",
+      "timestamp": 1756957514000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Capturing the Mutational Dynamics of SARS-CoV-2 with Graphs"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5327-9952",
+        "authenticated-orcid": false,
+        "given": "Badhan",
+        "family": "Das",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Lenwood S.",
+        "family": "Heath",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.02.673804",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T09:29:23Z",
+      "timestamp": 1768469363000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.02.673804"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/2025.09.02.673804",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

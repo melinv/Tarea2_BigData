@@ -1,0 +1,312 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:39:09Z",
+      "timestamp": 1768556349378,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          10
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 18,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>As patient health information is highly regulated due to privacy concerns, the majority of machine learning (ML)-based healthcare studies are unable to test on external patient cohorts, resulting in a gap between locally reported model performance and cross-site generalizability. Different approaches have been introduced for developing models across multiple clinical sites, however no studies have compared methods for translating ready-made models for adoption in new settings. We introduce three methods to do this \u2013 (1) applying a ready-made model \u201cas-is\u201d; (2) readjusting the decision threshold on the output of a ready-made model using site-specific data; and (3) finetuning a ready-made model using site-specific data via transfer learning. Using a case study of COVID-19 diagnosis across four NHS Hospital Trusts, we show that all methods achieve clinically-effective performances (NPV &gt;0.959), with transfer learning achieving the best results (mean AUROCs between 0.870-0.925). Our models demonstrate that site-specific customization improves predictive performance when compared to other ready-made approaches.</jats:p>",
+    "DOI": "10.1101/2022.02.09.22269744",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          10
+        ]
+      ],
+      "date-time": "2022-02-10T22:55:11Z",
+      "timestamp": 1644533711000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Machine Learning Generalizability Across Healthcare Settings: Insights from multi-site COVID-19 screening"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0352-8452",
+        "authenticated-orcid": false,
+        "given": "Jenny",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2391-5361",
+        "authenticated-orcid": false,
+        "given": "Andrew A. S.",
+        "family": "Soltan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "10",
+        "key": "2022021208551239000_2022.02.09.22269744v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1610",
+        "DOI": "10.1016/j.spinee.2020.10.006",
+        "article-title": "Fostering reproducibility and generalizability in machine learning for clinical prediction modeling in spine surgery",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "The Spine Journal"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai, X. , Wang, H. , Ma, L. , Xu, Y. , Gan, J. , Fan, Z. , \u2026 & Xia, T. (2021). Advancing COVID-19 diagnosis with privacy-preserving collaboration in artificial intelligence. Nature Machine Intelligence, 1\u20139.",
+        "DOI": "10.1038/s42256-021-00421-z"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barak-Corren, Y. , Fine, A. M. , & Reis, B. Y. (2017). Early prediction model of patient hospitalization from the pediatric emergency department. Pediatrics, 139(5).",
+        "DOI": "10.1542/peds.2016-2785"
+      },
+      {
+        "issue": "1",
+        "key": "2022021208551239000_2022.02.09.22269744v1.4",
+        "first-page": "1",
+        "article-title": "Prediction across healthcare settings: a case study in predicting emergency department disposition",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "npj Digital Medicine"
+      },
+      {
+        "issue": "5",
+        "key": "2022021208551239000_2022.02.09.22269744v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "939",
+        "DOI": "10.1097/ALN.0000000000003223",
+        "article-title": "Machine learning comes of age: local impact versus national generalizability",
+        "volume": "132",
+        "year": "2020",
+        "journal-title": "Anesthesiology"
+      },
+      {
+        "issue": "10",
+        "key": "2022021208551239000_2022.02.09.22269744v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1735",
+        "DOI": "10.1038/s41591-021-01506-3",
+        "article-title": "Federated learning for predicting clinical outcomes in patients with COVID-19",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Nature medicine"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "327",
+        "DOI": "10.3389/fpubh.2017.00327",
+        "article-title": "Data sharing: convert challenges into opportunities",
+        "volume": "5",
+        "year": "2017",
+        "journal-title": "Frontiers in public health"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "102172",
+        "DOI": "10.1016/j.nicl.2020.102172",
+        "article-title": "Distinguishing between paediatric brain tumour types using multi-parametric magnetic resonance imaging and machine learning: A multi-site study",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "NeuroImage: Clinical"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gundersen, O. E. , & Kjensmo, S. (2018, April). State of the art: Reproducibility in artificial intelligence. In Thirty-second AAAI conference on artificial intelligence.",
+        "DOI": "10.1609/aaai.v32i1.11503"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2766-y"
+      },
+      {
+        "issue": "1",
+        "key": "2022021208551239000_2022.02.09.22269744v1.11",
+        "first-page": "5",
+        "article-title": "Machine learning of infant spontaneous movements for the early prediction of cerebral palsy: A multi-site cohort study",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Journal of clinical medicine"
+      },
+      {
+        "issue": "01",
+        "key": "2022021208551239000_2022.02.09.22269744v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "055",
+        "DOI": "10.1055/s-0038-1641216",
+        "article-title": "Between access and privacy: challenges in sharing health data",
+        "volume": "27",
+        "year": "2018",
+        "journal-title": "Yearbook of medical informatics"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McDermott, M. B. , Wang, S. , Marinsek, N. , Ranganath, R. , Foschini, L. , & Ghassemi, M. (2021). Reproducibility in machine learning for health research: Still a ways to go. Science Translational Medicine, 13(586).",
+        "DOI": "10.1126/scitranslmed.abb1655"
+      },
+      {
+        "issue": "9",
+        "key": "2022021208551239000_2022.02.09.22269744v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2130",
+        "DOI": "10.1038/s41380-018-0228-9",
+        "article-title": "Using structural MRI to identify bipolar disorders\u201313 site machine learning study in 3020 individuals from the ENIGMA Bipolar Disorders Working Group",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Molecular psychiatry"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soltan, A. A. , Yang, J. , Pattanshetty, R. , Novak, A. , Rohanian, O. , Beer, S. , \u2026 & Clifton, D. A. (2022). Real-world evaluation of AI driven COVID-19 triage for emergency admissions: External validation & operational assessment of lab-free and high-throughput screening solutions. The Lancet Digital Health. (In Press)",
+        "DOI": "10.1101/2021.08.24.21262376"
+      },
+      {
+        "issue": "2",
+        "key": "2022021208551239000_2022.02.09.22269744v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e78",
+        "DOI": "10.1016/S2589-7500(20)30274-0",
+        "article-title": "Rapid triage for COVID-19 using routine clinical data for patients attending hospital: development and prospective validation of an artificial intelligence screening test",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, J. , Soltan, A. A. , Yang, Y. , & Clifton, D. A. (2022). Algorithmic Fairness and Bias Mitigation for Clinical Machine Learning: Insights from Rapid COVID-19 Diagnosis by Adversarial Learning. medRxiv.",
+        "DOI": "10.1101/2022.01.13.22268948"
+      },
+      {
+        "key": "2022021208551239000_2022.02.09.22269744v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.ebiom.2018.03.017",
+        "article-title": "Multi-site diagnostic classification of schizophrenia using discriminant deep learning with functional connectivity MRI",
+        "volume": "30",
+        "year": "2018",
+        "journal-title": "EBioMedicine"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.09.22269744",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:36:22Z",
+      "timestamp": 1768487782000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.02.09.22269744"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          10
+        ]
+      ]
+    },
+    "references-count": 18,
+    "URL": "https://doi.org/10.1101/2022.02.09.22269744",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41746-022-00614-9",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

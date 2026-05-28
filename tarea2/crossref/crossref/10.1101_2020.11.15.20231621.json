@@ -1,0 +1,447 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:04:32Z",
+      "timestamp": 1768550672951,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>Ali-M3, an artificial intelligence, analyses chest computed tomography (CT) and detects the likelihood of coronavirus disease (COVID-19) in the range of 0 to 1. It demonstrates excellent performance for the detection of COVID-19 patients with a sensitivity and specificity of 98.5 and 99.2%, respectively. However, Ali-M3 has not been externally validated. Our purpose is to evaluate the external validity of Ali-M3 using Japanese sequential sampling data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>In this retrospective cohort study, COVID-19 infection probabilities were calculated using Ali-M3 in 617 symptomatic patients who underwent reverse transcription-polymerase chain reaction (RT-PCR) tests and chest CT for COVID-19 diagnosis at 11 Japanese tertiary care facilities, between January 1 and April 15, 2020.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Of 617 patients, 289 patients (46.8%) were RT-PCR-positive. The area under the curve (AUC) of Ali-M3 for predicting a COVID-19 diagnosis was 0.797 (95% confidence intervals [CI]: 0.762-0.833) and goodness-of-fit was P = 0.156. With a cut-off of probability of COVID-19 by Ali-M3 diagnosis set at 0.5, the sensitivity and specificity were 80.6% and 68.3%, respectively, while a cut-off of 0.2 yielded a sensitivity and specificity of 89.2% and 43.2%, respectively. Among 223 patients who required oxygen support, the AUC was 0.825 and sensitivity at a cut-off of 0.5 and 0.2 were 88.7% and 97.9%, respectively. Although the sensitivity was lower when the days from symptom onset were few, sensitivity increased for both cut-off values after 5 days.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Ali-M3 was evaluated by external validation and shown to be useful to exclude a diagnosis of COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key Points</jats:title>\n                  <jats:list list-type=\"order\">\n                    <jats:list-item>\n                      <jats:p>The area under the curve (AUC) of Ali-M3, which is an AI system for diagnosis of COVID-19 based on chest CT images, was 0.797 and goodness-of-fit was P = 0.156.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>With a cut-off of probability of COVID-19 by Ali-M3 diagnosis set at 0.5, the sensitivity and specificity were 80.6% and 68.3%, respectively, while a cut-off of 0.2 yielded 89.2% and 43.2%.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Although low sensitivity was observed in less number of days from symptoms onset, after 5 days high increasing sensitivity was observed. In patients requiring oxygen support, the AUC was higher that is 0.825.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2020.11.15.20231621",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2020-11-18T13:25:52Z",
+      "timestamp": 1605705952000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Accuracy of deep learning based computed tomography diagnostic system of COVID-19: a consecutive sampling external validation cohort study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3717-8788",
+        "authenticated-orcid": false,
+        "given": "Tatsuyoshi",
+        "family": "Ikenoue",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7982-5213",
+        "authenticated-orcid": false,
+        "given": "Yuki",
+        "family": "Kataoka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yoshinori",
+        "family": "Matsuoka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junichi",
+        "family": "Matsumoto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4619-945X",
+        "authenticated-orcid": false,
+        "given": "Junji",
+        "family": "Kumasawa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kentaro",
+        "family": "Tochitatni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5828-6986",
+        "authenticated-orcid": false,
+        "given": "Hiraku",
+        "family": "Funakoshi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4976-2260",
+        "authenticated-orcid": false,
+        "given": "Tomohiro",
+        "family": "Hosoda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aiko",
+        "family": "Kugimiya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michinori",
+        "family": "Shirano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fumiko",
+        "family": "Hamabe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sachiyo",
+        "family": "Iwata",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8379-8761",
+        "authenticated-orcid": false,
+        "given": "Shingo",
+        "family": "Fukuma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "Japan COVID-19 AI team",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2020112015051161000_2020.11.15.20231621v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "212",
+        "DOI": "10.1016/j.chest.2020.03.063",
+        "article-title": "Triage of Scarce Critical Care Resources in COVID-19 An Implementation Guide for Regional Allocation: An Expert Panel Report of the Task Force for Mass Critical Care and the American College of Chest Physicians",
+        "volume": "158",
+        "year": "2020",
+        "journal-title": "Chest"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/anae.15072"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li Y , Xia L : Coronavirus Disease 2019 (COVID-19): Role of Chest CT in Diagnosis and Management. AJR American journal of roentgenology 2020:1\u20137.",
+        "DOI": "10.2214/AJR.20.22954"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salehi S , Abedi A , Balakrishnan S , Gholamrezanezhad A : Coronavirus Disease 2019 (COVID-19): A Systematic Review of Imaging Findings in 919 Patients. AJR American journal of roentgenology 2020:1\u20137.",
+        "DOI": "10.2214/AJR.20.23034"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou S , Wang Y , Zhu T , Xia L : CT Features of Coronavirus Disease 2019 (COVID-19) Pneumonia in 62 Patients in Wuhan, China. AJR American journal of roentgenology 2020:1\u20138.",
+        "DOI": "10.2214/AJR.20.22975"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chaganti S , Balachandran A , Chabin G , Cohen S , Flohr T , Georgescu B , Grenier P , Grbic S , Liu S , Mellot F et al: Quantification of Tomographic Patterns associated with COVID-19 from Chest CT. ArXiv 2020.",
+        "DOI": "10.1148/ryai.2020200048"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "108941",
+        "DOI": "10.1016/j.ejrad.2020.108941",
+        "article-title": "CT manifestations of coronavirus disease-2019: A retrospective analysis of 73 cases by disease severity",
+        "volume": "126",
+        "year": "2020",
+        "journal-title": "European Journal of Radiology"
+      },
+      {
+        "issue": "3",
+        "key": "2020112015051161000_2020.11.15.20231621v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "715",
+        "DOI": "10.1148/radiol.2020200370",
+        "article-title": "Time Course of Lung Changes at Chest CT during Recovery from Coronavirus Disease 2019 (COVID-19)",
+        "volume": "295",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "2",
+        "key": "2020112015051161000_2020.11.15.20231621v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "E46",
+        "DOI": "10.1148/radiol.2020200823",
+        "article-title": "Performance of Radiologists in Differentiating COVID-19 from Non-COVID-19 Viral Pneumonia at Chest CT",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s41747-018-0061-6"
+      },
+      {
+        "issue": "2",
+        "key": "2020112015051161000_2020.11.15.20231621v1.11",
+        "first-page": "e200075",
+        "article-title": "Serial Quantitative Chest CT Assessment of COVID-19: Deep-Learning Approach",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.12",
+        "unstructured": "Li L , Qin L , Xu Z , Yin Y , Wang X , Kong B , Bai J , Lu Y , Fang Z , Song Q : Artificial Intelligence Distinguishes COVID-19 from Community Acquired Pneumonia on Chest CT. Radiology 2020:200905."
+      },
+      {
+        "issue": "6",
+        "key": "2020112015051161000_2020.11.15.20231621v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "3567",
+        "DOI": "10.1007/s00330-020-06699-8",
+        "article-title": "Evaluation of acute pulmonary embolism and clot burden on CTPA with deep learning",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "European radiology"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m689"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.16",
+        "unstructured": "Academy TAD : COVID-19 AI Assisted Analysis Based On Chest CT Imaging. In., vol. 2: The Alibaba DAMO Academy; 2020."
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M14-0697"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lippi G , Simundic AM , Plebani M : Potential preanalytical and analytical vulnerabilities in the laboratory diagnosis of coronavirus disease 2019 (COVID-19). Clin Chem Lab Med 2020.",
+        "DOI": "10.1515/cclm-2020-0285"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/m20-1495"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/cis403"
+      },
+      {
+        "issue": "6",
+        "key": "2020112015051161000_2020.11.15.20231621v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1038/s41591-020-0897-1",
+        "article-title": "Antibody responses to SARS-CoV-2 in patients with COVID-19",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nat Med"
+      },
+      {
+        "issue": "1",
+        "key": "2020112015051161000_2020.11.15.20231621v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1148/radiol.2020201365",
+        "article-title": "The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "34921",
+        "DOI": "10.1038/srep34921",
+        "article-title": "Effects of contrast-enhancement, reconstruction slice thickness and convolution kernel on the diagnostic performance of radiomics signature in solitary pulmonary nodule",
+        "volume": "6",
+        "year": "2016",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.24",
+        "unstructured": "Organization WH: Rational use of personal protective equipment (PPE) for coronavirus disease (COVID-19): interim guidance, 19 March 2020. In.: World Health Organization; 2020."
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu J , Yang J , Li S , Chen J , Yang L , Zhao Z , Hong L : Gynecological prevention and control model based on ward rearrangement and zoning management in pandemic period of COVID-19. Panminerva Med 2020.",
+        "DOI": "10.23736/S0031-0808.20.03938-5"
+      },
+      {
+        "issue": "1",
+        "key": "2020112015051161000_2020.11.15.20231621v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "16942",
+        "DOI": "10.1038/s41598-020-74164-z",
+        "article-title": "A comprehensive study on classification of COVID-19 on computed tomography with pretrained convolutional neural networks",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "4",
+        "key": "2020112015051161000_2020.11.15.20231621v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1503/cmaj.050090",
+        "article-title": "Evidence of bias and variation in diagnostic accuracy studies",
+        "volume": "174",
+        "year": "2006",
+        "journal-title": "CMAJ : Canadian Medical Association journal = journal de l\u2019Association medicale canadienne"
+      },
+      {
+        "key": "2020112015051161000_2020.11.15.20231621v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai T , Yang Z , Hou H , Zhan C , Chen C , Lv W , Tao Q , Sun Z , Xia L : Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. Radiology 2020:200642.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "issue": "19",
+        "key": "2020112015051161000_2020.11.15.20231621v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1969",
+        "DOI": "10.1001/jama.2020.6173",
+        "article-title": "Seasonal Influenza Activity During the SARS-CoV-2 Outbreak in Japan",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.11.15.20231621",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:58:47Z",
+      "timestamp": 1768485527000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.11.15.20231621"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1101/2020.11.15.20231621",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0258760",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

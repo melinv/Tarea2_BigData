@@ -1,0 +1,535 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2026-02-07T03:13:26Z",
+      "timestamp": 1770434006034,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2026-01-13T00:00:00Z",
+          "timestamp": 1768262400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "School of Mathematics and Statsitics, University of Melbourne, Australia",
+        "award": [
+          "Andrew Sisson Support Package for Early Career Researchers"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Andrew Sisson Support Package for Early Career Researchers"
+            ]
+          }
+        ]
+      },
+      {
+        "award": [
+          "DMS-2113404"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMS-2113404"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/021nxhr62",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "DMS-2515765"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMS-2515765"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/021nxhr62",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "UNC Computational Medicine Program Pilot Award"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "UNC Computational Medicine Program Pilot Award"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/0130frc33",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "National Health and Medical Research Council (NHMRC), Australia",
+        "award": [
+          "GNT2025648"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GNT2025648"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Multiomics data integration aims to identify biological patterns shared across different molecular modalities. Traditional methods focus on detecting either jointly shared variation (across all modalities) or individual variation (unique to single modalities), but overlook partially shared variation, shared by subsets of modalities. This limitation is critical because many biological mechanisms manifest across only some, not all, molecular modalities. Systematically identifying these partially shared patterns is essential for comprehensive understanding of complex biological systems.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We developed an open-source R package that implements DIVAS, a computational framework for systematically identifying jointly shared, partially shared and individual variations across multiple data types. DIVAS employs angle-based subspace analysis with rigorous statistical inference through rotational bootstrap. Unlike existing methods, DIVAS hierarchically searches through all possible combinations of data modalities, providing complete decomposition of multiomics data into interpretable components (modes of variation) with both scores and loadings. Application to multimodal COVID-19 data demonstrates DIVAS\u2019s ability to reveal biologically meaningful partially shared immune and metabolic dysregulation patterns that underpins disease severity and would be missed by conventional integration approaches.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    DIVAS is available as an R package on GitHub (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/ByronSyun/DIVAS_Develop\">https://github.com/ByronSyun/DIVAS_Develop</jats:ext-link>\n                    ). A step-by-step vignette is available on GitHub (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://byronsyun.github.io/DIVAS_COVID19_CaseStudy/\">https://byronsyun.github.io/DIVAS_COVID19_CaseStudy/</jats:ext-link>\n                    ).\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.64898/2026.01.12.698985",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          14
+        ]
+      ],
+      "date-time": "2026-01-14T05:20:10Z",
+      "timestamp": 1768368010000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "DIVAS: an R package for identifying shared and individual variations of multiomics data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-8600-2520",
+        "authenticated-orcid": false,
+        "given": "Yinuo",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia"
+          },
+          {
+            "name": "Monash Biomedicine Discovery Institute and Department of Biochemistry and Molecular Biology, School of Biomedical Sciences, Monash University, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2000-1476",
+        "authenticated-orcid": false,
+        "given": "J. S.",
+        "family": "Marron",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics and Operations Research, The University of North Carolina at Chapel Hill, USA"
+          },
+          {
+            "name": "School of Data Science and Society, The University of North Carolina at Chapel Hill, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3923-1116",
+        "authenticated-orcid": false,
+        "given": "Kim-Anh",
+        "family": "L\u00ea Cao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3818-1981",
+        "authenticated-orcid": false,
+        "given": "Jiadong",
+        "family": "Mao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11336-011-9206-8"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxu001"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11336-017-9573-x"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty1054"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/12-AOAS597"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1016/j.jmva.2018.03.008",
+        "article-title": "Angle-based joint and individual variation explained",
+        "volume": "166",
+        "year": "2018",
+        "journal-title": "J. Multivar. Anal"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20178124"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ricard Argelaguet , Damien Arnol , Danila Bredikhin , Yonatan Deloro , Britta Velten , John C Marioni , and Oliver Stegle . MOFA+: a statistical framework for comprehensive integration of multi-modal single-cell data. Genome Biol., 21(1):111, 2020.",
+        "DOI": "10.1186/s13059-020-02015-1"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/biom.13108"
+      },
+      {
+        "issue": "4",
+        "key": "2026020605401969000_2026.01.12.698985v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2933",
+        "DOI": "10.1111/biom.13893",
+        "article-title": "Raymond Ka Wai Wong, and Irina Gaynanova. Hierarchical nuclear norm penalization for multi-view data integration",
+        "volume": "79",
+        "year": "2023",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11749-024-00923-z"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrew Ackerman , Zhengwu Zhang , Jan Hannig , Jack Prothero , and JS Marron . Multifaceted neuroimaging data integration via analysis of subspaces. Psychometrika, pages 1\u201326, 2024.",
+        "DOI": "10.1017/psy.2025.10020"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.13",
+        "unstructured": "Michael J. O\u2019Connell , Eric F. Lock , and Adam Kaplan. RGCCA: Regularized and Sparse Generalized Canonical Correlation Analysis for Multiblock Data, 2020. URL https://CRAN.R-project.org/package=r.jive. R package version 2.4."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.14",
+        "unstructured": "Kim-Anh L\u00ea Cao , Florian Rohart , Ignacio Gonzalez , Sebastien Dejean , Al J Abadi , Max Bladen , Benoit Gautier , Francois Bartolo , Pierre Monget , Jeff Coquery , FangZou Yao , Benoit Liquet , and Eva Hamrud. mixOmics: Omics Data Integration Project, 2025. URL https://www.bioconductor.org/packages/release/bioc/html/mixOmics.html. Bioconductor Release 3.22."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.15",
+        "unstructured": "Fabien Girka , Etienne Camenen , Caroline Peltier , Arnaud Gloaguen , Vincent Guillemot, Laurent Le Brusquet, and Arthur Tenenhaus. r.jive: Perform JIVE Decomposition for Multi-Source Data, 2023. URL https://CRAN.R-project.org/package=RGCCA. R package version 3.0.3."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.4091755"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.17",
+        "unstructured": "Ricard Argelaguet , Damien Arnol , Danila Bredikhin , and Britta Velten . MOFA2: Multi-Omics Factor Analysis v2, 2025. URL https://www.bioconductor.org/packages/release/bioc/html/MOFA2.html. Bioconductor Release 3.22."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.18",
+        "unstructured": "Yinuo Sun and Jiadong Mao. DIVAS: Data Integration via Analysis of Subspaces, 2025. URL https://github.com/ByronSyun/DIVAS_Develop. GitHub Repository."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2017.2653801"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmva.2013.03.005"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Murat Cihan , Ozlem Dogan , Ceyhan Ceran Serdar , Arzu Altuncekic Y\u0131ld\u0131r\u0131m , Celali Kurt , and Muhittin A Serdar . Kynurenine pathway in coronavirus disease (COVID-19): Potential role in prognosis. J. Clin. Lab. Anal., 36(3):e24257, 2022.",
+        "DOI": "10.1002/jcla.24257"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tiffany Thomas , Davide Stefanoni , Julie A Reisz , Travis Nemkov , Lorenzo Bertolone , Richard O Francis , Krystalyn E Hudson , James C Zimring , Kirk C Hansen , Eldad A Hod , Steven L Spitalnik , and Angelo D\u2019Alessandro . COVID-19 infection alters kynurenine and fatty acid metabolism, correlating with IL-6 levels and renal status. JCI Insight, 5(14), 2020.",
+        "DOI": "10.1172/jci.insight.140327"
+      },
+      {
+        "issue": "11",
+        "key": "2026020605401969000_2026.01.12.698985v1.23",
+        "first-page": "2022",
+        "article-title": "Signatures of mitochondrial dysfunction and impaired fatty acid metabolism in plasma of patients with post-acute sequelae of COVID-19 (PASC)",
+        "volume": "12",
+        "year": "1026",
+        "journal-title": "Metabolites"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chunyu Li , Ruwei Ou , Qianqian Wei , and Huifang Shang . Carnitine and COVID-19 susceptibility and severity: A mendelian randomization study. Front. Nutr., 8:780205, 2021.",
+        "DOI": "10.3389/fnut.2021.780205"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaci.2022.11.032"
+      },
+      {
+        "issue": "3-4",
+        "key": "2026020605401969000_2026.01.12.698985v1.26",
+        "first-page": "53",
+        "article-title": "High levels of serum bile acids in COVID-19 patients on hospital admission",
+        "volume": "24",
+        "year": "2022",
+        "journal-title": "MEDICC Rev"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiaoru Huang , Xuening Liu , and Zijian Li . Bile acids and coronavirus disease 2019. Acta Pharm. Sin. B., 14(5):1939\u20131950, 2024.",
+        "DOI": "10.1016/j.apsb.2024.02.011"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carlos A Labarrere and Ghassan S Kassab . Glutathione deficiency in the pathogenesis of SARS-CoV-2 infection and its effects upon the host immune response in severe COVID-19 disease. Front. Microbiol., 13:979719, 2022.",
+        "DOI": "10.3389/fmicb.2022.979719"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Christian Zanza , Tatsiana Romenskaya , Alice Chiara Manetti , Francesco Franceschi , Raffaele La Russa , Giuseppe Bertozzi , Aniello Maiese , Gabriele Savioli , Gianpietro Volonnino , and Yaroslava Longhitano . Cytokine storm in COVID-19: Immunopathogenesis and therapy. Medicina (Kaunas ), 58(2):144, 2022.",
+        "DOI": "10.3390/medicina58020144"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shintaro Hojyo , Mona Uchida , Kumiko Tanaka , Rie Hasebe , Yuki Tanaka , Masaaki Murakami , and Toshio Hirano . How COVID-19 induces cytokine storm with high mortality. Inflamm. Regen., 40(1):37, 2020.",
+        "DOI": "10.1186/s41232-020-00146-3"
+      },
+      {
+        "issue": "7",
+        "key": "2026020605401969000_2026.01.12.698985v1.31",
+        "first-page": "2024",
+        "article-title": "High serum S100A12 as a diagnostic and prognostic biomarker for severity, multidrug-resistant bacteria superinfection and herpes simplex virus reactivation in COVID-19",
+        "volume": "16",
+        "year": "1084",
+        "journal-title": "Viruses"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jcmm.17622"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Santhamani Ramasamy and Selvakumar Subbian . Critical determinants of cytokine storm and type I interferon response in COVID-19 pathogenesis. Clin. Microbiol. Rev., 34(3), 2021.",
+        "DOI": "10.1128/CMR.00299-20"
+      },
+      {
+        "issue": "1",
+        "key": "2026020605401969000_2026.01.12.698985v1.34",
+        "first-page": "2022",
+        "article-title": "Matrix metalloproteinases (MMP) 3 and 9 as biomarkers of severity in COVID-19 patients",
+        "volume": "12",
+        "year": "1212",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "issue": "6",
+        "key": "2026020605401969000_2026.01.12.698985v1.35",
+        "first-page": "843",
+        "article-title": "Involvement of matrix metalloproteinases in COVID-19: Molecular targets, mechanisms, and insights for therapeutic interventions",
+        "volume": "12",
+        "author": ",",
+        "year": "2023",
+        "journal-title": "Biology (Basel)"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41580-021-00418-x"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yapeng Su , Daniel Chen , Dan Yuan , Christopher Lausted , Jongchan Choi , Chengzhen L Dai , Valentin Voillet , Venkata R Duvvuri , Kelsey Scherler , Pamela Troisch , Priyanka Baloni , Guangrong Qin , Brett Smith , Sergey A Kornilov , Clifford Rostomily , Alex Xu , Jing Li , Shen Dong , Alissa Rothchild , Jing Zhou , Kim Murray , Rick Edmark , Sunga Hong , John E Heath , John Earls , Rongyu Zhang , Jingyi Xie , Sarah Li , Ryan Roper , Lesley Jones , Yong Zhou , Lee Rowen , Rachel Liu , Sean Mackay , D Shane O\u2019Mahony , Christopher R Dale , Julie A Wallick , Heather A Algren , Michael A Zager , ISB-Swedish COVID19 Biobanking Unit, Wei Wei , Nathan D Price , Sui Huang , Naeha Subramanian , Kai Wang , Andrew T Magis , Jenn J Hadlock , Leroy Hood , Alan Aderem , Jeffrey A Bluestone , Lewis L Lanier , Philip D Greenberg , Raphael Gottardo , Mark M Davis , Jason D Goldman , and James R Heath . Multi-omics resolves a sharp diseasestate shift between mild and moderate COVID-19. Cell, 183(6):1479\u20131495.e20, 2020. URL https://www.cell.com/cell/fulltext/S0092-8674(20)31444-6?_returnUR=.",
+        "DOI": "10.1016/j.cell.2020.10.037"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cyto.2021.155637"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vikalp Kumar and Miriam L Greenberg . Emerging roles of pyruvate dehydrogenase phosphatase 1: a key player in metabolic health. Front. Physiol., 16:1596636, 2025.",
+        "DOI": "10.3389/fphys.2025.1596636"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.40",
+        "unstructured": "Yapeng Su . Multi-omics resolves a sharp disease-state shift between mild and moderate COVID-19. Su et al, 2020. URL https://data.mendeley.com/datasets/tzydswhhb5/5. Mendeley Data, V5."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.17430294"
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.42",
+        "unstructured": "Yinuo Sun . DIVAS COVID-19 Case Study, 2025. URL https://github.com/ByronSyun/DIVAS_COVID19_CaseStudy?tab=readme-ov-file. GitHub Repository."
+      },
+      {
+        "key": "2026020605401969000_2026.01.12.698985v1.43",
+        "unstructured": "Jiadong Mao and Yinuo Sun . Finding multiomic markers and pathways underpinning COVID-19 severity using DIVAS, 2025. URL https://byronsyun.github.io/DIVAS_COVID19_CaseStudy/. R Markdown Vignette."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.12.698985",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2026-02-06T13:40:35Z",
+      "timestamp": 1770385235000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.12.698985"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.64898/2026.01.12.698985",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

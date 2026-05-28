@@ -1,0 +1,400 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          4
+        ]
+      ],
+      "date-time": "2026-04-04T20:38:58Z",
+      "timestamp": 1775335138412,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          18
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 32,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Despite a great deal of interest in the application of artificial intelligence (AI) to sepsis/critical illness, most current approaches are limited in their potential impact: prediction models do not (and cannot) address the lack of effective therapeutics and current approaches to enhancing the treatment of sepsis focus on optimizing the application of existing interventions, and thus cannot address the development of new treatment options/modalities. The inability to test new therapeutic applications was highlighted by the generally unsatisfactory results from drug repurposing efforts in COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Hypothesis</jats:title>\n                  <jats:p>Addressing this challenge requires the application of simulation-based, model-free deep reinforcement learning (DRL) in a fashion akin to training the game-playing AIs. We have previously demonstrated the potential of this method in the context of bacterial sepsis in which the microbial infection is responsive to antibiotic therapy. The current work addresses the control problem of multi-modal, adaptive immunomodulation in the circumstance where there is no effective anti-pathogen therapy (e.g., in a novel viral pandemic or in the face of resistant microbes).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>This is a proof-of-concept study that determines the controllability of sepsis without the ability to pharmacologically suppress the pathogen. We use as a surrogate system a previously validated agent-based model, the Innate Immune Response Agent-based Model (IIRABM), for control discovery using DRL. The DRL algorithm \u2018trains\u2019 an AI on simulations of infection where both the control and observation spaces are limited to operating upon the defined immune mediators included in the IIRABM (a total of 11). Policies were learned using the Deep Deterministic Policy Gradient approach, with the objective function being a return to baseline system health.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    DRL trained an AI policy that improved system mortality from 85% to 10.4%. Control actions affected every one of the 11 targetable cytokines and could be divided into those with static/unchanging controls and those with variable/adaptive controls. Adaptive controls primarily targeted 3 different aspects of the immune response: 2\n                    <jats:sup>nd</jats:sup>\n                    order pro-inflammation governing TH1/TH2 balance, primary anti-inflammation, and inflammatory cell proliferation.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>The current treatment of sepsis is hampered by limitations in therapeutic options able to affect the biology of sepsis. This is heightened in circumstances where no effective antimicrobials exist, as was the case for COVID-19. Current AI methods are intrinsically unable to address this problem; doing so requires training AIs in contexts that fully represent the counterfactual space of potential treatments. The synthetic data needed for this task is only possible through the use of high-resolution, mechanism-based simulations. Finally, being able to treat sepsis will require a reorientation as to the sensing and actuating requirements needed to develop these simulations and bring them to the bedside.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.02.17.480940",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          18
+        ]
+      ],
+      "date-time": "2022-02-18T23:10:11Z",
+      "timestamp": 1645225811000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Preparing for the next COVID: Deep Reinforcement Learning trained Artificial Intelligence discovery of multi-modal immunomodulatory control of systemic inflammation in the absence of effective anti-microbials"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Dale",
+        "family": "Larie",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4549-9004",
+        "authenticated-orcid": false,
+        "given": "Gary",
+        "family": "An",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chase",
+        "family": "Cockrell",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.1",
+        "first-page": "2474",
+        "article-title": "The Inflammasome in Times of COVID-19",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "issue": "1",
+        "key": "2022022011451421000_2022.02.17.480940v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1002/jmv.26232",
+        "article-title": "The cytokine storm and COVID-19",
+        "volume": "93",
+        "year": "2021",
+        "journal-title": "Journal of medical virology"
+      },
+      {
+        "issue": "1",
+        "key": "2022022011451421000_2022.02.17.480940v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1038/cmi.2015.74",
+        "article-title": "The cytokine storm of severe influenza and development of immunomodulatory therapy",
+        "volume": "13",
+        "year": "2016",
+        "journal-title": "Cellular & molecular immunology"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jafarzadeh A , Chauhan P , Saha B , Jafarzadeh S , Nemati M. Contribution of monocytes and macrophages to the local tissue inflammation and cytokine storm in COVID-19: Lessons from SARS and MERS, and potential therapeutic interventions. Life sciences. 2020:118102.",
+        "DOI": "10.1016/j.lfs.2020.118102"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/cdd.2015.67"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Srikiatkhachorn A , Mathew A , Rothman AL , editors. Immune-mediated cytokine storm and its role in severe dengue. Seminars in immunopathology; 2017 2017, July: Springer; 2017.",
+        "DOI": "10.1007/s00281-017-0625-1"
+      },
+      {
+        "issue": "6",
+        "key": "2022022011451421000_2022.02.17.480940v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "544",
+        "DOI": "10.1016/S2213-2600(20)30226-5",
+        "article-title": "Immunomodulation in COVID-19",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "3419",
+        "DOI": "10.2147/JIR.S322831",
+        "article-title": "Immunomodulation as a potent COVID-19 pharmacotherapy: Past, present and future",
+        "volume": "14",
+        "year": "2021",
+        "journal-title": "Journal of Inflammation Research"
+      },
+      {
+        "issue": "12",
+        "key": "2022022011451421000_2022.02.17.480940v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1130",
+        "DOI": "10.1093/cid/ciaa1759",
+        "article-title": "Immunomodulation as Treatment for Severe Coronavirus Disease 2019: A Systematic Review of Current Modalities and Future Directions",
+        "volume": "72",
+        "year": "2021",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2021436"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chousterman BG , Swirski FK , Weber GF , editors. Cytokine storm and sepsis disease pathogenesis. Seminars in immunopathology; 2017: Springer.",
+        "DOI": "10.1007/s00281-017-0639-8"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cockrell C , An G. Sepsis Reconsidered: Identifying Novel Metrics For Behavioral Landscape Characterization With A High-Performance Computing Implementation Of An Agent-Based Model. bioRxiv. 2017:141804.",
+        "DOI": "10.1101/141804"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "An G , Cockrell C , Day J. Therapeutics as Control: Model-Based Control Discovery for Sepsis. Complex Systems and Computational Biology Approaches to Acute Inflammation: Springer; 2021. p. 71\u201396.",
+        "DOI": "10.1007/978-3-030-56510-7_5"
+      },
+      {
+        "issue": "2",
+        "key": "2022022011451421000_2022.02.17.480940v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1005876",
+        "DOI": "10.1371/journal.pcbi.1005876",
+        "article-title": "Examining the controllability of sepsis using genetic algorithms on an agent-based model of systemic inflammation",
+        "volume": "14",
+        "year": "2018",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/cmb.2018.0168"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aar6404"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature24270"
+      },
+      {
+        "issue": "7782",
+        "key": "2022022011451421000_2022.02.17.480940v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "350",
+        "DOI": "10.1038/s41586-019-1724-z",
+        "article-title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+        "volume": "575",
+        "year": "2019",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "issue": "6573",
+        "key": "2022022011451421000_2022.02.17.480940v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1385",
+        "DOI": "10.1126/science.abj6511",
+        "article-title": "Pushing the frontiers of density functionals by solving the fractional electron problem",
+        "volume": "374",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.CCM.0000139707.13729.7D"
+      },
+      {
+        "issue": "1",
+        "key": "2022022011451421000_2022.02.17.480940v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1007/s11538-016-0225-6",
+        "article-title": "Optimization and Control of Agent-Based Models in Biology: A Perspective",
+        "volume": "79",
+        "year": "2017",
+        "journal-title": "Bull Math Biol"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.23",
+        "article-title": "Continuous control with deep reinforcement learning",
+        "year": "2015",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.24",
+        "article-title": "Playing atari with deep reinforcement learning",
+        "year": "2013",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-115-6-457"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "118275",
+        "DOI": "10.1016/j.lfs.2020.118275",
+        "article-title": "Utilizing drug repurposing against COVID-19\u2013efficacy, limitations, and challenges",
+        "volume": "259",
+        "year": "2020",
+        "journal-title": "Life sciences"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.3000390"
+      },
+      {
+        "issue": "12",
+        "key": "2022022011451421000_2022.02.17.480940v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e667",
+        "DOI": "10.1016/S2589-7500(20)30192-8",
+        "article-title": "Artificial intelligence in COVID-19 drug repurposing",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "issue": "5",
+        "key": "2022022011451421000_2022.02.17.480940v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1027",
+        "DOI": "10.1016/j.dsx.2020.06.068",
+        "article-title": "Application of Artificial Intelligence in COVID-19 drug repurposing",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "Diabetes & Metabolic Syndrome: Clinical Research & Reviews"
+      },
+      {
+        "issue": "1",
+        "key": "2022022011451421000_2022.02.17.480940v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1038/s43588-020-00007-6",
+        "article-title": "Lessons from the COVID-19 pandemic for advancing computational drug repurposing strategies",
+        "volume": "1",
+        "year": "2021",
+        "journal-title": "Nature Computational Science"
+      },
+      {
+        "issue": "4",
+        "key": "2022022011451421000_2022.02.17.480940v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1177/0037549720975075",
+        "article-title": "Nested active learning for efficient model contextualization and parameterization: pathway to generating simulated populations using multi-scale computational models",
+        "volume": "97",
+        "year": "2021",
+        "journal-title": "Simulation"
+      },
+      {
+        "key": "2022022011451421000_2022.02.17.480940v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chase Cockrell GA . Utilizing the heterogeneity of clinical data for model refinement and rule discovery through the application of genetic algorithms to calibrate a high-dimensional agent-based model of systemic inflammation. Frontiers in physiology. 2021;12.",
+        "DOI": "10.3389/fphys.2021.662845"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.17.480940",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:42:33Z",
+      "timestamp": 1768444953000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.02.17.480940"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          18
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1101/2022.02.17.480940",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

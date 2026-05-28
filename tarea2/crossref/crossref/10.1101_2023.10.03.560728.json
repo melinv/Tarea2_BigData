@@ -1,0 +1,296 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2026-04-01T21:08:36Z",
+      "timestamp": 1775077716967,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          9
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                  Predicting protein-protein interactions (PPIs) using only sequence information represents a fundamental problem in biology. In the past five years, a wide range of state-of-the-art deep learning models have been developed to address the computational prediction of PPIs based on sequences. Convolutional neural networks (CNNs) are widely adopted in these model architectures; however, the design of a deep and wide CNN architecture that comprehensively extracts interaction features from pairs of proteins is not well studied. Despite the development of several protein language models that distill the knowledge of evolutionary, structural, and functional information from gigantic protein sequence databases, no studies have integrated the amino acid embeddings of the protein language model for encoding protein sequences.In this study, we introduces a novel hybrid classifier, xCAPT5, which combines the deep multi-kernel convolutional accumulated pooling siamese neural network (CAPT5) and the XGBoost model (x) to enhance interaction prediction. The CAPT5 utilizes multi-deep convolutional channels with varying kernel sizes in the Siamese architecture, enabling the capture of small- and large-scale local features. By concatenating max and average pooling features in a depth-wise manner, CAPT5 effectively learns crucial features with low computational cost. This study is the first to extract information-rich amino acid embedding from a protein language model by a deep convolutional network, through training to obtain discriminant representations of protein sequence pairs that are fed into XGBoost for predicting PPIs. Experimental results demonstrate that xCAPT5 outperforms several state-of-the-art methods on binary PPI prediction, including generalized PPI on intra-species, cross-species, inter-species, and stringent similarity tasks. The implementation of our framework is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/anhvt00/MCAPS\">https://github.com/anhvt00/MCAPS</jats:ext-link>\n                </jats:p>",
+    "DOI": "10.1101/2023.10.03.560728",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2023-10-09T07:17:03Z",
+      "timestamp": 1696835823000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Sequence-based Protein-Protein Interaction Prediction Using Multi-kernel Deep Convolutional Neural Networks with Protein Language Model"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Thanh Hai",
+        "family": "Dang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Tien Anh",
+        "family": "Vu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty573"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/25.17.3389"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz328"
+      },
+      {
+        "issue": "10",
+        "key": "2024031212251140000_2023.10.03.560728v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "969",
+        "DOI": "10.1016/j.cels.2021.08.010",
+        "article-title": "D-script translates genome to phenome with sequence-based, structure-aware, genome-scale predictions of protein-protein interactions",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Cell Systems"
+      },
+      {
+        "issue": "6",
+        "key": "2024031212251140000_2023.10.03.560728v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbab255",
+        "DOI": "10.1093/bib/bbab255",
+        "article-title": "Improved prediction of protein\u2013protein interaction using a hybrid of functional-link siamese neural network and gradient boosting machines",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab737"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac258"
+      },
+      {
+        "issue": "2",
+        "key": "2024031212251140000_2023.10.03.560728v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbab558",
+        "DOI": "10.1093/bib/bbab558",
+        "article-title": "Learning spatial structures of proteins improves protein\u2013protein interaction prediction",
+        "volume": "23",
+        "year": "2022",
+        "journal-title": "Briefings in bioinformatics"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.9",
+        "unstructured": "Shijie Xie , Xiaojun Xie , Xin Zhao , Fei Liu , Yiming Wang , Jihui Ping , and Zhiwei Ji . Hnsppi: a hybrid computational model combing network and sequence information for Predicting protein\u2013protein interaction. Briefings in Bioinformatics, page bbad261, 2023."
+      },
+      {
+        "issue": "1",
+        "key": "2024031212251140000_2023.10.03.560728v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "5663",
+        "DOI": "10.1038/s41598-023-31612-w",
+        "article-title": "Graph-bert and language model-based framework for protein\u2013protein interaction identification",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "1",
+        "key": "2024031212251140000_2023.10.03.560728v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbac524",
+        "DOI": "10.1093/bib/bbac524",
+        "article-title": "Marppi: boosting prediction of protein\u2013protein interactions with multi-scale architecture residual network",
+        "volume": "24",
+        "year": "2023",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.12",
+        "article-title": "Codetrans: Towards cracking the language of silicon\u2019s code through self-supervised deep learning and high performance computing",
+        "year": "2021",
+        "journal-title": "arXiv preprint arXiv"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.13",
+        "article-title": "Searching for activation functions",
+        "year": "2017",
+        "journal-title": "arXiv preprint arXiv"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tianqi Chen and Carlos Guestrin . Xgboost: A scalable tree boosting system. In Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining, pages 785\u2013794, 2016.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.15",
+        "article-title": "Adam: A method for stochastic optimization",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bth483"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkn159"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/pr100618t"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/molecules23081923"
+      },
+      {
+        "issue": "24",
+        "key": "2024031212251140000_2023.10.03.560728v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "4771",
+        "DOI": "10.1093/bioinformatics/btab533",
+        "article-title": "Transfer learning via multi-scale convolutional neural layers for human\u2013virus protein\u2013protein interaction prediction",
+        "volume": "37",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024031212251140000_2023.10.03.560728v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "123912",
+        "DOI": "10.1109/ACCESS.2021.3110269",
+        "article-title": "Pre-training of deep bidirectional protein sequence representations with structural information",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.03.560728",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:20:58Z",
+      "timestamp": 1768454458000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.03.560728"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          9
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2023.10.03.560728",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1186/s12859-024-05725-6",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

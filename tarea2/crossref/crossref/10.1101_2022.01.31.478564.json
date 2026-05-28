@@ -1,0 +1,532 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:52:34Z",
+      "timestamp": 1768499554129,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Human immunoglobulin heavy chain (IGH) locus on chromosome 14 includes more than 40 functional copies of the variable gene (IGHV), which, together with the joining genes (IGHJ), diversity genes (IGHD), constant genes (IGHC) and immunoglobulin light chains, code for antibodies that identify and neutralize pathogenic invaders as a part of the adaptive immune system. Because of its highly repetitive sequence composition, the IGH locus has been particularly difficult to assemble or genotype through the use of standard short read sequencing technologies. Here we introduce ImmunoTyper-SR, an algorithmic method for genotype and CNV analysis of the germline IGHV genes using Illumina whole genome sequencing (WGS) data. ImmunoTyper-SR is based on a novel combinatorial optimization formulation that aims to minimize the total edit distance between reads and their assigned IGHV alleles from a given database, with constraints on the number and distribution of reads across each called allele. We have validated ImmunoTyper-SR on 12 individuals with Illumina WGS data from the 1000 Genomes Project, whose IGHV allele composition have been studied extensively through the use of long read and targeted sequencing platforms, as well as nine individuals from the NIAID COVID Consortium who have been subjected to WGS twice. We have then applied ImmunoTyper-SR on 585 samples from the NIAID COVID Consortium to investigate associations between distinct IGHV alleles and anti-type I IFN autoantibodies which have been linked to COVID-19 severity.</jats:p>",
+    "DOI": "10.1101/2022.01.31.478564",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2022-02-02T16:51:15Z",
+      "timestamp": 1643820675000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "ImmunoTyper-SR: A Novel Computational Approach for Genotyping Immunoglobulin Heavy Chain Variable Genes using Short Read Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Ford",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ananth",
+        "family": "Hari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Oscar",
+        "family": "Rodriguez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junyan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Justin",
+        "family": "Lack",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cihan",
+        "family": "Oguz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah",
+        "family": "Weber",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mary",
+        "family": "Magglioco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jason",
+        "family": "Barnett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sandhya",
+        "family": "Xirasagar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Smilee",
+        "family": "Samuel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luisa",
+        "family": "Imberti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paolo",
+        "family": "Bonfanti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Biondi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Clifton L.",
+        "family": "Dalgard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephen",
+        "family": "Chanock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lindsey",
+        "family": "Rosen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven",
+        "family": "Holland",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Helen",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luigi",
+        "family": "Notarangelo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "NIAID COVID Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Uzi",
+        "family": "Vishkin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Corey",
+        "family": "Watson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S. Cenk",
+        "family": "Sahinalp",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amarasinghe, S. , Su, S. , Dong, X. et al. Opportunities and challenges in long-read sequencing data analysis. Genome Biology 21 (2020).",
+        "DOI": "10.1186/s13059-020-1935-5"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roberts, H. , Lopopolo, M. , Pagnamenta, A. et al. Short and long-read genome sequencing methodologies for somatic variant detection; genomic analysis of a patient with diffuse large b-cell lymphoma. Scientific Reports 11 (2021).",
+        "DOI": "10.1038/s41598-021-85354-8"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/gene.2012.12"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.it.2017.04.003"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.1016/j.coisb.2020.10.011",
+        "article-title": "Germline immunoglobulin genes: Disease susceptibility genes hidden in plain sight?",
+        "volume": "24",
+        "year": "2020",
+        "journal-title": "Current Opinion in Systems Biology"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2013.03.004"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.3389/fimmu.2019.00129",
+        "article-title": "Identification of subject-specific immunoglobulin alleles from expressed repertoire sequencing data",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.8",
+        "first-page": "1",
+        "article-title": "A Novel Framework for Characterizing Genomic Haplotype Diversity in the Human Immunoglobulin Heavy Chain Locus",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.9",
+        "unstructured": "Collins, A. M. et al. Commentary on population matched (pm) germline allelic variants of immunoglobulin (ig) loci: relevance in infectious diseases and vaccination studies in human populations. Genes & Immunity 1\u20134 (2021)."
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.1700306"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.11",
+        "first-page": "1",
+        "article-title": "IGHV1-69 polymorphism modulates anti-influenza antibody repertoires, correlates with IGHV utilization shifts and varies by ethnicity",
+        "volume": "6",
+        "year": "2016",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.12",
+        "first-page": "1",
+        "article-title": "Germline-encoded neutralization of a staphylococcus aureus virulence factor by the human antibody repertoire",
+        "volume": "7",
+        "year": "2016",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1560",
+        "DOI": "10.1016/j.celrep.2016.10.017",
+        "article-title": "Differences in Allelic Frequency and CDRH3 Region Limit the Engagement of HIV Env Immunogens by Putative VRC01 Neutralizing Antibody Precursors",
+        "volume": "17",
+        "year": "2016",
+        "journal-title": "Cell Reports"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.14",
+        "first-page": "1",
+        "article-title": "Vaccine genetics of ighv1-2 vrc01-class broadly neutralizing antibody precursor na\u00efve human b cells",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "NPJ vaccines"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1191/0961203303lu385oa"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1038/s10038-020-00864-z",
+        "article-title": "Association of an ighv3-66 gene variant with kawasaki disease",
+        "volume": "66",
+        "year": "2021",
+        "journal-title": "Journal of human genetics"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.17",
+        "first-page": "1",
+        "article-title": "Association between a common immunoglobulin heavy chain allele and rheumatic heart disease risk in oceania",
+        "volume": "8",
+        "year": "2017",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.18",
+        "first-page": "893",
+        "article-title": "Immunoglobulin expression in cancer cells and its critical roles in tumorigenesis",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.02.029"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.20",
+        "unstructured": "Bastard, P. et al. Autoantibodies against type I IFNs in patients with life-threatening COVID-19. Science 370 (2020)."
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03631-y"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.22",
+        "first-page": "1",
+        "article-title": "Type I interferon autoantibodies are associated with systemic immune alterations in patients with COVID-19",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Science Translational Medicine"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.23",
+        "first-page": "1",
+        "article-title": "Estimating Copy Number and Allelic Variation at the Immunoglobulin Heavy Chain Locus Using Short Reads",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, S. , Jane, A. Y. , Li, H. & Song, Y. S. Worldwide genetic variation of the ighv and trbv immune receptor gene families in humans. Life science alliance 2 (2019).",
+        "DOI": "10.26508/lsa.201800221"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "101508",
+        "DOI": "10.1016/j.isci.2020.101508",
+        "article-title": "Genotyping and Copy Number Analysis of Immunoglobulin Heavy Chain Variable Genes Using Long Reads",
+        "volume": "23",
+        "year": "2020",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "4840",
+        "DOI": "10.1093/bioinformatics/btz481",
+        "article-title": "RAbHIT: R Antibody Haplotype Inference Tool",
+        "volume": "35",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.27",
+        "first-page": "1",
+        "article-title": "Identification of subject-specific immunoglobulin alleles from expressed repertoire sequencing data",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature15393"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Byrska-Bishop, M. et al. High coverage whole genome sequencing of the expanded 1000 genomes project cohort including 602 trios. bioRxiv (2021). URL https://www.biorxiv.org/content/early/2021/02/07/2021.02.06.430068.",
+        "DOI": "10.1101/2021.02.06.430068"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.30",
+        "unstructured": "Li, H. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM (2013). 1303.3997."
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sj.leu.2402637"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.32",
+        "unstructured": "Gurobi Optimization, LLC. Gurobi Optimizer Reference Manual (2021). URL https://www.gurobi.com."
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/hh2301.100981"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr708"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1038/nmeth.1923",
+        "article-title": "Fast gapped-read alignment with Bowtie 2",
+        "volume": "9",
+        "year": "2012",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rodriguez, O. L. , Sharp, A. J. & Watson, C. T. Limitations of lymphoblastoid cell lines for establishing genetic reference datasets in the immunoglobulin loci. bioRxiv (2021).",
+        "DOI": "10.1101/2021.07.15.452448"
+      },
+      {
+        "key": "2022020501101356000_2022.01.31.478564v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz822"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.01.31.478564",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:38:50Z",
+      "timestamp": 1768444730000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.01.31.478564"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2022.01.31.478564",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.cels.2022.08.008",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

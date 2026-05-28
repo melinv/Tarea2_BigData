@@ -1,0 +1,350 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:28:32Z",
+      "timestamp": 1768562912811,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          8
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The COVID-19 pandemic is the deadliest threat to humankind caused by the SARS-COV-2 virus in recent times. The gold standard for its detection, quantitative Real-Time Polymerase Chain Reaction (qRT-PCR), has several limitations regarding experimental handling, expense, and time. While the hematochemical values of routine blood tests have been reported as a faster and cheaper alternative, the external validity of the model on a diverse population has yet to be thoroughly investigated. Here we studied the external validity of machine learning-based prediction scores from hematological parameters recorded in Brazil, Italy, and Western Europe.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and Findings</jats:title>\n                  <jats:p>The publicly available hematological records (raw sample size (n) = 195554) from hospitals of three different territories, Brazil, Italy, and Western Europe, were preprocessed to develop the training, testing, and prediction cohorts for ML models. A total of eight (sub)datasets were trained on seven different ML classifiers. The XGBoost classifier performed consistently better on all the datasets producing eight different models. The working models include a set of either four or fourteen hematological parameters. The internal performances of the XGBoost models (AUC scores range from 84% to 97%) were superior to the ML models reported in the literature for a few datasets (AUC scores range from 84% to 87%). The external performance (AUC score) was 86% when the model was trained and tested on fourteen hematological parameters obtained from the same country (Brazil) but on independent datasets. However, the external performances were reduced when tested across the populations; 69% when trained on datasets from Italy (n=1736) and tested on datasets from Brazil (n=602)) and 65%, when trained on datasets from Italy and tested on datasets from Western Europe (n=1587)) respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>\n                    For the first time, this report showed that the models trained and tested on the same population but on separate records produced reasonably accurate results. The study promises the confidence of these models trained and tested within the same populations and has the potential application to extend those to other demographic locations. Both four- and fourteen-parameter models are publicly available;\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://covipred.bits-hyderabad.ac.in/home\">https://covipred.bits-hyderabad.ac.in/home</jats:ext-link>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>\n                    COVID-19 has posed the deadliest threat to the human population in the 21\n                    <jats:sup>st</jats:sup>\n                    century. Timely detection of the disease could save more lives. The RT-PCR test is considered the gold standard for COVID-19 detection. However, there are several limitations of the technique that suggests developing an alternate detection protocol that would be efficient, fast, and cheap. Among several other alternate detection techniques, hematology based Machine-Learning (ML) prediction is one. All the hematology-based predictions reported so far in the literature were only internally validated. Considering the need to develop an alternate protocol for rapid, near-accurate, and cheaper COVID-19 detection techniques, we aim to externally validate the hematology-based ML prediction. Here external validation indicates use of two independent datasets for model training and testing, in contrast to internal validation where the same dataset splits into train and test sets. We have integrated published clinical records from Brazil, Italy, and West Europe hospitals. Internal ML model performances are superior compared to those reported in literature. The external model performances were equivalent to the internal performances when trained and tested on the same population. However, the external performances were inferior when train and test sets were from different populations. The results promise the utility of these models on the same populations. However, it also warns to train the model on one population and test it on another. The outcome of this work has the potential for an initial screen of COVID-19 based on hematological parameters before qRT-PCR tests.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.03.07.23286949",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2023-03-08T19:45:18Z",
+      "timestamp": 1678304718000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "The external validity of machine learning-based prediction scores from hematological parameters of COVID-19: A study using hospital records from Brazil, Italy, and Western Europe"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Ali Akbar",
+        "family": "Safdari",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chanda Sai",
+        "family": "Keshav",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Deepanshu",
+        "family": "Mody",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kshitij",
+        "family": "Verma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Utsav",
+        "family": "Kaushal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vaadeendra Kumar",
+        "family": "Burra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sibnath",
+        "family": "Ray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4131-907X",
+        "authenticated-orcid": false,
+        "given": "Debashree",
+        "family": "Bandyopadhyay",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "10335",
+        "key": "2023031013301364000_2023.03.07.23286949v1.1",
+        "first-page": "1618",
+        "volume": "399",
+        "year": "2022",
+        "journal-title": "Symptom Prevalence, Duration, and Risk of Hospital Admission in Individuals Infected with SARS-CoV-2 during Periods of Omicron and Delta Variant Dominance: A Prospective Observational Study from the ZOE COVID Study"
+      },
+      {
+        "issue": "3",
+        "key": "2023031013301364000_2023.03.07.23286949v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e626",
+        "DOI": "10.1002/hsr2.626",
+        "article-title": "New Substitutions on NS1 Protein from Influenza A (H1N1) Virus: Bioinformatics Analyses of Indian Strains Isolated from 2009 to 2020",
+        "volume": "5",
+        "year": "2022",
+        "journal-title": "Heal. Sci. Reports"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.26673"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1016/j.amsu.2020.12.035",
+        "article-title": "Role of Hematological Parameters in the Stratification of COVID-19 Disease Severity",
+        "volume": "62",
+        "year": "2021",
+        "journal-title": "Ann. Med. Surg"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nm1413"
+      },
+      {
+        "issue": "11",
+        "key": "2023031013301364000_2023.03.07.23286949v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.1182/blood.2020007214",
+        "article-title": "Platelet Gene Expression and Function in Patients with COVID-19",
+        "volume": "136",
+        "year": "2020",
+        "journal-title": "Blood"
+      },
+      {
+        "issue": "8",
+        "key": "2023031013301364000_2023.03.07.23286949v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1122",
+        "DOI": "10.1590/1806-9282.66.8.1122",
+        "article-title": "Effect of COVID-19 on Platelet Count and Its Indices",
+        "volume": "66",
+        "year": "2020",
+        "journal-title": "Rev. Assoc. Med. Bras"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Comar, S. P. et al. COVID-19 Induces A Hyperactive Phenotype in Circulating Platelets; 2020. https://doi.org/doi:https://doi.org/10.1101/2020.07.24.20156240.",
+        "DOI": "10.1101/2020.07.24.20156240"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "106705",
+        "DOI": "10.1016/j.intimp.2020.106705",
+        "article-title": "Use of Machine Learning and Artificial Intelligence to Predict SARS-CoV-2 Infection from Full Blood Counts in a Population",
+        "volume": "86",
+        "year": "2020",
+        "journal-title": "Int. Immunopharmacol"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1042/BSR20191290"
+      },
+      {
+        "issue": "2",
+        "key": "2023031013301364000_2023.03.07.23286949v1.11",
+        "first-page": "421",
+        "article-title": "Development, Evaluation, and Validation of Machine Learning Models for COVID-19 Detection Based on Routine Blood Tests",
+        "volume": "59",
+        "year": "2020",
+        "journal-title": "Clin. Chem. Lab. Med"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-020-01597-4"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.52760"
+      },
+      {
+        "issue": "3",
+        "key": "2023031013301364000_2023.03.07.23286949v1.14",
+        "first-page": "1",
+        "article-title": "Hematological Findings in Adult Patients with SARS CoV-2 Infection at Tygerberg Hospital Cape Town South Africa",
+        "volume": "5",
+        "year": "2022",
+        "journal-title": "Heal. Sci. Reports"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "issue": "5",
+        "key": "2023031013301364000_2023.03.07.23286949v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1111/bjh.16690",
+        "article-title": "Reactive Lymphocytes in Patients with COVID-19",
+        "volume": "189",
+        "year": "2020",
+        "journal-title": "Br. J. Haematol"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ajh.25774"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henry, B. M. ; De Oliveira, M. H. S. ; Benoit, S. ; Plebani, M. ; Lippi, G. Hematologic, Biochemical and Immune Biomarker Abnormalities Associated with Severe Illness and Mortality in Coronavirus Disease 2019 (COVID-19): A Meta-Analysis. Clinical Chemistry and Laboratory Medicine. De Gruyter June 2020, pp 1021\u20131028. https://doi.org/10.1515/cclm-2020-0369.",
+        "DOI": "10.1515/cclm-2020-0369"
+      },
+      {
+        "issue": "1",
+        "key": "2023031013301364000_2023.03.07.23286949v1.19",
+        "first-page": "e29",
+        "article-title": "The Association between Severe COVID-19 and Low Platelet Count: Evidence from 31 Observational Studies Involving 7613 Participants",
+        "volume": "190",
+        "year": "2020",
+        "journal-title": "Br. J. Haematol"
+      },
+      {
+        "key": "2023031013301364000_2023.03.07.23286949v1.20",
+        "first-page": "785",
+        "article-title": "XGBoost: A Scalable Tree Boosting System",
+        "volume": "13-",
+        "year": "2016",
+        "journal-title": "Proc. ACM SIGKDD Int. Conf. Knowl. Discov. Data Min"
+      },
+      {
+        "issue": "1",
+        "key": "2023031013301364000_2023.03.07.23286949v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1159/000512007",
+        "article-title": "The Impact of COVID-19 Disease on Platelets and Coagulation",
+        "volume": "88",
+        "year": "2021",
+        "journal-title": "Pathobiology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.07.23286949",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:29:35Z",
+      "timestamp": 1768505375000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.03.07.23286949"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          8
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2023.03.07.23286949",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0316467",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

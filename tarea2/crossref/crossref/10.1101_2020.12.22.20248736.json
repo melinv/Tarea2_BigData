@@ -1,0 +1,459 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:01:25Z",
+      "timestamp": 1768550485873,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 48,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>The COVID-19 pandemic emerged in late December 2019. In the first six months of the global outbreak, the US reported more cases and deaths than any other country in the world. Effective modeling of the course of the pandemic can help assist with public health resource planning, intervention efforts, and vaccine clinical trials. However, building applied forecasting models presents unique challenges during a pandemic. First, case data available to models in real-time represent a non-stationary fraction of the true case incidence due to changes in available diagnostic tests and test-seeking behavior. Second, interventions varied across time and geography leading to large changes in transmissibility over the course of the pandemic. We propose a mechanistic Bayesian model (MechBayes) that builds upon the classic compartmental susceptible-exposed-infected-recovered (SEIR) model to operationalize COVID-19 forecasting in real time. This framework includes non-parametric modeling of varying transmission rates, non-parametric modeling of case and death discrepancies due to testing and reporting issues, and a joint observation likelihood on new case counts and new deaths; it is implemented in a probabilistic programming language to automate the use of Bayesian reasoning for quantifying uncertainty in probabilistic forecasts. The model has been used to submit forecasts to the US Centers for Disease Control, through the COVID-19 Forecast Hub. We examine the performance relative to a baseline model as well as alternate models submitted to the Forecast Hub. Additionally, we include an ablation test of our extensions to the classic SEIR model. We demonstrate a significant gain in both point and probabilistic forecast scoring measures using MechBayes when compared to a baseline model and show that MechBayes ranks as one of the top 2 models out of 10 submitted to the COVID-19 Forecast Hub. Finally, we demonstrate that MechBayes performs significantly better than the classical SEIR model.</jats:p>",
+    "DOI": "10.1101/2020.12.22.20248736",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2020-12-24T08:50:18Z",
+      "timestamp": 1608799818000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "REAL-TIME MECHANISTIC BAYESIAN FORECASTS OF COVID-19 MORTALITY"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6662-3903",
+        "authenticated-orcid": false,
+        "given": "Graham C.",
+        "family": "Gibson",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3503-9899",
+        "authenticated-orcid": false,
+        "given": "Nicholas G.",
+        "family": "Reich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4257-2432",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Sheldon",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.1",
+        "unstructured": "Evan L Ray , Nutcha Wattanachit , Jarad Niemi , Abdul Hannan Kanji , Katie House , Estee Y Cramer , Johannes Bracher , Andrew Zheng , Teresa K Yamana , Xinyue Xiong , et al. Ensemble Forecasts of Coronavirus Disease 2019 (COVID-19) in the us. medRxiv, 2020."
+      },
+      {
+        "issue": "1",
+        "key": "2020122805050479000_2020.12.22.20248736v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1659",
+        "DOI": "10.1186/s12889-019-7966-8",
+        "article-title": "Applying infectious disease forecasting to public health: a path forward using influenza forecasting examples",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "BMC Public Health"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.3",
+        "first-page": "309",
+        "volume-title": "In Advances in parasitology",
+        "volume": "47, pages",
+        "year": "2000"
+      },
+      {
+        "issue": "772",
+        "key": "2020122805050479000_2020.12.22.20248736v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "700",
+        "DOI": "10.1098/rspa.1927.0118",
+        "article-title": "A contribution to the mathematical theory of epidemics",
+        "volume": "115",
+        "year": "1927",
+        "journal-title": "Proceedings of the royal society of london. Series A, Containing papers of a mathematical and physical character"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.5",
+        "unstructured": "Ivan Korolev . Identification and Estimation of the SEIRD epidemic model for COVID-19. Binghamton University. http://dx.doi.org/10.2139/ssrn,3569367, 2020."
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sen Pei , Sasikiran Kandula , and Jeffrey Shaman . Differential Effects of Intervention Timing on COVID-19 Spread in the United States. medRxiv, 2020.",
+        "DOI": "10.1101/2020.05.15.20103655"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.7",
+        "unstructured": "IHME COVID-19 Forecasting Team. Modeling COVID-19 scenarios for the United States. Nature medicine."
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.7363"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.9",
+        "article-title": "Composable effects for flexible and accelerated probabilistic programming in NumPyro",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.10",
+        "unstructured": "James Bradbury , Roy Frostig , Peter Hawkins , Matthew James Johnson , Chris Leary , Dougal Maclaurin , and Skye Wanderman-Milne . JAX: composable transformations of Python+NumPy programs, 2018."
+      },
+      {
+        "issue": "11",
+        "key": "2020122805050479000_2020.12.22.20248736v2.11",
+        "first-page": "2",
+        "article-title": "MCMC using Hamiltonian dynamics",
+        "volume": "2",
+        "year": "2011",
+        "journal-title": "Handbook of Markov Chain Monte Carlo"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.12",
+        "unstructured": "Ricky TQ Chen , Yulia Rubanova , Jesse Bettencourt , and David K Duvenaud . Neural ordinary differential equations. In Advances in neural information processing systems, pages 6571\u20136583, 2018."
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxw027"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.14",
+        "unstructured": "ReichLab. COVID-HUB, 2020 (accessed July 27, 2020). https://doi.org/10.5281/zenodo.3963372."
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ensheng Dong , Hongru Du , and Lauren Gardner . An interactive web-based dashboard to track COVID-19 in real time. The Lancet infectious diseases, 2020.",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Steven G Krantz and Arni SR Srinivasa Rao . Level of under-reporting including under-diagnosis before the first peak of COVID-19 in various countries: Preliminary Retrospective Results Based on Wavelets and deterministic modeling. Infection Control & Hospital Epidemiology, pages 1\u20138, 2020.",
+        "DOI": "10.1017/ice.2020.116"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.17",
+        "unstructured": "Timothy W Russel , Joel Hellewell , S Abbot , et al. Using a delay-adjusted case fatality ratio to estimate under-reporting. Available at the Centre for Mathematical Modelling of Infectious Diseases Repository, here, 2020."
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hazhir Rahmandad , Tse Yang Lim , and John Sterman . Estimating COVID-19 under-reporting across 86 nations: implications for projections and control. Available at SSRN 3635047, 2020.",
+        "DOI": "10.1101/2020.06.24.20139451"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1208772109"
+      },
+      {
+        "issue": "1",
+        "key": "2020122805050479000_2020.12.22.20248736v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "202",
+        "DOI": "10.1214/16-AOAS1000",
+        "article-title": "Forecasting seasonal influenza with a state-space SIR model",
+        "volume": "11",
+        "year": "2017",
+        "journal-title": "The annals of applied statistics"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0010036"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268806007084"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1541-0420.2006.00609.x"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/imammb/10.2.83"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S2010194512005454"
+      },
+      {
+        "issue": "2",
+        "key": "2020122805050479000_2020.12.22.20248736v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1080/08898481003689528",
+        "article-title": "Bayesian melding estimation of a stochastic SEIR model",
+        "volume": "17",
+        "year": "2010",
+        "journal-title": "Mathematical Population Studies"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2012.713876"
+      },
+      {
+        "issue": "11",
+        "key": "2020122805050479000_2020.12.22.20248736v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "4343",
+        "DOI": "10.1007/s11538-017-0284-3",
+        "article-title": "Forecasting epidemics through nonparametric estimation of time-dependent transmission rates using the SEIR model",
+        "volume": "81",
+        "year": "2019",
+        "journal-title": "Bulletin of mathematical biology"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Giulia Giordano , Franco Blanchini , Raffaele Bruno , Patrizio Colaneri , Alessandro Di Filippo , Angela Di Matteo , and Marta Colaneri . Modelling the COVID-19 epidemic and implementation of populationwide interventions in Italy. Nature Medicine, pages 1\u20136, 2020.",
+        "DOI": "10.1038/s41591-020-0883-7"
+      },
+      {
+        "issue": "3",
+        "key": "2020122805050479000_2020.12.22.20248736v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.21037/jtd.2020.02.64",
+        "article-title": "Modified SEIR and Ai prediction of the epidemics trend of COVID-19 in China under public health interventions",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "Journal of Thoracic Disease"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.31",
+        "article-title": "The challenges of modeling and forecasting the spread of COVID-19",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kiesha Prem , Yang Liu , Timothy W Russell , Adam J Kucharski , Rosalind M Eggo , Nicholas Davies , Stefan Flasche , Samuel Clifford , Carl AB Pearson , James D Munday , et al. The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study. The Lancet Public Health, 2020.",
+        "DOI": "10.1101/2020.03.09.20033050"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seth Flaxman , Swapnil Mishra , Axel Gandy , H Juliette T Unwin , Thomas A Mellan , Helen Coupland , Charles Whittaker , Harrison Zhu , Tresnia Berah , Jeffrey W Eaton , et al. Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe. Nature, pages 1\u20135, 2020.",
+        "DOI": "10.1038/s41586-020-2405-7"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leonardo Lopez and Xavier Rodo . A modified SEIR model to predict the COVID-19 outbreak in Spain and Italy: simulating control scenarios and multi-scale epidemics. Available at SSRN 3576802, 2020.",
+        "DOI": "10.1101/2020.03.27.20045005"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.35",
+        "unstructured": "Uber AI Labs. NumPyro, 2020 (accessed July 27, 2020). https://readthedocs.org/projects/numpyro/downloads/pdf/stable/."
+      },
+      {
+        "issue": "12",
+        "key": "2020122805050479000_2020.12.22.20248736v2.36",
+        "first-page": "2000256",
+        "article-title": "Estimating the infection and case fatality ratio for coronavirus disease (COVID-19) using age-adjusted data from the outbreak on the Diamond Princess cruise ship, February 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0771-050X(80)90013-3"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrey Simonov , Szymon K Sacher , Jean-Pierre H Dub\u00e9 , and Shirsho Biswas . The persuasive effect of fox news: non-compliance with social distancing during the COVID-19 pandemic. Technical report, National Bureau of Economic Research, 2020.",
+        "DOI": "10.3386/w27237"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jae.3950010104"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.40",
+        "unstructured": "MIDAS. COVID-19 Parameter Estimates. https://github.com/midas-network/COVID-19/tree/master/parameter_estimates/2019_novel_coronavirus, 2020."
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Daniel M Weinberger , Jenny Chen , Ted Cohen , Forrest W Crawford , Farzad Mostashari , Don Olson , Virginia E Pitzer , Nicholas G Reich , Marcus Russi , Lone Simonsen , et al. Estimation of excess deaths associated with the COVID-19 pandemic in the United States, March to May 2020. JAMA Internal Medicine, 2020.",
+        "DOI": "10.1001/jamainternmed.2020.3391"
+      },
+      {
+        "issue": "1",
+        "key": "2020122805050479000_2020.12.22.20248736v2.42",
+        "first-page": "1593",
+        "article-title": "The No-U-Turn sampler: adaptively setting path lengths in Hamiltonian Monte Carlo",
+        "volume": "15",
+        "year": "2014",
+        "journal-title": "J. Mach. Learn. Res"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.43",
+        "article-title": "A conceptual introduction to Hamiltonian Monte Carlo",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "2",
+        "key": "2020122805050479000_2020.12.22.20248736v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1111/j.1467-9868.2007.00587.x",
+        "article-title": "Probabilistic forecasts, calibration and sharpness",
+        "volume": "69",
+        "year": "2007",
+        "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.45",
+        "unstructured": "Cramer et. al. Evaluation of probabilistic forecasts of COVID-19 mortality in the US, 2020. In Preparation."
+      },
+      {
+        "issue": "112",
+        "key": "2020122805050479000_2020.12.22.20248736v2.46",
+        "first-page": "112",
+        "article-title": "Estimating the timevarying reproduction number of SARS-CoV-2 using national and subnational case counts",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Wellcome Open Research"
+      },
+      {
+        "issue": "1",
+        "key": "2020122805050479000_2020.12.22.20248736v2.47",
+        "first-page": "1",
+        "article-title": "Fitting linear mixed-effects models using lme4",
+        "volume": "67",
+        "year": "2015",
+        "journal-title": "Journal of Statistical Software"
+      },
+      {
+        "key": "2020122805050479000_2020.12.22.20248736v2.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joseph Heffner , Marc Lluis Vives , and Oriel FeldmanHall . Emotional responses to prosocial messages increase willingness to self-isolate during the COVID-19 pandemic. 2020.",
+        "DOI": "10.31234/osf.io/qkxvb"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.12.22.20248736",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:01:59Z",
+      "timestamp": 1768485719000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.12.22.20248736"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.1101/2020.12.22.20248736",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T06:59:25Z",
+      "timestamp": 1768546765232,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The world is at the cusp of experiencing local/regional hot-spots and spikes of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which causes COVID-19 disease. We aimed to formulate an applicable epidemiological model to accurately predict and forecast the impact of local resurgence and outbreaks to guide the local healthcare demand and capacity, policy making, and public health decisions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The model utilised the aggregated daily COVID-19 situation reports (including counts of daily admissions, discharges, and occupancy) from the local NHS hospitals and Covid-19 related weekly deaths in hospitals and other settings in Sussex (population 1-7M), Southeast England. These datasets corresponded to the first wave of COVID-19 infections from 24 March-15 June 2020. The counts of death registrations and regional population estimates were obtained from the Office of National Statistics. A novel epidemiological predictive and forecasting model was then derived based on the local/regional surveillance data. Through a rigorous inverse parameter inference approach, the model parameters were estimated by fitting the model to the data in an optimal sense and then subsequently validated to make predictions subject to 95% confidence.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>The inferred parameters were physically reasonable and matched up to the widely used parameter values derived from the national datasets. Unlike other predictive models, which are restricted to a couple of days, our model can predict local hospital admissions, discharges (including deaths) and occupancy for the next 10, 20, and 30 days at the local level.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>We have demonstrated that by using local/regional data, our predictive and forecasting model can be utilised to guide the local healthcare demand and capacity, policy making, and public health decisions to mitigate the impact of COVID-19 on the local population. Understanding how future COVID-19 spikes/waves could possibly affect the regional populations empowers us to ensure the timely commissioning and organisation of services. Primary care and community services can be guided by the projected number of infectious and recovered patients and hospital admissions/discharges to project discharge pathways to bedded and community settings, thus allowing services to understand their likely load in future spikes/waves. The flexibility of timings in the model, in combination with other early warning systems, produces a timeframe for these services to prepare and isolate capacity for likely and potential demand within regional hospitals. The model also allows local authorities to plan potential mortuary capacity and understand the burden on crematoria and burial services. The model algorithms have been integrated into a web-based multi-institutional toolkit, which can be used by NHS hospitals, local authorities, and public health departments in other regions of the UK and elsewhere. The parameters, which are locally informed, form the basis of predicting and forecasting exercises accounting for different scenarios and impact of COVID-19 transmission.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>This study was supported by the Higher Education Innovation Fund through the University of Sussex (ECF, JVY, AMa). This work was partly supported by the Global Challenges Research Fund through the Engineering and Physical Sciences Research Council grant number EP/T00410X/1: UK-Africa Postgraduate Advanced Study Institute in Mathematical Sciences (AMa, ECF). ECF is supported by the Wellcome Trust grant number 204833/Z/16/Z.</jats:p>\n                </jats:sec>\n                <jats:sec id=\"s1\">\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec id=\"s1a\">\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>Since the beginning of the COVID-19 pandemic, healthcare managers and policy makers relied on epidemiological models based on national datasets to predict and mitigate the spread of the disease. The performance of these models has not always been validated against the available data, and they depend strongly on the values for the model parameters. Statistical models, e.g. those arising from time-series analysis, lack the temporal dynamics of the compartmentalised epidemiological model for the evolution of the disease and thus fail to capture the evolution far into the future with great accuracy. Compartmental models, on the other hand, capture the underlying dynamics of an infectious disease but typically use parameters estimated using datasets from other regions or countries, thus lacking the ability to capture local demographics and policy and therefore lack predicting local dynamics with accuracy.</jats:p>\n                  </jats:sec>\n                  <jats:sec id=\"s1b\">\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>Although our compartmental model follows standard SEIR-D model structure, the inference algorithm described and applied in this report is novel, along with the prediction technique used to validate the model. We checked bioRxiv, medRxiv, and arXiv up to the end of August 2020 using the terms \u201cmathematical inference\u201d, \u201cCOVID-19\u201d, and \u201cSIR\u201d and found that there is a substantial use of Bayesian approaches to fit parameters but none that use the combination of statistical approaches with compartmental models, hence the originality of our work. We designed a compartmentalised epidemiological model that captures the basic dynamics of the COVID-19 pandemic and revolves around the data that are available at the local/regional level. We estimated all the parameters in the model using the local surveillance data, and in consequence, our parameters reflect the characteristics of the local population. Furthermore, we validated the predictive power of the model by using only a subset of the available data to fit the parameters. To the best of our knowledge, this is the first study which combines statistical approaches with a compartmental model and as such benefits greatly from the ability to predict and forecast much further into the future using the dynamical structure of the compartmental model with a relatively much higher accuracy than previously presented in the literature. This research sets the gold-standard benchmark by laying the framework for future adaptations to the model when more precise (and comprehensive) datasets are made available.</jats:p>\n                  </jats:sec>\n                  <jats:sec id=\"s1c\">\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>\n                      The predictive power of our model outperforms previously available models for local forecasting of the impact of COVID-19. Using local models, rather than trying to use national models at a local scale, ensures that the model reflects the local demographics and provides reliable local-data-driven predictions to guide the local healthcare demand and capacity, policy making, and public health decisions to mitigate the impact of COVID-19 on the local population. Local authorities can use these results for the planning of local hospital demand as well as death management services by developing scenario-based analysis to which different values of the reproduction number R exiting a COVID-19 lockdown are assumed and results, such as maximum hospital occupancy, are compared to the first wave to establish a potential strain on resources. This can work as an early warning detection system to see what value of R that is currently followed, which in turn informs the relevant capacity and resources needed to mitigate the impact of COVID-19. The Web toolkit developed by us as a result of this study (\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://alpha.halogen-health.org\">https://alpha.halogen-health.org</jats:ext-link>\n                      ) demonstrates the predictive power of our model as well as its flexibility with the scenario-based analysis. Although our model is based on the data from Sussex, using similar variables/data from other regions in our model would derive respective COVID-19 model parameters, and thus enable similar scenario-based investigations to predict and forecast the impact of local resurgence to guide the local healthcare demand and capacity, policy making, and public health decisions.\n                    </jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.29.20164566",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2020-08-01T08:25:13Z",
+      "timestamp": 1596270313000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting and forecasting the impact of local resurgence and outbreaks of COVID-19: Use of SEIR-D quantitative epidemiological modelling for healthcare demand and capacity"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7021-1610",
+        "authenticated-orcid": false,
+        "given": "Eduard",
+        "family": "Campillo-Funollet",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "James Van",
+        "family": "Yperen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Phil",
+        "family": "Allman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Bell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Warren",
+        "family": "Beresford",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jacqueline",
+        "family": "Clay",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Graham",
+        "family": "Evans",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Dorey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kate",
+        "family": "Gilchrist",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anjum",
+        "family": "Memon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gurprit",
+        "family": "Pannu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan",
+        "family": "Walkley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mark",
+        "family": "Watson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anotida",
+        "family": "Madzvamuse",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25561/77482"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.25.20079848"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bertozzi AL , Franco E , Mohler G , Short MB , Sledge D . The challenges of modeling and forecasting the spread of COVID-19. arXiv 2020; published online April 9. arXiv:2004.04741 (preprint).",
+        "DOI": "10.1073/pnas.2006520117"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb6936"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb5793"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.3556648"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3386/w26981"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-020-01812-9"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3386/w26882"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3386/w26984"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3386/w27102"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.23.20076042"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friston KJ , Parr T , Zeidman P , et al. Dynamic casual modelling of COVID-19. arXiv 2020; published online April 9. arXiv:2004.04463 (preprint).",
+        "DOI": "10.12688/wellcomeopenres.15881.1"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.24.20042291"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0231236"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1007/s11538-018-0518-z",
+        "article-title": "Bayesian Parameter Identification for Turing Systems on Stationary and Evolving Domains",
+        "volume": "81",
+        "year": "2019",
+        "journal-title": "Bull. Math. Biol."
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0962492910000061"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0025-5564(99)00047-4"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1016/j.physa.2003.12.035",
+        "article-title": "Extending the SIR epidemic model",
+        "volume": "336",
+        "year": "2004",
+        "journal-title": "Physica A"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.21",
+        "unstructured": "Fletcher R . Practical Methods of Optimization. Chichester, UK: John Wiley & Sons, Inc, 1987."
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.22",
+        "unstructured": "Malouf R . A comparison of algorithms for maximum entropy parameter estimation. In: Roth D , van den Bosch A , eds. Natural Language Learning: Sixth International Conference, CoNLL 2002, Taipei, Taiwan, August, 2002. Proceedings. USA: Association for Computational Linguistics, 2002."
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1944",
+        "DOI": "10.1109/TIA.2011.2155010",
+        "article-title": "Online identification of PMSM parameters: Parameter identifiability and estimator comparative study",
+        "volume": "47",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Ind. Appl."
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu006"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11538-007-9279-9"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.26",
+        "first-page": "2000257",
+        "article-title": "Estimating the generation interval for coronavirus disease (COVID-19) based on symptom onset data, March 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.06.20031955"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30243-7"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6585"
+      },
+      {
+        "key": "2021020611450715000_2020.07.29.20164566v2.30",
+        "unstructured": "Halogen Team. Halogen: forecasting the local impact of COVID-19. In Preparation, August 2020. https://alpha.halogen-health.org."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.29.20164566",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:49:53Z",
+      "timestamp": 1768484993000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.29.20164566"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2020.07.29.20164566",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/ije/dyab106",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

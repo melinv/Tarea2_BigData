@@ -1,0 +1,524 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2026-05-02T06:11:05Z",
+      "timestamp": 1777702265905,
+      "version": "3.51.4"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "group-title": "Biophysics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              26
+            ]
+          ],
+          "date-time": "2024-08-26T00:00:00Z",
+          "timestamp": 1724630400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The macrodomain contained in the SARS-CoV-2 non-structural protein 3 (NSP3) is required for viral pathogenesis and lethality. Inhibitors that block the macrodomain could be a new therapeutic strategy for viral suppression. We previously performed a large-scale X-ray crystallography-based fragment screen and discovered a sub-micromolar inhibitor by fragment linking. However, this carboxylic acid-containing lead had poor membrane permeability and other liabilities that made optimization difficult. Here, we developed a shape- based virtual screening pipeline - FrankenROCS - to identify new macrodomain inhibitors using fragment X-ray crystal structures. We used FrankenROCS to exhaustively screen the Enamine high-throughput screening (HTS) collection of 2.1 million compounds and selected 39 compounds for testing, with the most potent compound having an IC\n                  <jats:sub>50</jats:sub>\n                  value equal to 130 \u03bcM. We then paired FrankenROCS with an active learning algorithm (Thompson sampling) to efficiently search the Enamine REAL database of 22 billion molecules, testing 32 compounds with the most potent having an IC\n                  <jats:sub>50</jats:sub>\n                  equal to 220 \u03bcM. Further optimization led to analogs with IC\n                  <jats:sub>50</jats:sub>\n                  values better than 10 \u03bcM, with X-ray crystal structures revealing diverse binding modes despite conserved chemical features. These analogs represent a new lead series with improved membrane permeability that is poised for optimization. In addition, the collection of 137 X-ray crystal structures with associated binding data will serve as a resource for the development of structure-based drug discovery methods. FrankenROCS may be a scalable method for fragment linking to exploit ever-growing synthesis-on- demand libraries.\n                </jats:p>",
+    "DOI": "10.1101/2024.08.25.609621",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2024-08-29T09:55:12Z",
+      "timestamp": 1724925312000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Extensive exploration of structure activity relationships for the SARS-CoV-2 macrodomain from shape-based fragment merging and active learning"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5155-7325",
+        "authenticated-orcid": false,
+        "given": "Galen J.",
+        "family": "Correy",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3671-8885",
+        "authenticated-orcid": false,
+        "given": "Moira",
+        "family": "Rachman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0243-0760",
+        "authenticated-orcid": false,
+        "given": "Takaya",
+        "family": "Togo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3115-9757",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Gahbauer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3388-7803",
+        "authenticated-orcid": false,
+        "given": "Yagmur U.",
+        "family": "Doruk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-9732-0349",
+        "authenticated-orcid": false,
+        "given": "Maisie",
+        "family": "Stevens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-2013-8941",
+        "authenticated-orcid": false,
+        "given": "Priyadarshini",
+        "family": "Jaishankar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3615-2818",
+        "authenticated-orcid": false,
+        "given": "Brian",
+        "family": "Kelley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-6465-6959",
+        "authenticated-orcid": false,
+        "given": "Brian",
+        "family": "Goldman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8535-6764",
+        "authenticated-orcid": false,
+        "given": "Molly",
+        "family": "Schmidt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-5932-7406",
+        "authenticated-orcid": false,
+        "given": "Trevor",
+        "family": "Kramer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1446-7878",
+        "authenticated-orcid": false,
+        "given": "Alan",
+        "family": "Ashworth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0797-0272",
+        "authenticated-orcid": false,
+        "given": "Patrick",
+        "family": "Riley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6098-7367",
+        "authenticated-orcid": false,
+        "given": "Brian K.",
+        "family": "Shoichet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1240-2846",
+        "authenticated-orcid": false,
+        "given": "Adam R.",
+        "family": "Renslo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2860-7958",
+        "authenticated-orcid": false,
+        "given": "W. Patrick",
+        "family": "Walters",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5080-2859",
+        "authenticated-orcid": false,
+        "given": "James S.",
+        "family": "Fraser",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Schuller , G. J. Correy , S. Gahbauer , D. Fearon , T. Wu , R. E. D\u00edaz , I. D. Young , L. Carvalho Martins , D. H. Smith , U. Schulze-Gahmen , T. W. Owens , I. Deshpande , G. E. Merz , A. C. Thwin , J. T. Biel , J. K. Peters , M. Moritz , N. Herrera , H. T. Kratochvil , QCRG Structural Biology Consortium, A. Aimon , J. M. Bennett , J. Brandao Neto , A. E. Cohen , A. Dias , A. Douangamath , L. Dunnett , O. Fedorov , M. P. Ferla , M. R. Fuchs , T. J. Gorrie-Stone , J. M. Holton , M. G. Johnson , T. Krojer , G. Meigs , A. J. Powell , J. G. M. Rack , V. L. Rangel , S. Russi , R. E. Skyner , C. A. Smith , A. S. Soares , J. L. Wierman , K. Zhu , P. O\u2019Brien , N. Jura , A. Ashworth , J. J. Irwin , M. C. Thompson , J. E. Gestwicki , F. von Delft , B. K. Shoichet , J. S. Fraser , I. Ahel , Fragment binding to the Nsp3 macrodomain of SARS-CoV-2 identified through crystallographic screening and computational docking. Sci Adv 7 (2021).",
+        "DOI": "10.1126/sciadv.abf8711"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2212931120"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26434/chemrxiv-2024-17w01"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "6065",
+        "DOI": "10.1021/acs.jcim.0c00675",
+        "article-title": "ZINC20-A Free Ultralarge-Scale Chemical Database for Ligand Discovery",
+        "volume": "60",
+        "year": "2020",
+        "journal-title": "J. Chem. Inf. Model"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrd.2016.109"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "5719",
+        "DOI": "10.1021/acs.jmedchem.8b00653",
+        "article-title": "Integrated Strategy for Lead Optimization Based on Fragment Growing: The Diversity-Oriented-Target-Focused-Synthesis Approach",
+        "volume": "61",
+        "year": "2018",
+        "journal-title": "J. Med. Chem"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jmedchem.0c00242"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.274.5292.1531"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-05905-z"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "452",
+        "DOI": "10.1038/s41586-021-04220-9",
+        "article-title": "Synthon-based ligand discovery in virtual libraries of over 11 billion compounds",
+        "volume": "601",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. McCorkindale , I. Ahel , H. Barr , G. J. Correy , J. S. Fraser , N. London , M. Schuller , K. Shurrush , A. A. Lee , Fragment-Based Hit Discovery via Unsupervised Learning of Fragment-Protein Complexes, bioRxiv (2022)p. 2022.11.21.517375.",
+        "DOI": "10.1101/2022.11.21.517375"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm040163o"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. M. Pearce , T. Krojer , A. R. Bradley , P. Collins , R. P. Nowak , R. Talon , B. D. Marsden , S. Kelm , J. Shi , C. M. Deane , F. von Delft , A multi-crystal method for extracting obscured crystallographic states from conventionally uninterpretable electron density. Nat. Commun. 8, 15123 (2017).",
+        "DOI": "10.1038/ncomms15123"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "3222",
+        "DOI": "10.1021/jm8001058",
+        "article-title": "Assessment of scaffold hopping efficiency by use of molecular interaction fingerprints",
+        "volume": "51",
+        "year": "2008",
+        "journal-title": "J. Med. Chem"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Schuller , T. Zarganes-Tzitzikas , J. Bennett , S. De Cesco , D. Fearon , F. von Delft , O. Fedorov , P. E. Brennan , I. Ahel , Discovery and Development Strategies for SARS-CoV-2 NSP3 Macrodomain Inhibitors. Pathogens 12 (2023).",
+        "DOI": "10.3390/pathogens12020324"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c01790"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. J. Correy , D. W. Kneller , G. Phillips , S. Pant , S. Russi , A. E. Cohen , G. Meigs , J. M. Holton , S. Gahbauer , M. C. Thompson , A. Ashworth , L. Coates , A. Kovalevsky , F. Meilleur , J. S. Fraser , The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and x- ray diffraction at room temperature. Sci Adv 8, eabo5083 (2022).",
+        "DOI": "10.1126/sciadv.abo5083"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Roy , Y. M. Alhammad , P. McDonald , D. K. Johnson , J. Zhuo , S. Wazir , D. Ferraris , L. Lehti\u00f6 , A. K. L. Leung , A. R. Fehr , Discovery of compounds that inhibit SARS-CoV-2 Mac1-ADP-ribose binding by high- throughput screening. Antiviral Res. 203, 105344 (2022).",
+        "DOI": "10.1016/j.antiviral.2022.105344"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.08.28.555062"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.1c00721"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1162",
+        "DOI": "10.1177/2472555220960428",
+        "article-title": "Discovery of Drug-Like Ligands for the Mac1 Domain of SARS-CoV-2 Nsp3",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "SLAS Discov"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.pbiomolbio.2021.02.002",
+        "article-title": "Targeting SARS-CoV-2 Nsp3 macrodomain structure with insights from human poly(ADP-ribose) glycohydrolase (PARG) structures with inhibitors",
+        "volume": "163",
+        "year": "2021",
+        "journal-title": "Prog. Biophys. Mol. Biol"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. M. Sherrill , E. E. Joya , A. Walker , A. Roy , Y. M. Alhammad , M. Atobatele , S. Wazir , G. Abbas , P. Keane , J. Zhuo , A. K. L. Leung , D. K. Johnson , L. Lehti\u00f6 , A. R. Fehr , D. Ferraris , Design, synthesis and evaluation of inhibitors of the SARS-CoV-2 nsp3 macrodomain. Bioorg. Med. Chem. 67, 116788 (2022).",
+        "DOI": "10.1016/j.bmc.2022.116788"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Thompson , W. P. Walters , J. A. Feng , N. A. Pabon , H. Xu , M. Maser , B. B. Goldman , D. Moustakas , M. Schmidt , F. York , Optimizing active learning for free energy calculations. Artificial Intelligence in the Life Sciences 2, 100050 (2022).",
+        "DOI": "10.1016/j.ailsci.2022.100050"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6447",
+        "DOI": "10.1038/s41467-022-33981-8",
+        "article-title": "Chemical space docking enables large-scale structure-based virtual screening to discover ROCK1 kinase inhibitors",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "11183",
+        "DOI": "10.1021/acs.jmedchem.8b01292",
+        "article-title": "qFit-ligand Reveals Widespread Conformational Heterogeneity of Drug-Like Molecules in X-Ray Electron Density Maps",
+        "volume": "61",
+        "year": "2018",
+        "journal-title": "J. Med. Chem"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.4001"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.1c00368"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1367-5931(99)80058-1"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444909047337"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444913000061"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "s18",
+        "DOI": "10.1107/S2053273315099702",
+        "article-title": "DIMPLE: a difference map pipeline for the rapid screening of crystals on the beamline",
+        "volume": "71",
+        "year": "2015",
+        "journal-title": "Acta Crystallogr. A Found. Adv"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444910045749"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444910007493"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444909029436"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S2059798319011471/HTTPS://GOLDBOOK.IUPAC.ORG/E02002.HTML"
+      },
+      {
+        "key": "2024082906550649000_2024.08.25.609621v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1107/S2059798317003412",
+        "article-title": "Proper modelling of ligand binding requires an ensemble of bound and unbound states",
+        "volume": "73",
+        "year": "2017",
+        "journal-title": "Acta Crystallogr D Struct Biol"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.08.25.609621",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:56:31Z",
+      "timestamp": 1768460191000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.08.25.609621"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2024.08.25.609621",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

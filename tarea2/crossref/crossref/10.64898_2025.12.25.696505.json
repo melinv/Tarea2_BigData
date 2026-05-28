@@ -1,0 +1,949 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2026-04-23T22:24:41Z",
+      "timestamp": 1776983081062,
+      "version": "3.51.4"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          28
+        ]
+      ]
+    },
+    "group-title": "Biophysics",
+    "reference-count": 68,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              28
+            ]
+          ],
+          "date-time": "2025-12-28T00:00:00Z",
+          "timestamp": 1766880000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "award": [
+          "U19AI171110"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U19AI171110"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01cwqze88",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "GM145238"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GM145238"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01cwqze88",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "GM122481"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GM122481"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01cwqze88",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurate prediction of ligand-bound protein complexes and ranking them by affinity are central problems in drug discovery. While deep learning co-folding methods can help address these challenges, their evaluation has been hampered by the difficulties in assessing independence from training data and insufficiently large test sets. Here we test the ability of co-folding methods to predict the structures of 557 ligands bound to the SARS-CoV-2 NSP3 macrodomain (Mac1) that were determined after the training cut-off dates. AlphaFold3 (AF3), Boltz-2, and Chai-1 each reproduced &gt;50% of the Mac1 ligand poses to better than 2 \u00c5 RMSD of experiment. Despite the potential for co-folding to describe protein conformational changes that stabilize ligand binding, we did not find that common conformational rearrangements, including peptide flip and a large loop opening, were recapitulated by the co-folding prediction. For AF3 and Chai-1, ligand pose prediction confidence weakly, but significantly, tracked experimental potency, while DOCK3.7 energies were only weakly correlated. Boltz-2 affinity predictions showed the strongest correlation with measured potency and, after calibration, achieved lower mean absolute error than a baseline predictor. We next assessed whether co-folding scores could rescore docking hit-lists to distinguish true ligands from non-binders among hundreds of molecules prospectively experimentally tested against AmpC \u03b2-lactamase, the dopamine D4 and the \u03c3\u2082 receptors. AF3 ligand pose confidence values did not separate true ligands from high-scoring false-positives as effectively as docking scores or Boltz-2 affinity predictions did. Taken together, the modest, but independent correlations of docking score and co-folding confidence or affinity suggests that integrating physics-based and deep-learning and approaches may help with hit prioritization and subsequent optimization in structure-based ligand discovery.</jats:p>",
+    "DOI": "10.64898/2025.12.25.696505",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T02:25:12Z",
+      "timestamp": 1766975112000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Large scale prospective evaluation of co-folding across 557 Mac1-ligand complexes and three virtual screens"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-3405-7880",
+        "authenticated-orcid": false,
+        "given": "Jongbin",
+        "family": "Kim",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5155-7325",
+        "authenticated-orcid": false,
+        "given": "Galen J.",
+        "family": "Correy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1616-1303",
+        "authenticated-orcid": false,
+        "given": "Brendan W.",
+        "family": "Hall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3671-8885",
+        "authenticated-orcid": false,
+        "given": "Moira M.",
+        "family": "Rachman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7533-4561",
+        "authenticated-orcid": false,
+        "given": "Olivier",
+        "family": "Mailhot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0243-0760",
+        "authenticated-orcid": false,
+        "given": "Takaya",
+        "family": "Togo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6600-7032",
+        "authenticated-orcid": false,
+        "given": "Ryan L.",
+        "family": "Gonciarz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-2013-8941",
+        "authenticated-orcid": false,
+        "given": "Priyadarshini",
+        "family": "Jaishankar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2247-9345",
+        "authenticated-orcid": false,
+        "given": "R. Jeffrey",
+        "family": "Neitz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          },
+          {
+            "name": "Small Molecule Discovery Center, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2588-7619",
+        "authenticated-orcid": false,
+        "given": "Eric R.",
+        "family": "Hantz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3388-7803",
+        "authenticated-orcid": false,
+        "given": "Yagmur U.",
+        "family": "Doruk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-9732-0349",
+        "authenticated-orcid": false,
+        "given": "Maisie G. V.",
+        "family": "Stevens",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5900-3060",
+        "authenticated-orcid": false,
+        "given": "Morgan E.",
+        "family": "Diolaiti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-1513-8614",
+        "authenticated-orcid": false,
+        "given": "Rashad",
+        "family": "Reid",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological and Medical Informatics, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-6713-4492",
+        "authenticated-orcid": false,
+        "given": "Saumya",
+        "family": "Gopalkrishnan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4902-337X",
+        "authenticated-orcid": false,
+        "given": "Nevan J.",
+        "family": "Krogan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA 94158, USA"
+          },
+          {
+            "name": "Quantitative Biosciences Institute (QBI), University of California San Francisco, San Francisco, CA 94158, USA"
+          },
+          {
+            "name": "Department of Cellular and Molecular Pharmacology, University of California San Francisco, San Francisco, CA 94158, USA"
+          },
+          {
+            "name": "Data Science and Biotechnology Institute, Gladstone Institutes, San Francisco, CA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1240-2846",
+        "authenticated-orcid": false,
+        "given": "Adam R.",
+        "family": "Renslo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1446-7878",
+        "authenticated-orcid": false,
+        "given": "Alan",
+        "family": "Ashworth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6098-7367",
+        "authenticated-orcid": false,
+        "given": "Brian K.",
+        "family": "Shoichet",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmaceutical Chemistry, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5080-2859",
+        "authenticated-orcid": false,
+        "given": "James S.",
+        "family": "Fraser",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA 94158, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-024-07487-W"
+      },
+      {
+        "issue": "4",
+        "key": "2026032020250516000_2025.12.25.696505v3.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1038/s41570-022-00363-z",
+        "article-title": "CACHE (Critical Assessment of Computational Hit-Finding Experiments): A Public-Private Partnership Benchmarking Initiative to Enable the Development of Computational Methods for Hit-Finding",
+        "volume": "6",
+        "year": "2022",
+        "journal-title": "Nature Reviews Chemistry"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04175-x"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.70066"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.5c01609"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature18002"
+      },
+      {
+        "issue": "6557",
+        "key": "2026032020250516000_2025.12.25.696505v3.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "871",
+        "DOI": "10.1126/science.abj8754",
+        "article-title": "\u201cAccurate Prediction of Protein Structures and Interactions Using a Three-Track Neural Network",
+        "volume": "373",
+        "year": "2021",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.8",
+        "unstructured": "Boitreaud, Jacques , Jack Dent , Matthew McPartlon , et al. 2024. \u201cChai-1: Decoding the Molecular Interactions of Life.\u201d In BioRxiv, No. Biorxiv;2024.10.10.615955v2. BioRxiv, October 11. https://www.biorxiv.org/content/10.1101/2024.10.10.615955v1?cf_chl_tk=r3ed26GCqUuMC0OMk8vLsuUdX.2zKusH8erATVDSrrA-1764449930-1.0.1.1-zu5jiTkN_tiSYsLBeOVMA5HJdEjCT84TiA1O6ypLXuI."
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2506.00593"
+      },
+      {
+        "issue": "9",
+        "key": "2026032020250516000_2025.12.25.696505v3.10",
+        "first-page": "3130",
+        "article-title": "PoseBusters: AI-Based Docking Methods Fail to Generate Physically Valid Poses or Generalise to Novel Sequences",
+        "volume": "15",
+        "year": "2024",
+        "journal-title": "Chemical Science (Royal Society of Chemistry: 2010)"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-025-66845-y"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M110.206771"
+      },
+      {
+        "issue": "22",
+        "key": "2026032020250516000_2025.12.25.696505v3.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "eads7187",
+        "DOI": "10.1126/sciadv.ads7187",
+        "article-title": "Exploration of Structure-Activity Relationships for the SARS-CoV-2 Macrodomain from Shape-Based Fragment Linking and Active Learning",
+        "volume": "11",
+        "year": "2025",
+        "journal-title": "Science Advances"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm049501b"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.adn1524"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "4179",
+        "DOI": "10.1038/s41467-025-59233-z",
+        "article-title": "Where and How to House Big Data on Small Fragments",
+        "volume": "16",
+        "year": "2025",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1186/s13321-025-01011-6",
+        "article-title": "Assessing Interaction Recovery of Predicted Protein-Ligand Poses",
+        "volume": "17",
+        "year": "2025",
+        "journal-title": "Journal of Cheminformatics"
+      },
+      {
+        "issue": "6614",
+        "key": "2026032020250516000_2025.12.25.696505v3.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "eabn7065",
+        "DOI": "10.1126/science.abn7065",
+        "article-title": "\u201cStructure-Based Discovery of Nonopioid Analgesics Acting through the \u03b12A-Adrenergic Receptor",
+        "volume": "377",
+        "year": "2022",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.103797"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2212931120"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10822-016-9946-8"
+      },
+      {
+        "issue": "6",
+        "key": "2026032020250516000_2025.12.25.696505v3.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "939",
+        "DOI": "10.1021/acscentsci.0c00229",
+        "article-title": "Deep Docking: A Deep Learning Platform for Augmentation of Structure Based Drug Discovery",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "ACS Central Science"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.08.012l"
+      },
+      {
+        "issue": "2",
+        "key": "2026032020250516000_2025.12.25.696505v3.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "102021",
+        "DOI": "10.1016/j.isci.2020.102021",
+        "article-title": "A Multi-Pronged Approach Targeting SARS-CoV-2 Proteins Using Ultra-Large Virtual Screening",
+        "volume": "24",
+        "year": "2021",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.4653"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.5c00394"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ci8000259"
+      },
+      {
+        "issue": "4",
+        "key": "2026032020250516000_2025.12.25.696505v3.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1111",
+        "DOI": "10.1038/s41401-024-01429-y",
+        "article-title": "AlphaFold3 versus Experimental Structures: Assessment of the Accuracy in Ligand-Bound G Protein-Coupled Receptors",
+        "volume": "46",
+        "year": "2025",
+        "journal-title": "Acta Pharmacologica Sinica"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4530",
+        "DOI": "10.1002/pro.4530",
+        "article-title": "Evaluation of AlphaFold2 Structures as Docking Targets",
+        "volume": "32",
+        "year": "2023",
+        "journal-title": "Protein Science: A Publication of the Protein Society"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ci0502855"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jmedchem.5b02008"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.10.11.681833"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.0c01306"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.20297"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.89386"
+      },
+      {
+        "issue": "5",
+        "key": "2026032020250516000_2025.12.25.696505v3.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1195",
+        "DOI": "10.1021/ci2001346",
+        "article-title": "Correction to \u2018Machine Learning-Based Method to Improve Docking Scoring Functions and Its Application to Drug Repurposing.\u2019",
+        "volume": "51",
+        "year": "2011",
+        "journal-title": "Journal of Chemical Information and Modeling"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.26237"
+      },
+      {
+        "issue": "7",
+        "key": "2026032020250516000_2025.12.25.696505v3.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1039",
+        "DOI": "10.1038/s41589-024-01797-w",
+        "article-title": "The Impact of Library Size and Scale of Testing on Virtual Screening",
+        "volume": "21",
+        "year": "2025",
+        "journal-title": "Nature Chemical Biology"
+      },
+      {
+        "issue": "6715",
+        "key": "2026032020250516000_2025.12.25.696505v3.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "eado1868",
+        "DOI": "10.1126/science.ado1868",
+        "article-title": "Large Library Docking Identifies Positive Allosteric Modulators of the Calcium-Sensing Receptor",
+        "volume": "385",
+        "year": "2024",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "issue": "6",
+        "key": "2026032020250516000_2025.12.25.696505v3.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "712",
+        "DOI": "10.1038/s41589-022-01234-w",
+        "article-title": "Modeling the Expansion of Virtual Screening Libraries",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "Nature Chemical Biology"
+      },
+      {
+        "issue": "6702",
+        "key": "2026032020250516000_2025.12.25.696505v3.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "eadn6354",
+        "DOI": "10.1126/science.adn6354",
+        "article-title": "\u201cAlphaFold2 Structures Guide Prospective Ligand Discovery",
+        "volume": "384",
+        "year": "2024",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-0917-9"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "8854",
+        "DOI": "10.1038/s41467-025-63947-5",
+        "article-title": "Investigating Whether Deep Learning Models for Co-Folding Learn the Physics of Protein-Ligand Interactions",
+        "volume": "16",
+        "year": "2025",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.64898/2025.12.04.692352"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1038/s44386-025-00019-0",
+        "article-title": "AI Meets Physics in Computational Structure-Based Drug Discovery for GPCRs",
+        "volume": "2",
+        "year": "2025",
+        "journal-title": "NPJ Drug Discovery"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444909029436"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ci7004498"
+      },
+      {
+        "issue": "100136",
+        "key": "2026032020250516000_2025.12.25.696505v3.49",
+        "first-page": "100136",
+        "article-title": "Co-Folding, the Future of Docking \u2013 Prediction of Allosteric and Orthosteric Ligands",
+        "volume": "8",
+        "year": "2025",
+        "journal-title": "Artificial Intelligence in the Life Sciences"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.06.14.659707"
+      },
+      {
+        "issue": "April",
+        "key": "2026032020250516000_2025.12.25.696505v3.51",
+        "first-page": "15123",
+        "article-title": "A Multi-Crystal Method for Extracting Obscured Crystallographic States from Conventionally Uninterpretable Electron Density",
+        "volume": "8",
+        "year": "2017",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "8-9",
+        "key": "2026032020250516000_2025.12.25.696505v3.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2300026",
+        "DOI": "10.1002/minf.202300026",
+        "article-title": "Novel Inhibitors of Androgen Receptor\u2019s DNA Binding Domain Identified Using an Ultra-Large Virtual Screening",
+        "volume": "42",
+        "year": "2023",
+        "journal-title": "Molecular Informatics"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-05905-z"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04220-9"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "105920",
+        "DOI": "10.1016/j.isci.2022.105920",
+        "article-title": "How Good Are AlphaFold Models for Docking-Based Virtual Screening?",
+        "volume": "26",
+        "year": "2023",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abf8711"
+      },
+      {
+        "issue": "103156",
+        "key": "2026032020250516000_2025.12.25.696505v3.57",
+        "first-page": "103156",
+        "article-title": "Editorial Overview: Artificial Intelligence Methodologies in Structural Biology",
+        "volume": "95",
+        "year": "2025",
+        "journal-title": "Current Opinion in Structural Biology"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature03197"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.04.010"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.02.03.636309"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2027-0"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.103484"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm060763i"
+      },
+      {
+        "issue": "1",
+        "key": "2026032020250516000_2025.12.25.696505v3.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "298",
+        "DOI": "10.1002/pro.3784",
+        "article-title": "Cross-Docking Benchmark for Automated Pose and Ranking Prediction of Ligand Binding",
+        "volume": "29",
+        "year": "2020",
+        "journal-title": "Protein Science: A Publication of the Protein Society"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.11.19.624167"
+      },
+      {
+        "issue": "17",
+        "key": "2026032020250516000_2025.12.25.696505v3.66",
+        "doi-asserted-by": "crossref",
+        "first-page": "8924",
+        "DOI": "10.1021/acs.jcim.5c00921",
+        "article-title": "AI-Designed Molecules in Drug Discovery, Structural Novelty Evaluation, and Implications",
+        "volume": "65",
+        "year": "2025",
+        "journal-title": "Journal of Chemical Information and Modeling"
+      },
+      {
+        "key": "2026032020250516000_2025.12.25.696505v3.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.05.22.655600"
+      },
+      {
+        "issue": "102899",
+        "key": "2026032020250516000_2025.12.25.696505v3.68",
+        "first-page": "102899",
+        "article-title": "Molecular Basis for the MacroD1-Mediated Hydrolysis of ADP-Ribosylation",
+        "volume": "94",
+        "year": "2020",
+        "journal-title": "DNA Repair"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.25.696505",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          21
+        ]
+      ],
+      "date-time": "2026-03-21T03:25:19Z",
+      "timestamp": 1774063519000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.25.696505"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          28
+        ]
+      ]
+    },
+    "references-count": 68,
+    "URL": "https://doi.org/10.64898/2025.12.25.696505",
+    "relation": {
+      "has-version": [
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.110475.1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

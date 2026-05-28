@@ -1,0 +1,594 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2026-03-25T22:07:49Z",
+      "timestamp": 1774476469727,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          20
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 51,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2024-08-20T00:00:00Z",
+          "timestamp": 1724112000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Norwegian Research Council FRIPRO",
+        "award": [
+          "299941"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "299941"
+            ]
+          }
+        ]
+      },
+      {
+        "award": [
+          "206194"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "206194"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/029chgv08",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "2025515"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2025515"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/011kf5r70",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "DE240100316"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE240100316"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/05mmh0f86",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                  Coexisting strains of the same species within the human microbiota pose a substantial challenge to inferring the host-to-host transmission of both pathogenic and commensal microbes. Here, we present TRACS, a highly accurate algorithm for estimating genetic distances between strains at the level of individual SNPs, which is robust to intra-species diversity within the host. Analysis of well-characterised Faecal Microbiota Transplantation datasets, along with extensive simulations, demonstrates that TRACS substantially outperforms existing strain aware transmission inference methods. We use TRACS to infer transmission networks in patients colonised with multiple strains, including SARS-CoV-2 amplicon sequencing data from UK hospitals, deep population sequencing data of\n                  <jats:italic>Streptococcus pneumoniae</jats:italic>\n                  and single-cell genome sequencing data from malaria patients infected with\n                  <jats:italic>Plasmodium falciparum</jats:italic>\n                  . Applying TRACS to gut metagenomic samples from a large cohort of 176 mothers and 1,288 infants born in UK hospitals revealed species-specific transmission rates between mothers and their infants. Notably, TRACS identified increased persistence of\n                  <jats:italic>Bifidobacterium</jats:italic>\n                  breve in infants, a finding missed by previous analyses due to the presence of multiple strains.\n                </jats:p>",
+    "DOI": "10.1101/2024.08.19.608527",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2024-08-23T14:35:20Z",
+      "timestamp": 1724423720000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Enhanced metagenomics-enabled transmission inference with TRACS"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4397-2224",
+        "authenticated-orcid": false,
+        "given": "Gerry",
+        "family": "Tonkin-Hill",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8662-0504",
+        "authenticated-orcid": false,
+        "given": "Yan",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1824-7653",
+        "authenticated-orcid": false,
+        "given": "Alexander E.",
+        "family": "Zarebski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8899-3323",
+        "authenticated-orcid": false,
+        "given": "Sudaraka",
+        "family": "Mallawaarachchi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5032-1932",
+        "authenticated-orcid": false,
+        "given": "Ouli",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0970-3514",
+        "authenticated-orcid": false,
+        "given": "Tommi",
+        "family": "M\u00e4klin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5895-3232",
+        "authenticated-orcid": false,
+        "given": "Harry A.",
+        "family": "Thorpe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6141-5179",
+        "authenticated-orcid": false,
+        "given": "Mark R.",
+        "family": "Davies",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8094-3751",
+        "authenticated-orcid": false,
+        "given": "Stephen D.",
+        "family": "Bentley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4805-621X",
+        "authenticated-orcid": false,
+        "given": "Trevor D.",
+        "family": "Lawley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7752-1942",
+        "authenticated-orcid": false,
+        "given": "Jukka",
+        "family": "Corander",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03677-y"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1182395"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-45608-1"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05620-1"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-00797-0"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.2848"
+      },
+      {
+        "issue": "11",
+        "key": "2025112917551363000_2024.08.19.608527v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1791",
+        "DOI": "10.1038/s41564-022-01238-1",
+        "article-title": "Pneumococcal within-host diversity during colonization, transmission and treatment",
+        "volume": "7",
+        "year": "2022",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chris Wymant , Matthew Hall , Oliver Ratmann , David Bonsall , Tanya Golubchik , Mariateresa de Cesare , Astrid Gall , Marion Cornelissen , Christophe Fraser , and STOP-HCV Consortium, The Maela Pneumococcal Collaboration, and The BEEHIVE Collaboration. PHYLOSCANNER: Inferring transmission from within- and Between-Host pathogen genetic diversity. Mol. Biol. Evol., November 2017.",
+        "DOI": "10.1101/157768"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.216242.116"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-022-02630-0"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chunyu Zhao , Boris Dimitrov , Miriam Goldman , Stephen Nayfach , and Katherine S Pollard . MIDAS2: Metagenomic intra-species diversity analysis system. Bioinformatics, 39(1), January 2023.",
+        "DOI": "10.1093/bioinformatics/btac713"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.201863.115"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-021-02419-7"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1006",
+        "DOI": "10.12688/f1000research.19675.1",
+        "article-title": "Large-scale sequence comparisons with sourmash",
+        "volume": "8",
+        "year": "2019",
+        "journal-title": "F1000Res"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btw152"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicholas J Croucher , Andrew J Page , Thomas R Connor , Aidan J Delaney , Jacqueline A Keane , Stephen D Bentley , Julian Parkhill , and Simon R Harris . Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using gubbins. Nucleic Acids Res., page gku1196, November 2014.",
+        "DOI": "10.1093/nar/gku1196"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msy242"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.18",
+        "unstructured": "Torsten Seemann . snippy."
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1006885"
+      },
+      {
+        "issue": "2",
+        "key": "2025112917551363000_2024.08.19.608527v2.21",
+        "first-page": "000732",
+        "article-title": "Widespread sharing of pneumococcal strains in a rural african setting: proximate villages are more likely to share similar strains that are carried at multiple timepoints",
+        "volume": "8",
+        "year": "2022",
+        "journal-title": "Microbial genomics"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "James R Knight , Eileen M Dunne , E Kim Mulholland , Sudipta Saha , Catherine Satzke , Adrienn Tothpal , and Daniel M Weinberger . Determining the serotype composition of mixed samples of pneumococcus using whole-genome sequencing. Microb Genom, 7(1), January 2021.",
+        "DOI": "10.1099/mgen.0.000494"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andre Mu , Jason C Kwong , Nicole S Isles , Anders Gon\u00e7alves da Silva , Mark B Schultz , Susan A Ballard , Courtney R Lane , Glen P Carter , Deborah A Williamson , Torsten Seemann , Timothy P Stinear , and Benjamin P Howden . Reconstruction of the genomes of Drug-Resistant pathogens for outbreak investigation through metagenomic sequencing. mSphere, 4(1), January 2019.",
+        "DOI": "10.1128/mSphere.00529-18"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Katrina A Lythgoe , Matthew Hall , Luca Ferretti , Mariateresa de Cesare , George MacIntyreCockett , Amy Trebes , Monique Andersson , Newton Otecko , Emma L Wise , Nathan Moore , Jessica Lynch , Stephen Kidd , Nicholas Cortes , Matilde Mori , Rebecca Williams , Gabrielle Vernet , Anita Justice , Angie Green , Samuel M Nicholls , M Azim Ansari , Lucie Abeler-D\u00f6rner , Catrin E Moore , Timothy E A Peto , David W Eyre , Robert Shaw , Peter Simmonds , David Buck , John A Todd , Oxford Virus Sequencing Analysis Group (OVSG), Thomas R Connor , Shirin Ashraf , Ana da Silva Filipe , James Shepherd , Emma C Thomson , COVID-19 Genomics UK (COG-UK) Consortium, David Bonsall , Christophe Fraser , and Tanya Golubchik . SARS-CoV-2 within-host diversity and transmission. Science, 372(6539), April 2021.",
+        "DOI": "10.1126/science.abg0821"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DA A Pipelines , Benjamin Farr , Diana Rajan , Emma Betteridge , Lesley Shirley , Michael Quail , Naomi Park , Nicholas Redshaw , Iraad Bronner , Louise Aigrain , Scott Goodwin , Scott Thurston , Stefanie Lensing , James Bonfield , Keith James , Nicholas Salmon , Charlotte Beaver , Rachel Nelson , K David , Alex Alderton , and Ian Johnston . COVID-19 ARTIC v3 illumina library construction and sequencing protocol v4. Technical report, May 2020.",
+        "DOI": "10.17504/protocols.io.bgxjjxkn"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.66857"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.27",
+        "unstructured": "Nicola De Maio , Conor Walker , Rui Borges , Lukas Weilguny , Greg Slodkowicz , and Nick Goldman . Issues with SARS-CoV-2 sequencing data. https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473, May 2020. Accessed: 2024-5-8."
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "338",
+        "DOI": "10.1016/j.ebiom.2019.04.021",
+        "article-title": "International genomic definition of pneumococcal lineages, to contextualise disease, antibiotic resistance and vaccine impact",
+        "volume": "43",
+        "year": "2019",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "John A Lees , Nicholas J Croucher , David Goldblatt , Fran\u00e7ois Nosten , Julian Parkhill , Claudia Turner , Paul Turner , and Stephen D Bentley . Genome-wide identification of lineage and locus specific variation associated with pneumococcal carriage duration. Elife, 6, July 2017.",
+        "DOI": "10.7554/eLife.26255"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sophie Belman , Henri Pesonen , Nicholas J Croucher , Stephen D Bentley , and Jukka Corander . Estimating between country migration in pneumococcal populations. G3, March 2024.",
+        "DOI": "10.1093/g3journal/jkae058"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.31",
+        "unstructured": "World malaria report 2023. Technical report, World Health Organization, 2023."
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sha Joe Zhu , Jason A Hendry , Jacob Almagro-Garcia , Richard D Pearson , Roberto Amato , Alistair Miles , Daniel J Weiss , Tim Cd Lucas , Michele Nguyen , Peter W Gething , Dominic Kwiatkowski , Gil McVean , and Pf3k Project. The origins and relatedness structure of mixed infections vary with local prevalence of p. falciparum malaria. Elife, 8, July 2019.",
+        "DOI": "10.7554/eLife.40845"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2019.12.001"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01964-3"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1560-1"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan Shao , Cristina Garcia-Mauri\u00f1o , Simon Clare , Nicholas J R Dawson , Andre Mu , Anne Adoum , Katherine Harcourt , Junyan Liu , Hilary P Browne , Mark D Stares , Alison Rodger , Peter Brocklehurst , Nigel Field , and Trevor D Lawley . Primary succession of bifidobacteria drives pathogen resistance in neonatal microbiota assembly. Nat. Microbiol., In press, 2024.",
+        "DOI": "10.1038/s41564-024-01804-9"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab776"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nm.4176"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-017-02573-2"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2024.05.004"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-45209-y"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2024.05.005"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006117"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.45",
+        "unstructured": "Heng Li . htsbox, 2013."
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.46",
+        "unstructured": "Thomas P Minka . Estimating a dirichlet distribution. http://citeseerx.ist.psu.edu\u203aviewdoc\u203asummary http://citeseerx.ist.psu.edu\u203aviewdoc\u203asummary, 2000."
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.47",
+        "unstructured": "John Wilder Tukey . Exploratory Data Analysis. Addison-Wesley Publishing Company, 1977."
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.48",
+        "first-page": "3",
+        "article-title": "Teoria statistica delle classi e calcolo delle probabilita",
+        "volume": "8",
+        "year": "1936",
+        "journal-title": "Pubblicazioni del R Istituto Superiore di Scienze Economiche e Commericiali di Firenze"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr708"
+      },
+      {
+        "issue": "36",
+        "key": "2025112917551363000_2024.08.19.608527v2.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1316",
+        "DOI": "10.21105/joss.01316",
+        "article-title": "Badread: simulation of error-prone long reads",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "J. Open Source Softw"
+      },
+      {
+        "key": "2025112917551363000_2024.08.19.608527v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.2895"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.08.19.608527",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:54:16Z",
+      "timestamp": 1768460056000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.08.19.608527"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          20
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1101/2024.08.19.608527",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

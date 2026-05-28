@@ -1,0 +1,466 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          6
+        ]
+      ],
+      "date-time": "2026-04-06T09:09:34Z",
+      "timestamp": 1775466574886,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          15
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The SARS-CoV-2 virus has infected millions of people, overwhelming critical care resources in some regions. Many plans for rationing critical care resources during crises are based on the Sequential Organ Failure Assessment (SOFA) score. The COVID-19 pandemic created an emergent need to develop and validate a novel electronic health record (EHR)-computable tool to predict mortality.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research Questions</jats:title>\n                  <jats:p>To rapidly develop, validate, and implement a novel real-time mortality score for the COVID-19 pandemic that improves upon SOFA.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Study Design and Methods</jats:title>\n                  <jats:p>We conducted a prospective cohort study of a regional health system with 12 hospitals in Colorado between March 2020 and July 2020. All patients &gt;14 years old hospitalized during the study period without a do not resuscitate order were included. Patients were stratified by the diagnosis of COVID-19. From this cohort, we developed and validated a model using stacked generalization to predict mortality using data widely available in the EHR by combining five previously validated scores and additional novel variables reported to be associated with COVID-19-specific mortality. We compared the area under the receiver operator curve (AUROC) for the new model to the SOFA score and the Charlson Comorbidity Index.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We prospectively analyzed 27,296 encounters, of which 1,358 (5.0%) were positive for SARS-CoV-2, 4,494 (16.5%) included intensive care unit (ICU)-level care, 1,480 (5.4%) included invasive mechanical ventilation, and 717 (2.6%) ended in death. The Charlson Comorbidity Index and SOFA scores predicted overall mortality with an AUROC of 0.72 and 0.90, respectively. Our novel score predicted overall mortality with AUROC 0.94. In the subset of patients with COVID-19, we predicted mortality with AUROC 0.90, whereas SOFA had AUROC of 0.85.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>We developed and validated an accurate, in-hospital mortality prediction score in a live EHR for automatic and continuous calculation using a novel model, that improved upon SOFA.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Take Home Points</jats:title>\n                  <jats:sec>\n                    <jats:title>Study Question</jats:title>\n                    <jats:p>Can we improve upon the SOFA score for real-time mortality prediction during the COVID-19 pandemic by leveraging electronic health record (EHR) data?</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We rapidly developed and implemented a novel yet SOFA-anchored mortality model across 12 hospitals and conducted a prospective cohort study of 27,296 adult hospitalizations, 1,358 (5.0%) of which were positive for SARS-CoV-2. The Charlson Comorbidity Index and SOFA scores predicted all-cause mortality with AUROCs of 0.72 and 0.90, respectively. Our novel score predicted mortality with AUROC 0.94.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Interpretation</jats:title>\n                    <jats:p>A novel EHR-based mortality score can be rapidly implemented to better predict patient outcomes during an evolving pandemic.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.14.21249793",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2021-01-15T15:46:49Z",
+      "timestamp": 1610725609000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Real-Time Electronic Health Record Mortality Prediction During the COVID-19 Pandemic: A Prospective Cohort Study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Peter D.",
+        "family": "Sottile",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Albers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter E.",
+        "family": "DeWitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seth",
+        "family": "Russell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.N.",
+        "family": "Stroh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David P.",
+        "family": "Kao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bonnie",
+        "family": "Adrian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew E.",
+        "family": "Levine",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan",
+        "family": "Mooney",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lenny",
+        "family": "Larchick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jean S.",
+        "family": "Kutner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew K.",
+        "family": "Wynia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeffrey J.",
+        "family": "Glasheen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1483-4236",
+        "authenticated-orcid": false,
+        "given": "Tellen D.",
+        "family": "Bennett",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1132-9"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.4344"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.4",
+        "unstructured": "Subject Matter Experts Advisory Panel for the Governors Expert Emergency Epidemic Response Committee on Crisis Standards of Care Guidelines for Hospitals for the COVID-19 Pandemic. 2nd ed.; 2020. https://www.colorado.gov/pacific/cdphe/colorado-crisis-standards-care. Accessed May 15, 2020."
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.5",
+        "unstructured": "Minnesota Crisis Standards of Care.; 2020. https://www.health.state.mn.us/communities/ep/surge/crisis/index.html."
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.CCM.0000262385.95721.CC"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/cc10001"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/dmp.2010.40"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15265161.2020.1779412"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-1738"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2020.12606"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01709751"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00003246-199811000-00016"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2019.04.020"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.1993.03510240069035"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s001340050931"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.286.14.1754"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2044.2009.06084.x"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2044.2009.06135.x"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0893-6080(05)80023-1"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-84858-7"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-018-1952-x"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0b013e318170a375"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwq433"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-9681(87)90171-8"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-019-0548-6"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.27",
+        "first-page": "323",
+        "article-title": "Leveraging Clinical Expertise as a Feature -not an Outcome - of Predictive Models: Evaluation of an Early Warning System Use Case",
+        "volume": "2019",
+        "year": "2019",
+        "journal-title": "AMIA. Annu Symp proceedings AMIA Symp"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4037/ajcc2013426"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.29",
+        "unstructured": "HealthData Compass. healthdatacompass.org. Accessed May 15, 2020."
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1711584"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.31",
+        "unstructured": "Sill J , Takacs G , Mackey L , Lin D. Feature-Weighted Linear Stacking. November 2009. http://arxiv.org/abs/0911.0460."
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/153244304773936090"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00117832"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.0994"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2010419"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(09)60137-9"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMp2005689"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chest.2020.03.063"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-150-2-200901200-00011"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000004411"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ijcp.13926"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ijcp.13705"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.0291"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.202004-1163LE"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMra1814259"
+      },
+      {
+        "key": "2021011711051078000_2021.01.14.21249793v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rasmussen CE , Williams CK . Gaussian Processes in Machine Learning. Boston: The MIT Press; 2006.",
+        "DOI": "10.7551/mitpress/3206.001.0001"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.14.21249793",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:03:18Z",
+      "timestamp": 1768485798000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.14.21249793"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          15
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2021.01.14.21249793",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/jamia/ocab100",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:57:08Z",
+      "timestamp": 1768550228717,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>In many parts of the world, restrictive non-pharmaceutical interventions (NPI) that aim to reduce contact rates, including stay-at-home orders, limitations on gatherings, and closure of public places, are being lifted, with the possibility that the epidemic resurges if alternative measures are not strong enough. Here we aim to capture the combination of use of NPI\u2019s and reopening measures which will prevent an infection rebound.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We employ an SEAIR model with household structure able to capture the stay-at-home policy (SAHP). To reflect the changes in the SAHP over the course of the epidemic, we vary the SAHP compliance rate, assuming that the time to compliance of all the people requested to stay-at-home follows a Gamma distribution. Using confirmed case data for the City of Toronto, we evaluate basic and instantaneous reproduction numbers and simulate how the average household size, the stay-at-home rate, the efficiency and duration of SAHP implementation, affect the outbreak trajectory.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>The estimated basic reproduction number R_0 was 2.36 (95% CI: 2.28, 2.45) in Toronto. After the implementation of the SAHP, the contact rate outside the household fell by 39%. When people properly respect the SAHP, the outbreak can be quickly controlled, but extending its duration beyond two months (65 days) had little effect. Our findings also suggest that to avoid a large rebound of the epidemic, the average number of contacts per person per day should be kept below nine. This study suggests that fully reopening schools, offices, and other activities, is possible if the use of other NPIs is strictly adhered to.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>\n                    Our model confirmed that the SAHP implemented in Toronto had a great impact in controlling the spread of COVID-19. Given the lifting of restrictive NPIs, we estimated the thresholds values of maximum number of contacts, probability of transmission and testing needed to ensure that the reopening will be safe, i.e. maintaining an\n                    <jats:italic>R</jats:italic>\n                    <jats:sub>\n                      <jats:italic>t</jats:italic>\n                    </jats:sub>\n                    &lt; 1.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>A survey on published articles was made through PubMed and Google Scholar searches. The search was conducted from March 1 to August 13, 2020 and all papers published until the end of this research were considered. The following terms were used to screen articles on mathematical models: \u201chousehold structure\u201d, \u201cepidemic model\u201d, \u201cSARS-CoV-2\u201d, \u201cCOVID-19\u201d, \u201chousehold SIR epidemic\u201d, \u201chousehold SIS epidemic\u201d, \u201chousehold SEIR epidemic\u201d, \u201cquarantine, isolation model\u201d, \u201cquarantine model dynamics\u201d, \u201cstructured model isolation\u201d. Any article showing, in the title, application of epidemic models in a specific country/region or infectious diseases rather than SARS-CoV-2 were excluded. Articles in English were considered.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>We develop an epidemic model with household structure to study the effects of SAHP on the infection within households and transmission of COVID-19 in Toronto. The complex model provides interesting insights into the effectiveness of SAHP, if the average number of individuals in a household changes. We found that the SAHP might not be adequate if the size of households is relatively large. We also introduce a new quantity called symptomatic diagnosis\u2019 completion ratio (d_c). This indicator is defined as the ratio of cumulative reported cases and the cumulative cases by episode date at time t, and it is used in the model to inform the implementation of SAHP.</jats:p>\n                    <jats:p>If cases are diagnosed at the time of symptom onset, isolation will be enforced immediately. A delay in detecting cases will lead to a delay in isolation, with subsequent increase in the transmission of the infection. Comparing different scenarios (before and after reopening phases), we were able to identify thresholds of these factors which mainly affect the spread of the infection: the number of daily tests, average number of contacts per individual, and probability of transmission of the virus. Our results show that if any of the three above mentioned factors is reduced, then the other two need to be adjusted to keep a reproduction number below 1. Lifting restrictive closures will require the average number of contacts a person has each day to be less than pre-COVID-19, and a high rate of case detection and tracing of contacts. The thresholds found will inform public health decisions on reopening.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>Our findings provide important information for policymakers when planning the full reopening phase. Our results confirm that prompt implementation of SAHP was crucial in reducing the spread of COVID-19. Also, based on our analyses, we propose public health alternatives to consider in view of a full reopening. For example, for different post-reopening scenarios, the average number of contacts per person needs to be reduced if the symptomatic diagnosis\u2019 completion ratio is low and the probability of transmission increases. Namely, if fewer tests are completed and the usage of NPI\u2019s decreases, then the epidemic can be controlled only if individuals can maintain contact with a maximum average number of 4-5 people per person per day. Different recommendations can be provided by relaxing/strengthening one of the above-mentioned factors.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2020.10.19.20181057",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2020-10-21T08:55:18Z",
+      "timestamp": 1603270518000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Efficacy of \u201cstay-at-home\u201d policy and transmission of COVID-19 in Toronto, Canada: a mathematical modeling study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8428-2073",
+        "authenticated-orcid": false,
+        "given": "Pei",
+        "family": "Yuan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Juan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elena",
+        "family": "Aruffo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2087-3584",
+        "authenticated-orcid": false,
+        "given": "Tingting",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1062-7283",
+        "authenticated-orcid": false,
+        "given": "Nick",
+        "family": "Ogden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2128-9133",
+        "authenticated-orcid": false,
+        "given": "Beate",
+        "family": "Sander",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9502-1688",
+        "authenticated-orcid": false,
+        "given": "Jane",
+        "family": "Heffernan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3173-2995",
+        "authenticated-orcid": false,
+        "given": "Evgenia",
+        "family": "Gatov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Effie",
+        "family": "Gournis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah",
+        "family": "Collier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8409-2667",
+        "authenticated-orcid": false,
+        "given": "Yi",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6409-5027",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Arino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3164-5314",
+        "authenticated-orcid": false,
+        "given": "Jacques",
+        "family": "B\u00e9lair",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0126-0504",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Watmough",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7557-5672",
+        "authenticated-orcid": false,
+        "given": "Jude Dzevela",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1127-4085",
+        "authenticated-orcid": false,
+        "given": "Iain",
+        "family": "Moyles",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2718-595X",
+        "authenticated-orcid": false,
+        "given": "Huaiping",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.1",
+        "unstructured": "WHO. Coronavirus disease 2019 (COVID-19) situation report. July 8, 2020. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/ (accessed July 15, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.2",
+        "unstructured": "Ferguson NM , Laydon D , Gilani GN , et al. Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. Imperial College COVID-19 Response Team. March 16, 2020. https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf (accessed May 26, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2471/BLT.20.258152"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "288",
+        "DOI": "10.1016/j.ijid.2020.03.018",
+        "article-title": "The effectiveness of quarantine and isolation determine the trend of the COVID-19 epidemics in the final phase of the current outbreak in China",
+        "volume": "95",
+        "year": "2020",
+        "journal-title": "Int J Infect Dis"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/23744235.2020.1797157"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.6",
+        "unstructured": "Government of Canada. Coronavirus disease (COVID-19). 2020. https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html(accessed May 31, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.7",
+        "unstructured": "Toronto. News Releases & Media Advisories. 2020. https://www.toronto.ca/news/ (accessed July 30)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e261",
+        "DOI": "10.1016/S2468-2667(20)30073-6",
+        "article-title": "The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Lancet Public Health"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/j.jinf.2020.03.040",
+        "article-title": "Household transmission of SARS-CoV-2",
+        "volume": "81",
+        "year": "2020",
+        "journal-title": "J Infect"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.10",
+        "first-page": "2000280",
+        "article-title": "Only strict quarantine measures can curb the coronavirus disease (COVID-19) outbreak in Italy, 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Euro Surveill"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "691",
+        "DOI": "10.1007/s00285-010-0386-0",
+        "article-title": "Epidemic growth rate and household reproduction number in communities of households, schools and workplaces",
+        "volume": "63",
+        "year": "2011",
+        "journal-title": "J Math Biol"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mbs.2008.01.011"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30460-8"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s41885-020-00066-z"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.15",
+        "unstructured": "City of Toronto. COVID-19. 2020. https://www.toronto.ca/home/covid-19/ (accessed July 20, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.16",
+        "unstructured": "Statistics Canada. Census Profile, 2016 Census. 2016. https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/Page.cfm?Lang=E&Geo1=CSD&Code1=3520005&Geo2=PR&Data=Count&B1=Allpd/prof/details/Page.cfm?Lang=E&Geo1=CSD&Code1=3520005&Geo2=PR&Data=Count&B1=All (accessed March 20, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.17",
+        "unstructured": "Berry I. ishaberry/Covid19Canada. 2020. https://github.com/ishaberry/Covid19Canada (accessed May 20, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2001737"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "599",
+        "DOI": "10.1098/rspb.2006.3754",
+        "article-title": "How generation intervals shape the relationship between growth rates and reproductive numbers",
+        "volume": "274",
+        "year": "2007",
+        "journal-title": "Proc Royal So B"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1186/1472-6947-12-147",
+        "article-title": "The R0 package: a toolbox to estimate reproduction numbers for epidemic outbreaks",
+        "volume": "12",
+        "year": "2012",
+        "journal-title": "BMC Medical Inform Decis Mak"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwh255"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001316"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.24",
+        "unstructured": "Hubei Provincial Bureau of Statistics. 2018 Wuhan Statistic Yearbook. June 6, 2019. http://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/gsztj/whs/ (accessed July 20, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0843-2"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.26",
+        "unstructured": "Centers for Disease Control and Prevention. Recommendations for Cloth Face Covers. 2020. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover.html (accessed April 8, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.27",
+        "unstructured": "City of Toronto. Toronto at a Glance. 2018. https://www.toronto.ca/city-government/data-research-maps/toronto-at-a-glance/ (accessed April 22, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb3221"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.29",
+        "first-page": "100",
+        "article-title": "De-Escalation by Reversing the Escalation with a Stronger Synergistic Package of Contact Tracing, Quarantine, Isolation and Personal Protection: Feasibility of Preventing a COVID-19 Rebound in Ontario, Canada, as a Case Study",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Biology (Basel)"
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.30",
+        "unstructured": "Government of Ontario. Reopening Ontario in stages. 2020. https://www.ontario.ca/page/reopening-ontario-whats-each-stage (accessed June 28, 2020)."
+      },
+      {
+        "key": "2020102315500780000_2020.10.19.20181057v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ng V , Fazil A , Waddell LA , Bancej C , Turgeon P , Otten A , Atchessi N , Ogden N. Projected effects of nonpharmaceutical public health interventions to prevent resurgence of SARS-CoV-2 transmission in Canada. CMAJ. 2020 Aug 9:cmaj.200990.",
+        "DOI": "10.1503/cmaj.200990"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.19.20181057",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:50Z",
+      "timestamp": 1768485410000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.19.20181057"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2020.10.19.20181057",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.9778/cmajo.20200242",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

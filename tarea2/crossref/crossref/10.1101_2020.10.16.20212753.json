@@ -1,0 +1,386 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:45:12Z",
+      "timestamp": 1768549512642,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Accurate measurement of daily infection incidence is crucial to epidemic response. However, delays in symptom onset, testing, and reporting obscure the dynamics of transmission, necessitating methods to remove the effects of stochastic delays from observed data. Existing estimators can be sensitive to model misspecification and censored observations; many analysts have instead used methods that exhibit strong bias or do not account for delays. We develop an estimator with a regularization scheme to cope with these sources of noise, which we term the Robust Incidence Deconvolution Estimator (RIDE). We validate RIDE on synthetic data, comparing accuracy and stability to existing approaches. We then use RIDE to study COVID-19 records in the United States, and find evidence that infection estimates from reported cases can be more informative than estimates from mortality data. To implement these methods, we release\n                  <jats:monospace>incidental</jats:monospace>\n                  , a ready-to-use\n                  <jats:monospace>R</jats:monospace>\n                  implementation of our estimator that can aid ongoing efforts to monitor the COVID-19 pandemic.\n                </jats:p>",
+    "DOI": "10.1101/2020.10.16.20212753",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2020-10-20T18:25:12Z",
+      "timestamp": 1603218312000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Statistical deconvolution for inference of infection time series"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Andrew C.",
+        "family": "Miller",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren",
+        "family": "Hannah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joseph",
+        "family": "Futoma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicholas J.",
+        "family": "Foti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emily B.",
+        "family": "Fox",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "D\u2019Amour",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mark",
+        "family": "Sandler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rif A.",
+        "family": "Saurous",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joseph A.",
+        "family": "Lewnard",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "112",
+        "key": "2020102212301099000_2020.10.16.20212753v1.1",
+        "first-page": "112",
+        "article-title": "Estimating the time-varying reproduction number of sars-cov-2 using national and subnational case counts",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Wellcome Open Research"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.2",
+        "unstructured": "Sam Abbott , Joel Hellewell , Robin N. Thompson , Katherine Sherratt , Hamish P Gibbs , Nikos I Bosse , James D Munday , Sophi Meakin , Emma L Doughty , June Young Chun , Yung-Wai Desmond Chan , Flavio Finger , Paul Campbell , Aira Endo , Carl A B Pearson , Amy Gimma , Tim Russel , CMMID COVID modeling group, Stefan Flasche, Adam J Kucharski, Rosalind M Eggo, and Sebastian Funk. Temporal variation in transmission during the COVID-19 outbreak. https://epiforecasts.io/covid/ (accessed 2020-09-01), 2020."
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.1974.1100705"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc9004"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/35.3-4.246"
+      },
+      {
+        "issue": "2",
+        "key": "2020102212301099000_2020.10.16.20212753v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1214/ss/1177010994",
+        "article-title": "Backcalculation of HIV infection rates",
+        "volume": "8",
+        "year": "1993",
+        "journal-title": "Statistical Science"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.4780101005"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.2063206"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2288844"
+      },
+      {
+        "issue": "8519",
+        "key": "2020102212301099000_2020.10.16.20212753v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1320",
+        "DOI": "10.1016/S0140-6736(86)91444-3",
+        "article-title": "Minimum size of the acquired immunodeficiency syndrome (AIDS) epidemic in the United States",
+        "volume": "328",
+        "year": "1986",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/asv068"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0902958106"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Katelyn M Gostic , Lauren McGough , Edward Baskerville , Sam Abbott , Keya Joshi , Christine Tedijanto , Rebecca Kahn , Rene Niehus , James A Hay , Pablo M. De Salazar , Joel Hellewell , Sophie Meakin , James Munday , Nikos Bosse , Katharine Sherratt , Robin M Thompson , Laura F White , Jana Huisman , J\u00e9r\u00e9mie Scire , Sebastian Bonhoeffer , Tanj Stadler , Jacco Wallinga , Sebastian Funk , Marc Lipsitch , and Sarah Cobey . Practical considerations for measuring the effective reproductive number, rt . medRxiv, 2020.",
+        "DOI": "10.1101/2020.06.18.20134858"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peter J Green and Bernard W Silverman . Nonparametric regression and generalized linear models: a roughness penalty approach. CRC Press, 1993.",
+        "DOI": "10.1201/b15710"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.16",
+        "unstructured": "Open COVID-19 Data Working Group. Detailed Epidemiological Data from the COVID-19 Outbreak. Accessed on 2020-06-16 from http://virological.org, 2020."
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.17",
+        "unstructured": "Michael H\u00f6hle and Andrea Riebler . The R-package surveillance. 2005."
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.18",
+        "unstructured": "Nicholas P Jewell , Joseph A Lewnard , and Britta L Jewell . Caution warranted: using the Institute for Health Metrics and Evaluation model for predicting the course of the COVID-19 pandemic. Annals of Internal Medicine."
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joseph A Lewnard , Vincent X Liu , Michael L Jackson , Mark A Schmidt , Britta L Jewell , Jean P Flores , Chris Jentz , Graham R Northrup , Ayesha Mahmud , Arthur L Reingold , et al. Incidence, clinical outcomes, and transmission dynamics of severe coronavirus disease 2019 in California and Washington: prospective cohort study. BMJ, 369, 2020.",
+        "DOI": "10.1136/bmj.m1923"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joseph A Lewnard , Vincent X Liu , Michael L Jackson , Mark A Schmidt , Britta L Jewell , Jean P Flores , Chris Jentz , Graham R Northrup , Ayesha Mahmud , Arthur L Reingold , Maya Petersen , Nicholas P Jewell , Scott Young , and Jim Bellows . Incidence, clinical outcomes, and transmission dynamics of hospitalized 2019 coronavirus disease among 9,596,321 individuals residing in California and Washington, United States: a prospective cohort study. medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.12.20062943"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roderick JA Little and Donald B Rubin . Statistical analysis with missing data, volume 793. John Wiley & Sons, 2019.",
+        "DOI": "10.1002/9781119482260"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1086/111605",
+        "article-title": "An iterative technique for the rectification of observed distributions",
+        "volume": "79",
+        "year": "1974",
+        "journal-title": "The Astronomical Journal"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1177013525"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/JOSA.62.000055"
+      },
+      {
+        "issue": "12",
+        "key": "2020102212301099000_2020.10.16.20212753v1.26",
+        "first-page": "2000256",
+        "article-title": "Estimating the infection and case fatality ratio for coronavirus disease (COVID-19) using age-adjusted data from the outbreak on the Diamond Princess cruise ship, February 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.27",
+        "unstructured": "Kevin Systrom and Thomas Vladeck. Rt Covid-19. https://rt.live (accessed 2020-06-16), 2020."
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.28",
+        "unstructured": "Andrey N. Tikhonov and Vasiliy Y. Arsenin. Solutions of ill-posed problems. Scripta series in mathematics. V.H. Winston and Sons (distributed by Wiley), New York, 1977."
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwh255"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.1585"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bo Xu , Bernardo Gutierrez , Sumiko Mekaru , Kara Sewalk , Lauren Goodwin , Alyssa Loskill , Emily Cohn , Yulin Hswen , Sarah C. Hill , Maria M Cobo , Alexander Zarebski , Sabrina Li , Chieh-Hsi Wu , Erin Hulland , Julia Morgan , Lin Wang , Katelynn O\u2019Brien , Samuel V. Scarpino , John S. Brownstein , Oliver G. Pybus , David M. Pigott , and Moritz U. G. Kraemer . Epidemiological data from the COVID-19 outbreak, real-time case information. Scientific Data, 7(106), 2020.",
+        "DOI": "10.1038/s41597-020-0448-0"
+      },
+      {
+        "issue": "2",
+        "key": "2020102212301099000_2020.10.16.20212753v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1080/03610910701792562",
+        "article-title": "Reconstruction of the infection curve for SARS epidemic in Beijing, China using a back-projection method",
+        "volume": "37",
+        "year": "2008",
+        "journal-title": "Communications in Statistics\u2014Simulation and Computation"
+      },
+      {
+        "key": "2020102212301099000_2020.10.16.20212753v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juanjuan Zhang , Maria Litvinova , Wei Wang , Yan Wang , Xiaowei Deng , Xinghui Chen , Mei Li , Wen Zheng , Lan Yi , Xinhua Chen , et al. Evolving epidemiology and transmission dynamics of coronavirus disease 2019 outside Hubei province, China: a descriptive and modelling study. The Lancet Infectious Diseases, 2020.",
+        "DOI": "10.1016/S1473-3099(20)30230-9"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.16.20212753",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:44Z",
+      "timestamp": 1768485404000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.16.20212753"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.1101/2020.10.16.20212753",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1097/EDE.0000000000001495",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

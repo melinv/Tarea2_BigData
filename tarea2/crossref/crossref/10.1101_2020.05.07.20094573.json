@@ -1,0 +1,457 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:56:51Z",
+      "timestamp": 1768550211499,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          12
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>The goal of this study was to create a predictive model of early hospital respiratory decompensation among patients with COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Observational, retrospective cohort study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Nine-hospital health system within the Northeastern United States.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Populations</jats:title>\n                  <jats:p>Adult patients (\u2265 18 years) admitted from the emergency department who tested positive for SARS-CoV-2 (COVID-19) up to 24 hours after initial presentation. Patients meeting criteria for respiratory critical illness within 4 hours of arrival were excluded.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main outcome and performance measures</jats:title>\n                  <jats:p>\n                    We used a composite endpoint of critical illness as defined by oxygen requirement (greater than 10 L/min by low-flow device, high-flow device, non-invasive, or invasive ventilation) or death within the first 24 hours of hospitalization. We developed models predicting our composite endpoint using patient demographic and clinical data available within the first four hours of arrival. Eight hospitals (\n                    <jats:italic>n</jats:italic>\n                    = 932) were used for model development and one hospital (\n                    <jats:italic>n</jats:italic>\n                    = 240) was held out for external validation. Area under receiver operating characteristic (AU-ROC), precision-recall curves (AU-PRC), and calibration metrics were used to compare predictive models to three illness scoring systems: Elixhauser comorbidity index, qSOFA, and CURB-65.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>During the study period from March 1, 2020 to April 27,2020, 1,792 patients were admitted with COVID-19. Six-hundred and twenty patients were excluded based on age or critical illness within the first 4 hours, yielding 1,172 patients in the final cohort. Of these patients, 144 (12.3%) met the composite endpoint within the first 24 hours. We first developed a bedside quick COVID-19 severity index (qCSI), a twelve-point scale using nasal cannula flow rate, respiratory rate, and minimum documented pulse oximetry. We then created a machine-learning gradient boosting model, the COVID-19 severity index (CSI), using twelve additional variables including inflammatory markers and liver chemistries. Both the qCSI (AU-ROC mean [95% CI]: 0.90 [0.85-0.96]) and CSI (AU-ROC: 0.91 [0.86-0.97]) outperformed the comparator models (qSOFA: 0.76 [0.69-0.85]; Elixhauser: 0.70 [0.62-0.80]; CURB-65: AU-ROC 0.66 [0.58-0.77]) on cross-validation and performed well on external validation (qCSI: 0.82, CSI: 0.76, CURB-65: 0.50, qSOFA: 0.59, Elixhauser: 0.61). We find that a qCSI score of 0-3 is associated with a less than 5% risk of critical respiratory illness, while a score of 9-12 is associated with a 57% risk of progression to critical illness.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>A significant proportion of admitted COVID-19 patients decompensate within 24 hours of hospital presentation and these events are accurately predicted using bedside respiratory exam findings within a simple scoring system.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.07.20094573",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2020-05-12T16:44:35Z",
+      "timestamp": 1589301875000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Development and validation of the COVID-19 severity index (CSI): a prognostic tool for early respiratory decompensation"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Adrian",
+        "family": "Haimovich",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Neal G.",
+        "family": "Ravindra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stoytcho",
+        "family": "Stoytchev",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H. Patrick",
+        "family": "Young",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Francis Perry",
+        "family": "Wilson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "van Dijk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2048-4028",
+        "authenticated-orcid": false,
+        "given": "Wade L.",
+        "family": "Schulz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R. Andrew",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guan Wj , Ni Zy , Hu Y , Liang Wh , Ou Cq , He Jx , et al. Clinical characteristics of coronavirus disease 2019 in China. New England Journal of Medicine. 2020;.",
+        "DOI": "10.1101/2020.02.06.20020974"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou F , Yu T , Du R , Fan G , Liu Y , Liu Z , et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. The Lancet. 2020;.",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "issue": "10223",
+        "key": "2021011111094606000_2020.05.07.20094573v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1016/S0140-6736(20)30183-5",
+        "article-title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhatraju PK , Ghassemieh BJ , Nichols M , Kim R , Jerome KR , Nalla AK , et al. Covid-19 in critically ill patients in the Seattle region\u2014case series. New England Journal of Medicine. 2020;.",
+        "DOI": "10.1056/NEJMoa2004500"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grasselli G , Zangrillo A , Zanella A , Antonelli M , Cabrini L , Castelli A , et al. Baseline characteristics and outcomes of 1591 patients infected with SARS-CoV-2 admitted to ICUs of the Lombardy Region, Italy. JAMA. 2020;.",
+        "DOI": "10.1001/jama.2020.5394"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Richardson S , Hirsch JS , Narasimhan M , Crawford JM , McGinn T , Davidson KW , et al. Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. JAMA. 2020 04;Available from: https://doi.org/10.1001/jama.2020.6775.",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Petrilli CM , Jones SA , Yang J , Rajagopalan H , O\u2019Donnell LF , Chernyak Y , et al. Factors associated with hospitalization and critical illness among 4,103 patients with COVID-19 disease in New York City. medRxiv. 2020;Available from: https://www.medrxiv.org/content/early/2020/04/11/2020.04.08.20057794.",
+        "DOI": "10.1101/2020.04.08.20057794"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants L , Van Calster B , Bonten MM , Collins GS , Debray TP , De Vos M , et al. Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal. bmj. 2020;369.",
+        "DOI": "10.1101/2020.03.24.20041020"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archinternmed.2009.424"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Badawi O , Liu X , Berman I , Amelung PJ , Doerfler M , Chandra S . Impact of COVID-19 pandemic on severity of illness and resources required during intensive care in the greater New York City area. medRxiv. 2020;Available from: https://www.medrxiv.org/content/early/2020/04/14/2020.04.08.20058180.",
+        "DOI": "10.1101/2020.04.08.20058180"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Walraven C , Austin PC , Jennings A , Quan H , Forster AJ . A modification of the Elixhauser comorbidity measures into a point system for hospital death using administrative data. Medical care. 2009;p. 626\u2013633.",
+        "DOI": "10.1097/MLR.0b013e31819432e5"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.0287"
+      },
+      {
+        "issue": "1",
+        "key": "2021011111094606000_2020.05.07.20094573v2.13",
+        "first-page": "1",
+        "article-title": "Critically ill SARS-CoV-2-infected patients are not stratified as sepsis by the qSOFA",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Annals of Intensive Care"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thorax.58.5.377"
+      },
+      {
+        "issue": "1",
+        "key": "2021011111094606000_2020.05.07.20094573v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.annemergmed.2018.06.017",
+        "article-title": "Performance of the CURB-65 score in predicting critical care interventions in patients admitted with community-acquired pneumonia",
+        "volume": "74",
+        "year": "2019",
+        "journal-title": "Annals of emergency medicine"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M14-0698"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/13043"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.18",
+        "unstructured": "DataBank F . First DataBank Enhanced therapeutic classification system (ETC). First Databank; 2020. http://www.firstdatabank.com/Products/therapeutic-classification-system-nddf.aspx."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Elixhauser A , Steiner C , Harris DR , Coffey RM . Comorbidity measures for use with administrative data. Medical care. 1998;p. 8\u201327.",
+        "DOI": "10.1097/00005650-199801000-00004"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.20",
+        "unstructured": "for Healthcare Research A, Quality. HCUP Tools and Software. Healthcare Cost and Utilization Project (HCUP). Agency for Healthcare Research and Quality, Rockville, MD; 2020. www.hcup-us.ahrq.gov/tools_software.jsp."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.21",
+        "first-page": "665",
+        "article-title": "Feature Selection Based on the Shapley Value",
+        "volume": "5",
+        "year": "2005",
+        "journal-title": "In: IJCAI"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.22",
+        "first-page": "1157",
+        "article-title": "An introduction to variable and feature selection",
+        "volume": "3",
+        "year": "2003",
+        "journal-title": "Journal of machine learning research"
+      },
+      {
+        "issue": "1",
+        "key": "2021011111094606000_2020.05.07.20094573v2.23",
+        "first-page": "2522",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C . Xgboost: A scalable tree boosting system. In: Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining; 2016. p. 785\u2013794.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.25",
+        "first-page": "115",
+        "article-title": "Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures",
+        "volume": "28",
+        "year": "2013",
+        "journal-title": "In: Proceedings of the 30th International Conference on International Conference on Machine Learning"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.26",
+        "unstructured": "Efron B , Tibshirani RJ . An Introduction to the Bootstrap. No. 57 in Monographs on Statistics and Applied Probability. Boca Raton, Florida, USA: Chapman & Hall/CRC; 1993."
+      },
+      {
+        "issue": "3",
+        "key": "2021011111094606000_2020.05.07.20094573v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "768",
+        "DOI": "10.1214/aos/1056562462",
+        "article-title": "How do bootstrap and permutation tests work",
+        "volume": "31",
+        "year": "2003",
+        "journal-title": "Annals of Statistics"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.28",
+        "unstructured": "Lundberg SM , Lee SI . A unified approach to interpreting model predictions. In: Advances in neural information processing systems; 2017. p. 4765\u20134774."
+      },
+      {
+        "issue": "10",
+        "key": "2021011111094606000_2020.05.07.20094573v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "749",
+        "DOI": "10.1038/s41551-018-0304-0",
+        "article-title": "Explainable machine-learning predictions for the prevention of hypoxaemia during surgery",
+        "volume": "2",
+        "year": "2018",
+        "journal-title": "Nature Biomedical Engineering"
+      },
+      {
+        "issue": "1",
+        "key": "2021011111094606000_2020.05.07.20094573v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1038/s41591-019-0724-8",
+        "article-title": "Prediction of gestational diabetes based on nationwide electronic health records",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niculescu-Mizil A , Caruana R . Predicting good probabilities with supervised learning. In: Proceedings of the 22nd international conference on Machine learning; 2005. p. 625\u2013632.",
+        "DOI": "10.1145/1102351.1102430"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijcard.2013.01.255"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang C , Shi L , Wang FS . Liver injury in COVID-19: management and challenges. The Lancet Gastroenterology & Hepatology. 2020;.",
+        "DOI": "10.1016/S2468-1253(20)30057-1"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.34",
+        "unstructured": "Cai Q , Huang D , Yu H , Zhu Z , Xia Z , Su Y , et al. Characteristics of Liver Tests in COVID-19 Patients. Journal of Hepatology. 2020;."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.35",
+        "unstructured": "Wong HYF , Lam HYS , Fong AHT , Leung ST , Chin TWY , Lo CSY , et al. Frequency and distribution of chest radiographic findings in COVID-19 positive patients. Radiology. 2020;p. 201160."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200230"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.37",
+        "unstructured": "Zhang K , Liu X , Shen J , Li Z , Sang Y , Wu X , et al. Clinically Applicable AI System for Accurate Diagnosis, Quantitative Measurements and Prognosis of COVID-19 Pneumonia Using Computed Tomography. Cell;."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.38",
+        "unstructured": "Rajpurkar P , Irvin J , Zhu K , Yang B , Mehta H , Duan T , et al. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. CoRR. 2017;abs/1711.05225. Available from: http://arxiv.org/abs/1711.05225."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Elliott JH , Turner T , Clavisi O , Thomas J , Higgins JP , Mavergames C , et al. Living systematic reviews: an emerging opportunity to narrow the evidence-practice gap. PLoS medicine. 2014;11(2).",
+        "DOI": "10.1371/journal.pmed.1001603"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aab3719"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simonov M , Ugwuowo U , Moreira E , Yamamoto Y , Biswas A , Martin M , et al. A simple real-time model for predicting acute kidney injury in hospitalized patients in the US: A descriptive modeling study. PLoS medicine. 2019;16(7).",
+        "DOI": "10.1371/journal.pmed.1002861"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1390-1"
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.43",
+        "unstructured": "Grein J , Ohmagari N , Shin D , Diaz G , Asperges E , Castagna A , et al. Compassionate use of remdesivir for patients with severe Covid-19. New England Journal of Medicine. 2020;."
+      },
+      {
+        "key": "2021011111094606000_2020.05.07.20094573v2.44",
+        "unstructured": "Wang Y , Zhang D , Du G , Du R , Zhao J , Jin Y , et al. Remdesivir in adults with severe COVID-19: a randomised, double-blind, placebo-controlled, multicentre trial. The Lancet. 2020;."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.07.20094573",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:40:03Z",
+      "timestamp": 1768484403000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.07.20094573"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          12
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2020.05.07.20094573",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.annemergmed.2020.07.022",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          12
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

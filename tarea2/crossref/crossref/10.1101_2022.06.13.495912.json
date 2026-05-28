@@ -1,0 +1,358 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:43:55Z",
+      "timestamp": 1768502635908,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          13
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Since the beginning of the COVID-19 pandemic there has been an explosion of sequencing of the SARS-CoV-2 virus, making it the most widely sequenced virus in the history. Several databases and tools have been created to keep track of genome sequences and variants of the virus, most notably the GISAID platform hosts millions of complete genome sequences, and it is continuously expanding every day. A challenging task is the development of fast and accurate tools that are able to distinguish between the different SARS-CoV-2 variants and assign them to a clade.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    In this paper, we leverage the Frequency Chaos Game Representation (FCGR) and Convolutional Neural Networks (CNNs) to develop an original method that learns how to classify genome sequences that we implement into CouGaR-g, a tool for the clade assignment problem on SARS-CoV-2 sequences. On a testing subset of the GISAID, CouGaR-g achieves an 96.29% overall accuracy, while a similar tool, Covidex, obtained a 77, 12% overall accuracy. As far as we know, our method is the first using Deep Learning and FCGR for intra-species classification. Furthermore, by using some feature importance methods CouGaR-g allows to identify\n                    <jats:italic>k</jats:italic>\n                    -mers that matches SARS-CoV-2 marker variants.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    By combining FCGR and CNNs, we develop a method that achieves a better accuracy than Covidex (which is based on Random Forest) for clade assignment of SARS-CoV-2 genome sequences, also thanks to our training on a much larger dataset, with comparable running times. Our method implemented in CouGaR-g is able to detect\n                    <jats:italic>k</jats:italic>\n                    -mers that capture relevant biological information that distinguishes the clades, known as marker variants.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The trained models can be tested online providing a FASTA file (with one or multiple sequences) at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://huggingface.co/spaces/BIASLab/sars-cov-2-classification-fcgr\">https://huggingface.co/spaces/BIASLab/sars-cov-2-classification-fcgr</jats:ext-link>\n                    . CouGaR-g is also available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/AlgoLab/CouGaR-g\">https://github.com/AlgoLab/CouGaR-g</jats:ext-link>\n                    under the GPL.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.06.13.495912",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          14
+        ]
+      ],
+      "date-time": "2022-06-14T00:20:17Z",
+      "timestamp": 1655166017000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Accurate and Fast Clade Assignment via Deep Learning and Frequency Chaos Game Representation"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jorge Avila",
+        "family": "Cartes",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Santosh",
+        "family": "Anand",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6469-4887",
+        "authenticated-orcid": false,
+        "given": "Simone",
+        "family": "Ciccolella",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paola",
+        "family": "Bonizzoni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gianluca",
+        "family": "Della Vedova",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chapter 15 - Immunodeficiency. In Tak W. Mak , Mary E. Saunders , and Bradley D. Jett , editors, Primer to the Immune Response (Second Edition), pages 377\u2013421. Academic Cell, Boston, 2014.",
+        "DOI": "10.1016/B978-0-12-385245-8.00015-7"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.2",
+        "unstructured": "Mart\u00edn Abadi , Ashish Agarwal , Paul Barham , Eugene Brevdo , Zhifeng Chen , Craig Citro , Greg S. Corrado , Andy Davis , Jeffrey Dean , Matthieu Devin , Sanjay Ghemawat , Ian Goodfellow , Andrew Harp , Geoffrey Irving , Michael Isard , Yangqing Jia , Rafal Jozefowicz , Lukasz Kaiser , Manjunath Kudlur , Josh Levenberg , Dandelion Man\u00e9 , Rajat Monga , Sherry Moore , Derek Murray , Chris Olah , Mike Schuster , Jonathon Shlens , Benoit Steiner , Ilya Sutskever , Kunal Talwar , Paul Tucker , Vincent Vanhoucke , Vijay Vasudevan , Fernanda Vi\u00e9gas , Oriol Vinyals , Pete Warden , Martin Wattenberg , Martin Wicke , Yuan Yu , and Xiaoqiang Zheng . TensorFlow: Large-scale machine learning on heterogeneous systems, 2015. Software available from tensorflow.org."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.3",
+        "unstructured": "Sarwan Ali , Babatunde Bello , Prakash Chourasia , Ria Thazhe Punathil , Yijing Zhou , and Murray Patterson . PWM2Vec: An Efficient Embedding Approach for Viral Host Specification from Coronavirus Spike Sequences. arXiv:2201.02273 [cs, q-bio], January 2022. arXiv: 2201.02273."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.4",
+        "unstructured": "Sarwan Ali and Murray Patterson . Spike2Vec: An Efficient and Scalable Embedding Approach for COVID-19 Spike Sequences. In 2021 IEEE International Conference on Big Data (Big Data), pages 1533\u20131540, December 2021."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1007/978-3-030-91415-8_14",
+        "volume-title": "Bioinformatics Research and Applications",
+        "volume": "13064",
+        "year": "2021"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/17.5.429"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "105261",
+        "DOI": "10.1016/j.meegid.2022.105261",
+        "article-title": "Covidex: An ultrafast and accurate tool for sars-cov-2 subtyping",
+        "volume": "99",
+        "year": "2022",
+        "journal-title": "Infection, Genetics and Evolution"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03610928308827180"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.molbev.a026048"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kevin Dick and James R. Green . Chaos game representations amp; deep learning for proteome-wide protein prediction. In 2020 IEEE 20th International Conference on Bioinformatics and Bioengineering (BIBE), pages 115\u2013121, 2020.",
+        "DOI": "10.1109/BIBE50027.2020.00027"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.11"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.12",
+        "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. CoRR, abs/1512.03385, 2015."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.13",
+        "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770\u2013778, 2016."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/18.8.2163"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/ccdcw2021.255"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.16",
+        "unstructured": "Diederik P. Kingma and Jimmy Ba . Adam: A method for stochastic optimization, 2017."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx304"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.18",
+        "unstructured": "Alex Krizhevsky , Ilya Sutskever , and Geoffrey E Hinton . Imagenet classification with deep convolutional neural networks. Advances in neural information processing systems, 25, 2012."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1989.1.4.541"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yann Lecun , Patrick Haffner , L\u00e9on Bottou , and Yoshua Bengio . Object recognition with gradient-based learning. In Contour and Grouping in Computer Vision. Springer, 1999.",
+        "DOI": "10.1007/3-540-46805-6_19"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "6263",
+        "DOI": "10.1016/j.csbj.2021.11.008",
+        "article-title": "Chaos game representation and its applications in bioinformatics",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Computational and Structural Biotechnology Journal"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.22",
+        "unstructured": "Scott M Lundberg and Su-In Lee . A unified approach to interpreting model predictions. In I. Guyon , U. V. Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , editors, Advances in Neural Information Processing Systems 30, pages 4765\u20134774. Curran Associates, Inc., 2017."
+      },
+      {
+        "issue": "1",
+        "key": "2022061510000857000_2022.06.13.495912v1.23",
+        "first-page": "272",
+        "article-title": "Deep learning on chaos game representation for proteins",
+        "volume": "36",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0262491"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1524/auto.2011.0951"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0232391"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marco Tulio Ribeiro , Sameer Singh , and Carlos Guestrin . \u201cwhy should i trust you?\u201d explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining, pages 1135\u20131144, 2016.",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Riccardo Rizzo , Antonino Fiannaca , Massimo La Rosa , and Alfonso Urso . Classification experiments of dna sequences by using a deep neural network and chaos game representation. In Proceedings of the 17th International Conference on Computer Systems and Technologies 2016, CompSysTech \u201816, page 222\u2013228, New York, NY, USA, 2016. Association for Computing Machinery.",
+        "DOI": "10.1145/2983468.2983489"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0377-0427(87)90125-7"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sarah Safoury and Walid Hussein . Enriched dna strands classification using cgr images and convolutional neural network. In Proceedings of the 2019 8th International Conference on Bioinformatics and Biomedical Science, ICBBS 2019, page 87\u201392, New York, NY, USA, 2019. Association for Computing Machinery.",
+        "DOI": "10.1145/3369166.3369176"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1016/j.neunet.2021.03.035",
+        "article-title": "Quantifying the separability of data classes in neural networks",
+        "volume": "139",
+        "year": "2021",
+        "journal-title": "Neural Networks"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramprasaath R. Selvaraju , Abhishek Das , Ramakrishna Vedantam , Michael Cogswell , Devi Parikh , and Dhruv Batra . Grad-cam: Why did you say that? visual explanations from deep networks via gradient-based localization. CoRR, abs/1610.02391, 2016.",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.33",
+        "unstructured": "Avanti Shrikumar , Peyton Greenside , and Anshul Kundaje . Learning important features through propagating activation differences. In International conference on machine learning, pages 3145\u20133153. PMLR, 2017."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.34",
+        "unstructured": "Karen Simonyan , Andrea Vedaldi , and Andrew Zisserman . Deep inside convolutional networks: Visualising image classification models and saliency maps. In In Workshop at International Conference on Learning Representations. Citeseer, 2014."
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joshua Singer , Robert Gifford , Matthew Cotten , and David Robertson . Cov-glue: a web application for tracking sars-cov-2 genomic variation. 2020.",
+        "DOI": "10.20944/preprints202006.0225.v1"
+      },
+      {
+        "key": "2022061510000857000_2022.06.13.495912v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gene.2004.10.021"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.13.495912",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T03:12:46Z",
+      "timestamp": 1768446766000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.13.495912"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          13
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2022.06.13.495912",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

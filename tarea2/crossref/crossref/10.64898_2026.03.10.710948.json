@@ -1,0 +1,466 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T08:25:32Z",
+      "timestamp": 1774945532737,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T00:00:00Z",
+          "timestamp": 1773187200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "award": [
+          "R35GM141861"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R35GM141861"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/001d55x84",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000057",
+        "name": "National Institute of General Medical Sciences",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "T32GM14427"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "T32GM14427"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000057",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "id": [
+          {
+            "id": "https://ror.org/01ycgxf29",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  A foundational question in computational biology is how to utilize data to describe the forces driving evolution. Here, we view evolution as a novel diffusion process constrained by many biological, physical, and environmental factors affecting organism viability at any given time. We introduce\n                  <jats:monospace>DiffEvol</jats:monospace>\n                  , a framework that models evolution as constrained diffusion over a discrete genotype space. Using real-world genomic sequence data alone,\n                  <jats:monospace>DiffEvol</jats:monospace>\n                  estimates complex evolutionary constraints by inverting the diffusion dynamics to recover a constrained subspace representing the viable genotype manifold, as well as its evolution over time. Applied to SARS-CoV-2 sequence data from 2020\u20132024,\n                  <jats:monospace>DiffEvol</jats:monospace>\n                  reconstructs constraint functions that recapitulate known viral fitness trends, including a pronounced \u201cphase transition\u201d that occurred following the widespread adoption of the SARS-CoV-2 vaccine. Our constraint subspace representation of the data characterizes such features and trends more clearly. This framework could be used not only to improve forecasting of emergent pathogenic strains, but also to produce more accurate reverse time analyses of their evolutionary dynamics to help identify ancestral variants and the forces having shaped a pathogen\u2019s evolutionary trajectory. More generally, this formulation provides a method for linking observed sequence mutations to an evolving fitness landscape. Thus, constrained subspace diffusion offers a mathematical language for evolutionary dynamics in any system where random variation interacts with slowly-changing structural or global constraints, and can be applied to more complex evolutionary phenomena such as vaccine resistance, viral escape, and protein evolution.\n                </jats:p>",
+    "DOI": "10.64898/2026.03.10.710948",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T02:25:23Z",
+      "timestamp": 1773282323000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Constrained Diffusion as a Paradigm for Evolution"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2445-6809",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Lazarev",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          },
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          },
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          },
+          {
+            "name": "Analytic and Translational Genetics Unit, Massachusetts General Hospital, Cambridge, MA, USA"
+          },
+          {
+            "name": "Renaissance School of Medicine at Stony Brook University, Stony Brook, NY, USA"
+          }
+        ]
+      },
+      {
+        "given": "Anna",
+        "family": "Sappington",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          },
+          {
+            "name": "Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Grant",
+        "family": "Chau",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Dartmouth College, Hanover, NH, USA"
+          }
+        ]
+      },
+      {
+        "given": "Ruochi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          },
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Bonnie",
+        "family": "Berger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          },
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA, USA"
+          },
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          },
+          {
+            "name": "Harvard Medical School, Boston, MA, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsob.180069"
+      },
+      {
+        "issue": "5",
+        "key": "2026031801151146000_2026.03.10.710948v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1382",
+        "DOI": "10.1038/s41564-024-01655-4",
+        "article-title": "Targeted accurate rna consensus sequencing (tarc-seq) reveals mechanisms of replication error affecting sars-cov-2 divergence",
+        "volume": "9",
+        "year": "2024",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "issue": "1",
+        "key": "2026031801151146000_2026.03.10.710948v2.3",
+        "first-page": "102",
+        "article-title": "Evolution of discrete populations and the canonical diffusion of adaptive dynamics",
+        "volume": "17",
+        "year": "2007",
+        "journal-title": "The Annals of Applied Probability"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0500334102"
+      },
+      {
+        "issue": "2",
+        "key": "2026031801151146000_2026.03.10.710948v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "713",
+        "DOI": "10.1109/18.119732",
+        "article-title": "Entropy-based algorithms for best basis selection",
+        "volume": "38",
+        "year": "1992",
+        "journal-title": "IEEE Transactions on Information Theory"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.6",
+        "unstructured": "Cover, T. , Thomas, J. : Elements of Information Theory. John Wiley (1991)"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg.2017.38"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abk3445"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4818538"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.1922.0009"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5962/bhl.title.27468"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.12",
+        "unstructured": "Gasteiger, J. , Wei\u00dfenberger, S. , G\u00fcnnemann, S. : Diffusion Improves Graph Learning. In: Wallach, H. , Larochelle, H. , Beygelzimer, A. , d\u2019Alch\u00e9-Buc, F. , Fox, E. , Garnett, R. (eds.) Advances in Neural Information Processing Systems. vol. 32. Curran Associates, Inc. (2019)"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd7331"
+      },
+      {
+        "issue": "4",
+        "key": "2026031801151146000_2026.03.10.710948v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "DOI": "10.1016/j.cels.2022.01.003",
+        "article-title": "Evolutionary velocity with protein language models predicts evolutionary dynamics of diverse proteins",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Cell Systems"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1016/S0167-2789(97)00093-6",
+        "article-title": "Free energy and the Fokker-Planck equation",
+        "volume": "107",
+        "year": "1997",
+        "journal-title": "Physica D"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S0036141096303359"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.41.3.144"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3211856"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1132745"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lawler, G.F. : Random Walk and the Heat Equation. American Mathematical Society, Providence, Rhode Island (2010)",
+        "DOI": "10.1090/stml/055"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.21",
+        "year": "2023",
+        "journal-title": "Information measures for entropy and symmetry"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-022-01353-8"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06617-0"
+      },
+      {
+        "issue": "1",
+        "key": "2026031801151146000_2026.03.10.710948v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1038/s42003-024-05878-3",
+        "article-title": "Sars-cov-2 rapidly evolves lineage-specific phenotypic differences when passaged repeatedly in immune-na\u00efve mice",
+        "volume": "7",
+        "year": "2024",
+        "journal-title": "Communications Biology"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02459575"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cels.2015.08.004"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "13813",
+        "DOI": "10.1038/s41598-017-14048-x",
+        "article-title": "The space of genotypes is a network of networks: implications for evolutionary and extinction dynamics",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0019-9958(65)90241-X"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-247X(68)90078-4"
+      },
+      {
+        "key": "2026031801151146000_2026.03.10.710948v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-024-01820-9"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.10.710948",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          18
+        ]
+      ],
+      "date-time": "2026-03-18T08:15:31Z",
+      "timestamp": 1773821731000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.10.710948"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.64898/2026.03.10.710948",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

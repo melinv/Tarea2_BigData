@@ -1,0 +1,926 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:34:48Z",
+      "timestamp": 1768552488477,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          7
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 69,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>In this large multi-institutional study, we aimed to analyze the prognostic power of computed tomography (CT)-based radiomics models in COVID-19 patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    CT images of 14,339 COVID-19 patients with overall survival outcome were collected from 19 medical centers. Whole lung segmentations were performed automatically using a previously validated deep learning-based model, and regions of interest were further evaluated and modified by a human observer. All images were resampled to an isotropic voxel size, intensities were discretized into 64-binning size, and 105 radiomics features, including shape, intensity, and texture features were extracted from the lung mask. Radiomics features were normalized using Z-score normalization. High-correlated features using Pearson (R\n                    <jats:sup>2</jats:sup>\n                    &gt;0.99) were eliminated. We applied the Synthetic Minority Oversampling Technique (SMOT) algorithm in only the training set for different models to overcome unbalance classes. We used 4 feature selection algorithms, namely Analysis of Variance (ANOVA), Kruskal- Wallis (KW), Recursive Feature Elimination (RFE), and Relief. For the classification task, we used seven classifiers, including Logistic Regression (LR), Least Absolute Shrinkage and Selection Operator (LASSO), Linear Discriminant Analysis (LDA), Random Forest (RF), AdaBoost (AB), Na\u00efve Bayes (NB), and Multilayer Perceptron (MLP). The models were built and evaluated using training and testing sets, respectively. Specifically, we evaluated the models using 10 different splitting and cross-validation strategies, including different types of test datasets (e.g. non-harmonized vs. ComBat-harmonized datasets). The sensitivity, specificity, and area under the receiver operating characteristic (ROC) curve (AUC) were reported for models evaluation.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In the test dataset (4301) consisting of CT and/or RT-PCR positive cases, AUC, sensitivity, and specificity of 0.83\u00b10.01 (CI95%: 0.81-0.85), 0.81, and 0.72, respectively, were obtained by ANOVA feature selector + RF classifier. In RT-PCR-only positive test sets (3644), similar results were achieved, and there was no statistically significant difference. In ComBat harmonized dataset, Relief feature selector + RF classifier resulted in highest performance of AUC, reaching 0.83\u00b10.01 (CI95%: 0.81-0.85), with sensitivity and specificity of 0.77 and 0.74, respectively. At the same time, ComBat harmonization did not depict statistically significant improvement relevant to non-harmonized dataset. In leave-one-center-out, the combination of ANOVA feature selector and LR classifier resulted in the highest performance of AUC (0.80\u00b10.084) with sensitivity and specificity of 0.77 \u00b1 0.11 and 0.76 \u00b1 0.075, respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Lung CT radiomics features can be used towards robust prognostic modeling of COVID-19 in large heterogeneous datasets gathered from multiple centers. As such, CT radiomics-based model has significant potential for use in prospective clinical settings towards improved management of COVID-19 patients.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.07.21267364",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          7
+        ]
+      ],
+      "date-time": "2021-12-07T20:15:28Z",
+      "timestamp": 1638908128000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "COVID-19 Prognostic Modeling Using CT Radiomic Features and Machine Learning Algorithms: Analysis of a Multi-Institutional Dataset of 14,339 Patients"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5735-0736",
+        "authenticated-orcid": false,
+        "given": "Isaac",
+        "family": "Shiri",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yazdan",
+        "family": "Salimi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Masoumeh",
+        "family": "Pakbin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ghasem",
+        "family": "Hajianfar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Atlas Haddadi",
+        "family": "Avval",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amirhossein",
+        "family": "Sanaat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shayan",
+        "family": "Mostafaei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Azadeh",
+        "family": "Akhavanallaf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abdollah",
+        "family": "Saberi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zahra",
+        "family": "Mansouri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dariush",
+        "family": "Askari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammadreza",
+        "family": "Ghasemian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ehsan",
+        "family": "Sharifipour",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saleh",
+        "family": "Sandoughdaran",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ahmad",
+        "family": "Sohrabi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elham",
+        "family": "Sadati",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Somayeh",
+        "family": "Livani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pooya",
+        "family": "Iranpour",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shahriar",
+        "family": "Kolahi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maziar",
+        "family": "Khateri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Salar",
+        "family": "Bijari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammad Reza",
+        "family": "Atashzar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sajad P.",
+        "family": "Shayesteh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bardia",
+        "family": "Khosravi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammad Reza",
+        "family": "Babaei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elnaz",
+        "family": "Jenabi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammad",
+        "family": "Hasanian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alireza",
+        "family": "Shahhamzeh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seyed Yaser Foroghi",
+        "family": "Gholami",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abolfazl",
+        "family": "Mozafari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Arash",
+        "family": "Teimouri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fatemeh",
+        "family": "Movaseghi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Azin",
+        "family": "Ahmari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Neda",
+        "family": "Goharpey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rama",
+        "family": "Bozorgmehr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hesamaddin",
+        "family": "Shirzad-Aski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rozbeh",
+        "family": "Mortazavi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jalal",
+        "family": "Karimi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nazanin",
+        "family": "Mortazavi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sima",
+        "family": "Besharat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mandana",
+        "family": "Afsharpad",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hamid",
+        "family": "Abdollahi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Parham",
+        "family": "Geramifar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amir Reza",
+        "family": "Radmard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hossein",
+        "family": "Arabi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kiara",
+        "family": "Rezaei-Kalantari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mehrdad",
+        "family": "Oveisi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9980-2403",
+        "authenticated-orcid": false,
+        "given": "Arman",
+        "family": "Rahmim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7559-5297",
+        "authenticated-orcid": false,
+        "given": "Habib",
+        "family": "Zaidi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.24865"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijantimicag.2020.105924"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "106024",
+        "DOI": "10.1016/j.ijantimicag.2020.106024",
+        "article-title": "Extra-respiratory manifestations of COVID-19",
+        "volume": "56",
+        "year": "2020",
+        "journal-title": "Int J Antimicrob Agents"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1016/j.jare.2020.08.002",
+        "article-title": "Molecular diagnostic technologies for COVID-19: Limitations and challenges",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Journal of advanced research"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2011.1992"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.3389/fmed.2020.00485",
+        "article-title": "Clinical Characteristics and Prognosis of 218 Patients With COVID-19: A Retrospective Study Based on Clinical Classification",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Frontiers in medicine"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2257",
+        "DOI": "10.7150/ijms.50007",
+        "article-title": "Prognosis models for severe and critical COVID-19 based on the Charlson and Elixhauser comorbidity indices",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "International journal of medical sciences"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.8",
+        "unstructured": "Pontone, G. , et al. Role of computed tomography in COVID-19. J Cardiovasc Comput Tomog (2020)."
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.9",
+        "first-page": "e200047",
+        "article-title": "Chest CT Severity Score: An Imaging Tool for Assessing Severe COVID-19",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "6808",
+        "DOI": "10.1007/s00330-020-07033-y",
+        "article-title": "Chest CT score in COVID-19 patients: correlation with disease severity and short-term prognosis",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "Eur Radiol"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1072",
+        "DOI": "10.2214/AJR.20.22976",
+        "article-title": "Relation Between Chest CT Findings and Clinical Conditions of Coronavirus Disease (COVID-19) Pneumonia: A Multicenter Study",
+        "volume": "214",
+        "year": "2020",
+        "journal-title": "American Journal of Roentgenology"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "327",
+        "DOI": "10.1097/RLI.0000000000000672",
+        "article-title": "The Clinical and Chest CT Features Associated With Severe and Critical COVID-19 Pneumonia",
+        "volume": "55",
+        "year": "2020",
+        "journal-title": "Investigative radiology"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1038/s42256-021-00307-0",
+        "article-title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "4080",
+        "DOI": "10.1038/s41467-020-17971-2",
+        "article-title": "Artificial intelligence for the detection of COVID-19 pneumonia on chest CT using multinational datasets",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1224",
+        "DOI": "10.1038/s41591-020-0931-3",
+        "article-title": "Artificial intelligence-enabled rapid diagnosis of patients with COVID-19",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acra.2020.09.004"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.17",
+        "unstructured": "Lessmann, N. , et al. Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence. Radiology, 202439 (2020)."
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meng, L. , et al. A Deep Learning Prognosis Model Help Alert for COVID-19 Patients at High- Risk of Death: A Multi-center Study. IEEE journal of biomedical and health informatics Pp (2020).",
+        "DOI": "10.1109/JBHI.2020.3034296"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ning, W. , et al. Open resource of clinical data from patients with pneumonia for the prediction of COVID-19 outcomes via deep learning. Nature biomedical engineering (2020).",
+        "DOI": "10.1038/s41551-020-00633-5"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.20",
+        "first-page": "1",
+        "article-title": "CT radiomics can help screen the coronavirus disease 2019 (COVID-19): a preliminary study",
+        "volume": "63",
+        "year": "2020",
+        "journal-title": "Science China Information Sciences"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7150/thno.46428"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.22",
+        "first-page": "e200322",
+        "article-title": "CT Radiomics, Radiologists and Clinical Information in Predicting Outcome of Patients with COVID-19 Pneumonia",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, H. , et al. Decoding COVID-19 pneumonia: comparison of deep learning and radiomics CT image signatures. European journal of nuclear medicine and molecular imaging, 1\u20139 (2020).",
+        "DOI": "10.1007/s00259-020-05075-4"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.24",
+        "first-page": "184",
+        "article-title": "Medical Imaging Technologists in Radiomics Era: An Alice in Wonderland Problem",
+        "volume": "48",
+        "year": "2019",
+        "journal-title": "Iran J Public Health"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amini, M. , et al. Multi-level multi-modality (PET and CT) fusion radiomics: prognostic modeling for non-small cell lung carcinoma. Phys Med Biol 66(2021).",
+        "DOI": "10.1088/1361-6560/ac287d"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bouchareb, Y. , et al. Artificial intelligence-driven assessment of radiological images for COVID- 19. Comput Biol Med 136, 104665 (2021).",
+        "DOI": "10.1016/j.compbiomed.2021.104665"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edalat-Javid, M. , et al. Cardiac SPECT radiomic features repeatability and reproducibility: A multi-scanner phantom study. J Nucl Cardiol (2020).",
+        "DOI": "10.1007/s12350-020-02109-0"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1086",
+        "DOI": "10.1007/s10278-021-00500-y",
+        "article-title": "Overall Survival Prediction in Renal Cell Carcinoma Patients Using Computed Tomography Radiomic and Clinical Information",
+        "volume": "34",
+        "year": "2021",
+        "journal-title": "J Digit Imaging"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khodabakhshi, Z. , et al. Non-small cell lung carcinoma histopathological subtype phenotyping using high-dimensional multinomial multiclass CT radiomics signature. Comput Biol Med 136, 104752 (2021).",
+        "DOI": "10.1016/j.compbiomed.2021.104752"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nazari, M. , Shiri, I. & Zaidi, H . Radiomics-based machine learning model to predict risk of death within 5-years in clear cell renal cell carcinoma patients. Comput Biol Med 129, 104135 (2021).",
+        "DOI": "10.1016/j.compbiomed.2020.104135"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "3691",
+        "DOI": "10.1002/mp.14896",
+        "article-title": "Treatment response prediction using MRI-based pre-, post-, and delta-radiomic features and machine learning algorithms in colorectal cancer",
+        "volume": "48",
+        "year": "2021",
+        "journal-title": "Med Phys"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri, I. , Abdollahi, H. , Shaysteh, S. & Mahdavi, S.R . Test-retest reproducibility and robustness analysis of recurrent glioblastoma MRI radiomics texture features. Iranian Journal of Radiology (2017).",
+        "DOI": "10.5812/iranjradiol.48035"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri, I. , et al. Machine learning-based prognostic modeling using clinical data and quantitative radiomic features from chest CT images in COVID-19 patients. Comput Biol Med 132, 104304 (2021).",
+        "DOI": "10.1016/j.compbiomed.2021.104304"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.34",
+        "unstructured": "Amini, M. , et al. Overall Survival Prognostic Modelling of Non-small Cell Lung Cancer Patients Using Positron Emission Tomography/Computed Tomography Harmonised Radiomics Features: The Quest for the Optimal Machine Learning Algorithm. Clinical Oncology."
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1007/s11547-019-01082-0",
+        "article-title": "CT imaging markers to improve radiation toxicity prediction in prostate cancer radiotherapy by stacking regression algorithm",
+        "volume": "125",
+        "year": "2020",
+        "journal-title": "La radiologia medica"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nazari, M. , Shiri, I. & Zaidi, H . Radiomics-based machine learning model to predict risk of death within 5-years in clear cell renal cell carcinoma patients. Comput Biol Med 129, 104135 (2020).",
+        "DOI": "10.1016/j.compbiomed.2020.104135"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akhavanallaf, A. , Shiri, I. , Arabi, H. & Zaidi, H . Whole-body voxel-based internal dosimetry using deep learning. Eur J Nucl Med Mol Imaging (2020).",
+        "DOI": "10.1109/NSS/MIC42677.2020.9507983"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.38",
+        "unstructured": "Shiri, I. , et al. Diagnosis of COVID-19 Using CT image Radiomics Features: A Comprehensive Machine Learning Study Involving 26,307 Patients. medRxiv (2021)."
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fu, L. , Li, Y. , Cheng, A. , Pang, P. & Shu, Z . A Novel Machine Learning-derived Radiomic Signature of the Whole Lung Differentiates Stable From Progressive COVID-19 Infection: A Retrospective Cohort Study. Journal of thoracic imaging (2020).",
+        "DOI": "10.1097/RTI.0000000000000544"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "640",
+        "DOI": "10.1097/RCT.0000000000001094",
+        "article-title": "Computed Tomography Radiomics Can Predict Disease Severity and Outcome in Coronavirus Disease 2019 Pneumonia",
+        "volume": "44",
+        "year": "2020",
+        "journal-title": "Journal of computer assisted tomography"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, C. , et al. Classification of Severe and Critical COVID-19 Using Deep Learning and Radiomics. IEEE journal of biomedical and health informatics Pp (2020).",
+        "DOI": "10.1109/JBHI.2020.3036722"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai, Q. , et al. A model based on CT radiomic features for predicting RT-PCR becoming negative in coronavirus disease 2019 (COVID-19) patients. BMC medical imaging 20, 118 (2020).",
+        "DOI": "10.1186/s12880-020-00521-z"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yue, H. , et al. Machine learning-based CT radiomics method for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection: a multicenter study. Annals of translational medicine 8, 859 (2020).",
+        "DOI": "10.21037/atm-20-3026"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bae, J. , et al. Predicting Mechanical Ventilation Requirement and Mortality in COVID-19 using Radiomics and Deep Learning on Chest Radiographs: A Multi-Institutional Study. ArXiv (2020).",
+        "DOI": "10.3390/diagnostics11101812"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "3553",
+        "DOI": "10.1007/s00330-020-07453-w",
+        "article-title": "COVID-19, AI enthusiasts, and toy datasets: radiology without radiologists",
+        "volume": "31",
+        "year": "2021",
+        "journal-title": "Eur Radiol"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "E162",
+        "DOI": "10.1148/radiol.2020204226",
+        "article-title": "Artificial Intelligence of COVID-19 Imaging: A Hammer in Search of a Nail",
+        "volume": "298",
+        "year": "2021",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrclinonc.2017.14110.1038/nrclinonc.2017.141"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mongan, J. , Moy, L. & Charles E. Kahn , J. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): A Guide for Authors and Reviewers. Radiology: Artificial Intelligence 2, e200029 (2020).",
+        "DOI": "10.1148/ryai.2020200029"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "E97",
+        "DOI": "10.1148/radiol.2020201473",
+        "article-title": "CO-RADS: A Categorical CT Assessment Scheme for Patients Suspected of Having COVID-19-Definition and Evaluation",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1197",
+        "DOI": "10.1038/s41551-020-00633-5",
+        "article-title": "Open resource of clinical data from patients with pneumonia for the prediction of COVID-19 outcomes via deep learning",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "Nat Biomed Eng"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Radpour, A. , et al. COVID-19 evaluation by low-dose high resolution CT scans protocol. Academic radiology 27, 901 (2020).",
+        "DOI": "10.1016/j.acra.2020.04.016"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri, I. , et al. COLI-NET: Fully Automated COVID-19 Lung and Infection Pneumonia Lesion Detection and Segmentation from Chest CT Images. medRxiv, 2021.2004.2008.21255163 (2021).",
+        "DOI": "10.1101/2021.04.08.21255163"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020191145"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/0008-5472.CAN-17-0339"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxj037"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-1"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "24tr02",
+        "DOI": "10.1088/1361-6560/aba798",
+        "article-title": "Harmonization strategies for multicenter radiomics investigations",
+        "volume": "65",
+        "year": "2020",
+        "journal-title": "Phys Med Biol"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "1423",
+        "DOI": "10.1016/j.cell.2020.04.045",
+        "article-title": "Clinically Applicable AI System for Accurate Diagnosis, Quantitative Measurements, and Prognosis of COVID-19 Pneumonia Using Computed Tomography",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chao, H. , et al. Integrative analysis for COVID-19 patient outcome prediction. Medical image analysis 67, 101844 (2020).",
+        "DOI": "10.1016/j.media.2020.101844"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qiu, J. , et al. A Radiomics Signature to Quantitatively Analyze COVID-19-Infected Pulmonary Lesions. Interdisciplinary sciences, computational life sciences, 1\u201312 (2021).",
+        "DOI": "10.1007/s12539-020-00410-7"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang, Z. , et al. Severity assessment of COVID-19 using CT image features and laboratory indices. Physics in medicine and biology (2020).",
+        "DOI": "10.1088/1361-6560/abbf9e"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7150/thno.46428"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.63",
+        "first-page": "e200322",
+        "article-title": "CT Radiomics, Radiologists, and Clinical Information in Predicting Outcome of Patients with COVID-19 Pneumonia",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri, I. , et al. Machine Learning-based Prognostic Modeling using Clinical Data and Quantitative Radiomic Features from Chest CT Images in COVID-19 Patients. Computers in Biology and Medicine, 104304 (2021).",
+        "DOI": "10.1016/j.compbiomed.2021.104304"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.65",
+        "first-page": "1",
+        "article-title": "Integrating deep learning CT-scan model, biological and clinical variables to predict severity of COVID-19 patients",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.66",
+        "doi-asserted-by": "crossref",
+        "first-page": "4968",
+        "DOI": "10.1038/s41467-020-18786-x",
+        "article-title": "Early prediction of disease progression in COVID-19 pneumonia patients with chest CT and clinical characteristics",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, Q. , et al. CT-based Rapid Triage of COVID-19 Patients: Risk Prediction and Progression Estimation of ICU Admission, Mechanical Ventilation, and Death of Hospitalized Patients. medRxiv : the preprint server for health sciences (2020).",
+        "DOI": "10.1101/2020.11.04.20225797"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chassagnon, G. , et al. AI-driven quantification, staging and outcome prediction of COVID-19 pneumonia. Medical image analysis 67, 101860 (2020).",
+        "DOI": "10.1016/j.media.2020.101860"
+      },
+      {
+        "key": "2021120904350528000_2021.12.07.21267364v1.69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chassagnon, G. , et al. AI-driven quantification, staging and outcome prediction of COVID-19 pneumonia. Medical image analysis 67, 101860 (2021).",
+        "DOI": "10.1016/j.media.2020.101860"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.07.21267364",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:31:29Z",
+      "timestamp": 1768487489000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.12.07.21267364"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          7
+        ]
+      ]
+    },
+    "references-count": 69,
+    "URL": "https://doi.org/10.1101/2021.12.07.21267364",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.compbiomed.2022.105467",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          7
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

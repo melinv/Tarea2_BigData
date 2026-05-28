@@ -1,0 +1,858 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T23:21:41Z",
+      "timestamp": 1768519301114,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          20
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 134,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              20
+            ]
+          ],
+          "date-time": "2024-12-20T00:00:00Z",
+          "timestamp": 1734652800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  There is significant interest in targeting disease-causing proteins with small molecule inhibitors to restore healthy cellular states. The ability to accurately predict the binding affinity of small molecules to a protein target in silico enables the rapid identification of candidate inhibitors and facilitates the optimization of on-target potency. In this work, we present T-ALPHA, a novel deep learning model that enhances protein-ligand binding affinity prediction by integrating multimodal feature representations within a hierarchical transformer framework to capture information critical to accurately predicting binding affinity. T-ALPHA outperforms all existing models reported in the literature on multiple benchmarks designed to evaluate protein-ligand binding affinity scoring functions. Remarkably, T-ALPHA maintains state-of-the-art performance when utilizing predicted structures rather than crystal structures, a powerful capability in real-world drug discovery applications where experimentally determined structures are often unavailable or incomplete. Additionally, we present an uncertainty-aware self-learning method for protein-specific alignment that does not require additional experimental data, and demonstrate that it improves T-ALPHA\u2019s ability to rank compounds by binding affinity to biologically significant targets such as the SARS-CoV-2 main protease and the epidermal growth factor receptor. To facilitate implementation of T-ALPHA and reproducibility of all results presented in this paper, we have made all of our software available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/gregory-kyro/T-ALPHA\">https://github.com/gregory-kyro/T-ALPHA</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2024.12.19.629497",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2024-12-22T05:35:24Z",
+      "timestamp": 1734845724000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "T-ALPHA: A Hierarchical Transformer-Based Deep Neural Network for Protein-Ligand Binding Affinity Prediction With Uncertainty-Aware Self-Learning for Protein-Specific Alignment"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0095-8548",
+        "authenticated-orcid": false,
+        "given": "Gregory W.",
+        "family": "Kyro",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-7265-0017",
+        "authenticated-orcid": false,
+        "given": "Anthony M.",
+        "family": "Smaldone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3728-0021",
+        "authenticated-orcid": false,
+        "given": "Yu",
+        "family": "Shee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-6622-4752",
+        "authenticated-orcid": false,
+        "given": "Chuzhi",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3262-1237",
+        "authenticated-orcid": false,
+        "given": "Victor S.",
+        "family": "Batista",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30925-9"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13578-023-01189-y"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2011.02.013"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrd.2016.230"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tips.2009.11.002"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/422341a"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.drudis.2024.104143"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1476-5381.2010.01127.x"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apsb.2012.10.004"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.trci.2017.10.005"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-07487-w"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.10.10.615955"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.13",
+        "unstructured": "Corso, G. ; Deng, A. ; Fry, B. ; Polizzi, N. ; Barzilay, R. ; Jaakkola, T. Deep Confident Steps to New Pockets: Strategies for Docking Generalization. 2024; p arXiv:2402.18396."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.accounts.0c00699"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kyro, G. W. ; Martin, M. T. ; Watt, E. D. ; Batista, V. S. CardioGenAI: A Machine Learning-Based Framework for Re-Engineering Drugs for Reduced hERG Liability. 2024; p arXiv:2403.07632.",
+        "DOI": "10.21203/rs.3.rs-4896795/v1"
+      },
+      {
+        "issue": "1",
+        "key": "2024122311583166000_2024.12.19.629497v1.16",
+        "first-page": "22",
+        "article-title": "Computer-Aided Drug Design and Drug Discovery: A Prospective Analysis",
+        "volume": "17",
+        "year": "2024",
+        "journal-title": "Pharmaceuticals"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq112"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz665"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ci400120b"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms21249548"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ci100244v"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbae081"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1005690"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty593"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsomega.9b01997"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fchem.2021.753002"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2020.607824"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biom11050643"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.29",
+        "unstructured": "Gomes, J. ; Ramsundar, B. ; Feinberg, E. N. ; Pande, V. S. Atomic convolutional networks for predicting protein-ligand binding affinity. arXiv preprint arXiv:1703.10603 2017."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.7b00650"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty374"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms21228424"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c00251"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-022-04762-3"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.0c01306"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, S. ; Zhou, J. ; Xu, T. ; Huang, L. ; Wang, F. ; Xiong, H. ; Huang, W. ; Dou, D. ; Xiong, H. Structure-aware Interactive Graph Neural Networks for the Prediction of Protein-Ligand Binding Affinity. In Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, Virtual Event, Singapore; 2021.",
+        "DOI": "10.1145/3447548.3467311"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btad340"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c00253"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpclett.2c03906"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2023.3314502"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249404"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-023-00756-9"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbac603"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-10418-2"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-023-05503-w"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms22084023"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2024.3383245"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.26831"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/molecules28124691"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.27499"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2024.3400515"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c00771"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM52615.2021.9669846"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0296676"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa921"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.4c00311"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D1SC05180F"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-022-08648-9"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.105772"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-024-00855-1"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2023.122334"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.02.08.575577"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jmedchem.2c00991"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2023.108003"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.microc.2024.111444"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s42485-023-00124-6"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IPDPSW63119.2024.00114"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiolchem.2023.107982"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbab474"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac597"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNB.2024.3441590"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.2c00960"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btae413"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D2RA05566J"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2023.11.018"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-024-57879-1"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.09.30.462610"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1096/fj.202401254R"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btad778"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM49941.2020.9313456"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2024.168843"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbac162"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.4c00220"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm030580l"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm048957q"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu626"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.accounts.6b00491"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.8b00545"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jmedchem.2c00487"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.90",
+        "unstructured": "Li, J. ; Guan, X. ; Zhang, O. ; Sun, K. ; Wang, Y. ; Bagni, D. ; Head-Gordon, T. Leak Proof PDBBind: A Reorganized Dataset of Protein-Ligand Complexes for More Generalizable Binding Affinity Prediction. ArXiv 2024. From NLM."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1932409"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2836(70)90057-4"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab132"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13321-015-0069-3"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkl999"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkac1077"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jmedchem.1c00409"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijrobp.2003.10.027"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c01456"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1075"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.8b00839"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphar.2020.565644"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp163"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1005659"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1758-2946-3-33"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.106",
+        "unstructured": "RDKit: Open-Source Cheminformatics Software. https://www.rdkit.org (accessed 2024."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.107",
+        "unstructured": "Los Alamos National Laboratory, Periodic Table of Elements. https://periodic.lanl.gov/index.shtml (accessed 2024."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00268976.2018.1535143"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.28.424589"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1010907107"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13321-021-00548-6"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.113",
+        "unstructured": "Satorras, V. c. G. ; Hoogeboom, E. ; Welling, M. E(n) Equivariant Graph Neural Networks. In Proceedings of the 38th International Conference on Machine Learning, Proceedings of Machine Learning Research; 2021."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.114",
+        "unstructured": "Loshchilov, I. ; Hutter, F. Decoupled Weight Decay Regularization. 2017; p arXiv:1711.05101."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.115",
+        "unstructured": "PyTorch Lightning; 2019. https://www.pytorchlightning.ai (accessed."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.116",
+        "unstructured": "Gal, Y. ; Ghahramani, Z. Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning. 2015; p arXiv:1506.02142."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.50"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.118",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ben-David, S. ; Blitzer, J. ; Crammer, K. ; Pereira, F. Analysis of Representations for Domain Adaptation. In Advances in Neural Information Processing Systems 19: Proceedings of the 2006 Conference, Sch\u00f6lkopf, B. , Platt, J. , Hofmann, T. Eds.; The MIT Press, 2007; p 0.",
+        "DOI": "10.7551/mitpress/7503.003.0022"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1005929"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13321-021-00536-w"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BIBM47256.2019.8982964"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abc5329"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.9b00334"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbab127"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-021-04034-6"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbab072"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D1CP05558E"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.0c00026"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbac231"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty757"
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.131",
+        "unstructured": "Paszke, A. ; Gross, S. ; Massa, F. ; Lerer, A. ; Bradbury, J. ; Chanan, G. ; Killeen, T. ; Lin, Z. ; Gimelshein, N. ; Antiga, L. ; et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library. 2019; p arXiv:1912.01703."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.132",
+        "unstructured": "Fey, M. ; Lenssen, J. E. Fast Graph Representation Learning with PyTorch Geometric. 2019; p arXiv:1903.02428."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.133",
+        "unstructured": "Charlier, B. ; Feydy, J. ; Glaun\u00e8s, J. A. ; Collin, F.-D. ; Durif, G. Kernel Operations on the GPU, with Autodiff, without Memory Overflows. 2020; p arXiv:2004.11127."
+      },
+      {
+        "key": "2024122311583166000_2024.12.19.629497v1.134",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-019-0686-2"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.19.629497",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T07:42:42Z",
+      "timestamp": 1768462962000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.19.629497"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          20
+        ]
+      ]
+    },
+    "references-count": 134,
+    "URL": "https://doi.org/10.1101/2024.12.19.629497",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1021/acs.jcim.4c02332",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:28:51Z",
+      "timestamp": 1768548531200,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ]
+    },
+    "group-title": "Intensive Care and Critical Care Medicine",
+    "reference-count": 18,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Aims</jats:title>\n                  <jats:p>The aim of this study was to estimate a 48 hour prediction of moderate to severe respiratory failure, requiring mechanical ventilation, in hospitalized patients with COVID-19 pneumonia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    This was an observational study that comprised consecutive patients with COVID-19 pneumonia admitted to hospital from 21 February to 6 April 2020. The patients\u2019 medical history, demographic, epidemiologic and clinical data were collected in an electronic patient chart. The dataset was used to train predictive models using an established machine learning framework leveraging a hybrid approach where clinical expertise is applied alongside a data-driven analysis. The study outcome was the onset of moderate to severe respiratory failure defined as PaO\n                    <jats:sub>2</jats:sub>\n                    /FiO\n                    <jats:sub>2</jats:sub>\n                    ratio &lt;150 mmHg in at least one of two consecutive arterial blood gas analyses in the following 48 hours. Shapley Additive exPlanations values were used to quantify the positive or negative impact of each variable included in each model on the predicted outcome.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>A total of 198 patients contributed to generate 1068 usable observations which allowed to build 3 predictive models based respectively on 31-variables signs and symptoms, 39-variables laboratory biomarkers and 91-variables as a composition of the two. A fourth \u201cboosted mixed model\u201d included 20 variables was selected from the model 3, achieved the best predictive performance (AUC=0.84) without worsening the FN rate. Its clinical performance was applied in a narrative case report as an example.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>This study developed a machine model with 84% prediction accuracy, which is able to assist clinicians in decision making process and contribute to develop new analytics to improve care at high technology readiness levels.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.30.20107888",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2020-06-02T10:59:34Z",
+      "timestamp": 1591095574000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Machine learning in predicting respiratory failure in patients with COVID-19 pneumonia - challenges, strengths, and opportunities in a global health emergency"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Ferrari",
+        "family": "Davide",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Milic",
+        "family": "Jovana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tonelli",
+        "family": "Roberto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ghinelli",
+        "family": "Francesco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Meschiari",
+        "family": "Marianna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Volpi",
+        "family": "Sara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Faltoni",
+        "family": "Matteo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Franceschi",
+        "family": "Giacomo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Iadisernia",
+        "family": "Vittorio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yaacoub",
+        "family": "Dina",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ciusa",
+        "family": "Giacomo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bacca",
+        "family": "Erica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rogati",
+        "family": "Carlotta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tutone",
+        "family": "Marco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Burastero",
+        "family": "Giulia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raimondi",
+        "family": "Alessandro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Menozzi",
+        "family": "Marianna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Franceschini",
+        "family": "Erica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cuomo",
+        "family": "Gianluca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Corradi",
+        "family": "Luca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Orlando",
+        "family": "Gabriella",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Santoro",
+        "family": "Antonella",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Di Gaetano",
+        "family": "Margherita",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Puzzolante",
+        "family": "Cinzia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carli",
+        "family": "Federica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bedini",
+        "family": "Andrea",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fantini",
+        "family": "Riccardo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tabb\u00ec",
+        "family": "Luca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Castaniere",
+        "family": "Ivana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Busani",
+        "family": "Stefano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Clini",
+        "family": "Enrico",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Girardis",
+        "family": "Massimo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarti",
+        "family": "Mario",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cossarizza",
+        "family": "Andrea",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mussini",
+        "family": "Cristina",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mandreoli",
+        "family": "Federica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Missier",
+        "family": "Paolo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guaraldi",
+        "family": "Giovanni",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30350-0"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicastri E , D\u2019Abramo A , Faggioni G , et al. Coronavirus disease (COVID-19) in a paucisymptomatic patient: epidemiological and clinical challenge in settings with limited community transmission, Italy, February 2020. Euro Surveill Bull Eur sur les Mal Transm = Eur Commun Dis Bull. Sweden; 2020; 25(11).",
+        "DOI": "10.2807/1560-7917.ES.2020.25.11.2000230"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.3",
+        "unstructured": "Guan W-J , Ni Z-Y , Hu Y , et al. Clinical Characteristics of Coronavirus Disease 2019 in China. N Engl J Med. United States; 2020;."
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meng L , Qiu H , Wan L , et al. Intubation and Ventilation amid the COVID-19 Outbreak: Wuhan\u2019s Experience. Anesthesiology. United States; 2020;.",
+        "DOI": "10.1097/ALN.0000000000003296"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2018.17163"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.metabol.2017.01.011"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.7",
+        "unstructured": "Yan L , Zhang H-T , Goncalves J , et al. A machine learning-based model for survival prediction in patients with severe COVID-19 infection. medRxiv [Internet]. 2020;:2020.02.27.20028027. Available from: http://medrxiv.org/content/early/2020/03/17/2020.02.27.20028027.abstract"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.8",
+        "first-page": "215",
+        "volume": "19",
+        "year": "2020",
+        "journal-title": "Machine Learning, COVID-19 (2019-nCoV), and multi-OMICS"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.10",
+        "unstructured": "National Society of Infectious Diseases\u2019 (SIMIT) Guidelines for the managment of COVID-19 infection. Available at: http://www.simit.org/medias/1569-covid19-vademecum-13-03-202.pdf Last access April 5th 2020. No Title."
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.11",
+        "unstructured": "Cao B , Wang Y , Wen D , et al. A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19. N Engl J Med [Internet]. 2020;:1\u201313. Available from: http://www.ncbi.nlm.nih.gov/pubmed/32187464"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.12",
+        "unstructured": "Ke G , Meng Q , Finley T , et al. LightGBM: A Highly Efficient Gradient Boosting Decision Tree. In: Guyon I , Luxburg UV , Bengio S , et al., editors. Adv Neural Inf Process Syst 30 [Internet]. Curran Associates, Inc.; 2017. p. 3146\u20133154. Available from: http://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree.pdf"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.13",
+        "unstructured": "Lundberg SM , Lee S-I . A Unified Approach to Interpreting Model Predictions. In: Guyon I , Luxburg U V , Bengio S , et al., editors. Adv Neural Inf Process Syst 30 [Internet]. Curran Associates, Inc.; 2017. p. 4765\u20134774. Available from: http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yasaka K , Abe O . Deep learning and artificial intelligence in radiology: Current applications and future directions. PLoS Med. 2018. p. e1002707.",
+        "DOI": "10.1371/journal.pmed.1002707"
+      },
+      {
+        "issue": "4",
+        "key": "2020122405000774000_2020.05.30.20107888v2.15",
+        "first-page": "437",
+        "article-title": "Diagnostic accuracy of 3D deep-learning-based fully automated estimation of patient-level minimum fractional flow reserve from coronary computed tomography angiography",
+        "volume": "21",
+        "year": "2019",
+        "journal-title": "Eur Hear J - Cardiovasc Imaging [Internet]"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.16",
+        "unstructured": "European Research Area corona platform; Available at: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-phe-coronavirus-2020-2b. Last access 29 May 2020."
+      },
+      {
+        "issue": "1",
+        "key": "2020122405000774000_2020.05.30.20107888v2.17",
+        "first-page": "e1918962",
+        "volume-title": "JAMA Netw open",
+        "volume": "3",
+        "year": "2020"
+      },
+      {
+        "key": "2020122405000774000_2020.05.30.20107888v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2017-020089"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.30.20107888",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:42:18Z",
+      "timestamp": 1768484538000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.30.20107888"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ]
+    },
+    "references-count": 18,
+    "URL": "https://doi.org/10.1101/2020.05.30.20107888",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0239172",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

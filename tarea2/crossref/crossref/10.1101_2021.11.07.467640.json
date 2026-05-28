@@ -1,0 +1,311 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:31:27Z",
+      "timestamp": 1768498287239,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          8
+        ]
+      ]
+    },
+    "group-title": "Systems Biology",
+    "reference-count": 24,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  The new coronavirus species, SARS-CoV-2, caused an unprecedented global pandemic of COVID-19 disease since late December 2019. A comprehensive characterization of protein-protein interactions (PPIs) between SARS-CoV-2 and human cells is a key to understanding the infection and preventing the disease. Here we present a novel approach to predict virus-host PPIs by multi-label machine learning classifiers of random forests and XGBoost using amino acid composition profiles of virus and human proteins. Our models harness a large-scale database of Viruses.STRING with &gt;80,000 virus-host PPIs along with evidence scores for multi-level evidence prediction, which is distinct from predicting binary interactions in previous studies. Our multi-label classifiers are based on 5 evidence levels binned from evidence scores. Our best model of XGBoost achieves 74% AUC and 68% accuracy on average in 10-fold cross validation. The most important amino acids are cysteine and histidine. In addition, our model predicts experimental PPIs with higher accuracy than text mining-based PPIs by 4% despite their smaller data size by more than 6-fold. We then predict evidence levels of \u223c2,000 SARS-CoV-2 virus-human PPIs from public experimental proteomics data. Interactions with SARS-CoV-2 Nsp7b show high evidence. We also predict evidence levels of all pairwise PPIs of \u223c550,000 between the SARS-CoV-2 and human proteomes to provide a draft virus-host interactome landscape for SARS-CoV-2 infection in humans in a comprehensive and unbiased way\n                  <jats:italic>in silico</jats:italic>\n                  . Most human proteins from 140 highest evidence predictions interact with SARS-CoV-2 Nsp7, Nsp1, and ORF14, with significant enrichment in the top 2 pathways of vascular smooth muscle contraction (CALD1, NPR2, CALML3) and Myc targets (CBX3, PES1). Our prediction also suggests that histone H2A components are targeted by multiple SARS-CoV-2 proteins.\n                </jats:p>",
+    "DOI": "10.1101/2021.11.07.467640",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          8
+        ]
+      ],
+      "date-time": "2021-11-08T23:50:12Z",
+      "timestamp": 1636415412000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "An interactome landscape of SARS-CoV-2 virus-human protein-protein interactions by protein sequence-based multi-label classifiers"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3616-5387",
+        "authenticated-orcid": false,
+        "given": "Ho-Joon",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2018/1391265"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, T. , and Guestrin, C. (2016). XGboost: A Scalable Tree Boosting System. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cook, H.V. , Doncheva, N.T. , Szklarczyk, D. , Von Mering, C. , and Jensen, L.J. (2018). Viruses.STRING: A Virus-Host Protein-Protein Interaction Database. Viruses 10.",
+        "DOI": "10.3390/v10100519"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0147612",
+        "DOI": "10.1371/journal.pone.0147612",
+        "article-title": "Uncovering New Pathogen-Host Protein-Protein Interactions by Pairwise Structure Similarity",
+        "volume": "11",
+        "year": "2016",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "438",
+        "DOI": "10.1016/j.bj.2020.08.003",
+        "article-title": "Machine learning techniques for sequence-based prediction of viral-host interactions between SARS-CoV-2 and human proteins",
+        "volume": "43",
+        "year": "2020",
+        "journal-title": "Biomed J"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "e62",
+        "DOI": "10.1002/cpps.62",
+        "article-title": "Computational Methods for Predicting Protein-Protein Interactions Using Various Protein Features",
+        "volume": "93",
+        "year": "2018",
+        "journal-title": "Curr Protoc Protein Sci"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "100242",
+        "DOI": "10.1016/j.patter.2021.100242",
+        "article-title": "Network-based virus-host interaction prediction with application to SARS-CoV-2",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Patterns (N Y)"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "238",
+        "DOI": "10.1186/s12859-018-2237-8",
+        "article-title": "Proteome-wide analysis of human motif-domain interactions mapped on influenza a virus",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "BMC bioinformatics"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe9403"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2286-9"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.12",
+        "first-page": "154",
+        "article-title": "Protein sequence models for prediction and comparative analysis of the SARS-CoV-2 -human interactome",
+        "volume": "26",
+        "year": "2021",
+        "journal-title": "Pac Symp Biocomput"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee, H.-J. (2021). Network controllability enrichment analysis reveals that SARS-CoV-2 infection tends to target indispensable nodes of a directed human protein-protein interaction network. bioRxiv, 2021.2004.2018.440358.",
+        "DOI": "10.1101/2021.04.18.440358"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2025581118"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.15",
+        "first-page": "94",
+        "article-title": "Computational approaches for prediction of pathogen-host protein-protein interactions",
+        "volume": "6",
+        "year": "2015",
+        "journal-title": "Front Microbiol"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1976",
+        "DOI": "10.1039/C6MB00065G",
+        "article-title": "Computational prediction of virus-human protein-protein interactions using embedding kernelized heterogeneous data",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "Molecular bioSystems"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sarkar, D. , and Saha, S. (2019). Machine-learning techniques for the prediction of protein-protein interactions. J Biosci 44.",
+        "DOI": "10.1007/s12038-019-9909-z"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10096-016-2716-7"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.1239303"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith, K. , Shen, F. , Lee, H.J. , and Chandrasekaran, S. (2022). Metabolic signatures of regulation by phosphorylation and acetylation. iScience, 103730.",
+        "DOI": "10.1016/j.isci.2021.103730"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1074"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e90",
+        "DOI": "10.1002/cpz1.90",
+        "article-title": "Gene Set Knowledge Discovery with Enrichr",
+        "volume": "1",
+        "year": "2021",
+        "journal-title": "Current Protocols"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/j.csbj.2019.12.005",
+        "article-title": "Prediction of human-virus protein-protein interactions through a sequence embedding-based machine learning method",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Computational and Structural Biotechnology Journal"
+      },
+      {
+        "key": "2022020309000555000_2021.11.07.467640v4.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1186/s12859-017-1500-8",
+        "article-title": "Prediction of GCRV virus-host protein interactome based on structural motif-domain interactions",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "BMC bioinformatics"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.07.467640",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:21:50Z",
+      "timestamp": 1768443710000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.07.467640"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          8
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.1101/2021.11.07.467640",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

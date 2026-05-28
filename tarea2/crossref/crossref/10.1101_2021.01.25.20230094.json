@@ -1,0 +1,398 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:12:38Z",
+      "timestamp": 1768551158248,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          26
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Designing public health responses to outbreaks requires close monitoring of population-level health indicators in real-time. Thus, an accurate estimation of the epidemic curve is critical. We propose an approach to reconstruct epidemic curves in near real time. We apply this approach to characterize the early SARS-CoV-2 outbreak in two Spanish regions between March and April 2020.</jats:p>\n                <jats:p>\n                  We address two data collection problems that affected the reliability of the available real-time epidemiological data, namely, the frequent missing information documenting when a patient first experienced symptoms, and the frequent retrospective revision of historical information (including right censoring). This is done by using a novel back-calculating procedure based on imputing patients\u2019 dates of symptom onset from reported cases, according to a dynamically-estimated \u201cbackward\u201d reporting delay conditional distribution, and adjusting for right censoring using an existing package,\n                  <jats:italic>NobBS</jats:italic>\n                  , to estimate in real time (nowcast) cases by date of symptom onset. This process allows us to obtain an approximation of the time-varying reproduction number (\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>t</jats:italic>\n                  </jats:sub>\n                  ) in real-time.\n                </jats:p>\n                <jats:p>At each step, we evaluate how different assumptions affect the recovered epidemiological events and compare the proposed approach to the alternative procedure of merely using curves of case counts, by report day, to characterize the time-evolution of the outbreak. Finally, we assess how these real-time estimates compare with subsequently documented epidemiological information that is considered more reliable and complete that became available later in time. Our approach may help improve accuracy, quantify uncertainty, and evaluate frequently unstated assumptions when recovering the epidemic curves from limited data obtained from public health surveillance systems in other locations.</jats:p>",
+    "DOI": "10.1101/2021.01.25.20230094",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          26
+        ]
+      ],
+      "date-time": "2021-01-26T14:55:21Z",
+      "timestamp": 1611672921000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Near real-time surveillance of the SARS-CoV-2 epidemic with incomplete data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8096-2001",
+        "authenticated-orcid": false,
+        "given": "PM",
+        "family": "De Salazar",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "F",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1998-1844",
+        "authenticated-orcid": false,
+        "given": "JA",
+        "family": "Hay",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D",
+        "family": "G\u00f3mez-Barroso",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P",
+        "family": "Fern\u00e1ndez-Navarro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "E",
+        "family": "Mart\u00ednez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J",
+        "family": "Astray-Mochales",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R",
+        "family": "Amillategui",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A",
+        "family": "Garc\u00eda-Fulgueiras",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "MD",
+        "family": "Chirlaque",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A",
+        "family": "S\u00e1nchez-Migall\u00f3n",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A",
+        "family": "Larrauri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "MJ",
+        "family": "Sierra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1504-9213",
+        "authenticated-orcid": false,
+        "given": "M",
+        "family": "Lipsitch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "F",
+        "family": "Sim\u00f3n",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Santillana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "MA",
+        "family": "Hern\u00e1n",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.1",
+        "first-page": "59",
+        "article-title": "Enhancing Situational Awareness to Prevent Infectious Disease Outbreaks from Becoming Catastrophic",
+        "volume": "424",
+        "year": "2019",
+        "journal-title": "Curr Top Microbiol Immunol"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb3221"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee MS , King CC , Chen CJ , Yang SY , Ho MS . Epidemiology of measles in Taiwan: dynamics of transmission and timeliness of reporting during an epidemic in 1988\u20139. Epidemiology and Infection. 1995. pp. 345\u2013359. doi :10.1017/s0950268800057988",
+        "DOI": "10.1017/S0950268800057988"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marinovi\u0107 AB , Swaan C , van Steenbergen J , Kretzschmar M. Quantifying Reporting Timeliness to Improve Outbreak Control. Emerging Infectious Diseases. 2015. pp. 209\u2013 216. doi :10.3201/eid2102.130504",
+        "DOI": "10.3201/eid2102.130504"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lawless JF . Adjustments for reporting delays and the prediction of occurred but not reported events. Canadian Journal of Statistics. 1994. pp. 15\u201331. doi :10.2307/3315826.n1",
+        "DOI": "10.2307/3315826.n1"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1051",
+        "DOI": "10.1002/bimj.201400159",
+        "article-title": "Bayesian outbreak detection in the presence of reporting delays",
+        "volume": "57",
+        "year": "2015",
+        "journal-title": "Biom J"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2533459"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/bsp.2011.0007"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/rssa.12055"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007735",
+        "DOI": "10.1371/journal.pcbi.1007735",
+        "article-title": "Nowcasting by Bayesian Smoothing: A flexible, generalizable model for real-time epidemic tracking",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4363",
+        "DOI": "10.1002/sim.8303",
+        "article-title": "A modelling approach for correcting reporting delays in disease surveillance data",
+        "volume": "38",
+        "year": "2019",
+        "journal-title": "Stat Med"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwj274"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwh255"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)31483-5"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.15",
+        "unstructured": "Informe COVID-19 no 23. 16 de abril de 2020. [cited 11 Jul 2020]. Available: o%2023.%20Situaci\u00f3n%20de%20COVID-19%20en%20Espa\u00f1a%20a%2016%20de%20abril%20de%202020.pdf\u201d>https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Documents/INFORMES/Informes%20COVID-19/Informe%20n%2023.%20Situaci\u00f3n%20de%20COVID-19%20en%20Espa\u00f1a%20a%2016%20de%20abril%20de%202020.pdf"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.16",
+        "unstructured": "Protocolos RENAVE. [cited 11 Jul 2020]. Available: https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Paginas/ProtocolosRENAVE.aspx"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gostic KM , McGough L , Baskerville E , Abbott S , Joshi K , Tedijanto C , et al. Practical considerations for measuring the effective reproductive number, Rt. medRxiv. 2020. doi :10.1101/2020.06.18.20134858",
+        "DOI": "10.1101/2020.06.18.20134858"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou X , Reiter JP . A Note on Bayesian Inference After Multiple Imputation. The American Statistician. 2010. pp. 159\u2013163. doi :10.1198/tast.2010.09109",
+        "DOI": "10.1198/tast.2010.09109"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb6936"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001316"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.22",
+        "unstructured": "[No title]. [cited 11 Jul 2020]. Available: https://www.boe.es/boe/dias/2020/03/29/pdfs/BOE-A-2020-4166.pdf"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pntd.0003846"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0902958106"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1988.10478599"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1177010994"
+      },
+      {
+        "key": "2021012806100726000_2021.01.25.20230094v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1191/0962280203sm337ra"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.25.20230094",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:04:35Z",
+      "timestamp": 1768485875000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.25.20230094"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          26
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2021.01.25.20230094",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1009964",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

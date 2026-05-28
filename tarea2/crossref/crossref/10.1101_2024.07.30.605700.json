@@ -1,0 +1,518 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T21:58:39Z",
+      "timestamp": 1768514319458,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          31
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 64,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              31
+            ]
+          ],
+          "date-time": "2024-07-31T00:00:00Z",
+          "timestamp": 1722384000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Discovery of therapeutic antibodies against infectious disease pathogens presents distinct challenges. Ideal candidates must possess not only the properties required for any therapeutic antibody (e.g. specificity, low immunogenicity) but also high affinity to many mutants of the target antigen. Here we present RESP2, an enhanced version of our RESP pipeline, designed for the discovery of antibodies against one or multiple antigens with simultaneously optimized developability properties. We first evaluate this pipeline\n                  <jats:italic>in silico</jats:italic>\n                  using the Absolut! database of scores for antibodies docked to target antigens. We show that RESP2 consistently identifies sequences that bind more tightly to a group of target antigens than any sequence present in the training set with success rates &gt;= 85%. Popular generative AI techniques evaluated on the same datasets achieve success rates of 1.5% or less by comparison. Next we use the receptor binding domain (RBD) of the COVID-19 spike protein as a case study, and discover a highly human antibody with broad (mid to high-affinity) binding to at least 8 different variants of the RBD. These results illustrate the advantages of this pipeline for antibody discovery against a challenging target. A Python package that enables users to utilize the RESP pipeline on their own targets is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Wang-lab-UCSD/RESP2\">https://github.com/Wang-lab-UCSD/RESP2</jats:ext-link>\n                  , together with code needed to reproduce the experiments in this paper.\n                </jats:p>",
+    "DOI": "10.1101/2024.07.30.605700",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2024-07-31T06:30:24Z",
+      "timestamp": 1722407424000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "RESP2: An uncertainty aware multi-target multi-property optimization AI pipeline for antibody discovery"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jonathan",
+        "family": "Parkinson",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan",
+        "family": "Hard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Young Su",
+        "family": "Ko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbac267"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akbar, R. et al. Progress and challenges for the machine learning-based design of fit-for-purpose monoclonal antibodies. mAbs 14, 2008790.",
+        "DOI": "10.1080/19420862.2021.2008790"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/protein/gzh038"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep45259"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-85329-9"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz895"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41551-021-00699-9"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-85274-7"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008864"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.10",
+        "first-page": "377",
+        "article-title": "DLAB: deep learning methods for structure-based virtual screening of antibodies",
+        "volume": "38",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.11",
+        "first-page": "3996",
+        "article-title": "Learning context-aware structural representations to predict antigen and antibody binding interfaces",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinforma. Oxf. Engl"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-36028-8"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.0c00441"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.14",
+        "unstructured": "Koh, P. W. , et al. WILDS: A Benchmark of in-the-Wild Distribution Shifts. in Proceedings of the 38th International Conference on Machine Learning 5637\u20135664 (PMLR, 2021)."
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.15",
+        "first-page": "18583",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "33",
+        "year": "2020"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.16",
+        "unstructured": "Murphy, K. P. Probabilistic Machine Learning: Advanced Topics. (The MIT Press, Cambridge, Massachusetts, 2022)."
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parkinson, J. , DeCastro, J. H. , Goldsmith, B. & Aran, K. Machine Learning for Disease Classification: A Perspective. in Artificial Intelligence in Healthcare and Medicine (CRC Press, 2022).",
+        "DOI": "10.1201/9781003120902-1"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-023-01763-2"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.adk8946"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.03.14.585103"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.12.08.570889"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-07385-1"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2405.03370"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.add2187"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.07.06.451258"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-023-01003-z"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-022-00809-7"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c00601"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btae278"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.4205"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.11.556673"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nprot.2006.94"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt785"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.4c00049"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.35",
+        "unstructured": "Rasmussen, C. & Williams, C. Gaussian Processes for Machine Learning. Vol. 2. No. 3. Cambridge, MA: MIT Press, 2006. vol. 2 (MIT Press, 2006)."
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2006.10108"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.02.19.581072"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.38",
+        "unstructured": "Vaswani, A. et al. Attention Is All You Need. Preprint at http://arxiv.org/abs/1706.03762 (2023)."
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1610.10099"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.05.19.492714"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-017-1703-z"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "vbac046",
+        "DOI": "10.1093/bioadv/vbac046",
+        "article-title": "AbLang: an antibody language model for completing antibody sequences",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "Bioinforma. Adv"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2016239118"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shuai, R. W. , Ruffolo, J. A. & Gray, J. J . IgLM: Infilling language modeling for antibody sequence design. Cell Syst. 0, (2023).",
+        "DOI": "10.1016/j.cels.2023.10.001"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2112.07782"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patter.2022.100513"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2206.13517"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burbach, S. M. & Briney, B . Improving antibody language models with native pairing. Patterns 5, (2024).",
+        "DOI": "10.1016/j.patter.2024.100967"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.49",
+        "unstructured": "Evolutionary-scale prediction of atomic-level protein structure with a language model | Science. https://www.science.org/doi/10.1126/science.ade2574."
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.12.07.570727"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gustafsson, F. K. , Danelljan, M. & Sch\u00f6n, T. B . Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision. Preprint at http://arxiv.org/abs/1906.01620 (2020).",
+        "DOI": "10.1109/CVPRW50498.2020.00167"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0145-305X(02)00039-3"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2014.09.026"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2852-1"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd2321"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/138620708783744516"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.57",
+        "first-page": "949",
+        "article-title": "Yeast polypeptide fusion surface display levels predict thermal stability and soluble secretion efficiency11Edited by J",
+        "volume": "292",
+        "year": "1999",
+        "journal-title": "A. Wells. J. Mol. Biol"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.58",
+        "first-page": "800819",
+        "article-title": "Prediction of Residue-specific Contributions to Binding and Thermal Stability Using Yeast Surface Display",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Front. Mol. Biosci"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nprot.2007.13"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.60",
+        "first-page": "8134674",
+        "article-title": "Multiobjective Simulated Annealing: Principles and Algorithm Variants",
+        "volume": "2019",
+        "year": "2019",
+        "journal-title": "Adv. Oper. Res"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.61",
+        "unstructured": "Liu, J. Z. et al. A Simple Approach to Improve Single-Model Deep Uncertainty via Distance-Awareness."
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf01589116"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/comjnl/7.2.155"
+      },
+      {
+        "key": "2025031204250840000_2024.07.30.605700v2.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1705867114"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.30.605700",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:47:45Z",
+      "timestamp": 1768459665000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.30.605700"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          31
+        ]
+      ]
+    },
+    "references-count": 64,
+    "URL": "https://doi.org/10.1101/2024.07.30.605700",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1002/advs.202504350",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:23:25Z",
+      "timestamp": 1768555405310,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Count data regression modeling has received much attention in several science fields in which the Poisson, Negative binomial, and Zero-Inflated models are some of the primary regression techniques. Negative binomial regression is applied to modeling count variables, usually when they are over-dispersed. A Poisson distribution is also utilized for counting data where the mean is equal to the variance. This situation is often unrealistic since the distribution of counts will usually have a variance that is not equal to its mean. Modeling it as Poisson distributed leads to ignoring under- or overdispersion, depending on if the variance is smaller or larger than the mean. Also, situations with outcomes having a larger number of zeros such as RNASeq data require Zero-inflated models. Variable selection through shrinkage priors has been a popular method to address the curse of dimensionality and achieve the identification of significant variables.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We present a unified Bayesian hierarchical framework that implements and compares shrinkage priors in negative-binomial and zero-inflated negative binomial regression models. The key feature is the representation of the likelihood by a Polya-Gamma data augmentation, which admits a natural integration with a family of shrinkage priors. We specifically focus on the Horseshoe, Dirichlet Laplace, and Double Pareto priors. Extensive simulation studies address the efficiency of the model and mean square errors are reported. Further, the models are applied to data sets such as the Covid-19 vaccine, and Covid-19 RNA-Seq data among others.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    The models are robust enough to address variable selection, and MSE decreases as the sample size increases, having lower errors in\n                    <jats:italic>p &gt; n</jats:italic>\n                    cases. The noteworthy results showed that the adverse events of Covid-19 vaccines were dependent on age, recovery, medical history, and prior vaccination with a remarkable reduction in MSE of the fitted values. No. of publications of Ph.D. students were dependent on the no. of children, and the no. of articles in the last three years.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>The models are robust enough to conduct both variable selections and produce effective fit because of their high shrinkage property and applicability to a broad range of biometric and public health high dimensional problems.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.07.13.22277610",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2022-07-15T15:35:18Z",
+      "timestamp": 1657899318000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Bayesian Shrinkage Priors in Zero-Inflated and Negative Binomial Regression models with Real World Data Applications of COVID-19 Vaccine, and RNA-Seq"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4468-2600",
+        "authenticated-orcid": false,
+        "given": "Arinjita",
+        "family": "Bhattacharyya",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Riten",
+        "family": "Mitra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shesh",
+        "family": "Rai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Subhadip",
+        "family": "Pal",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2344614"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxs031"
+      },
+      {
+        "issue": "3",
+        "key": "2022071806000481000_2022.07.13.22277610v1.3",
+        "first-page": "405",
+        "article-title": "Lasso meets horseshoe: A survey",
+        "volume": "34",
+        "year": "2019",
+        "journal-title": "Statistical Science"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.4",
+        "first-page": "501",
+        "article-title": "Shrink globally, act locally: Sparse bayesian regularization and prediction",
+        "volume": "9",
+        "year": "2010",
+        "journal-title": "Bayesian statistics"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bth419"
+      },
+      {
+        "issue": "4",
+        "key": "2022071806000481000_2022.07.13.22277610v1.6",
+        "first-page": "1105",
+        "article-title": "The horseshoe+ estimator of ultra-sparse signals",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "Bayesian Analysis"
+      },
+      {
+        "issue": "1",
+        "key": "2022071806000481000_2022.07.13.22277610v1.7",
+        "first-page": "135",
+        "article-title": "Hierarchical shrinkage priors for regression models",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "Bayesian Analysis"
+      },
+      {
+        "issue": "2",
+        "key": "2022071806000481000_2022.07.13.22277610v1.8",
+        "first-page": "730",
+        "article-title": "Spike and slab variable selection: frequentist and bayesian strategies",
+        "volume": "33",
+        "year": "2005",
+        "journal-title": "The Annals of Statistics"
+      },
+      {
+        "issue": "1",
+        "key": "2022071806000481000_2022.07.13.22277610v1.9",
+        "first-page": "179",
+        "article-title": "A simple sampler for the horseshoe estimator",
+        "volume": "23",
+        "year": "2015",
+        "journal-title": "IEEE Signal Processing Letters"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214508000000337"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.11",
+        "article-title": "On the hyperprior choice for the global shrinkage parameter in the horseshoe prior",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "2022071806000481000_2022.07.13.22277610v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58",
+        "year": "1996",
+        "journal-title": "Journal of the Royal Statistical Society: Series B (Methodological)"
+      },
+      {
+        "issue": "1",
+        "key": "2022071806000481000_2022.07.13.22277610v1.13",
+        "first-page": "119",
+        "article-title": "Generalized double pareto shrinkage",
+        "volume": "23",
+        "year": "2013",
+        "journal-title": "Statistica Sinica"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2014.960967"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmp.2018.12.004"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2013.829001"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/asq017"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hilbe, J.M. : Negative Binomial Regression. Cambridge University Press, ??? (2011)",
+        "DOI": "10.1017/CBO9780511973420"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McCullagh, P. : Generalized Linear Models. Routledge, ??? (2018)",
+        "DOI": "10.1201/9780203753736"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cameron, A.C. , Trivedi, P. : Regression analysis of (1998)",
+        "DOI": "10.1017/CBO9780511814365"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lehman, R.R. , Archer, K.J. : Penalized negative binomial models for modeling an overdispersed count outcome with a high-dimensional predictor space: Application predicting micronuclei frequency. PloS one 14(1) (2019)",
+        "DOI": "10.1371/journal.pone.0209923"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1111/j.2517-6161.1955.tb00188.x",
+        "article-title": "Some statistical models related with series of events",
+        "volume": "17",
+        "year": "1955",
+        "journal-title": "Journal of the Royal Statistical Society Series B"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.23",
+        "first-page": "923",
+        "volume-title": "In: Mathematical Proceedings of the Cambridge Philosophical Society",
+        "volume": "60",
+        "year": "1964"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2341080"
+      },
+      {
+        "issue": "1",
+        "key": "2022071806000481000_2022.07.13.22277610v1.25",
+        "first-page": "53",
+        "article-title": "Bayesian analysis of dynamic linear topic models",
+        "volume": "14",
+        "year": "2019",
+        "journal-title": "Bayesian Analysis"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2290350"
+      },
+      {
+        "issue": "3",
+        "key": "2022071806000481000_2022.07.13.22277610v1.27",
+        "first-page": "849",
+        "article-title": "Bayesian zero-inflated negative binomial regression based on p\u00f3lya-gamma mixtures",
+        "volume": "14",
+        "year": "2019",
+        "journal-title": "Bayesian Analysis"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhattacharya, A. , Chakraborty, A. , Mallick, B.K. : Fast sampling with gaussian scale mixture priors in high-dimensional regression. Biometrika, 042 (2016)",
+        "DOI": "10.1093/biomet/asw042"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Geweke, J. , et al.: Evaluating the Accuracy of Sampling-based Approaches to the Calculation of Posterior Moments vol. 196. Federal Reserve Bank of Minneapolis, Research Department Minneapolis, MN, ??? (1991)",
+        "DOI": "10.21034/sr.148"
+      },
+      {
+        "issue": "1",
+        "key": "2022071806000481000_2022.07.13.22277610v1.30",
+        "first-page": "7",
+        "article-title": "Coda: convergence diagnosis and output analysis for mcmc",
+        "volume": "6",
+        "year": "2006",
+        "journal-title": "R news"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.31",
+        "article-title": "High-dimensional bayesian regularised regression with the bayesreg package",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.32",
+        "journal-title": "High-Dimensional Bayesian Regularised Regression with the BayesReg Package"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sf/68.4.1297"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.34",
+        "unstructured": "Jackman, S. , Tahk, A. , Zeileis, A. , Maimone, C. , Fearon, J. , Meers, Z. , Jackman, M.S. , Imports, M. : Package \u2018pscl\u2019. See http://github.com/atahk/pscl (2017)"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.35",
+        "unstructured": "Hilbe, J.M. : COUNT: Functions, Data and Code for Count Data. (2016). R package version 1.3.4. https://CRAN.R-project.org/package=COUNT"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.36",
+        "unstructured": "Kleiber, C. , Zeileis, A. , Zeileis, M.A. : Package \u2018aer\u2019. R package version 1.2 4 (2020)"
+      },
+      {
+        "key": "2022071806000481000_2022.07.13.22277610v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12874-020-01050-7"
+      },
+      {
+        "issue": "2",
+        "key": "2022071806000481000_2022.07.13.22277610v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "100478",
+        "DOI": "10.1016/j.xpro.2021.100478",
+        "article-title": "Analysis workflow of publicly available rna-sequencing datasets",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "STAR protocols"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.07.13.22277610",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:46:48Z",
+      "timestamp": 1768488408000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.07.13.22277610"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2022.07.13.22277610",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

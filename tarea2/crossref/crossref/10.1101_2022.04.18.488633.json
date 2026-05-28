@@ -1,0 +1,539 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:20:41Z",
+      "timestamp": 1768501241000,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 65,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Since the start of COVID-19 pandemic, a huge effort has been devoted to understanding the Spike (SARS-CoV-2)-ACE2 recognition mechanism. To this end, two deep mutational scanning studies traced the impact of all possible mutations across Receptor Binding Domain (RBD) of Spike and catalytic domain of human ACE2. By concentrating on the interface mutations of these experimental data, we benchmarked six commonly used structure-based binding affinity predictors (FoldX, EvoEF1, MutaBind2, SSIPe, HADDOCK, and UEP). These predictors were selected based on their user-friendliness, accessibility, and speed. As a result of our benchmarking efforts, we observed that none of the methods could generate a meaningful correlation with the experimental binding data. The best correlation is achieved by FoldX (R = -0.51). Also, when we simplified the prediction problem to a binary classification, i.e., whether a mutation is enriching or depleting the binding, we showed that the highest accuracy is achieved by FoldX with 64% success rate. Surprisingly, on this set, simple energetic scoring functions performed significantly better than the ones using extra evolutionary-based terms, as in Mutabind and SSIPe. Furthermore, we also demonstrated that recent AI approaches, mmCSM-PPI and TopNetTree, yielded comparable performances to the force field-based techniques. These observations suggest plenty of room to improve the binding affinity predictors in guessing the variant-induced binding profile changes of a host-pathogen system, such as Spike-ACE2. To aid such improvements we provide our benchmarking data at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/CSB-KaracaLab/RBD-ACE2-MutBench\">https://github.com/CSB-KaracaLab/RBD-ACE2-MutBench</jats:ext-link>\n                  with the option to visualize our mutant models at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://rbd-ace2-mutbench.github.io/\">https://rbd-ace2-mutbench.github.io/</jats:ext-link>\n                </jats:p>",
+    "DOI": "10.1101/2022.04.18.488633",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2022-04-20T08:50:10Z",
+      "timestamp": 1650444610000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Benchmarking the accuracy of structure-based binding affinity predictors on Spike-ACE2 Deep Mutational Interaction Set"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9338-2199",
+        "authenticated-orcid": false,
+        "given": "Burcu",
+        "family": "Ozden",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2053-8900",
+        "authenticated-orcid": false,
+        "given": "Eda",
+        "family": "\u015eamilo\u011flu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Atakan",
+        "family": "\u00d6zsan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5947-8568",
+        "authenticated-orcid": false,
+        "given": "Mehmet",
+        "family": "Erguven",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2075-2480",
+        "authenticated-orcid": false,
+        "given": "Mehdi",
+        "family": "Ko\u015faca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Melis",
+        "family": "Oktayo\u011flu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Can",
+        "family": "Y\u00fckr\u00fck",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nazmiye",
+        "family": "Arslan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6706-1375",
+        "authenticated-orcid": false,
+        "given": "G\u00f6khan",
+        "family": "Karak\u00fclah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3100-9553",
+        "authenticated-orcid": false,
+        "given": "Ay\u015fe Ber\u00e7in",
+        "family": "Barlas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6116-7950",
+        "authenticated-orcid": false,
+        "given": "B\u00fc\u015fra",
+        "family": "Sava\u015f",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4926-7991",
+        "authenticated-orcid": false,
+        "given": "Ezgi",
+        "family": "Karaca",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1011.040797_02"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/emm.2015.76"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41419-020-02995-9"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/NATURE02145"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-71188-3"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.6",
+        "unstructured": "CoVariants n.d. https://covariants.org/ (accessed June 27, 2022)."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/SCIENCE.ABC0870"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.08.012"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008450"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008449"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-020-00652-6"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsnano.0c04674"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ACS.JCIM.2C00350"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gki387"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2019.02.028"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isci.2020.100939"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz926"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2015.09.014"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmolb.2021.729513"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa708"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab273"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz383"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-020-0149-6"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2020.07.009"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2007.05.022"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2180-5"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.00127-20"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.28",
+        "unstructured": "Schr\u00f6dinger LLC and DW. PyMOL n.d."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKW408"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.30",
+        "unstructured": "Integrated Development Environment for R. RStudio n.d."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.31",
+        "unstructured": "A Language and Environment for Statistical Computing. R n.d."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.32",
+        "unstructured": "Kolde R. Pheatmap: Pretty Heatmaps 2019."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.33",
+        "unstructured": "Neuwirth E. RColorBrewer: ColorBrewer Palettes 2014."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.peptides.2008.06.004"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2836(84)90309-7"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.str.2011.03.019"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006104"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v13050927"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2100425118/-/DCSupplemental"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2020.08.004"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41392-021-00809-8"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bpj.2023.05.003"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bpj.2021.02.007"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D1CC02305E"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003-022-04170-6"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btad231"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbad310"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.3942"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05513-3"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2021.167155"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/d1ra04694b"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.1c01451"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2122954119"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003-021-01754-6"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ygeno.2021.05.006"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms24043255"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq404"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/25.17.3389"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja026939x"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.60",
+        "unstructured": "Van Rossum G , Drake FL , Harris CR , Millman KJ , van der Walt SJ , Gommers R , et al. Python 3 Reference Manual. vol. 585. 2009."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/978-1-61499-649-1-87"
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.63",
+        "unstructured": "Anaconda Software Distribution. Anaconda Documentation 2020."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.64",
+        "unstructured": "The pandas development team. Pandas-dev/pandas: Pandas. Zenodo 2020."
+      },
+      {
+        "key": "2023102923351082000_2022.04.18.488633v4.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.03021"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.18.488633",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:56:16Z",
+      "timestamp": 1768445776000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.18.488633"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "references-count": 65,
+    "URL": "https://doi.org/10.1101/2022.04.18.488633",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1002/prot.26645",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

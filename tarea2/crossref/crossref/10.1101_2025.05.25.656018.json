@@ -1,0 +1,245 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T06:53:20Z",
+      "timestamp": 1775976800583,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 15,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2025-05-27T00:00:00Z",
+          "timestamp": 1748304000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID are chronic debilitating post-infectious illnesses that collectively affect up to 470 million individuals. Unlike illnesses of comparable scale, there are no validated blood or imaging tests for the clinical diagnosis of these conditions. Currently, these conditions are diagnosed through clinical exclusion, resulting in approximately 90% of ME/CFS patients being incorrectly diagnosed as Long COVID patients. This misdiagnosis contributes to delayed care and millions of dollars in healthcare burdens. We present Mobius, a transformer-based model that uses autoencoder-derived features from blood DNA methylation to distinguish ME/CFS, Long COVID, and healthy controls. Using 852 samples from 14 distinct datasets, our method employs three innovations: (i) self-supervised masked pretraining to learn epigenetic patterns, (ii) a sparsely-gated mixture-of-experts architecture to handle heterogeneous data, and (iii) an adaptive computation time mechanism for dynamic inference. Mobius achieved 97.06% accuracy (macro-F1 0.95, AUROC 0.96), outperforming current symptom-based diagnostics (58%) and baseline models such as XGBoost (82%). Ablation experiments showed that pretraining added 6% accuracy and that the gating and adaptive depth contributed an additional 7%. Our open-source pipeline could enable a much-needed objective blood test for these conditions and guide targeted precision medicine therapies.</jats:p>",
+    "DOI": "10.1101/2025.05.25.656018",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2025-05-27T23:35:11Z",
+      "timestamp": 1748388911000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Mobius: Mixture-Of-Experts Transformer Model in Epigenetics of ME/CFS and Long COVID"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-4726-5928",
+        "authenticated-orcid": false,
+        "given": "Piyush",
+        "family": "Acharya",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Department of Computer Science, Bellevue, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1552-7484",
+        "authenticated-orcid": false,
+        "given": "Derek",
+        "family": "Jacoby",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Victoria, Department of Computer Science, Victoria, Canada"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.1",
+        "unstructured": "Vaswani, A. , et al., \u201cAttention Is All You Need,\u201d Advances in Neural Information Processing Systems, vol. 30, 2017."
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0201066"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fviro.2024.1371683"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.4",
+        "year": "2017",
+        "journal-title": "\u201cOutrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer,\u201d"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.5",
+        "first-page": "giad072",
+        "article-title": "MuLan-Methyl: Multiple transformer-based language models for accurate DNA methylation prediction",
+        "volume": "12",
+        "year": "2023",
+        "journal-title": "GigaScience"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.6",
+        "unstructured": "Nikesj\u00f6, R. , et al., \u201cEpigenetic changes in individuals with persistent long COVID symptoms,\u201d Frontiers in Genetics, 2022."
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.7",
+        "unstructured": "Devlin, J. , et al., \u201cBERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,\u201d Proc. of NAACL-HLT, 2019."
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.8",
+        "year": "2016",
+        "journal-title": "\u201cAdaptive Computation Time for Recurrent Neural Networks,\u201d"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Levy, J.J. , et al., \u201cMethylNet: an automated and modular deep learning approach for DNA methylation analysis,\u201d BMC Bioinformatics, vol. 21, no. 1, 2020.",
+        "DOI": "10.1186/s12859-020-3443-8"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-022-00846-2"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMsb2408466"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-023-02893-9"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13148-024-01724-9"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13148-020-00842-4"
+      },
+      {
+        "key": "2026041123302300000_2025.05.25.656018v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-016-2819-7"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.25.656018",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T06:30:34Z",
+      "timestamp": 1775975434000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.25.656018"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ]
+    },
+    "references-count": 15,
+    "URL": "https://doi.org/10.1101/2025.05.25.656018",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

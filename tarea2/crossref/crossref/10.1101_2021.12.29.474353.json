@@ -1,0 +1,395 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:54:29Z",
+      "timestamp": 1768499669970,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          30
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>The accelerating pace of biomedical publication has made retrieving papers and extracting specific comprehensive scientific information a key challenge. A timely example of such a challenge is to retrieve the subset of papers that report on immune signatures (coherent sets of biomarkers) to understand the immune response mechanisms which drive differential SARS-CoV-2 infection outcomes. A systematic and scalable approach is needed to identify and extract COVID-19 immune signatures in a structured and machine-readable format.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>We used SPECTER embeddings with SVM classifiers to automatically identify papers containing immune signatures. A generic web platform was used to manually screen papers and allow anonymous submission.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We demonstrate a classifier that retrieves papers with human COVID-19 immune signatures with a positive predictive value of 86%. Semi-automated queries to the corresponding authors of these publications requesting signature information achieved a 31% response rate. This demonstrates the efficacy of using a SVM classifier with document embeddings of the abstract and title, to retrieve papers with scientifically salient information, even when that information is rarely present in the abstract. Additionally, classification based on the embeddings identified the type of immune signature (e.g., gene expression vs. other types of profiling) with a positive predictive value of 74%.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Coupling a classifier based on document embeddings with direct author engagement offers a promising pathway to build a semistructured representation of scientifically relevant information. Through this approach, partially automated literature mining can help rapidly create semistructured knowledge repositories for automatic analysis of emerging health threats.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.29.474353",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2021-12-30T16:50:15Z",
+      "timestamp": 1640883015000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Pipeline for retrieval of COVID-19 immune signatures"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4726-2644",
+        "authenticated-orcid": false,
+        "given": "Adam J.H.",
+        "family": "Newton",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0265-330X",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Chartash",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven H.",
+        "family": "Kleinstein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert A.",
+        "family": "McDougal",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.1",
+        "unstructured": "National Science Foundation National Science Board. Publication output: Us trends and international comparisons. Science and Engineering Indicators, 2019, 2020."
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.2",
+        "unstructured": "Ricardo Baeza-Yates , Berthier Ribeiro-Neto , et al. Modern information retrieval, volume 463. ACM press New York, 1999."
+      },
+      {
+        "issue": "1",
+        "key": "2022010307251737000_2021.12.29.474353v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "3863",
+        "DOI": "10.48084/etasr.2448",
+        "article-title": "On the current state of scholarly retrieval systems",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Engineering, technology & applied science research"
+      },
+      {
+        "issue": "9",
+        "key": "2022010307251737000_2021.12.29.474353v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1431",
+        "DOI": "10.1093/jamia/ocaa091",
+        "article-title": "Trec-covid: rationale and structure of an information retrieval shared task for covid-19",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "Journal of the American Medical Informatics Association"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kenneth C Smith , Daniel G Chawla , Bhavjinder K Dhillon , Zhou Ji , Randi Vita , Eva van der Leest , Jessica Weng , Ernest Tang , Amani Abid , Bjoern Peters , et al. A curated collection of human vaccination response signatures. bioRxiv, 2021.",
+        "DOI": "10.1101/2021.04.15.439017"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.6",
+        "unstructured": "T. M. Morse , R. Wang , N.T. Carnevale , G. M. Shepherd , and R. A. McDougal . Pipeline to promote discovery and sharing of computational neuroscience research. In Program Number 814.07 Neuroscience Meeting Planner. Society for Neuroscience, 2017."
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKAA942"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1049"
+      },
+      {
+        "issue": "3",
+        "key": "2022010307251737000_2021.12.29.474353v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.1007/s12021-018-9403-z",
+        "article-title": "Automated metadata suggestion during repository submission",
+        "volume": "17",
+        "year": "2019",
+        "journal-title": "Neuroinformatics"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.10",
+        "first-page": "188",
+        "article-title": "Pretraining to recognize pico elements from randomized controlled trial literature",
+        "volume": "264",
+        "year": "2019",
+        "journal-title": "Studies in health technology and informatics"
+      },
+      {
+        "issue": "12",
+        "key": "2022010307251737000_2021.12.29.474353v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1659094",
+        "DOI": "10.1080/2162402X.2019.1659094",
+        "article-title": "Identification of a prognostic immune signature for cervical cancer to predict survival and response to immune checkpoint inhibitors",
+        "volume": "8",
+        "year": "2019",
+        "journal-title": "Oncoimmunology"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.12",
+        "unstructured": "Lucy Lu Wang , Kyle Lo , Yoganand Chandrasekhar , Russell Reas , Jiangjiang Yang , Darrin Eide , Kathryn Funk , Rodney Kinney , Ziyang Liu , William Merrill , et al. Cord-19: The covid-19 open research dataset. ArXiv, 2020."
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.13",
+        "first-page": "1",
+        "volume-title": "In ACM SIGIR Forum",
+        "volume": "54",
+        "year": "2021"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "103745",
+        "DOI": "10.1016/j.jbi.2021.103745",
+        "article-title": "A comparative analysis of system features used in the trec-covid information retrieval challenge",
+        "volume": "117",
+        "year": "2021",
+        "journal-title": "Journal of Biomedical Informatics"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arman Cohan , Sergey Feldman , Iz Beltagy , Doug Downey , and Daniel S Weld . Specter: Document-level representation learning using citation-informed transformers. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 2270\u20132282, 2020.",
+        "DOI": "10.18653/v1/2020.acl-main.207"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1524/auto.2011.0951"
+      },
+      {
+        "issue": "3",
+        "key": "2022010307251737000_2021.12.29.474353v1.17",
+        "first-page": "61",
+        "article-title": "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods",
+        "volume": "10",
+        "year": "1999",
+        "journal-title": "Advances in large margin classifiers"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.18",
+        "unstructured": "The pandas development team. pandas-dev/pandas: Pandas, February 2020."
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.19",
+        "article-title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "3",
+        "key": "2022010307251737000_2021.12.29.474353v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "article-title": "Scipy 1.0: fundamental algorithms for scientific computing in python",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Steven Bird . Nltk: the natural language toolkit. In Proceedings of the COLING/ACL 2006 Interactive Presentation Sessions, pages 69\u201372, 2006.",
+        "DOI": "10.3115/1225403.1225421"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Christiane Fellbaum , editor. WordNet: An Electronic Lexical Database. Language, Speech, and Communication. MIT Press, Cambridge, MA, 1998. ISBN 978-0-262-06197-1.",
+        "DOI": "10.7551/mitpress/7287.001.0001"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.23",
+        "unstructured": "Radim R?eh\u00f5?rek and Petr Sojka . Software Framework for Topic Modelling with Large Corpora. In Proceedings of the LREC 2010 Workshop on New Challenges for NLP Frameworks, pages 45\u201350, Valletta, Malta, May 2010. ELRA. http://is.muni.cz/publication/884893/en."
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.24",
+        "first-page": "993",
+        "article-title": "Latent dirichlet allocation",
+        "volume": "3",
+        "year": "2003",
+        "journal-title": "the Journal of machine Learning research"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.1974.1100705"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/001316446002000104"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karen Sparck Jones . A statistical interpretation of term specificity and its application in retrieval. Journal of documentation, 1972.",
+        "DOI": "10.1108/eb026526"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paul Rayson and Roger Garside . Comparing corpora using frequency profiling. In The workshop on comparing corpora, pages 1\u20136, 2000.",
+        "DOI": "10.3115/1117729.1117730"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10827-016-0623-7"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12021-019-09437-8"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.31",
+        "article-title": "Construction of the literature graph in semantic scholar",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "5",
+        "key": "2022010307251737000_2021.12.29.474353v1.32",
+        "first-page": "259",
+        "article-title": "Reporting and connecting cell type names and gating definitions through ontologies",
+        "volume": "20",
+        "year": "2019",
+        "journal-title": "BMC bioinformatics"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.33",
+        "unstructured": "Naveen Tirupattur . Text miner for hypergraphs using output space sampling. Purdue University, 2011."
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.34",
+        "first-page": "197",
+        "volume-title": "In Proceedings of the conference. Association for Computational Linguistics. Meeting",
+        "volume": "2018",
+        "year": "2018"
+      },
+      {
+        "key": "2022010307251737000_2021.12.29.474353v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2777"
+      },
+      {
+        "issue": "1",
+        "key": "2022010307251737000_2021.12.29.474353v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1016/j.immuni.2015.12.006",
+        "article-title": "Compendium of immune signatures identifies conserved and species-specific biology in response to inflammation",
+        "volume": "44",
+        "year": "2016",
+        "journal-title": "Immunity"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.29.474353",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:32:14Z",
+      "timestamp": 1768444334000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.29.474353"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          30
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2021.12.29.474353",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          30
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

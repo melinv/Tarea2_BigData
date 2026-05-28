@@ -1,0 +1,268 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:23:04Z",
+      "timestamp": 1768548184278,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>In December 2019, Covid-19 epidemic was identified in Wuhan, China. Covid-19 may cause fatality especially among elderly, and people with chronic health problems. After human to human transmissions of the disease, it has rapidly spread throughout China, and then the outbreak has reached to neighboring countries in Asia. Now, the spread of the virus is accelerating in the world, and increasing number of new cases has been reported daily in Europe, Middle East, Africa and America regions. Recently, World Health Organization (WHO) also announced Covid-19 as a Pandemic. As of 3 April, worldwide around more than 1 million cases and around 60,000 fatalities are reported. Thus, forecasting regional and worldwide outbreak size of Covid-19 is important in order to take necessary actions regarding to preparedness plans and mitigation interventions. In this work, we design a deep learning model, which is an effective artificial intelligence method, to provide regional and worldwide forecasts. Particularly for worldwide, our approach predicts the cumulative number of cases, cumulative number of deaths and daily new cases. For Europe and Middle East regions, we predict the cumulative number of cases, and for Mainland China we predict daily new cases and the cumulative number of deaths. We predict the next 10 days based on the previously reported actual time series data of Covid-19. For worldwide forecasts, we use the data provided by Worldometers. For Europe and Middle East forecasts, we use the data provided by World Health Organization, and for China Mainland forecasts, the data is obtained from Chinese Centre for Disease Control and Prevention. This is the first time that a deep learning model has been employed for Covid-19 spread prediction, solely based on the known reported cases of Covid-19. The proposed deep learning architecture consists of Long Short Term Memory (LSTM) layer, dropout layer, and fully connected layers to predict regional and worldwide forecasts. We evaluate our approach with Root Mean Square Error (RMSE) metric. For forecasting, we use the network models that give the minimum RMSE on the last 3 days of actual data. Networks, which achieves the minimum RMSE on the last 3 days, are used to predict the next 10 days. Every day, the spread and situations are changing. Our approach can take into account these realtime changes; the deep learning model can be re-trained with new daily data and perform real-time forecasting. Results show that the proposed deep learning model is promising, it can predict possible scenarios regionally and globally for the spread of Covid-19.</jats:p>",
+    "DOI": "10.1101/2020.05.23.20111039",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ],
+      "date-time": "2020-05-26T11:55:11Z",
+      "timestamp": 1590494111000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Worldwide and Regional Forecasting of Coronavirus (Covid-19) Spread using a Deep Learning Model"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7709-4082",
+        "authenticated-orcid": false,
+        "given": "Cem",
+        "family": "Direkoglu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3869-7205",
+        "authenticated-orcid": false,
+        "given": "Melike",
+        "family": "Sah",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chih-Cheng Lai , Tzu-Ping Shih , Wen-Chien Ko , Hung-Jen Tang , Po-Ren Hsueh . Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges. International Journal of Antimicrobial Agents, February 2020, https://doi.org/10.1016/j.ijantimicag.2020.105924.",
+        "DOI": "10.1016/j.ijantimicag.2020.105924"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.2",
+        "unstructured": "World Health organization Statement Meeting on 23 January 2020. https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi Zhao , Jinjun Ran , Salihu S Musa , Guangpu Yang , Yijun Lou , Daozhou Gao , Lin Yang and Daihai He . Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak, International Journal of Infectious Diseases, January 2020, https://doi.org/10.1101/2020.01.23.916395",
+        "DOI": "10.1101/2020.01.23.916395"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.4",
+        "unstructured": "Covid-19 statistics from Chinese Centre for Disease Control and Prevention, http://www.nhc.gov.cn/yjb/pzhgli/new_list.shtml."
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.5",
+        "unstructured": "World Health Organization Situation Reports, https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.6",
+        "unstructured": "WorldoMeter Covid-19 Coronavirus Outbreak Statistics, https://www.worldometers.info/coronavirus/"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.7",
+        "unstructured": "Slav W Hermanowicz . Forecasting the Wuhan coronavirus (2019-nCoV) epidemics using a simple (simplistic) model, February 2020, https://doi.org/10.1101/2020.02.04.2002046"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.8",
+        "unstructured": "Jun Li . A Robust Stochastic Method of Estimating the Transmission Potential of 2019-nCoV, https://arxiv.org/abs/2002.03828"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1016/j.idm.2020.02.002",
+        "article-title": "Real-time forecasts of the COVID-19 epidemic in China from February 5th to February 24th, 2020",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm9020596"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.11",
+        "unstructured": "Benjamin Ivorra and Angel M. Ramos . Application of the Be-CoDiS mathematical model to forecast the international spread of the 2019\u201320 Wuhan coronavirus outbreak. Technical report, 8 February 2020. https://www.researchgate.net/publication/338902549_Application_of_the_Be-CoDiS_mathematical_model_to_forecast_the_international_spread_of_the_2019-20_Wuhan_coronavirus_outbreak"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30260-9"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.13",
+        "unstructured": "Milan Batista . Estimation of the final size of the coronavirus epidemic by the SIR model. February 2020, https://www.researchgate.net/publication/339311383_Estimation_of_the_final_size_of_the_coronavirus_epidemic_by_the_SIR_model"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.14",
+        "unstructured": "Zixin Hu , Qiyang Ge , Li Jin , Momiao Xiong . Artificial Intelligence Forecasting of Covid-19 in China, February 2020. https://www.researchgate.net/publication/339324015_Artificial_Intelligence_Forecasting_of_Covid-19_in_China."
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.50"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2014.09.003"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr.2012.6248110"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.19",
+        "unstructured": "Krizhevsky, Alex ; Sutskever, Ilya ; Hinton, Geoffry (2012). \u201cImageNet Classification with Deep Convolutional Neural Networks\u201d (PDF). NIPS 2012: Neural Information Processing Systems, Lake Tahoe, Nevada."
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.20",
+        "unstructured": "Google\u2019s AlphaGo AI wins three-match series against the world\u2019s best Go player\u201d. TechCrunch. 25 May 2017."
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.22",
+        "unstructured": "Hewamalage, Hansika & Bergmeir, Christoph & Bandara, Kasun . (2019). Recurrent Neural Networks for Time Series Forecasting: Current Status and Future Directions. arXiv: 1909.00590v3, September 2019."
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/089976600300015015"
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.25",
+        "unstructured": "Kingma, Diederik , and Jimmy Ba . \u201cAdam: A method for stochastic optimization\u201d. arXiv prepreint arXiv: 1412.6980 (2014)."
+      },
+      {
+        "key": "2020122401151106000_2020.05.23.20111039v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leonardo R Lopez , Xavier Rodo . A modified SEIR model to predict the COVID-19 outbreak in Spain: simulating control scenarios and multi-scale epidemics. medRxiv 2020.03.27.20045005; doi: https://doi.org/10.1101/2020.03.27.20045005.",
+        "DOI": "10.1101/2020.03.27.20045005"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.23.20111039",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:41:37Z",
+      "timestamp": 1768484497000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.23.20111039"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2020.05.23.20111039",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:35:10Z",
+      "timestamp": 1768505710114,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The COVID-19 pandemic has led to an unprecedented amount of scientific publications, growing at a pace never seen before. Multiple living systematic reviews have been developed to assist professionals with up-to-date and trustworthy health information, but it is increasingly challenging for systematic reviewers to keep up with the evidence in electronic databases. We aimed to investigate deep learning-based machine learning algorithms to classify COVID-19 related publications to help scale-up the epidemiological curation process.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    In this retrospective study, five different pre-trained deep learning-based language models were fine-tuned on a dataset of 6,365 publications manually classified into two classes, three subclasses and 22 sub-subclasses relevant for epidemiological triage purposes. In a\n                    <jats:italic>k</jats:italic>\n                    -fold cross-validation setting, each standalone model was assessed on a classification task and compared against an ensemble, which takes the standalone model predictions as input and uses different strategies to infer the optimal article class. A ranking task was also considered, in which the model outputs a ranked list of sub-subclasses associated with the article.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The ensemble model significantly outperformed the standalone classifiers, achieving a F1-score of 89.2 at the class level of the classification task. The difference between the standalone and ensemble models increases at the sub-subclass level, where the ensemble reaches a micro F1-score of 70% against 67% for the best performing standalone model. For the ranking task, the ensemble obtained the highest recall@3, with a performance of 89%. Using an unanimity voting rule, the ensemble can provide predictions with higher confidence on a subset of the data, achieving detection of original papers with a F1-score up to 97% on a subset of 80% of the collection instead of 93% on the whole dataset.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>This study shows the potential of using deep learning language models to perform triage of COVID-19 references efficiently and support epidemiological curation and review. The ensemble consistently and significantly outperforms any standalone model. Fine-tuning the voting strategy thresholds is an interesting alternative to annotate a subset with higher predictive confidence.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.01.18.524571",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2023-01-19T17:10:27Z",
+      "timestamp": 1674148227000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Ensemble of deep learning language models to support the creation of living systematic reviews for the COVID-19 literature"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9086-4982",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Knafou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Quentin",
+        "family": "Haas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nikolay",
+        "family": "Borissov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1039-6873",
+        "authenticated-orcid": false,
+        "given": "Michel",
+        "family": "Counotte",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4817-8986",
+        "authenticated-orcid": false,
+        "given": "Nicola",
+        "family": "Low",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hira",
+        "family": "Imeri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aziz Mert",
+        "family": "Ipekci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Diana",
+        "family": "Buitrago-Garcia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Leonie",
+        "family": "Heron",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Poorya",
+        "family": "Amini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6238-4503",
+        "authenticated-orcid": false,
+        "given": "Douglas",
+        "family": "Teodoro",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa952"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ipekci AM , Buitrago-Garcia D , Meili KW , Krauer F , Prajapati N , Thapa S , et al. Outbreaks of publications about emerging infectious diseases: the case of SARS-CoV-2 and Zika virus. BMC Med Res Methodol. 2021;50\u201350.",
+        "DOI": "10.1101/2020.11.20.20235242"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.3",
+        "unstructured": "Lu Wang L , Lo K , Chandrasekhar Y , Reas R , Yang J , Eide D , et al. CORD-19: The Covid-19 Open Research Dataset. 2020 [cited 2022 Jun 29]; Available from: https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/ppcovidwho-2130"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.4",
+        "unstructured": "Counotte M , Imeri H , Leonie H , Ipekci M , Low N. Living Evidence on COVID-19 [Internet]. 2020 [cited 2022 Jun 29]. Available from: https://ispmbern.github.io/covid-19/living-review/"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.5",
+        "unstructured": "The COVID-NMA initiative [Internet]. [cited 2022 Jun 29]. Available from: https://covid-nma.com/"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.6",
+        "unstructured": "National COVID-19 Clinical Evidence Taskforce [Internet]. [cited 2022 Jun 29]. Available from: https://covid19evidence.net.au/"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.7",
+        "unstructured": "COVID-19: Living systematic map of the evidence [Internet]. [cited 2022 Jun 29]. Available from: http://eppi.ioe.ac.uk/cms/Projects/DepartmentofHealthandSocialCare/Publishedreviews/COVID-19Livingsystematicmapoftheevidence/tabid/3765/Default.aspx"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.1001603"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.jclinepi.2020.11.005",
+        "article-title": "Weekly updates of national living evidence-based guidelines: methods for the Australian living guidelines for care of people with COVID-19",
+        "volume": "131",
+        "year": "2021",
+        "journal-title": "J Clin Epidemiol"
+      },
+      {
+        "issue": "13",
+        "key": "2023052613050735000_2023.01.18.524571v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "i41",
+        "DOI": "10.1093/bioinformatics/btm229",
+        "article-title": "Manual curation is not sufficient for annotation of genomic databases",
+        "volume": "23",
+        "year": "2007",
+        "journal-title": "Bioinforma Oxf Engl"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/527S16a"
+      },
+      {
+        "issue": "1",
+        "key": "2023052613050735000_2023.01.18.524571v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1186/s13643-021-01635-3",
+        "article-title": "Research Screener: a machine learning tool to semi-automate abstract screening for systematic reviews",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Syst Rev"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Garcia-Pelaez J , Rodriguez D , Medina-Molina R , Garcia-Rivas G , Jerjes-S\u00e1nchez C , Trevino V . PubTerm: a web tool for organizing, annotating and curating genes, diseases, molecules and other concepts from PubMed records. Database J Biol Databases Curation. 2019 Jan 8;2019.",
+        "DOI": "10.1093/database/bay137"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/bas020"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006390"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-018-2103-8"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/2046-4053-4-5"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.18",
+        "first-page": "bas040",
+        "article-title": "Text mining in the biocuration workflow: applications for literature curation at WormBase",
+        "volume": "2012",
+        "year": "2012",
+        "journal-title": "dictyBase and TAIR. Database J Biol Databases Curation"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz389"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa328"
+      },
+      {
+        "issue": "9",
+        "key": "2023052613050735000_2023.01.18.524571v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "2595",
+        "DOI": "10.1093/bioinformatics/btac146",
+        "article-title": "Variomes: a high recall search engine to support the curation of genomic variants",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.22",
+        "first-page": "839",
+        "article-title": "Designing an Optimal Expansion Method to Improve the Recall of a Genomic Variant Curation-Support Service",
+        "volume": "294",
+        "year": "2022",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "issue": "4",
+        "key": "2023052613050735000_2023.01.18.524571v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "3007",
+        "DOI": "10.1007/s10462-020-09919-1",
+        "article-title": "Text categorization: past and present",
+        "volume": "54",
+        "year": "2021",
+        "journal-title": "Artif Intell Rev"
+      },
+      {
+        "issue": "1",
+        "key": "2023052613050735000_2023.01.18.524571v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/505282.505283",
+        "article-title": "Machine learning in automated text categorization",
+        "volume": "34",
+        "year": "2002",
+        "journal-title": "ACM Comput Surv"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "baaa026",
+        "DOI": "10.1093/database/baaa026",
+        "article-title": "UPCLASS: a deep learning-based classifier for UniProtKB entry publications",
+        "volume": "2020",
+        "year": "2020",
+        "journal-title": "Database"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.26",
+        "unstructured": "Manning C , Sch\u00fctze H . Foundations of Statistical Natural Language Processing. Cambridge, MA, USA: MIT Press; 1999. 718 p."
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.27",
+        "unstructured": "Teodoro, Gobeill J , Pasche E , Ruch P , Vishnyakova D , Lovis C . Automatic IPC encoding and novelty tracking for effective patent mining. Tokyo, Japan; 2010. p. 309\u201317."
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hastie T , Tibshirani R , Friedman J. The elements of statistical learning [Internet]. 2nd ed. Springer; 2009. Available from: https://web.stanford.edu/~hastie/Papers/ESLII.pdf",
+        "DOI": "10.1007/978-0-387-84858-7"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peters ME , Ammar W , Bhagavatula C , Power R . Semi-supervised sequence tagging with bidirectional language models. In: Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) [Internet]. Vancouver, Canada: Association for Computational Linguistics; 2017 [cited 2022 Jun 29]. p. 1756\u201365. Available from: https://aclanthology.org/P17-1161",
+        "DOI": "10.18653/v1/P17-1161"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.30",
+        "unstructured": "Devlin J , Chang MW , Lee K , Toutanova K . BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. ArXiv181004805 Cs [Internet]. 2019 May 24 [cited 2020 May 1]; Available from: http://arxiv.org/abs/1810.04805"
+      },
+      {
+        "issue": "1",
+        "key": "2023052613050735000_2023.01.18.524571v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1186/s13643-021-01763-w",
+        "article-title": "srBERT: automatic article classification model for systematic review using BERT",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Syst Rev"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Knafou J , Naderi N , Copara J , Teodoro D , Ruch P. BiTeM at WNUT 2020 Shared Task-1: Named Entity Recognition over Wet Lab Protocols using an Ensemble of Contextual Language Models. In: Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT 2020) [Internet]. Online: Association for Computational Linguistics; 2020 [cited 2022 Jun 29]. p. 305\u201313. Available from: https://aclanthology.org/2020.wnut-1.40",
+        "DOI": "10.18653/v1/2020.wnut-1.40"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.33",
+        "unstructured": "Copara J , Naderi N , Knafou J , Ruch P , Teodoro D. Named entity recognition in chemical patents using ensemble of contextual language models [Internet]. arXiv; 2020 [cited 2022 Jun 29]. Available from: http://arxiv.org/abs/2007.12569"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Naderi N , Knafou J , Copara J , Ruch P , Teodoro D. Ensemble of Deep Masked Language Models for Effective Named Entity Recognition in Health and Life Science Corpora. Front Res Metr Anal [Internet]. 2021 [cited 2022 Jun 29];6. Available from: https://www.frontiersin.org/article/10.3389/frma.2021.689803",
+        "DOI": "10.3389/frma.2021.689803"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.35",
+        "unstructured": "Gage P. A New Algorithm for Data Compression.:14."
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schuster M , Nakajima K. Japanese and Korean Voice Search. In: International Conference on Acoustics, Speech and Signal Processing. 2012. p. 5149\u201352.",
+        "DOI": "10.1109/ICASSP.2012.6289079"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.37",
+        "unstructured": "Sennrich R , Haddow B , Birch A. Neural Machine Translation of Rare Words with Subword Units [Internet]. arXiv; 2016 [cited 2022 Jun 29]. Available from: http://arxiv.org/abs/1508.07909"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.38",
+        "unstructured": "Wu Y , Schuster M , Chen Z , Le QV , Norouzi M , Macherey W , et al. Google\u2019s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation [Internet]. arXiv; 2016 [cited 2022 Jun 29]. Available from: http://arxiv.org/abs/1609.08144"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.39",
+        "unstructured": "Liu Y , Ott M , Goyal N , Du J , Joshi M , Chen D , et al. RoBERTa: A Robustly Optimized BERT Pretraining Approach. ArXiv190711692 Cs [Internet]. 2019 Jul 26 [cited 2020 Apr 30]; Available from: http://arxiv.org/abs/1907.11692"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M\u00fcller M , Salath\u00e9 M , Kummervold PE . COVID-Twitter-BERT: A Natural Language Processing Model to Analyse COVID-19 Content on Twitter [Internet]. arXiv; 2020 [cited 2022 Jun 29]. Available from: http://arxiv.org/abs/2005.07503",
+        "DOI": "10.3389/frai.2023.1023281"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz682"
+      },
+      {
+        "issue": "1",
+        "key": "2023052613050735000_2023.01.18.524571v2.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3458754",
+        "article-title": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+        "volume": "3",
+        "year": "2022",
+        "journal-title": "ACM Trans Comput Healthc"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.43",
+        "unstructured": "Vaswani A , Shazeer N , Parmar N , Uszkoreit J , Jones L , Gomez AN , et al. Attention Is All You Need. ArXiv170603762 Cs [Internet]. 2017 Dec 5 [cited 2020 Feb 8]; Available from: http://arxiv.org/abs/1706.03762"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.44",
+        "unstructured": "Sundararajan M , Taly A , Yan Q. Axiomatic Attribution for Deep Networks. In: Proceedings of the 34th International Conference on Machine Learning [Internet]. PMLR; 2017 [cited 2022 Jun 29]. p. 3319\u201328. Available from: https://proceedings.mlr.press/v70/sundararajan17a.html"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.45",
+        "unstructured": "Captum \u00b7 Model Interpretability for PyTorch [Internet]. [cited 2022 Jun 29]. Available from: https://captum.ai/"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02295996"
+      },
+      {
+        "key": "2023052613050735000_2023.01.18.524571v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-7-356"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.18.524571",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:09:11Z",
+      "timestamp": 1768450151000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.18.524571"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1101/2023.01.18.524571",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

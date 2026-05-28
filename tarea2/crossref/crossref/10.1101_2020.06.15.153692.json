@@ -1,0 +1,412 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:22:40Z",
+      "timestamp": 1768490560037,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2020-06-16T00:00:00Z",
+          "timestamp": 1592265600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The widespread of Coronavirus has led to a worldwide pandemic with a high mortality rate. Currently, the knowledge accumulated from different studies about this virus is very limited. Leveraging a wide-range of biological knowledge, such as gene on-tology and protein-protein interaction (PPI) networks from other closely related species presents a vital approach to infer the molecular impact of a new species. In this paper, we propose the transferred multi-relational embedding model\n                  <jats:monospace>Bio-JOIE</jats:monospace>\n                  to capture the knowledge of gene ontology and PPI networks, which demonstrates superb capability in modeling the SARS-CoV-2-human protein interactions.\n                  <jats:monospace>Bio-JOIE</jats:monospace>\n                  jointly trains two model components. The\n                  <jats:italic>knowledge model</jats:italic>\n                  encodes the relational facts from the protein and GO domains into separated embedding spaces, using a hierarchy-aware encoding technique employed for the GO terms. On top of that, the\n                  <jats:italic>transfer model</jats:italic>\n                  learns a non-linear transformation to transfer the knowledge of PPIs and gene ontology annotations across their embedding spaces. By leveraging only structured knowledge,\n                  <jats:monospace>Bio-JOIE</jats:monospace>\n                  significantly outperforms existing state-of-the-art methods in PPI type prediction on multiple species. Furthermore, we also demonstrate the potential of leveraging the learned representations on clustering proteins with enzymatic function into enzyme commission families. Finally, we show that\n                  <jats:monospace>Bio-JOIE</jats:monospace>\n                  can accurately identify PPIs between the SARS-CoV-2 proteins and human proteins, providing valuable insights for advancing research on this new disease.\n                </jats:p>",
+    "DOI": "10.1101/2020.06.15.153692",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2020-06-17T00:45:21Z",
+      "timestamp": 1592354721000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Bio-JOIE: Joint Representation Learning of Biological Knowledge Bases"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5292-9389",
+        "authenticated-orcid": false,
+        "given": "Junheng",
+        "family": "Hao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8674-5318",
+        "authenticated-orcid": false,
+        "given": "Chelsea J.-T",
+        "family": "Ju",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Muhao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yizhou",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlo",
+        "family": "Zaniolo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "17",
+        "key": "2024080411090848000_2020.06.15.153692v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2723",
+        "DOI": "10.1093/bioinformatics/btx275",
+        "article-title": "Neuro-symbolic representation learning on biological knowledge graphs",
+        "volume": "33",
+        "year": "2017",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkl971"
+      },
+      {
+        "issue": "1",
+        "key": "2024080411090848000_2020.06.15.153692v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/1456650.1456651",
+        "article-title": "Data fusion",
+        "volume": "41",
+        "year": "2009",
+        "journal-title": "CSUR"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.4",
+        "unstructured": "Antoine Bordes , Nicolas Usunier , et al. Translating embeddings for modeling multi-relational data. In NIPS, 2013."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Volha Bryl and Christian Bizer . Learning conflict resolution strategies for cross-languagewikipedia data fusion. In WWW, pages 1129\u20131134, 2014.",
+        "DOI": "10.1145/2567948.2578999"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muhao Chen , Yingtao Tian , Mohan Yang , and Carlo Zaniolo . Multilingual knowledge graph embeddings for cross-lingual knowledge alignment. In IJCAI, 2017.",
+        "DOI": "10.24963/ijcai.2017/209"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muhao Chen , Yingtao Tian , Kai-Wei Chang , Steven Skiena , and Carlo Zaniolo . Co-trainingembeddings of knowledge graphs and entity descriptions for cross-lingual entity alignment. In IJCAI, 2018.",
+        "DOI": "10.24963/ijcai.2018/556"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muhao Chen , Yingtao Tian , Xuelu Chen , Zijun Xue , and Carlo Zaniolo . On2vec: Embedding-based relation prediction for ontology population. In SDM, 2018.",
+        "DOI": "10.1137/1.9781611975321.36"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz328"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1055"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.11",
+        "unstructured": "Xavier Glorot and Yoshua Bengio . Understanding the difficulty of training deep feedforward neural networks. In Proceedings of the thirteenth international conference on artificial intelligence and statistics, pages 249\u2013256, 2010."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.12",
+        "unstructured": "DavidE Gordon , Gwendolyn M Jang , Mehdi Bouhaddou , Jiewei Xu , Kirsten Obernier , Kris M White , Matthew J O\u2019 Meara , Veronica V Rezelj , Jeffrey Z Guo , Danielle L Swaney , et al. A sars-cov-2 protein interaction map reveals targets for drug repurposing. Nature, pages 1\u201313, 2020."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.13",
+        "unstructured": "Junheng Hao , Muhao Chen , Wenchao Yu , Yizhou Sun , and Wei Wang . Universal representa-tion learning of knowledge bases by jointly embedding instances and ontological concepts. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery and data mining. ACM, 2019."
+      },
+      {
+        "issue": "1",
+        "key": "2024080411090848000_2020.06.15.153692v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1186/s12859-018-2112-7",
+        "article-title": "Completing sparse and disconnected protein-proteinnetwork by deep learning",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "BMC bioinformatics"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu-An Huang , Zhu-Hong You , Xin Gao , Leon Wong , and Lirong Wang . Using weighted sparse representation model combined with discrete cosine transformation to predict protein-protein interactions from protein sequence. BioMed research international, 2015, 2015.",
+        "DOI": "10.1155/2015/902198"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku1113"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tjerko Kamminga , Simen-Jan Slagman , Vitor AP Martins dos Santos , Jetta JE Bijlsma , and Peter J Schaap . Risk-based bioengineering strategies for reliable bacterial vaccine production. Trends in biotechnology, 2019.",
+        "DOI": "10.1016/j.tibtech.2019.03.005"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.18",
+        "unstructured": "Diederik P Kingma and Jimmy Ba . Adam: A method for stochastic optimization. ICLR, 2015."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkr1179"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.20",
+        "unstructured": "Jianxin Ma , Peng Cui , Xiao Wang , and Wenwu Zhu . Hierarchical taxonomy aware network embedding. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery&Data Mining, pages 1920\u20131929. ACM, 2018."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.21",
+        "unstructured": "Stavros Makrodimitris , Roeland van Ham , and Marcel Reinders . Sparsity of protein-protein interaction networks hinders function prediction in non-model species. bioRxiv, page 832253, 2019."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.22",
+        "unstructured": "Tomas Mikolov , Ilya Sutskever , Kai Chen , Greg S Corrado , and Jeff Dean . Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems, pages 3111\u20133119, 2013."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maximilian Nickel , Lorenzo Rosasco , et al. Holographic embeddings of knowledge graphs. In AAAI, 2016.",
+        "DOI": "10.1609/aaai.v30i1.10314"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1079"
+      },
+      {
+        "issue": "D1",
+        "key": "2024080411090848000_2020.06.15.153692v1.25",
+        "first-page": "D77",
+        "article-title": "Expression atlas update: from tissues to single cells",
+        "volume": "48",
+        "year": "2020",
+        "journal-title": "Nucleic acids research"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.26",
+        "unstructured": "Andrew M Saxe , James L McClelland , et al. Exact solutions to the nonlinear dynamics of learning in deep linear neural networks. ICLR, 2014."
+      },
+      {
+        "issue": "13",
+        "key": "2024080411090848000_2020.06.15.153692v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "i52",
+        "DOI": "10.1093/bioinformatics/bty259",
+        "article-title": "Onto2vec: joint vector-based representation of biological entities and their ontology-based annotations",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zequn Sun , Wei Hu , and Chengkai Li . Cross-lingual entity alignment via joint attribute-preserving embedding. In ISWC, 2017.",
+        "DOI": "10.1007/978-3-319-68288-4_37"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Damian Szklarczyk , John H Morris , Helen Cook , Michael Kuhn , Stefan Wyder , Milan Simonovic , Alberto Santos , Nadezhda T Doncheva , Alexander Roth , Peer Bork , et al. The string database in 2017: quality-controlled protein\u2013protein association networks, made broadly accessible. NAR, 2016.",
+        "DOI": "10.1093/nar/gkw937"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paul D Thomas , Valerie Wood , Christopher J Mungall , Suzanna E Lewis , Judith A Blake , Gene Ontology Consortium , et al. On the use of gene ontology annotations to assess functional similarity among orthologs and paralogs: a short report. PLoS computational biology, 8(2), 2012.",
+        "DOI": "10.1371/journal.pcbi.1002386"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bayu Distiawan Trsedya , Jianzhong Qi , and Rui Zhang . Entity alignment between knowledge graphs using attribute embeddings. In AAAI, 2019.",
+        "DOI": "10.1609/aaai.v33i01.3301297"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhen Wang , Jianwen Zhang , Jianlin Feng , and Zheng Chen . Knowledge graph embedding by translating on hyperplanes. In AAAI, 2014.",
+        "DOI": "10.1609/aaai.v28i1.8870"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.33",
+        "unstructured": "Bishan Yang , Wen-tau Yih , Xiaodong He , et al. Embedding entities and relations for learning and inference in knowledge bases. In ICLR, 2015."
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu-Hong You , Keith CC Chan , and Pengwei Hu . Predicting protein-protein interactions from primary protein sequences using a novel multi-scale local feature representation scheme and the random forest. PloS one, 10(5), 2015.",
+        "DOI": "10.1371/journal.pone.0125811"
+      },
+      {
+        "key": "2024080411090848000_2020.06.15.153692v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qingheng Zhang , Zequn Sun , Wei Hu , Muhao Chen , Lingbing Guo , and Yuzhong Qu . Multi-view knowledge graph embedding for entity alignment. In IJCAI, 2019.",
+        "DOI": "10.24963/ijcai.2019/754"
+      },
+      {
+        "issue": "1",
+        "key": "2024080411090848000_2020.06.15.153692v1.36",
+        "first-page": "1",
+        "article-title": "Network-based drug repurposing for novel coronavirus 2019-ncov/sars-cov-2",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Cell discovery"
+      },
+      {
+        "issue": "13",
+        "key": "2024080411090848000_2020.06.15.153692v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "i457",
+        "DOI": "10.1093/bioinformatics/bty294",
+        "article-title": "Modeling polypharmacy side effects with graph convolutional networks",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.15.153692",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:30:37Z",
+      "timestamp": 1768437037000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.15.153692"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2020.06.15.153692",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

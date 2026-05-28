@@ -1,0 +1,1034 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2026-02-28T08:25:18Z",
+      "timestamp": 1772267118900,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          13
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 163,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2021-06-13T00:00:00Z",
+          "timestamp": 1623542400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Genome variants which re-occur independently across evolutionary lineages are key molecular signatures of adaptation. Inferring the dynamics of such genetic changes from pandemic-scale genomic datasets is now possible, which opens up unprecedented insight into evolutionary processes. However, existing approaches depend on the construction of accurate phylogenetic trees, which remains challenging at scale. Here we present EVOtRec, an organism-agnostic, fast and scalable Topological Data Analysis approach that enables the inference of convergently evolving genomic variants over time directly from topological patterns in the dataset, without requiring the construction of a phylogenetic tree. Using data from both simulations and published experiments, we show that EVOtRec can robustly identify variants under positive selection and performs orders of magnitude faster than state-of-the-art phylogeny-based approaches, with comparable results. We apply EVOtRec to three large viral genome datasets: SARS-CoV-2, influenza virus A subtype H5N1 and HIV-1. We identify key convergent genome variants and demonstrate how EVOtRec facilitates the real-time tracking of high fitness variants in large datasets with millions of genomes, including effects modulated by varying genomic backgrounds. We envision our Topological Data Analysis approach as a new framework for efficient comparative genomics.</jats:p>",
+    "DOI": "10.1101/2021.06.10.21258550",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2021-06-13T20:45:10Z",
+      "timestamp": 1623617110000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Ultrafast topological data analysis reveals pandemic-scale dynamics of convergent evolution"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Bleher",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute for Mathematics, Heidelberg University, Heidelberg, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Lukas",
+        "family": "Hahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Mathematics, Heidelberg University, Heidelberg, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Maximilian",
+        "family": "Neumann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Mathematics, Heidelberg University, Heidelberg, Germany"
+          },
+          {
+            "name": "Institute for Biological Interfaces 5, Microbial Genetics & Biotechnology, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Zachary",
+        "family": "Ardern",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wellcome Trust Sanger Institute, Hinxton, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Juan \u00c1ngel",
+        "family": "Pati\u00f1o-Galindo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+          }
+        ]
+      },
+      {
+        "given": "Mathieu",
+        "family": "Carri\u00e8re",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "DataShape, Centre Inria d\u2019Universit\u00e9 C\u00f4te d\u2019Azur, Biot, France"
+          }
+        ]
+      },
+      {
+        "given": "Ulrich",
+        "family": "Bauer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "TUM Department of Mathematics and Munich Data Science Institute, Munich, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Ra\u00fal",
+        "family": "Rabad\u00e1n",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Program for Mathematical Genomics, Department of Systems Biology, Columbia University, New York, NY, USA"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Ott",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Mathematics, Heidelberg University, Heidelberg, Germany"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2019.0102"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/MOLBEV/MSAA278"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.coviro.2018.12.006"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2022.06.008"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-021-00525-x"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vead055"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2023.1087267"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msaa314"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-019-2927-x"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06617-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msaf154"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abm1208"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abk3445"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-55593-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/veac022"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.09.022"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaf503"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-08309-9"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gbe/evs022"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty407"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00862-7"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-023-01368-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac401"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41576-023-00620-x"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cub.2020.11.043"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1009175"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ympev.2024.108197"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-020-07262-x"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00239-001-0034-9"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/genetics/156.2.879"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/mgen.0.000245"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/S0273-0979-09-01249-X"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1313480110"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1005071"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/9781316671665"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/evo.12729"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msad085"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gbe/evab087"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.39",
+        "unstructured": "Keegan, L. & Kempf, D. Hammingdist: A Fast Tool to Calculate Hamming Distances version 1.4.0. 2025. https://github.com/ssciwr/hammingdist visited on 2025-11-01."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s41468-021-00071-5"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2207.03394"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vez003"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-20075-6"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nargab/lqab019"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.45",
+        "unstructured": "De Maio, N. , Walker, C. , Borges, R. , et al. Issues with SARS-CoV-2 Sequencing Data \u2013 SARS-CoV-2 Coronavirus/nCoV-2019 Genomic Epidemiology Virological. https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473 visited on 2024-03-24."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.04.29.591666"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.47",
+        "unstructured": "Turakhia, Y. , De Maio, N. , Thornlow, B. , et al. Problematic Sites SARS-CoV-2 Github. https://github.com/W-L/ProblematicSites_SARS-CoV2/blob/master/problematic_sites_sarsCov2.vcf visited on 2024-08-31."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32942/x2p62n"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gigascience/giae055"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msae134"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vex042"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.52",
+        "unstructured": "Bloom, J. D. & Neher, R. A . Fitness effects of SARS-CoV-2 amino-acid mutations estimated from observed versus expected mutation counts Github. https://github.com/jbloomlab/SARS2-mut-fitness/blob/main/results_gisaid_2024-04-24/nt_fitness/ntmut_fitness_all.csv visited on 2024-06-30."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.meegid.2020.104351"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2104241118"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fcimb.2022.748948"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2022.03.018"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-023-00878-2"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gch2.1018"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-07636-1"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.60",
+        "unstructured": "Roemer, C. & Neher, R . SARS-CoV-2 variant reports (2023-07-26) GitHub. https://github.com/neherlab/SARS-CoV-2_variant-reports/blob/main/reports/variant_report_2023-07-26.md visited on 2024-06-26."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03412-7"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2021.01.014"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41422-021-00496-8"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04245-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.09.003"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2022.110829"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05644-7"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-38188-z"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-08315-x"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abo7896"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-022-00841-7"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.02.001"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3002916"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/elife.45079"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-54934-3"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2927-z"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.00213-23"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-026-68306-6"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abb5813"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isci.2021.102116"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/msphere.00408-20"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virol.2020.12.018"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2022.1747"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-34506-z"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/elife.83442"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2022.07.016"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04069-y"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abf2946"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41401-020-0485-4"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03237-4"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-021-00908-w"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-021-00954-4"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2022.111220"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03470-x"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-021-00573-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.09.037"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.02.032"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-022-00784-3"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.csbj.2021.10.004"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2852-1"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-48104-8"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1011868"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-023-01504-w"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-022-01143-7"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12915-023-01585-3"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0018630"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.79.12.7777-7784.2005"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.67.12.7493-7500.1993"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00227-10"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.07.11.603156"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1006812"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1006114"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mbio.02542-24"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-08054-z"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/jgv.0.002109"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.adq0900"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.03328-14"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms6021"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-08254-7"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1000709"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.02209-24"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.122",
+        "unstructured": "Pekar, J. E. , Peacock, T. P. , Moncla, L. , et al. Timing and molecular characterisation of the transmission to cattle of H5N1 influenza A virus genotype D1.1, clade 2.3.4.4b Virological. https://virological.org/t/timing-and-molecular-characterisation-of-the-transmission-to-cattle-of-h5n1-influenza-a-virus-genotype-d1-1-clade-2-3-4-4b/991 visited on 2025-11-26."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11904-011-0107-3"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4613-9586-7_3"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkf436"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkq967"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.127",
+        "unstructured": "Bauer, U . Ripser Github. https://github.com/Ripser/ripser/tree/tight-representative-cycles visited on 2024-01-15."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cagd.2019.06.003"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00454-004-1146-y"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4230/LIPICS.SOCG.2022.15"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0400146101"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.132",
+        "unstructured": "Starr, T. N. , Greaney, A. J. , Stewart, C. M. , et al. Deep mutational scanning of the SARS-CoV-2 RBD in variant backgrounds Github. https://github.com/jbloomlab/SARS-CoV-2-RBD_DMS_variants/blob/main/results/final_variant_scores/final_variant_scores.csv visited on 2024-08-23."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.133",
+        "unstructured": "Dadonaite, B. , Crawford, K. H. , Radford, C. E. , et al. Deep mutational scanning of SARS-CoV-2 Omicron BA.1 spike using a barcoded lentiviral platform Github. https://github.com/dms-vep/SARS-CoV-2_Omicron_BA.1_spike_DMS_mAbs/blob/main/results/muteffects_functional/muteffects_observed.csv visited on 2024-08-23."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.134",
+        "unstructured": "Dadonaite, B. , Brown, J. , McMahon, T. E. , et al. Deep mutational scanning of SARS-CoV-2 BA.2 spike Github. https://github.com/dms-vep/SARS-CoV-2_Omicron_BA.2_spike_ACE2_binding/blob/main/results/summaries/summary.csv visited on 2024-08-23."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.135",
+        "unstructured": "Dadonaite, B. , Brown, J. , McMahon, T. E. , et al. Deep mutational scanning of SARS-CoV-2 XBB.1.5 spike Github. https://github.com/dms-vep/SARS-CoV-2_XBB.1.5_spike_DMS/blob/main/results/summaries/summary.csv visited on 2024-08-23."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.136",
+        "unstructured": "Bloom, J. D. & Neher, R. A . Fitness effects of SARS-CoV-2 amino-acid mutations estimated from observed versus expected mutation counts Github. https://github.com/jbloomlab/SARS2-mut-fitness/blob/main/results_gisaid_2024-04-24/aa_fitness/aamut_fitness_by_clade.csv visited on 2025-06-15."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.137",
+        "unstructured": "Haddox, H. K. , Angehrn, G. , Sesta, L. , et al. Fitness effects of nucleotide and amino acid mu-tations updated with novel estimates of neutral rates Github. https://github.com/neherlab/SARS2-mut-fitness-v2/blob/main/results/aamut_fitness/21K_aamut_fitness.csv visited on 2025-06-15."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.138",
+        "unstructured": "Haddox, H. K. , Angehrn, G. , Sesta, L. , et al. Fitness effects of nucleotide and amino acid mu-tations updated with novel estimates of neutral rates Github. https://github.com/neherlab/SARS2-mut-fitness-v2/blob/main/results/aamut_fitness/BA.2_aamut_fitness.csv visited on 2025-06-15."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.139",
+        "unstructured": "Haddox, H. K. , Angehrn, G. , Sesta, L. , et al. Fitness effects of nucleotide and amino acid mu-tations updated with novel estimates of neutral rates Github. https://github.com/neherlab/SARS2-mut-fitness-v2/blob/main/results/aamut_fitness/XBB_aamut_fitness.csv visited on 2025-06-15."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.140",
+        "unstructured": "Dadonaite, B. , Ahn, J. J. , Ort, J. T. , et al. Deep mutational scanning of H5N1 influenza haemagglutinin using a barcoded lentiviral platform Github. https://github.com/dms-vep/Flu_H5_American-Wigeon_South-Carolina_2021-H5N1_DMS/blob/main/results/summaries/phenotypes.csv visited on 2025-03-01."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.141",
+        "unstructured": "Soh, Y. S. , Moncla, L. H. , Eguia, R. , et al. Deep mutational scanning of avian influenza PB2 to comprehensively map adaptation to the human host Github. https://github.com/jbloomlab/PB2-DMS/blob/master/results/diffsel/summary_prefs_effects_diffsel.csv visited on 2025-03-01."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.142",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/molecules191221085"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.143",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01328-08"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.144",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1009807"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.145",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.0804287"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.146",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0811713106"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.147",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virol.2012.03.008"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.148",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1010046"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.149",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nm.4268"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.150",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2016.04.016"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.151",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2017.04.011"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.152",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2019.04.014"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.153",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1003738"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.154",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0068863"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.155",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41426-018-0087-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.156",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1010945"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.157",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/vir.0.017426-0"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.158",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/elife.34420"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.159",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2018.12.017"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.160",
+        "unstructured": "Hodcroft, E. B . CoVariants: SARS-CoV-2 Mutations and Variants of Interest. https://covariants.org/visited on 2024-09-10."
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.161",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.70394"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.162",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-07487-w"
+      },
+      {
+        "key": "2026020309353634000_2021.06.10.21258550v4.163",
+        "unstructured": "DeLano, W. L. The PyMOL Molecular Graphics System version 3.1.0. 2002. http://www.pymol.org visited on 2026-01-18."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.10.21258550",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          3
+        ]
+      ],
+      "date-time": "2026-02-03T17:35:46Z",
+      "timestamp": 1770140146000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.06.10.21258550"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          13
+        ]
+      ]
+    },
+    "references-count": 163,
+    "URL": "https://doi.org/10.1101/2021.06.10.21258550",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

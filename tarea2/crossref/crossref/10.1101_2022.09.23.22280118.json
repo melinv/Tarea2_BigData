@@ -1,0 +1,602 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:11:45Z",
+      "timestamp": 1768554705011,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          25
+        ]
+      ]
+    },
+    "group-title": "Intensive Care and Critical Care Medicine",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Patients with severe SARS-CoV-2 pneumonia experience longer durations of critical illness yet similar mortality rates compared to patients with severe pneumonia secondary to other etiologies. As secondary bacterial infection is common in SARS-CoV-2 pneumonia, we hypothesized that unresolving ventilator-associated pneumonia (VAP) drives the apparent disconnect between length-of-stay and mortality rate among these patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    We analyzed VAP in a prospective single-center observational study of 585 mechanically ventilated patients with suspected pneumonia, including 190 patients with severe SARS-CoV-2 pneumonia. We developed\n                    <jats:italic>CarpeDiem</jats:italic>\n                    , a novel machine learning approach based on the practice of daily ICU team rounds to identify clinical states for each of the 12,495 ICU patient-days in the cohort. We used the\n                    <jats:italic>CarpeDiem</jats:italic>\n                    approach to evaluate the effect of VAP and its resolution on clinical trajectories.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>Patients underwent a median [IQR] of 4 [2,7] transitions between 14 clinical states during their ICU stays. Clinical states were associated with differential hospital mortality. The long length-of-stay among patients with severe SARS-CoV-2 pneumonia was associated with prolonged stays in clinical states defined by severe respiratory failure and with a lower frequency of transitions between clinical states. In all patients, including those with COVID-19, unresolving VAP episodes were associated with transitions to unfavorable states and hospital mortality.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>\n                    <jats:italic>CarpeDiem</jats:italic>\n                    offers a machine learning approach to examine the effect of VAP on clinical outcomes. Our findings suggest an underappreciated contribution of unresolving secondary bacterial pneumonia to outcomes in mechanically ventilated patients with pneumonia, including due to SARS-CoV-2.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Abstract Figure</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:caption>\n                      <jats:title>Graphical abstract</jats:title>\n                      <jats:p>\n                        <jats:bold>Disentangling the contributions of ICU complications and interventions to ICU outcomes</jats:bold>\n                        . (\n                        <jats:bold>A</jats:bold>\n                        ) Traditional approaches evaluate the ICU stay as a black box with severity of illness measured on presentation and dichotomized survival at an arbitrary time point (e.g., day 28) or on ICU or hospital discharge. Hence, the effect of intercurrent complications and interventions cannot be easily measured, a problem that is compounded when ICU stays are long or significantly differ between groups. (\n                        <jats:bold>B</jats:bold>\n                        ) Defining the ICU course by clinical features during each day in the ICU permits the association of a complication or intervention with transitions toward clinical states associated with favorable or unfavorable outcomes.\n                      </jats:p>\n                    </jats:caption>\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"22280118v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+    "DOI": "10.1101/2022.09.23.22280118",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2022-09-26T00:20:18Z",
+      "timestamp": 1664151618000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A machine learning approach identifies unresolving secondary pneumonia as a contributor to mortality in patients with severe pneumonia, including COVID-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5576-3943",
+        "authenticated-orcid": false,
+        "given": "Catherine A.",
+        "family": "Gao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3659-4387",
+        "authenticated-orcid": false,
+        "given": "Nikolay S.",
+        "family": "Markov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5540-4278",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Stoeger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9047-6437",
+        "authenticated-orcid": false,
+        "given": "Anna",
+        "family": "Pawlowski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1679-9473",
+        "authenticated-orcid": false,
+        "given": "Mengjia",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8080-3214",
+        "authenticated-orcid": false,
+        "given": "Prasanth",
+        "family": "Nannapaneni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0655-0882",
+        "authenticated-orcid": false,
+        "given": "Rogan A.",
+        "family": "Grant",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3400-9228",
+        "authenticated-orcid": false,
+        "given": "Chiagozie",
+        "family": "Pickens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7428-3101",
+        "authenticated-orcid": false,
+        "given": "James M.",
+        "family": "Walter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3258-1869",
+        "authenticated-orcid": false,
+        "given": "Jacqueline M.",
+        "family": "Kruser",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4497-8049",
+        "authenticated-orcid": false,
+        "given": "Luke",
+        "family": "Rasmussen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3523-745X",
+        "authenticated-orcid": false,
+        "given": "Dan",
+        "family": "Schneider",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5403-1115",
+        "authenticated-orcid": false,
+        "given": "Justin",
+        "family": "Starren",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8827-8581",
+        "authenticated-orcid": false,
+        "given": "Helen K.",
+        "family": "Donnelly",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1877-0655",
+        "authenticated-orcid": false,
+        "given": "Alvaro",
+        "family": "Donayre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0195-7456",
+        "authenticated-orcid": false,
+        "given": "Yuan",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3114-5208",
+        "authenticated-orcid": false,
+        "given": "GR",
+        "family": "Scott Budinger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8527-4195",
+        "authenticated-orcid": false,
+        "given": "Richard G.",
+        "family": "Wunderink",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2879-3789",
+        "authenticated-orcid": false,
+        "given": "Alexander V.",
+        "family": "Misharin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5775-8427",
+        "authenticated-orcid": false,
+        "given": "Benjamin D.",
+        "family": "Singer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "The NU SCRIPT Study Investigators",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/591708"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "921",
+        "DOI": "10.1164/rccm.202106-1354OC",
+        "article-title": "Bacterial Superinfection Pneumonia in Patients Mechanically Ventilated for COVID-19 Pneumonia",
+        "volume": "204",
+        "year": "2021",
+        "journal-title": "Am J Respir Crit Care Med"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2021436"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2200",
+        "DOI": "10.1007/s00134-020-06192-2",
+        "article-title": "Clinical features, ventilatory management, and outcome of ARDS caused by COVID-19 are similar to other causes of ARDS",
+        "volume": "46",
+        "year": "2020",
+        "journal-title": "Intensive Care Med"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1186/s40560-020-00499-4",
+        "article-title": "Factors influencing liberation from mechanical ventilation in coronavirus disease 2019: multicenter observational study in fifteen Italian ICUs",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "J Intensive Care Med"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aucc.2020.10.009"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-03148-w"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.202202-0357OC"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "571",
+        "DOI": "10.1016/j.chest.2020.02.071",
+        "article-title": "Late vasopressor administration in patients in the ICU: A retrospective cohort study",
+        "volume": "158",
+        "year": "2020",
+        "journal-title": "Chest"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.jcrc.2018.03.029",
+        "article-title": "Late organ failures in patients with prolonged intensive care unit stays",
+        "volume": "46",
+        "year": "2018",
+        "journal-title": "J Crit Care"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "566",
+        "DOI": "10.1016/S2213-2600(16)30098-4",
+        "article-title": "Timing of onset and burden of persistent critical illness in Australia and New Zealand: a retrospective, population-based, observational study",
+        "volume": "4",
+        "year": "2016",
+        "journal-title": "Lancet Respir Med"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1016/j.chest.2019.01.013",
+        "article-title": "Principles and Practice of Antibiotic Stewardship in the ICU",
+        "volume": "156",
+        "year": "2019",
+        "journal-title": "Chest"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1172/jci.insight.123287"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.201804-0650OC"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.00582-2017"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0b013e31827417bc"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1111/cts.12294",
+        "article-title": "Enabling a Learning Health System through a Unified Enterprise Data Warehouse: The Experience of the Northwestern University Clinical and Translational Sciences (NUCATS) Institute",
+        "volume": "8",
+        "year": "2015",
+        "journal-title": "Clin Transl Sci"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.19",
+        "unstructured": "Ward JH . Hierarchical Grouping to Optimize an Objective Function. Paperpile. https://paperpile.com/app/p/9d74dee9-431f-03b6-a0f1-5be2b24b7094 (accessed Sept 19, 2022)."
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "617",
+        "DOI": "10.1109/TSMC.1979.4310090",
+        "article-title": "Pattern Recognition with Partly Missing Data",
+        "volume": "9",
+        "year": "1979",
+        "journal-title": "IEEE Trans Syst Man Cybern"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2010.04.018"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13026/7VCR-E114"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1093/jamia/ocx084",
+        "article-title": "The MIMIC Code Repository: enabling reproducibility in critical care research",
+        "volume": "25",
+        "year": "2018",
+        "journal-title": "J Am Med Inform Assoc"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C. XGBoost: A Scalable Tree Boosting System. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA: Association for Computing Machinery, 2016: 785\u201394.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/01.CIR.101.23.e215"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.CCM.0000215112.84523.F0"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01709751"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00003246-199811000-00016"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.CCM.0000240233.01711.D9"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.286.14.1754"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.101.1.194"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.201002-0210CI"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciw353"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciz093"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/civ927"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3121/cmr.2015.1289"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diagmicrobio.2020.115179"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1513/AnnalsATS.202009-1225RL"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.17021"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.17022"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(21)00139-9"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2031994"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1186/s13054-022-03964-8",
+        "article-title": "Auxora vs. placebo for the treatment of patients with severe COVID-19 pneumonia: a randomized-controlled clinical trial",
+        "volume": "26",
+        "year": "2022",
+        "journal-title": "Crit Care"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "546",
+        "DOI": "10.1038/s41591-020-01227-z",
+        "article-title": "Single-cell meta-analysis of SARS-CoV-2 entry genes across tissues and demographics",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1172/JCI149412"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03570-8"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abe4282"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/cc11862"
+      },
+      {
+        "key": "2022092709250831000_2022.09.23.22280118v1.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "611",
+        "DOI": "10.1016/S2213-2600(14)70097-9",
+        "article-title": "Subphenotypes in acute respiratory distress syndrome: latent class analysis of data from two randomised controlled trials",
+        "volume": "2",
+        "year": "2014",
+        "journal-title": "Lancet Respir Med"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.09.23.22280118",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:50:58Z",
+      "timestamp": 1768488658000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.09.23.22280118"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          25
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2022.09.23.22280118",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          25
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

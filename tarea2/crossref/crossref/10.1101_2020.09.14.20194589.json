@@ -1,0 +1,478 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:25:41Z",
+      "timestamp": 1768548341809,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 50,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We construct a recursive Bayesian smoother, termed EpiFilter, for estimating the effective reproduction number, R, from the incidence of an infectious disease in real time and retrospectively. Our approach borrows from Kalman filtering theory, is quick and easy to compute, generalisable, deterministic and unlike many current methods, requires no change-point or window size assumptions. We model R as a flexible, hidden Markov state process and exactly solve forward-backward algorithms, to derive R estimates that incorporate all available incidence information. This unifies and extends two popular methods, EpiEstim, which considers past incidence, and the Wallinga-Teunis method, which looks forward in time. We find that this combination of maximising information and minimising assumptions significantly reduces the bias and variance of R estimates. Moreover, these properties make EpiFilter more statistically robust in periods of low incidence, where existing methods can become destabilised. As a result, EpiFilter offers improved inference of time-varying transmission patterns that are especially advantageous for assessing the risk of upcoming waves of infection in real time and at various spatial scales.</jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>Inferring changes in the transmissibility of an infectious disease is crucial for understanding and controlling epidemic spread. The effective reproduction number, R, is widely used to assess transmissibility. R measures the average number of secondary cases caused by a primary case and has provided insight into many diseases including COVID-19. An upsurge in R can forewarn of upcoming infections, while suppression of R can indicate if public health interventions are working. Reliable estimates of temporal changes in R can contribute important evidence to policymaking. Popular R-inference methods, while powerful, can struggle when cases are few because data are noisy. This can limit detection of crucial variations in transmissibility that may occur, for example, when infections are waning or when analysing transmissibility over fine geographic scales. In this paper we improve the general reliability of R-estimates and specifically increase robustness when cases are few. By adapting principles from control engineering, we formulate EpiFilter, a novel method for inferring R in real time and retrospectively. EpiFilter can potentially double the information extracted from epidemic time-series (when compared to popular approaches), significantly filtering the noise within data to minimise both bias and uncertainty of R-estimates and enhance the detection of salient changepoints in transmissibility.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.09.14.20194589",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2020-09-18T16:45:10Z",
+      "timestamp": 1600447510000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "Improved estimation of time-varying reproduction numbers at low case incidence and between epidemic waves"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7806-3605",
+        "authenticated-orcid": false,
+        "given": "Kris V",
+        "family": "Parag",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.1",
+        "first-page": "e758",
+        "article-title": "Estimating individual and household reproduction numbers in an emerging epidemic",
+        "volume": "8",
+        "year": "2007",
+        "journal-title": "PLOS One"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwh255"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Nishiura and G. Chowell , \u201cThe effective reproduction number as a prelude to statistical estimation of time-dependent epidemic trends,\u201d in Mathematical and statistical estimation approaches in epidemiology, pp. 103\u201321, Springer, 2009.",
+        "DOI": "10.1007/978-90-481-2313-1_5"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Anderson and R. May , Infectious diseases of humans: dynamics and control. Oxford University Press, 1991.",
+        "DOI": "10.1093/oso/9780198545996.001.0001"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwj274"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1251449"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1411100"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.8",
+        "unstructured": "S. Bhatia , A. Cori , K. Parag , et al., \u201cShort-term forecasts of COVID-19 deaths in multiple countries.\u201d"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1038/s41586-020-2405-7",
+        "article-title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
+        "volume": "584",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "420",
+        "DOI": "10.1038/s41586-020-2554-8",
+        "article-title": "Reconstruction of the full transmission dynamics of COVID-19 in Wuhan",
+        "volume": "584",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008409"
+      },
+      {
+        "issue": "7",
+        "key": "2021052109151108000_2020.09.14.20194589v3.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007990",
+        "DOI": "10.1371/journal.pcbi.1007990",
+        "article-title": "Using information theory to optimise epidemic models for real-time prediction and estimation",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Comput. Biol"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.14",
+        "unstructured": "S. Sarrka , Bayesian Filtering and Smoothing. Cambridge, UK: Cambridge University Press, 2013."
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Parag , O. Pybus , and C. Wu , \u201cAre skyline plot-based demographic estimates overly dependent on smoothing prior assumptions?,\u201d Syst. Biol, vol. syab037, 2021.",
+        "DOI": "10.1093/sysbio/syab037"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2014.05.002"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2020.1405"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Astrom and R. Murray , Feedback Systems: An Introduction for Scientists and Engineers. New Jersey: Princeton University Press, 2008.",
+        "DOI": "10.1515/9781400828739"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Riley , K. Eames , V. Isham , et al., \u201cFive challenges for spatial epidemic models,\u201d Epidemics, vol. 10, no. 68-71, 2015.",
+        "DOI": "10.1016/j.epidem.2014.07.001"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2006.3754"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1811115115"
+      },
+      {
+        "issue": "150",
+        "key": "2021052109151108000_2020.09.14.20194589v3.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "20180670",
+        "DOI": "10.1098/rsif.2018.0670",
+        "article-title": "Estimation in emerging epidemics: biases and remedies",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "J. R. Soc. Interface"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Snyder and M. Miller , Random Point Processes in Time and Space. Springer-Verlag, 2 ed., 1991.",
+        "DOI": "10.1007/978-1-4612-3166-0"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.3662552"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1080/17442508308833251",
+        "article-title": "Smoothing algorithms for nonlinear finite-dimensional systems",
+        "volume": "9",
+        "year": "1983",
+        "journal-title": "Stochastics"
+      },
+      {
+        "issue": "6",
+        "key": "2021052109151108000_2020.09.14.20194589v3.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1163",
+        "DOI": "10.1093/sysbio/syaa035",
+        "article-title": "Adaptive estimation for epidemic renewal and phylogenetic skyline models",
+        "volume": "69",
+        "year": "2020",
+        "journal-title": "Syst. Biol"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1913267"
+      },
+      {
+        "issue": "11",
+        "key": "2021052109151108000_2020.09.14.20194589v3.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008478",
+        "DOI": "10.1371/journal.pcbi.1008478",
+        "article-title": "An exact method for quantifying the reliability of end-of-epidemic declarations in real time",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Comput. Biol"
+      },
+      {
+        "issue": "21",
+        "key": "2021052109151108000_2020.09.14.20194589v3.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "3638",
+        "DOI": "10.1093/bioinformatics/bty337",
+        "article-title": "Exact bayesian inference for phylogenetic birth-death models",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "10",
+        "key": "2021052109151108000_2020.09.14.20194589v3.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1005687",
+        "DOI": "10.1371/journal.pcbi.1005687",
+        "article-title": "Point Process Analysis of Noise in Early Invertebrate Vision",
+        "volume": "13",
+        "year": "2017",
+        "journal-title": "PLOS Comput. Biol"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1003942"
+      },
+      {
+        "issue": "1",
+        "key": "2021052109151108000_2020.09.14.20194589v3.32",
+        "first-page": "1",
+        "article-title": "Bayesian filtering: From Kalman filters to particle filters, and beyond",
+        "volume": "182",
+        "year": "2003",
+        "journal-title": "Statistics"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.33",
+        "first-page": "128",
+        "article-title": "A primer on stochastic epidemic models: Formulation, numerical simulation, and analysis",
+        "volume": "2",
+        "year": "2017",
+        "journal-title": "Infect. Dis. Model"
+      },
+      {
+        "issue": "4",
+        "key": "2021052109151108000_2020.09.14.20194589v3.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1109/TIT.2005.844072",
+        "article-title": "Mutual information and minimum mean-square error in Gaussian channels",
+        "volume": "51",
+        "year": "2005",
+        "journal-title": "IEEE Trans. Info. Theo"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006785"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2017.02.012"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "150019",
+        "DOI": "10.1038/sdata.2015.19",
+        "article-title": "A review of epidemiological parameters from Ebola outbreaks to inform early public health decision-making",
+        "volume": "2",
+        "year": "2015",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmp.2006.01.004"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Parag , B. Cowling , and C. Donnelly , \u201cDeciphering early-warning signals of the elimination and resurgence potential of SARS-CoV-2 from limited data at multiple scales,\u201d medRxiv, vol. 2020.11.23.20236968, 2021.",
+        "DOI": "10.1101/2020.11.23.20236968"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syy007"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Faulkner , A. Magee , B. Shapiro , et al., \u201cHorseshoe-based Bayesian nonparametric estimation of effective population size trajectories,\u201d Biometrics, pp. 1\u201314, 2020.",
+        "DOI": "10.1111/biom.13276"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/4575056"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.43",
+        "unstructured": "WHO, \u201cWHO coronavirus disease (COVID-19) dashboard,\u201d 2020."
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)31097-7"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.45",
+        "unstructured": "M. Roser , H. Ritchie , E. Ortiz-Ospina , et al., \u201cCoronavirus pandemic (COVID-19),\u201d 2020."
+      },
+      {
+        "issue": "11",
+        "key": "2021052109151108000_2020.09.14.20194589v3.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "e612",
+        "DOI": "10.1016/S2468-2667(20)30225-5",
+        "article-title": "COVID-19 in New Zealand and the impact of the national response: a descriptive epidemiological study",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Lancet Public Health"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.47",
+        "unstructured": "N. Ferguson , D. Laydon , G. Nedjati-Gilani , et al., \u201cImpact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand,\u201d tech. rep., Imperial College London, 2020."
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Ganyani , C. Kremer , C. Dongxuan , et al., \u201cEstimating the generation interval for coronavirus disease (covid-19) based on symptom onset data, march 2020,\u201d Euro Surveill, vol. 25, no. 17, 2020.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.17.2000257"
+      },
+      {
+        "key": "2021052109151108000_2020.09.14.20194589v3.49",
+        "unstructured": "R. Anderson , C. Donnelly , D. Hollingsworth , et al., \u201cReproduction number (R) and growth rate (r) of the COVID-19 epidemic in the UK: methods of estimation, data sources, causes of heterogeneity, and use as a guide in policy formulation,\u201d tech. rep., The Royal Society, 2020."
+      },
+      {
+        "issue": "2",
+        "key": "2021052109151108000_2020.09.14.20194589v3.50",
+        "first-page": "193",
+        "article-title": "The temporal association of introducing and lifting non-pharmaceutical interventions with the time-varying reproduction number (R) of SARS-CoV-2: a modelling study across 131 countries",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "Lancet Infect. Dis"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.14.20194589",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:54:17Z",
+      "timestamp": 1768485257000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.14.20194589"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "references-count": 50,
+    "URL": "https://doi.org/10.1101/2020.09.14.20194589",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1009347",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

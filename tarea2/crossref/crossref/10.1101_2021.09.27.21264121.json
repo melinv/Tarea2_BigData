@@ -1,0 +1,382 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:50:47Z",
+      "timestamp": 1768553447969,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          29
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 28,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Predicting outcomes of COVID-19 patients at an early stage is critical for optimized clinical care and resource management, especially during a pandemic. Although multiple machine learning models have been proposed to address this issue, based on the need for extensive data pre-processing and feature engineering, these models have not been validated or implemented outside of the original study site.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>In this study, we propose CovRNN, recurrent neural network (RNN)-based models to predict COVID-19 patients\u2019 outcomes, using their available electronic health record (EHR) data on admission, without the need for specific feature selection or missing data imputation. CovRNN is designed to predict three outcomes: in-hospital mortality, need for mechanical ventilation, and long length of stay (LOS &gt;7 days). Predictions are made for time-to-event risk scores (survival prediction) and all-time risk scores (binary prediction). Our models were trained and validated using heterogeneous and de-identified data of 247,960 COVID-19 patients from 87 healthcare systems, derived from the Cerner\u00ae Real-World Dataset (CRWD). External validation was performed using three test sets (approximately 53,000 patients). Further, the transferability of CovRNN was validated using 36,140 de-identified patients\u2019 data derived from the Optum\u00ae de-identified COVID-19 Electronic Health Record v. 1015 dataset (2007\u20132020).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>CovRNN shows higher performance than do traditional models. It achieved an area under the receiving operating characteristic (AUROC) of 93% for mortality and mechanical ventilation predictions on the CRWD test set (vs. 91\u00b75% and 90% for light gradient boost machine (LGBM) and logistic regression (LR), respectively) and 86.5% for prediction of LOS &gt; 7 days (vs. 81\u00b77% and 80% for LGBM and LR, respectively). For survival prediction, CovRNN achieved a C-index of 86% for mortality and 92\u00b76% for mechanical ventilation. External validation confirmed AUROCs in similar ranges.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>Trained on a large heterogeneous real-world dataset, our CovRNN model showed high prediction accuracy, good calibration, and transferability through consistently good performance on multiple external datasets. Our results demonstrate the feasibility of a COVID-19 predictive model that delivers high accuracy without the need for complex feature engineering.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.09.27.21264121",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2021-09-29T13:35:08Z",
+      "timestamp": 1632922508000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "CovRNN\u2014A recurrent neural network model for predicting outcomes of COVID-19 patients: model development and validation using EHR data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Laila",
+        "family": "Rasmy",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Masayuki",
+        "family": "Nigo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bijun Sai",
+        "family": "Kannadath",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ziqian",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bingyu",
+        "family": "Mao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Khush",
+        "family": "Patel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yujia",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wanheng",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Angela",
+        "family": "Ross",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hua",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Degui",
+        "family": "Zhi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.1",
+        "unstructured": "Coronavirus disease (COVID-19) \u2013 World Health Organization. https://www.who.int/emergencies/diseases/novel-coronavirus-2019 (accessed May 29, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.2",
+        "unstructured": "CDC. COVID Data Tracker. 2020; published online March 28. https://covid.cdc.gov/covid-data-tracker (accessed March 28, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1464"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e496",
+        "DOI": "10.1016/S2589-7500(20)30226-0",
+        "article-title": "Prediction models for COVID-19 clinical decision making",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1058",
+        "DOI": "10.1038/s41467-020-20816-7",
+        "article-title": "Real-time prediction of COVID-19 related mortality using electronic health records",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.01.12.21249511"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.jbi.2018.06.011",
+        "article-title": "A study of generalizability of recurrent neural network-based predictive models for heart failure onset risk using a large and heterogeneous EHR data set",
+        "volume": "84",
+        "year": "2018",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e16981",
+        "DOI": "10.2196/16981",
+        "article-title": "Asthma Exacerbation Prediction and Risk Factor Analysis Based on a Time-Sensitive, Attentive Neural Network: Retrospective Cohort Study",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "J Med Internet Res"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13140/RG.2.2.13199.51368"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wanyan T , Honarvar H , Jaladanki SK , et al. Contrastive Learning Improves Critical Event Prediction in COVID-19 Patients. ArXiv 2021; published online Jan 11. https://www.ncbi.nlm.nih.gov/pubmed/33442560.",
+        "DOI": "10.1016/j.patter.2021.100389"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.12",
+        "first-page": "1",
+        "article-title": "Scalable and accurate deep learning with electronic health records",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "npj Digital Medicine"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.13",
+        "unstructured": "Sundararajan M , Taly A , Yan Q. Axiomatic Attribution for Deep Networks. In: International Conference on Machine Learning. PMLR, 2017: 3319\u201328."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.14",
+        "unstructured": "UMLS Metathesaurus - MMSL (Multum) - Synopsis. https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MMSL/index.html (accessed May 27, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1593",
+        "DOI": "10.1093/jamia/ocaa180",
+        "article-title": "Representation of EHR data for predictive modeling: a comparison between UMLS and other terminologies",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "J Am Med Inform Assoc"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.1982.03320430047030"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocw112"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.18",
+        "unstructured": "Choi E , Bahadori MT , Sun J , Kulas J , Schuetz A , Stewart W. RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism. Adv Neural Inf Process Syst 2016; 29. https://proceedings.neurips.cc/paper/2016/file/231141b34c82aa95e48810a9d1b33a79-Paper.pdf (accessed Sept 2, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/j.jbi.2018.05.016",
+        "volume": "83",
+        "author": "Modeling asynchronous event sequences with RNNs",
+        "year": "2018",
+        "journal-title": "J Biomed Inform"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.20",
+        "unstructured": "sklearn.linear_model.LogisticRegression \u2014 scikit-learn 0.24.2 documentation. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html (accessed May 27, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.21",
+        "unstructured": "Welcome to LightGBM\u2019s documentation! \u2014 LightGBM 3.2.1.99 documentation. https://lightgbm.readthedocs.io/ (accessed May 27, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12874-018-0495-9"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.22.20244061"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1038/s41746-020-00343-x",
+        "article-title": "A validated, real-time prediction model for favorable outcomes in hospitalized COVID-19 patients",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e516",
+        "DOI": "10.1016/S2589-7500(20)30217-X",
+        "article-title": "Clinical features of COVID-19 mortality: development and validation of a clinical prediction model",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "5322",
+        "DOI": "10.1038/s41598-021-84781-x",
+        "article-title": "Individualized prediction of COVID-19 adverse outcomes with MLHO",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.27",
+        "unstructured": "CDC. Healthcare Workers. 2021; published online May 27. https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html (accessed June 7, 2021)."
+      },
+      {
+        "key": "2021100106150546000_2021.09.27.21264121v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7021e3"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.09.27.21264121",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:25:41Z",
+      "timestamp": 1768487141000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.09.27.21264121"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          29
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1101/2021.09.27.21264121",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/s2589-7500(22)00049-8",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

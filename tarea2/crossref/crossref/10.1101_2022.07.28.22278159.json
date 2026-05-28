@@ -1,0 +1,578 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2026-02-21T04:56:53Z",
+      "timestamp": 1771649813507,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          31
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                  <jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Self-reported symptom studies rapidly increased our understanding of SARS-CoV-2 during the pandemic and enabled the monitoring of long-term effects of COVID-19 outside the hospital setting. It is now evident that post-COVID syndrome presents with heterogeneous profiles, which need characterisation to enable personalised care among the most affected survivors. This study describes post-COVID profiles, and how they relate to different viral variants and vaccination status.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>In this prospective longitudinal cohort study, we analysed data from 336,652 subjects, with regular health reports through the Covid Symptom Study (CSS) smartphone application. These subjects had reported feeling physically normal for at least 30 days before testing positive for SARS-CoV-2. 9,323 individuals subsequently developed Long-COVID, defined as symptoms lasting longer than 28 days. 1,459 had post-COVID syndrome, defined as more than 12 weeks of symptoms. Clustering analysis of the time-series data was performed to identify distinct symptom profiles for post-COVID patients, across variants of SARS-CoV-2 and vaccination status at the time of infection. Clusters were then characterised based on symptom prevalence, duration, demography, and prior conditions (comorbidities).</jats:p>\n                    <jats:p>Using an independent testing sample with additional data (n=140), we investigated the impact of post-COVID symptom clusters on the lives of affected individuals.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>We identified distinct profiles of symptoms for post-COVID syndrome within and across variants: four endotypes were identified for infections due to the wild-type variant; seven for the alpha variant; and five for delta. Across all variants, a cardiorespiratory cluster of symptoms was identified. A second cluster related to central neurological, and a third to cases with the most severe and debilitating multi-organ symptoms. Gastrointestinal symptoms clustered in no more than two specific phenotypes per viral variant. The three main clusters were confirmed in an independent testing sample, and their functional impact was assessed.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Interpretation</jats:title>\n                    <jats:p>Unsupervised analysis identified different post-COVID profiles, characterised by differing symptom combinations, durations, and functional outcomes. Phenotypes were at least partially concordant with individuals\u2019 reported experiences.</jats:p>\n                    <jats:p>Our classification may be useful to understand distinct mechanisms of the post-COVID syndrome, as well as subgroups of individuals at risk of prolonged debilitation.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Funding</jats:title>\n                    <jats:p>UK Government Department of Health and Social Care, Chronic Disease Research Foundation, The Wellcome Trust, UK Engineering and Physical Sciences Research Council, UK Research and Innovation London Medical Imaging &amp; Artificial Intelligence Centre for Value-Based Healthcare, UK National Institute for Health Research, UK Medical Research Council, British Heart Foundation and Alzheimer\u2019s Society, and ZOE Limited, UK.</jats:p>\n                  </jats:sec>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>We conducted a search in the PubMed Central database, with keywords: (\u201cLong-COVID*\u201d OR \u201cpost?covid*\u201d OR \u201cpost?COVID*\u201d OR postCOVID* OR postCovid*) AND (cluster* OR endotype* OR phenotype* OR sub?type* OR subtype).</jats:p>\n                    <jats:p>On 15 June 2022, 161 documents were identified, of which 24 either provided descriptions of sub-types or proposed phenotypes of Long-COVID or post-COVID syndrome(s). These included 16 studies attempting manual sub-grouping of phenotypes, 6 deployments of unsupervised methods for patient clustering and automatic semantic phenotyping (unsupervised k-means=2; random forest classification=1; other=2), and two reports of uncommon presentations of Long-COVID/post-COVID syndrome. Overall, two to eight symptom profiles (clusters) were identified, with three recurring clusters. A cardiopulmonary syndrome was the predominant observation, manifesting with exertional intolerance and dyspnoea (n=10), fatigue (n=8), autonomic dysfunction, tachycardia or palpitations (n=5), lung radiological abnormalities including fibrosis (n=2), and chest pain (n=1). A second common presentation consisted in persistent general autoimmune activation and proinflammatory state (n=2), comprising multi-organ mild sequelae (n=2), gastrointestinal symptoms (n=2), dermatological symptoms (n=2), and/or fever (n=1). A third syndrome was reported, with neurological or neuropsychiatric symptoms: brain fog or dizziness (n=2), poor memory or cognition (n=2), and other mental health issues including mood disorders (n=5), headache (n=2), central sensitization (n=1), paresthesia (n=1), autonomic dysfunction (n=1), fibromyalgia (n=2), and chronic pain or myalgias (n=6). Unsupervised clustering methods identified two to six different post-COVID phenotypes, mapping to the ones described above.</jats:p>\n                    <jats:p>14 further documents focused on possible causes and/or mechanisms of disease underlying one or more manifestations of Long-COVID or post-COVID and identifying immune response dysregulation as a potential common element. All the other documents were beyond the scope of this work.</jats:p>\n                    <jats:p>To our knowledge, there are no studies examining the symptom profile of post-COVID syndrome between different variants and vaccination status. Also, no studies reported the modelling of longitudinally collected symptoms, as time-series data, aiming at the characterisation of post-COVID syndrome.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added-value of this study</jats:title>\n                    <jats:p>Our study aimed to identify symptom profiles for post-COVID syndrome across the dominant variants in 2020 and 2021, and across vaccination status at the time of infection, using a large sample with prospectively collected longitudinal self-reports of symptoms. For individuals developing 12 weeks or more of symptoms, we identified three main symptom profiles which were consistent across variants and by vaccination status, differing only in the ratio of individuals affected by each profile and symptom duration overall.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>We demonstrate the existence of different post-COVID syndromes, which share commonalities across SARS-CoV-2 variant types in both symptoms themselves and how they evolved through the illness. We describe subgroups of patients with specific post-COVID presentations which might reflect different underlying pathophysiological mechanisms. Given the time-series component, our study is relevant for post-COVID prognostication, indicating how long certain symptoms last. These insights could aid in the development of personalised diagnosis and treatment, as well as helping policymakers plan for the delivery of care for people living with post-COVID syndrome.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2022.07.28.22278159",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2022-07-31T14:40:11Z",
+      "timestamp": 1659278411000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": [
+      "Profiling post-COVID syndrome across different variants of SARS-CoV-2"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2553-1284",
+        "authenticated-orcid": false,
+        "given": "Liane S.",
+        "family": "Canas",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Erika",
+        "family": "Molteni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jie",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carole H.",
+        "family": "Sudre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric",
+        "family": "Kerfoot",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michela",
+        "family": "Antonelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Liyuan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Khaled",
+        "family": "Rjoob",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joan Capdevila",
+        "family": "Pujol",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lorenzo",
+        "family": "Polidori",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anna",
+        "family": "May",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marc F.",
+        "family": "\u00d6sterdahl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ronan",
+        "family": "Whiston",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nathan J.",
+        "family": "Cheetham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vicky",
+        "family": "Bowyer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tim D.",
+        "family": "Spector",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Hammers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emma L.",
+        "family": "Duncan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sebastien",
+        "family": "Ourselin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Claire J.",
+        "family": "Steves",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marc",
+        "family": "Modat",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.1",
+        "unstructured": "Worldometer. COVID-19 Coronavirus Pandemic. https://www.worldometers.info/coronavirus/ (accessed June 10, 2020)."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.2",
+        "unstructured": "World Health Organisation. WHO Coronavirus (COVID-19) Dashboard. 2022; published online May 25."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.3",
+        "unstructured": "NHS UK. Coronavirus (COVID-19). 2020; published online Nov 1. https://www.nhs.uk/conditions/coronavirus-covid-19/ (accessed Feb 2, 2021)."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1618",
+        "DOI": "10.1016/S0140-6736(22)00327-0",
+        "article-title": "Symptom prevalence, duration, and risk of hospital admission in individuals infected with SARS-CoV-2 during periods of omicron and delta variant dominance: a prospective observational study from the ZOE COVID Study",
+        "volume": "399",
+        "year": "2022",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2263",
+        "DOI": "10.1016/S0140-6736(22)00941-2",
+        "article-title": "Risk of long COVID associated with delta versus omicron variants of SARS-CoV-2",
+        "volume": "399",
+        "year": "2022",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.6",
+        "unstructured": "NICE: National Institute for Health and Care Excellence. COVID-19 rapid guideline: managing the long-term effects of COVID-19. https://www.nice.org.uk/guidance/NG188. 2021."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.7",
+        "unstructured": "Office for National Statistics. Prevalence of ongoing symptoms following coronavirus (COVID-19) infection in the UK: 22 June 2022. https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/bulletins/prevalenceofongoingsymptomsfollowingcoronaviruscovid19infectionintheuk/6may2022.2022."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/JOURNAL.PONE.0264331"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1419",
+        "DOI": "10.1002/jmv.27456",
+        "article-title": "Post-COVID syndrome symptoms, functional disability, and clinical severity phenotypes in hospitalized and nonhospitalized individuals: A cross-sectional evaluation from a community COVID rehabilitation service",
+        "volume": "94",
+        "year": "2022",
+        "journal-title": "Journal of Medical Virology"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.10",
+        "unstructured": "Ayoubkhani D , Pawelek P . Prevalence of ongoing symptoms following coronavirus (COVID-19) infection in the UK 3 February 2022. medRxiv 2022."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-021-02115-0"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yong SJ , Liu S . Proposed subtypes of post-COVID-19 syndrome (or long-COVID) and their respective potential therapies. Reviews in Medical Virology 2021; n/a: e2315.",
+        "DOI": "10.1002/rmv.2315"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3399/BJGP.2021.0265"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gavrilova N , Soprun L , Lukashenko M , et al. New Clinical Phenotype of the Post-Covid Syndrome: Fibromyalgia and Joint Hypermobility Condition. Pathophysiology 2022; 29: 24\u20139.",
+        "DOI": "10.3390/pathophysiology29010003"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lam GY , Befus AD , Damant RW , et al. Exertional intolerance and dyspnea with preserved lung function: an emerging long COVID phenotype? Respiratory Research 2021; 22: 222.",
+        "DOI": "10.1186/s12931-021-01814-9"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bierle DM , Aakre CA , Grach SL , et al. Central Sensitization Phenotypes in Post Acute Sequelae of SARS-CoV-2 Infection (PASC): Defining the Post COVID Syndrome. Journal of Primary Care & Community Health 2021; 12: 21501327211030824.",
+        "DOI": "10.1177/21501327211030826"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.17",
+        "first-page": "1198",
+        "article-title": "Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes",
+        "volume": "2021",
+        "year": "2022",
+        "journal-title": "AMIA Annu Symp Proc"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sonnweber T , Tymoszuk P , Sahanic S , et al. Investigating phenotypes of pulmonary COVID-recovery: A longitudinal observational prospective multicenter trial. Elife 2022; 11: e72500.",
+        "DOI": "10.7554/eLife.72500"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jesuthasan A , Massey F , Manji H , Zandi MS , Wiethoff S . Emerging potential mechanisms and predispositions to the neurological manifestations of COVID-19. Journal of the Neurological Sciences 2021; 428: 117608.",
+        "DOI": "10.1016/j.jns.2021.117608"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Naeije R , Caravita S . Phenotyping long COVID. European Respiratory Journal 2021; : 2101763.",
+        "DOI": "10.1183/13993003.01763-2021"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e542",
+        "DOI": "10.1016/S2589-7500(22)00091-7",
+        "article-title": "COVID-19 trajectories among 57 million adults in England: a cohort study using electronic health records",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "539",
+        "DOI": "10.1007/s10654-022-00847-8",
+        "article-title": "Excess risk and clusters of symptoms after COVID-19 in a large Norwegian cohort",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "European Journal of Epidemiology"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meza-Torres B DGOCMNASMJGPGBCMCVMEJMGTDB de LS. Differences in clinical presentation with long covid following community and hospital infection, and associations with all-cause mortality: English sentinel network database study . JMIR Public Health and Surveillance 2022; 37668.",
+        "DOI": "10.2196/preprints.37668"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s15010-022-01822-x"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reese J , Blau H , Bergquist T , et al. Generalizable Long COVID Subtypes: Findings from the NIH N3C and RECOVER Programs. medRxiv 2022; : 2022.05.24.22275398.",
+        "DOI": "10.1101/2022.05.24.22275398"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ofid/ofac060"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc0473"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0916-2"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.29",
+        "first-page": "1",
+        "article-title": "Dynamics of Humoral Immunity Post COVID Vaccination \u2013 A Case Report",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Clin Rev & Cases"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.ijid.2021.05.021",
+        "article-title": "The initial impact of a national BNT162b2 mRNA COVID-19 vaccine rollout",
+        "volume": "108",
+        "year": "2021",
+        "journal-title": "International Journal of Infectious Diseases"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2034577"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.32",
+        "unstructured": "COG-UK. COG-UK/Mutation Explorer. https://sars2.cvr.gla.ac.uk/cog-uk/. 2022."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Murray B , Kerfoot E , Chen L , et al. Accessible data curation and analytics for international-scale citizen science datasets. Sci Data 2021; 8: 297.",
+        "DOI": "10.1038/s41597-021-01071-x"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abd4177"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.35",
+        "unstructured": "King\u2019s College London. COVID Symptom Study Biobank. https://cssbiobank.com/. 2022; published online May."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1016/j.neucom.2019.03.060",
+        "article-title": "Multivariate time series clustering based on common principal component analysis",
+        "volume": "349",
+        "year": "2019",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "101019",
+        "DOI": "10.1016/j.eclinm.2021.101019",
+        "article-title": "Characterizing long COVID in an international cohort: 7 months of symptoms and their impact",
+        "volume": "38",
+        "year": "2021",
+        "journal-title": "EClinicalMedicine"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1038/s41586-021-03553-9",
+        "article-title": "High-dimensional characterization of post-acute sequelae of COVID-19",
+        "volume": "594",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "697",
+        "DOI": "10.1038/s41586-022-04569-5",
+        "article-title": "SARS-CoV-2 is associated with changes in brain structure in UK Biobank",
+        "volume": "604",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jamal SM , Landers DB , Hollenberg SM , et al. Prospective Evaluation of Autonomic Dysfunction in Post-Acute Sequela of COVID-19. J Am Coll Cardiol 2022. DOI:https://doi.org/10.1016/j.jacc.2022.03.357.",
+        "DOI": "10.1016/j.jacc.2022.03.357"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grist JT , Collier GJ , Walters H , et al. Lung Abnormalities Depicted with Hyperpolarized Xenon MRI in Patients with Long COVID. Radiology 2022; : 220069.",
+        "DOI": "10.1148/radiol.220069"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "e28639",
+        "DOI": "10.1097/MD.0000000000028639",
+        "article-title": "Clinical characteristics and outcomes of post-COVID-19 pulmonary fibrosis: A case-control study",
+        "volume": "101",
+        "year": "2022",
+        "journal-title": "Medicine"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rizvi ZA , Dalal R , Sadhu S , et al. Golden Syrian hamster as a model to study cardiovascular complications associated with SARS-CoV-2 infection. Elife 2022; 11: e73522.",
+        "DOI": "10.7554/eLife.73522"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.44",
+        "unstructured": "Couzin-Frankel J . Clues to Long Covid. Science (1979). 2022; published online June 16."
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-1343889/v1"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(21)00460-6"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Venkatesan P . Do vaccines protect from long COVID? Lancet Respir Med 2022; 10: e30.",
+        "DOI": "10.1016/S2213-2600(22)00020-0"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "e587",
+        "DOI": "10.1016/S2589-7500(21)00131-X",
+        "article-title": "Early detection of COVID-19 in the UK using self-reported symptoms: a large-scale, prospective, epidemiological surveillance study",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2022080210500550000_2022.07.28.22278159v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Graham MS , May A , Varsavsky T , et al. Knowledge barriers in the symptomatic-COVID-19 testing programme in the UK: an observational study. medRxiv 2021; : 2021.03.16.21253719.",
+        "DOI": "10.1101/2021.03.16.21253719"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.07.28.22278159",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:47:34Z",
+      "timestamp": 1768488454000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.07.28.22278159"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          31
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2022.07.28.22278159",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

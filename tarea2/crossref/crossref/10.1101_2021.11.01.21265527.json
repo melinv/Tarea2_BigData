@@ -1,0 +1,1013 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:26:55Z",
+      "timestamp": 1768555615273,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To provide a thorough comparative study among state-of-the-art machine learning methods and statistical methods for determining in-hospital mortality in COVID-19 patients using data upon hospital admission; to study the reliability of the predictions of the most effective methods by correlating the probability of the outcome and the accuracy of the methods; to investigate how explainable are the predictions produced by the most effective methods.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>De-identified data were obtained from COVID-19 positive patients in 36 participating hospitals, from March 1 to September 30, 2020. Demographic, comorbidity, clinical presentation and laboratory data were used as training data to develop COVID-19 mortality prediction models. Multiple machine learning and traditional statistics models were trained on this prediction task using a folded cross-validation procedure, from which we assessed performance and interpretability metrics.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The Stacking of machine learning models improved over the previous state-of-the-art results by more than 26% in predicting the class of interest (death), achieving 87.1% of AUROC and macro F1 of 73.9%. We also show that some machine learning models can be very interpretable and reliable, yielding more accurate predictions while providing a good explanation for the \u2018why\u2019.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The best results were obtained using the meta-learning ensemble model \u2013 Stacking. State-of the art explainability techniques such as SHAP-values can be used to draw useful insights into the patterns learned by machine-learning algorithms. Machine-learning models can be more explainable than traditional statistics models while also yielding highly reliable predictions.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.11.01.21265527",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T16:15:48Z",
+      "timestamp": 1635869748000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Effectiveness, Explainability and Reliability of Machine Meta-Learning Methods for Predicting Mortality in Patients with COVID-19: Results of the Brazilian COVID-19 Registry"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Bruno Barbosa",
+        "family": "Miranda de Paiva",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Polianna",
+        "family": "Delfino-Pereira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Claudio Mois\u00e9s Valiense",
+        "family": "de Andrade",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Virginia Mara Reis",
+        "family": "Gomes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria Clara Pontello Barbosa",
+        "family": "Lima",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maira Viana Rego",
+        "family": "Souza-Silva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marcelo",
+        "family": "Carneiro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karina Paula Medeiros Prado",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tha\u00eds Lorenna Souza",
+        "family": "Sales",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rafael Lima Rodrigues",
+        "family": "de Carvalho",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Magda C.",
+        "family": "Pires",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lucas Emanuel",
+        "family": "F. Ramos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rafael T.",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Adriana Falangola Benjamin",
+        "family": "Bezerra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexandre Vargas",
+        "family": "Schwarzbold",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aline Gabrielle Sousa",
+        "family": "Nunes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amanda de Oliveira",
+        "family": "Maur\u00edlio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ana Luiza Bahia Alves",
+        "family": "Scotton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andr\u00e9 Soares de Moura",
+        "family": "Costa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andriele Abreu",
+        "family": "Castro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B\u00e1rbara Lopes",
+        "family": "Farace",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christiane Corr\u00eaa Rodrigues",
+        "family": "Cimini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "C\u00edntia Alcantara",
+        "family": "De Carvalho",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel Vit\u00f3rio",
+        "family": "Silveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniela",
+        "family": "Ponce",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elayne Crestani",
+        "family": "Pereira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Euler Roberto Fernandes",
+        "family": "Manenti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Evelin Paola de Almeida",
+        "family": "Cenci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fernanda Barbosa",
+        "family": "Lucas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fernanda D\u2019Athayde",
+        "family": "Rodrigues",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fernando",
+        "family": "Anschau",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fernando Antonio",
+        "family": "Botoni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fernando",
+        "family": "Gra\u00e7a Aranha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Frederico",
+        "family": "Bartolazzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gisele Alsina Nader",
+        "family": "Bastos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giovanna Grunewald",
+        "family": "Vietta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guilherme Fagundes",
+        "family": "Nascimento",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Helena Carolina",
+        "family": "Noal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Helena",
+        "family": "Duani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Heloisa Reniers",
+        "family": "Vianna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Henrique Cerqueira",
+        "family": "Guimar\u00e3es",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isabela Moraes",
+        "family": "Gomes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jamille Hem\u00e9trio",
+        "family": "Salles Martins Costa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J\u00e9ssica Rayane Corr\u00eaa Silva",
+        "family": "da Fonseca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J\u00falia Di Sabatino Santos",
+        "family": "Guimar\u00e3es",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J\u00falia Drumond Parreiras",
+        "family": "de Morais",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Juliana Machado",
+        "family": "Rugolo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joanna D\u2019arc Lyra",
+        "family": "Batista",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joice Coutinho",
+        "family": "de Alvarenga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jos\u00e9 Miguel",
+        "family": "Chatkin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karen Brasil",
+        "family": "Ruschel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Leila Beltrami",
+        "family": "Moreira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Leonardo Seixas",
+        "family": "de Oliveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Liege Barella",
+        "family": "Zandon\u00e1",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L\u00edlian Santos",
+        "family": "Pinheiro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luanna da Silva",
+        "family": "Monteiro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lucas de Deus",
+        "family": "Sousa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luciane",
+        "family": "Kopittke",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luciano de Souza",
+        "family": "Viana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luis C\u00e9sar",
+        "family": "de Castro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luisa Argolo",
+        "family": "Assis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luisa Elem Almeid",
+        "family": "Santos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M\u00e1derson Alvares de Souza",
+        "family": "Cabral",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Magda Cesar",
+        "family": "Raposo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maiara Anschau",
+        "family": "Floriani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria Ang\u00e9lica Pires",
+        "family": "Ferreira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria Aparecida Camargos",
+        "family": "Bicalho",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mariana Frizzo",
+        "family": "de Godoy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matheus Carvalho Alves",
+        "family": "Nogueira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Meire Pereira",
+        "family": "de Figueiredo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Milton Henriques",
+        "family": "Guimar\u00e3es-J\u00fanior",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M\u00f4nica Aparecida de Paula",
+        "family": "De Sordi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nat\u00e1lia da Cunha Severino",
+        "family": "Sampaio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Neimy Ramos",
+        "family": "de Oliveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pedro Ledic",
+        "family": "Assaf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raquel",
+        "family": "Lutkmeier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Reginaldo Aparecido",
+        "family": "Valacio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Renan Goulart",
+        "family": "Finger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Roberta",
+        "family": "Senger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rochele Mosmann",
+        "family": "Menezes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rufino de Freitas",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saionara Cristina",
+        "family": "Francisco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Silvana Mangeon Mereilles",
+        "family": "Guimar\u00e3es",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Silvia Ferreira",
+        "family": "Ara\u00fajo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Talita Fischer",
+        "family": "Oliveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tatiana",
+        "family": "Kurtz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tatiani Oliveira",
+        "family": "Fereguetti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thainara Concei\u00e7\u00e3o",
+        "family": "de Oliveira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thulio Henrique Oliveira",
+        "family": "Diniz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yara Cristina Neves Marques Barbosa",
+        "family": "Ribeiro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuri Carlotto",
+        "family": "Ramires",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marcos Andr\u00e9",
+        "family": "Gon\u00e7alves",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Milena Soriano",
+        "family": "Marcolino",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-021-00031-0"
+      },
+      {
+        "issue": "9",
+        "key": "2021110508450665000_2021.11.01.21265527v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e040729",
+        "DOI": "10.1136/bmjopen-2020-040729",
+        "article-title": "Clinical risk score to predict in-hospital mortality in COVID-19 patients: a retrospective cohort study",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "BMJ Open [Internet]"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/j.ijid.2021.07.049",
+        "article-title": "ABC2-SPH risk score for in-hospital mortality in COVID-19 patients: development, external validation and comparison with other available scores",
+        "volume": "110",
+        "year": "2021",
+        "journal-title": "International Journal of Infectious Diseases [Internet]"
+      },
+      {
+        "issue": "6",
+        "key": "2021110508450665000_2021.11.01.21265527v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2003498",
+        "DOI": "10.1183/13993003.03498-2020",
+        "article-title": "Systematic evaluation and external validation of 22 prognostic models among hospitalised adults with COVID-19: an observational cohort study",
+        "volume": "56",
+        "year": "2020",
+        "journal-title": "European Respiratory Journal [Internet]"
+      },
+      {
+        "issue": "4",
+        "key": "2021110508450665000_2021.11.01.21265527v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e27275",
+        "DOI": "10.2196/27275",
+        "article-title": "Impact of Big Data Analytics on People\u2019s Health: Overview of Systematic Reviews and Recommendations for Future Studies",
+        "volume": "23",
+        "year": "2021",
+        "journal-title": "Journal of Medical Internet Research"
+      },
+      {
+        "issue": "3",
+        "key": "2021110508450665000_2021.11.01.21265527v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "E156",
+        "DOI": "10.1148/radiol.2020201491",
+        "article-title": "Artificial Intelligence Augmentation of Radiologist Performance in Distinguishing COVID-19 from Pneumonia of Other Origin at Chest CT",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "2",
+        "key": "2021110508450665000_2021.11.01.21265527v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1515/spp-2019-0010",
+        "article-title": "Healthcare Expenditure Prediction with Neighbourhood Variables \u2013 A Random Forest Model",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Statistics, Politics and Policy"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gomes C , Goncalves M , Rocha L , Canuto S. On the Cost-Effectiveness of Stacking of Neural and Non-Neural Methods for Text Classification: Scenarios and Performance Prediction. Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021. 2021;4003\u201314.",
+        "DOI": "10.18653/v1/2021.findings-acl.350"
+      },
+      {
+        "issue": "4",
+        "key": "2021110508450665000_2021.11.01.21265527v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "957",
+        "DOI": "10.1007/s11739-020-02543-5",
+        "article-title": "Mortality risk assessment in Spain and Italy, insights of the HOPE COVID-19 registry",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "Internal and Emergency Medicine"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M14-0698"
+      },
+      {
+        "issue": "3",
+        "key": "2021110508450665000_2021.11.01.21265527v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "102481",
+        "DOI": "10.1016/j.ipm.2020.102481",
+        "article-title": "On the cost-effectiveness of neural and non-neural approaches and representations for text classification: A comprehensive comparative study",
+        "volume": "58",
+        "year": "2021",
+        "journal-title": "Information Processing & Management"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.10337"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "300",
+        "DOI": "10.1016/j.ijid.2021.01.019",
+        "article-title": "Clinical characteristics and outcomes of patients hospitalized with COVID-19 in Brazil: Results from the Brazilian COVID-19 registry",
+        "volume": "107",
+        "year": "2021",
+        "journal-title": "International Journal of Infectious Diseases"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2019.103208"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M18-1376"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.17",
+        "unstructured": "Brabec J , Machlica L. Bad practices in evaluation methodology relevant to class-imbalanced problems. 2018 Dec 4;"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "612",
+        "DOI": "10.1016/j.trac.2016.04.021",
+        "article-title": "Quality performance metrics in multivariate classification methods for qualitative analysis",
+        "volume": "80",
+        "year": "2016",
+        "journal-title": "TrAC Trends in Analytical Chemistry"
+      },
+      {
+        "issue": "4",
+        "key": "2021110508450665000_2021.11.01.21265527v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "102263",
+        "DOI": "10.1016/j.ipm.2020.102263",
+        "article-title": "Extended pre-processing pipeline for text classification: On the role of meta-feature representations, sparsification and selective sampling",
+        "volume": "57",
+        "year": "2020",
+        "journal-title": "Information Processing & Management"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.20",
+        "unstructured": "Vaswani A , Shazeer N , Parmar N , Uszkoreit J , Jones L , Gomez AN , Kaiser L PI . Attention is all you need. Conference on Neural Information Processing System. 2017;"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.21",
+        "unstructured": "Miyato T , Maeda S , Koyama M , Ishii S. Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning. 2017 Apr 12;"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shwartz-Ziv R , Armon A. Tabular Data: Deep Learning is Not All You Need. 2021 Jun 6;",
+        "DOI": "10.1016/j.inffus.2021.11.011"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.23",
+        "unstructured": "Ke G , Meng Q , Finley T , Wang T , Chen W , Ma W , et al. LightGBM: A highly efficient gradient boosting decision tree. Advances in Neural Information Processing Systems. 2017;2017-Decem:3147\u201355."
+      },
+      {
+        "issue": "2",
+        "key": "2021110508450665000_2021.11.01.21265527v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1007/s11634-020-00409-4",
+        "article-title": "A bias-variance analysis of state-of-the-art random forest text classifiers",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "Advances in Data Analysis and Classification"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/07-0539.1"
+      },
+      {
+        "issue": "6",
+        "key": "2021110508450665000_2021.11.01.21265527v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1637",
+        "DOI": "10.1210/clinem/dgab107",
+        "article-title": "Dysnatremia is a Predictor for Morbidity and Mortality in Hospitalized Patients with COVID-19",
+        "volume": "106",
+        "year": "2021",
+        "journal-title": "The Journal of Clinical Endocrinology & Metabolism"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/cc3796"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2215/CJN.06200615"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.29",
+        "unstructured": "Pahal P , Hashmi MF , Sharma S. Chronic Obstructive Pulmonary Disease Compensatory Measures. StatPearls. 2021."
+      },
+      {
+        "issue": "1",
+        "key": "2021110508450665000_2021.11.01.21265527v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1038/s42256-019-0138-9",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.31",
+        "unstructured": "Knight SR , Ho A , Pius R , Buchan I , Carson G , Drake TM , et al. Risk stratification of patients admitted to hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: development and validation of the 4C Mortality Score. BMJ. 2020 Sep 9;m3339."
+      },
+      {
+        "issue": "8",
+        "key": "2021110508450665000_2021.11.01.21265527v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1081",
+        "DOI": "10.1001/jamainternmed.2020.2033",
+        "article-title": "Development and Validation of a Clinical Risk Score to Predict the Occurrence of Critical Illness in Hospitalized Patients With COVID-19",
+        "volume": "180",
+        "year": "2020",
+        "journal-title": "JAMA Internal Medicine"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jamda.2020.05.045"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chowdhury MEH , Rahman T , Khandakar A , Al-Madeed S , Zughaier SM , Doi SAR , et al. An early warning tool for predicting mortality risk of COVID-19 patients using machine learning. 2020 Jul 29;",
+        "DOI": "10.1007/s12559-020-09812-7"
+      },
+      {
+        "issue": "5",
+        "key": "2021110508450665000_2021.11.01.21265527v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1116",
+        "DOI": "10.1111/jgs.17146",
+        "article-title": "COVID-19 is not over and age is not enough: Using frailty for prognostication in hospitalized patients",
+        "volume": "69",
+        "year": "2021",
+        "journal-title": "Journal of the American Geriatrics Society"
+      },
+      {
+        "issue": "8",
+        "key": "2021110508450665000_2021.11.01.21265527v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1962",
+        "DOI": "10.1093/cid/ciaa674",
+        "article-title": "Predictors for Severe COVID-19 Infection",
+        "volume": "71",
+        "year": "2020",
+        "journal-title": "Clinical Infectious Diseases"
+      },
+      {
+        "issue": "1",
+        "key": "2021110508450665000_2021.11.01.21265527v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "2256",
+        "DOI": "10.1038/s41598-021-81444-9",
+        "article-title": "Clinical course of COVID-19 patients needing supplemental oxygen outside the intensive care unit",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "1",
+        "key": "2021110508450665000_2021.11.01.21265527v1.38",
+        "first-page": "e75",
+        "article-title": "The Prognostic Value of Thrombocytopenia in COVID-19 Patients; a Systematic Review and Meta-Analysis",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Archives of academic emergency medicine"
+      },
+      {
+        "issue": "2",
+        "key": "2021110508450665000_2021.11.01.21265527v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1111/all.14496",
+        "article-title": "Clinical, radiological, and laboratory characteristics and risk factors for severity and mortality of 289 hospitalized COVID\u25a119 patients",
+        "volume": "76",
+        "year": "2021",
+        "journal-title": "Allergy"
+      },
+      {
+        "issue": "1",
+        "key": "2021110508450665000_2021.11.01.21265527v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "952",
+        "DOI": "10.1186/s12879-020-05678-0",
+        "article-title": "Temporal changes in laboratory markers of survivors and non-survivors of adult inpatients with COVID-19",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "BMC Infectious Diseases"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0241955"
+      },
+      {
+        "key": "2021110508450665000_2021.11.01.21265527v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2021.1545"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.01.21265527",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:28:48Z",
+      "timestamp": 1768487328000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.11.01.21265527"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2021.11.01.21265527",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

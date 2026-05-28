@@ -1,0 +1,470 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:35:46Z",
+      "timestamp": 1768491346103,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          29
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              29
+            ]
+          ],
+          "date-time": "2020-12-29T00:00:00Z",
+          "timestamp": 1609200000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                  Many RNAs fold into multiple structures at equilibrium. The classical stochastic sampling algorithm can sample secondary structures according to their probabilities in the Boltzmann ensemble, and is widely used. However, this algorithm, consisting of a bottom-up partition function phase followed by a top-down sampling phase, suffers from three limitations: (a) the formulation and implementation of the sampling phase are unnecessarily complicated; (b) the sampling phase repeatedly recalculates many redundant recursions already done during the partition function phase; (c) the partition function runtime scales cubically with the sequence length. These issues prevent stochastic sampling from being used for very long RNAs such as the full genomes of SARS-CoV-2. To address these problems, we first adopt a hypergraph framework under which the sampling algorithm can be greatly simplified. We then present three sampling algorithms under this framework, among which the LazySampling algorithm is the fastest by eliminating redundant work in the sampling phase via on-demand caching. Based on LazySampling, we further replace the cubic-time partition function by a linear-time approximate one, and derive LinearSampling, an end-to-end linear-time sampling algorithm that is orders of magnitude faster than the standard one. For instance, LinearSampling is 176\u00d7 faster (38.9s vs. 1.9h) than Vienna RNAsubopt on the full genome of Ebola virus (18,959\n                  <jats:italic>nt</jats:italic>\n                  ). More importantly, LinearSampling is the first RNA structure sampling algorithm to scale up to the full-genome of SARS-CoV-2 without local window constraints, taking only 69.2 seconds on its reference sequence (29,903\n                  <jats:italic>nt</jats:italic>\n                  ). The resulting sample correlates well with the experimentally-guided structures. On the SARS-CoV-2 genome, LinearSampling finds 23 regions of 15\n                  <jats:italic>nt</jats:italic>\n                  with high accessibilities, which are potential targets for COVID-19 diagnostics and drug design.\n                </jats:p>\n                <jats:p>\n                  See code:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/LinearFold/LinearSampling\">https://github.com/LinearFold/LinearSampling</jats:ext-link>\n                </jats:p>",
+    "DOI": "10.1101/2020.12.29.424617",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2020-12-30T00:10:30Z",
+      "timestamp": 1609287030000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "LazySampling and LinearSampling: Fast Stochastic Sampling of RNA Secondary Structure with Applications to SARS-CoV-2"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "He",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1146-7848",
+        "authenticated-orcid": false,
+        "given": "Liang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7807-5748",
+        "authenticated-orcid": false,
+        "given": "Sizhen",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2907-6557",
+        "authenticated-orcid": false,
+        "given": "David H.",
+        "family": "Mathews",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6444-7045",
+        "authenticated-orcid": false,
+        "given": "Liang",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35103511"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/418222a"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.112.146704"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1016/j.sbi.2014.02.001",
+        "article-title": "New molecular engineering approaches for crystallographic studies of large RNAs",
+        "volume": "26",
+        "year": "2014",
+        "journal-title": "Current Opinion in Structural Biology"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1541",
+        "DOI": "10.1002/wrna.1541",
+        "article-title": "Advances that facilitate the study of large RNA structure and dynamics by nuclear magnetic resonance spectroscopy",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Wiley Interdisciplinary Reviews: RNA"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.REV118.005602"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.77.11.6309"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/9.1.133"
+      },
+      {
+        "issue": "4",
+        "key": "2024080506460245000_2020.12.29.424617v3.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1038/nsmb1226",
+        "article-title": "Potent effect of target structure on microRNA function",
+        "volume": "14",
+        "year": "2007",
+        "journal-title": "Nature Structural & Molecular Biology"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkm920"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt1404"
+      },
+      {
+        "issue": "1",
+        "key": "2024080506460245000_2020.12.29.424617v3.12",
+        "first-page": "1",
+        "article-title": "mRNAs and lncRNAs intrinsically form secondary structures with short end-to-end distances",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bip.360290621"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkg938"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "David H Mathews , Walter N Moss , and Douglas H Turner . Folding and finding RNA secondary structure. Cold Spring Harbor Perspectives in Biology, 2(12), 2010.",
+        "DOI": "10.1101/cshperspect.a003665"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M300714200"
+      },
+      {
+        "issue": "9",
+        "key": "2024080506460245000_2020.12.29.424617v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "813",
+        "DOI": "10.1038/nmeth.1247",
+        "article-title": "mirWIP: microRNA target prediction based on microRNA-containing ribonucleoprotein-enriched transcripts",
+        "volume": "5",
+        "year": "2008",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sbi.2006.05.010"
+      },
+      {
+        "issue": "1",
+        "key": "2024080506460245000_2020.12.29.424617v3.19",
+        "first-page": "1",
+        "article-title": "ViennaRNA package 2.0",
+        "volume": "6",
+        "year": "2011",
+        "journal-title": "Algorithms for Molecular Biology"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.20",
+        "unstructured": "Juraj Michalik . Non-redundant sampling in RNA Bioinformatics. PhD thesis, Universit\u00e9 Paris-Saclay, 2019."
+      },
+      {
+        "issue": "2",
+        "key": "2024080506460245000_2020.12.29.424617v3.21",
+        "first-page": "177",
+        "article-title": "Directed hypergraphs and applications",
+        "volume": "42",
+        "year": "1993",
+        "journal-title": "Discrete Applied Mathematics"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0303-2647(93)90058-K"
+      },
+      {
+        "issue": "Supplement_1",
+        "key": "2024080506460245000_2020.12.29.424617v3.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "i258",
+        "DOI": "10.1093/bioinformatics/btaa460",
+        "article-title": "Linearpartition: linear-time approximation of RNA folding partition function and base-pairing probabilities",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "3",
+        "key": "2024080506460245000_2020.12.29.424617v3.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "584",
+        "DOI": "10.1016/j.molcel.2020.12.041",
+        "article-title": "Comprehensive in vivo secondary structure of the sars-cov-2 genome reveals novel regulatory motifs and mechanisms",
+        "volume": "81",
+        "year": "2021",
+        "journal-title": "Molecular cell"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang Huang and David Chiang . Better k-best parsing. In Proceedings of the Ninth International Workshop on Parsing Technology, pages 53\u201364, 2005.",
+        "DOI": "10.3115/1654494.1654500"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yann Ponty and C\u00e9dric Saule . A combinatorial framework for designing (pseudoknotted) RNA algorithms. In Int\u2019l Workshop on Algorithms in Bioinformatics, 2011.",
+        "DOI": "10.1007/978-3-642-23038-7_22"
+      },
+      {
+        "issue": "14",
+        "key": "2024080506460245000_2020.12.29.424617v3.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "i295",
+        "DOI": "10.1093/bioinformatics/btz375",
+        "article-title": "LinearFold: linear-time approximate RNA folding by 5\u2019-to-3\u2019 dynamic programming and beam search",
+        "volume": "35",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "1-2",
+        "key": "2024080506460245000_2020.12.29.424617v3.28",
+        "first-page": "107",
+        "article-title": "Efficient sampling of RNA secondary structures from the boltzmann ensemble of low-energy",
+        "volume": "56",
+        "year": "2008",
+        "journal-title": "Journal of Mathematical Biology"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jmbi.1999.2700"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0401799101"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.31",
+        "unstructured": "Thomas Cormen , Charles Leiserson , Ron Rivest , and Clifford Stein . Introduction to Algorithms, 3rd edi. MIT Press, 2009."
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1008"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M.F. Sloma and D.H. Mathews . Exact calculation of loop formation probability identifies folding motifs in RNA secondary structures. RNA, 22(12), 2016.",
+        "DOI": "10.1261/rna.053694.115"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkx170"
+      },
+      {
+        "issue": "3",
+        "key": "2024080506460245000_2020.12.29.424617v3.35",
+        "first-page": "439",
+        "article-title": "Nucleic acid sequence design via efficient ensemble defect optimization",
+        "volume": "32",
+        "year": "2010",
+        "journal-title": "Journal of Computational Chemistry"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btk014"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btl024"
+      },
+      {
+        "issue": "1",
+        "key": "2024080506460245000_2020.12.29.424617v3.38",
+        "first-page": "1",
+        "article-title": "Rna accessibility in cubic time",
+        "volume": "6",
+        "year": "2011",
+        "journal-title": "Algorithms for Molecular Biology"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/bs.aivir.2016.08.007"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1261/rna.076141.120"
+      },
+      {
+        "key": "2024080506460245000_2020.12.29.424617v3.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btl246"
+      },
+      {
+        "issue": "9",
+        "key": "2024080506460245000_2020.12.29.424617v3.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1141",
+        "DOI": "10.1038/s41401-020-0485-4",
+        "article-title": "Structural and functional properties of SARS-CoV-2 spike protein: potential antivirus drug development for COVID-19",
+        "volume": "41",
+        "year": "2020",
+        "journal-title": "Acta Pharmacologica Sinica"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.12.29.424617",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:12:04Z",
+      "timestamp": 1768439524000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.12.29.424617"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          29
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2020.12.29.424617",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

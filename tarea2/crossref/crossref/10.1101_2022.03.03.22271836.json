@@ -1,0 +1,532 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:00:35Z",
+      "timestamp": 1768554035103,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          5
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 48,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To use the example of the effect of body mass index (BMI) on COVID-19 susceptibility and severity to illustrate methods to explore potential selection and misclassification bias in Mendelian randomisation (MR) of COVID-19 determinants.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Two-sample MR analysis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Summary statistics from the Genetic Investigation of ANthropometric Traits (GIANT) and COVID-19 Host Genetics Initiative (HGI) consortia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>681,275 participants in GIANT and more than 2.5 million people from the COVID-19 HGI consortia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Exposure</jats:title>\n                  <jats:p>Genetically instrumented BMI.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main outcome measures</jats:title>\n                  <jats:p>Seven case/control definitions for SARS-CoV-2 infection and COVID-19 severity: very severe respiratory confirmed COVID-19 vs not hospitalised COVID-19 (A1) and vs population (those who were never tested, tested negative or had unknown testing status (A2)); hospitalised COVID-19 vs not hospitalised COVID-19 (B1) and vs population (B2); COVID-19 vs lab/self-reported negative (C1) and vs population (C2); and predicted COVID-19 from self-reported symptoms vs predicted or self-reported non-COVID-19 (D1).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    With the exception of A1 comparison, genetically higher BMI was associated with higher odds of COVID-19 in all comparison groups, with odds ratios (OR) ranging from 1.11 (95%CI: 0.94, 1.32) for D1 to 1.57 (95%CI: 1.57 (1.39, 1.78) for A2. As a method to assess selection bias, we found no strong evidence of an effect of COVID-19 on BMI in a \u2018no-relevance\u2019 analysis, in which COVID-19 was considered the exposure, although measured after BMI. We found evidence of genetic correlation between COVID-19 outcomes and potential predictors of selection determined\n                    <jats:italic>a priori</jats:italic>\n                    (smoking, education, and income), which could either indicate selection bias or a causal pathway to infection. Results from multivariable MR adjusting for these predictors of selection yielded similar results to the main analysis, suggesting the latter.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>We have proposed a set of analyses for exploring potential selection and misclassification bias in MR studies of risk factors for SARS-CoV-2 infection and COVID-19 and demonstrated this with an illustrative example. Although selection by socioeconomic position and arelated traits is present, MR results are not substantially affected by selection/misclassification bias in our example. We recommend the methods we demonstrate, and provide detailed analytic code for their use, are used in MR studies assessing risk factors for COVID-19, and other MR studies where such biases are likely in the available data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:sec>\n                    <jats:title>What is already known on this topic</jats:title>\n                    <jats:list list-type=\"simple\">\n                      <jats:list-item>\n                        <jats:label>-</jats:label>\n                        <jats:p>Mendelian randomisation (MR) studies have been conducted to investigate the potential causal relationship between body mass index (BMI) and COVID-19 susceptibility and severity.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:label>-</jats:label>\n                        <jats:p>There are several sources of selection (e.g. when only subgroups with specific characteristics are tested or respond to study questionnaires) and misclassification (e.g. those not tested are assumed not to have COVID-19) that could bias MR studies of risk factors for COVID-19.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:label>-</jats:label>\n                        <jats:p>Previous MR studies have not explored how selection and misclassification bias in the underlying genome-wide association studies could bias MR results.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What this study adds</jats:title>\n                    <jats:list list-type=\"simple\">\n                      <jats:list-item>\n                        <jats:label>-</jats:label>\n                        <jats:p>Using the most recent release of the COVID-19 Host Genetics Initiative data (with data up to June 2021), we demonstrate a potential causal effect of BMI on susceptibility to detected SARS-CoV-2 infection and on severe COVID-19 disease, and that these results are unlikely to be substantially biased due to selection and misclassification.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:label>-</jats:label>\n                        <jats:p>This conclusion is based on no evidence of an effect of COVID-19 on BMI (a \u2018no-relevance control\u2019 study, as BMI was measured before the COVID-19 pandemic) and finding genetic correlation between predictors of selection (e.g. socioeconomic position) and COVID-19 for which multivariable MR supported a role in causing susceptibility to infection.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:label>-</jats:label>\n                        <jats:p>We recommend studies use the set of analyses demonstrated here in future MR studies of COVID-19 risk factors, or other examples where selection bias is likely.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2022.03.03.22271836",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          5
+        ]
+      ],
+      "date-time": "2022-03-05T15:00:11Z",
+      "timestamp": 1646492411000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "The relationship between BMI and COVID-19: exploring misclassification and selection bias in a two-sample Mendelian randomisation study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Gemma L",
+        "family": "Clayton",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ana",
+        "family": "Gon\u00e7alves Soares",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Neil",
+        "family": "Goulding",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2763-4647",
+        "authenticated-orcid": false,
+        "given": "Maria Carolina",
+        "family": "Borges",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6617-0879",
+        "authenticated-orcid": false,
+        "given": "Michael V",
+        "family": "Holmes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "George",
+        "family": "Davey Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kate",
+        "family": "Tilling",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Deborah A",
+        "family": "Lawlor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alice R",
+        "family": "Carter",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2022030718351135000_2022.03.03.22271836v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6397",
+        "DOI": "10.1038/s41467-020-19996-z",
+        "article-title": "Genetic architecture of host proteins involved in SARS-CoV-2 infection",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-03065-y"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyg070"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/hmg/ddu328"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.k601"
+      },
+      {
+        "issue": "3",
+        "key": "2022030718351135000_2022.03.03.22271836v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "691",
+        "DOI": "10.1093/ije/dyy202",
+        "article-title": "Contextualizing selection bias in Mendelian randomization: how bad is it likely to be?",
+        "volume": "48",
+        "year": "2019",
+        "journal-title": "International Journal of Epidemiology"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanderson E , Richardson TG , Hemani G , Davey Smith G. The use of negative control outcomes in Mendelian randomization to detect potential population stratification. International Journal of Epidemiology. 2021.",
+        "DOI": "10.1101/2020.06.01.128264"
+      },
+      {
+        "issue": "R2",
+        "key": "2022030718351135000_2022.03.03.22271836v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "R195",
+        "DOI": "10.1093/hmg/ddy163",
+        "article-title": "Evaluating the potential role of pleiotropy in Mendelian randomization studies",
+        "volume": "27",
+        "year": "2018",
+        "journal-title": "Hum Mol Genet"
+      },
+      {
+        "issue": "1",
+        "key": "2022030718351135000_2022.03.03.22271836v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "3519",
+        "DOI": "10.1038/s41467-020-17117-4",
+        "article-title": "Avoiding dynastic, assortative mating, and population stratification biases in Mendelian randomization through within-family analyses",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dys141"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang Z , Schooling CM , Kwok MK . Credible Mendelian Randomization Studies in the Presence of Selection Bias Using Control Exposures. Frontiers in Genetics. 2021;12(2318).",
+        "DOI": "10.3389/fgene.2021.729326"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0000000000000972"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fernandez-Sanles A , Smith D , Clayton G , Northstone K , Carter A , Millard L , et al. Bias from questionnaire invitation and response in COVID-19 research: an example using ALSPAC [version 1; peer review: 1 approved]. Wellcome Open Research. 2021;6(184).",
+        "DOI": "10.12688/wellcomeopenres.17041.1"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Millard LAC , Fernandez-Sanles A , Carter AR , Hughes R , Tilling K , Morris TP , et al. Exploring selection bias in COVID-19 research: Simulations and prospective analyses of two UK cohort studies. medRxiv. 2021:2021.12.10.21267363.",
+        "DOI": "10.1101/2021.12.10.21267363"
+      },
+      {
+        "issue": "5",
+        "key": "2022030718351135000_2022.03.03.22271836v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e3001242",
+        "DOI": "10.1371/journal.pbio.3001242",
+        "article-title": "Has GWAS lost its status as a paragon of open science?",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "PLOS Biology"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyx206"
+      },
+      {
+        "issue": "3",
+        "key": "2022030718351135000_2022.03.03.22271836v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1003553",
+        "DOI": "10.1371/journal.pmed.1003553",
+        "article-title": "Cardiometabolic risk factors for COVID-19 susceptibility and severity: A Mendelian randomization analysis",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "PLOS Medicine"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.metabol.2021.154732"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2020.586308"
+      },
+      {
+        "issue": "18",
+        "key": "2022030718351135000_2022.03.03.22271836v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1791",
+        "DOI": "10.1161/CIRCULATIONAHA.120.050753",
+        "article-title": "Cardiometabolic Traits, Sepsis, and Severe COVID-19: A Mendelian Randomization Investigation",
+        "volume": "142",
+        "year": "2020",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao M , Wang Q , Piernas C , Astbury NM , Jebb SA , Holmes MV , et al. Associations between body composition, fat distribution and metabolic consequences of excess adiposity with severe COVID-19 outcomes: observational study and Mendelian randomisation analysis. International Journal of Obesity. 2022.",
+        "DOI": "10.1038/s41366-021-01054-3"
+      },
+      {
+        "issue": "1",
+        "key": "2022030718351135000_2022.03.03.22271836v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1186/s12920-021-00887-1",
+        "article-title": "Modifiable lifestyle factors and severe COVID-19 risk: a Mendelian randomisation study",
+        "volume": "14",
+        "year": "2021",
+        "journal-title": "BMC Med Genomics"
+      },
+      {
+        "issue": "1",
+        "key": "2022030718351135000_2022.03.03.22271836v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "7848",
+        "DOI": "10.1038/s41598-021-86757-3",
+        "article-title": "Cardiometabolic risks of SARS-CoV-2 hospitalization using Mendelian Randomization",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep18422"
+      },
+      {
+        "issue": "3",
+        "key": "2022030718351135000_2022.03.03.22271836v1.25",
+        "first-page": "702",
+        "article-title": "Detecting and correcting for bias in Mendelian randomization analyses using Gene-by-Environment interactions",
+        "volume": "48",
+        "year": "2019",
+        "journal-title": "International Journal of Epidemiology"
+      },
+      {
+        "issue": "11",
+        "key": "2022030718351135000_2022.03.03.22271836v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1002972",
+        "DOI": "10.1371/journal.pmed.1002972",
+        "article-title": "Associations of maternal quitting, reducing, and continuing smoking during pregnancy with longitudinal fetal growth: Findings from Mendelian randomization and parental negative control studies",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "PLoS medicine"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skrivankova VW , Richmond RC , Woolf BAR , Davies NM , Swanson SA , VanderWeele TJ , et al. Strengthening the reporting of observational studies in epidemiology using mendelian randomisation (STROBE-MR): explanation and elaboration. BMJ. 2021;375:2233.",
+        "DOI": "10.1136/bmj.n2233"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/hmg/ddy271"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14177"
+      },
+      {
+        "issue": "6",
+        "key": "2022030718351135000_2022.03.03.22271836v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "715",
+        "DOI": "10.1038/s41431-020-0636-6",
+        "article-title": "The COVID-19 Host Genetics Initiative, a global initiative to elucidate the role of host genetic factors in susceptibility and severity of the SARS-CoV-2 virus pandemic",
+        "volume": "28",
+        "author": "COVID-19 Host Genetics Initiative",
+        "year": "2020",
+        "journal-title": "Eur J Hum Genet"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.31",
+        "unstructured": "COVID-19 Host Genetics Initiative. Mapping the human genetic architecture of COVID-19. Nature. 2021."
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.34408"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyv080"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0120758"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0962280210394459"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gepi.21614"
+      },
+      {
+        "issue": "6",
+        "key": "2022030718351135000_2022.03.03.22271836v1.37",
+        "first-page": "1961",
+        "article-title": "Assessing the suitability of summary data for two-sample Mendelian randomization analyses using MR-Egger regression: the role of the I2 statistic",
+        "volume": "45",
+        "year": "2016",
+        "journal-title": "International Journal of Epidemiology"
+      },
+      {
+        "issue": "1",
+        "key": "2022030718351135000_2022.03.03.22271836v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "905",
+        "DOI": "10.1038/s41467-021-21237-w",
+        "article-title": "SARS-CoV-2 antibody prevalence in England following the first peak of the pandemic",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gepi.21965"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3406"
+      },
+      {
+        "issue": "1",
+        "key": "2022030718351135000_2022.03.03.22271836v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "5749",
+        "DOI": "10.1038/s41467-020-19478-2",
+        "article-title": "Collider bias undermines our understanding of COVID-19 disease risk and severity",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanderson E , Davey Smith G , Windmeijer F , Bowden J. An examination of multivariable Mendelian randomization in the single-sample and two-sample summary data settings. Int J Epidemiol. 2018.",
+        "DOI": "10.1101/306209"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwv114"
+      },
+      {
+        "issue": "22",
+        "key": "2022030718351135000_2022.03.03.22271836v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "e022433",
+        "DOI": "10.1161/JAHA.121.022433",
+        "article-title": "Leveraging Genetic Data to Elucidate the Relationship Between COVID-19 and Ischemic Stroke",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "J Am Heart Assoc"
+      },
+      {
+        "issue": "3",
+        "key": "2022030718351135000_2022.03.03.22271836v1.45",
+        "first-page": "396",
+        "volume-title": "Epidemiology",
+        "volume": "28",
+        "year": "2017"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schooling CM , Lopez PM , Yang Z , Zhao JV , Au Yeung SL , Huang JV . Use of Multivariable Mendelian Randomization to Address Biases Due to Competing Risk Before Recruitment. Frontiers in Genetics. 2021;11.",
+        "DOI": "10.3389/fgene.2020.610852"
+      },
+      {
+        "issue": "4",
+        "key": "2022030718351135000_2022.03.03.22271836v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1002/oby.23131",
+        "article-title": "COVID-19 Vaccination and Obesity: Optimism and Challenges",
+        "volume": "29",
+        "year": "2021",
+        "journal-title": "Obesity (Silver Spring, Md)"
+      },
+      {
+        "key": "2022030718351135000_2022.03.03.22271836v1.48"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.03.22271836",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:38:20Z",
+      "timestamp": 1768487900000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.03.03.22271836"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          5
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.1101/2022.03.03.22271836",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

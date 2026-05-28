@@ -1,0 +1,419 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:55:22Z",
+      "timestamp": 1768553722285,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          20
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Several models have been developed to predict mortality in patients with COVID-19 pneumonia, but only few have demonstrated enough discriminatory capacity. Machine-learning(ML) algorithms represent a novel approach for data-driven prediction of clinical outcomes with advantages over statistical modelling. We developed the Piacenza score, a ML-based score, to predict 30-day mortality in patients with COVID-19 pneumonia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    852 patients (mean age 70years, 70%males) were enrolled from February to November 2020. The dataset was randomly splitted into derivation and test. The Piacenza score was obtained through the Na\u00efve Bayes classifier and externally validated on 86 patients. Using a forward-search algorithm the following six features were identified: age; mean corpuscular haemoglobin concentration; PaO\n                    <jats:sup>2</jats:sup>\n                    /FiO\n                    <jats:sup>2</jats:sup>\n                    ratio; temperature; previous stroke; gender. In case one or more of the features are not available for a patient, the model can be re-trained using only the provided features.\n                  </jats:p>\n                  <jats:p>We also compared the Piacenza score with the 4C score and with a Na\u00efve Bayes algorithm with 14 variables chosen a-priori.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The Piacenza score showed an AUC of 0.78(95% CI 0.74-0.84, Brier-score 0.19) in the internal validation cohort and 0.79(95% CI 0.68-0.89, Brier-score 0.16) in the external validation cohort showing a comparable accuracy respect to the 4C score and to the Na\u00efve Bayes model with a-priori chosen features, which achieved an AUC of 0.78(95% CI 0.73-0.83, Brier-score 0.26) and 0.80(95% CI 0.75-0.86, Brier-score 0.17) respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>A personalized ML-based score with a purely data driven features selection is feasible and effective to predict mortality in patients with COVID-19 pneumonia.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.03.16.21253752",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2021-03-20T09:30:15Z",
+      "timestamp": 1616232615000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting clinical outcomes in the Machine Learning era: The Piacenza score a purely data driven approach for mortality prediction in COVID-19 Pneumonia"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Geza",
+        "family": "Halasz",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Michela",
+        "family": "Sperti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matteo",
+        "family": "Villani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Umberto",
+        "family": "Michelucci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Piergiuseppe",
+        "family": "Agostoni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Biagi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luca",
+        "family": "Rossi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Botti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chiara",
+        "family": "Mari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marco",
+        "family": "Maccarini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Filippo",
+        "family": "Pura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Loris",
+        "family": "Roveda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alessia",
+        "family": "Nardecchia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emanuele",
+        "family": "Mottola",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Massimo",
+        "family": "Nolli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elisabetta",
+        "family": "Salvioni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Massimo",
+        "family": "Mapelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marco Agostino",
+        "family": "Deriu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dario",
+        "family": "Piga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Massimo",
+        "family": "Piepoli",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/ccdcw2020.032"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.26147"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3339"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "issue": "1",
+        "key": "2021032208202365000_2021.03.16.21253752v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1038/s41746-021-00383-x",
+        "article-title": "Predicting COVID-19 mortality with electronic medical records",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "issue": "4",
+        "key": "2021032208202365000_2021.03.16.21253752v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/j.dsx.2020.04.012",
+        "article-title": "Artificial Intelligence (AI) applications for COVID-19 pandemic",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "Diabetes Metab Syndr"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.6526"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.00008-2020"
+      },
+      {
+        "issue": "11",
+        "key": "2021032208202365000_2021.03.16.21253752v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1119",
+        "DOI": "10.1016/0167-8655(94)90127-9",
+        "volume": "15",
+        "year": "1994",
+        "journal-title": "Floating search methods in feature selection, Pattern Recognition Letters",
+        "ISSN": "https://id.crossref.org/issn/0167-8655",
+        "issn-type": "print"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.12839.e4"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lfs.2020.117788"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/cclm-2020-0198"
+      },
+      {
+        "issue": "10",
+        "key": "2021032208202365000_2021.03.16.21253752v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e21439",
+        "DOI": "10.2196/21439",
+        "article-title": "Clinical Predictive Models for COVID-19: Systematic Study",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "J Med Internet Res"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "issue": "3",
+        "key": "2021032208202365000_2021.03.16.21253752v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.3390/s21030773",
+        "article-title": "Artificial-Intelligence-Enhanced Mobile System for Cardiovascular Health Management",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Sensors (Basel)"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)32519-8"
+      },
+      {
+        "issue": "11",
+        "key": "2021032208202365000_2021.03.16.21253752v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0239172",
+        "DOI": "10.1371/journal.pone.0239172",
+        "article-title": "Machine learning in predicting respiratory failure in patients with COVID-19 pneumonia-Challenges, strengths, and opportunities in a global health emergency",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "10",
+        "key": "2021032208202365000_2021.03.16.21253752v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e516",
+        "DOI": "10.1016/S2589-7500(20)30217-X",
+        "article-title": "Clinical features of COVID-19 mortality: development and validation of a clinical prediction model",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eng.2020.10.013"
+      },
+      {
+        "key": "2021032208202365000_2021.03.16.21253752v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3339"
+      },
+      {
+        "issue": "3",
+        "key": "2021032208202365000_2021.03.16.21253752v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1111/acem.12876",
+        "article-title": "Prediction of In-hospital Mortality in Emergency Department Patients With Sepsis: A Local Big Data-Driven, Machine Learning Approach",
+        "volume": "23",
+        "year": "2016",
+        "journal-title": "Acad Emerg Med"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.16.21253752",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:10:33Z",
+      "timestamp": 1768486233000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.03.16.21253752"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          20
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2021.03.16.21253752",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/29058",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

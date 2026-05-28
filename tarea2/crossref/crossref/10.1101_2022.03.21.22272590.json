@@ -1,0 +1,372 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:14:48Z",
+      "timestamp": 1768554888400,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The implementation of non-pharmaceutical public health interventions can have simultaneous impacts on pathogen transmission rates as well as host mobility rates. For instance, with SARS-CoV-2, masking can influence host-to-host transmission, while stay-at-home orders can influence mobility. Importantly, variations in transmission rates and mobility patterns can influence pathogen-induced hospitalization rates. This poses a significant challenge for the use of mathematical models of disease dynamics in forecasting the spread of a pathogen; to create accurate forecasts in spatial models of disease spread, we must simultaneously account for time-varying rates of transmission and host movement. In this study, we develop a statistical model-fitting algorithm to estimate dynamic rates of SARS-CoV-2 transmission and host movement from geo-referenced hospitalization data. Using simulated data sets, we then test whether our method can accurately estimate these time-varying rates simultaneously, and how this accuracy is influenced by the spatial population structure. Our model-fitting method relies on a highly parallelized process of grid search and a sliding window technique that allows us to estimate time-varying transmission rates with high accuracy and precision, as well as movement rates with somewhat lower precision. Estimated parameters also had lower precision in more rural data sets, due to lower hospitalization rates (i.e., these areas are less data-rich). This model-fitting routine could easily be generalized to any stochastic, spatially-explicit modeling framework, offering a flexible and efficient method to estimate time-varying parameters from geo-referenced data sets.</jats:p>",
+    "DOI": "10.1101/2022.03.21.22272590",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ],
+      "date-time": "2022-03-22T19:35:14Z",
+      "timestamp": 1647977714000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Sliding Window Approach to Optimize the Time-varying Parameters of a Spatially-explicit and Stochastic Model of COVID-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Saikanth",
+        "family": "Ratnavale",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0612-3648",
+        "authenticated-orcid": false,
+        "given": "Crystal",
+        "family": "Hepp",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5511-1854",
+        "authenticated-orcid": false,
+        "given": "Eck",
+        "family": "Doerry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2320-5773",
+        "authenticated-orcid": false,
+        "given": "Joseph R",
+        "family": "Mihaljevic",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arasu, Arvind , and Gurmeet Singh Manku . 2004. \u201cApproximate Counts and Quantiles over Sliding Windows.\u201d In Proceedings of the Twenty-Third ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, 286\u201396.",
+        "DOI": "10.1145/1055558.1055598"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arias, Jonas E , Jes\u00fas Fern\u00e1ndez-Villaverde , Juan Rubio Rami rez , and Minchul Shin . 2021. \u201cBayesian Estimation of Epidemiological Models: Methods, Causality, and Policy Trade-Offs.\u201d National Bureau of Economic Research.",
+        "DOI": "10.2139/ssrn.3819098"
+      },
+      {
+        "issue": "6",
+        "key": "2022081812100642000_2022.03.21.22272590v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1090/S0002-9904-1954-09848-8",
+        "article-title": "The Theory of Dynamic Programming",
+        "volume": "60",
+        "year": "1954",
+        "journal-title": "Bulletin of the American Mathematical Society"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2006520117"
+      },
+      {
+        "issue": "6",
+        "key": "2022081812100642000_2022.03.21.22272590v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "588",
+        "DOI": "10.1038/s41562-020-0898-6",
+        "article-title": "Social Network-Based Distancing Strategies to Flatten the COVID-19 Curve in a Post-Lockdown World",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "Nature Human Behaviour"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Braverman, Vladimir. 2016. \u201cSliding Window Algorithms.\u201d In Encyclopedia of Algorithms, edited by Ming-Yang Kao , 2006\u201311. New York, NY: Springer New York. https://doi.org/10.1007/978-1-4939-2864-4_797.",
+        "DOI": "10.1007/978-1-4939-2864-4_797"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13662-017-1225-z"
+      },
+      {
+        "issue": "8",
+        "key": "2022081812100642000_2022.03.21.22272590v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006211",
+        "DOI": "10.1371/journal.pcbi.1006211",
+        "article-title": "Accounting for Non-Stationarity in Epidemiology by Embedding Time-Varying Parameters in Stochastic Models",
+        "volume": "14",
+        "year": "2018",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.9",
+        "unstructured": "Center for International Earth Science Information Network - CIESIN - Columbia. 2018. \u201cGridded Population of the World, Version 4 (GPWv4): Population Count, Revision 11.\u201d Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H4JW8BX5."
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aba9757"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mbs.2009.03.002"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/s0097539701398363"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Datar, Mayur , and Rajeev Motwani . 2007. \u201cThe Sliding-Window Computation Model and Results.\u201d In Data Streams: Models and Algorithms, edited by Charu C. Aggarwal , 149\u201367. Boston, MA: Springer US. https://doi.org/10.1007/978-0-387-47534-9_8.",
+        "DOI": "10.1007/978-0-387-47534-9_8"
+      },
+      {
+        "issue": "1949",
+        "key": "2022081812100642000_2022.03.21.22272590v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "20203074",
+        "DOI": "10.1098/rspb.2020.3074",
+        "article-title": "Five Approaches to the Suppression of SARS-CoV-2 Without Intensive Social Distancing",
+        "volume": "288",
+        "year": "2021",
+        "journal-title": "Proceedings of the Royal Society B"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Faro, Simone , and Thierry Lecroq . 2012. \u201cA Multiple Sliding Windows Approach to Speed up String Matching Algorithms.\u201d In International Symposium on Experimental Algorithms, 172\u201383. Springer.",
+        "DOI": "10.1007/978-3-642-30850-5_16"
+      },
+      {
+        "issue": "7",
+        "key": "2022081812100642000_2022.03.21.22272590v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009162",
+        "DOI": "10.1371/journal.pcbi.1009162",
+        "article-title": "Detecting Behavioural Changes in Human Movement to Inform the Spatial Scale of Interventions Against COVID-19",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.17",
+        "unstructured": "Google. 2020. \u201cGoogle COVID-19 Community Mobility Reports.\u201d"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Keeling, Matt J , and Pejman Rohani . 2011. Modeling Infectious Diseases in Humans and Animals. Princeton university press.",
+        "DOI": "10.2307/j.ctvcm4gk0"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.07.004"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.20",
+        "article-title": "Statistical Inference for Partially Observed Markov Processes via the r Package Pomp",
+        "year": "2015",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.21",
+        "article-title": "Grid Search, Random Search, Genetic Algorithm: A Big Comparison for NAS",
+        "year": "2019",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mihaljevic, Joseph R , Seth Borkovec , Saikanth Ratnavale , Toby D Hocking , Kelsey E Banister , Joseph E Eppinger , Crystal M Hepp , and Eck Doerry . 2021. \u201cSPARSEMODr: Rapid Simulations of Spatially Explicit and Stochastic Models of Infectious Disease.\u201d medRxiv.",
+        "DOI": "10.1101/2021.05.13.21256216"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1134695"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2014.07.001"
+      },
+      {
+        "issue": "7880",
+        "key": "2022081812100642000_2022.03.21.22272590v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "338",
+        "DOI": "10.1038/s41586-021-03914-4",
+        "article-title": "Burden and Characteristics of COVID-19 in the United States During 2020",
+        "volume": "598",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "2",
+        "key": "2022081812100642000_2022.03.21.22272590v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1499",
+        "DOI": "10.1007/s40201-020-00565-x",
+        "article-title": "Spatiotemporal Analysis and Hotspots Detection of COVID-19 Using Geographic Information System (March and April, 2020)",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Journal of Environmental Health Science and Engineering"
+      },
+      {
+        "key": "2022081812100642000_2022.03.21.22272590v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shekar, BH , and Guesh Dagnew . 2019. \u201cGrid Search-Based Hyperparameter Tuning and Classification of Microarray Cancer Data.\u201d In 2019 Second International Conference on Advanced Computational and Communication Paradigms (ICACCP), 1\u20138. IEEE.",
+        "DOI": "10.1109/ICACCP.2019.8882943"
+      },
+      {
+        "issue": "2",
+        "key": "2022081812100642000_2022.03.21.22272590v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/S1473-3099(20)30769-6",
+        "article-title": "Estimating the Infection-Fatality Risk of SARS-CoV-2 in New York City During the Spring 2020 Pandemic Wave: A Model-Based Analysis",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "The Lancet Infectious Diseases"
+      },
+      {
+        "issue": "175",
+        "key": "2022081812100642000_2022.03.21.22272590v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200822",
+        "DOI": "10.1098/rsif.2020.0822",
+        "article-title": "Effectiveness of Non-Pharmaceutical Interventions to Contain COVID-19: A Case Study of the 2020 Spring Pandemic Wave in New York City",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "Journal of the Royal Society Interface"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.21.22272590",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:39:48Z",
+      "timestamp": 1768487988000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.03.21.22272590"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1101/2022.03.21.22272590",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pgph.0001058",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

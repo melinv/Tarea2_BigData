@@ -1,0 +1,325 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:05:12Z",
+      "timestamp": 1768565112358,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          4
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:p>There are many studies that require researchers to extract specific information from the published literature, such as details about sequence records or about a randomized control trial. While manual extraction is cost efficient for small studies, larger studies such as systematic reviews are much more costly and time-consuming. To avoid exhaustive manual searches and extraction, and their related cost and effort, natural language processing (NLP) methods can be tailored for the more subtle extraction and decision tasks that typically only humans have performed. The need for such studies that use the published literature as a data source became even more evident as the COVID-19 pandemic raged through the world and millions of sequenced samples were deposited in public repositories such as GI-SAID and GenBank, promising large genomic epidemiology studies, but more often than not lacked many important details that prevented large-scale studies. Thus, granular geographic location or the most basic patient-relevant data such as demographic information, or clinical outcomes were not noted in the sequence record. However, some of these data was indeed published, but in the text, tables, or supplementary material of a corresponding published article. We present here methods to identify relevant journal articles that report having produced and made available in GenBank or GISAID, new SARS-CoV-2 sequences, as those that initially produced and made available the sequences are the most likely articles to include the high-level details about the patients from whom the sequences were obtained. Human annotators validated the approach, creating a gold standard set for training and validation of a machine learning classifier. Identifying these articles is a crucial step to enable future automated informatics pipelines that will apply Machine Learning and Natural Language Processing to identify patient characteristics such as co-morbidities, outcomes, age, gender, and race, enriching SARS-CoV-2 sequence databases with actionable information for defining large genomic epidemiology studies. Thus, enriched patient metadata can enable secondary data analysis, at scale, to uncover associations between the viral genome (including variants of concern and their sublineages), transmission risk, and health outcomes. However, for such enrichment to happen, the right papers need to be found and very detailed data needs to be extracted from them. Further, finding the very specific articles needed for inclusion is a task that also facilitates scoping and systematic reviews, greatly reducing the time needed for full-text analysis and extraction.</jats:p>",
+    "DOI": "10.1101/2023.07.29.23293370",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2023-08-05T00:40:18Z",
+      "timestamp": 1691196018000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Text mining biomedical literature to identify extremely unbalanced data for digital epidemiology and systematic reviews: dataset and methods for a SARS-CoV-2 genomic epidemiology study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8331-3675",
+        "authenticated-orcid": false,
+        "given": "Davy",
+        "family": "Weissenbacher",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Karen",
+        "family": "O\u2019Connor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ari",
+        "family": "Klein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Su",
+        "family": "Golder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ivan",
+        "family": "Flores",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amir",
+        "family": "Elyaderani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5100-9724",
+        "authenticated-orcid": false,
+        "given": "Matthew",
+        "family": "Scotch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6416-9556",
+        "authenticated-orcid": false,
+        "given": "Graciela",
+        "family": "Gonzalez-Hernandez",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Jimenez , T. Lee , N. Rosillo , R. Cordova , I. Cree , A. Gonzalez and B. Indave Ruiz , Machine learning computational tools to assist the performance of systematic reviews: A mapping review, BMC Medical Research Methodology 22 (2022).",
+        "DOI": "10.1186/s12874-022-01805-4"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Wallace , K. Small , C. Brodley , J. Lau and T. Trikalinos , Deploying an interactive machine learning system in an evidence-based practice center: Abstrackr, in Proceedings of the 2nd ACM SIGHIT International Health Informatics Symposium, 2012.",
+        "DOI": "10.1145/2110363.2110464"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.3",
+        "unstructured": "Eppi-reviewer 4: Software for research synthesis (2010), Accessed 28 July 2023."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Ouzzani , H. Hammady , Z. Fedorowicz and A. Elmagarmid , Rayyan\u2014a web and mobile app for systematic reviews, Systematic Reviews 5 (2016).",
+        "DOI": "10.1186/s13643-016-0384-4"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.5",
+        "unstructured": "About variants of the virus that causes covid-19 https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html, (2020)."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.6",
+        "unstructured": "Cryptic transmission of novel coronavirus revealed by genomic epidemiology https://bedford.io/blog/ncov-cryptic-transmission/, (2020), Accessed 28 July 2023."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Scotch , T. Tahsin , D. Weissenbacher , K. O\u2019Connor , A. Magge , M. Vaiente , M. Suchard and G. Gonzalez-Hernandez , Incorporating sampling uncertainty in the geospatial assignment of taxa for virus phylogeography, Virus Evol 5 (2019).",
+        "DOI": "10.1093/ve/vey043"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.8",
+        "unstructured": "A. Magge , D. Weissenbacher , A. Sarker , M. Scotch and G. Gonzalez-Hernandez , Bi-directional recurrent neural network models for geographic location extraction in biomedical literature, in Proceedings of Pac Symp Biocomput, 2019."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.9",
+        "first-page": "D1512",
+        "volume": "51",
+        "year": "2022",
+        "journal-title": "Nucleic Acids Research"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Comeau , R. Islamaj Do\u011fan , P. Ciccarese , K. Cohen , M. Krallinger , F. Leitner , Z. Lu , Y. Peng , F. Rinaldi , M. Torii , A. Valencia , K. Verspoor , T. Wiegers , C. Wu and W. Wilbur , Bioc: a minimalist approach to interoperability for biomedical text processing, Database (Oxford) 2013, p. bat064 (2013).",
+        "DOI": "10.1093/database/bat064"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.11",
+        "unstructured": "J.-C. Klie , M. Bugert , B. Boullosa , R. E. de Castilho and I. Gurevych , The inception platform: Machine-assisted and knowledge-oriented interactive annotation, in Proceedings of the 27th International Conference on Computational Linguistics: System Demonstrations, (Association for Computational Linguistics, 2018). Event Title: The 27th International Conference on Computational Linguistics (COLING 2018)."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1007/s10579-005-7880-9",
+        "article-title": "Annotating expressions of opinions and emotions in language",
+        "volume": "39",
+        "year": "2005",
+        "journal-title": "Language Res Eval"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.13",
+        "first-page": "276",
+        "article-title": "Interrater reliability: the kappa statistic",
+        "volume": "22",
+        "year": "2012",
+        "journal-title": "Biochem Med (Zagreb)"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. H. Fern\u00e1ndez , S. L. Garc\u00eda , M. Galar , R. C. Prati , B. Krawczyk and F. Herrera , Learning from Imbalanced Data Sets (Springer International Publishing, 2018).",
+        "DOI": "10.1007/978-3-319-98074-4"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1108/eb046814",
+        "article-title": "An algorithm for suffix stripping",
+        "volume": "14",
+        "year": "1980",
+        "journal-title": "Program:electronic library and information systems"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.16",
+        "unstructured": "J. Devlin , M. Chang , K. Lee and K. Toutanova , BERT: pre-training of deep bidirectional transformers for language understanding, in Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT, eds. J. Burstein , C. Doran and T. Solorio (Association for Computational Linguistics, 2019)."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Reimers and I. Gurevych , Sentence-bert: Sentence embeddings using siamese bert-networks, in Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing, (Association for Computational Linguistics, 11 2019).",
+        "DOI": "10.18653/v1/D19-1410"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Settles , Active Learning (Morgan & Claypool Publisher, 2012). Synthesis Lectures on Artificial Intelligence and Machine Learning.",
+        "DOI": "10.1007/978-3-031-01560-1"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U. Aggarwal , A. Popescu and C. Hudelot , Active learning for imbalanced datasets, in Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV), 2020.",
+        "DOI": "10.1109/WACV45572.2020.9093475"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Tawfik , K. Dila , M. Mohamed , D. Tam , N. Kien , A. Ahmed and N. Huy , A step by step guide for conducting a systematic review and meta-analysis with simulation data, Trop Med Health 47 (2019).",
+        "DOI": "10.1186/s41182-019-0165-6"
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.21",
+        "unstructured": "https://openai.com/blog/chatgpt, Accessed 21 July 2023."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.22",
+        "unstructured": "L. Ouyang , J. Wu , X. Jiang et al., Training language models to follow instructions with human feedback, in Proceedings of Advances in Neural Information Processing Systems, 2022."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.23",
+        "unstructured": "https://help.openai.com/en/articles/7127966-what-is-the-difference-between-the-gpt-4-models, Accessed 21 July 2023."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.24",
+        "unstructured": "B. Workshop et al., Bloom: A 176b-parameter open-access multilingual language model (2023)."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.25",
+        "unstructured": "T. Brown , B. Mann , N. Ryder et al., Language models are few-shot learners, in Proceedings of Advances in Neural Information Processing Systems, eds. H. Larochelle , M. Ranzato , R. Hadsell , M. Balcan and H. Lin (Curran Associates, Inc., 2020)."
+      },
+      {
+        "key": "2023080704300730000_2023.07.29.23293370v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-05881-4"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.29.23293370",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:38:09Z",
+      "timestamp": 1768505889000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.07.29.23293370"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          4
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2023.07.29.23293370",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

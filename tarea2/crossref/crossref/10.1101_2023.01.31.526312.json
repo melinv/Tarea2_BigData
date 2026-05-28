@@ -1,0 +1,752 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:21:32Z",
+      "timestamp": 1768504892542,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          31
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 86,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The advent of single-cell multi-omics sequencing technology makes it possible for re-searchers to leverage multiple modalities for individual cells and explore cell heterogeneity. However, the high dimensional, discrete, and sparse nature of the data make the downstream analysis particularly challenging. Most of the existing computational methods for single-cell data analysis are either limited to single modality or lack flexibility and interpretability. In this study, we propose an interpretable deep learning method called multi-omic embedded topic model (moETM) to effectively perform integrative analysis of high-dimensional single-cell multimodal data. moETM integrates multiple omics data via a product-of-experts in the encoder for efficient variational inference and then employs multiple linear decoders to learn the multi-omic signatures of the gene regulatory programs. Through comprehensive experiments on public single-cell transcriptome and chromatin accessibility data (i.e., scRNA+scATAC), as well as scRNA and proteomic data (i.e., CITE-seq), moETM demonstrates superior performance compared with six state-of-the-art single-cell data analysis methods on seven publicly available datasets. By applying moETM to the scRNA+scATAC data in human bone marrow mononuclear cells (BMMCs), we identified sequence motifs corresponding to the transcription factors that regulate immune gene signatures. Applying moETM analysis to CITE-seq data from the COVID-19 patients revealed not only known immune cell-type-specific signatures but also composite multi-omic biomarkers of critical conditions due to COVID-19, thus providing insights from both biological and clinical perspectives.</jats:p>",
+    "DOI": "10.1101/2023.01.31.526312",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2023-01-31T21:51:21Z",
+      "timestamp": 1675201881000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Single-cell multi-omic topic embedding reveals cell-type-specific and COVID-19 severity-related immune signatures"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Manqi",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Hao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zilong",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dylan",
+        "family": "Mann-Krzisnik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3844-4865",
+        "authenticated-orcid": false,
+        "given": "Yue",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14590"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.1038/nmeth.4380",
+        "article-title": "Simultaneous epitope and transcriptome measurement in single cells",
+        "volume": "14",
+        "year": "2017",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-020-1935-5"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1202",
+        "DOI": "10.1038/s41587-021-00895-7",
+        "article-title": "Computational principles and challenges in single-cell data integration",
+        "volume": "39",
+        "year": "2021",
+        "journal-title": "Nature biotechnology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab706"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1038/s41592-020-01050-x",
+        "article-title": "Joint probabilistic modeling of single-cell multi-omic data with totalvi",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ashuach, T. , Gabitto, M. I. , Jordan, M. I. & Yosef, N. Multivi: deep generative model for the integration of multi-modal data. bioRxiv (2021).",
+        "DOI": "10.1101/2021.08.20.457057"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-020-02238-2"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Minoura, K. , Abe, K. , Nam, H. , Nishikawa, H. & Shimamura, T. scmm: Mixture-of-experts multimodal deep generative model for single-cell multiomics data analysis. bioRxiv (2021).",
+        "DOI": "10.1101/2021.02.18.431907"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lotfollahi, M. , Litinetskaya, A. & Theis, F. J. Multigrate: single-cell multi-omic data integration. bioRxiv (2022).",
+        "DOI": "10.1101/2022.03.16.484643"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-020-1935-5"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.04.048"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.13",
+        "unstructured": "Kingma, D. P. & Welling, M. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114 (2013)."
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.14",
+        "unstructured": "Wu, M. & Goodman, N . Multimodal generative models for scalable weakly-supervised learning. Advances in Neural Information Processing Systems 31 (2018)."
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.15",
+        "first-page": "1",
+        "article-title": "Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, K. E. , Yost, K. E. , Chang, H. Y. & Zou, J . Babel enables cross-modality translation between multiomic profiles at single-cell resolution. Proceedings of the National Academy of Sciences 118, e2023070118 (2021).",
+        "DOI": "10.1073/pnas.2023070118"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1007/BF01908075",
+        "article-title": "Comparing partitions",
+        "volume": "2",
+        "year": "1985",
+        "journal-title": "Journal of classification"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danon, L. , Diaz-Guilera, A. , Duch, J. & Arenas, A . Comparing community structure identification. Journal of statistical mechanics: Theory and experiment 2005, P09008 (2005).",
+        "DOI": "10.1088/1742-5468/2005/09/P09008"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1038/s41592-018-0254-1",
+        "article-title": "A test metric for assessing single-cell rna-seq batch correction",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1038/s41592-021-01336-8",
+        "article-title": "Benchmarking atlas-level data integration in single-cell genomics",
+        "volume": "19",
+        "year": "2022",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McInnes, L. , Healy, J. & Melville, J. Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426 (2018).",
+        "DOI": "10.21105/joss.00861"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-018-0290-x"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1097",
+        "DOI": "10.1038/s41592-022-01595-z",
+        "article-title": "Mira: Joint regulatory modeling of multimodal expression and chromatin accessibility in single cells",
+        "volume": "19",
+        "year": "2022",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.09.056"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2016.03.014"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jayapal, K. P. et al. Uncovering genes with divergent mrna-protein dynamics in streptomyces coelicolor. PloS one 3, e2097 (2008).",
+        "DOI": "10.1371/journal.pone.0002097"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "560",
+        "DOI": "10.2174/1389202921999200716103758",
+        "article-title": "Discrepant mrna and protein expression in immune cells",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "Current Genomics"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koussounadis, A. , Langdon, S. P. , Um, I. H. , Harrison, D. J. & Smith, V. A . Relationship between differentially expressed mrna and mrna-protein correlations in a xenograft model system. Scientific reports 5, 10775 (2015).",
+        "DOI": "10.1038/srep10775"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Radulovic, K. & Niess, J. H . Cd69 is the crucial regulator of intestinal inflammation: a new target molecule for ibd treatment? Journal of immunology research 2015 (2015).",
+        "DOI": "10.1155/2015/497056"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky900"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.31",
+        "first-page": "1",
+        "article-title": "S100a8 & s100a9: Alarmin mediated inflammation in tendinopathy",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1298",
+        "DOI": "10.3389/fimmu.2018.01298",
+        "article-title": "S100a8/a9 in inflammation",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M116.750018"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1761",
+        "DOI": "10.3389/fimmu.2019.01761",
+        "article-title": "A novel, five-marker alternative to cd16\u2013cd14 gating to identify the three human monocyte subsets",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2002476117"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1405",
+        "DOI": "10.4049/jimmunol.1700148",
+        "article-title": "Human monocyte subsets are transcriptionally and functionally altered in aging in response to pattern recognition receptor agonists",
+        "volume": "199",
+        "year": "2017",
+        "journal-title": "The Journal of Immunology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0506580102"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng1180"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1016/j.immuni.2015.12.006",
+        "article-title": "Compendium of immune signatures identifies conserved and species-specific biology in response to inflammation",
+        "volume": "44",
+        "year": "2016",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1016/j.cels.2015.12.004",
+        "article-title": "The molecular signatures database hallmark gene set collection",
+        "volume": "1",
+        "year": "2015",
+        "journal-title": "Cell systems"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr260"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.2067"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fr\u00f6hlich, A. et al. Comprehensive analysis of tumor necrosis factor receptor tnfrsf9 (4-1bb) dna methylation with regard to molecular and clinicopathological features, immune infiltrates, and response prediction to immunotherapy in melanoma. EBioMedicine 52, 102647 (2020).",
+        "DOI": "10.1016/j.ebiom.2020.102647"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "2710",
+        "DOI": "10.3390/ijms20112710",
+        "article-title": "Dual-specificity phosphatases in immunity and infection: an update",
+        "volume": "20",
+        "year": "2019",
+        "journal-title": "International journal of molecular sciences"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cari, L. , Nocentini, G. , Migliorati, G. & Riccardi, C . Potential effect of tumor-specific treg-targeted antibodies in the treatment of human cancers: A bioinformatics analysis. Oncoimmunology 7, e1387705 (2018).",
+        "DOI": "10.1080/2162402X.2017.1387705"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cyto.2014.11.010"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0409720102"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41423-020-0486-8"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Puiffe, M.-L. et al. Il4i1 accelerates the expansion of effector cd8+ t cells at the expense of memory precursors by increasing the threshold of t-cell activation. Frontiers in immunology 11, 600012 (2020).",
+        "DOI": "10.3389/fimmu.2020.600012"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haim-Vilmovsky, L. et al. Mapping rora expression in resting and activated cd4+ t cells. PloS one 16, e0251233 (2021).",
+        "DOI": "10.1371/journal.pone.0251233"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2007.12.015"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.1038/sj.gene.6364173",
+        "article-title": "Immune response in silico (iris): immune-specific genes identified from a compendium of microarray expression data",
+        "volume": "6",
+        "year": "2005",
+        "journal-title": "Genes & Immunity"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1105136"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Consortium, E. P . A user\u2019s guide to the encyclopedia of dna elements (encode). PLoS biology 9, e1001046 (2011).",
+        "DOI": "10.1371/journal.pbio.1001046"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1043"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "890",
+        "DOI": "10.4049/jimmunol.182.2.890",
+        "article-title": "Resting human memory b cells are intrinsically programmed for enhanced survival and responsiveness to diverse stimuli compared to naive b cells",
+        "volume": "182",
+        "year": "2009",
+        "journal-title": "The Journal of Immunology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01329-2"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "1646",
+        "DOI": "10.1111/j.1538-7836.2012.04797.x",
+        "article-title": "Contribution of platelet vs. endothelial vwf to platelet adhesion and hemostasis",
+        "volume": "10",
+        "year": "2012",
+        "journal-title": "Journal of Thrombosis and Haemostasis"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv1189"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1600557113"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bonuomo, V. et al. Covid-19 (sars-cov-2 infection) in lymphoma patients: A review. World Journal of Virology 10, 312 (2021).",
+        "DOI": "10.5501/wjv.v10.i6.312"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1038/s41577-021-00553-8",
+        "article-title": "Is il-6 a key cytokine target for therapy in covid-19?",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Nature Reviews Immunology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879-021-05950-x"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boyd, S. D. , Natkunam, Y. , Allen, J. R. & Warnke, R. A . Selective immunophenotyping for diagnosis of b-cell neoplasms: immunohistochemistry and flow cytometry strategies and results. Applied immunohistochemistry & molecular morphology: AIMM/official publication of the Society for Applied Immunohistochemistry 21, 116 (2013).",
+        "DOI": "10.1097/PAI.0b013e31825d550a"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1038-6"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.66",
+        "doi-asserted-by": "crossref",
+        "first-page": "463",
+        "DOI": "10.2174/1389203717666151201192124",
+        "article-title": "The structure-function relationships of complement receptor type 2 (cr2; cd21)",
+        "volume": "17",
+        "year": "2016",
+        "journal-title": "Current Protein and Peptide Science"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.67",
+        "first-page": "1",
+        "article-title": "Cd19: a biomarker for b cell development, lymphoma diagnosis and therapy",
+        "volume": "1",
+        "year": "2012",
+        "journal-title": "Experimental hematology & oncology"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eji.201041119"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/JIMMUNOL.181.3.1644"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wen, H. et al. Graph neural networks for multimodal single-cell data integration. In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, KDD \u201922, 4153\u20134163 (Association for Computing Machinery, New York, NY, USA, 2022). URL https://doi.org/10.1145/3534678.3539213.",
+        "DOI": "10.1145/3534678.3539213"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao, Z.-J. & Gao, G . Multi-omics single-cell data integration and regulatory inference with graph-linked embedding. Nature Biotechnology 1\u20139 (2022).",
+        "DOI": "10.1038/s41587-022-01284-4"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.72",
+        "first-page": "1",
+        "article-title": "scgnn is a novel graph neural network framework for single-cell rna-seq analyses",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Devlin, J. , Chang, M. , Lee, K. & Toutanova, K. BERT: pre-training of deep bidirectional transformers for language understanding. In Burstein, J., Doran, C. & Solorio, T. (eds.) Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA, June 2-7, 2019, Volume 1 (Long and Short Pa-pers), 4171\u20134186 (Association for Computational Linguistics, 2019). URL https://doi.org/10.18653/v1/n19-1423.",
+        "DOI": "10.18653/v1/N19-1423"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "852",
+        "DOI": "10.1038/s42256-022-00534-z",
+        "article-title": "scbert as a large-scale pretrained deep language model for cell type annotation of single-cell rna-seq data",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.75",
+        "doi-asserted-by": "crossref",
+        "first-page": "2112",
+        "DOI": "10.1093/bioinformatics/btab083",
+        "article-title": "Dnabert: pre-trained bidirectional encoder rep-resentations from transformers model for dna-language in genome",
+        "volume": "37",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.76",
+        "doi-asserted-by": "crossref",
+        "first-page": "1196",
+        "DOI": "10.1038/s41592-021-01252-x",
+        "article-title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+        "volume": "18",
+        "author": "Avsec, \u017d., et al.",
+        "year": "2021",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.77",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1023/A:1007665907178",
+        "article-title": "An introduction to variational methods for graphical models",
+        "volume": "37",
+        "year": "1999",
+        "journal-title": "Machine learning"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.78",
+        "unstructured": "Luecken, M. D. et al. A sandbox for prediction and integration of dna, rna, and proteins in single cells. In NeurIPS 2021 Datasets and Benchmarks Track (Round 2) (2021)."
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aau0730"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-017-1381-1"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.81",
+        "first-page": "4635",
+        "article-title": "Adjusting for chance clustering comparison measures",
+        "volume": "17",
+        "year": "2016",
+        "journal-title": "The Journal of Machine Learning Research"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lawrence, M. et al. Software for computing and annotating genomic ranges. PLoS computational biology 9, e1003118 (2013).",
+        "DOI": "10.1371/journal.pcbi.1003118"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bailey, T. L. & Grant, C. E. Sea: Simple enrichment analysis of motifs. bioRxiv (2021).",
+        "DOI": "10.1101/2021.08.23.457422"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv416"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab203%J"
+      },
+      {
+        "key": "2023060309250500000_2023.01.31.526312v2.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkx1106"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.31.526312",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:12:30Z",
+      "timestamp": 1768450350000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.31.526312"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          31
+        ]
+      ]
+    },
+    "references-count": 86,
+    "URL": "https://doi.org/10.1101/2023.01.31.526312",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.crmeth.2023.100563",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

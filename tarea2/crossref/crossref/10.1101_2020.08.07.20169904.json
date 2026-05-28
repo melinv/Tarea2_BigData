@@ -1,0 +1,133 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:31:53Z",
+      "timestamp": 1768548713937,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 0,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Early CoVID-19 growth obeys: N{t*}=N/I\\ exp[+K/o\\ t*], with K/o\\ = [(ln 2) / (t/dbl\\)], where t/dbl\\ is the pandemic growth doubling time.  Given N{t*}, the daily number of new CoVID-19 cases is \u03c1{t*}=dN{t*}/dt*.  Implementing society-wide Social Distancing increases the t/dbl\\ doubling time, and a linear function of time for t/dbl\\ was used in our Initial Model:\nN/o\\[t] = 1 exp[+K/A\\ t / (1 + \u03b3/o\\ t) ] = exp(+G/o\\) exp( - Z/o\\[t] ) ,\nto describe these changes, with G/o\\ = [K/A\\ / \u03b3/o\\].  However, this equation could not easily model some quickly decreasing \u03c1[t] cases, indicating that a second Social Distancing process was involved.  This second process is most evident in the initial CoVID-19 data from China, South Korea, and Italy.  The Italy data is analyzed here in detail as representative of this second process.  Modifying Z/o\\[t] to allow exponential cutoffs:\n    Z/E\\[t] = +[G/o\\ / (1 + \u03b3/o\\ t) ] [exp( - \u03b4/o\\ t - q/o\\ t^2 ] = Z/o\\[t] [exp( - \u03b4/o\\ t - q/o\\ t^2 ] ,\nprovides a new Enhanced Initial Model (EIM), which significantly improves datafits, where N/E\\[t] = exp(+G/o\\) exp( - Z/E\\[t] ).  Since large variations are present in \u03c1/data\\[t], these models were generalized into an orthogonal function series, to provide additional data fitting parameters:\nN(Z) = Sum{m = (0, M/F\\)} g/m\\ L/m\\(Z) exp[-Z].\nIts first term can give N/o\\[t] or N/E\\[t], for Z=Z/o\\[t] or Z=Z/E\\[t].  The L/m\\(Z) are Laguerre Polynomials, with L/0\\(Z)=1, and {g/m\\; m= (0, M/F\\)} are constants derived from each dataset.  When \u03c1[t]=dN[t]/dt gradually decreases, using Z/o\\[t] provided good datafits at small M/F\\ values, but was inadequate if \u03c1[t] decreased faster.  For those cases, Z/E\\[t] was used in the above N(Z) series to give the most general Enhanced Orthogonal Function [EOF] model developed here.  Even with M/F\\=0 and q/o\\=0, this EOF model fit the Italy CoVID-19 data for \u03c1[t] = dN[t]/dt fairly well.  When the \u03c1[t] post-peak behavior is not Gaussian, then Z/E\\[t] with \u03b4/o\\\u22600, q/o\\=0; which we call Z/A\\[t], is also likely to be a sufficient extension of the Z/o\\[t] model.  The EOF model also can model a gradually decreasing \u03c1[t] tail using small {\u03b4/o\\, q/o\\} values [with 6 Figures].</jats:p>",
+    "DOI": "10.1101/2020.08.07.20169904",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2020-08-11T18:28:52Z",
+      "timestamp": 1597170532000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Model to Describe Fast Shutoff of CoVID-19 Pandemic Spread"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2044-3461",
+        "authenticated-orcid": false,
+        "given": "Genghmun",
+        "family": "Eng",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.07.20169904",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:50:50Z",
+      "timestamp": 1768485050000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.08.07.20169904"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/2020.08.07.20169904",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

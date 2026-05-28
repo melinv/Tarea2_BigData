@@ -1,0 +1,552 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2026-04-28T19:05:44Z",
+      "timestamp": 1777403144714,
+      "version": "3.51.4"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          4
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              4
+            ]
+          ],
+          "date-time": "2025-06-04T00:00:00Z",
+          "timestamp": 1748995200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "id": [
+          {
+            "id": "https://ror.org/00knt4f32",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100023581",
+        "name": "NSF GRFP",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "#DGE-2146755"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "#DGE-2146755"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100023581",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Modern biology increasingly relies on complex, high dimensional datasets such as single-cell RNA sequencing (scRNA-seq). However, the richness of such data means that conventional analyses may only scratch its surface. Extracting meaningful insights from these datasets often requires advanced computational methods and domain expertise. Current AI agents for biology are primarily focused on executing user-specified commands and are therefore limited by the user\u2019s creativity and familiarity with which kinds of analyses are useful. Furthermore, these agents do not account for prior analyses already attempted by researchers, reducing their ability to build upon existing work. To address these limitations, we introduce CellVoyager, an AI agent that autonomously explores scRNA-seq datasets in novel directions conditioned on prior user-ran analyses. Built on large language models, CellVoyager ingests both the dataset and a record of prior analyses to generate and test new hypotheses within a Jupyter notebook environment. We evaluate CellVoyager on CellBench, a new benchmark based on 50 published scRNA-seq studies encompassing 483 analyses. Given only the background sections of these papers, CellVoyager outperformed GPT-4o and o3-mini by up to 20% in predicting which analyses the authors eventually conducted. We then carried out three in-depth case studies where CellVoyager is given previously published papers with their scRNA-seq datasets and conducts analyses to generate new findings. The original authors of each study evaluated these findings and consistently rated them as creative and sound; 80% of the agent\u2019s hypotheses were deemed scientifically interesting. For example, in one case study, the agent found that CD8\n                  <jats:sup>+</jats:sup>\n                  T cells in COVID-19 infection are more primed for pyroptosis, which was not explored by the original researchers. CellVoyager also reanalyzed a brain aging dataset to discover a previously unreported association between increased transcriptional noise and aging in the subventricular zone of the brain. These results demonstrate that CellVoyager can act both autonomously and collaboratively to accelerate hypothesis generation and computational biology. It also highlights the potential of agents like CellVoyager to unlock new biological insights by reanalyzing the vast existing biological data at scale.\n                </jats:p>",
+    "DOI": "10.1101/2025.06.03.657517",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2025-06-05T00:10:12Z",
+      "timestamp": 1749082212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Samuel",
+        "family": "Alber",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Stanford University"
+          }
+        ]
+      },
+      {
+        "given": "Bowen",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Data Science, Stanford University"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Data Science, Stanford University"
+          },
+          {
+            "name": "Department of Genetics, Stanford University"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1113-6889",
+        "authenticated-orcid": false,
+        "given": "Alina",
+        "family": "Isakova",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Phil and Penny Knight Initiative for Brain Resilience, Stanford University"
+          }
+        ]
+      },
+      {
+        "given": "Aaron J.",
+        "family": "Wilk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medicine, Stanford University"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Zou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Stanford University"
+          },
+          {
+            "name": "Department of Biomedical Data Science, Stanford University"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-08831-9"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bies.201900221"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reza Averly , Frazier N Baker , and Xia Ning . Liddia: Language-based intelligent drug discovery agent. arXiv preprint arXiv:2502.13959, 2025.",
+        "DOI": "10.18653/v1/2025.emnlp-main.603"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04844"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0591-3"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Garyk Brixi , Matthew G Durrant , Jerome Ku , Michael Poli , Greg Brockman , Daniel Chang , Gabriel A Gonzalez , Samuel H King , David B Li , Aditi T Merchant , et al. Genome modeling and design across all domains of life with evo 2. BioRxiv, pages 2025\u201302, 2025.",
+        "DOI": "10.1101/2025.02.18.638918"
+      },
+      {
+        "issue": "1",
+        "key": "2026041201070550000_2025.06.03.657517v1.7",
+        "first-page": "121",
+        "article-title": "Cell-type-specific aging clocks to quantify aging and rejuvenation in neurogenic regions of the brain",
+        "volume": "3",
+        "year": "2023",
+        "journal-title": "Nature Aging"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3102"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4096"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.10",
+        "unstructured": "Albi Celaj , Alice Jiexin Gao , Tammy TY Lau , Erle M Holgersen , Alston Lo , Varun Lodaya , Christopher B Cole , Robert E Denroche , Carl Spickett , Omar Wagih , et al. An rna foundation model enables discovery of disease mechanisms and candidate therapeutics. BioRxiv, pages 2023\u201309, 2023."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yiqun Chen and James Zou . Genept: a simple but effective foundation model for genes and cells built from chatgpt. bioRxiv, pages 2023\u201310, 2024.",
+        "DOI": "10.1101/2023.10.16.562533"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luojia Deng , Yijie Wu , Yongyong Ren , and Hui Lu . Autonomous self-evolving research on biomedical data: The dream paradigm. Advanced Science, page 2417066, 2025.",
+        "DOI": "10.1002/advs.202417066"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2017.09.004"
+      },
+      {
+        "issue": "1",
+        "key": "2026041201070550000_2025.06.03.657517v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1038/s41420-021-00428-w",
+        "article-title": "Sars-cov-2 engages inflammasome and pyroptosis in human primary monocytes",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "Cell death discovery"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.15",
+        "unstructured": "Juraj Gottweis , Wei-Hung Weng , Alexander Daryin , Tao Tu , Anil Palepu , Petar Sirkovic , Artiom Myaskovsky , Felix Weissenberger , Keran Rong , Ryutaro Tanno , et al. Towards an ai co-scientist. arXiv preprint arXiv:2502.18864, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3458754"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.17",
+        "unstructured": "Daya Guo , Qihao Zhu , Dejian Yang , Zhenda Xie , Kai Dong , Wentao Zhang , Guanting Chen , Xiao Bi , Yu Wu , YK Li , et al. Deepseek-coder: When the large language model meets programming\u2013the rise of code intelligence. arXiv preprint arXiv:2401.14196, 2024."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.18",
+        "unstructured": "Kexin Huang , Ying Jin , Ryan Li , Michael Y Li , Emmanuel Cand\u00e8s , and Jure Leskovec . Automated hypothesis validation with agentic sequential falsifications. arXiv preprint arXiv:2502.09858, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.80380"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.20",
+        "unstructured": "Carlos E. Jimenez , John Yang , Alexander Wettig , Shunyu Yao , Kexin Pei , Ofir Press , and Karthik Narasimhan . Swe-bench: Can language models resolve real-world github issues?, 2024."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04702-4"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.22",
+        "unstructured": "Lennart Justen . Llms outperform experts on challenging biology benchmarks. arXiv preprint arXiv:2505.06108, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.253880.119"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-020-1935-5"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41368-021-00146-0"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.27",
+        "unstructured": "Haoyang Liu , Shuyu Chen , Ye Zhang , and Haohan Wang . Genotex: An llm agent benchmark for automated gene expression data analysis, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.28",
+        "unstructured": "Yujie Liu , Zonglin Yang , Tong Xie , Jinjie Ni , Ben Gao , Yuqiang Li , Shixiang Tang , Wanli Ouyang , Erik Cambria , and Dongzhan Zhou . Researchbench: Benchmarking llms in scientific discovery via inspiration-based task decomposition. arXiv preprint arXiv:2503.21248, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-018-0229-2"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-07618-3"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.31",
+        "unstructured": "Pan Lu , Bowen Chen , Sheng Liu , Rahul Thapa , Joseph Boen , and James Zou . Octo-tools: An agentic framework with extensible tools for complex reasoning. arXiv preprint arXiv:2502.11271, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.32",
+        "unstructured": "Ziming Luo , Zonglin Yang , Zexin Xu , Wei Yang , and Xinya Du . Llm4sr: A survey on large language models for scientific research. arXiv preprint arXiv:2501.04306, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.07.036"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vijayaraj Nagarajan , Guangpu Shi , Samyuktha Arunkumar , Chunhong Liu , Jaanam Gopalakrishnan , Pulak R Nath , Junseok Jang , and Rachel Caspi . Scassist: An ai based workflow assistant for single-cell analysis. bioRxiv, pages 2025\u201304, 2025.",
+        "DOI": "10.1101/2025.04.22.650107"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ado9336"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/hsz-2018-0449"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03634-9"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.01.053"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.39",
+        "unstructured": "Yusuf Roohani , Andrew Lee , Qian Huang , Jian Vora , Zachary Steinhart , Kexin Huang , Alexander Marson , Percy Liang , and Jure Leskovec . Biodiscoveryagent: An ai agent for designing genetic perturbation experiments. arXiv preprint arXiv:2405.17631, 2024."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04802-1"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01329-2"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-024-55568-7"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2024.12.007"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.arr.2020.101156"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-023-01733-8"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hanchen Wang , Yichun He , Paula P. Coelho , Matthew Bucci , Abbas Nazir , Bob Chen , Linh Trinh , Serena Zhang , Kexin Huang , Vineethkrishna Chandrasekar , Douglas C. Chung , Minsheng Hao , Ana Carolina Leote , Yongju Lee , Bo Li , Tianyu Liu , Jin Liu , Romain Lopez , Tawaun Lucas , Mingyu Ma , Nikita Makarov , Lisa McGinnis , Linna Peng , Stephen Ra , Gabriele Scalia , Avtar Singh , Liming Tao , Masatoshi Uehara , Chenyu Wang , Runmin Wei , Ryan Copping , Orit Rozenblatt-Rosen , Jure Leskovec , and Aviv Regev . Spatialagent: An autonomous ai agent for spatial biology. bioRxiv, 2025.",
+        "DOI": "10.1101/2025.04.03.646459"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1040-z"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.48",
+        "unstructured": "Colin White , Samuel Dooley , Manley Roberts , Arka Pal , Ben Feuer , Siddhartha Jain , Ravid Shwartz-Ziv , Neel Jain , Khalid Saifullah , Sreemanti Dey, Shubh-Agrawal , Sandeep Singh Sandha , Siddartha Naidu , Chinmay Hegde , Yann LeCun , Tom Goldstein , Willie Neiswanger , and Micah Goldblum . Livebench: A challenging, contamination-limited llm benchmark, 2025."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0944-y"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-017-1381-1"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.51",
+        "unstructured": "Chunqiu Steven Xia , Yinlin Deng , Soren Dunn , and Lingming Zhang . Agentless: Demystifying llm-based software engineering agents, 2024."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yihang Xiao , Jinyi Liu , Yan Zheng , Xiaohan Xie , Jianye Hao , Mingzhi Li , Ruitao Wang , Fei Ni , Yuxiao Li , Jintian Luo , et al. Cellagent: An llm-driven multi-agent framework for automated single-cell data analysis. BioRxiv, pages 2024\u201305, 2024.",
+        "DOI": "10.1101/2024.05.13.593861"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41392-020-00222-7"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41593-019-0491-3"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qi Xin , Quyu Kong , Hongyi Ji , Yue Shen , Yuqi Liu , Yan Sun , Zhilin Zhang , Zhaorong Li , Xunlong Xia , Bing Deng , et al. Bioinformatics agent (bia): Unleashing the power of large language models to reshape bioinformatics workflow. BioRxiv, pages 2024\u201305, 2024.",
+        "DOI": "10.1101/2024.05.22.595240"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.56",
+        "unstructured": "John Yang , Carlos E. Jimenez , Alexander Wettig , Kilian Lieret , Shunyu Yao , Karthik Narasimhan , and Ofir Press . Swe-agent: Agent-computer interfaces enable automated software engineering, 2024."
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006245"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haotian Zhang , Yu H Sun , Wenxing Hu , Xu Cui , Zhengyu Ouyang , Derrick Cheng , Xinmin Zhang , and Baohong Zhang . Compbioagent: an llm-powered agent for single-cell rna-seq data exploration. bioRxiv, pages 2025\u201303, 2025.",
+        "DOI": "10.1101/2025.03.17.643771"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yuntong Zhang , Haifeng Ruan , Zhiyu Fan , and Abhik Roychoudhury . Autocoderover: Autonomous program improvement, 2024.",
+        "DOI": "10.1145/3650212.3680384"
+      },
+      {
+        "key": "2026041201070550000_2025.06.03.657517v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/advs.202407094"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.03.657517",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T08:07:18Z",
+      "timestamp": 1775981238000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.03.657517"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          4
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2025.06.03.657517",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

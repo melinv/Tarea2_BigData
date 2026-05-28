@@ -1,0 +1,697 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:46:35Z",
+      "timestamp": 1768549595772,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 73,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>We present a deep learning (DL)-based automated whole lung and COVID-19 pneumonia infectious lesions (COLI-Net) detection and segmentation from chest CT images.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We prepared 2358 (347\u2019259, 2D slices) and 180 (17341, 2D slices) volumetric CT images along with their corresponding manual segmentation of lungs and lesions, respectively, in the framework of a multi-center/multi-scanner study. All images were cropped, resized and the intensity values clipped and normalized. A residual network (ResNet) with non-square Dice loss function built upon TensorFlow was employed. The accuracy of lung and COVID-19 lesions segmentation was evaluated on an external RT-PCR positive COVID-19 dataset (7\u2019333, 2D slices) collected at five different centers. To evaluate the segmentation performance, we calculated different quantitative metrics, including radiomic features.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    The mean Dice coefficients were 0.98\u00b10.011 (95% CI, 0.98-0.99) and 0.91\u00b10.038 (95% CI, 0.90-0.91) for lung and lesions segmentation, respectively. The mean relative Hounsfield unit differences were 0.03\u00b10.84% (95% CI, \u22120.12 \u2013 0.18) and \u22120.18\u00b13.4% (95% CI, \u22120.8 - 0.44) for the lung and lesions, respectively. The relative volume difference for lung and lesions were 0.38\u00b11.2% (95% CI, 0.16-0.59) and 0.81\u00b16.6% (95% CI, \u22120.39-2), respectively. Most radiomic features had a mean relative error less than 5% with the highest mean relative error achieved for the lung for the\n                    <jats:italic>Range</jats:italic>\n                    first-order feature (- 6.95%) and\n                    <jats:italic>least axis length</jats:italic>\n                    shape feature (8.68%) for lesions.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>We set out to develop an automated deep learning-guided three-dimensional whole lung and infected regions segmentation in COVID-19 patients in order to develop fast, consistent, robust and human error immune framework for lung and pneumonia lesion detection and quantification.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.04.08.21255163",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ],
+      "date-time": "2021-04-13T13:09:02Z",
+      "timestamp": 1618319342000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "COLI-NET: Fully Automated COVID-19 Lung and Infection Pneumonia Lesion Detection and Segmentation from Chest CT Images"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5735-0736",
+        "authenticated-orcid": false,
+        "given": "Isaac",
+        "family": "Shiri",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Hossein",
+        "family": "Arabi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yazdan",
+        "family": "Salimi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amir Hossein",
+        "family": "Sanaat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Azadeh",
+        "family": "Akhavanalaf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ghasem",
+        "family": "Hajianfar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dariush",
+        "family": "Askari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shakiba",
+        "family": "Moradi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zahra",
+        "family": "Mansouri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Masoumeh",
+        "family": "Pakbin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saleh",
+        "family": "Sandoughdaran",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hamid",
+        "family": "Abdollahi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amir Reza",
+        "family": "Radmard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kiara",
+        "family": "Rezaei-Kalantari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mostafa Ghelich",
+        "family": "Oghli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7559-5297",
+        "authenticated-orcid": false,
+        "given": "Habib",
+        "family": "Zaidi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001017"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijsu.2020.04.018"
+      },
+      {
+        "issue": "5",
+        "key": "2021041503401132000_2021.04.08.21255163v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1038/d41573-020-00073-5",
+        "article-title": "The COVID-19 vaccine development landscape",
+        "volume": "19",
+        "year": "2020",
+        "journal-title": "Nat Rev Drug Discov"
+      },
+      {
+        "issue": "18",
+        "key": "2021041503401132000_2021.04.08.21255163v1.5",
+        "first-page": "1824",
+        "article-title": "Pharmacologic treatments for coronavirus disease 2019 (COVID-19): a review",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Jama"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang Y , Zhang H , Xie J , et al. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. Radiology. 2020:200432.",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "issue": "2",
+        "key": "2021041503401132000_2021.04.08.21255163v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "E3",
+        "DOI": "10.1148/radiol.2020200702",
+        "article-title": "Patients with RT-PCR-confirmed COVID-19 and normal chest CT",
+        "volume": "295",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai T , Yang Z , Hou H , et al. Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. Radiology. 2020:200642.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai HX , Hsieh B , Xiong Z , et al. Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT. Radiology. 2020.",
+        "DOI": "10.1148/radiol.2020200823"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri I , Akhavanallaf A , Sanaat A , et al. Ultra-low-dose chest CT imaging of COVID-19 patients using a deep residual neural network. Eur Radiol. 2020:in press.",
+        "DOI": "10.1007/s00330-020-07225-6"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Smet K , De Smet D , Ryckaert T , et al. Diagnostic Performance of Chest CT for SARS-CoV-2 Infection in Individuals with or without COVID-19 Symptoms. Radiology. 2020:202708.",
+        "DOI": "10.1148/radiol.2020202708"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang S , Zha Y , Li W , et al. A fully automatic deep learning system for COVID-19 diagnostic and prognostic analysis. European Respiratory Journal. 2020.",
+        "DOI": "10.1183/13993003.00775-2020"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.13",
+        "unstructured": "Lessmann N , S\u00e1nchez CI , Beenen L , et al. Automated Assessment of CO-RADS and Chest CT Severity Scores in Patients with Suspected COVID-19 Using Artificial Intelligence. Radiology. 2020:202439."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "104304",
+        "DOI": "10.1016/j.compbiomed.2021.104304",
+        "article-title": "Machine learning-based prognostic modeling using clinical data and quantitative radiomic features from chest CT images in COVID-19 patients",
+        "volume": "132",
+        "year": "2021",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7150/thno.46428"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.16",
+        "unstructured": "Shoeibi A , Khodatars M , Alizadehsani R , et al. Automated detection and forecasting of covid-19 using deep learning techniques: A review. arXiv preprint arXiv:2007.10785. 2020."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants L , Van Calster B , Bonten MM , et al. Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal. bmj. 2020;369.",
+        "DOI": "10.1101/2020.03.24.20041020"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mei X , Lee H-C , Diao K-y , et al. Artificial intelligence\u2013enabled rapid diagnosis of patients with COVID-19. Nature Medicine. 2020:1\u20135.",
+        "DOI": "10.1101/2020.04.12.20062661"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang K , Liu X , Shen J , et al. Clinically applicable AI system for accurate diagnosis, quantitative measurements, and prognosis of covid-19 pneumonia using computed tomography. Cell. 2020.",
+        "DOI": "10.1016/j.cell.2020.08.029"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi F , Wang J , Shi J , et al. Review of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for covid-19. IEEE reviews in biomedical engineering. 2020.",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "issue": "4",
+        "key": "2021041503401132000_2021.04.08.21255163v1.21",
+        "first-page": "e200048",
+        "article-title": "Automated Quantification of CT Patterns Associated with COVID-19 from Chest CT",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Artificial Intelligence"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Satapathy SC , Hemanth DJ , Kadry S , et al. Segmentation and Evaluation of COVID-19 Lesion from CT scan Slices-A Study with Kapur/Otsu Function and Cuckoo Search Algorithm. 2020. 23.",
+        "DOI": "10.21203/rs.3.rs-40148/v1"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-018-1088-1"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10278-019-00227-x"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri I , Arabi H , Geramifar P , et al. Deep-JASC: joint attenuation and scatter correction in whole-body 18 F-FDG PET using a deep residual network. European Journal of Nuclear Medicine and Molecular Imaging. 2020.",
+        "DOI": "10.1007/s00259-020-04852-5"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri I , Sabet KA , Arabi H , et al. Standard SPECT myocardial perfusion estimation from half-time acquisitions using deep convolutional residual neural networks. Journal of nuclear cardiology: official publication of the American Society of Nuclear Cardiology. 2020.",
+        "DOI": "10.1007/s12350-020-02119-y"
+      },
+      {
+        "issue": "1",
+        "key": "2021041503401132000_2021.04.08.21255163v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1186/s41824-020-00086-8",
+        "article-title": "Applications of artificial intelligence and deep learning in molecular imaging and radiotherapy",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "European Journal of Hybrid Imaging"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akhavanallaf A , Shiri I , Arabi H , Zaidi H . Whole-body voxel-based internal dosimetry using deep learning. European Journal of Nuclear Medicine and Molecular Imaging. 2020.",
+        "DOI": "10.1007/s00259-020-05013-4"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1016/j.ejmp.2021.03.008",
+        "article-title": "The promise of artificial intelligence and deep learning in PET and SPECT imaging",
+        "volume": "83",
+        "year": "2021",
+        "journal-title": "Phys Med"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanaat A , Shiri I , Arabi H , et al. Deep learning-assisted ultra-fast/low-dose whole-body PET/CT imaging. Eur J Nucl Med Mol Imaging. 2021.",
+        "DOI": "10.1007/s00259-020-05167-1"
+      },
+      {
+        "issue": "8",
+        "key": "2021041503401132000_2021.04.08.21255163v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2615",
+        "DOI": "10.1109/TMI.2020.2995965",
+        "article-title": "A Weakly-Supervised Framework for COVID-19 Classification and Lesion Localization From Chest CT",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "issue": "8",
+        "key": "2021041503401132000_2021.04.08.21255163v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2626",
+        "DOI": "10.1109/TMI.2020.2996645",
+        "article-title": "Inf-Net: Automatic COVID-19 Lung Infection Segmentation From CT Images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.33",
+        "unstructured": "Yan Q , Wang B , Gong D , et al. COVID-19 Chest CT Image Segmentation--A Deep Convolutional Neural Network Solution. arXiv preprint arXiv:2004.10987. 2020."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.34",
+        "unstructured": "Zhou T , Canu S , Ruan S. An automatic COVID-19 CT segmentation network using spatial and channel attention mechanism. arXiv. 2020."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.35",
+        "unstructured": "Cho J , Lee K , Shin E , et al. How much data is needed to train a medical image deep learning system to achieve necessary high accuracy? arXiv preprint arXiv:1511.06348. 2015."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang L , Wang X , Yang D , et al. Generalizing deep learning for medical image segmentation to unseen domains via deep stacked transformation. IEEE Transactions on Medical Imaging. 2020.",
+        "DOI": "10.1109/TMI.2020.2973595"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.37",
+        "unstructured": "Chen S , Ma K , Zheng Y. Med3d: Transfer learning for 3d medical image analysis. arXiv preprint arXiv:1904.00625. 2019."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kiser KJ , Ahmed S , Stieb S , et al. PleThora: Pleural effusion and thoracic cavity segmentations in diseased lungs for benchmarking chest CT processing pipelines. Medical physics. 2020.",
+        "DOI": "10.1002/mp.14807"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10278-013-9622-7"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.40",
+        "unstructured": "Aerts H , Velazquez ER , Leijenaar RT , et al. Data from NSCLC-radiomics. The cancer imaging archive. 2015."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morozov S , Andreychenko A , Pavlov N , et al. MosMedData: Chest CT Scans With COVID-19 Related Findings Dataset. arXiv preprint arXiv:2005.06465. 2020.",
+        "DOI": "10.1101/2020.05.20.20100362"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li W , Wang G , Fidon L , et al. On the compactness, efficiency, and representation of 3D convolutional networks: brain parcellation as a pretext task. International conference on information processing in medical imaging, 2017. Springer: 348-60.",
+        "DOI": "10.1007/978-3-319-59050-9_28"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1016/j.cmpb.2018.01.025",
+        "article-title": "NiftyNet: a deep-learning platform for medical imaging",
+        "volume": "158",
+        "year": "2018",
+        "journal-title": "Computer methods and programs in biomedicine"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma J , Wang Y , An X , et al. Towards efficient covid-19 ct annotation: A benchmark for lung and infection segmentation. arXiv preprint arXiv:2004.12537. 2020.",
+        "DOI": "10.1002/mp.14676"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.45",
+        "unstructured": "Jun M , Cheng G , Yixin W , et al. COVID-19 CT Lung and Infection Segmentation Dataset. Zenodo, Apr. 2020;20."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2005.851757"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10278-016-9875-z"
+      },
+      {
+        "issue": "10",
+        "key": "2021041503401132000_2021.04.08.21255163v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "4592",
+        "DOI": "10.1118/1.3222872",
+        "article-title": "Automated segmentation of lungs with severe interstitial lung disease in CT",
+        "volume": "36",
+        "year": "2009",
+        "journal-title": "Medical physics"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.49",
+        "unstructured": "Chen H , Mukundan R , Butler A. Automatic lung segmentation in HRCT images. 2011."
+      },
+      {
+        "issue": "1",
+        "key": "2021041503401132000_2021.04.08.21255163v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1186/s41747-020-00173-2",
+        "article-title": "Automatic lung segmentation in routine imaging is primarily a data diversity problem, not a methodology problem",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "European Radiology Experimental"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mp.13141"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M\u00fcller D , Rey IS , Kramer F. Automated Chest CT Image Segmentation of COVID-19 Lung Infection based on 3D U-Net. arXiv preprint arXiv:2007.04774. 2020.",
+        "DOI": "10.1016/j.imu.2021.100681"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.53",
+        "unstructured": "Yang B , Zhang W. FD-FCN : 3D Fully Dense and Fully Convolutional Network for Semantic Segmentation of Brain Anatomy. arXiv preprint arXiv:1907.09194. 2019."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "\u00c7i\u00e7ek \u00d6 , Abdulkadir A , Lienkamp SS , et al. 3D U-Net: learning dense volumetric segmentation from sparse annotation. International conference on medical image computing and computer-assisted intervention, 2016. Springer: 424-32.",
+        "DOI": "10.1007/978-3-319-46723-8_49"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.55",
+        "unstructured": "Milletari F , Navab N , Ahmadi S-A. V-net: Fully convolutional neural networks for volumetric medical image segmentation. 2016 fourth international conference on 3D vision (3DV), 2016. IEEE: 565-71."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou Z , Siddiquee MMR , Tajbakhsh N , Liang J. Unet++: A nested u-net architecture for medical image segmentation. Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support: Springer; 2018:3\u201311.",
+        "DOI": "10.1007/978-3-030-00889-5_1"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.57",
+        "unstructured": "Chen X , Yao L , Zhang Y . Residual Attention U-Net for Automated Multi-Class Segmentation of COVID-19 Chest CT Images. arXiv preprint arXiv:2004.05645. 2020."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Elharrouss O , Subramanian N , Al-Maadeed S . An encoder-decoder-based method for COVID-19 lung infection segmentation. arXiv preprint arXiv:2007.00861. 2020.",
+        "DOI": "10.29117/quarfe.2020.0294"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O , Fischer P , Brox T . U-net: Convolutional networks for biomedical image segmentation. International Conference on Medical image computing and computer-assisted intervention, 2015. Springer: 234-41.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.60",
+        "unstructured": "Oktay O , Schlemper J , Folgoc LL , et al. Attention u-net: Learning where to look for the pancreas. arXiv preprint arXiv:1804.03999. 2018."
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1016/j.media.2019.01.012",
+        "article-title": "Attention gated networks: Learning to leverage salient regions in medical images",
+        "volume": "53",
+        "year": "2019",
+        "journal-title": "Medical image analysis"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2018.2845918"
+      },
+      {
+        "issue": "8",
+        "key": "2021041503401132000_2021.04.08.21255163v1.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "2653",
+        "DOI": "10.1109/TMI.2020.3000314",
+        "article-title": "A Noise-Robust Framework for Automatic Segmentation of COVID-19 Pneumonia Lesions From CT Images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isensee F , Kickingereder P , Wick W , et al. No new-net. International MICCAI Brainlesion Workshop, 2018. Springer: 234-44.",
+        "DOI": "10.1007/978-3-030-11726-9_21"
+      },
+      {
+        "issue": "2",
+        "key": "2021041503401132000_2021.04.08.21255163v1.65",
+        "first-page": "540",
+        "article-title": "Recalibrating fully convolutional networks with spatial and channel \u201csqueeze and excitation\u201d blocks",
+        "volume": "38",
+        "year": "2018",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mehta S , Rastegari M , Shapiro L , Hajishirzi H. Espnetv2: A light-weight, power efficient, and general purpose convolutional neural network. Proceedings of the IEEE conference on computer vision and pattern recognition, 2019. 9190\u2013200.",
+        "DOI": "10.1109/CVPR.2019.00941"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jaiswal A , Gianchandani N , Singh D , et al. Classification of the COVID-19 infected patients using DenseNet201 based deep transfer learning. Journal of Biomolecular Structure and Dynamics. 2020:1\u20138.",
+        "DOI": "10.1080/07391102.2020.1788642"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/19569"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang Y , Zhang Y , Liu Y , et al. Does Non-COVID19 Lung Lesion Help? Investigating Transferability in COVID-19 CT Image Segmentation. arXiv preprint arXiv:2006.13877. 2020.",
+        "DOI": "10.1016/j.cmpb.2021.106004"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li Z , Zhong Z , Li Y , et al. From Community Acquired Pneumonia to COVID-19: A Deep Learning Based Method for Quantitative Analysis of COVID-19 on thick-section CT Scans. medRxiv. 2020.",
+        "DOI": "10.1101/2020.04.17.20070219"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kalra MK , Homayounieh F , Arru C , et al. Chest CT practice and protocols for COVID-19 from radiation dose management perspective. European Radiology. 2020:1\u20137.",
+        "DOI": "10.1007/s00330-020-07034-x"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJM199701233360402"
+      },
+      {
+        "key": "2021041503401132000_2021.04.08.21255163v1.73",
+        "unstructured": "Shan F , Gao Y , Wang J , et al. Lung infection quantification of covid-19 in ct images with deep learning. arXiv preprint arXiv:2003.04655. 2020."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.04.08.21255163",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:12:51Z",
+      "timestamp": 1768486371000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.04.08.21255163"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "references-count": 73,
+    "URL": "https://doi.org/10.1101/2021.04.08.21255163",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1002/ima.22672",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

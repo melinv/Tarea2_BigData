@@ -1,0 +1,443 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:12:19Z",
+      "timestamp": 1768547539109,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          19
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection has been spreading globally. The number of deaths has increased with the increase in the number of infected patients. We aimed to develop a clinical model to predict the outcome of severe COVID-19 patients early.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Epidemiological, clinical, and first laboratory findings after admission of 183 severe COVID-19 patients (115 survivors and 68 nonsurvivors) from the Sino-French New City Branch of Tongji Hospital were used to develop the predictive models. Five machine learning approaches (logistic regression, partial least squares regression, elastic net, random forest, and bagged flexible discriminant analysis) were used to select the features and predict the patients\u2019 outcomes. The area under the receiver operating characteristic curve (AUROC) was applied to compare the models\u2019 performance. Sixty-four severe COVID-19 patients from the Optical Valley Branch of Tongji Hospital were used to externally validate the final predictive model.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    The baseline characteristics and laboratory tests were significantly different between the survivors and nonsurvivors. Four variables (age, high-sensitivity C-reactive protein level, lymphocyte count, and d-dimer level) were selected by all five models. Given the similar performance among the models, the logistic regression model was selected as the final predictive model because of its simplicity and interpretability. The AUROCs of the derivation and external validation sets were 0.895 and 0.881, respectively. The sensitivity and specificity were 0.892 and 0.687 for the derivation set and 0.839 and 0.794 for the validation set, respectively, when using a probability of death of 50% as the cutoff. The individual risk score based on the four selected variables and the corresponding probability of death can serve as indexes to assess the mortality risk of COVID-19 patients. The predictive model is freely available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://phenomics.fudan.edu.cn/risk_scores/\">https://phenomics.fudan.edu.cn/risk_scores/</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Age, high-sensitivity C-reactive protein level, lymphocyte count, and d-dimer level of COVID-19 patients at admission are informative for the patients\u2019 outcomes.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.13.20064329",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2020-04-19T23:36:01Z",
+      "timestamp": 1587339361000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "Early prediction of mortality risk among severe COVID-19 patients using machine learning"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Chuanyu",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Zhenqiu",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yanfeng",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xin",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Oumin",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kelin",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chen",
+        "family": "Suo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yujing",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kangkang",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xianhua",
+        "family": "Mao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xuefu",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mingshan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tingting",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lina",
+        "family": "Mu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Damien C",
+        "family": "Tully",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lei",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Li",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shusheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xuejin",
+        "family": "Tao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tiejun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xingdong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.1",
+        "unstructured": "World Health Organization. Coronavirus disease (COVID-19) Pandemic. https://www.who.int/emergencies/diseases/novel-coronavirus-2019. Accessed at 31 Mar, 2020."
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajgor DD , Lee MH , Archuleta S , Bagdasarian N , Quek SC . The many estimates of the COVID-19 case fatality rate. The Lancet Infectious diseases 2020.",
+        "DOI": "10.1016/S1473-3099(20)30244-9"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1091"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang X , Yu Y , Xu J , et al. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. The Lancet Respiratory medicine 2020.",
+        "DOI": "10.1016/S2213-2600(20)30079-5"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.15585/mmwr.mm6912e2",
+        "volume": "69",
+        "author": "Severe Outcomes Among Patients with Coronavirus Disease 2019 (COVID-19) - United States, February 12-March 16, 2020",
+        "year": "2020",
+        "journal-title": "MMWR Morbidity and mortality weekly report"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1198"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781107415324.004"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kuhn M , Johnson K. Applied Predictive Modeling: Springer; 2013.",
+        "DOI": "10.1007/978-1-4614-6849-3"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1007/s10994-006-8199-5",
+        "article-title": "Cost curves: An improved method for visualizing classifier performance",
+        "volume": "65",
+        "year": "2006",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.12",
+        "unstructured": "Kuhn M. caret: Classification and Regression Training. R package version 6.0-85. https://CRAN.R-project.org/package=caret. 2020."
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30374-3"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilder-Smith A , Chiew CJ , Lee VJ . Can we contain the COVID-19 outbreak with the same measures as for SARS? The Lancet Infectious diseases 2020.",
+        "DOI": "10.1016/S1473-3099(20)30129-8"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng S , Shen C , Xia N , Song W , Fan M , Cowling BJ . Rational use of face masks in the COVID-19 pandemic. The Lancet Respiratory medicine 2020.",
+        "DOI": "10.1016/S2213-2600(20)30134-X"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramanathan K , Antognini D , Combes A , et al. Planning and provision of ECMO services for severe ARDS during the COVID-19 pandemic and other outbreaks of emerging infectious diseases. The Lancet Respiratory medicine 2020.",
+        "DOI": "10.1016/S2213-2600(20)30121-1"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arabi YM , Murthy S , Webb S. COVID-19: a novel coronavirus and a novel challenge for critical care. Intensive care medicine 2020:1\u20134.",
+        "DOI": "10.1007/s00134-020-06009-2"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu Z , McGoogan JM . Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 7211314 Cases From the Chinese Center for Disease Control and Prevention. Jama 2020.",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.19",
+        "unstructured": "Verity R , Okell LC , Dorigatti I , et al. Estimates of the severity of coronavirus disease 2019: a model-based analysis. The Lancet Infectious Diseases."
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Onder G , Rezza G , Brusaferro S. Case-Fatality Rate and Characteristics of Patients Dying in Relation to COVID-19 in Italy. Jama 2020.",
+        "DOI": "10.1001/jama.2020.4683"
+      },
+      {
+        "issue": "Suppl 7",
+        "key": "2020120214400468000_2020.04.13.20064329v1.21",
+        "first-page": "S504",
+        "article-title": "The immunopathogenesis of sepsis in elderly patients. Clinical infectious diseases",
+        "volume": "41",
+        "year": "2005",
+        "journal-title": "an official publication of the Infectious Diseases Society of America"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.2588"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "330",
+        "DOI": "10.1186/s13054-019-2608-1",
+        "article-title": "Clinical significance of lymphocytopenia in patients hospitalized with pneumonia caused by influenza virus",
+        "volume": "23",
+        "year": "2019",
+        "journal-title": "Critical care (London, England)"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen G , Wu D , Guo W , et al. Clinical and immunologic features in severe and moderate Coronavirus Disease 2019. J Clin Invest 2020.",
+        "DOI": "10.1101/2020.02.16.20023903"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1111/jth.14768",
+        "article-title": "Abnormal coagulation parameters are associated with poor prognosis in patients with novel coronavirus pneumonia",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Journal of thrombosis and haemostasis : JTH"
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.26",
+        "unstructured": "Guan WJ , Ni ZY , Hu Y , et al. Clinical Characteristics of Coronavirus Disease 2019 in China. The New England journal of medicine 2020;0."
+      },
+      {
+        "key": "2020120214400468000_2020.04.13.20064329v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "786",
+        "DOI": "10.1111/jth.14781",
+        "article-title": "Disseminated intravascular coagulation in patients with 2019-nCoV pneumonia",
+        "volume": "18",
+        "year": "2020",
+        "journal-title": "Journal of thrombosis and haemostasis : JTH"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.13.20064329",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:37:22Z",
+      "timestamp": 1768484242000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.04.13.20064329"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          19
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2020.04.13.20064329",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/ije/dyaa171",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:54:01Z",
+      "timestamp": 1768499641643,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          27
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 52,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The ongoing COVID-19 pandemic is leading to the discovery of hundreds of novel SARS-CoV-2 variants on a daily basis. While most variants do not impact the course of the pandemic, some variants pose a significantly increased risk when the acquired mutations allow better evasion of antibody neutralisation in previously infected or vaccinated subjects or increased transmissibility. Early detection of such high risk variants (HRVs) is paramount for the proper management of the pandemic. However, experimental assays to determine immune evasion and transmissibility characteristics of new variants are resource-intensive and time-consuming, potentially leading to delays in appropriate responses by decision makers. Here we present a novel\n                  <jats:italic>in silico</jats:italic>\n                  approach combining spike (S) protein structure modelling and large protein transformer language models on S protein sequences to accurately rank SARS-CoV-2 variants for immune escape and fitness potential. These metrics can be combined into an automated Early Warning System (EWS) capable of evaluating new variants in minutes and risk-monitoring variant lineages in near real-time. The system accurately pinpoints the putatively dangerous variants by selecting on average less than 0.3% of the novel variants each week. With only the S protein nucleotide sequence as input, the EWS detects HRVs earlier and with better precision than baseline metrics such as the growth metric (which requires real-world observations) or random sampling. Notably, Omicron BA.1 was flagged by the EWS on the day its sequence was made available. Additionally, our immune escape and fitness metrics were experimentally validated using\n                  <jats:italic>in vitro</jats:italic>\n                  pseudovirus-based virus neutralisation test (pVNT) assays and binding assays. The EWS flagged as potentially dangerous all 16 variants (Alpha-Omicron BA.1/2/4/5) designated by the World Health Organisation (WHO) with an average lead time of more than one and a half months ahead of them being designated as such.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>One-Sentence Summary</jats:title>\n                  <jats:p>A COVID-19 Early Warning System combining structural modelling with machine learning to detect and monitor high risk SARS-CoV-2 variants, identifying all 16 WHO designated variants on average more than one and a half months in advance by selecting on average less than 0.3% of the weekly novel variants.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.24.474095",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2021-12-29T12:37:42Z",
+      "timestamp": 1640781462000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "Early Computational Detection of Potential High Risk SARS-CoV-2 Variants"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2789-6527",
+        "authenticated-orcid": false,
+        "given": "Karim",
+        "family": "Beguir",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2022-6766",
+        "authenticated-orcid": false,
+        "given": "Marcin J.",
+        "family": "Skwark",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1184-7421",
+        "authenticated-orcid": false,
+        "given": "Yunguan",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Pierrot",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2235-5753",
+        "authenticated-orcid": false,
+        "given": "Nicolas Lopez",
+        "family": "Carranza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexandre",
+        "family": "Laterre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ibtissem",
+        "family": "Kadri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abir",
+        "family": "Korched",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1259-2790",
+        "authenticated-orcid": false,
+        "given": "Anna U.",
+        "family": "Lowegard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bonny Gaby",
+        "family": "Lui",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bianca",
+        "family": "S\u00e4nger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yunpeng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Asaf",
+        "family": "Poran",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Muik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ugur",
+        "family": "Sahin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1002/gch2.1018",
+        "article-title": "Data, disease and diplomacy: GISAID\u2019s innovative contribution to global health",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Global Challenges"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.2",
+        "first-page": "30494",
+        "article-title": "GISAID: Global initiative on sharing all influenza data--from vision to reality",
+        "volume": "22",
+        "year": "2017",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1049",
+        "DOI": "10.46234/ccdcw2021.255",
+        "article-title": "Gisaid\u2019s role in pandemic response",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "China CDC Wkly"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2102017"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s1473-3099(21)00475-8"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1131",
+        "DOI": "10.1038/s41591-021-01397-4",
+        "article-title": "SARS-CoV-2 variants of concern are emerging in India",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Nat. Med"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.7",
+        "unstructured": "The Technical Advisory Group on SARS-CoV-2 Virus Evolution (TAG-VE). Classification of Omicron (B.1.1.529): SARS-CoV-2 Variant of Concern. https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern (2021)."
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05053-w"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04980-y"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(22)00410-8"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1065"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1110",
+        "DOI": "10.1038/s41591-022-01836-w",
+        "article-title": "An early warning system for emerging SARS-CoV-2 variants",
+        "volume": "28",
+        "year": "2022",
+        "journal-title": "Nat. Med"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weisblum, Y. et al. Escape from neutralizing antibodies by SARS-CoV-2 spike protein variants. eLife 9, (2020).",
+        "DOI": "10.7554/eLife.61312"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "682",
+        "DOI": "10.1038/s41586-020-2852-1",
+        "article-title": "SARS-CoV-2 neutralizing antibody structures inform therapeutic strategies",
+        "volume": "588",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.21.990770"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.02.032"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41422-021-00487-9"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.02232-14"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "7045",
+        "DOI": "10.1002/jcp.30367",
+        "article-title": "Higher infectivity of the SARS-CoV-2 new variants is associated with K417N/T, E484K, and N501Y mutants: An insight from structural data",
+        "volume": "236",
+        "year": "2021",
+        "journal-title": "J. Cell. Physiol"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "657",
+        "DOI": "10.1038/s41586-021-04385-3",
+        "article-title": "Omicron escapes the majority of existing SARS-CoV-2 neutralizing antibodies",
+        "volume": "602",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.06.025"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008790"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1100",
+        "DOI": "10.1016/j.it.2020.10.004",
+        "article-title": "Mechanisms of SARS-CoV-2 Transmission and Pathogenesis",
+        "volume": "41",
+        "year": "2020",
+        "journal-title": "Trends Immunol"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-019-3019-7"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rives, A. et al. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proc Natl Acad Sci USA 118, (2021).",
+        "DOI": "10.1073/pnas.2016239118"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Elnaggar, A. et al. ProtTrans: towards cracking the language of Life\u2019s code through self-supervised deep learning and high performance computing. arXiv preprint arXiv:2007.06225 (2020).",
+        "DOI": "10.1101/2020.07.12.199554"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd7331"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.28",
+        "unstructured": "Vaswani, A. et al. Attention is all you need. in Advances in neural information processing systems 5998\u20136008 (2017)."
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.29",
+        "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. & Toutanova, K. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018)."
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg6105"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "572",
+        "DOI": "10.1038/s41586-021-03653-6",
+        "article-title": "BNT162b2 vaccine induces neutralizing antibodies and poly-specific T cells in humans",
+        "volume": "595",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciimmunol.abq2427"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01313-21"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.07.19.452771"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "472",
+        "DOI": "10.1056/NEJMc2106083",
+        "article-title": "BNT162b2-Elicited Neutralization against New SARS-CoV-2 Spike Variants",
+        "volume": "385",
+        "year": "2021",
+        "journal-title": "N. Engl. J. Med"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1038/s41586-021-03693-y",
+        "article-title": "BNT162b2-elicited neutralization of B.1.617 and other SARS-CoV-2 variants",
+        "volume": "596",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2022.02.015"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmsb2104756"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.39",
+        "unstructured": "Unable to find information for 11988286."
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.JOBB.2021.12.001"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gpb.2022.01.001"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1111",
+        "DOI": "10.1016/j.jgg.2021.12.003",
+        "article-title": "Evidence for a mouse origin of the SARS-CoV-2 Omicron variant",
+        "volume": "48",
+        "year": "2021",
+        "journal-title": "J. Genet. Genomics"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0025858"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "veab064",
+        "DOI": "10.1093/ve/veab064",
+        "article-title": "Assignment of epidemiological lineages in an emerging pandemic using the pangolin tool",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/msb.2011.75"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.07.09.450648"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm098"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.48",
+        "unstructured": "Kingma, D. P. & Ba, J. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 (2014)."
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.49",
+        "first-page": "8024",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "32",
+        "year": "2019"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.51"
+      },
+      {
+        "key": "2022092203300709000_2021.12.24.474095v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4314"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.24.474095",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:31:59Z",
+      "timestamp": 1768444319000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.24.474095"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          27
+        ]
+      ]
+    },
+    "references-count": 52,
+    "URL": "https://doi.org/10.1101/2021.12.24.474095",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.compbiomed.2023.106618",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

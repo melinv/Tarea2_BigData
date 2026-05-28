@@ -1,0 +1,238 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:47:38Z",
+      "timestamp": 1768549658509,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 8,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Epidemiological models have provided valuable information for the outlook of COVID-19 pandemic and relative impact of different mitigation scenarios. However, more accurate forecasts are often needed at near term for planning and staffing. We present our early results from a systemic analysis of short-term adjustment of epidemiological modeling of COVID 19 pandemic in US during March-April 2020. Our analysis includes the importance of various types of features for short term adjustment of the predictions. In addition, we explore the potential of data augmentation to address the data limitation for an emerging pandemic. Following published literature, we employ data augmentation via clustering of regions and evaluate a number of clustering strategies to identify early patterns from the data.</jats:p>\n                <jats:p>\n                  From our early analysis, we used CovidActNow as our underlying epidemiological model and found that the most impactful features for the one-day prediction horizon are population density, workers in commuting flow, number of deaths in the day prior to prediction date, and the autoregressive features of new COVID-19 cases from three previous dates of the prediction. Interestingly, we also found that counties clustered with New York County resulted in best preforming model with maximum of\n                  <jats:italic>\n                    R\n                    <jats:sup>2</jats:sup>\n                    =\n                  </jats:italic>\n                  0.90 and minimum of\n                  <jats:italic>R</jats:italic>\n                  <jats:sup>2</jats:sup>\n                  =0.85 for state-based and COVID-based clustering strategy, respectively.\n                </jats:p>",
+    "DOI": "10.1101/2020.09.11.20180521",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ],
+      "date-time": "2020-09-13T10:10:10Z",
+      "timestamp": 1599991810000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "On Machine Learning-Based Short-Term Adjustment of Epidemiological Projections of COVID-19 in US"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6941-5330",
+        "authenticated-orcid": false,
+        "given": "Sarah",
+        "family": "Kefayati",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Fred",
+        "family": "Roberts",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sayali",
+        "family": "Pethe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hu",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vishrawas",
+        "family": "Gopalakrishnan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Piyush",
+        "family": "Madan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianying",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Prithwish",
+        "family": "Chakraborty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raman",
+        "family": "Srinivasan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ajay",
+        "family": "Deshpande",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gretchen",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001191"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.2",
+        "unstructured": "\u201cWHO report on US COVID-19 Cases.\u201d https://covid19.who.int/region/amro/country/us"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.3",
+        "unstructured": "\u201cCDC COVID-19 Forecasting Group Challenge.\u201d https://www.cdc.gov/coronavirus/2019-ncov/covid-data/mathematical-modeling.html"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6585"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Liu et al., A machine learning methodology for real-time forecasting of the 2019-2020 COVID-19 outbreak using Internet searches, news alerts, and estimates from mechanistic models. 2020.",
+        "DOI": "10.2196/23996"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.6",
+        "unstructured": "\u201cCovid Act Now Model Reference/Assumptions.\u201d https://data.covidactnow.org/Covid_Act_Now_Model_References_and_Assumptions.pdf"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2105/AJPH.93.7.1137"
+      },
+      {
+        "key": "2021021304250404000_2020.09.11.20180521v1.8",
+        "unstructured": "\u201cCOVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).\u201d https://coronavirus.jhu.edu/map.Html"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.11.20180521",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:53:59Z",
+      "timestamp": 1768485239000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.11.20180521"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "references-count": 8,
+    "URL": "https://doi.org/10.1101/2020.09.11.20180521",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2026-02-24T00:05:52Z",
+      "timestamp": 1771891552563,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>The Philippines has had several COVID-19 infection waves brought about by different strains and variants of SARS-CoV-2. This study aimed to describe COVID-19 outcomes by infection waves using machine learning.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We used a cross-sectional surveillance data review design using the DOH COVID DataDrop data set as of September 24, 2022. We divided the data set into infection wave data sets based on the predominant COVID-19 variant(s) of concern during the identified time intervals: ancestral strain (A0), Alpha/Beta variant (AB), Delta variant (D), and Omicron variant (O). Descriptive statistics and machine learning models were generated from each infection wave data set.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Our final data set consisted of 3 896 206 cases and ten attributes including one label attribute. Overall, 98.39% of cases recovered while 1.61% died. The Delta wave reported the most deaths (43.52%), while the Omicron wave reported the least (10.36%). The highest CFR was observed during the ancestral wave (2.49%), while the lowest was seen during the Omicron wave (0.61%). Higher age groups generally had higher CFRs across all infection waves. The A0, AB and D models had up to four levels with two or three splits for each node. The O model had eight levels, with up to 16 splits in some nodes. Of the ten attributes, only age was included in all the decision tree models, while region of residence was included in the O model. F-score and specificity were highest using na\u00efve Bayes in all four data sets. Area under the curve (AUC) was highest in the na\u00efve Bayes models for the A0, AB and D models, while sensitivity was highest in the decision tree models for the A0, AB and O models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>The ancestral, Alpha/Beta and Delta variants seem to have similar transmission and mortality profiles. The Omicron variant caused lesser deaths despite being more transmissible. Age remained a significant predictor of death regardless of infection wave. We recommend constant timely analysis of available data especially during public health events and emergencies.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.11.28.23299037",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2023-11-30T05:10:13Z",
+      "timestamp": 1701321013000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "COVID-19 infection wave mortality from surveillance data in the Philippines using machine learning"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "suffix": "Jr",
+        "given": "Julius R",
+        "family": "Migri\u00f1o",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ani Regina U",
+        "family": "Batangan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rizal Michael R",
+        "family": "Abello",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "134",
+        "DOI": "10.1016/j.ijregi.2022.07.009",
+        "article-title": "Predictors of mortality among inpatients with COVID-19 infection in a tertiary referral center in the Philippines",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "IJID Regions"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.2",
+        "unstructured": "DOH. COVID-19 Tracker | Department of Health website [Internet]. 2022 [cited 2022 Oct 8]. Available from: https://doh.gov.ph/covid19tracker"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.3",
+        "unstructured": "WHO. WHO Coronavirus Disease (COVID-19) Dashboard [Internet]. WHO Coronavirus Disease (COVID-19) Dashboard. 2023 [cited 2022 Dec 1]. Available from: https://covid19.who.int"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.4",
+        "unstructured": "Johnson AG , Amin A , Ali A , et al. COVID-19 Incidence and Death Rates Among Unvaccinated and Fully Vaccinated Adults with and Without Booster Doses During Periods of Delta and Omicron Variant Emergence \u2014 25 U.S. Jurisdictions, April 4\u2013December 25, 2021. MMWR Morb Mortal Wkly Rep [Internet]. 2022 [cited 2022 Oct 8];71. Available from: https://www.cdc.gov/mmwr/volumes/71/wr/mm7104e2.htm"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.5",
+        "unstructured": "Stein C , Nassereldine H , Sorensen RJD , Amlag JO , Bisignano C , Byrne S , et al. Past SARS-CoV-2 infection protection against re-infection: a systematic review and meta-analysis. The Lancet [Internet]. 2023 Feb 16 [cited 2023 Feb 17];0(0). Available from: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)02465-5/fulltext?dgcid=raven_jbs_etoc_feature_lancet"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40001-021-00524-8"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMP2119682/SUPPL_FILE/NEJMP2119682_DISCLOSURES.PDF"
+      },
+      {
+        "issue": "2",
+        "key": "2023120502551111000_2023.11.28.23299037v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "100169",
+        "DOI": "10.1016/j.opresp.2022.100169",
+        "article-title": "Evolution and Clinical Trend of SARS-CoV-2 Variants",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "Open Respiratory Archives"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.9",
+        "unstructured": "WHO. Tracking SARS-CoV-2 variants [Internet]. World Health Organization. 2022 [cited 2022 Oct 8]. Available from: https://www.who.int/activities/tracking-SARS-CoV-2-variants"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lanepe.2021.100243"
+      },
+      {
+        "issue": "3",
+        "key": "2023120502551111000_2023.11.28.23299037v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1093/infdis/jiac411",
+        "article-title": "Alpha to Omicron: Disease Severity and Clinical Outcomes of Major SARS-CoV-2 Variants",
+        "volume": "227",
+        "year": "2023",
+        "journal-title": "The Journal of Infectious Diseases"
+      },
+      {
+        "issue": "1",
+        "key": "2023120502551111000_2023.11.28.23299037v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "10904",
+        "DOI": "10.1038/s41598-022-14016-0",
+        "article-title": "COVID-19 due to the B.1.617.2 (Delta) variant compared to B.1.1.7 (Alpha) variant of SARS-CoV-2: a prospective observational cohort study",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "4",
+        "key": "2023120502551111000_2023.11.28.23299037v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "642",
+        "DOI": "10.1016/j.ajpath.2022.01.007",
+        "article-title": "Signals of Significantly Increased Vaccine Breakthrough, Decreased Hospitalization Rates, and Less Severe Disease in Patients with Coronavirus Disease 2019 Caused by the Omicron Variant of Severe Acute Respiratory Syndrome Coronavirus 2 in Houston, Texas",
+        "volume": "192",
+        "year": "2022",
+        "journal-title": "The American Journal of Pathology"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.14",
+        "unstructured": "Re3data.Org: GISAID. Global COVID-19 submission tracker [Internet]. GISAID. re3data.org - Registry of Research Data Repositories; 2022 [cited 2022 Oct 8]. Available from: https://gisaid.org/submission-tracker-global/"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.15",
+        "unstructured": "Re3data.Org: GISAID. hCoV-19 Variants Dashboard [Internet]. GISAID. re3data.org - Registry of Research Data Repositories; 2022 [cited 2022 Oct 8]. Available from: https://gisaid.org/hcov-19-variants-dashboard/"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Painuli D , Mishra D , Bhardwaj S , Aggarwal M. Forecast and prediction of COVID-19 using machine learning. Data Science for COVID-19. 2021;381\u201397.",
+        "DOI": "10.1016/B978-0-12-824536-1.00027-7"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0252384"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu Z , Huang X , Zhang J , Fu S , Ding D , Tao Z. Differences in Clinical Characteristics Between Delta Variant and Wild-Type SARS-CoV-2 Infected Patients. Frontiers in Medicine [Internet]. 2022 [cited 2023 Feb 5];8. Available from: https://www.frontiersin.org/articles/10.3389/fmed.2021.792135",
+        "DOI": "10.3389/fmed.2021.792135"
+      },
+      {
+        "issue": "1",
+        "key": "2023120502551111000_2023.11.28.23299037v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2630",
+        "DOI": "10.1038/s41598-022-05822-7",
+        "article-title": "A machine learning model for predicting deterioration of COVID-19 inpatients",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "3",
+        "key": "2023120502551111000_2023.11.28.23299037v1.20",
+        "first-page": "9",
+        "article-title": "Using machine learning to create a decision tree model to predict outcomes of COVID-19 cases in the Philippines: Decision tree for COVID-19 cases",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Western Pacific Surveillance and Response"
+      },
+      {
+        "issue": "1",
+        "key": "2023120502551111000_2023.11.28.23299037v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1186/s12982-017-0064-4",
+        "article-title": "Decision trees in epidemiological research",
+        "volume": "14",
+        "year": "2017",
+        "journal-title": "Emerging Themes in Epidemiology"
+      },
+      {
+        "issue": "1",
+        "key": "2023120502551111000_2023.11.28.23299037v1.22",
+        "first-page": "e2022179",
+        "article-title": "Delta Variant: The New Challenge of COVID-19 Pandemic, an Overview of Epidemiological, Clinical, and Immune Characteristics",
+        "volume": "93",
+        "year": "2022",
+        "journal-title": "Acta Biomed"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/md.0000000000029165"
+      },
+      {
+        "issue": "10323",
+        "key": "2023120502551111000_2023.11.28.23299037v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1016/S0140-6736(22)00017-4",
+        "article-title": "Early assessment of the clinical severity of the SARS-CoV-2 omicron variant in South Africa: a data linkage study",
+        "volume": "399",
+        "year": "2022",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04479-6"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01887-z"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.28118"
+      },
+      {
+        "issue": "10250",
+        "key": "2023120502551111000_2023.11.28.23299037v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "532",
+        "DOI": "10.1016/S0140-6736(20)31748-7",
+        "article-title": "Sex differential in COVID-19 mortality varies markedly by age",
+        "volume": "396",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.29",
+        "unstructured": "CDC. Risk for COVID-19 Infection, Hospitalization, and Death By Age Group [Internet]. Centers for Disease Control and Prevention. 2022 [cited 2023 Feb 6]. Available from: https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/hospitalization-death-by-age.html"
+      },
+      {
+        "issue": "5",
+        "key": "2023120502551111000_2023.11.28.23299037v1.30",
+        "first-page": "512",
+        "article-title": "Advanced age, comorbidity and the risk of mortality in COVID-19 infection",
+        "volume": "114",
+        "year": "2022",
+        "journal-title": "J Natl Med Assoc"
+      },
+      {
+        "issue": "16",
+        "key": "2023120502551111000_2023.11.28.23299037v1.31",
+        "first-page": "19954",
+        "article-title": "COVID-19 mortality rate in children is U-shaped",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Aging (Albany NY)"
+      },
+      {
+        "issue": "10",
+        "key": "2023120502551111000_2023.11.28.23299037v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "e516",
+        "DOI": "10.1016/S2589-7500(20)30217-X",
+        "article-title": "Clinical features of COVID-19 mortality: development and validation of a clinical prediction model",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.33",
+        "unstructured": "Argosino F. COVID-19 response: A timeline of community quarantine, lockdowns, alert levels [Internet]. Manila Bulletin. 2021 [cited 2022 Aug 6]. Available from: https://mb.com.ph/2021/11/09/covid-19-response-a-timeline-of-community-quarantine-lockdowns-alert-levels/"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.34",
+        "unstructured": "DOH. Updates on COVID-19 Vaccines | COVID-19 Vaccination Dashboard [Internet]. 2023 [cited 2023 Feb 10]. Available from: https://doh.gov.ph/vaccines"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.35",
+        "unstructured": "DOH. Interim Guidelines on the COVID-19 Disease Severity Classification and Management [Internet]. Manila, Philippines: Department of Health; 2020 Jul. Report No.: Department Memorandum 2020-0381. Available from: https://doh.gov.ph/node/24520"
+      },
+      {
+        "issue": "21",
+        "key": "2023120502551111000_2023.11.28.23299037v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "8189",
+        "DOI": "10.3390/ijerph17218189",
+        "article-title": "Coronavirus Disease 2019 (COVID-19): A Modeling Study of Factors Driving Variation in Case Fatality Rate by Country",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Int J Environ Res Public Health"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12889-021-10961-z"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang Y , Laranjo JR , Thomas M. COVID-19 Lockdown Policy and Heterogeneous Responses of Urban Mobility: Evidence from the Philippines [Internet]. Asian Development Bank; 2022 May [cited 2023 Mar 3]. (Economics Working Papers). Available from: https://www.adb.org/publications/covid-19-lockdown-policy-urban-mobility-philippines",
+        "DOI": "10.22617/WPS220217-2"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.39",
+        "unstructured": "IATF. IATF RESOLUTION NO. 168 [Internet]. 2022 May [cited 2023 Mar 7]. Report No.: 168. Available from: https://iatf.doh.gov.ph/2022/05/26/iatf-resolution-no-168/"
+      },
+      {
+        "key": "2023120502551111000_2023.11.28.23299037v1.40",
+        "unstructured": "Serrano LG . Grokking machine learning. Shelter Island: Manning Publications; 2021. 489 p."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.28.23299037",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:45:41Z",
+      "timestamp": 1768506341000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.11.28.23299037"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1101/2023.11.28.23299037",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.24252/diversity.v5i1.49508",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

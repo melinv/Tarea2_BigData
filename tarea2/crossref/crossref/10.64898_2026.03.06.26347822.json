@@ -1,0 +1,218 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2026-03-10T03:41:16Z",
+      "timestamp": 1773114076213,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          9
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 0,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              9
+            ]
+          ],
+          "date-time": "2026-03-09T00:00:00Z",
+          "timestamp": 1773014400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Predicting hospital outcomes for patients with severe acute respiratory infections is critical for risk stratification and resource planning, yet heterogeneous electronic health record (EHR) data, class imbalance, and evolving clinical practice present persistent methodological challenges for machine learning (ML) approaches. \nWe conducted a retrospective cohort study using EHR data harmonized to the OMOP common data model from the National COVID Cohort Collaborative (N3C; May 2020-June 2025), including 263,619 adults hospitalized with COVID-19 across 51 contributing sites. We developed penalized linear regression (elastic net), random forest, XGBoost, and multilayer perceptron (MLP) models to predict hospital length of stay (LOS) and mortality (in-hospital and 60-day), using demographics, comorbidities, prior healthcare utilization, COVID-19 vaccination status, and hospital site as predictors. Missing data were handled via multiple imputation by chained equations (MICE) and class imbalance was addressed using SMOTE. Model performance was evaluated using area under the ROC curve (AUROC), Brier score, calibration plots, and decision curve analysis, following the TRIPOD reporting framework.\nMortality prediction achieved moderate discrimination across all models (test AUROC = 0.71-0.73 for in-hospital mortality; 0.72-0.73 for 60-day all-cause mortality). Models trained without SMOTE achieved the highest AUROCs but assigned virtually no patients to the mortality class at the default 0.5 threshold. SMOTE improved recall and F-1 score at the cost of reduced AUROC and precision. LOS was poorly explained by available structured predictors (best R2 = 0.059). Remdesivir-treated patients (n = 103,536; 39.3%) were older, had higher comorbidity burden, and had higher unadjusted mortality than untreated patients.  \nCommon structured EHR features offer moderate utility for mortality risk stratification in hospitalized COVID-19 patients but are insufficient for LOS prediction. The consistent SMOTE-related tradeoff between discrimination and calibration underscores the need to report threshold-dependent metrics alongside AUROC in clinical ML studies, with implications for operational planning during future respiratory disease emergencies.</jats:p>",
+    "DOI": "10.64898/2026.03.06.26347822",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          9
+        ]
+      ],
+      "date-time": "2026-03-09T15:25:13Z",
+      "timestamp": 1773069913000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predictors of COVID-19 hospital outcomes: a machine learning analysis of the National COVID Cohort Collaborative"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Janette",
+        "family": "Vazquez",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "UT Health San Antonio;"
+          }
+        ]
+      },
+      {
+        "given": "Loni",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Data Sciences, School of Applied Computational Sciences, Meharry Medical College;"
+          }
+        ]
+      },
+      {
+        "given": "Yun-Yun K",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Anesthesiology, Mass General Brigham;"
+          }
+        ]
+      },
+      {
+        "given": "Katherine",
+        "family": "Araya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pharmacology and Toxicology, University of Texas Medical Branch;"
+          }
+        ]
+      },
+      {
+        "given": "Madison G",
+        "family": "Farnsworth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Human Pathophysiology and Translational Medicine, Institute for Translational Science, University of Texas Medical Branch;"
+          }
+        ]
+      },
+      {
+        "given": "Xiang",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry and Molecular Biology, University of New Mexico, Albuquerque, NM;"
+          }
+        ]
+      },
+      {
+        "given": "Mahbubul",
+        "family": "Hasan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Center for Advancing Translational Sciences (NCATS) [C] and Axle Research and Technologies"
+          }
+        ]
+      },
+      {
+        "name": "N3C Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.06.26347822",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          9
+        ]
+      ],
+      "date-time": "2026-03-09T15:25:13Z",
+      "timestamp": 1773069913000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.03.06.26347822"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          9
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.64898/2026.03.06.26347822",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

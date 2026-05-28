@@ -1,0 +1,621 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:03:42Z",
+      "timestamp": 1768489422686,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 84,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              28
+            ]
+          ],
+          "date-time": "2020-07-28T00:00:00Z",
+          "timestamp": 1595894400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The current genomics era is bringing an unprecedented growth in the amount of gene expression data, only comparable to the exponential growth of sequences in databases during the last decades. This data now allows the design of secondary analyses that take advantage of this information to create new knowledge through specific computational approaches. One of these feasible analyses is the evaluation of the expression level for a gene through a series of different conditions or cell types. Based on this idea, we have developed ASACO, Automatic and Serial Analysis of CO-expression, which performs expression profiles for a given gene along hundreds of normalized and heterogeneous transcriptomics experiments and discover other genes that show either a similar or an inverse behavior. It might help to discover co-regulated genes, and even common transcriptional regulators in any biological model, including human diseases or microbial infections. The present SARS-CoV-2 pandemic is an opportunity to test this novel approach due to the wealth of data that is being generated, which could be used for validating results. In addition, new cell mechanisms identified could become new therapeutic targets. Thus, we have identified 35 host factors in the literature putatively involved in the infectious cycle of SARS-CoV and/or SARS-CoV-2 and searched for genes tightly co-expressed with them. We have found around 1900 co-expressed genes whose assigned functions are strongly related to viral cycles. Moreover, this set of genes heavily overlap with those identified by former laboratory high-throughput screenings (with p-value near 0). Some of these genes aim to cellular structures such as the stress granules, which could be essential for the virus replication and thereby could constitute potential targets in the current fight against the virus. Additionally, our results reveal a series of common transcription regulators, involved in immune and inflammatory responses, that might be key virus targets to induce the coordinated expression of SARS-CoV-2 host factors. All of this proves that ASACO can discover gene co-regulation networks with potential for proposing new genes, pathways and regulators participating in particular biological systems.</jats:p>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>ASACO identifies regulatory associations of genes using public transcriptomics data.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>ASACO highlights new cell functions likely involved in the infection of coronavirus.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Comparison with high-throughput screenings validates candidates proposed by ASACO.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Genes co-expressed with host\u2019s genes used by SARS-CoV-2 are related to stress granules.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.28.225078",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2020-07-28T23:26:07Z",
+      "timestamp": 1595978767000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Serial co-expression analysis of host factors from SARS-CoV viruses highly converges with former high-throughput screenings and proposes key regulators and co-option of cellular pathways"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3343-2822",
+        "authenticated-orcid": false,
+        "given": "Antonio J.",
+        "family": "P\u00e9rez-Pulido",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0874-1826",
+        "authenticated-orcid": false,
+        "given": "Gualberto",
+        "family": "Asencio-Cort\u00e9s",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1715-8579",
+        "authenticated-orcid": false,
+        "given": "Ana M.",
+        "family": "Brokate-Llanos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5536-6868",
+        "authenticated-orcid": false,
+        "given": "Gloria",
+        "family": "Brea-Calvo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3312-0848",
+        "authenticated-orcid": false,
+        "given": "Rosario",
+        "family": "Rodr\u00edguez-Gri\u00f1olo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4299-7198",
+        "authenticated-orcid": false,
+        "given": "Andr\u00e9s",
+        "family": "Garz\u00f3n",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0111-1541",
+        "authenticated-orcid": false,
+        "given": "Manuel J.",
+        "family": "Mu\u00f1oz",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2013.03.006"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky964"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2015.09.082"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng1532"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v4061011"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.04.026"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2332-7"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00415-08"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v7062747"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2006.09.013"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jvi.00829-18"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1242/jcs.087692"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2019.00146"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00705-009-0323-y"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00705-009-0323-y"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01429-16"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.antiviral.2020.104742"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virol.2012.03.011"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.05.134114"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01029-15"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nprot.2009.97"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01250-12"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v8070184"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-micro-020518-115759"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2217/fvl-2018-0008"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2020.04.009"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2013.00309"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1005252"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2286-9"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gde.2016.02.002"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v4040557"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.02.052"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1001258"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.4842106"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature13760"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz1031"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nsmb.1680"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1092"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2009.01.007"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.89.4.1473"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diseases4030026"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00260-10"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cvr/cvaa191"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.45",
+        "unstructured": "Lobo I. 2008. Biological Complexity and Integrative Levels of Organization. Nat Educ."
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2016.09.018"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.febslet.2005.03.080"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0065-3527(06)66005-3"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v1030737"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0049566"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.26195"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/baz031"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-15562-9"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11010-018-3397-6"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz947"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.09.141101"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1002331"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.21.20040261"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.24.005900"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/jgv.0.001390"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00485-10"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wsbm.1423"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks1215"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.antiviral.2005.01.003"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2607.200282"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.18.160648"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00195-11"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg3207"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00258-11"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0868-6"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.molcel.2017.09.035"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks165"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.02274-15"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.18.102467"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.14.988345"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2014.09.009"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M805747200"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M111.242206"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2567.2004.01879.x"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou Yonggang , Fu B , Zheng X , Wang D , Zhao C , Qi Y , Sun R , Tian Z , Xu X , Wei H. 2020. Pathogenic T-cells and inflammatory monocytes incite inflammatory storms in severe COVID-19 patients, Natl Sci Rev.",
+        "DOI": "10.1093/nsr/nwaa041"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41421-020-0153-3"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1316941111"
+      },
+      {
+        "key": "2024080408431680000_2020.07.28.225078v2.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.04.035"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.28.225078",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:40:16Z",
+      "timestamp": 1768437616000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.07.28.225078"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "references-count": 84,
+    "URL": "https://doi.org/10.1101/2020.07.28.225078",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

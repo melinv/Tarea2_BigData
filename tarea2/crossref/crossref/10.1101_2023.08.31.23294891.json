@@ -1,0 +1,338 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:20:32Z",
+      "timestamp": 1768566032329,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 11,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Matrix-assisted laser desorption/ionization mass spectrometry (MALDI-MS) could aid the diagnosis of acute respiratory infections (ARI) owing to its affordability and high-throughput capacity. MALDI-MS has been proposed for use on commonly available respiratory samples, without specialized sample preparation, making this technology especially attractive for implementation in low-resource regions. Here, we assessed the utility of MALDI-MS in differentiating SARS-CoV-2 versus non-COVID acute respiratory infections (NCARI) in a clinical lab setting of Kazakhstan.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Nasopharyngeal swabs were collected from in- and outpatients with respiratory symptoms and from asymptomatic controls (AC) in 2020-2022. PCR was used to differentiate SARS-CoV-2+ and NCARI cases. MALDI-MS spectra were obtained for a total of 252 samples (115 SARS-CoV-2+, 98 NCARI and 39 AC) without specialized sample preparation. In our first sub-analysis, we followed a published protocol for peak preprocessing and Machine Learning (ML), trained on publicly available spectra from South American SARS-CoV-2+ and NCARI samples. In our second sub-analysis, we trained ML models on a peak intensity matrix representative of both South American (SA) and Kazakhstan (Kaz) samples.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Applying the established MALDI-MS pipeline \u201das is\u201d resulted in a high detection rate for SARS-CoV-2+ samples (91.0%), but low accuracy for NCARI (48.0%) and AC (67.0%) by the top-performing random forest model. After re-training of the ML algorithms on the SA-Kaz peak intensity matrix, the accuracy of detection by the top-performing Support Vector Machine with radial basis function kernel model was at 88.0, 95.0 and 78% for the Kazakhstan SARS-CoV-2+, NCARI, and AC subjects, respectively with a SARS-CoV-2 vs. rest ROC AUC of 0.983 [0.958, 0.987]; a high differentiation accuracy was maintained for the South American SARS-CoV-2 and NCARI.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>MALDI-MS/ML is a feasible approach for the differentiation of ARI without a specialized sample preparation. The implementation of MALDI-MS/ML in a real clinical lab setting will necessitate continuous optimization to keep up with the rapidly evolving landscape of ARI.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.08.31.23294891",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2023-09-03T01:40:11Z",
+      "timestamp": 1693705211000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Application of MALDI-MS and Machine Learning to Detection of SARS-CoV-2 and non-SARS-CoV-2 Respiratory Infections"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7136-7921",
+        "authenticated-orcid": false,
+        "given": "Sergey",
+        "family": "Yegorov",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7173-3138",
+        "authenticated-orcid": false,
+        "given": "Irina",
+        "family": "Kadyrova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9065-2448",
+        "authenticated-orcid": false,
+        "given": "Ilya",
+        "family": "Korshukov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5835-3958",
+        "authenticated-orcid": false,
+        "given": "Aidana",
+        "family": "Sultanbekova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Valentina",
+        "family": "Barkhanskaya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tatiana",
+        "family": "Bashirova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yerzhan",
+        "family": "Zhunusov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yevgeniya",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Viktoriya",
+        "family": "Parakhina",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3515-8900",
+        "authenticated-orcid": false,
+        "given": "Svetlana",
+        "family": "Kolesnichenko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yeldar",
+        "family": "Baiken",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0775-7324",
+        "authenticated-orcid": false,
+        "given": "Bakhyt",
+        "family": "Matkarimov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dmitriy",
+        "family": "Vazenmiller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew S.",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gonzalo H.",
+        "family": "Hortelano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anar",
+        "family": "Turmuhambetova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Antonella E.",
+        "family": "Chesca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2280-2146",
+        "authenticated-orcid": false,
+        "given": "Dmitriy",
+        "family": "Babenko",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yegorov S , Goremykina M , Ivanova R , Good SV , Babenko D , Shevtsov A , et al. Epidemiology, clinical characteristics, and virologic features of COVID-19 patients in Kazakhstan: A nation-wide retrospective cohort study. The Lancet Regional Health \u2013 Europe [Internet]. 2021 May 1 [cited 2021 Aug 9];4. Available from: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(21)00073-9/abstract",
+        "DOI": "10.1016/j.lanepe.2021.100096"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Spick M , Lewis HM , Wilde MJ , Hopley C , Huggett J , Bailey MJ . Systematic review with meta-analysis of diagnostic test accuracy for COVID-19 by mass spectrometry. Metabolism -Clinical and Experimental [Internet]. 2022 Jan 1 [cited 2022 Dec 13];126. Available from: https://www.metabolismjournal.com/article/S0026-0495(21)00222-5/fulltext",
+        "DOI": "10.1016/j.metabol.2021.154922"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0644-7"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.4",
+        "first-page": "661358",
+        "article-title": "Detection of SARS-CoV-2 Infection in Human Nasopharyngeal Samples by Combining MALDI-TOF MS and Artificial Intelligence",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Front Med (Lausanne)"
+      },
+      {
+        "issue": "1",
+        "key": "2023090704201359000_2023.08.31.23294891v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "8219",
+        "DOI": "10.1038/s41598-021-87463-w",
+        "article-title": "Novel application of automated machine learning with MALDI-TOF-MS for rapid high-throughput screening of COVID-19: a proof of concept",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bts447"
+      },
+      {
+        "issue": "6",
+        "key": "2023090704201359000_2023.08.31.23294891v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "100091",
+        "DOI": "10.1016/j.crmeth.2021.100091",
+        "article-title": "Metatranscriptomics to characterize respiratory virome, microbiome, and host response directly from clinical samples",
+        "volume": "1",
+        "year": "2021",
+        "journal-title": "Cell Rep Methods"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sandybayev NT , Beloussov VY , Strochkov VM , Solomadin MV , Granica J , Yegorov S. The nasopharyngeal virome in adults with acute respiratory infection [Internet]. bioRxiv; 2023 [cited 2023 Aug 29]. p. 2023.08.21.554191. Available from: https://www.biorxiv.org/content/10.1101/2023.08.21.554191v1",
+        "DOI": "10.1101/2023.08.21.554191"
+      },
+      {
+        "issue": "10",
+        "key": "2023090704201359000_2023.08.31.23294891v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "746",
+        "DOI": "10.3390/diagnostics10100746",
+        "article-title": "Development of a Clinical MALDIToF Mass Spectrometry Assay for SARS-CoV-2: Rational Design and Multi-Disciplinary Team Work",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Diagnostics (Basel)"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "103465",
+        "DOI": "10.1016/j.ebiom.2021.103465",
+        "article-title": "A mass spectrometry-based targeted assay for detection of SARS-CoV-2 antigen from clinical specimens",
+        "volume": "69",
+        "year": "2021",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "2023090704201359000_2023.08.31.23294891v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e15008",
+        "DOI": "10.7717/peerj.15008",
+        "article-title": "Characterization of viral pathogens associated with symptomatic upper respiratory tract infection in adults during a low COVID-19 transmission period",
+        "volume": "11",
+        "year": "2023",
+        "journal-title": "PeerJ"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.31.23294891",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:40:12Z",
+      "timestamp": 1768506012000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.08.31.23294891"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ]
+    },
+    "references-count": 11,
+    "URL": "https://doi.org/10.1101/2023.08.31.23294891",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

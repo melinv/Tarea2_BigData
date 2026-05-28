@@ -1,0 +1,370 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T13:23:35Z",
+      "timestamp": 1768569815051,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 28,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              11
+            ]
+          ],
+          "date-time": "2025-04-11T00:00:00Z",
+          "timestamp": 1744329600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Modellers take many approaches to predicting the course of infectious diseases, and achieve a wide range of accuracy in resulting forecasting performance. For example, forecasters vary in their use of different underlying model structures, and in the extent to which they adapt a model to the specific forecast target. However, it has been difficult to evaluate the impact of these choices on subsequent forecast performance. Such evaluations need a comparable sample of forecasting models, while also accounting for varying predictive difficulty among multiple forecast targets. Here, we develop a model-based approach to start addressing these challenges. We apply this to a multi-country multi-model forecasting effort conducted during the COVID-19 pandemic, in order to assess the influence of models\u2019 structure and specificity to the epidemic target on forecast accuracy.</jats:p>\n                <jats:p>We evaluated 181,851 probabilistic predictions from 47 forecasting models participating in the European COVID-19 Forecast Hub between 8 March 2021 and 10 March 2023, classified by model structure (agent-based, mechanistic, semi-mechanistic, statistical, other); and specificity (the model produced forecasts for either one or multiple locations). We assessed performance of COVID-19 case and death forecasts, measured as the weighted interval score after log-transforming both forecasts and observations. We summarised performance descriptively and compared this to estimates from a generalised additive mixed effects model. We included adjustment for variation between countries over time, the epidemiological situation, the forecast horizon, and among models.</jats:p>\n                <jats:p>Whilst unadjusted estimates pointed to differences in predictive performance between model structures, after adjustment there was little systematic difference in average performance. Models forecasting for only a single geographic target outperformed those that made predictions for multiple targets, although this was a weak signal. We noted substantial variation in model performance that our approach did not account for.</jats:p>\n                <jats:p>Understanding the reasons behind forecast performance is useful for prioritising and interpreting modelling work. We showed that valid comparisons of forecast performance depend on appropriately adjusting for the general predictive difficulty of the target. This work was limited by a small sample size of independent models and likely incomplete adjustment for interactions and confounders influencing predictive difficulty. We recommend that multi-model comparisons encourage and document their methodological diversity to enable future studies of underlying factors driving predictive performance.</jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Accurately predicting the spread of infectious disease is essential to supporting public health during outbreaks. However, comparing the accuracy of different forecasting models is challenging. Existing evaluations struggle to isolate the impact of model design choices (like model structure or specificity to the forecast target) from the inherent difficulty of predicting complex outbreak dynamics. Our research introduces a novel approach to address this by systematically adjusting for common factors affecting epidemiological forecasts, accounting for multi-layered and non-linear effects on predictive difficulty. We applied this approach to a large dataset of forecasts from 47 different models submitted to the European COVID-19 Forecast Hub. We adjusted for variation across epidemic dynamics, forecast horizon, location, time, and model-specific effects. This allowed us to isolate the impact of model structure and geographic specificity on predictive performance. Our findings suggest that after adjustment, apparent differences in performance between model structures became minimal, while models that were specific to a single location showed a slight performance advantage over multi-location models. Our work highlights the importance of considering predictive difficulty when evaluating across forecasting models, and provides a framework for more robust evaluations of infectious disease predictions.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.04.10.25325611",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2025-04-11T20:40:26Z",
+      "timestamp": 1744404026000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "The influence of model structure and geographic specificity on predictive accuracy among European COVID-19 forecasts"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2049-3423",
+        "authenticated-orcid": false,
+        "given": "Katharine",
+        "family": "Sherratt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2539-3560",
+        "authenticated-orcid": false,
+        "given": "Rok",
+        "family": "Grah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7935-9109",
+        "authenticated-orcid": false,
+        "given": "Bastian",
+        "family": "Prasse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-7979-7388",
+        "authenticated-orcid": false,
+        "given": "Friederike",
+        "family": "Becker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jamie",
+        "family": "McLean",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8057-8037",
+        "authenticated-orcid": false,
+        "given": "Sam",
+        "family": "Abbott",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3406",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Funk",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woolhouse M . How to make predictions about future infectious disease risks. Philos Trans R Soc B Biol Sci. 2011 Jul 12;366(1573):2045\u201354.",
+        "DOI": "10.1098/rstb.2010.0387"
+      },
+      {
+        "issue": "7",
+        "key": "2025041502150563000_2025.04.10.25325611v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1927",
+        "DOI": "10.1177/0962280217746456",
+        "article-title": "Modern statistical tools for inference and prediction of infectious diseases using mathematical models",
+        "volume": "27",
+        "year": "2018",
+        "journal-title": "Stat Methods Med Res"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Funk S , King AA . Choices and trade-offs in inference with infectious disease models. Epidemics. 2020 Mar 1;30:100383.",
+        "DOI": "10.1016/j.epidem.2019.100383"
+      },
+      {
+        "issue": "1",
+        "key": "2025041502150563000_2025.04.10.25325611v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4921",
+        "DOI": "10.1038/s41598-018-22989-0",
+        "article-title": "Consensus and conflict among ecological forecasts of Zika virus outbreaks in the United States",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.EPIDEM.2017.08.002."
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1812594116"
+      },
+      {
+        "issue": "1",
+        "key": "2025041502150563000_2025.04.10.25325611v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "e41",
+        "DOI": "10.1016/S2589-7500(20)30268-5",
+        "article-title": "Development and dissemination of infectious disease dynamic transmission models during the COVID-19 pandemic: what can we learn from other pathogens and how can we move forward?",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clapham H , Gad M , Gheorghe A , Hutubessy R , Megiddo I , Painter C , et al. Assessing fitness-for-purpose and comparing the suitability of COVID-19 multi-country models for local contexts and users [Internet]. Gates Open Research; 2021 [cited 2022 Dec 12]. Available from: https://gatesopenresearch.org/articles/5-79",
+        "DOI": "10.12688/gatesopenres.13224.1"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43856-022-00107-6"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pollett S , Johansson M , Biggerstaff M , Morton LC , Bazaco SL , Brett Major DM , et al. Identification and evaluation of epidemic prediction and forecasting reporting guidelines: A systematic review and a call for action. Epidemics. 2020 Dec 1;33:100400.",
+        "DOI": "10.1016/j.epidem.2020.100400"
+      },
+      {
+        "issue": "1",
+        "key": "2025041502150563000_2025.04.10.25325611v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1186/s13071-022-05630-y",
+        "article-title": "Evaluation of an open forecasting challenge to assess skill of West Nile virus neuroinvasive disease prediction",
+        "volume": "16",
+        "year": "2023",
+        "journal-title": "Parasit Vectors"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.12",
+        "unstructured": "Sherratt K , Gruson H , Grah R , Johnson H , Niehus R , Prasse B , et al. Predictive performance of multi-model ensemble forecasts of COVID-19 across European nations. Wesolowski A, Ferguson NM, Shaman JL, Pei S, editors. eLife. 2023 Apr 21;12:e81916."
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2105/AJPH.2022.306831"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-08616-0"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2113561119"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.16",
+        "unstructured": "Lopez VK , Cramer EY , Pagano R , Drake JM , O\u2019Dea EB , Adee M , et al. Challenges of COVID-19 Case Forecasting in the US, 2020\u20132021. PLOS Comput Biol. 2024 May 6;20(5):e1011200."
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879- 018-3124-7. PubMed PMID: 29843621; PubMed Central PMCID: PMCPMC5975673."
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGowan CJ , Biggerstaff M , Johansson M , Apfeldorf KM , Ben-Nun M , Brooks L , et al. Collaborative efforts to forecast seasonal influenza in the United States, 2015\u20132016. Sci Rep. 2019 Jan 24;9(1):683.",
+        "DOI": "10.1038/s41598-018-36361-9"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.19",
+        "unstructured": "European Covid-19 Forecast Hub [Internet]. [cited 2021 Sep 1]. Available from: https://covid19forecasthub.eu/index.html"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008618"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.22",
+        "unstructured": "Bosse NI , Gruson H , Cori A , van Leeuwen E , Funk S , Abbott S. Evaluating Forecasts with scoringutils in R [Internet]. arXiv; 2022 [cited 2024 May 1]. Available from: http://arxiv.org/abs/2205.07090"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1011393"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2010.00749.x"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.14903162"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1909865116"
+      },
+      {
+        "key": "2025041502150563000_2025.04.10.25325611v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007486"
+      },
+      {
+        "issue": "8",
+        "key": "2025041502150563000_2025.04.10.25325611v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1011394",
+        "DOI": "10.1371/journal.pcbi.1011394",
+        "article-title": "Collaborative nowcasting of COVID-19 hospitalization incidences in Germany",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "PLOS Comput Biol"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.10.25325611",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:33:45Z",
+      "timestamp": 1768509225000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.04.10.25325611"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1101/2025.04.10.25325611",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

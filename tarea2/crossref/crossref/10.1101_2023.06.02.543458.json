@@ -1,0 +1,440 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:47:01Z",
+      "timestamp": 1768506421945,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "group-title": "Bioengineering",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The application of Machine Learning (ML) tools to engineer novel antibodies having predictable functional properties is gaining prominence. Herein, we present a platform that employs an ML-guided optimization of the complementarity-determining region (CDR) together with a CDR framework (FR) shuffling method to engineer affinity-enhanced and clinically developable monoclonal antibodies (mAbs) from a limited experimental screen space (order of 10^2 designs) using only two experimental iterations. Although high-complexity deep learning models like graph neural networks (GNNs) and large language models (LLMs) have shown success on protein folding with large dataset sizes, the small and biased nature of the publicly available antibody-antigen interaction datasets is not sufficient to capture the diversity of mutations virtually screened using these models in an affinity enhancement campaign. To address this key gap, we introduced inductive biases learned from extensive domain knowledge on protein-protein interactions through feature engineering and selected model hyper parameters to reduce overfitting of the limited interaction datasets. Notably we show that this platform performs better than GNNs and LLMs on an in-house validation dataset that is enriched in diverse CDR mutations that go beyond alanine-scanning. To illustrate the broad applicability of this platform, we successfully solved a challenging problem of redesigning two different anti-SARS-COV-2 mAbs to enhance affinity (up to 2 orders of magnitude) and neutralizing potency against the dynamically evolving SARS-COV-2 Omicron variants.</jats:p>",
+    "DOI": "10.1101/2023.06.02.543458",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2023-06-05T23:20:24Z",
+      "timestamp": 1686007224000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Machine Learning-Guided Antibody Engineering That Leverages Domain Knowledge To Overcome The Small Data Problem"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Thomas",
+        "family": "Clark",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Vidya",
+        "family": "Subramanian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Akila",
+        "family": "Jayaraman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emmett",
+        "family": "Fitzpatrick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ranjani",
+        "family": "Gopal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Niharika",
+        "family": "Pentakota",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Troy",
+        "family": "Rurak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shweta",
+        "family": "Anand",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Viglione",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rahul",
+        "family": "Raman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kannan",
+        "family": "Tharakaraman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ram",
+        "family": "Sasisekharan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "600",
+        "DOI": "10.1038/s41551-021-00699-9",
+        "article-title": "Optimization of therapeutic antibodies by predicting antigen specificity from antibody sequence via deep learning",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "Nat Biomed Eng"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2069075",
+        "DOI": "10.1080/19420862.2022.2069075",
+        "article-title": "Predicting antibody binders and generating synthetic antibodies using deep learning",
+        "volume": "14",
+        "year": "2022",
+        "journal-title": "MAbs"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "5852",
+        "DOI": "10.1038/s41598-021-85274-7",
+        "article-title": "Antibody design using LSTM based deep generative model from phage display library for affinity maturation",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3788",
+        "DOI": "10.1038/s41467-022-31457-3",
+        "article-title": "Co-optimization of therapeutic antibody affinity and specificity using machine learning models that generalize to novel mutational space",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bachas, S. et al. Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness. bioRxiv, 2022.2008.2016.504181 (2022).",
+        "DOI": "10.1101/2022.08.16.504181"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009284",
+        "DOI": "10.1371/journal.pcbi.1009284",
+        "article-title": "Deep geometric representations for modeling effects of mutations on protein-protein binding affinity",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2122954119",
+        "DOI": "10.1073/pnas.2122954119",
+        "article-title": "Deep learning guided optimization of human antibody against SARS-CoV-2 variants with broad neutralization",
+        "volume": "119",
+        "year": "2022",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/PRO.4205"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hie, B.L. et al. Efficient evolution of human antibodies from general protein language models. Nat Biotechnol (2023).",
+        "DOI": "10.1038/s41587-023-01763-2"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep00200"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1303645110"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2015.06.057"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2018.04.004"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "105105",
+        "DOI": "10.1016/j.antiviral.2021.105105",
+        "article-title": "An antibody engineering platform using amino acid networks: A case study in development of antiviral therapeutics",
+        "volume": "192",
+        "year": "2021",
+        "journal-title": "Antiviral Res"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gopal, R. et al. Optimizing Antibody Affinity and Developability Using a Framework-CDR Shuffling Approach-Application to an Anti-SARS-CoV-2 Antibody. Viruses 14 (2022).",
+        "DOI": "10.3390/v14122694"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "462",
+        "DOI": "10.1093/bioinformatics/bty635",
+        "article-title": "SKEMPI 2.0: an updated benchmark of changes in protein-protein binding energy, kinetics and thermodynamics upon mutation",
+        "volume": "35",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1080/10888438.2015.1107073",
+        "article-title": "The Random Forests statistical technique: An examination of its value for the study of reading",
+        "volume": "20",
+        "year": "2016",
+        "journal-title": "Sci Stud Read"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq007"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "vbac046",
+        "DOI": "10.1093/bioadv/vbac046",
+        "article-title": "AbLang: an antibody language model for completing antibody sequences",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "Bioinform Adv"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.1038/s41586-020-2349-y",
+        "article-title": "Cross-neutralization of SARS-CoV-2 by a human monoclonal SARS-CoV antibody",
+        "volume": "583",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.0030237"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2008.01.093"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007207"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Douillard, P. et al. Optimization of an Antibody Light Chain Framework Enhances Expression, Biophysical Properties and Pharmacokinetics. Antibodies (Basel) 8 (2019).",
+        "DOI": "10.3390/antib8030046"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2019.02365"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2010.10.030"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Addetia, A. et al. Therapeutic and vaccine-induced cross-reactive antibodies with effector function against emerging Omicron variants. bioRxiv (2023).",
+        "DOI": "10.1101/2023.01.17.523798"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, N.L. , Clark, T. , Raman, R. & Sasisekharan, R. An Antigenic Space Framework for Understanding Antibody Escape of SARS-CoV-2 Variants. Viruses 13 (2021).",
+        "DOI": "10.3390/v13102009"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1038/s41586-022-04980-y",
+        "article-title": "BA.2.12.1, BA.4 and BA.5 escape antibodies elicited by Omicron infection",
+        "volume": "608",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "874795",
+        "DOI": "10.3389/fcvm.2022.874795",
+        "article-title": "Is the Risk of Diabetes Lower in Patients With Atrial Fibrillation Treated With Direct Oral Anticoagulant Compared to Warfarin?",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Front Cardiovasc Med"
+      },
+      {
+        "key": "2023060903400695000_2023.06.02.543458v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "5938",
+        "DOI": "10.1021/acs.jcim.2c01073",
+        "article-title": "Exposing the Limitations of Molecular Machine Learning with Activity Cliffs",
+        "volume": "62",
+        "year": "2022",
+        "journal-title": "J Chem Inf Model"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.02.543458",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:44:16Z",
+      "timestamp": 1768452256000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.02.543458"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.1101/2023.06.02.543458",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

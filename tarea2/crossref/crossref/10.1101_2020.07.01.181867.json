@@ -1,0 +1,642 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:31:48Z",
+      "timestamp": 1768491108284,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          1
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2020-07-01T00:00:00Z",
+          "timestamp": 1593561600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We have developed periscope, a tool for the detection and quantification of sub-genomic RNA (sgRNA) in SARS-CoV-2 genomic sequence data. The translation of the SARS-CoV-2 RNA genome for most open reading frames (ORFs) occurs via RNA intermediates termed \u201csub-genomic RNAs\u201d. sgRNAs are produced through discontinuous transcription which relies on homology between transcription regulatory sequences (TRS-B) upstream of the ORF start codons and that of the TRS-L which is located in the 5\u2019 UTR. TRS-L is immediately preceded by a leader sequence. This leader sequence is therefore found at the 5\u2019 end of all sgRNA. We applied periscope to 1,155 SARS-CoV-2 genomes from Sheffield, UK and validated our findings using orthogonal datasets and\n                  <jats:italic>in vitro</jats:italic>\n                  cell systems. Using a simple local alignment to detect reads which contain the leader sequence we were able to identify and quantify reads arising from canonical and non-canonical sgRNA. We were able to detect all canonical sgRNAs at expected abundances, with the exception of ORF10. A number of recurrent non-canonical sgRNAs are detected. We show that the results are reproducible using technical replicates and determine the optimum number of reads for sgRNA analysis. In VeroE6 ACE2+/\u2212 cell lines, periscope can detect the changes in the kinetics of sgRNA in orthogonal sequencing datasets. Finally, variants found in genomic RNA are transmitted to sgRNAs with high fidelity in most cases. This tool can be applied to all sequenced COVID-19 samples worldwide to provide comprehensive analysis of SARS-CoV-2 sgRNA.\n                </jats:p>",
+    "DOI": "10.1101/2020.07.01.181867",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2020-07-02T04:25:10Z",
+      "timestamp": 1593663910000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "periscope: sub-genomic RNA identification in SARS-CoV-2 Genomic Sequencing Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2999-3870",
+        "authenticated-orcid": false,
+        "given": "Matthew D",
+        "family": "Parker",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4227-2592",
+        "authenticated-orcid": false,
+        "given": "Benjamin B",
+        "family": "Lindsey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shay",
+        "family": "Leary",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Silvana",
+        "family": "Gaudieri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abha",
+        "family": "Chopra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Wyles",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8483-1749",
+        "authenticated-orcid": false,
+        "given": "Adrienn",
+        "family": "Angyal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2836-2041",
+        "authenticated-orcid": false,
+        "given": "Luke R",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul",
+        "family": "Parsons",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rachel M",
+        "family": "Tucker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rebecca",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Danielle",
+        "family": "Groves",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katie",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laura",
+        "family": "Carrilero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joe",
+        "family": "Heffer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David G",
+        "family": "Partridge",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cariad",
+        "family": "Evans",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammad",
+        "family": "Raza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander J",
+        "family": "Keeley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nikki",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ana Da Silva",
+        "family": "Filipe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James G",
+        "family": "Shepherd",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chris",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sahan",
+        "family": "Bennett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alain",
+        "family": "Kohl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elihu",
+        "family": "Aranday-Cortes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lily",
+        "family": "Tong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jenna",
+        "family": "Nichols",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1482-0889",
+        "authenticated-orcid": false,
+        "given": "Emma C",
+        "family": "Thomson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "The COVID-19 Genomics UK (COG-UK) consortium",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0068-1005",
+        "authenticated-orcid": false,
+        "given": "Dennis",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7036-1309",
+        "authenticated-orcid": false,
+        "given": "Simon",
+        "family": "Mallal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6498-9212",
+        "authenticated-orcid": false,
+        "given": "Thushan I",
+        "family": "de Silva",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexandersen, Soren , Anthony Chamings , and Tarka Raj Bhatta . 2020. \u201cSARS-CoV-2 Genomic and Subgenomic RNAs in Diagnostic Samples Are Not an Indicator of Active Replication.\u201d medRxiv. https://www.medrxiv.org/content/10.1101/2020.06.01.20119750v1.abstract.",
+        "DOI": "10.1101/2020.06.01.20119750"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "\u201cAn Integrated National Scale SARS-CoV-2 Genomic Surveillance Network.\u201d 2020. The Lancet Microbe, June. https://doi.org/10.1016/S2666-5247(20)30054-9.",
+        "DOI": "10.1016/S2666-5247(21)00065-3"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.3",
+        "unstructured": "\u201cArtic Network.\u201d 2020. November 5, 2020. https://artic.network/ncov-2019."
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bouhaddou, Mehdi , Danish Memon , Bjoern Meyer , Kris M. White , Veronica V. Rezelj , Miguel C. Marrero , Benjamin J. Polacco , et al. 2020. \u201cThe Global Phosphorylation Landscape of SARS-CoV-2 Infection.\u201d Cell, June. https://doi.org/10.1016/j.cell.2020.06.034.",
+        "DOI": "10.1016/j.cell.2020.06.034"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.5",
+        "unstructured": "Casbon, J . 2012. PyVCF\u2014A Variant Call Format Parser for Python 2012."
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp163"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corman, Victor M. , Olfert Landt , Marco Kaiser , Richard Molenkamp , Adam Meijer , Daniel Kw Chu , Tobias Bleicker , et al. 2020. \u201cDetection of 2019 Novel Coronavirus (2019-nCoV) by Real-Time RT-PCR.\u201d Euro Surveillance: Bulletin Europeen Sur Les Maladies Transmissibles = European Communicable Disease Bulletin 25 (3). https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.3.2000045"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr539"
+      },
+      {
+        "issue": "1",
+        "key": "2024080413542487000_2020.07.01.181867v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1186/s13073-020-00763-0",
+        "article-title": "\u201cCharacterisation of the Transcriptome and Proteome of SARS-CoV-2 Reveals a Cell Passage Induced in-Frame Deletion of the Furin-like Cleavage Site from the Spike Glycoprotein",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "Genome Medicine"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Finkel, Yaara , Orel Mizrahi , Aharon Nachshon , Shira Weingarten-Gabbay , David Morgenstern , Yfat Yahalom-Ronen , Hadas Tamir , et al. 2020. \u201cThe Coding Capacity of SARS-CoV-2.\u201d Nature, September. https://doi.org/10.1038/s41586-020-2739-1.",
+        "DOI": "10.1101/2020.05.07.082909"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.11",
+        "unstructured": "Gilman, Paul , Steven Janzou , Darice Guittet , Janine Freeman , Nicholas DiOrio , Nathan Blair , Matthew Boyd , Ty Neises , Michael Wagner , and Others. 2019. \u201cPySAM (Python Wrapper for System Advisor Model\u2018SAM\u2019).\u201d National Renewable Energy Lab.(NREL), Golden, CO (United States). https://www.osti.gov/biblio/1559931."
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.02.052"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.80.1.210-217.2006"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.79.9.5288-5295.2005"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.febslet.2004.09.076"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1005473"
+      },
+      {
+        "issue": "4",
+        "key": "2024080413542487000_2020.07.01.181867v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "914",
+        "DOI": "10.1016/j.cell.2020.04.011",
+        "article-title": "\u201cThe Architecture of SARS-CoV-2 Transcriptome",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "12",
+        "key": "2024080413542487000_2020.07.01.181867v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "108185",
+        "DOI": "10.1016/j.celrep.2020.108185",
+        "article-title": "\u201cSARS-CoV-2 ORF3b Is a Potent Interferon Antagonist Whose Activity Is Increased by a Naturally Occurring Elongation Variant",
+        "volume": "32",
+        "year": "2020",
+        "journal-title": "Cell Reports"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bts480"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leary, Shay , Silvana Gaudieri , Abha Chopra , Suman Pakala , Eric Alves , Mina John , Suman Das , Simon Mallal , and Elizabeth Phillips . 2020. \u201cThree Adjacent Nucleotide Changes Spanning Two Residues in SARS-CoV-2 Nucleoprotein: Possible Homologous Recombination from the Transcription-Regulating Sequence.\u201d bioRxiv. https://doi.org/10.1101/2020.04.10.029454.",
+        "DOI": "10.1101/2020.04.10.029454"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.21",
+        "unstructured": "Li, Heng . 2012. \u201cSeqtk Toolkit for Processing Sequences in FASTA/Q Formats.\u201d GitHub."
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp324"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp352"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nomburg, Jason , Matthew Meyerson , and James A. DeCaprio . 2020. \u201cPervasive Generation of Non-Canonical Subgenomic RNAs by SARS-CoV-2.\u201d https://doi.org/10.1101/2020.04.28.066951.",
+        "DOI": "10.1101/2020.04.28.066951"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pag\u00e8s, J\u00e9r\u00f4me . 2014. Multiple Factor Analysis by Example Using R. CRC Press. Pancer,",
+        "DOI": "10.1201/b17700"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Katarzyna, Aleksandra Milewska Katarzyna Owczarek, Agnieszka Dabrowska, Wojciech Branicki , Marek Sanak , and Krzysztof Pyrc . 2020. \u201cThe SARS-CoV-2 ORF10 Is Not Essential in Vitro or in Vivo in Humans.\u201d Cold Spring Harbor Laboratory. https://doi.org/10.1101/2020.08.29.257360.",
+        "DOI": "10.1101/2020.08.29.257360"
+      },
+      {
+        "issue": "2",
+        "key": "2024080413542487000_2020.07.01.181867v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.virol.2013.03.022",
+        "article-title": "\u201cRole for Subgenomic mRNA in Host Translation Inhibition during Sindbis Virus Infection of Mammalian Cells",
+        "volume": "441",
+        "year": "2013",
+        "journal-title": "Virology"
+      },
+      {
+        "issue": "1",
+        "key": "2024080413542487000_2020.07.01.181867v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1002/jae.1278",
+        "article-title": "\u201cRStudio: A Platform-Independent IDE for R and Sweave",
+        "volume": "27",
+        "year": "2012",
+        "journal-title": "Journal of Applied Econometrics"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.1754"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schulte, Eric , Dan Davison , Thomas Dye , and Carsten Dominik . 2012. \u201cA Multi-Language Computing Environment for Literate Programming and Reproducible Research.\u201d Journal of Statistical Software. https://doi.org/10.18637/jss.v046.i03.",
+        "DOI": "10.18637/jss.v046.i03"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro2614"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.33",
+        "unstructured": "Simpson, J . 2018. \u201cNanopolish: Signal-Level Algorithms for MinION Data.\u201d Github Available at: Https://github.Com/jts/nanopolish [Accessed January 10, 2019]."
+      },
+      {
+        "issue": "1",
+        "key": "2024080413542487000_2020.07.01.181867v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1146/annurev-virology-100114-055218",
+        "article-title": "\u201cContinuous and Discontinuous RNA Synthesis in Coronaviruses",
+        "volume": "2",
+        "year": "2015",
+        "journal-title": "Annual Review of Virology"
+      },
+      {
+        "issue": "3",
+        "key": "2024080413542487000_2020.07.01.181867v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "665",
+        "DOI": "10.1128/jvi.34.3.665-674.1980",
+        "article-title": "\u201cCoronavirus Multiplication Strategy. I. Identification and Characterization of Virus-Specified RNA",
+        "volume": "34",
+        "year": "1980",
+        "journal-title": "Journal of Virology"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taiaroa, G. , D. Rawlinson , L. Featherstone , M. Pitt , and L. Caly . 2020. \u201cDirect RNA Sequencing and Early Evolution of SARS-CoV-2.\u201d bioRxiv. https://www.biorxiv.org/content/10.1101/2020.03.05.976167v2.abstract.",
+        "DOI": "10.1101/2020.03.05.976167"
+      },
+      {
+        "issue": "43",
+        "key": "2024080413542487000_2020.07.01.181867v2.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1686",
+        "DOI": "10.21105/joss.01686",
+        "article-title": "\u201cWelcome to the Tidyverse",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "Journal of Open Source Software"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2196-x"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1000378107"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wyler, E. , K. M\u00f6sbauer , V. Franke , A. Diag , and L. T. Gottula . 2020. \u201cBulk and Single-Cell Gene Expression Profiling of SARS-CoV-2 Infected Human Cell Lines Identifies Molecular Targets for Therapeutic Intervention.\u201d bioRxiv. https://www.biorxiv.org/content/10.1101/2020.05.05.079194v1.abstract.",
+        "DOI": "10.1016/j.isci.2021.102151"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Yiyan , Wei Yan , Brantley Hall , and Xiaofang Jiang . 2020. \u201cCharacterizing Transcriptional Regulatory Sequences in Coronaviruses and Their Role in Recombination.\u201d bioRxiv : The Preprint Server for Biology, June. https://doi.org/10.1101/2020.06.21.163410.",
+        "DOI": "10.1093/molbev/msaa281"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "key": "2024080413542487000_2020.07.01.181867v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.78.2.980-994.2004"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.01.181867",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:34:21Z",
+      "timestamp": 1768437261000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.07.01.181867"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2020.07.01.181867",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/gr.268110.120",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:42:58Z",
+      "timestamp": 1768563778117,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          29
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Aim</jats:title>\n                  <jats:p>We evaluated the performance of a machine learning model based on demographic variables, blood tests, pre-existing comorbidities, and CT-based radiomic features to predict critical outcome in patients with acute respiratory syndrome coronavirus 2 (SARS-CoV-2).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We retrospectively enrolled 694 SARS-CoV-2 positive patients. Clinical and demographic data were extracted from clinical records. Radiomic data were extracted from CT. Patients were randomized to the training (80%, n=556) or test (20%, n=138) dataset. The training set was used to define the association between severity of disease and comorbidities, laboratory tests, demographic and CT-based radiomic variables, and to implement a risk prediction model. Models were evaluated using the C statistic and Brier scores. The test set was used for external validation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Patients who died (n=157) were predominantly male (66%) over the age of 50 with (median [range] C-reactive protein (CRP)=5 [1, 37] mg/dL, lactate dehydrogenase (LDH)=494 [141, 3,631] U/I and D-dimer=6.006 [168, 152.015] ng/ml). Surviving patients (n=537) had (median [range]) CRP=3 [0, 27] mg/dL, LDH=484 [78, 3.745] U/I, and D-dimer=1.133 [96, 55.660]ng/ml. The strongest risk factors were D-dimer, age, and cardiovascular disease.</jats:p>\n                  <jats:p>The model implemented using the variables identified by the LASSO Cox regression analysis classified 152 of the 157 (97%) non-survivors as high risk individuals (Odd ratio=54.2 [21.9, 134.4]). Median survival in this group (14 [12, 19] days) was not different from that observed in non-survivors (12 [10, 14] days).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>A machine learning model based on combined data available on the first days of hospitalization (demographics, CT-radiomics, comorbidities, and blood biomarkers), can identify SARS-CoV-2 patients at risk of serious illness and death.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.06.22.23291773",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2023-06-29T15:40:11Z",
+      "timestamp": 1688053211000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Multivariable risk modelling and survival analysis with machine learning in SARS-CoV-2 infection"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6579-656X",
+        "authenticated-orcid": false,
+        "given": "Andrea",
+        "family": "Ciarmiello",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Francesca",
+        "family": "Tutino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elisabetta",
+        "family": "Giovannini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amalia",
+        "family": "Milano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matteo",
+        "family": "Barattini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nikola",
+        "family": "Yosifov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Debora",
+        "family": "Calvi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maurizio",
+        "family": "Setti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Massimiliano",
+        "family": "Sivori",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cinzia",
+        "family": "Sani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Bastreri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raffaele",
+        "family": "Staffiere",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Teseo",
+        "family": "Stefanini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stefania",
+        "family": "Artioli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giampiero",
+        "family": "Giovacchini",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7106a4"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00705-022-05385-y"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.clinimag.2021.04.033"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jamda.2020.05.045"
+      },
+      {
+        "issue": "10229",
+        "key": "2023070321252142000_2023.06.22.23291773v1.8",
+        "first-page": "1054",
+        "article-title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "China: a retrospective cohort study. The Lancet"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1753466620937175"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10408363.2020.1770685"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201433"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200075"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2021210384"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00330-020-07201-0"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2021.108071"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(21)00039-X"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-76141-y"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104304"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics11010041"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/RTI.0000000000000524"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mri.2012.05.001"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.159"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020191145"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/J.2517-6161.1996.TB02080.X"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.26",
+        "unstructured": "glmnet. http://cranr-projectorg/web/packages/glmnet,."
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1755-8794-4-31"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.28",
+        "unstructured": "Harrell FE, Jr . Regression Modeling Strategies. Springer-Verlag. 2006."
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harrell FE , Jrl FEH . Regression Modeling Strategies: With Applications to Linear Models, Logistic Regression, and Survival Analysis: Springer; 2001.",
+        "DOI": "10.1007/978-1-4757-3462-1"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Steyerberg EW . Clinical Prediction Models: A Practical Approach to Development, Validation, and Updating: Springer International Publishing; 2019.",
+        "DOI": "10.1007/978-3-030-16399-0"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13613-020-00650-2"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7861/clinmed.2020-0214"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.01811-2020"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsx.2020.11.007"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0256744"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajem.2020.05.073"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21037/jtd.2018.06.33"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/heartjnl-2020-317062"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm9040941"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41569-020-0413-9"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/openhrt-2020-001310"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1470-2045(18)30413-3"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/RLU.0000000000004433"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.45",
+        "first-page": "01/095",
+        "article-title": "Machine learning radiomics for prediction of survival in non-small cell lung cancer patients studied with PET/CT and FDG",
+        "volume": "32",
+        "year": "2021",
+        "journal-title": "Annals of Oncology"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mp.15582"
+      },
+      {
+        "key": "2023070321252142000_2023.06.22.23291773v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.105467"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.22.23291773",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:36:02Z",
+      "timestamp": 1768505762000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.06.22.23291773"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          29
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1101/2023.06.22.23291773",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/jcm12227164",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

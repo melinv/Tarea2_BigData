@@ -1,0 +1,488 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2026-03-30T18:37:02Z",
+      "timestamp": 1774895822561,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          17
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 58,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Coronavirus disease 2019 (COVID-19) has infected more than 1.3 million individuals all over the world and caused more than 106,000 deaths. One major hurdle in controlling the spreading of this disease is the inefficiency and shortage of medical tests. There have been increasing efforts on developing deep learning methods to diagnose COVID-19 based on CT scans. However, these works are difficult to reproduce and adopt since the CT data used in their studies are not publicly available. Besides, these works require a large number of CTs to train accurate diagnosis models, which are difficult to obtain. In this paper, we aim to address these two problems. We build a publicly-available dataset containing hundreds of CT scans positive for COVID-19 and develop sample-efficient deep learning methods that can achieve high diagnosis accuracy of COVID-19 from CT scans even when the number of training CT images are limited. Specifically, we propose a Self-Trans approach, which synergistically integrates contrastive self-supervised learning with transfer learning to learn powerful and unbiased feature representations for reducing the risk of overfitting. Extensive experiments demonstrate the superior performance of our proposed Self-Trans approach compared with several state-of-the-art baselines. Our approach achieves an F1 of 0.85 and an AUC of 0.94 in diagnosing COVID-19 from CT scans, even though the number of training CTs is just a few hundred.</jats:p>",
+    "DOI": "10.1101/2020.04.13.20063941",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2020-04-17T15:35:18Z",
+      "timestamp": 1587137718000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 223,
+    "title": [
+      "Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Xuehai",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xingyi",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shanghang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jinyu",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yichen",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pengtao",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.1",
+        "unstructured": "A. Bernheim , X. Mei , M. Huang , Y. Yang , Z. A. Fayad , N. Zhang , K. Diao , B. Lin , X. Zhu , K. Li , et al., \u201cChest ct findings in coronavirus disease-19 (covid-19): relationship to duration of infection,\u201d Radiology, p. 200463, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.2",
+        "article-title": "Rapid ai development cycle for the coronavirus (covid-19) pandemic: Initial results for automated detection & patient monitoring using deep learning ct image analysis",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.3",
+        "article-title": "A simple frame-work for contrastive learning of visual representations",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.4",
+        "article-title": "Deep learning system to screen coronavirus disease 2019 pneumonia",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zheng , X. Deng , Q. Fu , Q. Zhou , J. Feng , H. Ma , W. Liu , and X. Wang , \u201cDeep learning-based detection for covid-19 from chest ct using weak label,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.03.12.20027185"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.6",
+        "article-title": "Can ai help in screening viral and covid-19 pneumonia?",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.7",
+        "article-title": "Rapid ai development cycle for the coronavirus (covid-19) pandemic: Initial results for automated detection & patient monitoring using deep learning ct image analysis",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.8",
+        "unstructured": "L. Li , L. Qin , Z. Xu , Y. Yin , X. Wang , B. Kong , J. Bai , Y. Lu , Z. Fang , Q. Song , et al., \u201cArtificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct,\u201d Radiology, p. 200905, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Song , S. Zheng , L. Li , X. Zhang , X. Zhang , Z. Huang , J. Chen , H. Zhao , Y. Jie , R. Wang , et al., \u201cDeep learning enables accurate diagnosis of novel coronavirus (covid-19) with ct images,\u201d medRxiv, 2020.",
+        "DOI": "10.1109/TCBB.2021.3065361"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Wang , B. Kang , J. Ma , X. Zeng , M. Xiao , J. Guo , M. Cai , J. Yang , Y. Li , X. Meng , et al., \u201cA deep learning algorithm using ct images to screen for corona virus disease (covid-19),\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.02.14.20023028"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.11",
+        "article-title": "Lung infection quantification of covid-19 in ct images with deep learning",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Chen , L. Wu , J. Zhang , L. Zhang , D. Gong , Y. Zhao , S. Hu , Y. Wang , X. Hu , B. Zheng , et al., \u201cDeep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography: a prospective study,\u201d medRxiv, 2020.",
+        "DOI": "10.1101/2020.02.25.20021568"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.13",
+        "article-title": "Large-scale screening of covid-19 from community acquired pneumonia using infection size-aware classification",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.14",
+        "article-title": "Covid-19 image data collection",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.15",
+        "unstructured": "\u201cCovid-19 chest x-ray database.\u201d https://www.kaggle.com/tawsifurrahman/covid19-radiography-database/ Accessed April 9, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.16",
+        "unstructured": "\u201cCovid-19 database.\u201d https://www.sirm.org/ Accessed April 9, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.17",
+        "unstructured": "\u201cCovid-19.\u201d https://radiopaedia.org/ Accessed April 9, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.18",
+        "unstructured": "\u201cEurorad.\u201d https://www.eurorad.org/ Accessed April 9, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.19",
+        "unstructured": "\u201cCoronacases.\u201d https://coronacases.org/ Accessed April 9, 2020."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Deng , W. Dong , R. Socher , L.-J. Li , K. Li , and L. Fei-Fei , \u201cImagenet: A large-scale hierarchical image database,\u201d in CVPR, 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.21",
+        "unstructured": "S. Ren , K. He , R. Girshick , and J. Sun , \u201cFaster r-cnn: Towards real-time object detection with region proposal networks,\u201d in Advances in neural information processing systems, pp. 91\u201399, 2015."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.22",
+        "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "3",
+        "key": "2020113010501184000_2020.04.13.20063941v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "034501",
+        "DOI": "10.1117/1.JMI.3.3.034501",
+        "article-title": "Digital mammographic tumor classification using transfer learning from deep convolutional neural networks",
+        "volume": "3",
+        "year": "2016",
+        "journal-title": "Journal of Medical Imaging"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.24",
+        "unstructured": "M. Raghu , C. Zhang , J. Kleinberg , and S. Bengio , \u201cTransfusion: Understanding transfer learning for medical imaging,\u201d in Advances in Neural Information Processing Systems, pp. 3342\u20133352, 2019."
+      },
+      {
+        "issue": "2",
+        "key": "2020113010501184000_2020.04.13.20063941v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "559",
+        "DOI": "10.3390/app10020559",
+        "article-title": "A novel transfer learning based approach for pneumonia detection in chest x-ray images",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Applied Sciences"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. S. Elmahdy , S. S. Abdeldayem , and I. A. Yassine , \u201cLow quality dermal image classification using transfer learning,\u201d in 2017 IEEE EMBS International Conference on Biomedical & Health Informatics (BHI), pp. 373\u2013376, IEEE, 2017.",
+        "DOI": "10.1109/BHI.2017.7897283"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature21056"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.28",
+        "unstructured": "M. Raghu , C. Zhang , J. Kleinberg , and S. Bengio , \u201cTransfusion: Understanding transfer learning for medical imaging,\u201d in Advances in Neural Information Processing Systems, pp. 3342\u20133352, 2019."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.29",
+        "unstructured": "X. Li , S. Liu , S. De Mello , X. Wang , J. Kautz , and M.-H. Yang , \u201cJoint-task self-supervised learning for temporal correspondence,\u201d in Advances in Neural Information Processing Systems, pp. 317\u2013327, 2019."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.30",
+        "unstructured": "X. Wang , A. Jabri , and A. A. Efros , \u201cLearning correspondence from the cycle-consistency of time,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2566\u20132576, 2019."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.31",
+        "unstructured": "X. Wang , Q. Huang , A. Celikyilmaz , J. Gao , D. Shen , Y.-F. Wang , W. Y. Wang , and L. Zhang , \u201cReinforced cross-modal matching and self-supervised imitation learning for vision-language navigation,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 6629\u20136638, 2019."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.32",
+        "article-title": "Unsupervised representation learning by predicting image rotations",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.33",
+        "unstructured": "D. Pathak , P. Krahenbuhl , J. Donahue , T. Darrell , and A. A. Efros , \u201cContext encoders: Feature learning by inpainting,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 2536\u20132544, 2016."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Zhang , P. Isola , and A. A. Efros , \u201cColorful image colorization,\u201d in European conference on computer vision, pp. 649\u2013666, Springer, 2016.",
+        "DOI": "10.1007/978-3-319-46487-9_40"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.35",
+        "unstructured": "T. Nathan Mundhenk , D. Ho , and B. Y. Chen , \u201cImprovements to context based self-supervised learning,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 9339\u20139348, 2018."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.36",
+        "unstructured": "Z. Wu , Y. Xiong , S. X. Yu , and D. Lin , \u201cUnsupervised feature learning via non-parametric instance discrimination,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 3733\u20133742, 2018."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.37",
+        "article-title": "Representation learning with contrastive predictive coding",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.38",
+        "unstructured": "P. Bachman , R. D. Hjelm , and W. Buchwalter , \u201cLearning representations by maximizing mutual information across views,\u201d in Advances in Neural Information Processing Systems, pp. 15509\u201315519, 2019."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.39",
+        "article-title": "A simple frame-work for contrastive learning of visual representations",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.40",
+        "article-title": "Rethinking data augmentation: Self-supervision and self-distillation",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.41",
+        "article-title": "Momentum contrast for unsupervised visual representation learning",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.42",
+        "article-title": "\u201cImproved baselines with momentum contrastive learning,\u201d",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.43",
+        "first-page": "24",
+        "article-title": "Patchit: Self-supervised network weight initialization for fine-grained recognition",
+        "volume": "1",
+        "year": "2016",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.44",
+        "article-title": "Covid-ct-dataset: A ct scan dataset about covid-19",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Girshick , J. Donahue , T. Darrell , and J. Malik , \u201cRich feature hierarchies for accurate object detection and semantic segmentation,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 580\u2013587, 2014.",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 770\u2013778, 2016.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.47",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.48",
+        "unstructured": "G. Huang , Z. Liu , L. Van Der Maaten , and K. Q. Weinberger , \u201cDensely connected convolutional networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 4700\u20134708, 2017."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.49",
+        "article-title": "Efficientnet: Rethinking model scaling for convolutional neural networks",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.50",
+        "article-title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+        "year": "2015",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.51",
+        "first-page": "1735",
+        "article-title": "\u201cDimensionality reduction by learning an invariant mapping,\u201d in 2006",
+        "volume": "2",
+        "year": "2006",
+        "journal-title": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR\u2019 06)"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.52",
+        "article-title": "Learning deep representations by mutual information estimation and maximization",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.53",
+        "unstructured": "A. Tarvainen and H. Valpola , \u201cMean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results,\u201d in NIPS, 2017."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.54",
+        "unstructured": "\u201cLung nodule analysis 2016.\u201d https://luna16.grand-challenge.org/data/."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.55",
+        "first-page": "448",
+        "volume-title": "Proceedings of the 32nd International Conference on Machine Learning",
+        "volume": "37",
+        "author": "Proceedings of Machine Learning Research",
+        "year": "2015"
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.56",
+        "unstructured": "D. Kingma and J. Ba , \u201cAdam: A method for stochastic optimization,\u201d International Conference on Learning Representations, 12 2014."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.57",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , \u201cDelving deep into rectifiers: Surpassing human-level performance on imagenet classification,\u201d in Proceedings of the IEEE international conference on computer vision, pp. 1026\u20131034, 2015."
+      },
+      {
+        "key": "2020113010501184000_2020.04.13.20063941v1.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. R. Selvaraju , M. Cogswell , A. Das , R. Vedantam , D. Parikh , and D. Batra , \u201cGrad-cam: Visual explanations from deep networks via gradient-based localization,\u201d in Proceedings of the IEEE international conference on computer vision, pp. 618\u2013626, 2017.",
+        "DOI": "10.1109/ICCV.2017.74"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.13.20063941",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:37:20Z",
+      "timestamp": 1768484240000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.04.13.20063941"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          17
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1101/2020.04.13.20063941",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

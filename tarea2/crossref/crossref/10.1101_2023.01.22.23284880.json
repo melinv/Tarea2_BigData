@@ -1,0 +1,219 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:05:48Z",
+      "timestamp": 1768561548581,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          23
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 16,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>With the growing amount of COVID-19 cases, especially in developing countries with limited medical resources, it is essential to accurately and efficiently diagnose COVID-19. Due to characteristic ground-glass opacities (GGOs) and other types of lesions being present in both COVID-19 and other acute lung diseases, misdiagnosis occurs often \u2014 26.6% of the time in manual interpretations of CT scans. Current deep-learning models can identify COVID-19 but cannot distinguish it from other common lung diseases like bacterial pneumonia. Concretely, COVision is a deep-learning model that can differentiate COVID-19 from other common lung diseases, with high specificity using CT scans and other clinical factors. COVision was designed to minimize overfitting and complexity by decreasing the number of hidden layers and trainable parameters while still achieving superior performance. Our model consists of two parts: the CNN which analyzes CT scans and the CFNN (clinical factors neural network) which analyzes clinical factors such as age, gender, etc. Using federated averaging, we ensembled our CNN with the CFNN to create a comprehensive diagnostic tool. After training, our CNN achieved an accuracy of 95.8% and our CFNN achieved an accuracy of 88.75% on a validation set. We found a statistical significance that COVision performs better than three independent radiologists with at least 10 years of experience, especially in differentiating COVID-19 from pneumonia. We analyzed our CNN\u2019s activation maps through Grad-CAMs and found that lesions in COVID-19 presented peripherally, closer to the pleura, whereas pneumonia lesions presented centrally.</jats:p>",
+    "DOI": "10.1101/2023.01.22.23284880",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2023-01-23T19:30:13Z",
+      "timestamp": 1674502213000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "COVision: Convolutional Neural Network for the Differentiation of COVID-19 from Common Pulmonary Conditions Using CT Scans"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Kush V.",
+        "family": "Parikh",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Timothy J.",
+        "family": "Mathew",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.1",
+        "unstructured": "WHO Coronavirus (COVID-19) Dashboard. url: https://covid19.who.int/."
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.2",
+        "unstructured": "COVID-19 Lung Damage. url: https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/what-coronavirus-does-to-the-lungs."
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0251661"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2020.616277"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4269/ajtmh.21-0141"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejca.2011.11.036"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.02.010"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2021.108255"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "108780",
+        "DOI": "10.1016/j.asoc.2022.108780",
+        "article-title": "COVID-WideNet\u2014A capsule network for COVID-19 detection",
+        "volume": "122",
+        "year": "2022",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.10",
+        "unstructured": "2019 Novel Coronavirus Resource. url: http://ncovai.big.ac.cn/download?lang=en."
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.amjmed.2009.09.004"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.clinimag.2020.04.025"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6084/M9.FIGSHARE.16682422.V1"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.14",
+        "unstructured": "https://data.gov.il/dataset/covid-19. (n.d.). https://data.gov.il/dataset/covid-19"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-019-01228-7"
+      },
+      {
+        "key": "2023102611050662000_2023.01.22.23284880v3.16",
+        "unstructured": "McMahan, H. B. , Moore, E. , Ramage, D. , Hampson, S. , & Arcas, B. A. (2016). Communication-Efficient Learning of Deep Networks from Decentralized Data. ArXiv. /abs/1602.05629"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.22.23284880",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:25:45Z",
+      "timestamp": 1768505145000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.01.22.23284880"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          23
+        ]
+      ]
+    },
+    "references-count": 16,
+    "URL": "https://doi.org/10.1101/2023.01.22.23284880",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

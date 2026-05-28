@@ -1,0 +1,298 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:51:38Z",
+      "timestamp": 1768553498329,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          7
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 16,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  During the COVID-19 pandemic, West Virginia developed an aggressive SARS-CoV-2 testing strategy which included utilizing pop-up mobile testing in locations anticipated to have near-term increases in SARS-CXoV-2 infections. In this study, we describe and compare two methods for predicting near-term SARS-CoV-2 incidence in West Virginia counties. The first method, R\n                  <jats:sub>t</jats:sub>\n                  Only, is solely based on producing forecasts for each county using the daily instantaneous reproductive numbers, R\n                  <jats:sub>t.</jats:sub>\n                  The second method, ML+ R\n                  <jats:sub>t</jats:sub>\n                  , is a machine learning approach that uses a Long Short-Term Memory network to predict the near-term number of cases for each county using epidemiological statistics such as Rt, county population information, and time series trends including information on major holidays, as well as leveraging statewide COVID-19 trends across counties and county population size. Both approaches used daily county-level SARS-CoV-2 incidence data provided by the West Virginia Department Health and Human Resources beginning April 2020. The methods are compared on the accuracy of near-term SARS-CoV-2 increases predictions by county over 17 weeks from January 1, 2021-April 30, 2021. Both methods performed well (correlation between forecasted number of cases and the actual number of cases week over week is 0.872 for the ML+R\n                  <jats:sub>t</jats:sub>\n                  method and 0.867 for the R\n                  <jats:sub>t</jats:sub>\n                  Only method) but differ in performance at various time points. Over the 17-week assessment period, the ML+R\n                  <jats:sub>t</jats:sub>\n                  method outperforms the R\n                  <jats:sub>t</jats:sub>\n                  Only method in identifying larger spikes. We also find that both methods perform adequately in both rural and non-rural predictions. Finally, we provide a detailed discussion on practical issues regarding implementing forecasting models for public health action based on R\n                  <jats:sub>t</jats:sub>\n                  , and the potential for further development of machine learning methods that are enhanced by R\n                  <jats:sub>t.</jats:sub>\n                </jats:p>",
+    "DOI": "10.1101/2021.10.06.21264569",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2021-10-07T15:11:20Z",
+      "timestamp": 1633619480000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting increases in COVID-19 incidence to identify locations for targeted testing in West Virginia: A machine learning enhanced approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Bradley S.",
+        "family": "Price",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Maryam",
+        "family": "Khodaverdi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Adam",
+        "family": "Halasz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Brian",
+        "family": "Hendricks",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wesley",
+        "family": "Kimble",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gordon S.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sally L.",
+        "family": "Hodder",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.07.07.21260122"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.2",
+        "unstructured": "Bradford, J. , Coe, E. , Enomoto, K. , & White, M. (2020). Rural Communities: Protecting Rural Lives and Health. Retrieved from McKinsey: https://www.mckinsey.com/industries/healthcare-systems-and-services/our-insights/covid-19-and-rural-communities-protecting-rural-lives-and-health"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "20180670",
+        "DOI": "10.1098/rsif.2018.0670",
+        "article-title": "Estimation in emerging epidemics: Biases and remedies",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "J R Soc Interface"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Challen, R. , Brooks-Pollock, E. , Tsaneva-Atanasova, K. , & Danon, L. (2020). Meta-analysis of SARS-CoV-2 serial interval and the impact of parameter uncertainty on the COVID-19 reproduction number. Retrieved November 2020, from medRXiv preprint: https://doi.org/10.1101/2020.11.17.20231548",
+        "DOI": "10.1101/2020.11.17.20231548"
+      },
+      {
+        "issue": "9",
+        "key": "2021100907000709000_2021.10.06.21264569v1.5",
+        "first-page": "1505",
+        "article-title": "A new framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics",
+        "volume": "179",
+        "year": "2013",
+        "journal-title": "American Journal of Epidemiology"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "974",
+        "DOI": "10.1186/s12913-019-4815-5",
+        "article-title": "Access to specialty healthcare in urban vs. rural US populations: a systematic literature review",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "BMC Health Serv Res"
+      },
+      {
+        "issue": "5",
+        "key": "2021100907000709000_2021.10.06.21264569v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1016/S1473-3099(20)30120-1",
+        "article-title": "An interactive web-based dashboard to track COVID-19 in real time",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2405-7"
+      },
+      {
+        "issue": "12",
+        "key": "2021100907000709000_2021.10.06.21264569v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008409",
+        "DOI": "10.1371/journal.pcbi.1008409",
+        "article-title": "PRactical considerations for measuring the effective reproductive number Rt",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "issue": "4",
+        "key": "2021100907000709000_2021.10.06.21264569v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "422",
+        "DOI": "10.1145/582415.582418",
+        "article-title": "Cumulated gain-based evaluation of IR techniques",
+        "volume": "20",
+        "year": "2002",
+        "journal-title": "ACM Transactions on Information Systems"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.12",
+        "unstructured": "Mishra, S. , & Valka, F. (2020, Jan). ImperialCollegeLondon/covid19model: Nature, 2020 https://www.nature.com/articles/s41586-020-2405-7. Retrieved Aug 13, 2021, from https://doi.org/10.5281/zenodo.3888697"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019378118",
+        "DOI": "10.1073/pnas.2019378118",
+        "article-title": "Impact of the COVID-19 Pandemic on Rural America",
+        "volume": "118",
+        "year": "2021",
+        "journal-title": "PNAS"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.14",
+        "unstructured": "Rural-Urban Continuum Codes (RUCC). (n.d.). Retrieved from https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/"
+      },
+      {
+        "key": "2021100907000709000_2021.10.06.21264569v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2019.100356"
+      },
+      {
+        "issue": "6",
+        "key": "2021100907000709000_2021.10.06.21264569v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "509",
+        "DOI": "10.1093/aje/kwh255",
+        "article-title": "Different epidemic curves for severa acute respiratory syndrome reveal simila impacts of control measures",
+        "volume": "160",
+        "year": "2004",
+        "journal-title": "Americal Journal of Epidemiology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.10.06.21264569",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:26:59Z",
+      "timestamp": 1768487219000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.10.06.21264569"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          7
+        ]
+      ]
+    },
+    "references-count": 16,
+    "URL": "https://doi.org/10.1101/2021.10.06.21264569",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0259538",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          7
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

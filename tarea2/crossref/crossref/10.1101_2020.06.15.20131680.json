@@ -1,0 +1,482 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:31:17Z",
+      "timestamp": 1768548677048,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "group-title": "Nephrology",
+    "reference-count": 39,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>We developed two unique machine learning (ML) models that predict risk of: 1) a major COVID-19 outbreak in the service county of a local HD population within following week, and 2) a hemodialysis (HD) patient having an undetected SARS-CoV-2 infection that is identified after following 3 or more days.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We used county-level data from United States population (March 2020) and HD patient data from a network of clinics (February-May 2020) to develop two ML models. First was a county-level model that used data from general and HD populations (21 variables); outcome of a COVID-19 outbreak in a dialysis service area was defined as a clinic being located in one of the national counties with the highest growth in COVID-19 positive cases (number and people per million (ppm)) in general population during 22-28 Mar 2020. Second was a patient-level model that used HD patient data (82 variables) to predict an individual having an undetected SARS-CoV-2 infection that is identified in subsequent \u22653 days.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Among 1682 counties with dialysis clinics, 82 (4.9%) had a COVID-19 outbreak during 22-28 Mar 2020. Area under the receiver operating characteristic curve (AUROC) for the county-level model was 0.86 in testing dataset. Top predictor of a county experiencing an outbreak was the COVID-19 positive ppm in the general population in the prior week. In a select group (n=11,664) used to build the patient-level model, 28% of patients had COVID-19; prevalence was by design 10% in the testing dataset. AUROC for the patient-level model was 0.71 in the testing dataset. Top predictor of an HD patient having a SARS-CoV-2 infection was mean pre-HD body temperature in the prior week.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Developed ML models appear suitable for predicting counties at risk of a COVID-19 outbreak and HD patients at risk of having an undetected SARS-CoV-2 infection.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.06.15.20131680",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2020-06-17T11:02:22Z",
+      "timestamp": 1592391742000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Artificial Intelligence for COVID-19 Risk Classification in Kidney Disease: Can Technology Unmask an Unseen Disease?"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Caitlin",
+        "family": "Monaghan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8873-8971",
+        "authenticated-orcid": false,
+        "given": "John W.",
+        "family": "Larkin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sheetal",
+        "family": "Chaudhuri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hao",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yue",
+        "family": "Jiao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristine M.",
+        "family": "Bermudez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric D.",
+        "family": "Weinhandl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ines A.",
+        "family": "Dahne-Steuber",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kathleen",
+        "family": "Belmonte",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5438-1329",
+        "authenticated-orcid": false,
+        "given": "Luca",
+        "family": "Neri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4373-412X",
+        "authenticated-orcid": false,
+        "given": "Peter",
+        "family": "Kotanko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeroen P.",
+        "family": "Kooman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5540-131X",
+        "authenticated-orcid": false,
+        "given": "Jeffrey L.",
+        "family": "Hymes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert J.",
+        "family": "Kossmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2745-1429",
+        "authenticated-orcid": false,
+        "given": "Len A.",
+        "family": "Usvyat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1395-2011",
+        "authenticated-orcid": false,
+        "given": "Franklin W.",
+        "family": "Maddux",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kliger AS , Silberzweig J : Mitigating Risk of COVID-19 in Dialysis Facilities. Clin J Am Soc Nephrol, 2020",
+        "DOI": "10.2215/CJN.03340320"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ikizler TA : COVID-19 and Dialysis Units: What Do We Know Now and What Should We Do? Am J Kidney Dis, 2020",
+        "DOI": "10.1053/j.ajkd.2020.03.008"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Basile C , Combe C , Pizzarelli F , Covic A , Davenport A , Kanbay M , Kirmizis D , Schneditz D , van der Sande F , Mitra S : Recommendations for the prevention, mitigation and containment of the emerging SARS-CoV-2 (COVID-19) pandemic in haemodialysis centres. Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association, 2020",
+        "DOI": "10.1093/ndt/gfaa069"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34067/KID.0001452020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34067/KID.0001782020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.6",
+        "unstructured": "United States Renal Data System. 2019 USRDS annual data report: Epidemiology of kidney disease in the United States. National Institutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD, 2019"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcv.2020.104354"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo T , Fan Y , Chen M , Wu X , Zhang L , He T , Wang H , Wan J , Wang X , Lu Z : Cardiovascular Implications of Fatal Outcomes of Patients With Coronavirus Disease 2019 (COVID-19). JAMA Cardiol, 2020",
+        "DOI": "10.1001/jamacardio.2020.1017"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li X , Xu S , Yu M , Wang K , Tao Y , Zhou Y , Shi J , Zhou M , Wu B , Yang Z , Zhang C , Yue J , Zhang Z , Renz H , Liu X , Xie J , Xie M , Zhao J : Risk factors for severity and mortality in adult COVID-19 inpatients in Wuhan. J Allergy Clin Immunol, 2020",
+        "DOI": "10.1016/j.jaci.2020.04.006"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng Y , Luo R , Wang K , Zhang M , Wang Z , Dong L , Li J , Yao Y , Ge S , Xu G : Kidney disease is associated with in-hospital death of patients with COVID-19. Kidney international, 2020",
+        "DOI": "10.1101/2020.02.18.20023242"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Du RH, Liang LR , Yang CQ , Wang W , Cao TZ , Li M , Guo GY, D.J , Zheng CL , Zhu Q , Hu M , Li XY , Peng P , Shi HZ : Predictors of Mortality for Patients with COVID-19 Pneumonia Caused by SARS-CoV-2: A Prospective Cohort Study. Eur Respir J, 2020",
+        "DOI": "10.1183/13993003.00524-2020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Adams ML , Katz DL , Grandpre J : Population-Based Estimates of Chronic Conditions Affecting Risk for Complications from Coronavirus Disease, United States. Emerg Infect Dis, 26, 2020",
+        "DOI": "10.3201/eid2608.200679"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.13",
+        "unstructured": "Neumann ME : Latest data show 305 dialysis patient deaths due to COVID-19 in the US. Nephrology News & Issues, (Accessed 22 Apr 2020): https://www.healio.com/nephrology/infection-control/news/online/%7B3a263aa269-ad259-264c263f-aab267-207b8395508e8395505%8395507D/latest-data-show-8395305-dialysis-patient-deaths-due-to-covid-8395519-in-the-us, 2020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.14",
+        "first-page": "465",
+        "volume": "69",
+        "author": "Team CC-R",
+        "year": "2020",
+        "journal-title": "Geographic Differences in COVID-19 Cases, Deaths, and Incidence - United States, February 12-April 7, 2020. MMWR Morb Mortal Wkly Rep"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.15",
+        "unstructured": "ERACODA - The ERA-EDTA COVID-19 Database for Patients on Kidney Replacement Therapy. ERA-EDTA, (Accessed 02 May 2020): https://www.era-edta.org/en/wp-content/uploads/2020/2004/ERACODA-Study-Report-2020-2004-2029.pdf, 2020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang H : Maintenance Hemodialysis and Coronavirus Disease 2019 (COVID-19): Saving Lives With Caution, Care, and Courage. Kidney Med, 2020",
+        "DOI": "10.1016/j.xkme.2020.03.003"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma Y , Diao B , Lv X , Zhu J , Liang W , Liu L , Bu W , Cheng H , Zhang S , Yang L , Shi M , Ding G , Shen B , Wang H : 2019 novel coronavirus disease in hemodialysis (HD) patients: Report from one HD center in Wuhan, China. medRxiv: 2020.2002.2024.20027201, 2020",
+        "DOI": "10.1101/2020.02.24.20027201"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcv.2020.104357"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.19",
+        "unstructured": "Niiler E : An AI Epidemiologist Sent the First Warnings of the Wuhan Virus. Wired, (Accessed 22 Apr 2020): https://www.wired.com/story/ai-epidemiologist-wuhan-public-health-warnings/, 2020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bogoch, II , Watts A , Thomas-Bachli A , Huber C , Kraemer MUG , Khan K : Pneumonia of unknown aetiology in Wuhan, China: potential for international spread via commercial air travel. J Travel Med, 27, 2020",
+        "DOI": "10.1093/jtm/taaa008"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e166",
+        "DOI": "10.1016/S2589-7500(20)30054-6",
+        "article-title": "COVID-19 and artificial intelligence: protecting health-care workers and curbing the spread",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/physiolgenomics.00029.2020"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.24",
+        "unstructured": "Smith M , Yourish K , Almukhtar S , Collins K , Ivory D , Harmon A , et al.: Coronavirus (Covid-19) Data in the United States: Data from The New York Times, based on reports from state and local health agencies. The New York Times, (Accessed 04 May 2020): https://github.com/nytimes/covid-19-data,"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.25",
+        "unstructured": "Health Resources & Services Administration: Area Health Resources Files. US Department of Health & Human Services, (Accessed 04 May 2020): https://data.hrsa.gov/topics/health-workforce/ahrf,"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C : XGBoost: A Scalable Tree Boosting System. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. San Francisco, California, USA, Association for Computing Machinery, 2016 pp 785\u2013794",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.27",
+        "first-page": "307",
+        "volume-title": "Contributions to the Theory of Games II. Annals of Mathematics Studies",
+        "volume": "28",
+        "year": "1953"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.28",
+        "first-page": "647",
+        "article-title": "Explaining prediction models and individual predictions with feature contributions",
+        "volume": "41",
+        "year": "2013",
+        "journal-title": "J Knowledge and Information Systems"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.29",
+        "unstructured": "Lundberg S , Lee SI : \u201cA Unified Approach to Interpreting Model Predictions.\u201d In: I. Guyon , U. V. Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan and R. Garnett , Eds., Advances in Neural Information Processing Systems 30. Curran Associates, Inc: 4765-4774, 2017"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1038/s42256-019-0138-9",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1139",
+        "DOI": "10.1093/ndt/gfr395",
+        "article-title": "Circadian variations in body temperature during dialysis",
+        "volume": "27",
+        "year": "2012",
+        "journal-title": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/j.dsx.2020.04.012",
+        "article-title": "Artificial Intelligence (AI) applications for COVID-19 pandemic",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "Diabetes Metab Syndr"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Branas CC , Rundle A , Pei S , Yang W , Carr BG , Sims S , Zebrowski A , Doorley R , Schluger N , Quinn JW , Shaman J : Flattening the curve before it flattens us: hospital critical care capacity limits and mortality from novel coronavirus (SARS-CoV2) cases in US counties. medRxiv: 2020.2004.2001.20049759, 2020",
+        "DOI": "10.1101/2020.04.01.20049759"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "102202",
+        "DOI": "10.1016/j.apgeog.2020.102202",
+        "article-title": "Rapid surveillance of COVID-19 in the United States using a prospective space-time scan statistic: Detecting and evaluating emerging clusters",
+        "volume": "118",
+        "year": "2020",
+        "journal-title": "Appl Geogr"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meng Z , Wang M , Song H , Guo S , Zhou Y , Li W , Zhou Y , Li M , Song X , Zhou Y , Li Q , Lu X , Ying B : Development and utilization of an intelligent application for aiding COVID-19 diagnosis. medRxiv: 2020.2003.2018.20035816, 2020",
+        "DOI": "10.1101/2020.03.18.20035816"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song C-Y , Xu J , He J-Q , Lu Y-Q : COVID-19 early warning score: a multi-parameter screening tool to identify highly suspected patients. medRxiv: 2020.2003.2005.20031906, 2020",
+        "DOI": "10.1101/2020.03.05.20031906"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng C , Huang Z , Wang L , Chen X , Zhai Y , Zhu F , Chen H , Wang Y , Su X , Huang S , Tian L , Zhu W , Sun W , Zhang L , Han Q , Zhang J , Pan F , Chen L , Zhu Z , Xiao H , Liu Y , Liu G , Chen W , Li T : A Novel Triage Tool of Artificial Intelligence Assisted Diagnosis Aid System for Suspected COVID-19 pneumonia In Fever Clinics. medRxiv: 2020.2003.2019.20039099, 2020",
+        "DOI": "10.1101/2020.03.19.20039099"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leung K , Wu JT , Liu D , Leung GM : First-wave COVID-19 transmissibility and severity in China outside Hubei after control measures, and second-wave scenario planning: a modelling impact assessment. Lancet, 2020",
+        "DOI": "10.1016/S0140-6736(20)30746-7"
+      },
+      {
+        "key": "2021010203250867000_2020.06.15.20131680v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu S , Li Y : Beware of the second wave of COVID-19. Lancet, 2020",
+        "DOI": "10.1016/S0140-6736(20)30845-X"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.15.20131680",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:45:05Z",
+      "timestamp": 1768484705000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.15.20131680"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1101/2020.06.15.20131680",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.34067/KID.0003802020",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

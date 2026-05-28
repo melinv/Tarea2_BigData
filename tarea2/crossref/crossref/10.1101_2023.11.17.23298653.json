@@ -1,0 +1,579 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:28:26Z",
+      "timestamp": 1768566506720,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 47,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>Develop models to predict 30-day COVID-19 hospitalization and death in the Omicron era for clinical and research applications.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Material and Methods</jats:title>\n                  <jats:p>We used comprehensive electronic health records from a national cohort of patients in the Veterans Health Administration (VHA) who tested positive for SARS-CoV-2 between March 1, 2022, and March 31, 2023. Full models incorporated 84 predictors, including demographics, comorbidities, and receipt of COVID-19 vaccinations and anti-SARS-CoV-2 treatments. Parsimonious models included 19 predictors. We created models for 30-day hospitalization or death, 30-day hospitalization, and 30-day all-cause mortality. We used the Super Learner ensemble machine learning algorithm to fit prediction models. Model performance was assessed with the area under the receiver operating characteristic curve (AUC), Brier scores, and calibration intercepts and slopes in a 20% holdout dataset.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Models were trained and tested on 198,174 patients, of whom 8% were hospitalized or died within 30 days of testing positive. AUCs for the full models ranged from 0.80 (hospitalization) to 0.91 (death). Brier scores were close to 0, with the lowest error in the mortality model (Brier score: 0.01). All three models were well calibrated with calibration intercepts &lt;0.23 and slopes &lt;1.05. Parsimonious models performed comparably to full models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>These models may be used for risk stratification to inform COVID-19 treatment and to identify high-risk patients for inclusion in clinical trials.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>We developed prediction models that accurately estimate COVID-19 hospitalization and mortality risk following emergence of the Omicron variant and in the setting of COVID-19 vaccinations and antiviral treatments.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.11.17.23298653",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2023-11-18T20:15:11Z",
+      "timestamp": 1700338511000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Development of a prediction model for 30-day COVID-19 hospitalization and death in a national cohort of Veterans Health Administration patients \u2013 March 2022 - April 2023"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "David P.",
+        "family": "Bui",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Kristina L.",
+        "family": "Bajema",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lei",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuli",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rajeevan",
+        "family": "Nallakkandi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristin",
+        "family": "Berry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mazhgan",
+        "family": "Rowneki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephanie",
+        "family": "Argraves",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Denise",
+        "family": "Hynes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Grant",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mihaela",
+        "family": "Aslan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "George N.",
+        "family": "Ioannou",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang L , Zhang Y , Wang D , Tong X , Liu T , Zhang S , et al. Artificial Intelligence for COVID-19: A Systematic Review. Front Med (Lausanne). 2021;8:704256.",
+        "DOI": "10.3389/fmed.2021.704256"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shakibfar S , Nyberg F , Li H , Zhao J , Nordeng HME , Sandve GKF , et al. Artificial intelligence-driven prediction of COVID-19-related hospitalization and death: a systematic review. Front Public Health. 2023;11:1183725.",
+        "DOI": "10.3389/fpubh.2023.1183725"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Appel KS , Geisler R , Maier D , Miljukov O , Hopff SM , Vehreschild JJ . A Systematic Review of Predictor Composition, Outcomes, Risk of Bias, and Validation of COVID-19 Prognostic Scores. Clinical Infectious Diseases. 2023 Oct 25;ciad618.",
+        "DOI": "10.1093/cid/ciad618"
+      },
+      {
+        "issue": "1",
+        "key": "2023112112050858000_2023.11.17.23298653v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "393",
+        "DOI": "10.1146/annurev-biodatasci-122220-110053",
+        "article-title": "Developing and Implementing Predictive Models in a Learning Healthcare System: Traditional and Artificial Intelligence Approaches in the Veterans Health Administration",
+        "volume": "5",
+        "year": "2022",
+        "journal-title": "Annu Rev Biomed Data Sci"
+      },
+      {
+        "issue": "18",
+        "key": "2023112112050858000_2023.11.17.23298653v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.15585/mmwr.mm7218a4",
+        "article-title": "COVID-19 Mortality Update - United States, 2022",
+        "volume": "72",
+        "year": "2023",
+        "journal-title": "MMWR Morb Mortal Wkly Rep"
+      },
+      {
+        "issue": "6",
+        "key": "2023112112050858000_2023.11.17.23298653v1.6",
+        "first-page": "807",
+        "article-title": "Effectiveness of COVID-19 Treatment With Nirmatrelvir\u2013Ritonavir or Molnupiravir Among U",
+        "volume": "176",
+        "year": "2023",
+        "journal-title": "S. Veterans: Target Trial Emulation Studies With One-Month and Six-Month Outcomes. Ann Intern Med"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2118542"
+      },
+      {
+        "issue": "1",
+        "key": "2023112112050858000_2023.11.17.23298653v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "4439",
+        "DOI": "10.1038/s41467-020-18297-9",
+        "article-title": "Developing a COVID-19 mortality risk prediction model when individual-level data are not available",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "1",
+        "key": "2023112112050858000_2023.11.17.23298653v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "18126",
+        "DOI": "10.1038/s41598-022-22547-9",
+        "article-title": "A predictive model for hospitalization and survival to COVID-19 in a retrospective population-based study",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "1",
+        "key": "2023112112050858000_2023.11.17.23298653v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "4945",
+        "DOI": "10.1038/s41598-021-84603-0",
+        "article-title": "SARS2 simplified scores to estimate risk of hospitalization and death among patients with COVID-19",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0241825"
+      },
+      {
+        "issue": "11",
+        "key": "2023112112050858000_2023.11.17.23298653v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e29504",
+        "DOI": "10.2196/29504",
+        "article-title": "Algorithm for Individual Prediction of COVID-19\u2013Related Hospitalization Based on Symptoms: Development and Implementation Study",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "JMIR Public Health Surveill"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.13",
+        "first-page": "116",
+        "article-title": "Development and Validation of a Prognostic Risk Score System for COVID-19 Inpatients: A Multi-Center Retrospective Study in China",
+        "volume": "8",
+        "year": "2022",
+        "journal-title": "Engineering (Beijing"
+      },
+      {
+        "issue": "4",
+        "key": "2023112112050858000_2023.11.17.23298653v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1007/s10654-022-00855-8",
+        "article-title": "Predicting counterfactual risks under hypothetical treatment strategies: an application to HIV",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "European Journal of Epidemiology"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxz041"
+      },
+      {
+        "issue": "1",
+        "key": "2023112112050858000_2023.11.17.23298653v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "5033",
+        "DOI": "10.1038/s41467-020-18684-2",
+        "article-title": "Machine learning based early warning system enables accurate mortality risk prediction for COVID-19",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horvath A , Lind T , Frece N , Wurzer H , Stadlbauer V . Validation of a simple risk stratification tool for COVID-19 mortality. Frontiers in Medicine [Internet]. 2022;9. Available from: https://www.frontiersin.org/articles/10.3389/fmed.2022.1016180",
+        "DOI": "10.3389/fmed.2022.1016180"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.18",
+        "unstructured": "Knight SR , Ho A , Pius R , Buchan I , Carson G , Drake TM , et al. Risk stratification of patients admitted to hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: development and validation of the 4C Mortality Score. BMJ. 2020 Sep 9;370:m3339."
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0245840"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van der Laan MJ , Polley EC , Hubbard AE . Super learner. Stat Appl Genet Mol Biol. 2007;6:Article25.",
+        "DOI": "10.2202/1544-6115.1309"
+      },
+      {
+        "issue": "5",
+        "key": "2023112112050858000_2023.11.17.23298653v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "459",
+        "DOI": "10.1007/s10654-018-0390-z",
+        "article-title": "Stacked generalization: an introduction to super learning",
+        "volume": "33",
+        "year": "2018",
+        "journal-title": "European Journal of Epidemiology"
+      },
+      {
+        "issue": "4",
+        "key": "2023112112050858000_2023.11.17.23298653v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1276",
+        "DOI": "10.1093/ije/dyad023",
+        "article-title": "Practical considerations for specifying a super learner",
+        "volume": "52",
+        "year": "2023",
+        "journal-title": "International Journal of Epidemiology"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M14-0697"
+      },
+      {
+        "issue": "46",
+        "key": "2023112112050858000_2023.11.17.23298653v1.24",
+        "first-page": "8",
+        "article-title": "Consensus elements for observational research on COVID-19-related long-term outcomes",
+        "volume": "101",
+        "year": "2022",
+        "journal-title": "Medicine"
+      },
+      {
+        "issue": "4",
+        "key": "2023112112050858000_2023.11.17.23298653v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e214347",
+        "DOI": "10.1001/jamanetworkopen.2021.4347",
+        "article-title": "Development of COVIDVax Model to Estimate the Risk of SARS-CoV-2\u2013Related Death Among 7.6 Million US Veterans for Use in Vaccination Prioritization",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "JAMA Network Open"
+      },
+      {
+        "issue": "3",
+        "key": "2023112112050858000_2023.11.17.23298653v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "416",
+        "DOI": "10.1093/cid/ciab419",
+        "article-title": "Trends Over Time in the Risk of Adverse Outcomes Among Patients With Severe Acute Respiratory Syndrome Coronavirus 2 Infection",
+        "volume": "74",
+        "year": "2022",
+        "journal-title": "Clin Infect Dis"
+      },
+      {
+        "issue": "1",
+        "key": "2023112112050858000_2023.11.17.23298653v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1186/s12874-017-0375-8",
+        "article-title": "Accounting for treatment use when validating a prognostic model: a simulation study",
+        "volume": "17",
+        "year": "2017",
+        "journal-title": "BMC Medical Research Methodology"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclinepi.2016.03.017"
+      },
+      {
+        "issue": "3",
+        "key": "2023112112050858000_2023.11.17.23298653v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "795",
+        "DOI": "10.1007/s11605-020-04754-9",
+        "article-title": "Association of Socioeconomic Area Deprivation Index with Hospital Readmissions After Colon and Rectal Surgery",
+        "volume": "25",
+        "year": "2021",
+        "journal-title": "J Gastrointest Surg"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-9681(87)90171-8"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang L , Porter B , Maynard C , Evans G , Bryson C , Sun H , et al. Predicting Risk of Hospitalization or Death Among Patients Receiving Primary Care in the Veterans Health Administration. Medical Care [Internet]. 2013;51(4). Available from: https://journals.lww.com/lww-medicalcare/fulltext/2013/04000/predicting_risk_of_hospitalization_or_death_among.12.aspx",
+        "DOI": "10.1097/MLR.0b013e31827da95a"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0236554"
+      },
+      {
+        "issue": "3",
+        "key": "2023112112050858000_2023.11.17.23298653v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "468",
+        "DOI": "10.1080/19466315.2022.2116104",
+        "article-title": "Developing a Targeted Learning-Based Statistical Analysis Plan",
+        "volume": "15",
+        "year": "2023",
+        "journal-title": "Statistics in Biopharmaceutical Research"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zachary Butzin-Dozier , Yunwen Ji , Haodong Li , Jeremy Coyle , Junming (Seraphina) Shi, Rachael V. Philips, et al. Predicting Long COVID in the National COVID Cohort Collaborative Using Super Learner. medRxiv. 2023 Jan 1;2023.07.27.23293272.",
+        "DOI": "10.1101/2023.07.27.23293272"
+      },
+      {
+        "issue": "7",
+        "key": "2023112112050858000_2023.11.17.23298653v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "e532",
+        "DOI": "10.1016/S2589-7500(22)00048-6",
+        "article-title": "Identifying who has long COVID in the USA: a machine learning approach using N3C data",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/ijb-2015-0035"
+      },
+      {
+        "issue": "5",
+        "key": "2023112112050858000_2023.11.17.23298653v1.37",
+        "first-page": "1",
+        "article-title": "Building Predictive Models in R Using the caret Package",
+        "volume": "28",
+        "year": "2008",
+        "journal-title": "J Stat Soft"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.5941"
+      },
+      {
+        "issue": "4",
+        "key": "2023112112050858000_2023.11.17.23298653v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "621",
+        "DOI": "10.1093/jamia/ocz228",
+        "article-title": "A tutorial on calibration measurements and calibration models for clinical prediction models",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "Journal of the American Medical Informatics Association"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.40",
+        "unstructured": "MDCalc [Internet]. [cited 2023 Nov 3]. Veterans Health Administration COVID-19 (VACO) Index for COVID-19 Mortality. Available from: https://www.mdcalc.com/calc/10346/veterans-health-administration-covid-19-vaco-index-covid-19-mortality"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2017.12126"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.42",
+        "unstructured": "Lundberg SM , Lee SI . A unified approach to interpreting model predictions. Advances in neural information processing systems. 2017;30."
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.43",
+        "unstructured": "National Academies of Sciences E, Education D of B and SS and, Integration B on HS, Sciences D on E and P, Environment B on I and the C, Administration C on FSR for VH. Nature of Veterans Health Administration Facilities Management (Engineering) Tasks and Staffing. In: Facilities Staffing Requirements for the Veterans Health Administration-Resource Planning and Methodology for the Future [Internet]. National Academies Press (US); 2019 [cited 2023 Nov 6]. Available from: https://www.ncbi.nlm.nih.gov/books/NBK555777/"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2104626"
+      },
+      {
+        "key": "2023112112050858000_2023.11.17.23298653v1.45",
+        "unstructured": "CDC. Centers for Disease Control and Prevention. 2020 [cited 2023 Nov 1]. COVID Data Tracker. Available from: https://covid.cdc.gov/covid-data-tracker/index.html#nationwide-blood-donor-seroprevalence"
+      },
+      {
+        "issue": "8",
+        "key": "2023112112050858000_2023.11.17.23298653v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2331249",
+        "DOI": "10.1001/jamanetworkopen.2023.31249",
+        "article-title": "Anti\u2013SARS-CoV-2 Pharmacotherapies Among Nonhospitalized US Veterans, January 2022 to January 2023",
+        "volume": "6",
+        "year": "2023",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "issue": "43",
+        "key": "2023112112050858000_2023.11.17.23298653v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1384",
+        "DOI": "10.15585/mmwr.mm7143a3",
+        "article-title": "Notes From the Field: Dispensing of Oral Antiviral Drugs for Treatment of COVID-19 by Zip Code-Level Social Vulnerability - United States, December 23, 2021-August 28, 2022",
+        "volume": "71",
+        "year": "2022",
+        "journal-title": "MMWR Morb Mortal Wkly Rep"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.11.17.23298653",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:45:09Z",
+      "timestamp": 1768506309000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.11.17.23298653"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1101/2023.11.17.23298653",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0307235",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

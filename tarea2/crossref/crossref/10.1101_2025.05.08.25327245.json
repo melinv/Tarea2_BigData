@@ -1,0 +1,419 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T13:27:00Z",
+      "timestamp": 1768570020019,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "group-title": "Primary Care Research",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              9
+            ]
+          ],
+          "date-time": "2025-05-09T00:00:00Z",
+          "timestamp": 1746748800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract text</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>This study aimed to identify prognostic factors associated with poor outcomes of COVID-19 at diagnosis in Primary Health Care (PHC).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We conducted a retrospective, longitudinal study using the SIDIAP database, part of the PHC Information System of Catalonia. The analysis included COVID-19 cases diagnosed in patients aged 18 and older from March 2020 to September 2022. Follow-up was conducted for 90 days post-diagnosis or until death. Various machine learning models of differing complexities were used to predict short-term events, including mortality and hospital complications. Each model was tailored to maximize the predictive accuracy for poor outcomes, exploring algorithms such as Generalized Linear Models, flexible GLMs with Lasso, Gradient Boosting Models, and Support Vector Machines, with the model demonstrating the highest Area Under the Curve (AUC) selected for optimal performance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    A total of 2,162,187 COVID-19 cases were identified across five epidemic waves. Key predictors of short-term complications included age and the epidemic wave. Additional significant factors encompassed social deprivation (MEDEA), blood pressure, cardiovascular history, chronic obstructive pulmonary disease (COPD), obesity, and diabetes mellitus. The models exhibited high performance, with AUC values ranging from 0.73 to 0.95. A web application was developed to estimate the risk of adverse outcomes based on individual patient profiles (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://dapcat.shinyapps.io/CovidScore\">https://dapcat.shinyapps.io/CovidScore</jats:ext-link>\n                    ).\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>In addition to age and epidemic wave, predictors such as social deprivation, diabetes mellitus, obesity, COPD, cardiovascular disease, high blood pressure, and dyslipidemia significantly indicate poor prognosis in COVID-19 patients diagnosed in PHC, and the developed application facilitates risk quantification for individual patients.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.05.08.25327245",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2025-05-09T19:40:13Z",
+      "timestamp": 1746819613000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Machine learning models for the prediction of COVID-19 prognosis in the primary health care setting"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Joan",
+        "family": "Barrot",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3891-111X",
+        "authenticated-orcid": false,
+        "given": "Joan A.",
+        "family": "Cayl\u00e0",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3693-3622",
+        "authenticated-orcid": false,
+        "given": "Manel",
+        "family": "Mata-Cases",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jordi",
+        "family": "Real",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3768-8112",
+        "authenticated-orcid": false,
+        "given": "Bogdan",
+        "family": "Vlacho",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5175-1555",
+        "authenticated-orcid": false,
+        "given": "Josep",
+        "family": "Franch-Nadal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Didac",
+        "family": "Mauricio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "the COVID-19 Working Group in Primary Health Care",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.1",
+        "unstructured": "WHO. COVID-19 Public Health Emergency of International Concern (PHEIC) Global research and innovation forum. Available from: https://www.who.int/publications/m/item/covid-19-public-health-emergency-of-internationalconcern-(pheic)-global-research-and-innovation-forum"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.2",
+        "unstructured": "OurWorld in Data. Confirmed deaths and cases: our data source. Available from: https://ourworldindata.org/covid-cases"
+      },
+      {
+        "issue": "10291",
+        "key": "2025051301251362000_2025.05.08.25327245v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2234",
+        "DOI": "10.1016/S0140-6736(21)00978-8",
+        "article-title": "SARS-CoV-2 elimination, not mitigation, creates best outcomes for health, the economy, and civil liberties",
+        "volume": "397",
+        "year": "2021",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e60",
+        "DOI": "10.1017/S1463423623000312",
+        "article-title": "The role of primary health care in long-term care facilities during the COVID-19 pandemic in 30 European countries: a retrospective descriptive study (Eurodata study)",
+        "volume": "24",
+        "year": "2023",
+        "journal-title": "Prim Health Care Res Dev"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2105/AJPH.2023.307233"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e60",
+        "DOI": "10.1017/S1463423623000312",
+        "article-title": "The role of primary health care in long-term care facilities during the COVID-19 pandemic in 30 European countries: a retrospective descriptive study (Eurodata study)",
+        "volume": "24",
+        "year": "2023",
+        "journal-title": "Prim Health Care Res Dev"
+      },
+      {
+        "issue": "3",
+        "key": "2025051301251362000_2025.05.08.25327245v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "332",
+        "DOI": "10.1093/fampra/cmab145",
+        "article-title": "Primary care preparedness for the SARS-CoV-2 pandemic: a survey of NHS GPs",
+        "volume": "39",
+        "year": "2022",
+        "journal-title": "Fam Pract"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.8",
+        "first-page": "63",
+        "article-title": "Risk Factors for COVID-19: A Systematic Mapping Study",
+        "volume": "299",
+        "year": "2022",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "11786329231215049",
+        "DOI": "10.1177/11786329231215049",
+        "article-title": "Covid-19 and Pre-Morbid Lifestyle-Related Risk Factors-A Review",
+        "volume": "16",
+        "year": "2023",
+        "journal-title": "Health Serv Insights"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1157/13123961"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.11",
+        "unstructured": "Kuhn M (2022). _caret: Classification and Regression Training_. R package version 6.0-93, <https://CRAN.R-project.org/package=caret>."
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.12",
+        "unstructured": "Chang W , Cheng J , Allaire J , Sievert C , Schloerke B , Xie Y , Allen J , McPherson J , Dipert A , Borges B (2022). _shiny: Web Application Framework for R_. R package version 1.7.4, <https://CRAN.R-project.org/package=shiny>."
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.13",
+        "unstructured": "R Core Team (2022). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/."
+      },
+      {
+        "issue": "84",
+        "key": "2025051301251362000_2025.05.08.25327245v1.14",
+        "first-page": "1",
+        "article-title": "DALEX: Explainers for Complex Predictive Models in R",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v106.i02"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.17",
+        "unstructured": "Greenwell B , Boehmke B , Cunningham J , Developers G (2022). gbm: Generalized Boosted Regression Models. R package version 2.1.8.1, https://CRAN.R-project.org/package=gbm."
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.18",
+        "unstructured": "Meyer D , Dimitriadou E , Hornik K , Weingessel A , Leisch F (2022). e1071: Misc Functions of the Department of Statistics, Probability Theory Group (Formerly: E1071), TU Wien. R package version 1.7-12."
+      },
+      {
+        "issue": "7",
+        "key": "2025051301251362000_2025.05.08.25327245v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.1016/S2213-2600(21)00175-2",
+        "article-title": "ISARIC4C Investigators. Changes in in-hospital mortality in the first wave of COVID-19: a multicentre prospective observational cohort study using the WHO Clinical Characterisation Protocol UK",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Lancet Respir Med"
+      },
+      {
+        "issue": "18",
+        "key": "2025051301251362000_2025.05.08.25327245v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "2627",
+        "DOI": "10.2169/internalmedicine.1934-23",
+        "article-title": "Risk Factors Related to Severity in COVID-19 Patients: A Real-world Retrospective Cohort Study",
+        "volume": "62",
+        "year": "2023",
+        "journal-title": "Intern Med"
+      },
+      {
+        "issue": "1",
+        "key": "2025051301251362000_2025.05.08.25327245v1.21",
+        "first-page": "20",
+        "article-title": "Impact and prevalence of comorbidities and complications on the severity of COVID-19 in association with age, gender, obesity, and pre-existing smoking: A meta-analysis",
+        "volume": "14",
+        "year": "2024",
+        "journal-title": "Biomedicine (Taipei)"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dsx.2020.07.005"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dbi20-0032"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0243600"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00125-023-05928-1"
+      },
+      {
+        "issue": "4",
+        "key": "2025051301251362000_2025.05.08.25327245v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "349",
+        "DOI": "10.1016/S2213-2600(20)30559-2",
+        "article-title": "ISARIC4C Investigators. Development and validation of the ISARIC 4C Deterioration model for adults hospitalised with COVID-19: a prospective cohort study",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Lancet Respir Med"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3731"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0237960"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1007/978-3-031-28012-2_17",
+        "article-title": "Machine Learning and COVID-19: Lessons from SARS-CoV-2",
+        "volume": "1412",
+        "year": "2023",
+        "journal-title": "Adv Exp Med Biol"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "105151",
+        "DOI": "10.1016/j.ijmedinf.2023.105151",
+        "article-title": "Prediction of prognosis in COVID-19 patients using machine learning: A systematic review and meta-analysis",
+        "volume": "177",
+        "year": "2023",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "key": "2025051301251362000_2025.05.08.25327245v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "e336",
+        "DOI": "10.1017/dmp.2023.3",
+        "article-title": "Artificial Intelligence Functionalities During the COVID-19 Pandemic",
+        "volume": "17",
+        "year": "2023",
+        "journal-title": "Disaster Med Public Health Prep"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.08.25327245",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:35:45Z",
+      "timestamp": 1768509345000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.05.08.25327245"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2025.05.08.25327245",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

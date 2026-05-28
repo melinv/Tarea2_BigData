@@ -1,0 +1,657 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:44:29Z",
+      "timestamp": 1768549469761,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          23
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 71,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>Acute respiratory distress syndrome (ARDS) is a serious respiratory condition with high mortality and associated morbidity. The objective of this study is to develop and evaluate a novel application of gradient boosted tree models trained on patient health record data for the early prediction of ARDS.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>9919 patient encounters were retrospectively analyzed from the Medical Information Mart for Intensive Care III (MIMIC-III) data base. XGBoost gradient boosted tree models for early ARDS prediction were created using routinely collected clinical variables and numerical representations of radiology reports as inputs. XGBoost models were iteratively trained and validated using 10-fold cross validation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>On a hold-out test set, algorithm classifiers attained area under the receiver operating characteristic curve (AUROC) values of 0.905, 0.827, 0.810, and 0.790 when tested for the prediction of ARDS at 0-, 12-, 24-, and 48-hour windows prior to onset, respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Supervised machine learning predictions may help predict patients with ARDS up to 48 hours prior to onset.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.03.19.20038364",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2020-03-23T14:15:12Z",
+      "timestamp": 1584972912000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Supervised Machine Learning for the Early Prediction of Acute Respiratory Distress Syndrome (ARDS)"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Sidney",
+        "family": "Le",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Emily",
+        "family": "Pellegrini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abigail",
+        "family": "Green-Saxena",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Charlotte",
+        "family": "Summers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jana",
+        "family": "Hoffman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jacob",
+        "family": "Calvert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ritankar",
+        "family": "Das",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1172/JCI60331"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa050333"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1437",
+        "DOI": "10.1097/CCM.0000000000001706",
+        "article-title": "Predicting outcomes from respiratory distress: does another score help to solve the problem?",
+        "volume": "44",
+        "year": "2016",
+        "journal-title": "Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.4",
+        "unstructured": "Barrett ML , Smith MW , Elixhauser A , et al: Utilization of Intensive Care Services, 2011. HCUP Statistical Brief #185. Rockville, MD, Agency for Healthcare Research and Quality, 2014"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.0291"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thoraxjnl-2016-208402"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/16000617.0089-2017"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-003-2022-6"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1932",
+        "DOI": "10.1007/s00134-011-2380-4",
+        "article-title": "The ALIEN study: incidence and outcome of acute respiratory distress syndrome in the era of lung protective ventilation",
+        "volume": "37",
+        "year": "2011",
+        "journal-title": "Inten Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.ccm.0000435676.68435.56"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.11",
+        "first-page": "1742",
+        "article-title": "Mortality trends of acute respiratory distress syndrome in the United States from 1999\u20132013",
+        "volume": "13",
+        "year": "2016",
+        "journal-title": "Ann Am Thorac Soc"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0b013e31819fefdf"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/aas.12001"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.14",
+        "first-page": "539",
+        "article-title": "Acute respiratory distress syndrome: basic principles and treatment",
+        "volume": "66",
+        "year": "2017",
+        "journal-title": "Anaesthesist"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "663",
+        "DOI": "10.1016/j.jcrc.2013.05.012",
+        "article-title": "Acute respiratory distress syndrome: underrecognition by clinicians",
+        "volume": "28",
+        "year": "2013",
+        "journal-title": "J Crit Care"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1123",
+        "DOI": "10.1513/AnnalsATS.201601-072OC",
+        "article-title": "Acute respiratory distress syndrome measurement error. Potential effect on clinical study results",
+        "volume": "13",
+        "year": "2016",
+        "journal-title": "Ann Am Thorac Soc"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reamaroon N , Sjoding MW , Lin K , Iwashyna TJ , Najarian K. Accounting for label uncertainty in machine learning for detection of acute respiratory distress syndrome. IEEE J Biomed Health Inform. 2019; 23407\u2013415.",
+        "DOI": "10.1109/JBHI.2018.2810820"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "759",
+        "DOI": "10.1001/jama.2016.0292",
+        "article-title": "The acute respiratory distress syndrome: Dialing in the evidence?",
+        "volume": "315",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/j.compbiomed.2014.06.006",
+        "article-title": "Computer-aided diagnosis system for the Acute Respiratory Distress Syndrome from chest radiographs",
+        "volume": "52",
+        "year": "2014",
+        "journal-title": "Computers Biol Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blondonnet R , Constantin JM , Sapin V , et al. A pathophysiologic approach to biomarkers in acute respiratory distress syndrome. Dis Markers. 2016; 3501373.",
+        "DOI": "10.1155/2016/3501373"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "2243",
+        "DOI": "10.1097/01.CCM.0000280434.33451.87",
+        "article-title": "Trauma-associated lung injury differs clinically and biologically from acute lung injury due to other clinical disorders",
+        "volume": "35",
+        "year": "2007",
+        "journal-title": "Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.14-2454"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jmedgenet-2012-100972"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "611",
+        "DOI": "10.1016/S2213-2600(14)70097-9",
+        "article-title": "NHLBI ARDS Network. Latent class analysis of ARDS subphenotypes: analysis of data from two randomized controlled trials",
+        "volume": "2",
+        "year": "2014",
+        "journal-title": "Lancet Resp Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.201603-0645OC"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thoraxjnl-2016-209719"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.200208-966WS"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2012.5669"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/ajrccm.149.3.7509706"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bauman ZM , Gassner MY , Coughlin MA , et al. Lung injury prediction score is useful in predicting acute respiratory distress syndrome and mortality in surgical critical care patients. Crit Care Res Pract. 2015;157408.",
+        "DOI": "10.1155/2015/157408"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "540",
+        "DOI": "10.1097/CCM.0000000000002929",
+        "article-title": "Early identification of acute respiratory distress syndrome in the absence of positive pressure ventilation: implications for revision of the Berlin criteria for acute respiratory distress syndrome",
+        "volume": "46",
+        "year": "2018",
+        "journal-title": "Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s001340051197"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.116.5.1347"
+      },
+      {
+        "issue": "9",
+        "key": "2020111711300866000_2020.03.19.20038364v1.34",
+        "first-page": "16",
+        "article-title": "What is Acute Respiratory Distress Syndrome?",
+        "volume": "196",
+        "year": "2017",
+        "journal-title": "Am J Respir Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.10-0891"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000000789"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.6330"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "725",
+        "DOI": "10.1164/rccm.201609-1767CI",
+        "article-title": "Fifty years of research in ARDS. Is Acute Respiratory Distress Syndrome a Preventable Disease?",
+        "volume": "195",
+        "year": "2017",
+        "journal-title": "Am J Respir Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1097/MCC.0000000000000174",
+        "article-title": "Prevention of acute respiratory distress syndrome",
+        "volume": "21",
+        "year": "2015",
+        "journal-title": "Curr Opin Crit Care"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0B013E318164E3B0"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "797",
+        "DOI": "10.1007/s00134-015-3973-0",
+        "article-title": "Biomarkers of ARDS: what\u2019s new?",
+        "volume": "42",
+        "year": "2016",
+        "journal-title": "Inten Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.canlet.2014.04.011"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "537",
+        "DOI": "10.1055/s-0033-1351124",
+        "article-title": "Biomarkers of ALI/ARDS: pathogenesis, discovery, and relevance to clinical trials",
+        "volume": "34",
+        "year": "2013",
+        "journal-title": "Semin Respir Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1611",
+        "DOI": "10.1097/CCM.0000000000001771",
+        "article-title": "Recognition and appropriate treatment of the acute respiratory distress syndrome remains unacceptably low",
+        "volume": "44",
+        "year": "2016",
+        "journal-title": "Critical Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "406",
+        "DOI": "10.1097/MCC.0000000000000437",
+        "article-title": "Translating evidence into practice in acute respiratory distress syndrome: Teamwork, clinical decision support, and behavioral economic interventions",
+        "volume": "23",
+        "year": "2017",
+        "journal-title": "Curr Opin. Crit Care"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnson AEW , Pollard TJ , Shen L , et al. MIMIC-III, a freely accessible critical care database. Scientific Data. 2016. DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635",
+        "DOI": "10.1038/sdata.2016.35"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016/j.compbiomed.2018.09.030",
+        "article-title": "Early-warning of ARDS using novelty detection and data fusion",
+        "volume": "102",
+        "year": "2018",
+        "journal-title": "Comp Biol Med"
+      },
+      {
+        "issue": "11",
+        "key": "2020111711300866000_2020.03.19.20038364v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1914",
+        "DOI": "10.1007/s00134-018-5375-6",
+        "article-title": "Mechanical power of ventilation is associated with mortality in critically ill patients: an analysis of patients in two observational cohorts",
+        "volume": "44",
+        "year": "2018",
+        "journal-title": "Intens Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.1519"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10543400500266692"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.51",
+        "first-page": "2054358118776326",
+        "article-title": "Prediction of acute kidney injury with a machine learning algorithm using electronic health record data",
+        "volume": "5",
+        "year": "2018",
+        "journal-title": "Can J Kidney Health Dis"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.52",
+        "unstructured": "Le Q, Mikolov T. Distributed representations of sentences and documents. In: International conference on machine learning 2014 Jan 27 (pp. 1188\u20131196)."
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.53",
+        "unstructured": "Gensim: Topic Modelling for Humans. Machine Learning Consulting, 10 Apr 2019. https://radimrehurek.com/gensim/about.html."
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C. XGBoost: A Scalable Tree Boosting System. 22nd SIGKDD Conference on Knowledge Discovery and Data Mining. 2016.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.55",
+        "unstructured": "Pedregosa F , Varoquaux G , Gramfort A , et al. Scikit-learn: Machine Learning in Python. JMLR 12 2011; 2825\u20132830."
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.201004-0549OC"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.07-1481"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-98-5-593"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.CCM.0000165566.82925.14"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/ajrccm.151.2.7842182"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0002-9610(82)90612-2"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0214465",
+        "DOI": "10.1371/journal.pone.0214465",
+        "article-title": "Machine learning for patient risk stratification for acute respiratory distress syndrome",
+        "volume": "14",
+        "year": "2019",
+        "journal-title": "PloS One"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1197/jamia.M3120"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "1018",
+        "DOI": "10.1007/s00134-009-1460-1",
+        "article-title": "Validation of an electronic surveillance system for acute lung injury",
+        "volume": "35",
+        "year": "2009",
+        "journal-title": "Inten Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0b013e3181fa4184"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.66",
+        "doi-asserted-by": "crossref",
+        "first-page": "352",
+        "DOI": "10.1097/SHK.0b013e3181d8e61d",
+        "article-title": "Outcome scoring systems for acute respiratory distress syndrome",
+        "volume": "34",
+        "year": "2010",
+        "journal-title": "Shock"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.67",
+        "first-page": "604",
+        "article-title": "Acute lung injury prediction score: derivation and validation in a population based sample",
+        "volume": "37",
+        "year": "2001",
+        "journal-title": "Eur Respir J"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.68",
+        "doi-asserted-by": "crossref",
+        "first-page": "2182",
+        "DOI": "10.1097/CCM.0000000000002001",
+        "article-title": "Lung injury prediction score in hospitalized patients at risk of acute respiratory distress syndrome",
+        "volume": "44",
+        "year": "2016",
+        "journal-title": "Crit Care Med"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.69",
+        "unstructured": "Schenck EJ , Oromendia C , Torres LK , Berlin DA , Choi AMK , Siempos II . Rapidly Improving ARDS in Therapeutic Randomized Controlled Trials. Chest. 2018; pii: S0012-3692: 32582-0."
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.70"
+      },
+      {
+        "key": "2020111711300866000_2020.03.19.20038364v1.71",
+        "doi-asserted-by": "crossref",
+        "first-page": "488",
+        "DOI": "10.1513/AnnalsATS.201810-715OC",
+        "article-title": "Electronic \u201cSniffer\u201d Systems to Identify the Acute Respiratory Distress Syndrome",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "Annals Am Thorac Society"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.03.19.20038364",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:35:13Z",
+      "timestamp": 1768484113000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.03.19.20038364"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          23
+        ]
+      ]
+    },
+    "references-count": 71,
+    "URL": "https://doi.org/10.1101/2020.03.19.20038364",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.jcrc.2020.07.019",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

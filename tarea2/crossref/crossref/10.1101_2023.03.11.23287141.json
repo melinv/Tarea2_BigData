@@ -1,0 +1,754 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:18:51Z",
+      "timestamp": 1768565931165,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          16
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 78,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>In the early stages of the COVID-19 pandemic, it became clear that pandemic waves and population responses were locked in a mutual feedback loop. The initial lull following strict interventions in the first wave often led to a second wave, as restrictions were relaxed. We test the ability of new hybrid machine learning techniques, namely universal differential equations (UDEs) with learning biases, to make predictions in a such a dynamic behavior-disease setting. We develop a UDE model for COVID-19 and test it both with and without learning biases describing simple assumptions about disease transmission and population response. Our results show that UDEs, particularly when supplied with learning biases, are capable of learning coupled behavior-disease dynamics and predicting second waves in a variety of populations. The model predicts a second wave of infections 55% of the time across all populations, having been trained only on the first wave. The predicted second wave is larger than the first. Without learning biases, model predictions are hampered: the unbiased model predicts a second wave only 25% of the time, typically smaller than the first. The biased model consistently predicts the expected increase in the transmission rate with rising mobility, whereas the unbiased model predicts a decrease in mobility as often as a continued increase. The biased model also achieves better accuracy on its training data thanks to fewer and less severely divergent trajectories. These results indicate that biologically informed machine learning can generate qualitatively correct mid to long-term predictions of COVID-19 pandemic waves.</jats:p>\n                <jats:sec>\n                  <jats:title>Significance statement</jats:title>\n                  <jats:p>Universal differential equations are a relatively new modelling technique where neural networks use data to learn unknown components of a dynamical system. We demonstrate for the first time that this technique is able to extract valuable information from data on a coupled behaviour-disease system. Our model was able to learn the interplay between COVID-19 infections and time spent travelling to retail and recreation locations in order to predict a second wave of cases, having been trained only on the first wave. We also demonstrate that adding additional terms to the universal differential equation\u2019s loss function that penalize implausible solutions improves training time and leads to improved predictions.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.03.11.23287141",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2023-03-19T03:47:14Z",
+      "timestamp": 1679197634000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Predicting COVID-19 pandemic waves with biologically and behaviorally informed universal differential equations"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Bruce",
+        "family": "Kuwahara",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chris T.",
+        "family": "Bauch",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "6",
+        "key": "2023032002050669000_2023.03.11.23287141v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1038/s42254-020-0178-4",
+        "article-title": "Modelling covid-19",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Reviews Physics"
+      },
+      {
+        "issue": "6",
+        "key": "2023032002050669000_2023.03.11.23287141v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "DOI": "10.1038/s42254-020-0175-7",
+        "article-title": "How you can help with covid-19 modelling",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Reviews Physics"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd1668"
+      },
+      {
+        "issue": "10",
+        "key": "2023032002050669000_2023.03.11.23287141v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1612",
+        "DOI": "10.1038/s41564-019-0565-8",
+        "article-title": "Modelling microbial infection to address global health challenges",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/s0036144500371907"
+      },
+      {
+        "issue": "9",
+        "key": "2023032002050669000_2023.03.11.23287141v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1007/s11538-022-01030-6",
+        "article-title": "A hybrid epidemic model to explore stochasticity in covid-19 dynamics",
+        "volume": "84",
+        "year": "2022",
+        "journal-title": "Bulletin of Mathematical Biology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2113561119"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "100557",
+        "DOI": "10.1016/j.epidem.2022.100557",
+        "article-title": "Estimating covid-19 cases and deaths prevented by non-pharmaceutical interventions, and the impact of individual actions: A retrospective model-based analysis",
+        "volume": "39",
+        "year": "2022",
+        "journal-title": "Epidemics"
+      },
+      {
+        "issue": "1",
+        "key": "2023032002050669000_2023.03.11.23287141v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "356",
+        "DOI": "10.1038/s41467-020-20742-8",
+        "article-title": "aOptimal covid-19 quarantine and testing strategies",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1503/cmaj.200476"
+      },
+      {
+        "issue": "5",
+        "key": "2023032002050669000_2023.03.11.23287141v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e271",
+        "DOI": "10.1016/S2468-2667(20)30082-7",
+        "article-title": "Impact of school closures for covid-19 on the us health-care workforce and net mortality: a modelling study",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "The Lancet Public Health"
+      },
+      {
+        "issue": "8",
+        "key": "2023032002050669000_2023.03.11.23287141v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1097",
+        "DOI": "10.1016/S1473-3099(21)00057-8",
+        "article-title": "Prioritising covid-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "The Lancet Infectious Diseases"
+      },
+      {
+        "issue": "12",
+        "key": "2023032002050669000_2023.03.11.23287141v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "2257",
+        "DOI": "10.1093/cid/ciab079",
+        "article-title": "The impact of vaccination on coronavirus disease 2019 (covid-19) outbreaks in the united states",
+        "volume": "73",
+        "year": "2021",
+        "journal-title": "Clinical Infectious Diseases"
+      },
+      {
+        "issue": "3",
+        "key": "2023032002050669000_2023.03.11.23287141v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1038/s41577-022-00687-3",
+        "article-title": "Modelling vaccination strategies for covid-19",
+        "volume": "22",
+        "year": "2022",
+        "journal-title": "Nature Reviews Immunology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dongshan Zhu , Xikun Han , and Karla Santo . Social distancing in latin america during the covid-19 pandemic: an analysis using the stringency index and google community mobility reports. Journal of Travel Medicine, 27(8), 2020.",
+        "DOI": "10.1093/jtm/taaa125"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Antonio Paez. Using google community mobility reports to investigate the incidence of covid-19 in the united states. Findings, 5 2020.",
+        "DOI": "10.32866/001c.12976"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S095026882002757"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2014385117"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yehuda Pollak , Haym Dayan , Rachel Shoham , and Itai Berger . Predictors of adherence to public health instructions during the covid-19 pandemic. medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.24.20076620"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jpubeco.2020.104346"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isaac Yen-Hao , Prima Alam , Heidi. J Larson , and Leesa Lin . Social consequences of mass quarantine during epidemics: a systematic review with implications for the covid-19 response. Journal of Travel Medicine, 27(7), 2020.",
+        "DOI": "10.1093/jtm/taaa192"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.plrev.2015.07.006",
+        "article-title": "Coupled disease\u2013behavior dynamics on complex networks: A review",
+        "volume": "15",
+        "year": "2015",
+        "journal-title": "Physics of life reviews"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chris Bauch , Alberto d\u2019Onofrio , and Piero Manfredi . Behavioral epidemiology of infectious diseases: an overview. Modeling the interplay between human behavior and the spread of infectious diseases, pages 1\u201319, 2013.",
+        "DOI": "10.1007/978-1-4614-5474-8_1"
+      },
+      {
+        "issue": "50",
+        "key": "2023032002050669000_2023.03.11.23287141v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1247",
+        "DOI": "10.1098/rsif.2010.0142",
+        "article-title": "Modelling the influence of human behaviour on the spread of infectious diseases: a review",
+        "volume": "7",
+        "year": "2010",
+        "journal-title": "Journal of the Royal Society Interface"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "110768",
+        "DOI": "10.1016/j.jcp.2021.110768",
+        "article-title": "When and why pinns fail to train: A neural tangent kernel perspective",
+        "volume": "449",
+        "year": "2022",
+        "journal-title": "Journal of Computational Physics"
+      },
+      {
+        "issue": "5",
+        "key": "2023032002050669000_2023.03.11.23287141v1.26",
+        "first-page": "1",
+        "article-title": "Game theory of social distancing in response to an epidemic",
+        "volume": "6",
+        "year": "2010",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "2243",
+        "key": "2023032002050669000_2023.03.11.23287141v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "20200686",
+        "DOI": "10.1098/rspa.2020.0686",
+        "article-title": "Oscillatory dynamics in the dilemma of social distancing",
+        "volume": "476",
+        "year": "2020",
+        "journal-title": "Proceedings of the Royal Society A"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0403823101"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tpb.2007.01.001"
+      },
+      {
+        "issue": "2",
+        "key": "2023032002050669000_2023.03.11.23287141v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "201770",
+        "DOI": "10.1098/rsos.201770",
+        "article-title": "Cost and social distancing dynamics in a mathematical model of covid-19 with application to ontario, canada",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Royal Society open science"
+      },
+      {
+        "issue": "9",
+        "key": "2023032002050669000_2023.03.11.23287141v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "201095",
+        "DOI": "10.1098/rsos.201095",
+        "article-title": "Evolutionary game theory modelling to represent the behavioural dynamics of economic shutdowns and shield immunity in the covid-19 pandemic",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Royal Society open science"
+      },
+      {
+        "issue": "181",
+        "key": "2023032002050669000_2023.03.11.23287141v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "20210186",
+        "DOI": "10.1098/rsif.2021.0186",
+        "article-title": "Triple contagion: a two-fears epidemic model",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "Journal of the Royal Society Interface"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "110973",
+        "DOI": "10.1016/j.jtbi.2021.110973",
+        "article-title": "A behavioural modelling approach to assess the impact of covid-19 vaccine hesitancy",
+        "volume": "534",
+        "year": "2022",
+        "journal-title": "Journal of Theoretical Biology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sansao A. Pedro , Frank T. Ndjomatchoua , Peter Jentsch , Jean M. Tchuenche , Madhur Anand , and Chris T. Bauch . Conditions for a second wave of covid-19 due to interactions between disease dynamics and social processes. Frontiers in Physics, 8, 2020.",
+        "DOI": "10.3389/fphy.2020.574514"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Matthew D. Johnston and Bruce Pell . A dynamical framework for modeling fear of infection and frustration with social distancing in covid-19 spread, 2020.",
+        "DOI": "10.3934/mbe.2020401"
+      },
+      {
+        "issue": "8",
+        "key": "2023032002050669000_2023.03.11.23287141v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.7326/M20-2945",
+        "article-title": "Risk for covid-19 resurgence related to duration and effectiveness of physical distancing in ontario, canada",
+        "volume": "173",
+        "year": "2020",
+        "journal-title": "Annals of Internal Medicine"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Iman Rahimi , Fang Chen , and Amir H Gandomi . A review on covid-19 forecasting models. Neural Computing and Applications, 2021.",
+        "DOI": "10.1007/s00521-020-05626-8"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.38",
+        "unstructured": "Maximilian Nickel , Levent Sagun , Mark Ibrahim , Matt Le , and Timothee Lacroix . Neural relational autoregression for high-resolution covid-19 forecasting. Meta AI ML Applications, 2020."
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raj Dandekar , Chris Rackauckas , and George Barastathis . A machine learning-aided global diagnostic and comparative tool to assess effect of quarantine control in covid-19 spread. Patterns, 1(9), 2020.",
+        "DOI": "10.1016/j.patter.2020.100145"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gergo Pinter , Imre Felde , Amir Mosavi , Pedram Ghamisi , and Richard Gloaguen . Covid-19 pandemic prediction for hungary; a hybrid machine learning approach. Mathematics, 8(6), 2020.",
+        "DOI": "10.3390/math8060890"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sina F. Ardabili , Amir Mosavi , Pedram Ghamisi , Filip Ferdinand , Annamaria R. Varkonyi-Koczy , Uwe Reuter , Timon Rabczuk , and Peter M. Atkinson . Covid-19 outbreak prediction with machine learning. Algorithms, 13(10), 2020.",
+        "DOI": "10.3390/a13100249"
+      },
+      {
+        "issue": "6",
+        "key": "2023032002050669000_2023.03.11.23287141v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "422",
+        "DOI": "10.1038/s42254-021-00314-5",
+        "article-title": "Physics-informed machine learning",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Nature Reviews Physics"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maziar Raissi , Paris Perdikaris , and George Em Karniadakis . Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 11 2018.",
+        "DOI": "10.1016/j.jcp.2018.10.045"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "109120",
+        "DOI": "10.1016/j.jcp.2019.109120",
+        "article-title": "Simulator-free solution of high-dimensional stochastic elliptic partial differential equations using deep neural networks",
+        "volume": "404",
+        "year": "2020",
+        "journal-title": "Journal of Computational Physics"
+      },
+      {
+        "issue": "2",
+        "key": "2023032002050669000_2023.03.11.23287141v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "A639",
+        "DOI": "10.1137/19M1260141",
+        "article-title": "Learning in modal space: Solving time-dependent stochastic pdes using physics-informed neural networks",
+        "volume": "42",
+        "year": "2020",
+        "journal-title": "SIAM Journal on Scientific Computing"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "112623",
+        "DOI": "10.1016/j.cma.2019.112623",
+        "article-title": "Machine learning in cardiovascular flows modeling: Predicting arterial blood pressure from non-invasive 4d flow mri data using physics-informed neural networks",
+        "volume": "358",
+        "year": "2020",
+        "journal-title": "Computer Methods in Applied Mechanics and Engineering"
+      },
+      {
+        "issue": "5",
+        "key": "2023032002050669000_2023.03.11.23287141v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "613",
+        "DOI": "10.1016/j.ccell.2020.10.014",
+        "article-title": "Biologically informed neural networks predict drug responses",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03922-4"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrew Beers , Ken Chang , James M. Brown , Emmett Sartor , C. P. Mammen , Elizabeth R. Gerstner , Bruce R. Rosen , and Jayashree Kalpathy-Cramer . Sequential 3d unets for biologically-informed brain tumor segmentation. CoRR, abs/1709.02967, 2017.",
+        "DOI": "10.1117/12.2293941"
+      },
+      {
+        "issue": "12",
+        "key": "2023032002050669000_2023.03.11.23287141v1.50",
+        "first-page": "1",
+        "article-title": "Biologically-informed neural networks guide mechanistic modeling from sparse experimental data",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Christopher Rackauckas , Yingbo Ma , Julius Martensen , Collin Warner , Kirill Zubov , Rohit Supekar , Dominic Skinner , and Ali Jasim Ramadhan . Universal differential equations for scientific machine learning. CoRR, abs/2001.04385, 2020.",
+        "DOI": "10.21203/rs.3.rs-55125/v1"
+      },
+      {
+        "issue": "7",
+        "key": "2023032002050669000_2023.03.11.23287141v1.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "1729",
+        "DOI": "10.1021/acsphotonics.0c00327",
+        "article-title": "Inverse design of photonic crystals through automatic differentiation",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "ACS Photonics"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.53",
+        "unstructured": "Raj Dandekar and George Barbastathis. Neural network aided quarantine control model estimation of covid spread in wuhan, china, 2020."
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1016/j.idm.2019.12.009",
+        "article-title": "Estimating epidemic exponential growth rate and basic reproduction number",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1094442"
+      },
+      {
+        "issue": "2",
+        "key": "2023032002050669000_2023.03.11.23287141v1.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1016/S1473-3099(20)30840-9",
+        "article-title": "Estimating the COVID-19 R number: a bargain with the devil?",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "The Lancet Infectious Diseases"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ying Liu , Albert A Gayle , Annelies Wilder-Smith , and Joacim Rockl\u00f6v. The reproductive number of covid-19 is higher compared to sars coronavirus. Journal of travel medicine, 27(2), 2020.",
+        "DOI": "10.1093/jtm/taaa021"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nithya C Achaiah , Sindhu B Subbarajasetty , and Rajesh M Shetty . R0 and re of covid-19: Can we predict when the pandemic outbreak will be contained? ndian Journal of Critical Care Medicine, 2020.",
+        "DOI": "10.5005/jp-journals-10071-23649"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vishal Srivastava , Smriti Srivastava , Gopal Chaudhary , and Fadi Al-Turjman . A systematic approach for covid-19 predictions and parameter estimation. Personal and Ubiquitous Computing, 2020.",
+        "DOI": "10.1007/s00779-020-01462-8"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1016/j.idm.2020.03.001",
+        "article-title": "Why is it difficult to accurately predict the covid-19 epidemic?",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kevin Linka , Mathias Peirlinck , and Ellen Kuhl . The reproduction number of covid-19 and its correlation with public health interventions, 2020.",
+        "DOI": "10.1101/2020.05.01.20088047"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "101016",
+        "DOI": "10.1016/j.jth.2021.101016",
+        "article-title": "Mobility and the effective reproduction rate of covid-19",
+        "volume": "20",
+        "year": "2021",
+        "journal-title": "Journal of Transport & Health"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hyun Mo Yang , Luis Pedro Lombardi Junior , and Ariana Campos Yang . Are the sir and seir models suitable to estimate the basic reproduction number for the covid-19 epidemic? medRxiv, 2020.",
+        "DOI": "10.1101/2020.10.11.20210831"
+      },
+      {
+        "issue": "2",
+        "key": "2023032002050669000_2023.03.11.23287141v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/j.acha.2015.12.005",
+        "article-title": "Neural network with unbounded activation functions is universal approximator",
+        "volume": "43",
+        "year": "2017",
+        "journal-title": "Applied and Computational Harmonic Analysis"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1517384113"
+      },
+      {
+        "issue": "1",
+        "key": "2023032002050669000_2023.03.11.23287141v1.66",
+        "doi-asserted-by": "crossref",
+        "first-page": "7061",
+        "DOI": "10.1038/s41598-020-63877-w",
+        "article-title": "Algorithmic discovery of dynamic models from infectious disease data",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chris Baraniuk . How long does covid-19 immunity last? BMJ, 373, 2021.",
+        "DOI": "10.1136/bmj.n1605"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.68",
+        "unstructured": "AJMC Staff . A timeline of covid-19 vaccine developments in 2021.@ONLINE, June 2021."
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.69",
+        "unstructured": "World Health Organization. Tracking sars-cov-2 variants @ONLINE, November 2021."
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0403823101"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1618138113"
+      },
+      {
+        "issue": "6",
+        "key": "2023032002050669000_2023.03.11.23287141v1.72",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007000",
+        "DOI": "10.1371/journal.pcbi.1007000",
+        "article-title": "Charting pathways to climate change mitigation in a coupled socio-climate model",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s1473-3099(20)30553-3"
+      },
+      {
+        "issue": "9",
+        "key": "2023032002050669000_2023.03.11.23287141v1.75",
+        "doi-asserted-by": "crossref",
+        "first-page": "093122",
+        "DOI": "10.1063/5.0060697",
+        "article-title": "Stiff neural ordinary differential equations",
+        "volume": "31",
+        "year": "2021",
+        "journal-title": "Chaos: An Interdisciplinary Journal of Nonlinear Science"
+      },
+      {
+        "issue": "2",
+        "key": "2023032002050669000_2023.03.11.23287141v1.76",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1515/sagmb-2020-0025",
+        "article-title": "Collocation based training of neural ordinary differential equations",
+        "volume": "20",
+        "year": "2021",
+        "journal-title": "Statistical Applications in Genetics and Molecular Biology"
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.77",
+        "unstructured": "[Dataset]* Johns Hopkins University. Covid-19 data repository by the center for systems science and engineering (csse) at johns hopkins university."
+      },
+      {
+        "key": "2023032002050669000_2023.03.11.23287141v1.78",
+        "unstructured": "[Dataset]* Google. Google community mobility report."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.11.23287141",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:29:49Z",
+      "timestamp": 1768505389000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.03.11.23287141"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          16
+        ]
+      ]
+    },
+    "references-count": 78,
+    "URL": "https://doi.org/10.1101/2023.03.11.23287141",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.heliyon.2024.e25363",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:33:08Z",
+      "timestamp": 1768548788182,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Rationale</jats:title>\n                  <jats:p>Given the expanding number of COVID-19 cases and the potential for upcoming waves of infection, there is an urgent need for early prediction of the severity of the disease in intensive care unit (ICU) patients to optimize treatment strategies.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>Early prediction of mortality using machine learning based on typical laboratory results and clinical data registered on the day of ICU admission.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We studied retrospectively 263 COVID-19 ICU patients. To find parameters with the highest predictive values, Kolmogorov-Smirnov and Pearson chi-squared tests were used. Logistic regression and random forest (RF) algorithms were utilized to build classification models. The impact of each marker on the RF model predictions was studied by implementing the local interpretable model-agnostic explanation technique (LIME-SP).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Among 66 documented parameters, 15 factors with the highest predictive values were identified as follows: gender, age, blood urea nitrogen (BUN), creatinine, international normalized ratio (INR), albumin, mean corpuscular volume, white blood cell count, segmented neutrophil count, lymphocyte count, red cell distribution width (RDW), and mean cell hemoglobin along with a history of neurological, cardiovascular, and respiratory disorders. Our RF model can predict patients outcomes with a sensitivity of 70% and a specificity of 75%.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>The most decisive variables in our model were increased levels of BUN, lowered albumin levels, increased creatinine, INR, and RDW along with gender and age. Complete blood count parameters were also crucial for some patients. Considering the importance of early triage decisions, this model can be a useful tool in COVID-19 ICU decision-making.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.02.04.21251131",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ],
+      "date-time": "2021-02-08T08:56:04Z",
+      "timestamp": 1612774564000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Using Machine Learning to Predict Mortality for COVID-19 Patients on Day Zero in the ICU"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6749-9016",
+        "authenticated-orcid": false,
+        "given": "Elham",
+        "family": "Jamshidi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Amirhossein",
+        "family": "Asgary",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5767-7771",
+        "authenticated-orcid": false,
+        "given": "Nader",
+        "family": "Tavakoli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alireza",
+        "family": "Zali",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6915-6028",
+        "authenticated-orcid": false,
+        "given": "Hadi",
+        "family": "Esmaily",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seyed Hamid",
+        "family": "Jamaldini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amir",
+        "family": "Daaee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8853-4343",
+        "authenticated-orcid": false,
+        "given": "Amirhesam",
+        "family": "Babajani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammad Ali Sendani",
+        "family": "Kashi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Masoud",
+        "family": "Jamshidi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6442-7087",
+        "authenticated-orcid": false,
+        "given": "Sahand Jamal",
+        "family": "Rahi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8348-0737",
+        "authenticated-orcid": false,
+        "given": "Nahal",
+        "family": "Mansouri",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.1",
+        "unstructured": "WHO Coronavirus Disease (COVID-19) Dashboard [Internet]. [cited 2020 Nov 16];Available from: https://covid19.who.int/"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Richardson S , Hirsch JS , Narasimhan M , et al. Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. JAMA [Internet] 2020;Available from: http://dx.doi.org/10.1001/jama.2020.6775",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2020.03.001"
+      },
+      {
+        "issue": "7",
+        "key": "2021020911300966000_2021.02.04.21251131v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0235653",
+        "DOI": "10.1371/journal.pone.0235653",
+        "article-title": "Rate of Intensive Care Unit admission and outcomes among patients with coronavirus: A systematic review and Meta-analysis",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One [Internet]"
+      },
+      {
+        "issue": "4",
+        "key": "2021020911300966000_2021.02.04.21251131v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "220",
+        "DOI": "10.4103/0972-5229.130573",
+        "article-title": "Scoring systems in the intensive care unit: A compendium",
+        "volume": "18",
+        "year": "2014",
+        "journal-title": "Indian J Crit Care Med [Internet]"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.6",
+        "unstructured": "Fan G , Tu C , Zhou F , et al. Comparison of severity scores for COVID-19 patients with pneumonia: a retrospective study. Eur Respir J [Internet] 2020 [cited 2020 Aug 14];Available from: https://erj.ersjournals.com/content/early/2020/07/06/13993003.02113-2020.abstract"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Su Y , Tu G-W , Ju M-J , et al. Comparison of CRB-65 and quick sepsis-related organ failure assessment for predicting the need for intensive respiratory or vasopressor support in patients with COVID-19. J Infect [Internet] 2020;Available from: http://dx.doi.org/10.1016/j.jinf.2020.05.007",
+        "DOI": "10.1016/j.jinf.2020.05.007"
+      },
+      {
+        "issue": "26",
+        "key": "2021020911300966000_2021.02.04.21251131v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2485",
+        "DOI": "10.1056/NEJMp2003149",
+        "article-title": "Physician Burnout, Interrupted",
+        "volume": "382",
+        "year": "2020",
+        "journal-title": "N Engl J Med [Internet]"
+      },
+      {
+        "issue": "21",
+        "key": "2021020911300966000_2021.02.04.21251131v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2199",
+        "DOI": "10.1001/jama.2018.17163",
+        "article-title": "Clinical Decision Support in the Era of Artificial Intelligence",
+        "volume": "320",
+        "year": "2018",
+        "journal-title": "JAMA [Internet]"
+      },
+      {
+        "issue": "11",
+        "key": "2021020911300966000_2021.02.04.21251131v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1107",
+        "DOI": "10.1001/jama.2018.11029",
+        "article-title": "Clinical Implications and Challenges of Artificial Intelligence and Deep Learning [Internet]",
+        "volume": "320",
+        "year": "2018",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "4",
+        "key": "2021020911300966000_2021.02.04.21251131v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1007/s12031-019-01311-1",
+        "article-title": "Application of Single-Nucleotide Polymorphisms in the Diagnosis of Autism Spectrum Disorders: A Preliminary Study with Artificial Neural Networks [Internet]",
+        "volume": "68",
+        "year": "2019",
+        "journal-title": "Journal of Molecular Neuroscience"
+      },
+      {
+        "issue": "7",
+        "key": "2021020911300966000_2021.02.04.21251131v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1081",
+        "DOI": "10.1007/s12031-020-01514-x",
+        "article-title": "Application of Artificial Neural Network for Prediction of Risk of Multiple Sclerosis Based on Single Nucleotide Polymorphism Genotypes",
+        "volume": "70",
+        "year": "2020",
+        "journal-title": "J Mol Neurosci [Internet]"
+      },
+      {
+        "issue": "4",
+        "key": "2021020911300966000_2021.02.04.21251131v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/j.dsx.2020.04.012",
+        "article-title": "Artificial Intelligence (AI) applications for COVID-19 pandemic",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "Diabetes Metab Syndr [Internet]"
+      },
+      {
+        "issue": "3",
+        "key": "2021020911300966000_2021.02.04.21251131v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "e203976",
+        "DOI": "10.1001/jamanetworkopen.2020.3976",
+        "article-title": "Factors Associated With Mental Health Outcomes Among Health Care Workers Exposed to Coronavirus Disease 2019",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMA Netw Open [Internet]"
+      },
+      {
+        "issue": "8",
+        "key": "2021020911300966000_2021.02.04.21251131v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0237301",
+        "DOI": "10.1371/journal.pone.0237301",
+        "article-title": "Exposure to COVID-19 patients increases physician trainee stress and burnout",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One [Internet]"
+      },
+      {
+        "issue": "40",
+        "key": "2021020911300966000_2021.02.04.21251131v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "E1216",
+        "DOI": "10.1503/cmaj.109-5663",
+        "article-title": "Do doctors experiencing burnout make more errors?",
+        "volume": "190",
+        "year": "2018",
+        "journal-title": "CMAJ [Internet]"
+      },
+      {
+        "issue": "8",
+        "key": "2021020911300966000_2021.02.04.21251131v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "600",
+        "DOI": "10.7326/L19-0522",
+        "article-title": "Estimating the Attributable Cost of Physician Burnout in the United States [Internet]",
+        "volume": "171",
+        "year": "2019",
+        "journal-title": "Ann. Intern. Med"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mladeni\u0107 D. Feature Selection for Dimensionality Reduction [Internet]. Subspace, Latent Structure and Feature Selection. 2006;84\u2013102. Available from: http://dx.doi.org/10.1007/11752790_5",
+        "DOI": "10.1007/11752790_5"
+      },
+      {
+        "issue": "9",
+        "key": "2021020911300966000_2021.02.04.21251131v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2839",
+        "DOI": "10.1016/j.patcog.2015.03.009",
+        "article-title": "Performance evaluation of classification algorithms by k-fold and leave-one-out cross validation [Internet]",
+        "volume": "48",
+        "year": "2015",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Murti DMP , Pujianto U , Wibawa AP , Akbar MI . K-Nearest Neighbor (K-NN) based Missing Data Imputation [Internet]. 2019 5th International Conference on Science in Information Technology (ICSITech). 2019;Available from: http://dx.doi.org/10.1109/icsitech46713.2019.8987530",
+        "DOI": "10.1109/ICSITech46713.2019.8987530"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.21",
+        "unstructured": "scikit-learn [Internet]. [cited 2020 Aug 23];Available from: https://scikit-learn.org"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pedregosa F , Cauvet E , Varoquaux G , Pallier C , Thirion B , Gramfort A. Learning to Rank from Medical Imaging Data [Internet]. Machine Learning in Medical Imaging. 2012;234\u2013 41. Available from: http://dx.doi.org/10.1007/978-3-642-35428-1_29",
+        "DOI": "10.1007/978-3-642-35428-1_29"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ng AY . Feature selection, L1 vs. L2 regularization, and rotational invariance [Internet]. Twenty-first international conference on Machine learning - ICML \u201804. 2004;Available from: http://dx.doi.org/10.1145/1015330.1015435",
+        "DOI": "10.1145/1015330.1015435"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro MT , Singh S , Guestrin C. \u2018Why Should I Trust You?\u2019: Explaining the Predictions of Any Classifier [Internet]. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA: ACM; 2016. p. 1135\u201344.Available from: https://dl.acm.org/doi/10.1145/2939672.2939778",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "issue": "6",
+        "key": "2021020911300966000_2021.02.04.21251131v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1177/0272989X06295361",
+        "article-title": "Decision curve analysis: a novel method for evaluating prediction models",
+        "volume": "26",
+        "year": "2006",
+        "journal-title": "Med Decis Making [Internet]"
+      },
+      {
+        "issue": "10229",
+        "key": "2021020911300966000_2021.02.04.21251131v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1033",
+        "DOI": "10.1016/S0140-6736(20)30628-0",
+        "article-title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "Lancet [Internet]"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.27",
+        "unstructured": "Conti P , Ronconi G , Caraffa A , et al. Induction of pro-inflammatory cytokines (IL-1 and IL-6) and lung inflammation by Coronavirus-19 (COVI-19 or SARS-CoV-2): antiinflammatory strategies. J Biol Regul Homeost Agents [Internet] 2020;34(2). Available from: http://dx.doi.org/10.23812/CONTI-E"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jamshidi E , Babajani A , Soltani P , Niknejad H. Proposed Mechanisms of Targeting COVID-19 by Delivering Mesenchymal Stem Cells and Their Exosomes to Damaged Organs. Stem Cell Reviews and Reports [Internet] 2021;Available from: https://doi.org/10.1007/s12015-020-10109-3",
+        "DOI": "10.1007/s12015-020-10109-3"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rica R de la , de la Rica R , Borges M , et al. Low albumin levels are associated with poorer outcomes in a case series of COVID-19 patients in Spain: a retrospective cohort study [Internet]. Available from: http://dx.doi.org/10.1101/2020.05.07.20094987",
+        "DOI": "10.1101/2020.05.07.20094987"
+      },
+      {
+        "issue": "1",
+        "key": "2021020911300966000_2021.02.04.21251131v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1186/2110-5820-3-4",
+        "article-title": "Specific antioxidant properties of human serum albumin",
+        "volume": "3",
+        "year": "2013",
+        "journal-title": "Ann Intensive Care [Internet]"
+      },
+      {
+        "issue": "1\u20132",
+        "key": "2021020911300966000_2021.02.04.21251131v1.31",
+        "first-page": "23",
+        "article-title": "Albumin caused the increasing production of angiotensin II due to the dysregulation of ACE/ACE2 expression in HK2 cells",
+        "volume": "403",
+        "year": "2009",
+        "journal-title": "Clin Chim Acta [Internet]"
+      },
+      {
+        "issue": "4",
+        "key": "2021020911300966000_2021.02.04.21251131v1.32",
+        "first-page": "259",
+        "article-title": "The clinical use of albumin: the point of view of a specialist in intensive care",
+        "volume": "7",
+        "year": "2009",
+        "journal-title": "Blood Transfus [Internet]"
+      },
+      {
+        "issue": "5",
+        "key": "2021020911300966000_2021.02.04.21251131v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "829",
+        "DOI": "10.1016/j.kint.2020.03.005",
+        "article-title": "Kidney disease is associated with in-hospital death of patients with COVID-19",
+        "volume": "97",
+        "year": "2020",
+        "journal-title": "Kidney Int [Internet]"
+      },
+      {
+        "issue": "1",
+        "key": "2021020911300966000_2021.02.04.21251131v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.3121/cmr.2015.1282",
+        "article-title": "Hypoxia: The Force that Drives Chronic Kidney Disease",
+        "volume": "14",
+        "year": "2016",
+        "journal-title": "Clin Med Res [Internet]"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Batlle D , Soler MJ , Sparks MA , et al. Acute Kidney Injury in COVID-19: Emerging Evidence of a Distinct Pathophysiology. J Am Soc Nephrol [Internet] 2020;Available from: http://dx.doi.org/10.1681/ASN.2020040419",
+        "DOI": "10.1681/ASN.2020040419"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Foy BH , Carlson JCT , Reinertsen E , et al. Elevated RDW is Associated with Increased Mortality Risk in COVID-19 [Internet]. Available from: http://dx.doi.org/10.1101/2020.05.05.20091702",
+        "DOI": "10.1101/2020.05.05.20091702"
+      },
+      {
+        "issue": "4",
+        "key": "2021020911300966000_2021.02.04.21251131v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "380",
+        "DOI": "10.1016/j.ihj.2012.06.006",
+        "article-title": "Red cell distribution width, inflammatory markers and cardiorespiratory fitness: results from the National Health and Nutrition Examination Survey",
+        "volume": "64",
+        "year": "2012",
+        "journal-title": "Indian Heart J [Internet]"
+      },
+      {
+        "issue": "5",
+        "key": "2021020911300966000_2021.02.04.21251131v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1038/s42256-020-0180-7",
+        "article-title": "An interpretable mortality prediction model for COVID-19 patients [Internet]",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "2021020911300966000_2021.02.04.21251131v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1016/j.jaci.2020.05.008",
+        "article-title": "Elevated levels of IL-6 and CRP predict the need for mechanical ventilation in COVID-19",
+        "volume": "146",
+        "year": "2020",
+        "journal-title": "J Allergy Clin Immunol [Internet]"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/0003130032314"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun B , Feng J , Saenko K. Correlation Alignment for Unsupervised Domain Adaptation [Internet]. Domain Adaptation in Computer Vision Applications. 2017;153\u201371. Available from: http://dx.doi.org/10.1007/978-3-319-58347-1_8",
+        "DOI": "10.1007/978-3-319-58347-1_8"
+      },
+      {
+        "key": "2021020911300966000_2021.02.04.21251131v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1613/jair.1872",
+        "article-title": "Domain Adaptation for Statistical Classifiers [Internet]",
+        "volume": "26",
+        "year": "2006",
+        "journal-title": "Journal of Artificial Intelligence Research"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.04.21251131",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:05:48Z",
+      "timestamp": 1768485948000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.02.04.21251131"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2021.02.04.21251131",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3389/fdgth.2021.681608",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

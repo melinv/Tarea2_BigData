@@ -1,0 +1,438 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:48:28Z",
+      "timestamp": 1768549708188,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 45,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The fast transmission rate of COVID-19 worldwide has made this virus the most important challenge of year 2020. Many mitigation policies have been imposed by the governments at different regional levels (country, state, county, and city) to stop the spread of this virus. Quantifying the effect of such mitigation strategies on the transmission and recovery rates, and predicting the rate of new daily cases are two crucial tasks. In this paper, we propose a modeling framework which not only accounts for such policies but also utilizes the spatial and temporal information to characterize the pattern of COVID-19 progression. Specifically, a piecewise susceptible-infected-recovered (SIR) model is developed while the dates at which the transmission/recover rates change significantly are defined as \u201cbreak points\u201d in this model. A novel and data-driven algorithm is designed to locate the break points using ideas from fused lasso and thresholding. In order to enhance the forecasting power and to describe additional temporal dependence among the daily number of cases, this model is further coupled with spatial smoothing covariates and vector auto-regressive (VAR) model. The proposed model is applied to several U.S. states and counties, and the results confirm the effect of \u201cstay-at-home orders\u201d and some states\u2019 early \u201cre-openings\u201d by detecting break points close to such events. Further, the model performed satisfactorily short-term forecasts of the number of new daily cases at regional levels by utilizing the estimated spatio-temporal covariance structures. Finally, some theoretical results and empirical performance of the proposed methodology on synthetic data are reported which justify the good performance of the proposed method.</jats:p>",
+    "DOI": "10.1101/2020.09.14.20194548",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2020-09-18T16:30:12Z",
+      "timestamp": 1600446612000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Non-stationary Spatio-Temporal Modeling of COVID-19 Progression in The U.S."
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Yue",
+        "family": "Bai",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Abolfazl",
+        "family": "Safikhani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "George",
+        "family": "Michailidis",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1016/j.idm.2017.03.001",
+        "article-title": "A primer on stochastic epidemic models: Formulation, numerical simulation, and analysis",
+        "volume": "2",
+        "year": "2017",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0230405"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "931",
+        "DOI": "10.1016/S0140-6736(20)30567-5",
+        "article-title": "How will country-based mitigation measures influence the course of the COVID-19 epidemic",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bailey , N. T. (1953). The total size of a general stochastic epidemic. Biometrika 177\u2013185.",
+        "DOI": "10.1093/biomet/40.1-2.177"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.5",
+        "unstructured": "Baranowski , R. , Chen , Y. and Fryzlewicz , P. (2016). Narrowest-over-threshold detection of multiple change-points and change-point-like features. arXiv preprint arXiv:1609.00293."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1111/j.2517-6161.1949.tb00031.x",
+        "article-title": "Some evolutionary stochastic processes",
+        "volume": "11",
+        "year": "1949",
+        "journal-title": "Journal of the Royal Statistical Society. Series B (Methodological)"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1705",
+        "DOI": "10.1214/08-AOS620",
+        "article-title": "Simultaneous analysis of Lasso and Dantzig selector",
+        "volume": "37",
+        "year": "2009",
+        "journal-title": "The Annals of statistics"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1016/j.mbs.2018.02.003",
+        "article-title": "Gaussian process approximations for fast inference from infectious disease data",
+        "volume": "301",
+        "year": "2018",
+        "journal-title": "Mathematical biosciences"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.9",
+        "unstructured": "U. S. Census Bureau (2019). Population and Housing Unit Estimates Datasets, https://www.census.gov/programs-surveys/popest/data/data-sets.html."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1080/01621459.2013.866566",
+        "article-title": "Group LASSO for structural break time series",
+        "volume": "109",
+        "year": "2014",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.11",
+        "unstructured": "Chen , Y.-C. , Lu , P.-E. and Chang , C.-S. (2020). A Time-dependent SIR model for COVID-19. arXiv preprint arXiv:2003.00122."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chimmula , V. K. R. and Zhang , L. (2020). Time series forecasting of COVID-19 transmission in Canada using LSTM networks. Chaos, Solitons & Fractals 109864.",
+        "DOI": "10.1016/j.chaos.2020.109864"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.13",
+        "unstructured": "Cressie , N. (2015). Statistics for spatial data. John Wiley & Sons."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.14",
+        "unstructured": "Daley , D. J. and Gani , J. (2001). Epidemic modelling: an introduction 15. Cambridge University Press."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dehning , J. , Zierenberg , J. , Spitzner , F. P. , Wibral , M. , Neto , J. P. , Wilczek , M. and Priesemann , V. (2020). Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions. Science.",
+        "DOI": "10.1126/science.abb9789"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1080/10618600.2018.1512868",
+        "article-title": "Detecting Changes in Slope With an L 0 Penalty",
+        "volume": "28",
+        "year": "2019",
+        "journal-title": "Journal of Computational and Graphical Statistics"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.17",
+        "unstructured": "Centers for Disease Control and Prevention (2020). Considerations for Wearing Masks. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Giordano , G. , Blanchini , F. , Bruno , R. , Colaneri , P. , Di Filippo , A. , Di Matteo , A. and Colaneri , M. (2020). Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy. Nature Medicine 1\u20136.",
+        "DOI": "10.1038/s41591-020-0883-7"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Greenwood , P. E. and Gordillo , L. F. (2009). Stochastic epidemic modeling. In Mathematical and statistical estimation approaches in epidemiology 31\u201352. Springer.",
+        "DOI": "10.1007/978-90-481-2313-1_2"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/jasa.2010.tm09181"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2346830"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.22",
+        "unstructured": "Hastie , T. , Tibshirani , R. and Friedman , J. (2009). The elements of statistical learning: data mining, inference, and prediction. Springer Science & Business Media."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.23",
+        "unstructured": "Hu , Z. , Ge , Q. , Jin , L. and Xiong , M. (2020). Artificial intelligence forecasting of covid-19 in china. arXiv preprint arXiv:2002.07112."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang , F. , Zhao , Z. and Shao , X. (2020). Time Series Analysis of COVID-19 Infection Curve: A Change-Point Perspective.",
+        "DOI": "10.1016/j.jeconom.2020.07.039"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.25",
+        "first-page": "700",
+        "article-title": "A contribution to the mathematical theory of epidemics",
+        "volume": "115",
+        "year": "1927",
+        "journal-title": "Proceedings of the royal society of london. Series A, Containing papers of a mathematical and physical character"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0843-2"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1974",
+        "DOI": "10.1016/j.apm.2011.08.019",
+        "article-title": "Infectious disease models with time-varying parameters and general nonlinear incidence rate",
+        "volume": "36",
+        "year": "2012",
+        "journal-title": "Applied Mathematical Modelling"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1637",
+        "DOI": "10.1214/12-AOS1018",
+        "article-title": "High-dimensional regression with noisy and missing data: Provable guarantees with nonconvexity",
+        "volume": "40",
+        "year": "2012",
+        "journal-title": "Ann. Statist."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L\u00fctkepohl , H. (2005). New introduction to multiple time series analysis. Springer Science & Business Media.",
+        "DOI": "10.1007/978-3-540-27752-1"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.30",
+        "unstructured": "Mervosh , S. , Lee , J. C. , Gamio , L. and Popovich , N. (2020). See How All 50 States Are Reopening. https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/12-STS400"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.32",
+        "unstructured": "National Bureau of Economic Research (2010). Population and Housing Unit Estimates Datasets, http://data.nber.org/distance/2010/sf1/."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qi , H. , Xiao , S. , Shi , R. , Ward , M. P. , Chen , Y. , Tu , W. , Su , Q. , Wang , W. , Wang , X. and Zhang , Z. (2020). COVID-19 transmission in Mainland China is associated with temperature and humidity: A time-series analysis. Science of the Total Environment 138778.",
+        "DOI": "10.1016/j.scitotenv.2020.138778"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Safikhani , A. and Shojaie , A. (2020). Joint structural break detection and parameter estimation in high-dimensional non-stationary var models. Journal of the American Statistical Association just-accepted 1\u201326.",
+        "DOI": "10.1080/01621459.2020.1770097"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "461",
+        "DOI": "10.1214/aos/1176344136",
+        "article-title": "Estimating the dimension of a model",
+        "volume": "6",
+        "year": "1978",
+        "journal-title": "The annals of statistics"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song , P. X. , Wang , L. , Zhou , Y. , He , J. , Zhu , B. , Wang , F. , Tang , L. and Eisenberg , M. (2020). An epidemiological forecast model and software assessing interventions on COVID-19 epidemic in China. MedRxiv.",
+        "DOI": "10.1101/2020.02.29.20029421"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.37",
+        "unstructured": "Srivastava , A. and Prasanna , V. K. (2020). Learning to Forecast and Forecasting to Learn from the COVID-19 Pandemic. arXiv preprint arXiv:2004.11372."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9868.00293"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00490.x"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.40",
+        "unstructured": "The New York Times (2020). Coronavirus (Covid-19) data in the United States, https://github.com/nytimes/covid-19-data."
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "688",
+        "DOI": "10.1214/11-EJS624",
+        "article-title": "The adaptive and the thresholded Lasso for potentially misspecified models (and a lower bound for the Lasso)",
+        "volume": "5",
+        "year": "2011",
+        "journal-title": "Electronic Journal of Statistics"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vok\u00f3, Z. and Pitter , J. G. (2020). The effect of social distance measures on COVID-19 epidemics in Europe: an interrupted time series analysis. GeroScience 1\u20138.",
+        "DOI": "10.1007/s11357-020-00205-0"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wagner , A. B. , Hill , E. L. , Ryan , S. E. , Sun , Z. , Deng , G. , Bhadane , S. , Martinez , V. H. , Wu , P. , Li , D. , Anand , A. , Acharya , J. and Matteson , D. S. (2020). Social Distancing Has Merely Stabilized COVID-19 in the US. medRxiv.",
+        "DOI": "10.1101/2020.04.27.20081836"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang , L. , Wang , G. , Gao , L. , Li , X. , Yu , S. , Kim , M. , Wang , Y. and Gu , Z. (2020a). Spatiotemporal dynamics, nowcasting and forecasting of COVID-19 in the United States. arXiv preprint arXiv:2004.14103.",
+        "DOI": "10.1090/noti2263"
+      },
+      {
+        "key": "2021021308201116000_2020.09.14.20194548v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang , G. , Gu , Z. , Li , X. , Yu , S. , Kim , M. , Wang , Y. , Gao , L. and Wang , L. (2020b). Comparing and Integrating US COVID-19 Daily Data from Multiple Sources: A County-Level Dataset with Local Characteristics. arXiv preprint arXiv:2006.01333.",
+        "DOI": "10.1080/02664763.2021.1928016"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.14.20194548",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:54:17Z",
+      "timestamp": 1768485257000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.14.20194548"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "references-count": 45,
+    "URL": "https://doi.org/10.1101/2020.09.14.20194548",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1109/JSTSP.2022.3140703",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

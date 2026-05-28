@@ -1,0 +1,262 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T06:55:22Z",
+      "timestamp": 1768546522354,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Introduction</jats:title>\n                  <jats:p>Dynamic tools and methods to assess the ongoing transmission potential of COVID-19 in India are required. We aim to estimate time-dependent transmissibility of COVID-19 for India using a reproducible framework.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    Daily COVID-19 case incidence time series for India and its states was obtained from\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://api.covid19india.org/\">https://api.covid19india.org/</jats:ext-link>\n                    and pre-processed. Bayesian approach was adopted to quantify transmissibility at a given location and time, as indicated by the instantaneous reproduction number (R\n                    <jats:sub>eff</jats:sub>\n                    ). Analysis was carried out in R version 4.0.2 using\n                    <jats:italic>\u201cEpiEstim_2.2-3\u201d</jats:italic>\n                    package. Serial interval distribution was estimated using \u201cuncertain_si\u201d algorithm with inputs of mean, standard deviation, minimum and maximum of mean serial interval as 5.1, 1.2, 3.9 and 7.5 days respectively; and mean, standard deviation, minimum, and maximum of standard deviations of serial interval as 3.7, 0.9, 2.3, and 4.7 respectively with 100 simulations and moving average of seven days.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    A total of 9,07,544 cumulative incident cases till July 13\n                    <jats:sup>th</jats:sup>\n                    , 2020 were analysed. Daily COVID-19 incidence in the country was seen on the rise; however, transmissibility showed a decline from the initial phases of COVID-19 pandemic in India. The maximum R\n                    <jats:sub>eff</jats:sub>\n                    reached at the national level during the study period was 2.57 (sliding week ending April 4\n                    <jats:sup>th</jats:sup>\n                    , 2020). R\n                    <jats:sub>eff</jats:sub>\n                    on July 13\n                    <jats:sup>th</jats:sup>\n                    , 2020 for India was 1.16 with a range from 0.59 to 2.98 across various states/UTs.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>\n                    R\n                    <jats:sub>eff</jats:sub>\n                    provides critical feedback for assessment of transmissibility of COVID-19 and thus is a potential dynamic decision support tool for on-ground public health decision making.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.15.20154971",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2020-07-16T11:26:26Z",
+      "timestamp": 1594898786000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Time-dependent dynamic transmission potential and instantaneous reproduction number of COVID-19 pandemic in India"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Gurpreet",
+        "family": "Singh",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Seema",
+        "family": "Patrikar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P",
+        "family": "Sankara Sarma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0748-0839",
+        "authenticated-orcid": false,
+        "given": "Biju",
+        "family": "Soman",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.1",
+        "unstructured": "WHO. [Internet]. Coronavirus Disease (COVID-19) Dashboard. World Health Organisation. Available from: https://covid19.who.int [cited July 14, 2020]."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.2",
+        "unstructured": "Worldometer. [Internet]. Most Populous Countries in the World (2016). Available from: https://www.worldometers.info/population/most-populous-countries/ [cited July 14, 2020]."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.3",
+        "unstructured": "WHO. [Internet]. India: WHO Coronavirus Disease (COVID-19) Dashboard. World Health Organisation. Available from: https://covid19.who.int [cited July 14, 2020]."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2005.0042"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.5",
+        "unstructured": "Vynnycky E , White RG . An introduction to infectious disease modelling. New York: Oxford University Press, 2010."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.6",
+        "unstructured": "Anderson RM , May RM . Infectious diseases of humans: dynamics and control, Reprinted. Oxford: Oxford Univ. Press, 2010."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.8",
+        "unstructured": "COVID19-India API. [ Internet] Available on https://api.covid19india.org/csv/ (accessed July 14, 2020)."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2501.171901"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patrikar S , Kotwal A , Bhatti V , et al. Incubation Period and Reproduction Number for novel coronavirus (COVID-19) infections in India. Infectious Diseases (except HIV/AIDS), 2020 DOI:10.1101/2020.06.27.20141424.",
+        "DOI": "10.1101/2020.06.27.20141424"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.11",
+        "unstructured": "MHA, India. [Internet]. Circulars for Covid-19. Ministry of Home Affairs, Government of India. Available from: https://www.mha.gov.in/notifications/circulars-covid-19 [cited July 14, 2020]."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Inoue H , Todo Y. The Propagation of the Economic Impact through Supply Chains: The Case of a Mega-City Lockdown against the Spread of COVID-19. SSRN Electron J 2020. DOI:10.2139/ssrn.3564898.",
+        "DOI": "10.2139/ssrn.3564898"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.13",
+        "unstructured": "SAGE. The Independent SAGE Report on COVID-19: what are the options for the UK?. Independent Scientific Advisory Group for Emergencies. Published May 12, 2020"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.12688/wellcomeopenres.15896.1",
+        "article-title": "Transmission dynamics, serial interval and epidemiology of COVID-19 diseases in Hong Kong under different control measures",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Wellcome Open Res"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ganyani T , Kremer C , Chen D , et al. Estimating the generation interval for coronavirus disease (COVID-19) based on symptom onset data, March 2020. Eurosurveillance 2020; 25. DOI:10.2807/1560-7917.ES.2020.25.17.2000257.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.17.2000257"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.16",
+        "unstructured": "MoHFW, GoK. [Internet] State Report on Clusters. Department of Health & Family Welfare, Government of Kerala. Available from: https://dhs.kerala.gov.in/wp-content/uploads/2020/07/Report-Covid-Clusters.pdf [cited accessed July 14, 2020)."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1341",
+        "DOI": "10.3201/eid2606.200357",
+        "article-title": "Serial Interval of COVID-19 among Publicly Reported Confirmed Cases",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Emerg Infect Dis"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.19",
+        "unstructured": "WHO. Situation Report 46. [Internet]. World Health Organisation. Available from: https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200306-sitrep-46-covid-19.pdf?sfvrsn=96b04adf_4. [cited July 14, 2020]."
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001316"
+      },
+      {
+        "key": "2021011500151056000_2020.07.15.20154971v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao S , Gao D , Zhuang Z , et al. Estimating the serial interval of the novel coronavirus disease (COVID-19): A statistical analysis using the public data in Hong Kong from January 16 to February 15, 2020. Epidemiology, 2020 DOI:10.1101/2020.02.21.20026559.",
+        "DOI": "10.1101/2020.02.21.20026559"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.15.20154971",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:48:24Z",
+      "timestamp": 1768484904000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.15.20154971"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2020.07.15.20154971",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

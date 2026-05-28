@@ -1,0 +1,330 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:05:07Z",
+      "timestamp": 1768550707829,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          6
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 34,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Detail is a double edged sword in epidemiological modelling. The inclusion of mechanistic detail in models of highly complex systems has the potential to increase realism, but it also increases the number of modelling assumptions, which become harder to check as their possible interactions multiply. In a major study of the Covid-19 epidemic in England, Knock et al. (2020) fit an age structured SEIR model with added health service compartments to data on deaths, hospitalization and test results from Covid-19 in seven English regions for the period March to December 2020. The simplest version of the model has 684 states per region. One main conclusion is that only full lockdowns brought the pathogen reproduction number,\n                  <jats:italic>R</jats:italic>\n                  , below one, with\n                  <jats:italic>R</jats:italic>\n                  \u226b 1 in all regions on the eve of March 2020 lockdown. We critically evaluate the Knock et al. epidemiological model, and the semi-causal conclusions made using it, based on an independent reimplementation of the model designed to allow relaxation of some of its strong assumptions. In particular, Knock et al. model the effect on transmission of both non-pharmaceutical interventions and other effects, such as weather, using a piecewise linear function,\n                  <jats:italic>b</jats:italic>\n                  (\n                  <jats:italic>t</jats:italic>\n                  ), with 12 breakpoints at selected government announcement or intervention dates. We replace this representation by a smoothing spline with time varying smoothness, thereby allowing the form of\n                  <jats:italic>b</jats:italic>\n                  (\n                  <jats:italic>t</jats:italic>\n                  ) to be substantially more data driven, and we check that the corresponding smoothness assumption is not driving our results. We also reset the mean incubation time and time from first symptoms to hospitalisation, used in the model, to values implied by the papers cited by Knock et al. as the source of these quantities. We conclude that there is no sound basis for using the Knock et al. model and their analysis to make counterfactual statements about the number of deaths that would have occurred with different lockdown timings. However, if fits of this epidemiological model structure are viewed as a reasonable basis for inference about the time course of incidence and\n                  <jats:italic>R</jats:italic>\n                  , then without very strong modelling assumptions, the pathogen reproduction number was probably below one, and incidence in substantial decline, some days before either of the first two English national lockdowns. This result coincides with that obtained by more direct attempts to reconstruct incidence. Of course it does not imply that lockdowns had no effect, but it does suggest that other non-pharmaceutical interventions (NPIs) may have been more effective than Knock et al. imply, and that full lockdowns were probably not the cause of\n                  <jats:italic>R</jats:italic>\n                  dropping below one.\n                </jats:p>",
+    "DOI": "10.1101/2021.02.03.21251112",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2021-02-06T04:20:11Z",
+      "timestamp": 1612585211000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Was\n                  <i>R</i>\n                  &lt; 1 before the English lockdowns? On modelling mechanistic detail, causality and inference about Covid-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "S. N.",
+        "family": "Wood",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "E. C.",
+        "family": "Wit",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.1",
+        "unstructured": "Anderson, R. , C. Donnelly , D. Hollingsworth , M. Keeling , C. Vegvari , R. Baggaley , and R. Maddren (2020). Reproduction number (R) and growth rate (r) of the COVID-19 epidemic in the UK: methods of estimation, data sources, causes of heterogeneity, and use as a guide in policy formulation. Technical report, Royal Society SET-C."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.2",
+        "unstructured": "Baguelin, M. , E. Knock , L. Whittles , R. FitzJohn , J. Lees , and A. Cori (2021). sircovid: SIR Model for COVID-19. https://github.com/mrc-ide/sircovid, https://mrc-ide.github.io."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.archger.2020.104240"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.4",
+        "unstructured": "Bhutta, Z. A. , A. Owais , S. Horton , A. Rizvi , I. Nisar , J. Das , J. Wright , E. Mills , O. Harari , J. Forrest , and W. Stevens (2021). Direct and indirect effects of the COVID-19 pandemic and response in South Asia. UNICEF."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.5",
+        "unstructured": "Briggs, A. , D. Jenkins , and C. Fraser (2020). NHS Test and Trace: the journey so far. Health Foundation."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, Y. , C. You , Y. Liu , J. Qin , and X.-H. Zhou (2020). Estimation of incubation period and generation time based on observed length-biased epidemic cohort with censoring for covid-19 outbreak in china. Biometrics.",
+        "DOI": "10.1111/biom.13325"
+      },
+      {
+        "issue": "2",
+        "key": "2021081409000442000_2021.02.03.21251112v3.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1097/CCM.0000000000004747",
+        "article-title": "Improving survival of critical care patients with coronavirus disease 2019 in england: a national cohort study, March to June 2020",
+        "volume": "49",
+        "year": "2021",
+        "journal-title": "Critical care medicine"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.8",
+        "unstructured": "DHSC (2020). Direct and indirect impacts of COVID-19 on excess deaths and morbidity. Department of Health and Social Care, Office for National Statistics, Government Actuary\u2019s Department and Home Office. https://www.gov.uk/government/publications/dhsconsgadho-direct-and-indirect-impacts-of-covid-19-on-excess-deaths-and-morbidity-15-july-2020."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00178324"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.10",
+        "unstructured": "Discombe, M. (2020, December). Covid infections caught in hospital rise by a third in one week. Health Service Journal."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Docherty, A. B. , E. M. Harrison , C. A. Green , H. E. Hardwick , R. Pius , L. Norman , K. A. Holden , J. M. Read , F. Dondelinger , G. Carson , et al. (2020). Features of 20 133 UK patients in hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: prospective observational cohort study. BMJ 369.",
+        "DOI": "10.1136/bmj.m1985"
+      },
+      {
+        "issue": "7820",
+        "key": "2021081409000442000_2021.02.03.21251112v3.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1038/s41586-020-2405-7",
+        "article-title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
+        "volume": "584",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.13",
+        "unstructured": "Funk, S. (2020). socialmixr: Social Mixing Matrices for Infectious Disease Modelling. R package version 0.1.8."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1378322"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.15",
+        "unstructured": "Knock, E. S. , L. K. Whittles , J. A. Lees , P. N. Perez Guzman , R. Verity , R. G. Fitzjohn , K. A. M. Gaythorpe , N. Imai , W. Hinsley , L. C. Okell , A. Rosello , N. Kantas , C. E. Walters , S. Bhatia , O. J. Watson , C. Whittaker , L. Cattarino , A. Boonyasiri , B. A. Djaafara , K. Fraser , H. Fu , H. Wang , X. Xi , C. A. Donnelly , E. Jauneijaite , D. J. Laydon , P. J. White , A. C. Ghani , N. M. Ferguson , A. Cori , and M. Baguelin (2020). Report 41: The 2020 SARS-CoV-2 epidemic in England: key epidemiological drivers and impact of interventions. Imperial College London."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Knock, E. S. , L. K. Whittles , J. A. Lees , P. N. Perez Guzman , R. Verity , R. G. Fitzjohn , K. A. M. Gaythorpe , N. Imai , W. Hinsley , L. C. Okell , A. Rosello , N. Kantas , C. E. Walters , S. Bhatia , O. J. Watson , C. Whittaker , L. Cattarino , A. Boonyasiri , B. A. Djaafara , K. Fraser , H. Fu , H. Wang , X. Xi , C. A. Donnelly , E. Jauneijaite , D. J. Laydon , P. J. White , A. C. Ghani , N. M. Ferguson , A. Cori , and M. Baguelin (2021). Key epidemiological drivers and impact of interventions in the 2020 SARS-CoV-2 epidemic in England. Science Translational Medicine.",
+        "DOI": "10.1126/scitranslmed.abg4262"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marmot, M. , J. Allen , T. Boyce , P. Goldblatt , and J. Morrison (2020). Health Equity in England: The Marmot Review 10 Years On. The Health Foundation.",
+        "DOI": "10.1136/bmj.m693"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-039652"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McKeigue, P. M. , D. McAllister , D. Caldwell , C. Gribben , J. Bishop , S. J. McGurnaghan , M. Armstrong , J. Delvaux , S. Colville , S. Hutchinson , et al. (2021). Relation of severe COVID-19 in scotland to transmission-related factors and risk conditions eligible for shielding support: REACT-SCOT case-control study. BMC Medicine.",
+        "DOI": "10.1186/s12916-021-02021-5"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.21",
+        "unstructured": "Mossong, J. , N. Hens , M. Jit , P. Beutels , K. Auranen , R. Mikolajczyk , M. Massari , S. Salmaso , G. S. Tomba , J. Wallinga , J. Heijne , M. Sadkowska-Todys , M. Rosinska , and W. J. Edmunds (2017, November). POLYMOD social contact data."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.22",
+        "unstructured": "NHS (2021). Covid-19 Hospital Activity. https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-hospital-activity/."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.23",
+        "unstructured": "Nocedal, J. and S. Wright (2006). Numerical Optimization (2nd ed.). New York: Springer Verlag."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.24",
+        "unstructured": "ONS (2021, May). Coronavirus (COVID-19) Infection Survey, UK. https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/bulletins/coronaviruscovid19infectionsurveypilot/7may2021#number-of-new-covid-19-infections-in-england-wales-northern-ireland-and-scotland."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.25",
+        "unstructured": "Pearl, J. , M. Glymour , and N. P. Jewell (2016). Causal inference in statistics: A primer. John Wiley & Sons."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.26",
+        "unstructured": "PIB India (2020, May). Government of India Press Briefing on the actions taken, preparedness and updates on COVID-19, 22nd May 2020, Press Information Bureau. https://pib.gov.in/WebcastMore.aspx?webcast_tempID=434."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.27",
+        "unstructured": "Press, W. , S. Teukolsky , W. Vetterling , and B. Flannery (2007). Numerical Recipes (3rd ed.). Cambridge: Cambridge University Press."
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pritchard, M. , E. A. Dankwa , M. Hall , J. K. Baillie , G. Carson , A. Docherty , C. A. Donnelly , J. Dunning , C. Fraser , H. Hardwick , et al. (2020). ISARIC clinical data report 4 October 2020. medRxiv.",
+        "DOI": "10.1101/2020.07.17.20155218"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "RECOVERY Collaborative Group (2020). Dexamethasone in hospitalized patients with covid-19\u2014preliminary report. New England Journal of Medicine.",
+        "DOI": "10.1056/NEJMoa2021436"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ward, H. , G. Cooke , M. Whitaker , R. Redd , O. Eales , J. C. Brown , K. Collet , E. Cooper , A. Daunt , K. Jones , et al. (2021). React-2 round 5: increasing prevalence of sars-cov-2 antibodies demonstrate impact of the second wave and of vaccine roll-out in england. medRxiv.",
+        "DOI": "10.1101/2021.02.26.21252512"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2521-4"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wood, S. N. (2017). Generalized Additive Models: An Introduction with R (2 ed.). Boca Raton, FL: CRC press.",
+        "DOI": "10.1201/9781315370279"
+      },
+      {
+        "key": "2021081409000442000_2021.02.03.21251112v3.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wood, S. N. (2021). Inferring UK COVID-19 fatal infection trajectories from daily mortality data: were infections already in decline before the UK lockdowns? Biometrics.",
+        "DOI": "10.1111/biom.13462"
+      },
+      {
+        "issue": "4",
+        "key": "2021081409000442000_2021.02.03.21251112v3.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1071",
+        "DOI": "10.1111/biom.12666",
+        "article-title": "A generalized Fellner-Schall method for smoothing parameter optimization with application to Tweedie location, scale and shape models",
+        "volume": "73",
+        "year": "2017",
+        "journal-title": "Biometrics"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.03.21251112",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:05:45Z",
+      "timestamp": 1768485945000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.02.03.21251112"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          6
+        ]
+      ]
+    },
+    "references-count": 34,
+    "URL": "https://doi.org/10.1101/2021.02.03.21251112",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0257455",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

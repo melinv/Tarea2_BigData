@@ -1,0 +1,445 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2026-02-07T16:48:42Z",
+      "timestamp": 1770482922970,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 35,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2024-07-15T00:00:00Z",
+          "timestamp": 1721001600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "award": [
+          "HG013177"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "HG013177"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/00baak391",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "award": [
+          "GM105785"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GM105785"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/04q48ey07",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Gene-by-gene differential expression analysis is a widely used supervised approach for interpreting single-cell RNA-sequencing (scRNA-seq) data. However, modern scRNA-seq datasets often contain large numbers of cells, which can produce numerous differentially expressed genes with exceedingly small p-values but minimal effect sizes, and thus making biological interpretation difficult. To overcome this challenge, we developed Supervised Deep learning with gene ANnotation (SDAN), a method that integrates gene-annotation information with gene-expression profiles using a graph neural network. SDAN identifies functionally coherent gene sets that best classify cells, and the resulting cell-level classification scores can be aggregated to make individual-level predictions. We evaluated SDAN and two representative existing methods in three real-data applications to identify gene sets associated with severe COVID-19, dementia, and immunotherapy response in cancer. SDAN consistently outperformed alternative approaches by achieving two key objectives simultaneously: accurate classification of outcomes and unambiguous assignment of genes to gene sets of functionally related genes.</jats:p>",
+    "DOI": "10.1101/2024.07.15.603527",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2024-07-16T00:50:15Z",
+      "timestamp": 1721091015000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Supervised Deep Learning with Gene Annotation for Cell Classification"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Zhexiao",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, University of California, Berkeley, CA"
+          }
+        ]
+      },
+      {
+        "given": "Yuanyuan",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, University of California, Berkeley, CA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6350-1107",
+        "authenticated-orcid": false,
+        "given": "Wei",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Biostatistics Program, Fred Hutch Cancer Center, Seattle, WA"
+          },
+          {
+            "name": "Department of Biostatistics, University of Washington, Seattle, WA"
+          },
+          {
+            "name": "Department of Biostatistics, University of North Carolina, Chapel Hill, NC"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2026020500532105000_2024.07.15.603527v2.1",
+        "first-page": "1",
+        "article-title": "Single-cell RNA-seq denoising using a deep count autoencoder",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nature communications"
+      },
+      {
+        "issue": "9",
+        "key": "2026020500532105000_2024.07.15.603527v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "875",
+        "DOI": "10.1038/s41592-019-0537-1",
+        "article-title": "Data denoising with transfer learning in single-cell transcriptomics",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "Nature methods"
+      },
+      {
+        "issue": "1",
+        "key": "2026020500532105000_2024.07.15.603527v2.3",
+        "first-page": "112",
+        "article-title": "Data denoising and postdenoising corrections in single cell RNA sequencing",
+        "volume": "35",
+        "year": "2020",
+        "journal-title": "Statistical Science"
+      },
+      {
+        "issue": "4",
+        "key": "2026020500532105000_2024.07.15.603527v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1038/s42256-019-0037-0",
+        "article-title": "Clustering single-cell RNA-seq data with a model-based deep learning approach",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "2026020500532105000_2024.07.15.603527v2.5",
+        "first-page": "1",
+        "article-title": "Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "issue": "12",
+        "key": "2026020500532105000_2024.07.15.603527v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1053",
+        "DOI": "10.1038/s41592-018-0229-2",
+        "article-title": "Deep generative modeling for single-cell transcriptomics",
+        "volume": "15",
+        "year": "2018",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20209620"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.43803"
+      },
+      {
+        "issue": "1",
+        "key": "2026020500532105000_2024.07.15.603527v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1878",
+        "DOI": "10.1038/s41467-025-57157-2",
+        "article-title": "Interpretable single-cell factor decomposition using sciRED",
+        "volume": "16",
+        "year": "2025",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-023-01940-3"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03841-4"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.01.015"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-021-01122-w"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.10.037"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.devcel.2020.12.010"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrdp.2015.56"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41583-022-00641-1"
+      },
+      {
+        "issue": "7",
+        "key": "2026020500532105000_2024.07.15.603527v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "894",
+        "DOI": "10.1038/s43587-023-00424-y",
+        "article-title": "Human microglia show unique transcriptional changes in alzheimer\u2019s disease",
+        "volume": "3",
+        "year": "2023",
+        "journal-title": "Nature Aging"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.19",
+        "unstructured": "Mariano I Gabitto , Kyle J Travaglini , Victoria M Rachleff , Eitan S Kaplan , Brian Long , Jeanelle Ariza , Yi Ding , Joseph T Mahoney , Nick Dee , Jeff Goldy , et al. Integrated multimodal cell atlas of alzheimer\u2019s disease. Research Square, 2023."
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41568-019-0116-x"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.10.038"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-019-0522-3"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.3704"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-020-0725-2"
+      },
+      {
+        "issue": "1",
+        "key": "2026020500532105000_2024.07.15.603527v2.25",
+        "first-page": "2023",
+        "article-title": "Mitochondrial dysfunction promotes the transition of precursor to terminally exhausted T cells through HIF-1\u03b1-mediated glycolytic reprogramming",
+        "volume": "14",
+        "year": "6858",
+        "journal-title": "Nature communications"
+      },
+      {
+        "issue": "4",
+        "key": "2026020500532105000_2024.07.15.603527v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.1038/nmeth.4627",
+        "article-title": "Using deep learning to model the hierarchical structure and function of a cell",
+        "volume": "15",
+        "year": "2018",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-018-2201-7"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03922-4"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohammad Lotfollahi , Sergei Rybakov , Karin Hrovatin , Soroor Hediyeh-zadeh , Carlos Talavera-L\u00f3pez , Alexander Misharin , and Fabian J Theis . Biologically informed deep learning to infer gene program activity in single cells. bioRxiv, 2022.",
+        "DOI": "10.1101/2022.02.05.479217"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.30",
+        "unstructured": "Bo Han , Quanming Yao , Xingrui Yu , Gang Niu , Miao Xu , Weihua Hu , Ivor Tsang , and Masashi Sugiyama . Co-teaching: Robust training of deep neural networks with extremely noisy labels. Advances in neural information processing systems, 31, 2018."
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.31",
+        "unstructured": "Xingrui Yu , Bo Han , Jiangchao Yao , Gang Niu , Ivor Tsang , and Masashi Sugiyama . How does disagreement help generalization against label corruption? International Conference on Machine Learning, pages 7164\u20137173, 2019."
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.32",
+        "unstructured": "Junnan Li , Richard Socher , and Steven CH Hoi . Dividemix: Learning with noisy labels as semi-supervised learning. International Conference on Learning Representations, 2019."
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq064"
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.34",
+        "unstructured": "Thomas N Kipf and Max Welling . Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:1609.02907, 2016."
+      },
+      {
+        "key": "2026020500532105000_2024.07.15.603527v2.35",
+        "unstructured": "Filippo Maria Bianchi , Daniele Grattarola , and Cesare Alippi . Spectral clustering with graph neural networks for graph pooling. In International Conference on Machine Learning, pages 874\u2013883. PMLR, 2020."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.15.603527",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          5
+        ]
+      ],
+      "date-time": "2026-02-05T08:53:29Z",
+      "timestamp": 1770281609000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.15.603527"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1101/2024.07.15.603527",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

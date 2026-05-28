@@ -1,0 +1,418 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T21:05:42Z",
+      "timestamp": 1768511142902,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Technologies such as Cellular Indexing of Transcriptomes and Epitopes sequencing (CITE-seq) and RNA Expression and Protein sequencing (REAP-seq) augment unimodal single-cell RNA sequencing (scRNA-seq) by simultaneously measuring expression of cell-surface proteins using antibody derived oligonucleotide tags (ADT). These protocols have been increasingly used to resolve cellular populations that are difficult to infer from gene expression alone, and to interrogate the relationship between gene and protein expression at a single-cell level. However, the ADT-based protein expression component of these assays remains widely underutilized as a primary tool to discover and annotate cell populations, in contrast to flow cytometry which has used surface protein expression in this fashion for decades. Therefore, we hypothesized that computational tools used for flow cytometry data analysis could be harnessed and scaled to analyze ADT data. Here we apply Ozette Discovery\u2122, a recently-developed method for flow cytometry analysis, to re-analyze a large (&gt;400,000 cells) published COVID-19 CITE-seq dataset. Using the protein expression data alone, Ozette Discovery is able to identify granular, robust, and interpretable cellular phenotypes in a high-throughput manner. In particular, we identify a population of CLEC12A+CD11b+CD14- myeloid cells that are specifically expanded in patients with critical COVID-19, and can only be resolved by their protein expression profiles. Using the longitudinal gene expression data from this dataset, we find that early expression of interferon response genes precedes the expansion of this subset, and that early expression of PRF1 and GZMB within specific Ozette Discovery phenotypes provides a RNA biomarker of critical COVID-19. In summary, Ozette Discovery demonstrates that taking a protein-centric approach to cell phenotype annotation in CITE-seq data can achieve the potential that dual RNA/protein assays provide in mixed samples: instantaneous\n                  <jats:italic>in silico</jats:italic>\n                  flow sorting, and unbiased RNA-seq profiling.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>HIGHLIGHTS</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Ozette Discovery provides an alternative method for data-driven annotation of granular and homogeneous cell phenotypes in CITE-seq data using protein expression data alone.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Our approach inherently accommodates for batch effects, and our novel background-normalization method improves the signal:noise ratio of these notoriously noisy protein measurements.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>While these subpopulations are not derived from RNA profiles, they have distinct and interpretable RNA signatures.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We find a population of CLEC12A+CD11b+CD14- myeloid cells associated with critical COVID-19 severity that can only be identified by their protein profiles, and identify early expression of interferon response genes in a CD4 T cell subset as a predictor of CLEC12A+CD11b+CD14- cell expansion.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Peforming differential expression analysis within our identified phenotypes reveals predictors of COVID-19 severity that are not found with coarser annotations.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2024.03.14.584720",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2024-03-15T23:20:15Z",
+      "timestamp": 1710544815000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Protein-based cell population discovery and annotation for CITE-seq data identifies cellular phenotypes associated with critical COVID-19 severity"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9205-2796",
+        "authenticated-orcid": false,
+        "given": "Denise",
+        "family": "Allen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Weaver",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sam",
+        "family": "Prokopchuk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8432-4835",
+        "authenticated-orcid": false,
+        "given": "Fritz",
+        "family": "Lekschas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mike",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4341-9090",
+        "authenticated-orcid": false,
+        "given": "Greg",
+        "family": "Finak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Evan",
+        "family": "Greene",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6581-1213",
+        "authenticated-orcid": false,
+        "given": "Andrew",
+        "family": "McDavid",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.4380"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3973"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02104-7"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06708-y"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.02.018"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20188746"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "5890",
+        "DOI": "10.1038/s41467-021-25957-x",
+        "article-title": "Efficient and precise single-cell reference atlas mapping with Symphony",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-018-0276-y"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.04.048"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2642",
+        "DOI": "10.1093/bioinformatics/btac141",
+        "article-title": "scGate: marker-based purification of cell types from heterogeneous single-cell RNA-seq datasets",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "gac165",
+        "DOI": "10.1093/pnasnexus/pgac165",
+        "article-title": "SECANT: a biology-guided semi-supervised method for clustering, classification, and annotation of single-cell multi-omics",
+        "volume": "1",
+        "year": "2022",
+        "journal-title": "PNAS Nexus"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "i542",
+        "DOI": "10.1093/bioinformatics/btaa467",
+        "article-title": "Artificial-cell-type aware cell-type classification in CITE-seq",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cyto.a.22625"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2015.05.047"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "100372",
+        "DOI": "10.1016/j.patter.2021.100372",
+        "article-title": "New interpretable machine-learning method for single-cell data reveals correlates of clinical response to cancer immunotherapy",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Patterns (N Y"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "eabj0274",
+        "DOI": "10.1126/sciadv.abj0274",
+        "article-title": "A regulatory T cell signature distinguishes the immune landscape of COVID-19 patients from those with other respiratory infections",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "Sci Adv"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04718-w"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-019-1662-y"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2667",
+        "DOI": "10.1038/s41467-018-05083-x",
+        "article-title": "Detection and removal of barcode swapping in single-cell RNA-seq data",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btad481"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz698"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12688/f1000research.73600.2"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2099",
+        "DOI": "10.1038/s41467-022-29356-8",
+        "article-title": "Normalizing and denoising protein expression data from droplet-based single cell profiling",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4388",
+        "DOI": "10.1038/s41598-023-30158-1",
+        "article-title": "Identification of two early blood biomarkers ACHE and CLEC12A for improved risk stratification of critically ill COVID-19 patients",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2019.05.031"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-019-1850-9"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1002/cyto.a.24799",
+        "article-title": "OMIP-099: 31-color spectral flow cytometry panel to investigate the steady-state phenotype of human T cells",
+        "volume": "105",
+        "year": "2024",
+        "journal-title": "Cytometry A"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2567.2002.01447.x"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxw055"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-03065-y"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd4570"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2017.00019.eCollection 2017"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bcp.2011.05.019"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "270",
+        "DOI": "10.1093/biostatistics/kxac047",
+        "article-title": "Inference after latent variable estimation for single-cell RNA sequencing data",
+        "volume": "25",
+        "year": "2023",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-014-0550-8"
+      },
+      {
+        "key": "2024031909000735000_2024.03.14.584720v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2016.1180986"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.14.584720",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:06:59Z",
+      "timestamp": 1768457219000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.14.584720"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2024.03.14.584720",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

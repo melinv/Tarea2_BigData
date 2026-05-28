@@ -1,0 +1,259 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T06:39:20Z",
+      "timestamp": 1768545560449,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 22,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We built a machine learning model (ML model) which input the number of daily infection cases and the other information related to COVID-19 over the past 24 days in each of 17 provinces in South Korea, and output the total increase in the number of infection cases in each of 17 provinces over the coming 24 days. We employ a combination of XGBoost and MultiOutputRegressor as machine learning model (ML model). For each province, we conduct a binary classification whether our ML model can classify provinces where total infection cases over the coming 24 days is more than 100. The result is Sensitivity = 3/3 = 100%, Specificity = 11/14 = 78.6%, False Positive Rate = 3/11 = 21.4%, Accuracy = 14/17 = 82.4%. Sensitivity = 100% means that we did not overlook the three provinces where the number of COVID-19 infection cases increased by more than100. In addition, as for the provinces where the actual number of new COVID-19 infection cases is less than 100, the ratio (Specificity) that our ML model can correctly estimate was 78.6%, which is relatively high. From the above all, it is demonstrated that there is a sufficient possibility that our ML model can support the following four points. (1) Promotion of behavior modification of residents in dangerous areas, (2) Assistance for decision to resume economic activities in each province, (3) Assistance in determining infectious disease control measures in each province, (4) Search for factors that are highly correlated with the future increase in the number of COVID-19 infection cases.</jats:p>",
+    "DOI": "10.1101/2020.05.10.20097527",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2020-05-14T10:45:32Z",
+      "timestamp": 1589453132000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Machine learning model estimating number of COVID-19 infection cases over coming 24 days in every province of South Korea (XGBoost and MultiOutputRegressor)"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6160-8779",
+        "authenticated-orcid": false,
+        "given": "Yoshiro",
+        "family": "Suzuki",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ayaka",
+        "family": "Suzuki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shun",
+        "family": "Nakamura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Toshiko",
+        "family": "Ishikawa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Akira",
+        "family": "Kinoshita",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.1",
+        "unstructured": "Dataset: https://www.kaaale.com/kimiihoo/coronavirusdataset"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.2",
+        "unstructured": "XGBoost: https://xgboost.readthedocs.io/en/latest/"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.3",
+        "unstructured": "MultiOutoutRegressor: https://scikit-leam.ora/stable/modules/aenerated/skleam.multioutput.MultiOutputRearessor.html"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.20944/preprints202005.0031.v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.5",
+        "unstructured": "A. Onovo , A. Atobatele , A. Kalaiwo , C. Obanubi , E. James , P. Gado , G. Odezugo , D. Magaji , D. Ogundehin , M. Russell , Using Supervised Machine Learning and Empirical Bayesian Kriging to reveal Correlates and Patterns of COVID-19 Disease outbreak in sub-Saharan Africa: Exploratory Data Analysis, https://www.medrxiv.org/node/78792.external-links.html"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.6",
+        "unstructured": "M. A. M. T. Bald\u00e9 , Fitting SIR model to COVID-19 pandemic data and comparative forecasting with machine learning, https://www.medrxiv.org/content/10.1101/2020.04.26.20081042v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.7",
+        "unstructured": "A. Kumar , Farhan M. Khan , R. Gupta , H. Puppala , Preparedness and Mitigation by projecting the risk against COVID-19 transmission using Machine Learning Techniques, https://www.medrxiv.org/content/10.1101/2020.04.26.20080655v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.8",
+        "unstructured": "F. Sattler , J. Ma , P. Wagner , D. Neumann , M. Wenzel , R. Sch\u00e4fer , W. Samek , Klaus-Robert M\u00fcller , T. Wiegand , Risk Estimation of SARS-CoV-2 Transmission from Bluetooth Low Energy Measurements, https://arxiv.org/abs/2004.11841"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.9",
+        "unstructured": "S. Tiwari , S. Kumar , K. Guleria , Outbreak Trends of Coronavirus Disease-2019 in India: A Prediction, https://www.cambridae.ora/core/ioumals/disaster-medicine-and-public-health-preparedness/article/outbreak-trends-of-coronavirus-disease2019-in-india-a-prediction/76090B13B7FDD2C96920A81CAF608264/core-reader"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.10",
+        "article-title": "First-principles machine learning modelling of COVID-19"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sujatha, R. ; Chatterjee, Jyotir ; Hassanien, Aboul ella (2020): A machine learning methodology for forecasting of the COVID-19 cases in India. TechRxiv. Preprint. https://doi.org/10.36227/techrxiv.12143685.v1",
+        "DOI": "10.36227/techrxiv.12143685.v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.12",
+        "unstructured": "H. Jo , H. Son , S. Y. Jung , H. J. Hwang , Analysis of COVID-19 spreading in South Korea using the SIR model with time-dependent parameters and deep learning, https://www.medrxiv.org/content/10.1101/2020.04.13.20063412v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.13",
+        "unstructured": "M. Paggi , Simulation of Covid-19 epidemic evolution: are compartmental models really predictive?, https://arxiv.org/abs/2004.08207"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.20944/preprints202004.0257.v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.15",
+        "unstructured": "N. S. Punn , S. K. Sonbhadra , S. Agarwal , COVID-19 Epidemic Analysis using Machine Learning and Deep Learning Algorithms, https://www.medrxiv.org/content/10.1101/2020.04.08.20057679v1"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.16",
+        "unstructured": "Z. Yang , Z. Zeng , K. Wang , Sook-San Wong , W. Liang , M. Zanin , P. Liu , X. Cao , Z. Gao , Z. Mai , J. Liang , X. Liu , S. Li , Y. Li , F. Ye , W. Guan , Y. Yang , F. Li , S. Luo , Y. Xie , B. Liu , Z. Wang , S. Zhang , Y. Wang , N. Zhong , J. He , http://jtd.amegroups.com/article/view/36385/html"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.17",
+        "unstructured": "D. Liu , L. Clemente , C. Poirier , X. Ding , M. Chinazzi , J. T Davis , A. Vespignani , M. Santillana , A machine learning methodology for real-time forecasting of the 2019\u20132020 COVID-19 outbreak using Internet searches, news alerts, and estimates from mechanistic models, https://arxiv.org/abs/2004.04019"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.18",
+        "unstructured": "S. Das , Prediction of COVID-19 Disease Progression in India: Under the Effect of National Lockdown, https://arxiv.org/abs/2004.03147"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.19",
+        "unstructured": "B. Mbaye Ndiaye , L. Tendeng , D. Seck , Analysis of the COVID-19 pandemic by SIR model and machine learning technics for forecasting, https://arxiv.org/abs/2004.01574"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.20",
+        "unstructured": "C. Zhou , W. Yuan , J. Wang , H. Xu , Y. Jiang , X. Wang , Q. H. Wen , P. Zhang , Detecting Suspected Epidemic Cases Using Trajectory Big Data, https://arxiv.org/abs/2004.00908"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Kumar , H. Kalita , S. Patairiya , Y. D. Sharma , C. Nanda , M. Rani , J. Rahmani , A. S. Bhagavathula , Forecasting the dynamics of COVID-19 Pandemic in Top 15 countries in April 2020: ARIMA Model with Machine Learning Approach, https://www.medrxiv.org/content/10.1101/2020.03.30.20046227v2",
+        "DOI": "10.1101/2020.03.30.20046227"
+      },
+      {
+        "key": "2021011111144955000_2020.05.10.20097527v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.12688/wellcomeopenres.15819.3",
+        "article-title": "Using country-level variables to classify countries according to the number of confirmed COVID-19 cases: An unsupervised machine learning approach [version 1; peer review: 1 approved]",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Wellcome Open Res"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.10.20097527",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:40:19Z",
+      "timestamp": 1768484419000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.10.20097527"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "references-count": 22,
+    "URL": "https://doi.org/10.1101/2020.05.10.20097527",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

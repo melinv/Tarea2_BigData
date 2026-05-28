@@ -1,0 +1,487 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2026-04-28T08:53:08Z",
+      "timestamp": 1777366388661,
+      "version": "3.51.4"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2020-07-18T00:00:00Z",
+          "timestamp": 1595030400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.medrxiv.org/about/FAQ#license"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We formulate a refined SEIR epidemic model that explicitly includes a contact class C that either thwarts pathogen invasion and returns to the susceptible class S or progresses successively through latent, asymptomatic, and symptomatic classes L, A, and I. Individuals in both A and I may go directly to an immune class V, and in I to a dead class D. We extend this SCLAIV formulation by including a set of drivers that can be used to develop policy to manage current Covid-19 and similar type disease outbreaks. These drivers include surveillance, social distancing (rate and efficacy), social relaxation, quarantining (linked to contact tracing), patient treatment/isolation and vaccination processes, each of which can be represented by a non-negative constant or an s-shaped switching flow. The latter are defined in terms of onset and switching times, initial and final values, and abruptness of switching. We built a\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.cs.oberlin.edu/\u223crms/covid3/\">Covid-19NMB-DASA</jats:ext-link>\n                  web app to generate both deterministic and stochastic solutions to our SCLAIV and drivers model and use incidence and mortality data to provide both maximum-likelihood estimation (MLE) and Bayesian MCMC fitting of parameters. In the context of South African and English Covid-19 incidence data we demonstrate how to both identify and evaluate the role of drivers in ongoing outbreaks. In particular, we show that early social distancing in South Africa likely averted around 80,000\n                  <jats:italic>observed</jats:italic>\n                  cases (actual number is double if only half the cases are observed) during the months of June and July. We also demonstrated that incidence rates in South Africa will increase to between a conservative estimate of 15 and 30 thousand\n                  <jats:italic>observed</jats:italic>\n                  cases per day (at a 50% surveillance level) by the end of August if stronger social distancing measures are not effected during July and August, 2020. On different a note, we show that comparably good local MLE fits of the English data using surveillance, social distancing and social relaxation drivers can represent very different kinds of outbreaks\u2014one with close to 90% and another with under 8% immune individuals. This latter result provides a cautionary tale of why fitting SEIR-like models to incidence or prevalence data can be extremely problematic when not anchored by other critical measures, such as levels of immunity in the population. Our presentation illustrates how our SCLAIV formulation can be used to carry out forensic and scenario analyses of disease outbreaks such as Covid-19 in well defined regions.\n                </jats:p>",
+    "DOI": "10.1101/2020.07.16.20155812",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2020-07-18T08:45:19Z",
+      "timestamp": 1595061919000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "A Contact-Explicit Covid-19 Epidemic and Response Assessment Model"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8784-9354",
+        "authenticated-orcid": false,
+        "given": "Wayne M.",
+        "family": "Getz",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dept. ESPM, UC Berkeley, CA 94720-3114, USA"
+          },
+          {
+            "name": "School of Mathematical Sciences, University of KwaZulu-Natal, Durban 4000, South Africa"
+          },
+          {
+            "name": "Numerus, 850 Iron Point Rd., Folsom, CA 95630, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7010-2502",
+        "authenticated-orcid": false,
+        "given": "Ludovica Luisa",
+        "family": "Vissat",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept. ESPM, UC Berkeley, CA 94720-3114, USA"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Salter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Numerus, 850 Iron Point Rd., Folsom, CA 95630, USA"
+          },
+          {
+            "name": "Computer Science Dept., Oberlin College, Oberlin, Ohio, OH 44074, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Atkeson A. What will be the economic impact of covid-19 in the us? rough estimates of disease scenarios. National Bureau of Economic Research; 2020.",
+        "DOI": "10.3386/w26867"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicola M , Alsafi Z , Sohrabi C , Kerwan A , Al-Jabir A , Iosifidis C , et al. The socio-economic implications of the coronavirus and COVID-19 pandemic: a review. International Journal of Surgery. 2020;.",
+        "DOI": "10.1016/j.ijsu.2020.04.018"
+      },
+      {
+        "issue": "10228",
+        "key": "2026042713300419000_2020.07.16.20155812v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "931",
+        "DOI": "10.1016/S0140-6736(20)30567-5",
+        "article-title": "How will country-based mitigation measures influence the course of the COVID-19 epidemic?",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Currie CS , Fowler JW , Kotiadis K , Monks T , Onggo BS , Robertson DA , et al. How simulation modelling can help reduce the impact of COVID-19. Journal of Simulation. 2020; p. 1\u201315.",
+        "DOI": "10.1080/17477778.2020.1751570"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.5",
+        "unstructured": "Ferguson N , Laydon D , Nedjati Gilani G , Imai N , Ainslie K , Baguelin M , et al. Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. Imperial College of Science, Technology and Medicine. 2020;."
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weissman GE , Crane-Droesch A , Chivers C , Luong T , Hanish A , Levy MZ , et al. Locally informed simulation to predict hospital capacity needs during the COVID-19 pandemic. Annals of internal medicine. 2020;.",
+        "DOI": "10.7326/L20-1062"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb5793"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/s0036144500371907"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park SW , Cornforth DM , Dushoff J , Weitz JS . The time scale of asymptomatic transmission affects estimates of epidemic potential in the COVID-19 outbreak. Epidemics. 2020;p. 100392.",
+        "DOI": "10.1016/j.epidem.2020.100392"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00275810"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004911117"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2003.2481"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2018.0282"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun T , Weng D. Estimating the effects of asymptomatic and imported patients on COVID-19 epidemic using mathematical modeling. Journal of medical virology. 2020;.",
+        "DOI": "10.1002/jmv.25939"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1016/j.epidem.2018.06.001",
+        "article-title": "Modeling epidemics: A primer and Numerus Model Builder implementation",
+        "volume": "25",
+        "year": "2018",
+        "journal-title": "Epidemics"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2004973"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexander KA , Carlson CJ , Lewis BL , Getz WM , Marathe MV , Eubank SG , et al. The ecology of pathogen spillover and disease emergence at the human-wildlife-environment interface. In: The connections between ecology and infectious disease. Springer; 2018. p. 267\u2013298.",
+        "DOI": "10.1007/978-3-319-92373-4_8"
+      },
+      {
+        "issue": "2",
+        "key": "2026042713300419000_2020.07.16.20155812v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "E43",
+        "DOI": "10.1086/668826",
+        "article-title": "Distinguishing between indirect and direct modes of transmission using epidemiological time series",
+        "volume": "181",
+        "year": "2013",
+        "journal-title": "The American Naturalist"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/284112"
+      },
+      {
+        "issue": "6",
+        "key": "2026042713300419000_2020.07.16.20155812v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.1016/S0169-5347(01)02144-9",
+        "article-title": "How should pathogen transmission be modelled?",
+        "volume": "16",
+        "year": "2001",
+        "journal-title": "Trends in ecology & evolution"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Althaus CL . Estimating the reproduction number of Ebola virus (EBOV) during the 2014 outbreak in West Africa. PLoS currents. 2014;6.",
+        "DOI": "10.1371/currents.outbreaks.91afb5e0f279e7f29e7056095255b288"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2265697"
+      },
+      {
+        "issue": "3",
+        "key": "2026042713300419000_2020.07.16.20155812v2.23",
+        "first-page": "259",
+        "article-title": "Global stability of the endemic equilibrium of multigroup SIR epidemic models",
+        "volume": "14",
+        "year": "2006",
+        "journal-title": "Canadian applied mathematics quarterly"
+      },
+      {
+        "issue": "1-2",
+        "key": "2026042713300419000_2020.07.16.20155812v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1016/j.mbs.2005.12.022",
+        "article-title": "Backward bifurcation of an epidemic model with treatment",
+        "volume": "201",
+        "year": "2006",
+        "journal-title": "Mathematical biosciences"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1090/dimacs/071/05",
+        "article-title": "Basic methods for modeling the invasion and spread of contagious diseases",
+        "volume": "71",
+        "year": "2006",
+        "journal-title": "DIMACS Series in Discrete Mathematics and Theoretical Computer Science"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Getz WM , Gonzalez JP , Salter R , Bangura J , Carlson C , Coomber M , et al. Tactics and strategies for managing Ebola outbreaks and the salience of immunization. Computational and mathematical methods in medicine. 2015;2015.",
+        "DOI": "10.1155/2015/736507"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879-017-2699-8"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002947"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyt043"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dehning J , Zierenberg J , Spitzner FP , Wibral M , Neto JP , Wilczek M , et al. Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions. Science. 2020;.",
+        "DOI": "10.1101/2020.04.02.20050922"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.31",
+        "article-title": "A quantitative compendium of COVID-19 epidemiology",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb6105"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "434",
+        "DOI": "10.1016/j.csda.2012.12.012",
+        "article-title": "Simulation-based Bayesian inference for epidemic models",
+        "volume": "71",
+        "year": "2014",
+        "journal-title": "Computational Statistics & Data Analysis"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang J , Litvinova M , Liang Y , Wang Y , Wang W , Zhao S , et al. Changes in contact patterns shape the dynamics of the COVID-19 outbreak in China. Science. 2020;.",
+        "DOI": "10.1126/science.abb8001"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ricon-Becker I , Tarrasch R , Blinder P , Ben-Eliyahu S. A seven-day cycle in COVID-19 infection and mortality rates: Are inter-generational social interactions on the weekends killing susceptible people? medRxiv. 2020;.",
+        "DOI": "10.1101/2020.05.03.20089508"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferretti L , Wymant C , Kendall M , Zhao L , Nurtay A , Abeler-D\u00f6rner L , et al. Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing. Science. 2020;368(6491).",
+        "DOI": "10.1126/science.abb6936"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gudbjartsson DF , Helgason A , Jonsson H , Magnusson OT , Melsted P , Norddahl GL , et al. Spread of SARS-CoV-2 in the Icelandic population. New England Journal of Medicine. 2020;.",
+        "DOI": "10.1056/NEJMoa2006100"
+      },
+      {
+        "issue": "13",
+        "key": "2026042713300419000_2020.07.16.20155812v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1243",
+        "DOI": "10.1001/jama.2020.2467",
+        "article-title": "COVID-19 in Singapore\u2014current experience: critical global issues that require attention and action",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Jama"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1009094108"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.3389/fpubh.2020.00152",
+        "article-title": "Gender differences in patients with COVID-19: Focus on severity and mortality",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Frontiers in Public Health"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05991-x"
+      },
+      {
+        "issue": "03",
+        "key": "2026042713300419000_2020.07.16.20155812v2.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "246",
+        "DOI": "10.3855/jidc.12585",
+        "article-title": "Spatial-temporal distribution of COVID-19 in China and its prediction: A data-driven modeling analysis",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "The Journal of Infection in Developing Countries"
+      },
+      {
+        "key": "2026042713300419000_2020.07.16.20155812v2.43",
+        "unstructured": "Bastos ML , Tavaziva G , Abidi SK , Campbell JR , Haraoui LP , Johnston JC , et al. Diagnostic accuracy of serological tests for covid-19: systematic review and meta-analysis. bmj. 2020;370."
+      },
+      {
+        "issue": "2",
+        "key": "2026042713300419000_2020.07.16.20155812v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1111/ele.12893",
+        "article-title": "Making ecological models adequate",
+        "volume": "21",
+        "year": "2018",
+        "journal-title": "Ecology letters"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.16.20155812",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          27
+        ]
+      ],
+      "date-time": "2026-04-27T20:30:25Z",
+      "timestamp": 1777321825000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.16.20155812"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          18
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2020.07.16.20155812",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

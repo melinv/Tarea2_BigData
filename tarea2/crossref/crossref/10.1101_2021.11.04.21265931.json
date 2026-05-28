@@ -1,0 +1,362 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2026-02-27T01:37:37Z",
+      "timestamp": 1772156257893,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          5
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 22,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>Passive and non-invasive identification of SARS-CoV-2 infection remains a challenge. Widespread use of wearable devices represents an opportunity to leverage physiological metrics and fill this knowledge gap.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To determine whether a machine learning model can detect SARS-CoV-2 infection from physiological metrics collected from wearable devices.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>A multicenter observational study enrolling health care workers with remote follow-up.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Seven hospitals from the Mount Sinai Health System in New York City</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>\n                    Eligibility criteria included health care workers who were \u226518 years, employees of one of the participating hospitals, with at least an iPhone series 6, and willing to wear an Apple Watch Series 4 or higher. We excluded participants with underlying autoimmune/inflammatory diseases, and medications known to interfere with autonomic function. We enrolled participants between April 29\n                    <jats:sup>th</jats:sup>\n                    , 2020, and March 2\n                    <jats:sup>nd</jats:sup>\n                    , 2021, and followed them for a median of 73 days (range, 3-253 days). Participants provided patient-reported outcome measures through a custom smartphone application and wore an Apple Watch, collecting heart rate variability and heart rate data, throughout the follow-up period.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Exposure</jats:title>\n                  <jats:p>Participants were exposed to SARS-CoV-2 infection over time due to ongoing community spread.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main Outcome and Measure</jats:title>\n                  <jats:p>The primary outcome was SARS-CoV-2 infection, defined as \u00b17 days from a self-reported positive SARS-CoV-2 nasal PCR test.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We enrolled 407 participants with 49 (12%) having a positive SARS-CoV-2 test during follow-up. We examined five machine-learning approaches and found that gradient-boosting machines (GBM) had the most favorable 10-CV performance. Across all testing sets, our GBM model predicted SARS-CoV-2 infection with an average area under the receiver operating characteristic (auROC)=85% (Confidence Interval 83-88%). The model was calibrated to improve sensitivity over specificity, achieving an average sensitivity of 76% (CI \u00b1\u223c4%) and specificity of 84% (CI \u00b1\u223c0.4%). The most important predictors included parameters describing the circadian HRV mean (MESOR) and peak-timing (acrophase), and age.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions and Relevance</jats:title>\n                  <jats:p>We show that a tree-based ML algorithm applied to physiological metrics passively collected from a wearable device can identify and predict SARS-CoV2 infection. Utilizing physiological metrics from wearable devices may improve screening methods and infection tracking.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.11.04.21265931",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2021-11-05T12:25:13Z",
+      "timestamp": 1636115113000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Evaluation of a Machine Learning Approach Utilizing Wearable Data for Prediction of SARS-CoV-2 Infection in Healthcare Workers"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Robert P.",
+        "family": "Hirten",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Lewis",
+        "family": "Tomalin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matteo",
+        "family": "Danieletto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eddye",
+        "family": "Golden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Micol",
+        "family": "Zweig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sparshdeep",
+        "family": "Kaur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Drew",
+        "family": "Helmus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anthony",
+        "family": "Biello",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Renata",
+        "family": "Pyzik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Erwin P",
+        "family": "Bottinger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laurie",
+        "family": "Keefer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dennis",
+        "family": "Charney",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Girish N.",
+        "family": "Nadkarni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mayte",
+        "family": "Suarez-Farinas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zahi A.",
+        "family": "Fayad",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0869-5"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0248553"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10620-020-06493-y"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.2001402"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1123-x"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41551-020-00640-6"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/26107"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpubh.2017.00258"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.10",
+        "unstructured": "Monitor your heart rate with Apple Watch. Accessed October 22nd, 2020, https://support.apple.com/en-us/HT204666"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.eurheartj.a014868"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1613/jair.953."
+      },
+      {
+        "issue": "5",
+        "key": "2021110812500809000_2021.11.04.21265931v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1189",
+        "DOI": "10.1214/aos/1013203450",
+        "article-title": "Greedy function approximation: A gradient boosting machine",
+        "volume": "29",
+        "year": "2001",
+        "journal-title": "The Annals of Statistics"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-77"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v028.i05"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archinte.1986.00360180179026"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s20216396"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1203/01.PDR.0000088074.97781.4F"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0006642"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-020-00533-1"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e85",
+        "DOI": "10.1016/S2589-7500(19)30222-5",
+        "article-title": "Harnessing wearable device data to improve state-level real-time surveillance of influenza-like illness in the USA: a population-based study",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digital Health"
+      },
+      {
+        "key": "2021110812500809000_2021.11.04.21265931v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6775"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.04.21265931",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:29:07Z",
+      "timestamp": 1768487347000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.11.04.21265931"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          5
+        ]
+      ]
+    },
+    "references-count": 22,
+    "URL": "https://doi.org/10.1101/2021.11.04.21265931",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/jamiaopen/ooac041",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.1162/2e3983f5.37433489",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1162/2e3983f5.a4ac1779",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1162/2e3983f5.5b926a58",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

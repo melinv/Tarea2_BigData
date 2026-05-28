@@ -1,0 +1,594 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2026-03-23T11:34:44Z",
+      "timestamp": 1774265684330,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ]
+    },
+    "group-title": "Bioengineering",
+    "reference-count": 75,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              28
+            ]
+          ],
+          "date-time": "2020-04-28T00:00:00Z",
+          "timestamp": 1588032000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Simulations of tissue-specific effects of primary acute viral infections like COVID-19 are essential for understanding disease outcomes and optimizing therapies. Such simulations need to support continuous updating in response to rapid advances in understanding of infection mechanisms, and parallel development of components by multiple groups. We present an open-source platform for multiscale spatiotemporal simulation of an epithelial tissue, viral infection, cellular immune response and tissue damage, specifically designed to be modular and extensible to support continuous updating and parallel development. The base simulation of a simplified patch of epithelial tissue and immune response exhibits distinct patterns of infection dynamics from widespread infection, to recurrence, to clearance. Slower viral internalization and faster immune-cell recruitment slow infection and promote containment. Because antiviral drugs can have side effects and show reduced clinical effectiveness when given later during infection, we studied the effects on progression of treatment potency and time-of-first treatment after infection. In simulations, even a low potency therapy with a drug which reduces the replication rate of viral RNA greatly decreases the total tissue damage and virus burden when given near the beginning of infection. Many combinations of dosage and treatment time lead to stochastic outcomes, with some simulation replicas showing clearance or control (treatment success), while others show rapid infection of all epithelial cells (treatment failure). Thus, while a high potency therapy usually is less effective when given later, treatments at late times are occasionally effective. We illustrate how to extend the platform to model specific virus types (\n                  <jats:italic>e.g.</jats:italic>\n                  , hepatitis C) and add additional cellular mechanisms (tissue recovery and variable cell susceptibility to infection), using our software modules and publicly-available software repository.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>This study presents an open-source, extensible, multiscale platform for simulating viral immune interactions in epithelial tissues, which enables the rapid development and deployment of sophisticated models of viruses, infection mechanisms and tissue types. The model is used to investigate how potential treatments influence disease progression. Simulation results suggest that drugs which interfere with virus replication (e.g., remdesivir) yield substantially better infection outcomes when administered prophylactically even at very low doses than when used at high doses as treatment for an infection that has already begun.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.27.064139",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2020-04-29T06:54:57Z",
+      "timestamp": 1588143297000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "A modular framework for multiscale, multicellular, spatiotemporal modeling of acute primary viral infection and immune response in epithelial tissues and its application to drug therapy timing and effectiveness"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "T.J.",
+        "family": "Sego",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Josua O.",
+        "family": "Aponte-Serrano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Juliano Ferrari",
+        "family": "Gianlupi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Samuel R.",
+        "family": "Heaps",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kira",
+        "family": "Breithaupt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lutz",
+        "family": "Brusch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jessica",
+        "family": "Crawshaw",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James M.",
+        "family": "Osborne",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ellen M.",
+        "family": "Quardokus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard K.",
+        "family": "Plemper",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James A.",
+        "family": "Glazier",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tmaid.2020.101647"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-020-02895-6"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41576-020-0212-5"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpubh.2018.00068"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.idm.2018.09.005"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vez018"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.02.019075"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.26.20044487"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bit.260460513"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1529/biophysj.103.027813"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1083/jcb.200706018"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbiotec.2007.01.003"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1529/biophysj.104.047134"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/bi035532h"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-4178-6_1"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bdd.1994"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ins.2008.11.012"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2006.03.014"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.xphs.2018.10.056"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3109/08916934.2011.523267"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajem.2020.04.051"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0602-4"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00330-020-06879-6"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.pathmechdis.3.121806.154316"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0168576"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/computation7020021"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaerosci.2020.105541"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jtbi.2002.3055"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0009249"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.0903117"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2012.07.005"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.87.168102"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-09879-3"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/555276"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2004.10.004"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21037/atm-20-3989"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky787"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2006.02.015"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.77.15.8181-8186.2003"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "3286",
+        "DOI": "10.1128/iai.65.8.3286-3292.1997",
+        "article-title": "Complement fragment C5a and inflammatory cytokines in neutrophil recruitment during intramammary infection with Escherichia coli",
+        "volume": "65",
+        "year": "1997",
+        "journal-title": "Infect Immun"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thx.48.7.765"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2010.07.018"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-415847-4.00012-4"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.coisb.2018.10.005"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wsbm.129"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1053/j.gastro.2017.08.034"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/imr.12085"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2014.00171"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.49",
+        "first-page": "374",
+        "article-title": "Interferon activation and innate immunity",
+        "volume": "2",
+        "year": "2000",
+        "journal-title": "Rev Immunogenet"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.50",
+        "unstructured": "Abbas AK , Lichtman AH , Pillai S . Cellular and molecular immunology. 9th ed. Philadelphia, PA: Saunders/Elsevier; 2017."
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.1700827"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/428295"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/MMBR.00066-17"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AAC.01824-17"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-388403-9.00013-8"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2606.200516"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.enganabound.2004.12.001"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3934/dcdsb.2004.4.1117"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01304-06"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature17180"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gon\u00e7alves A , Bertrand J , Ke R , Comets E , Lamballerie X de , Malvy D , et al. Timing of Antiviral Treatment Initiation is Critical to Reduce SARS-CoV-2 Viral Load. In: CPT: Pharmacometrics & Systems Pharmacology [Internet]. John Wiley & Sons, Ltd; 7 Aug 2020 [cited 1 Sep 2020]. Available: https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/psp4.12543",
+        "DOI": "10.1002/psp4.12543"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.10.20061325"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/pr8060719"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002970"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2009.07.019"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt772"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp401"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.69.2013"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2017.03.011"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2012.00268"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni1134"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.02.058"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb2507"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.addr.2008.09.012"
+      },
+      {
+        "key": "2024080405304704000_2020.04.27.064139v4.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-1702(01)00260-X"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.27.064139",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:18:01Z",
+      "timestamp": 1768436281000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.04.27.064139"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ]
+    },
+    "references-count": 75,
+    "URL": "https://doi.org/10.1101/2020.04.27.064139",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

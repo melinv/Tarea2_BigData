@@ -1,0 +1,450 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T22:55:56Z",
+      "timestamp": 1768604156492,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Rapid, reagent-free pathogen-agnostic diagnostics that can be performed at the point of need are vital for preparedness against future outbreaks. Yet, many current strategies (polymerase chain reaction, lateral flow immunoassays) are pathogen-specific and require reagents; whereas others such as sequencing-based methods; while agnostic, are not (as yet) conducive for use at the point of need. Herein, we present hyperspectral sensing as an opportunity to overcome these barriers, realizing truly agnostic reagent-free diagnostics. This approach can identify both pathogen and host signatures, without complex logistical considerations, in complex clinical samples. The spectral signature of biomolecules across multiple wavelength regimes provides rich biochemical information, which, coupled with machine learning, can facilitate expedited diagnosis of disease states, the feasibility of which is demonstrated here.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Innovation</jats:title>\n                  <jats:p>First, we present ProSpectral\u2122 V1, a novel, miniaturized (\u223c8 lbs) hyperspectral platform with ultra-high (2-5 nm full-width, half-max, i.e., FWHM) spectral resolution that incorporates two mini-spectrometers (visual and near-infrared). This engineering innovation has enabled reagent-free biosensing for the first time. To enable expedient outcomes, we developed state-of-the-art machine learning algorithms for near real-time analysis of multi-wavelength spectral signatures in complex samples. Taken together, these innovations enable near-field ready, reagent-free, expedient agnostic diagnostics in complex clinical samples. Herein, we demonstrate the feasibility of this synergy of ProSpectral\u2122 V1 with machine learning to accurately identify</jats:p>\n                  <jats:p>SARS-CoV-2 infection status in double-blinded saliva samples in real-time (3 seconds/measurement). The infection status of the samples was validated with the CDC-approved polymerase-chain reaction (PCR). We report accuracies comparable to first-in-class PCR tests. Further, we provide preliminary support that this signal is specific to SARS-CoV-2, and not associated with other respiratory conditions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>\n                    Preparedness against unanticipated pathogens and democratization of diagnostics requires moving away from technologies that demand specific reagents; and relying on intrinsic biochemical properties that can, theoretically, inform on\n                    <jats:italic>all</jats:italic>\n                    pathologies. Integration of hyperspectral sensors and in-line machine learning analytics, as reported here, shows the feasibility of such diagnostics. If realized to full potential, the ProSpectral\u2122 V1 platform can enable agnostic diagnostics, thereby improving situational awareness and decision-making at the point of need; especially in resource-limited settings \u2013 enabling the distribution of newly developed tests for emerging pathogens with only a simple software update.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>The U.S. Department of Energy, the Defense Threat Reduction Agency, Lawrence Berkeley National Laboratory, Los Alamos National Laboratory, and Pattern Computer Inc.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>Our inability to quickly and effectively deploy and use reliable diagnostics at the point of need is a major limitation in our arsenal against infectious diseases. We searched PubMed and Google Scholar for articles published before May 2024 in English applying hyperspectral sensing technologies of pathogen detection with terms, \u201chyperspectral,\u201d \u201cpathogens\u201d, and \u201cCOVID-19\u201d. Various factors such as speed, sensitivity, availability of reagents, deployability, requirements (expertise, resources), and others determine our choice of diagnostic. Today, diagnosis of infection remains largely pathogen-specific, requiring ligands specific to the target of interest.</jats:p>\n                    <jats:p>Indeed, Polymerase Chain Reaction (PCR)-based methods, the gold-standard technology to diagnose COVID-19, are pathogen-specific and have to be re-evaluated with the emergence of new variants. Lateral flow immunoassays, while readily deployable, are associated with lower sensitivity and specificity, and require the development of ligands, which can be time-consuming when addressing unanticipated or new threats. Select pathogen-agnostic methods such as sequencing are evolving and becoming more feasible, but still require sample processing, reagents, cold-chain, and expert handlers - and hence are not (as yet) available for routine point-of-care use. In contrast, the characterization of biochemical signatures across multiple spectral regimes (hyperspectral) can facilitate reagent-free agnostic diagnostics. Yet, many spectroscopic methods are either limited to narrow wavelength ranges; or are too large for use in the point-of-care setting; and may require complex and time-consuming analytics.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>This manuscript presents a paradigm-shifting miniaturized hyperspectral sensor with embedded machine learning-enabled analytics that can overcome the above limitations, making reagent-free agnostic diagnostics achievable. To our knowledge, this establishes the fastest hyperspectral diagnostic platform (3 seconds/measurement), with no preprocessing and in a small form factor, and executable with liquid (clinical) samples, without ligands or reagents. Our data demonstrates that the sensitivity of this assay is comparable to gold-standard PCR-based assays; and that the signatures are specific to COVID-19 and not associated with influenza and other respiratory pathogens \u2013 establishing the truly agnostic nature of the platform. The sensor consists of two embedded spectrometers, covering spectral bandwidth 400-1700 nm, which covers spectral patterns associated with relevant biological moieties. With appropriate data processing, we demonstrate balanced accuracies between 0\u00b797 and 1\u00b70 under a 10-fold cross-validation (depending on the ML/AI algorithm used for prediction).</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>With the optimization of algorithms and analytical methods and the development of appropriate spectral databases, the ProSpectral\u2122 hyperspectral diagnostics platform can be a flexible tool for rapid, reagent-free pathogen-agnostic detection/diagnosis of disease at the point of need, which can be a disruptive force in our preparedness to counter emerging diseases and threats.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2024.06.03.24308300",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2024-06-04T21:45:12Z",
+      "timestamp": 1717537512000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Reagent-free Hyperspectral Diagnosis of SARS-CoV-2 Infection in saliva samples"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3143-3856",
+        "authenticated-orcid": false,
+        "given": "Brandon",
+        "family": "Saint-John",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alejandro",
+        "family": "Wolf-Yadlin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel E.",
+        "family": "Jacobsen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jamie L.",
+        "family": "Inman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Serge",
+        "family": "Gart",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matt",
+        "family": "Keener",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cynthia",
+        "family": "McMurray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Antoine M.",
+        "family": "Snijders",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Harshini",
+        "family": "Mukundan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6215-4871",
+        "authenticated-orcid": false,
+        "given": "Jessica Z.",
+        "family": "Kubicek-Sutherland",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James B.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "11245",
+        "DOI": "10.1038/s41598-019-47359-2",
+        "article-title": "Modeling and Cost Benefit Analysis to Guide Deployment of POC Diagnostics for Non-typhoidal Salmonella Infections with Antimicrobial Resistance",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/mi12121464"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2471/BLT.16.187468"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0000811",
+        "DOI": "10.1371/journal.pgph.0000811",
+        "article-title": "Comparing variability in diagnosis of upper respiratory tract infections in patients using syndromic, next generation sequencing, and PCR-based methods",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "PLOS Glob Public Health"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "8988",
+        "DOI": "10.1038/s41598-021-88532-w",
+        "article-title": "Analysis and forecasting of global real time RT-PCR primers and probes for SARS-CoV-2",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/mi13081349"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "407",
+        "DOI": "10.1016/j.tube.2012.05.009",
+        "article-title": "Rapid detection of Mycobacterium tuberculosis biomarkers in a sandwich immunoassay format using a waveguide-based optical biosensor",
+        "volume": "92",
+        "year": "2012",
+        "journal-title": "Tuberculosis (Edinb)"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "453",
+        "DOI": "10.1016/j.snb.2009.01.073",
+        "article-title": "Planar optical waveguide-based biosensor for the quantitative detection of tumor markers",
+        "volume": "138",
+        "year": "2009",
+        "journal-title": "Sensors and Actuators B: Chemical"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1089/hs.2023.0068",
+        "article-title": "Challenges and opportunities in pathogen agnostic sequencing for public health surveillance: lessons learned from the global emerging infections surveillance program",
+        "volume": "22",
+        "year": "2024",
+        "journal-title": "Health Secur"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/cmr.00119-22"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nantod.2021.101092"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "695",
+        "DOI": "10.1002/bab.2033",
+        "article-title": "Future developments in biosensors for field-ready SARS-CoV-2 virus diagnostics",
+        "volume": "68",
+        "year": "2021",
+        "journal-title": "Biotechnol Appl Biochem"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "16740",
+        "DOI": "10.1038/s41598-021-95568-5",
+        "article-title": "A simple and fast spectroscopy-based technique for Covid-19 diagnosis",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.analchem.0c04608"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1109/JSTSP.2021.3134073",
+        "article-title": "Detection of SARS-CoV-2 in COVID-19 Patient Nasal Swab Samples Using Signal Processing",
+        "volume": "16",
+        "year": "2022",
+        "journal-title": "IEEE J Sel Top Signal Process"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "15409",
+        "DOI": "10.1038/s41598-021-93511-2",
+        "article-title": "Rapid diagnosis of COVID-19 using FT-IR ATR spectroscopy and machine learning",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2425",
+        "DOI": "10.1021/acs.analchem.1c04162",
+        "article-title": "Noninvasive Diagnostic for COVID-19 from Saliva Biofluid via FTIR Spectroscopy and Multivariate Analysis",
+        "volume": "94",
+        "year": "2022",
+        "journal-title": "Anal Chem"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "100178",
+        "DOI": "10.1016/j.cjac.2022.100178",
+        "article-title": "Determination of COVID-19 viruses in saliva using Fourier transform infrared spectroscopy",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "Chinese Journal of Analytical Chemistry"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "20358",
+        "DOI": "10.1038/s41598-022-24751-z",
+        "article-title": "Diagnostic performance of attenuated total reflection Fourier-transform infrared spectroscopy for detecting COVID-19 from routine nasopharyngeal swab samples",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "19980",
+        "DOI": "10.1038/s41598-021-99529-w",
+        "article-title": "ATR-FTIR spectrum analysis of saliva samples from COVID-19 positive patients",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biomedicines10020351"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "15598",
+        "DOI": "10.1038/s41598-021-93686-8",
+        "article-title": "An infrared spectral biomarker accurately predicts neurodegenerative disease class in the absence of overt symptoms",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1177/09670335211030617",
+        "article-title": "Review of portable near infrared spectrometers: Current status and new techniques",
+        "volume": "30",
+        "year": "2022",
+        "journal-title": "J Near Infrared Spectrosc"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ijos.2016.38"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12032-016-0863-4"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/baad002"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "6119",
+        "DOI": "10.1038/s41598-024-56491-7",
+        "article-title": "Long-term, non-invasive FTIR detection of low-dose ionizing radiation exposure",
+        "volume": "14",
+        "year": "2024",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-4171489/v1"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0228923",
+        "DOI": "10.1371/journal.pone.0228923",
+        "article-title": "Precursors to non-invasive clinical dengue screening: Multivariate signature analysis of in-vivo diffuse skin reflectance spectroscopy on febrile patients in Malaysia",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "2024061004001021000_2024.06.03.24308300v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "123735",
+        "DOI": "10.1016/j.saa.2023.123735",
+        "article-title": "On the feasibility of Vis-NIR spectroscopy and machine learning for real time SARS-CoV-2 detection",
+        "volume": "308",
+        "year": "2024",
+        "journal-title": "Spectrochim Acta A Mol Biomol Spectrosc"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.03.24308300",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:02:26Z",
+      "timestamp": 1768507346000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.06.03.24308300"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2024.06.03.24308300",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1149/2754-2726/ad9c92",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

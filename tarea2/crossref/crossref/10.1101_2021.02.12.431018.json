@@ -1,0 +1,305 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:43:35Z",
+      "timestamp": 1768491815289,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          13
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              13
+            ]
+          ],
+          "date-time": "2021-02-13T00:00:00Z",
+          "timestamp": 1613174400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>SARS-CoV-2 related research has increased in importance worldwide since December 2019. Several new variants of SARS-CoV-2 have emerged globally, of which the most notable and concerning currently are the UK variant B.1.1.7, the South African variant B1.351 and the Brazilian variant P.1. Detecting and monitoring novel variants is essential in SARS-CoV-2 surveillance. While there are several tools for assembling virus genomes and performing lineage analyses to investigate SARS-CoV-2, each is limited to performing singular or a few functions separately.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    Due to the lack of publicly available pipelines, which could perform fast reference-based assemblies on raw SARS-CoV-2 sequences in addition to identifying lineages to detect variants of concern, we have developed an open source bioinformatic pipeline called\n                    <jats:italic>HaVoC</jats:italic>\n                    (Helsinki university Analyzer for Variants Of Concern).\n                    <jats:italic>HaVoC</jats:italic>\n                    can reference assemble raw sequence reads and assign the corresponding lineages to SARS-CoV-2 sequences.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    <jats:italic>HaVoC</jats:italic>\n                    is a pipeline utilizing several bioinformatic tools to perform multiple necessary analyses for investigating genetic variance among SARS-CoV-2 samples. The pipeline is particularly useful for those who need a more accessible and fast tool to detect and monitor the spread of SARS-CoV-2 variants of concern during local outbreaks.\n                    <jats:italic>HaVoC</jats:italic>\n                    is currently being used in Finland for monitoring the spread of SARS-CoV-2 variants.\n                    <jats:italic>HaVoC</jats:italic>\n                    user manual and source code are available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.helsinki.fi/en/projects/havoc\">https://www.helsinki.fi/en/projects/havoc</jats:ext-link>\n                    and\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://bitbucket.org/auto_cov_pipeline/havoc\">https://bitbucket.org/auto_cov_pipeline/havoc</jats:ext-link>\n                    , respectively.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.02.12.431018",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2021-02-13T19:15:11Z",
+      "timestamp": 1613243711000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "<i>HaVoC</i>\n                  , a bioinformatic pipeline for reference-based consensus assembly and lineage assignment for SARS-CoV-2 sequences"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4830-4113",
+        "authenticated-orcid": false,
+        "given": "Phuoc Truong",
+        "family": "Nguyen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5988-0901",
+        "authenticated-orcid": false,
+        "given": "Ilya",
+        "family": "Plyusnin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2344-2755",
+        "authenticated-orcid": false,
+        "given": "Tarja",
+        "family": "Sironen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2270-6824",
+        "authenticated-orcid": false,
+        "given": "Olli",
+        "family": "Vapalahti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3878-9775",
+        "authenticated-orcid": false,
+        "given": "Ravi",
+        "family": "Kant",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9187-3151",
+        "authenticated-orcid": false,
+        "given": "Teemu",
+        "family": "Smura",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.1",
+        "first-page": "548",
+        "article-title": "Ebola viral disease outbreak--West Africa, 2014",
+        "volume": "63",
+        "author": "Centers for Disease Control and Prevention (CDC)",
+        "year": "2014",
+        "journal-title": "MMWR Morb Mortal Wkly Rep."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2471/BLT.16.171082"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2001.0888"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1112.050997"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.08.021"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.6",
+        "unstructured": "Worldometer - COVID-19 Virus Pandemic. https://www.worldometers.info/coronavirus/. Accessed 3 Feb 2021."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.7",
+        "unstructured": "Rambaut A , Loman N , Pybus O , Barclay W , Barrett J , Carabelli A , et al. Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK defined by a novel set of spike mutations. Virological. 2020. https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563. Accessed 2 Feb 2021."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2020.26.1.2002106"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.21.20248640"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n296"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg7691"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.12",
+        "unstructured": "Edwards E . J&J says vaccine effective against Covid, though weaker against South Africa variant. NBC News. 2021. https://www.nbcnews.com/health/health-news/j-j-vaccine-effective-against-covid-though-weaker-against-south-n1255400. Accessed 10 Feb 2021."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.13",
+        "unstructured": "Faria NR , Claro IM , Candido D , Franco LAM , Andrade PS , Coletti TM , et al. Genomic characterisation of an emergent SARS-CoV-2 lineage in Manaus: preliminary findings. Virological. 2021. https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586. Accessed 3 Feb 2021."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.14",
+        "unstructured": "Centers for Disease Control and Prevention (CDC). Emerging SARS-CoV-2 Variants. https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/scientific-brief-emerging-variants.html. Accessed 12 Feb 2021."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty560"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu170"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.17",
+        "unstructured": "Li H . Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv. 2013."
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.1923"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv098"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp352"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq033"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks918"
+      },
+      {
+        "key": "2024080511244534000_2021.02.12.431018v1.23",
+        "unstructured": "pangolin. https://github.com/cov-lineages/pangolin. Accessed 12 Feb 2021."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.12.431018",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:20:53Z",
+      "timestamp": 1768440053000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.02.12.431018"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          13
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2021.02.12.431018",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

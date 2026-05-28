@@ -1,0 +1,510 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:18:01Z",
+      "timestamp": 1768551481087,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          20
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 55,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Introduction</jats:title>\n                  <jats:p>Within the UK, COVID-19 has contributed towards over 103,000 deaths. Multiple risk factors for COVID-19 have been identified including various demographics, co-morbidities, biochemical parameters, and physical assessment findings. However, using this vast data to improve clinical care has proven challenging.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Aims</jats:title>\n                  <jats:p>to develop a reliable, multivariable predictive model for COVID-19 in-patient outcomes, to aid risk-stratification and earlier clinical decision-making.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Anonymized data regarding 44 independent predictor variables of 355 adults diagnosed with COVID-19, at a UK hospital, was manually extracted from electronic patient records for retrospective, case-controlled analysis. Primary outcomes included inpatient mortality, level of ventilatory support and oxygen therapy required, and duration of inpatient treatment. Secondary pulmonary embolism was the only secondary outcome. After balancing data, key variables were feature selected for each outcome using random forests. Predictive models were created using Bayesian Networks, and cross-validated.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    Our multivariable models were able to predict, using feature selected risk factors, the probability of inpatient mortality (F1 score 83.7%, PPV 82%, NPV 67.9%); level of ventilatory support required (F1 score varies from 55.8% \u201cHigh-flow Oxygen level\u201d to 71.5% \u201cITU-Admission level\u201d); duration of inpatient treatment (varies from 46.7% for \u201c\u2265 2\n                    <jats:italic>days but</jats:italic>\n                    &lt; 3\n                    <jats:italic>days</jats:italic>\n                    \u201d to 69.8% \u201c\u2264 1\n                    <jats:italic>day</jats:italic>\n                    \u201d); and risk of pulmonary embolism sequelae (F1 score 85.8%, PPV of 83.7%, and NPV of 80.9%).\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Overall, our findings demonstrate reliable, multivariable predictive models for 4 outcomes, that utilize readily available clinical information for COVID-19 adult inpatients. Further research is required to externally validate our models and demonstrate their utility as clinical decision-making tools.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Using COVID-19 risk-factor data to assist clinical decision making is a challenge</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Anonymous data from 355 COVID-19 inpatients was collected &amp; balanced</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Key independent variables were feature selected for 4 different outcomes</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Accurate, multi-variable predictive models were computed, using Bayesian Networks</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Future research should externally validate our models &amp; demonstrate clinical utility</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2021.02.15.21251752",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          20
+        ]
+      ],
+      "date-time": "2021-02-20T17:50:17Z",
+      "timestamp": 1613843417000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Predicting mortality, duration of treatment, pulmonary embolism and required ceiling of ventilatory support for COVID-19 inpatients: A Machine-Learning Approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5858-1109",
+        "authenticated-orcid": false,
+        "given": "Abhinav",
+        "family": "Vepa",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Amer",
+        "family": "Saleem",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9582-1693",
+        "authenticated-orcid": false,
+        "given": "Kambiz",
+        "family": "Rakhshan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amr",
+        "family": "Omar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Diana",
+        "family": "Dharmaraj",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junaid",
+        "family": "Sami",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shital",
+        "family": "Parekh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohamed",
+        "family": "Ibrahim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohammed",
+        "family": "Raza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Poonam",
+        "family": "Kapila",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Prithwiraj",
+        "family": "Chakrabarti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1794-4342",
+        "authenticated-orcid": false,
+        "given": "Tabassom",
+        "family": "Sedighi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5025-4760",
+        "authenticated-orcid": false,
+        "given": "Omid",
+        "family": "Chatrabgoun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7751-4307",
+        "authenticated-orcid": false,
+        "given": "Alireza",
+        "family": "Daneshkhah",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.1",
+        "unstructured": "The Independent, Coronavirus: A timeline of how Britain went from \u2018low risk\u2019 to an unprecedented national shutdown 2020, (2020). https://www.independent.co.uk/news/uk/home-news/coronavirus-uk-timeline-deaths-cases-covid-19-nhs-social-distancing-a9416331.html (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.2",
+        "unstructured": "NHS, COVID-19 Daily Deaths, England, (2021). https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/ (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.3",
+        "unstructured": "NHS, COVID-19 Daily Deaths, England, (2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.4",
+        "unstructured": "A. Razaq , D. Harrison , S. Karunanithi , B. Barr , M. Asaria , A. Routen , K. Khunti , BAME COVID-19 DEATHS \u2013 What do we know? Rapid Data & Evidence Review, Cent. Evidence-Based Med. (2020). https://www.cebm.net/covid-19/bame-covid-19-deaths-what-do-we-know-rapid-data-evidence-review/ (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.5",
+        "unstructured": "Office for National Statistics, Coronavirus (COVID-19) related deaths by ethnic group, England and Wales: 2 March 2020 to 10 April 2020, (2020). https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/coronavirusrelateddeathsbyethnicgroupenglandandwales/2march2020to10april2020#ethnic-breakdown-of-deaths-by-age-and-sex (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.6",
+        "unstructured": "Office for National Statistics, Deaths involving COVID-19 by local area and socioeconomic deprivation: deaths occurring between 1 March and 17 April 2020, (2020). https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsinvolvingcovid19bylocalareasanddeprivation/deathsoccurringbetween1marchand17april (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.00547-2020"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.06.20092999"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2048872620922788"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3339"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.03498-2020"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eururo.2014.11.025"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.16",
+        "unstructured": "British Society of Thoracic Imaging, **UPDATED**Version 2 BSTI COVID-19 Guidance for the Reporting Radiologist, (2020). https://www.bsti.org.uk/standards-clinical-guidelines/clinical-guidelines/bsti-covid-19-guidance-for-the-reporting-radiologist/ (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.17",
+        "unstructured": "British Society of Thoracic Imaging, **UPDATED**Version 2 BSTI COVID-19 Guidance for the Reporting Radiologist, (2020)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1613/jair.5371"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.19",
+        "unstructured": "J.W. Graham , Missing Data: Analysis and Design, 1st ed., Springer-Verlag New York, 2012."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R.J.A. Little , D.B. Rubin , Statistical Analysis with Missing Data, 3rd ed., John Wiley & Sons, 2019.",
+        "DOI": "10.1002/9781119482260"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P.D. Allison , Missing Data, 1st ed., Sage Publications, Inc, 2001.",
+        "DOI": "10.4135/9781412985079"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4097/kjae.2013.64.5.402"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781315399102"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CSB.2003.1227396"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2018.07.014"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.26",
+        "unstructured": "G. James , D. Witten , T. Hastie , R. Tibshirani , An introduction to statistical learning: With applications in R, Springer, 2017."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Guyon , S. Gunn , M. Nikravesh , L.A. Zadeh , eds., Feature Extraction Foundations and Applications, 1st ed., Springer-Verlag Berlin Heidelberg, Berlin, Heidelberg, 2006.",
+        "DOI": "10.1007/978-3-540-35488-8"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm344"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02289159"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/153244303322753616"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Kuhn , K. Johnson , Feature Engineering and Selection: A Practical Approach for Predictive Models, 1st ed., Chapman and Hall/CRC, New York, 2020. doi:https://doi.org/10.1201/9781315108230.",
+        "DOI": "10.1201/9781315108230"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.32",
+        "unstructured": "R Core Team, R: A language and environment for statistical computing., (2020). https://www.r-project.org/."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v028.i05"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.buildenv.2008.04.008"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15126/00851677"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijar.2014.02.008"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-57351-9_17"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Fenton , M. Neil , Risk Assessment and Decision Analysis with Bayesian Networks, 2nd ed., CRC Press: Taylor & Francis Group, Boca Raton, FL, 2019.",
+        "DOI": "10.1201/b21982"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268820001399"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.40",
+        "unstructured": "C. Heneghan , D. Howdon , J. Oke , T. Jefferson , The ongoing problem of UK hospital acquired infections, Cent. Evidence-Based Med. (2020). https://www.cebm.net/covid-19/the-ongoing-problem-of-hospital-acquired-infections-across-the-uk/ (accessed January 23, 2021)."
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7861/futurehosp.5-1-47"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2013-002882"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11604-020-00967-9"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rmed.2020.105980"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.45",
+        "first-page": "23",
+        "article-title": "Upper respiratory tract sampling in COVID-19, Malays",
+        "volume": "42",
+        "year": "2020",
+        "journal-title": "J. Pathol"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hed.26213"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5811/westjem.2020.4.47370"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tmaid.2020.101608"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1375"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11427-020-1661-4"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.03.020"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/irv.12743"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.53",
+        "unstructured": "Office for National Statistics, Deaths involving COVID-19 by local area and socioeconomic deprivation: deaths occurring between 1 March and 17 April 2020, (2020)."
+      },
+      {
+        "issue": "5",
+        "key": "2021022210401029000_2021.02.15.21251752v1.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "558",
+        "DOI": "10.1016/j.ijar.2010.01.013",
+        "article-title": "On the robustness of Bayesian networks to learning from non-conjugate sampling",
+        "volume": "51",
+        "year": "2010",
+        "journal-title": "International Journal of Approximate Reasoning"
+      },
+      {
+        "key": "2021022210401029000_2021.02.15.21251752v1.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1016/j.jocs.2017.09.002",
+        "article-title": "Approximating non-Gaussian Bayesian networks using minimum information vine model with applications in financial modelling",
+        "volume": "24",
+        "year": "2018",
+        "journal-title": "Journal of computational science"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.15.21251752",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:07:09Z",
+      "timestamp": 1768486029000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.02.15.21251752"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          20
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1101/2021.02.15.21251752",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/ijerph18126228",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

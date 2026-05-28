@@ -1,0 +1,381 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:56:18Z",
+      "timestamp": 1768568178807,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          1
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Propensity score (PS) methods are widely used in observational studies to estimate causal effects, but they often exclude patients due to a lack of comparable counterparts, leading to reduced power and potential bias. Generative adversarial networks (GANs) have shown promise in creating synthetic data, but their application to causal inference remains underexplored. Synthetic data could be used as plausible counterfactuals, potentially mitigating the issues of the PS methods.</jats:p>\n                  <jats:p>This study evaluates the integration of GAN-generated synthetic observations into propensity score matching (PSM) to improve the emulation of RCTs, using both simulated and real-world electronic health record (EHR) data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>A simulation study was conducted using with predefined confounding structures to compare traditional PSM against two hybrid approaches incorporating GAN-generated synthetic patients to partially or fully match the original sample of patients. Treatment effects were estimated via logistic regression, and performance was assessed by bias, standard error, alpha risk, power, and confidence interval coverage. The methods were applied to a real-world dataset of mechanically ventilated COVID-19 patients to evaluate the impact of early prone positioning on 28-day mortality.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In simulations, GAN-generated patients permitted to match all patients in the original sample, whereas PSM dropped up to 60% of them. While synthetic augmentation improved sample size, unadjusted use of synthetic matches led to underestimated standard errors and inflated type I error. Down-weighting matched synthetic data improved error control but did not consistently outperform PSM in bias or power. In the real-world application (n=1399), treatment effect estimates for prone positioning were similar across all methods and did not reach statistical significance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>GAN-augmented propensity score matching can reduce sample loss. However, it\u2019s current application in causal inference through PS matching remains limited. Synthetic data do not contribute independent information and must be cautiously integrated to avoid misleading precision. While promising, current GAN implementations require methodological refinements before routine use in causal inference.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.07.31.25332504",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2025-08-01T23:10:15Z",
+      "timestamp": 1754089815000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Propensity-score matching with GAN-generated observations from electronic health records: simulation study and application to the evaluation of prone positioning in COVID-19 patients under mechanical ventilation"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3666-6707",
+        "authenticated-orcid": false,
+        "given": "Bertrand",
+        "family": "Bouvarel",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-4771-2001",
+        "authenticated-orcid": false,
+        "given": "Benjamin",
+        "family": "Glemain",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8672-7918",
+        "authenticated-orcid": false,
+        "given": "Fabrice",
+        "family": "Carrat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4837-1068",
+        "authenticated-orcid": false,
+        "given": "Nathanael",
+        "family": "Lapidus",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJM195207242470401"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.1939-4640.2001.tb03433.x"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ejo/cjv046"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11121-014-0513-z"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-019-0217-0"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1188/15.CJON.153-4"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1608845113"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/09332480.2019.1579578"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwv254"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2015.13480"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ckj/sfab158"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/70.1.41"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ejcts/ezy167"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hlpt.2021.100545"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.anes.0000296718.35703.20"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12874-016-0135-1"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.10.013"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2017.2761740"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.19",
+        "unstructured": "Goodfellow IJ , Pouget-Abadie J , Mirza M , Xu B , Warde-Farley D , Ozair S , et al. Generative adversarial networks. arXiv. 2014 Jun [cited 2025 Jan 10]. Available from: http://arxiv.org/abs/1406.2661."
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2017.2765202"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.21",
+        "unstructured": "Xu L , Veeramachaneni K . Synthesizing tabular data using generative adversarial networks. arXiv. 2018 Nov [cited 2025 Jan 10]. Available from: http://arxiv.org/abs/1811.11264."
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamiaopen/ooae114"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00424-024-03024-w"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.24",
+        "unstructured": "Xu L , Skoularidou M , Cuesta-Infante A , Veeramachaneni K . Modeling tabular data using conditional GAN. arXiv. 2019 Oct [cited 2025 Jan 10]. Available from: http://arxiv.org/abs/1907.00503."
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2022.04.053"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/info12090375"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DSAA.2016.49"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v042.i08"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1214103"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.revmed.2020.04.005"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/MD.0000000000031248"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12016-022-08921-5"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780429492259"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/18-sts646"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.35",
+        "unstructured": "Karras T , Aila T , Laine S , Lehtinen J . Progressive growing of GANs for improved quality, stability, and variation. arXiv. 2018 Feb [cited 2025 Jan 10]. Available from: http://arxiv.org/abs/1710.10196."
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.36",
+        "unstructured": "Brock A , Donahue J , Simonyan K . Large scale GAN training for high fidelity natural image synthesis. arXiv. 2019 Feb [cited 2025 Jan 10]. Available from: http://arxiv.org/abs/1809.11096."
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jjimei.2023.100177"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3636424"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v074.i11"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.40",
+        "unstructured": "Solatorio AV , Dupriez O . REaLTabFormer: generating realistic relational and tabular data using transformers. arXiv. 2023 Feb [cited 2025 Jan 10]. Available from: http://arxiv.org/abs/2302.02041."
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pdig.0000082"
+      },
+      {
+        "key": "2025091803400784000_2025.07.31.25332504v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frai.2022.918813"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.31.25332504",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:41:57Z",
+      "timestamp": 1768509717000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.07.31.25332504"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          1
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2025.07.31.25332504",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

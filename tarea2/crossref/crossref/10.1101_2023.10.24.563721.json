@@ -1,0 +1,394 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:11:17Z",
+      "timestamp": 1768507877968,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          24
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              24
+            ]
+          ],
+          "date-time": "2023-10-24T00:00:00Z",
+          "timestamp": 1698105600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The coronavirus disease of 2019 (COVID-19) pandemic is characterized by sequential emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants, lineages, and sublineages, outcompeting previously circulating ones because of, among other factors, increased transmissibility and immune escape. We propose DeepAutoCoV, an unsupervised deep learning anomaly detection system to predict future dominant lineages (FDLs). We define FDLs as viral (sub)lineages that will constitute more than 10% of all the viral sequences added to the GISAID database on a given week. DeepAutoCoV is trained and validated by assembling global and country-specific data sets from over 16 million Spike protein sequences sampled over a period of about 4 years. DeepAutoCoV successfully flags FDLs at very low frequencies (0.01% \u2013 3%), with median lead times of 4-17 weeks, and predicts FDLs \u223c5 and \u223c25 times better than a baseline approach For example, the B.1.617.2 vaccine reference strain was flagged as FDL when its frequency was only 0.01%, more than a year before it was considered for an updated COVID-19 vaccine. Furthermore, DeepAutoCoV outputs interpretable results by pinpointing specific mutations potentially linked to increased fitness, and may provide significant insights for the optimization of public health\n                  <jats:italic>pre-emptive</jats:italic>\n                  intervention strategies.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Key Points</jats:title>\n                  <jats:list list-type=\"order\">\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Introduction of DeepAutoCoV:</jats:bold>\n                        The article introduces DeepAutoCoV, an unsupervised deep learning anomaly detection system designed to predict future dominant lineages (FDLs) of SARS-CoV-2. FDLs are defined as viral (sub)lineages that will constitute more than 10% of all viral sequences added to the GISAID database in a given week;\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Performance and Predictive Capability</jats:bold>\n                        : DeepAutoCoV successfully flags FDLs at very low frequencies (0.01% to 3%), with median lead times of 4 to 17 weeks before they become dominant. It predicts FDLs approximately 5 to 25 times better than baseline approaches. For instance, the B.1.617.2 vaccine reference strain was identified when its frequency was only 0.01%, over a year before it was considered for vaccine updates;\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Interpretable Results and Mutation Identification</jats:bold>\n                        : The system provides interpretable results by pinpointing specific mutations that may be linked to increased fitness, offering insights that can optimize public health interventions. Key FDL mutations, such as those found in Delta and Omicron variants, are identified and analyzed for their potential impact on viral spread and immune escape;\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Advantages and Applications</jats:bold>\n                        : DeepAutoCoV is advantageous because it does not require prior assumptions about which protein sites are more likely to mutate. Its application in genomic surveillance systems could significantly reduce the time needed for public health responses to emerging variants, enabling early interventions such as vaccine updates;\n                      </jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Evaluation and Comparisons</jats:bold>\n                        : The performance of DeepAutoCoV was tested over four years of global and national surveillance data, demonstrating superior predictive power compared to other supervised and unsupervised methods. The system is periodically updated to adapt to the evolving viral landscape, making it a robust tool for ongoing surveillance efforts.\n                      </jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2023.10.24.563721",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2023-10-24T22:35:16Z",
+      "timestamp": 1698186916000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Forecasting dominance of SARS-CoV-2 lineages by anomaly detection using deep AutoEncoders"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Simone",
+        "family": "Rancati",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Giovanna",
+        "family": "Nicora",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9021-5595",
+        "authenticated-orcid": false,
+        "given": "Mattia",
+        "family": "Prosperi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Riccardo",
+        "family": "Bellazzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marco",
+        "family": "Salemi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5704-3533",
+        "authenticated-orcid": false,
+        "given": "Simone",
+        "family": "Marini",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.1",
+        "unstructured": "\u2018COVID-19 deaths | WHO COVID-19 dashboard\u2019, datadot. Accessed: Jul. 09, 2024. [Online]. Available: https://data.who.int/dashboards/covid19/cases"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-79484-8"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-020-0770-5"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-022-08358-2"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.7",
+        "unstructured": "CDC, \u2018Coronavirus Disease 2019 (COVID-19)\u2019, Centers for Disease Control and Prevention. Accessed: Jul. 09, 2024. [Online]. Available: https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-022-01143-7"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s15010-021-01734-2"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2666-5247(20)30116-6"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2023.106618"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01836-w"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.13",
+        "unstructured": "\u2018Statement on the antigen composition of COVID-19 vaccines\u2019. Accessed: Jul. 09, 2024. [Online]. Available: https://www.who.int/news/item/18-05-2023-statement-on-the-antigen-composition-of-covid-19-vacci nes"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2022.106264"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-023-02483-5"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.06.21.21259286"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac370"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.08.024"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WTS.2018.8363930"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjhci-2022-100643"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-021-00573-0"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab725"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmicb.2023.1060891"
+      },
+      {
+        "issue": "85",
+        "key": "2024093004400583000_2023.10.24.563721v4.24",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine Learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.25",
+        "unstructured": "M. Abadi et al., \u2018TensorFlow: A system for large-scale machine learning\u2019, arXiv.org. Accessed: Jul. 09, 2024. [Online]. Available: https://arxiv.org/abs/1605.08695v2"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2015.08.104"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2022.108756"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.28",
+        "unstructured": "O. M, \u201822 A Model of Evolutionary Change in Proteins\u2019, 1978. Accessed: Jul. 10, 2024. [Online]. Available: https://www.semanticscholar.org/paper/22-A-Model-of-Evolutionary-Change-in-Proteins-O./ff3e2e966bf5ee6671dd757357a375b2463b072c"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BigDataService55688.2022.00020"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.30",
+        "unstructured": "S. Ali and M. Patterson , \u2018Spike2Vec: An Efficient and Scalable Embedding Approach for COVID-19 Spike Sequences\u2019, arXiv.org. Accessed: Jul. 09, 2024. [Online]. Available: https://arxiv.org/abs/2109.05019v4"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.08.02.23293212"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(24)00298-6"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/qjmed/hcae102"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01378-7"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciab736"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.36",
+        "unstructured": "\u2018Pfizer and BioNTech Provide Update on Omicron Variant | Pfizer\u2019. Accessed: Jul. 09, 2024. [Online]. Available: https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-provide-update-omicron-variant"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-023-00878-2"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2022.110829"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fchem.2022.892093"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10462-023-10662-6"
+      },
+      {
+        "key": "2024093004400583000_2023.10.24.563721v4.41",
+        "unstructured": "I. Goodfellow , Y. Bengio , A. Courville , Deep Learning, MIT Press, 2016."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.24.563721",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:25:28Z",
+      "timestamp": 1768454728000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.24.563721"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          24
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2023.10.24.563721",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bib/bbae535",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

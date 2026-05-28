@@ -1,0 +1,234 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:20:37Z",
+      "timestamp": 1768548037766,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 13,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Chest computed tomography (CT) scanning is one of the most important technologies for COVID-19 diagnosis and disease monitoring, particularly for early detection of coronavirus. Recent advancements in computer vision motivate more concerted efforts in developing AI-driven diagnostic tools to accommodate the enormous demands for the COVID-19 diagnostic tests globally. To help alleviate burdens on medical systems, we develop a lesion-attention deep neural network (LA-DNN) to predict COVID-19 positive or negative with a richly annotated chest CT image dataset. Based on the textual radiological report accompanied with each CT image, we extract two types of important information for the annotations: One is the indicator of a positive or negative case of COVID-19, and the other is the description of five lesions on the CT images associated with the positive cases. The proposed data-efficient LA-DNN model focuses on the primary task of binary classification for COVID-19 diagnosis, while an auxiliary multi-label learning task is implemented simultaneously to draw the model\u2019s attention to the five lesions associated with COVID-19. The joint task learning process makes it a highly sample-efficient deep neural network that can learn COVID-19 radiology features more effectively with limited but high-quality, rich-information samples. The experimental results show that the area under the curve (AUC) and sensitivity (recall), precision, and accuracy for COVID-19 diagnosis are 94.0%, 88.8%, 87.9%, and 88.6% respectively, which reach the clinical standards for practical use. A free online system is currently alive for fast diagnosis using CT images at the website\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.covidct.cn/\">https://www.covidct.cn/</jats:ext-link>\n                  , and all codes and datasets are freely accessible at our github address.\n                </jats:p>",
+    "DOI": "10.1101/2020.05.11.20097907",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2020-05-14T23:25:19Z",
+      "timestamp": 1589498719000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8917-874X",
+        "authenticated-orcid": false,
+        "given": "Bin",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaoxue",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mengshuang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fengmao",
+        "family": "Lv",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3276-1392",
+        "authenticated-orcid": false,
+        "given": "Guosheng",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Ai , Z. Yang , H. Hou , C. Zhan , C. Chen , W. Lv , Q. Tao , Z. Sun , and L. Xia . Correlation of chest ct and rt-pcr testing in coronavirus disease 2019 (covid-19) in china: a report of 1014 cases. Radiology, page 200642, 2020.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Chattopadhay , A. Sarkar , P. Howlader , and V. N. Balasubramanian . Grad-cam++: Generalized gradient-based visual explanations for deep convolutional networks. In 2018 IEEE Winter Conference on Applications of Computer Vision (WACV), pages 839\u2013847, 2018.",
+        "DOI": "10.1109/WACV.2018.00097"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryct.2020200196"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Deng , W. Dong , R. Socher , L.-J. Li , K. Li , and L. Fei-Fei . Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition, pages 248\u2013255. Ieee, 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770\u2013778, 2016.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. He , X. Yang , S. Zhang , J. Zhao , Y. Zhang , E. Xing , and P. Xie . Sample-efficient deep learning for covid-19 diagnosis based on ct scans. medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.13.20063941"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Huang , Z. Liu , L. Van Der Maaten , and K. Q. Weinberger . Densely connected convolutional networks. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 4700\u20134708, 2017.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Mei , H.-C. Lee , K.-y. Diao , M. Huang , B. Lin , C. Liu , Z. Xie , Y. Ma , P. M. Robson , M. Chung , et al. Artificial intelligence-enabled rapid diagnosis of patients with covid-19. Nature Medicine, pages 1\u20135, 2020.",
+        "DOI": "10.1101/2020.04.12.20062661"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Shi , J. Wang , J. Shi , Z. Wu , Q. Wang , Z. Tang , K. He , Y. Shi , and D. Shen . Review of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for covid-19. IEEE Reviews in Biomedical Engineering, 2020.",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.10",
+        "unstructured": "K. Simonyan and A. Zisserman . Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014."
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Song , S. Zheng , L. Li , X. Zhang , X. Zhang , Z. Huang , J. Chen , H. Zhao , Y. Jie , R. Wang , et al. Deep learning enables accurate diagnosis of novel coronavirus (covid-19) with ct images. medRxiv, 2020.",
+        "DOI": "10.1109/TCBB.2021.3065361"
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.12",
+        "unstructured": "M. Tan and Q. V. Le . Efficientnet: Rethinking model scaling for convolutional neural networks. arXiv preprint arXiv:1905.11946, 2019."
+      },
+      {
+        "key": "2021011111155799000_2020.05.11.20097907v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Wang , B. Kang , J. Ma , X. Zeng , M. Xiao , J. Guo , M. Cai , J. Yang , Y. Li , X. Meng , et al. A deep learning algorithm using ct images to screen for corona virus disease (covid-19). MedRxiv, 2020.",
+        "DOI": "10.1101/2020.02.14.20023028"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.11.20097907",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:40:23Z",
+      "timestamp": 1768484423000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.11.20097907"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "references-count": 13,
+    "URL": "https://doi.org/10.1101/2020.05.11.20097907",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

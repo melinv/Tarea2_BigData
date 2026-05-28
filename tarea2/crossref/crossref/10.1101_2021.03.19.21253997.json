@@ -1,0 +1,261 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:42:23Z",
+      "timestamp": 1768549343087,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 18,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>COVID-19 is a highly transmissible infectious disease that has infected over 122 million individuals worldwide. To combat this pandemic, governments around the world have imposed lockdowns. However, the impact of these lockdowns on the rates of COVID-19 transmission in communities is not well known. Here, we used COVID-19 case counts from 3,000+ counties in the United States (US) to determine the relationship between lockdown as well as other county factors and the rate of COVID-19 spread in these communities.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We merged county-specific COVID-19 case counts with US census data and the date of lockdown for each of the counties. We then applied a Functional Principal Component (FPC) analysis on this dataset to generate scores that described the trajectory of COVID-19 spread across the counties. We used machine learning methods to identify important factors in the county including the date of lockdown that significantly influenced the FPC scores.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>We found that the first FPC score accounted for up to 92.81% of the variations in the absolute rates of COVID-19 as well as the topology of COVID-19 spread over time at a county level. The relation between incidence of COVID-19 and time at a county level demonstrated a hockey-stick appearance with an inflection point approximately 7 days prior to the county reporting at least 5 new cases of COVID-19; beyond this inflection point, there was an exponential increase in incidence. Among the risk factors, lockdown and total population were the two most significant features of the county that influenced the rate of COVID-19 infection, while the median family income, median age and within-county move also substantially affect COVID spread.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>Lockdowns are an effective way of controlling the COVID-19 spread in communities. However, significant delays in lockdown cause a dramatic increase in the case counts. Thus, the timing of the lockdown relative to the case count is an important consideration in controlling the pandemic in communities.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>\n                      We searched PubMed using the term \u201ccoronavirus\u201d, OR \u201cCOVID-19\u201d, OR \u201cCOVID-19 infection\u201d, OR \u201cSARS-CoV-2\u201d combined with \u201cLockdown\u201d or \u201csociodemographic factor\u201d or \u201cVulnerability\u201d for original articles published before March 18, 2021. Similar searches were done in medRxiv, Google Scholar, and Web of Science. Only papers published in English were reviewed. The most similar relevant works to our study were Acharya et al.\n                      <jats:sup>1</jats:sup>\n                      and Karmakar et al.\n                      <jats:sup>2</jats:sup>\n                      , which investigated the associations between population-level social factors and COVID-19 incidence and mortality. Unlike our current study, which employed a longitudinal design, both of studies were cross-sectional in nature and thus fixed on a single time point. In addition, neither of these studies investigated the impact of lockdown measures on COVID-19 infection patterns. Another relevant study is Alfano et al.\u2019s work3, which focused on the efficacy of lockdown on COVID-19 case rates. However, this study did not evaluate the timing of lockdown on this endpoint.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>To our knowledge, this is the first study to use functional principal component analysis (FPCA) to investigate COVID-19 infection trajectories (in a longitudinal manner) and their relationships with different sociodemographic factors and lockdown policy at a county level. The FPCA transformed a longitudinal vector with high-dimensions into a \u201csingle\u201d surrogate variable, which retained 93% of the information. We used an advanced statistical model (segmented regression) to investigate the effects of lockdown on incidence of COVID-19 across the US. We found that the relationship had a \u201chockey stick\u201d appearance with an inflection point at \u223c7 days prior to a county reporting at least 5 cases of COVID-19. We also applied a machine learning model (i.e., elastic net) to explore joint effects of lockdown and other sociodemographic factors on COVID-19 infection patterns, which estimated the impact of each of factors, adjusted for each other.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>Our study suggests that lockdown is an effective policy to reduce case counts of COVID-19 in communities; however, significant delays in its implementation result in exponential growth of COVID-19. The inflection point is approximately 7 days prior to a county reporting at least 5 cases of COVID-19. These data will help policy-makers to determine the optimal timing of lockdowns for their communities.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2021.03.19.21253997",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ],
+      "date-time": "2021-03-22T12:45:15Z",
+      "timestamp": 1616417115000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "The Impact of Early or Late Lockdowns on the Spread of COVID-19 in US Counties"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Xiaolin",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3044-621X",
+        "authenticated-orcid": false,
+        "given": "Xiaojian",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4186-7909",
+        "authenticated-orcid": false,
+        "given": "Li",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yushan",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Don D.",
+        "family": "Sin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4728-2343",
+        "authenticated-orcid": false,
+        "given": "Xuekui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s2214-109x(20)30300-4"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2020.36462"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alfano V , Ercolano S. The Efficacy of Lockdown Against COVID-19: A Cross-Country Panel Analysis. Appl Health Econ Health Policy 2020; : 1\u20139.",
+        "DOI": "10.1007/s40258-020-00596-3"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.4",
+        "unstructured": "Coronavirus Update (Live): 117,852,568 Cases and 2,613,952 Deaths from COVID-19 Virus Pandemic - Worldometer. https://www.worldometers.info/coronavirus/ (accessed March 9, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008031"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30785-4"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.8",
+        "unstructured": "US Census Bureau. American Community Survey (ACS). The United States Census Bureau. https://www.census.gov/programs-surveys/acs (accessed March 19, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-statistics-041715-033624"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2289566"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.11",
+        "unstructured": "Carroll C , Gajardo A , Chen Y , et al. fdapace: Functional Data Analysis and Empirical Dynamics. R-Packages. 2021. https://CRAN.R-project.org/package=fdapace (accessed Jan 1, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.12",
+        "unstructured": "Walker K , Herman M , Eberwein K. tidycensus: Load US Census Boundary and Attribute Data as \u2018tidyverse\u2019 and \u2018sf\u2019-Ready Data Frames. R-Packages. 2021. https://CRAN.R-project.org/package=tidycensus (accessed Jan 1, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.13",
+        "unstructured": "Wu J , Smith S , Khurana M , Siemaszko C , Chiwaya N. Coronavirus lockdowns and stay-at-home orders across the U.S. NBC News. 2020. https://www.nbcnews.com/health/health-news/here-are-stay-home-orders-across-country-n1168736 (accessed Jan 1, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zou H , Hastie T. Regularization and Variable Selection via the Elastic Net. Journal of the Royal Statistical Society Series B (Statistical Methodology) 2005; 67. https://www.jstor.org/stable/3647580 (accessed Jan 1, 2021).",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v033.i01"
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.16",
+        "unstructured": "COVID-19 Provisional Counts - Health Disparities. 2021; published online March 3. https://www.cdc.gov/nchs/nvss/vsrr/covid19/health_disparities.htm (accessed March 9, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.17",
+        "unstructured": "Canada: COVID-19 cases by age. Statista. https://www.statista.com/statistics/1107149/covid19-cases-age-distribution-canada/ (accessed March 9, 2021)."
+      },
+      {
+        "key": "2021032409550495000_2021.03.19.21253997v1.18",
+        "unstructured": "Coronavirus Age, Sex, Demographics (COVID-19) - Worldometer. https://www.worldometers.info/coronavirus/coronavirus-age-sex-demographics/ (accessed March 9, 2021)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.19.21253997",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:11:14Z",
+      "timestamp": 1768486274000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.03.19.21253997"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ]
+    },
+    "references-count": 18,
+    "URL": "https://doi.org/10.1101/2021.03.19.21253997",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.eclinm.2021.101035",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

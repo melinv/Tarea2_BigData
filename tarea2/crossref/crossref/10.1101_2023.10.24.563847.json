@@ -1,0 +1,413 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:21:57Z",
+      "timestamp": 1768508517643,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          26
+        ]
+      ]
+    },
+    "group-title": "Immunology",
+    "reference-count": 35,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Understanding how viral variants evade neutralization is crucial for improving antibody-based treatments, especially with rapidly evolving viruses like SARS-CoV-2. Yet, conventional assays are limited in the face of rapid viral evolution, relying on a narrow set of viral isolates, and falling short in capturing the full spectrum of variants. To address this, we have developed a deep learning approach to predict changes in neutralizing antibody activity of COVID-19 therapeutics and vaccines against emerging viral variants. First, we trained a variational autoencoder (VAE) using all 67,885 unique SARS-CoV-2 spike protein sequences from the NCBI virus (up to October 31, 2022) database to encode spike protein variants into a latent space. Using this VAE and a curated dataset of 7,069\n                  <jats:italic>in vitro</jats:italic>\n                  assay data points from the NCATS OpenData Portal, we trained a neural network regression model to predict fold changes in neutralizing activity of 40 COVID-19 therapeutics and vaccines against spike protein sequence variants, relative to their neutralizing activity against the ancestral strain (Wuhan-Hu-1). Our model also employs Bayesian inference to quantify prediction uncertainty, providing more nuanced and informative estimates. To validate the model\u2019s predictive capacity, we assessed its performance on a test set of\n                  <jats:italic>in vitro</jats:italic>\n                  assay data collected up to eight months after the data included in the model training (N = 980). The model accurately predicted fold changes in neutralizing activity for this prospective dataset, with an R\n                  <jats:sup>2</jats:sup>\n                  of 0.77. Expanding our methodology to include all available data from NCBI virus and NCATS OpenData Portal up to date, we assessed predicted changes in activity for current COVID-19 monoclonal antibodies and vaccines against newly identified SARS-CoV-2 lineages. Our predictions suggest that current therapeutic and vaccine-induced antibodies will have significantly reduced activity against newer XBB descendants, notably EG.5, FL.1.5.1, and XBB.1.16. Using the model, we were able to primarily attribute the observed predicted loss in activity to the F456L spike mutation found in EG.5 and FL.1.5.1 sequences. Conversely, mRNA-bivalent vaccines are predicted to be less susceptible to the recent BA.2.86 variant compared to new XBB descendants. These findings align closely with recent research, underscoring the potential of deep learning in shaping therapeutic and vaccine strategies for emerging viral variants.\n                </jats:p>",
+    "DOI": "10.1101/2023.10.24.563847",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2023-10-26T22:45:18Z",
+      "timestamp": 1698360318000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A deep learning framework for predicting the neutralizing activity of COVID-19 therapeutics and vaccines against evolving SARS-CoV-2 variants"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Robert P.",
+        "family": "Matson",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Isin Y.",
+        "family": "Comba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eli",
+        "family": "Silvert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michiel J.M.",
+        "family": "Niesen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karthik",
+        "family": "Murugadoss",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dhruti",
+        "family": "Padwardhan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rohit",
+        "family": "Suratekar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elizabeth-Grace",
+        "family": "Goel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Brittany J.",
+        "family": "Poelaert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kanny",
+        "family": "Wan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kyle R.",
+        "family": "Brimacombe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "AJ",
+        "family": "Venkatakrishnan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7434-9211",
+        "authenticated-orcid": false,
+        "given": "Venky",
+        "family": "Soundararajan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2010.05.009"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seal, S. , Dharmarajan, G. & Khan, I. Evolution of pathogen tolerance and emerging infections: A missing experimental paradigm. Elife 10, (2021).",
+        "DOI": "10.7554/eLife.68874"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, H. , Allman, B. E. & Koelle, K. Fitness Estimation for Viral Variants in the Context of Cellular Coinfection. Viruses 13, (2021).",
+        "DOI": "10.1101/2021.04.26.441479"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramesh, S. et al. Emerging SARS-CoV-2 Variants: A Review of Its Mutations, Its Implications and Vaccine Efficacy. Vaccines (Basel) 9, (2021).",
+        "DOI": "10.3390/vaccines9101195"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/JAMA.2021.2294"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2015.04.037"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.21.109546"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "3114",
+        "DOI": "10.1038/s41596-021-00536-y",
+        "article-title": "Quantification of SARS-CoV-2 neutralizing antibody by wild-type plaque reduction neutralization, microneutralization and pseudotyped virus neutralization assays",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "Nat. Protoc"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, K.-T. , Han, Y.-J. , Wu, G.-H. , Huang, K.-Y. A. & Huang, P.-N. Overview of Neutralization Assays and International Standard for Detecting SARS-CoV-2 Neutralizing Antibody. Viruses 14, (2022).",
+        "DOI": "10.3390/v14071560"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "S405",
+        "DOI": "10.1093/infdis/jiab269",
+        "article-title": "Influenza Vaccines: Successes and Continuing Challenges",
+        "volume": "224",
+        "year": "2021",
+        "journal-title": "J. Infect. Dis"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2632010X221075584",
+        "DOI": "10.1177/2632010X221075584",
+        "article-title": "New Coronavirus Variants are Creating More Challenges to Global Healthcare System: A Brief Report on the Current Knowledge",
+        "volume": "15",
+        "year": "2022",
+        "journal-title": "Clin Pathol"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.drudis.2018.01.039"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1878",
+        "DOI": "10.1093/bib/bby061",
+        "article-title": "Recent applications of deep learning and machine intelligence on in silico drug discovery: methods, tools and databases",
+        "volume": "20",
+        "year": "2019",
+        "journal-title": "Brief. Bioinform"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "706",
+        "DOI": "10.1038/s41586-019-1923-7",
+        "article-title": "Improved protein structure prediction using potentials from deep learning",
+        "volume": "577",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.12.04.471198"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.08.024"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2122954119",
+        "DOI": "10.1073/pnas.2122954119",
+        "article-title": "Deep learning guided optimization of human antibody against SARS-CoV-2 variants with broad neutralization",
+        "volume": "119",
+        "year": "2022",
+        "journal-title": "Proc. Natl. Acad. Sci. U. S. A"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tim.2017.09.004"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01861-14"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature13087"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmed.2022.826746"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMp2023830"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.21.20248640"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5607694"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.25",
+        "unstructured": "Odp-covid19-ui. https://opendata.ncats.nih.gov/variant/activity."
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.26",
+        "unstructured": "Kendall, A. & Gal, Y. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? arXiv [cs.CV] (2017)."
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.11.557206"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.08.30.555211"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.10.557047"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.08.21.553968"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.11.557279"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.04.556272"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.07.556636"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.09.02.556033"
+      },
+      {
+        "key": "2023103104301460000_2023.10.24.563847v1.35",
+        "unstructured": "Odp-covid19-ui. https://opendata.ncats.nih.gov/variant/assays/7/Pseudotyped%20virus%20assay."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.24.563847",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:26:02Z",
+      "timestamp": 1768454762000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.24.563847"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          26
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1101/2023.10.24.563847",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

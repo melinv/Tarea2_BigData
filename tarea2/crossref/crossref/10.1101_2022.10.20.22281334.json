@@ -1,0 +1,245 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:32:52Z",
+      "timestamp": 1768555972654,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          21
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Current methods of COVID-19 detection from other respiratory illnesses using computed tomography (CT) scans are highly inaccurate. However, understanding pathogen-specific immune responses can help reduce inconsistencies and improve the accuracy of COVID-19 and Pneumonia detection. A deep learning model using Relief-based feature selection (RBAs) was developed to detect COVID-19 and Pneumonia. Patient-specific Class Activation Maps (CAMs) were produced to highlight immunopathogenic differences and identify differences between COVID-19 and Pneumonia on CT scans.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>To examine the effect on lung lesions, a COVIDx CT-2 dataset, containing CT scans from 3,745 patients, was examined. We developed an algorithm to convert the 3-D CT scan of each patient into multiple 2-D slices. Altogether, there were 194,344 2-D slices retrieved from 3,745 CT Scans. The distribution of slices was 67%-20%-17% consisting of COVID-19, Pneumonia, and normal CT scan, respectively. An AlexNet architecture was implemented with additional feature extraction layers (containing RBA) and classification layers to perform deep learning. The 2-D slices were divided into 3 groups: Training, Test, and Validation. The training set consisted of 70% of the data, the test set consisted of 20% of the data, and the validation consisted of 10% of the data. After training, unique CAMs were generated on patient CT scans using the immunopathogenic differences to highlight COVID-19 and Pneumonia related abnormalities.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The model accurately distinguished hyperinflammation in COVID-19 patients from Pneumonia patients and achieved a validation accuracy of 95.60% and a false-positive rate of 4.65%. Additionally, the segmented lung, shown by the patient-specific CAMs, identified higher levels of inflammation in the lung of COVID scans compared to the other two groups.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>The use of deep learning in disease diagnosis and prevention has provided many avenues to advance current techniques. Likewise, in this analysis, deep learning was shown to successfully predict COVID-19 via CT scan. By providing patient-specific CAMs, the model can be used to not just aid in diagnosis but potentially also to evaluate serial chest CT scans for treatment.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.10.20.22281334",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2022-10-28T00:35:11Z",
+      "timestamp": 1666917311000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Prediction of COVID-19 Diagnosis from Healthy and Pneumonia CT scans using Convolutional Neural Networks"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Rushil",
+        "family": "Srirambhatla",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9286-0694",
+        "authenticated-orcid": false,
+        "given": "Helmet T.",
+        "family": "Karim",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.1",
+        "unstructured": "Atalla, S. , Almuraqab, N. , & Moonesar, I. A. (2021). Detection of COVID-19 Using Deep"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Learning Techniques and Cost Effectiveness Evaluation: A Survey. Frontiers in Artificial Intelligence, 5. https://doi.org/10.3389/frai.2022.912022",
+        "DOI": "10.3389/frai.2022.912022"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bener, A. , Naser, A. , Bar\u0131\u015f\u0131k, C. C. , Atmaca, M. , & Nurkalem, Z. (2022, February 24). The impact of covid-19 on coronary heart failure patients and co-morbid diseases.",
+        "DOI": "10.33545/comed.2022.v5.i1a.222"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.4",
+        "unstructured": "International Journal of Advanced Community Medicine. Retrieved October 14, 2022, from https://www.comedjournal.com/archives/2022.v5.i1.a.222"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.5",
+        "unstructured": "Bernstein, L. (2017, April 4). 20 percent of patients with serious conditions are first misdiagnosed, study says. The Washington Post. Retrieved May 17, 2022, from https://www.washingtonpost.com/national/health-science/20-percent-of-patients-with-serious-conditions-are-first-misdiagnosed-study-says/2017/04/03/e386982a-189f-11e7-9887-1a5314b56a08_story.html"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.6",
+        "unstructured": "Cleveland Clinic. (n.d.). CT scan (Computed Tomography): What is it, Preparation & Test details."
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.7",
+        "unstructured": "Cleveland Clinic. Retrieved October 14, 2022, from https://my.clevelandclinic.org/health/diagnostics/4808-ct-computed-tomography-scan#:~:text=Typically%2C%20you%20should%20plan%20for,scan%20and%20verify%20clear%20images."
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1001345"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.9",
+        "unstructured": "Gunraj, H . (n.d.). COVIDX CT. Retrieved February 08, 2022, from https://www.kaggle.com/hgunraj/covidxct"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gunraj, H. , Sabri, A. , Koff, D. , & Wong, A. (2021). COVID-Net CT-2: Enhanced Deep Neural Networks for Detection of COVID-19 From Chest CT Images Through Bigger, More Diverse Learning. Frontiers in Medicine. https://doi.org/10.3389/fmed.2021.729287",
+        "DOI": "10.3389/fmed.2021.729287"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Islam N , Ebrahimzadeh S , Salameh J-P , Kazi S , Fabiano N , Treanor L , Absi M , Hallgrimson Z , Leeflang MMG , Hooft L , van der Pol CB , Prager R , Hare SS , Dennie C , Spijker R , Deeks JJ , Dinnes J , Jenniskens K , Korevaar DA , Cohen JF , Van den Bruel A , Takwoingi Y , van de Wijgert J , Damen Jaag , Wang J , McInnes MDF , Cochrane COVID-19 Diagnostic Test Accuracy Group. Thoracic imaging tests for the diagnosis of COVID-19. Cochrane Database of Systematic Reviews 2021, Issue 3. Art. No.: CD013639. DOI: 10.1002/14651858.CD013639.pub4.",
+        "DOI": "10.1002/14651858.CD013639.pub4"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.12",
+        "unstructured": "Megchelenbrink, W. (n.d.). Relief-based feature selection in bioinformatics: Detecting functional specificity residues from multiple sequence alignments [PDF]. Nijmegen: Radboud University Nijmegen."
+      },
+      {
+        "issue": "1",
+        "key": "2022102722501662000_2022.10.20.22281334v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1053/j.semnuclmed.2021.06.004",
+        "article-title": "Clinical Management of COVID-19 Patients \u2013 An Update",
+        "volume": "52",
+        "year": "2022",
+        "journal-title": "Seminars in Nuclear Medicine"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.14",
+        "unstructured": "Pathak, N. (2021, August 10). Coronavirus in the lungs: What does covid-19 really do to your lungs? Retrieved February 08, 2022, from https://www.webmd.com/lung/what-does-covid-do-to-your-lungs#1"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.15",
+        "unstructured": "Pitoyo CW ; Wijaya IPEK ; Wulani V ; Wiraputri AK ; Romulo MA ; (n.d.). Misleading diagnosis of radiological imaging of COVID-19 pneumonia during pandemic era: Risk on the existence of CMV infection. Acta medica Indonesiana. Retrieved February 8, 2022, from https://pubmed.ncbi.nlm.nih.gov/33377883/"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pecoraro V. , Negro A. , Pirotti T. , Tommaso T. (2021, December 5). Estimate false-negative RT-PCR rates for SARS-COV-2. A systematic review and meta-analysis. European journal of clinical investigation. Retrieved October 14, 2022, from https://pubmed.ncbi.nlm.nih.gov/34741305/",
+        "DOI": "10.2139/ssrn.3823218"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qjidaa M. , Ben-Fares A. , Mechbal Y. , Amakdouf H. , Maaroufi M. , Alami B. , et al. (2020a). \u201cDevelopment of a clinical decision support system for the early detection of COVID-19 using deep learning based on chest radiographic images,\u201d in 2020 International Conference on Intelligent Systems and Computer Vision (ISCV) (Morocco:), 1\u20136. 10.1109/ISCV49265.2020.9204282",
+        "DOI": "10.1109/ISCV49265.2020.9204282"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.18",
+        "unstructured": "Sam Hancock Feb 3 2022 Reviewed by Emily Henderson. (2022, February 03). A relative COVID-19 survival analysis. Retrieved February 08, 2022, from https://www.news-medical.net/news/20220203/A-relative-COVID-19-survival-analysis.aspx"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.19",
+        "unstructured": "Urbanowicz, R. , Meeker, M. , Cava, W. , Olson, R. , & Moore, J. (2018, July 18). Relief-based feature selection: Introduction and review. Retrieved February 08, 2022, from https://www.sciencedirect.com/science/article/pii/S1532046418301400"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.20",
+        "unstructured": "Xu, Y. , Lam, H. , Jia, G. , Jiang, J. , Liao, J. , & Bao, X. (2022). Improving COVID-19 CT Classification of CNNs by Learning Parameter-Efficient Representation. arXiv. https://doi.org/10.48550/arXiv.2208.04718"
+      },
+      {
+        "key": "2022102722501662000_2022.10.20.22281334v1.21",
+        "unstructured": "Zhao, W. , Jiang, W. , & Qiu, X. (2021, July 12). Deep learning for COVID-19 detection based on CT Images. Nature News. Retrieved May 17, 2022, from https://www.nature.com/articles/s41598-021-93832-2#Sec15"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.10.20.22281334",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:52:41Z",
+      "timestamp": 1768488761000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.10.20.22281334"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2022.10.20.22281334",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

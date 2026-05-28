@@ -1,0 +1,326 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:09:41Z",
+      "timestamp": 1768550981251,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Introduction</jats:title>\n                  <jats:p>\n                    The 2019 coronavirus (COVID-19) has led to unprecedented strain on healthcare facilities across the United States. Accurately identifying patients at an increased risk of deterioration may help hospitals manage their resources while improving the quality of patient care. Here we present the results of an analytical model, PICTURE (\n                    <jats:bold>P</jats:bold>\n                    redicting\n                    <jats:bold>I</jats:bold>\n                    ntensive\n                    <jats:bold>C</jats:bold>\n                    are\n                    <jats:bold>T</jats:bold>\n                    ransfers and Other\n                    <jats:bold>U</jats:bold>\n                    nfo\n                    <jats:bold>R</jats:bold>\n                    eseen\n                    <jats:bold>E</jats:bold>\n                    vents), to identify patients at a high risk for imminent intensive care unit (ICU) transfer, respiratory failure, or death with the intention to improve prediction of deterioration due to COVID-19. We compare PICTURE to the Epic Deterioration Index (EDI), a widespread system which has recently been assessed for use to triage COVID-19 patients.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The PICTURE model was trained and validated on a cohort of hospitalized non-COVID-19 patients using electronic health record data from 2014-2018. It was then applied to two hold-out test sets: non-COVID-19 patients from 2019 and patients testing positive for COVID-19 in 2020. PICTURE results were aligned to the EDI for head-to-head comparison via Area Under the Receiver Operator Curve (AUROC) and Area Under the Precision Recall Curve (AUPRC). We compared the models\u2019 ability to predict an adverse event (defined as ICU transfer, mechanical ventilation use, or death) at two levels of granularity: (1) maximum score across an encounter with a minimum lead time before the first adverse event and (2) predictions at every observation with instances in the last 24 hours before the adverse event labeled as positive. PICTURE and the EDI were also compared on the encounter level using different lead times extending out to 24 hours. Shapley values were used to provide explanations for PICTURE predictions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>PICTURE successfully delineated between high- and low-risk patients and consistently outperformed the EDI in both of our cohorts. In non-COVID-19 patients, PICTURE achieved an AUROC (95% CI) of 0.819 (0.805 - 0.834) and AUPRC of 0.109 (0.089 - 0.125) on the observation level, compared to the EDI AUROC of 0.762 (0.746 - 0.780) and AUPRC of 0.077 (0.062 - 0.090). On COVID-19 positive patients, PICTURE achieved an AUROC of 0.828 (0.794 - 0.869) and AUPRC of 0.160 (0.089 - 0.199), while the EDI scored an AUROC of 0.792 (0.754 - 0.835) and AUPRC of 0.131 (0.092 - 0.159). The most important variables influencing PICTURE predictions in the COVID-19 cohort were a rapid respiratory rate, a high level of oxygen support, low oxygen saturation, and impaired mental status (Glasgow coma score).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The PICTURE model is more accurate in predicting adverse patient outcomes for both general ward patients and COVID-19 positive patients in our cohorts compared to the EDI. The ability to consistently anticipate these events may be especially valuable when considering a potential incipient second wave of COVID-19 infections. PICTURE also has the ability to explain individual predictions to clinicians by ranking the most important features for a prediction. The generalizability of the model will require testing in other health care systems for validation.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.08.20145078",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2020-07-10T13:35:52Z",
+      "timestamp": 1594388152000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Validation and comparison of PICTURE analytic and Epic Deterioration Index for COVID-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Brandon C.",
+        "family": "Cummings",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sardar",
+        "family": "Ansari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jonathan R.",
+        "family": "Motyka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "suffix": "Jr.",
+        "given": "Richard P.",
+        "family": "Medlin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven L.",
+        "family": "Kronick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karandeep",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pauline K.",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lena M.",
+        "family": "Napolitano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert P.",
+        "family": "Dickson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael R.",
+        "family": "Mathis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael W.",
+        "family": "Sjoding",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Admon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kevin R.",
+        "family": "Ward",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher E.",
+        "family": "Gillies",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1513/AnnalsATS.201403-102OC"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aucc.2016.10.003"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/14651858.CD005529.pub2"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.5",
+        "unstructured": "\u201cAdverse Events in Hospitals: National Incidence Among Medicare Beneficiaries - 10-Year Update,\u201d Dec. 17, 2018. https://oig.hhs.gov/reports-and-publications/workplan/summary/wp-summary-0000328.asp (accessed Jun. 17, 2020)."
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12788/jhm.3151"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jhm.812"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1525-1497.2003.20441.x"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000003505"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.10",
+        "unstructured": "\u201cArtificial Intelligence from Epic Triggers Fast, Lifesaving Care for COVID-19 Patients.\u201d https://www.epic.com/epic/post/artificial-intelligence-epic-triggers-fast-lifesaving-care-covid-19-patients (accessed Jun. 18, 2020)."
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.24.20079012"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.12",
+        "unstructured": "E. Strickland , \u201cAI Can Help Hospitals Triage COVID-19 Patients - IEEE Spectrum,\u201d IEEE Spectrum: Technology, Engineering, and Science News, Apr. 17, 2020. https://spectrum.ieee.org/the-human-os/artificial-intelligence/medical-ai/ai-can-help-hospitals-triage-covid19-patients (accessed Jun. 19, 2020)."
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.05.20123323"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-019-0138-9"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.201406-1022OC"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.resuscitation.2012.12.016"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.18",
+        "unstructured": "Royal College of Physicians, \u201cNational Early Warning Score (NEWS): Standardising the assessment of acute illness severity in the NHS.,\u201d R. Coll. Physicians Lond. 2012."
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.resuscitation.2018.09.026"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12911-019-0874-0"
+      },
+      {
+        "key": "2021010811452243000_2020.07.08.20145078v1.21",
+        "unstructured": "S. M. Lundberg and S.-I. Lee , \u201cA Unified Approach to Interpreting Model Predictions,\u201d in Advances in Neural Information Processing Systems 30, I. Guyon , U. V. Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , Eds. Curran Associates, Inc., 2017, pp. 4765\u20134774."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.08.20145078",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:47:27Z",
+      "timestamp": 1768484847000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.08.20145078"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2020.07.08.20145078",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.2196/25066",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

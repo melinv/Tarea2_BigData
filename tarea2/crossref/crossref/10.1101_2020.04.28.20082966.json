@@ -1,0 +1,513 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:09:51Z",
+      "timestamp": 1768547391884,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          1
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The coronavirus disease 2019 (COVID-19) outbreak has reached pandemic status. Drastic measures of social distancing are enforced in society and healthcare systems are being pushed to and over their limits.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>To develop a fully automatic framework to detect COVID-19 by applying AI to chest CT and evaluate validation performance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>In this retrospective multi-site study, a fully automated AI framework was developed to extract radiomics features from volumetric chest CT exams to learn the detection pattern of COVID-19 patients. We analysed the data from 181 RT-PCR confirmed COVID-19 patients as well as 1200 other non-COVID-19 control patients to build and assess the performance of the model. The datasets were collected from 2 different hospital sites of the CHU Li\u00e8ge, Belgium. Diagnostic performance was assessed by the area under the receiver operating characteristic curve (AUC), sensitivity and specificity.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>1381 patients were included in this study. The average age was 64.4\u00b115.8 and 63.8\u00b114.4 years with a gender balance of 56% and 52% male in the COVID-19 and control group, respectively. The final curated dataset used for model construction and validation consisted of chest CT scans of 892 patients. The model sensitivity and specificity for detecting COVID-19 in the test set (training 80% and test 20% of patients) were 78.94% and 91.09%, respectively, with an AUC of 0.9398 (95% CI: 0.875\u20131). The negative predictive value of the algorithm was found to be larger than 97%.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Benchmarked against RT-PCR confirmed cases of COVID-19, our AI framework can accurately differentiate COVID-19 from routine clinical conditions in a fully automated fashion. Thus, providing rapid accurate diagnosis in patients suspected of COVID-19 infection, facilitating the timely implementation of isolation procedures and early intervention.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.28.20082966",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2020-05-02T07:41:17Z",
+      "timestamp": 1588405277000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Development and validation of an automated radiomic CT signature for detecting COVID-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Guiot",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Vaidyanathan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L.",
+        "family": "Deprez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "F.",
+        "family": "Zerka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L.",
+        "family": "Danthine",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.N.",
+        "family": "Frix",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Thys",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Henket",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "G.",
+        "family": "Canivet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Mathieu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "E.",
+        "family": "Eftaxia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Lambin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "N.",
+        "family": "Tsoutzidis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Miraglio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Walsh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Moutschen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.",
+        "family": "Louis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Meunier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "W.",
+        "family": "Vos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.T.H.",
+        "family": "Leijenaar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Lovinfosse",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.1",
+        "unstructured": "WHO, Landing page, (2020). https://www.who.int/ (accessed April 2, 2020)."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.2",
+        "unstructured": "Johns Hopkinds University & Medicine, Coronavirus Resource Center, (2020). https://coronavirus.jhu.edu/map.html (accessed April 2, 2020)."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30260-9"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Yang , Y. Shi , H. Lu , J. Xu , F. Li , Z. Qian , X. Hua , X. Ding , F. Song , J. Shen , Y. Lu , F. Shan , Z. Zhang , Clinical and CT features of early-stage patients with COVID-19: a retrospective analysis of imported cases in Shanghai, China, Eur. Respir. J. (2020) 2000407. https://doi.org/10.1183/13993003.00407-2020.",
+        "DOI": "10.1183/13993003.00407-2020"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Ai , Z. Yang , H. Hou , C. Zhan , C. Chen , W. Lv , Q. Tao , Z. Sun , L. Xia , Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases, Radiology. (2020) 200642. https://doi.org/10.1148/radiol.2020200642.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Fang , H. Zhang , J. Xie , M. Lin , L. Ying , P. Pang , W. Ji , Sensitivity of Chest CT for COVID-19: Comparison to RT-PCR, Radiology. (2020) 200432. https://doi.org/10.1148/radiol.2020200432.",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.8",
+        "unstructured": "H.L. Ruili Li , Guangxue Liu , Xiaochun Zhang , Letter to the Editor: Chest CT and RT-PCR: radiologists\u2019 experience in the diagnosis of COVID-19 in China, Eur. Radiol. (2020). https://www.european-radiology.org/opinions/chest-ct-and-rt-pcr-radiologists-experience-in-the-diagnosis-of-covid-19-in-china/."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Hope , A role for CT in COVID-19? What data really tell us so far, Lancet. 0 (2020). https://doi.org/10.1016/S0140-6736(20)30728-5.",
+        "DOI": "10.1016/S0140-6736(20)30728-5"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.10",
+        "first-page": "30241",
+        "article-title": "Correspondence CT screening for early diagnosis of SARS-CoV-2",
+        "volume": "51",
+        "year": "2020",
+        "journal-title": "Lancet Infect. Dis"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms5006"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.1016/S2213-2600(18)30286-8",
+        "article-title": "Deep learning for classifying fibrotic lung disease on high-resolution computed tomography: a case-cohort study",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Lancet Respir. Med"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1799-6"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-019-0447-x"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejca.2011.11.036"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Lambin , R.T.H. Leijenaar , T.M. Deist , J. Peerlings , E.E.C. De Jong , J. Van Timmeren , S. Sanduleanu , R.T.H.M. Larue , A.J.G. Even , A. Jochems , Y. Van Wijk , H. Woodruff , J. Van Soest , T. Lustberg , E. Roelofs , W. Van Elmpt , A. Dekker , F.M. Mottaghy , J.E. Wildberger , S. Walsh , Radiomics: The bridge between medical imaging and personalized medicine, Nat. Rev. Clin. Oncol. 14 (2017). https://doi.org/10.1038/nrclinonc.2017.141.",
+        "DOI": "10.1038/nrclinonc.2017.141"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mp.12967"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Xie , Z. Zhong , W. Zhao , C. Zheng , F. Wang , J. Liu , Chest CT for Typical 2019-nCoV Pneumonia: Relationship to Negative RT-PCR Testing, Radiology. (2020) 200343. https://doi.org/10.1148/radiol.2020200343.",
+        "DOI": "10.1148/radiol.2020200343"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Sheridan , Coronavirus and the race to distribute reliable diagnostics, Nat. Biotechnol. (2020). https://doi.org/10.1038/d41587-020-00002-2.",
+        "DOI": "10.1038/d41587-020-00002-2"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Song , S. Zheng , L. Li , X. Zhang , X. Zhang , Z. Huang , J. Chen , H. Zhao , Y. Jie , R. Wang , Y. Chong , J. Shen , Y. Zha , Y. Yang , Deep learning Enables Accurate Diagnosis of Novel Coronavirus (COVID-19) with CT images, MedRxiv. (2020) 2020.02.23.20026930. https://doi.org/10.1101/2020.02.23.20026930.",
+        "DOI": "10.1101/2020.02.23.20026930"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Wang , B. Kang , J. Ma , X. Zeng , M. Xiao , J. Guo , M. Cai , J. Yang , Y. Li , X. Meng , B. Xu , A deep learning algorithm using CT images to screen for corona virus disease (COVID-19), MedRxiv. (2020) 2020.02.14.20023028. https://doi.org/10.1101/2020.02.14.20023028.",
+        "DOI": "10.1101/2020.02.14.20023028"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Chen , L. Wu , J. Zhang , L. Zhang , D. Gong , Y. Zhao , S. Hu , Y. Wang , X. Hu , B. Zheng , K. Zhang , H. Wu , Z. Dong , Y. Xu , Y. Zhu , X. Chen , L. Yu , H. Yu , Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography: a prospective study, MedRxiv. (2020) 2020.02.25.20021568. https://doi.org/10.1101/2020.02.25.20021568.",
+        "DOI": "10.1101/2020.02.25.20021568"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Albano , F. Bertagna , M. Bertolia , G. Bosio , S. Lucchini , F. Motta , M.B. Panarotto , A. Peli , L. Camoni , F.M. Bengel , R. Giubbini , Incidental Findings Suggestive of Covid-19 In Asymptomatic Patients Undergoing Nuclear Medicine Procedures in a High Prevalence Region., J. Nucl. Med. (2020). https://doi.org/10.2967/jnumed.120.246256.",
+        "DOI": "10.2967/jnumed.120.246256"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.24",
+        "first-page": "597",
+        "article-title": "What do we know about ALARA? Is our knowledge sufficient about radiation safety",
+        "volume": "61",
+        "year": "2017",
+        "journal-title": "J. Neurosurg. Sci"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(12)61611-0"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1056/NEJMoa1911793",
+        "article-title": "Reduced lung-cancer mortality with volume CT screening in a randomized trial",
+        "volume": "382",
+        "year": "2020",
+        "journal-title": "N. Engl. J. Med"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.27",
+        "unstructured": "ASCO, Breast cancer mortality, (2020). https://www.cancer.net/cancer-types/breast-cancer/statistics (accessed April 3, 2020)."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.28",
+        "unstructured": "American cancer society, Lung cancer mortality, (2020). https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.29",
+        "unstructured": "N.M. Ferguson , D. Laydon , G. Nedjati-Gilani , N. Imai , K. Ainslie , M. Baguelin , S. Bhatia , A. Boonyasiri , Z. Cucunub\u00e1 , G. Cuomo-Dannenburg , A. Dighe , I. Dorigatti , H. Fu , K. Gaythorpe , W. Green , A. Hamlet , W. Hinsley , L.C. Okell , S. Van Elsland, H. Thompson , R. Verity , E. Volz , H. Wang , Y. Wang , P. Gt Walker , C. Walters , P. Winskill , C. Whittaker , C.A. Donnelly , S. Riley , A.C. Ghani , Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand, (n.d.). https://doi.org/10.25561/77482."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Sakane , M. Ishida , L. Shi , W. Fukumoto , C. Sakai , Y. Miyata , T. Ishida , T. Akita , M. Okada , K. Awai , S. Tashiro , Biological Effects of Low-Dose Chest CT on Chromosomal DNA, Radiology. (2020) 190389. https://doi.org/10.1148/radiol.2020190389.",
+        "DOI": "10.1148/radiol.2020190389"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Mossa-Basha , C.C. Meltzer , D.C. Kim , M.J. Tuite , K.P. Kolli , B.S. Tan , Radiology Department Preparedness for COVID-19: Radiology Scientific Expert Panel, Radiology. (2020) 200988. https://doi.org/10.1148/radiol.2020200988.",
+        "DOI": "10.1148/radiol.2020200988"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "20170498",
+        "DOI": "10.1259/bjr.20170498",
+        "article-title": "Development and validation of a radiomic signature to predict HPV (p16) status from standard CT imaging: A multicenter study",
+        "volume": "91",
+        "year": "2018",
+        "journal-title": "Br. J. Radiol"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "\u00d6. \u00c7i\u00e7ek , A. Abdulkadir , S.S. Lienkamp , T. Brox , O. Ronneberger , 3D U-net: Learning dense volumetric segmentation from sparse annotation, in: Lect. Notes Comput. Sci. (Including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), 2016. https://doi.org/10.1007/978-3-319-46723-8_49.",
+        "DOI": "10.1007/978-3-319-46723-8_49"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , J. Sun , Deep residual learning for image recognition, in: Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit., IEEE Computer Society, 2016: pp. 770\u2013778. https://doi.org/10.1109/CVPR.2016.90.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.35",
+        "first-page": "170124",
+        "article-title": "The public cancer radiology imaging collections of The Cancer Imaging Archive, Sci",
+        "volume": "4",
+        "year": "2017",
+        "journal-title": "Data"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.36",
+        "unstructured": "NSCLC-Radiomics - The Cancer Imaging Archive (TCIA) Public Access - Cancer Imaging Archive Wiki, (n.d.). https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics (accessed April 4, 2020)."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Caruana , S. Lawrence , L. Giles , Overfitting in neural nets: Backpropagation, conjugate gradient, and early stopping, in: Adv. Neural Inf. Process. Syst., 2001.",
+        "DOI": "10.1109/IJCNN.2000.857823"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Bertels , T. Eelbode , M. Berman , D. Vandermeulen , F. Maes , R. Bisschops , M. Blaschko , Optimizing the Dice Score and Jaccard Index for Medical Image Segmentation: Theory & Practice, Lect. Notes Comput. Sci. (Including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics). 11765 LNCS (2019) 92\u2013100. https://doi.org/10.1007/978-3-030-32245-8_11.",
+        "DOI": "10.1007/978-3-030-32245-8_11"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T.Y. Lin , P. Doll\u00e1r , R. Girshick , K. He , B. Hariharan , S. Belongie , Feature pyramid networks for object detection, in: Proc. - 30th IEEE Conf. Comput. Vis. Pattern Recognition, CVPR 2017, Institute of Electrical and Electronics Engineers Inc., 2017: pp. 936\u2013944. https://doi.org/10.1109/CVPR.2017.106.",
+        "DOI": "10.1109/CVPR.2017.106"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Xie , R. Girshick , P. Doll\u00e1r , Z. Tu , K. He , Aggregated residual transformations for deep neural networks, in: Proc. - 30th IEEE Conf. Comput. Vis. Pattern Recognition, CVPR 2017, Institute of Electrical and Electronics Engineers Inc., 2017: pp. 5987\u20135995. https://doi.org/10.1109/CVPR.2017.634.",
+        "DOI": "10.1109/CVPR.2017.634"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Tang , C. Zhang , X. Xie , Automatic pulmonary lobe segmentation using deep learning, in: Proc. - Int. Symp. Biomed. Imaging, IEEE Computer Society, 2019: pp. 1225\u20131228. https://doi.org/10.1109/ISBI.2019.8759468.",
+        "DOI": "10.1109/ISBI.2019.8759468"
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.42",
+        "unstructured": "D.P. Kingma , J.L. Ba , Adam: A method for stochastic optimization, in: 3rd Int. Conf. Learn. Represent. ICLR 2015 - Conf. Track Proc., International Conference on Learning Representations, ICLR, 2015."
+      },
+      {
+        "key": "2020120904500665000_2020.04.28.20082966v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Abraham , N.M. Khan , A novel focal tversky loss function with improved attention u-net for lesion segmentation, in: Proc. - Int. Symp. Biomed. Imaging, 2019. https://doi.org/10.1109/ISBI.2019.8759329.",
+        "DOI": "10.1109/ISBI.2019.8759329"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.28.20082966",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:38:56Z",
+      "timestamp": 1768484336000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.04.28.20082966"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          1
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2020.04.28.20082966",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/diagnostics11010041",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

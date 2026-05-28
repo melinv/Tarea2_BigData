@@ -1,0 +1,434 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:25:14Z",
+      "timestamp": 1768501514711,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          23
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Epitope residues located on viral surface proteins are of immense interest in immunology and related applications such as vaccine development, disease diagnosis and drug design. Most tools rely on sequence based statistical comparisons, such as information entropy of residue positions in aligned columns to infer location and properties of epitope sites. To facilitate cross-structural comparisons of epitopes on viral surface proteins, a python-based extraction tool implemented with Jupyter notebook is presented (Jupytope). Given a viral antigen structure of interest, a list of known epitope sites and a reference structure, the corresponding epitope structural properties can quickly be obtained. The tool integrates biopython modules for commonly used software such as NACCESS, DSSP as well as residue depth and outputs a list of structure derived properties such as dihedral angles, solvent accessibility, residue depth and secondary structure that can be saved in several convenient data formats. To ensure correct spatial alignment, Jupytope takes a list of given epitope sites and their corresponding reference structure and aligns them before extracting the desired properties. Examples are demonstrated for epitopes of Influenza and SARS-CoV2 viral strains. The extracted properties assist detection of two Influenza subtypes and show potential in distinguishing between four major clades of SARS-CoV2, as compared with randomized labels. The tool will facilitate analytical and predictive works on viral epitopes through the extracted structural information.</jats:p>\n                <jats:sec>\n                  <jats:title>Key Messages</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Jupytope combines existing 3D-structural software to extract the properties of viral epitopes into a convenient text or csv file format</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The structural properties serve as parameters or features that quantitatively capture viral epitopes</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Association of structural properties to viral subtypes (for Influenza) or clades (SARS-CoV2) is demonstrated with a simple XGBoost model</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Structure datasets mapped to SARS-CoV2 WHO clades and Pango lineages, as well as chain annotations are available for download</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2022.03.22.484725",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2022-03-23T17:45:13Z",
+      "timestamp": 1648057513000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Jupytope: Computational extraction of structural properties of viral epitopes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Shamima",
+        "family": "Rashid",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ng Teng",
+        "family": "Ann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kwoh Chee",
+        "family": "Keong",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/postgradmedj-2020-138386"
+      },
+      {
+        "issue": "2",
+        "key": "2022032423350734000_2022.03.22.484725v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "769",
+        "DOI": "10.1093/bib/bbaa404",
+        "article-title": "SARS-CoV-2 3D database: understanding the coronavirus proteome and evaluating possible drug targets",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "Brief Bioinform"
+      },
+      {
+        "issue": "1",
+        "key": "2022032423350734000_2022.03.22.484725v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "192",
+        "DOI": "10.1093/emph/eoy013",
+        "article-title": "The continual threat of influenza virus infections at the human-animal interface: What is new from a one health perspective?",
+        "volume": "2018",
+        "year": "2018",
+        "journal-title": "Evol Med Public Health"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1810927115"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/28.1.235"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-10-421"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv1276"
+      },
+      {
+        "issue": "9",
+        "key": "2022032423350734000_2022.03.22.484725v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "543",
+        "DOI": "10.1093/protein/gzp027",
+        "article-title": "The epitope regions of H1-subtype influenza A, with application to vaccine efficacy",
+        "volume": "22",
+        "year": "2009",
+        "journal-title": "Protein engineering, design & selection: PEDS"
+      },
+      {
+        "issue": "1",
+        "key": "2022032423350734000_2022.03.22.484725v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1002/prot.20379",
+        "article-title": "An amino acid has two sides: A new 2D measure provides a different view of solvent exposure",
+        "volume": "59",
+        "year": "2005",
+        "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jiph.2020.03.019"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41401-020-0485-4"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.12",
+        "unstructured": "S. Hubbard and J. Thornton . NACCESS, Computer Program, 1993."
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martin Closter Jespersen , Swapnil Mahajan , Bjoern Peters , et al. Antibody Specific B-Cell Epitope Predictions: Leveraging Information From Antibody-Antigen Protein Complexes. Frontiers in Immunology, 10, 2019.",
+        "DOI": "10.3389/fimmu.2019.00298"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1353/bhm.2002.0022"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-20321-x"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bip.360221211"
+      },
+      {
+        "issue": "8",
+        "key": "2022032423350734000_2022.03.22.484725v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1114",
+        "DOI": "10.1099/jmm.0.001231",
+        "article-title": "Epidemiological and clinical characteristics of coronavirus disease (COVID-19) cases at a screening clinic during the early outbreak period: a single-centre study",
+        "volume": "69",
+        "year": "2020",
+        "journal-title": "J Med Microbiol"
+      },
+      {
+        "issue": "1",
+        "key": "2022032423350734000_2022.03.22.484725v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "14904",
+        "DOI": "10.1038/s41598-018-33298-x",
+        "article-title": "Computational B-cell epitope identification and production of neutralizing murine antibodies against Atroxlysin-I",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "12",
+        "key": "2022032423350734000_2022.03.22.484725v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1002829",
+        "DOI": "10.1371/journal.pcbi.1002829",
+        "article-title": "Reliable B Cell Epitope Predictions: Impacts of Method Development and Improved Benchmarking",
+        "volume": "8",
+        "year": "2012",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2836(82)90515-0"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq160"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)302518"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbadis.2020.165878"
+      },
+      {
+        "issue": "10",
+        "key": "2022032423350734000_2022.03.22.484725v1.24",
+        "first-page": "2562",
+        "article-title": "Structure and function of the hemagglutinin of influenza viruses",
+        "volume": "55",
+        "year": "1997",
+        "journal-title": "Nihon Rinsho"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.25",
+        "unstructured": "World Health Organization. WHO Coronavirus (COVID-19) Dashboard, February 2022."
+      },
+      {
+        "issue": "4",
+        "key": "2022032423350734000_2022.03.22.484725v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.1055/s-0036-1584801",
+        "article-title": "Human Influenza Virus Infections",
+        "volume": "37",
+        "year": "2016",
+        "journal-title": "Semin Respir Crit Care Med"
+      },
+      {
+        "issue": "11",
+        "key": "2022032423350734000_2022.03.22.484725v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.28",
+        "unstructured": "Org Re3data. Global Initiative on Sharing Avian Influenza Data, 2012."
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.29",
+        "unstructured": "K Rogers . 1968 Flu Pandemic, 2020."
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.molimm.2008.09.009"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1097-0282(199603)38:3<305::AID-BIP4>3.0.CO;2-Y"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. R. Saunders-Hastings and D. Krewski . Reviewing the History of Pandemic Influenza: Understanding Patterns of Emergence and Transmission. Pathogens, 5(4), 2016.",
+        "DOI": "10.3390/pathogens5040066"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Shao , X. Li , M. U. Goraya , et al. Evolution of Influenza A Virus by Mutation and Re-Assortment. Int J Mol Sci, 18(8), 2017.",
+        "DOI": "10.3390/ijms18081650"
+      },
+      {
+        "issue": "5",
+        "key": "2022032423350734000_2022.03.22.484725v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0232528",
+        "DOI": "10.1371/journal.pone.0232528",
+        "article-title": "Multifaceted analysis of training and testing convolutional neural networks for protein secondary structure prediction",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "issue": "4",
+        "key": "2022032423350734000_2022.03.22.484725v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008790",
+        "DOI": "10.1371/journal.pcbi.1008790",
+        "article-title": "Computational epitope map of SARS-CoV-2 spike protein",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btn199"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.RA119.010658"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-59745-450-6_1"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barnaby E. Young , Wycliffe E. Wei , Siew-Wai Fong , et al. Association of SARS-CoV-2 clades with clinical, inflammatory and virologic outcomes: An observational study. eBioMedicine, 66, April 2021.",
+        "DOI": "10.1016/j.ebiom.2021.103319"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "103736",
+        "DOI": "10.1016/j.micpath.2019.103736",
+        "article-title": "Influenza A virus infection induces liver injury in mice",
+        "volume": "137",
+        "year": "2019",
+        "journal-title": "Microb Pathog"
+      },
+      {
+        "key": "2022032423350734000_2022.03.22.484725v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yun Zhang , Brian D. Aevermann , Tavis K. Anderson , et al. Influenza Research Database: An integrated bioinformatics resource for influenza virus research. Nucleic Acids Research, 45(D1), January 2017.",
+        "DOI": "10.1093/nar/gkw857"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.22.484725",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:49:58Z",
+      "timestamp": 1768445398000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.03.22.484725"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          23
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2022.03.22.484725",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bib/bbac362",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

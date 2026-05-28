@@ -1,0 +1,397 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2026-01-17T09:16:46Z",
+      "timestamp": 1768641406034,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          7
+        ]
+      ]
+    },
+    "group-title": "Health Policy",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The spread of COVID-19 has led to a severe strain on hospital capacity in many countries. There is a need for a model to help planners assess expected COVID-19 hospital resource utilization.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Retrospective nationwide cohort study following the day-by-day clinical status of all hospitalized COVID-19 patients in Israel from March 1st to May 2nd, 2020. Patient clinical course was modelled with a machine learning approach based on a set of multistate Cox regression-based models with adjustments for right censoring, recurrent events, competing events, left truncation, and time-dependent covariates. The model predicts the patient\u2019s entire disease course in terms of clinical states, from which we derive the patient\u2019s hospital length-of-stay, length-of-stay in critical state, the risk of in-hospital mortality, and total and critical care hospital-bed utilization. Accuracy assessed over eight cross-validation cohorts of size 330, using per-day Mean Absolute Error (MAE) of predicted hospital utilization averaged over 64 days; and area under the receiver operating characteristics (AUROC) for individual risk of critical illness and in-hospital mortality, assessed on the first day of hospitalization. We present predicted hospital utilization under hypothetical incoming patient scenarios.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>During the study period, 2,703 confirmed COVID-19 patients were hospitalized in Israel. The per-day MAEs for total and critical-care hospital-bed utilization, were 4\u00b772 \u00b1 1\u00b707 and 1\u00b768 \u00b1 0\u00b740 respectively; the AUROCs for prediction of the probabilities of critical illness and in-hospital mortality were 0\u00b788 \u00b1 0\u00b704 and 0\u00b796 \u00b1 0\u00b704, respectively. We further present the impact of several scenarios of patient influx on healthcare system utilization, and provide an R software package for predicting hospital-bed utilization.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>We developed a model that, given basic easily obtained data as input, accurately predicts total and critical care hospital utilization. The model enables evaluating the impact of various patient influx scenarios on hospital utilization and planning ahead of hospital resource allocation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>The work was funded by the Israeli Ministry of Health. M.G. received support from the U.S.-Israel Binational Science Foundation (BSF, 2016126).</jats:p>\n                  <jats:boxed-text position=\"float\" orientation=\"portrait\">\n                    <jats:sec>\n                      <jats:title>Research in context</jats:title>\n                      <jats:sec>\n                        <jats:title>Evidence before this study</jats:title>\n                        <jats:p>COVID19 outbreaks are known to lead to severe case load in hospital systems, stretching resources, partially due to the long hospitalizations needed for some of the patients. There is a crucial need for tools helping planners assess future hospitalization load, taking into account the specific characteristics and heterogeneity of currently hospitalized COVID19 patients, as well as the characteristics of incoming patients. We searched PubMed for articles published up to September 9, 2020, containing the words \u201cCOVID19\u201d and combinations of \u201chospital\u201d, \u201cutilization\u201d, \u201cresource\u201d, \u201ccapacity\u201d and \u201cpredict\u201d. We found 145 studies; out of them, several included models that predict the future trend of hospitalizations using compartment models (e.g. SIR models), or by using exponential or logistic models. We discuss two of the more prominent ones, which model explicitly the passage of patients through the ICU. These models (i) do not take into account individual patient characteristics; (ii) do not consider length-of-stay heterogeneity, despite the fact that bed utilization is in part determined by a long tail of patients requiring significantly longer stays than others; (iii) do not correct for competing risks bias. We further searched for studies containing the words \u201cCOVID19\u201d and \u201cmultistate\u201d, and \u201cCOVID19\u201d and \u201clength\u201d and \u201cstay\u201d. Out of 317 papers, we found two using multistate models focusing only on patients undergoing ECMO treatment.</jats:p>\n                      </jats:sec>\n                      <jats:sec>\n                        <jats:title>Added value of this study</jats:title>\n                        <jats:p>\n                          We present the first model predicting hospital load based on the individual characteristics of hospitalized patients: age, sex, clinical state, and time already spent in-hospital. We combine this with scenarios for incoming patients, allowing for variations by age, sex and clinical state. The model\u2019s precise predictions are based on a large sample of complete, day-by-day disease trajectories of patients, with a full coverage of the entire COVID-19 hospitalized population in Israel up to early May, 2020 (\n                          <jats:italic>n</jats:italic>\n                          =2, 703). We provide the model, as well as software for fitting such a model to local data, and an anonymized version of the dataset used to create the model.\n                        </jats:p>\n                      </jats:sec>\n                      <jats:sec>\n                        <jats:title>Implications of all the available evidence</jats:title>\n                        <jats:p>Accurate predictions for hospital utilization can be made based on easy to obtain patient data: age, sex, and patient clinical state (moderate, severe or critical). The model allows hospital-and regional-level planners to allocate resources in a timely manner, preparing for different patient influx scenarios.</jats:p>\n                      </jats:sec>\n                    </jats:sec>\n                  </jats:boxed-text>\n                </jats:sec>",
+    "DOI": "10.1101/2020.09.04.20185645",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2020-09-07T17:35:36Z",
+      "timestamp": 1599500136000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Development and validation of a machine learning model for predicting illness trajectory and hospital resource utilization of COVID-19 hospitalized patients \u2013 a nationwide study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5986-7643",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Roimi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4125-7545",
+        "authenticated-orcid": false,
+        "given": "Rom",
+        "family": "Gutman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jonathan",
+        "family": "Somer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Asaf Ben",
+        "family": "Arie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ido",
+        "family": "Calman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6846-0538",
+        "authenticated-orcid": false,
+        "given": "Yaron",
+        "family": "Bar-Lavie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Udi",
+        "family": "Gelbshtein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sigal",
+        "family": "Liverant-Taub",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1147-8686",
+        "authenticated-orcid": false,
+        "given": "Arnona",
+        "family": "Ziv",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7684-1429",
+        "authenticated-orcid": false,
+        "given": "Danny",
+        "family": "Eytan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1577-6624",
+        "authenticated-orcid": false,
+        "given": "Malka",
+        "family": "Gorfine",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4026-2692",
+        "authenticated-orcid": false,
+        "given": "Uri",
+        "family": "Shalit",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.1",
+        "unstructured": "World Health Organization, Situation report - 18 situation in numbers total and new cases in last 24 hours, https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf?sfvrsn=1ba62e57_10, 2020. Accessed: May 10th, 2020."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1545",
+        "DOI": "10.1001/jama.2020.4031",
+        "article-title": "Critical care utilization for the COVID-19 outbreak in Lombardy, Italy: early experience and forecast during an emergency response",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Jama"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e52",
+        "DOI": "10.1056/NEJMc2010853",
+        "article-title": "Transforming ORs into ICUs",
+        "volume": "382",
+        "year": "2020",
+        "journal-title": "New England Journal of Medicine"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e208297",
+        "DOI": "10.1001/jamanetworkopen.2020.8297",
+        "article-title": "Estimated demand for US hospital inpatient and intensive care unit beds for patients with COVID-19 based on comparisons with Wuhan and Guangzhou, china",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMA network open"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.5",
+        "unstructured": "R Core Team, R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing, Vienna, Austria, 2017. URL: https://www.R-project.org/."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.6",
+        "unstructured": "Centers for Disease Control and Prevention, ICD-10-CM official coding and reporting guidelines April 1, 2020 through September 30, 2020, 2020."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.7",
+        "unstructured": "National Institutes of Health, Management of COVID-19 \u2014 coronavirus disease COVID-19, https://www.covid19treatmentguidelines.nih.gov/overview/management-of-covid-19/, 2020. Accessed August 16, 2020."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.8",
+        "unstructured": "P. K. Andersen , R. D. Gill , Cox\u2019s regression model for counting processes: a large sample study, The annals of statistics (1982) 1100\u20131120."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.9",
+        "unstructured": "P. K. Andersen , L. S. Hansen , N. Keiding , Non-and semi-parametric estimation of transition probabilities from censored observation of a non-homogeneous Markov process, Scandinavian Journal of Statistics (1991) 153\u2013167."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.10",
+        "unstructured": "J. P. Klein , M. L. Moeschberger , Survival analysis: techniques for censored and truncated data, Springer Science & Business Media, 2006."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.11",
+        "unstructured": "J. D. Kalbfleisch , R. L. Prentice , The statistical analysis of failure time data, volume 360, John Wiley & Sons, 2011."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Condes , J. R. Arribas , et al., Impact of COVID-19 on Madrid hospital system, Enfermedades Infecciosas Y Microbiologia Clinica (2020).",
+        "DOI": "10.1016/j.eimc.2020.06.005"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. E. Weissman , A. Crane-Droesch , C. Chivers , T. Luong , A. Hanish , M. Z. Levy , J. Lubken , M. Becker , M. E. Draugelis , G. L. Anesi , et al., Locally informed simulation to predict hospital capacity needs during the COVID-19 pandemic, Annals of internal medicine (2020).",
+        "DOI": "10.7326/M20-1260"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004064117"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1186/s12874-020-01082-z",
+        "article-title": "Joint analysis of duration of ventilation, length of intensive care, and mortality of COVID-19 patients: a multistate approach",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "BMC Medical Research Methodology"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Schmidt , D. Hajage , G. Lebreton , A. Monsel , G. Voiriot , D. Levy , E. Baron , A. Beurton , J. Chommeloux , P. Meng , et al., Extracorporeal membrane oxygenation for severe acute respiratory distress syndrome associated with covid-19: a retrospective cohort study, The Lancet Respiratory Medicine (2020).",
+        "DOI": "10.1016/S2213-2600(20)30328-3"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Oulhaj , L. A. Ahmed , J. Prattes , A. Suliman , A. Al Suwaidi , R. H. Al-Rifai , H. Sourij , I. Van Keilegom , The competing risk between in-hospital mortality and recovery: A pitfall in COVID-19 survival analysis research, medRxiv (2020).",
+        "DOI": "10.1101/2020.07.11.20151472"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Wynants , B. Van Calster , M. M. Bonten , G. S. Collins , T. P. Debray , M. De Vos , M. C. Haller , G. Heinze , K. G. Moons , R. D. Riley , et al., Prediction models for diagnosis and prognosis of COVID-19 infection: systematic review and critical appraisal, BMJ 369 (2020).",
+        "DOI": "10.1101/2020.03.24.20041020"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Liang , H. Liang , L. Ou , B. Chen , A. Chen , C. Li , Y. Li , W. Guan , L. Sang , J. Lu , et al., Development and validation of a clinical risk score to predict the occurrence of critical illness in hospitalized patients with COVID-19, JAMA Internal Medicine (2020).",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O. Y. Bello-Chavolla , J. P. Bahena-L\u00f3pez , N. E. Antonio-Villa , A. Vargas-V\u00e1azquez , A. Gonz\u00e1alez-D\u00edaz , A. M\u00e1arquez-Salinas , C. A. Ferm\u00edn-Mart\u00ednez , J. J. Naveja , C. A. Aguilar-Salinas , Predicting mortality due to SARS-CoV-2: A mechanistic score relating obesity and diabetes to COVID-19 outcomes in Mexico, The Journal of Clinical Endocrinology & Metabolism 105 (2020).",
+        "DOI": "10.1101/2020.04.20.20072223"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. L. Atkins , J. A. Masoli , J. Delgado , L. C. Pilling , C.-L. Kuo , G. A. Kuchel , D. Melzer , Preexisting comorbidities predicting COVID-19 and mortality in the UK Biobank community cohort, The Journals of Gerontology: Series A (2020).",
+        "DOI": "10.1101/2020.05.06.20092700"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. M. Petrilli , S. A. Jones , J. Yang , H. Rajagopalan , L. O\u2019Donnell , Y. Chernyak , K. A. Tobin , R. J. Cerfolio , F. Francois , L. I. Horwitz , Factors associated with hospital admission and critical illness among 5279 people with coronavirus disease 2019 in New York City: prospective cohort study, BMJ 369 (2020).",
+        "DOI": "10.1136/bmj.m1966"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e21",
+        "DOI": "10.1016/S2213-2600(20)30116-8",
+        "article-title": "Are patients with hypertension and diabetes mellitus at increased risk for COVID-19 infection",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet. Respiratory Medicine"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andersen , P. K. & Gill , R. D. (1982). Cox\u2019s regression model for counting processes: a large sample study. The annals of statistics, 1100\u20131120.",
+        "DOI": "10.1214/aos/1176345976"
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.25",
+        "unstructured": "Andersen , P. K. , Hansen , L. S. & Keiding , N. (1991). Non-and semi-parametric estimation of transition probabilities from censored observation of a non-homogeneous markov process. Scandinavian Journal of Statistics, 153\u2013167."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.26",
+        "unstructured": "Hocking , T. D. (2020). WeightedROC: Fast, Weighted ROC Curves. R package version 2020.1.31."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.27",
+        "unstructured": "Kalbfleisch , J. D. & Prentice , R. L. (2011). The statistical analysis of failure time data, vol. 360. John Wiley & Sons."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.28",
+        "unstructured": "Klein , J. P. & Moeschberger , M. L. (2006). Survival analysis: techniques for censored and truncated data. Springer Science & Business Media."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.29",
+        "unstructured": "Kosorok , M. R. (2007). Introduction to empirical processes and semiparametric inference. Springer Science & Business Media."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.30",
+        "unstructured": "R Core Team (2020). R: A Language and Environment for Statistical Computing.R Foundation for Statistical Computing, Vienna, Austria."
+      },
+      {
+        "key": "2021021108450538000_2020.09.04.20185645v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0006-341X.2000.00779.x"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.04.20185645",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:53:26Z",
+      "timestamp": 1768485206000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.04.20185645"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          7
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2020.09.04.20185645",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/jamia/ocab005",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          7
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

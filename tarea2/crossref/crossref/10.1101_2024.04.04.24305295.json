@@ -1,0 +1,397 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:29:29Z",
+      "timestamp": 1768566569180,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2024-04-05T00:00:00Z",
+          "timestamp": 1712275200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          26
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Accurately differentiating severe from non-severe COVID-19 clinical types is critical for the healthcare system to optimize workflow. Current techniques lack the ability to accurately predict COVID-19 patients\u2019 clinical type, especially as SARS-CoV-2 continues to mutate. We explore predictability and interpretability of multiple state-of-the-art machine learning (ML) techniques trained and tested under different biomedical data types and COVID-19 variants.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    Comprehensive patient-level data were collected from 362 patients (214 severe, 148 non-severe) with the original SARS-CoV-2 variant in 2020 and 1000 patients (500 severe, 500 non-severe) with the Omicron variant in 2022-2023. The data included 26 biochemical features from blood testing and 26 clinical features from patients\u2019 clinical characteristics and medical history. Different ML techniques including penalized logistic regression (LR), random forest (RF),\n                    <jats:italic>k</jats:italic>\n                    -nearest neighbors (kNN), and support vector machines (SVM) were applied to build predictive models based on each data modality separately and together for each variant. Fifty randomized train-test-splits were conducted per scenario and performance results were recorded.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>The fused (hybrid) characteristic modality yielded the highest mean area under the curve (AUC) achieving 0\u00b7915, while the biochemical modality alone and the clinical modality alone had AUCs of 0\u00b7862 and 0\u00b7818 respectively. All ML models performed similarly under different testing scenarios and were robust when cross-tested with original and Omicron variant patient data. Our models ranked elevated d-dimer (biochemical), elevated high sensitivity troponin I (biochemical), and age greater than 55 years (clinical) as the most predictive features of severe COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>ML is a powerful tool for predicting severe COVID-19 based on comprehensive individual patient-level data. Further, ML models trained on the biochemical and clinical modalities together witness enhanced predictive power. The improved performance of these ML models when trained and cross-tested with Omicron variant data supports the robustness of ML as a tool for clinical decision support.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>U.S. Centers for Disease Control and Prevention (CDC)</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in Context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>We searched the PubMed database for publications investigating the use of machine learning (ML) in predicting severe COVID-19 types using patient-level data. We found studies published from the beginning of the COVID-19 pandemic in 2020 up to February 2023 using keywords such as \u201csevere COVID-19\u201d, \u201cSARS-CoV-2\u201d, \u201cmultimodal\u201d, \u201cmachine learning\u201d, \u201cprediction\u201d, and \u201cdata-driven.\u201d The resulting studies were overall limited in scope, as they focused on single data modalities or uninterpretable models. Nearly all studies found only used patient data obtained from the outbreak of COVID-19 and lacked data from the later variants, such as Omicron. These limitations prevent identification of the data modalities and ML techniques most suitable for predicting severe types, as well as the generalizability of these models to multiple variants.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>We built end-to-end machine learning pipelines with a variety of ML techniques, data modalities (biochemical, clinical, and fusion), and SARS-CoV-2 variants (original and Omicron) to compare the predictive power of each model type. Our study shows these models have strong predictive power severe COVID-19 when trained on multiple modalities and robustness across different variants of the virus, with two models achieving an AUC &gt; 0\u00b790. We compared feature rankings of models trained with the different variants and found overall agreement that the following features are highly predictive of severe COVID-19: elevated coagulation markers (d-dimer), indicators for heart damage (hsCRP, hsTNI), and age &gt;55 years.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>These findings result from a thorough analysis of the effect of data type, ML technique, and SARS-CoV-2 variant on the power to predict severe COVID-19. To our knowledge, no other work has provided analysis of the effect of these characteristics, particularly the SARS-CoV-2 variants, on the performance of ML models. This model yields a powerful framework for healthcare providers seeking clinical decision support tools for not only COVID-19, but many other viral respiratory illnesses. Our work demonstrates a need for further testing with larger datasets to confirm the benefits of biomedical feature fusion.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2024.04.04.24305295",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2024-04-05T20:00:19Z",
+      "timestamp": 1712347219000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Evaluating biomedical feature fusion on machine learning\u2019s predictability and interpretability of COVID-19 severity types"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Haleigh",
+        "family": "West-Page",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Kevin",
+        "family": "McGoff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Harrison",
+        "family": "Latimer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isaac",
+        "family": "Olufadewa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envres.2022.112816"
+      },
+      {
+        "issue": "6",
+        "key": "2025032804300605000_2024.04.04.24305295v2.2",
+        "first-page": "667",
+        "article-title": "Impact of ICU strain on outcomes",
+        "volume": "28",
+        "year": "2022",
+        "journal-title": "Current opinion in critical care, with evaluated MEDLINE/Current opinion in critical care"
+      },
+      {
+        "issue": "4",
+        "key": "2025032804300605000_2024.04.04.24305295v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.12788/jhm.3539",
+        "article-title": "Analysis of Hospital Resource Availability and COVID-19 Mortality Across the United States",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "Journal of Hospital Medicine"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.4",
+        "unstructured": "COVID-19 epidemiological update \u2013 16 February 2024 [Internet]. www.who.int. 2024. Available from: https://www.who.int/publications/m/item/covid-19-epidemiological-update-16-february-2024 [accessed 2024-02-20]"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/23948"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu Z , McGoogan JM . Characteristics of and Important Lessons from the Coronavirus Disease 2019 (COVID-19) Outbreak in China. Jama [Internet]. 2020 Feb 24;323(13). Available from: https://jamanetwork.com/journals/jama/fullarticle/2762130",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.7",
+        "unstructured": "Novel coronavirus pneumonia diagnosis and treatment plan (provisional 7th edition). Webpage in Chinese. National Health Commission of China. 2020 Mar 04. URL: http://www.nhc.gov.cn/yzygj/s7652m/202003/a31191442e29474b98bfed5579d5af95.shtml"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.201908-1581ST"
+      },
+      {
+        "issue": "6",
+        "key": "2025032804300605000_2024.04.04.24305295v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "6102",
+        "DOI": "10.3934/mbe.2022285",
+        "article-title": "A new hybrid ensemble machine-learning model for severity risk assessment and post-COVID prediction system",
+        "volume": "19",
+        "year": "2022",
+        "journal-title": "Mathematical Biosciences and Engineering"
+      },
+      {
+        "issue": "2",
+        "key": "2025032804300605000_2024.04.04.24305295v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1515/cclm-2020-1294",
+        "article-title": "Development, evaluation, and validation of machine learning models for COVID-19 detection based on routine blood tests",
+        "volume": "59",
+        "year": "2021",
+        "journal-title": "Clinical Chemistry and Laboratory Medicine (CCLM) [Internet]"
+      },
+      {
+        "issue": "15",
+        "key": "2025032804300605000_2024.04.04.24305295v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "3400",
+        "DOI": "10.3390/s19153400",
+        "article-title": "Logistic Regression for Machine Learning in Process Tomography",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiong Y , Ma Y , Ruan L , Li D , Lu C , Huang L . Comparing different machine learning techniques for predicting COVID-19 severity. Infectious Diseases of Poverty. 2022 Feb 17;11(1).",
+        "DOI": "10.1186/s40249-022-00946-4"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10489-021-02743-2"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jamshidi E , Asgary A , Tavakoli N , Zali A , Setareh S , Esmaily H , et al. Using Machine Learning to Predict Mortality for COVID-19 Patients on Day 0 in the ICU. Frontiers in Digital Health. 2022 Jan 13;3.",
+        "DOI": "10.3389/fdgth.2021.681608"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0247773"
+      },
+      {
+        "issue": "85",
+        "key": "2025032804300605000_2024.04.04.24305295v2.16",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine Learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research [Internet]"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Constantin Aliferis , Simon G. Overfitting , Underfitting and General Model Overconfidence and Under-Performance Pitfalls and Best Practices in Machine Learning and AI. Computers in health care (New York). 2024 Jan 1;477\u2013524.",
+        "DOI": "10.1007/978-3-031-39355-6_10"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2005.50"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saarela M , Jauhiainen S . Comparison of feature importance measures as explanations for classification models. SN Applied Sciences. 2021 Feb;3(2).",
+        "DOI": "10.1007/s42452-021-04148-9"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.20",
+        "unstructured": "Feature importances with a forest of trees [Internet]. scikit-learn. 2024. Available from: https://scikit-learn.org/1.5/auto_examples/ensemble/plot_forest_importances.html"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1711",
+        "DOI": "10.7717/peerj-cs.1711",
+        "article-title": "Feature selection based on neighborhood rough sets and Gini index",
+        "volume": "9",
+        "year": "2023",
+        "journal-title": "PeerJ Computer Science [Internet]"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Uslu A , Stausberg J . Value of the electronic medical record for hospital care: Update from the literature. Journal of Medical Internet Research [Internet]. 2021 Dec 23;23(12). Available from: https://www.jmir.org/2021/12/e26323",
+        "DOI": "10.2196/26323"
+      },
+      {
+        "issue": "3",
+        "key": "2025032804300605000_2024.04.04.24305295v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.4103/picr.PICR_87_17",
+        "article-title": "Common pitfalls in statistical analysis: Logistic regression",
+        "volume": "8",
+        "year": "2017",
+        "journal-title": "Perspectives in Clinical Research [Internet]"
+      },
+      {
+        "issue": "1",
+        "key": "2025032804300605000_2024.04.04.24305295v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1177/1536867X20909688",
+        "article-title": "The random forest algorithm for statistical learning",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "The Stata Journal: Promoting Communications on Statistics and Stata [Internet]"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi S , Qin M , Shen B , Cai Y , Liu T , Yang F , et al. Association of Cardiac Injury With Mortality in Hospitalized Patients With COVID-19 in Wuhan, China. JAMA Cardiology. 2020 Mar 25;5(7).",
+        "DOI": "10.1001/jamacardio.2020.0950"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.thromres.2020.07.047"
+      },
+      {
+        "key": "2025032804300605000_2024.04.04.24305295v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almazeedi S , Al-Youha S , Jamal MH , Al-Haddad M , Al-Muhaini A , Al-Ghimlas F , et al. Characteristics, risk factors and outcomes among the first consecutive 1096 patients diagnosed with COVID-19 in Kuwait. EClinicalMedicine [Internet]. 2020 Jul 1 [cited 2020 Sep 6];24. Available from: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(20)30192-9/fulltext",
+        "DOI": "10.1016/j.eclinm.2020.100448"
+      },
+      {
+        "issue": "6",
+        "key": "2025032804300605000_2024.04.04.24305295v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2012270",
+        "DOI": "10.1001/jamanetworkopen.2020.12270",
+        "article-title": "Clinical Characteristics and Morbidity Associated With Coronavirus Disease 2019 in a Series of Patients in Metropolitan Detroit",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMA Network Open"
+      },
+      {
+        "issue": "10",
+        "key": "2025032804300605000_2024.04.04.24305295v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "e516",
+        "DOI": "10.1016/S2589-7500(20)30217-X",
+        "article-title": "Clinical features of COVID-19 mortality: development and validation of a clinical prediction model",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "issue": "9",
+        "key": "2025032804300605000_2024.04.04.24305295v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1830",
+        "DOI": "10.1093/aje/kwab010",
+        "article-title": "Addressing Measurement Error in Random Forests Using Quantitative Bias Analysis",
+        "volume": "190",
+        "year": "2021",
+        "journal-title": "American Journal of Epidemiology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.04.24305295",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:57:36Z",
+      "timestamp": 1768507056000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.04.04.24305295"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2024.04.04.24305295",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

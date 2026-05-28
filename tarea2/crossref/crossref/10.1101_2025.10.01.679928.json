@@ -1,0 +1,547 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T01:40:56Z",
+      "timestamp": 1768527656541,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 73,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              2
+            ]
+          ],
+          "date-time": "2025-10-02T00:00:00Z",
+          "timestamp": 1759363200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.biorxiv.org/about/FAQ#license"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Bonn-Aachen International Center for Information Technology (b-it) foundation"
+      },
+      {
+        "name": "COMMUTE project"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The COVID-19 pandemic has intensified concerns about its long-term neurological impact, with growing evidence linking SARS-CoV-2 infection to neurodegenerative diseases (NDDs) such as Alzheimer\u2019s (AD) and Parkinson\u2019s (PD). Patients with these conditions not only face higher risk of severe COVID-19 outcomes but may also undergo accelerated cognitive and motor decline following infection. Proposed mechanisms\u2014ranging from neuroinflammation and blood\u2013brain barrier disruption to abnormal protein aggregation\u2014closely mirror core features of neurodegenerative pathology. Yet, current knowledge is fragmented across text, figures, and pathway diagrams, hindering integration into computational models capable of uncovering systemic patterns.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>To address this gap, we applied GPT-4 Omni (GPT-4o), a multimodal large language model, to extract mechanistic insights from biomedical figures. Over 10,000 images were retrieved through targeted searches on COVID-19 and neurodegeneration; after automated and manual filtering, a curated subset was analyzed. GPT-4o extracted biological relationships as semantic triples, which were grouped into six mechanistic categories\u2014including microglial activation and barrier disruption\u2014using ontology-guided similarity and assembled into a Neo4j knowledge graph.</jats:p>\n                  <jats:p>Accuracy was evaluated against a gold-standard dataset of expert-annotated images using BioBERT-based semantic matching. This evaluation also enabled prompt tuning, threshold optimization, and hyperparameter assessment. Results demonstrate that GPT-4o successfully recovers both established and novel mechanisms, yielding interpretable outputs that illuminate complex biological links between SARS-CoV-2 and neurodegeneration.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>This study showcases the potential of multimodal LLMs to mine biomedical visual data at scale. By complementing text mining and integrating figure-derived knowledge, our framework advances understanding of COVID-19\u2013related neurodegeneration and supports future translational research.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.10.01.679928",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          3
+        ]
+      ],
+      "date-time": "2025-10-03T04:15:18Z",
+      "timestamp": 1759464918000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Leveraging Multimodal Large Language Models to Extract Mechanistic Insights from Biomedical Visuals: A Case Study on COVID-19 and Neurodegenerative Diseases"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Elizaveta",
+        "family": "Popova",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4153-3930",
+        "authenticated-orcid": false,
+        "given": "Marc",
+        "family": "Jacobs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9012-6720",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Hofmann-Apitius",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Negin Sadat",
+        "family": "Babaiha",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01981-2"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/baw118"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ailsci.2023.100078"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.02.13.637069"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ailsci.2024.100095"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.6",
+        "unstructured": "Bachmann, M. (2025). RapidFuzz [Python]. RapidFuzz. https://github.com/rapidfuzz/RapidFuzz (Original work published 2020)"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-0716-2305-3_12"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/asi.4630300621"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky930"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-180098"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.11",
+        "unstructured": "Causality BioModels. (n.d.). Causality BioModels. Retrieved June 17, 2025, from https://www.causalitybiomodels.com/"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/math11081815"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/1072064.1072067"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tins.2020.04.004"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1051-9"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa834"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2405.19092"
+      },
+      {
+        "issue": "3",
+        "key": "2025100612051231000_2025.10.01.679928v1.18",
+        "first-page": "138",
+        "article-title": "NLRP3 inflammasome activation and SARS-CoV-2-mediated hyperinflammation, cytokine storm and neurological syndromes",
+        "volume": "14",
+        "year": "2022",
+        "journal-title": "International Journal of Physiology, Pathophysiology and Pharmacology"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.19",
+        "unstructured": "Ehrlinger, L. , & W\u00f6\u00df, W. (2016). Towards a Definition of Knowledge Graphs. International Conference on Semantic Systems. https://www.semanticscholar.org/paper/Towards-a-Definition-of-Knowledge-Graphs-Ehrlinger-W%C3%B6%C3%9F/b18e4272a7b9fa2e1c970d258ab5ea99ed5e2284"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34172/jrcm.2023.33324"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-34068-0"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-51465-9"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26355/eurrev_202206_29093"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2024.09.022"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bph.12139"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.procs.2015.04.038"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2023.1064293"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.11.03.23297957"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/bioengineering12050477"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-020-00640-3"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41583-018-0113-1"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3447772"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx660"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(23)00810-3"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40035-023-00337-1"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-91376-6_19"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.37",
+        "unstructured": "Ian Robinson , Jim Webber , & Eifrem, E. (2015). Graph Databases: New Opportunities for Connected Data. (2nd ed.). O\u2019Reilly Media."
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/bay147"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-486"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nav.3800020109"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz682"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awac151"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2005.11401"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41398-022-02052-3"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04188-6"
+      },
+      {
+        "issue": "3",
+        "key": "2025100612051231000_2025.10.01.679928v1.46",
+        "first-page": "265",
+        "article-title": "Medical Subject Headings (MeSH)",
+        "volume": "88",
+        "year": "2000",
+        "journal-title": "Bulletin of the Medical Library Association"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2312.05256"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/iid3.387"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511809071"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnbot.2019.00093"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2020.1127"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajpath.2025.03.011"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.53",
+        "unstructured": "Medical Vision Language Pretraining: A survey. (n.d.). Retrieved June 10, 2025, from https://arxiv.org/html/2312.06224v1"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj-2022-072529"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/W19-5034"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nan.12997"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.57",
+        "unstructured": "OpenAI API documentation. (2024). OpenAI developer platform. https://platform.openai.com/docs"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-48055-0"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.59",
+        "unstructured": "Regino, A. G. , & dos Reis, J. C. (2025). Can LLMs be Knowledge Graph Curators for Validating Triple Insertions? In G. A. Gesese , H. Sack , H. Paulheim , A. Merono-Penuela , & L. Chen (Eds.), Proceedings of the Workshop on Generative AI and Knowledge Graphs (GenAIK) (pp. 87\u201399). International Committee on Computational Linguistics. https://aclanthology.org/2025.genaik-1.10/"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1032"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-13-S6-S11"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14802/jmd.21046"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.drudis.2013.12.011"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btae560"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1113"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioadv/vbad095"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/JCMA.0000000000001273"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-024-02032-8"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkae235"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbi.2020.03.031"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02001-z"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/642611.642681"
+      },
+      {
+        "key": "2025100612051231000_2025.10.01.679928v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-024-03185-2"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.01.679928",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T09:43:20Z",
+      "timestamp": 1768470200000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.01.679928"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ]
+    },
+    "references-count": 73,
+    "URL": "https://doi.org/10.1101/2025.10.01.679928",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

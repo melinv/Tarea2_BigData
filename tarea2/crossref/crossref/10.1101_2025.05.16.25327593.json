@@ -1,0 +1,505 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T21:21:40Z",
+      "timestamp": 1768598500856,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2025-05-16T00:00:00Z",
+          "timestamp": 1747353600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>\n                    To estimate vaccine effectiveness (VE) of COVID-19 mRNA vaccines administered during pregnancy. Primary (2-dose) vaccination was compared with unvaccinated women; and 1\n                    <jats:sup>st</jats:sup>\n                    booster (3rd dose) with primary (2-dose) vaccination.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Target trial emulation cohort study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Routinely collected health data from UK, Sweden, Spain, and Norway. All had complete vaccine exposure data and were mapped to the OMOP common data model.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>Pregnant women (aged 12-55) with \u226434 weeks of gestation, no history of COVID-19 in the 90 days prior and \u22651 year of data visibility. Women were matched 1:1 to those with no dose and 2-dose vaccination, respectively, using weekly sequential matching from vaccination roll-out to 2023 (Swedish data: 2024).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main outcome measures</jats:title>\n                  <jats:p>The main outcomes were COVID-19 infection, hospitalisation and Intensive Care Unit (ICU) admission (COVID-related, excluding delivery-related care). Hazard ratios (HR) were estimated with Cox regression from 15 days post-vaccination, and VE was reported as 100 x (1-HR). Analyses were stratified by pregnancy trimester and vaccine brand. Database-specific results were pooled using a random-effects meta-analysis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We included 62,061 and 41,096 pregnant women at date of vaccination with a first and third dose, respectively. Median follow-up across databases ranged from 42 to 55 days for primary vaccination and 73 to 116 days for boosters. For primary vaccination, the meta-analysis showed a VE of 26.2% (16.2 to 35.1; I\n                    <jats:sup>2</jats:sup>\n                    =0.7) against infection and 55.6% (44.1 to 64.8; I\n                    <jats:sup>2</jats:sup>\n                    =0) against hospitalisation. For boosters, corresponding figures were 33.6% (-1.6 to 56.6; I\n                    <jats:sup>2</jats:sup>\n                    =1) and 34.1% (0.6 to 56.4; I\n                    <jats:sup>2</jats:sup>\n                    =0.5). Event counts were insufficient to analyse VE against ICU admission. Results were consistent across pregnancy trimesters and vaccine brands.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    Vaccination with a primary (2-dose) or a 1\n                    <jats:sup>st</jats:sup>\n                    booster (3rd dose) during pregnancy was effective in preventing COVID-19 hospitalisation, with modest and heterogeneous VE against infection across 4 European countries.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:sec>\n                    <jats:title>What is already known on this topic</jats:title>\n                    <jats:list list-type=\"simple\">\n                      <jats:list-item>\n                        <jats:p>- Pregnant women are at increased risk of severe complications from COVID-19, which can affect both mothers and their infants.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>- Vaccination during pregnancy has been shown to be safe and effective, with benefits of vaccination outweighing any potential risks.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>- Studies examining the effectiveness of COVID-19 vaccines during pregnancy have primarily focused on primary vaccination with BNT162b2, with limited follow-up, sample size and representativeness.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What this study adds</jats:title>\n                    <jats:list list-type=\"simple\">\n                      <jats:list-item>\n                        <jats:p>- This study provides evidence on the effectiveness of COVID-19 mRNA vaccines administered during pregnancy using routinely collected data of over 124,122 pregnancies from 4 European countries.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>- Primary (2-dose) vaccination against COVID-19 during pregnancy was effective in preventing infection during pregnancy with a vaccine effectiveness of 26%, and 55% for preventing COVID-19 related hospitalisations.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>\n                          - A 1\n                          <jats:sup>st</jats:sup>\n                          booster (3\n                          <jats:sup>rd</jats:sup>\n                          dose) had a vaccine effectiveness of 30-35% against COVID-19 infection and COVID-19-related hospitalisation compared to primary (2-dose) vaccination.\n                        </jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2025.05.16.25327593",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2025-05-16T21:15:13Z",
+      "timestamp": 1747430113000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Effectiveness of COVID-19 mRNA primary and booster vaccination against infection and hospitalisation during pregnancy: a target trial emulation and meta-analysis of data from 4 European countries"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-7948-3747",
+        "authenticated-orcid": false,
+        "given": "N\u00faria",
+        "family": "Mercade-Besora",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4668-2970",
+        "authenticated-orcid": false,
+        "given": "Berta",
+        "family": "Ravent\u00f3s",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nhung TH",
+        "family": "Trinh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Huiqi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saeed",
+        "family": "Hayati",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8550-6953",
+        "authenticated-orcid": false,
+        "given": "Agustina",
+        "family": "Giuliodori",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1313-4473",
+        "authenticated-orcid": false,
+        "given": "Theresa",
+        "family": "Burkard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9286-1128",
+        "authenticated-orcid": false,
+        "given": "Edward",
+        "family": "Burn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mart\u00ed",
+        "family": "Catal\u00e0",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3950-6346",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Prieto-Alhambra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel R.",
+        "family": "Morales",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0892-5668",
+        "authenticated-orcid": false,
+        "given": "Fredrik",
+        "family": "Nyberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6361-2918",
+        "authenticated-orcid": false,
+        "given": "Hedvig Marie Egeland",
+        "family": "Nordeng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8274-0357",
+        "authenticated-orcid": false,
+        "given": "Talita",
+        "family": "Duarte-Salles",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Allotey J , Fernandez S , Bonet M , Stallings E , Yap M , Kew T , et al. Clinical manifestations, risk factors, and maternal and perinatal outcomes of coronavirus disease 2019 in pregnancy: living systematic review and meta-analysis. BMJ. 2020:m3320.",
+        "DOI": "10.1136/bmj.m3320"
+      },
+      {
+        "issue": "8",
+        "key": "2025052005200755000_2025.05.16.25327593v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "817",
+        "DOI": "10.1001/jamapediatrics.2021.1050",
+        "article-title": "Maternal and Neonatal Morbidity and Mortality Among Pregnant Women With and Without COVID-19 Infection",
+        "volume": "175",
+        "year": "2021",
+        "journal-title": "JAMA Pediatrics"
+      },
+      {
+        "issue": "3",
+        "key": "2025052005200755000_2025.05.16.25327593v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1038/s41591-021-01666-2",
+        "article-title": "SARS-CoV-2 infection and COVID-19 vaccination rates in pregnant women in Scotland",
+        "volume": "28",
+        "year": "2022",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "issue": "2",
+        "key": "2025052005200755000_2025.05.16.25327593v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "236.e1",
+        "DOI": "10.1016/j.ajog.2021.08.007",
+        "article-title": "COVID-19 vaccination during pregnancy: coverage and safety",
+        "volume": "226",
+        "year": "2022",
+        "journal-title": "American Journal of Obstetrics and Gynecology"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.5",
+        "unstructured": "Knight M , Bunch K , Felker A , Patel R , Kotnis R , Kenyon S , et al. Saving lives improving mothers\u2019 care\u2014Lessons learned to inform maternity care from the UK and Ireland Confidential Enquiries into Maternal Deaths and Morbidity 2019-21. Oxford: National Perinatal Epidemiology Unit, University of Oxford; 2023 2023."
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.6",
+        "unstructured": "Felker A , Patel R , Kotnis R , Kenyon S , Knight ME , MBRRACE-UL obo. Saving Lives, Improving Mothers\u2019 Care Complied Report - Mothers and Babies: Reducing the RIsk through Audits and Confidential Enquiries across the UK (MBRRACE-UK). Oxford: National Perinatal Epidemiology Unit, University of Oxford; 2024 10-10-2024."
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.7",
+        "unstructured": "Data brief: Maternal mortality UK 2021-23: Mothers and Babies: Reducing the RIsk through Audits and Confidential Enquiries across the UK (MBRRACE-UK); 2025 [updated 03-02-2025; cited 2025 17-03-2025]. Available from: https://www.npeu.ox.ac.uk/mbrrace-uk/data-brief/maternal-mortality-2021-2023."
+      },
+      {
+        "issue": "5",
+        "key": "2025052005200755000_2025.05.16.25327593v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "470",
+        "DOI": "10.1001/jamapediatrics.2022.0001",
+        "article-title": "Shapiro Ben David S, et al. Association of BNT162b2 COVID-19 Vaccination During Pregnancy With Neonatal and Early Infant Outcomes",
+        "volume": "176",
+        "year": "2022",
+        "journal-title": "JAMA Pediatrics"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2022.4255"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raffetti E , Bolton T , Nolan J , Zuccolo L , Denholm R , Smith G , et al. COVID-19 diagnosis, vaccination during pregnancy, and adverse pregnancy outcomes of 865,654 women in England and Wales: a population-based cohort study. The Lancet Regional Health - Europe. 2024;45:101037.",
+        "DOI": "10.1016/j.lanepe.2024.101037"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prasad S , Kalafat E , Blakeway H , Townsend R , O\u2019Brien P , Morris E , et al. Systematic review and meta-analysis of the effectiveness and perinatal outcomes of COVID-19 vaccination in pregnancy. Nature Communications. 2022;13(1).",
+        "DOI": "10.1038/s41467-022-30052-w"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Magnus MC , S\u00f6derling J , \u00d6rtqvist AK , Andersen A-MN , Stephansson O , H\u00e5berg SE , et al. Covid-19 infection and vaccination during first trimester and risk of congenital anomalies: Nordic registry based study. BMJ. 2024:e079364.",
+        "DOI": "10.1136/bmj-2024-079364"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjgh-2023-014247"
+      },
+      {
+        "issue": "8",
+        "key": "2025052005200755000_2025.05.16.25327593v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "728",
+        "DOI": "10.1001/jama.2021.11035",
+        "article-title": "Association Between BNT162b2 Vaccination and Incidence of SARS-CoV-2 Infection in Pregnant Women",
+        "volume": "326",
+        "year": "2021",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "10",
+        "key": "2025052005200755000_2025.05.16.25327593v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "991",
+        "DOI": "10.1007/s40264-024-01458-w",
+        "article-title": "Safety and Effectiveness of COVID-19 Vaccines During Pregnancy: A Living Systematic Review and Meta-analysis",
+        "volume": "47",
+        "year": "2024",
+        "journal-title": "Drug Safety"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01490-8"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guedalia J , Lipschuetz M , Calderon-Margalit R , Cohen SM , Goldman-Wohl D , Kaminer T , et al. Effectiveness of a third BNT162b2 mRNA COVID-19 vaccination during pregnancy: a national observational study in Israel. Nature Communications. 2022;13(1).",
+        "DOI": "10.1038/s41467-022-34605-x"
+      },
+      {
+        "key": "#cr-split#-2025052005200755000_2025.05.16.25327593v1.18.1",
+        "unstructured": "COVID-19 advice for the public: Getting vaccinated: World Health Organization 2024 [updated 8-10-2024"
+      },
+      {
+        "key": "#cr-split#-2025052005200755000_2025.05.16.25327593v1.18.2",
+        "unstructured": "cited 2025 17-03-2025]. Available from: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines/advice."
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.19",
+        "unstructured": "Spikevax: Summary of product characteristics (annex I): European Medicines Agency; 2021 [updated 20-01-2025; cited 2025 17-03-2025]. Available from: https://www.ema.europa.eu/en/documents/product-information/spikevax-epar-product-information_en.pdf."
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.20",
+        "unstructured": "Comirnaty: Summary of product characteristics (annex I) : European Medicines Agency; 2021 [updated 23-01-2025; cited 2025 17-03-2025]. Available from: https://www.ema.europa.eu/en/documents/product-information/comirnaty-epar-product-information_en.pdf."
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "969",
+        "DOI": "10.2147/CLEP.S419481",
+        "article-title": "Transforming the Information System for Research in Primary Care (SIDIAP) in Catalonia to the OMOP Common Data Model and Its Use for COVID-19 Research",
+        "volume": "15",
+        "year": "2023",
+        "journal-title": "Clinical Epidemiology"
+      },
+      {
+        "issue": "6",
+        "key": "2025052005200755000_2025.05.16.25327593v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e324",
+        "DOI": "10.1093/ije/dyac068",
+        "article-title": "Data Resource Profile: The Information System for Research in Primary Care (SIDIAP)",
+        "volume": "51",
+        "year": "2022",
+        "journal-title": "International Journal of Epidemiology"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyv098"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nordeng H , Lupattelli A , Hilde, Marleen . Detecting and Dating Early Non-live Pregnancy Outcomes: Generation of a Novel Pregnancy Algorithm From Norwegian Linked Health Registries. Pharmacoepidemiology and Drug Safety. 2024;33(9).",
+        "DOI": "10.1002/pds.70002"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0192033"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abellan A , Burn E , Trinh NTH , Burkard T , Callahan A , Fern\u00e1ndez-Bertol\u00edn S , et al. Expanding the OMOP Common Data Model to Support Perinatal Research in Network Studies. Pharmacoepidemiology and Drug Safety. 2025;34(2).",
+        "DOI": "10.1002/pds.70106"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Catal\u00e0 M , Burn E , Rathod-Mistry T , Xie J , Delmestri A , Prieto-Alhambra D , et al. Observational methods for COVID-19 vaccine effectiveness research: an empirical evaluation and target trial emulation. International Journal of Epidemiology. 2024;53(1).",
+        "DOI": "10.1093/ije/dyad138"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2290085"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.29",
+        "unstructured": "!!! INVALID CITATION !!! (15, 16)."
+      },
+      {
+        "issue": "5",
+        "key": "2025052005200755000_2025.05.16.25327593v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1016/S2213-2600(23)00015-2",
+        "article-title": "Long-term effectiveness of COVID-19 vaccines against infections, hospitalisations, and mortality in adults: findings from a rapid living systematic evidence synthesis and meta-analysis up to December, 2022",
+        "volume": "11",
+        "year": "2023",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-4266736(21)02249-2"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMOA2115481"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMOA2114228/SUPPL_FILE/NEJMOA2114228_DISCLOSURES.PDF"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2034577"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2035389"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2022-061126"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/biom.12543"
+      },
+      {
+        "key": "2025052005200755000_2025.05.16.25327593v1.38",
+        "unstructured": "Changing the UK COVID-19 vaccine dosing schedule: UK Parliament; 2021 [updated 24-02-2021; cited 2025 17-03-2025]. Available from: https://post.parliament.uk/changing-the-uk-covid-19-vaccine-dosing-schedule/."
+      },
+      {
+        "issue": "10269",
+        "key": "2025052005200755000_2025.05.16.25327593v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1016/S0140-6736(20)32661-1",
+        "article-title": "Safety and efficacy of the ChAdOx1 nCoV-19 vaccine (AZD1222) against SARS-CoV-2: an interim analysis of four randomised controlled trials in Brazil, South Africa, and the UK",
+        "volume": "397",
+        "year": "2021",
+        "journal-title": ". The Lancet"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.16.25327593",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:36:18Z",
+      "timestamp": 1768509378000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.05.16.25327593"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1101/2025.05.16.25327593",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

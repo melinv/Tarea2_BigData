@@ -1,0 +1,219 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2026-04-10T01:28:02Z",
+      "timestamp": 1775784482080,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 13,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>COVID-19 is an infectious disease caused by SARS-CoV-2 that is primarily diagnosed using laboratory tests, which are frequently not administered until after symptom onset. However, SARS-CoV-2 is contagious multiple days before symptom onset and diagnosis, thus enhancing its transmission through the population.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>In this retrospective study, we collected 15 seconds to one-minute heart rate and steps interval data from Fitbit devices during the COVID-19 period (February 2020 until June 2020). Resting heart rate was computed by selecting the heart rate intervals where steps were zero for 12 minutes ahead of an interrogated time point. Data for each participant was divided into train or baseline by taking the days before the non-infectious period and test data by taking the days during the COVID-19 infectious period. Data augmentation was used to increase the size of the training days. Here, we developed a deep learning approach based on a Long Short-Term Memory Networks-based autoencoder, called LAAD, to predict COVID-19 infection by detecting abnormal resting heart rate in test data relative to the user\u2019s baseline.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>We detected an abnormal resting heart rate during the period of viral infection (7 days before the symptom onset and 21 days after) in 92% (23 out of 25 cases) of patients with laboratory-confirmed COVID-19. In 56% (14) of cases, LAAD detection identified cases in their pre-symptomatic phase whereas 36% (9 cases) were detected after the onset of symptoms with an average precision score of 0\u00b791 (SD 0\u00b713, 95% CI 0\u00b7854\u20130\u00b7967), a recall score of 0\u00b736 (0\u00b7295, 0\u00b7232\u20130\u00b7487), and a F-beta score of 0\u00b779 (0\u00b7226, 0\u00b7693\u20130\u00b7888). In COVID-19 positive patients, abnormal RHR patterns start 5 days before symptom onset (6\u00b79 days in pre-symptomatic cases and 1\u00b79 days later in post-symptomatic cases). COVID-19+ patients have longer abnormal resting heart rate periods (89 hours or 3\u00b77 days) as compared to healthy individuals (25 hours or 1\u00b71 days).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>These findings show that deep learning neural networks and wearables data are an effective method for the early detection of COVID-19 infection. Additional validation data will help guide the use of this and similar techniques in real-world infection surveillance and isolation policies to reduce transmission and end the pandemic.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>This work was supported by NIH grants and gifts from the Flu Lab, as well as departmental funding from the Stanford Genetics department. The Google Cloud Platform costs were covered by Google for Education academic research and COVID-19 grant awards.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before the study</jats:title>\n                    <jats:p>COVID-19 resulted in up to 1\u00b77 million deaths worldwide in 2020. COVID-19 detection using laboratory tests is usually performed after symptom onset. This delay can allow the spread of viral infection and can cause outbreaks. We searched PubMed, Google, and Google Scholar for research articles published in English up to Dec 1, 2020, using common search terms including \u201cCOVID-19 and wearables\u201d, \u201cResting heart rate and viral infection\u201d, \u201cResting heart rate and COVID-19\u201d, \u201cmachine learning and COVID-19\u201d and \u201cdeep-learning and COVID-19\u201d. Previous studies have attempted to use an elevated resting heart rate as an indicator of viral infection. Although these studies have investigated the early prediction of COVID-19 using resting heart rate and other wearables data, studies to investigate a deep learning-based prediction model with performance evaluation metrics at the user level has not been reported.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>In this study, we created a deep-learning system that used wearables data such as abnormal resting heart rate to predict COVID-19 before the symptom onset. The deep-learning system was created using retrospective time-series datasets collected from 25 COVID-19+ patients, 11 non-COVID-19, and 70 healthy individuals. To our knowledge, this is the first deep-learning model to identify an early viral infection using wearables data at the user level. This study also greatly extends our previous phase-1 study and factors unpredictable behavior and time-series nature of the data, limited data size, and lack of data labels to evaluate performance metrics. The use of a real-time version of this model using more data along with user feedback may help to scale early detection as the number of patients with COVID-19 continues to grow.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>In the future, wearable devices may provide high-resolution sleep, temperature, saturated oxygen, respiration rate, and electrocardiogram, which could be used to further characterize an individual\u2019s baseline and improve the deep-learning model performance for infectious disease detection. Using multi-sensor data with a real-time deep-learning model has the potential to alert individuals of illness prior to symptom onset and may greatly reduce the viral spread.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.08.21249474",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2021-01-10T15:40:07Z",
+      "timestamp": 1610293207000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 33,
+    "title": [
+      "Deep learning-based detection of COVID-19 using wearables data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Gireesh K.",
+        "family": "Bogu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Michael P.",
+        "family": "Snyder",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30773-8"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-3012"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2666-5247(20)30172-5"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1208",
+        "DOI": "10.1038/s41551-020-00640-6",
+        "article-title": "Pre-symptomatic detection of COVID-19 from smartwatch data",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "Nature Biomedical Engineering"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quer G , Radin JM , Gadaleta M , et al. Wearable sensor data and self-reported symptoms for COVID-19 detection. Nat Med 2020;: 1\u20135.",
+        "DOI": "10.1038/s41591-020-1123-x"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1038/s41746-020-00363-7",
+        "article-title": "Assessment of physiological signs associated with COVID-19 measured using wearable devices",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "npj Digital Medicine"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shapiro A , Marinsek N , Clay I , et al. Characterizing COVID-19 and Influenza Illnesses in the Real World via Person-Generated Health Data. Patterns. 2020;: 100188.",
+        "DOI": "10.1101/2020.05.28.20115964"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "21640",
+        "DOI": "10.1038/s41598-020-78355-6",
+        "article-title": "Feasibility of continuous fever monitoring using wearable devices",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.2001402"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.11",
+        "unstructured": "Malhotra P , Ramakrishnan A , Anand G , Vig L , Agarwal P , Shroff G. LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection. arXiv [cs.AI]. 2016; published online July 1. http://arxiv.org/abs/1607.00148."
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3136755.3136817"
+      },
+      {
+        "key": "2021011111001010000_2021.01.08.21249474v1.13",
+        "unstructured": "Iwana BK , Uchida S. Time Series Data Augmentation for Neural Networks by Time Warping with a Discriminative Teacher. arXiv [cs.LG]. 2020; published online April 19. http://arxiv.org/abs/2004.08780."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.08.21249474",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:02:49Z",
+      "timestamp": 1768485769000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.08.21249474"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ]
+    },
+    "references-count": 13,
+    "URL": "https://doi.org/10.1101/2021.01.08.21249474",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

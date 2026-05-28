@@ -1,0 +1,389 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:51:09Z",
+      "timestamp": 1768553469677,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 25,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Post-acute sequelae of SARS-CoV-2 infection (PASC), otherwise known as long-COVID, have severely impacted recovery from the pandemic for patients and society alike. This new disease is characterized by evolving, heterogeneous symptoms, making it challenging to derive an unambiguous long-COVID definition. Electronic health record (EHR) studies are a critical element of the NIH Researching COVID to Enhance Recovery (RECOVER) Initiative, which is addressing the urgent need to understand PASC, accurately identify who has PASC, and identify treatments.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Using the National COVID Cohort Collaborative\u2019s (N3C) EHR repository, we developed XGBoost machine learning (ML) models to identify potential long-COVID patients. We examined demographics, healthcare utilization, diagnoses, and medications for 97,995 adult COVID-19 patients. We used these features and 597 long-COVID clinic patients to train three ML models to identify potential long-COVID patients among (1) all COVID-19 patients, (2) patients hospitalized with COVID-19, and (3) patients who had COVID-19 but were not hospitalized.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>Our models identified potential long-COVID patients with high accuracy, achieving areas under the receiver operator characteristic curve of 0.91 (all patients), 0.90 (hospitalized); and 0.85 (non-hospitalized). Important features include rate of healthcare utilization, patient age, dyspnea, and other diagnosis and medication information available within the EHR. Applying the \u201call patients\u201d model to the larger N3C cohort identified 100,263 potential long-COVID patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>Patients flagged by our models can be interpreted as \u201cpatients likely to be referred to or seek care at a long-COVID specialty clinic,\u201d an essential proxy for long-COVID diagnosis in the current absence of a definition. We also achieve the urgent goal of identifying potential long-COVID patients for clinical trials. As more data sources are identified, the models can be retrained and tuned based on study needs.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>This study was funded by NCATS and NIH through the RECOVER Initiative.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.10.18.21265168",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2021-10-22T17:12:13Z",
+      "timestamp": 1634922733000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Who has long-COVID? A big data approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6840-9756",
+        "authenticated-orcid": false,
+        "given": "Emily R.",
+        "family": "Pfaff",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2031-9209",
+        "authenticated-orcid": false,
+        "given": "Andrew T",
+        "family": "Girvin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1483-4236",
+        "authenticated-orcid": false,
+        "given": "Tellen D.",
+        "family": "Bennett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0063-368X",
+        "authenticated-orcid": false,
+        "given": "Abhishek",
+        "family": "Bhatia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2724-936X",
+        "authenticated-orcid": false,
+        "given": "Ian M.",
+        "family": "Brooks",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6307-5227",
+        "authenticated-orcid": false,
+        "given": "Rachel R",
+        "family": "Deer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0028-8804",
+        "authenticated-orcid": false,
+        "given": "Jonathan P",
+        "family": "Dekermanjian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4616-7792",
+        "authenticated-orcid": false,
+        "given": "Sarah Elizabeth",
+        "family": "Jolley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4786-6875",
+        "authenticated-orcid": false,
+        "given": "Michael G.",
+        "family": "Kahn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristin",
+        "family": "Kostka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9353-5498",
+        "authenticated-orcid": false,
+        "given": "Julie A",
+        "family": "McMurry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2723-5902",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Moffitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3327-7423",
+        "authenticated-orcid": false,
+        "given": "Anita",
+        "family": "Walden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5437-2545",
+        "authenticated-orcid": false,
+        "given": "Christopher G",
+        "family": "Chute",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9114-8737",
+        "authenticated-orcid": false,
+        "given": "Melissa A",
+        "family": "Haendel",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2011400"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1007/s10238-020-00648-x",
+        "article-title": "Organ-specific manifestations of COVID-19 infection",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Clin Exp Med"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01283-z"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3026"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.03.03.21252086"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.03.20.21253896"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "e913",
+        "DOI": "10.1097/PR9.0000000000000913",
+        "article-title": "Patient-Led Research Collaborative: embedding patients in the Long COVID narrative",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Pain Rep"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.24.20248802"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.06.23.21259416"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.10",
+        "unstructured": "(hq) WH. A clinical case definition of post COVID-19 condition by a Delphi consensus, 6 October 2021. 2021; published online Oct 6. https://www.who.int/publications/i/item/WHO-2019-nCoV-Post_COVID-19_condition-Clinical_case_definition-2021.1 (accessed Oct 9, 2021)."
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.11",
+        "unstructured": "RECOVER: Researching COVID to enhance recovery. https://recovercovid.org/ (accessed Oct 6, 2021)."
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.12",
+        "unstructured": "Electronic health records-based phenotyping. https://sites.duke.edu/rethinkingclinicaltrials/ehr-phenotyping/ (accessed Oct 8, 2021)."
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocv112"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2012-001145"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2013-001952"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/biom.13400"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocaa196"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2116901",
+        "DOI": "10.1001/jamanetworkopen.2021.16901",
+        "article-title": "Clinical Characterization and Prediction of Clinical Severity of SARS-CoV-2 Infection Among US Adults Using Data From the US National COVID Cohort Collaborative",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.19",
+        "unstructured": "NCATS. NIH COVID-19 Data Warehouse Data Transfer Agreement. 2020; published online Aug 5. https://ncats.nih.gov/files/NCATS_Data_Transfer_Agreement_05-11-2020_Updated%20508.pdf."
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.20",
+        "unstructured": "Lundberg SM , Lee S-I. A unified approach to interpreting model predictions. In: Proceedings of the 31st international conference on neural information processing systems. 2017: 4768\u201377."
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.4743249"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2111417",
+        "DOI": "10.1001/jamanetworkopen.2021.11417",
+        "article-title": "Assessment of the Frequency and Variety of Persistent Symptoms Among Patients With COVID-19: A Systematic Review",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1440-1843.2010.01720.x"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1007/s40121-017-0151-4",
+        "article-title": "The Burden and Long-term Respiratory Morbidity Associated with Respiratory Syncytial Virus Infection in Early Childhood",
+        "volume": "6",
+        "year": "2017",
+        "journal-title": "Infect Dis Ther"
+      },
+      {
+        "key": "2021102506150699000_2021.10.18.21265168v1.25",
+        "unstructured": "CDC. Coronavirus Disease 2019 (COVID-19). 2021; published online Aug 5. https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/underlying-evidence-table.html (accessed Oct 14, 2021)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.10.18.21265168",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:27:52Z",
+      "timestamp": 1768487272000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.10.18.21265168"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "references-count": 25,
+    "URL": "https://doi.org/10.1101/2021.10.18.21265168",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

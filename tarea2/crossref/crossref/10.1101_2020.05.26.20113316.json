@@ -1,0 +1,193 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T06:43:52Z",
+      "timestamp": 1768545832430,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 8,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Reports on the detected positive patients with COVID-19 are as per today the best estimation of a country spread of the pandemic. In order to evaluate the early indicators for true lethality and recovery time, the data where the model is built must be quality checked. Each country sets different procedures and criteria for fatality count due to COVID-19 and the health system is stressed by having insufficient testing, untracked patients and premature discharge. In this paper the dynamics behind such data quality issues are discussed throughout the disease course to support better modeling and decision-making processes in a stressed healthcare system.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    Based on data compiled and relayed by the Johns Hopkins University, tracking COVID-19 over 590.000 patients (march 27\n                    <jats:sup>th</jats:sup>\n                    , 2020), the data is clustered and compared with discrete regression. Regression parameters are restricted by a time interval of 1 day and must be meaningful for the diagnostic (i.e. a fatality cannot occur before the patient displays symptoms). Cumulative infection curves are taken and built. Infection baseline is based on the country official declaration. Infection synthetic curves are built from the Fatality count and the Recovered patient count. The adjusted parameters are \u03c4=time to fatality (days), \u03b4=time to discharge of recovered patients (days) and \u03c6=case fatality rate (CFR in per unit, P.U.). Therefore, the discharge rate (recovery rate) is forced to be (1-\u03c6).\n                  </jats:p>\n                  <jats:p>Using forward or backward formulas have no other influence than the time reference. In both circumstances, time from Onset and Symptoms are neglected and shall be added if such dates are to be plot. There is a gap of two weeks since exposure to Hospital Admission to detection and the earlier the diagnose is done, the better the outcome.</jats:p>\n                  <jats:p>Cumulative figures are used to smoothen the deviation and to provide the best estimator possible at the present time. The delay factor allows to compare figures belonging to the same date of detection.</jats:p>\n                  <jats:p>Fast, daily models which can be used and integrated to a filtering stage on the parameter estimator in a complex approach are left out of scope. Continuous models can also be used and interpolation among the data points is another source of noise to be considered, especially when counting methods are suddenly changing as it is the case with COVID-19.</jats:p>\n                  <jats:p>Countries were grouped as found representative for methodology illustration purposes. Results are discussed and compared across the different groups and potential indicators of this behavior are drawn for further study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>From 593.291 cases in the sample, and its 7 representative groups, the recovery time and the local CFR are negatively correlated, having the highest fatality rates (21%, Spain) the countries with shorter recovery time (11 days, Spain). Also, CFR can be an indicator of Infection inconsistencies (i.e. South Korea, CFR 1%, Time to recovery 25 days).</jats:p>\n                  <jats:p>At the review part, focus is made on the inconsistencies detected in Germany and South Korea datasets as well as the potential misfits on China and Spain.</jats:p>\n                  <jats:p>Overall, the Time to Fatality ranges between 4 and 8 days, and the mean is of 6 days (South Korea, 7 days; Japan, 6days). Only Germany and France are detecting earlier than other countries and admit 10 days before fatality occurs.</jats:p>\n                  <jats:p>To date, shortening hospital discharge times seem to lead to patient reinfections (COVID-19 positive), and studies are working on this line.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>One simple explanation for the local CFR and Recovery time correlation is to define such rate as a measure of the healthcare system overload. Anomalous CFR indexes point to a stressed healthcare system. The higher the overload, the more focus on critical cases and hence the higher local CFR.</jats:p>\n                  <jats:p>The COVID-19 intrinsic CFR is unlikely to change by a factor of 10x from countries with similar lifestyle, GDP per capita and health services (i.e. the Mediterranean Basin, Northern Europe, etc.). Because of this fact, early CFR measured before Healthcare system overwhelming (COVID-19 free flow) are considered to be more accurate than the measured CFR while the outbreak is still ongoing,</jats:p>\n                  <jats:p>Finally, the synthetic Infection indexes may be a helpful indirect measure of the real population infection rate and also used for data quality audit. Any model built upon inconsistent data will be complex to explain and justify.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>No specific funding is raised.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.26.20113316",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2020-05-27T17:45:17Z",
+      "timestamp": 1590601517000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Scrutinising the COVID-19 data on 590.000 cases. A retrospective, population-based descriptive study for data quality surveillance and a review at 4.540.000 cases"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8970-2989",
+        "authenticated-orcid": false,
+        "given": "Oriol Gallem\u00ed",
+        "family": "Rovira",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122908300574000_2020.05.26.20113316v1.1",
+        "unstructured": "Statement on the second meeting of the international health regulations emergency committee [Internet]. [cited 2020 Mar 25]. Available from: https://www.who.int/news-room/detail/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)"
+      },
+      {
+        "key": "2020122908300574000_2020.05.26.20113316v1.2",
+        "unstructured": "WHO DG\u2019s opening remarks at the media briefing on COVID-19 (11 march 2020) [Internet]. [cited 2020 Mar 25]. Available from: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11 -march-2020"
+      },
+      {
+        "key": "2020122908300574000_2020.05.26.20113316v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Young BE , Ong SWX , Kalimuddin S , Low JG , Tan SY , Loh J , et al. Epidemiologic Features and Clinical Course of Patients Infected With SARS-CoV-2 in Singapore. JAMA [Internet]. 2020 Mar 3; Available from: https://doi.org/10.1001/jama.2020.3204",
+        "DOI": "10.1001/jama.2020.3204"
+      },
+      {
+        "issue": "10229",
+        "key": "2020122908300574000_2020.05.26.20113316v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1054",
+        "DOI": "10.1016/S0140-6736(20)30566-3",
+        "article-title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "Lancet [Internet]"
+      },
+      {
+        "key": "2020122908300574000_2020.05.26.20113316v1.5",
+        "unstructured": "Yang X , Yu Y , Xu J , Shu H , Xia J , Liu H , et al. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. Lancet Respir Med [Internet]. 2020 Feb 24 [cited 2020 Apr 18]; Available from: https://www.sciencedirect.com/science/article/pii/S2213260020300795"
+      },
+      {
+        "key": "2020122908300574000_2020.05.26.20113316v1.6",
+        "unstructured": "Verity R , Okell LC , Dorigatti I , Winskill P , Whittaker C , Imai N , et al. Estimates of the severity of COVID-19 disease. medRxiv [Internet]. 2020 Jan 1;2020.03.09.20033357. Available from: http://medrxiv.org/content/early/2020/03/13/2020.03.09.20033357.abstract"
+      },
+      {
+        "issue": "5",
+        "key": "2020122908300574000_2020.05.26.20113316v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "479",
+        "DOI": "10.1093/aje/kwi230",
+        "article-title": "Methods for Estimating the Case Fatality Ratio for a Novel, Emerging Infectious Disease",
+        "volume": "162",
+        "year": "2005",
+        "journal-title": "Am J Epidemiol [Internet]"
+      },
+      {
+        "key": "2020122908300574000_2020.05.26.20113316v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong E , Du H , Gardner L . An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis [Internet]. 2020 Apr 18; Available from: https://doi.org/10.1016/S1473-3099(20)30120-1",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.26.20113316",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:41:51Z",
+      "timestamp": 1768484511000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.26.20113316"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "references-count": 8,
+    "URL": "https://doi.org/10.1101/2020.05.26.20113316",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.26502/acmcr.96550436",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2026-04-03T09:42:51Z",
+      "timestamp": 1775209371076,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The novel Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) has caused a pandemic resulting in over 2.7 million infected individuals and over 190,000 deaths and growing. Respiratory disorders in COVID-19 caused by the virus commonly present as viral pneumonia-like opacities in chest X-ray images which are used as an adjunct to the reverse transcription-polymerase chain reaction test for confirmation and evaluating disease progression. The surge places high demand on medical services including radiology expertise. However, there is a dearth of sufficient training data for developing image-based automated decision support tools to alleviate radiological burden. We address this insufficiency by expanding training data distribution through use of weakly-labeled images pooled from publicly available CXR collections showing pneumonia-related opacities. We use the images in a stage-wise, strategic approach and train convolutional neural network-based algorithms to detect COVID-19 infections in CXRs. It is observed that weakly-labeled data augmentation improves performance with the baseline test data compared to non-augmented training by expanding the learned feature space to encompass variability in the unseen test distribution to enhance inter-class discrimination, reduce intra-class similarity and generalization error. Augmentation with COVID-19 CXRs from individual collections significantly improves performance compared to baseline non-augmented training and weakly-labeled augmentation toward detecting COVID-19 like viral pneumonia in the publicly available COVID-19 CXR collections. This underscores the fact that COVID-19 CXRs have a distinct pattern and hence distribution, unlike non-COVID-19 viral pneumonia and other infectious agents.</jats:p>",
+    "DOI": "10.1101/2020.05.04.20090803",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2020-05-08T11:15:11Z",
+      "timestamp": 1588936511000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 33,
+    "title": [
+      "Training deep learning algorithms with weakly labeled pneumonia chest X-ray data for COVID-19 detection"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0871-8634",
+        "authenticated-orcid": false,
+        "given": "Sivaramakrishnan",
+        "family": "Rajaraman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0040-1387",
+        "authenticated-orcid": false,
+        "given": "Sameer",
+        "family": "Antani",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.1",
+        "unstructured": "World Health Organization (WHO). Coronavirus disease (COVID-2019) situation reports. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports (archived on 2nd March 2020)."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rubin, G.D. et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology, 2020, 201365.",
+        "DOI": "10.1148/radiol.2020201365"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai, Harrison X. et al., Performance of Radiologists in Differentiating COVID-19 from Viral Pneumonia On Chest CT. Radiology, 2020, 200823.",
+        "DOI": "10.1148/radiol.2020200823"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.02.010"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.5",
+        "article-title": "Diagnosing COVID-19 Pneumonia from X-Ray and CT Images using Deep Learning and Transfer Learning Algorithms",
+        "year": "2020",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.6",
+        "article-title": "Iteratively Pruned Deep Learning Ensembles for COVID-19 Detection in Chest X-rays",
+        "year": "2020",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.7",
+        "article-title": "The effectiveness of data augmentation in image classification using deep learning",
+        "year": "2017",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lv, X. ; Zhang, X. Generating Chinese Classical Landscape Paintings Based on Cycle-Consistent Adversarial Networks. Proc. 6th International Conference on Systems and Informatics (ICSAI), 2019, 1265\u20131269.",
+        "DOI": "10.1109/ICSAI48974.2019.9010358"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J. ; Dong, W. ; Socher, R. ; Li, L. ; Li, K. ; Li, F.-F. ImageNet: A large-scale hierarchical image database. Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009, 248\u2013255.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.10",
+        "unstructured": "Cohen, A.-B. ; Klang, E. ; Amitai, M.M. ; Goldberger, J. ; Greenspan, H. Anatomical data augmentation for CNN based pixel-wise classification. Proc. IEEE 15th International Symposium on Biomedical Imaging (ISBI), 2018, 1096\u20131099."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.11",
+        "article-title": "Nips 2016 tutorial: Generative adversarial networks",
+        "year": "2016",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "issue": "1",
+        "key": "2021011111022202000_2020.05.04.20090803v1.12",
+        "first-page": "1",
+        "article-title": "Augmenting the National Institutes of Health Chest Radiograph Dataset with Expert Annotations of Possible Pneumonia",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "Radiol Artif Intell."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X. et al. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. Proc. Int. Conf. Computer Vision (ICCV), 2017, 3462\u20133471.",
+        "DOI": "10.1109/CVPR.2017.369"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Irvin, J. ; Rajpurkar, P. ; Ko, M. ; Yu, Y. ; Ciurea-Ilcus, S. ; Chute, C. ; Marklund, H. ; Haghgoo, B. ; Ball, R. ; Shpanskaya, K. ; Seekins, J. ; Mong, D.A. ; Halabi, S.S. ; Sandberg, J.K. ; Jones, R. ; Larson, D.B. ; Langlotz, C.P. ; Patel, B.N. ; Lungren, M.P. ; Ng, A.Y. CheXpert: a large chest radiograph dataset with uncertainty labels and expert comparison. Proc. Thirty-third AAAI conference on artificial intelligence (AAAI), 2019, 590\u2013597.",
+        "DOI": "10.1609/aaai.v33i01.3301590"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.15",
+        "article-title": "COVID-19 image data collection",
+        "year": "2020",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.16",
+        "article-title": "U-Net: convolutional networks for biomedical image segmentation",
+        "year": "2015",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.17",
+        "article-title": "Multi-Scale Context Aggregation by Dilated Convolutions",
+        "year": "2015",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Candemir, S. ; Antani, S.K. ; Jaeger, S.R. ; Thoma, G.R. Lung boundary detection in pediatric chest X-rays. Proc. SPIE. Medical imaging: PACS and imaging informatics: next generation and innovations, 2015, 94180Q.",
+        "DOI": "10.1117/12.2081060"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.19",
+        "article-title": "Wide Residual Networks",
+        "year": "2017",
+        "journal-title": "arXiv Preprint"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.20",
+        "unstructured": "Zhang H.X. ; Ren, S. ; Sun, J. Deep residual learning for image recognition. Proc. Int. Conf. Computer Vision (ICCV), 2016, 770\u2013778."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.21",
+        "unstructured": "Simonyan, K. ; Zisserman, A. Very deep convolutional networks for large-scale image recognition. Proc. Int. Conf. Learning Representations (ICLR), 2015, 1\u201314."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy, C. ; Vanhoucke, V. ; Ioffe, S. ; Shlens, J. ; Wojna, Z. Rethinking the Inception architecture for computer vision. IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2016, 2818\u20132826.",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chollet, F. Xception: Deep learning with depthwise separable convolutions. IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2017, 1251\u20131258.",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.24",
+        "unstructured": "Liu, H.Z. ; van der Maaten, L. ; Weinberger, K.Q. Densely connected convolutional networks. Proc. Int. Conf. Computer Vision (ICCV), 2017, 4700\u20134708."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.25",
+        "unstructured": "Pham, M.Y. ; Zoph, G.B. ; Le, Q.V. ; Dean, J. Efficient neural architecture search via parameter sharing. Proc. Int. Conf. Machine Learning (ICML), 2018, 4092\u20134101."
+      },
+      {
+        "key": "2021011111022202000_2020.05.04.20090803v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selvaraju, R.R. ; Cogswell, M. ; Das, A. ; Vedantam, R. ; Parikh, D. ; Batra, D. Grad-CAM: Visual explanations from deep networks via gradient-based localization. Proc. Int. Conf. Computer Vision (ICCV), 2017, 618\u2013626.",
+        "DOI": "10.1109/ICCV.2017.74"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.04.20090803",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:39:40Z",
+      "timestamp": 1768484380000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.04.20090803"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2020.05.04.20090803",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/diagnostics10060358",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

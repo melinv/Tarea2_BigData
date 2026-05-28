@@ -1,0 +1,738 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2026-04-18T17:42:34Z",
+      "timestamp": 1776534154148,
+      "version": "3.51.2"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ]
+    },
+    "group-title": "Systems Biology",
+    "reference-count": 69,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2026-04-15T00:00:00Z",
+          "timestamp": 1776211200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "award": [
+          "U19-AI172713"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U19-AI172713"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/043z4tv69",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Cell-cell communication (CCC) mediates coordinated cellular activities that vary dynamically across time, location, and biological context. While various tools exist to infer CCC, they typically aggregate data according to pre-defined cell types, obscuring critical single-cell heterogeneity. Furthermore, because signaling pathways and cell populations operate in a coordinated manner, an integrative analytical approach is essential. To address these challenges, we developed CCC-RISE, an extension of the tensor-based method Reduction and Insight in Single-cell Exploration (RISE). CCC-RISE identifies integrative patterns of single-cell variation by deconvolving communication into interpretable modules defined by unique sender cells, receiver cells, ligands, and condition associations. We applied this framework to a COVID-19 cohort with varying disease severity and a lung transplant cohort with acute allograft dysfunction. In both contexts, CCC-RISE successfully identified disease-relevant communication programs and traced them to specific cellular subpopulations, often crossing conventional cell-type boundaries. This approach offers a robust pipeline enabling the identification of disease-relevant signaling subpopulations that are invisible to aggregate methods.</jats:p>\n                <jats:sec>\n                  <jats:title>Highlights</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>CCC-RISE enables integrative analysis of cell-cell communication across multiple conditions at single-cell resolution</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>CCC-RISE deconvolves signaling patterns into modules defined by their sender cells, receiver cells, LR pairs, and experimental conditions/samples</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Analysis at single-cell resolution uncovers signaling activity within and across conventional cell types</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.64898/2026.04.14.718551",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          16
+        ]
+      ],
+      "date-time": "2026-04-16T03:35:13Z",
+      "timestamp": 1776310513000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Tracing cell communication programs across conditions at single cell resolution with CCC-RISE"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Andrew",
+        "family": "Ramirez",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Bioengineering, University of California, Los Angeles (UCLA), Los Angeles, CA 90095, USA"
+          }
+        ]
+      },
+      {
+        "given": "Nathaniel",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, UCLA, Los Angeles, CA 90095, USA"
+          }
+        ]
+      },
+      {
+        "given": "Daniel R.",
+        "family": "Calabrese",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medicine, University of California, San Francisco (UCSF), San Francisco, CA 94143, USA"
+          },
+          {
+            "name": "Medical Service, San Francisco VA Health Care System, San Francisco, CA 94121, USA"
+          }
+        ]
+      },
+      {
+        "given": "John R.",
+        "family": "Greenland",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medicine, University of California, San Francisco (UCSF), San Francisco, CA 94143, USA"
+          },
+          {
+            "name": "Medical Service, San Francisco VA Health Care System, San Francisco, CA 94121, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4513-1840",
+        "authenticated-orcid": false,
+        "given": "Aaron S.",
+        "family": "Meyer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Bioengineering, University of California, Los Angeles (UCLA), Los Angeles, CA 90095, USA"
+          },
+          {
+            "name": "Jonsson Comprehensive Cancer Center, UCLA, Los Angeles, CA, USA"
+          },
+          {
+            "name": "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, UCLA, Los Angeles, CA 90095, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1016/j.semcancer.2023.07.001",
+        "article-title": "The promising application of cell-cell interaction analysis in cancer from single-cell and spatial transcriptomics",
+        "volume": "95",
+        "year": "2023",
+        "journal-title": "Seminars in Cancer Biology"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "196",
+        "DOI": "10.1038/s41392-024-01888-z",
+        "article-title": "Cell\u2013cell communication: new insights and clinical implications",
+        "volume": "9",
+        "year": "2024",
+        "journal-title": "Sig Transduct Target Ther"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1038/s41576-020-00292-x",
+        "article-title": "Deciphering cell\u2013cell interactions and communication from gene expression",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "Nat Rev Genet"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-30755-0"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21246-9"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2025",
+        "DOI": "10.1093/bioinformatics/btab036",
+        "article-title": "Cellinker: a platform of ligand\u2013receptor interactions for intercellular communication analysis",
+        "volume": "37",
+        "year": "2021",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41596-024-01045-4"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbaf280",
+        "DOI": "10.1093/bib/bbaf280",
+        "article-title": "Advances and challenges in cell\u2013cell communication inference: a comprehensive review of tools, resources, and future directions",
+        "volume": "26",
+        "year": "2025",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41596-020-0292-x"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1038/s41576-023-00685-8",
+        "article-title": "The diversification of methods for studying cell\u2013cell interactions and communication",
+        "volume": "25",
+        "year": "2024",
+        "journal-title": "Nat Rev Genet"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-31369-2"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-017-02391-6"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1918937117"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1186/1471-2105-12-19",
+        "article-title": "Context-dependent transcriptional regulations between signal transduction pathways",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-022-01288-0"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.93161"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.06.13.544751"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.18",
+        "unstructured": "Dai, Q. , Yang, J. & Epstein, M. P. Identifying condition-related cell-cell communication events using supervised tensor analysis."
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1038/s41587-024-02411-z",
+        "article-title": "Coordinated, multicellular patterns of transcriptional variation that stratify patient cohorts are revealed by tensor decomposition",
+        "volume": "43",
+        "year": "2025",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-023-05490-y"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/07070111X"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "679",
+        "DOI": "10.1016/j.cels.2024.07.004",
+        "article-title": "The structure is the message: Preserving experimental context through tensor decomposition",
+        "volume": "15",
+        "year": "2024",
+        "journal-title": "Cell Systems"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41583-019-0125-5"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.06.03.494765"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1186/s13148-022-01253-3",
+        "article-title": "Cell-type heterogeneity: Why we should adjust for it in epigenome and biomarker studies",
+        "volume": "14",
+        "year": "2022",
+        "journal-title": "Clin Epigenet"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-023-01782-z"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1016/j.cels.2024.01.007",
+        "article-title": "Single-cell colocalization analysis using a deep generative model",
+        "volume": "15",
+        "year": "2024",
+        "journal-title": "Cell Systems"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac775"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "106025",
+        "DOI": "10.1016/j.isci.2023.106025",
+        "article-title": "Single-cell pair-wise relationships untangled by composite embedding model",
+        "volume": "26",
+        "year": "2023",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-51329-2"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "101294",
+        "DOI": "10.1016/j.cels.2025.101294",
+        "article-title": "Integrative, high-resolution analysis of single-cell gene expression across experimental conditions with PARAFAC2-RISE",
+        "volume": "16",
+        "year": "2025",
+        "journal-title": "Cell Systems"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/0-306-47815-3_5"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41591-020-0901-9"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciimmunol.adc9584"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "2150",
+        "DOI": "10.1093/infdis/jiac313",
+        "article-title": "High Circulating Levels of the Homeostatic Chemokines CCL19 and CCL21 Predict Mortality and Disease Severity in COVID-19",
+        "volume": "226",
+        "year": "2022",
+        "journal-title": "The Journal of Infectious Diseases"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.08.044"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-36333-2"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rmv.1792"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2176",
+        "DOI": "10.3390/microorganisms13092176",
+        "article-title": "Pattern Recognition Receptors (PRRs) Expression and Activation in COVID-19 and Long COVID: From SARS-CoV-2 Escape Mechanisms to Emerging PRR-Targeted Immunotherapies",
+        "volume": "13",
+        "year": "2025",
+        "journal-title": "Microorganisms"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "4850",
+        "DOI": "10.3390/cancers15194850",
+        "article-title": "Nasopharynx Battlefield: Cellular Immune Responses Mediated by Midkine in Nasopharyngeal Carcinoma and COVID-19",
+        "volume": "15",
+        "year": "2023",
+        "journal-title": "Cancers"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1074",
+        "DOI": "10.1016/j.healun.2024.02.007",
+        "article-title": "Macrophage and CD8 T cell discordance are associated with acute lung allograft dysfunction progression",
+        "volume": "43",
+        "year": "2024",
+        "journal-title": "The Journal of Heart and Lung Transplantation"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "100626",
+        "DOI": "10.1016/j.trre.2021.100626",
+        "article-title": "The potential of biomarkers of fibrosis in chronic lung allograft dysfunction",
+        "volume": "35",
+        "year": "2021",
+        "journal-title": "Transplantation Reviews"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1556",
+        "DOI": "10.1016/j.healun.2022.05.005",
+        "article-title": "Interferon-stimulated and metallothionein-expressing macrophages are associated with acute and chronic allograft dysfunction after lung transplantation",
+        "volume": "41",
+        "year": "2022",
+        "journal-title": "The Journal of Heart and Lung Transplantation"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1482",
+        "DOI": "10.1016/j.healun.2025.03.010",
+        "article-title": "Persistent and progressive acute lung allograft dysfunction is linked to cell compositional and transcriptional changes in small airways",
+        "volume": "44",
+        "year": "2025",
+        "journal-title": "The Journal of Heart and Lung Transplantation"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, W. et al. scRNA-Seq Analysis Revealed CAFs Regulating HCC Cells via PTN Signaling. JHC Volume 11, 2269\u20132281 (2024).",
+        "DOI": "10.2147/JHC.S493675"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1516",
+        "DOI": "10.3390/cancers17091516",
+        "article-title": "Regulation of Pleiotrophin and PTPRZ1 Expression by Hypoxia to Restrict Hypoxia-Induced Cell Migration",
+        "volume": "17",
+        "year": "2025",
+        "journal-title": "Cancers"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "10839",
+        "DOI": "10.3390/ijms251910839",
+        "article-title": "Pleiotrophin Activates cMet- and mTORC1-Dependent Protein Synthesis through PTPRZ1\u2014The Role of \u03b1\u03bd\u03b23 Integrin",
+        "volume": "25",
+        "year": "2024",
+        "journal-title": "IJMS"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "3838",
+        "DOI": "10.1091/mbc.e10-04-0338",
+        "article-title": "The SARS Coronavirus E Protein Interacts with PALS1 and Alters Tight Junction Formation and Epithelial Morphogenesis",
+        "volume": "21",
+        "year": "2010",
+        "journal-title": "MBoC"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2218623120"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "106046",
+        "DOI": "10.1016/j.ebiom.2025.106046",
+        "article-title": "Development and validation of a bronchoalveolar lavage genomic classifier for acute cellular rejection",
+        "volume": "122",
+        "year": "2025",
+        "journal-title": "eBioMedicine"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1602",
+        "DOI": "10.3390/ijms22041602",
+        "article-title": "CD200:CD200R Interactions and Their Importance in Immunoregulation",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "IJMS"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2022.1092126"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "e17006",
+        "DOI": "10.1097/MD.0000000000017006",
+        "article-title": "Pre-transplant CD200 and CD200R1 concentrations are associated with post-transplant events in kidney transplant recipients",
+        "volume": "98",
+        "year": "2019",
+        "journal-title": "Medicine"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "4900",
+        "DOI": "10.1182/bloodadvances.2024012909",
+        "article-title": "CD70 identifies alloreactive T cells and represents a potential target for prevention and treatment of acute GVHD",
+        "volume": "8",
+        "year": "2024",
+        "journal-title": "Blood Advances"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "2609",
+        "DOI": "10.4049/jimmunol.179.4.2609",
+        "article-title": "Unchecked CD70 Expression on T Cells Lowers Threshold for T Cell Activation in Rheumatoid Arthritis",
+        "volume": "179",
+        "year": "2007",
+        "journal-title": "The Journal of Immunology"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "715909",
+        "DOI": "10.3389/fimmu.2021.715909",
+        "article-title": "Targeting the CD27-CD70 Pathway to Improve Outcomes in Both Checkpoint Immunotherapy and Allogeneic Hematopoietic Cell Transplantation",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Front. Immunol"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "647",
+        "DOI": "10.1111/j.1600-6143.2005.01215.x",
+        "article-title": "The Challenge of Inhibiting Alloreactive T-Cell Memory",
+        "volume": "6",
+        "year": "2006",
+        "journal-title": "American Journal of Transplantation"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "6031",
+        "DOI": "10.1038/s41467-025-60702-8",
+        "article-title": "scICE: enhancing clustering reliability and efficiency of scRNA-seq data with multi-cluster label consistency evaluation",
+        "volume": "16",
+        "year": "2025",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa607"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-019-3167-9"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.3390/biom13020221",
+        "article-title": "Statistical Power Analysis for Designing Bulk, Single-Cell, and Spatial Transcriptomics Experiments: Review, Tutorial, and Perspectives",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Biomolecules"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-40939-2"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-025-02620-7"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "100973",
+        "DOI": "10.1016/j.xgen.2025.100973",
+        "article-title": "Single-cell proteomics using mass spectrometry",
+        "volume": "5",
+        "year": "2025",
+        "journal-title": "Cell Genomics"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-128X(199905/08)13:3/4<275::AID-CEM543>3.0.CO;2-B"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemolab.2021.104312"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.67",
+        "unstructured": "Wang, Y. , Huang, H. , Rudin, C. & Shaposhnik, Y. Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMap, and PaCMAP for Data Visualization."
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/21M1450033"
+      },
+      {
+        "key": "2026041810101283000_2026.04.14.718551v1.69",
+        "unstructured": "Defazio, A. , Bach, F. & Lacoste-Julien, S. SAGA: A Fast Incremental Gradient Method With Support for Non-Strongly Convex Composite Objectives."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.14.718551",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2026-04-18T17:10:24Z",
+      "timestamp": 1776532224000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.14.718551"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ]
+    },
+    "references-count": 69,
+    "URL": "https://doi.org/10.64898/2026.04.14.718551",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:12:44Z",
+      "timestamp": 1768551164959,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Early and effective detection of severe infection cases during a pandemic can significantly help patient prognosis and resource allocation. We develop a machine learning framework for detecting severe COVID-19 cases at the time of RT-PCR testing. We retrospectively studied 988 patients from a small Canadian province that tested positive for SARS-CoV-2 where 42 (4%) cases were\n                  <jats:italic>at-risk</jats:italic>\n                  (i.e., resulted in hospitalization, admission to ICU, or death), and 8 (&lt; 1%) cases resulted in death. The limited information available at the time of RT-PCR testing included age, comorbidities, and patients\u2019 reported symptoms, totaling 27 features. Vaccination status was unavailable. Due to the severe class imbalance and small dataset size, we formulated the problem of detecting severe COVID as anomaly detection and applied three models: one-class support vector machine (OCSVM), weight-adjusted XGBoost, and weight-adjusted Ad-aBoost. The OCSVM was the best performing model for detecting the deceased cases with an average 95% true positive rate (TPR) and 27.2% false positive rate (FPR). Meanwhile, the XGBoost provided the best performance for detecting the at-risk cases with an average 96.2% TPR and 19% FPR. In addition, we developed a novel extension to SHAP interpretability to explain the outputs from the models. In agreement with conventional knowledge, we found that comorbidities were influential in predicting severity, however, we also found that symptoms were generally more influential, noting that machine learning combines all available data and is not a single-variate statistical analysis.\n                </jats:p>",
+    "DOI": "10.1101/2021.10.15.21264970",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2021-10-18T14:27:35Z",
+      "timestamp": 1634567255000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Prediction of severe COVID-19 infection at the time of testing: A machine learning approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Faraz",
+        "family": "Khoshbakhtian",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ardian",
+        "family": "Lagman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dionne M.",
+        "family": "Aleman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Randy",
+        "family": "Giffen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Proton",
+        "family": "Rahman",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "8",
+        "key": "2021102010450650000_2021.10.15.21264970v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1435",
+        "DOI": "10.1007/s11739-020-02475-0",
+        "article-title": "Utilization of machine-learning models to accurately predict the risk for critical COVID-19",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "Internal and Emergency Medicine"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1989.1.3.295"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-020-01596-5"
+      },
+      {
+        "issue": "3",
+        "key": "2021102010450650000_2021.10.15.21264970v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/1541880.1541882",
+        "article-title": "Anomaly detection: A survey",
+        "volume": "41",
+        "year": "2009",
+        "journal-title": "ACM Computing Surveys (CSUR)"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "issue": "4",
+        "key": "2021102010450650000_2021.10.15.21264970v1.6",
+        "first-page": "1",
+        "article-title": "Xgboost: extreme gradient boosting",
+        "volume": "1",
+        "year": "2015",
+        "journal-title": "R package version 0.4-2"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P\u00e1draig Cunningham , Matthieu Cord , and Sarah Jane Delany . Supervised learning. InMachine Learning Techniques for Multimedia, pages 21\u201349. Springer, 2008.",
+        "DOI": "10.1007/978-3-540-75171-7_2"
+      },
+      {
+        "issue": "5",
+        "key": "2021102010450650000_2021.10.15.21264970v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "969",
+        "DOI": "10.1007/s00521-015-2113-7",
+        "article-title": "An overview on semi-supervised support vector machine",
+        "volume": "28",
+        "year": "2017",
+        "journal-title": "Neural Computing and Applications"
+      },
+      {
+        "issue": "4",
+        "key": "2021102010450650000_2021.10.15.21264970v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e26211",
+        "DOI": "10.2196/26211",
+        "article-title": "Machine learning applied to clinical laboratory data in spain for COVID-19 outcome prediction: Model development and validation",
+        "volume": "23",
+        "year": "2021",
+        "journal-title": "Journal of Medical Internet Research"
+      },
+      {
+        "issue": "1",
+        "key": "2021102010450650000_2021.10.15.21264970v1.10",
+        "first-page": "1",
+        "article-title": "A multipurpose machine learning approach to predict COVID-19 negative prognosis in s\u00e3o paulo, brazil",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "771-780",
+        "key": "2021102010450650000_2021.10.15.21264970v1.11",
+        "first-page": "1612",
+        "article-title": "A short introduction to boosting",
+        "volume": "14",
+        "year": "1999",
+        "journal-title": "Journal-Japanese Society For Artificial Intelligence"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-18952-1"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cyril Goutte and Eric Gaussier . A probabilistic interpretation of precision, recall and fscore, with implication for evaluation. In European Conference on Information Retrieval, pages 345\u2013359. Springer, 2005.",
+        "DOI": "10.1007/978-3-540-31865-1_25"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.10.013"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "679",
+        "DOI": "10.1016/j.procs.2018.05.069",
+        "article-title": "Conceptual understanding of convolutional neural network-a deep learning approach",
+        "volume": "132",
+        "year": "2018",
+        "journal-title": "Procedia Computer Science"
+      },
+      {
+        "issue": "4",
+        "key": "2021102010450650000_2021.10.15.21264970v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1007/s41649-020-00139-x",
+        "article-title": "COVID-19 and its challenges for the healthcare system in pakistan",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "Asian Bioethics Review"
+      },
+      {
+        "issue": "1",
+        "key": "2021102010450650000_2021.10.15.21264970v1.17",
+        "first-page": "1",
+        "article-title": "COVID-classifier: An automated machine learning model to assist in the diagnosis of COVID-19 infection in chest x-ray images",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "11",
+        "key": "2021102010450650000_2021.10.15.21264970v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e24225",
+        "DOI": "10.2196/24225",
+        "article-title": "An easy-to-use machine learning model to predict the prognosis of patients with COVID-19: Retrospective cohort study",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Journal of Medical Internet Research"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00003246-198608000-00028"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.20",
+        "unstructured": "Lin Li , Lixin Qin , Zeguo Xu , Youbing Yin , Xin Wang , Bin Kong , Junjie Bai , Yi Lu , Zhenghan Fang , Qi Song , et al. Artificial intelligence distinguishes COVID-19 from community acquired pneumonia on chest ct. Radiology, 2020."
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.21",
+        "article-title": "A unified approach to interpreting model predictions",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "8",
+        "key": "2021102010450650000_2021.10.15.21264970v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1212",
+        "DOI": "10.1038/s41591-020-0952-y",
+        "article-title": "Disease and healthcare burden of COVID-19 in the united states",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.23",
+        "unstructured": "Karim El Mokhtari , Ben Peachey Higdon , and Ay\u015fe Ba\u015far . Interpreting financial time series with shap values. In Proceedings of the 29th Annual International Conference on Computer Science and Software Engineering, pages 166\u2013172, 2019."
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1524/auto.2011.0951"
+      },
+      {
+        "issue": "1",
+        "key": "2021102010450650000_2021.10.15.21264970v1.25",
+        "first-page": "103",
+        "article-title": "A machine learning-based framework for diagnosis of COVID-19 from chest x-ray images",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Interdisciplinary Sciences: Computational Life Sciences"
+      },
+      {
+        "issue": "3",
+        "key": "2021102010450650000_2021.10.15.21264970v1.26",
+        "first-page": "e190043",
+        "article-title": "On the interpretability of artificial intelligence in radiology: challenges and opportunities",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Artificial Intelligence"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robert E Schapire and Yoav Freund . Boosting: Foundations and algorithms. Kybernetes, 2013.",
+        "DOI": "10.7551/mitpress/8291.001.0001"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.28",
+        "first-page": "582",
+        "volume-title": "In NIPS",
+        "volume": "12",
+        "year": "1999"
+      },
+      {
+        "issue": "1",
+        "key": "2021102010450650000_2021.10.15.21264970v1.29",
+        "first-page": "1",
+        "article-title": "Comparing machine learning algorithms for predicting ICU admission and mortality in COVID-19",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "NPJ Digital Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2021102010450650000_2021.10.15.21264970v1.30",
+        "first-page": "1",
+        "article-title": "COVID-net: A tailored deep convolutional neural network design for detection of COVID-19 cases from chest x-ray images",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "4",
+        "key": "2021102010450650000_2021.10.15.21264970v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "611",
+        "DOI": "10.1007/s13244-018-0639-9",
+        "article-title": "Convolutional neural networks: an overview and application in radiology",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Insights Into Imaging"
+      },
+      {
+        "issue": "5",
+        "key": "2021102010450650000_2021.10.15.21264970v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1038/s42256-020-0180-7",
+        "article-title": "An interpretable mortality prediction model for COVID-19 patients",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021102010450650000_2021.10.15.21264970v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jianpeng Zhang , Yutong Xie , Guansong Pang , Zhibin Liao , Johan Verjans , Wenxing Li , Zongji Sun , Jian He , Yi Li , Chunhua Shen , et al. Viral pneumonia screening on chest x-rays using confidence-aware anomaly detection. IEEE Transactions on Medical Imaging, 2020.",
+        "DOI": "10.1109/TMI.2020.3040950"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.10.15.21264970",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:27:40Z",
+      "timestamp": 1768487260000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.10.15.21264970"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.1101/2021.10.15.21264970",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

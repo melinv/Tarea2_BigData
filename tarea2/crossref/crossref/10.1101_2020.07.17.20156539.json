@@ -1,0 +1,831 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:38:33Z",
+      "timestamp": 1768549113710,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          19
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 103,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Most Bluetooth-based exposure notification apps use three binary classifications to recommend quarantine following SARS-CoV-2 exposure: a window of infectiousness in the transmitter, \u226515 minutes duration, and Bluetooth attenuation below a threshold. However, Bluetooth attenuation is not a reliable measure of distance, and infection risk is not a binary function of distance, nor duration, nor timing. We model uncertainty in the shape and orientation of an exhaled virus-containing plume and in inhalation parameters, and measure uncertainty in distance as a function of Bluetooth attenuation. We calculate expected dose by combining this with estimated infectiousness based on timing relative to symptom onset. We calibrate an exponential dose-response curve based on infection probabilities of household contacts. The probability of current or future infectiousness, conditioned on how long post-exposure an exposed individual has been symptom-free, decreases during quarantine, with shape determined by incubation periods, proportion of asymptomatic cases, and asymptomatic shedding durations. It can be adjusted for negative test results using Bayes Theorem. We capture a 10-fold range of risk using 6 infectiousness values, 11-fold range using 3 Bluetooth attenuation bins, \u223c6-fold range from exposure duration given the 30 minute duration cap imposed by the Google/Apple v1.1, and \u223c11-fold between the beginning and end of 14 day quarantine. Public health authorities can either set a threshold on initial infection risk to determine 14-day quarantine onset, or on the conditional probability of current and future infectiousness conditions to determine both quarantine and duration.</jats:p>",
+    "DOI": "10.1101/2020.07.17.20156539",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          19
+        ]
+      ],
+      "date-time": "2020-07-19T11:52:41Z",
+      "timestamp": 1595159561000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Quantifying SARS-CoV-2 infection risk within the Google/Apple exposure notification framework to inform quarantine recommendations"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3259-8169",
+        "authenticated-orcid": false,
+        "given": "Amanda M.",
+        "family": "Wilson",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9998-4406",
+        "authenticated-orcid": false,
+        "given": "Nathan",
+        "family": "Aviles",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7959-7687",
+        "authenticated-orcid": false,
+        "given": "James I.",
+        "family": "Petrie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5287-2183",
+        "authenticated-orcid": false,
+        "given": "Paloma I.",
+        "family": "Beamer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3653-1378",
+        "authenticated-orcid": false,
+        "given": "Zsombor",
+        "family": "Szabo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9512-3684",
+        "authenticated-orcid": false,
+        "given": "Michelle",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Janet",
+        "family": "McIllece",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5316-4103",
+        "authenticated-orcid": false,
+        "given": "Yijie",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4004-2155",
+        "authenticated-orcid": false,
+        "given": "Young-Jun",
+        "family": "Son",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sameer",
+        "family": "Halai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tina",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3346-7788",
+        "authenticated-orcid": false,
+        "given": "Kacey C.",
+        "family": "Ernst",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7398-2127",
+        "authenticated-orcid": false,
+        "given": "Joanna",
+        "family": "Masel",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aleta, A. , Martin-Corral, D. , Pastore Y Piontti, A. , Ajelli, M. , Litvinova, M. , Chinazzi, M. , \u2026 Moreno, Y. (2020). Modeling the impact of social distancing, testing, contact tracing and household quarantine on second-wave scenarios of the COVID-19 epidemic. MedRxiv. https://doi.org/10.1101/2020.05.06.20092841",
+        "DOI": "10.1101/2020.05.06.20092841"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10729-007-9027-6"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2008457"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4414/smw.2020.20336"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s1473-3099(20)30287-5"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0140-6736(20)30460-8"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.egypro.2016.11.008"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buitrago-Garcia, D. C. , Egli-Gany, D. , Counotte, M. J. , Hossmann, S. , Imeri, H. , Salanti, G. , & Low, N. (2020). Asymptomatic SARS-CoV-2 infections: a living systematic review and meta-analysis, version 3. MedRxiv. https://doi.org/10.1101/2020.04.25.20079103",
+        "DOI": "10.1101/2020.04.25.20079103"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bullard, J. , Dust, K. , Funk, D. , Strong, J. E. , Alexander, D. , Garnett, L. , \u2026 Poliquin, G. (2020). Predicting infectious SARS-CoV-2 from diagnostic samples. Clinical Infectious Diseases. https://doi.org/10.1093/cid/ciaa638",
+        "DOI": "10.1093/cid/ciaa638"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.11",
+        "unstructured": "Centers for Disease Control and Prevention. (2020). Coronavirus Disease 2019 Community-Related Exposures. Retrieved January 7, 2020, from https://www.cdc.gov/coronavirus/2019-ncov/php/public-health-recommendations.html"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa711"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "106859",
+        "DOI": "10.1016/j.buildenv.2020.106859",
+        "article-title": "Short-range airborne route dominates exposure of respiratory infection during close contact",
+        "volume": "176",
+        "year": "2020",
+        "journal-title": "Building and Environment"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X. , Zhang, Y. , Zhu, B. , Zeng, J. , Hong, W. , He, X. , \u2026 Wang, J. (2020). Associations of Clinical Characteristics and Antiviral Drugs with Viral RNA Clearance in Patients with COVID-19 in Guangzhou, China. MedRxiv. https://doi.org/10.1101/2020.04.09.20058941",
+        "DOI": "10.1101/2020.04.09.20058941"
+      },
+      {
+        "issue": "9",
+        "key": "2021041807200485000_2020.07.17.20156539v3.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1156",
+        "DOI": "10.1001/jamainternmed.2020.2020",
+        "article-title": "Contact tracing assessment of COVID-19 transmission dynamics in Taiwan and risk at different exposure periods before and after symptom onset",
+        "volume": "180",
+        "year": "2020",
+        "journal-title": "JAMA Internal Medicine"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0140-6736(20)31142-9"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Curmei, M. , Ilyas, A. , Evans, O. , & Steinhardt, J. (2020). Estimating household transmission of SARS-CoV-2. MedRxiv. https://doi.org/10.1101/2020.05.23.20111559",
+        "DOI": "10.1101/2020.05.23.20111559"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0962-9"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.19",
+        "unstructured": "European Centre for Disease Prevention and Control. (2020). Contact tracing: public health management of persons, including healthcare workers, who have had contact with COVID-19 cases in the European Union \u2013 third update. Retrieved January 7, 2020, from https://www.ecdc.europa.eu/en/covid-19-contact-tracing-public-health-management"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.20",
+        "unstructured": "Farrell, S. , & Leith, D. J. (2020). Pairwise Handset Types and Orientations Are Sufficient to Blur Exposure Notification Thresholds. Retrieved August 6, 2020, from Trinity College Dublin, Ireland website: https://down.dsg.cs.tcd.ie/tact/posorient.pdf"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "105585",
+        "DOI": "10.1016/j.jaerosci.2020.105585",
+        "article-title": "Influence of wind and relative humidity on the social distancing effectiveness to prevent COVID-19 airborne transmission : A numerical study",
+        "volume": "147",
+        "year": "2020",
+        "journal-title": "Journal of Aerosol Science"
+      },
+      {
+        "issue": "9",
+        "key": "2021041807200485000_2020.07.17.20156539v3.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "914",
+        "DOI": "10.1016/S2213-2600(20)30323-4",
+        "article-title": "Particle sizes of infectious aerosols: implications for infection control",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferretti, L. , Ledda, A. , Wymant, C. , Zhao, L. , Ledda, V. , Abeler-, L. , \u2026 Fraser, C. (2020). The timing of COVID-19 transmission. MedRxiv. https://doi.org/10.1101/2020.09.04.20188516",
+        "DOI": "10.1101/2020.09.04.20188516"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferretti, L. , Wymant, C. , Kendall, M. , Zhao, L. , Nurtay, A. , Abeler-D\u00f6rner, L. , \u2026 Fraser, C. (2020). Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing. Science, 368(6491), eabb6936. https://doi.org/10.1126/science.abb6936",
+        "DOI": "10.1126/science.abb6936"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fetzer, T. , & Graeber, T. (2020). Does contact tracing work? Quasi-experimental evidence from an Excel error in England. MedRxiv. https://doi.org/10.1101/2020.12.10.20247080",
+        "DOI": "10.1101/2020.12.10.20247080"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.26",
+        "unstructured": "Fraser, C. , Abeler-D\u00f6rner, L. , Ferretti, L. , Parker, M. , Kendall, M. , & Bonsall, D. (2020). Digital contact tracing: comparing the capabilities of centralised and decentralised data architectures to effectively suppress the COVID-19 epidemic whilst maximising freedom of movement and maintaining privacy. Introduction 2. Retrieved September 5, 2020, from https://github.com/BDI-pathogens/covid19-instant_tracing/blob/master/Centralised%20and%20decentralised%20systems%20for%20contact%20tracing.pdf."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.27",
+        "unstructured": "Gu, Y. (2020). covid19-projections.com. Retrieved September 5, 2020, from https://youyanggu.com/about"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, S. , Yu, J. , Shi, X. , Wang, H. , Xie, F. , Gao, X. , & Jiang, M. (2019). Droplet-transmitted infection risk ranking based on close proximity interaction. Frontiers in Neurorobotics, 13(113). https://doi.org/10.3389/fnbot.2019.00113",
+        "DOI": "10.3389/fnbot.2019.00113"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.29",
+        "unstructured": "Haas, C. N. , Rose, J. B. , & Gerba, C. P. (1999). Quantitative Microbial Risk Assessment. John Wiley and Sons."
+      },
+      {
+        "issue": "19",
+        "key": "2021041807200485000_2020.07.17.20156539v3.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "606",
+        "DOI": "10.15585/mmwr.mm6919e6",
+        "article-title": "High SARS-CoV-2 attack rate following exposure at a choir practice - Skagit County, Washington, March 2020",
+        "volume": "69",
+        "year": "2020",
+        "journal-title": "Morbidity and Mortality Weekly Report High"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hellewell, J. , Russell, T. W. , The SAFER Investigators and Field Study Team, The Crick COVID-19 Consortium, CMMID COVID-19 working group, Beale, R. , \u2026 Kucharski, A. J. (2020). Estimating the effectiveness of routine asymptomatic PCR testing at different frequencies for the detection of SARS-CoV-2 infections. MedRxiv. https://doi.org/10.1101/2020.11.24.20229948",
+        "DOI": "10.1101/2020.11.24.20229948"
+      },
+      {
+        "issue": "5",
+        "key": "2021041807200485000_2020.07.17.20156539v3.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "706",
+        "DOI": "10.1007/s11427-020-1661-4",
+        "article-title": "Clinical characteristics of 24 asymptomatic infections with COVID-19 screened among close contacts in Nanjing, China",
+        "volume": "63",
+        "year": "2020",
+        "journal-title": "Science China Life Sciences"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.33",
+        "unstructured": "Jain, S. , Islam, T. , Chowdhury, B. , Chen, Y. , & Son, Y. (2021). Agent-based simulation to evaluate various entrance and exit policies and contact-caused risks in classrooms under a pandemic situation. In preparation."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid2608.200633"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3223"
+      },
+      {
+        "issue": "12",
+        "key": "2021041807200485000_2020.07.17.20156539v3.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "E658",
+        "DOI": "10.1016/S2589-7500(20)30241-7",
+        "article-title": "Epidemiological changes on the Isle of Wight after the launch of the NHS Test and Trace programme: a preliminary analysis",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.37",
+        "unstructured": "Klingbeil, T. (2020a). corona-warn-app / cwa-documentation / images / risk_calculation / client_interpretation.pdf. Retrieved January 6, 2021, from GitHub website: https://github.com/corona-warn-app/cwa-documentation/blob/master/images/risk_calculation/client_interpretation.pdf"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.38",
+        "unstructured": "Klingbeil, T. (2020b). corona-warn-app / cwa-documentation / images / risk_calculation / server_encoding.pdf. Retrieved January 6, 2021, from GitHub website: https://github.com/corona-warn-app/cwa-documentation/blob/master/images/risk_calculation/server_encoding.pdf"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2468-2667(20)30157-2"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kucharski, A. J. , Klepac, P. , Conlan, A. , Kissler, S. M. , Tang, M. , Fry, H. , \u2026 Edmunds, J. (2020). Effectiveness of isolation, testing, contact tracing and physical distancing on reducing transmission of SARS-CoV-2 in different settings: a mathematical modelling study. The Lancet. Infectious Diseases, (10), 1151\u20131160. https://doi.org/10.1101/2020.04.23.20077024",
+        "DOI": "10.1101/2020.04.23.20077024"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kucirka, L. M. , Lauer, S. A. , Laeyendecker, O. , Boon, D. , & Lessler, J. (2020). Variation in false-negative rate of reverse transcriptase polymerase chain reaction\u2013Based SARS-CoV-2 tests by time since exposure. Annals of Internal Medicine. https://doi.org/10.7326/m20-1495",
+        "DOI": "10.7326/M20-1495"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.43",
+        "unstructured": "Leckie, J. O. , Naylor, K. A. , Canales, R. A. , Ferguson, A. C. , Cabrera, N. L. , Hurtado, A. L. , \u2026 Vieira, V. M. (2000). Quantifying Children\u2019s Microlevel Activity Data from Existing Videotapes\u201d by Exposure Research Group at Stanford University for the U.S. Environmental Protection Agency. Report No: U2F112OT-RT-99-001182. Retrieved from https://cfpub.epa.gov/ols/catalog/advanced_full_record.cfm?&FIELD1=AUTHOR&INPUT1=FERGUSONANDC.ANDR.&TYPE1=ALL&LOGIC1=AND&COLL=&SORT_TYPE=MTIC&item_count=5"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.09.025"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591020-0965-6"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lythgoe, K. A. , Hall, M. , Ferretti, L. , de Casare, M. , MacIntyre-Cockett, G. , Trebes, A. , \u2026 Golubchik, T. (2020). Within-host genomics of SARS-CoV-2. BioRxiv. https://doi.org/10.1101/2020.05.28.118992",
+        "DOI": "10.1101/2020.05.28.118992"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, J. , Qi, X. , Chen, H. , Li, X. , Zhan, Z. , Wang, H. , \u2026 Yao, M. (2020). Exhaled breath is asignificant source of SARS-CoV-2 emission. MedRxiv, https://doi.org/10.1101/2020.05.31.20115154",
+        "DOI": "10.1101/2020.05.31.20115154"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McVernon, J. , Mason, K. , Petrony, S. , Nathan, P. , LaMontagne, A. D. , Bentley, R. , \u2026 Kavanagh, A. (2011). Recommendations for and compliance with social restrictions during implementation of school closures in the early phase of the influenza A (H1N1) 2009 outbreak in Melbourne, Australia. BMC Infectious Diseases, 11. https://doi.org/10.1186/1471-2334-11-257",
+        "DOI": "10.1186/1471-2334-11-257"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "e30212",
+        "DOI": "10.7554/eLife.30212",
+        "article-title": "Evolutionary dynamics of incubation periods",
+        "volume": "6",
+        "year": "2017",
+        "journal-title": "ELife"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pan, J. , Harb, C. , Leng, W. , & Marr, L. C. (2020). Inward and outward effectiveness of cloth masks, a surgical mask, and a face shield. MedRxiv. https://doi.org/10.1101/2020.11.18.20233353",
+        "DOI": "10.1101/2020.11.18.20233353"
+      },
+      {
+        "issue": "10",
+        "key": "2021041807200485000_2020.07.17.20156539v3.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "2465",
+        "DOI": "10.3201/eid2610.201315",
+        "article-title": "Contact tracing during coronavirus disease outbreak, South Korea, 2020",
+        "volume": "26",
+        "author": "COVID-19 National Emergency Response Center, Epidemiology and Case Management Team",
+        "year": "2020",
+        "journal-title": "Emerging Infectious Disease Journal"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Petrie J , Masel J . The economic value of quarantine is higher at lower case prevalence, with quarantine justified at lower risk of infection. medRxiv 2020",
+        "DOI": "10.1101/2020.11.24.20238204"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.53",
+        "unstructured": "Petrie, J. , & Masel, J. (2021). Quarantine Optimization. In preparation."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.54",
+        "unstructured": "Petrie, J. , Nurtay, A. , Ferretti, L. , Fraser, C. , & Masel, J. (2021). Optimal Testing Timing During Quarantine Depends on How Compliance Changes with Test Results. In preparation."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc6197"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.56",
+        "unstructured": "Qureshi, Z. , Jones, N. , Temple, R. , Larwood, J. P. , Greenhalgh, T. , & Bourouiba, L. (2020). What is the evidence to support the 2-metre social distancing rule to reduce COVID-19 transmission? Retrieved July 15, 2020, from CEBM website: https://www.cebm.net/covid-19/what-is-the-evidence-to-support-the-2-metre-social-distancing-rule-to-reduce-covid-19-transmission/"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268806007771"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salath\u00e9, M. , Althaus, C. L. , Anderegg, N. , Antonioli, D. , Ballouz, T. , Bugnion, E. , \u2026 von Wyl, V. (2020). Early evidence of effectiveness of digital contact tracing for SARS-CoV-2 in Switzerland. Swiss Medical Weekly. https://doi.org/10.4414/smw.2020.20457",
+        "DOI": "10.4414/smw.2020.20457"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1009094108"
+      },
+      {
+        "issue": "8",
+        "key": "2021041807200485000_2020.07.17.20156539v3.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2932",
+        "DOI": "10.3390/ijerph17082932",
+        "article-title": "Airborne transmission route of covid-19: Why 2 meters/6 feet of inter-personal distance could not be enough",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "International Journal of Environmental Research and Public Health"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.61",
+        "unstructured": "Singer, P. , & Masel, J . (2020, September 3). How (Not) to Fight COVID 19. Project Syndicate. Retrieved from https://www.project-syndicate.org/commentary/tech-solutions-to-targeting-covid19-quarantine-by-peter-singer-and-joanna-masel-2020-08"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268808000629"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.63",
+        "unstructured": "U.S. Environmental Protection Agency. (2011). Exposure Factors Handbook 2011 Edition (EPA/600/R-09/052F). Retrieved from https://cfpub.epa.gov/ncea/risk/recordisplay.cfm?deid=236252"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.64",
+        "unstructured": "Von Arx, S. , Becker-Mayer, I. , Blank, D. , Colligan, J. , Fenwick, R. , Hittle, M. , \u2026 Xue, H. (2020). Slowing the Spread of Infectious Diseases Using Crowdsourced Data. Retrieved August 19, 2020, from Covid Watch website: https://blog.covidwatch.org/en/covid-watch-whitepaper-using-crowdsourced-data-to-slow-virus-spread"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.65",
+        "unstructured": "Wanger, J. (2020). Configuring Exposure Notification Risk Scores. Retrieved January 10, 2021, from GitHub website: https://github.com/lfph/gaen-risk-scoring/blob/main/risk-scoring.md"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.puhe.2020.03.007"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei, Y. , Wei, L. , Liu, Y. , Huang, L. , Shen, S. , Zhang, R. , \u2026 Chen, F. (2020). A systematic review and meta-analysis reveals long and dispersive incubation period of COVID-19. MedRxiv. https://doi.org/10.1101/2020.06.20.20134387",
+        "DOI": "10.1101/2020.06.20.20134387"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.68",
+        "unstructured": "Western Engineering. (n.d.). Self-study notes - GAUSSIAN PLUMES. Retrieved June 7, 2020, from https://www.eng.uwo.ca/people/esavory/Gaussian plumes.pdf"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.69",
+        "unstructured": "World Health Organization . (2020). Considerations for quarantine of individuals in the context of containment for coronavirus disease (COVID-19). Retrieved July 1, 2020, from https://www.who.int/publications/i/item/considerations-for-quarantine-of-individuals-in-the-context-of-containment-for-coronavirus-disease-(covid-19)"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiao, T. , Wang, Y. , Yuan, J. , Ye, H. , Wei, L. , Wang, H. , \u2026 Zhang, Z. (2020). Early viral clearance and antibody kinetics of COVID-19 among asymptomatic carriers. MedRxiv. https://doi.org/10.1101/2020.04.28.20083139",
+        "DOI": "10.1101/2020.04.28.20083139"
+      },
+      {
+        "issue": "5",
+        "key": "2021041807200485000_2020.07.17.20156539v3.71",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2010182",
+        "DOI": "10.1001/jamanetworkopen.2020.10182",
+        "article-title": "Comparison of clinical characteristics of patients with asymptomatic vs symptomatic coronavirus disease 2019 in Wuhan, China",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "JAMA Network Open"
+      },
+      {
+        "issue": "61",
+        "key": "2021041807200485000_2020.07.17.20156539v3.72",
+        "doi-asserted-by": "crossref",
+        "first-page": "1176",
+        "DOI": "10.1098/rsif.2010.0686",
+        "article-title": "Concentrations and size distributions of airborne influenza A viruses measured indoors at a health centre, a day-care centre and on aeroplanes",
+        "volume": "8",
+        "year": "2011",
+        "journal-title": "Journal of the Royal Society, Interface"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Y. , Yang, M. , Shen, C. , Wang, F. , Yuan, J. , Li, J. , \u2026 Liu, Y. (2020). Evaluating the accuracy of different respiratory specimens in the laboratory diagnosis and monitoring the viral shedding of 2019-nCoV infections. MedRxiv, 2020.02.11.20021493. https://doi.org/10.1101/2020.02.11.20021493",
+        "DOI": "10.1101/2020.02.11.20021493"
+      },
+      {
+        "issue": "4",
+        "key": "2021041807200485000_2020.07.17.20156539v3.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "1445",
+        "DOI": "10.3390/ijerph17041445",
+        "article-title": "Infection spread and high-resolution detection of close contact behaviors",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "International Journal of Environmental Research and Public Health"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa638"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2008457"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2196-x"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4414/smw.2020.20336"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.05.23.20111559"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.25.20079103"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591020-0965-6"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.83",
+        "unstructured": "Centers for Disease Control and Prevention. Duration of Isolation & Precautions for Adults. 2020. https://www.cdc.gov/coronavirus/2019-ncov/hcp/duration-isolation.html#cecommendations (accessed July 27, 2020)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.84",
+        "unstructured": "U.S. Environmental Protection Agency. Exposure Factors Handbook 2011 Edition (EPA/600/R-09/052F). Washington, DC, 2011 https://cfpub.epa.gov/ncea/risk/recordisplay.cfm?deid=236252."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.85",
+        "unstructured": "Leckie JO , Naylor KA , Canales RA , et al. Quantifying Children\u2019s Microlevel Activity Data from Existing Videotapes\u201d by Exposure Research Group at Stanford University for the U.S. Environmental Protection Agency. 2000 https://cfpub.epa.gov/ols/catalog/advanced_full_record.cfm?&FIELD1=AUTHOR&INPUT1=FERGUSONANDC.ANDR.&TYPE1=ALL&LOGIC1=AND&COLL=&SORT_TYPE=MTIC&item_count=5."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.86",
+        "unstructured": "Western Engineering. Self-study notes - GAUSSIAN PLUMES. https://www.eng.uwo.ca/people/esavory/Gaussian plumes.pdf (accessed June 7, 2020)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.87",
+        "doi-asserted-by": "crossref",
+        "first-page": "1445",
+        "DOI": "10.3390/ijerph17041445",
+        "article-title": "Infection spread and high-resolution detection of close contact behaviors",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Int J Environ Res Public Health"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.88",
+        "unstructured": "Rojas-Nandayapa L. Risk Probabilities: Asymptotics and Simulation. 2008. Aarhus University. Retrieved from https://pure.au.dk/portal/en/publications/risk-probabilities(8d90e9a0-db1a-11dd-9710-000ea68e967b)/export.html."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.89",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1007/s11009-014-9430-7",
+        "article-title": "On the Laplace Transform of the Lognormal Distribution",
+        "volume": "18",
+        "year": "2016",
+        "journal-title": "Methodol Comput Appl Probab"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.90",
+        "unstructured": "Klingbeil T. corona-warn-app / cwa-documentation / images / risk_calculation / server_encoding.pdf. GitHub. 2020. https://github.com/corona-warn-app/cwa-documentation/blob/master/images/risk_calculation/server_encoding.pdf (accessed Jan 6, 2021)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.91",
+        "unstructured": "Klingbeil T. bcorona-warn-app / cwa-documentation/images/risk_calculation/client_interpretation.pdf. GitHub. 2020. https://github.com/corona-warn-app/cwa-documentation/blob/master/images/risk_calculation/client_interpretation.pdf (accessed Jan 6, 2021)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He X , Lau EHY , Wu P , et al. Author Correction: Temporal dynamics in viral shedding and transmissibility of COVID-19. Nat Med 2020; In print.",
+        "DOI": "10.1038/s41591-020-1016-z"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.09.04.20188516"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.94",
+        "unstructured": "CWA Team. corona-warn-app/cwa-documentation/transmission_risk.pdf. GitHub. 2020. https://github.com/corona-warn-app/cwa-documentation/blob/master/transmission_risk.pdf (accessed Jan 6, 2021)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2020.03.063"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-3012"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.97",
+        "doi-asserted-by": "crossref",
+        "first-page": "1156",
+        "DOI": "10.1001/jamainternmed.2020.2020",
+        "article-title": "Contact tracing assessment of COVID-19 transmission dynamics in Taiwan and risk at different exposure periods before and after symptom onset",
+        "volume": "180",
+        "year": "2020",
+        "journal-title": "JAMA Intern Med"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30314-5"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.99",
+        "unstructured": "McDonald J. Unpacking WHO\u2019s Asymptomatic COVID-19 Transmission Comments. FactCheck.org. 2020. https://www.factcheck.org/2020/06/unpacking-whos-asymptomatic-covid-19-transmission-comments/ (accessed June 16, 2020)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2488-1"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.101",
+        "unstructured": "Centers for Disease Control and Prevention. Options to Reduce Quarantine for Contacts of Persons with SARS-CoV-2 Infection Using Symptom Monitoring and Diagnostic Testing. 2020. https://www.cdc.gov/coronavirus/2019-ncov/more/scientific-brief-options-to-reduce-quarantine.html (accessed Jan 10, 2020)."
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.11.24.20238204"
+      },
+      {
+        "key": "2021041807200485000_2020.07.17.20156539v3.103",
+        "unstructured": "Petrie J , Masel J. Quarantine Optimization. 2021; In preparation."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.17.20156539",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:48:44Z",
+      "timestamp": 1768484924000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.17.20156539"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          19
+        ]
+      ]
+    },
+    "references-count": 103,
+    "URL": "https://doi.org/10.1101/2020.07.17.20156539",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1111/risa.13768",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

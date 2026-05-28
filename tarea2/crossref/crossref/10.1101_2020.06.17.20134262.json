@@ -1,0 +1,436 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:32:51Z",
+      "timestamp": 1768548771971,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 24,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>We sought to develop an automatable score to predict hospitalization, critical illness, or death in patients at risk for COVID-19 presenting for urgent care during the Massachusetts outbreak.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Single-center study of adult outpatients seen in respiratory illness clinics (RICs) or the emergency department (ED), including development (n = 9381, March 7-May 2) and prospective (n = 2205, May 3-14) cohorts. Data was queried from Partners Enterprise Data Warehouse. Outcomes were hospitalization, critical illness or death within 7 days. We developed the COVID-19 Acuity Score (CoVA) using automatically extracted data from the electronic medical record and learning-to-rank ordinal logistic regression modeling. Calibration was assessed using predicted-to-observed ratio (E/O). Discrimination was assessed by C-statistics (AUC).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In the development cohort, 27.3%, 7.2%, and 1.1% of patients experienced hospitalization, critical illness, or death, respectively; and in the prospective cohort, 26.1%, 6.3%, and 0.5%. CoVA showed excellent performance in the development cohort (concurrent validation) for hospitalization (E/O: 1.00, AUC: 0.80); for critical illness (E/O: 1.00, AUC: 0.82); and for death (E/O: 1.00, AUC: 0.87). Performance in the prospective cohort (prospective validation) was similar for hospitalization (E/O: 1.01, AUC: 0.76); for critical illness (E/O 1.03, AUC: 0.79); and for death (E/O: 1.63, AUC=0.93). Among 30 predictors, the top five were age, diastolic blood pressure, blood oxygen saturation, COVID-19 testing status, and respiratory rate.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>CoVA is a prospectively validated automatable score to assessing risk for adverse outcomes related to COVID-19 infection in the outpatient setting.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.06.17.20134262",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2020-06-22T18:45:15Z",
+      "timestamp": 1592851515000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "COVID-19 Outpatient Screening: a Prediction Score for Adverse Events"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5041-8312",
+        "authenticated-orcid": false,
+        "given": "Haoqi",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Aayushee",
+        "family": "Jain",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael J.",
+        "family": "Leone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haitham S.",
+        "family": "Alabsi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laura",
+        "family": "Brenner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elissa",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wendong",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu-Ping",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christine",
+        "family": "Boutros",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ruopeng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan",
+        "family": "Tesh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Colin",
+        "family": "Magdamo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarah I.",
+        "family": "Collens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Ganglberger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ingrid V.",
+        "family": "Bassett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James B.",
+        "family": "Meigs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jayashree",
+        "family": "Kalpathy-Cramer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jacqueline",
+        "family": "Chu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael L.",
+        "family": "Dougan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lawrence",
+        "family": "Stratton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jonathan",
+        "family": "Rosand",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bruce",
+        "family": "Fischl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sudeshna",
+        "family": "Das",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shibani",
+        "family": "Mukerji",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gregory K.",
+        "family": "Robbins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M. Brandon",
+        "family": "Westover",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.1",
+        "unstructured": "S R, Js H, M N, et al. Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. JAMA, 2020. Available at:https://pubmed.ncbi.nlm.nih.gov/32320003/?from_term=covid+new+york&from_pos=1. Accessed 5 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.2",
+        "unstructured": "First Case of Covid-19 in the United States | NEJM. Available at: https://www-nejm-org.ezp-prod1.hul.harvard.edu/doi/full/10.1056/NEJMc2004794. Accessed 5 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.3",
+        "unstructured": "Covid-19 \u2014 Navigating the Uncharted | NEJM. N Engl J Med Available at: http://www.nejm.org/doi/10.1056/NEJMe2002387. Accessed 5 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1054",
+        "DOI": "10.1016/S0140-6736(20)30566-3",
+        "article-title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu Z , McGoogan JM . Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention. JAMA 2020;",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.6",
+        "first-page": "343",
+        "volume": "69",
+        "author": "CDC COVID-19 Response Team",
+        "year": "2020",
+        "journal-title": "Severe Outcomes Among Patients with Coronavirus Disease 2019 (COVID-19) - United States, February 12-March 16, 2020. MMWR Morb Mortal Wkly Rep"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-3012"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.9",
+        "unstructured": "D W, B H, C H, et al. Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China. JAMA, 2020. Available at: https://pubmed.ncbi.nlm.nih.gov/32031570/?from_term=first+case+wuhan&from_pos=10. Accessed 5 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001191"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.11",
+        "unstructured": "The Covid-19 Tracker. STAT. 2020; Available at: https://www.statnews.com/feature/coronavirus/covid-19-tracker/. Accessed 5 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.12",
+        "unstructured": "Staff JSG, April 17 U, 2020, Comments127 6:26 p m Email to a Friend Share on Facebook Share on TwitterPrint this Article View. Nearly a third of 200 blood samples taken in Chelsea show exposure to coronavirus - The Boston Globe. Available at: https://www.bostonglobe.com/2020/04/17/business/nearly-third-200-blood-samples-taken-chelsea-show-exposure-coronavirus/. Accessed 9 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.13",
+        "unstructured": "Results released for antibody and COVID-19 testing of Boston residents. 2020. Available at: https://www.boston.gov/news/results-released-antibody-and-covid-19-testing-boston-residents. Accessed 9 June 2020."
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "648",
+        "DOI": "10.21105/joss.00648",
+        "article-title": "comorbidity: An R package for computing comorbidity scores",
+        "volume": "3",
+        "year": "2018",
+        "journal-title": "J Open Source Softw"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.15",
+        "first-page": "48",
+        "article-title": "A Study of K-Nearest Neighbour as an Imputation Method",
+        "volume": "87",
+        "year": "2002",
+        "journal-title": "His"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2010.04.018"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.17",
+        "first-page": "225",
+        "article-title": "Learning to rank for information retrieval",
+        "volume": "3",
+        "year": "2009",
+        "journal-title": "Found Trends Inf Retr"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1053/suro.2002.32521"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05991-x"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai Q , Chen F , Wang T , et al. Obesity and COVID-19 Severity in a Designated Hospital in Shenzhen, China. Diabetes Care 2020;",
+        "DOI": "10.2337/dc20-0576"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Filatov A , Sharma P , Hindi F , Espinosa PS . Neurological Complications of Coronavirus Disease (COVID-19): Encephalopathy. Cureus 12. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7170017/. Accessed 7 June 2020.",
+        "DOI": "10.7759/cureus.7352"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mao L , Jin H , Wang M , et al. Neurologic Manifestations of Hospitalized Patients With Coronavirus Disease 2019 in Wuhan, China. JAMA Neurol 2020;",
+        "DOI": "10.1001/jamaneurol.2020.1127"
+      },
+      {
+        "key": "2021010509250641000_2020.06.17.20134262v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu Y , Xu X , Chen Z , et al. Nervous system involvement after infection with COVID-19 and other coronaviruses. Brain Behav Immun 2020; Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7146689/. Accessed 7 June 2020.",
+        "DOI": "10.1016/j.bbi.2020.03.031"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.17.20134262",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:45:24Z",
+      "timestamp": 1768484724000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.17.20134262"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.1101/2020.06.17.20134262",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/infdis/jiaa663",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

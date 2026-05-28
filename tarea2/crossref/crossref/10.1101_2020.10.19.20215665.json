@@ -1,0 +1,366 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:33:28Z",
+      "timestamp": 1768548808213,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 34,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Classical Susceptible-Infected-Removed model with constant transmission rate and removal rate may not capture real world dynamics of epidemic due to complex influence of multiple external factors on the spread. On top of that transmission rate may vary widely in a large region due to non-stationarity of spatial features which poses difficulty in creating a global model. We modified discrete global Susceptible-Infected-Removed model by using time varying transmission rate, recovery rate and multiple spatially local models. No specific functional form of transmission rate has been assumed. We have derived the criteria for disease-free equilibrium within a specific time period. A single Convolutional LSTM model is created and trained to map multiple spatiotemporal features to transmission rate. The model achieved 8.39% mean absolute percent error in terms of cumulative infection cases in each locality in a 10-day prediction period. Local interpretations of the model using perturbation method reveals local influence of different features on transmission rate which in turn is used to generate a set of generalized global interpretations. A what-if scenario with modified recovery rate illustrates rapid dampening of the spread when forecasted with the trained model. A comparative study with current normal scenario reveals key necessary steps to reach baseline.</jats:p>",
+    "DOI": "10.1101/2020.10.19.20215665",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2020-10-21T10:00:14Z",
+      "timestamp": 1603274414000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "On nonlinear incidence rate of Covid-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Swarna Kamal",
+        "family": "Paul",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Saikat",
+        "family": "Jana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Parama",
+        "family": "Bhaumik",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "772",
+        "key": "2020102316250690000_2020.10.19.20215665v1.1",
+        "first-page": "700",
+        "article-title": "A contribution to the mathematical theory of epidemics. Proceedings of the royal society of london",
+        "volume": "115",
+        "year": "1927",
+        "journal-title": "Series A, Containing papers of a mathematical and physical character"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0025-5564(76)90132-2"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00276956"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.4",
+        "unstructured": "L. S. Chen and J. Chen, Nonlinear Biological Dynamics System, Scientific Press, China, 1993."
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei, C. , & Chen, L. (2008). A delayed epidemic model with pulse vaccination. Discrete Dynamics in Nature and Society, 2008.",
+        "DOI": "10.1155/2008/746951"
+      },
+      {
+        "issue": "1",
+        "key": "2020102316250690000_2020.10.19.20215665v1.6",
+        "first-page": "219",
+        "article-title": "Regulation and stability of host- parasite population interactions: I. Regulatory processes",
+        "volume": "47",
+        "year": "1978",
+        "journal-title": "The SWARNA ET AL.: ON NONLINEAR INCIDENCE RATE OF COVID-19 11 Journal of Animal Ecology"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J. Z. , Jin, Z. , Liu, Q. X. , & Zhang, Z. Y. (2008). Analysis of a delayed SIR model with nonlinear incidence rate.Discrete Dynamics in Nature and Society, 2008.)",
+        "DOI": "10.1155/2008/636153"
+      },
+      {
+        "issue": "1",
+        "key": "2020102316250690000_2020.10.19.20215665v1.8",
+        "first-page": "92",
+        "article-title": "Dynamic analysis of an SIR epidemic model with nonlinear incidence rate and double delays",
+        "volume": "7",
+        "year": "2011",
+        "journal-title": "Int J Inf Syst Sci"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "525",
+        "DOI": "10.1007/s002850000032",
+        "article-title": "A simple sis epidemic model with a backward bifurcation",
+        "volume": "40",
+        "year": "2000",
+        "journal-title": "Math. Biol"
+      },
+      {
+        "issue": "5",
+        "key": "2020102316250690000_2020.10.19.20215665v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1974",
+        "DOI": "10.1016/j.apm.2011.08.019",
+        "article-title": "Infectious disease models with time-varying parameters and general nonlinear incidence rate",
+        "volume": "36",
+        "year": "2012",
+        "journal-title": "Applied Mathematical Modelling"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11538-009-9433-7"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.12",
+        "year": "2020",
+        "journal-title": "Estimation of time-varying transmis- sion and removal rates underlying epidemiological processes: a new statistical tool for the COVID-19 pandemic"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sajadi, M. M. , Habibzadeh, P. , Vintzileos, A. , Shokouhi, S. , Miralles-Wilhelm, F. , & Amoroso, A. (2020). \u201cTemperature and latitude analysis to predict potential spread and seasonality for covid-19\u201d. Available at SSRN 3550308",
+        "DOI": "10.2139/ssrn.3550308"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhan, C. , Tse, C. , Fu, Y. , Lai, Z. , & Zhang, H. (2020). \u201cModelling and Prediction of the 2019 Coronavirus Disease Spreading in China Incorporating Human Migration Data\u201d. Available at SSRN 3546051",
+        "DOI": "10.2139/ssrn.3546051"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.15",
+        "unstructured": "Xingjian, S. H. I. , Chen, Z. , Wang, H. , Yeung, D. Y. , Wong, W. K. , & Woo, W. C. (2015). \u201cConvolutional LSTM network: A machine learning approach for precipitation nowcasting\u201d. In Advances in neural information processing systems (pp. 802\u2013810"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.16",
+        "unstructured": "China Data Lab , 2020, \u201cUS COVID-19 Daily Cases with Base- map\u201d,https://doi.org/10.7910/DVN/HIDLTK,HarvardDataverse,V18,UNF:6:s0u1J15PWisF3mouUiT6Kw==[fileUNF]"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Granger, C. W. (1969). Investigating causal relations by econo- metric models and cross-spectral methods. Econometrica: journal of the Econometric Society, 424\u2013438.",
+        "DOI": "10.2307/1912791"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2286348"
+      },
+      {
+        "issue": "02",
+        "key": "2020102316250690000_2020.10.19.20215665v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1142/S0218488598000094",
+        "article-title": "The vanishing gradient problem during learning recurrent neural nets and problem solutions",
+        "volume": "6",
+        "year": "1998",
+        "journal-title": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.20",
+        "unstructured": "Hochreiter, S. , & Schmidhuber, J. (1997). \u201cLSTM can solve hard long time lag problems\u201d. In Advances in neural information processing systems (pp. 473\u2013479)."
+      },
+      {
+        "issue": "1",
+        "key": "2020102316250690000_2020.10.19.20215665v1.21",
+        "first-page": "2522",
+        "article-title": "From local explanations to global understanding with explainable AI for trees",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature machine intelligence"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro, M. T. , Singh, S. , & Guestrin, C. (2016, August). \u201crWhy should i trust you?\u201d Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining (pp. 1135\u20131144).",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.23",
+        "first-page": "1803",
+        "article-title": "How to explain individual classification decisions",
+        "volume": "11",
+        "year": "2010",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro, M. T. , Singh, S. , and Guestrin, C. Anchors: Highprecision model-agnostic explanations. In AAAI, 2018a.",
+        "DOI": "10.1609/aaai.v32i1.11491"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.25",
+        "unstructured": "Plumb, G. , Molitor, D. , & Talwalkar, A. S. (2018). Model agnostic supervised local explanations. In Advances in Neural Infor-mation Processing Systems (pp. 2515\u20132524)"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.26",
+        "year": "2020",
+        "journal-title": "\u201cArtificial intelligence forecasting of covid-19 in china\u201d"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "109761",
+        "DOI": "10.1016/j.chaos.2020.109761",
+        "article-title": "Analysis and forecast of COVID- 19 spreading in China, Italy and France",
+        "volume": "134",
+        "year": "2020",
+        "journal-title": "Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xi, G. , Yin, L. , Li, Y. , & Mei, S. (2018, November). \u201cA deep residual network integrating spatial-temporal properties to predict influenza trends at an intra-urban scale\u201d. In Proceedings of the 2nd ACM SIGSPATIAL International Workshop on AI for Geo- graphic Knowledge Discovery (pp. 19\u201328). https://covidtracking.com/api/v1/states/daily.csv",
+        "DOI": "10.1145/3281548.3281558"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.29",
+        "unstructured": "China Data Lab, 2020, \u201cUS COVID-19 Daily Cases with Base-map\u201d, https://doi.org/10.7910/DVN/HIDLTK,HarvardDataverse,V24,UNF:6:4iyX7x/Oqi+dloA11aGvdQ==[fileUNF]"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.30",
+        "unstructured": "U.S. Department of Commerce, Office of Textiles and Apparel. (2002). U.S. Total Exports in U.S. Dollars. Retrieved from http://otexa.ita.doc.gov/tqexp/htsdata."
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JTECH-D-11-00103.1"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.32",
+        "first-page": "489",
+        "article-title": "U.S. Climate Refer- ence Network after one decade of operations: status and assessment",
+        "volume": "94",
+        "year": "2013",
+        "journal-title": "Bull. Amer. Meteor. Soc"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.33",
+        "unstructured": "https://www.kaggle.com/headsortails/covid19-us-county-jhu-data-demographics?select=us_county.csv"
+      },
+      {
+        "key": "2020102316250690000_2020.10.19.20215665v1.34",
+        "unstructured": "Paul S.K , Jana, S. , & Bhaumik, P. (2020). A multivariate spatio- temporal spread model of COVID-19 using ensemble of ConvLSTM networks. medRxiv."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.19.20215665",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:55Z",
+      "timestamp": 1768485415000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.19.20215665"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 34,
+    "URL": "https://doi.org/10.1101/2020.10.19.20215665",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1007/s42979-021-00864-6",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

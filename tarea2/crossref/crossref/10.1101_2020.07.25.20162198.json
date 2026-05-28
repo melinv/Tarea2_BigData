@@ -1,0 +1,491 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:15:14Z",
+      "timestamp": 1768551314649,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "group-title": "Health Policy",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is often comorbid with conditions subject to quality metrics (QM) used for hospital performance assessment and rate-setting. Although diagnostic coding change in response to financial incentives is well documented, no study has examined the association of QM with SARS-CoV-2 cause-of-death attribution (CODA). Calculations of excess all-cause deaths overlook the importance of accurate CODA and of distinguishing policy-related from virus-related mortality.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>Examine CODA, overall and for QM and non-QM diagnoses, in 3 pandemic periods: awareness (January 19-March 14), height (March 15-May 16), and late (May 17-June 20).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Retrospective analysis of publicly available national weekly COD data, adjusted for population growth and reporting lags, October 2014-June 20, 2020. CODA in 5 pre-pandemic influenza seasons was compared with 2019-20. Suitability of the data to distinguish policy-related from virus-related effects was assessed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Following federal guidance permitting SARS-CoV-2 CODA without laboratory testing, mortality from the QM diagnoses cancer and chronic lower respiratory disease declined steadily relative to prior-season means, reaching 4.4% less and 12.1% less, respectively, in late pandemic. Deaths for non-QM diagnoses increased, by 21.0% for Alzheimer\u2019s disease and 29.0% for diabetes during pandemic height. Increases in competing CODs over historical experience, suggesting SARS-CoV-2 underreporting, more than offset declines during pandemic height. However, in the late-pandemic period, declines slightly numerically exceeded increases, suggesting SARS-CoV-2 overreporting. In pandemic-height and late-pandemic periods, respectively, only 83.5% and 69.7% of increases in all-cause deaths were explained by changes in the reported CODs, including SARS-CoV-2, preventing assessment of policy-related mortality or of factors contributing to increased all-cause deaths.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Substitution of SARS-CoV-2 for competing CODs may have occurred, particularly for QM diagnoses and late in the pandemic. Continued monitoring of these trends, qualitative research on pandemic CODA, and the addition of place-of-death data and psychiatric CODs to the file would facilitate assessment of policy-related and virus-related effects on mortality.</jats:p>\n                  <jats:p>\n                    Ascertainment of the number of deaths from severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is foundational to understanding the severity, scope, and spread of the infection. Despite its importance, estimation of SARS-CoV-2 deaths is challenging because advanced age, genetic polymorphisms, and obesity-related comorbidities that predispose to inflammatory states increase the likelihood of dysregulated immunological function, severe respiratory distress, and mortality from infectious respiratory illness.\n                    <jats:sup>1,2</jats:sup>\n                    These host factors represent competing potential causes of death (COD). For example, 98.8% of Italy\u2019s SARS-CoV-2 deaths occurred in persons with\n                    <jats:underline>&gt;</jats:underline>\n                    1 comorbidity, 48.6% with\n                    <jats:underline>&gt;</jats:underline>\n                    3 comorbidities, and median decedent age was 80 years.\n                    <jats:sup>3</jats:sup>\n                    Similarly, of U.S. SARS-CoV-2 deaths reported as of May 28, 2020, 93% involved other CODs (mean 2.5 additional causes), and 60% occurred in persons aged\n                    <jats:underline>&gt;</jats:underline>\n                    75 years.\n                    <jats:sup>4</jats:sup>\n                    This pattern of multiple contributing CODs is common in respiratory infection-related mortality.\n                    <jats:sup>5</jats:sup>\n                  </jats:p>\n                  <jats:p>\n                    In death certificate issuance during the pandemic, methods to account for this pattern varied, as no single standard for SARS-CoV-2-attributable death exists. In Italy, all deaths in patients testing positive for SARS-CoV-2 were attributed to the infection despite high prevalence rates for comorbid conditions, measured in early deaths: ischemic heart disease (30%), diabetes (36%), cancer (20%), and atrial fibrillation (25%).\n                    <jats:sup>6</jats:sup>\n                    The U.S. National Center for Health Statistics (NCHS) issued death-certification guidance on March 4, 2020, indicating that SARS-CoV-2 should be reported if \u201cthe disease caused or is assumed to have caused or contributed to death.\u201d\n                    <jats:sup>7</jats:sup>\n                    Follow-up guidance issued on April 3 indicated that it was \u201cacceptable to report COVID-19 on a death certificate without [laboratory test] confirmation\u201d if circumstances indicating likely infection were \u201ccompelling within a reasonable degree of certainty.\u201d\n                    <jats:sup>8</jats:sup>\n                  </jats:p>\n                  <jats:p>\n                    This nonspecific guidance should be interpreted in light of previous research findings that COD attribution (CODA) errors are common on death certificates, particularly in infectious disease and septic shock.\n                    <jats:sup>9,10</jats:sup>\n                    In one survey of New York City (NYC) resident physicians in 2010, 49% indicated they had knowingly reported an inaccurate COD on one or more certificates, often (54%) at the behest of hospital staff, and 70% reported they had at least once been unable to report septic shock \u201cas an accepted cause of death\u201d and had been \u201cforced to list an alternate cause.\u201d\n                    <jats:sup>9</jats:sup>\n                    In an audit of NYC data from 2010-2014, 67% of pneumonia death certificates contained\n                    <jats:underline>&gt;</jats:underline>\n                    1 error, compared with 46% for cancer and 32% for diabetes.\n                    <jats:sup>10</jats:sup>\n                  </jats:p>\n                  <jats:p>\n                    Such CODA ambiguities are often addressed by calculating \u201cexcess deaths,\u201d defined as all-cause deaths exceeding those projected from historical experience.\n                    <jats:sup>11</jats:sup>\n                    This method, recently used to estimate that official tallies of SARS-CoV-2 deaths represented only about 66%-78% of the disease\u2019s true mortality impact,\n                    <jats:sup>12,13</jats:sup>\n                    is potentially advantageous in estimating SARS-CoV-2 impact by accounting for deaths that may not have been explicitly coded as infection-related.\n                    <jats:sup>14</jats:sup>\n                    Examples include deaths from cardiac events to which undetected SARS-CoV-2 may have contributed\n                    <jats:sup>15</jats:sup>\n                    or out-of-hospital deaths occurring without medical care because of health-system overcrowding.\n                    <jats:sup>16</jats:sup>\n                    Despite these advantages, the method is compromised by 3 considerations when applied to SARS-CoV-2 CODA, which should be quantified to inform future policy.\n                  </jats:p>\n                  <jats:p>\n                    First, the method should distinguish natural from societal causes to account for possible consequences of policy decisions and fears that, although prompted by anticipated effects of SARS-CoV-2, were not direct or inevitable viral sequelae. Examples include suicides from stay-at-home order-related labor market contraction\n                    <jats:sup>17</jats:sup>\n                    and social isolation,\n                    <jats:sup>18</jats:sup>\n                    increases in domestic violence,\n                    <jats:sup>19</jats:sup>\n                    overdoses due to interruptions in substance use disorder treatment,\n                    <jats:sup>20</jats:sup>\n                    and delays in emergency care for life-threatening conditions\n                    <jats:sup>21\u201323</jats:sup>\n                    in geographic areas where health-system overcrowding was expected but not realized.\n                    <jats:sup>24,25</jats:sup>\n                    To promote evidence-based public health policy, population-level disease-mitigation strategies that go beyond traditional practices of isolating the sick and quarantining those exposed to disease merit empirical investigation.\n                    <jats:sup>26,27</jats:sup>\n                  </jats:p>\n                  <jats:p>\n                    Second, the method should reflect the effects that financial incentives around hospital quality metrics (QM), which are commonly associated with provider coding practices, may have on CODA.\n                    <jats:sup>28\u201330</jats:sup>\n                    For example, in United Kingdom hospitals, increases in coding for palliative-care admissions produced a severity-adjusted mortality-rate decline of 50% over the 5-year period ending in 2009, while the crude death rate remained unchanged.\n                    <jats:sup>31</jats:sup>\n                    Although we are not aware of studies linking QMs to CODA, it is known that CODA errors are more likely to occur in hospitals than elsewhere,\n                    <jats:sup>32</jats:sup>\n                    with an 85% error rate reported in comparisons of death certificates with autopsy findings at one regional academic institution.\n                    <jats:sup>33</jats:sup>\n                    The potential effect of financial incentives on CODA is particularly important for SARS-CoV-2 because several competing CODs, including chronic lower respiratory disease (CLRD), acute myocardial infarction, heart failure, pneumonia, and stroke, are included in Medicare 30-day mortality measures used to calculate prospective payment rates.\n                    <jats:sup>34</jats:sup>\n                    All but one of these (CLRD) is included in Agency for Healthcare Research and Quality inpatient quality indicators.\n                    <jats:sup>35</jats:sup>\n                    Sepsis and cancer, other competing causes of death, are also the target of QM.\n                    <jats:sup>36\u201338</jats:sup>\n                    Although not affecting all-cause death counts, the incentive to substitute SARS-CoV-2 for another COD could affect the accuracy of the SARS-CoV-2-attributed count.\n                  </jats:p>\n                  <jats:p>\n                    Third, the method should account for baseline life expectancies among those whose deaths were reported as caused by SARS-CoV-2. For example, at age 80 years, the 1-year probability of death is 5.8% for males and 4.3% for females, higher in those with cardiovascular comorbidities.\n                    <jats:sup>39,40</jats:sup>\n                    In that age group, the population-level risk of a SARS-CoV-2 death in New York City, a pandemic epicenter, was 1.5% in about 3 pandemic months through June 17, 2020.\n                    <jats:sup>41</jats:sup>\n                    Thus, deaths from competing CODs would be expected to decline late in the pandemic and in subsequent months. From a policy perspective, quantifying this effect is consistent with the quality-adjusted life year approach in evidence-based medicine, which considers future life expectancy in assessing the effects of disease and disease-mitigation interventions.\n                    <jats:sup>42</jats:sup>\n                  </jats:p>\n                  <jats:p>\n                    To permit assessments of SARS-CoV-2-related mortality, publicly available NCHS data include weekly aggregated totals for all-cause deaths, natural-cause deaths, and selected categories of CODs, reported as final data for 2014-2018 and provisional data for 2019-2020.\n                    <jats:sup>4</jats:sup>\n                    These data, which are updated weekly, have important limitations. First, International Classification of Diseases (ICD)-10 diagnosis codes are grouped into broad categories, rather than the individual ICD-10 codes available in full COD files (Appendix 1). Second, only 11 selected diagnostic categories are reported. Third, although 63% of deaths are reported within 10 days, reporting lags vary by state.\n                    <jats:sup>4</jats:sup>\n                    Reporting delays for injurious deaths are greater because they require investigation (e.g., forensic toxicology).\n                    <jats:sup>43</jats:sup>\n                    Pending investigation, these deaths are often assigned ICD-10 code R99, \u201cill-defined and unknown cause of mortality.\u201d\n                    <jats:sup>43</jats:sup>\n                  </jats:p>\n                  <jats:p>In this exploratory study, we used these files to provide preliminary evidence on the following: (1) change in CODA compared with historical experience; (2) association of CODA with QM; and (3) suitability of the files to distinguish policy-related from virus-related effects. All analyses were adjusted for population and reporting lags and based on comparisons of 2020 with equivalent weeks in the 5 most recent years. We hypothesized that if substitution of SARS-CoV-2 for alternative CODs occurred, death counts for competing diagnoses would decline relative to historical experience during the pandemic, especially after issuance of the NCHS death-certification guidance; these declines would be greater for QM than for other conditions; and they would accelerate late in the pandemic as earlier SARS-CoV-2 deaths offset later deaths from competing causes.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.25.20162198",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2020-07-28T14:51:40Z",
+      "timestamp": 1595947900000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Changes in Cause-of-Death Attribution During the Covid-19 Pandemic: Association with Hospital Quality Metrics and Implications for Future Research"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Kathleen A.",
+        "family": "Fairman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Kellie J.",
+        "family": "Goodlet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James D.",
+        "family": "Rucker",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.1801010"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41366-020-0597-4"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.1447"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.4",
+        "unstructured": "U.S. Centers for Disease Control and Prevention. Weekly updates by select demographic and geographic characteristics. Provisional death counts for coronavirus disease (COVID-19). Available at https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm."
+      },
+      {
+        "issue": "9",
+        "key": "2021012102351116000_2020.07.25.20162198v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1519",
+        "DOI": "10.1513/AnnalsATS.201512-848OC",
+        "article-title": "The impact of age and comorbidities on the mortality of patients of different age groups admitted with community-acquired pneumonia",
+        "volume": "13",
+        "year": "2016",
+        "journal-title": "Ann Am Thorac Soc"
+      },
+      {
+        "issue": "18",
+        "key": "2021012102351116000_2020.07.25.20162198v1.6",
+        "first-page": "1775",
+        "article-title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.7",
+        "unstructured": "National Vital Statistics System. Guidance for certifying COVID-19 deaths. March 4, 2020. Available at https://www.cdc.gov/nchs/data/nvss/coronavirus/alert-1-guidance-for-certifying-covid-19-deaths.pdf."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.8",
+        "unstructured": "National Vital Statistics System. Guidance for certifying deaths due to coronavirus disease 2019 (COVID-19). April 2020. Available at https://www.cdc.gov/nchs/data/nvss/vsrg/vsrg03-508.pdf."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "120288",
+        "DOI": "10.5888/pcd10.120288",
+        "article-title": "Survey of New York City resident physicians on cause-of-death reporting, 2010",
+        "volume": "10",
+        "year": "2013",
+        "journal-title": "Prev Chronic Dis"
+      },
+      {
+        "issue": "1",
+        "key": "2021012102351116000_2020.07.25.20162198v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.1093/aje/kwx207",
+        "article-title": "Examination of cause-of-death data quality among New York City deaths due to cancer, pneumonia, or diabetes from 2010 to 2014",
+        "volume": "187",
+        "year": "2018",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.11",
+        "unstructured": "National Center for Health Statistics. Excess deaths associated with COVID-19. May 29, 2020. Available at https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.3391"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.11787"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1835"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.15",
+        "unstructured": "Feuer W. New York City struggles to get accurate coronavirus fatality count as more people die at home. CNBC. April 15, 2020. Available at: https://www.cnbc.com/2020/04/15/coronavirus-new-york-city-struggles-to-get-accurate-fatality-count-as-more-people-die-at-home.html."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.16",
+        "unstructured": "Marquez M , Moghe S. Inside a Brooklyn hospital that is overwhelmed with Covid-19 patients and deaths. CNN. March 31, 2020. Available at https://www.cnn.com/2020/03/30/us/brooklyn-hospital-coronavirus-patients-deaths/index.html."
+      },
+      {
+        "issue": "2",
+        "key": "2021012102351116000_2020.07.25.20162198v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1002/wps.20767",
+        "article-title": "Preventing suicide in the context of the COVID-19 pandemic",
+        "volume": "19",
+        "year": "2020",
+        "journal-title": "World Psychiatry"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.psychres.2020.113117"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ijgo.13247"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Becker WC , Fiellin DA . When epidemics collide: coronavirus disease 2019 (COVID-19) and the opioid crisis. Ann Intern Med. 2020;M20\u20131210.",
+        "DOI": "10.7326/M20-1210"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2014816"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2015630"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.23",
+        "unstructured": "Macmillan C. Hospitals report fewer heart attacks and strokes amid COVID-19. Yale Medicine. May 6, 2020. Available at https://www.yalemedicine.org/stories/hospitals-covid-fears/."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.24",
+        "unstructured": "Rose J. U.S. field hospitals stand down, most without treating any COVID-19 patients. NPR. May 7, 2020. Available at https://www.npr.org/2020/05/07/851712311/u-s-field-hospitals-stand-down-most-without-treating-any-covid-19-patients."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.25",
+        "unstructured": "Simkins JD . Hospital ship Comfort departs NYC, having treated fewer than 200 patients. NavyTimes. April 30, 2020. Available at https://www.navytimes.com/news/your-navy/2020/04/30/hospital-ship-comfort-departs-nyc-having-treated-fewer-than-200-patients/."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1902.120312"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.27",
+        "unstructured": "Rothstein MA , Alcade MG , Elster NR , et al. Quarantine and isolation: lessons learned from SARS. Institute for Bioethics, Health Policy and Law. November 2003. Available at: https://biotech.law.lsu.edu/blaw/cdc/SARS_REPORT.pdf."
+      },
+      {
+        "issue": "1",
+        "key": "2021012102351116000_2020.07.25.20162198v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1097/01.QMH.0000308634.59108.60",
+        "article-title": "Data quality bias: an underrecognized source of misclassification in pay-for-performance reporting?",
+        "volume": "17",
+        "year": "2008",
+        "journal-title": "Qual Manag Health Care"
+      },
+      {
+        "issue": "4",
+        "key": "2021012102351116000_2020.07.25.20162198v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "322",
+        "DOI": "10.4258/hir.2017.23.4.322",
+        "article-title": "Association between health information technology and case mix index",
+        "volume": "23",
+        "year": "2017",
+        "journal-title": "Healthc Inform Res"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2062",
+        "DOI": "10.1056/NEJMp1800732",
+        "article-title": "Excluding observation stays from readmission rates\u2014 what quality measures are missing",
+        "volume": "378",
+        "year": "2018",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.31",
+        "first-page": "950",
+        "article-title": "Patient coding and the ratings game",
+        "volume": "340",
+        "year": "2010",
+        "journal-title": "BMJ"
+      },
+      {
+        "issue": "6",
+        "key": "2021012102351116000_2020.07.25.20162198v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "669",
+        "DOI": "10.1177/0033354917736514",
+        "article-title": "Death certification errors and the effect on mortality statistics",
+        "volume": "132",
+        "year": "2017",
+        "journal-title": "Public Health Rep"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3121/cmr.2019.1496"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.34",
+        "unstructured": "Yale New Haven Health Services Corporation \u2013 Center for Outcomes Research and Evaluation. 2020 condition-specific mortality measures updates and specifications report. March 2020. Available at https://www.qualitynet.org/files/5ec532166c4799002344a0a1?filename=2020_CSM_v1.0.pdf."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.35",
+        "unstructured": "Agency for Healthcare Research and Quality. Inpatient quality indicators technical specifications. 2019. Available at https://www.qualityindicators.ahrq.gov/Modules/IQI_TechSpec_ICD10_v2019.aspx."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.36",
+        "unstructured": "Centers for Medicare & Medicaid Services (CMS). Specifications manual for national hospital inpatient quality measures. Available at: https://www.qualitynet.org/files/5d55ad39c84b454088432412?filename=HIQR-SpecsMan-Jan2020-v5-7-ZIP.zip."
+      },
+      {
+        "issue": "5",
+        "key": "2021012102351116000_2020.07.25.20162198v1.37",
+        "first-page": "205",
+        "article-title": "Methods for reducing sepsis mortality in emergency departments and inpatient units",
+        "volume": "41",
+        "year": "2015",
+        "journal-title": "Jt Comm J Qual Patient Saf"
+      },
+      {
+        "issue": "3",
+        "key": "2021012102351116000_2020.07.25.20162198v1.38",
+        "first-page": "2015",
+        "article-title": "Problems with public reporting of cancer quality outcomes data",
+        "volume": "10",
+        "year": "2014",
+        "journal-title": "J Oncol Pract"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.39",
+        "unstructured": "Social Security Administration. Actuarial life table, 2017. Available at: https://www.ssa.gov/oact/STATS/table4c6.html."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jval.2012.08.2208"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envres.2020.109890"
+      },
+      {
+        "issue": "1",
+        "key": "2021012102351116000_2020.07.25.20162198v1.42",
+        "first-page": "S5",
+        "article-title": "QALYs: the basics",
+        "volume": "12",
+        "year": "2009",
+        "journal-title": "Value Healt"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.43",
+        "unstructured": "Spencer MR , Ahmad F. Timeliness of death certificate data for mortality surveillance and provisional estimates. Vital Statistics Rapid Release. 2016;001."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.44",
+        "unstructured": "Minino A. Coding and classification of causes of death in accordance with the Tenth Revision of the International Classification of Diseases. National Center for Health Statistics. 2012. Available at: https://www.cdc.gov/nchs/ppt/nchs2012/li-14_minino.pdf."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.45",
+        "unstructured": "U.S. Census Bureau. State population totals and components of change: 2010-2019. Available at: https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyw098"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyt092"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.48",
+        "unstructured": "Ducharme J. News coverage of coronavirus in 2020 is very different than it was for Ebola in 2018. Time. Feb 7, 2020. Available at: https://time.com/5779872/coronavirus-ebola-news-coverage/."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.49",
+        "unstructured": "U.S. Centers for Disease Control & Prevention. Coronavirus disease 2019. Cases in the U.S. Available at: https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.50",
+        "unstructured": "Tabachnick BG , Fidell LS . Using Multivariate Statistics. Essex: Pearson. 2014."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.51",
+        "unstructured": "Kamp J , Overberg P. Coronavirus pandemic led to surge in Alzheimer\u2019s deaths. Wall Street Journal. June 28, 2020. Available at: https://www.wsj.com/articles/coronavirus-pandemic-led-to-surge-in-alzheimers-deaths-11593345601."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.52",
+        "unstructured": "Heron M. Deaths: leading cause for 2017.National Vital Statistics System. June 24, 2019. Available at: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_06-508.pdf."
+      },
+      {
+        "issue": "1",
+        "key": "2021012102351116000_2020.07.25.20162198v1.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1001/jama.2020.9536",
+        "article-title": "The importance of proper death certification during the COVID-19 pandemic",
+        "volume": "324",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.54",
+        "unstructured": "Express Scripts. America\u2019s state of mind report. April 16, 2020. Available at: https://www.express-scripts.com/corporate/americas-state-of-mind-report."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/da.23077"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.56",
+        "unstructured": "National Heart, Lung, and Blood Institute. Looking forward: understanding the long-term effects of COVID-19. June 3, 2020. Available at: https://www.nhlbi.nih.gov/news/2020/looking-forward-understanding-long-term-effects-covid-19."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.57",
+        "unstructured": "Mustian J , Condon B. Blame game? Cuomo takes heat over NY nursing home study. U.S. News. July 14, 2020. Available at: https://www.usnews.com/news/health-news/articles/2020-07-14/blame-game-cuomo-takes-heat-over-ny-nursing-home-study."
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm6919e2"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1377/hlthaff.2020.00455"
+      },
+      {
+        "key": "2021012102351116000_2020.07.25.20162198v1.60",
+        "unstructured": "Centers for Disease Control and Prevention. Frequently asked questions about estimated flu burden. November 5, 2018. Available at: https://www.cdc.gov/flu/about/burden/faq.htm."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.25.20162198",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:49:31Z",
+      "timestamp": 1768484971000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.25.20162198"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2020.07.25.20162198",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

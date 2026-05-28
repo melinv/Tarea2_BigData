@@ -1,0 +1,400 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T12:50:32Z",
+      "timestamp": 1775998232455,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "group-title": "Neuroscience",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              23
+            ]
+          ],
+          "date-time": "2025-04-23T00:00:00Z",
+          "timestamp": 1745366400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Medical data is not available for public access due to privacy concerns of the patients and the stakeholders\u2019 trust-worthiness. However, Artificial Intelligence, especially all deeplearning models, is data-hungry and fails to produce clinically relevant results without much data. Moreover, augmentation strategies are deployed to overcome the less data hurdle. The promising future in this direction is generative AI-augmented data. The chat-GPT and DALLE-2 have become commercial products leveraging the generative AI in Natural Language Processing and Computer Vision. The diffusion models have started giving many promising results in the generative AI in computer vision. And in medical imaging, they can potentially create synthetic data to augment the scarce dataset. Diffusion models coupled with federated learning can create synthetic data on a large scale without the need to violate data privacy. This synthetic dataset could be used for further training of deep learning models without the issues of patients\u2019 identity theft from reverse engineering data. A Federated Learning paradigm of diffusion models has been proposed to overcome this hurdle and its related challenges. Our work focuses on diffusion models in federated learning settings. We named our novel model FMed-Diffusion or Federated Learning on Medical Image Diffusion. We trained our model under distributed federated settings imitating real-world clinical settings. We have achieved impressive results over three medical image datasets, APTOS 2019 Blindness Detection, Retinal OCT Detection, and COVID-CT Detection in the federated setting on par with the traditional training. Our model FMed-Diffusion has achieved an FID score of 7.1821 on the APTOS 2019 Blindness Detection dataset, an FID score of 8.8154 on the Retinal OCT Detection dataset, and an FID score of 7.4486 on the COVID-CT Detection dataset.</jats:p>",
+    "DOI": "10.1101/2025.04.22.649958",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2025-04-23T21:05:19Z",
+      "timestamp": 1745442319000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "FMed-Diffusion Federated Learning on Medical Image Diffusion"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Murukessan",
+        "family": "Perumal",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering at the National Institute of Technologyat Warangal in India"
+          }
+        ]
+      },
+      {
+        "given": "M",
+        "family": "Srinivas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering at the National Institute of Technologyat Warangal in India"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Hatamizadeh , H. Yin , P. Molchanov , A. Myronenko , W. Li , P. Dogra , A. Feng , M. G. Flores , J. Kautz , D. Xu , et al., \u201cDo gradient inversion attacks make federated learning unsafe?,\u201d IEEE Transactions on Medical Imaging, 2023.",
+        "DOI": "10.1109/TMI.2023.3239391"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Xu , Z. Chan , L. Zhu , C. Zhang , R. Lu , and Y. Guan , \u201cEppfm: Efficient and privacy-preserving querying of electronic medical records with forward privacy in multiuser setting,\u201d IEEE Transactions on Sustainable Computing, pp. 1\u201312, 2023.",
+        "DOI": "10.1109/TSUSC.2023.3257223"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Li , J. Zhang , L. Liu , and J. Liu , \u201cAuditing privacy defenses in federated learning via generative gradient leakage,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10132\u201310142, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.00989"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.4",
+        "unstructured": "B. McMahan , E. Moore , D. Ramage , S. Hampson , and B. A. y Arcas , \u201cCommunication-efficient learning of deep networks from decentralized data,\u201d in Artificial intelligence and statistics, pp. 1273\u20131282, PMLR, 2017."
+      },
+      {
+        "issue": "3",
+        "key": "2026041205204849000_2025.04.22.649958v1.5",
+        "first-page": "1",
+        "article-title": "Federated learning for smart healthcare: A survey",
+        "volume": "55",
+        "year": "2022",
+        "journal-title": "ACM Computing Surveys (CSUR)"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Fang and M. Ye , \u201cRobust federated learning with noisy and heterogeneous clients,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10072\u201310081, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.00983"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Gao , H. Fu , L. Li , Y. Chen , M. Xu , and C.-Z. Xu , \u201cFeddc: Federated learning with non-iid data via local drift decoupling and correction,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10112\u201310121, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.00987"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Huang , M. Ye , and B. Du , \u201cLearn from others and be yourself in heterogeneous federated learning,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10143\u201310153, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.00990"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Jain and K. R. Jerripothula , \u201cFederated learning for commercial image sources,\u201d in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 6534\u20136543, 2023.",
+        "DOI": "10.1109/WACV56688.2023.00647"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.10",
+        "unstructured": "X.-C. Li , Y.-C. Xu , S. Song , B. Li , Y. Li , Y. Shao , and D.-C. Zhan , \u201cFederated learning with position-aware neurons,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10082\u201310091, 2022."
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Mendieta , T. Yang , P. Wang , M. Lee , Z. Ding , and C. Chen , \u201cLocal learning matters: Rethinking data heterogeneity in federated learning,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 8397\u20138406, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.00821"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U. Michieli and M. Ozay , \u201cAre all users treated fairly in federated learning systems?,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 2318\u20132322, 2021.",
+        "DOI": "10.1109/CVPRW53098.2021.00263"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Qu , Y. Zhou , P. P. Liang , Y. Xia , F. Wang , E. Adeli , L. Fei-Fei , and D. Rubin , \u201cRethinking architecture design for tackling data heterogeneity in federated learning,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10061\u201310071, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.00982"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Zhang , Y. Luo , Y. Bai , B. Du , and L.-Y. Duan , \u201cFederated learning for non-iid data via unified feature learning and optimization objective alignment,\u201d in Proceedings of the IEEE/CVF international conference on computer vision, pp. 4420\u20134428, 2021.",
+        "DOI": "10.1109/ICCV48922.2021.00438"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. M. Hosseini , M. Sikaroudi , M. Babaie , and H. Tizhoosh , \u201cProportionally fair hospital collaborations in federated learning of histopathology images,\u201d IEEE Transactions on Medical Imaging, 2023.",
+        "DOI": "10.1109/TMI.2023.3234450"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Li , B. He , and D. Song , \u201cModel-contrastive federated learning,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10713\u201310722, 2021.",
+        "DOI": "10.1109/CVPR46437.2021.01057"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Yan , L. Qu , Q. Wei , S.-C. Huang , L. Shen , D. Rubin , L. Xing , and Y. Zhou , \u201cLabel-efficient self-supervised federated learning for tackling data heterogeneity in medical imaging,\u201d IEEE Transactions on Medical Imaging, 2023.",
+        "DOI": "10.1109/TMI.2022.3233574"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2022.11.011"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-020-00323-1"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.20",
+        "unstructured": "Kaggle, \u201cAptos 2019 blindness detection.\u201d Accessed: (05-15-2023)."
+      },
+      {
+        "issue": "2",
+        "key": "2026041205204849000_2025.04.22.649958v1.21",
+        "first-page": "651",
+        "article-title": "Labeled optical coherence tomography (oct) and chest x-ray images for classification",
+        "volume": "2",
+        "year": "2018",
+        "journal-title": "Mendeley data"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.22",
+        "unstructured": "E. Soares , P. Angelov , S. Biaso , M. H. Froes , and D. K. Abe , \u201cSars-cov-2 ct-scan dataset: A large dataset of real patients ct scans for sars-cov-2 identification,\u201d MedRxiv, pp. 2020\u201304, 2020."
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3422622"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.24",
+        "unstructured": "D. Rezende and S. Mohamed , \u201cVariational inference with normalizing flows,\u201d in International conference on machine learning, pp. 1530\u20131538, PMLR, 2015."
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.2006.11239"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F.-A. Croitoru , V. Hondru , R. T. Ionescu , and M. Shah , \u201cDiffusion models in vision: A survey,\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023.",
+        "DOI": "10.1109/TPAMI.2023.3261988"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.27",
+        "first-page": "8780",
+        "article-title": "Diffusion models beat gans on image synthesis",
+        "volume": "34",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.28",
+        "first-page": "36479",
+        "article-title": "Photorealistic text-to-image diffusion models with deep language understanding",
+        "volume": "35",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Rombach , A. Blattmann , D. Lorenz , P. Esser , and B. Ommer , \u201cHigh-resolution image synthesis with latent diffusion models,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10684\u201310695, 2022.",
+        "DOI": "10.1109/CVPR52688.2022.01042"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Qin , H. Zheng , J. Yao , M. Zhou , and Y. Zhang , \u201cClass-balancing diffusion models,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 18434\u201318443, 2023.",
+        "DOI": "10.1109/CVPR52729.2023.01768"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "V. T. Hu , D. W. Zhang , Y. M. Asano , G. J. Burghouts , and C. G. Snoek , \u201cSelf-guided diffusion models,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 18413\u201318422, 2023.",
+        "DOI": "10.1109/CVPR52729.2023.01766"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.32",
+        "article-title": "Diffusion models for medical image analysis: A comprehensive survey",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.33",
+        "article-title": "Diffusion-based data augmentation for skin disease classification: Impact across original medical datasets to fully synthetic images",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.34",
+        "article-title": "Flower: A friendly federated learning research framework",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.35",
+        "unstructured": "P. von Platen , S. Patil , A. Lozhkov , P. Cuenca , N. Lambert , K. Rasul , M. Davaadorj , and T. Wolf , \u201cDiffusers: State-of-the-art diffusion models.\u201d https://github.com/huggingface/diffusers, 2022."
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.36",
+        "unstructured": "L. Biewald , \u201cExperiment tracking with weights and biases,\u201d 2020. Software available from wandb.com."
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.37",
+        "unstructured": "M. Heusel , H. Ramsauer , T. Unterthiner , B. Nessler , and S. Hochreiter , \u201cGans trained by a two time-scale update rule converge to a local nash equilibrium,\u201d in Advances in Neural Information Processing Systems ( I. Guyon , U. V. Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , eds.), vol. 30, Curran Associates, Inc., 2017."
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicki Skafte Detlefsen , Jiri Borovec , Justus Schock , Ananya Harsh , Teddy Koker , Luca Di Liello , Daniel Stancl , Changsheng Quan , Maxim Grechkin , and William Falcon , \u201cTorchMetrics - Measuring Reproducibility in PyTorch,\u201d Feb. 2022.",
+        "DOI": "10.21105/joss.04101"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. A. Moghadam , S. Van Dalen , K. C. Martin , J. Lennerz , S. Yip , H. Farahani , and A. Bashashati , \u201cA morphology focused diffusion proba-bilistic model for synthesis of histopathology images,\u201d in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 2000\u20132009, 2023.",
+        "DOI": "10.1109/WACV56688.2023.00204"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Horvath , J. Paetzold , O. Schoppe , R. Al-Maskari , I. Ezhov , S. Shit , H. Li , A. Ert\u00fcrk , and B. Menze , \u201cMetgan: generative tumour inpainting and modality synthesis in light sheet microscopy,\u201d in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 227\u2013237, 2022.",
+        "DOI": "10.1109/WACV51458.2022.00329"
+      },
+      {
+        "key": "2026041205204849000_2025.04.22.649958v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/BOE.477906"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.22.649958",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T12:20:59Z",
+      "timestamp": 1775996459000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.22.649958"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2025.04.22.649958",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:11:35Z",
+      "timestamp": 1768497095938,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Cytometry techniques are widely used to discover cellular characteristics at single-cell resolution. Many data analysis methods for cytometry data focus solely on identifying subpopulations via clustering and testing for differential cell abundance. For differential expression analysis of markers between conditions, only few tools exist. These tools either reduce the data distribution to medians, discarding valuable information, or have underlying assumptions that may not hold for all expression patterns.</jats:p>\n                <jats:p>Here, we systematically evaluated existing and novel approaches for differential expression analysis on real and simulated CyTOF data. We found that methods using median marker expressions compute fast and reliable results when the data is not strongly zero-inflated. Methods using all data detect changes in strongly zero-inflated markers, but partially suffer from overprediction or cannot handle big datasets. We present a new method, CyEMD, based on calculating the Earth Mover\u2019s Distance between expression distributions that can handle strong zero-inflation without being too sensitive.</jats:p>\n                <jats:p>\n                  Additionally, we developed CYANUS, a user-friendly R Shiny App allowing the user to analyze cytometry data with state-of-the-art tools, including well-performing methods from our comparison. A public web interface is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://exbio.wzw.tum.de/cyanus/\">https://exbio.wzw.tum.de/cyanus/</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2021.08.09.455609",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2021-08-10T01:25:41Z",
+      "timestamp": 1628558741000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Systematic Comparison of Differential Analysis Methods for CyTOF Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7990-8385",
+        "authenticated-orcid": false,
+        "given": "Lis",
+        "family": "Arend",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5812-8013",
+        "authenticated-orcid": false,
+        "given": "Judith",
+        "family": "Bernett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5706-2718",
+        "authenticated-orcid": false,
+        "given": "Quirin",
+        "family": "Manz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5193-2770",
+        "authenticated-orcid": false,
+        "given": "Melissa",
+        "family": "Klug",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9546-7807",
+        "authenticated-orcid": false,
+        "given": "Olga",
+        "family": "Lazareva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0282-0462",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Baumbach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4162-1482",
+        "authenticated-orcid": false,
+        "given": "Dario",
+        "family": "Bongiovanni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0941-4168",
+        "authenticated-orcid": false,
+        "given": "Markus",
+        "family": "List",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2021081122550493000_2021.08.09.455609v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "14825",
+        "DOI": "10.1038/ncomms14825",
+        "article-title": "Sensitive detection of rare disease-associated cell subsets via representation learning",
+        "volume": "8",
+        "year": "2017",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "1",
+        "key": "2021081122550493000_2021.08.09.455609v1.2",
+        "first-page": "1",
+        "article-title": "Automated optimized parameters for T-distributed stochastic neighbor embedding improve visualization and analysis of large datasets",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-28211-5"
+      },
+      {
+        "issue": "1",
+        "key": "2021081122550493000_2021.08.09.455609v1.4",
+        "first-page": "1",
+        "article-title": "Mass cytometry reveals distinct platelet subtypes in healthy subjects and novel alterations in surface glycoproteins in glanzmann thrombasthenia",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2317"
+      },
+      {
+        "issue": "1",
+        "key": "2021081122550493000_2021.08.09.455609v1.6",
+        "first-page": "1",
+        "article-title": "SARS-CoV-2 infection is associated with a pro-thrombotic platelet phenotype",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Cell Death & Disease"
+      },
+      {
+        "issue": "1",
+        "key": "2021081122550493000_2021.08.09.455609v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.3233/CH-141876",
+        "article-title": "Changes in platelet morphology and function during 24 hours of storage",
+        "volume": "58",
+        "year": "2014",
+        "journal-title": "Clinical hemorheology and microcirculation"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1408792111"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cohen J. Statistical power analysis for the behavioral sciences. Academic press; 1977. doi: https://doi.org/10.1016/C2013-0-10517-X.",
+        "DOI": "10.1016/C2013-0-10517-X"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.10",
+        "unstructured": "Crowell HL , Zanotelli VRT , Chevrier S , Robinson MD. CATALYST: Cytometry dATa anALYSis Tools; 2021, https://github.com/HelenaLC/CATALYST, doi: https://doi.org/10.18129/B9.bioc.CATALYST, r package version 1.14.1."
+      },
+      {
+        "issue": "4",
+        "key": "2021081122550493000_2021.08.09.455609v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "453",
+        "DOI": "10.1007/BF01025868",
+        "article-title": "On the histogram as a density estimator: L 2 theory",
+        "volume": "57",
+        "year": "1981",
+        "journal-title": "Zeitschrift f\u00fcr Wahrscheinlichkeit-stheorie und verwandte Gebiete"
+      },
+      {
+        "issue": "6",
+        "key": "2021081122550493000_2021.08.09.455609v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "405",
+        "DOI": "10.3109/09537104.2013.829211",
+        "article-title": "Activated platelet chemiluminescence and presence of CD45+ platelets in patients with acute myocardial infarction",
+        "volume": "25",
+        "year": "2014",
+        "journal-title": "Platelets"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fonc.2019.00415"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/01.ATV.17.7.1331"
+      },
+      {
+        "issue": "1",
+        "key": "2021081122550493000_2021.08.09.455609v1.15",
+        "first-page": "1",
+        "article-title": "NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "Communications biology"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hedges LV , Olkin I. Statistical methods for meta-analysis. Academic press; 1985. doi: https://doi.org/10.1016/C2009-0-03396-0.",
+        "DOI": "10.1016/C2009-0-03396-0"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.17",
+        "unstructured": "Kassambara A. rstatix: Pipe-Friendly Framework for Basic Statistical Tests; 2021, https://CRAN.R-project.org/package=rstatix, r package version 0.7.0."
+      },
+      {
+        "issue": "17",
+        "key": "2021081122550493000_2021.08.09.455609v1.18",
+        "first-page": "4056",
+        "article-title": "A novel mechanism of sustained platelet \u03b1IIb\u03b23 activation via PEAR1",
+        "volume": "119",
+        "year": "2012",
+        "journal-title": "Blood, The Journal of the American Society of Hematology"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kotecha N , Krutzik PO , Irish JM. Web-based analysis and publication of flow cytometry experiments. Current Protocols in Cytometry. 2010 Jul; Chapter 10:Unit10.17. doi: https://doi.org/10.1002/0471142956.cy1017s53.",
+        "DOI": "10.1002/0471142956.cy1017s53"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/isre.2013.0480"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.21",
+        "first-page": "5.1.1",
+        "article-title": "Flow Cytometry: An Overview",
+        "volume": "120",
+        "year": "2018",
+        "journal-title": "Current protocols in immunology"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nowicka M , Krieg C , Crowell HL , Weber LM , Hartmann FJ , Guglietta S , Becher B , Levesque MP , Robinson MD. CyTOF workflow: differential discovery in high-throughput high-dimensional cytometry datasets. F1000Research. 2019 May; 6. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5473464/, doi: https://doi.org/10.12688/f1000research.11622.3.",
+        "DOI": "10.12688/f1000research.11622.3"
+      },
+      {
+        "issue": "6",
+        "key": "2021081122550493000_2021.08.09.455609v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1609",
+        "DOI": "10.1016/j.csda.2011.10.005",
+        "article-title": "A general class of zero-or-one infated beta regression models",
+        "volume": "56",
+        "year": "2012",
+        "journal-title": "Computational Statistics & Data Analysis"
+      },
+      {
+        "issue": "11",
+        "key": "2021081122550493000_2021.08.09.455609v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1178",
+        "DOI": "10.1002/cyto.a.23908",
+        "article-title": "Challenges in the Multivariate Analysis of Mass Cytometry Data: The Effect of Randomization",
+        "volume": "95",
+        "year": "2019",
+        "journal-title": "Cytometry Part A"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.thromres.2007.06.010"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9876.2005.00510.x"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rigby RA , Stasinopoulos MD , Heller GZ , De Bastiani F. Distribution for modelling location, scale, and shape: using GAMLSS in R. Chapman & Hall/CRC: the R series, Bocat Raton, Florida: CRC Press; 2020. doi: https://doi.org/10.1201/9780429298547.",
+        "DOI": "10.1201/9780429298547"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv007"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rubner Y , Tomasi C , Guibas LJ. A metric for distributions with applications to image databases. In: Sixth International Conference on Computer Vision (IEEE Cat. No. 98CH36271) IEEE; 1998. p. 59\u201366. doi: https://doi.org/10.1109/ICCV.1998.710701.",
+        "DOI": "10.1109/ICCV.1998.710701"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-021-04034-6"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.31",
+        "unstructured": "Stasinopoulos M , Rigby R. gamlss.dist: Distributions for Generalized Additive Models for Location Scale and Shape; 2021, https://CRAN.R-project.org/package=gamlss.dist, r package version 5.3-2."
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1084/jem.172.3.701"
+      },
+      {
+        "issue": "9",
+        "key": "2021081122550493000_2021.08.09.455609v1.33",
+        "first-page": "2867",
+        "article-title": "Preferential involvement of a phospholipase A2-dependent pathway in CD69-mediated platelet activation",
+        "volume": "148",
+        "year": "1992",
+        "journal-title": "TheJournal of Immunology"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-020-3475-0"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2018.04.017"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003-019-0345-2"
+      },
+      {
+        "key": "2021081122550493000_2021.08.09.455609v1.37",
+        "unstructured": "Weber LM , Soneson C. HDCytoData: collection of high-dimensional cytometry benchmark datasets in Bioconductor object formats. F1000Research. 2019; 8. doi: https://doi.org/10.18129/B9.bioc.HDCytoData."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.08.09.455609",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:02:58Z",
+      "timestamp": 1768442578000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.08.09.455609"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2021.08.09.455609",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bib/bbab471",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

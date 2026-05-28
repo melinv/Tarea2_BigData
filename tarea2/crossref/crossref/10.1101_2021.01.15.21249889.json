@@ -1,0 +1,403 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:12:39Z",
+      "timestamp": 1768551159967,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "group-title": "Gastroenterology",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Structured Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>\n                    Risk calculators can facilitate shared medical decision-making\n                    <jats:sup>1</jats:sup>\n                    . Demographics, comorbidities, medication use, geographic region, and other factors may increase the risk for COVID-19-related complications among patients with IBD\n                    <jats:sup>2,3</jats:sup>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>Develop an individualized prognostic risk prediction tool for predicting the probability of adverse COVID-19 outcomes in patients with IBD.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design, Setting, and Participants</jats:title>\n                  <jats:p>\n                    This study developed and validated prognostic penalized logistic regression models\n                    <jats:sup>4</jats:sup>\n                    using reports to Surveillance Epidemiology of Coronavirus Under Research Exclusion for Inflammatory Bowel Disease (SECURE-IBD) from March\u2013October 2020. Model development was done using a training data set (85% of cases reported March 13 \u2013 September 15, 2020), and model validation was conducted using a test data set (the remaining 15% of cases plus all cases reported September 16\u2013October 20, 2020).\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main Outcomes and Measures</jats:title>\n                  <jats:p>COVID-19 related:</jats:p>\n                  <jats:list list-type=\"order\">\n                    <jats:list-item>\n                      <jats:p>Hospitalization+: composite outcome of hospitalization, ICU admission, mechanical ventilation, or death</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>ICU+: composite outcome of ICU admission, mechanical ventilation, or death</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Death</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                  <jats:p>We assessed the resulting models\u2019 discrimination using the area under the curve (AUC) of the receiver-operator characteristic (ROC) curves and reported the corresponding 95% confidence intervals (CIs).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We included 2709 cases from 59 countries (mean age 41.2 years [s.d. 18], 50.2% male). A total of 633 (24%) were hospitalized, 137 (5%) were admitted to the ICU or intubated, and 69 (3%) died. 2009 patients comprised the training set and 700 the test set.</jats:p>\n                  <jats:p>The models demonstrated excellent discrimination, with a test set AUC (95% CI) of 0.79 (0.75, 0.83) for Hospitalization+, 0.88 (0.82, 0.95) for ICU+, and 0.94 (0.89, 0.99) for Death. Age, comorbidities, corticosteroid use, and male gender were associated with higher risk of death, while use of biologic therapies was associated with a lower risk.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions and Relevance</jats:title>\n                  <jats:p>\n                    Prognostic models can effectively predict who is at higher risk for COVID-19-related adverse outcomes in a population of IBD patients. A free online risk calculator (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://covidibd.org/covid-19-risk-calculator/\">https://covidibd.org/covid-19-risk-calculator/</jats:ext-link>\n                    ) is available for healthcare providers to facilitate discussion of risks due to COVID-19 with IBD patients. The tool numerically and visually summarizes the patient\u2019s probabilities of adverse outcomes and associated CIs. Helping physicians identify their highest-risk patients will be important in the coming months as cases rise in the US and worldwide. This tool can also serve as a model for risk stratification in other chronic diseases.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key Points</jats:title>\n                  <jats:sec>\n                    <jats:title>Question</jats:title>\n                    <jats:p>How well can a multivariable risk model predict the risk of hospitalization, intensive care unit (ICU) stay, or death due to COVID-19 in patients with inflammatory bowel disease (IBD)?</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>\n                      Multivariable prediction models developed using data from an international voluntary registry of IBD patients and available for use online (\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://covidibd.org/\">https://covidibd.org/</jats:ext-link>\n                      ) have very good discrimination for predicting hospitalization (Test set AUC 0.79) and excellent discrimination for ICU admission (Test set AUC 0.88) and death (Test set AUC 0.94). The models were developed with a training sample of 2009 cases and validated in an independent test sample of 700 cases comprised of a random sub-sample of cases and all cases entered in the registry during a one-month period after model development.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Meaning</jats:title>\n                    <jats:p>This risk prediction model may serve as an effective tool for healthcare providers to facilitate conversations about COVID-19-related risks with IBD patients.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.15.21249889",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ],
+      "date-time": "2021-01-20T14:37:50Z",
+      "timestamp": 1611153470000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Development and validation of multivariable prediction models for adverse COVID-19 outcomes in IBD patients"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2273-5353",
+        "authenticated-orcid": false,
+        "given": "John",
+        "family": "Sperger",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Kushal S.",
+        "family": "Shah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Minxin",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan C.",
+        "family": "Ungaro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Erica J.",
+        "family": "Brenner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Manasi",
+        "family": "Agrawal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jean-Frederic",
+        "family": "Colombel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael D.",
+        "family": "Kappelman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael R.",
+        "family": "Kosorok",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/CIR.0000000000000638"
+      },
+      {
+        "issue": "10080",
+        "key": "2021012212150635000_2021.01.15.21249889v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1741",
+        "DOI": "10.1016/S0140-6736(16)31711-1",
+        "article-title": "Crohn\u2019s disease",
+        "volume": "389",
+        "year": "2017",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(16)32126-2"
+      },
+      {
+        "issue": "1",
+        "key": "2021012212150635000_2021.01.15.21249889v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58",
+        "year": "1996",
+        "journal-title": "Journal of the Royal Statistical Society: Series B (Methodological)"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.5",
+        "unstructured": "World Health Organization. WHO Coronavirus Disease (COVID-19) Dashboard. Accessed November 1, 2020. https://covid19.who.int"
+      },
+      {
+        "issue": "14",
+        "key": "2021012212150635000_2021.01.15.21249889v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "5171",
+        "DOI": "10.3390/ijerph17145171",
+        "article-title": "Baseline chronic comorbidity and mortality in laboratory-confirmed COVID-19 cases: Results from the PRECOVID study in Spain",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "International journal of environmental research and public health"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2521-4"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dun C , Walsh C , Bae S , et al. A Machine Learning Study of 534,023 Medicare Beneficiaries with COVID-19: Implications for Personalized Risk Prediction. medRxiv. Published online 2020.",
+        "DOI": "10.1101/2020.10.27.20220970"
+      },
+      {
+        "issue": "8",
+        "key": "2021012212150635000_2021.01.15.21249889v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0237419",
+        "DOI": "10.1371/journal.pone.0237419",
+        "article-title": "Development and validation of a model for individualized prediction of hospitalization risk in 4,536 patients with COVID-19",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2147/JIR.S65979"
+      },
+      {
+        "issue": "7",
+        "key": "2021012212150635000_2021.01.15.21249889v1.11",
+        "first-page": "415",
+        "article-title": "The Use of Complementary and Alternative Medicine in Patients With Inflammatory Bowel Disease",
+        "volume": "14",
+        "year": "2018",
+        "journal-title": "Gastroenterol Hepatol (N Y)"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M14-0698"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1053/j.gastro.2020.04.002"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1053/j.gastro.2020.05.032"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.0040297"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2291635"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Buuren S , Groothuis-Oudshoorn K. mice: Multivariate imputation by chained equations in R. Journal of statistical software. Published online 2010:1-68.",
+        "DOI": "10.18637/jss.v045.i03"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hastie T , Tibshirani R , Wainwright M. Statistical Learning with Sparsity: The Lasso and Generalizations. CRC press; 2015.",
+        "DOI": "10.1201/b18401"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2007.00627.x"
+      },
+      {
+        "issue": "2",
+        "key": "2021012212150635000_2021.01.15.21249889v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1080/10618600.2012.681250",
+        "article-title": "A sparse-group lasso",
+        "volume": "22",
+        "year": "2013",
+        "journal-title": "Journal of computational and graphical statistics"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Efron B , Tibshirani R. Bootstrap methods for standard errors, confidence intervals, and other measures of statistical accuracy. Statistical science. Published online 1986:54\u201375.",
+        "DOI": "10.1214/ss/1177013815"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.23",
+        "unstructured": "Team RC. R: A Language and Environment for Statistical Computing. Vienna, Austria; 2013."
+      },
+      {
+        "issue": "43",
+        "key": "2021012212150635000_2021.01.15.21249889v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1686",
+        "DOI": "10.21105/joss.01686",
+        "article-title": "Welcome to the Tidyverse",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "Journal of Open Source Software"
+      },
+      {
+        "issue": "1",
+        "key": "2021012212150635000_2021.01.15.21249889v1.25",
+        "first-page": "1",
+        "article-title": "Regularization paths for generalized linear models via coordinate descent",
+        "volume": "33",
+        "year": "2010",
+        "journal-title": "Journal of statistical software"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.26",
+        "unstructured": "Microsoft, Ooi H. GlmnetUtils: Utilities for \u201cGlmnet.\u201d; 2020. Accessed December 4, 2020. https://CRAN.R-project.org/package=glmnetUtils"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.27",
+        "unstructured": "Milton Bache S , Wickham H , Henry L , RStudio. Magrittr: A Forward-Pipe Operator for R.; 2020. Accessed December 4, 2020. https://CRAN.R-project.org/package=magrittr"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.28",
+        "unstructured": "Bengtsson H. Future: Unified Parallel and Distributed Processing in R for Everyone.; 2020. Accessed November 5, 2020. https://CRAN.R-project.org/package=future"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.29",
+        "unstructured": "Robin X , Turck N , Hainard A , et al. PROC: Display and Analyze ROC Curves.; 2020. Accessed September 5, 2020. https://CRAN.R-project.org/package=pROC"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.30",
+        "unstructured": "Chang W , Cheng J , Allaire JJ , et al. Shiny: Web Application Framework for R.; 2020. Accessed December 5, 2020. https://CRAN.R-project.org/package=shiny"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim L , Garg S , O\u2019Halloran A , et al. Risk factors for intensive care unit admission and in-hospital mortality among hospitalized adults identified through the US coronavirus disease 2019 (COVID-19)-associated hospitalization surveillance network (COVID-NET). Clinical Infectious Diseases. Published online 2020.",
+        "DOI": "10.1093/cid/ciaa1012"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/gutjnl-2020-322539"
+      },
+      {
+        "key": "2021012212150635000_2021.01.15.21249889v1.33",
+        "unstructured": "Hern\u00e1n MA , Robins JM . Chapter 1 A Definition of Causal Effect. In: Causal Inference: What If.; 2020:311."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.15.21249889",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:03:25Z",
+      "timestamp": 1768485805000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.15.21249889"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.1101/2021.01.15.21249889",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1136/bmjopen-2021-049740",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

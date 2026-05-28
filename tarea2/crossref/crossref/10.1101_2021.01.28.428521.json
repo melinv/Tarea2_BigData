@@ -1,0 +1,407 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:31:10Z",
+      "timestamp": 1768494670470,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          28
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              28
+            ]
+          ],
+          "date-time": "2021-01-28T00:00:00Z",
+          "timestamp": 1611792000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Biochemical phenotypes are major indexes for protein structure and function characterization. They are determined, at least in part, by the intrinsic physicochemical properties of amino acids and may be reflected in the protein three-dimensional structure. Modeling mutational effects on biochemical phenotypes is a critical step for understanding protein function and disease mechanism as well as enabling drug discovery. Deep Mutational Scanning (DMS) experiments have been performed on SARS-CoV-2\u2019s spike receptor binding domain and the human ACE2 zinc-binding peptidase domain \u2013 both central players in viral infection and evolution and antibody evasion - quantifying how mutations impact binding affinity and protein expression. Here, we modeled biochemical phenotypes from massively parallel assays, using convolutional neural networks trained on protein sequence mutations in the virus and human host. We found that neural networks are significantly predictive of binding affinity, protein expression, and antibody escape, learning complex interactions and higher-order features that are difficult to capture with conventional methods from structural biology. Integrating the intrinsic physicochemical properties of amino acids, including hydrophobicity, solvent-accessible surface area, and long-range non-bonded energy per atom, significantly improved prediction (empirical p&lt;0.01) though there was such a strong dependence on the sequence data alone to yield reasonably good prediction. We observed concordance of the DMS data and our neural network predictions with an independent study on intermolecular interactions from molecular dynamics (multiple 500 ns or 1 \u03bcs all-atom) simulations of the spike protein-ACE2 interface, with critical implications for the use of deep learning to dissect molecular mechanisms. The mutation- or genetically-determined component of a biochemical phenotype estimated from the neural networks has improved causal inference properties relative to the original phenotype and can facilitate crucial insights into disease pathophysiology and therapeutic design.</jats:p>",
+    "DOI": "10.1101/2021.01.28.428521",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2021-01-28T17:20:34Z",
+      "timestamp": 1611854434000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Modeling mutational effects on biochemical phenotypes using convolutional neural networks: application to SARS-CoV-2"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Bo",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4204-8734",
+        "authenticated-orcid": false,
+        "given": "Eric R.",
+        "family": "Gamazon",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-020-05985-9"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1038/s41586-020-2180-5",
+        "article-title": "Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor",
+        "volume": "581",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc0870"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "5143",
+        "DOI": "10.1021/acsnano.0c02857",
+        "article-title": "Computational Design of ACE2-Based Peptide Inhibitors of SARS-CoV-2",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.6",
+        "first-page": "1",
+        "article-title": "Deep mutagenesis in the study of COVID-19: a technical overview for the proteomics community",
+        "volume": "0",
+        "year": "2020",
+        "journal-title": "Expert Rev. Proteomics"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1295",
+        "DOI": "10.1016/j.cell.2020.08.012",
+        "article-title": "Deep Mutational Scanning of SARS-CoV-2 Receptor Binding Domain Reveals Constraints on Folding and ACE2 Binding",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008450",
+        "DOI": "10.1371/journal.pcbi.1008450",
+        "article-title": "In silico mutagenesis of human ACE2 with S protein and translational efficiency explain SARS-CoV-2 infectivity in different species",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Comput. Biol."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.1016/j.biochi.2020.11.004",
+        "article-title": "Molecular docking simulation reveals ACE2 polymorphisms that may increase the affinity of ACE2 with the SARS-CoV-2 Spike protein",
+        "volume": "180",
+        "year": "2021",
+        "journal-title": "Biochimie"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1580",
+        "DOI": "10.1002/jmv.25832",
+        "article-title": "Structural variations in human ACE2 may influence its binding with SARS-CoV-2 spike protein",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "J. Med. Virol."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "6397",
+        "DOI": "10.1038/s41467-020-19996-z",
+        "article-title": "Genetic architecture of host proteins involved in SARS-CoV-2 infection",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.1492"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.3027"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "575",
+        "DOI": "10.1016/j.tibs.2019.01.003",
+        "article-title": "Biophysical and Mechanistic Models for Disease-Causing Protein Variants",
+        "volume": "44",
+        "year": "2019",
+        "journal-title": "Trends Biochem. Sci."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20156651"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.10.25.353946"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008291",
+        "DOI": "10.1371/journal.pcbi.1008291",
+        "article-title": "Predicting changes in protein thermodynamic stability upon point mutation with deep 3D convolutional neural networks",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Comput. Biol."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.09.17.301861"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2020.11.007"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gch2.1018"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.21",
+        "first-page": "30494",
+        "article-title": "GISAID: Global initiative on sharing all influenza data \u2013 from vision to reality",
+        "volume": "22",
+        "year": "2017",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature17995"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.cels.2017.11.003",
+        "article-title": "Quantitative Missense Variant Effect Prediction Using Large-Scale Mutagenesis Data",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Cell Syst."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.24",
+        "unstructured": "McInnes, L. , Healy, J. & Melville, J. UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. ArXiv180203426 Cs Stat (2020)."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Addetia, A. et al. Neutralizing Antibodies Correlate with Protection from SARS-CoV-2 in Humans during a Fishery Vessel Outbreak with a High Attack Rate. J. Clin. Microbiol. 58, (2020).",
+        "DOI": "10.1128/JCM.02107-20"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.0030161"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1002425107"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "14214",
+        "DOI": "10.1038/s41598-020-71188-3",
+        "article-title": "Dynamics of the ACE2\u2013SARS-CoV-2/SARS-CoV spike protein interface reveal unique mechanisms",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd0827"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abf9302"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd0831"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe8499"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.27124"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.34",
+        "unstructured": "Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK defined by a novel set of spike mutations. Virological https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563 (2020)."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkm998"
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.36",
+        "first-page": "265",
+        "article-title": "The topology of compact convergence on continuous function spaces",
+        "volume": "25",
+        "year": "1958",
+        "journal-title": "Duke Math. J."
+      },
+      {
+        "key": "2024080511465034000_2021.01.28.428521v3.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2010.04.018"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.28.428521",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:17:27Z",
+      "timestamp": 1768439847000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.01.28.428521"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          28
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2021.01.28.428521",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

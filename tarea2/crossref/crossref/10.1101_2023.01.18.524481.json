@@ -1,0 +1,314 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:28:57Z",
+      "timestamp": 1768505337618,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 24,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The advances of single-cell transcriptomic technologies have led to increasing use of single-cell RNA sequencing (scRNA-seq) data in large-scale patient cohort studies. The resulting high-dimensional data can be summarised and incorporated into patient outcome prediction models in several ways, however, there is a pressing need to understand the impact of analytical decisions on such model quality. In this study, we evaluate the impact of analytical choices on model choices, ensemble learning strategies and integration approaches on patient outcome prediction using five scRNA-seq COVID-19 datasets. First, we examine the difference in performance between using each single-view feature space versus multi-view feature space. Next, we survey multiple learning platforms from classical machine learning to modern deep learning methods. Lastly, we compare different integration approaches when combining datasets is necessary. Through benchmarking such analytical combinations, our study highlights the power of ensemble learning, consistency among different learning methods and robustness to dataset normalisation when using multiple datasets as the model input.</jats:p>\n                <jats:sec>\n                  <jats:title>Summary key points</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>This work assesses and compares the performance of three categories of workflow consisting of 350 analytical combinations for outcome prediction using multi-sample, multi-conditions single-cell studies.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We observed that using ensemble of feature types performs better than using individual feature type</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We found that in the current data, all learning approaches including deep learning exhibit similar predictive performance. When combining multiple datasets as the input, our study found that integrating multiple datasets at the cell level performs similarly to simply concatenating the patient representation without modification.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2023.01.18.524481",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2023-01-18T17:15:20Z",
+      "timestamp": 1674062120000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Benchmarking of analytical combinations for COVID-19 outcome prediction using single-cell RNA sequencing data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2356-4031",
+        "authenticated-orcid": false,
+        "given": "Yue",
+        "family": "Cao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7861-6997",
+        "authenticated-orcid": false,
+        "given": "Shila",
+        "family": "Ghazanfar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1098-3138",
+        "authenticated-orcid": false,
+        "given": "Pengyi",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5271-2603",
+        "authenticated-orcid": false,
+        "given": "Jean",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Svensson V , da Veiga Beltrame E , Pachter L. A curated database reveals trends in single-cell transcriptomics. Database 2020; 2020:",
+        "DOI": "10.1093/database/baaa073"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-021-02519-4"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2765",
+        "DOI": "10.1093/bioinformatics/btac171",
+        "article-title": "BSDE: barycenter single-cell differential expression for case\u2013control studies",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1186/s13059-021-02544-3",
+        "article-title": "Feature selection revisited in the single-cell era",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "Genome Biol"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.omto.2021.04.001"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18632/oncotarget.17893"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.7",
+        "first-page": "71",
+        "article-title": "Deciphering cell\u2013cell interactions and communication from gene expression",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Nat. Rev. Genet"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao Y , Lin Y , Patrick E , et al. scFeatures: Multi-view representations of single-cell and spatial data for disease outcome prediction. Bioinformatics 2022; btac590",
+        "DOI": "10.1101/2022.01.20.476845"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab337"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Millard N , Korsunsky I , Weinand K , et al. Maximizing statistical power to detect differentially abundant cell states with scPOST. Cell Rep Methods 2021; 1:",
+        "DOI": "10.2139/ssrn.3828194"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao J , Jaffe A , Li H , et al. Detection of differentially abundant cell subpopulations in scRNA-seq data. Proc. Natl. Acad. Sci. U. S. A. 2021; 118:",
+        "DOI": "10.1073/pnas.2100293118"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1907373117"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/157489310794072508"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0245230",
+        "DOI": "10.1371/journal.pone.0245230",
+        "article-title": "Multi-view classification with convolutional neural networks",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "500",
+        "DOI": "10.1038/s42256-020-0217-y",
+        "article-title": "Ensemble deep learning in bioinformatics",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v028.i05"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2931"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.19",
+        "first-page": "41",
+        "article-title": "Benchmarking atlas-level data integration in single-cell genomics",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.20",
+        "unstructured": "COvid-19 Multi-omics Blood ATlas (COMBAT) Consortium, Ahern DJ , Ai Z , et al. A blood atlas of COVID-19 defines hallmarks of disease severity and specificity. bioRxiv 2021;"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.10.023"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1419",
+        "DOI": "10.1016/j.cell.2020.08.001",
+        "article-title": "Severe COVID-19 Is Marked by a Dysregulated Myeloid Cell Compartment",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01329-2"
+      },
+      {
+        "key": "2023012010151943000_2023.01.18.524481v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilk AJ , Lee MJ , Wei B , et al. Multi-omic profiling reveals widespread dysregulation of innate immunity and hematopoiesis in COVID-19. J. Exp. Med. 2021; 218:",
+        "DOI": "10.1101/2020.12.18.423363"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.18.524481",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:08:43Z",
+      "timestamp": 1768450123000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.18.524481"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.1101/2023.01.18.524481",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

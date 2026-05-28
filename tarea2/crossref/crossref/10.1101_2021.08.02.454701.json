@@ -1,0 +1,284 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:25:07Z",
+      "timestamp": 1768494307951,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 16,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Analyzing B cell receptor (BCR) repertoires is immensely useful in evaluating one\u2019s immunological status. Conventionally, repertoire analysis methods have focused on comprehensive assessments of clonal compositions, including V(D)J segment usage, nucleotide insertions/deletions, and amino acid distributions. Here, we introduce a novel computational approach that applies deep-learning-based protein embedding techniques to analyze BCR repertoires. By selecting the most frequently occurring BCR sequences in a given repertoire and computing the sum of the vector representations of these sequences, we represent an entire repertoire as a 100-dimensional vector and eventually as a single data point in vector space. We demonstrate that this new approach enables us to not only accurately cluster BCR repertoires of coronavirus disease 2019 (COVID-19) patients and healthy subjects but also efficiently track minute changes in immune status over time as patients undergo treatment. Furthermore, using the distributed representations, we successfully trained an XGBoost classification model that achieved a mean accuracy rate of over 87% given a repertoire of CDR3 sequences.</jats:p>",
+    "DOI": "10.1101/2021.08.02.454701",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2021-08-02T20:25:56Z",
+      "timestamp": 1627935956000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Computational analysis of B cell receptor repertoires in COVID-19 patients using deep embedded representations of protein sequences"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Inyoung",
+        "family": "Kim",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sang Yoon",
+        "family": "Byun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sangyeup",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sangyoon",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jinsung",
+        "family": "Noh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junho",
+        "family": "Chung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Byung Gee",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3198",
+        "DOI": "10.1016/j.csbj.2021.05.039",
+        "article-title": "Representation learning applications in biological sequence analysis",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Computational and Structural Biotechnology Journal"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.2",
+        "unstructured": "Tomas Mikolov , Kai Chen , Greg Corrado , and Jeffrey Dean . Efficient estimation of word representations in vector space. arXiv, 2013."
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0141287"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.4",
+        "unstructured": "J. Punt , S. Stranford , P. Jones , and J.A. Owen . Kuby Immunology. Macmillan Learning, 2018. ISBN 9781319114756."
+      },
+      {
+        "issue": "4",
+        "key": "2021120103250777000_2021.08.02.454701v3.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "e21",
+        "DOI": "10.1093/nar/gkaa1160",
+        "article-title": "Alignment free identification of clones in b cell receptor repertoires",
+        "volume": "49",
+        "year": "2021",
+        "journal-title": "Nucleic acids research"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.6",
+        "first-page": "3283",
+        "article-title": "Deep sequencing of b cell receptor repertoires from covid-19 patients reveals strong convergent immune signatures",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sang Il Kim , Jinsung Noh , Sujeong Kim , Younggeun Choi , Duck Kyun Yoo , Yonghee Lee , Hyunho Lee , Jongtak Jung , Chang Kyung Kang , Kyoung-Ho Song , et al. Stereotypic neutralizing vh antibodies against sars-cov-2 spike protein receptor binding domain in patients with covid-19 and healthy individuals. Science translational medicine, 13(578), 2021.",
+        "DOI": "10.1126/scitranslmed.abd6990"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang Huang , Chunlin Wang , Florian Rubelt , Thomas J Scriba , and Mark M Davis . Analyzing the mycobacterium tuberculosis immune response by t-cell receptor clustering with gliph2 and genome-wide antigen screening. Nature biotechnology, pages 1\u20139, 2020.",
+        "DOI": "10.1038/s41587-020-0505-4"
+      },
+      {
+        "issue": "2",
+        "key": "2021120103250777000_2021.08.02.454701v3.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007636",
+        "DOI": "10.1371/journal.pcbi.1007636",
+        "article-title": "Structural diversity of b-cell receptor repertoires along the b-cell differentiation axis in humans and mice",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zachary Montague , Huibin Lv , Jakub Otwinowski , William S De-Witt , Giulio Isacchini , Garrick K Yip , Wilson W Ng , Owen Tak-Yin Tsang , Meng Yuan , Hejun Liu , et al. Dynamics of b-cell repertoires and emergence of cross-reactive responses in patients with different severities of covid-19. Cell Reports, page 109173, 2021.",
+        "DOI": "10.1016/j.celrep.2021.109173"
+      },
+      {
+        "issue": "2",
+        "key": "2021120103250777000_2021.08.02.454701v3.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "442",
+        "DOI": "10.1016/j.immuni.2020.06.024",
+        "article-title": "Next-generation sequencing of t and b cell receptor repertoires from covid-19 patients showed signatures associated with severity of disease",
+        "volume": "53",
+        "year": "2020",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1595-3"
+      },
+      {
+        "issue": "1",
+        "key": "2021120103250777000_2021.08.02.454701v3.13",
+        "first-page": "1",
+        "article-title": "Deeptcr is a deep learning framework for revealing sequence concepts within t-cell repertoires",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.14",
+        "unstructured": "Google Research. Kaggle pfam seed random split, 2019."
+      },
+      {
+        "issue": "8",
+        "key": "2021120103250777000_2021.08.02.454701v3.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2502",
+        "DOI": "10.4049/jimmunol.1800708",
+        "article-title": "Observed antibody space: a resource for data mining next-generation sequencing of antibody repertoires",
+        "volume": "201",
+        "year": "2018",
+        "journal-title": "The Journal of Immunology"
+      },
+      {
+        "key": "2021120103250777000_2021.08.02.454701v3.16",
+        "unstructured": "Inyoung Kim , Dongmin Kim , Sangyeup Kim , and Sang Yoon Byun . Bcr repertoire analysis using deep protein sequence embeddings. Proceedings of KCC2021, pages 618\u2013620, 2021."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.08.02.454701",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:01:15Z",
+      "timestamp": 1768442475000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.08.02.454701"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          2
+        ]
+      ]
+    },
+    "references-count": 16,
+    "URL": "https://doi.org/10.1101/2021.08.02.454701",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

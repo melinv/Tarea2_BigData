@@ -1,0 +1,395 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2026-04-21T08:38:32Z",
+      "timestamp": 1776760712822,
+      "version": "3.51.2"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              13
+            ]
+          ],
+          "date-time": "2020-09-13T00:00:00Z",
+          "timestamp": 1599955200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Advances in Nanopore single-molecule direct RNA sequencing (DRS) have presented the possibility of detecting comprehensive post-transcriptional modifications (PTMs) as an alternative to experimental approaches combined with high-throughput sequencing. It has been shown that the DRS method can detect the change in the raw electric current signal of a PTM; however, the accuracy and reliability still require improvement. Here, I present a new software program, named as nanoDoc, for detecting PTMs from DRS data using a deep neural network. Current signal deviations caused by PTMs are analyzed via Deep One-Class Classification with a convolutional neural network. Using a ribosomal RNA dataset, the software archive displayed an area under the curve (AUC) accuracy of 0.96 for detecting 23 different types of modifications in\n                  <jats:italic>Escherichia coli</jats:italic>\n                  and\n                  <jats:italic>Saccharomyces cerevisiae</jats:italic>\n                  . Furthermore, I demonstrated a tentative classification of PTMs using unsupervised clustering. Finally, I applied this software to severe acute respiratory syndrome coronavirus 2 data and identified commonly modified sites among three groups. nanoDoc is an open source software (GPLv3) available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/uedaLabR/nanoDoc\">https://github.com/uedaLabR/nanoDoc</jats:ext-link>\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>\n                    RNA post-transcriptional modifications (PTMs) is regulate multiple aspects of RNA function, including alternative splicing, export, stability, and translation, and the method to identify multiple types of PTMs is required for further advancement of this fields called \u2018epitranscriptomics\u2019. Nanopore singlemolecule direct RNA sequencing (DRS) can detect such PTMs, however the accuracy of the method needs to be improved. Detecting PTMs can be solved as a One-Class Classification problem, which is widely used in machine learning fields. Thus, a novel software named \u2018nanoDoc\u2019 for detecting PTMs was developed. The nanoDoc use convolutional neural network to extract the feature signal from nanopore sequencer and Deep One-Class Classification to detect PTMs as an anomaly. The software archive displayed an area under the curve (AUC) accuracy of 0.96 for detecting 23 different types of modifications in\n                    <jats:italic>Escherichia coli</jats:italic>\n                    and\n                    <jats:italic>Saccharomyces cerevisiae.</jats:italic>\n                    This software is applicable to different samples, and tested on severe acute respiratory syndrome coronavirus 2, and human transcript data as well.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.09.13.295089",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ],
+      "date-time": "2020-09-13T23:10:11Z",
+      "timestamp": 1600038611000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "nanoDoc: RNA modification detection using Nanopore raw reads with Deep One-Class Classification"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9135-7117",
+        "authenticated-orcid": false,
+        "given": "Hiroki",
+        "family": "Ueda",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williams GD , Gokhale NS , Horner SM. Regulation of Viral Infection by the RNA Modification N6-Methyladenosine. Annu Rev Virol 2019. https://doi.org/10.1146/annurev-virology-092818-015559.",
+        "DOI": "10.1146/annurev-virology-092818-015559"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia G , Fu Y , Zhao X , Dai Q , Zheng G , Yang Y , et al. N6-Methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO. Nat Chem Biol 2011. https://doi.org/10.1038/nchembio.687.",
+        "DOI": "10.1038/nchembio.687"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sakurai M , Yano T , Kawabata H , Ueda H , Suzuki T. Inosine cyanoethylation identifies A-to-I RNA editing sites in the human transcriptome. Nat Chem Biol 2010. https://doi.org/10.1038/nchembio.434.",
+        "DOI": "10.1038/nchembio.434"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sakurai M , Ueda H , Yano T , Okada S , Terajima H , Mitsuyama T , et al. A biochemical landscape of A-to-I RNA editing in the human brain transcriptome. Genome Res 2014. https://doi.org/10.1101/gr.162537.113.",
+        "DOI": "10.1101/gr.162537.113"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schwartz S , Bernstein DA , Mumbach MR , Jovanovic M , Herbst RH , Le\u00f3n-Ricardo BX , et al. Transcriptome-wide mapping reveals widespread dynamic-regulated pseudouridylation of ncRNA and mRNA. Cell 2014. https://doi.org/10.1016/j.cell.2014.08.028.",
+        "DOI": "10.1016/j.cell.2014.08.028"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bakin A , Ofengand J. Four Newly Located Pseudouridylate Residues in Escherichia coli 23S Ribosomal RNA Are All at the Peptidyltransferase Center: Analysis by the Application of a New Sequencing Technique. Biochemistry 1993. https://doi.org/10.1021/bi00088a030.",
+        "DOI": "10.1021/bi00088a030"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Suzuki T , Ueda H , Okada S , Sakurai M. Transcriptome-wide identification of adenosine-to-inosine editing using the ICE-seq method. Nat Protoc 2015. https://doi.org/10.1038/nprot.2015.037.",
+        "DOI": "10.1038/nprot.2015.037"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meyer KD , Saletore Y , Zumbo P , Elemento O , Mason CE , Jaffrey SR. Comprehensive analysis of mRNA methylation reveals enrichment in 3\u2019 UTRs and near stop codons. Cell 2012. https://doi.org/10.1016/j.cell.2012.05.003.",
+        "DOI": "10.1016/j.cell.2012.05.003"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dominissini D , Moshitch-Moshkovitz S , Schwartz S , Salmon-Divon M , Ungar L , Osenberg S , et al. Topology of the human and mouse m6A RNA methylomes revealed by m6A-seq. Nature 2012. https://doi.org/10.1038/nature11112.",
+        "DOI": "10.1038/nature11112"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith AM , Jain M , Mulroney L , Garalde DR , Akeson M. Reading canonical and modified nucleobases in 16S ribosomal RNA using nanopore native RNA sequencing. PLoS One 2019. https://doi.org/10.1371/journal.pone.0216709.",
+        "DOI": "10.1371/journal.pone.0216709"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Workman RE , Tang AD , Tang PS , Jain M , Tyson JR , Razaghi R , et al. Nanopore native RNA sequencing of a human poly(A) transcriptome. Nat Methods 2019. https://doi.org/10.1038/s41592-019-0617-2.",
+        "DOI": "10.1038/s41592-019-0617-2"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ni P , Huang N , Zhang Z , Wang DP , Liang F , Miao Y , et al. DeepSignal: Detecting DNA methylation state from Nanopore sequencing reads using deep-learning. Bioinformatics 2019. https://doi.org/10.1093/bioinformatics/btz276.",
+        "DOI": "10.1101/385849"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu Q , Fang L , Yu G , Wang D , Xiao C Le , Wang K. Detection of DNA base modifications by deep recurrent neural network on Oxford Nanopore sequencing data. Nat Commun 2019. https://doi.org/10.1038/s41467-019-10168-2.",
+        "DOI": "10.1038/s41467-019-10168-2"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu H , Begik O , Lucas MC , Ramirez JM , Mason CE , Wiener D , et al. Accurate detection of m6A RNA modifications in native RNA sequences. Nat Commun 2019. https://doi.org/10.1038/s41467-019-11713-9.",
+        "DOI": "10.1101/525741"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jenjaroenpun P , Wongsurawat T , Wadley TD , Wassenaar TM , Liu J , Dai Q , et al. Decoding the epitranscriptional landscape from native RNA sequences. Nucleic Acids Res 2020. https://doi.org/10.1093/nar/gkaa620.",
+        "DOI": "10.1093/nar/gkaa620"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Loman NJ , Quick J , Simpson JT. A complete bacterial genome assembled de novo using only nanopore sequencing data. Nat Methods 2015. https://doi.org/10.1038/nmeth.3444.",
+        "DOI": "10.1101/015552"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stoiber M , Quick J , Egan R , Eun Lee J , Celniker S , Neely R , et al. De novo Identification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing 2016:094672. https://doi.org/10.1101/094672.",
+        "DOI": "10.1101/094672"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.18",
+        "unstructured": "GitHub - nanoporetech/taiyaki: Training models for basecalling Oxford Nanopore reads n.d. https://github.com/nanoporetech/taiyaki (accessed August 31, 2020)."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.19",
+        "unstructured": "GitHub - nanoporetech/tombo: Tombo is a suite of tools primarily for the identification of modified nucleotides from raw nanopore sequencing data. n.d. https://github.com/nanoporetech/tombo (accessed August 31, 2020)."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stephenson W , Razaghi R , Busan S , Weeks KM , Timp W , Smibert P. Direct detection of RNA modifications and structure using single molecule nanopore sequencing. BioRxiv 2020. https://doi.org/10.1101/2020.05.31.126763.",
+        "DOI": "10.1101/2020.05.31.126763"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perera P , Patel VM. Learning Deep Features for One-Class Classification. IEEE Trans Image Process 2019. https://doi.org/10.1109/TIP.2019.2917862.",
+        "DOI": "10.1109/TIP.2019.2917862"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wick RR , Judd LM , Holt KE. Deepbinner: Demultiplexing barcoded Oxford Nanopore reads with deep convolutional neural networks. PLoS Comput Biol 2018. https://doi.org/10.1371/journal.pcbi.1006583.",
+        "DOI": "10.1101/366526"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.23",
+        "unstructured": "GitHub - nanoporetech/rerio: Research release basecalling models and configurations n.d. https://github.com/nanoporetech/rerio (accessed August 31, 2020)."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.24",
+        "unstructured": "GitHub - nanoporetech/ont_fast5_api: Oxford Nanopore Technologies fast5 API software n.d. https://github.com/nanoporetech/ont_fast5_api (accessed August 31, 2020)."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li H. Minimap2: Pairwise alignment for nucleotide sequences. Bioinformatics 2018. https://doi.org/10.1093/bioinformatics/bty191.",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.26",
+        "unstructured": "Apache Parquet n.d. https://parquet.apache.org/ (accessed September 2, 2020)."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim D , Lee JY , Yang JS , Kim JW , Kim VN , Chang H. The Architecture of SARS-CoV-2 Transcriptome. Cell 2020. https://doi.org/10.1016/j.cell.2020.04.011.",
+        "DOI": "10.1101/2020.03.12.988865"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.28",
+        "unstructured": "RStudio. Keras. R Cheat Sheet 2017."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.29",
+        "unstructured": "Abadi M , Barham P , Chen J , Chen Z , Davis A , Dean J , et al. TensorFlow: A system for large-scale machine learning. Proc. 12th USENIX Symp. Oper. Syst. Des. Implementation, OSDI 2016, 2016."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.30",
+        "unstructured": "Iandola FN , Moskewicz MW , Ashraf K , Han S , Dally WJ , Keutzer K. SqueezeNet. ArXiv 2016."
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaidya PM. An O(n log n) algorithm for the all-nearest-neighbors Problem. Discrete Comput Geom 1989. https://doi.org/10.1007/BF02187718.",
+        "DOI": "10.1007/BF02187718"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnson J , Douze M , Jegou H. Billion-scale similarity search with GPUs. IEEE Trans Big Data 2019. https://doi.org/10.1109/tbdata.2019.2921572.",
+        "DOI": "10.1109/TBDATA.2019.2921572"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McInnes L , Healy J , Saul N , Gro\u00dfberger L. UMAP: Uniform Manifold Approximation and Projection. J Open Source Softw 2018. https://doi.org/10.21105/joss.00861.",
+        "DOI": "10.21105/joss.00861"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang J , Sharma S , Watzinger P , Hartmann JD , K\u00f6tter P , Entian KD. Mapping of complete set of ribose and base modifications of yeast rRNA by RP-HPLC and mung bean nuclease assay. PLoS One 2016. https://doi.org/10.1371/journal.pone.0168873.",
+        "DOI": "10.1371/journal.pone.0168873"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sloan KE , Warda AS , Sharma S , Entian KD , Lafontaine DLJ , Bohnsack MT. Tuning the ribosome: The influence of rRNA modification on eukaryotic ribosome biogenesis and function. RNA Biol 2017. https://doi.org/10.1080/15476286.2016.1259781.",
+        "DOI": "10.1080/15476286.2016.1259781"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taiaroa G , Rawlinson D , Featherstone L , Pitt M , Caly L , Druce J , et al. Direct RNA sequencing and early evolution of SARS-CoV-2 2020. https://doi.org/10.1101/2020.03.05.976167.",
+        "DOI": "10.1101/2020.03.05.976167"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davidson AD , Williamson MK , Lewis S , Shoemark D , Carroll MW , Heesom KJ , et al. Characterisation of the transcriptome and proteome of SARS-CoV-2 reveals a cell passage induced in-frame deletion of the furin-like cleavage site from the spike glycoprotein. Genome Med 2020. https://doi.org/10.1186/s13073-020-00763-0.",
+        "DOI": "10.1186/s13073-020-00763-0"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Viehweger A , Krautwurst S , Lamkiewicz K , Madhugiri R , Ziebuhr J , H\u00f6lzer M , et al. Direct RNA nanopore sequencing of full-length coronavirus genomes provides novel insights into structural variants and enables modification analysis. Genome Res 2019. https://doi.org/10.1101/gr.247064.118.",
+        "DOI": "10.1101/483693"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crooks GE , Hon G , Chandonia JM , Brenner SE. WebLogo: A sequence logo generator. Genome Res 2004. https://doi.org/10.1101/gr.849004.",
+        "DOI": "10.1101/gr.849004"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Giorgio S Di , Martignano F , Torcia MG , Mattiuz G , Conticello SG. Evidence for host-dependent RNA editing in the transcriptome of SARS-CoV-2. Sci Adv 2020. https://doi.org/10.1126/sciadv.abb5813.",
+        "DOI": "10.1126/sciadv.abb5813"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zheng G , Dahl JA , Niu Y , Fedorcsak P , Huang CM , Li CJ , et al. ALKBH5 Is a Mammalian RNA Demethylase that Impacts RNA Metabolism and Mouse Fertility. Mol Cell 2013. https://doi.org/10.1016/j.molcel.2012.10.015.",
+        "DOI": "10.1016/j.molcel.2012.10.015"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang Y , Chen K , Song B , Ma J , Wu X , Xu Q , et al. M6A-Atlas: A comprehensive knowledgebase for unraveling the N6-methyladenosine (m6A) epitranscriptome. Nucleic Acids Res 2021. https://doi.org/10.1093/nar/gkaa692.",
+        "DOI": "10.1093/nar/gkaa692"
+      },
+      {
+        "key": "2024080415524274000_2020.09.13.295089v2.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu N , Parisien M , Dai Q , Zheng G , He C , Pan T. Probing N6-methyladenosine RNA modification status at single nucleotide resolution in mRNA and long noncoding RNA. RNA 2013. https://doi.org/10.1261/rna.041178.113.",
+        "DOI": "10.1261/rna.041178.113"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.13.295089",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:50:17Z",
+      "timestamp": 1768438217000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.09.13.295089"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2020.09.13.295089",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

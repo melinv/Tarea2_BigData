@@ -1,0 +1,388 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:03:35Z",
+      "timestamp": 1768503815138,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          13
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Tiled amplicon sequencing has served as an essential tool for tracking the spread and evolution of pathogens. Over 2 million complete SARS-CoV-2 genomes are now publicly available, most sequenced and assembled via tiled amplicon sequencing. While computational tools for tiled amplicon design exist, they require downstream manual optimization both computationally and experimentally, which is slow and costly. Here we present Olivar, a first step towards a fully automated, variant-aware design of tiled amplicons for pathogen genomes. Olivar converts each nucleotide of the target genome into a numeric risk score, capturing undesired sequence features that should be avoided. In a direct comparison with PrimalScheme, we show that Olivar has fewer SNPs overlapping with primers and predicted PCR byproducts. We also compared Olivar head-to-head with ARTIC v4.1, the most widely used primer set for SARS-CoV-2 sequencing, and show Olivar yields similar read mapping rates (\u223c90%) and better coverage to the manually designed ARTIC v4.1 amplicons. We also evaluated Olivar on real wastewater samples and found that Olivar had up to 3-fold higher mapping rates while retaining similar coverage. In summary, Olivar automates and accelerates the generation of tiled amplicons, even in situations of high mutation frequency and/or density. Olivar is available as a web application at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://olivar.rice.edu\">https://olivar.rice.edu</jats:ext-link>\n                  . Olivar can also be installed locally as a command line tool with Bioconda. Source code, installation guide and usage are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/treangenlab/Olivar\">https://github.com/treangenlab/Olivar</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2023.02.11.528155",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2023-02-13T17:05:21Z",
+      "timestamp": 1676307921000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Olivar: automated variant aware primer design for multiplex tiled amplicon sequencing of pathogens"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7009-6958",
+        "authenticated-orcid": false,
+        "given": "Michael X.",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7230-6517",
+        "authenticated-orcid": false,
+        "given": "Esther G.",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0736-5075",
+        "authenticated-orcid": false,
+        "given": "Nicolae",
+        "family": "Sapoval",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3770-6838",
+        "authenticated-orcid": false,
+        "given": "Eddie",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8255-3623",
+        "authenticated-orcid": false,
+        "given": "Prashant",
+        "family": "Kalvapalle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2946-6915",
+        "authenticated-orcid": false,
+        "given": "Bryce",
+        "family": "Kille",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3945-0661",
+        "authenticated-orcid": false,
+        "given": "R. A.",
+        "family": "Leo Elworth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2657-1816",
+        "authenticated-orcid": false,
+        "given": "Yunxi",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7721-7027",
+        "authenticated-orcid": false,
+        "given": "Yilei",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7469-1981",
+        "authenticated-orcid": false,
+        "given": "Lauren B.",
+        "family": "Stadler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3760-564X",
+        "authenticated-orcid": false,
+        "given": "Todd J.",
+        "family": "Treangen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "468",
+        "DOI": "10.1016/j.mib.2013.05.001",
+        "article-title": "Viral pathogen discovery",
+        "volume": "16",
+        "year": "2013",
+        "journal-title": "Curr. opinion microbiology"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature22402"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.3",
+        "unstructured": "Kousathanas, A. et al. Whole genome sequencing reveals host factors underlying critical covid-19. Nature 1\u201310 (2022)."
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1038/nprot.2017.066",
+        "article-title": "Multiplex pcr method for minion and illumina sequencing of zika and other virus genomes directly from clinical samples",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "Nat. protocols"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-018-0006-x"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "155059",
+        "DOI": "10.1016/j.scitotenv.2022.155059",
+        "article-title": "Direct comparison of rt-ddpcr and targeted amplicon sequencing for sars-cov-2 mutation monitoring in wastewater",
+        "volume": "833",
+        "year": "2022",
+        "journal-title": "Sci. The Total. Environ"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/humu.22825"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-020-6490-7"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/CCDCW2021.255"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkm1000"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-31674-w"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.12",
+        "unstructured": "Wilkinson, S. Erroneous mutations associated with 64_l-60_r primer-dimer in artic 4/4.1 \u2014 community.artic.network. https://community.artic.network/t/erroneous-mutations-associated-with-64-l-60-r-primer-dimer-in-artic-4-4-1/419/1 (2022). x[Accessed 17-Jan-2023]."
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.13",
+        "first-page": "e01803",
+        "article-title": "Analysis of the artic version 3 and version 4 sars-cov-2 primers and their impact on the detection of the g142d amino acid substitution in the spike protein",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Microbiol. spectrum"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0239403"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkq485"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-1452-4"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tyson, J. R. et al. Improvements to the artic multiplex pcr method for sars-cov-2 genome sequencing using nanopore. BioRxiv (2020).",
+        "DOI": "10.1101/2020.09.04.283077"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.18",
+        "first-page": "1",
+        "article-title": "A deep learning model for predicting next-generation sequencing depth from dna sequence",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nat. communications"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.19"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.20",
+        "first-page": "1",
+        "article-title": "Detection and characterization of the sars-cov-2 lineage b. 1.526 in new york",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nat. communications"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0181062"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-31674-w"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3329"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2014-15-1-r1"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-10-1"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-13-1"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117043"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.1923"
+      },
+      {
+        "key": "2023100508100635000_2023.02.11.528155v3.29",
+        "unstructured": "Gilman, P. et al. Pysam (python wrapper for system advisor model\u201d sam\u201d). Tech. Rep., National Renewable Energy Lab.(NREL), Golden, CO (United States) (2019)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.02.11.528155",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:16:02Z",
+      "timestamp": 1768450562000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.02.11.528155"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          13
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1101/2023.02.11.528155",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41467-024-49957-9",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

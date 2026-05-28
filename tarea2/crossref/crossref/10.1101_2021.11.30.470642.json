@@ -1,0 +1,404 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2026-01-17T11:17:35Z",
+      "timestamp": 1768648655640,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Genetic sequencing is subject to many different types of errors, but most analyses treat the resultant sequences as if they are known without error. Next generation sequencing methods rely on significantly larger numbers of reads than previous sequencing methods in exchange for a loss of accuracy in each individual read. Still, the coverage of such machines is imperfect and leaves uncertainty in many of the base calls. On top of this machine-level uncertainty, there is uncertainty induced by human error, such as errors in data entry or incorrect parameter settings. In this work, we demonstrate that the uncertainty in sequencing techniques will affect downstream analysis and propose a straightforward method to propagate the uncertainty.</jats:p>\n                <jats:p>Our method uses a probabilistic matrix representation of individual sequences which incorporates base quality scores as a measure of uncertainty that naturally lead to resampling and replication as a framework for uncertainty propagation. With the matrix representation, resampling possible base calls according to quality scores provides a bootstrap- or prior distribution-like first step towards genetic analysis. Analyses based on these re-sampled sequences will include a more complete evaluation of the error involved in such analyses.</jats:p>\n                <jats:p>We demonstrate our resampling method on SARS-CoV-2 data. The resampling procedures adds a linear computational cost to the analyses, but the large impact on the variance in downstream estimates makes it clear that ignoring this uncertainty may lead to overly confident conclusions. We show that SARS-CoV-2 lineage designations via Pangolin are much less certain than the bootstrap support reported by Pangolin would imply and the clock rate estimates for SARS-CoV-2 are much more variable than reported.</jats:p>",
+    "DOI": "10.1101/2021.11.30.470642",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          2
+        ]
+      ],
+      "date-time": "2021-12-02T16:50:10Z",
+      "timestamp": 1638463810000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Variance in Variants: Propagating Genome Sequence Uncertainty into Phylogenetic Lineage Assignment"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "David",
+        "family": "Champredon",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3796-3946",
+        "authenticated-orcid": false,
+        "given": "Devan",
+        "family": "Becker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Connor",
+        "family": "Chato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gopi",
+        "family": "Gugan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3779-154X",
+        "authenticated-orcid": false,
+        "given": "Art",
+        "family": "Poon",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "5",
+        "key": "2021120500350756000_2021.11.30.470642v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.1016/j.coviro.2011.07.008",
+        "article-title": "Ultra-deep sequencing for the analysis of viral populations",
+        "volume": "1",
+        "year": "2011",
+        "journal-title": "Current Opinion in Virology"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.070227.107"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choudhary, M. C. , Crain, C. R. , Qiu, X. , Hanage, W. , and Li, J. Z. (2021). Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Sequence Characteristics of Coronavirus Disease 2019 (COVID-19) Persistence and Reinfection. Clinical Infectious Diseases, (ciab380).",
+        "DOI": "10.1093/cid/ciab380"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp614"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.5",
+        "unstructured": "De Maio, N. , Walker, C. , Borges, R. , Weilguny, L. , Slodkowicz, G. , and Goldman, N. (2020). Issues with SARS-CoV-2 sequencing data. https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473, Accessed 2021-11-24."
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.806"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/ijs.0.63111-0"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Drummond, A. J. and Bouckaert, R. R. (2015). Bayesian Evolutionary Analysis with BEAST. Cambridge University Press.",
+        "DOI": "10.1017/CBO9781139095112"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duchene, S. , Featherstone, L. , Haritopoulou-Sinanidou, M. , Rambaut, A. , Lemey, P. , and Baele, G. (2020). Temporal signal and the phylodynamic threshold of SARS-CoV-2. Virus Evolution, 6(2).",
+        "DOI": "10.1093/ve/veaa061"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.10",
+        "unstructured": "European Centre for Disease Prevention and Control (2021). SARS-CoV-2 variants of concern as of 26 November 2021. https://www.ecdc.europa.eu/en/covid-19/variants-concern, Accessed 2021-11-26."
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.8.3.186"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.1585"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.113.154740"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Geidelberg, L. , Boyd, O. , Jorgensen, D. , Siveroni, I. , Nascimento, F. F. , Johnson, R. , Ragonnet-Cronin, M. , Fu, H. , Wang, H. , Xi, X. , Chen, W. , Liu, D. , Chen, Y. , Tian, M. , Tan, W. , Zai, J. , Sun, W. , Li, J. , Li, J. , Volz, E. M. , Li, X. , and Nie, Q. (2021). Genomic epidemiology of a densely sampled COVID-19 outbreak in China. Virus Evolution, 7(1).",
+        "DOI": "10.1093/ve/veaa102"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.110.124693"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg.2016.49"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-016-0936-x"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/18.11.1494"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.19",
+        "unstructured": "Kozlov, O. (2018). Models, Optimizations, and Tools for Large-Scale Phylogenetic Inference, Handling Sequence Uncertainty, and Taxonomic Validation."
+      },
+      {
+        "issue": "12",
+        "key": "2021120500350756000_2021.11.30.470642v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "2545",
+        "DOI": "10.1534/g3.114.014365",
+        "article-title": "Correcting for Sequencing Error in Maximum Likelihood Phylogeny Inference",
+        "volume": "4",
+        "year": "2014",
+        "journal-title": "G3 Genes\u2014Genomes\u2014Genetics"
+      },
+      {
+        "issue": "2",
+        "key": "2021120500350756000_2021.11.30.470642v1.21",
+        "first-page": "28",
+        "article-title": "EAGLE: Explicit Alternative Genome Likelihood Evaluator",
+        "volume": "11",
+        "year": "2018",
+        "journal-title": "BMC Medical Genomics"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp352"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.078212.108"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkh850"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.088013.108"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.83.1.4"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2020.198098"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tig.2014.12.002"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rambaut, A. , Holmes, E. C. , O\u2019Toole, A. , Hill, V. , McCrone, J. T. , Ruis, C. , du Plessis, L. , and Pybus, O. G. (2020). A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology. Nature Microbiology.",
+        "DOI": "10.1101/2020.04.17.046086"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.8.3.251"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg3655"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-016-0929-9"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vex042"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg.2017.117"
+      },
+      {
+        "issue": "3",
+        "key": "2021120500350756000_2021.11.30.470642v1.35",
+        "first-page": "111",
+        "article-title": "Consensus Sequence Zen",
+        "volume": "1",
+        "year": "2002",
+        "journal-title": "Applied bioinformatics"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/18.20.6097"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "673855",
+        "DOI": "10.3389/fmicb.2021.673855",
+        "article-title": "Genomic Epidemiology of SARS-CoV-2 From Mainland China With Newly Obtained Genomes From Henan Province",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Frontiers in Microbiology"
+      },
+      {
+        "issue": "9",
+        "key": "2021120500350756000_2021.11.30.470642v1.38",
+        "first-page": "16",
+        "article-title": "Use of the \u2018perceptron\u2019 algorithm to distinguish translational initiation sites in E. coli",
+        "volume": "10",
+        "year": "1982",
+        "journal-title": "Nucleic Acids Research"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wise, J. (2020). Covid-19: New coronavirus variant is identified in uk. BMJ, 371.",
+        "DOI": "10.1136/bmj.m4857"
+      },
+      {
+        "issue": "15",
+        "key": "2021120500350756000_2021.11.30.470642v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2322",
+        "DOI": "10.1093/bioinformatics/btx133",
+        "article-title": "Estimating error models for whole genome sequencing using mixtures of Dirichlet-multinomial distributions",
+        "volume": "33",
+        "year": "2017",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2021120500350756000_2021.11.30.470642v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-017-1311-2"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.30.470642",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:26:36Z",
+      "timestamp": 1768443996000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.30.470642"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          2
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2021.11.30.470642",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:31:53Z",
+      "timestamp": 1768548713109,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 15,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Symptom screening is a widely deployed strategy to mitigate the COVID-19 pandemic and many public health authorities are mandating its use by employers for all employees in the workplace. While symptom screening has the benefit of reducing the number of infected individuals in the workplace, it raises some inherently difficult privacy issues as a traditional approach requires the employer to collect symptom data from each employee which is essentially medical information. In this paper, we describe a system to implement Cryptographic Anonymous Symptom Screening (CASS) which allows for individuals to perform COVID symptom screening anonymously while avoiding the privacy issues of traditional approaches. In the system, individuals report their symptoms without any identifying information and are issued a completion certificate. This certificate contains a cryptographic code which certifies that the certificate was obtained from the screener after reporting no symptoms. The codes can be verified using a cryptographic algorithm which is publicly available. A standard cryptography approach to implement such a system would be to use digital signatures. Unfortunately, standard digital signatures have some limitations for this application in that the signatures are often hundreds of characters long and if the signature contains the name of the individual, then there is also a risk of compromising privacy. In our approach, we develop and utilize a relaxed digital signature scheme to provide 16 character long codes and handle names using equivalence classes which helps preserve privacy. Both of these extensions technically compromise the security but in a way that is negligible for this application. Our system can either serve the function of standard symptom screening system approaches for employees, but can also extend symptom screening to non-employees such as visitors or customers. In this case, the system can be utilized in retail, restaurants and schools to ensure that everyone in the physical space, including employees, customers, visitors and students have performed symptom screening.</jats:p>",
+    "DOI": "10.1101/2020.08.06.20169839",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2020-08-11T18:28:05Z",
+      "timestamp": 1597170485000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Expanding COVID-19 symptom screening to retail, restaurants, and schools by preserving privacy using relaxed digital signatures"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Brandon",
+        "family": "Jew",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alexis",
+        "family": "Korb",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeffrey N.",
+        "family": "Chiang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ulzee",
+        "family": "An",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amit",
+        "family": "Sahai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eran",
+        "family": "Halperin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eleazar",
+        "family": "Eskin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boneh, Dan , Ben Lynn , and Hovav Shacham . 2004. \u201cShort Signatures from the Weil Pairing.\u201d Journal of Cryptology. https://doi.org/10.1007/s00145-004-0314-9.",
+        "DOI": "10.1007/s00145-004-0314-9"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1375"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Drew, David A. , Long H. Nguyen , Claire J. Steves , Jonathan Wolf , Tim D. Spector , Andrew T. Chan , and COPE Consortium. n.d. \u201cRapid Implementation of Mobile Technology for Real-Time Epidemiology of COVID-19.\u201d https://doi.org/10.1101/2020.04.02.20051334.",
+        "DOI": "10.1101/2020.04.02.20051334"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gostic, Katelyn , Ana Cr Gomez , Riley O. Mummah , Adam J. Kucharski , and James O. Lloyd-Smith . 2020. \u201cEstimated Effectiveness of Symptom and Risk Screening to Prevent the Spread of COVID-19.\u201d eLife 9 (February). https://doi.org/10.7554/eLife.55570.",
+        "DOI": "10.7554/eLife.55570"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kitchin, Rob . 2020. \u201cCivil Liberties or Public Health, or Civil Liberties and Public Health? Using Surveillance Technologies to Tackle the Spread of COVID-19.\u201d Space and Polity, June, 1-20.",
+        "DOI": "10.1080/13562576.2020.1770587"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lan, Fan-Yun , Robert Filler , Soni Mathew , Jane Buley , Eirini Iliaki , Lou Ann Bruno-Murtha , Rebecca Osgood , Costas A. Christophi , Alejandro Fernandez-Montero , and Stefanos N. Kales . 2020. \u201cCOVID-19 Symptoms Predictive of Healthcare Workers\u2019 SARS-CoV-2 PCR Results.\u201d Available at SSRN 3586670. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3586670.",
+        "DOI": "10.2139/ssrn.3586670"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Menni, Cristina , Ana M. Valdes , Maxim B. Freidin , Carole H. Sudre , Long H. Nguyen , David A. Drew , Sajaysurya Ganesh , et al. 2020. \u201cReal-Time Tracking of Self-Reported Symptoms to Predict Potential COVID-19.\u201d Nature Medicine, May. https://doi.org/10.1038/s41591-020-0916-2.",
+        "DOI": "10.1038/s41591-020-0916-2"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mizumoto, Kenji , Katsushi Kagaya , Alexander Zarebski , and Gerardo Chowell . 2020. \u201cEstimating the Asymptomatic Proportion of Coronavirus Disease 2019 (COVID-19) Cases on Board the Diamond Princess Cruise Ship, Yokohama, Japan, 2020.\u201d Euro Surveillance: Bulletin Europeen Sur Les Maladies Transmissibles = European Communicable Disease Bulletin 25 (10). https://doi.org/10.2807/1560-7917.ES.2020.25.10.2000180.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.10.2000180"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1016/j.ijid.2020.03.020",
+        "article-title": "Estimation of the Asymptomatic Ratio of Novel Coronavirus Infections (CO VID-19)",
+        "volume": "94",
+        "year": "2020",
+        "journal-title": "International Journal of Infectious Diseases: IJID: Official Publication of the International Society for Infectious Diseases"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rivest, R. L. , A. Shamir , and L. Adleman . 1978. \u201cA Method for Obtaining Digital Signatures and Public-Key Cryptosystems.\u201d https://doi.org/10.21236/ada606588.",
+        "DOI": "10.21236/ADA606588"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Segal, Eran , Feng Zhang , Xihong Lin , Gary King , Ophir Shalem , Smadar Shilo , William E. Allen , et al. 2020. \u201cBuilding an International Consortium for Tracking Coronavirus Health Status.\u201d Nature Medicine, June. https://doi.org/10.1038/s41591-020-0929-x.",
+        "DOI": "10.1038/s41591-020-0929-x"
+      },
+      {
+        "issue": "6",
+        "key": "2021021108450749000_2020.08.06.20169839v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e19822",
+        "DOI": "10.2196/19822",
+        "article-title": "Using eHealth to Support COVID-19 Education, Self-Assessment, and Symptom Monitoring in the Netherlands: Observational Study",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "JMIR mHealth and uHealth"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tostmann, Alma , John Bradley , Teun Bousema , Wing-Kee Yiek , Minke Holwerda , Chantal Bleeker-Rovers , Jaap Ten Oever , et al. 2020. \u201cStrong Associations and Moderate Predictive Value of Early Symptoms for SARS-CoV-2 Test Positivity among Healthcare Workers, the Netherlands, March 2020.\u201d Euro Surveillance: Bulletin Europeen Sur Les Maladies Transmissibles = European Communicable Disease Bulletin 25 (16). https://doi.org/10.2807/1560-7917.ES.2020.25.16.2000508.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.16.2000508"
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.14",
+        "unstructured": "Yombi, Jean Cyr , Julien De Greef , Anne-Sophie Marsin , Anne Simon , Hector Rodriguez-Villalobos , Andrea Penaloza , and Leila Belkhir . 2020. \u201cSymptom-Based Screening for COVID-19 in Health Care Workers: The Importance of Fever.\u201d The Journal of Hospital Infection, May. https://doi.org/10.1016/jjhin.2020.05.028."
+      },
+      {
+        "key": "2021021108450749000_2020.08.06.20169839v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Haipeng , Dimitar Dimitrov , Lynn Simpson , Balaji Singh , Nina Plaks , Stephen Penney , Jo Charles , et al. 2020. \u201cA Web-Based, Mobile Responsive Application to Screen Healthcare Workers for COVID Symptoms: Descriptive Study.\u201d medRxiv. https://www.medrxiv.org/content/10.1101/2020.04.17.20069211v1.abstract.",
+        "DOI": "10.1101/2020.04.17.20069211"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.06.20169839",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:50:48Z",
+      "timestamp": 1768485048000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.08.06.20169839"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "references-count": 15,
+    "URL": "https://doi.org/10.1101/2020.08.06.20169839",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

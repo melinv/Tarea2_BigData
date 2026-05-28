@@ -1,0 +1,296 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2026-04-22T20:20:08Z",
+      "timestamp": 1776889208785,
+      "version": "3.51.2"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          28
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  A pipeline involving data acquisition, curation, carefully chosen graphs and mathematical models, allows analysis of COVID-19 outbreaks at 3,546 locations world-wide (all countries plus smaller administrative divisions with data available). Comparison of locations with over 50 deaths shows all outbreaks have a common feature:\n                  <jats:italic>H(t)</jats:italic>\n                  defined as log\n                  <jats:sub>e</jats:sub>\n                  <jats:italic>(X(t)/X(t-1))</jats:italic>\n                  decreases linearly on a log scale, where\n                  <jats:italic>X(t)</jats:italic>\n                  is the total number of Cases or Deaths on day,\n                  <jats:italic>t</jats:italic>\n                  (we use ln for log\n                  <jats:sub>e</jats:sub>\n                  ). The downward slopes vary by about a factor of three with time constants (1/slope) of between 1 and 3 weeks; this suggests it may be possible to predict when an outbreak will end. Is it possible to go beyond this and perform early prediction of the outcome in terms of the eventual plateau number of total confirmed cases or deaths?\n                </jats:p>\n                <jats:p>\n                  We test this hypothesis by showing that the trajectory of cases or deaths in any outbreak can be converted into a straight line. Specifically\n                  <jats:italic>Y</jats:italic>\n                  (\n                  <jats:italic>t</jats:italic>\n                  ) \u2261 \u2212ln(ln(\n                  <jats:italic>N</jats:italic>\n                  /\n                  <jats:italic>X</jats:italic>\n                  (\n                  <jats:italic>t</jats:italic>\n                  )), is a straight line for the correct plateau value\n                  <jats:italic>N</jats:italic>\n                  , which is determined by a new method, Best-Line Fitting (BLF). BLF involves a straight-line facilitation extrapolation needed for prediction; it is blindingly fast and amenable to optimization. We find that in some locations that entire trajectory can be predicted early, whereas others take longer to follow this simple functional form. Fortunately, BLF distinguishes predictions that are likely to be correct in that they show a stable plateau of total cases or death (\n                  <jats:italic>N</jats:italic>\n                  value). We apply BLF to locations that seem close to a stable predicted\n                  <jats:italic>N</jats:italic>\n                  value and then forecast the outcome at some locations that are still growing wildly. Our accompanying web-site will be updated frequently and provide all graphs and data described here.\n                </jats:p>",
+    "DOI": "10.1101/2020.06.26.20140814",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2020-06-28T10:35:14Z",
+      "timestamp": 1593340514000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 17,
+    "title": [
+      "Predicting the Trajectory of Any COVID19 Epidemic From the Best Straight Line"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8414-7397",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Levitt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Scaiewicz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Francesco",
+        "family": "Zonta",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Bendavid , B. Mulaney , N. Sood , S. Shah , E. Ling , R. Bromley-Dulfano , C. Lai , Z. Weissberg , R. Saavedra-Walker , J. Tedrow , D. Tversky , A. Bogan , T. Kupiec , D. Eichner , R. Gupta , J. Ioannidis , J. Bhattacharya . COVID-19 Antibody seroprevalence in Santa Clara County, California. https://doi.org/10.1101/2020.04.14.20062463",
+        "DOI": "10.1101/2020.04.14.20062463"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Castorina , A. Iorio , D. Lanteri . Data analysis on Coronavirus spreading by macroscopic growth laws. International Journal of Modern Physics C, 2050103. https://doi.org/10.1142/S012918312050103X",
+        "DOI": "10.1142/S012918312050103X"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Catala , S. Alonso , E. A. Lacalle , D. Lopez , P. Cardona , C. Prats . Empiric model for short-time prediction of COVID-19 spreading. PLOS Computational Biology. May 19 2020, p.1\u201314, https://www.medrxiv.org/content/10.1101/2020.05.13.20101329v1",
+        "DOI": "10.1101/2020.05.13.20101329"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.4",
+        "first-page": "470",
+        "article-title": "A novel coronavirus outbreak of global health concern",
+        "volume": "395",
+        "year": "10223",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.plrev.2016.07.005",
+        "article-title": "Mathematical models to characterize early epidemic growth",
+        "volume": "18",
+        "year": "2016",
+        "journal-title": "A Review. Phys Life Rev"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2289282"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Dimeglio , J. Loubes , B. Deporte , M. Dubois , J. Latour , J. Mansuy , J. Izopet . The SARS-CoV-2 seroprevalence is the key factor for deconfinement in France. J Infect. 2020 Apr 29 https://doi.org/10.1016/j.jinf.2020.04.031",
+        "DOI": "10.1016/j.jinf.2020.04.031"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.9",
+        "unstructured": "M. Fr\u00e9chet . Sur la loi de probabilit\u00e9 de l\u2019\u00e9cart maximum. Annales de la Soci\u00e9t\u00e9 Polonaise de Mathematique, Cracovie, 6: 93\u2013116."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Gompertz . On the nature of the function expressive of the law of human mortality, and on a new mode of determining the value of life contingencies. Philosophical Transactions of the Royal Society of London. 115: 513\u2013585.",
+        "DOI": "10.1098/rstl.1825.0026"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.11",
+        "unstructured": "P. R. Koya , A. T. Goshu . Generalized Mathematical Model for Biological Growths, Open Journal of Modelling and Simulation, 1 No. 4 (2013), Article ID: 38842."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.12",
+        "unstructured": "Analysis_of_Coronavirus-2019_Data_Michael_Levitt https://www.dropbox.com/s/pn9k4c9fa4cuior/9.Analysis_of_Coronavirus-2019_Data_Michael_Levitt.pdf?dl=0 (First China analysis that used curve fitting)."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.13",
+        "unstructured": "The_Corona_Chronologies. Part I - China. Part II. Rest_of_World_Michael_Levitt,Stanford_r.pdf https://www.dropbox.com/s/ovlsfr53horcmsn/1.The_Corona_Chronologies.%20Part%20I%20-%20China.%20Part%20II.%20Rest_of_World_Michael_Levitt%2CStanford_r.pdf?dl=0 (14-Mar-20 China and World analysis)."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.14",
+        "unstructured": "Analysis_of_Coronavirus-2019_Data_Michael_Levitt2.pdf https://www.dropbox.com/s/46lw7pcrlhpuu94/2.Analysis_of_Coronavirus-2019_Data_Michael_Levitt2.pdf?dl=0 (First analysis on 2 Feb 2020)."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.15",
+        "unstructured": "Analysis_of_Coronavirus-2019_Data_Michael_Levitt https://www.dropbox.com/s/rja6r86da8ul0a6/14.Analysis_of_Coronavirus-2019_Data_Michael_Levitt.pdf?dl=0 (China analysis that corrected for 13 Feb. data)"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.16",
+        "unstructured": "All_Michael_Levitt_22_Reports_on COVID-19_2-Feb-to-3-Mar.pdf https://www.dropbox.com/s/fp90jfszmyxut2g/2.%20All_Michael_Levitt_22_Reports_on%20COVID-19_2-Feb-to-3-Mar.pdf?dl=0 (Combine all 22 Analyses for China 2-Feb. to 3-Mar)."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.17",
+        "unstructured": "Analysis_of_Coronavirus-2019_Data_Michael_Levitt.pdf https://www.dropbox.com/s/3oy8plmtgcupvjh/28.Analysis_of_Coronavirus-2019_Data_Michael_Levitt.pdf?dl=0 (Levitt Analysis of 10 day delay between Case and Death)."
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Moreno , R. Pastor-Satorras , A. Vespignani . Epidemic outbreaks in complex heterogeneous networks. The European Physical Journal B-Condensed Matter and Complex Systems, 26, 4, 521\u2013529.",
+        "DOI": "10.1140/epjb/e20020122"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.19",
+        "unstructured": "User Guide to Mortran3. http://rcwww.kek.jp/research/egs/epub/manuals/append4.html"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.20",
+        "unstructured": "F. Pinotti , L. Di Domenico , E. Ortega , M. Mancastroppa , G. Pullano , E. Valdano , P. Bo\u00eblle , C. Poletto , V. Colizza . Lessons learnt from 288 COVID-19 international cases: importations over time, effect of interventions, under-detection of imported cases. https://www.medrxiv.org/content/10.1101/2020.02.24.20027326v1"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. W. Kernighan and P. L. Plauger . Software Tools. Addison-Wesley Longman Publishing Co., Inc. Boston, MA,1976.",
+        "DOI": "10.1145/1010726.1010728"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. J. Richards . A flexible growth function for empirical use. Journal of Experimental Botany. 10, 290\u2013300. http://dx.doi.org/10.1093/jxb/10.2.290",
+        "DOI": "10.1093/jxb/10.2.290"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. D. Silverman , N. Hupert , A. D. Washburne . Using influenza surveillance networks to estimate state-specific prevalence of SARS-CoV-2 in the United States. Science Translational Medicine 22 Jun 2020: http://dx.doi.org/10.1126/scitranslmed.abc1126",
+        "DOI": "10.1126/scitranslmed.abc1126"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Wallinga and M. Lipsitch How generation intervals shape the relationship between growth rates and reproductive numbers, Proc. R. Soc. B, 274, 599\u2013604. http://dx.doi.org/doi:10.1098/rspb.2006.3754",
+        "DOI": "10.1098/rspb.2006.3754"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1038/s41421-020-0148-0",
+        "article-title": "Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Cell Discov"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu J.T. , Leung K. Nowcasting and forecasting the potential domestic and international spread of the 2019-nCov outbreak originating in Wuhan, China: a modelling study. The Lancet. 2020; 395(3).",
+        "DOI": "10.1016/S0140-6736(20)30260-9"
+      },
+      {
+        "key": "2021010704100630000_2020.06.26.20140814v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.26.20140814",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:46:21Z",
+      "timestamp": 1768484781000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.26.20140814"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          28
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2020.06.26.20140814",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

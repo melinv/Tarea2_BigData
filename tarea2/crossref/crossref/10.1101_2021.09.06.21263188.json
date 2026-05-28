@@ -1,0 +1,289 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:19:53Z",
+      "timestamp": 1768551593367,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          12
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>During the COVID-19 pandemic, convolutional neural networks (CNNs) have been used in clinical medicine (e.g., to classify chest X-rays for COVID-19 diagnosis). Whether CNNs could also inform the epidemiology of COVID-19 analysing street images has been understudied, though it could identify high-risk places and relevant features of the built environment. We trained CNNs to classify bus stops (Lima, Peru) into moderate or extreme COVID-19 risk.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We used five images per bus stop. The outcome label (moderate or extreme) for each bus stop was extracted from the local transport authority. We used transfer learning and updated the output layer of five CNNs: NASNetLarge, InceptionResNetV2, Xception, ResNet152V2, and ResNet101V2. We chose the best performing network which was further tuned to increase performance.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>There were 1,788 bus stops (1,173 moderate and 615 extreme), totalling 8,940 images. NASNetLarge outperformed the other CNNs except in the recall metric for the extreme label: 57% versus 59% in NASNetLarge and ResNet152V2, respectively. NASNetLarge was further tuned and reached: training loss of 0.50; training accuracy of 75%; precision, recall and F1 score for the moderate label of 80%, 83% and 82%, respectively; these metrics for the extreme label were 65%, 51% and 63%.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>CNNs has the potential to accurately classify street images into levels of COVID-19 risk. In addition to applications in clinical medicine, CNNs and street images could also advance the epidemiology of COVID-19 at the population level.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.09.06.21263188",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2021-09-12T20:30:10Z",
+      "timestamp": 1631478610000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Street images classification according to COVID-19 risk in Lima, Peru: A convolutional neural networks analysis"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Rodrigo M",
+        "family": "Carrillo-Larco",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jose Francisco Hern\u00e1ndez",
+        "family": "Santa Cruz",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.1",
+        "first-page": "6677314",
+        "article-title": "Deep Learning in the Detection and Diagnosis of COVID-19 Using Radiology Modalities: A Systematic Review",
+        "volume": "2021",
+        "year": "2021",
+        "journal-title": "Journal of healthcare engineering"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "638011",
+        "DOI": "10.3389/fcvm.2021.638011",
+        "article-title": "Application of Machine Learning in Diagnosis of COVID-19 Through X-Ray and CT Images: A Scoping Review",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Frontiers in cardiovascular medicine"
+      },
+      {
+        "issue": "4",
+        "key": "2021091407150908000_2021.09.06.21263188v1.3",
+        "first-page": "e25181",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Machine Learning Models for Image-Based Diagnosis and Prognosis of COVID-19: Systematic Review"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen QC , Huang Y , Kumar A , et al. Using 164 Million Google Street View Images to Derive Built Environment Predictors of COVID-19 Cases. 2020; 17(17).",
+        "DOI": "10.3390/ijerph17176359"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.5",
+        "unstructured": "Autoridad de Transporte Urbano para Lima y Callao (ATU). Paraderos con Riesgo de COVID-19. URL: https://sistemas.atu.gob.pe/paraderosCOVID."
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.6",
+        "unstructured": "URL: https://github.com/jmcastagnetto/lima-atu-covid19-paraderos."
+      },
+      {
+        "issue": "1",
+        "key": "2021091407150908000_2021.09.06.21263188v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "6229",
+        "DOI": "10.1038/s41598-019-42036-w",
+        "article-title": "Measuring social, environmental and health inequalities using deep learning and street imagery",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.8",
+        "unstructured": "Keras applications. URL: https://keras.io/api/applications/."
+      },
+      {
+        "issue": "2",
+        "key": "2021091407150908000_2021.09.06.21263188v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "336",
+        "DOI": "10.1007/s11263-019-01228-7",
+        "article-title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+        "volume": "128",
+        "year": "2020",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "issue": "7840",
+        "key": "2021091407150908000_2021.09.06.21263188v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1038/s41586-020-2923-3",
+        "article-title": "Mobility network models of COVID-19 explain inequities and inform reopening",
+        "volume": "589",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.11",
+        "article-title": "Ensemble deep learning: A review",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.12",
+        "article-title": "Squared earth mover\u2019s distance-based loss for training deep neural networks",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.13",
+        "article-title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.14",
+        "unstructured": "Keras applications. URL: https://keras.io/api/applications/."
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.15",
+        "unstructured": "Autoridad de Transporte Urbano para Lima y Callao (ATU). Paraderos con Riesgo de COVID 19. URL: https://sistemas.atu.gob.pe/paraderosCOVID."
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.16",
+        "unstructured": "URL: https://github.com/jmcastagnetto/lima-atu-covid19-paraderos."
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.17",
+        "article-title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "year": "2015",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.18",
+        "article-title": "An Introduction to Neural Architecture Search for Convolutional Networks",
+        "year": "2020",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.19",
+        "article-title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+        "year": "2015",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "key": "2021091407150908000_2021.09.06.21263188v1.20",
+        "article-title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+        "year": "2016",
+        "journal-title": "arXiv e-prints"
+      },
+      {
+        "issue": "2",
+        "key": "2021091407150908000_2021.09.06.21263188v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "336",
+        "DOI": "10.1007/s11263-019-01228-7",
+        "article-title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+        "volume": "128",
+        "year": "2020",
+        "journal-title": "International Journal of Computer Vision"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.09.06.21263188",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:24:12Z",
+      "timestamp": 1768487052000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.09.06.21263188"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          12
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2021.09.06.21263188",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1136/bmjopen-2022-063411",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          12
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

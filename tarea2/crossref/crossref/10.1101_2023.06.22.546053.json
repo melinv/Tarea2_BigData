@@ -1,0 +1,356 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2026-04-01T04:31:27Z",
+      "timestamp": 1775017887510,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Volatilomics is the branch of metabolomics dedicated to the analysis of volatile organic compounds (VOCs) in exhaled breath for medical diagnostic or therapeutic monitoring purposes. Real-time mass spectrometry technologies such as proton transfer reaction mass spectrometry (PTR-MS) are commonly used, and data normalisation is an important step to discard unwanted variation from non-biological sources, as batch effects and loss of sensitivity over time may be observed. As normalisation methods for real-time breath analysis have been poorly investigated, we aimed to benchmark known metabolomic data normalisation methods and apply them to PTR-MS data analysis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We compared seven normalisation methods, five statistically based and two using multiple standard metabolites, on two datasets from clinical trials for COVID-19 diagnosis in patients from the emergency department or intensive care unit. We evaluated different means of feature selection to select the standard metabolites, as well as the use of multiple repeat measurements of ambient air to train the normalisation methods.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We show that the normalisation tools can correct for time-dependent drift. The methods that provided the best corrections for both cohorts were Probabilistic Quotient Normalisation and Normalisation using Optimal Selection of Multiple Internal Standards. Normalisation also improved the diagnostic performance of the machine learning models, significantly increasing sensitivity, specificity and area under the ROC curve for the diagnosis of COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our results highlight the importance of adding an appropriate normalisation step during the processing of PTR-MS data, which allows significant improvements in the predictive performance of statistical models.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.06.22.546053",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2023-06-24T07:41:48Z",
+      "timestamp": 1687592508000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "A benchmark study of data normalisation methods for PTR-TOF-MS exhaled breath metabolomics"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0218-6086",
+        "authenticated-orcid": false,
+        "given": "Camille",
+        "family": "Roquencourt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Elodie",
+        "family": "Lamy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emmanuelle",
+        "family": "Bardin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Philippe",
+        "family": "Deviller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5747-4432",
+        "authenticated-orcid": false,
+        "given": "Stanislas",
+        "family": "Grassin-Delyle",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrd.2016.32"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1007/978-1-59745-244-1_7",
+        "article-title": "A gentle guide to the analysis of metabolomic data",
+        "volume": "358",
+        "year": "2007",
+        "journal-title": "Methods Mol. Biol. Clifton NJ"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ac302748b"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1177/1469066720918446",
+        "article-title": "Data normalization strategies in metabolomics: Current challenges, approaches, and tools",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Eur. J. Mass Spectrom. Chichester Engl"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mizuno H , Ueda K , Kobayashi Y , Tsuyama N , Todoroki K , Min J Z and Toyo\u2019oka T 2017 The great importance of normalization of LC-MS data for highly-accurate non-targeted metabolomics. Biomed. Chromatogr. BMC 31",
+        "DOI": "10.1002/bmc.3864"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "3479",
+        "DOI": "10.1007/s00216-021-03294-8",
+        "article-title": "Normalization methods for reducing interbatch effect without quality control samples in liquid chromatography-mass spectrometry-based studies",
+        "volume": "413",
+        "year": "2021",
+        "journal-title": "Anal. Bioanal. Chem"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ac502439y"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1752-7155/8/3/034001"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijms.2009.07.005"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cr800364q"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1055",
+        "DOI": "10.5194/amt-3-1055-2010",
+        "article-title": "Formaldehyde measurements by Proton transfer reaction \u2013 Mass Spectrometry (PTR-MS): correction for humidity effects",
+        "volume": "3",
+        "year": "2010",
+        "journal-title": "Atmospheric Meas. Tech"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.ijms.2010.06.023",
+        "article-title": "Proton transfer reaction rate coefficients between H3O+ and some sulphur compounds",
+        "volume": "295",
+        "year": "2010",
+        "journal-title": "Int. J. Mass Spectrom"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es203985t"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.4236/abb.2018.98022",
+        "article-title": "A Comparison of Various Normalization Methods for LC/MS Metabolomics Data",
+        "volume": "09",
+        "year": "2018",
+        "journal-title": "Adv. Biosci. Biotechnol"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkx449"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aca.2016.12.029"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "6983",
+        "DOI": "10.1007/s00216-019-02073-w",
+        "article-title": "Optimal inter-batch normalization method for GC/MS/MS-based targeted metabolomics with special attention to centrifugal concentration",
+        "volume": "411",
+        "year": "2019",
+        "journal-title": "Anal. Bioanal. Chem"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "801",
+        "DOI": "10.2116/analsci.28.801",
+        "article-title": "Quantile Normalization Approach for Liquid Chromatography\u2013Mass Spectrometry-based Metabolomic Data from Healthy Human Volunteers",
+        "volume": "28",
+        "year": "2012",
+        "journal-title": "Anal. Sci"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ac051632c"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-8-93"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxv026"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roquencourt C , Salvator H , Bardin E , Lamy E , Farfour E , Naline E , Devillier P and Grassin-Delyle S 2023 Enhanced real-time mass spectrometry breath analysis for the diagnosis of COVID-19 ERJ Open Res.",
+        "DOI": "10.1101/2023.06.21.23291712"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "103154",
+        "DOI": "10.1016/j.ebiom.2020.103154",
+        "article-title": "Metabolomics of exhaled breath in critically ill COVID-19 patients: A pilot study",
+        "volume": "63",
+        "year": "2021",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1930",
+        "DOI": "10.1093/bioinformatics/btac031",
+        "article-title": "ptairMS: real-time processing and analysis of PTR-TOF-MS data for biomarker discovery in exhaled breath ed O Vitek",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "10321",
+        "DOI": "10.1021/ac402298v",
+        "article-title": "Continuous Real Time Breath Gas Monitoring in the Clinical Environment by Proton-Transfer-Reaction-Time-of-Flight-Mass Spectrometry",
+        "volume": "85",
+        "year": "2013",
+        "journal-title": "Anal. Chem"
+      },
+      {
+        "key": "2023062621301954000_2023.06.22.546053v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0055535"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.22.546053",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:49:33Z",
+      "timestamp": 1768452573000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.22.546053"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2023.06.22.546053",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1088/1752-7163/ad08ce",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

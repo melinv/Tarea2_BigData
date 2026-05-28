@@ -1,0 +1,177 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:53:20Z",
+      "timestamp": 1768503200812,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          25
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 11,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Contact tracing, a method for detecting and preventing the spread of a disease, can become more efficient by becoming automated, rather than being done manually. Bluetooth based contact tracing is a potential method for creating an automated method for contact tracing. However, Bluetooth signals cannot always predict something with complete accuracy due to many subtle obstructions. Received signal strength indicator (RSSI), a value produced when Bluetooth devices send and receive signals, generated from Raspberry Pis can predict the distance between the two devices. By running many experiments with variations of obstructions, I was able to successfully create models to correlate RSSI values and distance with a potential success rate of 91.973%. For my research, a success is determined to be anything but a false negative. Despite the limitations when conducting my research, the inaccuracies of my results prove Bluetooth based contact tracing to not be a reliable method for determining people who have been in contact with an index case in the real world.</jats:p>",
+    "DOI": "10.1101/2022.08.23.504944",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2022-08-25T18:30:15Z",
+      "timestamp": 1661452215000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "COVID-19 Contact Tracing Analysis with Bluetooth Technology Using Raspberry Pis"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Dean",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.1",
+        "unstructured": "Martin, Taylor. \u201cHow to Setup Bluetooth on a Raspberry Pi 3.\u201d CNET, CNET, 20 May 2016, www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.2",
+        "unstructured": "Franklin, Curt , and Chris Pollette . \u201cHow Bluetooth Works.\u201d HowStuffWorks, HowStuffWorks, 11 Nov. 2019, electronics.howstuffworks.com/bluetooth2.htm#:~:text=Bluetooth%20networking%20transmits%20data%20via,between%202.400%20GHz%20and%202.483.&text=The%20walls%20in%20your%20house,several%20devices%20in%20different%20rooms."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.3",
+        "unstructured": "\u201cFactors Impacting RSSI\u201d Celtrio, www.celtrio.com/support/documentation/coverazone/2.0.1/basics.rssi.html."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.4",
+        "unstructured": "Estimote.com, Kontakt.com, quora. \u201cHow to Calculate Distance from the RSSI Value of the BLE Beacon.\u201d IOT and Electronics, 7 Oct. 2016, iotandelectronics.wordpress.com/2016/10/07/how-to-calculate-distance-from-the-rssi-value-of-the-ble-beacon/#:~:text=RSSI%20is%20used%20to%20approximate,Measured%20Power%20(see%20below).&text=The%20further%20away%20the%20device,more%20unstable%20the%20RSSI%20becomes."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.5",
+        "unstructured": "\u201cCOVID-19 Contact Tracing.\u201d Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 22 July 2020, www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/contact-tracing.html."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.6",
+        "unstructured": "Burke, Rachel M. , et al. \u201cActive Monitoring of Persons Exposed to Patients with Confirmed COVID-19 - United States, January\u2013February 2020.\u201d Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 5 Mar. 2020, www.cdc.gov/mmwr/volumes/69/wr/mm6909e1.htm."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.7",
+        "unstructured": "\u201cWriting CSV Files in Python.\u201d Programiz, www.programiz.com/python-programming/writing-csv-files."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.8",
+        "unstructured": "Data to Fish, 3 Apr. 2020, datatofish.com/multiple-linear-regression-python/."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.9",
+        "unstructured": "Peters, Roel. \u201cFrom Simple to Multiple Linear Regression with Python and Scikit.\u201d Sweetcode.io, 12 Feb. 2019, sweetcode.io/simple-multiple-linear-regression-python-scikit/."
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.10",
+        "unstructured": "https://github.com/DeanZ3/piPACT.git"
+      },
+      {
+        "key": "2022082708200571000_2022.08.23.504944v1.11",
+        "unstructured": "MIT Lincoln Laboratory Beaverworks piPACT"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.08.23.504944",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T03:31:30Z",
+      "timestamp": 1768447890000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.23.504944"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          25
+        ]
+      ]
+    },
+    "references-count": 11,
+    "URL": "https://doi.org/10.1101/2022.08.23.504944",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          25
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

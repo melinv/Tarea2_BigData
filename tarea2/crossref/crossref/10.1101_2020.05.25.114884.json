@@ -1,0 +1,233 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:17:49Z",
+      "timestamp": 1768490269554,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          25
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 12,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              25
+            ]
+          ],
+          "date-time": "2020-05-25T00:00:00Z",
+          "timestamp": 1590364800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>The first cases of the COVID-19 pandemic emerged in December 2019. Until the end of February 2020, the number of available genomes was below 1,000, and their multiple alignment was easily achieved using standard approaches. Subsequently, the availability of genomes has grown dramatically. Moreover, some genomes are of low quality with sequencing/assembly errors, making accurate re-alignment of all genomes nearly impossible on a daily basis. A more efficient, yet accurate approach was clearly required to pursue all subsequent bioinformatics analyses of this crucial data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>hCoV-19 genomes are highly conserved, with very few indels and no recombination. This makes the profile HMM approach particularly well suited to align new genomes, add them to an existing alignment and filter problematic ones. Using a core of \u223c2,500 high quality genomes, we estimated a profile using HMMER, and implemented this profile in COVID-Align, a user-friendly interface to be used online or as standalone via Docker. The alignment of 1,000 genomes requires less than 20mn on our cluster. Moreover, COVID-Align provides summary statistics, which can be used to determine the sequencing quality and evolutionary novelty of input genomes (e.g. number of new mutations and indels).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://covalign.pasteur.cloud\">https://covalign.pasteur.cloud</jats:ext-link>\n                    ,\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://hub.docker.com/r/evolbioinfo/covid-align\">hub.docker.com/r/evolbioinfo/covid-align</jats:ext-link>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contacts</jats:title>\n                  <jats:p>\n                    <jats:email>olivier.gascuel@pasteur.fr</jats:email>\n                    ,\n                    <jats:email>frederic.lemoine@pasteur.fr</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>\n                    Supplementary information is available at\n                    <jats:italic>Bioinformatics</jats:italic>\n                    online.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.25.114884",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ],
+      "date-time": "2020-05-26T07:55:15Z",
+      "timestamp": 1590479715000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "COVID-Align: Accurate online alignment of hCoV-19 genomes using a profile HMM"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Fr\u00e9d\u00e9ric",
+        "family": "Lemoine",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Luc",
+        "family": "Blassel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jakub",
+        "family": "Voznica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Olivier",
+        "family": "Gascuel",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbv099"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.2",
+        "unstructured": "De Maio, N. et al. (2020). Issues with SARS-CoV-2 sequencing data, virological.org."
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3820"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Durbin, R. et al. (1998) Biological Sequence Analysis: Probabilistic Models of Proteins and Nucleic Acids. Cambridge University Press, Cambridge, UK.",
+        "DOI": "10.1017/CBO9780511790492"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.174920.114"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst010"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz303"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.8",
+        "year": "2020",
+        "journal-title": "Similarities and Evolutionary Relationships of COVID-19 and Related Viruses"
+      },
+      {
+        "issue": "Suppl 10",
+        "key": "2024080407035368000_2020.05.25.114884v1.9",
+        "first-page": "764",
+        "article-title": "Scaling statistical multiple sequence alignment to large datasets",
+        "volume": "17",
+        "year": "2016",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shu, Y. et al. (2017) GISAID: Global initiative on sharing all influenza data \u2013 from vision to reality. EuroSurveillance, 22(13).",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.11",
+        "unstructured": "Xiaolu, T. et al. (2020) On the origin and continuing evolution of SARS-CoV-2, National Science Review, nwaa036."
+      },
+      {
+        "key": "2024080407035368000_2020.05.25.114884v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btw474"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.25.114884",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:25:56Z",
+      "timestamp": 1768436756000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.05.25.114884"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          25
+        ]
+      ]
+    },
+    "references-count": 12,
+    "URL": "https://doi.org/10.1101/2020.05.25.114884",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          25
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:50:41Z",
+      "timestamp": 1768549841647,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:p>We have studied the evolution of COVID-19 in 12 low- and middle-income countries in which reported cases have peaked and declined rapidly in the past 2-3 months. In most of these countries the declines happened while control measures were consistent or even relaxing, and without signs of significant increases in cases that might indicate second waves. For the 12 countries we studied, the hypothesis that these countries have reached herd immunity warrants serious consideration. The Reed-Frost model, perhaps the simplest description for the evolution of cases in an epidemic, with only a few constant parameters, fits the observed case data remarkably well, and yields parameter values that are reasonable. The best-fitting curves suggest that the effective basic reproduction numberin these countries ranged between 1.5 and 2.0, indicating that the curve was \u201cflattened \u201cin some countries but not \u201csuppressed \u201cby pushing the reproduction number below 1. The results suggest that between 51 and 80% of the population in these countries have been infected, and that between 0.05% and 2.50% of cases have been detected \u2013 values which are consistent with findings from serological and T-cell immunity studies. The infection rates, combined with data and estimates for deaths from COVID-19, allow us to estimate overall infection fatality rates for three of the countries. The values are lower than expected from reported infection fatality rates by age, based on data from several high-income countries, and the countries \u2018 populations by age. COVID-19 may have a lower mortality risk in these three countries (to differing degrees in each country) than in high-income countries, due to differences in immune-response, prior exposure to coronaviruses, disease characteristics or other factors. We find that the herd immunity hypothesis would not have fit the evolution of reported cases in several European countries, even just after the initial peaks \u2013 and subsequent resurgences of cases obviously prove that those countries have infection rates well below herd immunity levels. Our hypothesis that the 12 countries we studied have reached herd immunity should now be tested further, through serological and T-cell-immunity studies.</jats:p>",
+    "DOI": "10.1101/2020.09.26.20201814",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ],
+      "date-time": "2020-09-28T13:10:23Z",
+      "timestamp": 1601298623000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Evolution of COVID-19 cases in selected low- and middle-income countries: past the herd immunity peak?"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9489-1953",
+        "authenticated-orcid": false,
+        "given": "Axel S.",
+        "family": "Lexmond",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2492-123X",
+        "authenticated-orcid": false,
+        "given": "Carlijn J.A.",
+        "family": "Nouwen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8537-1876",
+        "authenticated-orcid": false,
+        "given": "J. Paul",
+        "family": "Callan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.1",
+        "unstructured": "See https://www.imperial.ac.uk/news/195976/individual-response-covid-19-important-government-action/."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.2",
+        "unstructured": "Three distinct reproduction numbers characterise the disease in different situations. First, the basic reproduction number, R0, is the average number of new infections caused by each current infected individual, that would happen in the absence of any disease control measures by governments or individuals, and before there is widespread immunity. Even this number is not a universal characteristic, because it can vary by location, even in the absence of control measures, due to differences in typical numbers of social contacts in different places. Second, we define the effective basic reproduction number, R0_e, as the adjusted basic reproduction number after control measures are taken, but without significant levels of immunity. This number can, therefore, change from time to time, as governments change policies and people change their practices. Third, the effective reproduction number, Re, is the actual average number of new infections caused by each current infected individual, which decreases as the number of people with immunity increases (and also depends on disease control policies and practices)."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.3",
+        "unstructured": "See, for example, Kenneth J. Rothman, Epidemiology, Ch. 6, or other textbooks on epidemiology. Our linearized version of the Reed-Frost model uses the formula ni+1 = ni * R0_e * si - ntot, where ni is the number of infected people for the time period i, si is the number of susceptible people without immunity for the time period i, and ntot is the total population. The mean generation time tg is the duration of each time period in the model. Expected reported cases are equal to p * ni for each time step i in the model, where p is the case detection rate."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.4",
+        "unstructured": "One more parameter is required in fitting the curve, namely the difference between the actual first case and the first reported case. This parameter can only shift the model curve to earlier or later times, without changing the shape of the curve and without impacting any of the other parameters."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J Riou and CL Althaus , \u201cPattern of early human-to-human transmission of Wuhan 2019-nCoV,\u201d Euro Surveillance 2020;25(4):pii=2000058. https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058",
+        "DOI": "10.2807/1560-7917.ES.2020.25.4.2000058"
+      },
+      {
+        "issue": "7",
+        "key": "2020102620150441000_2020.09.26.20201814v3.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1470",
+        "DOI": "10.3201/eid2607.200282",
+        "article-title": "High Contagiousness and Rapid Spread of Severe Acute Respiratory Syndrome Coronavirus 2",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Emerg Infect Dis."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.7",
+        "unstructured": "For a given shape of the curve of disease cases over time \u2013 characterised by the exponential rates of increase before the peak and of decrease after the peak and the width of the curve \u2013 there is a unique combination of R0_e and tg which leads to the observed curve. However, for any given curve, there are a range of combinations of R0_e and tg which can produce very similar curves. (This issue is why it is very hard to determine the basic reproduction number, R0, for any new disease, even when the case doubling time is well-known.) In the case of South Africa, the observed data is sufficiently \u201cclean\u201d that we are able to calculate R0_e and tg. For the other countries, the observed data is more \u201cnoisy\u201d or does not have much data after the peak, and there can be multiple combinations of R0_e and tg which produce reasonable fits to the observed data."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.8",
+        "unstructured": "ST Ali , L Wang , EHY Lau et al., \u201cSerial interval of SARS-CoV-2 was shortened over time by nonpharmaceutical interventions,\u201d Science, 28-08-2020, doi: https://doi.org/10.1126/science.abc9004, finds, from data on transmission pairs in mainland China in January and February 2020, that the mean serial interval was 7.8 days early in the epidemic but shortened substantially to 2.6 days within a month. J. M. Griffin et al., \u201cA rapid review of available evidence on the serial interval and generation time of COVID-19\u201d, medRxiv 2020.05.08.20095075, 11 May 2020, https://doi.org/10.1101/2020.05.08.20095075, found 22 estimates for the mean serial intervals between 3.1 and 7.5 days, and 3 estimates of the mean generation time between 3.9 and 5.2 days. Studies of serial intervals and mean generation time rely on symptomatic cases identified within health systems, and Ali et al. find that early case isolation decreases the mean serial interval. Therefore, it is reasonable to assume that the mean generation time, equal to the mean serial interval, for complete populations should be greater than those reported in the literature. The best estimate for tg calculated from the reported cases curve in South Africa, namely 7.8 days, is the same value as the mean serial interval in the early days of the epidemic in China reported by Ali et al., and is a reasonable value to use for in our model for the other 10 LMICs that we consider. For the sensitivity analysis, we use a range of tg from 3 to 11 days, which is wider than the full range of possible values of the mean generation time suggested in the literature to date."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.9",
+        "unstructured": "For example, the Imperial College London team\u2019s models assume a gamma-distributed serial interval with mean 6.48 days and standard deviation of 3.83 days. See https://mrc-ide.github.io/covid19-short-term-forecasts/index.html and NM Ferguson et al. \u201cReport 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand\u201d. 16 March 2020Imperial CollegeCOVID-19 Response Team,\u201d https://doi.org/10.25561/77482."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.10",
+        "unstructured": "KEMRI/Wellcome Trust, Preliminary Report of SARS-CoV-2 antibody prevalence among blood donors in Kenya, 28 June 2020."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S Zaidi et al. Seroprevalence of anti-SARS-CoV-2 antibodies in residents of Karachi\u2014challenges in acquiring herd immunity for COVID 19, Journal of Public Health, fdaa170, https://doi.org/10.1093/pubmed/fdaa170.",
+        "DOI": "10.1093/pubmed/fdaa170"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.12",
+        "unstructured": "Announced by Dr. Zweli Mkhize , Minister for Health of South Africa, as reported by AP: https://apnews.com/cffcd4dfb1e3cbd810838fb9bde7a91d."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T Sekine et al. Robust T cell immunity in convalescent individuals with asymptomatic or mild COVID-19. Cell (2020), doi: https://doi.org/10.1016/j.cell.2020.08.017.",
+        "DOI": "10.1016/j.cell.2020.08.017"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.14",
+        "unstructured": "All numbers apply to the portion of a country that has had some level of exposure. If specific physically concentrated groups in a country are fully shielded, the total proportion of the national population that has been infected to date, would be lower than the numbers listed here. For most countries, the numbers are as of 7 September; for some, they are as of 5 or 6 September."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.15",
+        "unstructured": "The other countries studied have not reported excess mortality, and are likely under-report deaths from COVID-19 significantly, and by differing proportions in each country. As a result, we limit our estimates of IFRs to the cases of Bolivia, Colombia and South Africa."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.16",
+        "unstructured": "For all three countries, we use reported deaths as of 21 September. We estimate the IFRs expected if all excess deaths from natural causes are due to COVID-19, from the ratios of excess deaths to reported deaths as of the dates for which estimates of excess deaths are available. For Bolivia, as of 31 August, reported deaths due to COVID-19 were 5,027 and underreported deaths attributed to COVID-19 were 14,508, according to the Servicio de Registro C\u00edvico (SERECI) (as reported in https://muywaso.com/14-mil-muertes-que-no-se-pueden-ocultar-y-una-tasa-de-subregistro-del-75/). For Colombia, from 18 May to 2 August, reported deaths due to COVID-19 were 12,393 and total excess deaths were 15,728, as reported by Minsalud (https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/ED/VSP/estimacion-exceso-mortalidad-colombia-covid19.pdf). For South Africa, reported deaths due to COVID-19 were 15,499 as of 15 September, while excess deaths due to natural causes (which may not all be due to COVID-19 but are assumed to be for this calculation) between 6 May and 15 September are estimated to be 44,481 by the South African Medical Research Council (SAMRC) (https://www.samrc.ac.za/reports/report-weekly-deaths-south-africa?bc=254)."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "AT Levin et al. \u201cAssessing the Age Specificity of Infection Fatality Rates for COVID-19: Meta-Analysis & Public Policy Implications\u201d - medRxiv 2020.07.23.20160895 doi: https://doi.org/10.1101/2020.07.23.20160895.",
+        "DOI": "10.1101/2020.07.23.20160895"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LC Okell , R Verity , OJ Watson et al. Have deaths from COVID-19 in Europe plateaued due to herd immunity? The Lancet; 11-06-2020, doi: https://doi.org/10.1016/S0140-6736(20)31357-X.",
+        "DOI": "10.1016/S0140-6736(20)31357-X"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.19",
+        "unstructured": "The fits are made to only the first 100 days of reported cases for each of France, Germany and Spain, the first 150 days of reported cases for the United Kingdom, and the first 75 days of reported cases for China and New Zealand."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.20",
+        "unstructured": "Calculated by comparing findings from seroprevalence studies in England ( H Ward , CJ Atchison , M Whitaker et al. Antibody prevalence for SARS-CoV-2 in England following first peak of the pandemic: REACT2 study in 100,000 adults. medRxiv 2020: 2020.08.12.20173690), Italy (Italy National Institute of Statistics. Primi risultati dell\u2019indagine di sieroprevalenza sul SARS-CoV-2. 2020), Portugal (Portugal National Institute of Health. Relat\u00f3rio de Apresenta\u00e7\u00e3o dos Resultados Preliminares do Primeiro Inqu\u00e9rito Serol\u00f3gico Nacional COVID-19. 2020) and Spain (R Pastor-Barriuso, B Perez-Gomez, MA Hernan et al. SARS-CoV-2 infection fatality risk in a nationwide seroepidemiological study. medRxiv 2020: 2020.08.06.20169722) with reported cases from around the times of the studies."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "The ICL model is described at https://mrc-ide.github.io/global-lmic-reports/parameters.html. See also PT Walker , C Whittaker , OJ Watson et al. The impact of COVID-19 and strategies for mitigation and suppression in low- and middle-income countries. Science; 12-06-2020, doi: https://doi.org/10.1126/science.abc0035.",
+        "DOI": "10.1126/science.abc0035"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.07.13.20151233"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.23",
+        "unstructured": "Derived from the total reported cases divided by the total mean estimates of new infections from the models, up to 8 September, as reported on https://ourworldindata.org/covid-models."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.24",
+        "unstructured": "Announced by Dr. Zweli Mkhize, Minister for Health of South Africa, as reported by AP: https://apnews.com/cffcd4dfb1e3cbd810838fb9bde7a91d."
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.07.13.20151233"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LC Okell , R Verity , OJ Watson et al. Have deaths from COVID-19 in Europe plateaued due to herd immunity? The Lancet; 11-06-2020, doi: https://doi.org/10.1016/S0140-6736(20)31357-X.",
+        "DOI": "10.1016/S0140-6736(20)31357-X"
+      },
+      {
+        "key": "2020102620150441000_2020.09.26.20201814v3.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T Sekine et al. Robust T cell immunity in convalescent individuals with asymptomatic or mild COVID-19. Cell (2020), doi: https://doi.org/10.1016/j.cell.2020.08.017.",
+        "DOI": "10.1016/j.cell.2020.08.017"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.26.20201814",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:55:20Z",
+      "timestamp": 1768485320000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.26.20201814"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2020.09.26.20201814",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

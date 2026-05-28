@@ -1,0 +1,582 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          27
+        ]
+      ],
+      "date-time": "2026-03-27T06:20:25Z",
+      "timestamp": 1774592425617,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 63,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  A susceptible person experiences the highest exposure risk of respiratory infection when he or she is in close proximity with an infected person. The large droplet route has been commonly believed to be dominant for most respiratory infections since the early 20\n                  <jats:sup>th</jats:sup>\n                  century, and the associated droplet precaution is widely known and practiced in hospitals and in the community. The mechanism of exposure to droplets expired at close contact, however, remains surprisingly unexplored. In this study, the exposure to exhaled droplets during close contact (&lt; 2 m) via both the short-range airborne and large droplet sub-routes is studied using a simple mathematical model of expired flows and droplet dispersion/deposition/inhalation, which enables the calculation of exposure due to both deposition and inhalation. The short-range airborne route is found to dominate at most distances studied during both talking and coughing. The large droplet route only dominates when the droplets are larger than 100 \u03bcm and when the subjects are within 0.2 m while talking or 0.5 m while coughing. The smaller the exhaled droplets, the more important the short-range airborne route. The large droplet route contributes less than 10% of exposure when the droplets are smaller than 50 \u03bcm and when the subjects are more than 0.3 m apart, even while coughing.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Practical implications</jats:title>\n                  <jats:p>Our simple but novel analysis shows that conventional surgical masks are not effective if most infectious viruses are contained in fine droplets, and non-conventional intervention methods such as personalised ventilation should be considered as infection prevention strategies given the possible dominance of the short-range airborne route, although further clinical evidence is needed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Nomenclature</jats:title>\n                  <jats:sec>\n                    <jats:title>Subscript</jats:title>\n                    <jats:p>\n                      <jats:italic>i</jats:italic>\n                      Droplets of different diameter groups (\n                      <jats:italic>i</jats:italic>\n                      = 1, 2, \u2026, N)\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>LD</jats:italic>\n                      Large droplet route\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>SR</jats:italic>\n                      Short-range airborne route\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Symbols</jats:title>\n                    <jats:p>\n                      <jats:italic>A</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Area of source mouth [m\n                      <jats:sup>2</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>AE</jats:italic>\n                      Aspiration efficiency [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>Ar</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Archimedes number [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>b</jats:italic>\n                      <jats:sub>\n                        <jats:italic>g</jats:italic>\n                      </jats:sub>\n                      Gaussian half width [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>b</jats:italic>\n                      <jats:sub>\n                        <jats:italic>t</jats:italic>\n                      </jats:sub>\n                      Top-hat half width [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>C</jats:italic>\n                      <jats:sub>\n                        <jats:italic>D</jats:italic>\n                      </jats:sub>\n                      Drag coefficient [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>C</jats:italic>\n                      <jats:sub>\n                        <jats:italic>I</jats:italic>\n                      </jats:sub>\n                      Specific heat of liquid [J\u2022kg\n                      <jats:sup>-1</jats:sup>\n                      \u2022K\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>C</jats:italic>\n                      <jats:sub>\n                        <jats:italic>s</jats:italic>\n                      </jats:sub>\n                      Specific heat of solid [J\u2022kg\n                      <jats:sup>-1</jats:sup>\n                      \u2022K\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>C</jats:italic>\n                      <jats:sub>\n                        <jats:italic>T</jats:italic>\n                      </jats:sub>\n                      Correction factor for diffusion coefficient due to temperature dependence [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                      </jats:sub>\n                      Droplet diameter [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                        0\n                      </jats:sub>\n                      Droplet initial diameter [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>\n                        <jats:italic>e</jats:italic>\n                        1\n                      </jats:sub>\n                      Major axis of eye ellipse [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>\n                        <jats:italic>e</jats:italic>\n                        2\n                      </jats:sub>\n                      Minor axis of eye ellipse [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>h</jats:sub>\n                      Characteristic diameter of human head [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>\n                        <jats:italic>m</jats:italic>\n                      </jats:sub>\n                      Mouth diameter [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>d</jats:italic>\n                      <jats:sub>\n                        <jats:italic>n</jats:italic>\n                      </jats:sub>\n                      Nostril diameter [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>D</jats:italic>\n                      <jats:sub>\u221e</jats:sub>\n                      Binary diffusion coefficient far from droplet [m\n                      <jats:sup>2</jats:sup>\n                      \u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>DE</jats:italic>\n                      Deposition efficiency [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>e</jats:italic>\n                      <jats:sub>\n                        <jats:italic>LD</jats:italic>\n                      </jats:sub>\n                      Exposure due to large droplet route [\u03bcL]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>e</jats:italic>\n                      <jats:sub>\n                        <jats:italic>SR</jats:italic>\n                      </jats:sub>\n                      Exposure due to short-range airborne route [\u03bcL]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>g</jats:italic>\n                      Gravitational acceleration [m\u2022s\n                      <jats:sup>-2</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>I</jats:italic>\n                      <jats:sub>\n                        <jats:italic>v</jats:italic>\n                      </jats:sub>\n                      Mass current [kg\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>IF</jats:italic>\n                      Inhalation fraction [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>K</jats:italic>\n                      <jats:sub>\n                        <jats:italic>c</jats:italic>\n                      </jats:sub>\n                      Constant (=0.3) [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>K</jats:italic>\n                      <jats:sub>\n                        <jats:italic>g</jats:italic>\n                      </jats:sub>\n                      Thermal conductivity of air [W\u2022m\n                      <jats:sup>-1</jats:sup>\n                      \u2022K\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>LS</jats:italic>\n                      Exposure ratio between large droplet and short-range airborne [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>L</jats:italic>\n                      <jats:sub>\n                        <jats:italic>v</jats:italic>\n                      </jats:sub>\n                      Latent heat of vaporization [J\u2022kg\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>m</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                      </jats:sub>\n                      Droplet mass [kg]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>m</jats:italic>\n                      <jats:sub>\n                        <jats:italic>I</jats:italic>\n                      </jats:sub>\n                      Mass of liquid in a droplet [kg]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>m</jats:italic>\n                      <jats:sub>\n                        <jats:italic>s</jats:italic>\n                      </jats:sub>\n                      Mass of solid in a droplet [kg]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>M</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Jet initial momentum [m\n                      <jats:sup>4</jats:sup>\n                      \u2022s\n                      <jats:sup>-2</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>M</jats:italic>\n                      <jats:sub>\n                        <jats:italic>W</jats:italic>\n                      </jats:sub>\n                      Molecular weight of H\n                      <jats:sub>2</jats:sub>\n                      O [kg\u2022mol\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>MF</jats:italic>\n                      Membrane fraction [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>n</jats:italic>\n                      Number of droplets [n]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>n</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Number of droplets expelled immediately at mouth [n]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>N</jats:italic>\n                      <jats:sub>\n                        <jats:italic>in</jats:italic>\n                      </jats:sub>\n                      Number of droplets entering the inhalation zone [n]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>N</jats:italic>\n                      <jats:sub>\n                        <jats:italic>m</jats:italic>\n                      </jats:sub>\n                      Number of droplets potentially deposited on mucous membranes [n]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>N</jats:italic>\n                      <jats:sub>\n                        <jats:italic>t</jats:italic>\n                      </jats:sub>\n                      Total number of released droplets [n]\n                    </jats:p>\n                    <jats:p>Nu Nusselt number [-]</jats:p>\n                    <jats:p>\n                      <jats:italic>p</jats:italic>\n                      Total pressure [Pa]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>p</jats:italic>\n                      <jats:sub>\n                        <jats:italic>v</jats:italic>\n                        \u221e\n                      </jats:sub>\n                      Vapour pressure distant from droplet surface [Pa]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>p</jats:italic>\n                      <jats:sub>\n                        <jats:italic>vs</jats:italic>\n                      </jats:sub>\n                      Vapour pressure at droplet surface [Pa]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>Q</jats:italic>\n                      <jats:sub>\n                        <jats:italic>jet</jats:italic>\n                      </jats:sub>\n                      Jet flow rate [m\n                      <jats:sup>3</jats:sup>\n                      \u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>r</jats:italic>\n                      Radial distance away from jet centreline [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>r</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                      </jats:sub>\n                      Droplet radius [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>R</jats:italic>\n                      Radius of jet potential core [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>R</jats:italic>\n                      <jats:sub>g</jats:sub>\n                      Universal gas constant [J\u2022K\n                      <jats:sup>-1</jats:sup>\n                      \u2022mol\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>s</jats:italic>\n                      Jet centreline trajectory length [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>S</jats:italic>\n                      <jats:sub>\n                        <jats:italic>in</jats:italic>\n                      </jats:sub>\n                      Width of region on sampler enclosed by limiting stream surface [m]\n                    </jats:p>\n                    <jats:p>Sh Sherwood number [-]</jats:p>\n                    <jats:p>\n                      <jats:italic>St</jats:italic>\n                      <jats:sub>\n                        <jats:italic>c</jats:italic>\n                      </jats:sub>\n                      Stokes number in convergent part of air stream [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>St</jats:italic>\n                      <jats:sub>h</jats:sub>\n                      Stokes number for head [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>St</jats:italic>\n                      <jats:sub>\n                        <jats:italic>m</jats:italic>\n                      </jats:sub>\n                      Stokes number for mouth [-]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>t</jats:italic>\n                      Time [s]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>T</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Initial temperature of jet [K]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>T</jats:italic>\n                      <jats:sub>\u221e</jats:sub>\n                      Ambient temperature [K]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>T</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                      </jats:sub>\n                      Droplet temperature [K]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Initial velocity at mouth outlet [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                      </jats:sub>\n                      Droplet velocity [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>\n                        <jats:italic>g</jats:italic>\n                      </jats:sub>\n                      Gaussian velocity [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>\n                        <jats:italic>g</jats:italic>\n                        as\n                      </jats:sub>\n                      Gas velocity [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>\n                        <jats:italic>gc</jats:italic>\n                      </jats:sub>\n                      Gaussian centreline velocity [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>\n                        <jats:italic>in</jats:italic>\n                      </jats:sub>\n                      Inhalation velocity [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>u</jats:italic>\n                      <jats:sub>\n                        <jats:italic>t</jats:italic>\n                      </jats:sub>\n                      Top-hat velocity [m\u2022s\n                      <jats:sup>-1</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>v</jats:italic>\n                      <jats:sub>\n                        <jats:italic>p</jats:italic>\n                      </jats:sub>\n                      Individual droplet volume considering evaporation [m\n                      <jats:sup>3</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>x</jats:italic>\n                      Horizontal distance between source and target [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>z</jats:italic>\n                      Jet vertical centreline position [m]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>\u03c1</jats:italic>\n                      <jats:sub>0</jats:sub>\n                      Jet initial density [kg\u2022m\n                      <jats:sup>-3</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>\u03c1</jats:italic>\n                      <jats:sub>\u221e</jats:sub>\n                      Ambient air density [kg\u2022m\n                      <jats:sup>-3</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>\u03c1</jats:italic>\n                      <jats:sub>\n                        <jats:italic>d</jats:italic>\n                      </jats:sub>\n                      Droplet density [kg\u2022m\n                      <jats:sup>-3</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>\u03c1</jats:italic>\n                      <jats:sub>\n                        <jats:italic>g</jats:italic>\n                      </jats:sub>\n                      Gas density [kg\u2022m\n                      <jats:sup>-3</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>\u0394\u03c1</jats:italic>\n                      Density difference between jet and ambient air [kg\u2022m\n                      <jats:sup>-3</jats:sup>\n                      ]\n                    </jats:p>\n                    <jats:p>\n                      <jats:italic>\u03bc</jats:italic>\n                      <jats:sub>\n                        <jats:italic>g</jats:italic>\n                      </jats:sub>\n                      Gas dynamic viscosity [Pa\u2022s]\n                    </jats:p>\n                    <jats:p>\u03c6 Sampling ratio in axisymmetric flow system [-]</jats:p>\n                    <jats:p>\n                      <jats:italic>\u03b1</jats:italic>\n                      <jats:sub>\n                        <jats:italic>c</jats:italic>\n                      </jats:sub>\n                      Impaction efficiency in convergent part of air stream [-]\n                    </jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2020.03.16.20037291",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2020-03-20T16:49:46Z",
+      "timestamp": 1584722986000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Short-range airborne route dominates exposure of respiratory infection during close contact"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Wenzhao",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Nan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianjian",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hui-Ling",
+        "family": "Yen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2281-4529",
+        "authenticated-orcid": false,
+        "given": "Yuguo",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "9",
+        "key": "2020111613201773000_2020.03.16.20037291v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "S102",
+        "DOI": "10.1016/j.ajic.2016.06.003",
+        "article-title": "Airborne spread of infectious agents in the indoor environment, Am",
+        "volume": "44",
+        "year": "2016",
+        "journal-title": "J. Infect. Control"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(07)70029-4"
+      },
+      {
+        "issue": "4",
+        "key": "2020111613201773000_2020.03.16.20037291v1.3",
+        "first-page": "577",
+        "article-title": "Human behavior during close contact in a graduate student office",
+        "volume": "29",
+        "year": "2019",
+        "journal-title": "Indoor air"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.4",
+        "unstructured": "A. Pease , Body language: How to read others\u2019 thoughts by their gestures, Sheldon Press, London, 1984."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.5",
+        "first-page": "340",
+        "article-title": "Influence of human breathing modes on airborne cross infection risk, Build",
+        "volume": "106",
+        "year": "2016",
+        "journal-title": "Environ"
+      },
+      {
+        "issue": "1",
+        "key": "2020111613201773000_2020.03.16.20037291v1.6",
+        "first-page": "179",
+        "article-title": "Ueber luftinfection, Med. Microbiol",
+        "volume": "25",
+        "year": "1897",
+        "journal-title": "Immunol"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.7",
+        "unstructured": "C.V. Chapin , The Sources and Modes of Infection, John Wiley & Sons, New York, 1912."
+      },
+      {
+        "issue": "10",
+        "key": "2020111613201773000_2020.03.16.20037291v1.8",
+        "first-page": "1578",
+        "article-title": "Lack of airborne transmission during outbreak of pandemic (H1N1) 2009 among tour group members, China, June 2009, Emerg. Infect",
+        "volume": "15",
+        "year": "2009",
+        "journal-title": "Dis"
+      },
+      {
+        "issue": "2",
+        "key": "2020111613201773000_2020.03.16.20037291v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "452",
+        "DOI": "10.1111/ina.12314",
+        "article-title": "Short-range airborne transmission of expiratory droplets between two people",
+        "volume": "27",
+        "year": "2017",
+        "journal-title": "Indoor Air"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b509617k"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaerosci.2005.06.009"
+      },
+      {
+        "issue": "3",
+        "key": "2020111613201773000_2020.03.16.20037291v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1089/jamp.2013.1051",
+        "article-title": "Hood nebulization: effects of head direction and breathing mode on particle inhalability and deposition in a 7-month-old infant model",
+        "volume": "27",
+        "year": "2014",
+        "journal-title": "J. Aerosol Med. Pulm. Drug Deliv"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-8502(94)00107-A"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1016/j.enbuild.2017.09.100",
+        "article-title": "Experimental evaluation of thermal comfort, ventilation performance indices and exposure to airborne contaminant in an airborne infection isolation room equipped with a displacement air distribution system",
+        "volume": "158",
+        "year": "2018",
+        "journal-title": "Energy Build"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0668.2009.00623.x"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaerosci.2008.11.002"
+      },
+      {
+        "issue": "6",
+        "key": "2020111613201773000_2020.03.16.20037291v1.17",
+        "first-page": "471",
+        "article-title": "The size and the duration of air-carriage of respiratory droplets and droplet-nuclei, Epidemiol",
+        "volume": "44",
+        "year": "1946",
+        "journal-title": "Infect"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ina.12129"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.19",
+        "unstructured": "J.H.W. Lee , V. Chu , Turbulent jets and plumes: a Lagrangian approach, Springer Science & Business Media, New York, 2012."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.20",
+        "first-page": "86",
+        "article-title": "Enhanced spread of expiratory droplets by turbulence in a cough jet, Build",
+        "volume": "93",
+        "year": "2015",
+        "journal-title": "Environ"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaerosci.2008.10.003"
+      },
+      {
+        "issue": "10",
+        "key": "2020111613201773000_2020.03.16.20037291v1.22",
+        "first-page": "2044",
+        "article-title": "Evaluation of a simple, potentially individual device for exhaled breath temperature measurement, Respir",
+        "volume": "101",
+        "year": "2007",
+        "journal-title": "Med"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.23",
+        "unstructured": "V.V.E. Baturin , Fundamentals of Industrial Ventilation, Pergamon Press, Oxford, 1972."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11538-007-9281-2"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1539-6924.2009.01253.x"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.26",
+        "unstructured": "U. Epa , Exposure Factors Handbook 2011 Edition (Final), US Environmental Protection Agency, Washington, DC, 2011."
+      },
+      {
+        "issue": "3",
+        "key": "2020111613201773000_2020.03.16.20037291v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.1006/cviu.2001.0921",
+        "article-title": "Face detection: A survey, Comput. Vis",
+        "volume": "83",
+        "year": "2001",
+        "journal-title": "Image Underst"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.28",
+        "unstructured": "I. Langmuir , K.B. Blodgett , A mathematical investigation of water droplet trajectories, Army Air Forces Technical Report 5418, 1946."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.29",
+        "unstructured": "W.H. Walton , A. Woolcock , in: E.G. Richardson (Ed.), Aerodynamic Capture of particles, Pergamon Press, New York, 1960, pp. 129\u2013153."
+      },
+      {
+        "issue": "2",
+        "key": "2020111613201773000_2020.03.16.20037291v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1002/ceat.270170204",
+        "article-title": "Inertial impaction of aerosol particles on single and multiple spherical targets, Chem",
+        "volume": "17",
+        "year": "1994",
+        "journal-title": "Eng. Technol"
+      },
+      {
+        "issue": "10",
+        "key": "2020111613201773000_2020.03.16.20037291v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1281",
+        "DOI": "10.1016/S0021-8502(99)00046-4",
+        "article-title": "Measurements of inertial deposition of aerosol particles in regular arrays of spheres",
+        "volume": "30",
+        "year": "1999",
+        "journal-title": "J. Aerosol. Sci"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.32",
+        "unstructured": "T.L. Ogden , J.L. Birkett , The human head as a dust sampler, in: W.H. Walton (Ed.), Inhaled particles IV, Pergamon Press, Oxford, 1977, pp. 93\u2013105."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Armbruster , H. Breuer , Investigations into defining inhalable dust, in: W.H. Walton (Ed.), Inhaled particles V, Pergamon Press, Oxford, 1982, pp. 21\u201332.",
+        "DOI": "10.1016/B978-0-08-026838-5.50006-4"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J.H. Vincent , D. Mark , Applications of blunt sampler theory to the definition and measurement of inhalable dust, in: W.H. Walton (Ed.), Inhaled particles V , Pergamon Press, Oxford, 1982, pp. 3\u201319.",
+        "DOI": "10.1016/B978-0-08-026838-5.50005-2"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0021-8502(98)00762-9"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-8502(90)90133-I"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0021-8502(99)00022-1"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaerosci.2004.04.003"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-8502(88)90275-3"
+      },
+      {
+        "issue": "6",
+        "key": "2020111613201773000_2020.03.16.20037291v1.40",
+        "first-page": "710",
+        "article-title": "Contribution of facial feature dimensions and velocity parameters on particle inhalability, Ann",
+        "volume": "54",
+        "year": "2010",
+        "journal-title": "Occup. Hyg"
+      },
+      {
+        "issue": "3",
+        "key": "2020111613201773000_2020.03.16.20037291v1.41",
+        "first-page": "245",
+        "article-title": "An empirical model for the aspiration efficiencies of blunt aerosol samplers orientated at an angle to the oncoming flow, Aerosol Sci",
+        "volume": "8",
+        "year": "1988",
+        "journal-title": "Technol"
+      },
+      {
+        "issue": "12",
+        "key": "2020111613201773000_2020.03.16.20037291v1.42",
+        "first-page": "1691",
+        "article-title": "Study on transport characteristics of saliva droplets produced by coughing in a calm indoor environment, Build",
+        "volume": "41",
+        "year": "2006",
+        "journal-title": "Environ"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1420326X07084290"
+      },
+      {
+        "issue": "3",
+        "key": "2020111613201773000_2020.03.16.20037291v1.44",
+        "first-page": "611",
+        "article-title": "On air-borne infection: study II. droplets and droplet nuclei, Am. J",
+        "volume": "20",
+        "year": "1934",
+        "journal-title": "Epidemiol"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0668.2007.00469.x"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/09031936.94.07071246"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.1936.02770470016004"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1003205"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1716561115"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1716771115"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0668.2009.00609.x"
+      },
+      {
+        "issue": "1",
+        "key": "2020111613201773000_2020.03.16.20037291v1.52",
+        "first-page": "54",
+        "article-title": "Hospital Infection Control Practices Advisory Committee, Guideline for isolation precautions in hospitals, Infect. Control Hosp",
+        "volume": "17",
+        "year": "1996",
+        "journal-title": "Epidemiol"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.53",
+        "unstructured": "World Health Organization (WHO), Infection prevention and control of epidemic-and pandemic-prone acute respiratory infections in health care, Geneva, WHO, 2014."
+      },
+      {
+        "issue": "2",
+        "key": "2020111613201773000_2020.03.16.20037291v1.54",
+        "first-page": "S65",
+        "article-title": "Health Care Infection Control Practices Advisory Committee, 2007 Guideline for isolation precautions preventing transmission of infectious agents in healthcare settings, Am",
+        "volume": "35",
+        "year": "2007",
+        "journal-title": "J. Infect. Control"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0668.2004.00284.x"
+      },
+      {
+        "issue": "2",
+        "key": "2020111613201773000_2020.03.16.20037291v1.56",
+        "first-page": "913",
+        "article-title": "Experimental study on a chair-based personalized ventilation system, Build",
+        "volume": "42",
+        "year": "2007",
+        "journal-title": "Environ"
+      },
+      {
+        "issue": "6",
+        "key": "2020111613201773000_2020.03.16.20037291v1.57",
+        "first-page": "S715",
+        "article-title": "Personalized ventilation as a control measure for airborne transmissible disease spread, J",
+        "volume": "6",
+        "year": "2009",
+        "journal-title": "R. Soc. Interface"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.58",
+        "unstructured": "W.C. Hinds , Aerosol technology: properties, behavior, and measurement of airborne particles, John Wiley & Sons, New York, 1999."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijpharm.2010.12.040"
+      },
+      {
+        "issue": "1",
+        "key": "2020111613201773000_2020.03.16.20037291v1.60",
+        "first-page": "S19",
+        "article-title": "The influence of lung deposition on clinical response",
+        "volume": "14",
+        "year": "2001",
+        "journal-title": "J. Aerosol Med"
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.61",
+        "unstructured": "G.F.G. Bezemer , Particle deposition and clearance from the respiratory tract, Institute for Risk Assessment Sciences, University of Utrecht, The Netherlands, 2009."
+      },
+      {
+        "key": "2020111613201773000_2020.03.16.20037291v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0015100"
+      },
+      {
+        "issue": "6",
+        "key": "2020111613201773000_2020.03.16.20037291v1.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "963",
+        "DOI": "10.1111/ina.12505",
+        "article-title": "Surface touch and its network growth in a graduate student office",
+        "volume": "28",
+        "year": "2018",
+        "journal-title": "Indoor air"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.03.16.20037291",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:35:01Z",
+      "timestamp": 1768484101000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.03.16.20037291"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "references-count": 63,
+    "URL": "https://doi.org/10.1101/2020.03.16.20037291",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.buildenv.2020.106859",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

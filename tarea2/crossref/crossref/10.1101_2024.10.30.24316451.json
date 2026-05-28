@@ -1,0 +1,776 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:52:37Z",
+      "timestamp": 1768567957801,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 78,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Artificial intelligence has shown considerable promise in fields like medical imaging. Existing testing limitations necessitate reliable approaches for screening COVID-19 and measuring its adverse effects on the lungs. CT scans and chest X-ray images are vital in quantifying and accurately classifying COVID-19 infections. One significant advantage of deep learning models in medical image analysis for detection and classification is that they are a top-notch way to diagnose diseases. For this purpose, we have utilized the power of a deep residual learning network with a global feature fusion technique and attention mechanism to develop our proposed model named \u201cRGFSAMNet\u201d in this study to diagnose the COVID-19 infected patient accurately from a CT scan and chest X-ray images. We have used two publicly available datasets named \u201cSARS-COV-2,\u201d which consists of 2482 CT scan images with two classes, and another chest X-ray dataset that contains 12,576 images with three classes. To check the effectiveness of our model, we have trained and tested the model on two different types of datasets. We also generated the Grad-CAM, LIME, and SHAP visualization based on our proposed model, which can represent the identification of the affected area\u2019s regions in images and describe the model\u2019s interpretability level. These experimental results show that the proposed model architecture can achieve accurate classification of COVID-19 affected CT scans and X-ray images despite a lack of data, with the highest accuracy of 99.60% on test data for CT scans and 99.48% on X-ray image detection and classification. We also developed a web-based User Interface (UI) for the model validation to detect and classify COVID-19 images. Our proposed model exceeds some previous state-of-the-art performance levels. We think our contributions will help clinicians detect and classify COVID-19 images effectively and save human lives.</jats:p>",
+    "DOI": "10.1101/2024.10.30.24316451",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ],
+      "date-time": "2024-11-01T19:25:17Z",
+      "timestamp": 1730489117000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "RGFSAMNet: An interpretable COVID-19 detection and classification by using the deep residual network with global feature fusion and attention mechanism"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-0876-7013",
+        "authenticated-orcid": false,
+        "given": "S M Rakib",
+        "family": "Ul Karim",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Diponkor",
+        "family": "Bala",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rownak Ara",
+        "family": "Rasul",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4331-147X",
+        "authenticated-orcid": false,
+        "given": "Sean",
+        "family": "Goggins",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0146736(20)30183-5"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "issue": "10",
+        "key": "2024110503000812000_2024.10.30.24316451v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "3615",
+        "DOI": "10.1080/07391102.2020.1767212",
+        "article-title": "Using X-ray images and deep learning for automated detection of coronavirus disease",
+        "volume": "39",
+        "year": "2021",
+        "journal-title": "Journal of Biomolecular Structure and Dynamics"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "102777",
+        "DOI": "10.1016/j.scs.2021.102777",
+        "article-title": "Social distance monitoring framework using deep learning architecture to control infection transmission of COVID-19 pandemic",
+        "volume": "69",
+        "year": "2021",
+        "journal-title": "Sustainable cities and society"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.5",
+        "unstructured": "World Health Organization. COVID-19 Dashboard; 2024. https://data.who.int/dashboards/covid19/cases?n=c."
+      },
+      {
+        "issue": "5",
+        "key": "2024110503000812000_2024.10.30.24316451v1.6",
+        "first-page": "595",
+        "article-title": "Reverse transcriptase-polymerase chain reaction",
+        "volume": "41",
+        "year": "1996",
+        "journal-title": "Tanpakushitsu Kakusan koso Protein, Nucleic Acid, Enzyme"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang Y , Zhang H , Xie J , Lin M , Ying L , Pang P , et al. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. Radiology;296(2).",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmi.2020.04.040"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "106897",
+        "DOI": "10.1016/j.asoc.2020.106897",
+        "article-title": "AI-assisted CT imaging analysis for COVID-19 screening: Building and deploying a medical AI system",
+        "volume": "98",
+        "year": "2021",
+        "journal-title": "Applied soft computing"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2020.105581"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "19549",
+        "DOI": "10.1038/s41598-020-76550-z",
+        "article-title": "Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K , Zhang X , Ren S , Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2016. p. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "20235",
+        "DOI": "10.1109/ACCESS.2021.3054484",
+        "article-title": "Deep learning approaches for detecting COVID-19 from chest X-ray images: A survey",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Ieee Access"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "100763",
+        "DOI": "10.1109/ACCESS.2022.3208138",
+        "article-title": "A comprehensive review of deep learning-based methods for COVID-19 detection using chest X-ray images",
+        "volume": "10",
+        "year": "2022",
+        "journal-title": "Ieee Access"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.clinimag.2020.04.001"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "8871",
+        "DOI": "10.1007/s00521-020-05636-6",
+        "article-title": "COVIDScreen: explainable deep learning framework for differential diagnosis of COVID-19 using chest X-rays",
+        "volume": "33",
+        "year": "2021",
+        "journal-title": "Neural Computing and Applications"
+      },
+      {
+        "issue": "7-8",
+        "key": "2024110503000812000_2024.10.30.24316451v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1016/j.diii.2020.06.001",
+        "article-title": "Chest CT in COVID-19 pneumonia: A review of current knowledge",
+        "volume": "101",
+        "year": "2020",
+        "journal-title": "Diagnostic and interventional Imaging"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "105123",
+        "DOI": "10.1016/j.compbiomed.2021.105123",
+        "article-title": "Review and classification of AI-enabled COVID-19 CT imaging models based on computer vision tasks",
+        "volume": "141",
+        "year": "2022",
+        "journal-title": "Computers in biology and medicine"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.19",
+        "first-page": "1012",
+        "article-title": "Chest computed tomography findings of COVID-19 pneumonia: pictorial essay with literature review",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Japanese journal of radiology"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "6129",
+        "DOI": "10.1007/s00330-020-06975-7",
+        "article-title": "CT in coronavirus disease 2019 (COVID-19): a systematic review of chest CT findings in 4410 adult patients",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "European radiology"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "6221",
+        "DOI": "10.1007/s00330-020-06956-w",
+        "article-title": "Any unique image biomarkers associated with COVID-19?",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "European radiology"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103792"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "617",
+        "DOI": "10.1007/s10479-022-05151-y",
+        "article-title": "A novel deep neural network model based Xception and genetic algorithm for detection of COVID-19 from X-ray images",
+        "volume": "328",
+        "year": "2023",
+        "journal-title": "Annals of Operations Research"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Che Azemin MZ , Hassan R , Mohd Tamrin MI , Md Ali MA , et al. COVID-19 deep learning prediction model using publicly available radiologist-adjudicated chest X-ray images as training data: preliminary findings. International Journal of Biomedical Imaging. 2020;2020.",
+        "DOI": "10.1155/2020/8828855"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.25",
+        "unstructured": "Hemdan EED , Shouman MA , Karar ME . Covidx-net: A framework of deep learning classifiers to diagnose covid-19 in x-ray images. arXiv preprint arXiv:200311055. 2020;."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1690",
+        "DOI": "10.1007/s10489-020-01902-1",
+        "article-title": "Deep learning based detection and analysis of COVID-19 on chest X-ray images",
+        "volume": "51",
+        "year": "2021",
+        "journal-title": "Applied Intelligence"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Medhi K , Jamil M , Hussain MI . Automatic detection of COVID-19 infection from chest X-ray using deep learning. medrxiv. 2020; p. 2020\u201305.",
+        "DOI": "10.1101/2020.05.10.20097063"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abe5735"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1016/j.it.2021.11.004",
+        "article-title": "Fostering experimental and computational synergy to modulate hyperinflammation",
+        "volume": "43",
+        "year": "2022",
+        "journal-title": "Trends in immunology"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "341",
+        "DOI": "10.1007/s10489-020-01831-z",
+        "article-title": "Detection of COVID-19 using CXR and CT images using Transfer Learning and Haralick features",
+        "volume": "51",
+        "year": "2021",
+        "journal-title": "Applied Intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.31",
+        "first-page": "33",
+        "article-title": "Bayes, E-Bayes and robust Bayes premium estimation and prediction under the squared log error loss function",
+        "volume": "17",
+        "year": "2022",
+        "journal-title": "Journal of the Iranian Statistical Society"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Larose CD , Larose DT . Data science using Python and R. John Wiley & Sons; 2019.",
+        "DOI": "10.1002/9781119526865"
+      },
+      {
+        "issue": "9",
+        "key": "2024110503000812000_2024.10.30.24316451v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "13855",
+        "DOI": "10.1007/s11042-022-13843-7",
+        "article-title": "CDC Net: Multi-classification convolutional neural network model for detection of COVID-19, pneumothorax, pneumonia, lung Cancer, and tuberculosis using chest X-rays",
+        "volume": "82",
+        "year": "2023",
+        "journal-title": "Multimedia Tools and Applications"
+      },
+      {
+        "issue": "3",
+        "key": "2024110503000812000_2024.10.30.24316451v1.34",
+        "first-page": "879",
+        "article-title": "Viral pneumonia screening on chest X-rays using confidence-aware anomaly detection",
+        "volume": "40",
+        "year": "2020",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "12322",
+        "DOI": "10.1038/s41598-023-39408-8",
+        "article-title": "An innovative ensemble model based on deep learning for predicting COVID-19 infection",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "8",
+        "key": "2024110503000812000_2024.10.30.24316451v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "11085",
+        "DOI": "10.1007/s13369-021-05956-2",
+        "article-title": "An automated lightweight deep neural network for diagnosis of COVID-19 from chest X-ray images",
+        "volume": "48",
+        "year": "2023",
+        "journal-title": "Arabian journal for science and engineering"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.37",
+        "unstructured": "Li Z , Xu X , Cao X , Liu W , Zhang Y , Chen D , et al. Integrated CNN and federated learning for COVID-19 detection on chest X-ray images. IEEE/ACM Transactions on Computational Biology and Bioinformatics. 2022;."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "105365",
+        "DOI": "10.1016/j.bspc.2023.105365",
+        "article-title": "DBM-ViT: A multiscale features fusion algorithm for health status detection in CXR/CT lungs images",
+        "volume": "87",
+        "year": "2024",
+        "journal-title": "Biomedical Signal Processing and Control"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2019.2891738"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2017.2787595"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hassan E , Shams MY , Hikal NA , Elmougy S. Detecting COVID-19 in chest CT images based on several pre-trained models. Multimedia Tools and Applications. 2024; p. 1\u201321.",
+        "DOI": "10.1007/s11042-023-17990-3"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1007/s11042-023-15640-2",
+        "article-title": "COVID-19 Detection using adopted convolutional neural networks and high-performance computing",
+        "volume": "83",
+        "year": "2024",
+        "journal-title": "Multimedia Tools and Applications"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.43",
+        "unstructured": "Plameneduardo. SARS-COV-2 CT-Scan Dataset; 2020. Available from: https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.44",
+        "unstructured": "Rahman T. COVID-19 Radiography Database; 2023. Available from: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database?fbclid=IwY2xjawEscmdleHRuA2FlbQIxMAABHbVnOUHP_IkOnkGs_YT8gn3p9OcHUpEMovCm8SJRVSaX8SrK-uGOneT3fA_aem_lo2qRJKfp8k_fvbCG5H-0w."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.45",
+        "unstructured": "Prashant. Chest X-ray COVID19 Pneumonia; 2023. https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia?fbclid=IwY2xjawEscm9leHRuA2FlbQIxMAABHUcn8p7FMVGg-WcN20kCoY1lCL26aQKKwB3V1wg_kNTcnQlK7AM0DKpm5Q_aem_w5mc_8BA_60EUyQhv6JpRw."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "105524",
+        "DOI": "10.1016/j.asoc.2019.105524",
+        "article-title": "Investigating the impact of data normalization on classification performance",
+        "volume": "97",
+        "year": "2020",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "issue": "5",
+        "key": "2024110503000812000_2024.10.30.24316451v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1847",
+        "DOI": "10.1016/j.eswa.2012.09.017",
+        "article-title": "Effects of data set features on the performances of classification algorithms",
+        "volume": "40",
+        "year": "2013",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "113696",
+        "DOI": "10.1016/j.eswa.2020.113696",
+        "article-title": "Improving classification accuracy using data augmentation on small data sets",
+        "volume": "161",
+        "year": "2020",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3065386."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.50",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chollet F. Xception: Deep learning with depthwise separable convolutions. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 1251\u20131258.",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.52",
+        "article-title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy C , Liu W , Jia Y , Sermanet P , Reed S , Anguelov D , et al. Going deeper with convolutions. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2015. p. 1\u20139.",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang G , Liu Z , Van Der Maaten L , Weinberger KQ . Densely connected convolutional networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017. p. 4700\u20134708.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.55",
+        "unstructured": "Tan M , Le Q. Efficientnet: Rethinking model scaling for convolutional neural networks. In: International conference on machine learning. PMLR; 2019. p. 6105\u20136114."
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.1016/j.eswa.2017.05.039",
+        "article-title": "Deep learning for biological image classification",
+        "volume": "85",
+        "year": "2017",
+        "journal-title": "Expert systems with applications"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.10.013"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo J , Bu Q , Zhang L , Feng J. Global feature fusion attention network for single image dehazing. In: 2021 IEEE International Conference on Multimedia & Expo Workshops (ICMEW). IEEE; 2021. p. 1\u20136.",
+        "DOI": "10.1109/ICMEW53276.2021.9455955"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li J , Han Y , Zhang M , Li G , Zhang B. Multi-scale residual network model combined with Global Average Pooling for action recognition. Multimedia Tools and Applications. 2022; p. 1\u201319.",
+        "DOI": "10.1007/s11042-021-11435-5"
+      },
+      {
+        "issue": "7",
+        "key": "2024110503000812000_2024.10.30.24316451v1.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "5321",
+        "DOI": "10.1007/s00521-022-06953-8",
+        "article-title": "Pooling in convolutional neural networks for medical image analysis: a survey and an empirical study",
+        "volume": "34",
+        "year": "2022",
+        "journal-title": "Neural Computing and Applications"
+      },
+      {
+        "issue": "3",
+        "key": "2024110503000812000_2024.10.30.24316451v1.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1007/s41095-022-0271-y",
+        "article-title": "Attention mechanisms in computer vision: A survey",
+        "volume": "8",
+        "year": "2022",
+        "journal-title": "Computational visual media"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.62",
+        "article-title": "Deep learning using rectified linear units (relu)",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "2024110503000812000_2024.10.30.24316451v1.63",
+        "first-page": "1929",
+        "article-title": "Dropout: a simple way to prevent neural networks from overfitting",
+        "volume": "15",
+        "year": "2014",
+        "journal-title": "The journal of machine learning research"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "679",
+        "DOI": "10.1016/j.procs.2018.05.069",
+        "article-title": "Conceptual understanding of convolutional neural network-a deep learning approach",
+        "volume": "132",
+        "year": "2018",
+        "journal-title": "Procedia computer science"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.65",
+        "article-title": "On approximation capabilities of ReLU activation and softmax output layer in neural networks",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.66",
+        "first-page": "537",
+        "article-title": "Local interpretable model-agnostic explanations for music content analysis",
+        "volume": "53",
+        "year": "2017",
+        "journal-title": "In: ISMIR"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.67",
+        "article-title": "An empirical study of the effect of background data size on the stability of SHapley Additive exPlanations (SHAP) for deep learning models",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.68",
+        "article-title": "Adam: A method for stochastic optimization",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Newton D , Yousefian F , Pasupathy R. Stochastic gradient descent: Recent trends. Recent advances in optimization and modeling of contemporary problems. 2018; p. 193\u2013220.",
+        "DOI": "10.1287/educ.2018.0191"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zaheer R , Shaziya H. A study of the optimization algorithms in deep learning. In: 2019 third international conference on inventive systems and control (ICISC). IEEE; 2019. p. 536\u2013539.",
+        "DOI": "10.1109/ICISC44355.2019.9036442"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.71",
+        "first-page": "4806",
+        "article-title": "The real-world-weight cross-entropy loss function: Modeling the costs of mislabeling",
+        "volume": "8",
+        "year": "2019",
+        "journal-title": "IEEE access"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.72",
+        "article-title": "Don\u2019t decay the learning rate, increase the batch size",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.73",
+        "doi-asserted-by": "crossref",
+        "first-page": "100293",
+        "DOI": "10.1016/j.health.2023.100293",
+        "article-title": "An evaluation of machine learning approaches for early diagnosis of autism spectrum disorder",
+        "volume": "5",
+        "year": "2024",
+        "journal-title": "Healthcare Analytics"
+      },
+      {
+        "issue": "6",
+        "key": "2024110503000812000_2024.10.30.24316451v1.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "874",
+        "DOI": "10.1016/j.engappai.2007.09.009",
+        "article-title": "About the relationship between ROC curves and Cohen\u2019s kappa",
+        "volume": "21",
+        "year": "2008",
+        "journal-title": "Engineering Applications of Artificial Intelligence"
+      },
+      {
+        "issue": "2",
+        "key": "2024110503000812000_2024.10.30.24316451v1.75",
+        "first-page": "627",
+        "article-title": "Receiver operating characteristic (ROC) curve analysis for medical diagnostic test evaluation",
+        "volume": "4",
+        "year": "2013",
+        "journal-title": "Caspian journal of internal medicine"
+      },
+      {
+        "key": "2024110503000812000_2024.10.30.24316451v1.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chaos.2020.109944"
+      },
+      {
+        "issue": "8",
+        "key": "2024110503000812000_2024.10.30.24316451v1.77",
+        "doi-asserted-by": "crossref",
+        "first-page": "2676",
+        "DOI": "10.1109/TMI.2020.2994459",
+        "article-title": "Deep learning for classification and localization of COVID-19 markers in point-of-care lung ultrasound",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "issue": "9",
+        "key": "2024110503000812000_2024.10.30.24316451v1.78",
+        "doi-asserted-by": "crossref",
+        "first-page": "5521",
+        "DOI": "10.1007/s00500-022-07798-y",
+        "article-title": "A MobileNet-based CNN model with a novel fine-tuning mechanism for COVID-19 infection detection",
+        "volume": "27",
+        "year": "2023",
+        "journal-title": "Soft Computing"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.30.24316451",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:19:01Z",
+      "timestamp": 1768508341000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.10.30.24316451"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ]
+    },
+    "references-count": 78,
+    "URL": "https://doi.org/10.1101/2024.10.30.24316451",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

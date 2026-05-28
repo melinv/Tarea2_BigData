@@ -1,0 +1,498 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:47:17Z",
+      "timestamp": 1768549637397,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          3
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 42,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  As several countries gradually release social distancing measures, rapid detection of new localised COVID-19 hotspots and subsequent intervention will be key to avoiding large-scale resurgence of transmission. We introduce ASMODEE (Automatic Selection of Models and Outlier Detection for Epidemics), a new tool for detecting sudden changes in COVID-19 incidence. Our approach relies on automatically selecting the best (fitting or predicting) model from a range of user-defined time series models, excluding the most recent data points, to characterise the main trend in an incidence. We then derive prediction intervals and classify data points outside this interval as outliers, which provides an objective criterion for identifying departures from previous trends. We also provide a method for selecting the optimal breakpoints, used to define how many recent data points are to be excluded from the trend fitting procedure. The analysis of simulated COVID-19 outbreaks suggest ASMODEE compares favourably with a state-of-art outbreak-detection algorithm while being simpler and more flexible. We illustrate our method using publicly available data of NHS Pathways reporting potential COVID-19 cases in England at a fine spatial scale, for which we provide a template automated analysis pipeline. ASMODEE is implemented in the free R package\n                  <jats:italic>trendbreaker</jats:italic>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2020.09.02.20186502",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2020-09-03T16:15:19Z",
+      "timestamp": 1599149719000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Real-time monitoring of COVID-19 dynamics using automated trend fitting and anomaly detection"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Thibaut",
+        "family": "Jombart",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "St\u00e9phane",
+        "family": "Ghozzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dirk",
+        "family": "Schumacher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Quentin J",
+        "family": "Leclerc",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mark",
+        "family": "Jit",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6658-8255",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Flasche",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Felix",
+        "family": "Greaves",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tom",
+        "family": "Ward",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0362-6717",
+        "authenticated-orcid": false,
+        "given": "Rosalind M",
+        "family": "Eggo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9265-1841",
+        "authenticated-orcid": false,
+        "given": "Emily",
+        "family": "Nightingale",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sophie",
+        "family": "Meakin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Oliver J",
+        "family": "Brady",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "Centre for Mathematical Modelling of Infectious Diseases COVID-19 Working Group",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Graham F",
+        "family": "Medley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "H\u00f6hle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "W John",
+        "family": "Edmunds",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lai S , Ruktanonchai NW , Zhou L , Prosper O , Luo W , Floyd JR , et al. Effect of non-pharmaceutical interventions for containing the COVID-19 outbreak in China. medRxiv [Internet]. 2020 Mar 6; Available from: http://dx.doi.org/10.1101/2020.03.03.20029843",
+        "DOI": "10.1101/2020.03.03.20029843"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Courtemanche C , Garuccio J , Le A , Pinkston J , Yelowitz A . Strong Social Distancing Measures In The United States Reduced The COVID-19 Growth Rate: Study evaluates the impact of social distancing measures on the growth rate of confirmed COVID-19 cases across the United States. Health Aff. 2020;10\u20131377.",
+        "DOI": "10.4324/9781003141402-20"
+      },
+      {
+        "issue": "7",
+        "key": "2021021005300472000_2020.09.02.20186502v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e375",
+        "DOI": "10.1016/S2468-2667(20)30133-X",
+        "article-title": "Effects of non-pharmaceutical interventions on COVID-19 cases, deaths, and demand for hospital services in the UK: a modelling study",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "The Lancet Public Health"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591020-0965-6"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.5"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baum A , Fulton BO , Wloga E , Copin R , Pascal KE , Russo V , et al. Antibody cocktail to SARS-CoV-2 spike protein prevents rapid mutational escape seen with individual antibodies. Science [Internet]. 2020 Jun 15; Available from: http://dx.doi.org/10.1126/science.abd0831",
+        "DOI": "10.1126/science.abd0831"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.7",
+        "unstructured": "Home \u2013 Office for National Statistics [Internet]. [cited 2020 Jul 7]. Available from: https://www.ons.gov.uk/"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.8",
+        "unstructured": "Department of Health and Social Care. Leicester lockdown: what you can and cannot do [Internet]. GOV.UK; 2020 [cited 2020 Aug 19]. Available from: https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salmon M , Schumacher D , H\u00f6hle M . Monitoring Count Time Series inR: Aberration Detection in Public Health Surveillance [Internet]. Vol. 70, Journal of Statistical Software. 2016. Available from: http://dx.doi.org/10.18637/jss.v070.i10",
+        "DOI": "10.18637/jss.v070.i10"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "103181",
+        "DOI": "10.1016/j.jbi.2019.103181",
+        "article-title": "A systematic review of aberration detection algorithms used in public health surveillance [Internet]",
+        "volume": "94",
+        "year": "2019",
+        "journal-title": "Journal of Biomedical Informatics"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morbey R , Noufaily A , Col\u00f3n-Gonz\u00e1lez FD , Elliot A , Harcourt S , Smith G . Comparison of statistical algorithms for syndromic surveillance aberration detection [Internet]. Vol. 10, Online Journal of Public Health Informatics. 2018. Available from: http://dx.doi.org/10.5210/ojphi.v10i1.8302",
+        "DOI": "10.5210/ojphi.v10i1.8302"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.12",
+        "unstructured": "Sonesson C , Bock D . A review and discussion of prospective statistical surveillance in public health. J R Stat Soc [Internet]. 2003; Available from: https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-985X.00256?casa_token=vJVLJKC4Yr4AAAAA:GghQ3Ad0CwyD61F10UEZuFN1Uv4I8_n_rDxNd9RG_IHhPt81t_aqEJabVR04AwFTODuCz4vJ_a5Gx1U"
+      },
+      {
+        "issue": "3",
+        "key": "2021021005300472000_2020.09.02.20186502v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.2307/2983331",
+        "article-title": "A Statistical Algorithm for the Early Detection of Outbreaks of Infectious Disease",
+        "volume": "159",
+        "year": "1996",
+        "journal-title": "J R Stat Soc Ser A Stat Soc"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.5595"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salmon M , Schumacher D , Burmann H , Frank C , Claus H , H\u00f6hle M . A system for automated outbreak detection of communicable diseases in Germany. Euro Surveill [Internet]. 2016;21(13). Available from: http://dx.doi.org/10.2807/1560-7917.ES.2016.21.13.30180",
+        "DOI": "10.2807/1560-7917.ES.2016.21.13.30180"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.1974.1100705"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1176344136"
+      },
+      {
+        "issue": "1",
+        "key": "2021021005300472000_2020.09.02.20186502v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1214/aoms/1177729694",
+        "article-title": "On Information and Sufficiency",
+        "volume": "22",
+        "year": "1951",
+        "journal-title": "Ann Math Stat"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McCullagh P , Nelder JA . Generalized Linear Models, Second Edition. CRC Press; 1989. 532 p.",
+        "DOI": "10.1007/978-1-4899-3242-6"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.20",
+        "unstructured": "He X , Zhao K , Chu X . AutoML: A Survey of the State-of-the-Art [Internet]. arXiv [cs.LG]. 2019. Available from: http://arxiv.org/abs/1908.00709"
+      },
+      {
+        "issue": "1",
+        "key": "2021021005300472000_2020.09.02.20186502v1.21",
+        "first-page": "826",
+        "article-title": "Auto-WEKA 2.0: automatic model selection and hyperparameter optimization in WEKA",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.22",
+        "first-page": "2079",
+        "article-title": "On over-fitting in model selection and subsequent selection bias in performance evaluation",
+        "volume": "11",
+        "year": "2010",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "issue": "3",
+        "key": "2021021005300472000_2020.09.02.20186502v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1109/TPAMI.2009.187",
+        "article-title": "Sensitivity Analysis of k-Fold Cross Validation in Prediction Error Estimation",
+        "volume": "32",
+        "year": "2010",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "issue": "7",
+        "key": "2021021005300472000_2020.09.02.20186502v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0008422",
+        "DOI": "10.1371/journal.pntd.0008422",
+        "article-title": "A spatio-temporal approach to short-term prediction of visceral leishmaniasis diagnoses in India",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "PLoS Negl Trop Dis"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.25",
+        "unstructured": "Jombart T , Kamvar ZN , Taylor T , Ghozzi S , Bhatia S , pnouvellet. reconhub/projections: 0.5.1 [Internet]. 2020. Available from: https://zenodo.org/record/3923626"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jombart T , Jarvis CI , Mesfin S , Tabal N , Mossoko M , Mpia LM , et al. The cost of insecurity: from flare-up to control of a major Ebola virus disease hotspot during the outbreak in the Democratic Republic of the Congo, 2019 [Internet]. Vol. 25, Eurosurveillance. 2020. Available from: http://dx.doi.org/10.2807/1560-7917.es.2020.25.2.1900735",
+        "DOI": "10.2807/1560-7917.ES.2020.25.2.1900735"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "issue": "7",
+        "key": "2021021005300472000_2020.09.02.20186502v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1003189",
+        "DOI": "10.1371/journal.pmed.1003189",
+        "article-title": "Estimation of SARS-CoV-2 mortality during the early stages of an epidemic: A modeling study in Hubei, China, and six regions in Europe",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.29",
+        "unstructured": "NHS Pathways coronavirus triage [Internet]. [cited 2020 Aug 5]. Available from: https://digital.nhs.uk/dashboards/nhs-pathways"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.30",
+        "unstructured": "NHS 111 online [Internet]. [cited 2020 Aug 5]. Available from: https://111.nhs.uk/"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leclerc QJ , Nightingale E , Abbott S , CMMID COVID-19 Working Group, Jombart T . Analysis of temporal trends in potential COVID-19 cases reported through NHS Pathways England [Internet]. Epidemiology. medRxiv; 2020. Available from: https://www.medrxiv.org/content/10.1101/2020.05.16.20103820v1",
+        "DOI": "10.1101/2020.05.16.20103820"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.32",
+        "unstructured": "R Core Team. R: A Language and Environment for Statistical Computing [Internet]. Vienna, Austria: R Foundation for Statistical Computing; 2020. Available from: https://www.R-project.org/"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2018.0276"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/1076998615606113"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.35",
+        "unstructured": "B\u00fcrkner P-C . brms: An R package for bayesian generalized linear mixed models using Stan. J Stat Softw [Internet]. 2016; Available from: https://mran.microsoft.com/snapshot/2016-02-05/web/packages/brms/vignettes/brms.pdf"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie Y , Hill AP , Thomas A . blogdown: Creating Websites with R Markdown. CRC Press; 2017. 144 p.",
+        "DOI": "10.1201/9781351108195"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1411100"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc1414992"
+      },
+      {
+        "issue": "4",
+        "key": "2021021005300472000_2020.09.02.20186502v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1056/NEJMsr1904253",
+        "article-title": "The Ongoing Ebola Epidemic in the Democratic Republic of Congo, 2018\u20132019",
+        "volume": "381",
+        "year": "2019",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.40",
+        "unstructured": "Norovirus Reporting [Internet]. [cited 2020 Aug 11]. Available from: https://hnors.phe.gov.uk/"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1289/ehp.6735"
+      },
+      {
+        "key": "2021021005300472000_2020.09.02.20186502v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.0020059"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.09.02.20186502",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:53:16Z",
+      "timestamp": 1768485196000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.09.02.20186502"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          3
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1101/2020.09.02.20186502",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1098/rstb.2020.0266",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

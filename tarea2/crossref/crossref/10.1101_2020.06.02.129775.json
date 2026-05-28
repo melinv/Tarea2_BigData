@@ -1,0 +1,502 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:57:44Z",
+      "timestamp": 1768489064223,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 51,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              2
+            ]
+          ],
+          "date-time": "2020-06-02T00:00:00Z",
+          "timestamp": 1591056000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The proliferation of the SARS-Cov-2 virus to the whole world caused more than 250,000 deaths worldwide and over 4 million confirmed cases. The severity of Covid-19, the exponential rate at which the virus proliferates, and the rapid exhaustion of the public health resources are critical factors. The RT-PCR with virus DNA identification is still the benchmark Covid-19 diagnosis method. In this work we propose a new technique for representing DNA sequences: they are divided into smaller sequences with overlap in a pseudo-convolutional approach, and represented by co-occurrence matrices. This technique analyzes the DNA sequences obtained by the RT-PCR method, eliminating sequence alignment. Through the proposed method, it is possible to identify virus sequences from a large database: 347,363 virus DNA sequences from 24 virus families and SARS-Cov-2. Experiments with all 24 virus families and SARS-Cov-2 (multi-class scenario) resulted 0.822222\n                  <jats:italic>\u00b1</jats:italic>\n                  0.05613 for sensitivity and 0.99974\n                  <jats:italic>\u00b1</jats:italic>\n                  0.00001 for specificity using Random Forests with 100 trees and 30% overlap. When we compared SARS-Cov-2 with similar-symptoms virus families, we got 0.97059\n                  <jats:italic>\u00b1</jats:italic>\n                  0.03387 for sensitivity, and 0.99187\n                  <jats:italic>\u00b1</jats:italic>\n                  0.00046 for specificity with MLP classifier and 30% overlap. In the real test scenario, in which SARS-Cov-2 is compared to Coronaviridae and healthy human DNA sequences, we got 0.98824\n                  <jats:italic>\u00b1</jats:italic>\n                  001198 for sensitivity and 0.99860\n                  <jats:italic>\u00b1</jats:italic>\n                  0.00020 for specificity with MLP and 50% overlap. Therefore, the molecular diagnosis of Covid-19 can be optimized by combining RT-PCR and our pseudo-convolutional method to identify SARS-Cov-2 DNA sequences faster with higher specificity and sensitivity.\n                </jats:p>",
+    "DOI": "10.1101/2020.06.02.129775",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2020-06-03T07:55:14Z",
+      "timestamp": 1591170914000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Optimizing the molecular diagnosis of Covid-19 by combining RT-PCR and a pseudo-convolutional machine learning approach to characterize virus DNA sequences"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Juliana Carneiro",
+        "family": "Gomes",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Aras Ismael",
+        "family": "Masood",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Leandro Honorato",
+        "family": "de S. Silva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Janderson",
+        "family": "Ferreira",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Agostinho A. F.",
+        "family": "J\u00fanior",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Allana Lais",
+        "family": "dos Santos Rocha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Let\u00edcia",
+        "family": "Castro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nath\u00e1lia R. C.",
+        "family": "da Silva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bruno J. T.",
+        "family": "Fernandes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wellington Pinheiro",
+        "family": "dos Santos",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "597",
+        "DOI": "10.1080/22221751.2020.1738905",
+        "article-title": "Era of molecular diagnosis for pathogen identification of unexplained pneumonia, lessons to be learned",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Emerging Microbes & Infections"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2685209"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.3",
+        "article-title": "Extracting possibly representative COVID-19 biomarkers from x-ray images with deep learning approach and image data related to pulmonary diseases",
+        "volume": "2020",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.4",
+        "first-page": "1",
+        "article-title": "Covid-19: automatic detection from x-ray images utilizing transfer learning with convolutional neural networks",
+        "volume": "2020",
+        "year": "2020",
+        "journal-title": "Physical and Engineering Sciences in Medicine"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.5",
+        "unstructured": "Barbosa, V. A. d. F. , Gomes, J. C. , de Santana, M. A. , Albuquerque, J. E. A. , de Souza, R. G. , de Souza, R. E. , & dos Santos, W. P. (2020). Heg.ia: An intelligent system to support diagnosis of covid-19 based on blood tests. medRxiv, 2020."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bosco, G. L. , & Di Gangi, M. A. (2016). Deep learning architectures for dna sequence classification. In International Workshop on Fuzzy Logic and Applications (pp. 162\u201371). Springer.",
+        "DOI": "10.1007/978-3-319-52962-2_14"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/cix461"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.8",
+        "first-page": "1",
+        "article-title": "Should IgM/IgG rapid test kit be used in the diagnosis of COVID-19?",
+        "volume": "2020",
+        "year": "2020",
+        "journal-title": "Asia Pacific Center for Evidence Based Healthcare"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.9",
+        "unstructured": "Cascella, M. , Rajnik, M. , Cuomo, A. , Dulebohn, S. C. , & Di Napoli, R. (2020). Features, evaluation and treatment coronavirus (covid-19). In StatPearls [Internet]. StatPearls Publishing."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cassaniti, I. , Novazzi, F. , Giardina, F. , Salinaro, F. , Sachs, M. , Perlini, S. , Bruno, R. , Mojoli, F. , Baldanti, F. et al. (2020). Performance of vivadiag COVID-19 IgM/IgG rapid test is inadequate for diagnosis of COVID-19 in acute patients referring to emergency room department. Journal of medical virology, 2020.",
+        "DOI": "10.1002/jmv.25800"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chan, J. F.-W. , Yip, C. C.-Y. , To, K. K.-W. , Tang, T. H.-C. , Wong, S. C.-Y. , Leung, K.-H. , Fung, A. Y.-F. , Ng, A. C.-K. , Zou, Z. , Tsoi, H.-W. et al. (2020). Improved molecular diagnosis of COVID-19 by the novel, highly sensitive and specific COVID-19-RdRp/Hel real-time reverse transcription-PCR assay validated in vitro and with clinical specimens. Journal of Clinical Microbiology, 58.",
+        "DOI": "10.1128/JCM.00310-20"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1005.030682"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1613/jair.953."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/clinchem/hvaa029"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cleemput, S. , Dumon, W. , Fonseca, V. , Abdool Karim, W. , Giovanetti, M. , Alcantara, L. C. , Deforche, K. , & de Oliveira, T. (2020). Genome Detective Coronavirus Typing Tool for rapid identification and characterization of novel coronavirus genomes. Bioinformatics,.",
+        "DOI": "10.1101/2020.01.31.928796"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.16",
+        "unstructured": "Consortium, G. R. (2013). Genome Reference Consortium Human Build 38. grc. URL: www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/ last accessed: 2020 may 25."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.17",
+        "unstructured": "Corman, V. , Bleicker, T. , Br\u00fcnink, S. , Drosten, C. , & Zambon, M. (2020a). Diagnostic detection of 2019-nCoV by real-time RT-PCR. World Health Organization, Jan, 17."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corman, V. , Eckerle, I. , Bleicker, T. , Zaki, A. , Landt, O. , Eschbach-Bludau, M. , van Boheemen, S. , Gopal, R. , Ballhause, M. , Bestebroer, T. et al. (2012). Detection of a novel human coronavirus by real-time reverse-transcription polymerase chain reaction. Eurosurveillance, 17.",
+        "DOI": "10.2807/ese.17.39.20285-en"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.19",
+        "first-page": "2000045",
+        "article-title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Euro-surveillance"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cortes, C. , & Vapnik, V. (1995). Support-vector networks. In Machine Learning (pp. 273\u201397).",
+        "DOI": "10.1007/BF00994018"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.puhe.2020.04.009"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3201/eid1002.030759"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gomes, J. C. , Barbosa, V. A. d. F. , de Santana, M. A. , Bandeira, J. , Valenca, M. J. S. , de Souza, R. E. , Ismael, A. M. , & dos Santos, W. P. (2020). Ikonos: An intelligent tool to support diagnosis of covid-19 by texture analysis of x-ray images. medRxiv, 2020.",
+        "DOI": "10.1101/2020.05.05.20092346"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hellewell, J. , Abbott, S. , Gimma, A. , Bosse, N. I. , Jarvis, C. I. , Russell, T. W. , Munday, J. D. , Kucharski, A. J. , Edmunds, W. J. , Sun, F. et al. (2020). Fea-sibility of controlling COVID-19 outbreaks by isolation of cases and contacts. The Lancet Global Health,.",
+        "DOI": "10.1101/2020.02.08.20021162"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb4218"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, Z. , Yi, Y. , Luo, X. , Xiong, N. , Liu, Y. , Li, S. , Sun, R. , Wang, Y. , Hu, B. , Chen, W. et al. (2020). Development and clinical application of a rapid IgM-IgG combined antibody test for SARS-CoV-2 infection diagnosis. Journal of Medical Virology,.",
+        "DOI": "10.1002/jmv.25727"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.27",
+        "unstructured": "Liu, Y. , Liu, Y. , Diao, B. , Ren, F. , Wang, Y. , Ding, J. , & Huang, Q. (2020). Diagnostic indexes of a rapid IgG/IgM combined antibody test for SARS-CoV-2. medRxiv, 2020."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.28",
+        "first-page": "1",
+        "article-title": "Antibody responses to SARS-CoV-2 in patients with COVID-19",
+        "volume": "2020",
+        "year": "2020",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-14-106"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.1145/321075.321084",
+        "article-title": "Automatic indexing: An experimental inquiry",
+        "volume": "8",
+        "year": "1961",
+        "journal-title": "J. ACM"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.31",
+        "unstructured": "Minsky, M. , & Papert, S. (1969). Perceptrons: An Introduction to Computational Geometry. Cambridge, MA, USA: MIT Press."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.32",
+        "unstructured": "Nao, N. , Shirato, K. , Katano, H. , Matsuyama, S. , & Takeda, M. (2020). Detection of second case of 2019-ncov infection in japan (corrected version)."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Narin, A. , Kaya, C. , & Pamuk, Z. (2020). Automatic detection of coronavirus disease (COVID-19) using x-ray images and deep convolutional neural networks. arXiv preprint arXiv:2003.10849,.",
+        "DOI": "10.1007/s10044-021-00984-y"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pan, Y. , Li, X. , Yang, G. , Fan, J. , Tang, Y. , Zhao, J. , Long, X. , Guo, S. , Zhao, Z. , Liu, Y. et al. (2020). Serological immunochromatographic approach in diagnosis with SARS-CoV-2 infected COVID-19 patients. Journal of Infection,.",
+        "DOI": "10.1101/2020.03.13.20035428"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patel, R. , Babady, E. , Theel, E. S. , Storch, G. A. , Pinsky, B. A. , George, K. S. , Smith, T. C. , & Bertuzzi, S. (2020). Report from the american society for microbiology COVID-19 international summit, 23 march 2020: Value of diagnostic testing for SARS-CoV-2/COVID-19.",
+        "DOI": "10.1128/mBio.00722-20"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peeri, N. C. , Shrestha, N. , Rahman, M. S. , Zaki, R. , Tan, Z. , Bibi, S. , Bagh-banzadeh, M. , Aghamohammadi, N. , Zhang, W. , & Haque, U. (2020). The SARS, MERS and novel coronavirus (COVID-19) epidemics, the newest and biggest global health threats: what lessons have we learned? International Journal of Epidemiology, 2020.",
+        "DOI": "10.1093/ije/dyaa033"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkr859"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.38",
+        "unstructured": "Poon, L. , Chu, D. , & Peiris, M. (2020). Detection of 2019 novel coronavirus (2019-nCoV) in suspected human cases by RT-PCR. School of Public Health, The University of Hong Kong, Hong Kong,."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rizzo, R. , Fiannaca, A. , La Rosa, M. , & Urso, A. (2015). A deep learning approach to DNA sequence classification. In International Meeting on Computational Intelligence Methods for Bioinformatics and Biostatistics (pp. 129\u201340). Springer.",
+        "DOI": "10.1007/978-3-319-44332-4_10"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.40",
+        "first-page": "2020",
+        "article-title": "Detection of coronavirus disease (Covid-19) based on deep features",
+        "volume": "2020030300",
+        "year": "2020",
+        "journal-title": "Preprints"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soares, F. , Villavicencio, A. , Fogliatto, F. S. , Rigatto, M. H. P. , Anzanello, M. J. , Idiart, M. , & Stevenson, M. (2020). A novel specific artificial intelligence-based method to identify COVID-19 cases using simple blood exams. medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.10.20061036"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tahamtan, A. , & Ardebili, A. (2020). Real-time RT-PCR in COVID-19 detection: issues affecting the results.",
+        "DOI": "10.1080/14737159.2020.1757437"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1109/ICDAR.1995.598994",
+        "article-title": "Random decision forests",
+        "volume": "1",
+        "year": "1995",
+        "journal-title": "Proceedings of 3rd International Conference on Document Analysis and Recognition"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.1585"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, W. , Xu, Y. , Gao, R. , Lu, R. , Han, K. , Wu, G. , & Tan, W. (2020b). Detection of SARS-CoV-2 in different types of clinical specimens. Jama, 2020.",
+        "DOI": "10.1001/jama.2020.3786"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.46",
+        "unstructured": "WHO (2020a). Advice on the use of point-of-care immunodiagnostic tests for COVID-19. World Health Organization. URL: www.who.int/news-room/commentaries/detail/advice-on-the-use-of-point-of-care-immunodiagnostic-tests-for-covid-19 last accessed: 2020 may. 17."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.47",
+        "unstructured": "WHO (2020b). WHO Coronavirus Disease (Covid-19) Dashboard. World Health Organization. URL: https://covid19.who.int/ last accessed: 2020 may 17."
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jtm/taaa020"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J. , & Harmon, K. M. (2020). RNA extraction from swine samples and detection of influenza a virus in swine by real-time RT-PCR. In Animal Influenza Virus (pp. 295\u2013310). Springer.",
+        "DOI": "10.1007/978-1-0716-0346-8_21"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, P. , Gao, Q. , Wang, T. , Ke, Y. , Mo, F. , Jia, R. , Liu, W. , Liu, L. , Zheng, S. , Liu, Y. et al. (2020). Evaluation of recombinant nucleocapsid and spike proteins for serological diagnosis of novel coronavirus disease 2019 (COVID-19). MedRxiv, 2020.",
+        "DOI": "10.1101/2020.03.17.20036954"
+      },
+      {
+        "key": "2024080408345799000_2020.06.02.129775v2.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, F. , Yu, T. , Du, R. , Fan, G. , Liu, Y. , Liu, Z. , Xiang, J. , Wang, Y. , Song, B. , Gu, X. et al. (2020). Clinical course and risk factors for mortality of adult inpatients with COVID-19 in wuhan, china: a retrospective cohort study. The Lancet,.",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.02.129775",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:27:57Z",
+      "timestamp": 1768436877000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.02.129775"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1101/2020.06.02.129775",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

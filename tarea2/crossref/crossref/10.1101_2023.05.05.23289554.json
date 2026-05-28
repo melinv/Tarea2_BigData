@@ -1,0 +1,538 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:37:34Z",
+      "timestamp": 1768563454030,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          11
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Tackling biases in medical artificial intelligence requires multi-centre collaboration, however, ethical, legal and entrustment considerations may restrict providers\u2019 ability to participate. Federated learning (FL) may eliminate the need for data sharing by allowing algorithm development across multiple hospitals without data transfer.</jats:p>\n                  <jats:p>Previously, we have shown an AI-driven screening solution for COVID-19 in emergency departments using clinical data routinely available within 1h of arrival to hospital (vital signs &amp; blood tests; CURIAL-Lab). Here, we aimed to extend and federate our COVID-19 screening test, demonstrating development and evaluation of a rapidly scalable and user-friendly FL solution across 4 UK hospital groups.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We supplied a Raspberry Pi 4 Model B device, preloaded with our end-to-end FL pipeline, to 4 NHS hospital groups or their locally-linked research university (Oxford University Hospitals/University of Oxford (OUH), University Hospitals Birmingham/University of Birmingham (UHB), Bedfordshire Hospitals (BH) and Portsmouth Hospitals University (PUH) NHS trusts). OUH, PUH and UHB participated in federated training and calibration, training a deep neural network (DNN) and logistic regressor to predict COVID-19 status using clinical data for pre-pandemic (COVID-19-negative) admissions and COVID-19-positive cases from the first wave. We performed federated prospective evaluation at PUH &amp; OUH, and external evaluation at BH, evaluating the resultant global and site-tuned models for admissions to the respective sites during the second pandemic wave. Removable microSD storage was destroyed on study completion.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>Routinely collected clinical data from a total 130,941 patients (1,772 COVID-19 positive) across three hospital groups were included in federated training. OUH, PUH and BH participated in prospective federated evaluation, with sets comprising 32,986 patient admissions (3,549 positive) during the second pandemic wave. Federated training improved DNN performance by a mean of 27.6% in terms of AUROC when compared to models trained locally, from AUROC of 0.574 &amp; 0.622 at OUH &amp; PUH to 0.872 &amp; 0.876 for the federated global model. Performance improvement was more modest for a logistic regressor with a mean AUROC increase of 13.9%. During federated external evaluation at BH, the global DNN model achieved an AUROC of 0.917 (0.893-0.942), with 89.7% sensitivity (83.6-93.6) and 76.7% specificity (73.9-79.1). Site-personalisation of the global model did not give a significant improvement in overall performance (AUROC improvement &lt;0.01), suggesting high generalisability.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretations</jats:title>\n                  <jats:p>We present a rapidly scalable hardware and software FL solution, developing a COVID-19 screening test across four UK hospital groups using inexpensive micro-computing hardware. Federation improved model performance and generalisability, and shows promise as an enabling technology for deep learning in healthcare.</jats:p>\n                  <jats:p>Funding University of Oxford Medical &amp; Life Sciences Translational Fund/Wellcome</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.05.05.23289554",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2023-05-11T17:55:13Z",
+      "timestamp": 1683827713000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Scalable federated learning for emergency care using low cost microcomputing: Real-world, privacy preserving development and evaluation of a COVID-19 screening test in UK hospitals"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2391-5361",
+        "authenticated-orcid": false,
+        "given": "Andrew A. S.",
+        "family": "Soltan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Anshul",
+        "family": "Thakur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0352-8452",
+        "authenticated-orcid": false,
+        "given": "Jenny",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anoop",
+        "family": "Chauhan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8684-6231",
+        "authenticated-orcid": false,
+        "given": "Leon G.",
+        "family": "D\u2019Cruz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Phillip",
+        "family": "Dickson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6015-9409",
+        "authenticated-orcid": false,
+        "given": "Marina A.",
+        "family": "Soltan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5456-6080",
+        "authenticated-orcid": false,
+        "given": "David R.",
+        "family": "Thickett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5095-6367",
+        "authenticated-orcid": false,
+        "given": "David W.",
+        "family": "Eyre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1552-5630",
+        "authenticated-orcid": false,
+        "given": "Tingting",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-018-0272-7"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oxford, E . Hundreds of patient data breaches are left unpunished. BMJ 377, o1126 (2022).",
+        "DOI": "10.1136/bmj.o1126"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.3",
+        "unstructured": "Department of Health and Social Care . Better, Broader, Safer: Using Health Data for Research and Analysis. https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis (2022)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1184",
+        "DOI": "10.1016/j.ijinfomgt.2016.08.002",
+        "article-title": "Re-identification attacks\u2014A systematic literature review",
+        "volume": "36",
+        "year": "2016",
+        "journal-title": "Int J Inf Manage"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.5",
+        "unstructured": "National Data Guardian (Dame Fiona Caldicott). The Information Governance Review. https://www.gov.uk/government/publications/the-information-governance-review (2013)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01987-w"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rieke, N. et al. The future of digital health with federated learning. NPJ Digit Med 3, (2020).",
+        "DOI": "10.1038/s41746-020-00323-1"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1735",
+        "DOI": "10.1038/s41591-021-01506-3",
+        "article-title": "Federated learning for predicting clinical outcomes in patients with COVID-19",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.9",
+        "unstructured": "Kone\u010dn\u00fd, J. et al. Federated Learning: Strategies for Improving Communication Efficiency. (2016)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.10",
+        "unstructured": "H. Brendan McMahan , Eider Moore , Daniel Ramage , Seth Hampson & Blaise Ag\u00fcera y Arcas. Communication-Efficient Learning of Deep Networks from Decentralized Data. Proceedings of the 20th International Conference on Artificial In-telligence and Statistics (AISTATS) 2017, Fort Lauderdale, Florida, USA JMLR: W & CP Volume 54, (2017)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e64",
+        "DOI": "10.1016/S2589-7500(21)00252-1",
+        "article-title": "Characteristics of publicly available skin cancer image datasets: a systematic review",
+        "volume": "4",
+        "author": "Preprint at",
+        "year": "2022",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2371",
+        "DOI": "10.1002/int.22777",
+        "article-title": "A comprehensive review of federated learning for COVID-19 detection",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "International Journal of Intelligent Systems"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0000033",
+        "DOI": "10.1371/journal.pdig.0000033",
+        "article-title": "A systematic review of federated learning applications for biomedical data",
+        "volume": "1",
+        "year": "2022",
+        "journal-title": "PLOS Digital Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.14",
+        "unstructured": "Habib, M. , Mohamed, R. & Gaber, M . Studies in Computational Intelligence 965 Federated Learning Systems Towards Next-Generation AI. http://www.springer.com/series/7092."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.15",
+        "first-page": "1",
+        "article-title": "Cloud-Based Federated Learning Implementation Across Medical Centers",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "JCO Clin Cancer Inform"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1016/j.ijmedinf.2018.01.007",
+        "article-title": "Federated learning of predictive models from federated Electronic Health Records",
+        "volume": "112",
+        "year": "2018",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, B. , et al. Experiments of Federated Learning for COVID-19 Chest X-ray Images. in Advances in Artificial Intelligence and Security (eds. Sun, X. , Zhang, X. , Xia, Z. & Bertino, E. ) 41\u201353 (Springer International Publishing, 2021).",
+        "DOI": "10.1007/978-3-030-78618-2_4"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "2371",
+        "DOI": "10.1002/int.22777",
+        "article-title": "A comprehensive review of federated learning for COVID-19 detection",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "International Journal of Intelligent Systems"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2589-7500(20)30287-9"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smuck, M. , Odonkor, C. A. , Wilt, J. K. , Schmidt, N. & Swiernik, M. A. The emerging clinical role of wearables: factors for successful implementation in healthcare. npj Digital Medicine vol. 4 Preprint at https://doi.org/10.1038/s41746-021-00418-3 (2021).",
+        "DOI": "10.1038/s41746-021-00418-3"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meinert, E. , et al. The internet of things in health care in Oxford: Protocol for proof-of-concept projects. JMIR Res Protoc 7, (2018).",
+        "DOI": "10.2196/preprints.12077"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1901183"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e370",
+        "DOI": "10.1016/S2589-7500(22)00019-X",
+        "article-title": "The performance of wearable sensors in the detection of SARS-CoV-2 infection: a systematic review",
+        "volume": "4",
+        "author": "Preprint at",
+        "year": "2022",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "e85",
+        "DOI": "10.1016/S2589-7500(19)30222-5",
+        "article-title": "Harnessing wearable device data to improve state-level real-time surveillance of influenza-like illness in the USA: a population-based study",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e78",
+        "DOI": "10.1016/S2589-7500(20)30274-0",
+        "article-title": "Rapid triage for COVID-19 using routine clinical data for patients attending hospital: development and prospective validation of an artificial intelligence screening test",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "e266",
+        "DOI": "10.1016/S2589-7500(21)00272-7",
+        "article-title": "Real-world evaluation of rapid and laboratory-free COVID-19 triage for emergency care: external validation and pilot deployment of artificial intelligence driven screening",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "e210",
+        "DOI": "10.1016/S2589-7500(22)00001-2",
+        "article-title": "Triage in the time of COVID-19",
+        "volume": "4",
+        "author": "Preprint at",
+        "year": "2022",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carvalho, T. , Moniz, N. , Faria, P. & Antunes, L. Towards a Data Privacy-Predictive Performance Trade-off. (2022).",
+        "DOI": "10.1016/j.eswa.2023.119785"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rocher, L. , Hendrickx, J. M. & de Montjoye, Y. A . Estimating the success of re-identifications in incomplete datasets using generative models. Nat Commun 10, (2019).",
+        "DOI": "10.1038/s41467-019-10933-3"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.30",
+        "unstructured": "Raspberry Pi Foundation. Raspberry Pi 4 Model B Datasheet. Raspberry Pi Foundation https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf (2019)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.31",
+        "unstructured": "Beutel, D. J. et al. Flower: A Friendly Federated Learning Research Framework. (2020)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.32",
+        "unstructured": "Lundberg, S. & Lee, S.-I. A Unified Approach to Interpreting Model Predictions. (2017)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/lsp.2014.2337313"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dipak Kalra , Renate Gertz , Peter Singleton & Hazel M Inskip . Confidentiality of personal health information used for research. BMJ 333, (2006).",
+        "DOI": "10.1136/bmj.333.7560.196"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.35",
+        "unstructured": "NHS Health Regulatory Authority (HRA). NHS HRA: Guidance for using patient data. NHS Health Regulatory Authority https://www.hra.nhs.uk/covid-19-research/guidance-using-patient-data/ (2022)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.36",
+        "unstructured": "National Institute for Health & Care Research (NIHR). Good Clinical Practice. NIHR https://www.nihr.ac.uk/health-and-care-professionals/learning-and-support/good-clinical-practice.htm (2022)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "826",
+        "DOI": "10.1016/S2213-2600(21)00317-9",
+        "article-title": "Artificial intelligence hold promise in the ICU",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Lancet Respir Med"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "e677",
+        "DOI": "10.1016/S2589-7500(20)30200-4",
+        "article-title": "Time to reality check the promises of machine learning-powered precision medicine",
+        "volume": "2",
+        "author": "Preprint at",
+        "year": "2020",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMra1814259"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.40",
+        "unstructured": "Microsoft Azure. Introduction to Azure security."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.41",
+        "unstructured": "Kairouz, P. , et al. Advances and Open Problems in Federated Learning. (2019)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Najafabadi, M. M. , et al. Deep learning applications and challenges in big data analytics. J Big Data 2, (2015).",
+        "DOI": "10.1186/s40537-014-0007-7"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/0400000042"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1038/s41551-021-00751-8",
+        "article-title": "Synthetic data in machine learning for medicine and healthcare",
+        "volume": "5",
+        "author": "Preprint at",
+        "year": "2021",
+        "journal-title": "Nature Biomedical Engineering"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "e383",
+        "DOI": "10.1016/S2589-7500(21)00005-4",
+        "article-title": "Health information technology and digital innovation for national learning health and care systems",
+        "volume": "3",
+        "author": "Preprint at",
+        "year": "2021",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mandl, K. D. , et al. Push Button Population Health: The SMART/HL7 FHIR Bulk Data Access Application Programming Interface. NPJ Digit Med 3, (2020).",
+        "DOI": "10.1038/s41746-020-00358-4"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Assennato, S. M. , et al. Performance evaluation of the SAMBA II SARS-CoV-2 test for point-of-care detection of SARS-CoV-2. J Clin Microbiol 59, (2021).",
+        "DOI": "10.1128/JCM.01262-20"
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.48",
+        "unstructured": "Collier, D. A. , et al. Point of Care Nucleic Acid Testing for SARS-CoV-2 in Hospitalized Patients: A Clinical Validation Trial and Implementation Study. Cell Rep Med 1, (2020)."
+      },
+      {
+        "key": "2023051305001089000_2023.05.05.23289554v1.49",
+        "unstructured": "Newcombe, R. G. & Altman, D. G. Proportions and their differences, in Statisics with Confidence: Confidence intervals and statisctical guidelines, 2nd Ed. (BMJ Books, 2000)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.05.23289554",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:33:17Z",
+      "timestamp": 1768505597000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.05.05.23289554"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          11
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2023.05.05.23289554",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

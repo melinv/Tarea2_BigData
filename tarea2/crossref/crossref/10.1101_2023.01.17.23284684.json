@@ -1,0 +1,431 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:52:02Z",
+      "timestamp": 1768564322488,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>COVID-19 would kill fewer people if health programs can predict who is at higher risk of mortality because resources can be targeted to protect those people from infection. We predict mortality in a very large population in Mexico with machine learning using demographic variables and pre-existing conditions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    We conducted a population-based cohort study with over 1.4 million laboratory-confirmed COVID-19 patients using the Mexican social security database. Analysis is performed on data from March 2020 to November 2021 and over three phases: (1) from March to October in 2020, (2) from November 2020 to March 2021, and (3) from April to November 2021. We predict mortality using an ensemble machine learning method,\n                    <jats:italic>super learner</jats:italic>\n                    , and independently estimate the adjusted mortality relative risk of each pre-existing condition using targeted maximum likelihood estimation.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Super learner fit has a high predictive performance (C-statistic: 0.907), where age is the most predictive factor for mortality. After adjusting for demographic factors, renal disease, hypertension, diabetes, and obesity are the most impactful pre-existing conditions. Phase analysis shows that the adjusted mortality risk decreased over time while relative risk increased for each pre-existing condition.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>While age is the most important predictor of mortality, younger individuals with hypertension, diabetes and obesity are at comparable mortality risk as individuals who are 20 years older without any of the three conditions. Our model can be continuously updated to identify individuals who should most be protected against infection as the pandemic evolves.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key messages</jats:title>\n                  <jats:sec>\n                    <jats:title>What is already known on this topic</jats:title>\n                    <jats:p>Studies for Mexico and other countries have suggested that pre-existing conditions such as renal disease, diabetes, hypertension, and obesity are strongly associated with COVID-19 mortality. While age and the presence of pre-existing conditions have been shown to predict mortality, other studies have typically used less powerful statistical approaches, have had smaller sample sizes, and have not been able to describe changes over time.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What this study adds</jats:title>\n                    <jats:p>This study examines mortality risk in a very large population (&gt; 60 M); it uses powerful ensemble machine learning methods that outperform regression analyses; and it demonstrates marked changes over time in the degree to which different risk factors predict mortality.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>How this study might affect research, practice or policy</jats:title>\n                    <jats:p>Because we show an important improvement in predictive performance over traditional regression analyses, and the ability to update estimates as the pandemic evolves, we argue that these methods should be much more widely used to inform national programming in Mexico and elsewhere. Programs that assume that predictive models don\u2019t change over time as variants emerge and as pre-existing immunity evolves due to vaccination and prior infection will not accurately predict mortality risk.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2023.01.17.23284684",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2023-01-18T12:30:19Z",
+      "timestamp": 1674045019000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Who is most at risk of dying if infected with SARS-CoV-2? A mortality risk factor analysis using machine learning of COVID-19 patients over time in a large Mexican population"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4697-6909",
+        "authenticated-orcid": false,
+        "given": "Lauren D.",
+        "family": "Liao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3769-0127",
+        "authenticated-orcid": false,
+        "given": "Alan E.",
+        "family": "Hubbard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0557-5562",
+        "authenticated-orcid": false,
+        "given": "Juan Pablo",
+        "family": "Guti\u00e9rrez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4635-4536",
+        "authenticated-orcid": false,
+        "given": "Arturo",
+        "family": "Ju\u00e1rez-Flores",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kendall",
+        "family": "Kikkawa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ronit",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yana",
+        "family": "Yarmolich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7034-0586",
+        "authenticated-orcid": false,
+        "given": "Iv\u00e1n",
+        "family": "de Jes\u00fas Ascencio-Montiel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1723-7085",
+        "authenticated-orcid": false,
+        "given": "Stefano M.",
+        "family": "Bertozzi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.1",
+        "unstructured": "Hopkins. University of Medicine. Coronavirus Resource Center. Data Stream 2020."
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "660",
+        "DOI": "10.1080/01459740.2020.1805742",
+        "article-title": "Deadly Companions: COVID-19 and Diabetes in Mexico",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "Med Anthropol"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1210/clinem/dgaa346"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1396",
+        "DOI": "10.3855/jidc.15075",
+        "article-title": "Association between obesity and diabetes prevalence and COVID-19 mortality in Mexico: an ecological study",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "J Infect Dev Ctries"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.06.04.20122481"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1016/j.arcmed.2020.12.002",
+        "article-title": "Hypertension, Diabetes and Obesity, Major Risk Factors for Death in Patients with COVID-19 in Mexico",
+        "volume": "52",
+        "year": "2021",
+        "journal-title": "Arch Med Res"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0240394",
+        "DOI": "10.1371/journal.pone.0240394",
+        "article-title": "Non-communicable diseases and inequalities increase risk of death among COVID-19 patients in Mexico",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "624",
+        "DOI": "10.1007/s11606-021-07235-0",
+        "article-title": "An Analysis COVID-19 in Mexico: a Prediction of Severity",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "J Gen Intern Med"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0259822"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4269/ajtmh.20-0483"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0240346",
+        "DOI": "10.1371/journal.pone.0240346",
+        "article-title": "Physiological and socioeconomic characteristics predict COVID-19 mortality and resource utilization in Brazil",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2224",
+        "DOI": "10.1093/gerona/glaa183",
+        "article-title": "Preexisting Comorbidities Predicting COVID-19 and Mortality in the UK Biobank Community Cohort",
+        "volume": "75",
+        "year": "2020",
+        "journal-title": "J Gerontol A Biol Sci Med Sci"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.13",
+        "unstructured": "Semenzato, Botton , Drouin, et al. Chronic diseases, health conditions and risk of COVID-19-related hospitalization and in-hospital mortality during the first wave of the epidemic in France: a \u2026. The Lancet Regional https://www.sciencedirect.com/science/article/pii/S2666776221001356"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0258154",
+        "DOI": "10.1371/journal.pone.0258154",
+        "article-title": "Association of pre-existing comorbidities with mortality and disease severity among 167,500 individuals with COVID-19 in Canada: A population-based cohort study",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2202/1544-6115.1309"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.16",
+        "unstructured": "Polley EC , van der Laan MJ. Super Learner In Prediction. Published Online First: 2010. https://biostats.bepress.com/ucbbiostat/paper266/?TB_iframe=true&width=370.8&height=658.8 (accessed 26 Jul 2022)."
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0000000000000078"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.04.12.22273734"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.19",
+        "unstructured": "Vigilancia de variantes del virus SARS-CoV-2. Vigilancia de variantes del virus SARS-CoV-2. https://salud.conacyt.mx/coronavirus/variantes/. (accessed 29 Jul 2022)."
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hubbard AE , Kennedy CJ , van der Laan MJ. Data-Adaptive Target Parameters. In: van der Laan Mj , Rose S , eds. Targeted Learning in Data Science: Causal Inference for Complex Longitudinal Studies. Cham: : Springer International Publishing 2018. 125\u201342.",
+        "DOI": "10.1007/978-3-319-65304-4_9"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.21",
+        "first-page": "266",
+        "article-title": "BART: Bayesian additive regression trees",
+        "volume": "4",
+        "year": "2010",
+        "journal-title": "aoas"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dey DK , Ghosh SK , Mallick BK. Generalized linear models: A Bayesian perspective. CRC Press 2000.",
+        "DOI": "10.1201/9781482293456"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1383",
+        "DOI": "10.1198/jasa.2011.tm09241",
+        "article-title": "Elastic Net Regression Modeling With the Orthant Normal Prior",
+        "volume": "106",
+        "year": "2011",
+        "journal-title": "J Am Stat Assoc"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.24",
+        "unstructured": "Liu. Generalized additive model. Rep Univ Jyvaskyla Dep Math Stat Published Online First: 2008.http://people.vcu.edu/~dbandyop/BIOS625/GAM.pdf"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.26",
+        "first-page": "1",
+        "volume": "19",
+        "year": "1991",
+        "journal-title": "Multivariate Adaptive Regression Splines. aos"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1267351"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C. XGBoost: A Scalable Tree Boosting System. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York, NY, USA: : Association for Computing Machinery 2016. 785\u201394.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/15-EJS1035"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2289440"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2202/1557-4679.1043"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2202/1557-4679.1308"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "104258",
+        "DOI": "10.1016/j.ijmedinf.2020.104258",
+        "article-title": "Personalized predictive models for symptomatic COVID-19 patients using basic preconditions: Hospitalizations, mortality, and the need for an ICU or ventilator",
+        "volume": "142",
+        "year": "2020",
+        "journal-title": "Int J Med Inform"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.annepidem.2020.08.005",
+        "article-title": "Clinical characteristics and risk factors for mortality of patients with COVID-19 in a large data set from Mexico",
+        "volume": "52",
+        "year": "2020",
+        "journal-title": "Ann Epidemiol"
+      },
+      {
+        "key": "2023012015051455000_2023.01.17.23284684v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.arcmed.2020.07.003"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.17.23284684",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:25:26Z",
+      "timestamp": 1768505126000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.01.17.23284684"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2023.01.17.23284684",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

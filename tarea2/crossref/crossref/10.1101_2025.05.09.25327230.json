@@ -1,0 +1,471 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T13:03:44Z",
+      "timestamp": 1768568624184,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 39,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              9
+            ]
+          ],
+          "date-time": "2025-05-09T00:00:00Z",
+          "timestamp": 1746748800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Wastewater-based surveillance (WBS) has emerged as a valuable tool for monitoring the circulation of infectious pathogens in the population, offering a complement to classical surveillance methods. However, the interpretation of WBS data is often challenged by substantial variability and bias in viral load measurements, which can stem from differences in laboratory protocols, population demographics, and in-sewer fate and transport processes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and Findings</jats:title>\n                  <jats:p>We analysed 23,025 wastewater samples collected between February 2022 and November 2023 from 118 wastewater treatment plants (WWTPs) across Switzerland. Samples of influent wastewater were processed by 8 independent laboratories using distinct concentration, extraction and quantification methods to estimate SARS-CoV-2 concentrations. Concentrations were converted to daily viral loads using wastewater flow rates, and normalized by the size of the population served by the treatment plant. To characterise the contributions of different sources of variation, we applied a Bayesian modelling framework, incorporating fixed effects and spatio\u2013temporal random effects to separate the contributions of laboratory protocols, demographic factors, and geographic structure to the observed variability in SARS-CoV-2 viral loads. Our analysis revealed that laboratory-specific biases were substantial, and that local demographic characteristics (particularly the age structure of the catchment population) also influenced viral load estimates. Adjusting for these sources of bias improved the reliability of interpretations based on viral loads, as indicated by an increased correlation with regional COVID-19 hospitalization data (from 0.55 for raw data to 0.77 for adjusted temporal trends). Dynamic time warping clustering of the adjusted temporal trends uncovered distinct geographic clusters, highlighting persistent spatial structures that evolved over successive epidemic phases.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our study demonstrates that variability in WBS data during the 2022-2023 Swiss national SARS-CoV-2 surveillance campaign is driven by a complex interplay of laboratory methods, population demographics, and spatio-temporal dynamics. Standardization of laboratory protocols and the implementation of robust statistical adjustment methods such as the one demonstrated here can enhance the reliability of WBS as a public health surveillance tool. These findings provide underscore the importance of advanced data processing methods for enhancing future surveillance efforts and for the effective integration of wastewater data into public health decision-making frameworks.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.05.09.25327230",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2025-05-09T19:30:10Z",
+      "timestamp": 1746819010000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Determinants and spatio-temporal structure of variability in wastewater SARS-CoV-2 viral load measurements in Switzerland: key insights for future surveillance efforts"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3808-2852",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Riou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Anna",
+        "family": "Fesser",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0204-3736",
+        "authenticated-orcid": false,
+        "given": "Moritz",
+        "family": "Wagner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katrin",
+        "family": "Schneider",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Natalia",
+        "family": "G\u00fcdel-Krempaska",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9950-2286",
+        "authenticated-orcid": false,
+        "given": "Christoph",
+        "family": "Ort",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1000-0306",
+        "authenticated-orcid": false,
+        "given": "Tim",
+        "family": "Julian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6431-535X",
+        "authenticated-orcid": false,
+        "given": "Tanja",
+        "family": "Stadler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6206-7134",
+        "authenticated-orcid": false,
+        "given": "James D.",
+        "family": "Munday",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2503"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.trac.2018.06.004"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aparna Keshaviah , Megan B. Diamond , Matthew J. Wade , Samuel V. Scarpino , Warish Ahmed , Fabian Amman , Olusola Aruna , Andrei Badilla-Aguilar , Itay Bar-Or , Andreas Bergthaler , Julie E. Bines , Aaron W. Bivins , Alexandria B. Boehm , Jean Martin Brault , Jean Baptiste Burnet , Joanne R. Chapman , Angela Chaudhuri , Ana Maria de Roda Husman, Robert Delatolla, John J. Dennehy, Megan Beth Diamond, Celeste Donato, Erwin Duizer, Abiodun Egwuenu, Oran Erster, Despo Fatta-Kassinos, Aldo Gaggero, Deirdre F. Gilpin, Brent J. Gilpin, Tyson E. Graber, Christopher A. Green, Amanda Handley, Joanne Hewitt, Rochelle H. Holm, Heribert Insam, Marc C. Johnson, Rabia Johnson, Davey L. Jones, Timothy R. Julian, Asha Jyothi, Tamar Kohn, Katrin G. Kuhn, Giuseppina La Rosa, Marie Lesenfants, Douglas G. Manuel, Patrick M. D\u2019Aoust, Rudolf Markt, John W. McGrath, Gertjan Medema, Christine L. Moe, Indah Kartika Murni, Humood Naser, Colleen C. Naughton, Leslie Ogorzaly, Vicka Oktaria, Christoph Ort, Popi Karaolia, Ekta H. Patel, Steve Paterson, Mahbubur Rahman, Pablo Rivera-Navarro, Alex Robinson, Monica C. Santa-Maria, Heike Schmitt, Theodore Smith, Lauren B. Stadler, Jorgen Stassijns, Alberta Stenico, Renee A. Street, Elisabetta Suffredini, Zachary Susswein, Monica Trujillo, Marlene K. Wolfe, Habib Yakubu, and Maria Ines Zanoli Sato. Wastewater monitoring can anchor global disease surveillance systems. The Lancet Global Health, 11, 2023.",
+        "DOI": "10.1016/S2214-109X(23)00170-5"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ofid/ofab448"
+      },
+      {
+        "issue": "10",
+        "key": "2025051301550845000_2025.05.09.25327230v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2188",
+        "DOI": "10.1111/jgs.16761",
+        "article-title": "Sex- and Age-Specific Differences in COVID-19 Testing, Cases, and Outcomes: A Population-Wide Study in Ontario, Canada",
+        "volume": "68",
+        "year": "2020",
+        "journal-title": "Journal of the American Geriatrics Society"
+      },
+      {
+        "issue": "9",
+        "key": "2025051301550845000_2025.05.09.25327230v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e683",
+        "DOI": "10.1016/S2468-2667(21)00160-2",
+        "article-title": "Socioeconomic position and the COVID-19 care cascade from testing to mortality in Switzerland: A population-based analysis",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "The Lancet Public Health"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "143226",
+        "DOI": "10.1016/j.scitotenv.2020.143226",
+        "article-title": "Detection of SARS-CoV-2 RNA in hospital wastewater from a low COVID-19 disease prevalence area",
+        "volume": "755",
+        "year": "2021",
+        "journal-title": "Science of The Total Environment"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "100449",
+        "DOI": "10.1016/j.lana.2023.100449",
+        "article-title": "Safer at school early alert: An observational study of wastewater and surface monitoring to detect COVID-19 in elementary schools",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "The Lancet Regional Health - Americas"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05049-6"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgph.0001556"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "David Dreifuss , Ivan Topolsky , Pelin Icer Baykal , and Niko Beerenwinkel . Tracking sars-cov-2 genomic variants in wastewater sequencing data with lollipop. medRxiv, page 2022.11.02.22281825, 11 2022.",
+        "DOI": "10.1101/2022.11.02.22281825"
+      },
+      {
+        "issue": "8",
+        "key": "2025051301550845000_2025.05.09.25327230v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1151",
+        "DOI": "10.1038/s41564-022-01185-x",
+        "article-title": "Early detection and surveillance of sars-cov-2 genomic variants in wastewater using cojac",
+        "volume": "7",
+        "year": "2022",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "issue": "4",
+        "key": "2025051301550845000_2025.05.09.25327230v1.13",
+        "first-page": "e00132",
+        "article-title": "Longitudinal and quantitative fecal shedding dynamics of sars-cov-2, pepper mild mottle virus, and crassphage",
+        "volume": "8",
+        "year": "2023",
+        "journal-title": "Msphere"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7036a2"
+      },
+      {
+        "issue": "25",
+        "key": "2025051301550845000_2025.05.09.25327230v1.15",
+        "first-page": "2200700",
+        "article-title": "Patterns of SARS-CoV-2 circulation revealed by a nationwide sewage surveillance programme, the Netherlands, August 2020 to February 2022",
+        "volume": "28",
+        "year": "2023",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/femsmc/xtad003"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jana S. Huisman , J\u00e9r\u00e9mie Scire , Lea Caduff , Xavier Fernandez-Cassi , Pravin Ganesanandamoorthy , Anina Kull , Andreas Scheidegger , Elyse Stachler , Alexandria B. Boehm , Bridgette Hughes , Alisha Knudson , Aaron Topol , Krista R. Wigginton , Marlene K. Wolfe , Tamar Kohn , Christoph Ort , Tanja Stadler , and Timothy R. Julian . Wastewater-Based Estimation of the Effective Reproductive Number of SARS-CoV-2. Environmental Health Perspectives, 130(5):057011, May 2022.",
+        "DOI": "10.1289/EHP10050"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Crank , W. Chen , A. Bivins , S. Lowry , and K. Bibby . Contribution of SARS-CoV-2 RNA shedding routes to RNA loads in wastewater. Science of The Total Environment, 806:150376, February 2022.",
+        "DOI": "10.1016/j.scitotenv.2021.150376"
+      },
+      {
+        "issue": "4",
+        "key": "2025051301550845000_2025.05.09.25327230v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e00343",
+        "DOI": "10.14309/ctg.0000000000000343",
+        "article-title": "Prevalence and Persistent Shedding of Fecal SARS-CoV-2 RNA in Patients With COVID-19 Infection: A Systematic Review and Meta-analysis",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Clinical and Translational Gastroenterology"
+      },
+      {
+        "issue": "6",
+        "key": "2025051301550845000_2025.05.09.25327230v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "371",
+        "DOI": "10.1016/j.medj.2022.04.001",
+        "article-title": "Gastrointestinal symptoms and fecal shedding of SARS-CoV-2 RNA suggest prolonged gastrointestinal infection",
+        "volume": "3",
+        "year": "2022",
+        "journal-title": "Med"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hansj\u00f6rg Schulze and Wibke Bayer . Changes in Symptoms Experienced by SARS-CoV-2-Infected Individuals \u2013 From the First Wave to the Omicron Variant. Frontiers in Virology, 2, July 2022.",
+        "DOI": "10.3389/fviro.2022.880707"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danying Yan , Xiaobao Zhang , Can Chen , Daixi Jiang , Xiaoxiao Liu , Yuqing Zhou , Chenyang Huang , Yiyi Zhou , Zhou Guan , Cheng Ding , Lu Chen , Lei Lan , Xiaofang Fu , Jie Wu , Lanjuan Li , and Shigui Yang . Characteristics of Viral Shedding Time in SARS-CoV-2 Infections: A Systematic Review and Meta-Analysis. Frontiers in Public Health, 9, March 2021.",
+        "DOI": "10.3389/fpubh.2021.652842"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.140444"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117516"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.25",
+        "first-page": "504",
+        "article-title": "and Sars-Cov-2 Interlaboratory Consortium. Reproducibility and sensitivity of 36 methods to quantify the sars-cov-2 genetic signal in raw wastewater: findings from an interlaboratory methods evaluation in the u.s",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "Environmental Science: Water Research Technology"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Federica Mauri , AnnaPaola Caminada , Elisa Pianta , Giulia Zezza , Mauro Tonolla , and Valeria Guidi . Detection and quantification of sars-cov-2 and influenza viruses in wastewater treatment plants located in ticino region (switzerland). Preprints, October 2024.",
+        "DOI": "10.20944/preprints202410.0919.v1"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4414/SMW.2022.W30202"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.28",
+        "unstructured": "Federal Statistical Office. Population and Households Statistics. https://www.bfs.admin.ch/bfs/en/home/statistiken/bevoelkerung/erhebungen/statpo"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.29",
+        "unstructured": "Federal Statistical Office. Structural business statistics (STATENT) from 2011 onwards. https://www.bfs.admin.ch/bfs/en/home/dienstleistungen/geostat/geodaten-bundesstatistik/arbeitsstaetten-beschaeftigung/statistik-unternehmensstruktur-statent-ab-2011.html."
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.57187/SMW.2023.40028"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edzer Pebesma and Roger Bivand . Spatial Data Science. https://r-spatial.org/book/, December 2023.",
+        "DOI": "10.1201/9780429459016"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11222-016-9696-4"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0962280216660421"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.34",
+        "first-page": "1",
+        "article-title": "Bayesian Spatial Modelling with R-INLA",
+        "volume": "63",
+        "year": "2015",
+        "journal-title": "Journal of Statistical Software"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/16-STS576"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexis Sard\u00e1-Espinosa. Time-series clustering in r using the dtwclust package. The R Journal, 2019.",
+        "DOI": "10.32614/RJ-2019-023"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.37",
+        "unstructured": "Alexis Sarda-Espinosa. dtwclust: Time Series Clustering Along with Optimizations for the Dynamic Time Warping Distance, 2024. R package version 6.0.0."
+      },
+      {
+        "issue": "3",
+        "key": "2025051301550845000_2025.05.09.25327230v1.38",
+        "first-page": "147",
+        "article-title": "SARS-CoV-2 viral load and shedding kinetics",
+        "volume": "21",
+        "year": "2023",
+        "journal-title": "Nature Reviews Microbiology"
+      },
+      {
+        "key": "2025051301550845000_2025.05.09.25327230v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Christopher I. Jarvis , Pietro Coletti , Jantien A. Backer , James D. Munday , Christel Faes , Philippe Beutels , Christian L. Althaus , Nicola Low , Jacco Wallinga , Niel Hens , and W. John Edmunds . Social contact patterns following the covid-19 pandemic: a snapshot of post-pandemic behaviour from the comix study. Epidemics, 48:100778, 2024.",
+        "DOI": "10.1016/j.epidem.2024.100778"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.09.25327230",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:35:48Z",
+      "timestamp": 1768509348000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.05.09.25327230"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1101/2025.05.09.25327230",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

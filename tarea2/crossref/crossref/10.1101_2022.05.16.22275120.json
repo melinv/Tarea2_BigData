@@ -1,0 +1,390 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:44:26Z",
+      "timestamp": 1768553066187,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          16
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Various formalisms have been developed to represent clinical practice guideline recommendations in a computer-interpretable way. However, none of the existing formalisms leverage the structured and computable information that emerge from the evidence-based guideline development process. Thus, we here propose a FHIR-based guideline representation format that is structurally aligned to the knowledge artifacts emerging during the process of evidence-based guideline development.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We identified the information required to represent evidence-based clinical practice guideline recommendations and reviewed the knowledge artifacts emerging during the evidence-based guideline development process. Then we conducted a consensus-based design process with domain experts to develop an information model for guideline recommendation representation that is structurally aligned to the evidence-based guideline recommendation development process and a corresponding representation based on evidence-based medicine (EBM)-on-FHIR resources.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The information model of clinical practice guideline recommendations and its EBMonFHIR-based representation contain the clinical contents of individual guideline recommendations, a set of metadata for the recommendations, the ratings for the recommendations (e.g., strength of recommendation, certainty of overall evidence), the ratings of certainty of evidence for individual outcomes (e.g., risk of bias) and links to the underlying evidence (systematic reviews based on primary studies). We created profiles and an implementation guide for all FHIR resources required to represent a complete clinical practice guideline and used the profiles to implement an exemplary clinical guideline recommendation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our EBMonFHIR-based representation of clinical practice guideline recommendations allows to directly link the evidence assessment process through systematic reviews and evidence grading, and the underlying evidence from primary studies to the resulting guideline recommendations. This not only allows to evaluate the evidence on which recommendations are based on transparently and critically, but also allows for a more direct and in future automatable way to generate computer-interpretable guideline recommendations based on computable evidence.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.05.16.22275120",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          23
+        ]
+      ],
+      "date-time": "2022-05-23T14:55:17Z",
+      "timestamp": 1653317717000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Representation of evidence-based clinical practice guideline recommendations on FHIR"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5890-1958",
+        "authenticated-orcid": false,
+        "given": "Gregor",
+        "family": "Lichtner",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0890-312X",
+        "authenticated-orcid": false,
+        "given": "Carlo",
+        "family": "Jurth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4300-4928",
+        "authenticated-orcid": false,
+        "given": "Brian S",
+        "family": "Alper",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1062-0495",
+        "authenticated-orcid": false,
+        "given": "Claudia",
+        "family": "Spies",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2972-2042",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Boeker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1333-5403",
+        "authenticated-orcid": false,
+        "given": "Joerg J",
+        "family": "Meerpohl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1543-4544",
+        "authenticated-orcid": false,
+        "given": "Falk",
+        "family": "von Dincklage",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.1016/S1386-5056(02)00064-3",
+        "article-title": "Combining diagnosis and treatment using asbru",
+        "volume": "68",
+        "year": "2002",
+        "journal-title": "Int. J. Med. Inf"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.2",
+        "first-page": "280",
+        "article-title": "Modeling Data and Knowledge in the EON Guideline Architecture",
+        "volume": "2001",
+        "year": "2001",
+        "journal-title": "MEDINFO"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2004.04.002"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "589",
+        "DOI": "10.1197/jamia.M2399",
+        "article-title": "The SAGE Guideline Model: Achievements and Overview",
+        "volume": "14",
+        "year": "2007",
+        "journal-title": "J. Am. Med. Inform. Assoc. JAMIA"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmedinf.2005.02.001"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2013.06.009"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "101713",
+        "DOI": "10.1016/j.artmed.2019.101713",
+        "article-title": "Ten years of knowledge representation for health care (2009\u2013 2018): Topics, trends, and challenges",
+        "volume": "100",
+        "year": "2019",
+        "journal-title": "Artif. Intell. Med"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "415",
+        "DOI": "10.1016/S0140-6736(16)31592-6",
+        "article-title": "Progress in evidence-based medicine: a quarter century on",
+        "volume": "390",
+        "year": "2017",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.i2016"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.i2089"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Graham , M. Mancher , D. Miller Wolman , S. Greenfield , E. Steinberg , eds., Clinical Practice Guidelines We Can Trust, National Academies Press (US), Washington (DC), 2011. https://doi.org/10.17226/13058.",
+        "DOI": "10.17226/13058"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclinepi.2010.04.026"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.13",
+        "first-page": "A15",
+        "article-title": "Achieving evidence interoperability in the computer age: setting evidence on FHIR",
+        "volume": "24",
+        "year": "2019",
+        "journal-title": "BMJ Evid.-Based Med"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.14",
+        "unstructured": "What is CEOsys?, CEOsys. (n.d.). https://covid-evidenz.de/what-is-ceosys/ (accessed April 8, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.15",
+        "unstructured": "Cochrane PICO Ontology, (n.d.). https://data.cochrane.org/ontologies/pico/index-en.html (accessed March 15, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.16",
+        "unstructured": "Clinical Practice Guidelines on EBMonFHIR, (2022). https://github.com/CEOsys/cpg-on-ebm-on-fhir (accessed March 15, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.17",
+        "unstructured": "G. Lichtner , FHIR Shorthand Validator, (2021). https://github.com/glichtner/fsh-validator (accessed March 15, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.18",
+        "unstructured": "CEOsys, GitHub. (n.d.). https://github.com/CEOsys (accessed March 15, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.19",
+        "unstructured": "Clinical Practice Guidelines (CPG) on EBMonFHIR, (n.d.). https://ceosys.github.io/cpg-on-ebm-on-fhir/ (accessed March 15, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1472-6947-7-16"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2018-027445"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.22",
+        "unstructured": "Snomed CT , SNOMED. (n.d.). https://www.snomed.org/ (accessed March 16, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1373/49.4.624"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.24",
+        "unstructured": "International Classification of Diseases (ICD), (n.d.). https://www.who.int/standards/classifications/classification-of-diseases (accessed March 22, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.25",
+        "unstructured": "Anatomical Therapeutic Chemical (ATC) Classification, (n.d.). https://www.who.int/tools/atc-ddd-toolkit/atc-classification (accessed March 22, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.26",
+        "unstructured": "The Unified Code for Units of Measure, (n.d.). https://ucum.org/trac (accessed March 16, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Kluge , U. Janssens , T. Welte , S. Weber-Carstens , G. Sch\u00e4lte , Christoph D. Spinner , Jakob J. Malin , Petra Gastmeier , Florian Langer , Martin Wepler , Michael Westhoff , Michael Pfeifer , Klaus F. Rabe , Florian Hoffmann Bernd W. B\u00f6ttiger , Julia Weinmann-Menke , Alexander Kersten , Peter Berlit , Marcin Krawczyk , Wiebke Nehls , Reiner Haase , Monika Nothacker , Gernot Marx, Christian Karagiannidis, S3-Leitlinie Empfehlungen zur station\u00e4ren Therapie von Patienten mit COVID-19, AWMF (Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V.), 2021. https://www.awmf.org/leitlinien/detail/ll/113-001LG.html.",
+        "DOI": "10.1055/a-1334-1925"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Kluge , U. Janssens , C.D. Spinner , M. Pfeifer , G. Marx , C. Karagiannidis , Guideline group, Clinical Practice Guideline: Recommendations on Inpatient Treatment of Patients with COVID-19, Dtsch. Arzteblatt Int. 118 (2021) arztebl.m2021.0110. https://doi.org/10.3238/arztebl.m2021.0110.",
+        "DOI": "10.3238/arztebl.m2021.0110"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J.J. Malin , C.D. Spinner , U. Janssens , T. Welte , S. Weber-Carstens , G. Sch\u00e4lte , P. Gastmeier , F. Langer , M. Wepler , M. Westhoff , M. Pfeifer , K.F. Rabe , F. Hoffmann , B.W. B\u00f6ttiger , J. Weinmann-Menke , A. Kersten , P. Berlit , M. Krawczyk , W. Nehls , F. Fichtner , S. Laudi , M. Stegemann , N. Skoetz , M. Nothacker , G. Marx , C. Karagiannidis , S. Kluge , Key summary of German national treatment guidance for hospitalized COVID-19 patients : Key pharmacologic recommendations from a national German living guideline using an Evidence to Decision Framework (last updated 17.05.2021), Infection. (2021). https://doi.org/10.1007/s15010-021-01645-2.",
+        "DOI": "10.1007/s15010-021-01645-2"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.30",
+        "first-page": "CD014963",
+        "article-title": "Systemic corticosteroids for the treatment of COVID-19",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Cochrane Database Syst. Rev"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.31",
+        "unstructured": "FEvIR Project - CPG-on-EBMonFHIR, FEvIR Platf. (n.d.). https://fevir.net/resources/Project/46952 (accessed May 13, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.32",
+        "unstructured": "MAGICapp, (n.d.). https://app.magicapp.org/ (accessed March 21, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.33",
+        "unstructured": "FHIR Clinical Guidelines (v1.0.0) (STU 1), (n.d.). http://hl7.org/fhir/uv/cpg/index.html (accessed March 15, 2022)."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.34",
+        "unstructured": "M. Lawley , J. Steel , J. Grimes , FHIR Terminology Services for OMOP \u2013 opportunities report, (n.d.) 21."
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2004.06.002"
+      },
+      {
+        "key": "2022052309211274000_2022.05.16.22275120v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmedinf.2008.05.010"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.16.22275120",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:42:58Z",
+      "timestamp": 1768488178000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.05.16.22275120"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2022.05.16.22275120",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.jbi.2023.104305",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

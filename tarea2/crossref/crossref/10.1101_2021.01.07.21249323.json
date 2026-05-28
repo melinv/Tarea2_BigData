@@ -1,0 +1,360 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:13:19Z",
+      "timestamp": 1768551199162,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          8
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>To advance the usage of CXRs as a viable solution for efficient COVID-19 diagnostics by providing large-scale annotations of the abnormalities in frontal CXRs in BIMCV-COVID19+ database, and to provide a robust evaluation mechanism to facilitate its usage.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>We provide the abnormality annotations in frontal CXRs by creating bounding boxes. The frontal CXRs are a part of the existing BIMCV-COVID19+ database. We also define four different protocols for robust evaluation of semantic segmentation and classification algorithms. Finally, we benchmark the defined protocols and report the results using popular deep learning models as a part of this study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>For semantic segmentation, Mask-RCNN performs the best among all the models with a DICE score of 0.43 \u00b1 0.01. For classification, we observe that MobileNetv2 yields the best results for 2-class and 3-class classification. We also observe that deep models report a lower performance for classifying other classes apart from the COVID class.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>By making the annotated data and protocols available to the scientific community, we aim to advance the usage of CXRs as a viable solution for efficient COVID-19 diagnostics. This large-scale data will be useful for ML algorithms and can be used for learning radiological patterns observed in COVID-19 patients. Further, the protocols will facilitate ML practitioners for unified large-scale evaluation of their algorithms.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Data Availability Statement</jats:title>\n                  <jats:p>\n                    The data associated with this work is available here :\n                    <jats:underline>\n                      Radiologists\u2019 Annotations on COVID-19+ X-rays\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://osf.io/b35xu/\">https://osf.io/b35xu/</jats:ext-link>\n                      via @OSFramework and\n                    </jats:underline>\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://covbase4all.igib.res.in/\">http://covbase4all.igib.res.in/</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.07.21249323",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2021-01-09T21:47:08Z",
+      "timestamp": 1610228828000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "A Novel Abnormality Annotation Database for COVID-19 Affected Frontal Lung X-rays"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Surbhi",
+        "family": "Mittal",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Vasantha Kumar",
+        "family": "Venugopal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vikash Kumar",
+        "family": "Agarwal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Manu",
+        "family": "Malhotra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jagneet Singh",
+        "family": "Chatha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Savinay",
+        "family": "Kapur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ankur",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vikas",
+        "family": "Batra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Puspita",
+        "family": "Majumdar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aakarsh",
+        "family": "Malhotra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kartik",
+        "family": "Thakral",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saheb",
+        "family": "Chhabra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mayank",
+        "family": "Vatsa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richa",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Santanu",
+        "family": "Chaudhury",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.1",
+        "unstructured": "Schiffmann, A. World COVID-19 Stats. (2020)."
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Venugopal, V. K. et al. A systematic meta-analysis of ct features of covid-19: Lessons from radiology. medRxiv (2020).",
+        "DOI": "10.1101/2020.04.04.20052241"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rodriguez-Morales, A. J. et al. Clinical, laboratory and imaging features of covid-19: A systematic review and meta-analysis. Travel. medicine infectious disease 101623 (2020).",
+        "DOI": "10.1016/j.tmaid.2020.101623"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pan, F. et al. Time course of lung changes on chest CT during recovery from 2019 novel coronavirus (COVID-19)pneumonia. Radiology 200370 (2020).",
+        "DOI": "10.1148/radiol.2020200370"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.5",
+        "unstructured": "Wong, H. Y. F. et al. Frequency and distribution of chest radiographic findings in covid-19 positive patients. Radiology 201160 (2020)."
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2214/AJR.20.22969"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, W. et al. The role of imaging in 2019 novel coronavirus pneumonia (covid-19).Eur. Radiol. 1\u20139 (2020).",
+        "DOI": "10.1007/s00330-020-06827-4"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ucar, F. & Korkmaz, D. Covidiagnosis-net: Deep bayes-squeezenet based diagnostic of the coronavirus disease 2019(covid-19) from x-ray images. Medical Hypotheses 109761 (2020).",
+        "DOI": "10.1016/j.mehy.2020.109761"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ozturk, T.et al .Automated detection of covid-19 cases using deep neural networks with x-ray images. Computers inBiology and Medicine 103792 (2020).",
+        "DOI": "10.1016/j.compbiomed.2020.103792"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2020.2993291"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.11",
+        "article-title": "Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.12",
+        "unstructured": "BIMCV. BIMCV-COVID19. https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/ (2020)."
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.13",
+        "year": "2020",
+        "journal-title": "Covid-19 image data collection"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.14",
+        "article-title": "Bimcv covid-19+: a large annotated dataset of rx and ct images from covid-19 patients",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1609/aaai.v33i01.3301590",
+        "article-title": "Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "In AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.16",
+        "unstructured": "MIDS. Medical Imaging Data Structure. https://github.com/BIMCV-CSUSP/MIDS (2020)."
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger, O. , Fischer, P. & Brox, T. U-net: Convolutional networks for biomedical image segmentation. InInternationalConference on Medical image computing and computer-assisted intervention, 234\u2013241 (Springer, 2015).",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "2481",
+        "DOI": "10.1109/TPAMI.2016.2644615",
+        "article-title": "Segnet: A deep convolutional encoder-decoder architecture for imagesegmentation",
+        "volume": "39",
+        "year": "2017",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K. , Gkioxari, G. , Doll\u00e1r, P. & Girshick, R. Mask R-CNN. In IEEE International Conference on Computer Vision, 2961\u20132969 (2017).",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, G. , Liu, Z. , Van Der Maaten, L. & Weinberger, K. Q. Densely Connected Convolutional Networks. In IEEE Conference on Computer Vision and Pattern Recognition, 4700\u20134708 (2017).",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sandler, M. , Howard, A. , Zhu, M. , Zhmoginov, A. & Chen, L.-C. Mobilenetv2: Inverted residuals and linear bottlenecks. In IEEE Conference on Computer Vision and Pattern Recognition, 4510\u20134520 (2018).",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K. , Zhang, X. , Ren, S. & Sun, J. Deep residual learning for image recognition. In IEEE Conference on ComputerVision and Pattern Recognition, 770\u2013778 (2016).",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2021011602150665000_2021.01.07.21249323v2.23",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.07.21249323",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:02:41Z",
+      "timestamp": 1768485761000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.07.21249323"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          8
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2021.01.07.21249323",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0271931",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

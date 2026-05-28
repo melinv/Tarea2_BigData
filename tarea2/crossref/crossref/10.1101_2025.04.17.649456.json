@@ -1,0 +1,562 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T11:57:17Z",
+      "timestamp": 1775995037653,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          18
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 36,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2025-04-18T00:00:00Z",
+          "timestamp": 1744934400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We developed Standardised Minimum 3D Distance (SM3DD), an entirely cell segmentation/annotation-free approach to the analysis of spatial RNA datasets, using it to compare lung tissue from 16 clinically normal individuals to those of 18 SARS-CoV-2 patients who died from acute respiratory distress syndrome. RNA spatial coordinates were determined using the CosMx\u2122 Spatial Molecular Imager (Bruker Spatial Biology, US). For each individual transcript location, we calculated the three-dimensional distances to the nearest transcript of each transcript type, standardising the distances to each transcript type. Mean SM3DDs were compared between normal and SARS-CoV-2 patients. Notably, hierarchical clustering of the directional log10(P) values organized genes by functionality, making it easier to interpret biological contexts and for FKBP11, where a decrease in distance to MZT2A was the most significant difference, suggesting a role in interferon signaling. Using a segmented principal components analysis of the entire SM3DD dataset, we identified multiple pathways, including \u2018SARS-CoV-2 infection\u2019, even though the assay did not include any SARS-CoV-2 transcripts.</jats:p>",
+    "DOI": "10.1101/2025.04.17.649456",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2025-04-21T13:45:11Z",
+      "timestamp": 1745243111000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "SM3DD with Segmented PCA: A Comprehensive Method for Interpreting 3D Spatial Transcriptomics"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Tony",
+        "family": "Blick",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          }
+        ]
+      },
+      {
+        "given": "Aaron",
+        "family": "Kilgallon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          },
+          {
+            "name": "Wesley Research Institute, Brisbane, QLD, 4066, Australia"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Monkman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          }
+        ]
+      },
+      {
+        "given": "Caroline",
+        "family": "Cooper",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          },
+          {
+            "name": "Princess Alexandra Hospital, Brisbane, QLD, 4120, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9695-7218",
+        "authenticated-orcid": false,
+        "given": "Chin Wee",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          },
+          {
+            "name": "Division of Bioinformatics, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC 3052, Australia"
+          },
+          {
+            "name": "Department of Medical Biology, Faculty of Medicine, Dentistry and Health Sciences, University of Melbourne, Parkville, VIC 3010, Australia"
+          }
+        ]
+      },
+      {
+        "given": "Emily E.",
+        "family": "Killingbeck",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanostring Technologies, Inc, Seattle, WA, US"
+          }
+        ]
+      },
+      {
+        "given": "Liuliu",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanostring Technologies, Inc, Seattle, WA, US"
+          }
+        ]
+      },
+      {
+        "given": "Youngmi",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanostring Technologies, Inc, Seattle, WA, US"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanostring Technologies, Inc, Seattle, WA, US"
+          }
+        ]
+      },
+      {
+        "given": "Andy",
+        "family": "Nam",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanostring Technologies, Inc, Seattle, WA, US"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Leon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanostring Technologies, Inc, Seattle, WA, US"
+          }
+        ]
+      },
+      {
+        "given": "Paulo",
+        "family": "Souza-Fonseca-Guimaraes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pontif\u00edcia Universidade Cat\u00f3lica do Paran\u00e1, PUCPR, Curitiba, Paran\u00e1, Brazil"
+          }
+        ]
+      },
+      {
+        "given": "Seigo",
+        "family": "Nagashima",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laborat\u00f3rio de Patologia Experimental, PPGCS da PUCPR, Curitiba, Brazil"
+          }
+        ]
+      },
+      {
+        "given": "Ana Paula Camargo",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laborat\u00f3rio de Patologia Experimental, PPGCS da PUCPR, Curitiba, Brazil"
+          }
+        ]
+      },
+      {
+        "given": "Cleber",
+        "family": "Machado-Souza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculdades Pequeno Pr\u00edncipe (FPP), Instituto de Pesquisa Pel\u00e9 Pequeno Pr\u00edncipe (IPPPP), R. Silva Jardim, 1632-\u00c1guaVerde, Curitiba 80230-020, PR, Brazil"
+          }
+        ]
+      },
+      {
+        "given": "Lucia",
+        "family": "de Noronha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laborat\u00f3rio de Patologia Experimental, PPGCS da PUCPR, Curitiba, Brazil"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7012-2519",
+        "authenticated-orcid": false,
+        "given": "John F.",
+        "family": "Fraser",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Critical Care Research Group, The Prince Charles Hospital, Brisbane, 4032, Australia"
+          },
+          {
+            "name": "Faculty of Health, Medicine and Behavioural Sciences, University of Queensland, Brisbane, QLD, Australia"
+          },
+          {
+            "name": "St Andrew\u2019s War Memorial Hospital, UnitingCare, Spring Hill, QLD, 4001, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9660-9587",
+        "authenticated-orcid": false,
+        "given": "Gabrielle",
+        "family": "Belz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2037-8946",
+        "authenticated-orcid": false,
+        "given": "Fernando",
+        "family": "Souza-Fonseca-Guimaraes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3224-7350",
+        "authenticated-orcid": false,
+        "given": "Arutha",
+        "family": "Kulasinghe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Frazer Institute, Faculty of Health, Medicine and Behavioural Sciences, The University of Queensland, Brisbane, QLD, 4102, Australia"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tzotzos, S.J. , Fischer, B. , Fischer, H. & Zeitlinger, M. Incidence of ARDS and outcomes in hospitalized patients with COVID-19: a global literature survey. Critical Care 24 (2020).",
+        "DOI": "10.1186/s13054-020-03240-7"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00428-021-03053-1"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-024-02565-3"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-020-01033-y"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, J. et al. Cell segmentation-free inference of cell types from in situ transcriptomics data. Nature Communications 12 (2021).",
+        "DOI": "10.1038/s41467-021-23807-4"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Si, Y. et al. FICTURE: Scalable segmentation-free analysis of submicron resolution spatial transcriptomics. biorxiv (2023).",
+        "DOI": "10.1101/2023.11.04.565621"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.7",
+        "unstructured": "Hamilton, W. , Ying, Z. & Leskovec, J. Inductive representation learning on large graphs. Advances in neural information processing systems 30 (2017)."
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vannan, A. et al. Spatial transcriptomics identifies molecular niche dysregulation associated with distal lung remodeling in pulmonary fibrosis. Nature Genetics (2025).",
+        "DOI": "10.1038/s41588-025-02080-x"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41587-022-01483-Z"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/93.3.491"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.11",
+        "unstructured": "Groppe, D. , Vol. 2024 (MATLAB Central File Exchange, 2024)."
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Belinky, F. et al. PathCards: multi-source consolidation of human biological pathways. Database 2015 (2015).",
+        "DOI": "10.1093/database/bav006"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2011.04.136"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.02.029"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "de Souza Xavier Costa, N. et al. COVID-19 induces more pronounced extracellular matrix deposition than other causes of ARDS. Respiratory Research 24 (2023).",
+        "DOI": "10.1186/s12931-023-02555-7"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-024-01975-x"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41423-023-01104-y"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03493-4"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-24007-w"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dhawan, M. et al. Regulatory T Cells (Tregs) and COVID-19: Unveiling the Mechanisms, and Therapeutic Potentialities with a Special Focus on Long COVID. Vaccines 11 (2023).",
+        "DOI": "10.3390/vaccines11030699"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fenrich, M. et al. SARS-CoV-2 Dissemination Through Peripheral Nerves Explains Multiple Organ Injury. Frontiers in Cellular Neuroscience 14 (2020).",
+        "DOI": "10.3389/fncel.2020.00229"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd2985"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0896-6273(00)80626-1"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M509314200"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, P. , Wu, M. , He, Y. , Jiang, B. & He, M.-L. Metabolic alterations upon SARS-CoV-2 infection and potential therapeutic targets against coronavirus infection. Signal Transduction and Targeted Therapy 8 (2023).",
+        "DOI": "10.1038/s41392-023-01510-8"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42255-021-00479-4"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tlatelpa-Romero, B. , C\u00e1zares-Ordo\u00f1ez, V. , Oyarz\u00e1bal, L.F. & V\u00e1zquez-de-Lara, L.G. The Role of Pulmonary Surfactant Phospholipids in Fibrotic Lung Diseases. International Journal of Molecular Sciences 24 (2022).",
+        "DOI": "10.3390/ijms24010326"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-pathol-012513-104644"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.prrv.2011.01.005"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1084/jem.190.6.875"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1084/jem.20080759"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, C. , Li, X. , Zhao, Y. & Hu, Y. The role of FOXA family transcription factors in glucolipid metabolism and NAFLD. Frontiers in Endocrinology 14 (2023).",
+        "DOI": "10.3389/fendo.2023.1081500"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1210/er.2018-00064"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00109-023-02336-1"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1165/rcmb.2011-0025RT"
+      },
+      {
+        "key": "2026041204394066000_2025.04.17.649456v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-022-01134-8"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.17.649456",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T11:39:53Z",
+      "timestamp": 1775993993000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.17.649456"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          18
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1101/2025.04.17.649456",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

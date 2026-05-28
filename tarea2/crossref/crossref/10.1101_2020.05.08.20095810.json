@@ -1,0 +1,364 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2026-03-07T07:20:54Z",
+      "timestamp": 1772868054542,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Under the pandemic of COVID-19, people experiencing COVID19-related symptoms or exposed to risk factors have a pressing need to consult doctors. Due to hospital closure, a lot of consulting services have been moved online. Because of the shortage of medical professionals, many people cannot receive online consultations timely. To address this problem, we aim to develop a medical dialogue system that can provide COVID19-related consultations. We collected two dialogue datasets \u2013 CovidDialog \u2013 (in English and Chinese respectively) containing conversations between doctors and patients about COVID-19. On these two datasets, we train several dialogue generation models based on Transformer, GPT, and BERT-GPT. Since the two COVID-19 dialogue datasets are small in size, which bear high risk of overfitting, we leverage transfer learning to mitigate data deficiency. Specifically, we take the pretrained models of Transformer, GPT, and BERT-GPT on dialog datasets and other large-scale texts, then finetune them on our CovidDialog datasets. Experiments demonstrate that these approaches are promising in generating meaningful medical dialogues about COVID-19. But more advanced approaches are needed to build a fully useful dialogue system that can offer accurate COVID-related consultations. The data and code are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/UCSD-AI4H/COVID-Dialogue\">https://github.com/UCSD-AI4H/COVID-Dialogue</jats:ext-link>\n                </jats:p>",
+    "DOI": "10.1101/2020.05.08.20095810",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ],
+      "date-time": "2020-05-15T17:27:02Z",
+      "timestamp": 1589563622000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "On the Generation of Medical Dialogues for COVID-19"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Wenmian",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Guangtao",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bowen",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zeqian",
+        "family": "Ju",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Subrato",
+        "family": "Chakravorty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xuehai",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xingyi",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qingyang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhou",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pengtao",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.1",
+        "unstructured": "Jimmy Lei Ba , Jamie Ryan Kiros , and Geoffrey E Hinton . Layer normalization. arXiv preprint arXiv:1607.06450, 2016."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.2",
+        "unstructured": "Junyoung Chung , Caglar Gulcehre , KyungHyun Cho , and Yoshua Bengio . Empirical evaluation of gated recurrent neural networks on sequence modeling. arXiv preprint arXiv:1412.3555, 2014."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.3",
+        "unstructured": "Yiming Cui , Wanxiang Che , Ting Liu , Bing Qin , Ziqing Yang , Shijin Wang , and Guoping Hu . Pre-training with whole word masking for chinese bert. arXiv preprint arXiv:1906.08101, 2019."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.4",
+        "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . Bert: Pre training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "George Doddington . Automatic evaluation of machine translation quality using n-gram co-occurrence statistics. In Proceedings of the second international conference on Human Language Technology Research, pages 138\u2013145, 2002.",
+        "DOI": "10.3115/1289189.1289273"
+      },
+      {
+        "issue": "2",
+        "key": "2021011111123070000_2020.05.08.20095810v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e19",
+        "DOI": "10.2196/mental.7785",
+        "article-title": "Delivering cognitive behavior therapy to young adults with symptoms of depression and anxiety using a fully automated conversational agent (woebot): a randomized controlled trial",
+        "volume": "4",
+        "year": "2017",
+        "journal-title": "JMIR mental health"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.7",
+        "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770\u2013778, 2016."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.9",
+        "first-page": "55",
+        "volume-title": "Digital Health Innovation for Consumers, Clinicians, Connectivity and Community-Selected Papers from the 24th Australian National Health Informatics Conference, HIC 2016, Melbourne, Australia, July 2016.",
+        "volume": "227",
+        "year": "2016"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.10",
+        "unstructured": "Diederik P Kingma and Jimmy Ba . Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocy072"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alon Lavie and Abhaya Agarwal . Meteor: An automatic metric for mt evaluation with high levels of correlation with human judgments. In Proceedings of the second workshop on statistical machine translation, pages 228\u2013231, 2007.",
+        "DOI": "10.3115/1626355.1626389"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.13",
+        "unstructured": "Mike Lewis , Yinhan Liu , Naman Goyal , Marjan Ghazvininejad , Abdelrahman Mohamed , Omer Levy , Ves Stoyanov , and Luke Zettlemoyer . Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. arXiv preprint arXiv:1910.13461, 2019."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.14",
+        "unstructured": "Jiwei Li , Michel Galley , Chris Brockett , Jianfeng Gao , and Bill Dolan . A diversity-promoting objective function for neural conversation models. arXiv preprint arXiv:1510.03055, 2015."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.15",
+        "unstructured": "Yinhan Liu , Myle Ott , Naman Goyal , Jingfei Du , Mandar Joshi , Danqi Chen , Omer Levy , Mike Lewis , Luke Zettlemoyer , and Veselin Stoyanov . Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692, 2019."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.3389/frobt.2017.00051",
+        "article-title": "Reporting mental health symptoms: breaking down barriers to care with virtual human interviewers",
+        "volume": "4",
+        "year": "2017",
+        "journal-title": "Frontiers in Robotics and AI"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kishore Papineni , Salim Roukos , Todd Ward , and Wei-Jing Zhu . Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting on association for computational linguistics, pages 311\u2013318. Association for Computational Linguistics, 2002.",
+        "DOI": "10.3115/1073083.1073135"
+      },
+      {
+        "issue": "1",
+        "key": "2021011111123070000_2020.05.08.20095810v1.18",
+        "first-page": "1",
+        "article-title": "Virtual human as a new diagnostic tool, a proof of concept study in the field of major depressive disorders",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.19",
+        "unstructured": "Alec Radford , Karthik Narasimhan , Tim Salimans , and Ilya Sutskever . Improving language understanding by generative pre-training. a."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.20",
+        "unstructured": "Alec Radford , Jeffrey Wu , Rewon Child , David Luan , Dario Amodei , and Ilya Sutskever . Language models are unsupervised multitask learners. b."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.21",
+        "first-page": "63",
+        "article-title": "Mobile phone-based asthma self-management aid for adolescents (masmaa): a feasibility study",
+        "volume": "8",
+        "year": "2014",
+        "journal-title": "Patient preference and adherence"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.22",
+        "unstructured": "Rico Sennrich , Barry Haddow , and Alexandra Birch . Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.23",
+        "unstructured": "Ilya Sutskever , Oriol Vinyals , and Quoc V Le . Sequence to sequence learning with neural networks. In Advances in neural information processing systems, pages 3104\u20133112, 2014."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hiroki Tanaka , Hideki Negoro , Hidemi Iwasaka , and Satoshi Nakamura . Embodied conversational agents for multimodal automated social skills training in people with autism spectrum disorders. PloS one, 12(8), 2017.",
+        "DOI": "10.1371/journal.pone.0182151"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.25",
+        "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , Lukasz Kaiser , and Illia Polosukhin . Attention is all you need. In Advances in neural information processing systems, pages 5998\u20136008, 2017."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.26",
+        "unstructured": "Zhongyu Wei , Qianlong Liu , Baolin Peng , Huaixiao Tou , Ting Chen , Xuan-Jing Huang , Kam-Fai Wong , and Xiang Dai . Task-oriented dialogue system for automatic diagnosis. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pages 201\u2013207, 2018."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.27",
+        "unstructured": "Qingyang Wu , Lei Li , Hao Zhou , Ying Zeng , and Zhou Yu . Importance-aware learning for neural headline editing. arXiv preprint arXiv:1912.01114, 2019."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.28",
+        "unstructured": "Yuan Xia , Jingbo Zhou , Zhenhui Shi , Chao Lu , and Haifeng Huang . Generative adversarial regularized mutual information policy gradient framework for automatic diagnosis."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "7346",
+        "DOI": "10.1609/aaai.v33i01.33017346",
+        "article-title": "End-to-end knowledge-routed relational dialogue system for automatic diagnosis",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.30",
+        "unstructured": "Yizhe Zhang , Michel Galley , Jianfeng Gao , Zhe Gan , Xiujun Li , Chris Brockett , and Bill Dolan . Generating informative and diverse conversational responses via adversarial information maximization. In Advances in Neural Information Processing Systems, pages 1810\u20131820, 2018."
+      },
+      {
+        "key": "2021011111123070000_2020.05.08.20095810v1.31",
+        "unstructured": "Yizhe Zhang , Siqi Sun , Michel Galley , Yen-Chun Chen , Chris Brockett , Xiang Gao , Jianfeng Gao , Jingjing Liu , and Bill Dolan . Dialogpt: Large-scale generative pre-training for conversational response generation. arXiv preprint arXiv:1911.00536, 2019."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.08.20095810",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:40:10Z",
+      "timestamp": 1768484410000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.08.20095810"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2020.05.08.20095810",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

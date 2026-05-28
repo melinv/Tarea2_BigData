@@ -1,0 +1,310 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:50:24Z",
+      "timestamp": 1768506624627,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 25,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The genetic code for many different proteins can be found in biological sequencing data, which offers vital insight into the genetic evolution of viruses. While machine learning approaches are becoming increasingly popular for many \u201cBig Data\u201d situations, they have made little progress in comprehending the nature of such data. One such area is the t-distributed Stochastic Neighbour Embedding (t-SNE), a generalpurpose approach used to represent high dimensional data in low dimensional (LD) space while preserving similarity between data points. Traditionally, the Gaussian kernel is used with t-SNE. However, since the Gaussian kernel is not data-dependent, it determines each local bandwidth based on one local point only. This makes it computationally expensive, hence limited in scalability. Moreover, it can misrepresent some structures in the data. An alternative is to use the isolation kernel, which is a data-dependent method. However, it has a single parameter to tune in computing the kernel. Although the isolation kernel yields better performance in terms of scalability and preserving the similarity in LD space, it may still not perform optimally in some cases. This paper presents a perspective on improving the performance of t-SNE and argues that kernel selection could impact this performance. We use 9 different kernels to evaluate their impact on the performance of t-SNE, using SARS-CoV-2 \u201cspike\u201d protein sequences. With three different embedding methods, we show that the cosine similarity kernel gives the best results and enhances the performance of t-SNE.</jats:p>",
+    "DOI": "10.1101/2023.08.21.554138",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2023-08-23T01:40:10Z",
+      "timestamp": 1692754810000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Enhancing t-SNE Performance for Biological Sequencing Data through Kernel Selection"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Prakash",
+        "family": "Chourasia",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Taslim",
+        "family": "Murad",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sarwan",
+        "family": "Ali",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Murray",
+        "family": "Patterson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, S. , Bello, B. , Chourasia, P. , et al.: Pwm2vec: An efficient embedding approach for viral host specification from coronavirus spike sequences. MDPI Biology (2022)",
+        "DOI": "10.3390/biology11030418"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, S. , Patterson, M. : Spike2vec: An efficient and scalable embedding approach for covid-19 spike sequences. In: International Conference on Big Data (Big Data). pp. 1533\u20131540 (2021)",
+        "DOI": "10.1109/BigData52589.2021.9671848"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, S. , Sahoo, B. , et al.: A k-mer based approach for sars-cov-2 variant identification. In: International Symposium on Bioinformatics Research and Applications. pp. 153\u2013164 (2021)",
+        "DOI": "10.1007/978-3-030-91415-8_14"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, S. , Tamkanat-E-Ali , et al.: Effective and scalable clustering of sars-cov-2 sequences. In: International Conference on Big Data Research (ICBDR). pp. 1\u20138 (2021)",
+        "DOI": "10.1145/3505745.3505752"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, S. , Zhou, Y. , Patterson, M. : Efficient analysis of covid-19 clinical data using machine learning models. arXiv preprint arXiv:2110.09606 (2021)",
+        "DOI": "10.1007/s11517-022-02570-8"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chourasia, P. , Ali, S. , Ciccolella, S. , Della Vedova, G. , Patterson, M. : Clustering sars-cov-2 variants from raw high-throughput sequencing reads data. In: Computational Advances in Bio and Medical Sciences: 11th International Conference, ICCABS 2021, Virtual Event, December 16\u201318, 2021, Revised Selected Papers. pp. 133\u2013148. Springer (2022)",
+        "DOI": "10.1007/978-3-031-17531-2_11"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chourasia, P. , Ali, S. , Ciccolella, S. , Vedova, G.D. , Patterson, M. : Reads2vec: Efficient embedding of raw high-throughput sequencing reads data. Journal of Computational Biology (2023)",
+        "DOI": "10.1089/cmb.2022.0424"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chourasia, P. , Ali, S. , Patterson, M. : Informative initialization and kernel selection improves t-sne for biological sequences. arXiv preprint arXiv:2211.09263 (2022)",
+        "DOI": "10.1109/BigData55660.2022.10020217"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.9",
+        "unstructured": "Cook, J. , Sutskever, I. , et al.: Visualizing similarity data with a mixture of maps. In: Artificial intelligence and statistics. PMLR (2007)"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.10",
+        "first-page": "18539",
+        "article-title": "Neural distance embeddings for biological sequences",
+        "volume": "34",
+        "year": "2021",
+        "journal-title": "In: Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.11",
+        "unstructured": "GISAID Website: https://www.gisaid.org/ (2021), x[Online; accessed 29-December-2021]"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2020.09.010"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2014.12.095"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.neucom.2012.12.036",
+        "article-title": "Type 1 and 2 mixtures of kullback\u2013leibler divergences as cost functions in dimensionality reduction based on similarity preservation",
+        "volume": "112",
+        "year": "2013",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.15",
+        "unstructured": "Van der Maaten, L. , Hinton, G. : Visualizing data using t-sne. Journal of machine learning research 9(11) (2008)"
+      },
+      {
+        "issue": "11",
+        "key": "2023082515101371000_2023.08.21.554138v1.16",
+        "first-page": "1113",
+        "volume": "28",
+        "year": "2021",
+        "journal-title": "From alpha to zeta: Identifying variants and subtypes of sars-cov-2 via clustering"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saha, D.K. , Calhoun, V.D. , Panta, S.R. , Plis, S.M. : See without looking: joint visualization of sensitive multi-site datasets. In: IJCAI. pp. 2672\u20132678 (2017)",
+        "DOI": "10.24963/ijcai.2017/372"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saha, D.K. , et al.: Privacy-preserving quality control of neuroimaging datasets in federated environment. Hum Brain Mapp (2022)",
+        "DOI": "10.1002/hbm.25788"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stephens, Z.D. , et al.: Big data: Astronomical or genomical? PLoS Biology (2015)",
+        "DOI": "10.1371/journal.pbio.1002195"
+      },
+      {
+        "issue": "12",
+        "key": "2023082515101371000_2023.08.21.554138v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "348",
+        "DOI": "10.3390/a14120348",
+        "article-title": "Robust representation and efficient feature selection allows for effective clustering of sars-cov-2 variants",
+        "volume": "14",
+        "year": "2021",
+        "journal-title": "Algorithms"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.21",
+        "unstructured": "Van Der Maaten, L. : Accelerating t-sne using tree-based algorithms. The journal of machine learning research 15(1) (2014)"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van Der Maaten, L. , Weinberger, K. : Stochastic triplet embedding. In: IEEE International Workshop on Machine Learning for Signal Processing. pp. 1\u20136 (2012)",
+        "DOI": "10.1109/MLSP.2012.6349720"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "012071",
+        "DOI": "10.1088/1742-6596/1617/1/012071",
+        "article-title": "Classification and identification of unknown network protocols based on cnn and t-sne",
+        "volume": "1617",
+        "year": "2020",
+        "journal-title": "In: Journal of Physics: Conference Series"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.24",
+        "unstructured": "Yang, Z. , King, I. , Xu, Z. , Oja, E. : Heavy-tailed symmetric stochastic neighbor embedding. Advances in neural information processing systems 22 (2009)"
+      },
+      {
+        "key": "2023082515101371000_2023.08.21.554138v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "667",
+        "DOI": "10.1613/jair.1.12904",
+        "article-title": "Improving the effectiveness and efficiency of stochastic neighbour embedding with isolation kernel",
+        "volume": "71",
+        "year": "2021",
+        "journal-title": "Journal of Artificial Intelligence Research"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.21.554138",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:06:41Z",
+      "timestamp": 1768453601000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.21.554138"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ]
+    },
+    "references-count": 25,
+    "URL": "https://doi.org/10.1101/2023.08.21.554138",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

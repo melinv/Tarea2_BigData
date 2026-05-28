@@ -1,0 +1,498 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:55:24Z",
+      "timestamp": 1768553724692,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          30
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 52,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>To develop and externally geographically validate a mixed-effects deep learning model to diagnose COVID-19 from computed tomography (CT) imaging following best practice guidelines and assess the strengths and weaknesses of deep learning COVID-19 diagnosis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Model development and external validation with retrospectively collected data from two countries.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Hospitals in Moscow, Russia, collected between March 1, 2020, and April 25, 2020. The China Consortium of Chest CT Image Investigation (CC-CCII) collected between January 25, 2020, and March 27, 2020.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>1,110 and 796 patients with either COVID-19 or healthy CT volumes from Moscow, Russia, and China, respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main outcome measures</jats:title>\n                  <jats:p>We developed a deep learning model with a novel mixed-effects layer to model the relationship between slices in CT imaging. The model was trained on a dataset from hospitals in Moscow, Russia, and externally geographically validated on a dataset from a consortium of Chinese hospitals. Model performance was evaluated in discriminative performance using the area under the receiver operating characteristic (AUROC), sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV). In addition, calibration performance was assessed using calibration curves, and clinical benefit was assessed using decision curve analysis. Finally, the model\u2019s decisions were assessed visually using saliency maps.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>External validation on the large Chinese dataset showed excellent performance with an AUROC of 0.936 (95%CI: 0.910, 0.961). Using a probability threshold of 0.5, the sensitivity, specificity, NPV, and PPV were 0.753 (0.647, 0.840), 0.909 (0.869, 0.940), 0.711 (0.606, 0.802), and 0.925 (0.888, 0.953), respectively.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Deep learning can reduce stress on healthcare systems by automatically screening CT imaging for COVID-19. However, deep learning models must be robustly assessed using various performance measures and externally validated in each setting. In addition, best practice guidelines for developing and reporting predictive models are vital for the safe adoption of such models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Statements</jats:title>\n                  <jats:p>The authors do not own any of the patient data, and ethics approval was not needed. The lead author affirms that this manuscript is an honest, accurate, and transparent account of the study being reported, that no important aspects of the study have been omitted, and that any discrepancies from the study as planned (and, if relevant, registered) have been explained. Patients and the public were not involved in the study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>This study was funded by EPSRC studentship (No. 2110275), EPSRC Impact Acceleration Account (IAA) funding, and Amazon Web Services.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:sec>\n                    <jats:title>What is already known on this topic</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>Deep learning can diagnose diseases from imaging data automatically</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Many studies using deep learning are of poor quality and fail to follow current best practice guidelines for the development and reporting of predictive models</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Current methods do not adequately model the relationship between slices in CT volumetric data</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What this study adds</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>A novel method to analyse volumetric imaging data composed of slices such as CT images using deep learning</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Model developed following current best-practice guidelines for the development and reporting of prediction models</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2022.01.28.22270005",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2022-01-30T21:40:12Z",
+      "timestamp": 1643578812000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Development and External Validation of a Mixed-Effects Deep Learning Model to Diagnose COVID-19 from CT Imaging"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Joshua",
+        "family": "Bridge",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yanda",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wenyue",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Fitzmaurice",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Caroline",
+        "family": "McCann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cliff",
+        "family": "Addison",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Manhui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cristin",
+        "family": "Merritt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stu",
+        "family": "Franks",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria",
+        "family": "Mackey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steve",
+        "family": "Messenger",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Renrong",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yitian",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yalin",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.1",
+        "unstructured": "Coronavirus disease 2019 (COVID-19) - Symptoms, diagnosis and treatment | BMJ Best Practice: BMJ Publishing Group; 2020 [Available from: https://bestpractice.bmj.com/topics/en-gb/3000201."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n494"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1808"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-020-01810-8"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruan Z-R , Gong P , Han W , et al. A case of coronavirus disease 2019 with twice negative nucleic acid testing within 8 days. Chinese Medical Journal 2020;133(12)",
+        "DOI": "10.1097/CM9.0000000000000788"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcct.2020.08.013"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200905"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201491"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.9",
+        "first-page": "1187816",
+        "article-title": "CoviNet: Covid-19 diagnosis using machine learning analyses for computerized tomography images",
+        "volume": "11878",
+        "year": "2021",
+        "journal-title": "Thirteenth International Conference on Digital Image Processing (ICDIP 2021)"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-16620-x"
+      },
+      {
+        "issue": "6",
+        "key": "2022022801200517000_2022.01.28.22270005v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.3390/jimaging6060044",
+        "article-title": "Spatial linear mixed effects modelling for OCT images: SLME model",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Journal of Imaging"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "100295",
+        "DOI": "10.1016/j.ejro.2020.100295",
+        "article-title": "Chest CT scan features from 302 patients with COVID-19 in Jordan",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "European Journal of Radiology Open"
+      },
+      {
+        "issue": "1",
+        "key": "2022022801200517000_2022.01.28.22270005v2.13",
+        "first-page": "e55",
+        "article-title": "Lobar distribution of COVID-19 pneumonia based on chest computed tomography findings; A retrospective study",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Arch Acad Emerg Med"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2020/5436025"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00307-0"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.g7594"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryai.2020200029"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M18-1376"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.20",
+        "unstructured": "Jiang J , Nguyen T. Linear and generalized linear mixed models and their applications: Springer 2007."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy C , Vanhoucke V , Ioffe S , et al. Rethinking the inception architecture for computer vision. Proceedings of the IEEE conference on computer vision and pattern recognition 2016:2818\u201326.",
+        "DOI": "10.1109/CVPR.2016.308"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00793"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1950)078&lt;0001:VOFEIT&gt;2.0.CO;2"
+      },
+      {
+        "issue": "3",
+        "key": "2022022801200517000_2022.01.28.22270005v2.25",
+        "first-page": "61",
+        "article-title": "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods",
+        "volume": "10",
+        "year": "1999",
+        "journal-title": "Advances in large margin classifiers"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Steyerberg EW , Vickers AJ , Cook NR , et al. Assessing the performance of prediction models: A framework for traditional and novel measures. Epidemiology 2010;21(1)",
+        "DOI": "10.1097/EDE.0b013e3181c30fb2"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-019-1466-7"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclinepi.2015.12.005"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.29",
+        "unstructured": "R: A Language and Environment for Statistical Computing [program], 2021."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2531595"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.31",
+        "unstructured": "Stevenson M , Sergeant E , Nunes T , et al. epiR: Tools for the Analysis of Epidemiological Data. 2022 doi: https://CRAN.R-project.org/package=epiR"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1009213286"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-019-1425-3"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.34",
+        "unstructured": "rms: Regression Modeling Strategies [program], 2021."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0272989X06295361"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.36",
+        "unstructured": "Smilkov D , Thorat N , Kim B , et al. Smoothgrad: Removing noise by adding noise. arXiv 2017. arXiv preprint arXiv:170603825"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K , Zhang X , Ren S , et al. Deep residual learning for image recognition. Proceedings of the IEEE conference on computer vision and pattern recognition 2016:770\u201378.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.38",
+        "unstructured": "Efficientnet: Rethinking model scaling for convolutional neural networks. International Conference on Machine Learning; 2019. PMLR."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.2601065"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.40",
+        "unstructured": "Abadi M , Agarwal A , Barham P , et al. Tensorflow: Large-scale machine learning on heterogeneous distributed systems. arXiv preprint arXiv:160304467 2016"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.41",
+        "unstructured": "Tensorflow: A system for large-scale machine learning. 12th {USENIX} symposium on operating systems design and implementation ({OSDI} 16); 2016."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-77"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.43",
+        "unstructured": "Du Z , Hao Y. reportROC: an easy way to report ROC analysis. R package version 3.5, 2020."
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wickham H. ggplot2: Elegant Graphics for Data Analysis.: Springer-Verlag New York 2016.",
+        "DOI": "10.1007/978-3-319-24277-4"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.45",
+        "article-title": "Adam: A method for stochastic optimization",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.7992"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17816/dd46826"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.04.045"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.49",
+        "article-title": "Explaining and harnessing adversarial examples",
+        "year": "2014",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclinepi.2021.02.011"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01517-0"
+      },
+      {
+        "key": "2022022801200517000_2022.01.28.22270005v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-048008"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.01.28.22270005",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:35:16Z",
+      "timestamp": 1768487716000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.01.28.22270005"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          30
+        ]
+      ]
+    },
+    "references-count": 52,
+    "URL": "https://doi.org/10.1101/2022.01.28.22270005",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3389/fmed.2023.1113030",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          30
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

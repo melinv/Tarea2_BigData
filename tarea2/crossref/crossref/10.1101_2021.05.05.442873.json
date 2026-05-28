@@ -1,0 +1,529 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:38:10Z",
+      "timestamp": 1768495090727,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          6
+        ]
+      ]
+    },
+    "group-title": "Microbiology",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2021-05-06T00:00:00Z",
+          "timestamp": 1620259200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>High error rates of viral RNA-dependent RNA polymerases lead to diverse intra-host viral populations during infection. Errors made during replication that are not strongly deleterious to the virus can lead to the generation of minority variants. However, accurate detection of minority variants in viral sequence data is complicated by errors introduced during sample preparation and data analysis. We used synthetic RNA controls and simulated data to test seven variant calling tools across a range of allele frequencies and simulated coverages. We show that choice of variant caller, and use of replicate sequencing have the most significant impact on single nucleotide variant (SNV) discovery and demonstrate how both allele frequency and coverage thresholds impact both false discovery and false negative rates. We use these parameters to find minority variants in sequencing data from SARS-CoV-2 clinical specimens and provide guidance for studies of intrahost viral diversity using either single replicate data or data from technical replicates. Our study provides a framework for rigorous assessment of technical factors that impact SNV identification in viral samples and establishes heuristics that will inform and improve future studies of intrahost variation, viral diversity, and viral evolution.</jats:p>\n                <jats:sec>\n                  <jats:title>IMPORTANCE</jats:title>\n                  <jats:p>When viruses replicate inside a host, the virus replication machinery makes mistakes. Over time, these mistakes create mutations that result in a diverse population of viruses inside the host. Mutations that are neither lethal to the virus, nor strongly beneficial, can lead to minority variants that are minor members of the virus population. However, preparing samples for sequencing can also introduce errors that resemble minority variants, resulting in inclusion of false positive data if not filtered correctly. In this study, we aimed to determine the best methods for identification and quantification of these minority variants by testing the performance of seven commonly used variant calling tools. We used simulated and synthetic data to test their performance against a true set of variants, and then used these studies to inform variant identification in data from clinical SARS-CoV-2 clinical specimens. Together, analyses of our data provide extensive guidance for future studies of viral diversity and evolution.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.05.05.442873",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2021-05-06T20:07:51Z",
+      "timestamp": 1620331671000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Optimized Quantification of Intrahost Viral Diversity in SARS-CoV-2 and Influenza Virus Sequence Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "AE",
+        "family": "Roder",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "KEE",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Knoll",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Khalfan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2021-727X",
+        "authenticated-orcid": false,
+        "given": "S",
+        "family": "Schultz-Cherry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S",
+        "family": "Banakis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A",
+        "family": "Kreitman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "C",
+        "family": "Mederos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J-H",
+        "family": "Youn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R",
+        "family": "Mercado",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "W",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5740-6958",
+        "authenticated-orcid": false,
+        "given": "D",
+        "family": "Ruchnewitz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "MI",
+        "family": "Samanovic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "MJ",
+        "family": "Mulligan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Lassig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "\u0141uksza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S",
+        "family": "Das",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D",
+        "family": "Gresham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1515-725X",
+        "authenticated-orcid": false,
+        "given": "E",
+        "family": "Ghedin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/bi035212y"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1002685"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2323"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peck KM , Lauring AS . 2018. Complexities of Viral Mutation Rates. J Virol 92.",
+        "DOI": "10.1128/JVI.01031-17"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.76.1.463-465.2002"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00018-016-2299-6"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg.2016.104"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2006.01.017"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1146/annurev-virology-031413-085507",
+        "article-title": "Thinking Outside the Triangle: Replication Fidelity of the Largest RNA Viruses",
+        "volume": "1",
+        "year": "2014",
+        "journal-title": "Annu Rev Virol"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0400146101"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1005856"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vev013"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-021-00847-5"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martin MAK , Katia. 2021. Reanalysis of deep-sequencing data from Austria points towards a small SARS-COV-2 transmission bottleneck on the order of one to three virions. bioRxiv doi:https://doi.org/10.1101/2021.02.22.432096.",
+        "DOI": "10.1101/2021.02.22.432096"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.coviro.2017.10.008"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.16",
+        "first-page": "585358",
+        "article-title": "Population Bottlenecks and Intra-host Evolution During Human-to-Human Transmission of SARS-CoV-2",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Front Med (Lausanne)"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg0821"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2583"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1477",
+        "DOI": "10.1056/NEJMc2120219",
+        "article-title": "Resistance Mutations in SARS-CoV-2 Delta Variant after Sotrovimab Use",
+        "volume": "386",
+        "year": "2022",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martinez-Gonzalez B , Soria ME , Vazquez-Sirvent L , Ferrer-Orta C , Lobo-Vega R , Minguez P , de la Fuente L , Llorens C , Soriano B , Ramos-Ruiz R , Corton M , Lopez-Rodriguez R , Garcia-Crespo C , Somovilla P , Duran-Pastor A , Gallego I , de Avila AI , Delgado S , Moran F , Lopez-Galindez C , Gomez J , Enjuanes L , Salar-Vidal L , Esteban-Munoz M , Esteban J , Fernandez-Roblas R , Gadea I , Ayuso C , Ruiz-Hornillos J , Verdaguer N , Domingo E , Perales C. 2022. SARS-CoV-2 Mutant Spectra at Different Depth Levels Reveal an Overwhelming Abundance of Low Frequency Mutations. Pathogens 11.",
+        "DOI": "10.3390/pathogens11060662"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.03248-15"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "veaa010",
+        "DOI": "10.1093/ve/veaa010",
+        "article-title": "Linking influenza virus evolution within and between human hosts",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1016/j.chom.2020.10.011",
+        "article-title": "The Early Evolution of Oral Poliovirus Vaccine Is Shaped by Strong Positive Selection and Tight Transmission Bottlenecks",
+        "volume": "29",
+        "year": "2021",
+        "journal-title": "Cell Host Microbe"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1146/annurev-virology-010320-061642",
+        "article-title": "Within-Host Viral Diversity: A Window into Viral Evolution",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Annu Rev Virol"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00667-16"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Valesano ALR, Kalee E ; Dimcheff, Derek E ; Blair, Christopher N ; Fitzsimmons, William J ; Petrie, Joshua G ; Martin, Emily T ; Lauring, Adam S. 2021. Temporal dynamics of SARS-CoV-2 mutation accumulation within and across infected hosts. bioRxiv doi:https://doi.org/10.1101/2021.01.19.427330.",
+        "DOI": "10.1101/2021.01.19.427330"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-018-1618-7"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-020-00791-w"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2015.00235"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/humu.22365"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.31",
+        "unstructured": "Auwera Gvd , O\u2019Connor BD . 2020. Genomics in the cloud : using Docker, GATK, and WDL in Terra, First edition. ed. O\u2019Reilly Media, Sebastopol, CA."
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2514"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.33",
+        "unstructured": "Garrison EM , Gabor. 2012. Haplotype-based variant detection from short-read sequencing. ArXiv 1207.3907v2."
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Benjamin D , Sato T , Cibulskis K , Getz G , Stewart C, L. L. 2019. Calling Somatic SNVs and Indels with Mutect2. bioRxiv doi:https://doi.org/10.1101/861054.",
+        "DOI": "10.1101/861054"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.129684.111"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks918"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wybo WA , Jordan J , Ellenberger B , Marti Mengual U , Nevian T , Senn W. 2021. Datadriven reduction of dendritic morphologies with preserved dendro-somatic responses. Elife 10.",
+        "DOI": "10.7554/eLife.60936"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu170"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp324"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.40",
+        "first-page": "11 10 1",
+        "article-title": "From FastQ data to high confidence variant calls: the Genome Analysis Toolkit best practices pipeline",
+        "volume": "43",
+        "year": "2013",
+        "journal-title": "Curr Protoc Bioinformatics"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vey041"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.42",
+        "first-page": "836728",
+        "article-title": "Optimization of the SARS-CoV-2 ARTIC Network V4 Primers and Whole Genome Sequencing Protocol",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Front Med (Lausanne)"
+      },
+      {
+        "key": "2024080523154225000_2021.05.05.442873v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1093/infdis/jiaa272",
+        "article-title": "Influence of Storage Conditions on SARS-CoV-2 Nucleic Acid Detection in Throat Swabs",
+        "volume": "222",
+        "year": "2020",
+        "journal-title": "J Infect Dis"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.05.442873",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:41:41Z",
+      "timestamp": 1768441301000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.05.05.442873"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          6
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2021.05.05.442873",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

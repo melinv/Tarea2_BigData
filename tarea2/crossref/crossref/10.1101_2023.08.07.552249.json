@@ -1,0 +1,748 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:05:31Z",
+      "timestamp": 1768507531897,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          7
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 97,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Signalling networks are critical for virtually all cell functions. Our current knowledge of cell signalling has been summarised in signalling pathway databases, which, while useful, are highly biassed towards well-studied processes, and don\u2019t capture context specific network wiring or pathway cross-talk. Mass spectrometry-based phosphoproteomics data can provide a more unbiased view of active cell signalling processes in a given context, however, it suffers from low signal-to-noise ratio and poor reproducibility across experiments. Methods to extract active signalling signatures from such data struggle to produce unbiased and interpretable networks that can be used for hypothesis generation and designing downstream experiments.</jats:p>\n                <jats:p>Here we present phuEGO, which combines three-layer network propagation with ego network decomposition to provide small networks comprising active functional signalling modules. PhuEGO boosts the signal-to-noise ratio from global phosphoproteomics datasets, enriches the resulting networks for functional phosphosites and allows the improved comparison and integration across datasets. We applied phuEGO to five phosphoproteomics data sets from cell lines collected upon infection with SARS CoV2. PhuEGO was better able to identify common active functions across datasets and to point to a subnetwork enriched for known COVID-19 targets. Overall, phuEGO provides a tool to the community for the improved functional interpretation of global phosphoproteomics datasets.</jats:p>",
+    "DOI": "10.1101/2023.08.07.552249",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2023-08-08T01:15:10Z",
+      "timestamp": 1691457310000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "phuEGO: A network-based method to reconstruct active signalling pathways from phosphoproteomics datasets"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5359-8208",
+        "authenticated-orcid": false,
+        "given": "Girolamo",
+        "family": "Giudice",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0635-6596",
+        "authenticated-orcid": false,
+        "given": "Haoqi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8294-2995",
+        "authenticated-orcid": false,
+        "given": "Evangelia",
+        "family": "Petsalaki",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Heldin, C.-H. , Lu, B. , Evans, R. & Silvio Gutkind, J. Signals and Receptors. Cold Spring Harb. Perspect. Biol. 8, (2016).",
+        "DOI": "10.1101/cshperspect.a005900"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ceb.2007.02.010"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sj.cr.7290105"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncb1418"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vert, G. & Chory, J. Crosstalk in cellular signaling: background noise or the real thing? Dev. Cell 21, (2011).",
+        "DOI": "10.1016/j.devcel.2011.11.006"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, X. & Wang, X. F. Signaling cross-talk between TGF-beta/BMP and other pathways. Cell Res. 19, (2009).",
+        "DOI": "10.1038/cr.2008.302"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mendoza, M. C. , Er, E. E. & Blenis, J. The Ras-ERK and PI3K-mTOR pathways: cross-talk and compensation. Trends Biochem. Sci. 36, (2011).",
+        "DOI": "10.1016/j.tibs.2011.03.006"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hill, C. S. & Treisman, R. Transcriptional regulation by extracellular signals: mechanisms and specificity. Cell 80, (1995).",
+        "DOI": "10.1016/0092-8674(95)90403-4"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gad.976502"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Strasen, J. et al. Cell-specific responses to the cytokine TGF\u03b2 are determined by variability in protein levels. Mol. Syst. Biol. 14, (2018).",
+        "DOI": "10.15252/msb.20177733"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.02.022277"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Invergo, B. M. & Beltrao, P. Reconstructing phosphorylation signalling networks from quantitative phosphoproteomic data. Essays Biochem. 62, (2018).",
+        "DOI": "10.1042/EBC20180019"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Terfve, C. & Saez-Rodriguez, J. Modeling signaling networks using high-throughput phospho-proteomics. Adv. Exp. Med. Biol. 736, (2012).",
+        "DOI": "10.1007/978-1-4419-7210-1_2"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gstaiger, M. & Aebersold, R. Applying mass spectrometry-based proteomics to genetics, genomics and network biology. Nat. Rev. Genet. 10, (2009).",
+        "DOI": "10.1038/nrg2633"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Picotti, P. , Bodenmiller, B. , Mueller, L. N. , Domon, B. & Aebersold, R. Full dynamic range proteome analysis of S. cerevisiae by targeted proteomics. Cell 138, (2009).",
+        "DOI": "10.1016/j.cell.2009.05.051"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "767",
+        "DOI": "10.1093/bib/bbx141",
+        "article-title": "Proteomics and phosphoproteomics in precision medicine: applications and challenges",
+        "volume": "20",
+        "year": "2019",
+        "journal-title": "Brief. Bioinform"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.1333"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth0910-681"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Neuberg, L. G. CAUSALITY: MODELS, REASONING, AND INFERENCE, by Judea Pearl, Cambridge University Press, 2000. Econometric Theory vol. 19 Preprint at https://doi.org/10.1017/s0266466603004109 (2003).",
+        "DOI": "10.1017/S0266466603004109"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1005277613752"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.21",
+        "unstructured": "Hill, S. M. et al. Inferring causal molecular networks: empirical assessment through a community-based effort. Nat. Methods 13, (2016)."
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Samaga, R. & Klamt, S. Modeling approaches for qualitative and semi-quantitative analysis of cellular signaling networks. Cell Commun. Signal. 11, (2013).",
+        "DOI": "10.1186/1478-811X-11-43"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms6945"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Santra, T. , Kholodenko, B. & Kolch, W. An integrated Bayesian framework for identifying phosphorylation networks in stimulated cells. Adv. Exp. Med. Biol. 736, (2012).",
+        "DOI": "10.1007/978-1-4419-7210-1_3"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sachs, K. , Perez, O. , Pe\u2019er, D. , Lauffenburger, D. A. & Nolan, G. P. Causal protein-signaling networks derived from multiparameter single-cell data. Science 308, (2005).",
+        "DOI": "10.1126/science.1105809"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y. , Kweon, H. K. , Shively, C. , Kumar, A. & Andrews, P. C. Towards systematic discovery of signaling networks in budding yeast filamentous growth stress response using interventional phosphorylation data. PLoS Comput. Biol. 9, (2013).",
+        "DOI": "10.1371/journal.pcbi.1003077"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hornberg, J. J. et al. Control of MAPK signalling: from complexity to what really matters. Oncogene 24, (2005).",
+        "DOI": "10.1038/sj.onc.1208817"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arkun, Y. Dynamic Modeling and Analysis of the Cross-Talk between Insulin/AKT and MAPK/ERK Signaling Pathways. PLoS One 11, (2016).",
+        "DOI": "10.1371/journal.pone.0149684"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2192",
+        "DOI": "10.1038/s41467-017-02288-4",
+        "article-title": "Model-free inference of direct network interactions from nonlinear collective dynamics",
+        "volume": "8",
+        "year": "2017",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv459"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1186/s12014-020-09290-x",
+        "article-title": "Using phosphoproteomics data to understand cellular signaling: a comprehensive guide to bioinformatics resources",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Clin. Proteomics"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jason W. Locasale, A. W.-Y. Maximum Entropy Reconstructions of Dynamic Signaling Networks from Quantitative Proteomics Data. PLoS One 4, (2009).",
+        "DOI": "10.1371/journal.pone.0006522"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "e11036",
+        "DOI": "10.15252/msb.202211036",
+        "article-title": "Integrating knowledge and omics to decipher mechanisms via large-scale models of signaling networks",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "Mol. Syst. Biol"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "432",
+        "DOI": "10.1016/j.csbj.2022.12.010",
+        "article-title": "Phosphoproteomics data-driven signalling network inference: Does it work?",
+        "volume": "21",
+        "year": "2023",
+        "journal-title": "Comput. Struct. Biotechnol. J"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "4283",
+        "DOI": "10.1038/s41467-022-32017-5",
+        "article-title": "KSTAR: An algorithm to predict patient-specific kinase activities from phosphoproteomic data",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Casado, P. et al. Kinase-substrate enrichment analysis provides insights into the heterogeneity of signaling pathway activation in leukemia cells. Sci. Signal. 6, (2013).",
+        "DOI": "10.1126/scisignal.2003573"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.37",
+        "first-page": "424",
+        "article-title": "IKAP: A heuristic framework for inference of kinase activities from Phosphoproteomics data",
+        "volume": "32",
+        "year": "2015",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, P. et al. KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis. Proteomics 16, (2016).",
+        "DOI": "10.1002/pmic.201600068"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp026"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rudolph, J. D. , de Graauw, M. , van de Water, B. , Geiger, T. & Sharan, R. Elucidation of Signaling Pathways from Large-Scale Phosphoproteomic Data Using Protein Interaction Networks. Cell systems 3, (2016).",
+        "DOI": "10.1016/j.cels.2016.11.005"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.41",
+        "first-page": "l1",
+        "article-title": "ANAT: a tool for constructing and analyzing functional protein networks",
+        "volume": "4",
+        "year": "2011",
+        "journal-title": "Sci. Signal"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chasman, D. et al. Pathway connectivity and signaling coordination in the yeast stress-activated signaling network. Mol. Syst. Biol. 10, (2014).",
+        "DOI": "10.15252/msb.20145120"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz421"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12918-016-0376-y"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ritz, A. et al. Pathways on demand: automated reconstruction of human signaling networks. NPJ systems biology and applications 2, (2016).",
+        "DOI": "10.1038/npjsba.2016.2"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1004751108"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10107-005-0660-x"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/mcp.M400110-MCP200"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/msb.2009.3"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, S. S. & Fraenkel, E. Integrating proteomic, transcriptional, and interactome data reveals hidden components of signaling and regulatory networks. Sci. Signal. 2, (2009).",
+        "DOI": "10.1126/scisignal.2000350"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tuncbag, N. et al. Simultaneous reconstruction of multiple signaling pathways via the prize-collecting steiner forest problem. J. Comput. Biol. 20, (2013).",
+        "DOI": "10.1089/cmb.2012.0092"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2188-x"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.01.19.905109"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cho, D. Y. , Kim, Y. A. & Przytycka, T. M. Chapter 5: Network biology approach to complex diseases. PLoS Comput. Biol. 8, (2012).",
+        "DOI": "10.1371/journal.pcbi.1002820"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cowen, L. , Ideker, T. , Raphael, B. J. & Sharan, R. Network propagation: a universal amplifier of genetic associations. Nat. Rev. Genet. 18, (2017).",
+        "DOI": "10.1038/nrg.2017.38"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pe\u00f1a-Castillo, L. et al. A critical assessment of Mus musculus gene function prediction using integrated genomic evidence. Genome Biol. 9 Suppl 1, (2008).",
+        "DOI": "10.1186/gb-2008-9-s1-s2"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "540",
+        "DOI": "10.1016/j.cels.2016.10.017",
+        "article-title": "Compact Integration of Multi-Network Topology forFunctional Analysis of Genes",
+        "volume": "3",
+        "year": "2016",
+        "journal-title": "Cell Syst"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Navlakha, S. & Kingsford, C. The power of protein interaction networks for associating genes with diseases. Bioinformatics 26, (2010).",
+        "DOI": "10.1093/bioinformatics/btq076"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K\u00f6hler, S. , Bauer, S. , Horn, D. & Robinson, P. N. Walking the interactome for prioritization of candidate disease genes. Am. J. Hum. Genet. 82, (2008).",
+        "DOI": "10.1016/j.ajhg.2008.02.013"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guney, E. & Oliva, B. Exploiting protein-protein interaction networks for genome-wide disease-gene prioritization. PLoS One 7, (2012).",
+        "DOI": "10.1371/journal.pone.0043557"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reyna, M. A. , Leiserson, M. D. M. & Raphael, B. J. Hierarchical HotNet: identifying hierarchies of altered subnetworks. Bioinformatics 34, (2018).",
+        "DOI": "10.1093/bioinformatics/bty613"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leiserson et al. Pan-cancer network analysis identifies combinations of rare somatic mutations across pathways and protein complexes. Nat. Genet. 47, (2015).",
+        "DOI": "10.1038/ng.3168"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghiassian, S. D. , Menche, J. & Barab\u00e1si, A.-L. A DIseAse MOdule Detection (DIAMOnD) Algorithm Derived from a Systematic Analysis of Connectivity Patterns of Disease Proteins in the Human Interactome. PLoS Comput. Biol. 11, (2015).",
+        "DOI": "10.1371/journal.pcbi.1004120"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hofree, M. , Shen, J. P. , Carter, H. , Gross, A. & Ideker, T. Network-based stratification of tumor mutations. Nat. Methods 10, (2013).",
+        "DOI": "10.1038/nmeth.2651"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, B. et al. Similarity network fusion for aggregating data types on a genomic scale. Nat. Methods 11, (2014).",
+        "DOI": "10.1038/nmeth.2810"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paull, E. O. et al. Discovering causal pathways linking genomic events to transcriptional states using Tied Diffusion Through Interacting Events (TieDIE). Bioinformatics 29, (2013).",
+        "DOI": "10.1093/bioinformatics/btt471"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Drake, J. M. et al. Phosphoproteome Integration Reveals Patient-Specific Networks in Prostate Cancer. Cell 166, (2016).",
+        "DOI": "10.1016/j.cell.2016.07.007"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20167295"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.69",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "DOI": "10.1038/s41587-019-0344-3",
+        "article-title": "The functional landscape of the human phosphoproteome",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Nat. Biotechnol"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.08.20.457146"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03493-4"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.molcel.2020.08.006"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2020.06.034"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "212",
+        "DOI": "10.1016/j.molcel.2020.12.028",
+        "article-title": "Actionable Cytopathogenic Host Responses of Human Alveolar Type 2 Cells to SARS-CoV-2",
+        "volume": "81",
+        "year": "2021",
+        "journal-title": "Mol. Cell"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.75",
+        "first-page": "D358",
+        "article-title": "The MIntAct project--IntAct as a common curation platform for 11 molecular interaction databases",
+        "volume": "42",
+        "year": "2013",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hornbeck, P. V. et al. PhosphoSitePlus, 2014: mutations, PTMs and recalibrations. Nucleic Acids Res. 43, (2015).",
+        "DOI": "10.1093/nar/gku1267"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T\u00fcrei, D. , Korcsm\u00e1ros, T. & Saez-Rodriguez, J. OmniPath: guidelines and gateway for literature-curated signaling pathway resources. Nat. Methods 13, (2016).",
+        "DOI": "10.1038/nmeth.4077"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Licata, L. et al. SIGNOR 2.0, the SIGnaling Network Open Resource 2.0: 2019 update. Nucleic Acids Res. 48, (2020).",
+        "DOI": "10.1093/nar/gkz949"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1100"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Res. 47, (2019).",
+        "DOI": "10.1093/nar/gky1055"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.81",
+        "unstructured": "Pesquita, C. , Faria, D. , Bastos, H. , Falc\u00e3o, A. O. & Couto, F. M. Evaluating GO-based semantic similarity measures. in PROCEEDINGS OF THE 10TH ANNUAL BIO-ONTOLOGIES MEETING (BIOONTOLOGIES 37\u201340 (2007)."
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt581"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Viger, F. & Latapy, M. Efficient and Simple Generation of Random Simple Connected Graphs with Prescribed Degree Sequence. Lecture Notes in Computer Science 440\u2013449 Preprint at https://doi.org/10.1007/11533719_45 (2005).",
+        "DOI": "10.1007/11533719_45"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000641"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKAA913"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Website. Silverman, B.W. (1998). Density Estimation for Statistics and Data Analysis (1st ed.). Routledge. https://doi.org/10.1201/9781315140919.",
+        "DOI": "10.1201/9781315140919"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-41695-z"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1092"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab1028"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.90",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.3389/fphar.2019.00445",
+        "article-title": "The NCATS BioPlanet - An Integrated Platform for Exploring the Universe of Cellular Signaling Pathways for Toxicology, Systems Biology, and Chemical Genomics",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Front. Pharmacol"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKZ1021"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.92",
+        "unstructured": "overlapCoefficient: Overlap coefficient, also known as Szymkiewicz-Simpson\u2026 in ribiosUtils: Utilities from and Interface to the Bioinfo-C (BIOS) Library. https://rdrr.io/cran/ribiosUtils/man/overlapCoefficient.html (2020)."
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.93",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tuncbag, N. et al. Network-Based Interpretation of Diverse High-Throughput Datasets through the Omics Integrator Software Package. PLoS Comput. Biol. 12, (2016).",
+        "DOI": "10.1371/journal.pcbi.1004879"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2010.06.011"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3109/10408363.2013.874403"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.96",
+        "first-page": "730",
+        "article-title": "Reconstruction of the temporal signaling network in Salmonella-infected human cells",
+        "volume": "6",
+        "year": "2015",
+        "journal-title": "Front. Microbiol"
+      },
+      {
+        "key": "2023081110100899000_2023.08.07.552249v1.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-022-01131-x"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.07.552249",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:02:51Z",
+      "timestamp": 1768453371000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.07.552249"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          7
+        ]
+      ]
+    },
+    "references-count": 97,
+    "URL": "https://doi.org/10.1101/2023.08.07.552249",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.mcpro.2024.100771",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          7
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

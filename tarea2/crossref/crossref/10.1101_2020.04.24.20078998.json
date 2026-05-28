@@ -1,0 +1,319 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:15:22Z",
+      "timestamp": 1768547722861,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 27,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Coronavirus disease 2019 (COVID-19) has surprised the world since the beginning of 2020, and the rapid growth of COVID-19 is beyond the capability of doctors and hospitals that could deal in many areas. The chest computed tomography (CT) could be served as an effective tool in detection of COVID-19. It is valuable to develop automatic detection of COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>The collected dataset consisted of 1042 chest CT images (including 521 COVID-19, 397 healthy, 76 bacterial pneumonia and 48 SARS) obtained by exhaustively searching available data on the Internet. Then, these data are divided into three sets, referred to training set, validation set and testing set. Sixteen data augmentation operations are designed to enrich the training set in deep learning training phase. Multiple experiments were conducted to analyze the performance of the model in the detection of COVID-19 both in case of no noisy labels and noisy labels. The performance was assessed by the area under the receiver operating characteristic (AUC), sensitivity, specificity and accuracy.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The data augmentation operations on the training set are effective for improvement of the model performance. The area under the receiver operating characteristic curve is 0.9689 with (95% CI: 0.9308, 1) in case of no noisy labels for the classification of COVID-19 from heathy subject, while the per-exam sensitivity, specificity and accuracy for detecting COVID-19 in the independent testing set are 90.52%, 91.58% and 91.21%, respectively. In the classification of COVID-19 from other hybrid cases, the average AUC of the proposed model is 0.9222 with (95%CI: 0.8418, 1) if there are no noisy labels. The model is also robust when part of the training samples is marked incorrectly. The average AUC is 92.23% in the case of noisy labels of 10% in the training set.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>A deep learning model with insufficient samples can be developed by using data augmentation in assisting medical workers in making quick and correct diagnosis of COVID-19.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.24.20078998",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2020-04-29T15:16:24Z",
+      "timestamp": 1588173384000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Automated Diagnosis of COVID-19 Using Deep Learning and Data Augmentation on Chest CT"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Runwen",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Guanqi",
+        "family": "Ruan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shijun",
+        "family": "Xiang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Minghui",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qiaoyi",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jingxuan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s01406736(20)30211-7"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.2",
+        "unstructured": "D. Wang , B. Hu , C. Hu , F. Zhu , X. Liu , J. Zhang , B. Wang , H. Xiang , Z. Cheng , Y. Xiong , et al., Jama (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.3",
+        "unstructured": "Q. Li , X. Guan , P. Wu , X. Wang , L. Zhou , Y. Tong , R. Ren , K.S. Leung , E.H. Lau , J.Y. Wong , et al., New England Journal of Medicine (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.4",
+        "unstructured": "M.L. Holshue , C. DeBolt , S. Lindquist , K.H. Lofy , J. Wiesman , H. Bruce , C. Spitters , K. Ericson , S. Wilkerson , A. Tural , et al., New England Journal of Medicine (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.5",
+        "unstructured": "X. Xie , Z. Zhong , W. Zhao , C. Zheng , F. Wang , J. Liu , Radiology p. 200343 (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Bernheim , X. Mei , M. Huang , Y. Yang , Z.A. Fayad , N. Zhang , K. Diao , B. Lin , X. Zhu , K. Li , et al., Radiology p. 200463 (2020)",
+        "DOI": "10.1148/radiol.2020200463"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200230"
+      },
+      {
+        "issue": "10223",
+        "key": "2020120910301741000_2020.04.24.20078998v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1016/S0140-6736(20)30183-5",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.9",
+        "unstructured": "L. Fan , D. Li , H. Xue , L. Zhang , Z. Liu , B. Zhang , L. Zhang , W. Yang , B. Xie , X. Duan , et al., Chinese Journal of Academic Radiology pp. 1\u201310 (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Xue , Z. Jin . The appropriate position of radiology in covid-19 diagnosis and treatmentcurrent status and opinion from china (2020)",
+        "DOI": "10.1007/s42058-020-00030-6"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Xia , X. Li , X. Wang , B. Kong , Y. Chen , Y. Yin , K. Cao , Q. Song , S. Lyu , X. Wu , in International Conference on Medical Image Computing and Computer-Assisted Intervention (Springer, 2019), pp. 577\u2013585",
+        "DOI": "10.1007/978-3-030-32245-8_64"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "101688",
+        "DOI": "10.1016/j.compmedimag.2019.101688",
+        "volume": "80",
+        "year": "2020",
+        "journal-title": "Computerized Medical Imaging and Graphics"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00330-019-06163-2"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.14",
+        "unstructured": "D. Karimi , H. Dou , S.K. Warfield , A. Gholipour , arXiv preprint arXiv:1912.02911 (2019)"
+      },
+      {
+        "issue": "1",
+        "key": "2020120910301741000_2020.04.24.20078998v2.15",
+        "first-page": "134",
+        "volume": "38",
+        "year": "2018",
+        "journal-title": "IEEE transactions on medical imaging"
+      },
+      {
+        "issue": "10",
+        "key": "2020120910301741000_2020.04.24.20078998v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1715",
+        "DOI": "10.3390/app8101715",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Applied Sciences"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.17",
+        "unstructured": "L. Li , L. Qin , Z. Xu , Y. Yin , X. Wang , B. Kong , J. Bai , Y. Lu , Z. Fang , Q. Song , et al., Radiology p. 200905 (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.18",
+        "unstructured": "O. Gozes , M. Frid-Adar , H. Greenspan , P.D. Browning , H. Zhang , W. Ji , A. Bernheim , E. Siegel , arXiv preprint arXiv:2003.05037 (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.19",
+        "unstructured": "J. Zhao , Y. Zhang , X. He , P. Xie , arXiv preprint arX-iv:2003.13865 (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.20",
+        "unstructured": "J.P. Cohen , P. Morrison , L. Dao , arXiv preprint arX-iv:2003.11597 (2020)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.21",
+        "unstructured": "L. Taylor , G. Nitschke , arXiv preprint arXiv:1708.06020 (2017)"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.22",
+        "unstructured": "A. Krizhevsky , I. Sutskever , G.E. Hinton , in Advances in neural information processing systems (2012), pp. 1097\u20131105"
+      },
+      {
+        "issue": "3",
+        "key": "2020120910301741000_2020.04.24.20078998v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "volume": "115",
+        "year": "2015",
+        "journal-title": "International journal of computer vision"
+      },
+      {
+        "issue": "9",
+        "key": "2020120910301741000_2020.04.24.20078998v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1904",
+        "DOI": "10.1109/TPAMI.2015.2389824",
+        "volume": "37",
+        "year": "2015",
+        "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.25",
+        "unstructured": "K. Simonyan , A. Zisserman , in Advances in neural information processing systems (2014), pp. 568\u2013576"
+      },
+      {
+        "key": "2020120910301741000_2020.04.24.20078998v2.26",
+        "unstructured": "N. Ma , X. Zhang , H.T. Zheng , J. Sun , in Proceedings of the European Conference on Computer Vision (ECCV) (2018), pp. 116\u2013131"
+      },
+      {
+        "issue": "22",
+        "key": "2020120910301741000_2020.04.24.20078998v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "4827",
+        "DOI": "10.3390/s19224827",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "Sensors"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.24.20078998",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:38:33Z",
+      "timestamp": 1768484313000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.04.24.20078998"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1101/2020.04.24.20078998",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

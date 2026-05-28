@@ -1,0 +1,478 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:03:14Z",
+      "timestamp": 1768492994889,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2021-04-13T00:00:00Z",
+          "timestamp": 1618272000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>the current SARS-CoV-2 pandemic has emphasized the utility of viral whole genome sequencing in the surveillance and control of the pathogen. An unprecedented ongoing global initiative is increasingly producing hundreds of thousands of sequences worldwide. However, the complex circumstances in which viruses are sequenced, along with the demand of urgent results, causes a high rate of incomplete and therefore useless, sequences. However, viral sequences evolve in the context of a complex phylogeny and therefore different positions along the genome are in linkage disequilibrium. Therefore, an imputation method would be able to predict missing positions from the available sequencing data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We developed impuSARS, an application that includes Minimac, the most widely used strategy for genomic data imputation and, taking advantage of the enormous amount of SARS-CoV-2 whole genome sequences available, a reference panel containing 239,301 sequences was built. The impuSARS application was tested in a wide range of conditions (continuous fragments, amplicons or sparse individual positions missing) showing great fidelity when reconstructing the original sequences. The impuSARS application is also able to impute whole genomes from commercial kits covering less than 20% of the genome or only from the\n                    <jats:italic>Spike</jats:italic>\n                    protein with a precision of 0.96. It also recovers the lineage with a 100% precision for almost all the lineages, even in very poorly covered genomes (&lt; 20%)\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>imputation can improve the pace of SARS-CoV-2 sequencing production by recovering many incomplete or low-quality sequences that would be otherwise discarded. impuSARS can be incorporated in any primary data processing pipeline for SARS-CoV-2 whole genome sequencing.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.04.13.439668",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ],
+      "date-time": "2021-04-13T18:07:35Z",
+      "timestamp": 1618337255000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "From partial to whole genome imputation of SARS-CoV-2 for epidemiological surveillance"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7424-1753",
+        "authenticated-orcid": false,
+        "given": "Francisco M",
+        "family": "Ortu\u00f1o",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9598-6965",
+        "authenticated-orcid": false,
+        "given": "Carlos",
+        "family": "Loucera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1774-2580",
+        "authenticated-orcid": false,
+        "given": "Carlos S.",
+        "family": "Casimiro-Soriguer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3635-4930",
+        "authenticated-orcid": false,
+        "given": "Jose A.",
+        "family": "Lepe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6331-4600",
+        "authenticated-orcid": false,
+        "given": "Pedro Camacho",
+        "family": "Martinez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3817-9478",
+        "authenticated-orcid": false,
+        "given": "Laura Merino",
+        "family": "Diaz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4318-858X",
+        "authenticated-orcid": false,
+        "given": "Adolfo",
+        "family": "de Salazar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3420-3290",
+        "authenticated-orcid": false,
+        "given": "Natalia",
+        "family": "Chueca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Federico",
+        "family": "Garc\u00eda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Javier",
+        "family": "Perez-Florido",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3318-120X",
+        "authenticated-orcid": false,
+        "given": "Joaquin",
+        "family": "Dopazo",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.1",
+        "unstructured": "Novel Coronavirus \u2013 China [https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1408",
+        "DOI": "10.1038/s41564-020-0771-4",
+        "article-title": "Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the COVID-19 pandemic",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.3",
+        "first-page": "2001410",
+        "article-title": "Geographical and temporal distribution of SARS-CoV-2 clades in the WHO European Region, January to June 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hodcroft EB , Zuber M , Nadeau S , Comas I , Candelas FG , Stadler T , Neher RA : Emergence and spread of a SARS-CoV-2 variant through Europe in the summer of 2020. medRxiv 2020.",
+        "DOI": "10.1101/2020.10.25.20219063"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Babiker A , Marvil CE , Waggoner JJ , Collins MH , Piantadosi A : The importance and challenges of identifying SARS-CoV-2 reinfections. Journal of clinical microbiology 2021, 59.",
+        "DOI": "10.1128/JCM.02769-20"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dos Santos WG : Impact of virus genetic variability and host immunity for the success of COVID-19 vaccines. Biomedicine & Pharmacotherapy 2021:111272.",
+        "DOI": "10.1016/j.biopha.2021.111272"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "895",
+        "DOI": "10.3390/v12080895",
+        "article-title": "A Comparison of Whole Genome Sequencing of SARS-CoV-2 Using Amplicon-Based Sequencing, Random Hexamers, and Bait Capture",
+        "volume": "12",
+        "year": "2020",
+        "journal-title": "Viruses"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.8",
+        "unstructured": "Phylogenetic Assignment of Named Global Outbreak LINeages (PANGOLIN) [https://github.com/cov-lineages/pangolin]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2796"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.genom.9.081307.164242"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2009.01.005"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng2088"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu704"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3656"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ejhg.2014.216"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.2354"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0021375"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.18",
+        "unstructured": "Sequencing of SARS-CoV-2 [https://www.ecdc.europa.eu/sites/default/files/documents/sequencing-of-SARS-CoV-2pd]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.19",
+        "unstructured": "SARS-CoV-2 genomic sequencing for public health goals: Interim guidance [https://www.who.int/publications/i/item/WHO-2019-nCoV-genomic_sequencing-2021.1]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.20",
+        "unstructured": "Communication from the commission to the European Parliament, the European Council and the Council. A united front to beat COVID-19 [https://ec.europa.eu/transparency/regdoc/rep/1/2021/EN/COM-2021-35-F1-EN-MAIN-PART-1.PDF]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkh340"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.22",
+        "first-page": "30494",
+        "article-title": "GISAID: Global initiative on sharing all influenza data\u2013from vision to reality",
+        "volume": "22",
+        "year": "2017",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/442981a"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.24",
+        "unstructured": "The official development repository for BCFtools. [https://samtools.github.io/bcftools/]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.1273"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.27",
+        "unstructured": "ARTIC hCoV-2019/nCoV-2019 Version 3 Amplicon Set [https://artic.network/resources/ncov/ncov-amplicon-v3.pdf]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.28",
+        "unstructured": "A quick guide to tiling amplicon sequencing and downstream bioinformatics analysis [https://artic.network/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.29",
+        "unstructured": "DeepChek\u00ae-8-plex CoV-2 Genotyping Assay [https://www.ablsa.com/laboratory-applications/deepchek-8plex-cov2-genotyping-assay/]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "104389",
+        "DOI": "10.1016/j.meegid.2020.104389",
+        "article-title": "Exploring the genomic and proteomic variations of SARS-CoV-2 spike glycoprotein: a computational biology approach",
+        "volume": "84",
+        "year": "2020",
+        "journal-title": "Infection, Genetics and Evolution"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1141",
+        "DOI": "10.1038/s41401-020-0485-4",
+        "article-title": "Structural and functional properties of SARS-CoV-2 spike protein: potential antivirus drug development for COVID-19",
+        "volume": "41",
+        "year": "2020",
+        "journal-title": "Acta Pharmacologica Sinica"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1127",
+        "DOI": "10.1016/j.cell.2021.01.044",
+        "article-title": "Public health actions to control new SARS-CoV-2 variants",
+        "volume": "184",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.33",
+        "first-page": "1",
+        "article-title": "The Matthews correlation coefficient (MCC) is more reliable than balanced accuracy, bookmaker informedness, and markedness in two-class confusion matrix evaluation",
+        "volume": "14",
+        "year": "2021",
+        "journal-title": "BioData mining"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.1016/j.patcog.2019.02.023",
+        "article-title": "The impact of class imbalance in classification performance metrics based on the binary confusion matrix",
+        "volume": "91",
+        "year": "2019",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0041882"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.36",
+        "unstructured": "Detection of B.1.351 SARS-CoV-2 variant strain \u2014 Zambia, December 2020 [https://stacks.cdc.gov/view/cdc/102801]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davies NG , Abbott S , Barnard RC , Jarvis CI , Kucharski AJ , Munday JD , Pearson CA , Russell TW , Tully DC , Washburne AD : Estimated transmissibility and impact of SARS-CoV-2 lineage B. 1.1. 7 in England. Science 2021.",
+        "DOI": "10.1126/science.abg3055"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.38",
+        "unstructured": "nf-core/viralrecon: nf-core/viralrecon v1.1.0 - Steel Pangolin (Version 1.1.0) [https://zenodo.org/record/3905178#.YBumlOhKi71]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.1923"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-019-1727-y"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.41",
+        "unstructured": "Picard. A set of command line tools (in Java) for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF. [http://broadinstitute.github.io/picard/"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.42",
+        "unstructured": "Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK defined by a novel set of spike mutations [https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563]"
+      },
+      {
+        "key": "2024080520114783000_2021.04.13.439668v1.43",
+        "unstructured": "CoVariants [https://covariants.org/]"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.04.13.439668",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:34:41Z",
+      "timestamp": 1768440881000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.04.13.439668"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2021.04.13.439668",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

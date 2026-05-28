@@ -1,0 +1,565 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2026-04-02T11:00:54Z",
+      "timestamp": 1775127654274,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              30
+            ]
+          ],
+          "date-time": "2026-03-30T00:00:00Z",
+          "timestamp": 1774828800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Pangenomes capture population-level variation but remain computationally challenging at scale. We present Panmap, a tool that leverages evolutionary structure to place, align, and genotype sequencing reads against mutation-annotated pangenomes containing up to millions of genomes. Panmap introduces a phylogenetically compressed\n                  <jats:italic>k</jats:italic>\n                  -mer index that stores only sequence differences along branches, enabling efficient comparison of reads to both sampled genomes and inferred ancestors. This approach reduces index size by up to 600-fold and construction time by over three orders of magnitude relative to existing tools. Panmap places a 100\u00d7 coverage SARS-CoV-2 sample onto 20,000 genomes in 0.4 seconds and onto 8 million genomes in under two minutes. Furthermore, it enables accurate haplotype identification and abundance estimation in metagenomic samples and sensitive placement of ancient environmental DNA without prior alignment. Our approach makes large-scale pangenomes directly amenable to read mapping, genome assembly, alignment-free phylogenetic placement, and metagenomic analysis.\n                </jats:p>",
+    "DOI": "10.64898/2026.03.29.711974",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T02:30:11Z",
+      "timestamp": 1774924211000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Panmap: Scalable phylogeny-guided alignment, genotyping, and placement on pangenomes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3630-3209",
+        "authenticated-orcid": false,
+        "given": "Alexander M.",
+        "family": "Kramer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          }
+        ]
+      },
+      {
+        "given": "Nicolas",
+        "family": "Ayala",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          },
+          {
+            "name": "Center for Computational Biology, University of California Berkeley, USA"
+          }
+        ]
+      },
+      {
+        "given": "Bianca",
+        "family": "de Sanctis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          },
+          {
+            "name": "Department of Genetics, University of Cambridge, UK"
+          },
+          {
+            "name": "Ancient Environmental Genomics Initiative for Sustainability, Globe Institute, University of Copenhagen, Copenhagen, Denmark"
+          }
+        ]
+      },
+      {
+        "given": "Lily",
+        "family": "Karim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          }
+        ]
+      },
+      {
+        "given": "Angie S.",
+        "family": "Hinrichs",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          }
+        ]
+      },
+      {
+        "given": "Sumit",
+        "family": "Walia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of California San Diego, USA"
+          }
+        ]
+      },
+      {
+        "given": "Yatish",
+        "family": "Turakhia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of California San Diego, USA"
+          }
+        ]
+      },
+      {
+        "given": "Russell",
+        "family": "Corbett-Detig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomolecular Engineering, University of California Santa Cruz, Santa Cruz, CA, USA"
+          },
+          {
+            "name": "Genomics Institute, University of California Santa Cruz, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-021-02443-7"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Altschul SF , Gish W , Miller W , Myers EW , Lipman DJ . 1990. Basic local alignment search tool. Journal of molecular biology [Internet] 215. Available from: https://pubmed.ncbi.nlm.nih.gov/2231712/",
+        "DOI": "10.1016/S0022-2836(05)80360-2"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2871-y"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syy054"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "D1331",
+        "DOI": "10.1093/nar/gkaf1250",
+        "article-title": "The UCSC Genome Browser database: 2026 update",
+        "volume": "54",
+        "year": "2026",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/IMT2.107"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fbinf.2022.871393"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.1186/s13059-025-03879-x",
+        "article-title": "Bamdam: a post-mapping authentication toolkit for ancient metagenomics",
+        "volume": "26",
+        "year": "2025",
+        "journal-title": "Genome Biol"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v092.i10"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.11.11.378133"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.10805"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.277679.123"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4227"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gangwar P , Katte P , Bhatt M , Turakhia Y. 2025. WEPP: Phylogenetic Placement Achieves Near-Haplotype Resolution in Wastewater-Based Epidemiology. medRxiv [Internet]:2025.06.09.25329287. Available from: https://www.medrxiv.org/content/10.1101/2025.06.09.25329287v1.abstract",
+        "DOI": "10.1101/2025.06.09.25329287"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-018-1618-7"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.16",
+        "unstructured": "Hinrichs A. viral_usher: Easily build an UShER tree of genomes for any virus in RefSeq/GenBank. Github Available from: https://github.com/AngieHinrichs/viral_usher"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-022-02714-x"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05049-6"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006581"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "189811",
+        "DOI": "10.1109/ACCESS.2020.3031159",
+        "article-title": "A review on sequence alignment algorithms for short reads based on next-generation sequencing",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05453-y"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-05896-x"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.23",
+        "year": "2013",
+        "journal-title": "Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li H. 2021. New strategies to improve minimap2 alignment accuracy. Bioinformatics (Oxford, England) [Internet] 37. Available from: https://pubmed.ncbi.nlm.nih.gov/34623391/",
+        "DOI": "10.1093/bioinformatics/btab705"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp324"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-020-02168-z"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbw089"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msac017"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-538"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msab264"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "E1",
+        "DOI": "10.1038/s41586-022-05416-3",
+        "article-title": "When did mammoths go extinct?",
+        "volume": "612",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btad692"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "18743",
+        "DOI": "10.1002/ece3.8297",
+        "article-title": "Additional evaluations show that specific BWA-aln settings still outperform BWA-mem for ancient DNA data alignment",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Ecology and Evolution"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "100313",
+        "DOI": "10.1016/j.crmeth.2022.100313",
+        "article-title": "Estimating the relative proportions of SARS-CoV-2 haplotypes from wastewater samples",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "Cell Rep. Methods"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-genom-090413-025358"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12915-023-01758-0"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simpson JT , Durbin R. 2012. Efficient de novo assembly of large genomes using compressed data structures. Genome research [Internet] 22. Available from: https://pubmed.ncbi.nlm.nih.gov/22156294/",
+        "DOI": "10.1101/gr.126953.111"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-024-02407-2"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg8871"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/BIOINFORMATICS/BTAC656"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aam9695"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00862-7"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "msae203",
+        "DOI": "10.1093/molbev/msae203",
+        "article-title": "Soibean: High-resolution taxonomic identification of ancient environmental DNA using mitochondrial pangenome graphs",
+        "volume": "41",
+        "year": "2024",
+        "journal-title": "Mol. Biol. Evol"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "2717",
+        "DOI": "10.1111/2041-210X.14214",
+        "article-title": "euka: Robust tetrapodic and arthropodic taxa detection from modern and ancient environmental DNA using pangenomic reference graphs",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "Methods Ecol. Evol"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1038/s41588-025-02478-7",
+        "article-title": "Compressive pangenomics using mutation-annotated networks",
+        "volume": "58",
+        "year": "2026",
+        "journal-title": "Nature Genetics"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "2699",
+        "DOI": "10.1111/2041-210X.14006",
+        "article-title": "ngsLCA\u2014A toolkit for fast and flexible lowest common ancestor inference and taxonomic profiling of metagenomic data",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Methods Ecol. Evol"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04016-x"
+      },
+      {
+        "key": "2026040203101213000_2026.03.29.711974v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04808-9"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.29.711974",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2026-04-02T10:10:20Z",
+      "timestamp": 1775124620000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.29.711974"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.64898/2026.03.29.711974",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2026-02-27T01:37:09Z",
+      "timestamp": 1772156229145,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          11
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 48,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Serology has provided valuable diagnostic and epidemiological data on antibody responses to SARS-CoV-2 in diverse patient cohorts. Deployment of high content, multiplex serology platforms across the world, including in low and medium income countries, can accelerate longitudinal epidemiological surveys. Here we report multiSero, an open platform to enable multiplex serology with up to 48 antigens in a 96-well format. The platform consists of three components: ELISA-array of printed proteins, a commercial or home-built plate reader, and modular python software for automated analysis (pysero). We validate the platform by comparing antibody titers against the SARS-CoV-2 Spike, receptor binding domain (RBD), and nucleocapsid (N) in 114 sera from COVID-19 positive individuals and 87 pre-pandemic COVID-19 negative sera. We report data with both a commercial plate reader and an inexpensive, open plate reader (nautilus). Receiver operating characteristic (ROC) analysis of classification with single antigens shows that Spike and RBD classify positive and negative sera with the highest sensitivity at a given specificity. The platform distinguished positive sera from negative sera when the reactivity of the sera was equivalent to the binding of 1 ng mL\n                  <jats:sup>\u22121</jats:sup>\n                  RBD-specific monoclonal antibody. We developed normalization and classification methods to pool antibody responses from multiple antigens and multiple experiments. Our results demonstrate a performant and accessible pipeline for multiplexed ELISA ready for multiple applications, including serosurveillance, identification of viral proteins that elicit antibody responses, differential diagnosis of circulating pathogens, and immune responses to vaccines.\n                </jats:p>",
+    "DOI": "10.1101/2021.05.07.21249238",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2021-05-11T14:15:38Z",
+      "timestamp": 1620742538000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "multiSero: open multiplex-ELISA platform for analyzing antibody responses to SARS-CoV-2 infection"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0828-5074",
+        "authenticated-orcid": false,
+        "given": "Janie R.",
+        "family": "Byrum",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6930-9645",
+        "authenticated-orcid": false,
+        "given": "Eric",
+        "family": "Waltari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Owen",
+        "family": "Janson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3680-0387",
+        "authenticated-orcid": false,
+        "given": "Syuan-Ming",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4673-0522",
+        "authenticated-orcid": false,
+        "given": "Jenny",
+        "family": "Folkesson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3539-2396",
+        "authenticated-orcid": false,
+        "given": "Bryant B.",
+        "family": "Chhun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joanna",
+        "family": "Vinden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6389-0213",
+        "authenticated-orcid": false,
+        "given": "Ivan E.",
+        "family": "Ivanov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2087-1255",
+        "authenticated-orcid": false,
+        "given": "Marcus L.",
+        "family": "Forst",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3668-5772",
+        "authenticated-orcid": false,
+        "given": "Hongquan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9094-5061",
+        "authenticated-orcid": false,
+        "given": "Adam G.",
+        "family": "Larson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4594-0699",
+        "authenticated-orcid": false,
+        "given": "Wesley",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0614-756X",
+        "authenticated-orcid": false,
+        "given": "Cristina M.",
+        "family": "Tato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Krista M.",
+        "family": "McCutcheon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0585-6230",
+        "authenticated-orcid": false,
+        "given": "Michael J.",
+        "family": "Peluso",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6684-0622",
+        "authenticated-orcid": false,
+        "given": "Timothy J.",
+        "family": "Henrich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6371-747X",
+        "authenticated-orcid": false,
+        "given": "Steven G.",
+        "family": "Deeks",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8046-8388",
+        "authenticated-orcid": false,
+        "given": "Manu",
+        "family": "Prakash",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0287-9111",
+        "authenticated-orcid": false,
+        "given": "Bryan",
+        "family": "Greenhouse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John E.",
+        "family": "Pak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2542-3582",
+        "authenticated-orcid": false,
+        "given": "Shalin B.",
+        "family": "Mehta",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "2021051308251222000_2021.05.07.21249238v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "420",
+        "DOI": "10.1016/S2213-2600(20)30076-X",
+        "article-title": "Pathological Findings of COVID-19 Associated with Acute Respiratory Distress Syndrome",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.annepidem.2020.06.004"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hallal P , Hartwig F , Horta B , Victora GD , Silveira M , Struchiner C , et al. Remarkable Variability in SARS-CoV-2 Antibodies across Brazilian Regions: Nationwide Serological Household Survey in 27 States. medRxiv. 2020 May:2020.05.30.20117531.",
+        "DOI": "10.1101/2020.05.30.20117531"
+      },
+      {
+        "issue": "10250",
+        "key": "2021051308251222000_2021.05.07.21249238v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "535",
+        "DOI": "10.1016/S0140-6736(20)31483-5",
+        "article-title": "Prevalence of SARS-CoV-2 in Spain (ENE-COVID): A Nationwide, Population-Based Seroepidemiological Study",
+        "volume": "396",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "issue": "4",
+        "key": "2021051308251222000_2021.05.07.21249238v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1063",
+        "DOI": "10.1007/s11357-020-00226-9",
+        "article-title": "Novel Coronavirus Epidemic in the Hungarian Population, a Cross-Sectional Nationwide Survey to Support the Exit Policy in Hungary",
+        "volume": "42",
+        "year": "2020",
+        "journal-title": "GeroScience"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc1227"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arora RK , Joseph A , Wyk JV , Rocco S , Atmaja A , May E , et al. SeroTracker: A Global SARS-CoV-2 Seroprevalence Dashboard. The Lancet Infectious Diseases. 2020 Aug;0(0).",
+        "DOI": "10.1016/S1473-3099(20)30631-9"
+      },
+      {
+        "issue": "482",
+        "key": "2021051308251222000_2021.05.07.21249238v1.8",
+        "first-page": "112789",
+        "article-title": "Adaption of a Conventional ELISA to a 96-Well ELISA-Array for Measuring the Antibody Responses to Influenza Virus Proteins and Vaccines",
+        "volume": "481-",
+        "year": "2020",
+        "journal-title": "Journal of Immunological Methods"
+      },
+      {
+        "issue": "7",
+        "key": "2021051308251222000_2021.05.07.21249238v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1327",
+        "DOI": "10.1007/s10096-015-2353-6",
+        "article-title": "A Multiplex ELISA-Based Protein Array for Screening Diagnostic Antigens and Diagnosis of Flaviviridae Infection",
+        "volume": "34",
+        "year": "2015",
+        "journal-title": "European Journal of Clinical Microbiology & Infectious Diseases: Official Publication of the European Society of Clinical Microbiology"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0100139"
+      },
+      {
+        "issue": "7",
+        "key": "2021051308251222000_2021.05.07.21249238v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "100123",
+        "DOI": "10.1016/j.xcrm.2020.100123",
+        "article-title": "ReScan, a Multiplex Diagnostic Pipeline, Pans Human Sera for SARS-CoV-2 Antigens",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Cell Reports Medicine"
+      },
+      {
+        "issue": "7",
+        "key": "2021051308251222000_2021.05.07.21249238v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1118",
+        "DOI": "10.3346/jkms.2017.32.7.1118",
+        "article-title": "Significance of Serology by Multi-Antigen ELISA for Tissue Helminthiases in Korea",
+        "volume": "32",
+        "year": "2017",
+        "journal-title": "Journal of Korean Medical Science"
+      },
+      {
+        "issue": "1",
+        "key": "2021051308251222000_2021.05.07.21249238v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1186/1743-422X-9-56",
+        "article-title": "Development of an ELISA-Array for Simultaneous Detection of Five Encephalitis Viruses",
+        "volume": "9",
+        "year": "2012",
+        "journal-title": "Virology Journal"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1759(00)00241-6"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tube.2009.05.005"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0180122"
+      },
+      {
+        "issue": "4",
+        "key": "2021051308251222000_2021.05.07.21249238v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0173359",
+        "DOI": "10.1371/journal.pone.0173359",
+        "article-title": "Field Evaluation of a Blood Based Test for Active Tuberculosis in Endemic Settings",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/jmm.0.000311"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2334-13-165"
+      },
+      {
+        "issue": "6",
+        "key": "2021051308251222000_2021.05.07.21249238v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1038/s41591-020-0897-1",
+        "article-title": "Antibody Responses to SARS-CoV-2 in Patients with COVID-19",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Nature Medicine"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591020-0965-6"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wajnberg A , Amanat F , Firpo A , Altman D , Bailey M , Mansour M , et al. SARS-CoV-2 Infection Induces Robust, Neutralizing Antibody Responses That Are Stable for at Least Three Months. Infectious Diseases (except HIV/AIDS); 2020.",
+        "DOI": "10.1101/2020.07.14.20151126"
+      },
+      {
+        "issue": "12",
+        "key": "2021051308251222000_2021.05.07.21249238v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0008858",
+        "DOI": "10.1371/journal.pntd.0008858",
+        "article-title": "Diagnostic Accuracy of an In-House Scrub Typhus Enzyme Linked Immunoassay for the Detection of IgM and IgG Antibodies in Laos",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "PLOS Neglected Tropical Diseases"
+      },
+      {
+        "issue": "1",
+        "key": "2021051308251222000_2021.05.07.21249238v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1186/s13071-015-0651-6",
+        "article-title": "Multi-Antigen Print Immunoassay (MAPIA)-Based Evaluation of Novel Recombinant Leishmania Infantum Antigens for the Serodiagnosis of Canine Visceral Leishmaniasis",
+        "volume": "8",
+        "year": "2015",
+        "journal-title": "Parasites & Vectors"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M116.764522"
+      },
+      {
+        "issue": "1",
+        "key": "2021051308251222000_2021.05.07.21249238v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1038/nm.4251",
+        "article-title": "Dickkopf-1 Promotes Hematopoietic Regeneration via Direct and Niche-Mediated Mechanisms",
+        "volume": "23",
+        "year": "2017",
+        "journal-title": "Nature medicine"
+      },
+      {
+        "issue": "4",
+        "key": "2021051308251222000_2021.05.07.21249238v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1128/CVI.00685-15",
+        "article-title": "Five-Antigen Fluorescent Bead-Based Assay for Diagnosis of Lyme Disease",
+        "volume": "23",
+        "year": "2016",
+        "journal-title": "Clinical and Vaccine Immunology : CVI"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lebani K , Jones ML , Watterson D , Ranzoni A , Traves RJ , Young PR , et al. Isolation of Serotype-Specific Antibodies against Dengue Virus Non-Structural Protein 1 Using Phage Display and Application in a Multiplexed Serotyping Assay. PLoS ONE. 2017 Jul;12(7).",
+        "DOI": "10.1371/journal.pone.0180669"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Michlmayr D , Kim EY , Rahman AH , Raghunathan R , Kim-Schulze S , Che Y , et al. Comprehensive Immunoprofiling of Pediatric Zika Reveals Key Role for Monocytes in the Acute Phase and No Effect of Prior Dengue Virus Infection. Cell Reports. 2020 Apr;31(4).",
+        "DOI": "10.1016/j.celrep.2020.107569"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "603931",
+        "DOI": "10.3389/fmicb.2020.603931",
+        "article-title": "Evaluation of Humoral Immunity to SARS-CoV-2: Diagnostic Value of a New Multiplex Addressable Laser Bead Immunoassay",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in Microbiology"
+      },
+      {
+        "issue": "1-2",
+        "key": "2021051308251222000_2021.05.07.21249238v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1016/j.jim.2012.10.009",
+        "article-title": "Designing of Novel Antigenic Peptide Cocktail for the Detection of Antibodies to HIV-1/2 by ELISA",
+        "volume": "387",
+        "year": "2013",
+        "journal-title": "Journal of Immunological Methods"
+      },
+      {
+        "issue": "3",
+        "key": "2021051308251222000_2021.05.07.21249238v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1225",
+        "DOI": "10.1007/s00436-015-4312-7",
+        "article-title": "Development and Optimization of Cocktail-ELISA for a Unified Surveillance of Zoonotic Schistosomiasis in Multiple Host Species",
+        "volume": "114",
+        "year": "2015",
+        "journal-title": "Parasitology Research"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolton JS , Chaudhury S , Dutta S , Gregory S , Locke E , Pierson T , et al. Comparison of ELISA with Electro-Chemiluminescence Technology for the Qualitative and Quantitative Assessment of Serological Responses to Vaccination. Malaria Journal. 2020 Apr;19.",
+        "DOI": "10.1186/s12936-020-03225-5"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li H , Krishnamurthy D , Li E , Vyas P , Akireddy N , Chai C , et al. Squid: Simplifying Quantitative Imaging Platform Development and Deployment. bioRxiv. 2020 Dec:2020.12.28.424613.",
+        "DOI": "10.1101/2020.12.28.424613"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu W , Liu L , Kou G , Zheng Y , Ding Y , Ni W , et al. Evaluation of Nucleocapsid and Spike Protein-Based Enzyme-Linked Immunosorbent Assays for Detecting Antibodies against SARS-CoV-2. Journal of Clinical Microbiology. 2020 May;58(6).",
+        "DOI": "10.1128/JCM.00461-20"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.36",
+        "unstructured": "Tehrani ZR , Saadat S , Saleh E , Ouyang X , Constantine N , DeVico AL , et al. Specificity and Performance of Nucleocapsid and Spike-Based SARS-CoV-2 Serologic Assays. medRxiv."
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.37",
+        "unstructured": "Amanat F , Nguyen T , Chromikova V , Strohmeier S , Stadlbauer D , Javier A , et al. A Serological Assay to Detect SARS-CoV-2 Seroconversion in Humans. medRxiv. 2020 Mar:2020.03.17.20037713."
+      },
+      {
+        "issue": "1",
+        "key": "2021051308251222000_2021.05.07.21249238v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "382",
+        "DOI": "10.1080/22221751.2020.1729069",
+        "article-title": "Potent Binding of 2019 Novel Coronavirus Spike Protein by a SARS Coronavirus-Specific Human Monoclonal Antibody",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Emerging Microbes & Infections"
+      },
+      {
+        "issue": "24",
+        "key": "2021051308251222000_2021.05.07.21249238v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "240902",
+        "DOI": "10.1063/1.5142767",
+        "article-title": "Toward Rapid Infectious Disease Diagnosis with Advances in Surface-Enhanced Raman Spectroscopy",
+        "volume": "152",
+        "year": "2020",
+        "journal-title": "The Journal of Chemical Physics"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja2071779"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanjay ST , Dou M , Sun J , Li X. A Paper/Polymer Hybrid Microfluidic Microplate for Rapid Quantitative Detection of Multiple Disease Biomarkers. Scientific Reports. 2016 Jul;6.",
+        "DOI": "10.1038/srep30474"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ac900847g"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pilarowski G , Lebel P , Sunshine S , Liu J , Crawford E , Marquez C , et al. Performance Characteristics of a Rapid SARS-CoV-2 Antigen Detection Assay at a Public Plaza Testing Site in San Francisco. medRxiv. 2020 Jan:2020.11.02.20223891.",
+        "DOI": "10.1101/2020.11.02.20223891"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.44",
+        "unstructured": "Bradski J. The OpenCV Library; 2000."
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.45",
+        "unstructured": "Doucet A , Johansen AM . A Tutorial on Particle Filtering and Smoothing: Fifteen Years Later; 2011."
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "de Bruijne M , Nielsen M. Shape Particle Filtering for Image Segmentation. In: Barillot C , Haynor DR , Hellier P , editors. Medical Image Computing and Computer-Assisted Intervention \u2013 MICCAI 2004. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer; 2004. p. 168\u2013175.",
+        "DOI": "10.1007/978-3-540-30135-6_21"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T , Guestrin C. XGBoost: A Scalable Tree Boosting System. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. KDD \u201816. New York, NY, USA: Association for Computing Machinery; 2016. p. 785\u2013794.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2021051308251222000_2021.05.07.21249238v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Powell AE , Zhang K , Sanyal M , Tang S , Weidenbacher PA , Li S , et al. A Single Immunization with Spike-Functionalized Ferritin Vaccines Elicits Neutralizing Antibody Responses against SARS-CoV-2 in Mice. bioRxiv. 2020 Aug:2020.08.28.272518.",
+        "DOI": "10.1101/2020.08.28.272518"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.07.21249238",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:15:09Z",
+      "timestamp": 1768486509000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.05.07.21249238"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          11
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.1101/2021.05.07.21249238",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/pathogens12050671",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.15252/rc.2022326812",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.15252/rc.2022544811",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.15252/rc.2022817373",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

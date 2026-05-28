@@ -1,0 +1,600 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:55:08Z",
+      "timestamp": 1768496108401,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The 31st of December 2019 was when the World Health Organization received a report about an outbreak of pneumonia of unknown etiology in the Chinese city of Wuhan. The outbreak was the result of the novel virus labeled as SARS-CoV-2, which spread to about 220 countries and caused approximately 3,311,780 deaths, infecting more than 159,319,384 people by May 12th, of 2021. The virus caused a worldwide pandemic leading to panic, quarantines, and lockdowns \u2013 although none of its predecessors from the coronavirus family have ever achieved such a scale. The key to understanding the global success of SARS-CoV-2 is hidden in its genome.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>\n                    We retrieved data for 329,942 SARS-CoV-2 records uploaded to the GISAID database from the beginning of the pandemic until the 8th of January 2021. To process the data, a Python variant detection script was developed, using\n                    <jats:italic>pairwise2</jats:italic>\n                    from the BioPython library. Pandas, Matplotlib, and Seaborn, were applied to visualize the data. Genomic coordinates were obtained from the UCSC Genome Browser (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://genome.ucsc.edu/\">https://genome.ucsc.edu/</jats:ext-link>\n                    ). Sequence alignments were performed for every gene separately. Genomes less than 26,000 nucleotides long were excluded from the research. Clustering was performed using HDBScan.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Here, we addressed the genetic variability of SARS-CoV-2 using 329,942 worldwide samples. The analysis yielded 155 genome variations (SNPs and deletions) in more than 0.3% of the sequences. Nine common SNPs were present in more than 20% of the samples. Clustering results suggested that a proportion of people (2.46%) were infected with a distinct subtype of the B.1.1.7 variant. The subtype may be characterized by four to six additional mutations, with four being a more frequent option (G28881A, G28882A, and G28883\u0421 in the N gene, A23403G in S, A28095T in ORF8, G25437T in ORF3a). Two clusters were formed by mutations in the samples uploaded predominantly by Denmark and Australia, which may indicate the emergence of \u201cDanish\u201d and \u201cAustralian\u201d variants. Five clusters were linked to increased/decreased age, shifted gender ratio, or both. According to a correlation coefficient matrix, 69 mutations correlate with at least one other mutation (correlation coefficient greater than 0.7). We also addressed the completeness of the GISAID database, where between 77% and 93% of the fields were either left blank or filled incorrectly. Metadata mining analysis has led to a hypothesis about gender inequality in medical care in certain countries. Finally, we found ORF6 and E as the most conserved genes (96.15% and 94.66% of the sequences totally match the reference, respectively), making them potential targets for vaccines and treatment. Our results indicate areas of the SARS-CoV-2 genome that researchers can focus on for further structural and functional analysis.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.08.04.454929",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2021-08-05T00:00:24Z",
+      "timestamp": 1628121624000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Analysis of 329,942 SARS-CoV-2 records retrieved from GISAID database"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7458-5396",
+        "authenticated-orcid": false,
+        "given": "Maria",
+        "family": "Zelenova",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7400-4256",
+        "authenticated-orcid": false,
+        "given": "Anna",
+        "family": "Ivanova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Semyon",
+        "family": "Semyonov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuriy",
+        "family": "Gankin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2021080610251770000_2021.08.04.454929v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1016/j.bbrc.2020.03.044",
+        "article-title": "Single Cell RNA Sequencing of 13 Human Tissues Identify Cell Types and Receptors of Human Coronaviruses",
+        "volume": "526",
+        "year": "2020",
+        "journal-title": "Biochemical and Biophysical Research Communications"
+      },
+      {
+        "issue": "5",
+        "key": "2021080610251770000_2021.08.04.454929v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3588",
+        "DOI": "10.1016/j.ygeno.2020.04.016",
+        "article-title": "Genotyping Coronavirus SARS-CoV-2: Methods and Implications",
+        "volume": "112",
+        "year": "2020",
+        "journal-title": "Genomics"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.3",
+        "unstructured": "World Health Organization: https://covid19.who.int/"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2020.198170"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.11.032"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "454",
+        "DOI": "10.1016/j.ijid.2020.07.016",
+        "article-title": "Mortality in COVID-19 Disease Patients: Correlating the Association of Major Histocompatibility Complex (MHC) with Severe Acute Respiratory Syndrome 2 (SARS-CoV-2) Variants",
+        "volume": "98",
+        "year": "2020",
+        "journal-title": "International Journal of Infectious Diseases: IJID: Official Publication of the International Society for Infectious Diseases"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "104490",
+        "DOI": "10.1016/j.meegid.2020.104490",
+        "article-title": "Genetic Comparison among Various Coronavirus Strains for the Identification of Potential Vaccine Targets of SARS-CoV2",
+        "volume": "89",
+        "year": "2021",
+        "journal-title": "Infection, Genetics and Evolution: Journal of Molecular Epidemiology and Evolutionary Genetics in Infectious Diseases"
+      },
+      {
+        "issue": "12",
+        "key": "2021080610251770000_2021.08.04.454929v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "5853",
+        "DOI": "10.1021/acs.jcim.0c00501",
+        "article-title": "Decoding SARS-CoV-2 Transmission and Evolution and Ramifications for COVID-19 Diagnosis, Vaccine, and Medicine",
+        "volume": "60",
+        "year": "2020",
+        "journal-title": "Journal of Chemical Information and Modeling"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2951-z"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001017"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Rui , Jiahui Chen , Kaifu Gao , Yuta Hozumi , Changchuan Yin , and Guowei Wei . 2020. \u201cCharacterizing SARS-CoV-2 Mutations in the United States.\u201d Research Square, August. https://doi.org/10.21203/rs.3.rs-49671/v1.",
+        "DOI": "10.21203/rs.3.rs-49671/v1"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yuan, Fangfeng , Liping Wang , Ying Fang , and Leyi Wang . 2020. \u201cGlobal SNP Analysis of 11,183 SARS-CoV-2 Strains Reveals High Genetic Diversity.\u201d Transboundary and Emerging Diseases, November. https://doi.org/10.1111/tbed.13931.",
+        "DOI": "10.1111/tbed.13931"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.13",
+        "unstructured": "Chand, Meera , Hopkins, Susan , Dabrera, Gavin , Achison, Christina , Barclay, Wendy , Ferguson, Neil , Volz, Erik , Loman, Nick , Rambaut, Andrew , Barrett, Jeff . 2020. Investigation of novel SARS-COV-2 variant: Variant of Concern 202012/01 (Report). Public Health England. p. 2."
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tegally, Houriiyah , Eduan Wilkinson , Marta Giovanetti , Arash Iranzadeh , Vagner Fonseca , Jennifer Giandhari , Deelan Doolabh , et al. 2020. \u201cEmergence and Rapid Spread of a New Severe Acute Respiratory Syndrome-Related Coronavirus 2 (SARS-CoV-2) Lineage with Multiple Spike Mutations in South Africa.\u201d medRxiv. https://www.medrxiv.org/content/10.1101/2020.12.21.20248640v1.full.",
+        "DOI": "10.1101/2020.12.21.20248640"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.15",
+        "unstructured": "Faria, Nuno R. , Ingra Morales Claro , Darlan Candido , L. A. Moyses Franco , Pamela S. Andrade , Thais M. Coletti , Camila A. M. Si lva , et al. 2021. \u201cGenomic Characterisation of an Emergent SARS-CoV-2 Lineage in Manaus: Preliminary Findings.\u201d Virological. https://www.icpcovid.com/sites/default/files/2021-01/Ep%20102-1%20Genomic%20characterisation%20of%20an%20emergent%20SARS-CoV-2%20lineage%20in%20Manaus%20Genomic%20Epidemiology%20-%20Virological.pdf."
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lopez Bernal , Jamie, Nick Andrews , Charlotte Gower , Eileen Gallagher , Ruth Simmons , Simon Thelwall , Julia Stowe , et al. 2021. \u201cEffectiveness of Covid-19 Vaccines against the B.1.617.2 (Delta) Variant.\u201d The New England Journal of Medicine, July. https://doi.org/10.1056/NEJMoa2108891.",
+        "DOI": "10.1056/NEJMoa2108891"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2016650117"
+      },
+      {
+        "issue": "3",
+        "key": "2021080610251770000_2021.08.04.454929v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "102187",
+        "DOI": "10.1016/j.isci.2021.102187",
+        "article-title": "Structural Insight Reveals SARS-CoV-2 ORF7a as an Immunomodulating Factor for Human CD14+ Monocytes",
+        "volume": "24",
+        "year": "2021",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-0362-x"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "issue": "2",
+        "key": "2021080610251770000_2021.08.04.454929v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1038/s41577-020-00480-0",
+        "article-title": "Viral Targets for Vaccines against COVID-19",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Nature Reviews. Immunology"
+      },
+      {
+        "issue": "3",
+        "key": "2021080610251770000_2021.08.04.454929v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1038/s41579-020-00468-6",
+        "article-title": "Coronavirus Biology and Replication: Implications for SARS-CoV-2",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Nature Reviews. Microbiology"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.ijbiomac.2020.12.192",
+        "article-title": "Development of New Vaccine Target against SARS-CoV2 Using Envelope (E) Protein: An Evolutionary, Molecular Modeling and Docking Based Study",
+        "volume": "172",
+        "year": "2021",
+        "journal-title": "International Journal of Biological Macromolecules"
+      },
+      {
+        "issue": "4-5",
+        "key": "2021080610251770000_2021.08.04.454929v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1016/j.micinf.2020.05.013",
+        "article-title": "Immunoinformatic Analysis of the SARS-CoV-2 Envelope Protein as a Strategy to Assess Cross-Protection against COVID-19",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "Microbes and Infection / Institut Pasteur"
+      },
+      {
+        "issue": "12",
+        "key": "2021080610251770000_2021.08.04.454929v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1202",
+        "DOI": "10.1038/s41594-020-00536-8",
+        "article-title": "Structure and Drug Binding of the SARS-CoV-2 Envelope Protein Transmembrane Domain in Lipid Bilayers",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "Nature Structural & Molecular Biology"
+      },
+      {
+        "issue": "1",
+        "key": "2021080610251770000_2021.08.04.454929v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1418",
+        "DOI": "10.1080/22221751.2020.1780953",
+        "article-title": "SARS-CoV-2 nsp13, nsp14, nsp15 and orf6 Function as Potent Interferon Antagonists",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Emerging Microbes & Infections"
+      },
+      {
+        "issue": "1",
+        "key": "2021080610251770000_2021.08.04.454929v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1186/s13578-021-00568-7",
+        "article-title": "Characterization of SARS-CoV-2 Proteins Reveals Orf6 Pathogenicity, Subcellular Localization, Host Interactions and Attenuation by Selinexor",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Cell & Bioscience"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2020.05.206"
+      },
+      {
+        "issue": "7",
+        "key": "2021080610251770000_2021.08.04.454929v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2617",
+        "DOI": "10.1080/07391102.2020.1751300",
+        "article-title": "In-Silico Approaches to Detect Inhibitors of the Human Severe Acute Respiratory Syndrome Coronavirus Envelope Protein Ion Channel",
+        "volume": "39",
+        "year": "2021",
+        "journal-title": "Journal of Biomolecular Structure & Dynamics"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ilmj\u00e4rv, Sten , Fabien Abdul , Silvia Acosta-Guti\u00e9rrez , Carolina Estarellas , Ioannis Galdadas , Marina Casimir , Marco Alessandrini , Francesco Luigi Gervasio , and Karl-Heinz Krause . 2020. \u201cEpidemiologically Most Successful SARS-CoV-2 Variant: Concurrent Mutations in RNA-Dependent RNA Polymerase and Spike Protein.\u201d medRxiv. https://www.medrxiv.org/content/10.1101/2020.08.23.20180281v1.abstract.",
+        "DOI": "10.1101/2020.08.23.20180281"
+      },
+      {
+        "issue": "4",
+        "key": "2021080610251770000_2021.08.04.454929v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2177",
+        "DOI": "10.1002/jmv.26626",
+        "article-title": "Evolutionary Dynamics of SARS-CoV-2 Nucleocapsid Protein and Its Consequences",
+        "volume": "93",
+        "year": "2021",
+        "journal-title": "Journal of Medical Virology"
+      },
+      {
+        "issue": "3",
+        "key": "2021080610251770000_2021.08.04.454929v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1016/j.cell.2020.09.032",
+        "article-title": "Structural and Functional Analysis of the D614G SARS-CoV-2 Spike Protein Variant",
+        "volume": "183",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "3",
+        "key": "2021080610251770000_2021.08.04.454929v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1016/j.cell.2020.09.032",
+        "article-title": "Structural and Functional Analysis of the D614G SARS-CoV-2 Spike Protein Variant",
+        "volume": "183",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.06.043"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hodcroft, Emma B. , Moira Zuber , Sarah Nadeau , Katharine H. D. Crawford , Jesse D. Bloom , David Veesler , Timothy G. Vaughan , et al. 2020. \u201cEmergence and Spread of a SARS-CoV-2 Variant through Europe in the Summer of 2020.\u201d medRxiv : The Preprint Server for Health Sciences, November. https://doi.org/10.1101/2020.10.25.20219063.",
+        "DOI": "10.1101/2020.10.25.20219063"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bartolini, Barbara , Martina Rueca , Cesare Ernesto Maria Gruber , Francesco Messina , Emanuela Giombini , Giuseppe Ippolito , Maria Rosaria Capobianchi , and Antonino Di Caro . 2020. \u201cThe Newly Introduced SARS-CoV-2 Variant A222V Is Rapidly Spreading in Lazio Region, Italy.\u201d medRxiv. https://www.medrxiv.org/content/10.1101/2020.11.28.20237016v1.abstract.",
+        "DOI": "10.1101/2020.11.28.20237016"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lon, J. R. , B. Xi , B. Zhong , Y. Zheng , P. Guo , Z. Chen , and H. Du . 2021. \u201cMolecular Dynamics Simulation Study of Effects of Key Mutations in SARS-CoV-2 on Protein Structures.\u201d bioRxiv. https://www.biorxiv.org/content/10.1101/2021.02.03.429495v1.abstract.",
+        "DOI": "10.1101/2021.02.03.429495"
+      },
+      {
+        "issue": "4",
+        "key": "2021080610251770000_2021.08.04.454929v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "2132",
+        "DOI": "10.1002/jmv.26597",
+        "article-title": "Effects of SARS-CoV-2 Mutations on Protein Structures and Intraviral Protein-Protein Interactions",
+        "volume": "93",
+        "year": "2021",
+        "journal-title": "Journal of Medical Virology"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1008959"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Issa, Elio , Georgi Merhi , Balig Panossian , Tamara Salloum , and Sima Tokajian . 2020. \u201cSARS-CoV-2 and ORF3a: Non-Synonymous Mutations and Polyproline Regions.\u201d bioRxiv. https://doi.org/10.1101/2020.03.27.012013.",
+        "DOI": "10.1101/2020.03.27.012013"
+      },
+      {
+        "issue": "4",
+        "key": "2021080610251770000_2021.08.04.454929v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "536",
+        "DOI": "10.1038/s41564-020-0695-z",
+        "article-title": "The Species Severe Acute Respiratory Syndrome-Related Coronavirus: Classifying 2019 - nCoV and Naming It SARS-CoV-2",
+        "volume": "5",
+        "author": "Coronaviridae Study Group of the International Committee on Taxonomy of Viruses",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.42",
+        "unstructured": "Rambaut, Andrew , Nick Loman , Oliver Pybus , Wendy Barclay , Jeff Barrett , Alesandro Carabelli , Tom Connor , Tom Peacock , David L. Robertson , Erik Volz , on behalf of COVID-19 Genomics Consortium UK (CoG-UK). Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK defined by a novel set of spike mutations. https://virological.org., 2020. https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Frampton, Dan , Tommy Rampling , Aidan Cross , Heather Bailey , Judith Heaney , Matthew Byott , Rebecca Scott , et al. 2021. \u201cGenomic Characteristics and Clinical Effect of the Emergent SARS-CoV-2 B.1.1.7 Lineage in London, UK: A Whole-Genome Sequencing and Hospital-Based Cohort Study.\u201d The Lancet Infectious Diseases, April. https://doi.org/10.1016/S1473-3099(21)00170-5.",
+        "DOI": "10.1016/S1473-3099(21)00170-5"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.44",
+        "unstructured": "World Report 2020: https://www.hrw.org/world-report/2020/country-chapters/saudi-arabia"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.45",
+        "unstructured": "Human Development Report - Singapore: http://hdr.undp.org/en/countries/profiles/SGP"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.46",
+        "unstructured": "Measures to contain the COVID-19 outbreak in migrant worker dormitories: https://www.moh.gov.sg/news-highlights/details/measures-to-contain-the-covid-19-outbreak-in-migrant-worker-dormitories"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.47",
+        "unstructured": "Human Development Report 2020 - Bangladesh: http://hdr.undp.org/sites/all/themes/hdr_theme/country-notes/BGD.pdf"
+      },
+      {
+        "issue": "1",
+        "key": "2021080610251770000_2021.08.04.454929v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.5455/msm.2019.31.35-39",
+        "article-title": "Overall Care-Seeking Pattern and Gender Disparity at a Specialized Mental Hospital in Bangladesh",
+        "volume": "31",
+        "year": "2019",
+        "journal-title": "Materia Socio-Medica"
+      },
+      {
+        "issue": "1",
+        "key": "2021080610251770000_2021.08.04.454929v1.49",
+        "first-page": "109",
+        "article-title": "Gender, Health and Change in South Africa: Three Ways of Working with Men and Boys for Gender Justice",
+        "volume": "48",
+        "year": "2017",
+        "journal-title": "Recherches Sociologiques et Anthropologiques : RS & A"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.50",
+        "unstructured": "Russian Minister of Healthcare\u2019s speech reported by TASS: https://tass.ru/nacionalnye-proekty/7926683"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0146736(20)30183-5"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004911117"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gerona/glaa094.PMID"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.54",
+        "unstructured": "Korber, B. , W. Fischer , S. G. Gnanakaran , and H. Yoon . 2020. \u201cSpike Mutation Pipeline Reveals the Emergence of a More Transmissible Form of SARS-CoV-2.\u201d BioRxiv. https://www.biorxiv.org/content/10.1101/2020.04.29.069054v2.abstract."
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23812/Editorial-Conti-3"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2951-z"
+      },
+      {
+        "issue": "3",
+        "key": "2021080610251770000_2021.08.04.454929v1.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1002/oby.20608",
+        "article-title": "Sex Influences the Effect of Body Mass Index on the Vascular Response to Angiotensin II in Humans",
+        "volume": "22",
+        "year": "2014",
+        "journal-title": "Obesity"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.ijid.2020.03.017",
+        "article-title": "Prevalence of Comorbidities and Its Effects in Patients Infected with SARS-CoV-2: A Systematic Review and Meta-Analysis",
+        "volume": "94",
+        "year": "2020",
+        "journal-title": "International Journal of Infectious Diseases: IJID: Official Publication of the International Society for Infectious Diseases"
+      },
+      {
+        "key": "2021080610251770000_2021.08.04.454929v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.279.20.1605"
+      },
+      {
+        "issue": "6",
+        "key": "2021080610251770000_2021.08.04.454929v1.60",
+        "first-page": "980",
+        "article-title": "Sex, Gender and COVID-19: A Call to Action",
+        "volume": "111",
+        "year": "2020",
+        "journal-title": "Canadian Journal of Public Health. Revue Canadienne de Sante Publique"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.08.04.454929",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:01:52Z",
+      "timestamp": 1768442512000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.08.04.454929"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2021.08.04.454929",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.compbiomed.2021.104981",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

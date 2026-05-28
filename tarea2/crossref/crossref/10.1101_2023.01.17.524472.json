@@ -1,0 +1,428 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2026-04-21T22:41:04Z",
+      "timestamp": 1776811264999,
+      "version": "3.51.2"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:p>SARS-CoV-2 has demonstrated a robust ability to adapt in response to environmental pressures\u2014increasing viral transmission and evading immune surveillance by mutating its molecular machinery. While viral sequencing has allowed for the early detection of emerging variants, methods to predict mutations before they occur remain limited. This work presents SpikeGPT2, a deep generative model based on ProtGPT2 and fine-tuned on SARS-CoV-2 spike (S) protein sequences deposited in the NIH Data Hub before May 2021. SpikeGPT2 achieved 88.8% next-residue prediction accuracy and successfully predicted amino acid substitutions found only in a held-out set of spike sequences deposited on or after May 2021, to which SpikeGPT2 was never exposed. When compared to several other methods, SpikeGPT2 achieved the best performance in predicting such future mutations. SpikeGPT2 also predicted several novel variants not present in the NIH SARS-CoV-2 Data Hub. A binding affinity analysis of all 54 generated substitutions identified 5 (N439A, N440G, K458T, L492I, and N501Y) as predicted to simultaneously increase S/ACE2 affinity, and decrease S/tixagevimab+cilgavimab affinity. Of these, N501Y has already been well-described to increase transmissibility of SARS-CoV-2. These findings indicate that SpikeGPT2 and other similar models may be employed to identify high-risk future variants before viral spread has occurred.</jats:p>",
+    "DOI": "10.1101/2023.01.17.524472",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2023-01-18T18:20:15Z",
+      "timestamp": 1674066015000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "A deep generative model of the SARS-CoV-2 spike protein predicts future variants"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2014-7515",
+        "authenticated-orcid": false,
+        "given": "Rahul M.",
+        "family": "Dhodapkar",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0140-6736(21)02796-3"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amr Saleh , Shahraz Qamar , Aysun Tekin , Romil Singh , and Rahul Kashyap . Vaccine development throughout history. Cureus, 13(7), 2021.",
+        "DOI": "10.7759/cureus.16635"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07853890.2022.2031274"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2208343"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41579-021-00573-0"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku1207"
+      },
+      {
+        "issue": "6599",
+        "key": "2023012012550525000_2023.01.17.524472v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1327",
+        "DOI": "10.1126/science.abm1208",
+        "article-title": "Analysis of 6.4 million sars-cov-2 genomes identifies mutations associated with fitness",
+        "volume": "376",
+        "year": "2022",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "4",
+        "key": "2023012012550525000_2023.01.17.524472v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "572",
+        "DOI": "10.3390/biom12040572",
+        "article-title": "Mutational effect of some major covid-19 variants on binding of the s protein to ace2",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Biomolecules"
+      },
+      {
+        "issue": "3",
+        "key": "2023012012550525000_2023.01.17.524472v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "100939",
+        "DOI": "10.1016/j.isci.2020.100939",
+        "article-title": "Mutabind2: predicting the impacts of single and multiple mutations on protein-protein interactions",
+        "volume": "23",
+        "year": "2020",
+        "journal-title": "Iscience"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abk3445"
+      },
+      {
+        "issue": "21",
+        "key": "2023012012550525000_2023.01.17.524472v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4008",
+        "DOI": "10.1016/j.cell.2022.08.024",
+        "article-title": "Deep mutational learning predicts ace2 binding and antibody escape to combinatorial mutations in the sars-cov-2 receptor-binding domain",
+        "volume": "185",
+        "year": "2022",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chuanqi Tan , Fuchun Sun , Tao Kong , Wenchang Zhang , Chao Yang , and Chunfang Liu . A survey on deep transfer learning. In International conference on artificial neural networks, pages 270\u2013279. Springer, 2018.",
+        "DOI": "10.1007/978-3-030-01424-7_27"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-27913-1"
+      },
+      {
+        "issue": "8",
+        "key": "2023012012550525000_2023.01.17.524472v1.14",
+        "first-page": "9",
+        "article-title": "Language models are unsupervised multitask learners",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "OpenAI blog"
+      },
+      {
+        "issue": "1",
+        "key": "2023012012550525000_2023.01.17.524472v1.15",
+        "first-page": "43",
+        "article-title": "A comprehensive survey on transfer learning",
+        "volume": "109",
+        "year": "2020",
+        "journal-title": "Proceedings of the IEEE"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2021.24931"
+      },
+      {
+        "issue": "7896",
+        "key": "2023012012550525000_2023.01.17.524472v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1038/s41586-021-04245-0",
+        "article-title": "The n501y spike substitution enhances sars-cov-2 infection and transmission",
+        "volume": "602",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hongyan Huang , Yichao Zhu , Zubiao Niu , Lulin Zhou , and Qiang Sun . Sars-cov-2 n501y variants of concern and their potential transmission by mouse, 2021.",
+        "DOI": "10.1038/s41418-021-00846-4"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "105163",
+        "DOI": "10.1016/j.compbiomed.2021.105163",
+        "article-title": "Computational modelling of potentially emerging sars-cov-2 spike protein rbds mutations with higher binding affinity towards ace2: A structural modelling study",
+        "volume": "141",
+        "year": "2022",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2023012012550525000_2023.01.17.524472v1.21",
+        "first-page": "1",
+        "article-title": "Variant-driven early warning via unsupervised machine learning analysis of spike protein mutations for covid-19",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104915"
+      },
+      {
+        "issue": "4",
+        "key": "2023012012550525000_2023.01.17.524472v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "6929",
+        "DOI": "10.1021/acsnano.0c10833",
+        "article-title": "Computational mutagenesis at the sars-cov-2 spike protein/angiotensin-converting enzyme 2 binding interface: comparison with experimental evidence",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "ACS nano"
+      },
+      {
+        "issue": "9",
+        "key": "2023012012550525000_2023.01.17.524472v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1188",
+        "DOI": "10.1038/s41564-021-00954-4",
+        "article-title": "Sars-cov-2 variant prediction and antiviral drug design are enabled by rbd in vitro evolution",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "issue": "3",
+        "key": "2023012012550525000_2023.01.17.524472v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.3390/v13030379",
+        "article-title": "In vitro and in vivo models for studying sars-cov-2, the etiological agent responsible for covid-19 pandemic",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Viruses"
+      },
+      {
+        "issue": "5",
+        "key": "2023012012550525000_2023.01.17.524472v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "483",
+        "DOI": "10.1016/j.apjtb.2017.01.020",
+        "article-title": "Laboratory biosafety for handling emerging viruses",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Asian Pacific journal of tropical biomedicine"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc6952"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.28",
+        "article-title": "Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.29",
+        "article-title": "Explainable artificial intelligence: a systematic review",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.30",
+        "article-title": "Huggingface\u2019s transformers: State-of-the-art natural language processing",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2180-5"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp163"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.89.22.10915"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.34",
+        "first-page": "345",
+        "article-title": "22 a model of evolutionary change in proteins",
+        "volume": "5",
+        "year": "1978",
+        "journal-title": "Atlas of protein sequence and structure"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abe5575"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-27913-1"
+      },
+      {
+        "issue": "60",
+        "key": "2023012012550525000_2023.01.17.524472v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "3021",
+        "DOI": "10.21105/joss.03021",
+        "article-title": "Waskom. seaborn: statistical data visualization",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Journal of Open Source Software"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/mcse.2007.55"
+      },
+      {
+        "key": "2023012012550525000_2023.01.17.524472v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Randle Aaron M Villanueva and Zhuo Job Chen . ggplot2: elegant graphics for data analysis, 2019.",
+        "DOI": "10.1080/15366367.2019.1565254"
+      },
+      {
+        "issue": "12",
+        "key": "2023012012550525000_2023.01.17.524472v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "980",
+        "DOI": "10.1038/nsb1203-980",
+        "article-title": "Announcing the worldwide protein data bank",
+        "volume": "10",
+        "year": "2003",
+        "journal-title": "Nature Structural & Molecular Biology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.17.524472",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:08:51Z",
+      "timestamp": 1768450131000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.17.524472"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1101/2023.01.17.524472",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

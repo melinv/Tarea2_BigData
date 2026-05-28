@@ -1,0 +1,383 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:05:19Z",
+      "timestamp": 1768561519744,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 33,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>An early effective screening and grading of COVID-19 has become imperative towards optimizing the limited available resources of the medical facilities. An automated segmentation of the infected volumes in lung CT is expected to significantly aid in the diagnosis and care of patients. However, an accurate demarcation of lesions remains problematic due to their irregular structure and location(s) within the lung.</jats:p>\n                <jats:p>\n                  A novel deep learning architecture, Composite Deep network with Feature Weighting\n                  <jats:italic>(CDNetFW)</jats:italic>\n                  , is proposed for efficient delineation of infected regions from lung CT images. Initially a coarser-segmentation is performed directly at shallower levels, thereby facilitating discovery of robust and discriminatory characteristics in the hidden layers. The novel feature weighting module helps prioritise relevant feature maps to be probed, along with those regions containing crucial information within these maps. This is followed by estimating the severity of the disease.\n                </jats:p>\n                <jats:p>\n                  The deep network\n                  <jats:italic>CDNetFW</jats:italic>\n                  has been shown to outperform several state-of-the-art architectures in the COVID-19 lesion segmentation task, as measured by experimental results on CT slices from publicly available datasets, especially when it comes to defining structures involving complex geometries.\n                </jats:p>",
+    "DOI": "10.1101/2023.01.17.23284673",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2023-01-19T00:45:59Z",
+      "timestamp": 1674089159000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Composite Deep Network with Feature Weighting for Improved Delineation of COVID Infection in Lung CT"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Pallabi",
+        "family": "Dutta",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sushmita",
+        "family": "Mitra",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.1",
+        "year": "2020",
+        "journal-title": "Rapid AI development cycle for the Coronavirus (COVID-19) pandemic: Initial results for automated detection & patient monitoring using deep learning CT image analysis"
+      },
+      {
+        "issue": "1",
+        "key": "2023022003250465000_2023.01.17.23284673v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.17816/DD46791",
+        "article-title": "Chest computed tomography for outcome prediction in laboratory-confirmed COVID-19: A retrospective analysis of 38,051 cases",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Digital Diagnostics"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , and et al., \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.5",
+        "first-page": "652",
+        "article-title": "Res2Net: A new multi-scale backbone architecture",
+        "volume": "43",
+        "year": "2019",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Huang , Z. Liu , and et al., \u201cDensely connected convolutional networks,\u201d in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017, pp. 4700\u20134708.",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2481",
+        "DOI": "10.1109/TPAMI.2016.2644615",
+        "article-title": "SegNet: A deep convolutional encoder-decoder architecture for image segmentation",
+        "volume": "39",
+        "year": "2017",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O. Ronneberger , P. Fischer , and et al., \u201cU-Net: Convolutional networks for biomedical image segmentation,\u201d in Proccedings of the International Conference on Medical Image Computing and Computer Assisted Intervention, (MICCAI). Springer, 2015, pp. 234\u2013241.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.9",
+        "unstructured": "O. Oktay , J. Schlemper , and et al., \u201cAttention U -Net: Learning where to look for the pancreas,\u201d in Proceedings of the Medical Imaging with Deep Learning, 2018."
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhou , R. Siddiquee , and et al., \u201cUNet++: A nested U-Net architecture for medical image segmentation,\u201d in Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support. Springer, 2018, pp. 3\u201311.",
+        "DOI": "10.1007/978-3-030-00889-5_1"
+      },
+      {
+        "issue": "3",
+        "key": "2023022003250465000_2023.01.17.23284673v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1314",
+        "DOI": "10.1016/j.bbe.2020.07.007",
+        "article-title": "A deep Residual U-Net convolutional neural network for automated lung segmentation in computed tomography images",
+        "volume": "40",
+        "year": "2020",
+        "journal-title": "Biocybernetics and Biomedical Engineering"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1109/MCI.2020.3019873",
+        "article-title": "Computational intelligence techniques for combating COVID-19: A survey",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "IEEE Computational Intelligence Magazine"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "104210",
+        "DOI": "10.1016/j.compbiomed.2021.104210",
+        "article-title": "A narrative review on characterization of acute respiratory distress syndrome in COVID-19-infected lungs using artificial intelligence",
+        "volume": "130",
+        "year": "2021",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.17816/DD46826",
+        "article-title": "MOSMED data: Data set of 1110 chest CT scans performed during the COVID-19 epidemic",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Digital Diagnostics"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.15",
+        "unstructured": "MedSeg, H. B. Jenssen , and et al., \u201cMedSeg Covid Dataset 1,\u201d 1 2021. [Online]. Available: https://figshare.com/articles/dataset/MedSegCovidDataset1/13521488"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.16",
+        "unstructured": "MedSeg, H. B. Jenssen , and et al., \u201cMedSeg COVID Dataset 2,\u201d 2021. [Online]. Available: https://figshare.com/articles/dataset/CovidDataset2/13521509"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.17",
+        "unstructured": "J. Ma , C. Ge , and et al., \u201cCOVID-19 CT Lung and Infection Segmentation Dataset,\u201d Apr. 2020. [Online]. Available: https://doi.org/10.5281/zenodo.3757476"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Li , L. Qin , and et al., \u201cArtificial intelligence distinguishes COVID-19 from community acquired pneumonia on chest CT,\u201d Radiology, vol. 296, 2020. [Online]. Available: https://doi.org/10.1148/radiol.2020200905",
+        "DOI": "10.1148/radiol.2020200905"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. A. Harmon , T. H. Sanford , and et al., \u201cArtificial intelligence for the detection of COVID-19 pneumonia on chest CT using multinational datasets,\u201d Nature Communications, vol. 11, 2020. [Online]. Available: https://doi.org/10.1038/s41467-020-17971-2",
+        "DOI": "10.1038/s41467-020-17971-2"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "3113",
+        "DOI": "10.1109/TIP.2021.3058783",
+        "article-title": "JCS: An explainable COVID-19 diagnosis system by joint classification and segmentation",
+        "volume": "30",
+        "year": "2021",
+        "journal-title": "IEEE Transactions on Image Processing"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "2584",
+        "DOI": "10.1109/TMI.2020.2996256",
+        "article-title": "Accurate screening of COVID-19 using attention-based deep 3D multiple instance learning",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.22",
+        "first-page": "1",
+        "article-title": "COVID-19 lung CT image segmentation using deep learning methods: U -Net versus SegNet",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "BMC Medical Imaging"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "102054",
+        "DOI": "10.1016/j.media.2021.102054",
+        "article-title": "CT-Based COVID-19 triage: Deep multitask learning improves joint identification and severity quantification",
+        "volume": "71",
+        "year": "2021",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1425",
+        "DOI": "10.1007/s11548-021-02418-w",
+        "article-title": "DUDA-Net: A double U-shaped dilated attention network for automatic infection area segmentation in COVID-19 lung CT images",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "International Journal of Computer Assisted Radiology and Surgery"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "104526",
+        "DOI": "10.1016/j.compbiomed.2021.104526",
+        "article-title": "D2A U -Net: Automatic segmentation of COVID-19 CT slices based on dual attention and hybrid dilated convolution",
+        "volume": "135",
+        "year": "2021",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "102205",
+        "DOI": "10.1016/j.media.2021.102205",
+        "article-title": "COVID-19 lung infection segmentation with a novel two-stage cross-domain transfer learning framework",
+        "volume": "74",
+        "year": "2021",
+        "journal-title": "Medical Image Analysis"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Deng , W. Dong , and et al., \u201cImageNet: A large-scale hierarchical image database,\u201d in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, 2009, pp. 248\u2013255.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2626",
+        "DOI": "10.1109/TMI.2020.2996645",
+        "article-title": "Inf-Net: Automatic COVID-19 lung infection segmentation from CT images",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Zhao , H. Wang , and et al., \u201cLCOV-NET: A lightweight neural network for COVID-19 pneumonia lesion segmentation from 3D CT images,\u201d in Proceedings of the IEEE 18th International Symposium on Biomedical Imaging (ISBI), 2021, pp. 42\u201345.",
+        "DOI": "10.1109/ISBI48211.2021.9434023"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Milletari , N. Navab , and et al., \u201cV-net: Fully convolutional neural networks for volumetric medical image segmentation,\u201d in Proceedings of Fourth International Conference on 3D vision (3DV). IEEE, 2016, pp. 565\u2013571.",
+        "DOI": "10.1109/3DV.2016.79"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Abraham and N. M. Khan , \u201cA novel focal Tversky loss function with improved attention U-Net for lesion segmentation,\u201d in Proceedings of IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019), 2019, pp. 683\u2013687.",
+        "DOI": "10.1109/ISBI.2019.8759329"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. S. M. Salehi , D. Erdogmus , and et al., \u201cTversky loss function for image segmentation using 3D fully convolutional deep networks,\u201d in Proceedings of International Workshop on Machine Learning in Medical Imaging. Springer, 2017, pp. 379\u2013387.",
+        "DOI": "10.1007/978-3-319-67389-9_44"
+      },
+      {
+        "key": "2023022003250465000_2023.01.17.23284673v2.33",
+        "unstructured": "\u201cCOVID-19 CT Segmentation Dataset,\u201d 2020. [Online]. Available: http://medicalsegmentation.com/covid19/"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.17.23284673",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:25:25Z",
+      "timestamp": 1768505125000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.01.17.23284673"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 33,
+    "URL": "https://doi.org/10.1101/2023.01.17.23284673",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

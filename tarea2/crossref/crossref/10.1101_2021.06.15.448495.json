@@ -1,0 +1,529 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:16:33Z",
+      "timestamp": 1768493793671,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          15
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 50,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The emergence and establishment of SARS-CoV-2 variants of interest (VOI) and variants of concern (VOC) highlight the importance of genomic surveillance. We propose a statistical learning strategy (SLS) for identifying and spatiotemporally tracking potentially relevant Spike protein mutations. We analyzed 167,893 Spike protein sequences from US COVID-19 cases (excluding 21,391 sequences from VOI/VOC strains) deposited at GISAID from January 19, 2020 to March 15, 2021. Alignment against the reference Spike protein sequence led to the identification of viral residue variants (VRVs), i.e., residues harboring a substitution compared to the reference strain. Next, generalized additive models were applied to model VRV temporal dynamics, to identify VRVs with significant and substantial dynamics (false discovery rate q-value &lt;0.01; maximum VRV proportion &gt; 10% on at least one day).</jats:p>\n                <jats:p>Unsupervised learning was then applied to hierarchically organize VRVs by spatiotemporal patterns and identify VRV-haplotypes. Finally, homology modelling was performed to gain insight into potential impact of VRVs on Spike protein structure. We identified 90 VRVs, 71 of which have not previously been observed in a VOI/VOC, and 35 of which have emerged recently and are durably present. Our analysis identifies 17 VRVs \u223c91 days earlier than their first corresponding VOI/VOC publication. Unsupervised learning revealed eight VRV-haplotypes of 4 VRVs or more, suggesting two emerging strains (B1.1.222 and B.1.234). Structural modeling supported potential functional impact of the D1118H and L452R mutations. The SLS approach equally monitors all Spike residues over time, independently of existing phylogenic classifications, and is complementary to existing genomic surveillance methods.</jats:p>",
+    "DOI": "10.1101/2021.06.15.448495",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2021-06-16T03:50:11Z",
+      "timestamp": 1623815411000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Tracking SARS-CoV-2 Spike Protein Mutations in the United States (2020/01 \u2013 2021/03) Using a Statistical Learning Strategy"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Lue Ping",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2248-104X",
+        "authenticated-orcid": false,
+        "given": "Terry P.",
+        "family": "Lybrand",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2662-9427",
+        "authenticated-orcid": false,
+        "given": "Peter B.",
+        "family": "Gilbert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas R.",
+        "family": "Hawn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joshua T.",
+        "family": "Schiffer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1106-7097",
+        "authenticated-orcid": false,
+        "given": "Leonidas",
+        "family": "Stamatatos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas H.",
+        "family": "Payne",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0333-5925",
+        "authenticated-orcid": false,
+        "given": "Lindsay N.",
+        "family": "Carpp",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel E.",
+        "family": "Geraghty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8212-3789",
+        "authenticated-orcid": false,
+        "given": "Keith R.",
+        "family": "Jerome",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3000003"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.2",
+        "unstructured": "US Centers for Disease Control and Prevention, SARS-CoV-2 Variant Classifications and Definitions. https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html Last updated 27 Apr, 2021. Access date 27 Apr, 2021."
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Deng , M. A. Garcia-Knight , M. M. Khalid , V. Servellita , C. Wang , M. K. Morris , A. Sotomayor-Gonzalez , D. R. Glasner , K. R. Reyes , A. S. Gliwa , N. P. Reddy , C. Sanchez San Martin , S. Federman , J. Cheng , J. Balcerek , J. Taylor , J. A. Streithorst , S. Miller , G. R. Kumar , B. Sreekumar , P. Y. Chen , U. Schulze-Gahmen , T. Y. Taha , J. Hayashi , C. R. Simoneau , S. McMahon , P. V. Lidsky , Y. Xiao , P. Hemarajata , N. M. Green , A. Espinosa , C. Kath , M. Haw , J. Bell , J. K. Hacker , C. Hanson , D. A. Wadford , C. Anaya , D. Ferguson , L. F. Lareau , P. A. Frankino , H. Shivram , S. K. Wyman , M. Ott , R. Andino , C. Y. Chiu , Transmission, infectivity, and antibody neutralization of an emerging SARS-CoV-2 variant in California carrying a L452R spike protein mutation. medRxiv, (2021).",
+        "DOI": "10.1101/2021.03.07.21252647"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Tegally , E. Wilkinson , M. Giovanetti , A. Iranzadeh , V. Fonseca , J. Giandhari , D. Doolabh , S. Pillay , E. J. San , N. Msomi , K. Mlisana , A. von Gottberg , S. Walaza , M. Allam , A. Ismail , T. Mohale , A. J. Glass , S. Engelbrecht , G. Van Zyl , W. Preiser , F. Petruccione , A. Sigal , D. Hardie , G. Marais , M. Hsiao , S. Korsman , M.-A. Davies , L. Tyers , I. Mudau , D. York , C. Maslo , D. Goedhals , S. Abrahams , O. Laguda-Akingba , A. Alisoltani-Dehkordi , A. Godzik , C. K. Wibmer , B. T. Sewell , J. Louren\u00e7o , L. C. J. Alcantara , S. L. K. Pond , S. Weaver , D. Martin , R. J. Lessells , J. N. Bhiman , C. Williamson , T. de Oliveira , Emergence and rapid spread of a new severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) lineage with multiple spike mutations in South Africa. https://doi.org/10.1101/2020.12.21.20248640 medRxiv, x2020.2012.2021.20248640 (2020).",
+        "DOI": "10.1101/2020.12.21.20248640"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. M. Voloch , R. da Silva Francisco, Jr. , L. G. P. de Almeida , C. C. Cardoso , O. J. Brustolini , A. L. Gerber , A. P. C. Guimaraes , D. Mariani , R. M. da Costa , O. C. Ferreira, Jr. , L. W. A. C. C. Covid19-Ufrj Workgroup, T. S. Frauches , C. M. B. de Mello , I. C. Leitao , R. M. Galliez , D. S. Faffe , T. Castineiras , A. Tanuri , A. T. R. de Vasconcelos , Genomic characterization of a novel SARS-CoV-2 lineage from Rio de Janeiro, Brazil. J Virol, (2021).",
+        "DOI": "10.1128/JVI.00119-21"
+      },
+      {
+        "key": "#cr-split#-2021061705301190000_2021.06.15.448495v1.6.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Volz , S. Mishra , M. Chand , J. C. Barrett , R. Johnson , L. Geidelberg , W. R. Hinsley , D. J. Laydon , G. Dabrera , \u00c1. O'Toole , R. Amato , M. Ragonnet-Cronin , I. Harrison , B. Jackson , C. V. Ariani , O. Boyd , N. J. Loman , J. T. McCrone , S. Gon\u00e7alves , D. Jorgensen , R. Myers , V. Hill , D. K. Jackson , K. Gaythorpe , N. Groves , J. Sillitoe , D. P. Kwiatkowski , S. Flaxman , O. Ratmann , S. Bhatt , S. Hopkins , A. Gandy , A. Rambaut , N. M. Ferguson , Transmission of SARS-CoV-2 Lineage B.1.1.7 in England: Insights from linking epidemiological and genetic data. 2020.12.30.20249034",
+        "DOI": "10.1101/2020.12.30.20249034"
+      },
+      {
+        "key": "#cr-split#-2021061705301190000_2021.06.15.448495v1.6.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "doi: https://doi.org/10.1101/2020.12.30.20249034 medRxiv, 2020.2012.2030.20249034 (2021).",
+        "DOI": "10.1101/2020.12.30.20249034"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Volz , S. Mishra , M. Chand , J. C. Barrett , R. Johnson , L. Geidelberg , W. R. Hinsley , D. J. Laydon , G. Dabrera , A. O\u2019Toole , R. Amato , M. Ragonnet-Cronin , I. Harrison , B. Jackson , C. V. Ariani , O. Boyd , N. J. Loman , J. T. McCrone , S. Goncalves , D. Jorgensen , R. Myers , V. Hill , D. K. Jackson , K. Gaythorpe , N. Groves , J. Sillitoe , D. P. Kwiatkowski , C.-G. U. consortium , S. Flaxman , O. Ratmann , S. Bhatt , S. Hopkins , A. Gandy , A. Rambaut , N. M. Ferguson , Assessing transmissibility of SARS-CoV-2 lineage B.1.1.7 in England. Nature, (2021).",
+        "DOI": "10.1038/s41586-021-03470-x"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.8",
+        "unstructured": "P. Wang , M. S. Nair , L. Liu , S. Iketani , Y. Luo , Y. Guo , M. Wang , J. Yu , B. Zhang , P. D. Kwong , B. S. Graham , J. R. Mascola , J. Y. Chang , M. T. Yin , M. Sobieszczyk , C. A. Kyratsous , L. Shapiro , Z. Sheng , Y. Huang , D. D. Ho , Antibody Resistance of SARS-CoV-2 Variants B.1.351 and B.1.1.7. https://doi.org/10.1101/2021.01.25.428137 Access date 7 Mar, 2021. bioRxiv, 2021.2001.2025.428137 (2021)."
+      },
+      {
+        "key": "#cr-split#-2021061705301190000_2021.06.15.448495v1.9.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. A. Collier , A. De Marco , I. A. T. M. Ferreira , B. Meng , R. Datir , A. C. Walls , S. A. Kemp S , J. Bassi , D. Pinto , C. S. Fregni , S. Bianchi , M. A. Tortorici , J. Bowen , K. Culap , S. Jaconi , E. Cameroni , G. Snell , M. S. Pizzuto , A. F. Pellanda , C. Garzoni , A. Riva , A. Elmer , N. Kingston , B. Graves , L. E. McCoy , K. G. Smith , J. R. Bradley , J. James Thaventhiran , L. Lourdes Ceron-Gutierrez , G. Barcenas-Morales , H. W. Virgin , A. Lanzavecchia , L. Piccoli , R. Doffinger , M. Wills , D. Veesler , D. Corti , R. K. Gupta , SARS-CoV-2 B.1.1.7 escape from mRNA vaccine-elicited neutralizing antibodies. 2021.01.19.21249840",
+        "DOI": "10.1038/s41586-021-03412-7"
+      },
+      {
+        "key": "#cr-split#-2021061705301190000_2021.06.15.448495v1.9.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "doi: https://doi.org/10.1101/2021.01.19.21249840 medRxiv, 2021.2001.2019.21249840 (2021).",
+        "DOI": "10.1101/2021.01.19.21249840"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2201",
+        "DOI": "10.1016/j.cell.2021.02.033",
+        "article-title": "Reduced neutralization of SARS-CoV-2 B.1.1.7 variant by convalescent and vaccine sera",
+        "volume": "184",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. A. Madhi , V. Baillie , C. L. Cutland , M. Voysey , A. L. Koen , L. Fairlie , S. D. Padayachee , K. Dheda , S. L. Barnabas , Q. E. Bhorat , C. Briner , G. Kwatra , K. Ahmed , P. Aley , S. Bhikha , J. N. Bhiman , A. E. Bhorat , J. du Plessis , A. Esmail , M. Groenewald , E. Horne , S. H. Hwa , A. Jose , T. Lambe , M. Laubscher , M. Malahleha , M. Masenya , M. Masilela , S. McKenzie , K. Molapo , A. Moultrie , S. Oelofse , F. Patel , S. Pillay , S. Rhead , H. Rodel , L. Rossouw , C. Taoushanis , H. Tegally , A. Thombrayil , S. van Eck , C. K. Wibmer , N. M. Durham , E. J. Kelly , T. L. Villafana , S. Gilbert , A. J. Pollard , T. de Oliveira , P. L. Moore , A. Sigal , A. Izu , N.-S. G. W.-V. C. Group , Efficacy of the ChAdOx1 nCoV-19 Covid-19 Vaccine against the B.1.351 Variant. N Engl J Med, (2021).",
+        "DOI": "10.1056/NEJMoa2102214"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. F. Garcia-Beltran , E. C. Lam , K. St Denis , A. D. Nitido , Z. H. Garcia , B. M. Hauser , J. Feldman , M. N. Pavlovic , D. J. Gregory , M. C. Poznansky , A. Sigal , A. G. Schmidt , A. J. Iafrate , V. Naranbhai , A. B. Balazs , Multiple SARS-CoV-2 variants escape neutralization by vaccine-induced humoral immunity. Cell, (2021).",
+        "DOI": "10.1101/2021.02.14.21251704"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Rubin , COVID-19 Vaccines vs Variants-Determining How Much Immunity Is Enough. Jama-J Am Med Assoc, (2021).",
+        "DOI": "10.1001/jama.2021.3370"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3001000"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg7404"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. P. Maison , L. L. Ching , C. M. Shikuma , V. R. Nerurkar , Genetic Characteristics and Phylogeny of 969-bp S Gene Sequence of SARS-CoV-2 from Hawaii Reveals the Worldwide Emerging P681H Mutation. bioRxiv, (2021).",
+        "DOI": "10.1101/2021.01.06.425497"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.18"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "495",
+        "DOI": "10.2471/BLT.20.253591",
+        "article-title": "Variant analysis of SARS-CoV-2 genomes",
+        "volume": "98",
+        "year": "2020",
+        "journal-title": "Bull World Health Organ"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0241535"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "104741",
+        "DOI": "10.1016/j.micpath.2021.104741",
+        "article-title": "Variant analysis of SARS-CoV-2 genomes in the Middle East",
+        "volume": "153",
+        "year": "2021",
+        "journal-title": "Microb Pathog"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMp2024274"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1038/s41392-021-00502-w",
+        "article-title": "Mutation D614G increases SARS-CoV-2 transmission",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Signal Transduct Target Ther"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.06.043"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Z. Zhang , C. B. Jackson , H. H. Mou , A. Ojha , H. Y. Peng , B. D. Quinlan , E. S. Rangarajan , A. D. Pan , A. Vanderheiden , M. S. Suthar , W. H. Li , T. Izard , C. Rader , M. Farzan , H. Choe , SARS-CoV-2 spike-protein D614G mutation increases virion spike density and infectivity. Nature Communications 11, (2020).",
+        "DOI": "10.1038/s41467-020-19808-4"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "498",
+        "DOI": "10.1038/s41586-020-2665-2",
+        "article-title": "Structures and distributions of SARS-CoV-2 spike proteins on intact virions",
+        "volume": "588",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Zhang , Y. Cai , T. Xiao , J. Lu , H. Peng , S. M. Sterling , R. M. Walsh, Jr. , S. Rits-Volloch , H. Zhu , A. N. Woosley , W. Yang , P. Sliz , B. Chen , Structural impact on SARS-CoV-2 spike protein by D614G substitution. Science, (2021).",
+        "DOI": "10.2210/pdb7krr/pdb"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Liu , Q. Zhang , P. Wei , Z. Chen , K. Aviszus , J. Yang , W. Downing , C. Jiang , B. Liang , L. Reynoso , G. P. Downey , S. K. Frankel , J. Kappler , P. Marrack , G. Zhang , The basis of a more contagious 501Y.V1 variant of SARS-CoV-2. Cell Res, (2021).",
+        "DOI": "10.1101/2021.02.02.428884"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. McCallum , J. Bassi , A. Marco , A. Chen , A. C. Walls , J. D. Iulio , M. A. Tortorici , M. J. Navarro , C. Silacci-Fregni , C. Saliba , M. Agostini , D. Pinto , K. Culap , S. Bianchi , S. Jaconi , E. Cameroni , J. E. Bowen , S. W. Tilles , M. S. Pizzuto , S. B. Guastalla , G. Bona , A. F. Pellanda , C. Garzoni , W. C. Van Voorhis , L. E. Rosen , G. Snell , A. Telenti , H. W. Virgin , L. Piccoli , D. Corti , D. Veesler , SARS-CoV-2 immune evasion by variant B.1.427/B.1.429. bioRxiv, (2021).",
+        "DOI": "10.1101/2021.03.31.437925"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Rolland , P. B. Gilbert , Sieve analysis to understand how SARS-CoV-2 diversity can impact vaccine protection. PLoS Pathogens (in press), (2021).",
+        "DOI": "10.1371/journal.ppat.1009406"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Follmann , J. Fintzi , M. P. Fay , H. E. Janes , L. R. Baden , H. M. El Sahly , T. R. Fleming , D. V. Mehrotra , L. N. Carpp , M. Juraska , D. Benkeser , D. Donnell , Y. Fong , S. Han , I. Hirsch , Y. Huang , Y. Huang , O. Hyrien , A. Luedtke , M. Carone , M. Nason , A. Vandebosch , H. Zhou , I. Cho , E. Gabriel , J. G. Kublin , M. S. Cohen , L. Corey , P. B. Gilbert , K. M. Neuzil , A Deferred-Vaccination Design to Assess Durability of COVID-19 Vaccine Effect After the Placebo Group Is Vaccinated. Ann Intern Med, (2021).",
+        "DOI": "10.7326/M20-8149"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Addetia , K. H. D. Crawford , A. Dingens , H. Zhu , P. Roychoudhury , M. L. Huang , K. R. Jerome , J. D. Bloom , A. L. Greninger , Neutralizing Antibodies Correlate with Protection from SARS-CoV-2 in Humans during a Fishery Vessel Outbreak with a High Attack Rate. J Clin Microbiol 58, (2020).",
+        "DOI": "10.1128/JCM.02107-20"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. G. Letizia , Y. Ge , S. Vangeti , C. Goforth , D. L. Weir , N. A. Kuzmina , C. A. Balinsky , H. W. Chen , D. Ewing , A. Soares-Schanoski , M. C. George , W. D. Graham , F. Jones , P. Bharaj , R. A. Lizewski , S. E. Lizewski , J. Marayag , N. Marjanovic , C. M. Miller , S. Mofsowitz , V. D. Nair , E. Nunez , D. M. Parent , C. K. Porter , E. Santa Ana , M. Schilling , D. Stadlbauer , V. A. Sugiharto , M. Termini , P. Sun , R. P. Tracy , F. Krammer , A. Bukreyev , I. Ramos , S. C. Sealfon , SARS-CoV-2 seropositivity and subsequent infection risk in healthy young adults: a prospective cohort study. Lancet Respir Med, (2021).",
+        "DOI": "10.2139/ssrn.3779907"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. A. Earle , D. M. Ambrosino , A. Fiore-Gartland , D. Goldblatt , P. B. Gilbert , G. R. Siber , P. Dull , S. A. Plotkin , Evidence for antibody as a protective correlate for COVID-19 vaccines. https://doi.org/10.1101/2021.03.17.20200246 Posted 20 Mar, 2021. Access date 28 Apr, 2021. medRxiv, 2021.2003.2017.20200246 (2021).",
+        "DOI": "10.1016/j.vaccine.2021.05.063"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "630",
+        "DOI": "10.1038/s41586-020-03041-6",
+        "article-title": "Correlates of protection against SARS-CoV-2 in rhesus macaques",
+        "volume": "590",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "2348",
+        "DOI": "10.1016/j.cell.2021.02.037",
+        "article-title": "Evidence of escape of SARS-CoV-2 variant B.1.351 from natural and vaccine-induced sera",
+        "volume": "184",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1038/s41591-021-01294-w",
+        "article-title": "Resistance of SARS-CoV-2 variants to neutralization by monoclonal and serum-derived polyclonal antibodies",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Nat Med"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.38",
+        "first-page": "2",
+        "article-title": "McCauley, GISAID: Global initiative on sharing all influenza data - from vision to reality",
+        "volume": "22",
+        "year": "2017",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "667",
+        "DOI": "10.1002/jmv.25762",
+        "article-title": "The establishment of reference sequence for SARS-CoV-2 and variation analysis",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "J Med Virol"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty121"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00357-014-9161-z"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.42",
+        "unstructured": "T. J. Hastie , Generalized additive models. New York: Chapman and Hall, 1990. (Chapman and Hall, New York, 1990)."
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2004.00439.x"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2016.1180986"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/502802"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.3235"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.str.2011.03.019"
+      },
+      {
+        "key": "2021061705301190000_2021.06.15.448495v1.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1038/s41586-020-2180-5",
+        "article-title": "Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor",
+        "volume": "581",
+        "year": "2020",
+        "journal-title": "Nature"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.15.448495",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:50:49Z",
+      "timestamp": 1768441849000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.15.448495"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          15
+        ]
+      ]
+    },
+    "references-count": 50,
+    "URL": "https://doi.org/10.1101/2021.06.15.448495",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/v14010009",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

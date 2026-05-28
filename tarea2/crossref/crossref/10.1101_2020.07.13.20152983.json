@@ -1,0 +1,465 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:10:44Z",
+      "timestamp": 1768551044823,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          15
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 32,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>\n                    COVID-19 is an acute respiratory illness caused by the novel coronavirus SARS-CoV-2. The disease has rapidly spread to most countries and territories and has caused 14\u00b72 million confirmed infections and 602,037 deaths as of July 19\n                    <jats:sup>th</jats:sup>\n                    2020. Massive molecular testing for COVID-19 has been pointed as fundamental to moderate the spread of the disease. Pooling methods can enhance testing efficiency, but they are viable only at very low incidences of the disease. We propose Smart Pooling, a machine learning method that uses clinical and sociodemographic data from patients to increase the efficiency of pooled molecular testing for COVID-19 by arranging samples into all-negative pools.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We developed machine learning methods that estimate the probability that a sample will test positive for SARS-Cov-2 based on complementary information from the sample. We use these predictions to exclude samples predicted as positive from pools. We trained our machine learning methods on samples from more than 8,000 patients tested for SARS-Cov-2 from April to July in Bogot\u00e1, Colombia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>Our method, Smart Pooling, shows efficiency of 306% at a disease prevalence of 5% and efficiency of 107% at disease a prevalence of up to 50%, a regime in which two-stage pooling offers marginal efficiency gains compared to individual testing (see Figure 1). Additionally, we calculate the possible efficiency gains of one- and two-dimensional two-stage pooling strategies, and present the optimal strategies for disease prevalences up to 25%. We discuss practical limitations to conduct pooling in the laboratory.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>Pooled testing has been a theoretically alluring option to increase the coverage of diagnostics since its proposition by Dorfmann during World War II. Although there are examples of successfully using pooled testing to reduce the cost of diagnostics, its applicability has remained limited because efficiency drops rapidly as prevalence increases. Not only does our method provide a cost-effective solution to increase the coverage of testing amid the COVID-19 pandemic, but it also demonstrates that artificial intelligence can be used complementary with well-established techniques in the medical praxis.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>Faculty of Engineering, Universidad de los Andes, Colombia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:label>1</jats:label>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>The acute respiratory illness COVID-19 is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The World Health Organization (WHO) labeled COVID-19 as a pandemic in March 2020. Reports from February 2020 indicated the possibility of asymptomatic transmission of the virus, which has called for molecular testing to identify carriers of the disease and prevent them from spreading it. The dramatic rise in the global need for molecular testing has made reagents scarce. Pooling strategies for massive diagnostics were initially proposed to diagnose syphilis during World War II, but have not yet seen widespread use mainly because their efficiency falls even at modest disease prevalence.</jats:p>\n                    <jats:p>\n                      We searched PubMed, BioRxiv, and MedRxiv for articles published in English from inception to July 15\n                      <jats:sup>th</jats:sup>\n                      2020 for keywords \u201cpooling\u201d, \u201ctesting\u201d AND \u201cCOVID-19\u201d, AND \u201cmachine learning\u201d OR \u201cartificial intelligence\u201d. Early studies for pooled molecular testing of SARS-CoV-2 revealed the possibility of detecting single positive samples in dilutions of samples from up to 32 individuals. The first reports of pooled testing came in March from Germany and the USA. These works suggested that it was feasible to conduct pooled testing as long as the prevalence of the disease was low. Numerous theoretical works have focused only on finding or adapting the ideal pooling strategy to the prevalence of the disease. Nonetheless, many do not consider other practical limitations of putting these strategies into practice. Reports from May 2020 indicated that it was feasible to predict an individual\u2019s status with machine learning methods based on reported symptoms.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>We show how artificial intelligence methods can be used to enhance, but not replace, existing well-proven methods, such as diagnostics by qPCR. We show that in this fashion, pooled testing can yield efficiency gains even as prevalence increases. Our method does not compromise the sensitivity or specificity of the diagnostics, as these are still given by the molecular test. The artificial intelligence models are simple, and we make them free to use. Remarkably, artificial intelligence methods can continuously learn from every set of samples and thus increase their performance over time.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>Using artificial intelligence to enhance rather than replace molecular testing can make pooling testing feasible, even as disease incidence rises. This approach could make pooled testing an effective tool to tackle the disease\u2019s progression, particularly in territories with limited resources.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.13.20152983",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2020-07-15T13:15:57Z",
+      "timestamp": 1594818957000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Smart Pooling: AI-powered COVID-19 testing"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5880-762X",
+        "authenticated-orcid": false,
+        "given": "Mar\u00eda",
+        "family": "Escobar",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0055-7816",
+        "authenticated-orcid": false,
+        "given": "Guillaume",
+        "family": "Jeanneret",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3556-3391",
+        "authenticated-orcid": false,
+        "given": "Laura",
+        "family": "Bravo-S\u00e1nchez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Angela",
+        "family": "Castillo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1536-3421",
+        "authenticated-orcid": false,
+        "given": "Catalina",
+        "family": "G\u00f3mez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Diego",
+        "family": "Valderrama",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria F.",
+        "family": "Roa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Juli\u00e1n",
+        "family": "Mart\u00ednez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3945-538X",
+        "authenticated-orcid": false,
+        "given": "Jorge",
+        "family": "Madrid-Wolff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martha",
+        "family": "Cepeda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0976-6884",
+        "authenticated-orcid": false,
+        "given": "Marcela",
+        "family": "Guevara-Suarez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9190-3568",
+        "authenticated-orcid": false,
+        "given": "Olga L.",
+        "family": "Sarmiento",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1529-0322",
+        "authenticated-orcid": false,
+        "given": "Andr\u00e9s L.",
+        "family": "Medaglia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7989-0311",
+        "authenticated-orcid": false,
+        "given": "Manu",
+        "family": "Forero-Shelton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mauricio",
+        "family": "Velasco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Juan Manuel",
+        "family": "Pedraza-Leal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Silvia",
+        "family": "Restrepo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5244-2407",
+        "authenticated-orcid": false,
+        "given": "Pablo",
+        "family": "Arbelaez",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001017"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.2",
+        "unstructured": "World Health Organization. Coronavirus disease 2019 (COVID-19): situation report, 72. 2020;."
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.3",
+        "unstructured": "Max Roser EOO Hannah Ritchie, Hasell J. Coronavirus Pandemic (COVID-19). Our World in Data. 2020; https://ourworldindata.org/coronavirus."
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clark A , Jit M , Warren-Gash C , Guthrie B , Wang HHX , Mercer SW , et al. Global, regional, and national estimates of the population at increased risk of severe COVID-19 due to underlying health conditions in 2020: a modelling study. The Lancet Global Health. 2020; Available from: http://www.sciencedirect.com/science/article/pii/S2214109X20302643.",
+        "DOI": "10.1016/S2214-109X(20)30264-3"
+      },
+      {
+        "issue": "4",
+        "key": "2021011708300690000_2020.07.13.20152983v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1214/aoms/1177731363",
+        "article-title": "The Detection of Defective Members of Large Populations",
+        "volume": "14",
+        "year": "1943",
+        "journal-title": "The Annals of Mathematical Statistics"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.4780132205"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0500607102"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ajcp/aqaa064"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yelin I , Aharony N , Shaer-Tamar E , Argoetti A , Messer E , Berenbaum D , et al. Evaluation of COVID-19 RT-qPCR test in multi-sample pools. medRxiv. 2020; p. 2020.03.26.20039438. Available from: https://www.medrxiv.org/content/10.1101/2020.03.26.20039438v1.",
+        "DOI": "10.1093/cid/ciaa531"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eis-H\u00fcbinger AM , H\u00f6nemann M , Wenzel JJ , Berger A , Widera M , Schmidt B , et al. Ad hoc laboratory-based surveillance of SARS-CoV-2 by real-time RT-PCR using minipools of RNA prepared from routine respiratory samples. Journal of Clinical Virology. 2020 jun;127.",
+        "DOI": "10.1016/j.jcv.2020.104381"
+      },
+      {
+        "issue": "19",
+        "key": "2021011708300690000_2020.07.13.20152983v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1967",
+        "DOI": "10.1001/jama.2020.5445",
+        "article-title": "Sample Pooling as a Strategy to Detect Community Transmission of SARS-CoV-2",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghosh S , Rajwade A , Krishna S , Gopalkrishnan N , Schaus TE , Chakravarthy A , et al. Tapestry: A Single-Round Smart Pooling Technique for COVID-19 Testing. medRxiv. 2020;.",
+        "DOI": "10.1101/2020.04.23.20077727"
+      },
+      {
+        "issue": "4",
+        "key": "2021011708300690000_2020.07.13.20152983v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0232391",
+        "DOI": "10.1371/journal.pone.0232391",
+        "article-title": "Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens: COVID-19 case study",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.14",
+        "year": "2020",
+        "journal-title": "Rapid AI development cycle for the coronavirus (COVID-19) pandemic: Initial results for automated detection & patient monitoring using deep learning CT image analysis"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1038/s42256-020-0180-7",
+        "article-title": "An interpretable mortality prediction model for COVID-19 patients",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0231236"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Menni C , Valdes AM , Freidin MB , Sudre CH , Nguyen LH , Drew DA , et al. Real-time tracking of self-reported symptoms to predict potential COVID-19. Nature Medicine. 2020 may;Available from: http://www.ncbi.nlm.nih.gov/pubmed/32393804.",
+        "DOI": "10.1038/s41591-020-0916-2"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JCM.01800-09"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weinberg CR . Editorial: Making the Best Use of Test Kits for COVID-19. American Journal of Epidemiology. 2020; Available from: https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwaa080/5831425.",
+        "DOI": "10.1093/aje/kwaa080"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kucharski AJ , Klepac P , Conlan A , Kissler SM , Tang M , Fry H , et al. Effectiveness of isolation, testing, contact tracing and physical distancing on reducing transmission of SARS-CoV-2 in different settings. The Lancet. 2020; Available from: https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30457-6/fulltext.",
+        "DOI": "10.1101/2020.04.23.20077024"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corman VM , Landt O , Kaiser M , Molenkamp R , Meijer A , Chu DKW , et al. Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Eurosurveillance. 2020 jan;25(3).",
+        "DOI": "10.2807/1560-7917.ES.2020.25.3.2000045"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.22",
+        "unstructured": "SEASUN Biomaterials. U-TOP\u2122 COVID-19 Detection Kit. USA Food and Drug Administration; 2020. Available from: https://www.fda.gov/media/137425/download."
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.23",
+        "unstructured": "H20ai. Python Interface for H2O; 2020. Python module version 3.10.0.8. Available from: https://github.com/h2oai/h2o-3."
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.24",
+        "first-page": "21",
+        "article-title": "Gradient Boosting Machines, a Tutorial",
+        "volume": "7",
+        "year": "2013",
+        "journal-title": "Frontiers in Neurorobotics"
+      },
+      {
+        "issue": "352",
+        "key": "2021011708300690000_2020.07.13.20152983v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "923",
+        "DOI": "10.1080/01621459.1975.10480324",
+        "article-title": "A Generalized Binomial Group Testing Problem",
+        "volume": "70",
+        "year": "1975",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "issue": "20",
+        "key": "2021011708300690000_2020.07.13.20152983v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "4265",
+        "DOI": "10.1080/03610926.2012.725148",
+        "article-title": "A simple distribution for the sum of correlated, exchangeable binary data",
+        "volume": "43",
+        "year": "2014",
+        "journal-title": "Communications in Statistics - Theory and Methods"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.27",
+        "article-title": "A strategy for finding people infected with SARS-CoV-2: optimizing pooled testing at low prevalence",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.28",
+        "unstructured": "de Salud IN. Coronavirus (COVID - 2019) en Colombia. 2020; https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx."
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jcp.41.5.582"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00002030-200012010-00015"
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.31",
+        "unstructured": "Cnn, Devine C , Griffin D , Kuznia R. Shortage of standard health supplies is \u2018a huge problem\u2019;. Library Catalog: edition.cnn.com. Available from: https://www.cnn.com/2020/03/18/us/coronovirus-testing-supply-shortages-invs/index.html."
+      },
+      {
+        "key": "2021011708300690000_2020.07.13.20152983v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torres I , Albert E , Navarro D. Pooling of nasopharyngeal swab specimens for SARS-CoV-2 detection by RT-PCR. Journal of Medical Virology. 2020;.",
+        "DOI": "10.1101/2020.04.22.20075598"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.13.20152983",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:48:03Z",
+      "timestamp": 1768484883000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.13.20152983"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          15
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1101/2020.07.13.20152983",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41598-022-10128-9",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

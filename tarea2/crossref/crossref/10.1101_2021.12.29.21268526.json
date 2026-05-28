@@ -1,0 +1,510 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:24:33Z",
+      "timestamp": 1768551873680,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          1
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 59,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>After COVID-19 vaccines received approval, vaccination campaigns were launched worldwide. Initially, these were characterized by a shortage of vaccine supply, and specific risk groups were prioritized. Once supply was guaranteed and vaccination coverage saturated, the focus shifted from risk groups to anti-vaxxers, the underaged population, and regions of low coverage. At the same time, hopes to reach herd immunity by vaccination campaigns were put into perspective by the emergence and spread of more contagious and aggressive viral variants. Particularly, concerns were raised that not all vaccines protect against the new-emerging variants.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and findings</jats:title>\n                  <jats:p>\n                    A model designed to predict the effect of vaccination campaigns on the spread of viral variants is introduced. The model is a comprehensive extension of the model underlying the pandemic preparedness tool CovidSim 2.0 (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://covidsim.eu/\">http://covidsim.eu/</jats:ext-link>\n                    ). The model is age and spatially stratified, incorporates a finite (but arbitrary) number of different viral variants, and incorporates different vaccine products. The vaccines are allowed to differ in their vaccination schedule, vaccination rates, the onset of vaccination campaigns, and their effectiveness. These factors are also age and/or location dependent. Moreover, the effectiveness and the immunizing effect of vaccines are assumed to depend on the interaction of a given vaccine and viral variant. Importantly, vaccines are not assumed to immunize perfectly. Individuals can be immunized completely, only partially, or fail to be immunized against one or many viral variants. Not all individuals in the population are vaccinable. The model is formulated as a high-dimensional system of differential equations, which is implemented efficiently in the programming language Julia.\n                  </jats:p>\n                  <jats:p>As an example, the model was parameterized to reflect the epidemic situation in Germany until November 2021 and predicted the future dynamics of the epidemic under different interventions. In particular, without tightening contact reductions, a strong epidemic wave is predicted. At the current state, mandatory vaccination would be too late to have a strong effect on reducing the number of infections. However, it would reduce mortality. An emergency brake, i.e., an incidence-based stepwise lockdown would be efficient to reduce the number of infections and mortality. Furthermore, to specifically account for mobility between regions, the model was applied to two German provinces of particular interest: Saxony, which currently has the lowest vaccine rollout in Germany and high incidence, and Schleswig-Holstein, which has high vaccine rollout and low incidence.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>A highly sophisticated and flexible but easy-to-parameterize model for the ongoing COVID-19 pandemic is introduced. The model is capable of providing useful predictions for the COVID-19 pandemic, and hence provides a relevant tool for epidemic decision-making. The model can be adjusted to any country, to derive the demand for hospital and ICU capacities as well as economic collateral damages.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.12.29.21268526",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          1
+        ]
+      ],
+      "date-time": "2022-01-01T19:25:23Z",
+      "timestamp": 1641065123000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting the impact of COVID-19 vaccination campaigns \u2013 a flexible age-dependent, spatially-stratified predictive model, accounting for multiple viral variants and vaccines"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4138-1180",
+        "authenticated-orcid": false,
+        "given": "Kristan Alexander",
+        "family": "Schneider",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Henri Christian Junior",
+        "family": "Tsoungui Obama",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nessma",
+        "family": "Adil Mahmoud Yousif",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pierre Marie",
+        "family": "Ngougoue Ngougoue",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lamb YN . BNT162b2 mRNA COVID-19 vaccine: First approval. Drugs. 2021; p. 1\u20137.",
+        "DOI": "10.1007/s40265-021-01480-7"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Craig AM , Hughes BL , Swamy GK . COVID-19 vaccines in pregnancy. American journal of obstetrics & gynecology MFM. 2020; p. 100295.",
+        "DOI": "10.1016/j.ajogmf.2020.100295"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kashte S , Gulbake A , El-Amin III SF , Gupta A. COVID-19 vaccines: rapid development, implications, challenges and future prospects. Human cell. 2021; p. 1\u201323.",
+        "DOI": "10.1007/s13577-021-00512-4"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zou X , Cao B. COVID-19 vaccines for children younger than 12 years: are we ready? The Lancet Infectious Diseases. 2021;.",
+        "DOI": "10.1016/S1473-3099(21)00384-4"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sharma K , Koirala A , Nicolopoulos K , Chiu C , Wood N , Britton PN . Vaccines for COVID-19: where do we stand in 2021? Paediatric Respiratory Reviews. 2021;.",
+        "DOI": "10.1016/j.prrv.2021.07.001"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aschwanden C. Five reasons why COVID herd immunity is probably impossible. Nature. 2021; p. 520\u2013522.",
+        "DOI": "10.1038/d41586-021-00728-2"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McDermott A. Core Concept: Herd immunity is an important\u2014and often misunderstood\u2014public health phenomenon. Proceedings of the National Academy of Sciences. 2021;118(21).",
+        "DOI": "10.1073/pnas.2107692118"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/cir007"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.9",
+        "article-title": "The disease-induced herd immunity level for Covid-19 is substantially lower than the classical herd immunity level",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe5938"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.11",
+        "unstructured": "Shah AS , Gribben C , Bishop J , Hanlon P , Caldwell D , Wood R , et al. Effect of vaccination on transmission of COVID-19: an observational study in healthcare workers and their households. MedRxiv. 2021;."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Polack FP , Thomas SJ , Kitchin N , Absalon J , Gurtman A , Lockhart S , et al. Safety and efficacy of the BNT162b2 mRNA Covid-19 vaccine. New England Journal of Medicine. 2020;.",
+        "DOI": "10.1056/NEJMoa2034577"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-021-00592-1"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsos.210292"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mathieu E , Ritchie H , Ortiz-Ospina E , Roser M , Hasell J , Appel C , et al. A global database of COVID-19 vaccinations. Nature human behaviour. 2021; p. 1\u20137.",
+        "DOI": "10.1101/2021.03.22.21254100"
+      },
+      {
+        "issue": "8",
+        "key": "2022010602000501000_2021.12.29.21268526v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1086",
+        "DOI": "10.1016/S1473-3099(21)00390-X",
+        "article-title": "Vaccine hesitancy in the COVID-19 era",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "The Lancet Infectious Diseases"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(21)00370-2"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2109543118"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chau CY . COVID-19 vaccination hesitancy and challenges to mass vaccination. Hong Kong Med J. 2021; p. 27.",
+        "DOI": "10.12809/hkmj219639"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n2670"
+      },
+      {
+        "issue": "10",
+        "key": "2022010602000501000_2021.12.29.21268526v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "5362",
+        "DOI": "10.3390/ijerph18105362",
+        "article-title": "Why Does Israel Lead the World in COVID-19 Vaccinations? Applying Mass Casualty Event Principles to COVID-19 Vaccination Programs",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "International Journal of Environmental Research and Public Health"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-021-00531-0"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(21)02186-3"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.accpm.2021.100859"
+      },
+      {
+        "issue": "7",
+        "key": "2022010602000501000_2021.12.29.21268526v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1016/j.immuni.2021.06.017",
+        "article-title": "COVID-19 vaccine access in Africa: Global distribution, vaccine platforms, and challenges ahead",
+        "volume": "54",
+        "year": "2021",
+        "journal-title": "Immunity"
+      },
+      {
+        "issue": "5",
+        "key": "2022010602000501000_2021.12.29.21268526v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.1080/21645515.2020.1827882",
+        "article-title": "Who should be prioritised for COVID-19 vaccination?",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "Human Vaccines & Immunotherapeutics"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.27",
+        "unstructured": "Edwards K , Orenstein W. COVID-19: Vaccines to prevent SARS-CoV-2 infection; 2021. Available from: https://www.uptodate.com/contents/covid-19-vaccines-to-prevent-sas-cov-2-infection."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pottegaard A , Lund LC , Karlstad O , Dahl J , Andersen M , Hallas J , et al. Arterial events, venous thromboembolism, thrombocytopenia, and bleeding after vaccination with Oxford-AstraZeneca ChAdOx1-S in Denmark and Norway: population based cohort study. bmj. 2021;373.",
+        "DOI": "10.1136/bmj.n1114"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Du M , Tao L , Liu J. The Association Between Risk Perception and COVID-19 Vaccine Hesitancy for Children Among Reproductive Women in China: An Online Survey. Frontiers in medicine. 2021; p. 1494.",
+        "DOI": "10.3389/fmed.2021.741298"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2021.26882"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.31",
+        "unstructured": "REUTERS. South Africa wants to return 1 million AstraZeneca vaccine doses to Serum Institute: report; 2021. Available from: https://www.reuters.com/article/us-health-coronavirus-safrica-astrazenec-idUSKBN2AG08P."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schneider, Kristan and Ngwa, Gideon A and Schwehm, Markus and Eichner, Linda and Eichner M. The COVID-19 Pandemic Preparedness Simulation Tool: CovidSIM. SSRN. 2020;4/16/2020. doi:http://dx.doi.org/10.2139/ssrn.3578789.",
+        "DOI": "10.2139/ssrn.3578789"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249644"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249644"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0253758"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rackauckas C , Nie Q. Differentialequations. jl\u2013a performant and feature-rich ecosystem for solving differential equations in julia. Journal of Open Research Software. 2017;5(1).",
+        "DOI": "10.5334/jors.151"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.37",
+        "unstructured": "R Core Team (2019). R: A language and environment for statistical computing. Accessed 1st April 2019. 2019;."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.38",
+        "unstructured": "Bundesamt S. Federal Statistical Office Germany: Statistics: 12411; 2021. Available from: https://www-genesis.destatis.de/genesis/online?sequenz=statistikTabellen&selectionname=12411#abreadcrumb."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1005697"
+      },
+      {
+        "issue": "11",
+        "key": "2022010602000501000_2021.12.29.21268526v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0259451",
+        "DOI": "10.1371/journal.pone.0259451",
+        "article-title": "Attitudes towards the economic costs associated with measures against the spread of COVID-19: Population perceptions from repeated cross-sectional data of the nationally representative COVID-19 Snapshot Monitoring in Germany (COSMO)",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahase E. Covid-19: How many variants are there, and what do we know about them? BMJ. 2021;374.",
+        "DOI": "10.1136/bmj.n1971"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.42",
+        "first-page": "83",
+        "article-title": "A Comprehensive Review on Covid-19 Delta variant",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "International Journal of Pharmacology and Clinical Research (IJPCR)"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.43",
+        "unstructured": "S\u00fcddeutsche Z. Frosty April: The Easter month was the coldest in 40 years in Germany. The vegetation suffered particularly from the many days of frost; 2021. Available from: https://www.sueddeutsche.de/wissen/wetter-april-frost-1.5283248."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.44",
+        "unstructured": "Spektrum. K\u00e4ltester April seit Langem; 2021. Available from: https://www.spektrum.de/news/nordstroemung-kaeltester-april-seit-langem/1867612."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.45",
+        "unstructured": "Wetterdienst D. Germany weather in August 2021: August was 30 percent too wet and the sun shone 30 percent too little; 2021. Available from: https://www.dwd.de/DE/presse/pressemitteilungen/DE/2021/20210830_deutschlandwetter_august2021_news.html."
+      },
+      {
+        "issue": "4",
+        "key": "2022010602000501000_2021.12.29.21268526v2.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1299",
+        "DOI": "10.1007/s00148-021-00868-9",
+        "article-title": "The effect of non-pharmaceutical interventions on the demand for health care and on mortality: evidence from COVID-19 in Scandinavia",
+        "volume": "34",
+        "year": "2021",
+        "journal-title": "Journal of Population Economics"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.47",
+        "unstructured": "euronews. Denmark\u2019s high vaccination rate sees COVID pass ended for restaurants; 2021. Available from: https://www.euronews.com/2021/09/01/denmark-s-high-vaccination-rate-sees-covid-pass-ended-for-restaurant"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.48",
+        "unstructured": "Buttler M. Denmark Will Bring Back Some Restrictions as Covid-19 Cases Soar; 2021. Available from: https://www.bloomberg.com/news/articles/2021-11-08/denmark-will-bring-back-some-restrictions-as-covid-19-cases-soar."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.49",
+        "unstructured": "Abbany Z. COVID: Why are infections rising in Israel?; 2021. Available from: https://www.dw.com/en/covid-why-are-infections-rising-in-israel/a-58887131."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.50",
+        "unstructured": "Reuters SS . Israel to readmit COVID-vaccinated foreign tourists next month; 2021. Available from: https://www.reuters.com/world/middle-east/israel-readmit-covid-vaccinated-foreign-tourists-next-month-2021-10-"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.51",
+        "unstructured": "Israel TTO . Health Ministry chief: Israel\u2019s 4th COVID wave appears to be coming to an end; 2021. Available from: https://www.timesofisrael.com/health-ministry-chief-israels-4th-covid-wave-appears-to-be-coming-to"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.52",
+        "unstructured": "Bbc PM . Covid-19 vaccinations: More than 50 nations have missed a target set by the WHO; 2021. Available from: https://www.bbc.com/news/56100076."
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0960-y"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1009098"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2021.06.023"
+      },
+      {
+        "issue": "20",
+        "key": "2022010602000501000_2021.12.29.21268526v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "6929",
+        "DOI": "10.1039/D1SC01203G",
+        "article-title": "Prediction and mitigation of mutation threats to COVID-19 vaccines and antibody therapies",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Chemical science"
+      },
+      {
+        "key": "2022010602000501000_2021.12.29.21268526v2.57",
+        "first-page": "3221",
+        "article-title": "Mucosal immunity in COVID-19: a neglected but critical aspect of SARS-CoV-2 infection",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "issue": "1",
+        "key": "2022010602000501000_2021.12.29.21268526v2.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1140/epjds/s13688-019-0204-x",
+        "article-title": "Dissecting global air traffic data to discern different types and trends of transnational human mobility",
+        "volume": "8",
+        "year": "2019",
+        "journal-title": "EPJ Data Science"
+      },
+      {
+        "issue": "9",
+        "key": "2022010602000501000_2021.12.29.21268526v2.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.ifacol.2018.07.005",
+        "article-title": "Understanding human mobility flows from aggregated mobile phone data",
+        "volume": "51",
+        "year": "2018",
+        "journal-title": "IFAC-PapersOnLine"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.29.21268526",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:33:03Z",
+      "timestamp": 1768487583000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.12.29.21268526"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          1
+        ]
+      ]
+    },
+    "references-count": 59,
+    "URL": "https://doi.org/10.1101/2021.12.29.21268526",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2026-03-23T14:07:14Z",
+      "timestamp": 1774274834887,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2026-03-19T00:00:00Z",
+          "timestamp": 1773878400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Challenge-Based Research Funding Program"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Accurate clinical triage is critical for optimizing decision-making and resource allocation during infectious disease outbreaks such as COVID-19. In this study, we present an AI-driven decision-support tool for the triage of COVID-19 patients based on respiratory microbiome profiles derived from shotgun metagenomic sequencing. We analyzed 477 shotgun respiratory metagenomes from three independent public cohorts and generated genus-level taxonomic profiles, which were integrated with minimal clinical metadata to train supervised machine-learning models, including Random Forest, Support Vector Machine, and XGBoost. Model performance was evaluated using standard classification metrics, cross-validation, and particle swarm optimization for hyperparameter tuning. Across cohorts, we observed a consistent transition from microbiomes dominated by commensal taxa to dysbiotic states enriched in opportunistic and clinically relevant genera, particularly\n                  <jats:italic>Acinetobacter</jats:italic>\n                  and\n                  <jats:italic>Staphylococcus</jats:italic>\n                  , in severe and deceased patients. Among the evaluated models, XGBoost consistently achieved the best performance, reaching up to 96.1% accuracy, 97.6% F1-score, and 98.2% ROC\u2013AUC in individual cohorts. When trained on the integrated dataset, XGBoost maintained robust performance (95.1% accuracy, 97.2% F1-score, 94.3% ROC\u2013AUC) and demonstrated greater stability and lower variance compared to alternative models. Feature-importance analyses identified a compact and interpretable set of recurrent microbial predictors, and reduced-feature models retained substantial discriminative power when augmented with key clinical variables. These results support the respiratory microbiome as a valuable source of information for outcome-oriented clinical triage and position microbiome-informed machine learning as a scalable and interpretable decision-support approach for managing COVID-19 and future infectious disease scenarios.\n                </jats:p>",
+    "DOI": "10.64898/2026.03.18.712739",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2026-03-20T03:30:17Z",
+      "timestamp": 1773977417000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "An AI-Driven Decision-Support Tool for Triage of COVID-19 Patients Using Respiratory Microbiome Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5900-3973",
+        "authenticated-orcid": false,
+        "given": "Eli Gabriel",
+        "family": "Avina-Bravo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Advanced Materials for Sustainable Manufacturing, Tecnologico de Monterrey, Prol. Canal de Miramontes, Coapa, San Bartolo el Chico, Tlalpan,14380, CDMX, Mexico"
+          },
+          {
+            "name": "School of Science and Engineering, Tecnologico de Monterrey, Prol. Canal de Miramontes, Coapa, San Bartolo el Chico, Tlalpan,14380, CDMX, Mexico"
+          }
+        ]
+      },
+      {
+        "given": "Isabel",
+        "family": "Garc\u00eda-Lorenzo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biotechnology, Universidad Nacional Autonoma de Mexico, Avenida Universidad 2001, Colonia Chamilpa, Cuernavaca, 62210, Morelos, Mexico"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4270-0350",
+        "authenticated-orcid": false,
+        "given": "Mariel",
+        "family": "Alfaro-Ponce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Advanced Materials for Sustainable Manufacturing, Tecnologico de Monterrey, Prol. Canal de Miramontes, Coapa, San Bartolo el Chico, Tlalpan,14380, CDMX, Mexico"
+          },
+          {
+            "name": "School of Science and Engineering, Tecnologico de Monterrey, Prol. Canal de Miramontes, Coapa, San Bartolo el Chico, Tlalpan,14380, CDMX, Mexico"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5383-4565",
+        "authenticated-orcid": false,
+        "given": "Luz",
+        "family": "Breton-Deval",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biotechnology, Universidad Nacional Autonoma de Mexico, Avenida Universidad 2001, Colonia Chamilpa, Cuernavaca, 62210, Morelos, Mexico"
+          },
+          {
+            "name": "Consejo Nacional de Humanidades, Ciencia y Tecnolog\u00eda, Avenida de los Insurgentes Sur 1582, Cr\u00e9dito Constructor, Benito Ju\u00e1rez, 03940, Ciudad de M\u00e9xico"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Avila-Ponce de Le\u00f3n, U. , Vazquez-Jimenez, A. , Cervera, A. , Resendis-Gonz\u00e1lez, G. , Neri-Rosario, D. , and Resendis-Antonio, O. (2023). Machine learning and covid-19: Lessons from sars-cov-2. In Application of Omic Techniques to Identify New Biomarkers and Drug Targets for COVID-19 (Springer). 311\u2013335",
+        "DOI": "10.1007/978-3-031-28012-2_17"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Babaiha, N. S. , Geissler, S. , Nibart, V. , G\u00fcvenilir, H. A. , Bharadhwaj, V. S. , Kodamullil, A. T. , et al. (2025). Unraveling the co-morbidity between covid-19 and neurodegenerative diseases through multi-scale graph analysis: A systematic investigation of biological databases and text mining. bioRxiv, 2025\u201302",
+        "DOI": "10.1101/2025.02.13.637069"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "982",
+        "DOI": "10.3390/biomedicines10050982",
+        "article-title": "Characterization of the upper respiratory bacterial microbiome in critically ill covid-19 patients",
+        "volume": "10",
+        "year": "2022",
+        "journal-title": "Biomedicines"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-023-01688-w"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "105192",
+        "DOI": "10.1016/j.compbiomed.2021.105192",
+        "article-title": "Triage and monitoring of covid-19 patients in intensive care using unsupervised machine learning",
+        "volume": "142",
+        "year": "2022",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.22.20248501"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1007/s00011-021-01525-3",
+        "article-title": "Severity of sars-cov-2 infection is linked to double-negative (cd27-igd-) b cell subset numbers",
+        "volume": "71",
+        "year": "2022",
+        "journal-title": "Inflammation Research"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/imt2.107"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty560"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciab902"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/applmicrobiol1020014"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0275815"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.genrep.2021.101200"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jgg.2024.06.015"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "100246",
+        "DOI": "10.1016/j.dajour.2023.100246",
+        "article-title": "A machine learning and explainable artificial intelligence triage-prediction system for covid-19",
+        "volume": "7",
+        "year": "2023",
+        "journal-title": "Decision Analytics Journal"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.micpath.2022.105829"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv033"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2016.02.020"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.synbio.2021.06.002"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25080/Majora-92bf1922-00a"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.00433"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mitchell, R. , Bornstein, S. , Piamnok, D. , Sebby, W. , Kingston, C. , Tefatu, R. , et al. (2023). Multimodal learning for emergency department triage implementation: experiences from papua new guinea during the covid-19 pandemic. The Lancet Regional Health\u2013Western Pacific 33",
+        "DOI": "10.1016/j.lanwpc.2023.100683"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1186/s43088-021-00134-7",
+        "article-title": "The microbiota-related coinfections in covid-19 patients: a real challenge",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Beni-Suef University Journal of Basic and Applied Sciences"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "105058",
+        "DOI": "10.1016/j.idnow.2025.105058",
+        "article-title": "Early supar levels as a predictor of covid-19 severity: A new tool for efficient patient triage",
+        "volume": "55",
+        "year": "2025",
+        "journal-title": "Infectious Diseases Now"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00441-023-03816-z"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.28",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2025285",
+        "DOI": "10.31893/multirev.2025285",
+        "article-title": "Transforming emergency medicine with artificial intelligence: From triage to clinical decision support",
+        "volume": "8",
+        "year": "2025",
+        "journal-title": "Multidisciplinary Reviews"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/mgen.0.000957"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schmolke, E.-M. , Meier, L. J. , Fritzsche, M.-C. , Buyx, A. M. , and Knochel, K. (2025). Covert triage during the covid-19 pandemic: A qualitative analysis of rationing in intensive care. Chest",
+        "DOI": "10.1016/j.chest.2025.05.044"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.32",
+        "first-page": "209",
+        "article-title": "An introduction to the analysis of shotgun metagenomic data",
+        "volume": "5",
+        "year": "2014",
+        "journal-title": "Frontiers in plant science"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fcimb.2021.781968"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2024.3462434"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.216242.116"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.36",
+        "unstructured": "[Dataset] WHO (2025). COVID-19 cases | WHO COVID-19 dashboard"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "106118",
+        "DOI": "10.1016/j.jinf.2024.01.017",
+        "article-title": "The clinical outcome of covid-19 is strongly associated with microbiome dynamics in the upper respiratory tract",
+        "volume": "88",
+        "year": "2024",
+        "journal-title": "Journal of Infection"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.07.21.20158758"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40168-023-01747-z"
+      },
+      {
+        "key": "2026032306250417000_2026.03.18.712739v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.02.19.580813"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.18.712739",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2026-03-23T13:25:14Z",
+      "timestamp": 1774272314000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.18.712739"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.64898/2026.03.18.712739",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

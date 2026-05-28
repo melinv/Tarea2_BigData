@@ -1,0 +1,641 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:18:32Z",
+      "timestamp": 1768547912391,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          5
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 71,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:p>We present modeling of the COVID-19 epidemic in Illinois, USA, capturing the implementation of a Stay-at-Home order and scenarios for its eventual release. We use a non-Markovian age-of-infection model that is capable of handling long and variable time delays without changing its model topology. Bayesian estimation of model parameters is carried out using Markov Chain Monte Carlo (MCMC) methods. This framework allows us to treat all available input information, including both the previously published parameters of the epidemic and available local data, in a uniform manner. To accurately model deaths as well as demand on the healthcare system, we calibrate our predictions to total and in-hospital deaths as well as hospital and ICU bed occupancy by COVID-19 patients. We apply this model not only to the state as a whole but also its sub-regions in order to account for the wide disparities in population size and density. Without prior information on non-pharmaceutical interventions (NPIs), the model independently reproduces a mitigation trend closely matching mobility data reported by Google and Unacast. Forward predictions of the model provide robust estimates of the peak position and severity and also enable forecasting the regional-dependent results of releasing Stay-at-Home orders. The resulting highly constrained narrative of the epidemic is able to provide estimates of its unseen progression and inform scenarios for sustainable monitoring and control of the epidemic.</jats:p>",
+    "DOI": "10.1101/2020.06.03.20120691",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2020-06-05T17:55:32Z",
+      "timestamp": 1591379732000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Modeling COVID-19 dynamics in Illinois under non-pharmaceutical interventions"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6952-2147",
+        "authenticated-orcid": false,
+        "given": "George N.",
+        "family": "Wong",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1755-2277",
+        "authenticated-orcid": false,
+        "given": "Zachary J.",
+        "family": "Weiner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1291-243X",
+        "authenticated-orcid": false,
+        "given": "Alexei V.",
+        "family": "Tkachenko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4079-2607",
+        "authenticated-orcid": false,
+        "given": "Ahmed",
+        "family": "Elbanna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3701-492X",
+        "authenticated-orcid": false,
+        "given": "Sergei",
+        "family": "Maslov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6322-0903",
+        "authenticated-orcid": false,
+        "given": "Nigel",
+        "family": "Goldenfeld",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.1",
+        "unstructured": "All executive orders related to COVID-19 issued by the State of Illinois Governor JB Pritzker are listed here: https://www2.illinois.gov/government/executive-orders. The timeline of COVID-19 mitigation in Illinois is summarized at: https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Illinois#Government_response."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. J. Keeling and P. Rohani , Modeling infectious diseases in humans and animals. Princeton University Press, 2011.",
+        "DOI": "10.2307/j.ctvcm4gk0"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.3",
+        "unstructured": "C. J. L. Murray , \u201cForecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months,\u201d medRxiv, p. 2020.03.27.20043752, 2020."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1016/j.idm.2019.12.009",
+        "article-title": "Estimating epidemic exponential growth rate and basic reproduction number",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "issue": "10225",
+        "key": "2021010323150773000_2020.06.03.20120691v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "689",
+        "DOI": "10.1016/S0140-6736(20)30260-9",
+        "article-title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-ncov outbreak originating in wuhan, china: a modelling study",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0000758"
+      },
+      {
+        "issue": "3",
+        "key": "2021010323150773000_2020.06.03.20120691v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1016/j.idm.2017.08.001",
+        "article-title": "Fitting dynamic models to epidemic outbreaks with quantified uncertainty: a primer for parameter uncertainty, identifiability, and forecasts",
+        "volume": "2",
+        "year": "2017",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0822-7"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1125237"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04153"
+      },
+      {
+        "issue": "2",
+        "key": "2021010323150773000_2020.06.03.20120691v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1016/j.physd.2006.01.021",
+        "article-title": "Super-spreaders and the rate of transmission of the sars virus",
+        "volume": "215",
+        "year": "2006",
+        "journal-title": "Physica D: Nonlinear Phenomena"
+      },
+      {
+        "issue": "16",
+        "key": "2021010323150773000_2020.06.03.20120691v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "879",
+        "DOI": "10.1098/rsif.2007.1100",
+        "article-title": "When individual behaviour matters: homogeneous and network models in epidemiology",
+        "volume": "4",
+        "year": "2007",
+        "journal-title": "Journal of the Royal Society Interface"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph15112369"
+      },
+      {
+        "issue": "5",
+        "key": "2021010323150773000_2020.06.03.20120691v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "055103",
+        "DOI": "10.1103/PhysRevE.65.055103",
+        "article-title": "Halting viruses in scale-free networks",
+        "volume": "65",
+        "year": "2002",
+        "journal-title": "Physical Review E"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0034-4885/77/2/026602"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.87.925"
+      },
+      {
+        "issue": "772",
+        "key": "2021010323150773000_2020.06.03.20120691v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "700",
+        "DOI": "10.1098/rspa.1927.0118",
+        "article-title": "A contribution to the mathematical theory of epidemics",
+        "volume": "115",
+        "year": "1927",
+        "journal-title": "Proceedings of the Royal Society of London. Series A, Containing papers of a mathematical and physical character"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2006.3754"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. A. Neher , R. Dyrdak , V. Druelle , E. B. Hodcroft , and J. Albert , \u201cPotential impact of seasonal forcing on a SARS-CoV-2 pandemic,\u201d Swiss Medical Weekly, vol. 150, no. 1112, 2020.",
+        "DOI": "10.4414/smw.2020.20224"
+      },
+      {
+        "issue": "11",
+        "key": "2021010323150773000_2020.06.03.20120691v2.20",
+        "first-page": "43434365",
+        "article-title": "Forecasting epidemics through nonparametric estimation of time- dependent transmission rates using the SEIR model",
+        "volume": "81",
+        "year": "2019",
+        "journal-title": "Bulletin of Mathematical Biology"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.21",
+        "unstructured": "C. C. Ku , T.-C. Ng , and H.-H. Lin , \u201cEpidemiological Benchmarks of the COVID-19 Outbreak Control in China after Wuhan\u2019s Lockdown: A Modelling Study with An Empirical Approach,\u201d SSRN Electronic Journal, 2020."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.22",
+        "unstructured": "R. H. Mena , J. X. Velasco-Hernandez , N. B. Mantilla-Beniers , G. A. Carranco-Sapiens , L. Benet , D. Boyer , and I. P. Castillo , \u201cUsing the posterior predictive distribution to analyse epidemic models: COVID-19 in Mexico City,\u201d arXiv preprint arXiv:2005.02294, 2020."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004978117"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.02.060"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Du , X. Xu , Y. Wu , L. Wang , B. J. Cowling , and L. A. Meyers , \u201cSerial Interval of COVID-19 among Publicly Reported Confirmed Cases,\u201d Emerg Infect Dis, vol. 26, no. 6, p. 2020.02.19.20025452, 2020. [Online]. Available: https://www.ncbi.nlm.nih.gov/pubmed/32191173",
+        "DOI": "10.3201/eid2606.200357"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "issue": "2",
+        "key": "2021010323150773000_2020.06.03.20120691v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "538",
+        "DOI": "10.3390/jcm9020538",
+        "article-title": "Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Journal of Clinical Medicine"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Verity , L. C. Okell , I. Dorigatti , P. Winskill , C. Whittaker , N. Imai , G. Cuomo-Dannenburg , H. Thompson , P. G. T. Walker , H. Fu , A. Dighe , J. T. Griffin , M. Baguelin , S. Bhatia , A. Boonyasiri , A. Cori , Z. Cucunuba , R. FitzJohn , K. Gaythorpe , W. Green , A. Hamlet , W. Hinsley , D. Laydon , G. Nedjati-Gilani , S. Riley , S. van Elsland , E. Volz , H. Wang , Y. Wang , X. Xi , C. A. Donnelly , A. C. Ghani , and N. M. Ferguson , \u201cEstimates of the severity of coronavirus disease 2019: a model-based analysis,\u201d Lancet Infect Dis, 2020. [Online]. Available: https://www.ncbi.nlm.nih.gov/pubmed/32240634",
+        "DOI": "10.1016/S1473-3099(20)30243-7"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. K. Bhatraju , B. J. Ghassemieh , M. Nichols , R. Kim , K. R. Jerome , A. K. Nalla , A. L. Greninger , S. Pipavath , M. M. Wurfel , L. Evans , P. A. Kritek , T. E. West , A. Luks , A. Gerbino , C. R. Dale , J. D. Goldman , S. O\u2019Mahony , and C. Mikacenic , \u201cCovid-19 in Critically Ill Patients in the Seattle Region - Case Series,\u201d N Engl J Med, 2020. [Online]. Available: https://www.ncbi.nlm.nih.gov/pubmed/32227758",
+        "DOI": "10.1056/NEJMoa2004500"
+      },
+      {
+        "issue": "5",
+        "key": "2021010323150773000_2020.06.03.20120691v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/S2213-2600(20)30079-5",
+        "article-title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.31",
+        "unstructured": "\u201cICNARC report on COVID-19 in critical care, 08 May 2020,\u201d 2020, https://www.icnarc.org/Our-Audit/Audits/Cmp/Reports."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.32",
+        "unstructured": "G. Meyerowitz-Katz and L. Merone , \u201cA systematic review and meta-analysis of published research data on COVID-19 infection-fatality rates,\u201d medRxiv, p. 2020.05.03.20089854, 2020."
+      },
+      {
+        "issue": "43",
+        "key": "2021010323150773000_2020.06.03.20120691v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1864",
+        "DOI": "10.21105/joss.01864",
+        "article-title": "emcee v3: A Python ensemble sampling toolkit for affine- invariant MCMC",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "The Journal of Open Source Software"
+      },
+      {
+        "issue": "4",
+        "key": "2021010323150773000_2020.06.03.20120691v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "435",
+        "DOI": "10.1007/s11222-008-9104-9",
+        "article-title": "Differential Evolution Markov Chain with snooker updater and fewer chains",
+        "volume": "18",
+        "year": "2008",
+        "journal-title": "Statistics and Computing"
+      },
+      {
+        "issue": "3",
+        "key": "2021010323150773000_2020.06.03.20120691v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1007/s11222-006-8769-1",
+        "article-title": "A Markov Chain Monte Carlo version of the genetic algorithm Differential Evolution: easy Bayesian computing for real parameter spaces",
+        "volume": "16",
+        "year": "2006",
+        "journal-title": "Statistics and Computing"
+      },
+      {
+        "issue": "2",
+        "key": "2021010323150773000_2020.06.03.20120691v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "024014",
+        "DOI": "10.1103/PhysRevD.90.024014",
+        "article-title": "A more efficient approach to parallel-tempered markov-chain monte carlo for the highly structured posteriors of gravitational-wave signals",
+        "volume": "90",
+        "year": "2014",
+        "journal-title": "Physical Review D"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.37",
+        "unstructured": "Data were downloaded from https://www.dph.illinois.gov/covid19/covid19-statistics."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Korolev , \u201cIdentification and Estimation of the SEIRD Epidemic Model for COVID-19,\u201d 2020. [Online]. Available: https://ssrn.com/abstract=3569367",
+        "DOI": "10.1016/j.jeconom.2020.07.038"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Castro , S. Ares , J. A. Cuesta , and S. Manrubia , \u201cPredictability: Can the turning point and end of an expanding epidemic be precisely forecast?\u201d arXiv, pp. arXiv-2004, 2020.",
+        "DOI": "10.1073/pnas.2007868117"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1016/j.idm.2020.03.001",
+        "article-title": "Why is it difficult to accurately predict the COVID-19 epidemic?",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Infectious Disease Modelling"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.41",
+        "unstructured": "See map at https://www.dph.illinois.gov/sites/default/files/resources/ems-regions-map.pdf."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. J. Beckett , M. Dominguez-Mirazo , S. Lee , C. Andris , and J. S. Weitz , \u201cSpread of COVID-19 through Georgia, USA. Near-term projections and impacts of social distancing via a metapopulation model.\u201d [Online]. Available: https://github.com/WeitzGroup/MAGEmodel_covid19_GA/blob/master/Report/GA_COVID19_assessment_21Apr2020.pdf",
+        "DOI": "10.1101/2020.05.28.20115642"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.43",
+        "unstructured": "https://www.blog.google/technology/health/covid-19-community-mobility-reports?hl=en."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.44",
+        "unstructured": "https://www.unacast.com/post/rounding-out-the-social-distancing-scoreboard."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.45",
+        "unstructured": "S. Flaxman , S. Mishra , A. Gandy , H. Unwin , H. Coupland , T. Mellan et al., \u201cReport 13. Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19 in 11 European countries. Imperial College London, 2020,\u201d 2020. [Online]. Available: https://doi.org/10.25561/77731"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. J. T. Unwin , S. Mishra , V. Bradley , A. Gandy , M. Vollmer , T. Mellan , H. Coupland , K. Ainslie , C. Whittaker , J. Ish-Horowicz , S. Filippi , X. Xi , M. Monod , O. Ratmann , M. Hutchinson , F. Valka , H. Zhu , I. Hawry-luk , P. Milton , M. Baguelin , A. Boonyasiri , N. Brazeau , L. Cattarino , G. Charles , L. V. Cooper , Z. Cu-cunuba , G. CuomoDannenburg , B. Djaafara , I. Dori-gatti , O. J. Eales , J. Eaton , S. van Elsland , R. FitzJohn , K. Gaythorpe , W. Green , T. Hallett , W. Hinsley , N. Imai , B. Jeffrey , E. Knock , D. Laydon , J. Lees , G. Nedjati-Gilani , P. Nouvellet , L. Okell , A. Ower , K. V. Parag , I Siveroni, H. A. Thompson , R. Verity , P. Walker , C. Walters , Y. Wang , O. J. Watson , L. Whittles , A. Ghani , N. M. Ferguson , S. Riley , C. A. Donnelly , S. Bhat , and S. Flaxman , \u201cReport 23: State-level tracking of COVID-19 in the United States WHO Collaborating Centre for Infectious Disease Modelling MRC Centre for Global Infectious Disease Analytics,\u201d 2020.",
+        "DOI": "10.1038/s41467-020-19652-6"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Maslov and N. Goldenfeld , \u201cWindow of Opportunity for Mitigation to Prevent Overflow of ICU capacity in Chicago by COVID-19,\u201d medRxiv, 2020. [Online]. Available: https://www.medrxiv.org/content/early/2020/03/24/2020.03.20.20040048",
+        "DOI": "10.1101/2020.03.20.20040048"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.48",
+        "unstructured": "D. H. Morris , F. W. Rossine , J. B. Plotkin , and S. A. Levin , \u201cOptimal, near-optimal, and robust epidemic control,\u201d arXiv preprint arXiv:2004.02209, 2020."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Hellewell , S. Abbott , A. Gimma , N. I. Bosse , C. I. Jarvis , T. W. Russell , J. D. Munday , A. J. Kucharski , and R. M. Eggo , \u201cFeasibility of controlling COVID-19 outbreaks by isolation of cases and contacts,\u201d The Lancet Global Health, 2020.",
+        "DOI": "10.1101/2020.02.08.20021162"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Ferretti , C. Wymant , M. Kendall , L. Zhao , A. Nurtay , L. Abeler-Dorner , M. Parker , D. Bonsall , and C. Fraser , \u201cQuantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing,\u201d Science, p. eabb6936, 2020. [Online]. Available: https://www.ncbi.nlm.nih.gov/pubmed/32234805",
+        "DOI": "10.1101/2020.03.08.20032946"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.51",
+        "unstructured": "Fitzhugh Mullan Institute for Health Workforce Equity, George Washington University, \u201cContact tracing workforce estimator,\u201d https://www.gwhwi.org/estimator-613404.html."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Holmdahl and C. Buckee , \u201cWrong but Useful \u2014 What Covid-19 Epidemiologic Models Can and Cannot Tell Us,\u201d New England Journal of Medicine, 2020. [Online]. Available: https://doi.org/10.1056/NEJMp2016822",
+        "DOI": "10.1056/NEJMp2016822"
+      },
+      {
+        "issue": "1",
+        "key": "2021010323150773000_2020.06.03.20120691v2.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1186/1472-6963-6-20",
+        "article-title": "Concepts for risk-based surveillance in the field of veterinary medicine and veterinary public health: review of current approaches",
+        "volume": "6",
+        "year": "2006",
+        "journal-title": "BMC health services research"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "100130",
+        "DOI": "10.1016/j.onehlt.2020.100130",
+        "article-title": "Surveillance to improve evidence for community control decisions during the COVID-19 pandemic-Opening the animal epidemic toolbox for Public Health",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "One Health"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30462-1"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. S. Raines , S. Doniach , and G. Bhanot , \u201cThe transmission of sars-cov-2 is likely comodulated by temperature and by relative humidity,\u201d medRxiv, 2020. [Online]. Available: https://www.medrxiv.org/content/early/2020/05/26/2020.05.23.20111278",
+        "DOI": "10.1101/2020.05.23.20111278"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. E. Baker , W. Yang , G. A. Vecchi , C. J. E. Metcalf , and B. T. Grenfell , \u201cSusceptible supply limits the role of climate in the covid-19 pandemic,\u201d medRxiv, 2020. [Online]. Available: https://www.medrxiv.org/content/early/2020/04/07/2020.04.03.20052787",
+        "DOI": "10.1101/2020.04.03.20052787"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2015.0347"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.94.218102"
+      },
+      {
+        "issue": "3",
+        "key": "2021010323150773000_2020.06.03.20120691v2.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "030902",
+        "DOI": "10.1103/PhysRevE.80.030902",
+        "article-title": "Robust ecological pattern formation induced by demographic noise",
+        "volume": "80",
+        "year": "2009",
+        "journal-title": "Physical Review E"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1720770115"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.62",
+        "unstructured": "G. Van Rossum and F. L. Drake , Python 3 Reference Manual. Scotts Valley, CA: CreateSpace, 2009."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.63",
+        "unstructured": "T. E. Oliphant , A guide to NumPy. Trelgol Publishing USA, 2006, vol. 1."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Virtanen , R. Gommers , T. E. Oliphant , M. Haberland , T. Reddy , D. Cournapeau , E. Burovski , P. Peterson , W. Weckesser , J. Bright , S. J. van der Walt , M. Brett , J. Wilson , K. Jarrod Millman , N. Mayorov , A. R. J. Nelson , E. Jones , R. Kern , E. Larson , C. Carey , I. Polat , Y. Feng , E. W. Moore , J. Vand erPlas , D. Laxalde , J. Perk-told , R. Cimrman , I. Henriksen , E. A. Quintero , C. R. Harris , A. M. Archibald , A. H. Ribeiro , F. Pedregosa , P. van Mulbregt , and S. . . Contributors, \u201cSciPy 1.0: Fundamental Algorithms for Scientific Computing in Python,\u201d Nature Methods, 2020.",
+        "DOI": "10.1038/s41592-019-0686-2"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.65",
+        "unstructured": "T. pandas development team, \u201cpandas-dev/pandas: Pandas,\u201d Feb. 2020. [Online]. Available: https://doi.org/10.5281/zenodo.3509134"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.66",
+        "unstructured": "D. Foreman-Mackey , \u201ccorner.py: Scatterplot matrices in python,\u201d The Journal of Open Source Software, vol. 24, 2016. [Online]. Available: http://dx.doi.org/10.5281/zenodo.45906"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10. 1109/MCSE.2007.55."
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/ccdcw2020.032"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Mizumoto , K. Kagaya , A. Zarebski , and G. Chowell , \u201cEstimating the asymptomatic proportion of coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship, Yokohama, Japan, 2020,\u201d Eurosurveillance, vol. 25, no. 10, 2020. [Online]. Available: https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000180",
+        "DOI": "10.2807/1560-7917.ES.2020.25.10.2000180"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Nishiura , T. Kobayashi , T. Miyama , A. Suzuki , S. Jung , K. Hayashi , R. Kinoshita , Y. Yang , B. Yuan , A. R. Akhmetzhanov , and N. M. Linton , \u201cEstimation of the asymptomatic ratio of novel coronavirus infections (COVID-19),\u201d 2020. [Online]. Available: https://www.medrxiv.org/content/early/2020/02/17/2020.02.03.2002024S",
+        "DOI": "10.1101/2020.02.03.20020248"
+      },
+      {
+        "key": "2021010323150773000_2020.06.03.20120691v2.71",
+        "unstructured": "Data were downloaded from https://data.un.org/."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.03.20120691",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:42:48Z",
+      "timestamp": 1768484568000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.03.20120691"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          5
+        ]
+      ]
+    },
+    "references-count": 71,
+    "URL": "https://doi.org/10.1101/2020.06.03.20120691",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1103/physrevx.10.041033",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

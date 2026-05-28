@@ -1,0 +1,324 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2026-03-24T20:31:44Z",
+      "timestamp": 1774384304868,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 19,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              10
+            ]
+          ],
+          "date-time": "2024-12-10T00:00:00Z",
+          "timestamp": 1733788800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  In Bayesian phylogenetic and phylodynamic studies it is common to summarise the posterior distribution of trees with a time-calibrated consensus phylogeny. While the maximum clade credibility (MCC) tree is often used for this purpose, we here show that a novel consensus tree method \u2013 the highest independent posterior subtree reconstruction, or HIPSTR \u2013 contains consistently higher supported clades over MCC. We also provide faster computational routines for estimating both consensus trees in an updated version of TreeAnnotator X, an open-source software program that summarizes the information from a sample of trees and returns many helpful statistics such as individual clade credibilities contained in the consensus tree. HIPSTR and MCC reconstructions on two Ebola virus and two SARS-CoV-2 data sets show that HIPSTR yields consensus trees that consistently contain clades with higher support compared to MCC trees. The MCC trees regularly fail to include several clades with very high posterior probability (\u2265 0.95) as well as a large number of clades with moderate to high posterior probability (\u2265 0.50), whereas HIPSTR achieves near-perfect performance in this respect. HIPSTR also exhibits favorable computational performance over MCC in TreeAnnotator X. Comparison to the recently developed CCD0-MAP algorithm yielded mixed results, and requires more in-depth exploration in follow-up studies. TreeAnnotator X \u2013 which is part of the BEAST X (v10.5.0) software package \u2013 is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/beast-dev/beast-mcmc/releases\">https://github.com/beast-dev/beast-mcmc/releases</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2024.12.08.627395",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ],
+      "date-time": "2024-12-10T05:07:01Z",
+      "timestamp": 1733807221000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "HIPSTR: highest independent posterior subtree reconstruction in TreeAnnotator X"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1915-7732",
+        "authenticated-orcid": false,
+        "given": "Guy",
+        "family": "Baele",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Luiz M.",
+        "family": "Carvalho",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marius",
+        "family": "Brusselmans",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gytis",
+        "family": "Dudas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiang",
+        "family": "Ji",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John T.",
+        "family": "McCrone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2826-5353",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Lemey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9818-479X",
+        "authenticated-orcid": false,
+        "given": "Marc A.",
+        "family": "Suchard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Rambaut",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.02.20.581316"
+      },
+      {
+        "issue": "4",
+        "key": "2024121219522494000_2024.12.08.627395v1.2",
+        "first-page": "1",
+        "article-title": "BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1090/dimacs/061/11",
+        "article-title": "A classification of consensus methods for phylogenetics",
+        "volume": "61",
+        "year": "2003",
+        "journal-title": "Bioconsensus"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abf2946"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Dudas , L. M. Carvalho , T. Bedford , A. J. Tatem , G. Baele , N. R. Faria , D. J. Park , J. T. Ladner , A. Arias , D. Asogun , F. Bielejec , S. L. Caddy , M. Cotten , J. D\u2019Ambrozio , S. Dellicour , A. Di Caro , J. W. Diclaro , S. Duraffour , M. J. Elmore , L. S. F. Iii , O. Faye , M. L. Gilbert , S. M. Gevao , S. Gire , A. Gladden-Young , A. Gnirke , A. Goba , D. S. Grant , B. L. Haagmans , J. A. Hiscox , U. Jah , J. R. Kugelman , D. Liu , J. Lu , C. M. Malboeuf , S. Mate , D. A. Matthews , C. B. Matranga , L. W. Meredith , J. Qu , J. Quick , S. D. Pas , M. V. Phan , G. Pollakis , C. B. Reusken , M. Sanchez-Lockhart , S. F. Schaffner , J. S. Schieffelin , R. S. Sealfon , E. Simon-Loriere , S. L. Smits , K. Stoecker , L. Thorne , E. A. Tobin , M. A. Vandi , S. J. Watson , K. West , S. Whitmer , M. R. Wiley , S. M. Winnicki , S. Wohl , R. Wolfel , N. L. Yozwiak , K. G. Andersen , S. O. Blyden , F. Bolay , M. W. Carroll , B. Dahn , B. Diallo , P. Formenty , C. Fraser , G. F. Gao , R. F. Garry , I. Goodfellow , S. Gnther , C. T. Happi , E. C. Holmes , B. Kargbo , S. Keita , P. Kellam , M. P. Koopmans , J. H. Kuhn , N. J. Loman , N. Magassouba , D. Naidoo , S. T. Nichol , T. Nyenswah , G. Palacios , O. G. Pybus , P. C. Sabeti , A. Sall , U. Stroher , I. Wurie , M. A. Suchard , P. Lemey , and A. Rambaut . Virus genomes reveal factors that spread and sustained the Ebola epidemic, 2017.",
+        "DOI": "10.1038/nature22040"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/clad.1996.0008"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.7",
+        "first-page": "783",
+        "article-title": "Confidence limits on phylogenies: an approach using the bootstrap",
+        "volume": "39",
+        "year": "1985",
+        "journal-title": "Ann. Stat"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02101694"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/57.1.97"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1065889"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syw021"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01302-z"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.molbev.a026160"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03754-2"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.15",
+        "first-page": "239",
+        "article-title": "Consensus n-trees",
+        "volume": "2",
+        "year": "1981",
+        "journal-title": "B. Math. Biol"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1699114"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/sys029"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vey016"
+      },
+      {
+        "key": "2024121219522494000_2024.12.08.627395v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0169-5347(96)10041-0"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.08.627395",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T07:38:08Z",
+      "timestamp": 1768462688000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.12.08.627395"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "references-count": 19,
+    "URL": "https://doi.org/10.1101/2024.12.08.627395",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bioinformatics/btaf488",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

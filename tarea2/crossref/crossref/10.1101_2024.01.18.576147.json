@@ -1,0 +1,663 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:12:21Z",
+      "timestamp": 1768507941337,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          20
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 63,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Adaptive Immune Receptor Repertoire sequencing (AIRR-seq) is a valuable experimental tool to study the immune state in health and following immune challenges such as infectious diseases, (auto)immune diseases, and cancer. Several tools have been developed to reconstruct B cell and T cell receptor sequences from AIRR-seq data and infer B and T cell clonal relationships. However, currently available tools offer limited parallelization across samples, scalability or portability to high-performance computing infrastructures. To address this need, we developed nf-core/airrflow, an end-to-end bulk and single-cell AIRR-seq processing workflow which integrates the Immcantation Framework following BCR and TCR sequencing data analysis best practices. The Immcantation Framework is a comprehensive toolset, which allows the processing of bulk and single-cell AIRR-seq data from raw read processing to clonal inference. nf-core/airrflow is written in Nextflow and is part of the nf-core project, which collects community contributed and curated Nextflow workflows for a wide variety of analysis tasks. We assessed the performance of nf-core/airrflow on simulated sequencing data with sequencing errors and show example results with real datasets. To demonstrate the applicability of nf-core/airrflow to the high-throughput processing of large AIRR-seq datasets, we validated and extended previously reported findings of convergent antibody responses to SARS-CoV-2 by analyzing 97 COVID-19 infected individuals and 99 healthy controls, including a mixture of bulk and single-cell sequencing datasets. Using this dataset, we extended the convergence findings to 20 additional subjects, highlighting the applicability of nf-core/airrflow to validate findings in small in-house cohorts with reanalysis of large publicly available AIRR datasets.</jats:p>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    nf-core/airrflow is available free of charge, under the MIT license on GitHub (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/nf-core/airrflow\">https://github.com/nf-core/airrflow</jats:ext-link>\n                    ). Detailed documentation and example results are available on the nf-core website at (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://nf-co.re/airrflow\">https://nf-co.re/airrflow</jats:ext-link>\n                    ).\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Visual abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"576147v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+    "DOI": "10.1101/2024.01.18.576147",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2024-01-21T02:10:12Z",
+      "timestamp": 1705803012000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "nf-core/airrflow: an adaptive immune receptor repertoire analysis workflow employing the Immcantation framework"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7049-9474",
+        "authenticated-orcid": false,
+        "given": "Gisela",
+        "family": "Gabernet",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Susanna",
+        "family": "Marquez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Bjornson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Peltzer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hailong",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Edel",
+        "family": "Aron",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Noah Y.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cole",
+        "family": "Jensen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Ladd",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-9875-5262",
+        "authenticated-orcid": false,
+        "given": "Friederike",
+        "family": "Hanssen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Simon",
+        "family": "Heumos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "nf-core community",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gur",
+        "family": "Yaari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Markus C.",
+        "family": "Kowarik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4375-0691",
+        "authenticated-orcid": false,
+        "given": "Sven",
+        "family": "Nahnsen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven H.",
+        "family": "Kleinstein",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/microbiolspec.mdna3-0041-2014"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/302575a0"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.79.13.4118"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0092-8674(89)90609-0"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0092-8674(02)00706-7"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.276027.121"
+      },
+      {
+        "issue": "7",
+        "key": "2024013103300665000_2024.01.18.576147v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "110393",
+        "DOI": "10.1016/j.celrep.2022.110393",
+        "article-title": "B cell receptor repertoire kinetics after SARS-CoV-2 infection and vaccination",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Cell Rep"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.celrep.2021.109604"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2013.05.008"
+      },
+      {
+        "issue": "1",
+        "key": "2024013103300665000_2024.01.18.576147v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1038/s41584-019-0339-y",
+        "article-title": "Characterizing the BCR repertoire in immune-mediated diseases",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "Nat Rev Rheumatol"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.3008879"
+      },
+      {
+        "issue": "4",
+        "key": "2024013103300665000_2024.01.18.576147v2.12",
+        "first-page": "1460",
+        "article-title": "Dysregulation of B Cell Repertoire Formation in Myasthenia Gravis Patients Revealed through Deep Sequencing",
+        "volume": "198",
+        "year": "2017",
+        "journal-title": "J Immunol Baltim Md 1950"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.154815.113"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/1078-0432.CCR-22-2469"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boyd SD , Joshi SA . High-Throughput DNA Sequencing Analysis of Antibody Repertoires. Microbiol Spectr. 2014 Oct;2(5).",
+        "DOI": "10.1128/microbiolspec.AID-0017-2014"
+      },
+      {
+        "issue": "1",
+        "key": "2024013103300665000_2024.01.18.576147v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1038/nri.2017.76",
+        "article-title": "Single-cell RNA sequencing to explore immune cell heterogeneity",
+        "volume": "18",
+        "year": "2018",
+        "journal-title": "Nat Rev Immunol"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2782"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-015-0152-4"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu138"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv359"
+      },
+      {
+        "issue": "13",
+        "key": "2024013103300665000_2024.01.18.576147v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "i341",
+        "DOI": "10.1093/bioinformatics/bty235",
+        "article-title": "A spectral clustering-based method for identifying clones from high-throughput B cell repertoire sequencing data",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007977"
+      },
+      {
+        "issue": "4",
+        "key": "2024013103300665000_2024.01.18.576147v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009885",
+        "DOI": "10.1371/journal.pcbi.1009885",
+        "article-title": "Phylogenetic analysis of migration, differentiation, and class switching in B cells",
+        "volume": "18",
+        "year": "2022",
+        "journal-title": "PLOS Comput Biol"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1906020116"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/iti0115112"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.3364"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.2960"
+      },
+      {
+        "issue": "9",
+        "key": "2024013103300665000_2024.01.18.576147v2.28",
+        "first-page": "3369",
+        "article-title": "Reconstructing Antibody Repertoires from Error-Prone Immunosequencing Reads",
+        "volume": "199",
+        "year": "2017",
+        "journal-title": "J Immunol Baltim Md 1950"
+      },
+      {
+        "issue": "3",
+        "key": "2024013103300665000_2024.01.18.576147v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "516",
+        "DOI": "10.1080/19420862.2015.1026502",
+        "article-title": "Reconstructing and mining the B cell repertoire with ImmunediveRsity",
+        "volume": "7",
+        "year": "2015",
+        "journal-title": "mAbs"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-41695-z"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.31",
+        "first-page": "1",
+        "article-title": "Dandelion uses the single-cell adaptive immune receptor repertoire to explore lymphocyte developmental origins",
+        "volume": "13",
+        "year": "2023",
+        "journal-title": "Nat Biotechnol"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-018-0082-3"
+      },
+      {
+        "issue": "18",
+        "key": "2024013103300665000_2024.01.18.576147v2.33",
+        "first-page": "2963",
+        "article-title": "IMSEQ--a fast and error aware approach to immunogenetic sequence analysis",
+        "volume": "31",
+        "year": "2015",
+        "journal-title": "Bioinforma Oxf Engl"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3820"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M\u00f6lder F , Jablonski KP , Letcher B , Hall MB , Tomkins-Tinch CH , Sochat V , et al. Sustainable data analysis with Snakemake. F1000Research; 2021. https://f1000research.com/articles/10-33",
+        "DOI": "10.12688/f1000research.29032.2"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku1056"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Collins AM , Ohlin M , Corcoran M , Heather JM , Ralph D , Law M , et al. AIRR-C Human IG Reference Sets: curated sets of immunoglobulin heavy and light chain germline genes. bioRxiv; 2023. p. 2023.09.01.555348. https://www.biorxiv.org/content/10.1101/2023.09.01.555348v1",
+        "DOI": "10.1101/2023.09.01.555348"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkt382"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.1601850"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2533",
+        "DOI": "10.3389/fimmu.2019.02533",
+        "article-title": "sumrep: A Summary Statistic Framework for Immune Receptor Repertoire Comparison and Model Validation",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0439-x"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx192"
+      },
+      {
+        "issue": "19",
+        "key": "2024013103300665000_2024.01.18.576147v2.43",
+        "first-page": "3047",
+        "article-title": "MultiQC: summarize analysis results for multiple tools and samples in a single report",
+        "volume": "32",
+        "year": "2016",
+        "journal-title": "Bioinforma Oxf Engl"
+      },
+      {
+        "issue": "7821",
+        "key": "2024013103300665000_2024.01.18.576147v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1038/s41586-020-2456-9",
+        "article-title": "Convergent antibody responses to SARS-CoV-2 in convalescent individuals",
+        "volume": "584",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.3389/fdata.2020.00022",
+        "article-title": "The ADC API: A Web API for the Programmatic Query of the AIRR Data Commons",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "Front Big Data"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/imr.12666"
+      },
+      {
+        "issue": "11",
+        "key": "2024013103300665000_2024.01.18.576147v2.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1302",
+        "DOI": "10.1016/S1473-3099(23)00352-3",
+        "article-title": "Mpox vaccine and infection-driven human immune signatures: an immunological analysis of an observational study",
+        "volume": "23",
+        "year": "2023",
+        "journal-title": "Lancet Infect Dis"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vander Heiden JA , Marquez S , Marthandan N , Bukhari SAC , Busse CE , Corrie B , et al. AIRR Community Standardized Representations for Annotated Immune Repertoires. Front Immunol. 2018;9. https://www.frontiersin.org/articles/10.3389/fimmu.2018.02206",
+        "DOI": "10.3389/fimmu.2018.02206"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.49",
+        "unstructured": "New England Biolabs. NEBNext Immune Sequencing Kit. https://www.neb.com/en-us/products/e6320-nebnext-immune-sequencing-kit-human#Product%20Information (15 December 2023, date last accessed)."
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.50",
+        "unstructured": "Takara Bio . SMARTer Human BCR Profiling Kit. https://www.takarabio.com/products/next-generation-sequencing/immune-profiling/human-re pertoire/human-bcr-profiling-kit-for-illumina-sequencing (15 December 2023, date last accessed)."
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01142-2"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty560"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2013.00358"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks457"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "e70873",
+        "DOI": "10.7554/eLife.70873",
+        "article-title": "Human B cell lineages associated with germinal centers following influenza vaccination are measurably evolving",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "eLife"
+      },
+      {
+        "issue": "11",
+        "key": "2024013103300665000_2024.01.18.576147v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "3594",
+        "DOI": "10.1093/bioinformatics/btaa158",
+        "article-title": "immuneSIM: tunable multi-feature simulation of B- and T-cell receptor repertoires for immunoinformatics benchmarking",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "1133967",
+        "DOI": "10.3389/fimmu.2023.1133967",
+        "article-title": "Cladribine treatment specifically affects peripheral blood memory B cell clones and clonal expansion in multiple sclerosis patients",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "Front Immunol"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks251"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-0976-y"
+      },
+      {
+        "issue": "1",
+        "key": "2024013103300665000_2024.01.18.576147v2.60",
+        "doi-asserted-by": "crossref",
+        "first-page": "qab019",
+        "DOI": "10.1093/nargab/lqab019",
+        "article-title": "Sequencing error profiles of Illumina sequencing instruments",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "NAR Genomics Bioinforma"
+      },
+      {
+        "issue": "2",
+        "key": "2024013103300665000_2024.01.18.576147v2.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "442",
+        "DOI": "10.1016/j.immuni.2020.06.024",
+        "article-title": "Next-Generation Sequencing of T and B Cell Receptor Repertoires from COVID-19 Patients Showed Signatures Associated with Severity of Disease",
+        "volume": "53",
+        "year": "2020",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2020.09.002"
+      },
+      {
+        "key": "2024013103300665000_2024.01.18.576147v2.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1038/s41421-020-0168-9",
+        "article-title": "Immune cell profiling of COVID-19 patients in the recovery stage by single-cell sequencing",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Cell Discov"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.18.576147",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:49:14Z",
+      "timestamp": 1768456154000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.18.576147"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          20
+        ]
+      ]
+    },
+    "references-count": 63,
+    "URL": "https://doi.org/10.1101/2024.01.18.576147",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1012265",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

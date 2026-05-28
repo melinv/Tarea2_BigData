@@ -1,0 +1,645 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:43:14Z",
+      "timestamp": 1768563794182,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          29
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 74,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Understanding the evolution of viral genomes is essential for elucidating how viruses adapt and change over time. Analyzing intra-host single nucleotide variants (iSNVs) provides key insights into the mechanisms driving the emergence of new viral lineages, which are crucial for predicting and mitigating future viral threats. Despite the potential of next-generation sequencing (NGS) to capture these iSNVs, the process is fraught with challenges, particularly the risk of capturing sequencing artifacts that may result in false iSNVs. To tackle this issue, we developed a workflow designed to enhance the reliability of iSNV detection in large heterogeneous collections of NGS libraries. We use over 130,000 publicly available SARS-CoV-2 NGS libraries to show how our comprehensive workflow effectively distinguishes emerging viral mutations from sequencing errors. This approach incorporates rigorous bioinformatics protocols, stringent quality control metrics, and innovative usage of dimensionality reduction methods to generate representations of this high-dimensional dataset. We identified and mitigated batch effects linked to specific sequencing centers around the world and introduced quality control metrics that consider strand coverage imbalance, enhancing iSNV reliability. Additionally, we pioneer the application of the PHATE visualization approach to genomic data and introduce a methodology that quantifies how related groups of data points are within a two-dimensional space, enhancing our ability to explain clustering patterns based on their shared genetic characteristics. Our workflow sheds light on the complexities of viral genomic analysis with state-of-the-art sequencing technologies and advances the detection of accurate intra-host mutations, opening the door for an enhanced understanding of viral adaptation mechanisms.</jats:p>",
+    "DOI": "10.1101/2024.04.26.591384",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2024-04-29T23:55:23Z",
+      "timestamp": 1714434923000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Refining SARS-CoV-2 Intra-host Variation by Leveraging Large-scale Sequencing Data"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5280-5220",
+        "authenticated-orcid": false,
+        "given": "Fatima",
+        "family": "Mostefai",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7937-5160",
+        "authenticated-orcid": false,
+        "given": "Jean-Christophe",
+        "family": "Grenier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0223-3396",
+        "authenticated-orcid": false,
+        "given": "Raph\u00e4el",
+        "family": "Poujol",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4295-3339",
+        "authenticated-orcid": false,
+        "given": "Julie G.",
+        "family": "Hussin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Armero A. , Berthet N. , and Avarre J.-C . 2021. Intra-Host Diversity of SARS-Cov-2 Should Not Be Neglected: Case of the State of Victoria, Australia. Viruses 13.",
+        "DOI": "10.3390/v13010133"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bashor L. , Gagne R. B. , Bosco-Lauth A. M. , Bowen R. A. , Stenglein M. , and VandeWoude S . 2021. SARS-CoV-2 evolution in animals suggests mechanisms for rapid variant selection. Proc. Natl. Acad. Sci. U. S. A. 118.",
+        "DOI": "10.1073/pnas.2105253118"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bloom J. D. , Beichman A. C. , Neher R. A. , and Harris K . 2023. Evolution of the SARS-CoV-2 Mutational Spectrum. Mol. Biol. Evol. 40.",
+        "DOI": "10.1093/molbev/msad085"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bradley C. C. et al. 2024. Targeted accurate RNA consensus sequencing (tARC-seq) reveals mechanisms of replication error affecting SARS-CoV-2 divergence. Nat Microbiol.",
+        "DOI": "10.1038/s41564-024-01655-4"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1002243"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-3914861/v1"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-022-01033-y"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cook R. et al. 2024. The long and short of it: benchmarking viromics using Illumina, Nanopore and PacBio sequencing technologies. Microb Genom 10.",
+        "DOI": "10.1099/mgen.0.001198"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gigascience/giab008"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abb5813"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.03248-15"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0247258"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fournelle D. et al. 2024. Intra-Host Evolution Analyses in an Immunosuppressed Patient Supports SARS-CoV-2 Viral Reservoir Hypothesis. Viruses 16.",
+        "DOI": "10.3390/v16030342"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fox E. J. , Reid-Bayliss K. S. , Emond M. J. , and Loeb L. A . 2014. Accuracy of Next Generation Sequencing Platforms. Next Gener Seq Appl 1.",
+        "DOI": "10.4172/2469-9853.1000106"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1186/s12985-023-01982-8",
+        "article-title": "Analysis of 3.5 million SARS-CoV-2 sequences reveals unique mutational trends with consistent nucleotide and codon frequencies",
+        "volume": "20",
+        "year": "2023",
+        "journal-title": "Virol. J"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghafari M. , Liu Q. , Dhillon A. , Katzourakis A. , and Weissman D. B . 2022. Investigating the evolutionary origins of the first three SARS-CoV-2 variants of concern. Frontiers in Virology 2.",
+        "DOI": "10.3389/fviro.2022.942555"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.11.04.515237"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-018-1618-7"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2164-13-194"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty407"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1038/s41586-021-04353-x",
+        "article-title": "SARS-CoV-2 infection in free-ranging white-tailed deer",
+        "volume": "602",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0011345"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "881",
+        "DOI": "10.3201/eid2804.220146",
+        "article-title": "Amplification Artifact in SARS-CoV-2 Omicron Sequences Carrying P681R Mutation, New York, USA",
+        "volume": "28",
+        "year": "2022",
+        "journal-title": "Emerg. Infect. Dis"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "veac080",
+        "DOI": "10.1093/ve/veac080",
+        "article-title": "The origins and molecular evolution of SARS-CoV-2 lineage B.1.1.7 in the UK",
+        "volume": "8",
+        "year": "2022",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "104264",
+        "DOI": "10.1016/j.compbiomed.2021.104264",
+        "article-title": "UMAP-assisted K-means clustering of large-scale SARS-CoV-2 mutation datasets",
+        "volume": "131",
+        "year": "2021",
+        "journal-title": "Comput. Biol. Med"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.26",
+        "first-page": "vex030",
+        "article-title": "On the effective depth of viral sequence data",
+        "volume": "3",
+        "year": "2017",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karim M. R. , Islam T. , Beyan O. , Lange C. , Cochez M. , Rebholz-Schuhmann D. , and Decker S . 2022. Explainable AI for Bioinformatics: Methods, Tools, and Applications.",
+        "DOI": "10.1093/bib/bbad236"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4939-3369-3_13"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1146/annurev-virology-010320-061642",
+        "article-title": "Within-Host Viral Diversity: A Window into Viral Evolution",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Annu Rev Virol"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp324"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.31",
+        "unstructured": "Lythgoe K. A. et al. 2021. SARS-CoV-2 within-host diversity and transmission. Science 372."
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.32",
+        "first-page": "2579",
+        "article-title": "Visualizing Data using t-SNE",
+        "volume": "9",
+        "year": "2008",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.1038/s41579-023-00878-2",
+        "article-title": "The evolution of SARS-CoV-2",
+        "volume": "21",
+        "year": "2023",
+        "journal-title": "Nat. Rev. Microbiol"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00667-16"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2164-14-501"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "e28848",
+        "DOI": "10.1002/jmv.28848",
+        "article-title": "Traceability of SARS-CoV-2 transmission through quasispecies analysis",
+        "volume": "95",
+        "year": "2023",
+        "journal-title": "J. Med. Virol"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-019-0336-3"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moshiri K. , Mahmanzar M. , Mahdavi B. , Tokhanbigli S. , Rahimian K. , and Tavakolpour S . 2023. Mutation accumulation of SARS-CoV-2 genome in North America, South America, and Oceania: Analysis of over 6.5 million sequences samples from Global Initiative on Sharing Avian Influenza Data.",
+        "DOI": "10.21203/rs.3.rs-2684860/v1"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17632/8nvgtrkzdm.1"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mostefai F. et al. 2022. Population Genomics Approaches for Genetic Characterization of SARS-CoV-2 Lineages. Front. Med.: 826746.",
+        "DOI": "10.3389/fmed.2022.826746"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1186/s13073-021-00986-9",
+        "article-title": "A small number of early introductions seeded widespread transmission of SARS-CoV-2 in Qu\u00e9bec, Canada",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Genome Med"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muyas F. , Sauer C. M. , Valle-Incl\u00e1n J. E. , Li R. , Rahbari R. , Mitchell T. J. , Hormoz S. , and Cort\u00e9s-Ciriano I . 2023. De novo detection of somatic mutations in high-throughput single-cell profiling data sets. Nat. Biotechnol.",
+        "DOI": "10.1038/s41587-023-01863-z"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "107394",
+        "DOI": "10.1016/j.isci.2023.107394",
+        "article-title": "Selection for immune evasion in SARS-CoV-2 revealed by highresolution epitope mapping and sequence analysis",
+        "volume": "26",
+        "year": "2023",
+        "journal-title": "iScience"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature07331"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oreshkova N. et al. 2020. SARS-CoV-2 infection in farmed minks, the Netherlands, April and May 2020. Euro Surveill. 25.",
+        "DOI": "10.2807/1560-7917.ES.2020.25.23.2001005"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abe5901"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1007/s00180-021-01116-0",
+        "article-title": "Reduced multidimensional scaling",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "Comput. Stat"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.48",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine Learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0056883"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.50",
+        "unstructured": "Popa A. et al. 2020. Genomic epidemiology of superspreading events in Austria reveals mutational dynamics and transmission properties of SARS-CoV-2. Sci. Transl. Med. 12."
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2022.06.023"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsos.220600"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-0200770-5"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robinson S. J. et al. 2023. Surveillance for SARS-CoV-2 in Norway Rats (Rattus norvegicus) from Southern Ontario. Transbound. Emerg. Dis. 2023.",
+        "DOI": "10.22541/au.166214344.47276029/v1"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "2745",
+        "DOI": "10.1038/s41467-022-30518-x",
+        "article-title": "Co-infection with SARS-CoV-2 Omicron and Delta variants revealed by genomic surveillance",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.56",
+        "first-page": "e0104623",
+        "article-title": "Optimized quantification of intra-host viral diversity in SARS-CoV-2 and influenza virus sequence data",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "MBio"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sacchetto L. et al. 2021. Lack of Evidence of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Spillover in Free-Living Neotropical Non-Human Primates, Brazil. Viruses 13.",
+        "DOI": "10.3390/v13101933"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saldivar-Espinoza B. , Garcia-Segura P. , Novau-Ferr\u00e9 N. , Macip G. , Mart\u00ednez R. , Puigb\u00f2 P. , Cereto-Massagu\u00e9 A. , Pujadas G. , and Garcia-Vallve S. 2023. The Mutational Landscape of SARS-CoV-2. Int. J. Mol. Sci. 24.",
+        "DOI": "10.3390/ijms24109072"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature25983"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith E. A. et al. 2023. Pathogen genomics in public health laboratories: successes, challenges, and lessons learned from California\u2019s SARS-CoV-2 Whole-Genome Sequencing Initiative, California COVIDNet. Microb Genom 9.",
+        "DOI": "10.1099/mgen.0.001027"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-30163-4"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "veac103",
+        "DOI": "10.1093/ve/veac103",
+        "article-title": "Viral intra-host evolutionary dynamics revealed via serial passage of Japanese encephalitis virus in vitro",
+        "volume": "9",
+        "year": "2023",
+        "journal-title": "Virus Evol"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tamazian G. , Komissarov A. B. , Kobak D. , Polyakov D. , Andronov E. , Nechaev S. , Kryzhevich S ., Porozov Y. , and Stepanov E. 2022. t-SNE Highlights Phylogenetic and Temporal Patterns of SARS-CoV-2 Spike and Nucleocapsid Protein Evolution: 255\u2013262.",
+        "DOI": "10.1007/978-3-031-23198-8_23"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tapinos A. , Constantinides B. , Phan M. V. T. , Kouchaki S. , Cotten M. , and Robertson D. L . 2019. The Utility of Data Transformation for Alignment, De Novo Assembly and Classification of Short Read Virus Sequences. Viruses 11.",
+        "DOI": "10.20944/preprints201904.0014.v1"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thielen P. M. et al. 2021. Genomic diversity of SARS-CoV-2 during early introduction into the Baltimore-Washington metropolitan area. JCI Insight 6.",
+        "DOI": "10.1172/jci.insight.144350"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.66",
+        "unstructured": "Tonkin-Hill G. et al. 2021. Patterns of within-host genetic diversity in SARS-CoV-2. Elife 10."
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.67",
+        "doi-asserted-by": "crossref",
+        "first-page": "e478",
+        "DOI": "10.1016/S2666-5247(22)00119-7",
+        "article-title": "Co-infection with SARS-CoV-2 omicron BA.1 and BA.2 subvariants in a non-vaccinated woman",
+        "volume": "3",
+        "year": "2022",
+        "journal-title": "Lancet Microbe"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang B. and Jiang L . 2021. Principal Component Analysis Applications in COVID-19 Genome Sequence Studies. Cognit. Comput.: 1\u201312.",
+        "DOI": "10.1007/s12559-020-09790-w"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-021-00847-5"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.10.10.511625"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-31247-x"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.72",
+        "first-page": "e0067923",
+        "article-title": "SARS-CoV-2 within-host diversity of human hosts and its implications for viral immune evasion",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "MBio"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virusres.2016.12.009"
+      },
+      {
+        "key": "2024050407351049000_2024.04.26.591384v2.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "veac106",
+        "DOI": "10.1093/ve/veac106",
+        "article-title": "SARS-CoV-2 intra-host single-nucleotide variants associated with disease severity",
+        "volume": "8",
+        "year": "2022",
+        "journal-title": "Virus Evol"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.26.591384",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:20:17Z",
+      "timestamp": 1768458017000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.04.26.591384"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          29
+        ]
+      ]
+    },
+    "references-count": 74,
+    "URL": "https://doi.org/10.1101/2024.04.26.591384",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/nargab/lqae145",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

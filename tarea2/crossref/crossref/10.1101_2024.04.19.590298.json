@@ -1,0 +1,463 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T16:19:28Z",
+      "timestamp": 1776010768363,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          19
+        ]
+      ]
+    },
+    "group-title": "Molecular Biology",
+    "reference-count": 49,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              19
+            ]
+          ],
+          "date-time": "2024-04-19T00:00:00Z",
+          "timestamp": 1713484800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Defining the binding epitopes of antibodies is essential for understanding how they bind to their antigens and perform their molecular functions. However, while determining linear epitopes of monoclonal antibodies can be accomplished utilizing well-established empirical procedures, these approaches are generally labor- and time-intensive and costly. To take advantage of the recent advances in protein structure prediction algorithms available to the scientific community, we developed a calculation pipeline based on the localColabFold implementation of AlphaFold2 that can predict linear antibody epitopes by predicting the structure of the complex between antibody heavy and light chains and target peptide sequences derived from antigens. We found that this AlphaFold2 pipeline, which we call PAbFold, was able to accurately flag known epitope sequences for several well-known antibody targets (HA / Myc) when the target sequence was broken into small overlapping linear peptides and antibody complementarity determining regions (CDRs) were grafted onto several different antibody framework regions in the single-chain antibody fragment (scFv) format. To determine if this pipeline was able to identify the epitope of a novel antibody with no structural information publicly available, we determined the epitope of a novel anti-SARS-CoV-2 nucleocapsid targeted antibody using our method and then experimentally validated our computational results using peptide competition ELISA assays. These results indicate that the AlphaFold2-based PAbFold pipeline we developed is capable of accurately identifying linear antibody epitopes in a short time using just antibody and target protein sequences. This emergent capability of the method is sensitive to methodological details such as peptide length, AlphaFold2 neural network versions, and multiple-sequence alignment database. PAbFold is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/jbderoo/PAbFold\">https://github.com/jbderoo/PAbFold</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2024.04.19.590298",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2024-04-19T22:35:10Z",
+      "timestamp": 1713566110000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "PAbFold: Linear Antibody Epitope Prediction using AlphaFold2"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jacob",
+        "family": "DeRoo",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "James S.",
+        "family": "Terry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ning",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0151-6274",
+        "authenticated-orcid": false,
+        "given": "Timothy J.",
+        "family": "Stasevich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher D.",
+        "family": "Snow",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8180-5772",
+        "authenticated-orcid": false,
+        "given": "Brian J.",
+        "family": "Geiss",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1745-7580-2-2"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-9-1"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.21078"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.STR.2019.10.011"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja026939x"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.10389"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.7",
+        "unstructured": "Cai H , Zhang Z , Wang M , Wu Y , Ying T , Tang J . 2021. Pretrainable Geometric Graph Neural Network for Antibody Affinity Maturation."
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He H , He B , Guan L , Zhao Y , Chen G , Zhu Q , Yu-chian C . 2023. De novo generation of antibody CDRH3 with a pre-trained generative large language model.",
+        "DOI": "10.1101/2023.10.17.562827"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jin W , Chen X , Vetticaden A , Sarzikova S , Raychowdhury R , Uhler C , Hacohen N . 2023. DSMBind: SE(3) denoising score matching for unsupervised binding energy prediction and nanobody design. bioRxiv 1\u201324.",
+        "DOI": "10.1101/2023.12.10.570461"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.10",
+        "first-page": "1",
+        "article-title": "Structural modeling of antibody variable regions using deep learning\u2014progress and perspectives on drug discovery",
+        "volume": "10",
+        "year": "2023",
+        "journal-title": "Front Mol Biosci"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-021-03819-2"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Evans R , O\u2019Neill M , Pritzel A , Antropova N , Senior A , Green T , \u017d\u00eddek A , Bates R , Blackwell S , Yim J , Ronneberger O , Bodenstein S , Zielinski M , Bridgland A , Potapenko A , Cowie A , Tunyasuvunakool K , Jain R , Clancy E , Kohli P , Jumper J , Hassabis D . 2022. Protein complex prediction with AlphaFold-Multimer. bioRxiv 2021.10.04.463034.",
+        "DOI": "10.1101/2021.10.04.463034"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.78.19.10724-10737.2004"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1171491"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.str.2004.01.003"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature05580"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ko J , Lee J . 2021. Can AlphaFold2 predict protein-peptide complex structures accurately? bioRxiv 2021.07.27.453972.",
+        "DOI": "10.1101/2021.07.27.453972"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-27838-9"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghani U , Desta I , Jindal A , Khan O , Jones G , Hashemi N , Kotelnikov S , Padhorny D , Vajda S , Kozakov D . 2022. Improved Docking of Protein Models by a Combination of Alphafold2 and ClusPro. bioRxiv 2021.09.07.459290.",
+        "DOI": "10.1101/2021.09.07.459290"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/28.1.214"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0145-305X(02)00094-0"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao N , Kamijo K , Fox PD , Oda H , Morisaki T , Sato Y , Kimura H , Stasevich TJ . 2019. A genetically encoded probe for imaging nascent and mature HA-tagged proteins in vivo. Nat Commun 10.",
+        "DOI": "10.1038/s41467-019-10846-1"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41592-022-01488-1"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Desta IT , Kotelnikov S , Jones G , Ghani U , Abyzov M , Kholodov Y , Standley DM , Beglov D , Vajda S , Kozakov D . 2023. The ClusPro AbEMap web server for the prediction of antibody epitopes. Nat Protoc 18.",
+        "DOI": "10.1038/s41596-023-00826-7"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeng Y , Wei Z , Yuan Q , Chen S , Yu W , Lu Y , Gao J , Yang Y . 2023. Identifying B-cell epitopes using AlphaFold2 predicted structures and pretrained language model. Bioinformatics 39.",
+        "DOI": "10.1093/bioinformatics/btad187"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.26420"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ahdritz G , Bouatta N , Kadyan S , Xia Q , Gerecke W, O TJ , Berenberg D , Fisk I , Zanichelli N , Zhang B , Nowaczynski A , Wang B , Stepniewska-Dziubinska MM , Zhang S , Ojewole A , Efe Guney M , Biderman S , Watkins AM , Ra S , Ribalta Lorenzo P , Nivon L , Weitzner B , Andrew Ban Y-E , Sorger PK , Mostaque E , Zhang Z , Bonneau R , AlQuraishi M , Allen Hamilton B , Bio C . 2022. OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization. bioRxiv 2022.11.20.517210.",
+        "DOI": "10.1101/2022.11.20.517210"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee JH , Yadollahpour P , Watkins A , Frey NC , Leaver-Fay A , Ra S , Cho K , Gligorijev\u00edcgligorijev\u00edc V , Regev A , Bonneau R . 2023. EquiFold: Protein Structure Prediction with a Novel Coarse-Grained Structure Representation. bioRxiv 2022.10.07.511322.",
+        "DOI": "10.1101/2022.10.07.511322"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "155a",
+        "DOI": "10.1016/j.bpj.2021.11.1942",
+        "article-title": "Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies",
+        "volume": "121",
+        "year": "2022",
+        "journal-title": "Biophys J"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003-023-04927-7"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patter.2021.100406"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btt473"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.virol.2021.01.003"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Interactions P . 2002. A Single-Chain Antibody / Epitope System for Functional Analysis of. Society 12729\u201312738.",
+        "DOI": "10.1021/bi0263309"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.22080"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2016.08.010"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/bi0263309"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Churchill MEA , Stura EA , Pinilla C , Appel JR , Houghten RA , Kono DH , Balderas RS , Fieser GG , Schulze-Gahmen U , Wilson IA . 1994. Crystal structure of a peptide complex of anti-influenza peptide antibody Fab 26/9: Comparison of two different antibodies bound to the same peptide antigen. J Mol Biol.",
+        "DOI": "10.1006/jmbi.1994.1530"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0006-3495(98)77529-0"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.2300150"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.3c00513"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Giulini M , Schneider C , Cutting D , Desai N , Deane CM , Bonvin AMJJ . 2023. Towards the accurate modelling of antibody-antigen complexes from sequence using machine learning and information-driven docking. bioRxiv 2023.11.17.567543.",
+        "DOI": "10.1101/2023.11.17.567543"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sbi.2022.102379"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2022.925741"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-021-07502-8"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab184"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0567739478001680"
+      },
+      {
+        "key": "2024122311564357000_2024.04.19.590298v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6028/jres.124.013"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.19.590298",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T06:18:44Z",
+      "timestamp": 1768457924000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.04.19.590298"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          19
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1101/2024.04.19.590298",
+    "relation": {
+      "has-version": [
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.98369.1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.98369.2",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:59:13Z",
+      "timestamp": 1768550353122,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          22
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 0,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Background\nSince its emergence in late 2019, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has caused a pandemic, with more than 4.8 million reported cases and 310 000 deaths worldwide. While epidemiological and clinical characteristics of COVID-19 have been reported, risk factors underlying the transition from mild to severe disease among patients remain poorly understood.\n\nMethods\nIn this retrospective study, we analysed data of 820 confirmed COVID-19 positive patients admitted to a two-site NHS Trust hospital in London, England, between January 1st and April 23rd, 2020, with a majority of cases occurring in March and April. We extracted anonymised demographic data, physiological clinical variables and laboratory results from electronic healthcare records (EHR) and applied multivariate logistic regression, random forest and extreme gradient boosted trees. To evaluate the potential for early risk assessment, we used data available during patients' initial presentation at the emergency department (ED) to predict deterioration to one of three clinical endpoints in the remainder of the hospital stay: A) admission to intensive care, B) need for mechanical ventilation and C) mortality. Based on the trained models, we extracted the most informative clinical features in determining these patient trajectories.\n\nResults\nConsidering our inclusion criteria, we have identified 126 of 820 (15%) patients that required intensive care, 62 of 808 (8%) patients needing mechanical ventilation, and 170 of 630 (27%) cases of in-hospital mortality. Our models learned successfully from early clinical data and predicted clinical endpoints with high accuracy, the best model achieving AUC-ROC scores of 0.75 to 0.83 (F1 scores of 0.41 to 0.56). Younger patient age was associated with an increased risk of receiving intensive care and ventilation, but lower risk of mortality. Clinical indicators of a patient's oxygen supply and selected laboratory results were most predictive of COVID-19 patient trajectories.\n\nConclusion\nAmong COVID-19 patients machine learning can aid in the early identification of those with a poor prognosis, using EHR data collected during a patient's first presentation at ED. Patient age and measures of oxygenation status during ED stay are primary indicators of poor patient outcomes.</jats:p>",
+    "DOI": "10.1101/2020.05.19.20086488",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          22
+        ]
+      ],
+      "date-time": "2020-05-22T11:15:17Z",
+      "timestamp": 1590146117000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Early risk assessment for COVID-19 patients from emergency department data using machine learning"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9276-5013",
+        "authenticated-orcid": false,
+        "given": "Frank Stefan",
+        "family": "Heldt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Marcela P",
+        "family": "Vizcaychipi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6966-680X",
+        "authenticated-orcid": false,
+        "given": "Sophie",
+        "family": "Peacock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9306-8079",
+        "authenticated-orcid": false,
+        "given": "Mattia",
+        "family": "Cinelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lachlan",
+        "family": "McLachlan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6868-4718",
+        "authenticated-orcid": false,
+        "given": "Fernando",
+        "family": "Andreotti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stojan",
+        "family": "Jovanovic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4014-3941",
+        "authenticated-orcid": false,
+        "given": "Robert",
+        "family": "Durichen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6478-9408",
+        "authenticated-orcid": false,
+        "given": "Nadezda",
+        "family": "Lipunova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert A",
+        "family": "Fletcher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anne",
+        "family": "Hancock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alex",
+        "family": "McCarthy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard A",
+        "family": "Pointon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James",
+        "family": "Eaton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9266-4055",
+        "authenticated-orcid": false,
+        "given": "Roberto",
+        "family": "Liddi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1927-1594",
+        "authenticated-orcid": false,
+        "given": "Lucy",
+        "family": "Mackillop",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0118-1646",
+        "authenticated-orcid": false,
+        "given": "Lionel",
+        "family": "Tarassenko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rabia Tahir",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.19.20086488",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:41:09Z",
+      "timestamp": 1768484469000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.19.20086488"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          22
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/2020.05.19.20086488",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41598-021-83784-y",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

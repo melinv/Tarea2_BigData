@@ -1,0 +1,297 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:18:16Z",
+      "timestamp": 1768555096641,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          16
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 20,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>We previously interrogated the relationship between SARS-CoV-2 genetic mutations and associated patient outcomes using publicly available data downloaded from GISAID in October 2020 [1]. Using high-level patient data included in some GISAID submissions, we were able to aggregate patient status values and differentiate between severe and mild COVID-19 outcomes. In our previous publication, we utilized a logistic regression model with an L1 penalty (Lasso regularization) and found several statistically significant associations between genetic mutations and COVID-19 severity. In this work, we explore the applicability of our October 2020 findings to a more current phase of the COVID-19 pandemic.</jats:p>\n                <jats:p>\n                  Here we first test our previous models on newer GISAID data downloaded in October 2021 to evaluate the classification ability of each model on expanded datasets. The October 2021 dataset (n=53,787 samples) is approximately 15 times larger than our October 2020 dataset (n=3,637 samples). We show limitations in using a supervised learning approach and a need for expansion of the feature sets based on progression of the COVID-19 pandemic, such as vaccination status. We then re-train on the newer GISAID data and compare the performance of our two logistic regression models. Based on accuracy and Area Under the Curve (AUC) metrics, we find that the AUC of the re-trained October 2021 model is modestly decreased as compared to the October 2020 model. These results are consistent with the increased emergence of multiple mutations, each with a potentially smaller impact on COVID-19 patient outcomes. Bioinformatics scripts used in this study are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/JPEO-CBRND/opendata-variant-analysis\">https://github.com/JPEO-CBRND/opendata-variant-analysis</jats:ext-link>\n                  . As described in Voss et al. 2021, machine learning scripts are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Digital-Biobank/covid_variant_severity\">https://github.com/Digital-Biobank/covid_variant_severity</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2022.04.15.22273922",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          16
+        ]
+      ],
+      "date-time": "2022-04-16T15:35:24Z",
+      "timestamp": 1650123324000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Linking Genotype to Phenotype: Further Exploration of Mutations in SARS-CoV-2 Associated with Mild or Severe Outcomes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Roshna",
+        "family": "Agarwal",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Tyler",
+        "family": "Leblond",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Erin M",
+        "family": "McAuley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ezekiel J",
+        "family": "Maier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martin",
+        "family": "Skarzynski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jameson D",
+        "family": "Voss",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shanmuga",
+        "family": "Sozhamannan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/emph/eoab019"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.2"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McKinney, Wes . \u201cData structures for statistical computing in python.\u201d Proceedings of the 9th Python in Science Conference. Vol. 445. No. 1. 2010.",
+        "DOI": "10.25080/Majora-92bf1922-00a"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.4",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "the Journal of machine Learning research"
+      },
+      {
+        "issue": "03",
+        "key": "2022081808500791000_2022.04.15.22273922v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1109/MCSE.2007.55",
+        "article-title": "Matplotlib: A 2D graphics environment",
+        "volume": "9",
+        "year": "2007",
+        "journal-title": "Computing in science & engineering"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.6",
+        "unstructured": "Waskom, Michael , et al. \u201cMwaskom/Seaborn: V0. 8.1 (September 2017).\u201d Zenodo (2017)."
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rayko, Mikhail , and Aleksey Komissarov . \u201cQuality Control Of Low-Frequency Variants In SARS-Cov-2 Genomes\u201d. 2020. Cold Spring Harbor Laboratory, https://doi.org/10.1101/2020.04.26.062422. Accessed 11 Jan 2022.",
+        "DOI": "10.1101/2020.04.26.062422"
+      },
+      {
+        "issue": "3",
+        "key": "2022081808500791000_2022.04.15.22273922v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "article-title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Xiang-Jiao . \u201c\u03b4 subvariants of SARS-COV-2 in Israel, Qatar and Bahrain: Optimal vaccination as an effective strategy to block viral evolution and control the pandemic.\u201d medRxiv (2021).",
+        "DOI": "10.1101/2021.11.01.21265445"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sokhansanj, Bahrad A. , Zhengqiao Zhao , and Gail L. Rosen . \u201cInterpretable and Predictive Deep Modeling of the SARS-CoV-2 Spike Protein Sequence.\u201d medRxiv (2021).",
+        "DOI": "10.1101/2021.12.26.21268414"
+      },
+      {
+        "issue": "3",
+        "key": "2022081808500791000_2022.04.15.22273922v2.12",
+        "first-page": "e00788",
+        "article-title": "Identification of a High-Frequency Intrahost SARS-CoV-2 Spike Variant with Enhanced Cytopathic and Fusogenic Effects",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Mbio"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nagpal, Sunil , et al. \u201c(Machine) Learning the mutation signatures of SARS-CoV-2: a primer for predictive prognosis.\u201d bioRxiv (2021).",
+        "DOI": "10.1101/2021.08.30.458244"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ygeno.2012.04.003"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qi, Yanjun . \u201cRandom forest for bioinformatics.\u201d Ensemble machine learning. Springer, Boston, MA, 2012. 307\u2013323.",
+        "DOI": "10.1007/978-1-4419-9326-7_11"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-022-00215-2"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg3920"
+      },
+      {
+        "issue": "1",
+        "key": "2022081808500791000_2022.04.15.22273922v2.18",
+        "first-page": "1",
+        "article-title": "A semi-supervised machine learning framework for microRNA classification",
+        "volume": "13",
+        "year": "2019",
+        "journal-title": "Human genomics"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicora, Giovanna , et al. \u201cA semi-supervised learning approach for pan-cancer somatic genomic variant classification.\u201d Conference on Artificial Intelligence in Medicine in Europe. Springer, Cham, 2019.",
+        "DOI": "10.1007/978-3-030-21642-9_7"
+      },
+      {
+        "key": "2022081808500791000_2022.04.15.22273922v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vitsios, Dimitrios , and Slav\u00e9 Petrovski . \u201cStochastic semi-supervised learning to prioritise genes from high-throughput genomic screens.\u201d bioRxiv (2019): 655449.",
+        "DOI": "10.1101/655449"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.15.22273922",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:41:31Z",
+      "timestamp": 1768488091000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.04.15.22273922"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          16
+        ]
+      ]
+    },
+    "references-count": 20,
+    "URL": "https://doi.org/10.1101/2022.04.15.22273922",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

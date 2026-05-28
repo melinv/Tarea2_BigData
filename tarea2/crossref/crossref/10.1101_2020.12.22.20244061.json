@@ -1,0 +1,329 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:01:55Z",
+      "timestamp": 1768550515689,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 20,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>\n                  A\n                  <jats:sc>bstract</jats:sc>\n                </jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The propagation of COVID-19 in Spain prompted the declaration of the state of alarm on March 14, 2020. On 2 December 2020, the infection had been confirmed in 1,665,775 patients and caused 45,784 deaths. This unprecedented health crisis challenged the ingenuity of all professionals involved. Decision support systems in clinical care and health services management were identified as crucial in the fight against the pandemic.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>This study applies Deep Learning techniques for mortality prediction of COVID-19 patients. Two datasets with clinical information (medication, laboratory tests, vital signs etc.) were used. They are comprised of 2,307 and 3,870 COVID-19 infected patients admitted to two Spanish hospital chains. Firstly, we built a sequence of temporal events gathering all the clinical information for each patient. Next, we used the temporal sequences to train a Recurrent Neural Network (RNN) model with an attention mechanism exploring interpretability. We conducted extensive experiments and trained the RNNs in different settings, performing hyperparameter search and cross-validation. We ensembled resulting RNNs to reduce variability and enhance sensitivity.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We assessed the performance of our models using global metrics, by averaging the performance across all the days in the sequences. We also measured day-by-day metrics starting from the day of hospital admission and the outcome day and evaluated the daily predictions. Regarding sensitivity, when compared to more traditional models, our best two RNN ensemble models outperform a Support Vector Classifier in 6 and 16 percentage points, and Random Forest in 23 and 18 points. For the day-by-day predictions from the outcome date, the models also achieved better results than baselines showing its ability towards early predictions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>We have shown the feasibility of our approach to predict the clinical outcome of patients infected with SARS-CoV-2. The result is a time series model that can support decision-making in healthcare systems and aims at interpretability. The system is robust enough to deal with real world data and it is able to overcome the problems derived from the sparsity and heterogeneity of the data. In addition, the approach was validated using two datasets showing substantial differences. This not only validates the robustness of the proposal but also meets the requirements of a real scenario where the interoperability between hospitals\u2019 datasets is difficult to achieve.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.12.22.20244061",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2020-12-24T04:25:46Z",
+      "timestamp": 1608783946000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Predicting the Evolution of COVID-19 Mortality Risk: a Recurrent Neural Network Approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Marta",
+        "family": "Villegas",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Aitor",
+        "family": "Gonzalez-Agirre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Asier",
+        "family": "Guti\u00e9rrez-Fandi\u00f1o",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jordi",
+        "family": "Armengol-Estap\u00e9",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Casimiro Pio",
+        "family": "Carrino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "P\u00e9rez Fern\u00e1ndez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Felipe",
+        "family": "Soares",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pablo",
+        "family": "Serrano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Miguel",
+        "family": "Pedrera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Noelia",
+        "family": "Garc\u00eda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alfonso",
+        "family": "Valencia",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.1",
+        "first-page": "460",
+        "article-title": "An interpretable icu mortality prediction model based on logistic regression and recurrent neural networks with lstm units",
+        "volume": "2018",
+        "year": "2018",
+        "journal-title": "AMIA Annual Symposium proceedings"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Douglas Teoh . Towards stroke prediction using electronic health records. BMC Medical Informatics and Decision Making, 18, 2018.",
+        "DOI": "10.1186/s12911-018-0702-y"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Chang , D. Chang , and M. Pourhomayoun . Risk prediction of critical vital signs for icu patients using recurrent neural network. In 2019 International Conference on Computational Science and Computational Intelligence (CSCI), pages 1003\u20131006, 2019.",
+        "DOI": "10.1109/CSCI49370.2019.00191"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.4",
+        "first-page": "103",
+        "article-title": "Monitoring icu mortality risk with a long short-term memory recurrent neural network",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.5",
+        "unstructured": "Zachary C. Lipton , David C. Kale , Charles Elkan , and Randall Wetzel . Learning to diagnose with lstm recurrent neural networks, 2015."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.7",
+        "unstructured": "Edward Choi , Mohammad Taha Bahadori , and Jimeng Sun . Doctor AI: predicting clinical events via recurrent neural networks. CoRR, abs/1511.05942, 2015."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.8",
+        "unstructured": "Tomas Mikolov , Ilya Sutskever , Kai Chen , Greg Corrado , and Jeffrey Dean . Distributed representations of words and phrases and their compositionality, 2013."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.9",
+        "unstructured": "Edward Choi , Mohammad Taha Bahadori , Jimeng Sun , Joshua A Kulas , Andy Schuetz , and Walter F. Stewart . Retain: An interpretable predictive model for healthcare using reverse time attention mechanism. In NIPS, 2016."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.10",
+        "unstructured": "Fenglong Ma , Radha Chitta , Jing Zhou , Quanzeng You , Tong Sun , and Jing Gao . Dipole: Diagnosis prediction in healthcare via attention-based bidirectional recurrent neural networks. Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2017."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.11",
+        "first-page": "8152713",
+        "article-title": "A long short-term memory ensemble approach for improving the outcome prediction in intensive care unit",
+        "volume": "2019",
+        "year": "2019",
+        "journal-title": "Computational and Mathematical Methods in Medicine"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dimitris Bertsimas , Galit Lukin , Luca Mingardi , Omid Nohadani , Agni Orfanoudaki , Bartolomeo Stellato , Holly Wiberg , Sara Gonzalez-Garcia , Carlos Luis Parra-Calderon , Kenneth Robinson , Michelle Schneider , Barry Stein , Alberto Estirado , Lia a Beccara , Rosario Canino , Martina Dal Bello , Federica Pezzetti , and Angelo Pan . Covid-19 mortality risk assessment: An international multi-center study. medRxiv, 2020.",
+        "DOI": "10.1101/2020.07.07.20148304"
+      },
+      {
+        "issue": "5",
+        "key": "2021011301450558000_2020.12.22.20244061v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1038/s42256-020-0180-7",
+        "article-title": "An interpretable mortality prediction model for covid-19 patients",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "2021011301450558000_2020.12.22.20244061v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "6085",
+        "DOI": "10.1038/s41598-018-24271-9",
+        "article-title": "Recurrent neural networks for multivariate time series with missing values",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocw112"
+      },
+      {
+        "issue": "1",
+        "key": "2021011301450558000_2020.12.22.20244061v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "9161",
+        "DOI": "10.1038/s41598-018-27337-w",
+        "article-title": "Predictive modeling of the progression of alzheimer\u2019s disease with recurrent neural networks",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "1",
+        "key": "2021011301450558000_2020.12.22.20244061v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.1186/s12911-019-0775-2",
+        "article-title": "Predicting life expectancy with a long short-term memory recurrent neural network using electronic medical records",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "BMC Medical Informatics and Decision Making"
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.18",
+        "unstructured": "Kyunghyun Cho , Bart van Merrienboer , \u00e7aglar G\u00fcl\u00e7ehre , Fethi Bougares , Holger Schwenk , and Yoshua Bengio . Learning phrase representations using RNN encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.19",
+        "unstructured": "Dzmitry Bahdanau , Kyunghyun Cho , and Yoshua Bengio . Neural machine translation by jointly learning to align and translate, 2014."
+      },
+      {
+        "key": "2021011301450558000_2020.12.22.20244061v2.20",
+        "unstructured": "Tsung-Yi Lin , Priya Goyal , Ross B. Girshick , Kaiming He , and Piotr Doll\u00e1r . Focal loss for dense object detection. CoRR, abs/1708.02002, 2017."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.12.22.20244061",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:01:56Z",
+      "timestamp": 1768485716000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.12.22.20244061"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "references-count": 20,
+    "URL": "https://doi.org/10.1101/2020.12.22.20244061",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.cmpbup.2022.100089",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

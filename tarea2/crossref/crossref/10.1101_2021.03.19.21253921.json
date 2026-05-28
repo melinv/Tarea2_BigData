@@ -1,0 +1,350 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:56:52Z",
+      "timestamp": 1768550212573,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          24
+        ]
+      ]
+    },
+    "group-title": "Emergency Medicine",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>Patients, families and community members would like emergency department wait time visibility. This would improve patient journeys through emergency medicine. The study objective was to derive, internally and externally validate machine learning models to predict emergency patient wait times that are applicable to a wide variety of emergency departments.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Twelve emergency departments provided three years of retrospective administrative data from Australia (2017-19). Descriptive and exploratory analyses were undertaken on the datasets. Statistical and machine learning models were developed to predict wait times at each site and were internally and externally validated. Model performance was tested on COVID-19 period data (January to June 2020).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>There were 1,930,609 patient episodes analysed and median site wait times varied from 24 to 54 minutes. Individual site model prediction median absolute errors varied from +/\u221222.6 minutes (95%CI 22.4,22.9) to +/\u2212 44.0 minutes (95%CI 43.4,44.4). Global model prediction median absolute errors varied from +/\u221233.9 minutes (95%CI 33.4, 34.0) to +/\u221243.8 minutes (95%CI 43.7, 43.9). Random forest and linear regression models performed the best, rolling average models under-estimated wait times. Important variables were triage category, last-k patient average wait time, and arrival time. Wait time prediction models are not transferable across hospitals. Models performed well during the COVID-19 lockdown period.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Electronic emergency demographic and flow information can be used to approximate emergency patient wait times. A general model is less accurate if applied without site specific factors.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>What is already known on this subject</jats:title>\n                  <jats:list list-type=\"simple\">\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>Patients and families want to know approximate emergency wait times, which will improve their ability to manage their logistical, physical and emotional needs whilst waiting</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>There are a few small studies from a limited number of jurisdictions, reporting model methods, important predictor variables and accuracy of derived models</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>What this study adds</jats:title>\n                  <jats:list list-type=\"simple\">\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>Our study demonstrates that predicting wait times from simple, readily available data is complex and provides estimates that aren\u2019t as accurate as patients would like, however rough estimates may still be better than no information</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>We present the most influential variables regarding wait times and advise against using rolling average models, preferring random forest or linear regression techniques</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:label>\u2370</jats:label>\n                      <jats:p>Emergency medicine machine learning models may be less generalisable to other sites than we hope for when we read manuscripts or buy commercial off-the-shelf models or algorithms. Models developed for one site lose accuracy at another site and global models built for whole systems may need customisation to each individual site. This may apply to data science clinical decision instruments as well as operational machine learning models.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2021.03.19.21253921",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2021-03-24T15:10:17Z",
+      "timestamp": 1616598617000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Emergency medicine patient wait time multivariable prediction models: a multicentre derivation and validation study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5313-5852",
+        "authenticated-orcid": false,
+        "given": "Katie",
+        "family": "Walker",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jirayus",
+        "family": "Jiarpakdee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anne",
+        "family": "Loupis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chakkrit",
+        "family": "Tantithamthavorn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Keith",
+        "family": "Joe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Ben-Meir",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hamed",
+        "family": "Akhlaghi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jennie",
+        "family": "Hutton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Stephenson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gabriel",
+        "family": "Blecher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul",
+        "family": "Buntine",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amy",
+        "family": "Sweeny",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Burak",
+        "family": "Turhan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/acem.12063"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1742-6723.12530"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1865-1380-4-29"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1742-6723.12330"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1742-6723.13640"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.annemergmed.2012.03.011"
+      },
+      {
+        "issue": "2",
+        "key": "2021032611100535000_2021.03.19.21253921v1.7",
+        "first-page": "170",
+        "article-title": "Accurate emergency department wait time prediction",
+        "volume": "15",
+        "year": "2016",
+        "journal-title": "Manufacturing & Service Operations Management"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.8",
+        "unstructured": "Arha G. Reducing Wait Time Prediction In Hospital Emergency Room: Lean Analysis Using a Random Forest Model. Thesis. University of Tennessee. 2017"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "4854",
+        "DOI": "10.1609/aaai.v33i01.33014854",
+        "article-title": "Congestion Graphs for Automated Time Predictions",
+        "volume": "33",
+        "year": "2019",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.10",
+        "unstructured": "State government of Victoria. VEMD user manual 2018-19, Section 3, Data definitions. In: Department of Health and Human Services. Melbourne, Australia: Department of Health and Human Services, 2018:93. https://www2.health.vic.gov.au/about/publications/policiesandguidelines/vemd-manual-2018-19-sec-3-data-definitions (accessed 28th November 2020)"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.11",
+        "unstructured": "Gori M. Machine Learning : A Constraint-Based Approach. 1 a Ed. ed. Amsterdam Elsevier, 2018; 2018."
+      },
+      {
+        "issue": "5",
+        "key": "2021032611100535000_2021.03.19.21253921v1.12",
+        "first-page": "1969",
+        "article-title": "The impact of delay announcements on hospital network coordination and waiting times",
+        "volume": "65",
+        "year": "2019",
+        "journal-title": "Management Science"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hyndman RJ , Hyndman RJ . Forecasting : principles and practice. 2nd ed. ed. Heathmont, Vic. : OTexts; 2018.",
+        "DOI": "10.32614/CRAN.package.fpp2"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/11505"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSE.2018.2794977"
+      },
+      {
+        "issue": "3",
+        "key": "2021032611100535000_2021.03.19.21253921v1.16",
+        "first-page": "494",
+        "article-title": "Dominance statistics: Ordinal analyses to answer ordinal questions",
+        "volume": "114",
+        "year": "1993",
+        "journal-title": "Psychological Bulletin. April 19th, 1993"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.17",
+        "unstructured": "Romano J , Kromrey J , Coraggio J , et al. Appropriate statistics for ordinal level dataL: Should we really be using t-test and Cohen\u2019s d for evaluating group differences on the NSSE and other surveys? Florida Association of Institutional Research Annual Meeting. 2006:1\u201333."
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/AH20180"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0196-0644(96)70090-2"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1197/aemj.9.1.15"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2374373517731359"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1094670508319093"
+      },
+      {
+        "key": "2021032611100535000_2021.03.19.21253921v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jemermed.2011.01.018"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.19.21253921",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:11:00Z",
+      "timestamp": 1768486260000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.03.19.21253921"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          24
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2021.03.19.21253921",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1136/emermed-2020-211000",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

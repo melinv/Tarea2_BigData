@@ -1,0 +1,361 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:46:12Z",
+      "timestamp": 1768563972283,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>\n                    The time-varying reproduction number (R\n                    <jats:sub>t</jats:sub>\n                    ) is an important measure of epidemic transmissibility; it can directly inform policy decisions and the optimisation of control measures. EpiEstim is a widely used software tool that uses case incidence and the serial interval (SI, time between symptoms in a case and their infector) to estimate R\n                    <jats:sub>t</jats:sub>\n                    in real-time. The incidence and the SI distribution must be provided at the same temporal resolution, which limits the applicability of EpiEstim and other similar methods, e.g. for pathogens with a mean SI shorter than the frequency of incidence reporting.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    We use an expectation-maximisation algorithm to reconstruct daily incidence from temporally aggregated data, from which R\n                    <jats:sub>t</jats:sub>\n                    can then be estimated using EpiEstim. We assess the validity of our method using an extensive simulation study and apply it to COVID-19 and influenza data. The method is implemented in the opensource R package EpiEstim.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>\n                    For all datasets, the influence of intra-weekly variability in reported data was mitigated by using aggregated weekly data. R\n                    <jats:sub>t</jats:sub>\n                    estimated on weekly sliding windows using incidence reconstructed from weekly data was strongly correlated with estimates from the original daily data. The simulation study revealed that R\n                    <jats:sub>t</jats:sub>\n                    was well estimated in all scenarios and regardless of the temporal aggregation of the data. In the presence of weekend effects, R\n                    <jats:sub>t</jats:sub>\n                    estimates from reconstructed data were more successful at recovering the true value of R\n                    <jats:sub>t</jats:sub>\n                    than those obtained from reported daily data.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>\n                    R\n                    <jats:sub>t</jats:sub>\n                    can be successfully recovered from aggregated data, and estimation accuracy can even be improved by smoothing out administrative noise in the reported data.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding</jats:title>\n                  <jats:p>MRC doctoral training partnership, MRC centre for global infectious disease analysis, the NIHR HPRU in Modelling and Health Economics, and the Academy of Medical Sciences Springboard, funded by the AMS, Wellcome Trust, BEIS, the British Heart Foundation and Diabetes UK.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.12.08.22283241",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ],
+      "date-time": "2022-12-13T18:00:16Z",
+      "timestamp": 1670954416000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Estimating the epidemic reproduction number from temporally aggregated incidence data: a statistical modelling approach and software tool"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5213-4364",
+        "authenticated-orcid": false,
+        "given": "Rebecca K",
+        "family": "Nash",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8443-9162",
+        "authenticated-orcid": false,
+        "given": "Anne",
+        "family": "Cori",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6094-5722",
+        "authenticated-orcid": false,
+        "given": "Pierre",
+        "family": "Nouvellet",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-021-00639-z"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.2",
+        "unstructured": "National flu and COVID-19 surveillance reports: 2021 to 2022 season [Internet]. GOV.UK. [cited 2022 Jun 27]. Available from: https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2021-to-2022-season"
+      },
+      {
+        "issue": "6",
+        "key": "2022121503100856000_2022.12.08.22283241v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e44",
+        "DOI": "10.1056/NEJMoa1604037",
+        "article-title": "Zika Virus Disease in Colombia \u2014 Preliminary Report",
+        "volume": "383",
+        "year": "2020",
+        "journal-title": "New England Journal of Medicine"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.4",
+        "unstructured": "Notifiable diseases: weekly reports for 2022 [Internet]. GOV.UK. [cited 2022 Jun 27]. Available from: https://www.gov.uk/government/publications/notifiable-diseases-weekly-reports-for-2022"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.5",
+        "unstructured": "Notifiable Infectious Disease Tables | CDC [Internet]. 2021 [cited 2022 Jul 2]. Available from: https://www.cdc.gov/nndss/data-statistics/infectious-tables/index.html"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mishra S , Scott J , Zhu H , Ferguson NM , Bhatt S , Flaxman S , et al. A COVID-19 Model for Local Authorities of the United Kingdom [Internet]. medRxiv; 2020 [cited 2022 Jul 1]. p. 2020.11.24.20236661. Available from: https://www.medrxiv.org/content/10.1101/2020.11.24.20236661v1",
+        "DOI": "10.1101/2020.11.24.20236661"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.7",
+        "unstructured": "Role of Data Aggregation in Biosurveillance Detection Strategies with Applications from ESSENCE [Internet]. [cited 2022 Jul 2]. Available from: https://www.cdc.gov/mmwr/preview/mmwrhtml/su5301a16.htm"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aag0219"
+      },
+      {
+        "issue": "7",
+        "key": "2022121503100856000_2022.12.08.22283241v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009174",
+        "DOI": "10.1371/journal.pcbi.1009174",
+        "article-title": "Spatial and temporal invasion dynamics of the 2014\u20132017 Zika and chikungunya epidemics in Colombia",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0b013e31819d1092"
+      },
+      {
+        "issue": "6",
+        "key": "2022121503100856000_2022.12.08.22283241v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.1750-2659.2009.00106.x",
+        "article-title": "Estimation of the reproductive number and the serial interval in early phase of the 2009 influenza A/H1N1 pandemic in the USA",
+        "volume": "3",
+        "year": "2009",
+        "journal-title": "Influenza and Other Respiratory Viruses"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s1473-3099(20)30287-5"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1016/j.cegh.2020.08.007",
+        "article-title": "Estimates of serial interval for COVID-19: A systematic review and meta-analysis",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Clin Epidemiol Glob Health"
+      },
+      {
+        "issue": "6",
+        "key": "2022121503100856000_2022.12.08.22283241v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0000052",
+        "DOI": "10.1371/journal.pdig.0000052",
+        "article-title": "Real-time estimation of the epidemic reproduction number: Scoping review of the applications and challenges",
+        "volume": "1",
+        "year": "2022",
+        "journal-title": "PLOS Digital Health"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwt133"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.16",
+        "unstructured": "Cori [aut A cre , Cauchemez S , Ferguson NM , Fraser C , Dahlqwist E , et al. EpiEstim: Estimate Time Varying Reproduction Numbers from Epidemic Curves [Internet]. 2021 [cited 2022 Jun 9]. Available from: https://CRAN.R-project.org/package=EpiEstim"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2006.3754"
+      },
+      {
+        "issue": "4",
+        "key": "2022121503100856000_2022.12.08.22283241v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "364",
+        "DOI": "10.7205/MILMED-D-15-00226",
+        "article-title": "Intra-Weekly Variations of Influenza-Like Illness in Military Populations",
+        "volume": "181",
+        "year": "2016",
+        "journal-title": "Military Medicine"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.19",
+        "unstructured": "Cases in the UK | Coronavirus in the UK [Internet]. [cited 2022 Jan 9]. Available from: https://coronavirus.data.gov.uk/details/cases"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.20",
+        "unstructured": "Jombart T , Nouvellet P , Bhatia S , Kamvar ZN , Taylor T , Ghozzi S. projections: Project Future Case Incidence [Internet]. 2021 [cited 2022 Jun 9]. Available from: https://CRAN.R-project.org/package=projections"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.21",
+        "unstructured": "CSSEGISandData. COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University [Internet]. 2022 [cited 2022 Jul 5]. Available from: https://github.com/CSSEGISandData/COVID-19"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2405-7"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21358-2"
+      },
+      {
+        "issue": "1",
+        "key": "2022121503100856000_2022.12.08.22283241v1.24",
+        "first-page": "1",
+        "article-title": "Estimation of the effective reproduction number of influenza based on weekly reports in Miyazaki Prefecture",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "36",
+        "key": "2022121503100856000_2022.12.08.22283241v1.25",
+        "first-page": "20894",
+        "article-title": "Early transmission dynamics of Ebola virus disease (EVD), West Africa, March to August 2014",
+        "volume": "19",
+        "year": "2014",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.12688/wellcomeopenres.16006.2",
+        "article-title": "Estimating the time-varying reproduction number of SARS-CoV-2 using national and subnational case counts",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Wellcome Open Res"
+      },
+      {
+        "issue": "12",
+        "key": "2022121503100856000_2022.12.08.22283241v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008409",
+        "DOI": "10.1371/journal.pcbi.1008409",
+        "article-title": "Practical considerations for measuring the effective reproductive number, Rt",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "150",
+        "key": "2022121503100856000_2022.12.08.22283241v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "20180670",
+        "DOI": "10.1098/rsif.2018.0670",
+        "article-title": "Estimation in emerging epidemics: biases and remedies",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "Journal of The Royal Society Interface"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc9004"
+      },
+      {
+        "key": "2022121503100856000_2022.12.08.22283241v1.30",
+        "unstructured": "mrc-ide/EpiEstim: A tool to estimate time varying instantaneous reproduction number during epidemics [Internet]. [cited 2022 Aug 9]. Available from: https://github.com/mrc-ide/EpiEstim"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.08.22283241",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:23:39Z",
+      "timestamp": 1768505019000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.12.08.22283241"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2022.12.08.22283241",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1011439",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

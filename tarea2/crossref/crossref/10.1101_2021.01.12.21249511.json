@@ -1,0 +1,710 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:30:52Z",
+      "timestamp": 1768548652213,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          13
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The majority of U.S. reports of COVID-19 clinical characteristics, disease course, and treatments are from single health systems or focused on one domain. Here we report the creation of the National COVID Cohort Collaborative (N3C), a centralized, harmonized, high-granularity electronic health record repository that is the largest, most representative U.S. cohort of COVID-19 cases and controls to date. This multi-center dataset supports robust evidence-based development of predictive and diagnostic tools and informs critical care and policy.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and Findings</jats:title>\n                  <jats:p>In a retrospective cohort study of 1,926,526 patients from 34 medical centers nationwide, we stratified patients using a World Health Organization COVID-19 severity scale and demographics; we then evaluated differences between groups over time using multivariable logistic regression. We established vital signs and laboratory values among COVID-19 patients with different severities, providing the foundation for predictive analytics. The cohort included 174,568 adults with severe acute respiratory syndrome associated with SARS-CoV-2 (PCR &gt;99% or antigen &lt;1%) as well as 1,133,848 adult patients that served as lab-negative controls. Among 32,472 hospitalized patients, mortality was 11.6% overall and decreased from 16.4% in March/April 2020 to 8.6% in September/October 2020 (p = 0.002 monthly trend). In a multivariable logistic regression model, age, male sex, liver disease, dementia, African-American and Asian race, and obesity were independently associated with higher clinical severity. To demonstrate the utility of the N3C cohort for analytics, we used machine learning (ML) to predict clinical severity and risk factors over time. Using 64 inputs available on the first hospital day, we predicted a severe clinical course (death, discharge to hospice, invasive ventilation, or extracorporeal membrane oxygenation) using random forest and XGBoost models (AUROC 0.86 and 0.87 respectively) that were stable over time. The most powerful predictors in these models are patient age and widely available vital sign and laboratory values. The established expected trajectories for many vital signs and laboratory values among patients with different clinical severities validates observations from smaller studies, and provides comprehensive insight into COVID-19 characterization in U.S. patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>This is the first description of an ongoing longitudinal observational study of patients seen in diverse clinical settings and geographical regions and is the largest COVID-19 cohort in the United States. Such data are the foundation for ML models that can be the basis for generalizable clinical decision support tools. The N3C Data Enclave is unique in providing transparent, reproducible, easily shared, versioned, and fully auditable data and analytic provenance for national-scale patient-level EHR data. The N3C is built for intensive ML analyses by academic, industry, and citizen scientists internationally. Many observational correlations can inform trial designs and care guidelines for this new disease.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.12.21249511",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          14
+        ]
+      ],
+      "date-time": "2021-01-14T20:32:30Z",
+      "timestamp": 1610656350000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 41,
+    "title": [
+      "The National COVID Cohort Collaborative: Clinical Characterization and Early Severity Prediction"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1483-4236",
+        "authenticated-orcid": false,
+        "given": "Tellen D.",
+        "family": "Bennett",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2723-5902",
+        "authenticated-orcid": false,
+        "given": "Richard A.",
+        "family": "Moffitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6251-9586",
+        "authenticated-orcid": false,
+        "given": "Janos G.",
+        "family": "Hajagos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7841-8672",
+        "authenticated-orcid": false,
+        "given": "Benjamin",
+        "family": "Amor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7310-6848",
+        "authenticated-orcid": false,
+        "given": "Adit",
+        "family": "Anand",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7134-9280",
+        "authenticated-orcid": false,
+        "given": "Mark M.",
+        "family": "Bissell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9730-1808",
+        "authenticated-orcid": false,
+        "given": "Katie Rebecca",
+        "family": "Bradwell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1805-7112",
+        "authenticated-orcid": false,
+        "given": "Carolyn",
+        "family": "Bremer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0509-3520",
+        "authenticated-orcid": false,
+        "given": "James Brian",
+        "family": "Byrd",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2482-5659",
+        "authenticated-orcid": false,
+        "given": "Alina",
+        "family": "Denham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6391-0795",
+        "authenticated-orcid": false,
+        "given": "Peter E.",
+        "family": "DeWitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9041-4597",
+        "authenticated-orcid": false,
+        "given": "Davera",
+        "family": "Gabriel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8632-5567",
+        "authenticated-orcid": false,
+        "given": "Brian T.",
+        "family": "Garibaldi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2031-9209",
+        "authenticated-orcid": false,
+        "given": "Andrew T.",
+        "family": "Girvin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1477-1888",
+        "authenticated-orcid": false,
+        "given": "Justin",
+        "family": "Guinney",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2494-317X",
+        "authenticated-orcid": false,
+        "given": "Elaine L.",
+        "family": "Hill",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0795-1293",
+        "authenticated-orcid": false,
+        "given": "Stephanie S.",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9930-0414",
+        "authenticated-orcid": false,
+        "given": "Hunter",
+        "family": "Jimenez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1238-9378",
+        "authenticated-orcid": false,
+        "given": "Ramakanth",
+        "family": "Kavuluru",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2595-8736",
+        "authenticated-orcid": false,
+        "given": "Kristin",
+        "family": "Kostka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7698-219X",
+        "authenticated-orcid": false,
+        "given": "Harold P.",
+        "family": "Lehmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3921-5653",
+        "authenticated-orcid": false,
+        "given": "Eli",
+        "family": "Levitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6324-7807",
+        "authenticated-orcid": false,
+        "given": "Sandeep K.",
+        "family": "Mallipattu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4711-2128",
+        "authenticated-orcid": false,
+        "given": "Amin",
+        "family": "Manna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9353-5498",
+        "authenticated-orcid": false,
+        "given": "Julie A.",
+        "family": "McMurry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3255-5727",
+        "authenticated-orcid": false,
+        "given": "Michele",
+        "family": "Morris",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6469-1750",
+        "authenticated-orcid": false,
+        "given": "John",
+        "family": "Muschelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4809-6289",
+        "authenticated-orcid": false,
+        "given": "Andrew J.",
+        "family": "Neumann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7737-8752",
+        "authenticated-orcid": false,
+        "given": "Matvey B.",
+        "family": "Palchuk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6840-9756",
+        "authenticated-orcid": false,
+        "given": "Emily R.",
+        "family": "Pfaff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8747-9015",
+        "authenticated-orcid": false,
+        "given": "Zhenglong",
+        "family": "Qian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3177-5314",
+        "authenticated-orcid": false,
+        "given": "Nabeel",
+        "family": "Qureshi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2436-1367",
+        "authenticated-orcid": false,
+        "given": "Seth",
+        "family": "Russell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9420-5028",
+        "authenticated-orcid": false,
+        "given": "Heidi",
+        "family": "Spratt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3327-7423",
+        "authenticated-orcid": false,
+        "given": "Anita",
+        "family": "Walden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0692-412X",
+        "authenticated-orcid": false,
+        "given": "Andrew E.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4106-8012",
+        "authenticated-orcid": false,
+        "given": "Jacob T.",
+        "family": "Wooldridge",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2144-8480",
+        "authenticated-orcid": false,
+        "given": "Yun Jae",
+        "family": "Yoo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4843-9077",
+        "authenticated-orcid": false,
+        "given": "Xiaohan Tanner",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4289-7632",
+        "authenticated-orcid": false,
+        "given": "Richard L.",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7770-0708",
+        "authenticated-orcid": false,
+        "given": "Christopher P.",
+        "family": "Austin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3451-2165",
+        "authenticated-orcid": false,
+        "given": "Joel H.",
+        "family": "Saltz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3897-3409",
+        "authenticated-orcid": false,
+        "given": "Ken R.",
+        "family": "Gersing",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9114-8737",
+        "authenticated-orcid": false,
+        "given": "Melissa A.",
+        "family": "Haendel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5437-2545",
+        "authenticated-orcid": false,
+        "given": "Christopher G.",
+        "family": "Chute",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "N3C Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2521-4"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-044421"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocaa196"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30483-7"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000004747"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1253",
+        "DOI": "10.1377/hlthaff.2020.00598",
+        "article-title": "Disparities In Outcomes Among COVID-19 Patients In A Large Health Care System In California",
+        "volume": "39",
+        "year": "2020",
+        "journal-title": "Health Aff"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12788/jhm.3552"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1666",
+        "DOI": "10.1093/cvr/cvaa106",
+        "article-title": "COVID-19 and the cardiovascular system: implications for risk assessment, diagnosis, and treatment options",
+        "volume": "116",
+        "year": "2020",
+        "journal-title": "Cardiovasc Res"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2021436"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.17022"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMsa2011686"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-3742"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "258",
+        "DOI": "10.1111/dom.14199",
+        "article-title": "Obesity as a risk factor for COVID-19 mortality in women and men in the UK biobank: Comparisons with influenza/pneumonia and coronary heart disease",
+        "volume": "23",
+        "year": "2021",
+        "journal-title": "Diabetes Obes Metab"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1775",
+        "DOI": "10.3233/JAD-201016",
+        "article-title": "The Impact of Dementia on the Clinical Outcome of COVID-19: A Systematic Review and Meta-Analysis",
+        "volume": "78",
+        "year": "2020",
+        "journal-title": "J Alzheimers Dis"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "705",
+        "DOI": "10.1016/j.jhep.2020.05.013",
+        "article-title": "High mortality rates for SARS-CoV-2 infection in patients with pre-existing chronic liver disease and cirrhosis: Preliminary results from an international registry. J",
+        "volume": "73",
+        "year": "2020",
+        "journal-title": "Hepatol"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41584-020-00562-2"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2113",
+        "DOI": "10.1007/s00277-020-04169-1",
+        "article-title": "Blood type and outcomes in patients with COVID-19",
+        "volume": "99",
+        "year": "2020",
+        "journal-title": "Ann Hematol"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "5761",
+        "DOI": "10.1038/s41467-020-19623-x",
+        "article-title": "Associations between blood type and COVID-19 infection, intubation, and death",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-4511"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "2372",
+        "DOI": "10.1056/NEJMc2010419",
+        "article-title": "Clinical Characteristics of Covid-19 in New York City",
+        "volume": "382",
+        "year": "2020",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2020.3596"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.6775"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCM.0000000000004457"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1038/s41746-020-00308-0",
+        "article-title": "International electronic health record-derived COVID-19 clinical course profiles: the 4CE consortium",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "NPJ Digit Med"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e23565",
+        "DOI": "10.2196/23565",
+        "article-title": "Clinical Mortality in a Large COVID-19 Cohort: Observational Study",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "J Med Internet Res"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "100471",
+        "DOI": "10.1016/j.eclinm.2020.100471",
+        "article-title": "Risk factors for developing into critical COVID-19 patients in Wuhan, China: A multicenter, retrospective, cohort study",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "EClinicalMedicine"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-3905"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.28",
+        "first-page": "179",
+        "article-title": "Clinical determinants for fatality of 44,672 patients with COVID-19. Crit",
+        "volume": "24",
+        "year": "2020",
+        "journal-title": "Care"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1820",
+        "DOI": "10.1016/S0140-6736(20)31324-6",
+        "article-title": "Retraction-Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "2021012509201111000_2021.01.12.21249511v3.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e102",
+        "DOI": "10.1056/NEJMoa2007621",
+        "article-title": "Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19",
+        "volume": "382",
+        "year": "2020",
+        "journal-title": "N Engl J Med"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.12.21249511",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:03:03Z",
+      "timestamp": 1768485783000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.12.21249511"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          13
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2021.01.12.21249511",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

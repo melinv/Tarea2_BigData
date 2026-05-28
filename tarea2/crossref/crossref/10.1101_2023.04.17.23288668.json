@@ -1,0 +1,544 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2026-01-19T09:41:40Z",
+      "timestamp": 1768815700864,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Real-time surveillance is a crucial element in the response to infectious disease outbreaks. However, the interpretation of incidence data is often hampered by delays occurring at various stages of data gathering and reporting. As a result, recent values are biased downward, which obscures current trends. Statistical nowcasting techniques can be employed to correct these biases, allowing for accurate characterization of recent developments and thus enhancing situational awareness. In this paper, we present a preregistered real-time assessment of eight nowcasting approaches, applied by independent research teams to German 7-day hospitalization incidences. This indicator played an important role in the management of the pandemic in Germany and was linked to levels of non-pharmaceutical interventions via certain thresholds. Due to its definition, in which hospitalization counts are aggregated by the date of case report rather than admission, German hospitalization incidences are particularly affected by delays and can take several weeks or months to fully stabilize. For this study, all methods were applied from 22 November 2021 to 29 April 2022, with probabilistic nowcasts produced each day for the current and 28 preceding days. Nowcasts at the national, state, and age-group levels were collected in the form of quantiles in a public repository and displayed in a dashboard. Moreover, a mean and a median ensemble nowcast were generated. We find that overall, the compared methods were able to remove a large part of the biases introduced by delays. Most participating teams underestimated the importance of very long delays, though, resulting in nowcasts with a slight downward bias. The accompanying uncertainty intervals were also too narrow for almost all methods. Averaged over all nowcast horizons, the best performance was achieved by a model using case incidences as a covariate and taking into account longer delays than the other approaches. For the most recent days, which are often considered the most relevant in practice, a mean ensemble of the submitted nowcasts performed best. We conclude by providing some lessons learned on the definition of nowcasting targets and practical challenges.</jats:p>",
+    "DOI": "10.1101/2023.04.17.23288668",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2023-04-18T09:45:15Z",
+      "timestamp": 1681811115000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Collaborative nowcasting of COVID-19 hospitalization incidences in Germany"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0318-3669",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Wolffram",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8057-8037",
+        "authenticated-orcid": false,
+        "given": "Sam",
+        "family": "Abbott",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5863-4549",
+        "authenticated-orcid": false,
+        "given": "Matthias",
+        "family": "an der Heiden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3406",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Funk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6582-1174",
+        "authenticated-orcid": false,
+        "given": "Felix",
+        "family": "G\u00fcnther",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Davide",
+        "family": "Hailer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3371-4072",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Heyder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Hotz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5926-6709",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "van de Kassteele",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6372-2487",
+        "authenticated-orcid": false,
+        "given": "Helmut",
+        "family": "K\u00fcchenhoff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S\u00f6ren",
+        "family": "M\u00fcller-Hansen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Diell\u00eb",
+        "family": "Syliqi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4894-6124",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Ullrich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4400-134X",
+        "authenticated-orcid": false,
+        "given": "Maximilian",
+        "family": "Weigert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6000-5653",
+        "authenticated-orcid": false,
+        "given": "Melanie",
+        "family": "Schienle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3777-1410",
+        "authenticated-orcid": false,
+        "given": "Johannes",
+        "family": "Bracher",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmoneco.2008.05.010"
+      },
+      {
+        "issue": "3",
+        "key": "2023042102450412000_2023.04.17.23288668v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1017/S1357321700003809",
+        "article-title": "Stochastic claims reserving in general insurance",
+        "volume": "8",
+        "year": "2002",
+        "journal-title": "British Actuarial Journal"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.1989.0078"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/biom.12194"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10654-011-9566-5"
+      },
+      {
+        "issue": "11",
+        "key": "2023042102450412000_2023.04.17.23288668v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009570",
+        "DOI": "10.1371/journal.pcbi.1009570",
+        "article-title": "A nowcasting framework for correcting for reporting delays in malaria surveillance",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.8303"
+      },
+      {
+        "issue": "4",
+        "key": "2023042102450412000_2023.04.17.23288668v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007735",
+        "DOI": "10.1371/journal.pcbi.1007735",
+        "article-title": "Nowcasting by Bayesian smoothing: A flexible, generalizable model for real-time epidemic tracking",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "issue": "3",
+        "key": "2023042102450412000_2023.04.17.23288668v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "490",
+        "DOI": "10.1002/bimj.202000112",
+        "article-title": "Nowcasting the COVID-19 pandemic in Bavaria",
+        "volume": "63",
+        "year": "2021",
+        "journal-title": "Biometrical Journal"
+      },
+      {
+        "issue": "5",
+        "key": "2023042102450412000_2023.04.17.23288668v1.10",
+        "first-page": "1266",
+        "article-title": "Nowcasting COVID-19 deaths in England by age and region",
+        "volume": "71",
+        "year": "2022",
+        "journal-title": "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
+      },
+      {
+        "issue": "4",
+        "key": "2023042102450412000_2023.04.17.23288668v1.11",
+        "first-page": "834",
+        "article-title": "Bayesian imputation of COVID-19 positive test counts for nowcasting under reporting lag",
+        "volume": "71",
+        "year": "2022",
+        "journal-title": "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1008374"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.13",
+        "first-page": "1258",
+        "volume-title": "in Proceedings of the Thirty-Seventh Conference on Uncer-tainty in Artificial Intelligence",
+        "volume": "161",
+        "year": "2021"
+      },
+      {
+        "issue": "1",
+        "key": "2023042102450412000_2023.04.17.23288668v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "e25538",
+        "DOI": "10.2196/25538",
+        "article-title": "Nowcasting for real-time COVID-19 tracking in New York City: An evaluation using reportable disease data from early in the pandemic",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "JMIR Public Health Surveill",
+        "ISSN": "https://id.crossref.org/issn/2369-2960",
+        "issn-type": "print"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.15",
+        "unstructured": "German Federal Government, \u201cVideoschaltkonferenz der Bundeskanzlerin mit den Regierungschefinnenund Regierungschefs der Lander am 18. November 2021,\u201d Tech. Rep., 2021,https://www.bundesregierung.de/resource/blob/974430/1982598/defbdff47daf5f177586a5d34e8677e8/2021-11-18-mpk-data.pdf."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.16",
+        "unstructured": "M. Milatz and I. Lerch , \u201cNach MPK-Beschluss: Verwirrung um Hospitalisierungsinzidenz,\u201d Nord-deutscher Rundfunk, Tech. Rep., 2021, https://www.ndr.de/nachrichten/info/Nach-MPK-Beschluss-Verwirrung-um-Hospitalisierungsinzidenz,hospitalisierungsinzidenz100.html."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2113561119"
+      },
+      {
+        "issue": "1",
+        "key": "2023042102450412000_2023.04.17.23288668v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "5173",
+        "DOI": "10.1038/s41467-021-25207-0",
+        "article-title": "A pre-registered short-term forecasting study of COVID-19 in Germany and Poland during the second wave",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.19",
+        "unstructured": "K. Sherratt , H. Gruson , H. Johnson , R. Niehus , et al., \u201cPredictive performance of multi-model ensemble forecasts of COVID-19 across European nations,\u201d medRxiv, 2022, doi:https://doi.org/10.1101/ 2022.06.16.22276024s."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1812594116"
+      },
+      {
+        "issue": "2",
+        "key": "2023042102450412000_2023.04.17.23288668v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008618",
+        "DOI": "10.1371/journal.pcbi.1008618",
+        "article-title": "Evaluating epidemic forecasts in an interval format",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.22",
+        "unstructured": "J. Bracher , D. Wolffram , the COVID-19 Nowcast Hub Team, and Participants, Study protocol: Comparison and combination of COVID-19 hospitalization nowcasts in Germany, Deposited 23 November 2021, Registry of the Open Science Foundation, https://osf.io/mru75/, 2021."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.23",
+        "unstructured": "Robert Koch Institute, COVID-19-Hospitalisierungen in Deutschland, available online at https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland, DOIhttps://doi.org/10.5281/zenodo.7527802, 2022."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.24",
+        "unstructured": "German Federal Ministry of Health, \u201cFAQ zur Hospitalisierungsinzidenz,\u201d Tech. Rep., 2021,https://www.bundesgesundheitsministerium.de/coronavirus/hospitalisierungsinzidenz.html."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.25",
+        "unstructured": "K. Tolksdorf , W. Haas , E. Schuler , L. H. Wieler , et al., \u201cSyndromic surveillance for severe acute respiratory infections (SARI) enables valid estimation of COVID-19 hospitalization incidence and reveals underreporting of hospitalizations during pandemic peaks of three COVID-19 waves in Germany, 2020-2021,\u201d medRxiv, 2022."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5637165"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Fritz , G. D. Nicola , M. Rave , M. Weigert , et al., \u201cStatistical modelling of COVID-19 data: Putting generalized additive models to work,\u201d Statistical Modelling, no. forthcoming, 2023.",
+        "DOI": "10.1177/1471082X221124628"
+      },
+      {
+        "issue": "3",
+        "key": "2023042102450412000_2023.04.17.23288668v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1002/bimj.202000143",
+        "article-title": "Nowcasting fatal COVID-19 infections on a regional level in Germany",
+        "volume": "63",
+        "year": "2021",
+        "journal-title": "Biometrical Journal"
+      },
+      {
+        "issue": "5",
+        "key": "2023042102450412000_2023.04.17.23288668v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "737",
+        "DOI": "10.1097/EDE.0000000000001050",
+        "article-title": "Nowcasting the number of new symptomatic cases during infectious disease outbreaks using constrained p-spline smoothing",
+        "volume": "30",
+        "year": "2019",
+        "journal-title": "Epidemiology (Cambridge, Mass.)"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25646/6692"
+      },
+      {
+        "issue": "1",
+        "key": "2023042102450412000_2023.04.17.23288668v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.2307/3315826.n1",
+        "article-title": "Adjustments for reporting delays and the prediction of occurred but not reported events",
+        "volume": "22",
+        "year": "1994",
+        "journal-title": "Canadian Journal of Statistics"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Genest , \u201cVincentization revisited,\u201d The Annals of Statistics, pp. 1137\u20131142, 1992.",
+        "DOI": "10.1214/aos/1176348676"
+      },
+      {
+        "issue": "7",
+        "key": "2023042102450412000_2023.04.17.23288668v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1594",
+        "DOI": "10.1287/mnsc.1120.1667",
+        "article-title": "Is it better to average probabilities or quantiles?",
+        "volume": "59",
+        "year": "2013",
+        "journal-title": "Management Science"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214506000001437"
+      },
+      {
+        "issue": "3",
+        "key": "2023042102450412000_2023.04.17.23288668v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "505",
+        "DOI": "10.1111/rssb.12154",
+        "article-title": "Of quantiles and expectiles: Consistent scoring functions, Choquet representations and forecast rankings",
+        "volume": "78",
+        "year": "2016",
+        "journal-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)"
+      },
+      {
+        "issue": "12",
+        "key": "2023042102450412000_2023.04.17.23288668v1.36",
+        "first-page": "371",
+        "article-title": "A tutorial on conformal prediction",
+        "volume": "9",
+        "year": "2008",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.37",
+        "unstructured": "Berliner Morgenpost , \u201cTriage in Sachsen: Kliniken bereiten sich auf Schlimmes vor,\u201d Berliner Morgenpost, 2021, published online on 23 November 2021, https://www.morgenpost.de/vermischtes/ article233915811/corona-sachsen-triage-intensivstationen-ueberlastung.html."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.38",
+        "first-page": "437",
+        "article-title": "Early assessment of the clinical severity of the SARS-CoV-2 omicron variant in South Africa: A data linkage study",
+        "volume": "10323",
+        "year": "2022",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1009822"
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.40",
+        "unstructured": "M. Heinsch and J. Schmid-Johannsen, Mit oder wegen Corona im Krankenhaus? So bedingt aussagekraftig sind die BW-Daten, available online, https://www.swr.de/swraktuell/baden-wuerttemberg/was-sagt-die-hospitalisierungsinzidenz-in-der-omikron-welle-aus-100.html, 4 February 2022, 2022."
+      },
+      {
+        "key": "2023042102450412000_2023.04.17.23288668v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5637165"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.04.17.23288668",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:31:55Z",
+      "timestamp": 1768505515000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.04.17.23288668"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2023.04.17.23288668",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1011394",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

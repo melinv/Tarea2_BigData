@@ -1,0 +1,785 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2025-12-09T11:13:55Z",
+      "timestamp": 1765278835125,
+      "version": "3.46.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          2
+        ]
+      ]
+    },
+    "group-title": "Genetic and Genomic Medicine",
+    "reference-count": 88,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              2
+            ]
+          ],
+          "date-time": "2025-12-02T00:00:00Z",
+          "timestamp": 1764633600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Myalgic encephalomyelitis (also known as ME/CFS or simply ME) has severely impacted the lives of tens of millions of people globally, but the disease currently has no accurate diagnostic tools or effective treatments. Identifying the biological causes of ME has proven challenging due to its wide range of symptoms and affected organs, and the lack of reproducible genetic associations across ME populations. This has prolonged misunderstanding, lack of awareness, and denial of the disease, further harming patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We used the PrecisionLife\u00ae combinatorial analytics platform to identify disease signatures (i.e., combinations of 1-4 SNP-genotypes) that are significantly enriched in two cohorts of ME participants from DecodeME relative to controls from UK Biobank (UKB). We tested whether the number of these signatures possessed by an individual is significantly associated with increased prevalence of ME in a third disjoint cohort of DecodeME participants. We characterized a number of drug repurposing opportunities for a set of candidate core genes whose disease signatures had the strongest association with ME and which were linked to different mechanisms. We then tested gene overlap between the ME signatures identified and previous studies in long COVID, using two independent approaches to explore these shared genetic commonalities.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    We identified 22,411 reproducible disease signatures, comprising combinations of 7,555 unique SNPs, that are consistently associated with increased prevalence of ME in three disjoint patient cohorts. The count of reproducible signatures was significantly associated with increased prevalence of ME (\n                    <jats:italic>p</jats:italic>\n                    = 4\u00d710\n                    <jats:sup>-21</jats:sup>\n                    ), and participants with a top 10% signature count had an odds ratio of disease 1.64 times greater than participants with a bottom 10% signature count, confirming that these genetic signatures increase susceptibility for developing ME.\n                  </jats:p>\n                  <jats:p>These disease signatures map to 2,311 genes. We identified substantial overlap between the genes found by this combinatorial analysis and previous studies. We found that the 259 candidate core genes most strongly associated with ME are enriched in disease mechanisms including neurological dysregulation, inflammation, cellular stress responses and calcium signaling. We demonstrated that 76 out of 180 genes previously linked to long COVID in UKB and the US All of Us cohorts are also significantly associated with ME in the DecodeME cohort. These findings allowed identification of many existing and novel repurposing opportunities, including candidates linked to several genes with shared etiology for long COVID.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>These findings provide further evidence that ME is a complex multisystemic condition where the risk of developing the disease has a very clear genetic and biological basis. They give a substantially deeper level of insight into the genetic risk factors and mechanisms involved in ME. The discovery of so many multiply reproducible genetic associations implies that ME is highly polygenic, which has important consequences for its future study and the delivery of clinical care to patients.</jats:p>\n                  <jats:p>The striking overlap in genes and mechanisms between long COVID and ME (76 / 180 long COVID genes tested) suggests the potential for development of novel or repurposed drug therapies that could be used to successfully treat either condition. However, although they share significant genetic commonalities, long COVID and ME appear to be best considered as partially overlapping but different diseases.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Lay Summary</jats:title>\n                  <jats:p>Myalgic encephalomyelitis (also known as ME/CFS or simply ME), has a debilitating impact on the lives of tens of millions of people around the world. Currently, there are no reliable tests or widely effective treatments for ME. As a result, many doctors don\u2019t recognize or understand the disease, and patients often receive inadequate care. Long COVID has similar challenges. Both ME and long COVID are difficult to study because they cause many different symptoms and affect a lot of different parts of the body. Past genetic research hasn\u2019t found clear answers about why people get ME (or long COVID).</jats:p>\n                  <jats:p>To learn more about what causes ME, we used an approach called the PrecisionLife combinatorial analytics platform, which can find more genetic signals in complex diseases than existing methods. We looked for signatures in people\u2019s genes\u2014specifically, sets of 1 to 4 small changes in DNA (called SNPs)\u2014that together are more common in people who have ME than in healthy people. Such genetic factors may influence how a patient responds to disease triggers such as viral infections, including whether they go on to develop post-viral disease as well as its symptoms and severity.</jats:p>\n                  <jats:p>We studied data from DecodeME participants (cases) and compared them to people who do not have ME (controls) from UK Biobank. We showed that DecodeME participants occur much more often in the group of people with the most genetic signatures compared to groups of people with fewer signatures. We also looked for similarities between the genes we found to be linked to ME and those we had previously linked to long COVID. Finally, we searched the new ME genes we\u2019d found to see which already had drugs that target them in other diseases. We wanted to identify existing medicines that are likely to be effective for some ME patients and show that a simple genetic test might be useful in finding the patients who\u2019ll benefit from that drug.</jats:p>\n                  <jats:p>We found over 22,000 genetic signatures that are linked to a higher risk of ME. The more of these signatures someone has, the more likely they are to have the disease. People with the highest number of signatures had a 1.64 times greater chance of having ME than those with the lowest number. These signatures are connected to over 2,300 different genes, showing that ME involves many genes working together. Out of those, 259 candidate core genes seem to play the largest roles, affecting things like the immune system, how brain and nerve activity is regulated, inflammation, and how the body\u2019s cells respond to damage and pass signals to regulate their processes via the calcium channels. These disease mechanisms are important as they are what we aim to affect with drugs, and all of these mechanisms have had drugs successfully developed for them previously.</jats:p>\n                  <jats:p>This research gives us a much clearer picture of the genetic features that may lie behind ME and could help develop better ways to diagnose and treat it. The complexity of the disease and the fact that patients have different mechanisms driving their disease means though that it is very unlikely that one drug will work for everybody. Understanding which disease mechanisms are involved for each individual patient could make treatments more personalized and help future medical trials to identify patients who will respond more positively to a specific drug.</jats:p>\n                  <jats:p>76 of the 180 genes known to be linked to long COVID are also linked to ME. Some of these genes could lead to new treatments. Since ME and long COVID share many genetic features, there may be some treatments that work for both diseases, but our results indicate they should still be considered as different conditions.</jats:p>\n                  <jats:p>This means that it may be possible to develop treatments that would help some subgroups of both ME and long COVID patients, but it is also likely that some treatments would be specifically useful for just ME cohorts rather than long COVID (and vice versa). These may be completely new drugs or reusing (repurposing) existing drugs for specifically targeted groups of patients based on mechanism, which can be quicker.</jats:p>\n                  <jats:p>These findings are just the beginning, but they show how useful big studies like DecodeME can be and the foundational results that they can enable. We hope these will encourage more research and support from, and for, patients.</jats:p>\n                </jats:sec>",
+    "DOI": "10.64898/2025.12.01.25341362",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2025-12-09T11:07:10Z",
+      "timestamp": 1765278430000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Identification of Novel Reproducible Combinatorial Genetic Risk Factors for Myalgic Encephalomyelitis in the DecodeME Patient Cohort and Commonalities with Long COVID"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "JM",
+        "family": "Sardell",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "S",
+        "family": "Das",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Pearson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D",
+        "family": "Kolobkov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "AR",
+        "family": "Malinowski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "LM",
+        "family": "Fullwood",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Sanna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H",
+        "family": "Baxter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "K",
+        "family": "McLellan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M",
+        "family": "Natt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D",
+        "family": "Lamirel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S",
+        "family": "Chowdhury",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "MA",
+        "family": "Strivens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S",
+        "family": "Gardner",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.1",
+        "unstructured": "25% ME Group. What Is M.E.?"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.2",
+        "unstructured": "Action For ME. Socioeconomic and Healthcare Impact of ME and Long Covid."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkad960"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-024-03173-6"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-024-03173-6"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2377-11-62"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/genetics/iyad031"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1016/j.molmed.2024.02.003",
+        "article-title": "Unravelling shared mechanisms: insights from recent ME/CFS research to illuminate long COVID pathologies",
+        "volume": "30",
+        "year": "2024",
+        "journal-title": "Trends Mol Med"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.9",
+        "unstructured": "Applied Biosystems. UK Biobank Axiom Array Data Sheet."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/diagnostics15121542"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2024.1386607"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1016/j.neuropharm.2017.08.011",
+        "article-title": "Phosphodiesterase 4b expression plays a major role in alcohol-induced neuro-inflammation",
+        "volume": "125",
+        "year": "2017",
+        "journal-title": "Neuropharmacology"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "105078",
+        "DOI": "10.1016/j.phrs.2020.105078",
+        "article-title": "Phosphodiesterase-4 enzyme as a therapeutic target in neurological disorders",
+        "volume": "160",
+        "year": "2020",
+        "journal-title": "Pharmacol Res"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2017.05.038"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1186/s40478-021-01119-4",
+        "article-title": "Neuroligin-1 in brain and CSF of neurodegenerative disorders: investigation for synaptic biomarkers",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Acta Neuropathol Commun"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-018-0248-z"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2796.2011.02428.x"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1084/jem.20081370"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.19",
+        "unstructured": "Centers for Disease Control and Prevention. ME/CFS Basics."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.02.13.25322223"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fped.2019.00012"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fdgth.2021.660809"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "100496",
+        "DOI": "10.1016/j.patter.2022.100496",
+        "article-title": "Systematic indication extension for drugs using patient stratification insights generated by combinatorial analytics",
+        "volume": "3",
+        "year": "2022",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12967-022-03815-8"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-022-00846-2"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0092-8674(00)00116-1"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.08.06.25333109"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1186/s12883-022-02763-6",
+        "article-title": "DecodeME: community recruitment for a large genetics study of myalgic encephalomyelitis / chronic fatigue syndrome",
+        "volume": "22",
+        "year": "2022",
+        "journal-title": "BMC Neurol"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/hmg/ddaa169"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2426874122"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "100003",
+        "DOI": "10.1016/j.ailsci.2021.100003",
+        "article-title": "Combinatorial analytics: An essential tool for the delivery of precision medicine and precision agriculture",
+        "volume": "1",
+        "year": "2021",
+        "journal-title": "Artificial Intelligence in the Life Sciences"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abo5795"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0748730418761236"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1186/s40364-025-00739-5",
+        "article-title": "Toll-like receptor 3: a double-edged sword",
+        "volume": "13",
+        "year": "2025",
+        "journal-title": "Biomark Res"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.122041599"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "ii191",
+        "DOI": "10.1093/ijnp/pyaf052.387",
+        "article-title": "638. Memory modulation by dopamine-cAMP signal transduction pathways",
+        "volume": "28",
+        "year": "2025",
+        "journal-title": "International Journal of Neuropsychopharmacology"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "e70030",
+        "DOI": "10.1002/ardp.70030",
+        "article-title": "PDE4B inhibition: Exploring the landscape of chemistry behind specific PDE4B inhibitors, drug design, and discovery",
+        "volume": "358",
+        "year": "2025",
+        "journal-title": "Arch Pharm (Weinheim)"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-018-0313-7"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphar.2018.01048"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2022.952987"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mpr.1608"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2021.07.003"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.43",
+        "first-page": "277",
+        "article-title": "Research update: The relation between ME/CFS disease burden and research funding in the USA",
+        "volume": "66",
+        "year": "2020",
+        "journal-title": "Work"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "755",
+        "DOI": "10.1586/17512433.2016.1172960",
+        "article-title": "Efficacy of rintatolimod in the treatment of chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME)",
+        "volume": "9",
+        "year": "2016",
+        "journal-title": "Expert Rev Clin Pharmacol"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15171/apb.2015.082"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.46",
+        "unstructured": "National Library of Medicine. LIFT: Life Improvement Trial, ClincalTrials.Gov ID NCT06366724 ."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.47",
+        "unstructured": "Open Medicine Foundation. The LIFT Improvement Trial (LIFT)."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.48",
+        "unstructured": "Open Medicine Foundation Canada. ME/CFS Adaptive Therapeutic Solution Platform (MEDUSA) - Phase 1."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-49402-9"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.50",
+        "first-page": "7",
+        "article-title": "A literature review of GP knowledge and understanding of ME/CFS: A report from the socioeconomic working group of the European Network on ME/CFS (EUROMENE)",
+        "volume": "57",
+        "year": "2020",
+        "journal-title": "Medicina (B Aires)"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "2115",
+        "DOI": "10.1016/j.ajhg.2025.07.006",
+        "article-title": "Exploring the omnigenic architecture of selected complex traits",
+        "volume": "112",
+        "year": "2025",
+        "journal-title": "The American Journal of Human Genetics"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "2115",
+        "DOI": "10.1016/j.ajhg.2025.07.006",
+        "article-title": "Exploring the omnigenic architecture of selected complex traits",
+        "volume": "112",
+        "year": "2025",
+        "journal-title": "The American Journal of Human Genetics"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1008903"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1148",
+        "DOI": "10.1186/s12967-025-07213-8",
+        "article-title": "Low-dose rapamycin alleviates clinical symptoms of fatigue and PEM in ME/CFS patients via improvement of autophagy: a pilot study",
+        "volume": "23",
+        "year": "2025",
+        "journal-title": "J Transl Med"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2402340121"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.08.13.25333595"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "100125",
+        "DOI": "10.1016/j.ailsci.2025.100125",
+        "article-title": "Actively protective combinatorial analysis: A scalable novel method for detecting variants that contribute to reduced disease prevalence in high-risk individuals",
+        "volume": "7",
+        "year": "2025",
+        "journal-title": "Artificial Intelligence in the Life Sciences"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12967-025-06535-x"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "e730",
+        "DOI": "10.1038/tp.2015.208",
+        "article-title": "Genome-wide association analysis identifies genetic variations in subjects with myalgic encephalomyelitis/chronic fatigue syndrome",
+        "volume": "6",
+        "year": "2016",
+        "journal-title": "Transl Psychiatry"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00439-011-1054-1"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000326692"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0031334"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0240403",
+        "DOI": "10.1371/journal.pone.0240403",
+        "article-title": "Effect of disease duration in a randomized Phase III trial of rintatolimod, an immune modulator for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphar.2022.982130"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0506580102"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.1001779"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1007309"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0033291705005222"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-11953-9"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fneur.2022.877772"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.71",
+        "doi-asserted-by": "crossref",
+        "first-page": "775",
+        "DOI": "10.1186/s12967-023-04588-4",
+        "article-title": "Genetic risk factors for severe and fatigue dominant long COVID and commonalities with ME/CFS identified by combinatorial analysis",
+        "volume": "21",
+        "year": "2023",
+        "journal-title": "J Transl Med"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.72",
+        "first-page": "83",
+        "article-title": "Why the psychosomatic view on myalgic encephalomyelitis/chronic fatigue syndrome is inconsistent with current evidence and harmful to patients",
+        "volume": "60",
+        "year": "2023",
+        "journal-title": "Medicina (B Aires)"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.73",
+        "doi-asserted-by": "crossref",
+        "first-page": "1254",
+        "DOI": "10.3390/cells9051254",
+        "article-title": "Phosphodiesterase 4B: Master regulator of brain signaling",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Cells"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.74",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1186/s12859-017-1756-z",
+        "article-title": "Identifying and mitigating batch effects in whole genome sequencing data",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nyas.14002"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.76",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1300/J092v13n01_02",
+        "article-title": "Prevalence of Chronic Fatigue Syndrome and chronic fatigue within families of CFS patients",
+        "volume": "13",
+        "year": "2006",
+        "journal-title": "J Chronic Fatigue Syndr"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fped.2018.00412"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.78",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1186/s12967-025-06281-0",
+        "article-title": "Letter: Time to correct the record on the global burden of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)",
+        "volume": "23",
+        "year": "2025",
+        "journal-title": "J Transl Med"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/CMR.00022-07"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00041444-200109000-00003"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0175508"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.82",
+        "doi-asserted-by": "crossref",
+        "first-page": "811",
+        "DOI": "10.1038/nrn3392",
+        "article-title": "Neuroligin 1 does the splits",
+        "volume": "13",
+        "year": "2012",
+        "journal-title": "Nat Rev Neurosci"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.83",
+        "unstructured": "World Health Organization. Post COVID-19 Condition (Long COVID)."
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.05.051"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2025.04.15.25325899"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/lm.054101.125"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-018-0184-y"
+      },
+      {
+        "key": "2025120903024753000_2025.12.01.25341362v2.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gepi.20639"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.01.25341362",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2025-12-09T11:07:17Z",
+      "timestamp": 1765278437000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.64898/2025.12.01.25341362"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          2
+        ]
+      ]
+    },
+    "references-count": 88,
+    "URL": "https://doi.org/10.64898/2025.12.01.25341362",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

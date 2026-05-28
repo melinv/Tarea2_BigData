@@ -1,0 +1,363 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T16:34:57Z",
+      "timestamp": 1768494897587,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          25
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              25
+            ]
+          ],
+          "date-time": "2021-02-25T00:00:00Z",
+          "timestamp": 1614211200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Electron microscopy (EM) recordings of infected tissues serve to diagnose a disease, and they can contribute to our understanding of infection processes. Consequently, a large number of EM images of the interaction of SARS-CoV-2 viruses with cells have been made available by numerous labs. However, due to EM recording techniques at high resolution, images of infection scenes are very noisy and they appear two dimensional (\u2018flat\u2019). Current research consequently aims (A) at methods that can remove noise, and (B) at techniques that allow for recovering a 3D impression of the virus or its parts. Here we discuss a novel method which can recover a spatial impression of a whole infection scene at high resolution. In contrast to previous approaches which aim at the reconstruction of single spike proteins or a single virus, the here used method can be applied to a single noisy EM image of an infection scene. As one example image, we show a high resolution image of SARS-CoV-2 viruses in Vero cell cultures (Fig. 1). The method we use is based on probabilistic machine learning algorithms which can operate in a \u2018zero-shot\u2019 setting, i.e., in a setting when just one noisy image (and no large and clean image corpus) is available. The probabilistic method we apply can estimate non-noisy images by inferring first order statistics (pixel means) across image patches using a previously learned probabilistic image representation. Estimating higher order statistics and appropriately chosen probabilistic models then allow for the generation of images that enhance details and give a spatial impression of a full nanoscopic scene.</jats:p>",
+    "DOI": "10.1101/2021.02.25.432265",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2021-02-25T16:25:20Z",
+      "timestamp": 1614270320000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Visualization of SARS-CoV-2 Infection Scenes by \u2018Zero-Shot\u2019 Enhancements of Electron Microscopy Images"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jakob",
+        "family": "Drefs",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sebastian",
+        "family": "Salwig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9921-2529",
+        "authenticated-orcid": false,
+        "given": "J\u00f6rg",
+        "family": "L\u00fccke",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harold C Burger , Christian J Schuler , and Stefan Harmeling . Image denoising: Can plain Neural Networks compete with BM3D? In CVPR, pages 2392\u20132399. IEEE, 2012.",
+        "DOI": "10.1109/CVPR.2012.6247952"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu-Jen Chen , Yen-Jung Chang , Shao-Cheng Wen , Yiyu Shi , Xiaowei Xu , Tsung-Yi Ho , Qianjun Jia , Meiping Huang , and Jian Zhuang . Zero-Shot Medical Image Artifact Reduction. In 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), pages 862\u2013866. IEEE, 2020.",
+        "DOI": "10.1109/ISBI45749.2020.9098566"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1038/nmeth.4115",
+        "article-title": "Cryo-electron tomography",
+        "volume": "14",
+        "year": "2017",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Dong , P. Wang , W. Yin , G. Shi , F. Wu , and X. Lu . Denoising Prior Driven Deep Neural Network for Image Restoration. TPAMI, 2019.",
+        "DOI": "10.1109/TPAMI.2018.2873610"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.5",
+        "article-title": "Evolutionary Variational Optimization of Generative Models",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.6",
+        "unstructured": "H. R. Gelderblom , Freya Kaulbars , and Andrea Schnartendorff . SARS-Coronavirus (Coronaviren). SARS in Vero-Zellen. Transmissions-Elektronenmikroskopie, Ultraduennschnitt. https://www.rki.de/DE/Content/Infekt/NRZ/EM/Aufnahmen/EM_Tab_SARS.html. Robert Koch Institut. Accessed on February 23, 2021."
+      },
+      {
+        "issue": "8",
+        "key": "2024080513294986000_2021.02.25.432265v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1902",
+        "DOI": "10.1109/TPAMI.2012.273",
+        "article-title": "Scaling up spike-and-slab models for unsupervised feature learning",
+        "volume": "35",
+        "year": "2013",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Guiraud , J. Drefs , and J. L\u00fccke . Evolutionary Expectation Maximization. In GECCO, 2018.",
+        "DOI": "10.1145/3205455.3205588"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.9",
+        "article-title": "Direct Evolutionary Optimization of Variational Autoencoders With Binary Latents",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.03167-15"
+      },
+      {
+        "issue": "7838",
+        "key": "2024080513294986000_2021.02.25.432265v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "498",
+        "DOI": "10.1038/s41586-020-2665-2",
+        "article-title": "Structures and distributions of SARS-CoV-2 spike proteins on intact virions",
+        "volume": "588",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexander Krull , Tim-Oliver Buchholz , and Florian Jug . Noise2void - Learning Denoising from Single Noisy Images. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2129\u20132137, 2019.",
+        "DOI": "10.1109/CVPR.2019.00223"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc1669"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.14",
+        "unstructured": "Michael Laue , Anne Kauter , Tobias Hoffmann , Janine Michel , and Andreas Nitsche . Electron microscopy of SARS-CoV-2 particles - Dataset 07, August 2020. URL https://doi.org/10.5281/zenodo.3986580."
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.15",
+        "first-page": "3515",
+        "article-title": "Morphometry of SARS-CoV and SARS-CoV-2 particles in ultrathin plastic sections of infected Vero cell cultures",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Nature ScientificReports"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.16",
+        "first-page": "10038",
+        "article-title": "Optimal neural inference of stimulus intensities",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Nature ScientificReports"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.17",
+        "unstructured": "Nanographics. Real SARS-CoV-2 virion in 3D. https://nanographics.at/projects/coronavirus-3d/, 2021. Website publication, not yet peer-reviewed, accessed on February 12, 2021."
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Radford Neal and G. Hinton . A view of the EM algorithm that justifies incremental, sparse, and other variants. In M. I. Jordan , editor, Learning in Graphical Models. Kluwer, 1998.",
+        "DOI": "10.1007/978-94-011-5014-9_12"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.19",
+        "unstructured": "NIAID. SARS-CoV-2. https://www.flickr.com/photos/niaid/albums/72157712914621487, 2020. Website publication, accessed on February 12, 2021."
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.20",
+        "unstructured": "Lawrence K Saul and Michael I Jordan . Exploiting tractable substructures in intractable networks. NIPS, 1996."
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.21",
+        "first-page": "2653",
+        "article-title": "A Truncated EM Approach for Spike-and-Slab Sparse Coding",
+        "volume": "15",
+        "year": "2014",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Assaf Shocher , Nadav Cohen , and Michal Irani . \u201cZero-Shot\u201d Super-Resolution using Deep Internal Learning. In CVPR, pages 3118\u20133126. IEEE, 2018.",
+        "DOI": "10.1109/CVPR.2018.00329"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.23",
+        "unstructured": "Jae Woong Soh , Sunwoo Cho , and Nam Ik Cho . Meta-Transfer Learning for Zero-Shot Super-Resolution. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 3516\u20133525, 2020."
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ying Tai , Jian Yang , Xiaoming Liu , and Chunyan Xu . Memnet: A persistent memory network for image restoration. In CVPR, pages 4539\u20134547. IEEE, 2017.",
+        "DOI": "10.1109/ICCV.2017.486"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "461",
+        "DOI": "10.1016/j.neunet.2019.08.022",
+        "article-title": "Image denoising using deep CNN with batch renormalization",
+        "volume": "121",
+        "year": "2020",
+        "journal-title": "Neural Networks"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/boc.201600024"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.27",
+        "unstructured": "Dmitry Ulyanov , Andrea Vedaldi , and Victor Lempitsky . Deep Image Prior. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9446\u20139454, 2018."
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb2507"
+      },
+      {
+        "issue": "3",
+        "key": "2024080513294986000_2021.02.25.432265v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1016/j.cell.2020.09.018",
+        "article-title": "Molecular Architecture of the SARS-CoV-2 Virus",
+        "volume": "183",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.30",
+        "first-page": "1771",
+        "article-title": "Bayesian Learning in Sparse Graphical Factor Models via Variational Mean-Field Annealing",
+        "volume": "99",
+        "year": "2010",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "key": "2024080513294986000_2021.02.25.432265v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2017.2662206"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.02.25.432265",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:23:39Z",
+      "timestamp": 1768440219000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.02.25.432265"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          25
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2021.02.25.432265",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          25
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

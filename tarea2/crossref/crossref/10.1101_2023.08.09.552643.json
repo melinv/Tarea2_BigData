@@ -1,0 +1,511 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:02:28Z",
+      "timestamp": 1768507348565,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          10
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 52,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>High-throughput sequencing techniques and sequence analysis have enabled the taxonomic classification of pathogens present in clinical samples. Sequencing provides an unbiased identification and systematic classification of pathogens and this is generally achieved by comparing novel sequences to pre-existing annotated reference databases. However, this approach is limited by large-scale reference databases which require considerable computational resources and skills to compare against. Alternative robust methods such as machine learning are currently employed in genome sequence analysis and classification, and it can be applied in classifying SARS-CoV-2 variants, whose continued evolution has resulted in the emergence of multiple variants.</jats:p>\n                <jats:p>We developed a deep learning Convolutional Neural Networks-Long Short Term Memory (CNN-LSTM) model to classify dominant SARS-CoV-2 variants (omicron, delta, beta, gamma and alpha) based on gene sequences from the surface glycoprotein (spike gene). We trained and validated the model using &gt; 26,000 SARS-CoV-2 sequences from the GISAID database. The model was evaluated using unseen 3,057 SARS-CoV-2 sequences. The model was compared to existing molecular epidemiology tool, nextclade.</jats:p>\n                <jats:p>Our model achieved an accuracy of 98.55% on training, 99.19% on the validation and 98.41% on the test dataset. Comparing the proposed model to nextclade, the model achieved significant accuracy in classifying SARS-CoV-2 variants from unseen data. Nextclade identified the presence of recombinant strains in the evaluation data, a mechanism that the proposed model did not detect.</jats:p>\n                <jats:p>This study provides an alternative approach to pre-existing methods employed in the classification of SARS-CoV-2 variants. Timely classification will enable effective monitoring and tracking of SARS-CoV-2 variants and inform public health policies in the control and management of the COVID-19 pandemic.</jats:p>",
+    "DOI": "10.1101/2023.08.09.552643",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2023-08-10T20:10:50Z",
+      "timestamp": 1691698250000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Enhanced Deep Convolutional Neural Network for SARS-CoV-2 Variants Classification"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1481-1405",
+        "authenticated-orcid": false,
+        "given": "Mike J.",
+        "family": "Mwanga",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4609-1345",
+        "authenticated-orcid": false,
+        "given": "Hesborn O.",
+        "family": "Obura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mudibo",
+        "family": "Evans",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4257-3611",
+        "authenticated-orcid": false,
+        "given": "Olaitan I.",
+        "family": "Awe",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deubelbeiss, A. , Zahno, M.L. , Zanoni, M. , Bruegger, D. , and Zanoni, R. (2014). Real-Time RT-PCR for the Detection of Lyssavirus Species. J. Vet. Med. 2014, 476091.",
+        "DOI": "10.1155/2014/476091"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1590/S1516-635X2005000100010",
+        "article-title": "Infectious bronchitis virus: detection and vaccine Strain differentiation by semi-nested RT-PCR",
+        "volume": "7",
+        "year": "2005",
+        "journal-title": "Rev. Bras. Cienc. Avic"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2000792",
+        "DOI": "10.1002/smtd.202000792",
+        "article-title": "High-Throughput Metagenomics for Identification of Pathogens in the Clinical Settings",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "Small Methods"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "101050",
+        "DOI": "10.1016/j.imu.2022.101050",
+        "article-title": "An Assessment of Traditional and Genomic Screening in Newborns and their Applicability for Africa",
+        "volume": "32",
+        "year": "2022",
+        "journal-title": "Informatics in Medicine Unlocked"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.5",
+        "first-page": "101143",
+        "article-title": "Comparative study between molecular and genetic evolutionary analysis tools using African SARS-CoV-2 variants",
+        "volume": "36",
+        "year": "2023",
+        "journal-title": "Informatics in Medicine Unlocked"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/cix881"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5858/arpa.2016-0539-RA"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.21608/mjeer.2021.146090",
+        "article-title": "DNA Sequences Classification with Deep Learning: A Survey",
+        "volume": "30",
+        "year": "2021",
+        "journal-title": "Menoufia Journal of Electronic Engineering Research"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "11257",
+        "DOI": "10.1038/ncomms11257",
+        "article-title": "Fast and sensitive taxonomic classification for metagenomics with Kaiju",
+        "volume": "7",
+        "year": "2016",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2019.07.010"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang, Q. , Bible, P.W. , Liu, Y. , Zou, B. , and Wei, L. (2020). DeepMicrobes: taxonomic classification for metagenomics with deep learning. NAR Genom. Bioinform. 2, qaa009.",
+        "DOI": "10.1093/nargab/lqaa009"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.cell.2020.03.022",
+        "article-title": "How machine learning will transform biomedicine",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40168-017-0283-5"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.985"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0232391"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.16",
+        "first-page": "1835056",
+        "article-title": "Analysis of DNA sequence classification using CNN and hybrid models",
+        "volume": "2021",
+        "year": "2021",
+        "journal-title": "Comput. Math. Methods Med"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "867111",
+        "DOI": "10.3389/fbinf.2022.867111",
+        "article-title": "VirHunter: A Deep Learning-Based Method for Detection of Novel RNA Viruses in Plant Sequencing Data",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "Front. Bioinform"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1007/s40484-019-0187-4",
+        "article-title": "Identifying viruses from metagenomic data using deep learning",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Quant. Biol"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0222271"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "785",
+        "DOI": "10.1038/s41467-023-36336-z",
+        "article-title": "A deep learning approach reveals unexplored landscape of viral expression in cancer",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3002",
+        "DOI": "10.1007/s10489-021-02572-3",
+        "article-title": "Explainable deep neural networks for novel viral genome prediction",
+        "volume": "52",
+        "year": "2022",
+        "journal-title": "Appl Intell (Dordr)"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Suriya, M. , Chandran, V. , and Sumithra, M.G. (2019). Enhanced deep convolutional neural network for malarial parasite classification. International Journal of Computers and Applications, 1\u201310.",
+        "DOI": "10.1080/1206212X.2019.1672277"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Balaram, A. , Silparaj, M. , and Gajula, R. (2022). Detection of malaria parasite in thick blood smears using deep learning. Materials Today: Proceedings.",
+        "DOI": "10.1016/j.matpr.2022.04.1012"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tharsanee, R.M. , Soundariya, R.S. , Kumar, A.S. , Karthiga, M. , and Sountharrajan, S. (2021). Deep convolutional neural network\u2013based image classification for COVID-19 diagnosis. In Data Science for COVID-19 (Elsevier), pp. 117\u2013145.",
+        "DOI": "10.1016/B978-0-12-824536-1.00012-5"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1814",
+        "DOI": "10.1049/ipr2.12153",
+        "article-title": "COVID-19 disease severity assessment using CNN model",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "IET Image Process"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.26",
+        "first-page": "3289801",
+        "article-title": "Deep neural networks based recognition of plant diseases by leaf image classification",
+        "volume": "2016",
+        "year": "2016",
+        "journal-title": "Comput. Intell. Neurosci"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-018-2340-x"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1010260"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s1473-3099(22)00015-9"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Candido, K.L. , Eich, C.R. , de Fari\u00f1a, L.O. , Kadowaki, M.K. , da Concei\u00e7\u00e3o Silva, J.L. , Maller, A. , and Sim\u00e3o, R. de C.G. (2022). Spike protein of SARS-CoV-2 variants: a brief review and practical implications. Braz. J. Microbiol.",
+        "DOI": "10.1007/s42770-022-00743-z"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "de Souza, A.S. , de Freitas Amorim, V.M. , Guardia, G.D.A. , Dos Santos, F.F. , Ulrich, H. , Galante, P.A.F. , de Souza, R.F. , and Guzzo, C.R. (2022). Severe Acute Respiratory Syndrome Coronavirus 2 Variants of Concern: A Perspective for Emerging More Transmissible and Vaccine-Resistant Strains. Viruses 14.",
+        "DOI": "10.20944/preprints202202.0261.v1"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Magazine, N. , Zhang, T. , Wu, Y. , McGee, M.C. , Veggiani, G. , and Huang, W. (2022). Mutations and Evolution of the SARS-CoV-2 Spike Protein. Viruses 14.",
+        "DOI": "10.3390/v14030640"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nat. Microbiol"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-25137-x"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.10.25.20219063"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "960",
+        "DOI": "10.1177/1535370220975351",
+        "article-title": "Genomic analysis of SARS-CoV-2 reveals local viral evolution in Ghana",
+        "volume": "246",
+        "year": "2021",
+        "journal-title": "Exp Biol Med (Maywood)"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Okoh, O.S. , Nii-Trebi, N.I. , Jakkari, A. , Olaniran, T.T. , Senbadejo, T.Y. , Kafintu-Kwashie, A.A. , Dairo, E.O. , Ganiyu, T.O. , Akaninyene, I.E. , Ezediuno, L.O. , et al. (2021). Epidemiology and genetic diversity of SARS-CoV-2 lineages circulating in Africa. medRxiv.",
+        "DOI": "10.1101/2021.05.17.21257341"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-10-421"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Katoh, K. , Rozewicki, J. , and Yamada, K.D. (2019). MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. Brief. Bioinformatics 20, bbx108.",
+        "DOI": "10.1093/bib/bbx108"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.650093"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bezdan, T. , and Ba\u010danin D\u017eakula, N. (2019). Convolutional neural network layers and architectures. In Proceedings of the International Scientific Conference - Sinteza 2019, M. Veinovi\u0107 , D. Cvetkovi\u0107 , M. \u0160arac , A. Jevremovi\u0107 , S. Adamovi\u0107 , \u017e. Milo\u0161evi\u0107 , M. Tanaskovi\u0107 , M. Prodanovi\u0107 , M. \u017eivkovi\u0107 , T. Radojevi\u0107 , et al. , eds. (Novi Sad, Serbia: Singidunum University), pp. 445\u2013451.",
+        "DOI": "10.15308/Sinteza-2019-445-451"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.05.015"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sakib, S. , Ahmed, N. , Kabir, A.J. , and Ahmed, H. (2018). An overview of convolutional neural network: its architecture and applications.",
+        "DOI": "10.20944/preprints201811.0546.v1"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.45",
+        "unstructured": "Gholamalinezhad, H. , and Khosravi, H. (2020). Pooling Methods in Deep Neural Networks, a Review (Cornell University)."
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.46",
+        "unstructured": "Srivastava, N. , Hinton, G. , Krizhevsky, A. , Sutskever, I. , and Salakhutdinov, R. (2014). Dropout: A Simple Way to Prevent Neural Networks from Overfitting. J Mach Learn Res, 1929\u20131958."
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.47",
+        "unstructured": "Agarap, A.F. (2018). Deep Learning using Rectified Linear Units (ReLU). arXiv."
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamdi, S. , Oussalah, M. , Moussaoui, A. , and Saidi, M. (2022). Attention-based hybrid CNN-LSTM and spectral data augmentation for COVID-19 diagnosis from cough sound. J. Intell. Inf. Syst., 1\u201323.",
+        "DOI": "10.1007/s10844-022-00707-7"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "59597",
+        "DOI": "10.1109/ACCESS.2021.3073728",
+        "article-title": "Deep Learning for SARS COV-2 Genome Sequences",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.50",
+        "unstructured": "Kingma, D.P. , and Ba, J. (2014). Adam: A Method for Stochastic Optimization. arXiv."
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "3773",
+        "DOI": "10.21105/joss.03773",
+        "article-title": "Nextclade: clade assignment, mutation calling and quality control for viral genomes",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "JOSS"
+      },
+      {
+        "key": "2023081322000657000_2023.08.09.552643v1.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lebatteux, D. , Soudeyns, H. , Boucoiran, I. , Gantt, S. , and Diallo, A.B. (2022). Machine learning-based approach KEVOLVE efficiently identifies SARS-CoV-2 variant-specific genomic signatures. BioRxiv.",
+        "DOI": "10.1101/2022.02.07.479343"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.09.552643",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:03:10Z",
+      "timestamp": 1768453390000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.09.552643"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          10
+        ]
+      ]
+    },
+    "references-count": 52,
+    "URL": "https://doi.org/10.1101/2023.08.09.552643",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          10
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

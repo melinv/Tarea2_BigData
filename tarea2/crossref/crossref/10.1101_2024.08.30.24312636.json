@@ -1,0 +1,495 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:58:17Z",
+      "timestamp": 1768568297461,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 34,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2024-08-31T00:00:00Z",
+          "timestamp": 1725062400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Isolation of patients with communicable infectious diseases limits spread of pathogens but can be difficult to manage outside hospitals. Rwanda deployed a digital health service nationally to assist public health clinicians to remotely monitor and support SARS-CoV-2 cases via their mobile phones using daily interactive short message service (SMS) check-ins. We aimed to assess the texting patterns and communicated topics to understand patient experiences. We extracted data on all COVID-19 cases and exposed contacts who were enrolled in the WelTel text messaging program between March 18, 2020, and March 31, 2022, and linked demographic and clinical data from the national COVID-19 registry. A sample of the text conversation corpus was English-translated and labeled with topics of interest defined by medical experts. Multiple natural language processing (NLP) topic classification models were trained and compared using F1 scores. Best performing models were applied to classify unlabeled conversations. Total 33,081 isolated patients (mean age 33\u00b79, range 0-100), 44% female, including 30,398 cases and 2,683 contacts) were registered in WelTel. Registered patients generated 12,119 interactive text conversations in Kinyarwanda (n=8,183, 67%), English (n=3,069, 25%) and other languages. Sufficiently trained large language models (LLMs) were unavailable for Kinyarwanda. Traditional machine learning (ML) models outperformed fine-tuned transformer architecture language models on the native untranslated language corpus, however, the reverse was observed of models trained on English-only data. The most frequently identified topics discussed included symptoms (69%), diagnostics (38%), social issues (19%), prevention (18%), healthcare logistics (16%), and treatment (8\u00b75%). Education, advice, and triage on these topics were provided to patients. Interactive text messaging can be used to remotely support isolated patients in pandemics at scale. NLP can help evaluate the medical and social factors that affect isolated patients which could ultimately inform precision public health responses to future pandemics.</jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>We present the first application of NLP for categorizing text messages between patients and healthcare providers within a nationally scaled digital healthcare program. This study provides unique insights into the circumstances of home-based COVID-19 patients during the pandemic. Our trained topic classification models accurately categorized topics in both English and African language texts. Patients reported and discussed both medical and social issues with public healthcare providers. This approach has the potential to guide precision public health decisions and responses in future outbreaks, pandemics, and remote healthcare scenarios.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2024.08.30.24312636",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ],
+      "date-time": "2024-08-31T14:10:22Z",
+      "timestamp": 1725113422000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Natural language processing to evaluate texting conversations between patients and healthcare providers during COVID-19 Home-Based Care in Rwanda at scale"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1759-2236",
+        "authenticated-orcid": false,
+        "given": "Richard T",
+        "family": "Lester",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Manson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Muhammed",
+        "family": "Semakula",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hyeju",
+        "family": "Jang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hassan",
+        "family": "Mugabo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ali",
+        "family": "Magzari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junhong Ma",
+        "family": "Blackmer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fanan",
+        "family": "Fattah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Simon Pierre",
+        "family": "Niyonsenga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Edson",
+        "family": "Rwagasore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Charles",
+        "family": "Ruranga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric",
+        "family": "Remera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jean Claude S.",
+        "family": "Ngabonziza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Carenini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sabin",
+        "family": "Nsanzimana",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "2024090308400543000_2024.08.30.24312636v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e120",
+        "DOI": "10.1016/S2214-109X(20)30452-6",
+        "article-title": "Cost-effectiveness of public health strategies for COVID-19 epidemic control in South Africa: a microsimulation modelling study",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Lancet Glob Health"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mbunge E , Fashoto S , Akinnuwesi B , Gurajena C , Metfula A . Challenges of Social Distancing and Self-Isolation during COVID-19 Pandemic in Africa: A Critical Review [Internet]. Rochester, NY; 2020 [cited 2024 Jun 13]. Available from: https://papers.ssrn.com/abstract=3740202",
+        "DOI": "10.2139/ssrn.3740202"
+      },
+      {
+        "issue": "8",
+        "key": "2024090308400543000_2024.08.30.24312636v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1307",
+        "DOI": "10.1038/s41562-023-01617-6",
+        "article-title": "A systematic review and meta-analysis of 90 cohort studies of social isolation, loneliness and mortality",
+        "volume": "7",
+        "year": "2023",
+        "journal-title": "Nat Hum Behav"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Babili A , Nsanzimana S , Rwagasore E , Lester RT . SMS-based digital health intervention in Rwanda\u2019s home-based care program for remote management of COVID-19 cases and contacts: A qualitative study of sustainability and scalability. Front Digit Health. 2023 Jan 9;4:1071790.",
+        "DOI": "10.3389/fdgth.2022.1071790"
+      },
+      {
+        "issue": "9755",
+        "key": "2024090308400543000_2024.08.30.24312636v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1838",
+        "DOI": "10.1016/S0140-6736(10)61997-6",
+        "article-title": "Effects of a mobile phone short message service on antiretroviral treatment adherence in Kenya (WelTel Kenya1): a randomised trial",
+        "volume": "376",
+        "year": "2010",
+        "journal-title": "The Lancet"
+      },
+      {
+        "issue": "3",
+        "key": "2024090308400543000_2024.08.30.24312636v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e14219",
+        "DOI": "10.1111/petr.14219",
+        "article-title": "A text messaging intervention and quality of life in adolescents with solid organ transplants",
+        "volume": "26",
+        "year": "2022",
+        "journal-title": "Pediatr Transplant"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2468-2667(17)30239-6"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.8",
+        "unstructured": "MAIN INDICATORS: 5th Rwanda Population and Housing Census (PHC) | National Institute of Statistics Rwanda [Internet]. [cited 2024 Jun 13]. Available from: https://statistics.gov.rw/publication/main_indicators_2022"
+      },
+      {
+        "issue": "1",
+        "key": "2024090308400543000_2024.08.30.24312636v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.4269/ajtmh.20-0506",
+        "article-title": "Mobile Health Technology for Enhancing the COVID-19 Response in Africa: A Potential Game Changer?",
+        "volume": "103",
+        "year": "2020",
+        "journal-title": "Am J Trop Med Hyg"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0046033"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1109/RBME.2022.3210270",
+        "article-title": "Natural Language Processing for Smart Healthcare",
+        "volume": "17",
+        "year": "2024",
+        "journal-title": "IEEE Rev Biomed Eng"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li R , Hoque E , Carenini G , Lester R , Chau R . ConVIScope: Visual Analytics for Exploring Patient Conversations [Internet]. arXiv; 2021 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/2108.13514",
+        "DOI": "10.1109/VIS49827.2021.9623269"
+      },
+      {
+        "issue": "7",
+        "key": "2024090308400543000_2024.08.30.24312636v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2322299",
+        "DOI": "10.1001/jamanetworkopen.2023.22299",
+        "article-title": "Use of Natural Language Processing of Patient-Initiated Electronic Health Record Messages to Identify Patients With COVID-19 Infection",
+        "volume": "6",
+        "year": "2023",
+        "journal-title": "JAMA Netw Open"
+      },
+      {
+        "issue": "1",
+        "key": "2024090308400543000_2024.08.30.24312636v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1186/s12874-022-01665-y",
+        "article-title": "A comparative study on deep learning models for text classification of unstructured medical notes with various levels of class imbalance",
+        "volume": "22",
+        "year": "2022",
+        "journal-title": "BMC Med Res Methodol"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmedinf.2017.06.004"
+      },
+      {
+        "issue": "6",
+        "key": "2024090308400543000_2024.08.30.24312636v1.16",
+        "first-page": "AIe2400388",
+        "article-title": "A Global Health Data Divide",
+        "volume": "1",
+        "year": "2024",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-020-01563-7"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.18",
+        "unstructured": "Krafft M . Going paperless for COVID-19 testing in Rwanda with DHIS2 Android Capture App [Internet]. DHIS2. 2020 [cited 2024 Jun 13]. Available from: https://dhis2.org/rwanda-covid-testing/"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.19",
+        "unstructured": "Moslem Y , Haque R , Kelleher JD , Way A . Adaptive Machine Translation with Large Language Models [Internet]. arXiv; 2023 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/2301.13294"
+      },
+      {
+        "issue": "10",
+        "key": "2024090308400543000_2024.08.30.24312636v1.20",
+        "first-page": "281",
+        "article-title": "Random Search for Hyper-Parameter Optimization",
+        "volume": "13",
+        "year": "2012",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ogueji K , Zhu Y , Lin J . Small Data? No Problem! Exploring the Viability of Pretrained Multilingual Language Models for Low-resourced Languages. In: Ataman D , Birch A , Conneau A , Firat O , Ruder S , Sahin GG , editors. Proceedings of the 1st Workshop on Multilingual Representation Learning [Internet]. Punta Cana, Dominican Republic: Association for Computational Linguistics; 2021 [cited 2024 Jun 13]. p. 116\u201326. Available from: https://aclanthology.org/2021.mrl-1.11",
+        "DOI": "10.18653/v1/2021.mrl-1.11"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dossou BFP , Tonja AL , Yousuf O , Osei S , Oppong A , Shode I , et al. AfroLM: A Self-Active Learning-based Multilingual Pretrained Language Model for 23 African Languages [Internet]. arXiv; 2022 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/2211.03263",
+        "DOI": "10.18653/v1/2022.sustainlp-1.11"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.23",
+        "unstructured": "Alabi JO , Adelani DI , Mosbach M , Klakow D . Adapting Pre-trained Language Models to African Languages via Multilingual Adaptive Fine-Tuning [Internet]. arXiv; 2022 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/2204.06487"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.24",
+        "unstructured": "jean-paul/KinyaBERT-small \u00b7 Hugging Face [Internet]. [cited 2024 Jun 13]. Available from: https://huggingface.co/jean-paul/KinyaBERT-small"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.25",
+        "unstructured": "Devlin J , Chang MW , Lee K , Toutanova K . BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [Internet]. arXiv; 2019 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/1810.04805"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.26",
+        "unstructured": "Beltagy I , Peters ME , Cohan A . Longformer: The Long-Document Transformer [Internet]. arXiv; 2020 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/2004.05150"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.27",
+        "unstructured": "Rwanda\u2019s literacy rate rises | National Institute of Statistics Rwanda [Internet]. [cited 2024 Jun 13]. Available from: https://statistics.gov.rw/publications/article/rwanda%E2%80%99s-literacy-rate-rises"
+      },
+      {
+        "issue": "7",
+        "key": "2024090308400543000_2024.08.30.24312636v1.28",
+        "first-page": "1028",
+        "article-title": "Secure Messaging and COVID-19: A Content Analysis of Patient-Clinician Communication During the Pandemic",
+        "volume": "28",
+        "year": "2022",
+        "journal-title": "Telemed J E-Health Off J Am Telemed Assoc"
+      },
+      {
+        "issue": "11",
+        "key": "2024090308400543000_2024.08.30.24312636v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "6591",
+        "DOI": "10.3390/ijerph19116591",
+        "article-title": "Concerns of Home Isolating COVID-19 Patients While Receiving Care via Telemedicine during the Pandemic in the Northern Thailand: A Qualitative Study on Text Messaging",
+        "volume": "19",
+        "year": "2022",
+        "journal-title": "Int J Environ Res Public Health"
+      },
+      {
+        "issue": "6",
+        "key": "2024090308400543000_2024.08.30.24312636v1.30",
+        "first-page": "AIra2400012",
+        "article-title": "Clinical Text Datasets for Medical Artificial Intelligence and Large Language Models \u2014 A Systematic Review",
+        "volume": "1",
+        "year": "2024",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hedderich MA , Lange L , Adel H , Str\u00f6tgen J , Klakow D . A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios [Internet]. arXiv; 2021 [cited 2024 Jun 13]. Available from: http://arxiv.org/abs/2010.12309",
+        "DOI": "10.18653/v1/2021.naacl-main.201"
+      },
+      {
+        "key": "2024090308400543000_2024.08.30.24312636v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1063466",
+        "DOI": "10.3389/fpubh.2023.1063466",
+        "article-title": "Development and testing of a multi-lingual Natural Language Processing-based deep learning system in 10 languages for COVID-19 pandemic crisis: A multi-center study",
+        "volume": "11",
+        "year": "2023",
+        "journal-title": "Front Public Health"
+      },
+      {
+        "issue": "6",
+        "key": "2024090308400543000_2024.08.30.24312636v1.33",
+        "first-page": "AIpc2400033",
+        "article-title": "Ethical Oversight of Data Science Health Research in Africa",
+        "volume": "1",
+        "year": "2024",
+        "journal-title": "NEJM AI"
+      },
+      {
+        "issue": "1",
+        "key": "2024090308400543000_2024.08.30.24312636v1.34",
+        "first-page": "AIp2300038",
+        "article-title": "Development Pipeline and Geographic Representation of Trials for Artificial Intelligence/Machine Learning\u2013Enabled Medical Devices (2010 to 2023)",
+        "volume": "1",
+        "year": "2023",
+        "journal-title": "NEJM AI"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.08.30.24312636",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:10:40Z",
+      "timestamp": 1768507840000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.08.30.24312636"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "references-count": 34,
+    "URL": "https://doi.org/10.1101/2024.08.30.24312636",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pdig.0000625",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

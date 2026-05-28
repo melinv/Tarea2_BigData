@@ -1,0 +1,424 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T14:24:27Z",
+      "timestamp": 1773325467762,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 12,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Artificial intelligence can potentially provide a substantial role in streamlining chest computed tomography (CT) diagnosis of COVID-19 patients. However, several critical hurdles have impeded the development of robust AI model, which include deficiency, isolation, and heterogeneity of CT data generated from diverse institutions. These bring about lack of generalization of AI model and therefore prevent it from applications in clinical practices. To overcome this, we proposed a federated learning-based Unified CT-COVID AI Diagnostic Initiative (UCADI,\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.ai-ct-covid.team/\">http://www.ai-ct-covid.team/</jats:ext-link>\n                  ), a decentralized architecture where the AI model is distributed to and executed at each host institution with the data sources or client ends for training and inferencing without sharing individual patient data. Specifically, we firstly developed an initial AI CT model based on data collected from three Tongji hospitals in Wuhan. After model evaluation, we found that the initial model can identify COVID from Tongji CT test data at near radiologist-level (97.5% sensitivity) but performed worse when it was tested on COVID cases from Wuhan Union Hospital (72% sensitivity), indicating a lack of model generalization. Next, we used the publicly available UCADI framework to build a federated model which integrated COVID CT cases from the Tongji hospitals and Wuhan Union hospital (WU) without transferring the WU data. The federated model not only performed similarly on Tongji test data but improved the detection sensitivity (98%) on WU test cases. The UCADI framework will allow participants worldwide to use and contribute to the model, to deliver a real-world, globally built and validated clinic CT-COVID AI tool. This effort directly supports the United Nations Sustainable Development Goals\u2019 number 3, Good Health and Well-Being, and allows sharing and transferring of knowledge to fight this devastating disease around the world.\n                </jats:p>",
+    "DOI": "10.1101/2020.05.10.20096073",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ],
+      "date-time": "2020-05-15T15:34:33Z",
+      "timestamp": 1589556873000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "A collaborative online AI engine for CT-based COVID-19 diagnosis"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Yongchao",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Liya",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yanyan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ke",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiehua",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xian",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yaobing",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chang",
+        "family": "Shu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ziwei",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiefeng",
+        "family": "Gan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xinyu",
+        "family": "Zou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Renhao",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Changzheng",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaowu",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dandan",
+        "family": "Tu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chuou",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wenqing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dehua",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ming-Wei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaoliang",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hongxiang",
+        "family": "Leng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nagaraj",
+        "family": "Holalkere",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Neil J.",
+        "family": "Halin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ihab Roushdy",
+        "family": "Kamel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jia",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xuehua",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianbo",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pattanasak",
+        "family": "Mongkolwat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianjun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel L.",
+        "family": "Rubin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guoping",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chuangsheng",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhen",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiang",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tian",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai, T. , et al. Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. Radiology, 200642 (2020).",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang, Y. , et al. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. Radiology, 200432 (2020).",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.3",
+        "unstructured": "Kanne, J.P. , Little, B.P. , Chung, J.H. , Elicker, B.M. & Ketai, L.H. Essentials for radiologists on COVID-19: an update\u2014radiology scientific expert panel. (Radiological Society of North America, 2020)."
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200230"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kanne, J.P. Chest CT findings in 2019 novel coronavirus (2019-nCoV) infections from Wuhan, China: key points for the radiologist. (Radiological Society of North America, 2020).",
+        "DOI": "10.1148/radiol.2020200241"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi, H. , et al. Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study. The Lancet Infectious Diseases (2020).",
+        "DOI": "10.1016/S1473-3099(20)30086-4"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaseghi, G. , et al. Clinical characterization and chest CT findings in laboratory-confirmed COVID-19: a systematic review and meta-analysis. medRxiv (2020).",
+        "DOI": "10.1101/2020.03.05.20031518"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai, H.X. , et al. Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT. Radiology, 200823 (2020).",
+        "DOI": "10.1148/radiol.2020200823"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yao, T. , Pan, Y. , Li, Y. , Qiu, Z. & Mei, T. Boosting image captioning with attributes. in Proceedings of the IEEE International Conference on Computer Vision 4894-4902 (2017).",
+        "DOI": "10.1109/ICCV.2017.524"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.10",
+        "unstructured": "McMahan, H.B. , Moore, E. , Ramage, D. & Hampson, S. Communication-efficient learning of deep networks from decentralized data. arXiv preprint arXiv:1602.05629 (2016)."
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.11",
+        "first-page": "1333",
+        "article-title": "Privacy-preserving deep learning via additively homomorphic encryption",
+        "volume": "13",
+        "year": "2017",
+        "journal-title": "IEEE Transactions on Information Forensics and Security"
+      },
+      {
+        "key": "2021011111143418000_2020.05.10.20096073v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, G. , Liu, Z. , Van Der Maaten, L. & Weinberger, K.Q. Densely connected convolutional networks. in Proceedings of the IEEE conference on computer vision and pattern recognition 4700-4708 (2017).",
+        "DOI": "10.1109/CVPR.2017.243"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.10.20096073",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:40:16Z",
+      "timestamp": 1768484416000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.10.20096073"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "references-count": 12,
+    "URL": "https://doi.org/10.1101/2020.05.10.20096073",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

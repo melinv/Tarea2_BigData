@@ -1,0 +1,427 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T09:45:04Z",
+      "timestamp": 1775987104385,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          3
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              3
+            ]
+          ],
+          "date-time": "2025-04-03T00:00:00Z",
+          "timestamp": 1743638400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Chromatin accessibility, measured via single-nucleus Assay for Transposase-Accessible Chromatin with sequencing (snATAC-seq), can reveal the underpinnings of transcriptional regulation across heterogeneous cell states. As the number and scale of snATAC-seq datasets increases, we need robust computational pipelines to integrate samples within a dataset and datasets across studies. These integration pipelines should correct cell-state-obfuscating technical effects while conserving underlying biological cell states, as has been shown for single-cell RNA-seq (scRNA-seq) pipelines. However, scRNA-seq integration methods have performed inconsistently on snATAC-seq datasets, potentially due to sparsity and genomic feature differences.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Using single-nucleus multimodal datasets profiling ATAC and RNA simultaneously, we can measure snATAC-seq integration method performance by comparison to independently integrated snRNA-seq gold standard embeddings and annotations. Here, we benchmark 58 pipelines, incorporating 7 integration methods plus 1 embedding correction method with 5 feature sets. Using our command-line tool, we assessed 5 multimodal datasets at 3 different resolutions using 2 novel metrics to determine the best practices for multi-sample snATAC-seq integration. ATAC features outperformed Gene Activity Score (GAS) features, and embedding correction with Harmony was generally useful. SnapATAC2, PeakVI, and ArchR\u2019s iterative Latent Semantic Indexing (LSI) performed well.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>\n                    We recommend SnapATAC2 + Harmony with pre-defined ENCODE candidate\n                    <jats:italic>cis</jats:italic>\n                    -regulatory element (cCRE) features as a first-pass pipeline given its metric performance, generalizability of features, and method resource-efficiency. This and other high-performing pipelines will guide future comprehensive gene regulation maps.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.04.02.646871",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2025-04-03T22:55:18Z",
+      "timestamp": 1743720918000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Defining effective strategies to integrate multi-sample single-nucleus ATAC-seq datasets via a multimodal-guided approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8491-7251",
+        "authenticated-orcid": false,
+        "given": "Kathryn",
+        "family": "Weinand",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          },
+          {
+            "name": "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Division of Genetics, Department of Medicine, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Center for Data Sciences, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Erica M.",
+        "family": "Langan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          },
+          {
+            "name": "Harvard-MIT Program in Health Sciences and Technology, Harvard Medical School, Boston, MA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Michelle",
+        "family": "Curtis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          },
+          {
+            "name": "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Division of Genetics, Department of Medicine, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Center for Data Sciences, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1901-8265",
+        "authenticated-orcid": false,
+        "given": "Soumya",
+        "family": "Raychaudhuri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+          },
+          {
+            "name": "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Division of Genetics, Department of Medicine, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Center for Data Sciences, Brigham and Women\u2019s Hospital and Harvard Medical School, Boston, MA, USA"
+          },
+          {
+            "name": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14590"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-023-01881-x"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-019-0206-z"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Domcke, S. et al. A human cell atlas of fetal chromatin accessibility. Science 370, (2020).",
+        "DOI": "10.1126/science.aba7612"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.10.024"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41556-024-01435-6"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, H. et al. Single-Cell Transcriptional and Epigenetic Profiles of Male Breast Cancer Nominate Salient Cancer-Specific Enhancers. Int J Mol Sci 24, (2023).",
+        "DOI": "10.3390/ijms241713053"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, Y. et al. Transcriptomics based multi-dimensional characterization and drug screen in esophageal squamous cell carcinoma. EBioMedicine 70, 103510 (2021).",
+        "DOI": "10.1016/j.ebiom.2021.103510"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carraro, C. et al. Decoding mechanism of action and sensitivity to drug candidates from integrated transcriptome and chromatin state. Elife 11, (2022).",
+        "DOI": "10.7554/eLife.78012"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-023-01608-9"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06708-y"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.12",
+        "first-page": "481",
+        "article-title": "Cross-tissue, single-cell stromal atlas identifies shared pathological fibroblast phenotypes in four chronic inflammatory diseases",
+        "volume": "3",
+        "year": "2022",
+        "journal-title": "Med (N Y"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eraslan, G. et al. Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function. Science 376, eabl4290 (2022).",
+        "DOI": "10.1126/science.abl4290"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.08.037"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01336-8"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-26530-2"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-019-1854-5"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, S. , Germain, P.-L. , Robinson, M. D. & von Meyenn, F . Benchmarking computational methods for single-cell chromatin data analysis. Genome Biol 25, 225 (2024).",
+        "DOI": "10.1186/s13059-024-03356-x"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2493-4"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-019-0619-0"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-48620-7"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2023.07.019"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-023-02139-9"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00790-6"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ashuach, T. , Reidenbach, D. A. , Gayoso, A. & Yosef, N . PeakVI: A deep generative model for single-cell chromatin accessibility analysis. Cell Reports Methods 2, 100182 (2022).",
+        "DOI": "10.1016/j.crmeth.2022.100182"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-023-01577-7"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01282-5"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-024-02274-x"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41587-023-01767-Y"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.09.056"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aau0730"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkx1053"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsuyuzaki, K. , Sato, H. , Sato, K. & Nikaido, I . Benchmarking principal component analysis for large-scale single-cell RNA-sequencing. Genome Biol 21, 9 (2020).",
+        "DOI": "10.1186/s13059-019-1900-3"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1137/04060593X",
+        "article-title": "Augmented Implicitly Restarted Lanczos Bidiagonalization Methods",
+        "volume": "27",
+        "year": "2005",
+        "journal-title": "SIAM Journal on Scientific Computing"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-024-01901-1"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, L. et al. StarSpace: Embed All The Things! (2017).",
+        "DOI": "10.1609/aaai.v32i1.11996"
+      },
+      {
+        "key": "2026041202140128000_2025.04.02.646871v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7303/syn53650034"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.02.646871",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2026-04-12T09:14:11Z",
+      "timestamp": 1775985251000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.02.646871"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          3
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2025.04.02.646871",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

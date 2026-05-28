@@ -1,0 +1,390 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:40:45Z",
+      "timestamp": 1768498845938,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          17
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 41,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The COVID-19 pandemic is ongoing because of the high transmission rate and the emergence of SARS-CoV-2 variants. The\n                  <jats:bold>P272L</jats:bold>\n                  mutation in SARS-Cov-2\n                  <jats:bold>S</jats:bold>\n                  -protein is known to be highly relevant to the viral escape associated with the second pandemic wave in Europe. Epitope-specific T-cell receptor (TCR) recognition is a key factor in determining the T-cell immunogenicity of a SARS-CoV-2 epitope. Although several data-driven methods for predicting epitope-specific TCR recognition have been proposed, they remain challenging owing to the enormous diversity of TCRs and the lack of available training data. Self-supervised transfer learning has recently been demonstrated to be powerful for extracting useful information from unlabeled protein sequences and increasing the predictive performance of the fine-tuned models in downstream tasks.\n                </jats:p>\n                <jats:p>\n                  Here, we present a predictive model based on Bidirectional Encoder Representations from Transformers (BERT), employing self-supervised transfer learning, to predict SARS-CoV-2 T-cell epitope-specific TCR recognition. The fine-tuned model showed notably high predictive performance for independent evaluation using the SARS-CoV-2 epitope-specific TCR CDR3\u03b2 sequence datasets. In particular, we found the proline at position 4 corresponding to the\n                  <jats:bold>P272L</jats:bold>\n                  mutation in the SARS-CoV-2\n                  <jats:bold>S</jats:bold>\n                  -protein\n                  <jats:sub>269-277</jats:sub>\n                  epitope (\n                  <jats:bold>YLQPRTFLL</jats:bold>\n                  ) may contribute substantially to TCR recognition of the epitope through interpreting the output attention weights of our model.\n                </jats:p>\n                <jats:p>We anticipate that our findings will provide new directions for constructing a reliable data-driven model to predict the immunogenic T-cell epitopes using limited training data and help accelerate the development of an effective vaccine in response to SARS-CoV-2 variants.</jats:p>",
+    "DOI": "10.1101/2021.11.17.468929",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2021-11-17T22:45:14Z",
+      "timestamp": 1637189114000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Predicting SARS-CoV-2 epitope-specific TCR recognition using pre-trained protein embeddings"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Youngmahn",
+        "family": "Han",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Aeri",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1002/gch2.1018",
+        "article-title": "Data, disease and diplomacy: GISAID\u2019s innovative contribution to global health",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Global Challenges"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41576-021-00408-x"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.3",
+        "first-page": "1",
+        "article-title": "Understanding the T cell immune response in SARS coronavirus infection",
+        "volume": "1",
+        "year": "2019",
+        "journal-title": "Emerging Microbes & Infections"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Channappanavar, R. , Zhao, J. , research, S. P. I. & 2014. T cell-mediated immune response to respiratory coronaviruses. Immunologic research 118\u2013128 (2014).",
+        "DOI": "10.1007/s12026-014-8534-z"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01505-14"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/vir.0.82839-0"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.immunol.23.021704.115658"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0092-8674(02)00675-X"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1182/blood-2009-04-217604"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature22976"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature22383"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.25260"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx286"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.14",
+        "first-page": "3628",
+        "article-title": "Epitope Specific Antibodies and T Cell Receptors in the Immune Epitope Database",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz874"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0141561"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3662"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00251-019-01139-4"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008814",
+        "DOI": "10.1371/journal.pcbi.1008814",
+        "article-title": "Predicting recognition between T cell receptors and epitopes with TCRGP",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "2820",
+        "DOI": "10.3389/fimmu.2019.02820",
+        "article-title": "Detection of Enriched T Cell Epitope Specificity in Full T Cell Receptor Sequence Repertoires",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/433706"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isacchini, G. , Walczak, A. M. , Mora, T. & Nourmohammad, A. Deep generative selection models of T and B cell receptor repertoires with soNNia. Proceedings of the National Academy of Sciences 118, (2021).",
+        "DOI": "10.1073/pnas.2023141118"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21879-w"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1803",
+        "DOI": "10.3389/fimmu.2020.01803",
+        "article-title": "Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in Immunology"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peters, M. E. et al. Deep contextualized word representations. http://arXiv.org cs.CL, (2018).",
+        "DOI": "10.18653/v1/N18-1202"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.26",
+        "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. & Toutanova, K. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. http://arXiv.org cs.CL, (2018)."
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.27",
+        "unstructured": "Radford, A. , Wu, J. & Child, R. Language models are unsupervised multitask learners. OpenAI blog (2019)."
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.28",
+        "first-page": "9689",
+        "article-title": "Evaluating Protein Transfer Learning with TAPE",
+        "volume": "32",
+        "year": "2019",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-019-2669-9"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nambiar, A. et al. Transforming the language of life: transformer neural networks for protein prediction tasks. Proceedings of the 11th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics, 1\u20138 (2020).",
+        "DOI": "10.1145/3388440.3412467"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.31",
+        "first-page": "gky995.",
+        "article-title": "The Pfam protein families database in 2019",
+        "volume": "47",
+        "year": "2018",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.11.24.396101"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vig, J. et al. BERTology Meets Biology: Interpreting Attention in Protein Language Models. Arxiv cs.CL, (2020).",
+        "DOI": "10.1101/2020.06.26.174417"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.1002/prot.26065",
+        "article-title": "Deep learning pan-specific model for interpretable MHC-I peptide binding prediction with improved attention mechanism",
+        "volume": "89",
+        "year": "2021",
+        "journal-title": "Proteins Struct Funct Bioinform"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku938"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aac5624"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1245",
+        "DOI": "10.1016/j.immuni.2020.11.004",
+        "article-title": "SARS-CoV-2 Epitopes Are Recognized by a Public and Diverse Repertoire of Human T Cell Receptors",
+        "volume": "53",
+        "year": "2020",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prechelt, Lutz. Early stopping-but when? Neural Networks: Tricks of the trade. Springer, Berlin, Heidelberg, 55\u201369 (1998).",
+        "DOI": "10.1007/3-540-49430-8_3"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.39",
+        "unstructured": "Kingma, D. P. & Ba, J. Adam: A Method for Stochastic Optimization. http://arXiv.org cs.LG, (2014)."
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dolton, G. et al. Emergence of immune escape at dominant SARS-CoV-2 killer T-cell epitope. medRxiv, (2021).",
+        "DOI": "10.1101/2021.06.21.21259010"
+      },
+      {
+        "key": "2021112002051523000_2021.11.17.468929v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks469"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.17.468929",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:23:38Z",
+      "timestamp": 1768443818000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.17.468929"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          17
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1101/2021.11.17.468929",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

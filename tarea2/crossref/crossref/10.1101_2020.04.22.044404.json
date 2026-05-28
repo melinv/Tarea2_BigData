@@ -1,0 +1,978 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:32:50Z",
+      "timestamp": 1768491170935,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          26
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 122,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2020-04-26T00:00:00Z",
+          "timestamp": 1587859200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.biorxiv.org/about/FAQ#license"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>\n                  We introduce VERSO, a two-step framework for the characterization of viral evolution from sequencing data of viral genomes, which improves over phylogenomic approaches for consensus sequences. VERSO exploits an efficient algorithmic strategy to return robust phylogenies from clonal variant profiles, also in conditions of sampling limitations. It then leverages variant frequency patterns to characterize the intra-host genomic diversity of samples, revealing undetected infection chains and pinpointing variants likely involved in homoplasies. On simulations, VERSO outperforms state-of-the-art tools for phylogenetic inference. Notably, the application to 6726 Amplicon and RNA-seq samples refines the estimation of SARS-CoV-2 evolution, while co-occurrence patterns of minor variants unveil undetected infection paths, which are validated with contact tracing data. Finally, the analysis of SARS-CoV-2 mutational landscape uncovers a temporal increase of overall genomic diversity, and highlights variants transiting from minor to clonal state and homoplastic variants, some of which falling on the spike gene. Available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/BIMIB-DISCo/VERSO\">https://github.com/BIMIB-DISCo/VERSO</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2020.04.22.044404",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          26
+        ]
+      ],
+      "date-time": "2020-04-26T19:45:10Z",
+      "timestamp": 1587930310000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "VERSO: a comprehensive framework for the inference of robust phylogenies and the quantification of intra-host genomic diversity of viral samples"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6087-2666",
+        "authenticated-orcid": false,
+        "given": "Daniele",
+        "family": "Ramazzotti",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Fabrizio",
+        "family": "Angaroni",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Davide",
+        "family": "Maspero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlo",
+        "family": "Gambacorti-Passerini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marco",
+        "family": "Antoniotti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5452-1918",
+        "authenticated-orcid": false,
+        "given": "Alex",
+        "family": "Graudenzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rocco",
+        "family": "Piazza",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2012-7"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kristian G Andersen , Andrew Rambaut, W Ian Lipkin , Edward C Holmes , and Robert F Garry . The proximal origin of SARS-CoV-2. Nature Medicine, pages 1\u20133, 2020.",
+        "DOI": "10.1038/s41591-020-0820-9"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kangpeng Xiao , Junqiong Zhai , Yaoyu Feng , Niu Zhou , Xu Zhang , Jie-Jian Zou , Na Li , Yaqiong Guo , Xiaobing Li , Xuejuan Shen , Zhipeng Zhang , Fanfan Shu , Wanyi Huang , Yu Li , Ziding Zhang , Rui-Ai Chen , Ya-Jiang Wu , Shi-Ming Peng , Mian Huang , Wei-Jun Xie , Qin-Hui Cai , Fang-Hui Hou , Wu Chen , Lihua Xiao , and Yongyi Shen . Isolation of SARS-CoV-2-related coronavirus from malayan pangolins. Nature, 2020.",
+        "DOI": "10.1038/s41586-020-2313-x"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xianding Deng , Wei Gu , Scot Federman , Louis du Plessis , Oliver G. Pybus , Nuno Faria , Candace Wang , Guixia Yu , Brian Bushnell , Chao-Yang Pan , Hugo Guevara , Alicia Sotomayor-Gonzalez , Kelsey Zorn , Allan Gopez , Venice Servellita , Elaine Hsu , Steve Miller , Trevor Bedford , Alexander L. Greninger , Pavitra Roychoudhury , Lea M. Starita , Michael Famulare , Helen Y. Chu , Jay Shendure , Keith R. Jerome , Catie Anderson , Karthik Gangavarapu , Mark Zeller , Emily Spencer , Kristian G. Andersen , Duncan MacCannell , Clinton R. Paden , Yan Li , Jing Zhang , Suxiang Tong , Gregory Armstrong , Scott Morrow , Matthew Willis , Bela T. Matyas , Sundari Mase , Olivia Kasirye , Maggie Park , Godfred Masinde , Curtis Chan , Alexander T. Yu , Shua J. Chai , Elsa Villarino , Brandon Bonin , Debra A. Wadford , and Charles Y. Chiu . Genomic surveillance reveals multiple introductions of SARS-CoV-2 into northern california. Science, 2020.",
+        "DOI": "10.1126/science.abb9263"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nathan D Grubaugh , Mary E Petrone , and Edward C Holmes . We shouldn\u2019t worry when a virus mutates during disease outbreaks. Nature Microbiology, pages 1\u20132, 2020.",
+        "DOI": "10.1038/s41564-020-0690-4"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1090727"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.3479"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yuelong Shu and John McCauley . GISAID: Global initiative on sharing all influenza data\u2013from vision to reality. Eurosurveillance, 22(13), 2017.",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msu300"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Erik M Volz , Katia Koelle , and Trevor Bedford . Viral phylodynamics. PLoS computational biology, 9(3), 2013.",
+        "DOI": "10.1371/journal.pcbi.1002947"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature22401"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Michael Worobey , Jonathan Pekar , Brendan B Larsen , Martha I Nelson , Verity Hill , Jeffrey B Joy , Andrew Rambaut , Marc A Suchard , Joel O Wertheim , and Philippe Lemey . The emergence of SARS-CoV-2 in europe and north america. Science, 2020.",
+        "DOI": "10.1101/2020.05.21.109322"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.molbev.a026036"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-ecolsys-110411-160331"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/sys029"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu033"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.18",
+        "first-page": "997",
+        "article-title": "Genomic infectious disease epidemiology in partially sampled and ongoing outbreaks",
+        "volume": "34",
+        "year": "2017",
+        "journal-title": "Molecular biology and evolution"
+      },
+      {
+        "issue": "1",
+        "key": "2024080404390484000_2020.04.22.044404v4.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1093/bioinformatics/btx402",
+        "article-title": "Quentin: reconstruction of disease transmissions from viral quasispecies genomic data",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006117",
+        "DOI": "10.1371/journal.pcbi.1006117",
+        "article-title": "Bayesian reconstruction of transmission within outbreaks using genomic variants",
+        "volume": "14",
+        "year": "2018",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msy016"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006650",
+        "DOI": "10.1371/journal.pcbi.1006650",
+        "article-title": "Beast 2.5: An advanced software platform for bayesian evolutionary analysis",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.23",
+        "unstructured": "Alessia Lai , Annalisa Bergna , Carla Acciarri , Massimo Galli , and Gianguglielmo Zehender . Early phylogenetic estimate of the effective reproduction number of SARS-CoV-2. Journal of medical virology, 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peter Forster , Lucy Forster , Colin Renfrew , and Michael Forster . Phylogenetic network analysis of SARS-CoV-2 genomes. Proceedings of the National Academy of Sciences, 2020.",
+        "DOI": "10.1073/pnas.2004999117"
+      },
+      {
+        "issue": "6",
+        "key": "2024080404390484000_2020.04.22.044404v4.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.3390/genes11060637",
+        "article-title": "Analysis of the hosts and transmission paths of SARS-CoV-2 in the covid-19 outbreak",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Genes"
+      },
+      {
+        "issue": "2",
+        "key": "2024080404390484000_2020.04.22.044404v4.26",
+        "first-page": "218",
+        "article-title": "A metric on the space of reduced phylogenetic networks",
+        "volume": "7",
+        "year": "2009",
+        "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-015-0592-6"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ch Juli\u00e1n Villabona-Arenas , William P Hanage , and Damien C Tully . Phylogenetic interpretation during outbreaks requires caution. Nature Microbiology, pages 1\u20132, 2020.",
+        "DOI": "10.1038/s41564-020-0738-5"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carla Mavian , Simone Marini , Costanza Manes , Ilaria Capua , Mattia Prosperi , and Marco Salemi . Regaining perspective on SARS-CoV-2 molecular tracing and its implications. medRxiv, 2020.",
+        "DOI": "10.1101/2020.03.16.20034470"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0378-1119(85)90017-4"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/MMBR.05023-11"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature12861"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1357-4310(95)91551-6"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro2614"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alex Graudenzi , Davide Maspero , Fabrizio Angaroni , Rocco Piazza , and Daniele Ramazzotti . Mutational signatures and heterogeneous host response revealed via large-scale characterization of SARS-CoV-2 genomic diversity. bioRxiv, 2020.",
+        "DOI": "10.1101/2020.07.06.189944"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.36",
+        "unstructured": "Zijie Shen , Yan Xiao , Lu Kang , Wentai Ma , Leisheng Shi , Li Zhang , Zhuo Zhou , Jing Yang , Jiaxin Zhong , Donghong Yang , et al. Genomic diversity of SARS-CoV-2 in coronavirus disease 2019 patients. Clinical Infectious Diseases, 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roman W\u00f6lfel , Victor M Corman , Wolfgang Guggemos , Michael Seilmaier , Sabine Zange , Marcel A M\u00fcller , Daniela Niemeyer , Terry C Jones , Patrick Vollmar , Camilla Rothe , et al. Virological assessment of hospitalized patients with COVID-2019. Nature, pages 1\u201310, 2020.",
+        "DOI": "10.1038/s41586-020-2196-x"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maria Rosaria Capobianchi , Martina Rueca , Francesco Messina , Emanuela Giombini , Fabrizio Carletti , Francesca Colavita , Concetta Castilletti , Eleonora Lalle , Licia Bordi , Francesco Vairo , et al. Molecular characterization of SARS-CoV-2 from the first case of COVID-19 in italy. Clinical Microbiology and Infection, 2020.",
+        "DOI": "10.1016/j.cmi.2020.03.025"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rebecca Rose , David J Nolan , Samual Moot , Amy Feehan , Sissy Cross , Julia Garcia-Diaz , and Susanna L Lamers . Intra-host site-specific polymorphisms of SARS-CoV-2 is consistent across multiple samples and methodologies. medRxiv, 2020.",
+        "DOI": "10.1101/2020.04.24.20078691"
+      },
+      {
+        "issue": "5",
+        "key": "2024080404390484000_2020.04.22.044404v4.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "997",
+        "DOI": "10.1016/j.cell.2020.04.023",
+        "article-title": "Genomic epidemiology of SARS-CoV-2 in guangdong province, china",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.41",
+        "unstructured": "Katrina A Lythgoe , Matthew David Hall , Luca Ferretti , Mariateresa de Cesare , George MacIntyre-Cockett , Amy Trebes , Monique Andersson , Newton Otecko , Emma L Wise , Nathan Moore , et al. Shared SARS-CoV-2 diversity suggests localised transmission of minority variants. bioRxiv, 2020."
+      },
+      {
+        "issue": "1",
+        "key": "2024080404390484000_2020.04.22.044404v4.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "4376",
+        "DOI": "10.1038/s41467-020-18314-x",
+        "article-title": "Tracking the COVID-19 pandemic in australia using genomics",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.43",
+        "unstructured": "Alexandra Popa , Jakob-Wendelin Genger , Michael D. Nicholson , Thomas Penz , Daniela Schmid , Stephan W. Aberle , Benedikt Agerer , Alexander Lercher , Lukas Endler , Henrique Cola\u00e7o , Mark Smyth , Michael Schuster , Miguel L. Grau , Francisco Mart\u00ednez-Jim\u00e9nez , Oriol Pich , Wegene Borena , Erich Pawelka , Zsofia Keszei , Martin Senekowitsch , Jan Laine , Judith H. Aberle , Monika Redlberger-Fritz , Mario Karolyi , Alexander Zoufaly , Sabine Maritschnik , Martin Borkovec , Peter Hufnagl , Manfred Nairz , G\u00fcnter Weiss , Michael T. Wolfinger , Dorothee von Laer , Giulio Superti-Furga , Nuria Lopez-Bigas , Elisabeth Puchhammer-St\u00f6ckl , Franz Allerberger , Franziska Michor , Christoph Bock , and Andreas Bergthaler . Genomic epidemiology of superspreading events in austria reveals mutational dynamics and transmission properties of SARS-CoV-2. Science Translational Medicine, 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.285.5434.1745"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc032421"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.01396-10"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/mcs.a001214"
+      },
+      {
+        "issue": "11",
+        "key": "2024080404390484000_2020.04.22.044404v4.48",
+        "first-page": "1",
+        "article-title": "Intra-host dynamics of Ebola virus during 2014",
+        "volume": "1",
+        "year": "2016",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv296"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syu081"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1520213113"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Russell Schwartz and Alejandro A Sch\u00e4ffer . The evolution of tumour phylogenetics: principles and practice. Nature Reviews Genetics, 2017.",
+        "DOI": "10.1038/nrg.2016.170"
+      },
+      {
+        "issue": "1",
+        "key": "2024080404390484000_2020.04.22.044404v4.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/S0169-5347(00)02026-7",
+        "article-title": "Intraspecific gene genealogies: trees grafting into networks",
+        "volume": "16",
+        "year": "2001",
+        "journal-title": "Trends in ecology & evolution"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks485"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "1497",
+        "DOI": "10.1093/genetics/147.4.1497",
+        "article-title": "Exceptional convergent evolution in a virus",
+        "volume": "147",
+        "year": "1997",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/344397"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Serafin Gutierrez , Michel Yvon , Elodie Pirolles , Eliza Garzo , Alberto Fereres , Yannis Michalakis , and Stephane Blanc . Circulating virus load determines the size of bottlenecks in viral populations progressing within a host. PLoS pathogens, 8(11), 2012.",
+        "DOI": "10.1371/journal.ppat.1003009"
+      },
+      {
+        "issue": "1",
+        "key": "2024080404390484000_2020.04.22.044404v4.58",
+        "first-page": "1",
+        "article-title": "Reconstructing foot-and-mouth disease outbreaks: a methods comparison of transmission network models",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-017-1382-0"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr627"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku537"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1003515"
+      },
+      {
+        "issue": "6",
+        "key": "2024080404390484000_2020.04.22.044404v4.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "375",
+        "DOI": "10.1016/j.ygeno.2017.12.007",
+        "article-title": "QSdpR: Viral quasispecies reconstruction via correlation clustering",
+        "volume": "110",
+        "year": "2018",
+        "journal-title": "Genomics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sergey Knyazev , Lauren Hughes , Pavel Skums , and Alexander Zelikovsky . Epidemiological data analysis of viral quasispecies in the next-generation sequencing era. Briefings in bioinformatics, 2020.",
+        "DOI": "10.1093/bib/bbaa101"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsfs.2013.0031"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carolina Garcia-Vidal , Gemma Sanjuan , Estela Moreno-Garc\u00eda , Pedro Puerta-Alcalde , Nicole Garcia-Pouton , Mariana Chumbita , Mariana Fernandez-Pittol , Cristina Pitart , Alexy Inciarte , Marta Bodro , et al. Incidence of co-infections and superinfections in hospitalized patients with COVID-19: a retrospective cohort study. Clinical Microbiology and Infection, 2020.",
+        "DOI": "10.1016/j.cmi.2020.07.041"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.67",
+        "article-title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.68",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-sne",
+        "volume": "9",
+        "year": "2008",
+        "journal-title": "Journal of machine learning research"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rebecca J Rockett , Alicia Arnott , Connie Lam , Rosemarie Sadsad , Verlaine Timms , Karen-Ann Gray , John-Sebastian Eden , Sheryl Chang , Mailie Gall , Jenny Draper , et al. Revealing covid-19 transmission in australia by SARS-CoV-2 genome sequencing and agent-based modeling. Nature medicine, pages 1\u20137, 2020.",
+        "DOI": "10.1038/s41591-020-1000-7"
+      },
+      {
+        "issue": "5",
+        "key": "2024080404390484000_2020.04.22.044404v4.70",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1004842",
+        "DOI": "10.1371/journal.pcbi.1004842",
+        "article-title": "Efficient coalescent simulation and genealogical analysis for large sample sizes",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.71",
+        "unstructured": "John Wakeley . Coalescent theory: an introduction. Number 575: 519.2 WAK. Roberts and Company Publishers, 2009."
+      },
+      {
+        "issue": "23",
+        "key": "2024080404390484000_2020.04.22.044404v4.72",
+        "doi-asserted-by": "crossref",
+        "first-page": "4121",
+        "DOI": "10.1093/bioinformatics/bty407",
+        "article-title": "Nextstrain: real-time tracking of pathogen evolution",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty633"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2992536"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30067-0"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maciej F Boni , Philippe Lemey , Xiaowei Jiang , Tommy Tsan-Yuk Lam , Blair Perry , Todd Castoe , Andrew Rambaut , and David L Robertson . Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the covid-19 pandemic. Nature Microbiology, 2020.",
+        "DOI": "10.1101/2020.03.30.015008"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.77",
+        "unstructured": "Xiaojun Li , Elena E Giorgi , Manukumar Honnayakanahalli Marichannegowda , Brian Foley , Chuan Xiao , Xiang-Peng Kong , Yue Chen , S Gnanakaran , Bette Korber , and Feng Gao . Emergence of SARS-CoV-2 through recombination and strong purifying selection. Science Advances, page eabb9153, 2020."
+      },
+      {
+        "issue": "11",
+        "key": "2024080404390484000_2020.04.22.044404v4.78",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for sars-cov-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.79",
+        "unstructured": "\u00c1ine O\u2019Toole , JT McCrone , and Emily Scher . pangolin 2.0. https://github.com/cov-lineages/pangolin, 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiaolu Tang , Changcheng Wu , Xiang Li , Yuhe Song , Xinmin Yao , Xinkai Wu , Yuange Duan , Hong Zhang , Yirong Wang , Zhaohui Qian , et al. On the origin and continuing evolution of SARS-CoV-2. National Science Review, 2020.",
+        "DOI": "10.1093/nsr/nwaa036"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiaonan Zhang , Yun Tan , Yun Ling , Gang Lu , Feng Liu , Zhigang Yi , Xiaofang Jia , Min Wu , Bisheng Shi , Shuibao Xu , et al. Viral and host factors related to the clinical outcome of covid-19. Nature, pages 1\u20137, 2020.",
+        "DOI": "10.1038/s41586-020-2355-0"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Erik M Volz , Verity Hill , John T McCrone , Anna Price , David Jorgensen , Aine O\u2019Toole , Joel Alexander Southgate , Robert Johnson , Ben Jackson , Fabricia F Nascimento , et al. Evaluating the effects of SARS-CoV-2 spike mutation d614g on transmissibility and pathogenicity. medRxiv, 2020.",
+        "DOI": "10.1101/2020.07.31.20166082"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.83",
+        "doi-asserted-by": "crossref",
+        "first-page": "812",
+        "DOI": "10.1016/j.cell.2020.06.043",
+        "article-title": "Tracking changes in SARS-CoV-2 spike: evidence that d614g increases infectivity of the covid-19 virus",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leonid Yurkovetskiy , Xue Wang , Kristen E Pascal , Christopher Tomkins-Tinch , Thomas Nyalile , Yetao Wang , Alina Baum , William E Diehl , Ann Dauphin , Claudia Carbone , et al. Structural and functional analysis of the d614g SARS-CoV-2 spike protein variant. Cell, 2020.",
+        "DOI": "10.1101/2020.07.04.187757"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.85",
+        "doi-asserted-by": "crossref",
+        "first-page": "794",
+        "DOI": "10.1016/j.cell.2020.06.040",
+        "article-title": "Making sense of mutation: what d614g means for the covid-19 pandemic remains unclear",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lucy van Dorp , Damien Richard , Cedric CS Tan , Liam P Shaw , Mislav Acman , and Fran\u00e7ois Balloux . No evidence for increased transmissibility from recurrent mutations in SARS-CoV-2. bioRxiv, 2020.",
+        "DOI": "10.1101/2020.05.21.108506"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Silvia Argim\u00f3n , Khalil Abudahab , Richard JE Goater , Artemij Fedosejev , Jyothish Bhai , Corinna Glasner , Edward J Feil , Matthew TG Holden , Corin A Yeats , Hajo Grundmann , et al. Microreact: visualizing and sharing data for genomic epidemiology and phylogeography. Microbial genomics, 2(11), 2016.",
+        "DOI": "10.1099/mgen.0.000093"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lucy van Dorp , Mislav Acman , Damien Richard , Liam P Shaw , Charlotte E Ford , Louise Ormond , Christopher J Owen , Juanita Pang , Cedric CS Tan , Florencia AT Boshier , et al. Emergence of genomic diversity and recurrent mutations in SARS-CoV-2. Infection, Genetics and Evolution, page 104351, 2020.",
+        "DOI": "10.1016/j.meegid.2020.104351"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2009.05.001"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.90",
+        "doi-asserted-by": "crossref",
+        "first-page": "562",
+        "DOI": "10.1038/s41564-020-0688-y",
+        "article-title": "Functional assessment of cell entry and receptor usage for RNA and other lineage b betacoronaviruses",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "issue": "2",
+        "key": "2024080404390484000_2020.04.22.044404v4.91",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.3390/ijms19020487",
+        "article-title": "Peptide-based membrane fusion inhibitors targeting hcov-229e spike protein hr1 and hr2 domains",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "International journal of molecular sciences"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aav4580"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.93",
+        "unstructured": "Xingguang Li , Wei Wang , Xiaofang Zhao , Junjie Zai , Qiang Zhao , Yi Li , and Antoine Chaillon . Transmission dynamics and evolutionary history of 2019-nCoV. Journal of Medical Virology, 2020."
+      },
+      {
+        "issue": "3",
+        "key": "2024080404390484000_2020.04.22.044404v4.94",
+        "doi-asserted-by": "crossref",
+        "first-page": "1227",
+        "DOI": "10.1093/genetics/158.3.1227",
+        "article-title": "Positive and negative selection on the human genome",
+        "volume": "158",
+        "year": "2001",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ashley Sobel Leonard , Daniel B Weissman , Benjamin Greenbaum , Elodie Ghedin , and Katia Koelle . Transmission bottleneck size estimation from pathogen deep-sequencing data, with an application to human influenza a virus. Journal of virology, 91(14), 2017.",
+        "DOI": "10.1128/JVI.00171-17"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahan Ghafari , Casper K Lumby , Daniel B Weissman , and Christopher JR Illingworth . Inferring transmission bottleneck size from viral sequence data using a novel haplotype reconstruction method. Journal of Virology, 2020.",
+        "DOI": "10.1101/2020.01.03.891242"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1000174"
+      },
+      {
+        "issue": "6",
+        "key": "2024080404390484000_2020.04.22.044404v4.98",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1006111",
+        "DOI": "10.1371/journal.pgen.1006111",
+        "article-title": "Genetic drift, purifying selection and vector genotype shape dengue virus intra-host genetic diversity in mosquitoes",
+        "volume": "12",
+        "year": "2016",
+        "journal-title": "PLoS genetics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg.2017.88"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.100",
+        "unstructured": "Ruiyun Li , Sen Pei , Bin Chen , Yimeng Song , Tao Zhang , Wan Yang , and Jeffrey Shaman . Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2). Science, 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1534/genetics.109.106021"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.102",
+        "unstructured": "Trevor Bedford , Alexander L. Greninger , Pavitra Roychoudhury , Lea M. Starita , Michael Famulare , Meei-Li Huang , Arun Nalla , Gregory Pepper , Adam Reinhardt , Hong Xie , Lasata Shrestha , Truong N. Nguyen , Amanda Adler , Elisabeth Brandstetter , Shari Cho , Danielle Giroux , Peter D. Han , Kairsten Fay , Chris D. Frazar , Misja Ilcisin , Kirsten Lacombe , Jover Lee , Anahita Kiavand , Matthew Richardson , Thomas R. Sibley , Melissa Truong , Caitlin R. Wolf , Deborah A. Nickerson , Mark J. Rieder , Janet A. Englund , James Hadfield , Emma B. Hodcroft , John Huddleston , Louise H. Moncla , Nicola F. M\u00fcller , Richard A. Neher , Xianding Deng , Wei Gu , Scot Federman , Charles Chiu , Jeff S. Duchin , Romesh Gautom , Geoff Melly , Brian Hiatt , Philip Dykema , Scott Lindquist , Krista Queen , Ying Tao , Anna Uehara , Suxiang Tong , Duncan MacCannell , Gregory L. Armstrong , Geoffrey S. Baird , Helen Y. Chu , Jay Shendure , and Keith R. Jerome . Cryptic transmission of RNA in washington state. Science, 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.266221.120"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.104",
+        "unstructured": "A Rambaut . Figtree v1. 3.1. http://tree.bio.ed.ac.uk/software/figtree/, 2009."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.105",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Daniele Ramazzotti , Fabrizio Angaroni , Davide Maspero , Gianluca Ascolani , Isabella Castiglioni , Rocco Piazza , Marco Antoniotti , and Alex Graudenzi . Longitudinal cancer evolution from single cells. bioRxiv, 2020.",
+        "DOI": "10.1101/2020.01.14.906453"
+      },
+      {
+        "issue": "4",
+        "key": "2024080404390484000_2020.04.22.044404v4.106",
+        "doi-asserted-by": "crossref",
+        "first-page": "893",
+        "DOI": "10.1093/genetics/61.4.893",
+        "article-title": "The number of heterozygous nucleotide sites maintained in a finite population due to steady flux of mutations",
+        "volume": "61",
+        "year": "1969",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/net.3230210104"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/sys062"
+      },
+      {
+        "issue": "2-3",
+        "key": "2024080404390484000_2020.04.22.044404v4.109",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1016/0303-2647(93)90041-A",
+        "article-title": "Merger of taxa and the definition of monophyly: author\u2019s reply to jan zrzav\u00fd and zden\u011bk sk\u00e1la\u2019s commentary",
+        "volume": "31",
+        "year": "1993",
+        "journal-title": "BioSystems"
+      },
+      {
+        "issue": "2-3",
+        "key": "2024080404390484000_2020.04.22.044404v4.110",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/0303-2647(93)90040-J",
+        "article-title": "Holobionts, hybrids, and cladistic classification (reply to david p. mindell)",
+        "volume": "31",
+        "year": "1993",
+        "journal-title": "BioSystems"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1313480110"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/clad.1994.1020"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/elps.200500307"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw233"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.115",
+        "doi-asserted-by": "crossref",
+        "first-page": "2462",
+        "DOI": "10.1038/ncomms3462",
+        "article-title": "Genome-wide mapping of gene\u2013microbiota interactions in susceptibility to autoimmune skin blistering",
+        "volume": "4",
+        "year": "2013",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.116",
+        "unstructured": "Judea Pearl . Causality. Cambridge university press, 2009."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.117",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Malte D Luecken and Fabian J Theis . Current best practices in single-cell RNA-seq analysis: a tutorial. Molecular systems biology, 15(6), 2019.",
+        "DOI": "10.15252/msb.20188746"
+      },
+      {
+        "issue": "1",
+        "key": "2024080404390484000_2020.04.22.044404v4.118",
+        "first-page": "1",
+        "article-title": "From louvain to leiden: guaranteeing well-connected communities",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.129684.111"
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.120",
+        "unstructured": "Nicola De Maio , Conor Walker , Rui Borge , Lukas Weilguny , Greg Slodkowick , and Nick Goldmand . Issues with SARS-CoV-2 sequencing data. 2020."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.121",
+        "unstructured": "Daniel Park , Chris Tomkins-Tinch , Simon Ye , Irwin Jungreis , Ilya Shlyakhter , Hayden Metsky , Hanna, Mike Lin , Vang Le , Aaron Lin pvanheus , Lydia Andreyevna Krasilnikova , and Katrin Leinweber . broadinstitute/viral-ngs: v1.25.0, October 2019."
+      },
+      {
+        "key": "2024080404390484000_2020.04.22.044404v4.122",
+        "doi-asserted-by": "crossref",
+        "first-page": "e57309",
+        "DOI": "10.7554/eLife.57309",
+        "article-title": "Science forum: SARS-CoV-2 (covid-19) by the numbers",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Elife"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.22.044404",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:17:30Z",
+      "timestamp": 1768436250000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.04.22.044404"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          26
+        ]
+      ]
+    },
+    "references-count": 122,
+    "URL": "https://doi.org/10.1101/2020.04.22.044404",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

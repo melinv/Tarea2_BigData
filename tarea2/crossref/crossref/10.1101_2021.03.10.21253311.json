@@ -1,0 +1,308 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:20:24Z",
+      "timestamp": 1768551624583,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          12
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                  We apply Bayesian inference methods to a suite of distinct compartmental models of generalised SEIR type, in which diagnosis and quarantine are included via extra compartments. We investigate the evidence for a change in lethality of COVID-19 in late autumn 2020 in the UK, using age-structured, weekly national aggregate data for cases and mortalities. Models that allow a (step-like or graded) change in infection fatality rate (IFR) have consistently higher model evidence than those without. Moreover, they all infer a close to two-fold increase in IFR. This value lies well above most previously available estimates. However, the same models consistently infer that, most probably, the increase in IFR\n                  <jats:italic>preceded</jats:italic>\n                  the time window during which new variant B.1.1.7 became the dominant strain in the UK. Therefore, according to our models, the caseload and mortality data do not offer unequivocal evidence for higher lethality\n                  <jats:italic>of a new variant</jats:italic>\n                  . We compare these results for the UK with similar models for Germany and France, which also show increases in inferred IFR during the same period, despite the even later arrival of new variants in those countries. We argue that while the new variant(s) may be one contributing cause of a large increase in IFR in the UK in autumn 2020, other factors, such as seasonality, or pressure on health services, are likely to also have contributed.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:sec>\n                    <jats:title>Model structure</jats:title>\n                    <jats:p>We study a family of non-geographic compartmented models structured by age, and by epidemiological and diagnostic state. They include stages within exposed (E) and infected (I) classes, and separation of symptomatic and asymptomatic infected individuals; E and I classes are subdivided according to whether they have had a positive test.</jats:p>\n                    <jats:p>Disease transmission between compartments is modelled by contact matrices derived from survey data and previous Bayesian inference [1]. Non-pharmaceutical interventions are incorporated via time- and age-dependent transmission rates. This dependence is parameterised by functions that account for lockdowns, seasonal changes, etc., with parameters inferred from the data except where known a priori (e.g. lockdown dates).</jats:p>\n                    <jats:p>The process of diagnosis is modelled explicitly through the subdivided compartments. The targeting of tests towards symptomatic individuals is controlled by a single inferred parameter. Tested individuals have reduced infectivity, as a model for self-isolation. The fraction of asymptomatic cases is presumed fixed. Most other parameters are inferred (including initial conditions in March 2020). Our models are stochastic at all stages, including the infection and the diagnosis processes.</jats:p>\n                    <jats:p>Similar models are considered for Germany and France. All models are analysed with the same Bayesian methodology as outlined below.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Data</jats:title>\n                    <jats:p>We analyse age-structured, weekly data for cases and mortalities for the UK, France and Germany starting in early March 2020. Our explicit modelling of diagnostic tests allows us to directly use data on the number of daily tests performed and their outcomes to inform parameter estimation. For the UK, the data we used are (i) ONS data for COVID deaths; (ii) PHE data for total numbers of tests; (iii) PHE data for numbers of positive tests. The time series analysed extends from March 2020 until January 2021.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>In line with the data used, we treat diagnosed cases and mortalities as the only observables; other compartments are treated as unobserved, with occupancies to be inferred from data. Parameters governing overdispersion for infection and death are likewise inferred.</jats:p>\n                    <jats:p>We perform inference using a likelihood function that includes the stochasticity in all model transitions (infection, disease progression, testing, death). The likelihood of the observed data is computed in an approximation that becomes exact for large population sizes, taking into account all statistical dependencies in this limit. Inference is performed at the level of maximum a posteriori (MAP) estimates. Using these MAP estimates we approximate the evidence for each model, allowing us to compare the credibility of different models given the same set of data.</jats:p>\n                    <jats:p>We use the software package PyRoss to build all the models and run the inference procedure [2, 3].</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Model specifications</jats:title>\n                    <jats:p>We compare several distinct models that differ primarily in how interventions and fluctuations are addressed. Some of these variants (Type 1) allow for a time-dependent infection fatality rate (IFR) and some do not (Type 0). Most of our Type 1 models assume a step change in IFR but a ramped (tanh) variation is also studied. In Type 1 models, the values of IFR before and after the change are parameterised in terms of their log-ratio, whose prior is normal distributed with mean zero and standard deviation log(3). The prior for the time of the change is normal with mean 2020-12-12 and standard deviation 2 weeks.</jats:p>\n                    <jats:p>For both Type 0 and Type 1 models we consider several possibilities for the time-dependence of model parameters other than the IFR. For the UK, these are (A) no dependence; (B) changing infectivity; (C) changing overdispersion: (BC) changing infectivity and overdispersion.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>Type 1 models for the UK consistently attain a significantly higher model evidence than Type 0 models. (Specifically, they show systematically larger values of the log-posterior.) For each Type 1 model, we separately infer that in the UK, the IFR rose by a factor of about two in late October or early November 2020: the MAP values vary between 1.9-2.2 depending on the model chosen. A similar change is also inferred in Germany and France, but is somewhat less pronounced.</jats:p>\n                    <jats:p>Among the France/Germany models, the ratios of inferred IFRs before/after the step are smaller than in UK but still indicate significant changes, around 1.4 for France and 1.8 for Germany.</jats:p>\n                    <jats:p>The IFR changes in UK are inferred to take place significantly before the B.1.1.7 variant became the dominant UK strain. The significant inferred IFR change in Germany is (to our knowledge) not associated with any new variant.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Interpretation</jats:title>\n                    <jats:p>These findings support the hypothesis [4\u20136] that the lethality of COVID-19 in the UK increased significantly in late autumn 2020. The MAP estimates further suggest that a larger increase than previously suggested [4, 5], of roughly a factor 2, arose with an onset time in early November. However, the fact that this onset time precedes the rise to dominance of new variant B.1.1.7 suggests that this rise is not solely responsible for the change in IFR. Other factors, such as seasonality and/or pressure on health services, may also be important. If these factors came into play significantly before the arrival of B.1.1.7, then the MAP-estimated onset time of early November could represent a compromise between two successive episodes of increasing IFR within models that, as so far implemented, allow only one.</jats:p>\n                    <jats:p>Note that the IFR depends on the true number of infections (not just diagnosed cases as in the case fatality rate) which, in our model, is itself estimated from the data for cases and testing. Underestimation of this number can lead to an overestimate of the IFR. However, to explain the factor-two increase in fitted IFR this way would require implausible assumptions to be made concerning change in testing efficacy in late autumn 2020 (models TT0, TT1, P0).</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2021.03.10.21253311",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2021-03-12T12:15:19Z",
+      "timestamp": 1615551319000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Bayesian inference across multiple models suggests a strong increase in lethality of COVID-19 in late 2020 in the UK"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1744-3724",
+        "authenticated-orcid": false,
+        "given": "Patrick",
+        "family": "Pietzonka",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Erik",
+        "family": "Brorson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "William",
+        "family": "Bankes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5922-7731",
+        "authenticated-orcid": false,
+        "given": "Michael E.",
+        "family": "Cates",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0086-4573",
+        "authenticated-orcid": false,
+        "given": "Robert L.",
+        "family": "Jack",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4625-5220",
+        "authenticated-orcid": false,
+        "given": "Ronojoy",
+        "family": "Adhikari",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1002673",
+        "DOI": "10.1371/journal.pcbi.1002673",
+        "article-title": "Inferring the structure of social contacts from demographic data in the analysis of infectious diseases spread",
+        "volume": "8",
+        "year": "2012",
+        "journal-title": "PLoS Computational Biology"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.2",
+        "unstructured": "\u201cPyRoss: inference, forecasts, and optimised control for epidemiological models in Python\u201d, https://github.com/rajeshrinet/pyross."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.3",
+        "year": "2020",
+        "journal-title": "\u201cInference, prediction and optimization of non-pharmaceutical interventions using compartment models: the pyross library\u201d"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.4",
+        "unstructured": "P. Horby , C. Huntley , N. Davies , J. Edmunds , N. Ferguson , G. Medley , and C. Semple , \u201cNERVTAG paper on COVID-19 variant of concern B.1.1.7\u201d, https://www.gov.uk/government/publications/nervtag-paper-on-covid-19-variant-of-concern-b117 (2021)."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.5",
+        "unstructured": "\u201cNERVTAG: Update note on B.1.1.7 severity, 11 February 2021\u201d, https://www.gov.uk/government/publications/nervtag-update-note-on-b117-severity-11-february-2021 (2021)."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.01.21.21250264"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.15585/mmwr.mm7003e2",
+        "article-title": "Emergence of SARS-CoV-2 B.1.1.7 lineage \u2014 United States, December 29, 2020\u2013January 12, 2021",
+        "volume": "70",
+        "year": "2021",
+        "journal-title": "MMWR. Morbidity and Mortality Weekly Report"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.8",
+        "year": "2020",
+        "journal-title": "\u201cEfficient Bayesian inference of fully stochastic epidemiological models with applications to COVID-19\u201d"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.9",
+        "unstructured": "\u201cCoronavirus (COVID-19) in the UK\u201d, https://coronavirus.data.gov.uk/details/download."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.10",
+        "unstructured": "\u201cDeaths registered weekly in England and Wales, provisional\u201d, https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales (2021)."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.11",
+        "unstructured": "https://ourworldindata.org/coronavirus-testing, Accesse 2020-04-16 and 2021-01-01."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Hasell , E. Mathieu , D. Beltekian , B. Macdonald , C. Giattino , E. Ortiz-Ospina , M. Roser , and H. Ritchie , \u201cA cross-country database of COVID-19 testing\u201d, Sci. Data 7 (2020).",
+        "DOI": "10.1038/s41597-020-00688-8"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.13",
+        "unstructured": "\u201cDonn\u00e9es hospitali\u00e8res relatives \u00e1 l\u2019\u00e9pid\u00e9mie de COVID-19\u201d, https://www.data.gouv.fr/en/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.14",
+        "unstructured": "\u201cDonn\u00e9es relatives aux r\u00e9sultats des tests virologiques COVID-19\u201d, https://www.data.gouv.fr/en/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.15",
+        "unstructured": "\u201cData on testing for COVID-19 by week and country\u201d, https://www.ecdc.europa.eu/en/publications-data/covid-19-testing."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.16",
+        "unstructured": "\u201cRobert Koch-Institut: COVID-19-Dashboard\u201d, https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.17",
+        "unstructured": "\u201cTabellen zu Testzahlen, Testkapazit\u00e4ten und Probenr\u00fcckstau pro Woche\u201d, https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Testzahlen-gesamt.html ."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1992.4.3.415"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2291091"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/271063"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.21",
+        "unstructured": "\u201cCoronavirus (COVID-19) infection survey\u201d, https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/datasets/coronaviruscovid19infectionsurveydata (2021)."
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.02.09.21250937"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.12.24.20248822"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.01.11.21249526"
+      },
+      {
+        "key": "2021031509100825000_2021.03.10.21253311v1.26",
+        "year": "2020",
+        "journal-title": "\u201cEfficient and flexible methods for time since infection models\u201d"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.10.21253311",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:09:57Z",
+      "timestamp": 1768486197000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.03.10.21253311"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          12
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.1101/2021.03.10.21253311",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0258968",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          12
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:27:28Z",
+      "timestamp": 1768552048566,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 12,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Hospital profiling provides a quantitative comparison of health care providers for their quality of care regarding certain clinical outcomes. To implement hospital profiling, the generalized linear mixed model (GLMM) is usually used to fit clinical or administrative claims data, adjusting for the effects of covariates. For better generalizability, data across multiple hospitals, databases or networks are desired. However, due to the privacy regulation and the computation complexity of GLMM, a convenient distributed algorithm for hospital profiling is needed. In this paper, we develop a novel distributed Penalized Quasi Likelihood algorithm (dPQL) to fit GLMM, when only aggregated data, rather than the individual patient data are available across hospitals. The dPQL algorithm is based on a newly-developed distributed linear mixed model (DLMM) algorithm. This proposed dPQL algorithm is lossless, i.e. it obtains identical results as if the individual patient data are pooled from all hospitals. We demonstrate the usage of the dPQL algorithms by ranking 929 hospitals for COVID-19 mortality or referral to hospice in Asch, et al. 2020.</jats:p>",
+    "DOI": "10.1101/2021.05.03.21256561",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2021-05-06T00:11:03Z",
+      "timestamp": 1620259863000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "dPQL: a lossless distributed algorithm for generalized linear mixed model with application to privacy-preserving hospital profiling"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Chongliang",
+        "family": "Luo",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Md. Nazmul",
+        "family": "Islam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Natalie E.",
+        "family": "Sheils",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John",
+        "family": "Buresh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/088342307000000096"
+      },
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Asch, D.A. , Sheils, N.E. , Islam, M.N. , Chen, Y. , Werner, R.M. , Buresh, J. and Doshi, J.A. , 2020. Variation in US Hospital Mortality Rates for Patients Admitted With COVID-19 During the First 6 Months of the Pandemic. JAMA internal medicine.",
+        "DOI": "10.1001/jamainternmed.2020.8193"
+      },
+      {
+        "issue": "519",
+        "key": "2021050708401144000_2021.05.03.21256561v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "933",
+        "DOI": "10.1080/01621459.2016.1276021",
+        "article-title": "Mortality rate estimation and standardization for public reporting: Medicare\u2019s hospital compare",
+        "volume": "112",
+        "year": "2017",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2290687"
+      },
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Breslow, N. , 2004. Whither PQL?. In Proceedings of the Second Seattle Symposium in Biostatistics (pp. 1\u201322). Springer, New York, NY.",
+        "DOI": "10.1007/978-1-4419-9076-1_1"
+      },
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-156-1-201201030-00004"
+      },
+      {
+        "issue": "3",
+        "key": "2021050708401144000_2021.05.03.21256561v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "412",
+        "DOI": "10.1097/SLA.0000000000003602",
+        "article-title": "Comparing outcomes and costs of surgical patients treated at major teaching and nonteaching hospitals: a national matched analysis",
+        "volume": "271",
+        "year": "2020",
+        "journal-title": "Annals of surgery"
+      },
+      {
+        "issue": "Supplement_1",
+        "key": "2021050708401144000_2021.05.03.21256561v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "i128",
+        "DOI": "10.1093/bioinformatics/btaa478",
+        "article-title": "Privacy-preserving construction of generalized linear mixed model for biomedical computation",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, C. , Islam, M.N. , Sheils, N.E. , Reps, J.M. , Buresh, J. , Duan, R. , Tong, J.M. , Edmondson, M. , Schuemie, M.J. and Chen, Y. , 2020. Lossless Distributed Linear Mixed Model with Application to Integration of Heterogeneous Healthcare Data. medRxiv.",
+        "DOI": "10.1101/2020.11.16.20230730"
+      },
+      {
+        "key": "2021050708401144000_2021.05.03.21256561v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruppert, D. , Wand, M.P. and Carroll, R.J. , 2003. Semiparametric regression (No. 12). Cambridge university press.",
+        "DOI": "10.1017/CBO9780511755453"
+      },
+      {
+        "issue": "1",
+        "key": "2021050708401144000_2021.05.03.21256561v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1214/aoms/1177729893",
+        "article-title": "Adjustment of an inverse matrix corresponding to a change in one element of a given matrix",
+        "volume": "21",
+        "year": "1950",
+        "journal-title": "The Annals of Mathematical Statistics"
+      },
+      {
+        "issue": "12",
+        "key": "2021050708401144000_2021.05.03.21256561v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1223",
+        "DOI": "10.1016/j.aml.2006.11.016",
+        "article-title": "Eigenvalues of rank-one updated matrices with some applications",
+        "volume": "20",
+        "year": "2007",
+        "journal-title": "Applied Mathematics Letters"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.03.21256561",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:14:47Z",
+      "timestamp": 1768486487000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.05.03.21256561"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "references-count": 12,
+    "URL": "https://doi.org/10.1101/2021.05.03.21256561",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/jamia/ocac067",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

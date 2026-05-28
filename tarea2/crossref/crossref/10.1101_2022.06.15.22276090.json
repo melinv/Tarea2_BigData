@@ -1,0 +1,562 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:47:23Z",
+      "timestamp": 1768553243582,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>We aimed to develop a two-step machine learning (ML) based model to diagnose and predict involvement of lungs in COVID-19 and non COVID-19 pneumonia patients using CT chest radiomic features.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Three hundred CT scans (3-classes: 100 COVID-19, 100 pneumonia, and 100 healthy subjects) were enrolled in this study. Diagnostic task included 3-class classification. For severity prediction, two radiologists scored involvement of lungs in COVID-19 and pneumonia scans based on percentage of involvement in all 5 lobes. Datasets were classified into mild (0-25%), moderate (26-50%), and severe (&gt;50%). Whole lungs were segmented utilizing deep learning-based segmentation method. Altogether, 107 features including shape, first-order histogram, second and high order texture features were extracted. For both tasks, datasets were randomly divided into 90% training sets (70% and 30% for training and validation, respectively) and 10% test sets. Pearson correlation coefficient (PCC\u226590%) was performed to exclude highly correlated features. Subsequently, different feature selection algorithms (Correlation attribute evaluation, Information gain attribute, Wrapper Subset selection algorithm, Relief method, and Correlation-based feature selection) were assessed. The most pertinent features were finally selected using voting method based on the evaluation of all algorithms. Several ML-based supervised algorithms were utilized, namely Na\u00efve Bays, Support Vector Machine, Bagging, Random Forest, K-nearest neighbors, Decision Tree and Ensemble Meta voting. The synthetic minority oversampling technique (SMOTE) was used to balance the three classes in training sets. The optimal model was first selected based on precision, recall and area-under-curve (AUC) by randomizing the training/validation sets 20 times, followed by testing using the test set. To ensure the repeatability of the results, the entire process was repeated 50 times.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Nine pertinent features (2 shape, 1 first-order, and 6 second-order features) were obtained after feature selection for both phases. In diagnostic task, the performance of 3-class classification using Random Forest was 0.909\u00b10.026, 0.907\u00b10.056, 0.902\u00b10.044, 0.939\u00b10.031, and 0.982\u00b10.010 for precision, recall, F1-score, accuracy, and AUC, respectively. The severity prediction task using Random Forest achieved 0.868\u00b10.123 precision, 0.865\u00b10.121 recall, 0.853\u00b10.139 F1-score, 0.934\u00b10.024 accuracy, and 0.969\u00b10.022 AUC.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The two-phase ML-based model accurately classified COVID-19 and pneumonia patients using CT radiomics, and adequately predicted severity of lungs involvement. This 2-steps model showed great potential in assessing COVID-19 CT images towards improved management of patients.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.06.15.22276090",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2022-06-16T20:00:31Z",
+      "timestamp": 1655409631000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Two-Step Machine Learning to Diagnose and Predict Involvement of Lungs in COVID-19 and Pneumonia using CT Radiomics"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7245-1087",
+        "authenticated-orcid": false,
+        "given": "Pegah Moradi",
+        "family": "Khaniabadi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8819-9736",
+        "authenticated-orcid": false,
+        "given": "Yassine",
+        "family": "Bouchareb",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2442-496X",
+        "authenticated-orcid": false,
+        "given": "Humoud",
+        "family": "Al-Dhuhli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5735-0736",
+        "authenticated-orcid": false,
+        "given": "Isaac",
+        "family": "Shiri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Faiza",
+        "family": "Al-Kindi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1185-838X",
+        "authenticated-orcid": false,
+        "given": "Bita Moradi",
+        "family": "Khaniabadi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7559-5297",
+        "authenticated-orcid": false,
+        "given": "Habib",
+        "family": "Zaidi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9980-2403",
+        "authenticated-orcid": false,
+        "given": "Arman",
+        "family": "Rahmim",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.1",
+        "unstructured": "Coronavirus, Total Coronavirus Cases in Oman. 2022, worldometer."
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "102287",
+        "DOI": "10.1016/j.pdpdt.2021.102287",
+        "article-title": "Focused role of nanoparticles against COVID-19: Diagnosis and treatment",
+        "volume": "34",
+        "year": "2021",
+        "journal-title": "Photodiagnosis and Photodynamic Therapy"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "104665",
+        "DOI": "10.1016/j.compbiomed.2021.104665",
+        "article-title": "Artificial intelligence-driven assessment of radiological images for COVID-19",
+        "volume": "136",
+        "year": "2021",
+        "journal-title": "Computers in biology and medicine"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020201160"
+      },
+      {
+        "issue": "3",
+        "key": "2022061807100746000_2022.06.15.22276090v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "505",
+        "DOI": "10.1148/radiol.2021202553",
+        "article-title": "The biological meaning of radiomic features",
+        "volume": "298",
+        "year": "2021",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "S38",
+        "DOI": "10.1016/S1120-1797(22)00087-4",
+        "article-title": "Radiomics and artificial intelligence: how medical physicists can help their translation into radiology, molecular imaging and radiation therapy routine clinical practice?",
+        "volume": "92",
+        "year": "2021",
+        "journal-title": "Physica Medica: European Journal of Medical Physics"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "104304",
+        "DOI": "10.1016/j.compbiomed.2021.104304",
+        "article-title": "Machine learning-based prognostic modeling using clinical data and quantitative radiomic features from chest CT images in COVID-19 patients",
+        "volume": "132",
+        "year": "2021",
+        "journal-title": "Computers in biology and medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.8",
+        "first-page": "1",
+        "article-title": "COVID-Classifier: An automated machine learning model to assist in the diagnosis of COVID-19 infection in chest x-ray images",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.9",
+        "first-page": "1",
+        "article-title": "Supervised machine learning models for prediction of COVID-19 infection using epidemiology dataset",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "SN computer science"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.10",
+        "article-title": "Severity assessment of coronavirus disease 2019 (COVID-19) using quantitative features from chest CT images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.11",
+        "first-page": "1",
+        "article-title": "CT radiomics facilitates more accurate diagnosis of COVID-19 pneumonia: compared with CO-RADS",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Journal of Translational Medicine"
+      },
+      {
+        "issue": "7",
+        "key": "2022061807100746000_2022.06.15.22276090v1.12",
+        "first-page": "1",
+        "article-title": "CT radiomics can help screen the coronavirus disease 2019 (COVID-19): a preliminary study",
+        "volume": "63",
+        "year": "2020",
+        "journal-title": "Science China Information Sciences"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acra.2020.09.004"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "105467",
+        "DOI": "10.1016/j.compbiomed.2022.105467",
+        "article-title": "COVID-19 prognostic modeling using CT radiomic features and machine learning algorithms: Analysis of a multi-institutional dataset of 14,339 patients",
+        "volume": "145",
+        "year": "2022",
+        "journal-title": "Comput Biol Med"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiri, I. , et al., High-Dimensional Multinomial Multiclass Severity Scoring of COVID-19 Pneumonia Using CT Radiomics Features and Machine Learning Algorithms. medRxiv, 2022: p. 2022.04.27.22274369.",
+        "DOI": "10.1101/2022.04.27.22274369"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1002/ima.22672",
+        "article-title": "COLI-Net: Deep learning-assisted fully automated COVID-19 lung and infection pneumonia lesion detection and segmentation from chest computed tomography images",
+        "volume": "32",
+        "year": "2022",
+        "journal-title": "International journal of imaging systems and technology"
+      },
+      {
+        "issue": "2",
+        "key": "2022061807100746000_2022.06.15.22276090v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "E97",
+        "DOI": "10.1148/radiol.2020201473",
+        "article-title": "CO-RADS: a categorical CT assessment scheme for patients suspected of having COVID-19\u2014definition and evaluation",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "4",
+        "key": "2022061807100746000_2022.06.15.22276090v1.18",
+        "first-page": "e200322",
+        "article-title": "CT radiomics, radiologists, and clinical information in predicting outcome of patients with COVID-19 pneumonia",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiology: Cardiothoracic Imaging"
+      },
+      {
+        "issue": "6",
+        "key": "2022061807100746000_2022.06.15.22276090v1.19",
+        "first-page": "420",
+        "article-title": "Feasibility of radiomics to differentiate coronavirus disease 2019 (COVID-19) from H1N1 influenza pneumonia on chest computed tomography: a proof of concept",
+        "volume": "46",
+        "year": "2021",
+        "journal-title": "Iranian Journal of Medical Sciences"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020191145"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "100271",
+        "DOI": "10.1016/j.ejro.2020.100271",
+        "article-title": "Discrimination of pulmonary ground-glass opacity changes in COVID-19 and non-COVID-19 patients using CT radiomics analysis",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "European journal of radiology open"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.22",
+        "unstructured": "Shiri, I. , et al., Diagnosis of COVID-19 Using CT image Radiomics Features: A Comprehensive Machine Learning Study Involving 26,307 Patients. medRxiv, 2021."
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2967/jnumed.121.262567"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.24",
+        "first-page": "1",
+        "article-title": "How to develop a meaningful radiomic signature for clinical use in oncologic patients",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Cancer Imaging"
+      },
+      {
+        "issue": "5",
+        "key": "2022061807100746000_2022.06.15.22276090v1.25",
+        "first-page": "e148",
+        "article-title": "Machine learning techniques for biomedical image segmentation: an overview of technical aspects and introduction to state-of-art applications",
+        "volume": "47",
+        "year": "2020",
+        "journal-title": "Medical physics"
+      },
+      {
+        "issue": "9",
+        "key": "2022061807100746000_2022.06.15.22276090v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "4893",
+        "DOI": "10.1007/s00330-020-06829-2",
+        "article-title": "A diagnostic model for coronavirus disease 2019 (COVID-19) based on radiological semantic and clinical features: a multi-center study",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "European radiology"
+      },
+      {
+        "issue": "6",
+        "key": "2022061807100746000_2022.06.15.22276090v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "065031",
+        "DOI": "10.1088/1361-6560/abe838",
+        "article-title": "Large-scale screening to distinguish between COVID-19 and community-acquired pneumonia using infection size-aware classification",
+        "volume": "66",
+        "year": "2021",
+        "journal-title": "Physics in medicine & Biology"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.28",
+        "unstructured": "Rezaeijo, S.M. , M. Ghorvei , and M. Alaei . A machine learning method based on lesion segmentation for quantitative analysis of CT radiomics to detect covid-19. in 2020 6th Iranian Conference on Signal Processing and Intelligent Systems (ICSPIS). 2020. IEEE."
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yue, H. , et al., Machine learning-based CT radiomics method for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection: a multicenter study. Annals of translational medicine, 2020. 8(14).",
+        "DOI": "10.21037/atm-20-3026"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, Z. , et al., Severity Assessment of COVID-19 Using a CT-Based Radiomics Model. Stem Cells International, 2021. 2021.",
+        "DOI": "10.1155/2021/2263469"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "101824",
+        "DOI": "10.1016/j.media.2020.101824",
+        "article-title": "Joint prediction and time estimation of COVID-19 developing severe symptoms using chest CT scan",
+        "volume": "67",
+        "year": "2021",
+        "journal-title": "Medical image analysis"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.32",
+        "first-page": "61",
+        "article-title": "A radiomics signature to quantitatively analyze COVID-19-infected pulmonary lesions",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Interdisciplinary Sciences: Computational Life Sciences"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, Y. , et al., CT-based radiomics combined with signs: A valuable tool to help physician discriminate COVID-19 and other viral pneumonia. 2020.",
+        "DOI": "10.21203/rs.3.rs-63088/v1"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pourhomayoun, M. and M. Shakibi , Predicting mortality risk in patients with COVID-19 using artificial intelligence to help medical decision-making. MedRxiv, 2020.",
+        "DOI": "10.1101/2020.03.30.20047308"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "3640",
+        "DOI": "10.1016/j.csbj.2021.06.022",
+        "article-title": "Eleven routine clinical features predict COVID-19 severity uncovered by machine learning of longitudinal measurements",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "Computational and structural biotechnology journal"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1016/j.ijid.2021.03.008",
+        "article-title": "Meta-analysis of cardiac markers for predictive factors on severity and mortality of COVID-19",
+        "volume": "105",
+        "year": "2021",
+        "journal-title": "International Journal of Infectious Diseases"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.37",
+        "first-page": "1",
+        "article-title": "Radiomics-based machine learning differentiates \u201cground-glass\u201d opacities due to COVID-19 from acute non-COVID-19 lung disease",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al-Areqi, F.F. and M.Z. Konyar , Effectiveness Evaluation of Different Feature Extraction Methods for Classification Covid-19 from Computed Tomography Images: A High Accuracy Classification Study. Biomedical Signal Processing and Control, 2022: p. 103662.",
+        "DOI": "10.1016/j.bspc.2022.103662"
+      },
+      {
+        "issue": "3",
+        "key": "2022061807100746000_2022.06.15.22276090v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "692",
+        "DOI": "10.21037/qims.2020.02.21",
+        "article-title": "Development and multicenter validation of a CT-based radiomics signature for discriminating histological grades of pancreatic ductal adenocarcinoma",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Quantitative Imaging in Medicine and Surgery"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Moura, L.V. , et al., Explainable Machine Learning for COVID-19 Pneumonia Classification With Texture-Based Features Extraction in Chest Radiography. Frontiers in digital health, 2021. 3.",
+        "DOI": "10.3389/fdgth.2021.662343"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.41",
+        "first-page": "1",
+        "article-title": "Evaluation of textural-based radiomics features for differentiation of COVID-19 pneumonia from non-COVID pneumonia",
+        "volume": "52",
+        "year": "2021",
+        "journal-title": "Egyptian Journal of Radiology and Nuclear Medicine"
+      },
+      {
+        "issue": "5",
+        "key": "2022061807100746000_2022.06.15.22276090v1.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1478",
+        "DOI": "10.1007/s00259-020-05075-4",
+        "article-title": "Decoding COVID-19 pneumonia: comparison of deep learning and radiomics CT image signatures",
+        "volume": "48",
+        "year": "2021",
+        "journal-title": "European journal of nuclear medicine and molecular imaging"
+      },
+      {
+        "issue": "1",
+        "key": "2022061807100746000_2022.06.15.22276090v1.43",
+        "first-page": "1",
+        "article-title": "Detection and analysis of COVID-19 in medical images using deep learning techniques",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2022061807100746000_2022.06.15.22276090v1.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "104531",
+        "DOI": "10.1016/j.compbiomed.2021.104531",
+        "article-title": "Diagnosis and prediction of COVID-19 severity: can biochemical tests and machine learning be used as prognostic indicators?",
+        "volume": "134",
+        "year": "2021",
+        "journal-title": "Computers in biology and medicine"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.15.22276090",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:45:01Z",
+      "timestamp": 1768488301000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.06.15.22276090"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2022.06.15.22276090",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.compbiomed.2022.106165",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

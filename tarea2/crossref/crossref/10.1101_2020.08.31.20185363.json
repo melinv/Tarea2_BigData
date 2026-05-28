@@ -1,0 +1,395 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:23:49Z",
+      "timestamp": 1768548229756,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          2
+        ]
+      ]
+    },
+    "group-title": "Respiratory Medicine",
+    "reference-count": 32,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>Mortality risk scores, such as SOFA, qSOFA, and CURB-65, are quick, effective tools for communicating a patient\u2019s prognosis and guiding therapeutic decisions. Most use simple calculations that can be performed by hand. While several COVID-19 specific risk scores exist, they lack the ease of use of these simpler scores. The objectives of this study were (1) to design, validate, and calibrate a simple, easy-to-use mortality risk score for COVID-19 patients and (2) to recalibrate SOFA, qSOFA, and CURB-65 in a hospitalized COVID-19 population.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design</jats:title>\n                  <jats:p>Retrospective cohort study incorporating demographic, clinical, laboratory, and admissions data from electronic health records.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Setting</jats:title>\n                  <jats:p>Multi-hospital health system in New York City. Five hospitals were included: one quaternary care facility, one tertiary care facility, and three community hospitals.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Participants</jats:title>\n                  <jats:p>Patients (n=4840) with laboratory-confirmed SARS-CoV2 infection who were admitted between March 1 and April 28, 2020.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main outcome measures</jats:title>\n                  <jats:p>Gray\u2019s K-sample test for the cumulative incidence of a competing risk was used to assess and rank 48 different variables\u2019 associations with mortality. Candidate variables were added to the composite score using DeLong\u2019s test to evaluate their effect on predictive performance (AUC) of in-hospital mortality. Final AUCs for the new score, SOFA, qSOFA, and CURB-65 were assessed on an independent test set.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Of 48 variables investigated, 36 (75%) displayed significant (p&lt;0.05 by Gray\u2019s test) associations with mortality. The variables selected for the final score were (1) oxygen support level, (2) troponin, (3) blood urea nitrogen, (4) lymphocyte percentage, (5) Glasgow Coma Score, and (6) age. The new score, COBALT, outperforms SOFA, qSOFA, and CURB-65 at predicting mortality in this COVID-19 population: AUCs for initial, maximum, and mean COBALT scores were 0.81, 0.91, and 0.92, compared to 0.77, 0.87, and 0.87 for SOFA. We provide COVID-19 specific mortality estimates at all score levels for COBALT, SOFA, qSOFA, and CURB-65.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>The COBALT score provides a simple way to estimate mortality risk in hospitalized COVID-19 patients with superior performance to SOFA and other scores currently in widespread use. Evaluation of SOFA, qSOFA, and CURB-65 in this population highlights the importance of recalibrating mortality risk scores when they are used under novel conditions, such as the COVID-19 pandemic. This study\u2019s approach to score design could also be applied in other contexts to create simple, practical and high-performing mortality risk scores.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Trial registration</jats:title>\n                  <jats:p>NA</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Funding source</jats:title>\n                  <jats:p>The authors declare that there was no external funding provided.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Summary box</jats:title>\n                  <jats:sec>\n                    <jats:title>What is already known on this topic</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>Mortality risk scores are widely used in clinical settings to facilitate communication with patients and families, guide goals of care discussions, and optimize resource allocation.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Although popular mortality risk scores like SOFA, qSOFA, and CURB-65 are routinely used in COVID-19 populations, they were originally calibrated in different contexts and their true performance among hospitalized COVID-19 patients is unknown.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Several dedicated COVID-19 mortality risk scores have been created during the 2019-2020 pandemic, but all use complicated formulae or machine learning algorithms and are difficult or impossible to calculate by hand, limiting their applicability at the bedside.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>What this study adds</jats:title>\n                    <jats:list list-type=\"bullet\">\n                      <jats:list-item>\n                        <jats:p>We describe a data-driven, simple, and hand-calculable COVID-specific mortality risk score (COBALT) that has superior performance to SOFA, qSOFA, and CURB-65 in a hospitalized COVID-19 patient population.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We provide COVID-specific mortality estimates for SOFA, qSOFA, and CURB-65 using data from 4840 patients in a large and diverse New York City multihospital health system.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2020.08.31.20185363",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2020-09-02T17:45:15Z",
+      "timestamp": 1599068715000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Development and calibration of a simple mortality risk score for hospitalized COVID-19 adults"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4127-6313",
+        "authenticated-orcid": false,
+        "given": "Edwin",
+        "family": "Yoo",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0988-4183",
+        "authenticated-orcid": false,
+        "given": "Bethany",
+        "family": "Percha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8528-7770",
+        "authenticated-orcid": false,
+        "given": "Max",
+        "family": "Tomlinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9385-9233",
+        "authenticated-orcid": false,
+        "given": "Victor",
+        "family": "Razuk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephanie",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Madeleine",
+        "family": "Basist",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pranai",
+        "family": "Tandon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jing Gennie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cynthia",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8639-4789",
+        "authenticated-orcid": false,
+        "given": "Sonali",
+        "family": "Bose",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8631-2819",
+        "authenticated-orcid": false,
+        "given": "Umesh",
+        "family": "Gidwani",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "10",
+        "key": "2021020913250787000_2020.08.31.20185363v1.1",
+        "first-page": "878",
+        "article-title": "Severity assessment tools for predicting mortality in hospitalised patients with community-acquired pneumonia",
+        "volume": "65",
+        "year": "2010",
+        "journal-title": "Systematic review and meta-analysis"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.2",
+        "unstructured": "Johns Hopkins COVID-19 Map (2020) https://coronavirus.jhu.edu/map.html. Accessed 22 July 2020."
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMsb2005114"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01709751"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.0288"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thorax.58.5.377"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-019-2663-7"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.286.14.1754"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.20329"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.20328"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants L , Van Calster B , Bonten MM , Collins GS , Debray TP , De Vos M , Haller MC , Heinze G , Moons KG , Riley RD , Schuit E . Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal. BMJ. 2020 Apr 7;369.",
+        "DOI": "10.1101/2020.03.24.20041020"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang W , Liang H , Ou L , Chen B , Chen A , Li C , Li Y , Guan W , Sang L , Lu J , Xu Y , Chen G , Guo H , Guo J , Chen Z , Zhao Y , Li S , Zhang N , Zhoong N , He J (2020) Development and validation of a clinical risk score to predict the occurrence of critical illness in hospitalized patients with COVID-19. JAMA Internal Medicine.",
+        "DOI": "10.1001/jamainternmed.2020.2033"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.13",
+        "unstructured": "Levy TJ , Richardson S , Coppa K , Bamaby DP , McGinn T , Becker LB , Davidson KW , Cohen SL , Hirsch JS , Zanos T . Development and Validation of a Survival Calculator for Hospitalized Patients with COVID-19. medRxiv. 2020."
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaid A , Somani S , Russak AJ , et al. Machine Learning to Predict Mortality and Critical Events in COVID-19 Positive New York City Patients. medRxiv. 2020.",
+        "DOI": "10.1101/2020.04.26.20073411"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.15",
+        "unstructured": "Bertsimas D , Lukin G , Mingardi L , Nohadani O , Orfanoudaki A , Stellato B , Wiberg H , Gonzalez-Garcia S , Parra-Calderon CL , Robinson K , Schneider M . COVID-19 Mortality Risk Assessment: An International Multi-Center Study."
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marcos M , Belhassen-Garcia M , Sanchez-Puente A , Sampedro-Gomez J , Azibeiro R , Dorado-Diaz PI , Marcano-Millan E , Garcia-Vidal C , Moreiro-Barroso MT , Cubino-Boveda N , Perez-Garcia ML . Development of a severity of disease score and classification model by machine learning for hospitalized COVID-19 patients. medRxiv. 2020.",
+        "DOI": "10.1101/2020.07.13.20150177"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2670170"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1141",
+        "DOI": "10.1214/aos/1176350951",
+        "article-title": "A class of K-sample tests for comparing the cumulative incidence of a competing risk",
+        "volume": "16",
+        "year": "1988",
+        "journal-title": "The Annals of Statistics"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.19",
+        "unstructured": "The cmprisk R package version 2.2-10. https://www.rdocumentation.org/packages/cmprsk"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wagner J , DuPont A , Larson S , Cash B , Farooq A (2020) Absolute lymphocyte count is a prognostic marker in Covid-19: A retrospective cohort review. International Journal of Laboratory Hematology. https://doi.org/10.1111/ijlh.13288.",
+        "DOI": "10.1111/ijlh.13288"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "802",
+        "DOI": "10.1001/jamacardio.2020.0950",
+        "article-title": "Association of cardiac injury with mortality in hospitalized patients with COVID-19 in Wuhan, China",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "JAMA Cardiol"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.22",
+        "first-page": "1",
+        "article-title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan, China",
+        "volume": "180",
+        "year": "2020",
+        "journal-title": "JAMA Intern Med"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/cclm-2020-0369"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Du RH , Liang LR , Yang CQ et al (2020) Predictors of mortality for patients with COVID-19 pneumonia caused by SARS-CoV-2: a prospective cohort study. Eur Respir J. https://doi.org/10.1183/13993003.00524-2020.",
+        "DOI": "10.1183/13993003.00524-2020"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.26",
+        "first-page": "97",
+        "article-title": "Factors associated with mortality in patients with COVID-19",
+        "volume": "76",
+        "year": "2020",
+        "journal-title": "A quantitative evidence synthesis of clinical and laboratory data. Eur J Intern Med"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41392-020-0148-4"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.kint.2020.03.005"
+      },
+      {
+        "issue": "1",
+        "key": "2021020913250787000_2020.08.31.20185363v1.29",
+        "first-page": "1",
+        "article-title": "Calibration: the Achilles heel of predictive analytics",
+        "volume": "17",
+        "year": "2019",
+        "journal-title": "BMC Medicine"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.30",
+        "first-page": "100426",
+        "article-title": "Scoring Systems for Predicting Mortality for Severe Patients with COVID-19",
+        "volume": "24",
+        "year": "2020",
+        "journal-title": "EClin Med"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41366-020-0635-2"
+      },
+      {
+        "key": "2021020913250787000_2020.08.31.20185363v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karaca-Mandic P , Georgiou A , Sen S . Assessment of COVID-19 Hospitalizations by Race/Ethnicity in 12 States. JAMA Internal Medicine. Published online August 17, 2020.",
+        "DOI": "10.1001/jamainternmed.2020.3857"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.31.20185363",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:53:03Z",
+      "timestamp": 1768485183000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.08.31.20185363"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          2
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1101/2020.08.31.20185363",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

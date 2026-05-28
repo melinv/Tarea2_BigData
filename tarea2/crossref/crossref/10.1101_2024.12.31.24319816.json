@@ -1,0 +1,458 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:59:07Z",
+      "timestamp": 1768568347960,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 43,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              31
+            ]
+          ],
+          "date-time": "2024-12-31T00:00:00Z",
+          "timestamp": 1735603200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  The COVID-19 pandemic highlighted the importance of early detection of illness and the need for health monitoring solutions outside of the hospital setting. We have previously demonstrated a real-time system to identify COVID-19 infection before diagnostic testing\n                  <jats:sup>1</jats:sup>\n                  , that was powered by commercial-off-the-shelf wearables and machine learning models trained with wearable physiological data from COVID-19 cases outside of hospitals. However, these types of solutions were not readily available at the onset nor during the early outbreak of a new infectious disease when preventing infection transmission was critical, due to a lack of pathogen-specific illness data to train the machine learning models. This study investigated whether a pretrained clinical decision support algorithm for predicting hospital-acquired infection (predating COVID-19) could be readily adapted to detect early signs of COVID-19 infection from wearable physiological signals collected in an unconstrained out-of-hospital setting. A baseline comparison where the pretrained model was applied directly to the wearable physiological data resulted a performance of AUROC = 0.52 in predicting COVID-19 infection. After controlling for contextual effects and applying an unsupervised dataset shift transformation derived from a small set of wearable data from healthy individuals, we found that the model performance improved, achieving an AUROC of 0.74, and it detected COVID-19 infection on average 2 days prior to diagnostic testing. Our results suggest that it is possible to deploy a wearable physiological monitoring system with an infection prediction model pretrained from inpatient data, to readily detect out-of-hospital illness at the emergence of a new infectious disease outbreak.\n                </jats:p>",
+    "DOI": "10.1101/2024.12.31.24319816",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2024-12-31T17:45:13Z",
+      "timestamp": 1735667113000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "An infection prediction model developed from inpatient data can predict out-of-hospital COVID-19 infections from wearable data when controlled for dataset shift"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Ting",
+        "family": "Feng",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sara",
+        "family": "Mariani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bryan",
+        "family": "Conroy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Damiano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ikaro",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dennis",
+        "family": "Swearingen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel C.",
+        "family": "McFarlane",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-07764-6"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/joim.13091"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "105955",
+        "DOI": "10.1016/j.ijantimicag.2020.105955",
+        "article-title": "The epidemiology, diagnosis and treatment of COVID-19",
+        "volume": "55",
+        "year": "2020",
+        "journal-title": "Int. J. Antimicrob. Agents"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jin, Y. et al. Virology, epidemiology, pathogenesis, and control of COVID-19. Viruses 12, 372 (2020).",
+        "DOI": "10.3390/v12040372"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-1123-x"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.6",
+        "first-page": "1208",
+        "article-title": "Pre-symptomatic detection of COVID-19 from smartwatch data. Nat",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "Biomed. Eng"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0243693"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e34",
+        "DOI": "10.1093/milmed/usaa405",
+        "article-title": "Heart rate variability as a possible predictive marker for acute inflammatory response in COVID-19 patients",
+        "volume": "186",
+        "year": "2021",
+        "journal-title": "Mil. Med"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.9",
+        "first-page": "1",
+        "article-title": "Learning from Large-Scale Wearable Device Data for Predicting the Epidemic Trend of COVID-19",
+        "volume": "2020",
+        "year": "2020",
+        "journal-title": "Discrete Dyn. Nat. Soc"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/26107"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.11",
+        "first-page": "e455",
+        "article-title": "The hopes and hazards of using personal health technologies in the diagnosis and prognosis of infections. Lancet Digit",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Health"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.12",
+        "first-page": "e370",
+        "article-title": "The performance of wearable sensors in the detection of SARS-CoV-2 infection: a systematic review. Lancet Digit",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "Health"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, D.-M. et al. Smart healthcare: A prospective future medical approach for COVID-19. J. Chin. Med. Assoc. 86, 138 (2023).",
+        "DOI": "10.1097/JCMA.0000000000000824"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Natarajan, A. , Su, H.-W. & Heneghan, C . Assessment of physiological signs associated with COVID-19 measured using wearable devices. NPJ Digit. Med. 3, 156 (2020).",
+        "DOI": "10.1038/s41746-020-00363-7"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, T. et al. Machine learning-based clinical decision support for infection risk prediction. Front. Med. 10, (2023).",
+        "DOI": "10.3389/fmed.2023.1213411"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.16",
+        "unstructured": "Quinonero-Candela, J. , Sugiyama, M. , Schwaighofer, A. & Lawrence, N. D . Dataset Shift in Machine Learning. (MIT Press, 2022)."
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.17",
+        "first-page": "1",
+        "article-title": "MIMIC-III, a freely accessible critical care database",
+        "volume": "3",
+        "year": "2016",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.18",
+        "unstructured": "Moody, B. , Moody, M. , Villarroel, M. , Clifford, D. G. , & Silva, I. MIMIC-III Waveform Database Matched Subset. (2020)."
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Geovanini, G. R. et al. Age and sex differences in heart rate variability and vagal specific patterns\u2013Baependi heart study. Glob. Heart 15, (2020).",
+        "DOI": "10.5334/gh.873"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.archger.2015.11.011"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1540-8159.1996.tb03241.x"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1540-8167.2003.03078.x"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0002-9149(97)00350-0"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10877-012-9424-3"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1114/1.1481053"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1590/S0100-879X2001000400009"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1503/cmaj.150462"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0735-1097(97)00554-8"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "7932",
+        "DOI": "10.3390/s21237932",
+        "article-title": "What is behind changes in resting heart rate and heart rate variability? A large-scale analysis of longitudinal measurements acquired in free-living",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "6396",
+        "DOI": "10.3390/s20216396",
+        "article-title": "The importance of respiratory rate monitoring: From healthcare to sport and exercise",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "494",
+        "DOI": "10.1016/j.jcjq.2018.04.014",
+        "article-title": "Respiratory rate: The forgotten vital sign\u2014Make it count! Jt",
+        "volume": "44",
+        "year": "2018",
+        "journal-title": "Comm. J. Qual. Patient Saf"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.12968/bjon.2020.29.1.12",
+        "article-title": "Monitoring respiratory rate in adults",
+        "volume": "29",
+        "year": "2020",
+        "journal-title": "Br. J. Nurs"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0748730403261560"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1152/jappl.1977.42.1.50",
+        "article-title": "Variations in evaporation and body temperatures during sleep in man",
+        "volume": "42",
+        "year": "1977",
+        "journal-title": "J. Appl. Physiol"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sleep.2010.12.011"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.37",
+        "unstructured": "37. Caroline Kryder. How accurate is Oura\u2019s temperature data? https://ouraring.com/blog/temperature-validated-accurate/ (2020)."
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.38",
+        "first-page": "e2115959",
+        "article-title": "Assessment of Prolonged Physiological and Behavioral Changes Associated With COVID-19 Infection. JAMA Netw",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "Open"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Neves, E. B. et al. Different responses of the skin temperature to physical exercise: Systematic review. in 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 1307\u20131310 (IEEE, 2015).",
+        "DOI": "10.1109/EMBC.2015.7318608"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1015330.1015425"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.41",
+        "unstructured": "Dud\u00edk, M. , Phillips, S. & Schapire, R. E . Correcting sample selection bias in maximum entropy density estimation. Adv. Neural Inf. Process. Syst. 18, (2005)."
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0378-3758(00)00115-4"
+      },
+      {
+        "key": "2025010222450698000_2024.12.31.24319816v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, J. , Gretton, A. , Borgwardt, K. , Sch\u00f6lkopf, B. & Smola, A . Correcting sample selection bias by unlabeled data. Adv. Neural Inf. Process. Syst. 19, (2006).",
+        "DOI": "10.7551/mitpress/7503.003.0080"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.12.31.24319816",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:24:14Z",
+      "timestamp": 1768508654000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.12.31.24319816"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1101/2024.12.31.24319816",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

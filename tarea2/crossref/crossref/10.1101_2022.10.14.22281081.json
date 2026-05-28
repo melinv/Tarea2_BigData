@@ -1,0 +1,473 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T10:05:23Z",
+      "timestamp": 1768557923419,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The potential utility of wastewater-based epidemiology as an early warning tool has been explored widely across the globe during the current COVID-19 pandemic. Methods to detect the presence of SARS-CoV-2 RNA in wastewater were developed early in the pandemic, and extensive work has been conducted to evaluate the relationship between viral concentration and COVID-19 case numbers at the catchment areas of sewage treatment works (STWs) over time. However, no attempt has been made to develop a model that predicts wastewater concentration at fine spatio-temporal resolutions covering an entire country, a necessary step towards using wastewater monitoring for the early detection of local outbreaks.</jats:p>\n                <jats:p>We consider weekly averages of flow-normalised viral concentration, reported as the number of SARS-CoV-2 N1 gene copies per litre (gc/L) of wastewater available at 303 STWs over the period between 1 June 2021 and 30 March 2022. We specify a spatially continuous statistical model that quantifies the relationship between weekly viral concentration and a collection of covariates covering socio-demographics, land cover and virus-associated genomic characteristics at STW catchment areas while accounting for spatial and temporal correlation.</jats:p>\n                <jats:p>We evaluate the model\u2019s predictive performance at the catchment level through 10-fold cross-validation. We predict the weekly viral concentration at the population-weighted centroid of the 32,844 lower super output areas (LSOAs) in England, then aggregate these LSOA predictions to the Lower Tier Local Authority level (LTLA), a geography that is more relevant to public health policy-making. We also use the model outputs to quantify the probability of local changes of direction (increases or decreases) in viral concentration over short periods (e.g. two consecutive weeks).</jats:p>\n                <jats:p>The proposed statistical framework is able to predict SARS-CoV-2 viral concentration in wastewater at high spatio-temporal resolution across England. Additionally, the probabilistic quantification of local changes can be used as an early warning tool for public health surveillance.</jats:p>",
+    "DOI": "10.1101/2022.10.14.22281081",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2022-10-19T13:00:39Z",
+      "timestamp": 1666184439000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "A spatio-temporal framework for modelling wastewater concentration during the COVID-19 pandemic"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Guangquan",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Hubert",
+        "family": "Denise",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Diggle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jasmine",
+        "family": "Grimsley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chris",
+        "family": "Holmes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "James",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Radka",
+        "family": "Jersakova",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Callum",
+        "family": "Mole",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "George",
+        "family": "Nicholson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Camila Rangel",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sylvia",
+        "family": "Richardson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "William",
+        "family": "Rowe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Barry",
+        "family": "Rowlingson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fatemeh",
+        "family": "Torabi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew J.",
+        "family": "Wade",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marta",
+        "family": "Blangiardo",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/infdis/jiu384"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blangiardo, M. , Cameletti, M. , 2015. Spatial and spatio-temporal Bayesian models with R-INLA. John Wiley & Sons.",
+        "DOI": "10.1002/9781118950203"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/env.1139"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "348",
+        "DOI": "10.1021/bk-2001-0791.ch020",
+        "article-title": "Illicit drugs in municipal sewage",
+        "volume": "791",
+        "year": "2001",
+        "journal-title": "Pharmaceuticals and Care Products in the Environment"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Diggle, P. , Ribeiro, P. , 2007. Model-based Geostatistics. Springer.",
+        "DOI": "10.1007/978-0-387-48536-2"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/env.712"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1179/136485907X229121"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.8",
+        "first-page": "299",
+        "article-title": "Model-based geostatistics",
+        "volume": "47",
+        "year": "1998",
+        "journal-title": "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Durbin, J. , Koopman, S. , 2012. Time Series Analysis by State Space Methods: Second Edition. Oxford University Press.",
+        "DOI": "10.1093/acprof:oso/9780199641178.001.0001"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.10",
+        "unstructured": "EMHP,. https://www.gov.uk/government/publications/monitoring-of-sars-cov-2-rna-in-england-wastewater-monthly-statistics-15-july-2020-to-30-march-2022."
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1038",
+        "DOI": "10.2166/wh.2022.020",
+        "article-title": "Challenges in realising the potential of wastewater-based epidemiology to quantitatively monitor and predict the spread of disease",
+        "volume": "20",
+        "year": "2022",
+        "journal-title": "Journal of Water and Health"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Foladori, P. , Cutrupi, F. , Cadonna, M. , Manara, S. , Maestrini, F. , 2021. Route of sars-cov-2 in sewerage and wastewater treatment plants: dilution, decay, removal, and environmental transmission, in: Environmental and Health Management of Novel Coronavirus Disease (COVID-19). Elsevier, pp. 145\u2013176.",
+        "DOI": "10.1016/B978-0-323-85780-2.00005-6"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.01981-14"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117214"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/essoar.10510612.2"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S095026881000316X"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "117789",
+        "DOI": "10.1016/j.watres.2021.117789",
+        "article-title": "Wastewaterbased epidemiology for illicit drugs: A critical review on global data",
+        "volume": "207",
+        "year": "2021",
+        "journal-title": "Water Research"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.18",
+        "unstructured": "IMD, 2019. English indices of deprivation 2019. URL: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019."
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Krainski, E. , G\u00f3mez-Rubio, V. , Bakka, H. , Lenzi, A. , Castro-Camilo, D. , Simpson, D. , Lindgren, F. , Rue, H. , 2018. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC.",
+        "DOI": "10.1201/9780429031892"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lindgren, F. , Lindstr\u00f6m, J. , Rue, H. , 2010. An explicit link between gaussian fields and gaussian markov random fields; the spde approach.",
+        "DOI": "10.1111/j.1467-9868.2011.00777.x"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manuel, D. , Amadei, C.A. , Campbell, J.R. , Brault, J.M. , Veillard, J. , 2022. Strengthening public health surveillance through wastewater testing.",
+        "DOI": "10.1596/36852"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morvan, M. , Lo Jacomo, A. , Soque, C. , Wade, M. , Hoffmann, T. , Pouwels, K. , Lilley, C. , Singer, A. , Porter, J. , Evens, N. , et al., 2022. An analysis of 45 large-scale wastewater sites in england to estimate sars-cov-2 community prevalence. Nature Communications 13.",
+        "DOI": "10.1038/s41467-022-31753-y"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1922",
+        "DOI": "10.1001/jama.2022.4908",
+        "article-title": "Association between sars-cov-2 viral load in wastewater and reported cases, hospitalizations, and vaccinations in milan, march 2020 to november 2021",
+        "volume": "327",
+        "year": "2022",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-021-01029-0"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "154235",
+        "DOI": "10.1016/j.scitotenv.2022.154235",
+        "article-title": "Model-based assessment of covid-19 epidemic dynamics by wastewater analysis",
+        "volume": "827",
+        "year": "2022",
+        "journal-title": "Science of the Total Environment"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1289/ehp.6740"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Riley, S. , Atchison, C. , Ashby, D. , Donnelly, C.A. , Barclay, W. , Cooke, G.S. , Ward, H. , Darzi, A. , Elliott, P. , Group, R.S. , et al., 2020. Real-time assessment of community transmission (react) of sars-cov-2 virus: study protocol. Wellcome Open Research 5.",
+        "DOI": "10.12688/wellcomeopenres.16228.1"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2008.00700.x"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Safford, H. , Zuniga-Montanez, R.E. , Kim, M. , Wu, X. , Wei, L. , Sharpnack, J. , Shapiro, K. , Bischel, H.N. , 2022. Wastewater-based epidemiology for covid-19: Handling qpcr nondetects and comparing spatially granular wastewater and clinical data trends. ACS ES&T Water.",
+        "DOI": "10.1021/acsestwater.2c00053"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanju\u00e1n, R. , Domingo-Calap, P. , 2021. Reliability of wastewater analysis for monitoring covid-19 incidence revealed by a long-term follow-up study. medRxiv.",
+        "DOI": "10.1101/2021.05.30.21257992"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.150060"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/16-STS576"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "146294",
+        "DOI": "10.1016/j.scitotenv.2021.146294",
+        "article-title": "Detecting sars-cov-2 rna prone clusters in a municipal wastewater network using fuzzy-bayesian optimization model to facilitate wastewater-based epidemiology",
+        "volume": "778",
+        "year": "2021",
+        "journal-title": "Science of the Total Environment"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.2166/wh.2022.185",
+        "article-title": "Establishment of local wastewater-based surveillance programmes in response to the spread and infection of covid-19\u2013case studies from south africa, the netherlands, turkey and england",
+        "volume": "20",
+        "year": "2022",
+        "journal-title": "Journal of Water and Health"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.35",
+        "unstructured": "Wade, M. , Jones, D. , Singer, A. , Hart, A. , Corbishley, A. , Spence, C. , Morvan, M. , Zhang, C. , Pollock, M. , Hoffmann, T. , Singleton, P. , Grimsley, J. , Bunce, J. , Engeli, A. , Henderson, G. , 2020. Wastewater covid-19 monitoring in the uk: summary for sage. URL: https://www.gov.uk/government/publications/defrajbc-wastewater-covid-19-monitoring-in-the-uk-summary-19-november-2020."
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "127456",
+        "DOI": "10.1016/j.jhazmat.2021.127456",
+        "article-title": "Understanding and managing uncertainty and variability for waste-water monitoring beyond the pandemic: Lessons learned from the united kingdom national covid-19 surveillance programmes",
+        "volume": "424",
+        "year": "2022",
+        "journal-title": "Journal of hazardous materials"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Whittle, P. , 1954. On stationary processes in the plane. Biometrika, 434\u2013449.",
+        "DOI": "10.1093/biomet/41.3-4.434"
+      },
+      {
+        "key": "2022102721150825000_2022.10.14.22281081v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mSystems.00614-20"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.10.14.22281081",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:52:19Z",
+      "timestamp": 1768488739000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.10.14.22281081"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2022.10.14.22281081",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.envint.2023.107765",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

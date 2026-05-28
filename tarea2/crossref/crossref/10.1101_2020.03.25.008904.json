@@ -1,0 +1,251 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          20
+        ]
+      ],
+      "date-time": "2026-01-20T05:44:26Z",
+      "timestamp": 1768887866854,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          28
+        ]
+      ]
+    },
+    "group-title": "Biophysics",
+    "reference-count": 13,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2020-03-28T00:00:00Z",
+          "timestamp": 1585353600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Protein structures are crucial for understanding their biological activities. Since the outbreak of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), there is an urgent need to understand the biological behavior of the virus and provide a basis for developing effective therapies. Since the proteome of the virus was determined, some of the protein structures could be determined experimentally, and others were predicted via template-based modeling approaches. However, tertiary structures for several proteins are still not available from experiment nor they could be accurately predicted by template-based modeling because of lack of close homolog structures. Previous efforts to predict structures for these proteins include efforts by DeepMind and the Zhang group via machine learning-based structure prediction methods, i.e. AlphaFold and C-I-TASSER. However, the predicted models vary greatly and have not yet been subjected to refinement. Here, we are reporting new predictions from our in-house structure prediction pipeline. The pipeline takes advantage of inter-residue contact predictions from trRosetta, a machine learning-based method. The predicted models were further improved by applying molecular dynamics simulation-based refinement. We also took the AlphaFold models and refined them by applying the same refinement method. Models based on our structure prediction pipeline and the refined AlphaFold models were analyzed and compared with the C-I-TASSER models. All of our models are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/feiglab/sars-cov-2-proteins\">https://github.com/feiglab/sars-cov-2-proteins</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2020.03.25.008904",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          28
+        ]
+      ],
+      "date-time": "2020-03-28T23:05:19Z",
+      "timestamp": 1585436719000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 69,
+    "title": [
+      "Modeling of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Proteins by Machine Learning and Physics-Based Refinement"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3153-2363",
+        "authenticated-orcid": false,
+        "given": "Lim",
+        "family": "Heo",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9380-6422",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Feig",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "7798",
+        "key": "2024080401121653000_2020.03.25.008904v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1038/s41586-020-2008-3",
+        "article-title": "A new coronavirus associated with human respiratory disease in China",
+        "volume": "579",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky427"
+      },
+      {
+        "issue": "7792",
+        "key": "2024080401121653000_2020.03.25.008904v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "706",
+        "DOI": "10.1038/s41586-019-1923-7",
+        "article-title": "Improved protein structure prediction using potentials from deep learning",
+        "volume": "577",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.4",
+        "unstructured": "Jumper J , Tunyasuvunakool K , Kohli P , Hassabis D , and the AlphaFold team. Computational predictions of protein structures associated with COVID-19. DeepMind website, March 5, 2020. https://deepmind.com/research/open-source/computational-predictions-of-protein-structures-associated-with-COVID-19."
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang C , Zheng W , Huang X , Bell EW , Zhou X , Zhang Y . Protein Structure and Sequence Reanalysis of 2019-nCoV Genome Refutes Snakes as Its Intermediate Host and the Unique Similarity between Its Spike Protein Insertions and HIV-1. J Proteome Res 2020.",
+        "DOI": "10.1101/2020.02.04.933135"
+      },
+      {
+        "issue": "12",
+        "key": "2024080401121653000_2020.03.25.008904v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1149",
+        "DOI": "10.1002/prot.25792",
+        "article-title": "Deep-learning contact-map guided protein structure prediction in CASP13",
+        "volume": "87",
+        "year": "2019",
+        "journal-title": "Proteins"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Heo L , Feig M . High-accuracy protein structures by combining machine-learning with physics-based refinement. Proteins 2019.",
+        "DOI": "10.1101/731521"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1914677117"
+      },
+      {
+        "issue": "12",
+        "key": "2024080401121653000_2020.03.25.008904v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1263",
+        "DOI": "10.1002/prot.25759",
+        "article-title": "Driven to near-experimental accuracy by refinement via molecular dynamics simulations",
+        "volume": "87",
+        "year": "2019",
+        "journal-title": "Proteins"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx726"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.3330"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0015386"
+      },
+      {
+        "key": "2024080401121653000_2020.03.25.008904v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.6b00819"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.03.25.008904",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:10:51Z",
+      "timestamp": 1768435851000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.03.25.008904"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          28
+        ]
+      ]
+    },
+    "references-count": 13,
+    "URL": "https://doi.org/10.1101/2020.03.25.008904",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:25:28Z",
+      "timestamp": 1768501528568,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 30,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The active global SARS-CoV-2 pandemic caused more than 426 million cases and 5.8 million deaths worldwide. The development of completely new drugs for such a novel disease is a challenging, time intensive process. Despite researchers around the world working on this task, no effective treatments have been developed yet. This emphasizes the importance of\n                  <jats:italic>drug repurposing</jats:italic>\n                  , where treatments are found among existing drugs that are meant for different diseases. A common approach to this is based on\n                  <jats:italic>knowledge graphs</jats:italic>\n                  , that condense relationships between entities like drugs, diseases and genes. Graph neural networks (GNNs) can then be used for the task at hand by predicting links in such knowledge graphs. Expanding on state-of-the-art GNN research, Doshi\n                  <jats:italic>et al</jats:italic>\n                  . recently developed the Dr-COVID model. We further extend their work using additional output interpretation strategies. The best aggregation strategy derives a top-100 ranking of 8,070 candidate drugs, 32 of which are currently being tested in COVID-19-related clinical trials. Moreover, we present an alternative application for the model, the generation of additional candidates based on a given pre-selection of drug candidates using collaborative filtering. In addition, we improved the implementation of the Dr-COVID model by significantly shortening the inference and pre-processing time by exploiting data-parallelism. As drug repurposing is a task that requires high computation and memory resources, we further accelerate the post-processing phase using a new emerging hardware \u2014 we propose a new approach to leverage the use of high-capacity Non-Volatile Memory for aggregate drug ranking.\n                </jats:p>",
+    "DOI": "10.1101/2022.03.24.485618",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2022-03-25T02:35:14Z",
+      "timestamp": 1648175714000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Improved And Optimized Drug Repurposing For The SARS-CoV-2 Pandemic"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Sarel",
+        "family": "Cohen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Moshik",
+        "family": "Hershcovitch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martin",
+        "family": "Taraz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Otto",
+        "family": "Ki\u00dfig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5559-7471",
+        "authenticated-orcid": false,
+        "given": "Davis",
+        "family": "Issac",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Wood",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Waddington",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Chin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tobias",
+        "family": "Friedrich",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicola M , Alsafi Z , Sohrabi C , Kerwan A , Al-Jabir A , Iosifidis C , et al. The socio-economic implications of the coronavirus pandemic (COVID-19): A review. International Journal of Surgery. 2020;.",
+        "DOI": "10.1016/j.ijsu.2020.04.018"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shah B , Modi P , Sagar SR . In silico studies on therapeutic agents for COVID-19: Drug repurposing approach. Life Sciences. 2020;.",
+        "DOI": "10.1016/j.lfs.2020.117652"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wishart DS , Feunang YD , Guo AC , Lo EJ , Marcu A , Grant JR , et al. DrugBank 5.0: a major update to the DrugBank database for 2018. Nucleic Acids Res. 2018;.",
+        "DOI": "10.1093/nar/gkx1037"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ashburn TT , Thor KB . Drug repositioning: identifying and developing new uses for existing drugs. Nature Reviews Drug Discovery. 2004;.",
+        "DOI": "10.1038/nrd1468"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sarwar BM , Karypis G , Konstan JA , Riedl J. Item-Based Collaborative Filtering Recommendation Algorithms. In: International Conference on World Wide Web; 2001.",
+        "DOI": "10.1145/371920.372071"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.6",
+        "unstructured": "Bordes A , Usunier N , Garc\u00eda-Dur\u00e1n A , Weston J , Yakhnenko O. Translating Embeddings for Modeling Multi-relational Data. In: Neural Information Processing Systems (NeurIPS); 2013. p. 2787\u20132795."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.7",
+        "unstructured": "Ye C , Swiers R , Bonner S , Barrett I. Predicting Potential Drug Targets Using Tensor Factorisation and Knowledge Graph Embeddings; 2021."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.8",
+        "unstructured": "Gysi DM , Valle \u00cdD , Zitnik M , Ameli A , Gan X , Varol O , et al. Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19. CoRR. 2020;."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zitnik M , Agrawal M , Leskovec J. Modeling polypharmacy side effects with graph convolutional networks. Bioinform. 2018;.",
+        "DOI": "10.1101/258814"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.10",
+        "unstructured": "Doshi S , Chepuri SP . Dr-COVID: Graph Neural Networks for SARS-CoV-2 Drug Repurposing. CoRR. 2020;."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.11",
+        "unstructured": "Ki\u00dfig O , Taraz M , Cohen S , Dosko?c V , Friedrich T. Drug Repurposing for Multiple COVID Strains using Collaborative Filtering. In: ICLR Workshop on Machine Learning for Preventing and Combating Pandemics (MLPCP@ICLR); 2021."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.12",
+        "unstructured": "Ki\u00dfig O , Taraz M , Cohen S , Friedrich T. Drug Repurposing using Link Prediction on Knowledge Graphs. In: ICML Workshop on Computational Biology (CompBio@ICML); 2021."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.13",
+        "unstructured": "Izraelevitz J , Yang J , Zhang L , Kim J , Liu X , Memaripour A , et al. Basic Performance Measurements of the Intel Optane DC Persistent Memory Module. CoRR. 2019;abs/1903.05714."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.14",
+        "article-title": "An Architecture for Memory Centric Active Storage (MCAS)",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wood A , Hershcovitch M , Waddington D , Cohen S , Wolf M , Suh H , et al. Non-Volatile Memory Accelerated Geometric Multi-Scale Resolution Analysis. In: IEEE High Performance Extreme Computing Conference (HPEC); 2021. p. 1\u20137.",
+        "DOI": "10.1109/HPEC49654.2021.9622854"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.16",
+        "article-title": "Non-Volatile Memory Accelerated Posterior",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Waddington Daniel , Hershcovitch Moshik , Dickey Clem . PyMM: Heterogeneous Memory Programming for Python Data Science Proceedings of the 11th Workshop on Programming Languages and Operating Systems. 2021;31\u201337.",
+        "DOI": "10.1145/3477113.3487266"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.18",
+        "unstructured": "Ioannidis VN , Song X , Manchanda S , Li M , Pan X , Zheng D , et al. DRKG - Drug Repurposing Knowledge Graph for Covid-19; 2020. https://github.com/gnn4dr/DRKG/."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zheng D , Song X , Ma C , Tan Z , Ye Z , Dong J , et al. DGL-KE: Training Knowledge Graph Embeddings at Scale. In: SIGIR Conference on Research and Development in Information Retrieval; 2020.",
+        "DOI": "10.1145/3397271.3401172"
+      },
+      {
+        "issue": "1",
+        "key": "2022032609300484000_2022.03.24.485618v1.20",
+        "first-page": "61",
+        "article-title": "The graph neural network model",
+        "volume": "20",
+        "year": "2008",
+        "journal-title": "IEEE transactions on neural networks"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.21",
+        "article-title": "Semi-supervised classification with graph convolutional networks",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.22",
+        "unstructured": "Frasca F , Rossi E , Eynard D , Chamberlain B , Bronstein M , Monti F. SIGN: Scalable Inception Graph Neural Networks. CoRR. 2020;."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.23",
+        "article-title": "Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pearson, F R S K. LIII. On lines and planes of closest fit to systems of points in space. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science. 1901;.",
+        "DOI": "10.1080/14786440109462720"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-5468/2008/10/p10008"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.26",
+        "unstructured": "Kingma DP , Ba J. Adam: A Method for Stochastic Optimization. In: International Conference on Learning Representations (ICLR); 2015."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.27",
+        "unstructured": "World Health Organization. International Clinical Trials Registry Platform (ICTRP); 2021. https://www.who.int/clinical-trials-registry-platform."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.28",
+        "unstructured": "Pandey P. Covid19 Clinical Trials Dataset; 2021. https://www.kaggle.com/parulpandey/covid19-clinical-trials-dataset."
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1524/auto.2011.0951"
+      },
+      {
+        "key": "2022032609300484000_2022.03.24.485618v1.30",
+        "unstructured": "Buitinck L , Louppe G , Blondel M , Pedregosa F , Mueller A , Grisel O , et al. API design for machine learning software: experiences from the scikit-learn project. In: ECML PKDD Workshop: Languages for Data Mining and Machine Learning; 2013. p. 108\u2013122."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.24.485618",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:50:12Z",
+      "timestamp": 1768445412000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.03.24.485618"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1101/2022.03.24.485618",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

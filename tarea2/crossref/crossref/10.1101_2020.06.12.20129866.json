@@ -1,0 +1,652 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:05:09Z",
+      "timestamp": 1768550709990,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 65,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The disease caused by the new type of coronavirus, the Covid-19, has posed major public health challenges for many countries. With its rapid spread, since the beginning of the outbreak in December 2019, the disease transmitted by SARS-Cov2 has already caused over 400 thousand deaths to date. The diagnosis of the disease has an important role in combating Covid-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>In this work, we propose a web system, Heg.IA, which seeks to optimize the diagnosis of Covid-19 through the use of artificial intelligence.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Method</jats:title>\n                  <jats:p>The main ideia is that healthcare professionals can insert 41 hematological parameters from common blood tests and arterial gasometry into the system. Then, Heg.IA will provide a diagnostic report. It will indicate if the patient is infected with SARS-Cov2 virus, and also predict the type of hospitalization (regular ward, semi-ICU, or ICU).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We developed a web system called Heg.IA to support decision-making regarding to diagnosis of Covid-19 and to the indication of hospitalization on regular ward, semi-ICU or ICU. This application is based on decision trees in a Random Forest architecture with 90 trees. The system showed to be highly efficient, with great results for both Covid-19 diagnosis and to recommend hospitalization. For the first scenario we found average results of accuracy of 92.891% \u00b1 0.851, kappa index of 0.858 \u00b1 0.017, sensitivity of 0.936 \u00b1 0.011, precision of 0.923 \u00b1 0.011, specificity of 0.921 \u00b1 0.012 and area under ROC of 0.984 \u00b1 0.003. As for the indication of hospitalization, we achieved excellent performance of accuracies above 99% and more than 0.99 for the other metrics in all situations.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>By using a computationally simple method, based on the classical decision trees, we were able to achieve high diagnosis performance. Heg.IA system may be a way to overcome the testing unavailability in the context of Covid-19. We also expect the system will provide wide access to Covid-19 effective diagnosis and thereby reach and help saving lives.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.06.12.20129866",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2020-06-16T13:49:40Z",
+      "timestamp": 1592315380000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Covid-19 rapid test by combining a random forest based web system and blood tests"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Valter Augusto",
+        "family": "de Freitas Barbosa",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Juliana Carneiro",
+        "family": "Gomes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ma\u00edra Ara\u00fajo",
+        "family": "de Santana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Clarisse Lins",
+        "family": "de Lima",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raquel Bezerra",
+        "family": "Calado",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cla\u00fadio Roberto",
+        "family": "Bertoldo J\u00fanior",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeniffer Emidio",
+        "family": "de Almeida Albuquerque",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rodrigo Gomes",
+        "family": "de Souza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ricardo Juarez Escorel",
+        "family": "de Ara\u00fajo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ricardo Emmanuel",
+        "family": "de Souza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wellington Pinheiro",
+        "family": "dos Santos",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "953",
+        "DOI": "10.1007/s40846-017-0360-z",
+        "article-title": "Improving the diagnosis of liver disease using multilayer perceptron neural network and boosted decision trees",
+        "volume": "38",
+        "year": "2018",
+        "journal-title": "Journal of Medical and Biological Engineering"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrade, M. K. , de Santana, M. A. , Moreno, G. , Oliveira, I. , Santos, J. , Rodrigues, M. C. A. , & dos Santos, W. P. (2020). An eeg brain-computer interface to classify motor imagery signals. In Biomedical Signal Processing (pp. 83\u201398). Springer.",
+        "DOI": "10.1007/978-981-13-9097-5_5"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1114",
+        "DOI": "10.1109/TITB.2009.2039485",
+        "article-title": "Intelligible support vector machines for diagnosis of diabetes mellitus",
+        "volume": "14",
+        "year": "2010",
+        "journal-title": "IEEE transactions on information technology in biomedicine"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barbosa, V. A. d. F. , Gomes, J. C. , de Santana, M. A. , de Almeida Albuquerque, J. E. , de Souza, R. G. , de Souza, R. E. , & dos Santos, W. P. (2020a). Heg.IA: An intelligent system to support diagnosis of Covid-19 based on blood tests. medRxiv,.",
+        "DOI": "10.1101/2020.05.14.20102533"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.5",
+        "unstructured": "Barbosa, V. A. F. , Santana, M. A. , Andrade, M. K. S. , Lima, R. C. F. , & Santos, W. P. (2020b). Deep-wavelet neural networks for breast cancer early diagnosis using mammary termographies. In H. Das , C. Pradhan , & N. Dey (Eds.), Deep Learning for Data Analytics: Foundations, Biomedical Applications, and Challenges. London: Academic Press. (1st ed.)."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.6",
+        "first-page": "218",
+        "article-title": "Medidas de acur\u00e1cia diagn\u00f3stica na pesquisa cardiovascular",
+        "volume": "29",
+        "year": "2016",
+        "journal-title": "International Journal of Cardiovascular Sciences"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boser, B. E. , Guyon, I. M. , & Vapnik, V. N. (1992). A training algorithm for optimal margin classifiers. In Proceedings of the fifth annual workshop on Computational learning theory (pp. 144\u201352).",
+        "DOI": "10.1145/130385.130401"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.8",
+        "first-page": "369",
+        "article-title": "Bayesian network classifiers in weka for version 3-5-7",
+        "volume": "11",
+        "year": "2008",
+        "journal-title": "Artificial Intelligence Tools"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.9",
+        "unstructured": "Brazilian Ministry of Health (2020). Guidelines for the diagnosis and treatment of COVID-19. Brazilian Society of Clinical Analyzes. URL: www.sbac.org.br/blog/2020/04/09/diretrizes-para-diagnostico-e-tratamento-da-covid-19/ last accessed: 2020 June. 03."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781107415324.004"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.11",
+        "unstructured": "Cheng, J. , & Greiner, R. (1999). Comparing bayesian network classifiers. In Proceedings of the Fifteenth conference on Uncertainty in artificial intelligence (pp. 101\u20138). Morgan Kaufmann Publishers Inc."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.12",
+        "first-page": "141",
+        "article-title": "Learning Bayesian belief network classifiers: Algorithms and System",
+        "volume": "2056",
+        "year": "2001",
+        "journal-title": "Advances in Artificial Intelligence"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2005.11.002"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.14",
+        "first-page": "1",
+        "article-title": "Objective evaluation of multiple sclerosis lesion segmentation using a data management and processing infrastructure",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.eswa.2016.08.016",
+        "article-title": "A semi-supervised fuzzy growcut algorithm to segment and classify regions of interest of mammographic images",
+        "volume": "65",
+        "year": "2016",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.16",
+        "first-page": "297",
+        "article-title": "Analysis of supervised and semi-supervised growcut applied to segmentation of masses in mammography images",
+        "volume": "5",
+        "year": "2017",
+        "journal-title": "Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1007/BF00994018",
+        "article-title": "Support-vector networks",
+        "volume": "20",
+        "year": "1995",
+        "journal-title": "Machine learning"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "926",
+        "DOI": "10.1109/TLA.2018.8358675",
+        "article-title": "Detection and classification of lesions in mammographies using neural networks and morphological wavelets",
+        "volume": "16",
+        "year": "2018",
+        "journal-title": "IEEE Latin America Transactions"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.puhe.2020.04.009"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, B. E. , Chong, V. C. L. , Chan, S. S. W. , Lim, G. H. , Lim, K. G. E. , Tan, G. B. , Mucheli, S. S. , Kuperan, P. , & Ong, K. H. (2020). Hematologic parameters in patients with COVID-19 infection. American Journal of Hematology, 2020.",
+        "DOI": "10.1002/ajh.25774"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao, Y. , Li, T. , Han, M. , Li, X. , Wu, D. , Xu, Y. , Zhu, Y. , Liu, Y. , Wang, X. , & Wang, L. (2020). Diagnostic utility of clinical laboratory data determinations for patients with the severe COVID-19. Journal of Medical Virology,.",
+        "DOI": "10.1002/jmv.25770"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1352-2310(97)00447-0"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1007/s10994-006-6226-1",
+        "article-title": "Extremely randomized trees",
+        "volume": "63",
+        "year": "2006",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gomes, J. C. , Barbosa, V. A. , Ribeiro, D. E. , de Souza, R. E. , & dos Santos, W. P. (2020a). Electrical impedance tomography image reconstruction based on backprojection and extreme learning machines. Research on biomedical engineering,.",
+        "DOI": "10.1007/s42600-020-00079-3"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gomes, J. C. , Barbosa, V. A. d. F. , Santana, M. A. d. , Bandeira, J. , Valen\u00e7a, M. J. S. , Souza, R. E. d. , Ismael, A. M. , & Santos, W. P. d. (2020b). IKONOS: An intelligent tool to support diagnosis of Covid-19 by texture analysis of x-ray images. Research Square,.",
+        "DOI": "10.1007/s42600-020-00091-7"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gomes, J. C. , Silva, L. H. d. S. , Ferreira, J. F. Junior, A. A. , Rocha, A. L. d. S. , Castro, L. , da Silva, N. R. C. , Fernandes, B. J. T. , & dos Santos, W. P. (2020c). Optimizing the molecular diagnosis of Covid-19 by combining RTPCR and a pseudo-convolutional machine learning approach to characterize virus DNA sequences. bioRxiv,.",
+        "DOI": "10.1101/2020.06.02.129775"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.27",
+        "first-page": "1",
+        "article-title": "An application of machine learning to haematological diagnosis",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, L. , Ren, L. , Yang, S. , Xiao, M. , Chang, D. , Yang, F. , Dela Cruz, C. S., Wang, Y. , Wu, C. , Xiao, Y. , Zhang, L. , Han, L. , Dang, S. , Xu, Y. , Yang, Q.-W. , Xu, S.-Y. , Zhu, H.-D. , Xu, Y.-C. , Jin, Q. , Sharma, L. , Wang, L. , & Wang, J. (2020). Profiling Early Humoral Response to Diagnose Novel Coronavirus Disease (COVID-19). Clinical Infectious Diseases, 2020.",
+        "DOI": "10.1093/cid/ciaa310"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1007/s10994-009-5119-5",
+        "article-title": "Measuring classifier performance: a coherent alternative to the area under the roc curve",
+        "volume": "77",
+        "year": "2009",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.30",
+        "first-page": "2277",
+        "article-title": "Heart disease diagnosis system based on multi-layer perceptron neural network and support vector machine",
+        "volume": "77",
+        "year": "2017",
+        "journal-title": "Int J Curr Eng Technol"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.31",
+        "first-page": "900",
+        "article-title": "Neural networks: principles and practice",
+        "volume": "11",
+        "year": "2001",
+        "journal-title": "Bookman"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1754538",
+        "DOI": "10.1080/20008686.2020.1754538",
+        "article-title": "Evaluation of a covid-19 igm and igg rapid test; an efficient tool for assessment of past exposure to sars-cov-2",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Infection Ecology & Epidemiology"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jambukia, S. H. , Dabhi, V. K. , & Prajapati, H. B. (2015). Classification of ecg signals using machine learning techniques: A survey. In 2015 International Conference on Advances in Computer Engineering and Applications (pp. 714\u2013 21). IEEE.",
+        "DOI": "10.1109/ICACEA.2015.7164783"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.34",
+        "unstructured": "Kaggle (2020). Diagnosis of COVID-19 and its clinical spectrum. Kaggle. URL: www.kaggle.com/einsteindata4u/covid19 last accessed: 2020 Apr. 07."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.35",
+        "first-page": "189",
+        "article-title": "Machine learning algorithms for characterization of emg signals",
+        "volume": "4",
+        "year": "2014",
+        "journal-title": "International Journal of Information and Electronics Engineering"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1007/s10462-011-9272-4",
+        "article-title": "Decision trees: a recent overview",
+        "volume": "39",
+        "year": "2013",
+        "journal-title": "Artificial Intelligence Review"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.37",
+        "first-page": "3540",
+        "article-title": "Feature selection and chromosome classification using a multilayer perceptron neural network",
+        "volume": "6",
+        "year": "1994",
+        "journal-title": "In Proceedings of 1994 IEEE International Conference on Neural Networks (ICNN\u201994)"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, Z. , Yi, Y. , Luo, X. , Xiong, N. , Liu, Y. , Li, S. , Sun, R. , Wang, Y. , Hu, B. , Chen, W. et al. (2020). Development and clinical application of a rapid igm-igg combined antibody test for sars-cov-2 infection diagnosis. Journal of medical virology,.",
+        "DOI": "10.1002/jmv.25727"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.39",
+        "first-page": "801",
+        "article-title": "Feature extraction employing fuzzy-morphological decomposition for detection and classification of mass on mammograms. In Conference proceedings:\u2026 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "volume": "2015",
+        "year": "2015",
+        "journal-title": "IEEE Engineering in Medicine and Biology Society. Annual Conference"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "de Lima, S. M. , da Silva-Filho, A. G. , & dos Santos, W. P. (2014). A methodology for classification of lesions in mammographies using zernike moments, elm and svm neural networks in a multi-kernel approach. In 2014 IEEE International Conference on Systems, Man, and Cybernetics (SMC) (pp. 988\u201391). IEEE.",
+        "DOI": "10.1109/SMC.2014.6974041"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.cmpb.2016.04.029",
+        "article-title": "Detection and classification of masses in mammographic images in a multi-kernel approach",
+        "volume": "134",
+        "year": "2016",
+        "journal-title": "Computer Methods and Programs in Biomedicine"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, J. , Li, S. , Liu, J. , Liang, B. , Wang, X. , Wang, H. , Li, W. , Tong, Q. , Yi, J. , Zhao, L. et al. (2020a). Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients. EBioMedicine, (p. 102763).",
+        "DOI": "10.1016/j.ebiom.2020.102763"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.43",
+        "unstructured": "Liu, Y. , Liu, Y. , Diao, B. , Ren, F. , Wang, Y. , Ding, J. , & Huang, Q. (2020b). Diagnostic indexes of a rapid igg/igm combined antibody test for sars-cov-2. medRxiv, 2020."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ajcp/aqw064"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jneumeth.2007.09.022"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Naraei, P. , Abhari, A. , & Sadeghian, A. (2016). Application of multilayer perceptron neural networks and support vector machines in classification of healthcare data. In 2016 Future Technologies Conference (FTC) (pp. 848\u201352). IEEE.",
+        "DOI": "10.1109/FTC.2016.7821702"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.47",
+        "unstructured": "Pereira, J. M. S. , Santana, M. A. , Lima, R. C. F. , Lima, S. M. L. , & Santos, W. P. (2020a). Method for classification of breast lesions in thermographic images using elm classifiers. In W. P. dos Santos , M. A. de Santana , & W. W. A. da Silva (Eds.), Understanding a Cancer Diagnosis (pp. 117\u201332). New York: Nova Science. (1st ed.)."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.48",
+        "unstructured": "Pereira, J. M. S. , Santana, M. A. , Lima, R. C. F. , & Santos, W. P. (2020b). Lesion detection in breast thermography using machine learning algorithms without previous segmentation. In W. P. dos Santos , M. A. de Santana , & W. W. A. da Silva (Eds.), Understanding a Cancer Diagnosis (pp. 81\u201394). New York: Nova Science. (1st ed.)."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.49",
+        "unstructured": "Pereira, J. M. S. , Santana, M. A. , Silva, W. W. A. , Lima, R. C. F. , Lima, S.M. L. , & Santos, W. P. (2020c). Dialectical optimization method as a feature selection tool for breast cancer diagnosis using thermographic images. In W. P. dos Santos , M. A. de Santana , & W. W. A. da Silva (Eds.), Understanding a Cancer Diagnosis (pp. 95\u2013118). New York: Nova Science. (1st ed.)."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1109/TPAMI.2005.17",
+        "article-title": "Skin segmentation using color pixel classification: analysis and comparison",
+        "volume": "27",
+        "year": "2005",
+        "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1016409317640"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1016/j.eswa.2017.07.029",
+        "article-title": "Optimal configuration of multilayer perceptron neural network classifier for recognition of intracranial epileptic seizures",
+        "volume": "89",
+        "year": "2017",
+        "journal-title": "Expert Systems With Applications"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.1007/s42600-019-00024-z",
+        "article-title": "Identification of mammary lesions in thermographic images: feature selection study using genetic algorithms and particle swarm optimization",
+        "volume": "35",
+        "year": "2019",
+        "journal-title": "Research on Biomedical Engineering"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.54",
+        "unstructured": "Santana, M. A. , Pereira, J. M. S. , Lima, R. C. F. , & Santos, W. P. (2020). Breast lesions classification in frontal thermographic images using intelligent systems and moments of haralick and zernike. In W. P. dos Santos , M. A. de Santana , & W. W. A. da Silva (Eds.), Understanding a Cancer Diagnosis (pp. 65\u201380). New York: Nova Science. (1st ed.)."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1590/2446-4740.05217",
+        "article-title": "Breast cancer diagnosis based on mammary thermography and extreme learning machines",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Research on Biomedical Engineering"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.56",
+        "unstructured": "Silva, W. W. A. , Santana, M. A. , Silva Filho, A. G. , Lima, S. M. L. , & Santos, W. P. (2020). Morphological extreme learning machines applied to the detection and classification of mammary lesions. In T. K. Gandhi , S. Bhattacharyya , S. De , D. Konar , & S. Dey (Eds.), Advanced Machine Vision Paradigms for Medical Image Analysis. London: Elsevier."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soares, F. , Villavicencio, A. , Fogliatto, F. S. , Rigatto, M. H. P. , Anzanello, M. J. , Idiart, M. A. , & Stevenson, M. (2020). A novel specific artificial intelligence-based method to identify COVID-19 cases using simple blood exams. medRxiv,.",
+        "DOI": "10.1101/2020.04.10.20061036"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1016/j.cmpb.2013.04.016",
+        "article-title": "Comparative evaluation of support vector machines for computer aided diagnosis of lung cancer in ct based on a multi-dimensional data set",
+        "volume": "111",
+        "year": "2013",
+        "journal-title": "Computer methods and programs in biomedicine"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.59",
+        "first-page": "1",
+        "article-title": "Lymphopenia predicts disease severity of COVID-19: a descriptive and predictive study",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Signal Transduction and Targeted Therapy"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tanner, L. , Schreiber, M. , Low, J. G. , Ong, A. , Tolfvenstam, T. , Lai, Y. L. , Ng, L. C. , Leo, Y. S. , Puong, L. T. , Vasudevan, S. G. et al. (2008). Decision tree algorithms predict the diagnosis and outcome of dengue fever in the early phase of illness. PLoS Neglected Tropical Diseases, 2.",
+        "DOI": "10.1371/journal.pntd.0000196"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tips.2004.04.001"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1631",
+        "DOI": "10.1109/TLA.2018.8444159",
+        "article-title": "Analysis of methods of classification of breast thermographic images to determine their viability in the early breast cancer detection",
+        "volume": "16",
+        "year": "2018",
+        "journal-title": "IEEE Latin America Transactions"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.63",
+        "unstructured": "WHO (2020). Advice on the use of point-of-care immunodiagnostic tests for COVID-19. World Health Organization. URL: www.who.int/news-room/commentaries/detail/advice-on-the-use-of-point-of-care-immunodiagnostic-tests-for-covid-19 last accessed: 2020 Jun. 05."
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acra.2010.11.013"
+      },
+      {
+        "key": "2021010204101202000_2020.06.12.20129866v1.65",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1038/s41569-020-0360-5",
+        "article-title": "COVID-19 and the cardiovascular system",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Nature Reviews Cardiology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.12.20129866",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:44:49Z",
+      "timestamp": 1768484689000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.06.12.20129866"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 65,
+    "URL": "https://doi.org/10.1101/2020.06.12.20129866",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1080/07391102.2021.1966509",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          16
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

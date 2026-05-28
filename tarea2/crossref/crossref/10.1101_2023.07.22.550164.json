@@ -1,0 +1,640 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:56:15Z",
+      "timestamp": 1768506975790,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          24
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 64,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Metagenomic profiling algorithms commonly rely on genomic differences between lineages, strains, or species to infer the relative abundances of sequences present in a sample. This observation plays an important role in the analysis of diverse microbial communities, where targeted sequencing of 16S and 18S\n                  <jats:italic>ribosomal RNA</jats:italic>\n                  (rRNA), both well-known hypervariable genomic regions, have led to insights into microbial diversity and the discovery of novel organisms. However, the variable nature of discriminatory regions can also act as a double-edged sword, as the sought-after variability can make it difficult to design primers for their amplification through\n                  <jats:italic>Polymerase Chain Reaction</jats:italic>\n                  (\n                  <jats:italic>PCR</jats:italic>\n                  ). Moreover, the most variable regions are not necessarily the most informative regions for the purpose of differentiation; one should focus on regions that maximize the number of lineages that can be distinguished. Here we present AmpliDiff, a computational tool that simultaneously finds such highly discriminatory genomic regions, as well as primers allowing for the amplification of these regions. We show that regions and primers found by AmpliDiff can be used to accurately estimate relative abundances of SARS-CoV-2 lineages, for example in wastewater sequencing data. We obtain mean absolute prediction errors that are comparable with using whole genome information to estimate relative abundances. Furthermore, our results show that AmpliDiff is robust against incomplete input data and that primers designed by AmpliDiff continue to bind to genomes originating from months after the primers were selected. With AmpliDiff we provide an effective and efficient alternative to whole genome sequencing for estimating lineage abundances in viral metagenomes.\n                </jats:p>",
+    "DOI": "10.1101/2023.07.22.550164",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2023-07-24T19:05:13Z",
+      "timestamp": 1690225513000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "AmpliDiff: An Optimized Amplicon Sequencing Approach to Estimating Lineage Abundances in Viral Metagenomes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1707-9547",
+        "authenticated-orcid": false,
+        "given": "Jasper",
+        "family": "van Bemmelen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4049-0337",
+        "authenticated-orcid": false,
+        "given": "Davida S.",
+        "family": "Smyth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5661-0658",
+        "authenticated-orcid": false,
+        "given": "Jasmijn A.",
+        "family": "Baaijens",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1253",
+        "DOI": "10.1007/s00253-016-7959-9",
+        "article-title": "Amplicon-based profiling of bacteria in raw and secondary treated wastewater from treatment plants across Australia",
+        "volume": "101",
+        "year": "2017",
+        "journal-title": "Applied microbiology and biotechnology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2011-12-1-r1"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1016/j.jclinepi.2020.09.040",
+        "article-title": "The impact of the COVID-19 on research",
+        "volume": "129",
+        "year": "2021",
+        "journal-title": "Journal of clinical epidemiology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-022-02601-5"
+      },
+      {
+        "issue": "12",
+        "key": "2023090209001032000_2023.07.22.550164v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "937",
+        "DOI": "10.1021/acs.estlett.0c00730",
+        "article-title": "Persistence of SARS-CoV-2 in water and wastewater",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Environmental Science & Technology Letters"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "840952",
+        "DOI": "10.3389/fviro.2022.840952",
+        "article-title": "Investigating the extent of primer dropout in SARS-CoV-2 genome sequences during the early circulation of delta variants",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "Frontiers in Virology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3519"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbx120"
+      },
+      {
+        "issue": "1-4",
+        "key": "2023090209001032000_2023.07.22.550164v2.9",
+        "first-page": "353",
+        "article-title": "Algorithms for the set covering problem",
+        "volume": "98",
+        "year": "2000",
+        "journal-title": "Annals of Operations Research"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "453",
+        "DOI": "10.1016/j.trac.2018.06.004",
+        "article-title": "Wastewater-based epidemiology biomarkers: past, present and future",
+        "volume": "105",
+        "year": "2018",
+        "journal-title": "TrAC Trends in Analytical Chemistry"
+      },
+      {
+        "issue": "1",
+        "key": "2023090209001032000_2023.07.22.550164v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1038/s41522-021-00235-2",
+        "article-title": "Metagenomic analysis revealed the potential role of gut microbiome in gout",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "npj Biofilms and Microbiomes"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/moor.4.3.233"
+      },
+      {
+        "issue": "3",
+        "key": "2023090209001032000_2023.07.22.550164v2.13",
+        "first-page": "2000045",
+        "article-title": "Detection of 2019 novel coronavirus (2019-ncov) by real-time RT-PCR",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.3.3.S30"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-022-04590-5"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4227"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.17",
+        "unstructured": "Gurobi Optimization, LLC. Gurobi Optimizer Reference Manual, 2023."
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0087624"
+      },
+      {
+        "issue": "1",
+        "key": "2023090209001032000_2023.07.22.550164v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1137/S0097539704444750",
+        "article-title": "A better-than-greedy approximation algorithm for the minimum set cover problem",
+        "volume": "35",
+        "year": "2005",
+        "journal-title": "SIAM Journal on Computing"
+      },
+      {
+        "issue": "3",
+        "key": "2023090209001032000_2023.07.22.550164v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1137/0211045",
+        "article-title": "Approximation algorithms for the set covering and vertex cover problems",
+        "volume": "11",
+        "year": "1982",
+        "journal-title": "SIAM Journal on computing"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr708"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0034560"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng.1028"
+      },
+      {
+        "issue": "5",
+        "key": "2023090209001032000_2023.07.22.550164v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1405",
+        "DOI": "10.3201/eid2705.204410",
+        "article-title": "Monitoring SARS-CoV-2 circulation and diversity through community wastewater sequencing, the Netherlands and Belgium",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Emerging infectious diseases"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq098"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/106652701753307511"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Richard M Karp . Reducibility among combinatorial problems. In Complexity of computer computations, pages 85\u2013103. Springer, 1972.",
+        "DOI": "10.1007/978-1-4684-2001-2_9"
+      },
+      {
+        "issue": "7925",
+        "key": "2023090209001032000_2023.07.22.550164v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1038/s41586-022-05049-6",
+        "article-title": "Wastewater sequencing reveals early cryptic SARS-CoV-2 variant transmission",
+        "volume": "609",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkf436"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.14596"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.46234/ccdcw2021.255"
+      },
+      {
+        "issue": "1",
+        "key": "2023090209001032000_2023.07.22.550164v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/S0020-0190(99)00031-9",
+        "article-title": "The budgeted maximum coverage problem",
+        "volume": "70",
+        "year": "1999",
+        "journal-title": "Information processing letters"
+      },
+      {
+        "issue": "36",
+        "key": "2023090209001032000_2023.07.22.550164v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1242",
+        "DOI": "10.15585/mmwr.mm7036a2",
+        "article-title": "Using wastewater surveillance data to support the COVID-19 response\u2014United States, 2020\u20132021",
+        "volume": "70",
+        "year": "2021",
+        "journal-title": "Morbidity and Mortality Weekly Report"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "112752",
+        "DOI": "10.1016/j.jim.2020.112752",
+        "article-title": "openPrimeR for multiplex amplification of highly diverse templates",
+        "volume": "480",
+        "year": "2020",
+        "journal-title": "Journal of Immunological Methods"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "836728",
+        "DOI": "10.3389/fmed.2022.836728",
+        "article-title": "Optimization of the SARS-CoV-2 ARTIC network V4 primers and whole genome sequencing protocol",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Frontiers in Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2023090209001032000_2023.07.22.550164v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2398",
+        "DOI": "10.1002/rmv.2398",
+        "article-title": "SARS-CoV-2 Omicron and its current known unknowns: A narrative review",
+        "volume": "33",
+        "year": "2023",
+        "journal-title": "Reviews in Medical Virology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "155059",
+        "DOI": "10.1016/j.scitotenv.2022.155059",
+        "article-title": "Direct comparison of RT-ddPCR and targeted amplicon sequencing for SARS-CoV-2 mutation monitoring in wastewater",
+        "volume": "833",
+        "year": "2022",
+        "journal-title": "Science of The Total Environment"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1861",
+        "DOI": "10.1007/s00203-020-01897-w",
+        "article-title": "Exploring the eukaryotic diversity in rumen of indian camel (camelus dromedarius) using 18S rRNA amplicon sequencing",
+        "volume": "202",
+        "year": "2020",
+        "journal-title": "Archives of Microbiology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "109987",
+        "DOI": "10.1016/j.envres.2020.109987",
+        "article-title": "Determination of the bacterial microbiome of free-living amoebae isolated from wastewater by 16S rRNA amplicon-based sequencing",
+        "volume": "190",
+        "year": "2020",
+        "journal-title": "Environmental Research"
+      },
+      {
+        "issue": "6",
+        "key": "2023090209001032000_2023.07.22.550164v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "100098",
+        "DOI": "10.1016/j.xcrm.2020.100098",
+        "article-title": "Temporal detection and phylogenetic assessment of SARS-CoV-2 in municipal wastewater",
+        "volume": "1",
+        "year": "2020",
+        "journal-title": "Cell Reports Medicine"
+      },
+      {
+        "issue": "10",
+        "key": "2023090209001032000_2023.07.22.550164v2.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1164",
+        "DOI": "10.1038/s41587-020-0684-z",
+        "article-title": "Measurement of SARS-CoV-2 RNA in wastewater tracks community infection dynamics",
+        "volume": "38",
+        "year": "2020",
+        "journal-title": "Nature biotechnology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.42",
+        "doi-asserted-by": "crossref",
+        "first-page": "670336",
+        "DOI": "10.3389/fmicb.2021.670336",
+        "article-title": "Comparative analysis of 16s rRNA gene and metagenome sequencing in pediatric gut microbiomes",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Frontiers in microbiology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2020.116404"
+      },
+      {
+        "issue": "6",
+        "key": "2023090209001032000_2023.07.22.550164v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1038/nprot.2017.066",
+        "article-title": "Multiplex PCR method for MinION and Illumina sequencing of Zika and other virus genomes directly from clinical samples",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "Nature protocols"
+      },
+      {
+        "issue": "11",
+        "key": "2023090209001032000_2023.07.22.550164v2.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40168-019-0702-x"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G\u00e9raldine Rios , Caroline Lacoux , Vianney Leclercq , Anna Diamant , K\u00e9vin Lebrigand , Ad\u00e9le Lazuka , Emmanuel Soyeux , S\u00e9bastien Lacroix , Julien Fassy , Aur\u00e9lie Couesnon , et al. Monitoring SARS-CoV-2 variants alterations in Nice neighborhoods by wastewater nanopore sequencing. The Lancet Regional Health\u2013Europe, 10, 2021.",
+        "DOI": "10.1016/j.lanepe.2021.100202"
+      },
+      {
+        "issue": "1",
+        "key": "2023090209001032000_2023.07.22.550164v2.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "2834",
+        "DOI": "10.1038/s41467-023-38184-3",
+        "article-title": "Enabling accurate and early detection of recently emerged SARS-CoV-2 variants of concern in wastewater",
+        "volume": "14",
+        "year": "2023",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1117018109"
+      },
+      {
+        "issue": "1",
+        "key": "2023090209001032000_2023.07.22.550164v2.50",
+        "first-page": "1",
+        "article-title": "Tracking cryptic SARS-CoV-2 lineages detected in NYC wastewater",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "e00131",
+        "DOI": "10.1016/j.parepi.2019.e00131",
+        "article-title": "Differentiation of Blastocystis and parasitic archamoebids encountered in untreated wastewater samples by amplicon-based next-generation sequencing",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Parasite epidemiology and control"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.02576-16"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Julie D Thompson , Toby J Gibson , and Des G Higgins . Multiple sequence alignment using ClustalW and ClustalX. Current protocols in bioinformatics, (1):2\u20133, 2003.",
+        "DOI": "10.1002/0471250953.bi0203s00"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gks596"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.55",
+        "unstructured": "Jasper van Bemmelen. Amplidiff. https://github.com/JaspervB-tud/AmpliDiff, 2022."
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.8298887"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mimet.2003.10.014"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.58",
+        "unstructured": "Michael X Wang , Esther G Lou , Nicolae Sapoval , Eddie Kim , Prashant Kalvapalle , Bryce Kille , RA Leo Elworth , Yunxi Liu , Yilei Fu , Lauren B Stadler , et al. Olivar: fully automated and variant aware primer design for multiplex tiled amplicon sequencing of pathogen genomes. bioRxiv, pages 2023\u201302, 2023."
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0007401"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2022.118070"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro3330"
+      },
+      {
+        "key": "2023090209001032000_2023.07.22.550164v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-13-1"
+      },
+      {
+        "issue": "5",
+        "key": "2023090209001032000_2023.07.22.550164v2.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "940",
+        "DOI": "10.3201/eid2805.212488",
+        "article-title": "Estimating relative abundance of 2 SARS-CoV-2 variants through wastewater surveillance at 2 large metropolitan sites, United States",
+        "volume": "28",
+        "year": "2022",
+        "journal-title": "Emerging Infectious Diseases"
+      },
+      {
+        "issue": "5",
+        "key": "2023090209001032000_2023.07.22.550164v2.64",
+        "first-page": "695",
+        "article-title": "Kuhn\u2013Munkres parallel genetic algorithm for the set cover problem and its application to large-scale wireless sensor networks",
+        "volume": "20",
+        "year": "2015",
+        "journal-title": "IEEE Transactions on Evolutionary Computation"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.22.550164",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T04:58:35Z",
+      "timestamp": 1768453115000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.22.550164"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          24
+        ]
+      ]
+    },
+    "references-count": 64,
+    "URL": "https://doi.org/10.1101/2023.07.22.550164",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1186/s12859-024-05735-4",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          24
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

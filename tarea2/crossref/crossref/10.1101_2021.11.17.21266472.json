@@ -1,0 +1,394 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2026-03-30T02:51:56Z",
+      "timestamp": 1774839116918,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          21
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We propose a method by integrating image visibility graph and deep neural network (DL) for classifying COVID-19 patients from their chest X-ray images. The computed assortative coefficient from each image horizonal visibility graph (IHVG) is utilized as a physical parameter feature extractor to improve the accuracy of our image classifier based on Resnet34 convolutional neural network (CNN). We choose the most optimized recently used CNN deep learning model, Resnet34 for training the pre-processed chest X-ray images of COVID-19 and healthy individuals. Independently, the preprocessed X-ray images are passed through a 2D Haar wavelet filter that decomposes the image up to 3 labels and returns the approximation coefficients of the image which is used to obtain the horizontal visibility graph for each X-ray image of both healthy and COVID-19 cases. The corresponding assortative coefficients are computed for each IHVG and was subsequently used in random forest classifier whose output is integrated with Resnet34 output in a multi-layer perceptron to obtain the final improved prediction accuracy. We employed a multilayer perceptron to integrate the feature predictor from image visibility graph with Resnet34 to obtain the final image classification result for our proposed method. Our analysis employed much larger chest X-ray image dataset compared to previous used work. It is demonstrated that compared to Resnet34 alone our integrative method shows negligible false negative conditions along with improved accuracy in the classification of COVID-19 patients. Use of visibility graph in this model enhances its ability to extract various qualitative and quantitative complex network features for each image. Enables the possibility of building disease network model from COVID-19 images which is mostly unexplored. Our proposed method is found to be very effective and accurate in disease classification from images and is computationally faster as compared to the use of multimode CNN deep learning models, reported in recent research works.</jats:p>\n                <jats:sec>\n                  <jats:title>Significance</jats:title>\n                  <jats:p>An integrative method is proposed combining convolutional neural networks and 2D visibility graphs through a multilayer perceptron, for effective classification of COVID-19 patients from the chest x-ray images. In our study, the computed assortative coefficient from the horizontal visibility graph of each wavelet filtered X-ray image is used as a physical feature extractor. We demonstrate that compared to Resnet34 alone, our proposed integrative approach shows significant reduction in false negative conditions and higher accuracy in the classification of COVID-19 patients. The method is computationally faster and with the use of visibility graph, it also enables one to extract complex network based qualitative and quantitative parameters for each subject for additional understandings like disease network model building and its structures etc.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.11.17.21266472",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2021-11-21T14:45:15Z",
+      "timestamp": 1637505915000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "An integrative method for COVID-19 patients\u2019 classification from chest X-ray using deep learning network with image visibility graph as feature extractor"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Mayukha",
+        "family": "Pal",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yash",
+        "family": "Tiwari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "T. Vineeth",
+        "family": "Reddy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P. Sai",
+        "family": "Ram Aditya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Prasanta K.",
+        "family": "Panigrahi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12098-020-03263-6"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-78652-0"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13140/RG.2.2.16342.78401"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13140/RG.2.2.14379.16168"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200527"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200823"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200343"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diagmicrobio.2021.115366"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Singh , V. Kumar , Vaishali, M. Kaur , Classification of covid-19 patients from chest ct images using multi-objective differential evolution\u2013based convolutional neural networks, European Journal of Clinical Microbiology & Infectious Diseases, 1\u201311 (2020).",
+        "DOI": "10.1007/s10096-020-03901-z"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.12",
+        "article-title": "Chexnet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.13",
+        "article-title": "COVIDX-Net: A Framework of Deep Learning Classifiers to Diagnose COVID-19 in X-Ray Images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.14",
+        "article-title": "COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest Radiography Images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.15",
+        "journal-title": "COVID-19: Automatic Detection from X-Ray Images Utilizing Transfer Learning with Convolutional Neural Networks"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.16",
+        "article-title": "Automatic Detection of Coronavirus Disease (COVID-19) Using X-Ray Images and Deep Convolutional Neural Networks",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Song , S. Zheng , L. Li , X. Zhang , X. Zhang , Z. Huang , Y. Chong , Deep learning enables accurate diagnosis of novel coronavirus (COVID-19) with CT images, medRxiv (2020).",
+        "DOI": "10.1109/TCBB.2021.3065361"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Wang , B. Kang , J. Ma , X. Zeng , M. Xiao , J. Guo , B. Xu , A deep learning algorithm using CT images to screen for Corona Virus Disease (COVID-19), medRxiv (2020).",
+        "DOI": "10.1101/2020.02.14.20023028"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.12.20027185"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.20",
+        "article-title": "Deep Learning System to Screen Coronavirus Disease 2019 Pneumonia",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.21",
+        "article-title": "Coronavirus (COVID-19) Classification Using CT Images by Machine Learning Methods",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07391102.2020.1767212"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103792"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCBB.2020.3009859"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "100034",
+        "DOI": "10.1016/j.ibmed.2021.100034",
+        "article-title": "Optimal hyperparameter selection of deep learning models for COVID-19 chest X-ray classification",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "Intelligence-Based Medicine"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-88807-2"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104454"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2021.107238"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chaos.2020.110122"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2021.107848"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2021.107160"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13140/RG.2.2.33801.57441"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bspc.2020.102365"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0931-3"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.35",
+        "unstructured": "J. P. Cohen , COVID-19 Image Data Collection, 2020. https://github.com/ieee8023/COVID-chestxray-dataset."
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Wang , Y. Peng , L. Lu , Z. Lu , M. Bagheri , R.M. Summers , Chestx-ray8: hospital scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2097\u20132106 (2017).",
+        "DOI": "10.1109/CVPR.2017.369"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.37"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2891742"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "012318",
+        "DOI": "10.1103/PhysRevE.96.012318",
+        "article-title": "Visibility graphs of random scalar fields and spatial data",
+        "volume": "96",
+        "year": "2017",
+        "journal-title": "Phys. Rev. E"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0709247105"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3050747"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.20944/preprints202003.0300.v1"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. To\u011fa\u00e7ar , B. Ergen , Z. C\u00f6mert , COVID-19 detection using deep learning models to exploit social mimic optimization and structured chest X-ray images using fuzzy color and stacking approaches, Comput. Biol. Med. 103805 (2020).",
+        "DOI": "10.1016/j.compbiomed.2020.103805"
+      },
+      {
+        "key": "2021112322350852000_2021.11.17.21266472v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mehy.2020.109761"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.17.21266472",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:30:02Z",
+      "timestamp": 1768487402000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.11.17.21266472"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          21
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2021.11.17.21266472",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

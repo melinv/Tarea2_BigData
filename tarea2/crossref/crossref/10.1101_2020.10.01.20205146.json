@@ -1,0 +1,360 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:14:40Z",
+      "timestamp": 1768547680038,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          2
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Early diagnosis of COVID-19 is considered the first key action to prevent spread of the virus. Currently, reverse transcription-polymerase chain reaction (RT-PCR) is considered as a gold standard point-of-care diagnostic tool. However, several limitations of RT-PCR have been identified, e.g., low sensitivity, cost, long delay in getting results and the need of a professional technician to collect samples. On the other hand, chest X-ray (CXR) is routinely used as a cost-effective diagnostic test for diagnosis and monitoring different respiratory abnormalities and is currently being used as a discriminating tool for COVID-19. However, visual assessment of CXR is not able to distinguish COVID-19 from other lung conditions. Several machine learning algorithms have been proposed to detect COVID-19 directly from CXR images with reasonably good accuracy on a data set that was randomly split into two subsets for training and test. Since these methods require a huge number of images for training, data augmentation with geometric transformation was applied to increase the number of images. It is highly likely that the images of the same patients are present in both the training and test sets resulting in higher accuracies in detection of COVID-19. It is, therefore, vital to assess the performance of COVID-19 detection algorithm on an independent data set with different degrees of the disease before being employed for clinical settings. On the other hand, machine learning techniques that depend on handcrafted features extraction and selection approaches can be trained with smaller data set. The features can also be analyzed separately for various lung conditions. Radiomics features are such kind of handcrafted features that represent heterogeneous appearance of the lung on CXR quantitatively and can be used to distinguish COVID-19 from other lung conditions. Based on this hypothesis, a machine learning based technique is proposed here that is trained on a set of suitable radiomics features (71 features) to detect COVID-19. It is found that Support Vector Machine (SVM) and Ensemble Bagging Model Trees (EBM) trained on these 71 radiomics features can distinguish between COVID-19 and other diseases with an overall sensitivity of 99.6% and 87.8% and specificity of 85% and 97% respectively. Though the performance is comparable for both methods, EBM is more robust across severity levels. Severity, in this case, was scored between 0 to 4 by two experienced radiologists for each lung segment of each CXR image represents the degree of severity of the disease. For the case of 0 severity, sensitivity and specificity of the EBM method are 91.7% and 100% respectively indicating that there are certain radiomics pattern that are not visibly distinguishable. Since the proposed method does not require any manual intervention (e.g., sample collection etc.), it can be integrated with any standard X-ray reporting system to be used as an efficient, cost-effective and rapid early diagnosis device. It can also be deployed in places where quick results of the COVID-19 test are required, e.g., airports, seaports, hospitals, health clinics, etc.</jats:p>",
+    "DOI": "10.1101/2020.10.01.20205146",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2020-10-02T19:50:13Z",
+      "timestamp": 1601668213000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "An Integrated Framework with Machine Learning and Radiomics for Accurate and Rapid Early Diagnosis of COVID-19 from Chest X-ray"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Mahbubunnabi",
+        "family": "Tamal",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Maha",
+        "family": "Alshammari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Meernah",
+        "family": "Alabdullah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rana",
+        "family": "Hourani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hossain Abu",
+        "family": "Alola",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tarek M.",
+        "family": "Hegazi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "10223",
+        "key": "2020101909450565000_2020.10.01.20205146v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "514",
+        "DOI": "10.1016/S0140-6736(20)30154-9",
+        "article-title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001017"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.3",
+        "unstructured": "Orgnization, W.H. Media Statement: Knowing the risks for COVID-19. 26-7-2020]; Available from: https://www.who.int/indonesia/news/detail/08-03-2020-knowing-the-risk-for-covid-19."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, W. , et al., Detection of SARS-CoV-2 in Different Types of Clinical Specimens. JAMA, 2020.",
+        "DOI": "10.1001/jama.2020.3786"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bwire, G.M. , et al., Detection profile of SARS-CoV-2 using RT-PCR in different types of clinical specimens: A systematic review and meta-analysis. J Med Virol, 2020.",
+        "DOI": "10.1002/jmv.26349"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1808"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sethuraman, N. , S.S. Jeremiah , and A. Ryo , Interpreting Diagnostic Tests for SARS-CoV-2. JAMA, 2020.",
+        "DOI": "10.1001/jama.2020.8259"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2196-x"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.9",
+        "unstructured": "Xiaolong, C. , Landscape Coronavirus Disease 2019 test (COVID-19 test) in vitro -- A comparison of PCR vs Immunoassay vs Crispr-Based test. 2020."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ahmed, S. , et al., ReCoNet: Multi-level Preprocessing of Chest X-rays for COVID-19 Detection Using Convolutional Neural Networks. Preprint from medRxiv, 2020: p. 2020.07.11.20149112.",
+        "DOI": "10.1101/2020.07.11.20149112"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "109017",
+        "DOI": "10.1016/j.ejrad.2020.109017",
+        "article-title": "Early CT features and temporal lung changes in COVID-19 pneumonia in Wuhan, China",
+        "volume": "128",
+        "year": "2020",
+        "journal-title": "European Journal of Radiology"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.14",
+        "unstructured": "ScienceDaily. CT provides best diagnosis for COVID-19. 26-7-2020]; Available from: https://www.sciencedaily.com/releases/2020/02/200226151951.htm."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "issue": "2",
+        "key": "2020101909450565000_2020.10.01.20205146v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "E55",
+        "DOI": "10.1148/radiol.2020200843",
+        "article-title": "Temporal Changes of CT Findings in 90 Patients with COVID-19 Pneumonia: A Longitudinal Study",
+        "volume": "296",
+        "year": "2020",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.17",
+        "unstructured": "COVID-19 Diagnostic Imaging Recommendations. 26-7-2020]; Available from: https://www.appliedradiology.com/articles/covid-19-diagnostic-imaging-recommendations."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.18",
+        "unstructured": "S. Bd, K.O.-P., and E. Brakohiapa , Diagnosing COVID-19 from Chest X-ray in Resource-Limited Environment-Case Report, Medical case report. 2020. p. 3."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Asif, S. , et al., Classification of COVID-19 from Chest X-ray images using Deep Convolutional Neural Networks. Preprint from medRxiv, 2020.",
+        "DOI": "10.1101/2020.05.01.20088211"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Basu, S. , S. Mitra , and N. Saha , Deep Learning for Screening COVID-19 using Chest X-Ray Images. Preprint from medRxiv, 2020.",
+        "DOI": "10.1101/2020.05.04.20090423"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chowdhury, M.E.H. , et al., Can AI help in screening Viral and COVID-19 pneumonia? Preprint form arvix, 2020.",
+        "DOI": "10.1109/ACCESS.2020.3010287"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "103792",
+        "DOI": "10.1016/j.compbiomed.2020.103792",
+        "article-title": "Automated detection of COVID-19 cases using deep neural networks with X-ray images",
+        "volume": "121",
+        "year": "2020",
+        "journal-title": "Computers in Biology and Medicine"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/0008-5472.CAN-17-0339"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.24",
+        "first-page": "4006",
+        "article-title": "Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach",
+        "volume": "2014",
+        "year": "2014",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, C. , et al., Radiomics-Based Machine Learning in Differentiation Between Glioblastoma and Metastatic Brain Tumors. Frontiers in Oncology, 2019. 9(806).",
+        "DOI": "10.3389/fonc.2019.00806"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cavallo, A.U. , et al., Texture Analysis in the Evaluation of Covid-19 Pneumonia in Chest X-Ray Images: a Proof of Concept Study. Preprint from Research Square, 25 Jun 2020, 2020.",
+        "DOI": "10.21203/rs.3.rs-37657/v1"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2214/ajr.174.1.1740071"
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.28",
+        "unstructured": "Kaggle. chest-xray-pneumonia. 2020 11/8/2020]; Available from: https://https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.29",
+        "unstructured": "Github. covid-chestxray-dataset. 2020 25/3/2020]; Available from: https://github.com/ieee8023/covid-chestxray-dataset/tree/master/images."
+      },
+      {
+        "key": "2020101909450565000_2020.10.01.20205146v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haibo, H. , et al. ADASYN: Adaptive synthetic sampling approach for imbalanced learning. in 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence). 2008.",
+        "DOI": "10.1109/IJCNN.2008.4633969"
+      },
+      {
+        "issue": "6",
+        "key": "2020101909450565000_2020.10.01.20205146v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "463",
+        "DOI": "10.1016/S0895-6111(98)00051-2",
+        "article-title": "Knowledge-based method for segmentation and analysis of lung boundaries in chest X-ray images",
+        "volume": "22",
+        "year": "1998",
+        "journal-title": "Computerized Medical Imaging and Graphics"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.01.20205146",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:55:42Z",
+      "timestamp": 1768485342000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.01.20205146"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          2
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2020.10.01.20205146",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.eswa.2021.115152",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

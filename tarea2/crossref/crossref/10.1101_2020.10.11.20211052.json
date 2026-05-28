@@ -1,0 +1,253 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:55:09Z",
+      "timestamp": 1768550109270,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 18,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We present COVID-CT-Mask-Net model that predicts COVID-19 from CT scans. The model works in two stages: first, it detects the instances of ground glass opacity and consolidation in CT scans, then predicts the condition from the ranked bounding box detections. To develop the solution for the three-class problem (COVID, common pneumonia and control), we used the COVIDx-CT dataset derived from the dataset of CT scans collected by China National Center for Bioinformation. We use about 5% of the training split of COVIDx-CT to train the model, and without any complicated data normalization, balancing and regularization, and training only a small fraction of the model\u2019s parameters, we achieve a\n                  <jats:bold>90</jats:bold>\n                  .\n                  <jats:bold>80</jats:bold>\n                  % COVID sensitivity,\n                  <jats:bold>91</jats:bold>\n                  .\n                  <jats:bold>62</jats:bold>\n                  % common pneumonia sensitivity and\n                  <jats:bold>92</jats:bold>\n                  .\n                  <jats:bold>10</jats:bold>\n                  % normal sensitivity, and an overall accuracy of\n                  <jats:bold>91</jats:bold>\n                  .\n                  <jats:bold>66%</jats:bold>\n                  on the test data (21182 images), bringing the ratio of test/train data to\n                  <jats:bold>7</jats:bold>\n                  .\n                  <jats:bold>06</jats:bold>\n                  , which implies a very high capacity of the model to generalize to new data. We also establish an important result, that ranked regional predictions (bounding boxes with scores) in Mask R-CNN can be used to make accurate predictions of the image class. The full source code, models and pretrained weights are available on\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/AlexTS1980/COVID-CT-Mask-Net\">https://github.com/AlexTS1980/COVID-CT-Mask-Net</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2020.10.11.20211052",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2020-10-14T12:25:53Z",
+      "timestamp": 1602678353000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "COVID-CT-Mask-Net: Prediction of COVID-19 from CT Scans Using Regional Features"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Aram",
+        "family": "Ter-Sarkisov",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.1",
+        "article-title": "Comparative performance analysis of the resnet backbones of mask rcnn to segment the signs of covid-19 in chest ct scans",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.2",
+        "unstructured": "Charmaine Butt , Jagpal Gill , David Chun , and Benson A Babu . Deep learning system to screen coronavirus disease 2019 pneumonia. Applied Intelligence, pages 1\u20137, 2020."
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.3",
+        "article-title": "Covidnet-ct: A tailored deep convolutional neural network design for detection of covid-19 cases from chest ct images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.4",
+        "unstructured": "Kaiming He , Georgia Gkioxari , Piotr Doll\u00e1r, and Ross Girshick. Mask r-cnn . In Proceedings of the IEEE international conference on computer vision, pages 2961\u20132969, 2017."
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.5",
+        "unstructured": "Lin Li , Lixin Qin , Zeguo Xu , Youbing Yin , Xin Wang , Bin Kong , Junjie Bai , Yi Lu , Zhenghan Fang , Qi Song , et al. Artificial intelligence distinguishes covid-19 from community acquired pneumonia on chest ct. Radiology, 2020."
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jonathan Long , Evan Shelhamer , and Trevor Darrell . Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431\u20133440, 2015.",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.7",
+        "article-title": "Experiments of federated learning for covid-19 chest x-ray images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Olaf Ronneberger , Philipp Fischer , and Thomas Brox . U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234\u2013241. Springer, 2015.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.9",
+        "unstructured": "Shaoqing Ren , Kaiming He , Ross Girshick , and Jian Sun . Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91\u201399, 2015."
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng Shi , Jun Wang , Jun Shi , Ziyan Wu , Qian Wang , Zhenyu Tang , Kelei He , Yinghuan Shi , and Dinggang Shen . Review of artificial intelligence techniques in imaging data acquisition, segmentation and diagnosis for covid-19. IEEE reviews in biomedical engineering, 2020.",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.11",
+        "unstructured": "Ying Song , Shuangjia Zheng , Liang Li , Xiang Zhang , Xiaodong Zhang , Ziwang Huang , Jianwen Chen , Huiying Zhao , Yusheng Jie , Ruixuan Wang , Yutian Chong , Jun Shen , Yunfei Zha , and Yuedong Yang . Deep learning enables accurate diagnosis of novel coronavirus (covid-19) with ct images. medRxiv."
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.12",
+        "article-title": "Jcs: An explainable covid-19 diagnosis system by joint classification and segmentation",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.13",
+        "article-title": "Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "110153",
+        "DOI": "10.1016/j.chaos.2020.110153",
+        "article-title": "Automatic distinction between covid-19 and common pneumonia using multi-scale convolutional neural network on chest ct scans",
+        "volume": "140",
+        "year": "2020",
+        "journal-title": "Chaos, Solitons & Fractals"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kang Zhang , Xiaohong Liu , Jun Shen , Zhihuan Li , Ye Sang , Xingwang Wu , Yunfei Zha , Wenhua Liang , Chengdi Wang , Ke Wang , et al. Clinically applicable ai system for accurate diagnosis, quantitative measurements, and prognosis of covid-19 pneumonia using computed tomography. Cell, 2020.",
+        "DOI": "10.1016/j.cell.2020.08.029"
+      },
+      {
+        "key": "2020111117112446000_2020.10.11.20211052v3.16",
+        "article-title": "Covid-ct-dataset: a ct scan dataset about covid-19",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "10",
+        "key": "2020111117112446000_2020.10.11.20211052v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "4606",
+        "DOI": "10.7150/thno.45016",
+        "article-title": "Ct scans of patients with 2019 novel coronavirus (covid-19) pneumonia",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Theranostics"
+      },
+      {
+        "issue": "5",
+        "key": "2020111117112446000_2020.10.11.20211052v3.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1072",
+        "DOI": "10.2214/AJR.20.22976",
+        "article-title": "Relation between chest ct findings and clinical conditions of coronavirus disease (covid-19) pneumonia: a multicenter study",
+        "volume": "214",
+        "year": "2020",
+        "journal-title": "American Journal of Roentgenology"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.11.20211052",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:26Z",
+      "timestamp": 1768485386000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.11.20211052"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "references-count": 18,
+    "URL": "https://doi.org/10.1101/2020.10.11.20211052",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.31763/sitech.v1i2.202",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

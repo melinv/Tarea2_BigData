@@ -1,0 +1,437 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T06:47:33Z",
+      "timestamp": 1768546053893,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 46,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Importance</jats:title>\n                  <jats:p>India has taken strong and early public health measures for arresting the spread of the COVID-19 epidemic. With only 536 COVID-19 cases and 11 fatalities, India \u2013 a democracy of 1.34 billion people \u2013 took the historic decision of a 21-day national lockdown on March 25. The lockdown was further extended to May 3rd, soon after the analysis of this paper was completed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To study the short- and long-term impact of an initial 21-day lockdown on the total number of COVID-19 cases in India compared to other less severe non-pharmaceutical interventions using epidemiological forecasting models and Bayesian estimation algorithms; to compare effects of hypothetical durations of lockdown from an epidemiological perspective; to study alternative explanations for slower growth rate of the virus outbreak in India, including exploring the association of the number of cases and average monthly temperature; and finally, to outline the pivotal role of reliable and transparent data, reproducible data science methods, tools and products as we reopen the country and prepare for a post lock-down phase of the pandemic.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Design, Setting, and Participants</jats:title>\n                  <jats:p>We use the daily data on the number of COVID-19 cases, of recovered and of deaths from March 1 until April 7, 2020 from the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Additionally, we use COVID-19 incidence counts data from Kaggle and the monthly average temperature of major cities across the world from Wikipedia.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main Outcome and Measures</jats:title>\n                  <jats:p>The current time-series data on daily proportions of cases and removed (recovered and death combined) from India are analyzed using an extended version of the standard SIR (susceptible, infected, and removed) model. The eSIR model incorporates time-varying transmission rates that help us predict the effect of lockdown compared to other hypothetical interventions on the number of cases at future time points. A Markov Chain Monte Carlo implementation of this model provided predicted proportions of the cases at future time points along with credible intervals (CI).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    Our predicted cumulative number of COVID-19 cases in India on April 30 assuming a 1-week delay in people\u2019s adherence to a 21-day lockdown (March 25 \u2013 April 14) and a gradual, moderate resumption of daily activities after April 14 is 9,181 with upper 95% CI of 72,245. In comparison, the predicted cumulative number of cases under \u201cno intervention\u201d and \u201csocial distancing and travel bans without lockdown\u201d are 358 thousand and 46 thousand (upper 95% CI of nearly 2.3 million and 0.3 million) respectively. An effective lockdown can prevent roughly 343 thousand (upper 95% CI 1.8 million) and 2.4 million (upper 95% CI 38.4 million) COVID-19 cases nationwide compared to social distancing alone by May 15 and June 15, respectively. When comparing a 21-day lockdown with a hypothetical lockdown of longer duration, we find that 28-, 42-, and 56-day lockdowns can approximately prevent 238 thousand (upper 95% CI 2.3 million), 622 thousand (upper 95% CI 4.3 million), 781 thousand (upper 95% CI 4.6 million) cases by June 15, respectively. We find some suggestive evidence that the COVID-19 incidence rates worldwide are negatively associated with temperature in a crude unadjusted analysis with Pearson correlation estimates [95% confidence interval] between average monthly temperature and total monthly incidence around the world being \u22120.185 [\u22120.548, 0.236] for January, \u22120.110 [\u22120.362, 0.157] for February, and \u2212\n                    <jats:bold>0.173 [\u22120.314, \u22120.026</jats:bold>\n                    ] for March.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions and Relevance</jats:title>\n                  <jats:p>The lockdown, if implemented correctly in the end, has a high chance of reducing the total number of COVID-19 cases in the short term, and buy India invaluable time to prepare its healthcare and disease monitoring system. Our analysis shows we need to have some measures of suppression in place after the lockdown for the best outcome. We cannot heavily rely on the hypothetical prevention governed by meteorological factors such as temperature based on current evidence. From an epidemiological perspective, a longer lockdown between 42-56 days is preferable. However, the lockdown comes at a tremendous price to social and economic health through a contagion process not dissimilar to that of the coronavirus itself. Data can play a defining role as we design post-lockdown testing, reopening and resource allocation strategies.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Software</jats:title>\n                  <jats:p>\n                    Our contribution to data science includes an interactive and dynamic app (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://covind19.org\">covind19.org</jats:ext-link>\n                    ) with short- and long-term projections updated daily that can help inform policy and practice related to COVID-19 in India. Anyone can visualize the observed data for India and create predictions under hypothetical scenarios with quantification of uncertainties. We make our prediction codes freely available (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/umich-cphds/cov-ind-19\">https://github.com/umich-cphds/cov-ind-19</jats:ext-link>\n                    ) for reproducible science and for other COVID-19 affected countries to use them for their prediction and data visualization work.\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.15.20067256",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2020-04-19T02:35:12Z",
+      "timestamp": 1587263712000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "Predictions, role of interventions and effects of a historic national lockdown in India\u2019s response to the COVID-19 pandemic: data science call to arms"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0979-2935",
+        "authenticated-orcid": false,
+        "given": "Debashree",
+        "family": "Ray",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Maxwell",
+        "family": "Salvatore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rupam",
+        "family": "Bhattacharyya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lili",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shariq",
+        "family": "Mohammed",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Soumik",
+        "family": "Purkayastha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aritra",
+        "family": "Halder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Rix",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Barker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Kleinsasser",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yiwang",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Debraj",
+        "family": "Bose",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mousumi",
+        "family": "Banerjee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Veerabhadran",
+        "family": "Baladandayuthapani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Parikshit",
+        "family": "Ghosh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bhramar",
+        "family": "Mukherjee",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.1",
+        "unstructured": "WHO Director-General\u2019s opening remarks at the media briefing on COVID-19 - 11 March 2020. World Health Organization. https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-1911-march-2020. Published March 11, 2020. Accessed March 19, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.2",
+        "unstructured": "Microsoft bing COVID-19 Tracker. Microsoft Corporation. https://www.bing.com/covid. Accessed March 19, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.3",
+        "unstructured": "World Bank. Data for India, United States, China. https://data.worldbank.org/?locations=IN-US-CN."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.4",
+        "unstructured": "Indian Council of Medical Research. SARS-CoV-2 (COVID-19) Testing: Status Update 09 Aprilr 2020 9:00 PM IST.; 2020. https://github.com/datameet/covid19/blob/master/icmr-backup/ICMR_testing_update_09April_9PM_IST.pdf."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.5",
+        "unstructured": "Ray D , Bhattacharyya R , Wang L , et al. Predictions and role of interventions for COVID- 19 outbreak in India. Medium. https://medium.com/@covind_19/predictions-and-role-of-interventions-for-covid-19-outbreak-in-india-52903e2544e6. Published March 21, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.6",
+        "unstructured": "Salvatore M , Wang L , Bhattacharyya R , et al. Historic 21-day lockdown, predictions for lockdown effects and the role of data in this crisis of virus in India. Medium. https://medium.com/@covind_19/historic-lockdown-prediction-models-to-study-lockdown-effects-and-the-role-of-data-in-the-crisis-a0afeeec5a6. Published April 3, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.7",
+        "unstructured": "Ghosal D. India faces spike in coronavirus cases, says study, in test for health system. Reuters. https://www.reuters.com/article/health-coronavirus-india-estimates/india-faces-spike-in-coronavirus-cases-says-study-in-test-for-health-system-idINKBN21A32Q. Published March 23, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.8",
+        "unstructured": "Das P. \u201cEpidemiologic models show we need aggressive measures in the early phase lockdown buys us time.\u201d The Times of India. https://timesofindia.indiatimes.com/blogs/melange/epidemiologic-models-show-we-need-aggressive-measures-in-the-early-phase-lockdown-buys-us-time/. Published April 1, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.9",
+        "unstructured": "Ellis-Petersen H. Overcome by anxiety: Indians in lockdown many can ill afford. The Guardian. https://www.theguardian.com/world/2020/mar/25/overcome-by-anxiety-india-in-lockdown-many-can-ill-afford. Published March 25, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.10",
+        "unstructured": "Noronha G. India could see a reduction in the number of coronavirus cases by next week: Study. The Economic Times. https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/india-could-see-a-reduction-in-the-number-of-coronavirus-cases-by-next-week-study/articleshow/75086386.cms?from=mdr. Published April 10, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.02.29.20029421"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.12",
+        "unstructured": "Johns Hopkins University Center for Systems Science and Engineering. JHU CSSE COVID-19 Github."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.14",
+        "unstructured": "List of cities by average temperatures. Wikipedia. https://en.wikipedia.org/wiki/List_of_cities_by_average_temperature. Accessed March 19, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.15",
+        "unstructured": "The World Bank. India (2017). https://data.worldbank.org/country/india?view=chart."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.03.03.20030593"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.01.20049478"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.4683"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.3551767"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30817-5"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41421-020-0147-1"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.22",
+        "unstructured": "Weather Atlas. https://www.weather-atlas.com."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.23",
+        "unstructured": "covid19india. India COVID-19 Tracker. https://www.covid19india.org. Published 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.24",
+        "unstructured": "Q&A on coronaviruses (COVID-19). World Health Organization. https://www.who.int/news-room/q-a-detail/q-a-coronaviruses. Published 2020. Accessed March 19, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.25",
+        "unstructured": "Coronavirus Disease 2019 (COVID-19): Are You at Higher Risk for Severe Illness? Centers for Disease Control and Prevention. https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html. Published 2020. Accessed March 19, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.26",
+        "unstructured": "Hospital beds (per 1,000 people). The World Bank. https://data.worldbank.org/indicator/SH.MED.BEDS.ZS. Published 2020. Accessed March 19, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.9790/0853-1804024955"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.28",
+        "unstructured": "Times of India. Coronavirus: Does India have enough ventilators, hospital beds? The Times of India. https://timesofindia.indiatimes.com/india/coronavirus-does-india-have-enough-ventilators-hospital-beds/articleshow/74822427.cms. Published March."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.29",
+        "unstructured": "Rabin RC . Can an old vaccine stop the new coronavirus? The New York Times. April 3, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.30",
+        "unstructured": "Centers for Disease Control and Prevention. CDC 2019-Novel Coronavirus (2019-NCoV) Real-Time RT-PCR Diagnostic Panel.; 2020. https://www.fda.gov/media/134922/download."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vogel G. New blood tests for antibodies could show true scale of coronavirus pandemic. Science Magazine. https://www.sciencemag.org/news/2020/03/new-blood-tests-antibodies-could-show-true-scale-coronavirus-pandemic#. Published March 19, 2020.",
+        "DOI": "10.1126/science.abb8028"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.32",
+        "unstructured": "Lin X. Analysis of 25,000 lab-confirmed COVID-19 cases in Wuhan: Epidemiological characteristics and non-pharmaceutical intervention effects. 2020. https://cdn1.sph.harvard.edu/wp-content/uploads/sites/21/2020/03/COVID-19-03-16-2020-Lin.pdf."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.33",
+        "unstructured": "India turns trains into isolation wards as COVID-19 cases rise. Al Jazeera. https://www.aljazeera.com/news/2020/04/india-turns-trains-isolation-wards-covid-19-.cases-rise-200402071515155.html. Published April 2, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41422-020-0282-0"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijantimicag.2020.105949"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.36",
+        "unstructured": "Hydroxychloroquine-COVID-19 study did not meet publishing society\u2019s \u201cexpected standard.\u201d Retraction Watch."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4103/ijmr.IJMR_504_20"
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.38",
+        "unstructured": "Singh R , Adhikari R. Age-structured impact of social distanncing on the COVID-19 epidemic in India. arXiv. 2020. https://arxiv.org/abs/2003.12055."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.39",
+        "unstructured": "Klein E , Lin G , Tseng K , Schueller E , Kappor G , Laxminarayan R. COVID-19 for India Updates.; 2020. https://cddep.org/wp-content/uploads/2020/03/covid19.indiasim.March23-2-4.pdf."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.40",
+        "unstructured": "Richardson S. Coronavirus statistics: what can we trust and what should we ignore? The Guardian. https://www.theguardian.com/world/2020/apr/12/coronavirus-statistics-what-can-we-trust-and-what-should-we-ignore. Published April 12, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.41",
+        "unstructured": "Kinsa. US Health Weather Map. https://healthweather.us/?mode=Atypical. Published 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.42",
+        "unstructured": "Google. COVID-19 Community Mobility Reports. https://www.google.com/covid19/mobility/."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.43",
+        "unstructured": "Das S. Prediction of COVID-19 Disease Progression in India?: Under the Effect of National Lockdown. arXiv. April 2020. http://arxiv.org/abs/2004.03147."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.44",
+        "unstructured": "Food and Drug Administration. Coronavirus (COVID-19) Update: FDA Alerts Customers About Unauthorized Fradulent COVID-19 Tests.https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-alerts-consumers-about-unauthorized-fraudulent-covid-19-test-kits. Published March 20, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.45",
+        "unstructured": "World Health Organization. WHO Director-General\u2019s opening remarks at the media briefing on COVID-19 - 27 March 2020.https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-1927-march-2020. Published March 27, 2020."
+      },
+      {
+        "key": "2020120312301576000_2020.04.15.20067256v1.46",
+        "unstructured": "Craven J. COVID-19 Vaccine Tracker. Regulatory Affairs Professionnals Society. https://www.raps.org/news-and-articles/news-articles/2020/3/covid-19-vaccine-tracker. Published April 10, 2020."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.15.20067256",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:37:36Z",
+      "timestamp": 1768484256000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.04.15.20067256"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          18
+        ]
+      ]
+    },
+    "references-count": 46,
+    "URL": "https://doi.org/10.1101/2020.04.15.20067256",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1162/99608f92.60e08ed5",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

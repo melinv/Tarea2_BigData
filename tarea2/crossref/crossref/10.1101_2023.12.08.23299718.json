@@ -1,0 +1,361 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:28:29Z",
+      "timestamp": 1768566509259,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          9
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>In 2021, we used the National COVID Cohort Collaborative (N3C) as part of the NIH RECOVER Initiative to develop a machine learning (ML) pipeline to identify patients with a high probability of having post-acute sequelae of SARS-CoV-2 infection (PASC), or Long COVID. However, the increased home testing, missing documentation, and reinfections that characterize the latter years of the pandemic necessitate reengineering our original model to account for these changes in the COVID-19 research landscape.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Our updated XGBoost model gathers data for each patient in overlapping 100-day periods that progress through time, and issues a probability of Long COVID for each 100-day period. If a patient has known acute COVID-19 during any 100-day window (including reinfections), we censor the data from 7 days prior to the diagnosis/positive test date through 28 days after. These fixed time windows replace the prior model\u2019s reliance on a documented COVID-19 index date to anchor its data collection, and are able to account for reinfections.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The updated model achieves an area under the receiver operating characteristic curve of 0.90. Precision and recall can be adjusted according to a given use case, depending on whether greater sensitivity or specificity is warranted.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>By eschewing the COVID-19 index date as an anchor point for analysis, we are now able to assess the probability of Long COVID among patients who may have tested at home, or with suspected (but untested) cases of COVID-19, or multiple SARS-CoV-2 reinfections. We view this exercise as a model for maintaining and updating any ML pipeline used for clinical research and operations.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.12.08.23299718",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2023-12-09T21:20:10Z",
+      "timestamp": 1702156810000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Reengineering a machine learning phenotype to adapt to the changing COVID-19 landscape: A study from the N3C and RECOVER consortia"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Miles",
+        "family": "Crosskey",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Tomas",
+        "family": "McIntee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sandy",
+        "family": "Preiss",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Brannock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yun Jae",
+        "family": "Yoo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emily",
+        "family": "Hadley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Frank",
+        "family": "Blancero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rob",
+        "family": "Chew",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Johanna",
+        "family": "Loomba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abhishek",
+        "family": "Bhatia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher G.",
+        "family": "Chute",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9114-8737",
+        "authenticated-orcid": false,
+        "given": "Melissa",
+        "family": "Haendel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Moffitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emily",
+        "family": "Pfaff",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02051-3"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-35677-5"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reese, J. T. et al. Generalisable long COVID subtypes: findings from the NIH N3C and RECOVER programmes. eBioMedicine 87, (2023).",
+        "DOI": "10.1016/j.ebiom.2022.104413"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pfaff, E. R. et al. Coding long COVID: characterizing a new disease through an ICD-10 lens. BMC Med. 21, (2023).",
+        "DOI": "10.1186/s12916-023-02737-6"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowe, B. , Xie, Y. & Al-Aly, Z. Postacute sequelae of COVID-19 at 2 years. Nat. Med. 1\u201311 (2023).",
+        "DOI": "10.1038/s41591-023-02521-2"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1040",
+        "DOI": "10.1038/s41591-023-02274-y",
+        "article-title": "Potential pitfalls in the use of real-world data for studying long COVID",
+        "volume": "29",
+        "year": "2023",
+        "journal-title": "Nat. Med"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Silk, B. J. COVID-19 Surveillance After Expiration of the Public Health Emergency Declaration \u2015 United States, May 11, 2023. MMWR Morb. Mortal. Wkly. Rep. 72, (2023).",
+        "DOI": "10.15585/mmwr.mm7219e1"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jones, J. M. Estimates of SARS-CoV-2 Seroprevalence and Incidence of Primary SARS-CoV-2 Infections Among Blood Donors, by COVID-19 Vaccination Status \u2014 United States, April 2021\u2013September 2022. MMWR Morb. Mortal. Wkly. Rep. 72, (2023).",
+        "DOI": "10.15585/mmwr.mm7222a3"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.9",
+        "unstructured": "Haendel, M. A. et al. The National COVID Cohort Collaborative (N3C): Rationale, design, infrastructure, and deployment. J. Am. Med. Inform. Assoc. 28, (2021)."
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.10",
+        "unstructured": "RECOVER: Researching COVID to Enhance Recovery. RECOVER: Researching COVID to Enhance Recovery https://recovercovid.org/."
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e532",
+        "DOI": "10.1016/S2589-7500(22)00048-6",
+        "article-title": "Identifying who has long COVID in the USA: a machine learning approach using N3C data",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "The Lancet Digital Health"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1305",
+        "DOI": "10.1093/jamia/ocad077",
+        "article-title": "De-black-boxing health AI: demonstrating reproducible machine learning computable phenotypes using the N3C-RECOVER Long COVID model in the All of Us data repository",
+        "volume": "30",
+        "year": "2023",
+        "journal-title": "J. Am. Med. Inform. Assoc"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.01.03.22284042"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acra.2013.02.004"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1187163",
+        "DOI": "10.3389/fmed.2023.1187163",
+        "article-title": "ME/CFS and Long COVID share similar symptoms and biological abnormalities: road map to the literature",
+        "volume": "10",
+        "year": "2023",
+        "journal-title": "Front. Med"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)32134-6"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-81132-8"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "778",
+        "DOI": "10.1002/acn3.51557",
+        "article-title": "Prevalence and patterns of symptoms of dysautonomia in patients with long-COVID syndrome: A cross-sectional study",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Annals of Clinical and Translational Neurology"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "719",
+        "DOI": "10.1007/s10994-020-05877-5",
+        "article-title": "Learning from positive and unlabeled data: a survey",
+        "volume": "109",
+        "year": "2020",
+        "journal-title": "Mach. Learn"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "632",
+        "DOI": "10.1016/S2213-2600(22)00135-7",
+        "article-title": "Long COVID: aiming for a consensus",
+        "volume": "10",
+        "year": "2022",
+        "journal-title": "The Lancet Respiratory Medicine"
+      },
+      {
+        "key": "2023121209300981000_2023.12.08.23299718v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "ofad233",
+        "DOI": "10.1093/ofid/ofad233",
+        "article-title": "Systematic Review of the Prevalence of Long COVID",
+        "volume": "10",
+        "year": "2023",
+        "journal-title": "Open Forum Infect Dis"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.08.23299718",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:46:26Z",
+      "timestamp": 1768506386000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.12.08.23299718"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          9
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2023.12.08.23299718",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

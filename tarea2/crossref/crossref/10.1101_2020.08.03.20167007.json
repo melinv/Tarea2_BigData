@@ -1,0 +1,417 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ],
+      "date-time": "2026-03-26T11:21:46Z",
+      "timestamp": 1774524106666,
+      "version": "3.50.1"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          4
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 39,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Automatic severity assessment and progression prediction can facilitate admission, triage, and referral of COVID-19 patients. This study aims to explore the potential use of lung lesion features in the management of COVID-19, based on the assumption that lesion features may carry important diagnostic and prognostic information for quantifying infection severity and forecasting disease progression.</jats:p>\n                <jats:p>A novel LesionEncoder framework is proposed to detect lesions in chest CT scans and to encode lesion features for automatic severity assessment and progression prediction. The LesionEncoder framework consists of a U-Net module for detecting lesions and extracting features from individual CT slices, and a recurrent neural network (RNN) module for learning the relationship between feature vectors and collectively classifying the sequence of feature vectors.</jats:p>\n                <jats:p>Chest CT scans of two cohorts of COVID-19 patients from two hospitals in China were used for training and testing the proposed framework. When applied to assessing severity, this framework outperformed baseline methods achieving a sensitivity of 0.818, specificity of 0.952, accuracy of 0.940, and AUC of 0.903. It also outperformed the other tested methods in disease progression prediction with a sensitivity of 0.667, specificity of 0.838, accuracy of 0.829, and AUC of 0.736. The LesionEncoder framework demonstrates a strong potential for clinical application in current COVID-19 management, particularly in automatic severity assessment of COVID-19 patients. This framework also has a potential for other lesion-focused medical image analyses.</jats:p>",
+    "DOI": "10.1101/2020.08.03.20167007",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2020-08-04T14:54:48Z",
+      "timestamp": 1596552888000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Severity Assessment and Progression Prediction of COVID-19 Patients based on the LesionEncoder Framework and Chest CT"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "You-Zhen",
+        "family": "Feng",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sidong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhong-Yuan",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Juan C.",
+        "family": "Quiroz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dana",
+        "family": "Rezazadegan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ping-Kang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qi-Ting",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Long",
+        "family": "Qian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiao-Fang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shlomo",
+        "family": "Berkovsky",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Enrico",
+        "family": "Coiera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lei",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiao-Ming",
+        "family": "Qiu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiang-Ran",
+        "family": "Cai",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "2021020122350704000_2020.08.03.20167007v2.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "pe480",
+        "DOI": "10.1016/S2214-109X(20)30068-1",
+        "article-title": "Potential association between COVID-19 mortality and health-care resource availability",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "The Lancet Global Health"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang Y , Zhang H , Xie J , Lin M , Ying L , Pang P , Ji W (2020). Sensitivity of chest CT for COVID-19: comparison to RT-PCR. Radiology.",
+        "DOI": "10.1148/radiol.2020200432"
+      },
+      {
+        "issue": "4",
+        "key": "2021020122350704000_2020.08.03.20167007v2.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/S1473-3099(20)30086-4",
+        "article-title": "Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "The Lancet Infectious Diseases"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.4",
+        "unstructured": "Ng MY , Lee E , Yang J , Yang F , Li X , Wang H , Lui MM , Lo C , Leung B , Khong P , et al. (2020). Imaging profile of the COVID-19 infection: radiologic findings and literature review. Radiology: Cardiothoracic Imaging 2(1)."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ai T , Yang Z , Hou H , Zhan C , Chen C , Lv W , Tao Q , Sun Z , Xia L (2020). Correlation of chest CT and PT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. Radiology.",
+        "DOI": "10.1148/radiol.2020200642"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30183-5"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.7",
+        "unstructured": "Inui S , Fujikawa A , Jitsu M , Kunishima N , Watanabe S , Suzuki Y , Umeda S , Uwabe Y (2020). Chest CT Findings in Cases from the Cruise Ship \u201cDiamond Princess\u201d with Coronavirus Disease 2019 (COVID-19). Radiology: Cardiothoracic Imaging."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.8",
+        "unstructured": "The Royal Australian and New Zealand Colleague of Radiologists (2020) Advice on appropriate use of CT throughout the COVID-19 pandemic \u2013 9 April 2020."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020200905"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.02.23.20026930"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.11",
+        "unstructured": "Gozes O , Frid-Adar M , Greenspan H , et al. (2020). Rapid AI Development Cycle for the Coronavirus (COVID-19) Pandemic: Initial Results for Automated Detection & Patient Monitoring using Deep Learning CT Image Analysis. arXiv e-prints 2020. https://ui.adsabs.harvard.edu/abs/2020arXiv200305037G."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu X , Jiang X , Ma C , et al. (2020). Deep Learning System to Screen Coronavirus Disease 2019 Pneumonia. arXiv e-prints 2020. https://ui.adsabs.harvard.edu/abs/2020arXiv200209334X",
+        "DOI": "10.1016/j.eng.2020.04.010"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.13",
+        "unstructured": "Wang S , Kang B , Ma J , Zeng X , Xiao M , Guo J , Cai M , Yang J , et al. (2020). A deep learning algorithm using CT images to screen for Corona Virus Disease (COVID-19). medRxiv:2020.02.14.200230284v4."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.14",
+        "unstructured": "Chen J , Wu L , Zhang J , Zhang L , Gong D , Zhao Y , Hu S , Wang Y , et al. (2020). Deep learning-based model for detecting 2019 novel coronavirus pneumonia on high-resolution computed tomography: a prospective study. medRxiv:2020.02.25.20021568."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.15",
+        "unstructured": "Wang L , Wong A (2020). COVID-Net: A tailored deep convolutional neural network design for detection of COVID-19 cases from chest radiography images. arXiv:2003.09871v1."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RBME.2020.2987975"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0230548"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.02.29.20029603"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.19",
+        "unstructured": "Shan F , Gao Y , Wang J , et al. (2020). Lung Infection Quantification of COVID-19 in CT Images with Deep Learning. arXiv e-prints 2020. https://ui.adsabs.harvard.edu/abs/2020arXiv200304655S."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.20",
+        "unstructured": "Chaganti S , Blachandran A , Chabin G , Cohen S , Flohr T , Georgescu B , Grenier P , et al. (2020). Quantification of tomographic patterns associated with COVID-19 from chest CT. arXiv:2004.01279."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jin X , Pang B , Zhang J , Liu Q , Yang Z , Feng J , Liu X , Zhang L , et al. (2020). Core outcome set for clinical trials on coronavirus disease 2019 (COS-COVID). Engineering.",
+        "DOI": "10.1016/j.eng.2020.03.002"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.22",
+        "unstructured": "Cascella M , Rajnik M , Cuomo A , et al. (2020) Features, evaluation and treatment coronavirus (COVID-19). StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK554776/"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-64588-y"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.24",
+        "unstructured": "Hofmanninger J , Prayer F , Pan J , Rohrich S , Prosch H , Langs G (2020). Automatic lung segmentation in routine imaging is a data diversity problem, not a methodology problem. arXiv:2001.11767v1."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.25",
+        "unstructured": "COVID-19 CT Segmentation Dataset. http://medicalsegmentation.com/covid19/"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O , Fischer P , Brox T . (2015) U-Net: Convolutional networks for biomedical image segmentation. arXiv:1505.04597.",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.27",
+        "unstructured": "Tan M , Le QV (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. arXiv:1905.11946v3."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J , Dong W , Socher R , Li LJ , Li FF (2009) ImageNet: A large-scale hierarchical image database. IEEE CVPR 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/info11020125"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.30",
+        "unstructured": "Kingma DP , Ba J (2015) Adam: A method for stochastic optimization. ICLR 2015. arXiv: 1412.6980."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mri.2012.05.001"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nishiura H , Kobayashi T , Miyama T , Suzuki A , Jung S , Hayashi K , Kinoshita R , et al. (2020). Estimation of the asymptomatic ratio of novel coronavirus infections (COVID-19). International Journal of Infectious Disease.",
+        "DOI": "10.1016/j.ijid.2020.03.020"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.33",
+        "unstructured": "Li R , Pei S , Chen B , Song Y , Zhang T , Yang W , Shaman J (2020). Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2). Science: eabb3221."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-020-00822-x"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.35",
+        "unstructured": "Wynants L , Van Calster B , Bonten M , Collins GS , Debray T , De Vos M , Haller MC , et al. (2020). Systematic review and critical appraisal of prediction models for diagnosis and prognosis of COVID-19 infection. medRxiv:2020.03.24.20041020."
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.387164"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.14140130"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10916-007-9113-9"
+      },
+      {
+        "key": "2021020122350704000_2020.08.03.20167007v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0103447"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.03.20167007",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:50:22Z",
+      "timestamp": 1768485022000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.08.03.20167007"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          4
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1101/2020.08.03.20167007",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/info12110471",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

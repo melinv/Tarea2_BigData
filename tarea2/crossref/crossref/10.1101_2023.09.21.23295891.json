@@ -1,0 +1,272 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:35:59Z",
+      "timestamp": 1768563359940,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 19,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Given the high global seroprevalence of SARS-CoV-2, understanding the risk of reinfection becomes increasingly important. Models developed to track trends in reinfection risk should be robust against possible biases arising from imperfect data observation processes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>We performed simulation-based validation of an existing catalytic model designed to detect changes in the risk of reinfection by SARS-CoV-2.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The catalytic model assumes the risk of reinfection is proportional to observed infections. Validation involved using simulated primary infections, consistent with the number of observed infections in South Africa. We then simulated reinfection datasets that incorporated different processes that may bias inference, including imperfect observation and mortality, to assess the performance of the catalytic model. A Bayesian approach was used to fit the model to simulated data, assuming a negative binomial distribution around the expected number of reinfections, and model projections were compared to the simulated data generated using different magnitudes of change in reinfection risk. We assessed the approach\u2019s ability to accurately detect changes in reinfection risk when included in the simulations, as well as the occurrence of false positives when reinfection risk remained constant.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Key Findings</jats:title>\n                  <jats:p>The model parameters converged in most scenarios leading to model outputs aligning with anticipated outcomes. The model successfully detected changes in the risk of reinfection when such a change was introduced to the data. Low observation probabilities (10%) of both primary- and re-infections resulted in low numbers of observed cases from the simulated data and poor convergence.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Limitations</jats:title>\n                  <jats:p>The model\u2019s performance was assessed on simulated data representative of the South African SARS-CoV-2 epidemic, reflecting its timing of waves and outbreak magnitude. Model performance under similar scenarios may be different in settings with smaller epidemics (and therefore smaller numbers of reinfections).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Ensuring model parameter convergence is essential to avoid false-positive detection of shifts in reinfection risk. While the model is robust in most scenarios of imperfect observation and mortality, further simulation-based validation for regions experiencing smaller outbreaks is recommended. Caution must be exercised in directly extrapolating results across different epidemiological contexts without additional validation efforts.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.09.21.23295891",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          24
+        ]
+      ],
+      "date-time": "2023-09-24T01:45:15Z",
+      "timestamp": 1695519915000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Simulation-based validation of a method to detect changes in SARS-CoV-2 reinfection risk"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6116-0479",
+        "authenticated-orcid": false,
+        "given": "Belinda",
+        "family": "Lombard",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9722-0699",
+        "authenticated-orcid": false,
+        "given": "Harry",
+        "family": "Moultrie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3314-8223",
+        "authenticated-orcid": false,
+        "given": "Juliet R.C.",
+        "family": "Pulliam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5154-1390",
+        "authenticated-orcid": false,
+        "given": "Cari",
+        "family": "van Schalkwyk",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.1",
+        "unstructured": "WHO Coronavirus (COVID-19) Dashboard [Internet]. [cited 2023 Jul 18]. Available from: https://covid19.who.int/"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.2",
+        "unstructured": "Tegally H , Moir M , Everatt J , Giovanetti M , Scheepers C , Wilkinson E , et al. Emergence of SARS-CoV-2 Omicron lineages BA.4 and BA.5 in South Africa. Nat Med. 2022;28(28)."
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bingham J , Cable R , Coleman C , Glatt TN , Grebe E , Mhlanga L , et al. Estimates of prevalence of anti-SARS-CoV-2 antibodies among blood donors in South Africa in March 2022. Res Sq. 2022;",
+        "DOI": "10.21203/rs.3.rs-1687679/v1"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hernandez-Suarez C , Murillo-Zamora E. Waning immunity to SARS-CoV-2 following vaccination or infection. Front Med (Lausanne). 2022;9.",
+        "DOI": "10.3389/fmed.2022.972083"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Atifa A , Khan MA , Iskakova K , Al-Duais FS , Ahmad I. Mathematical modeling and analysis of the SARS-Cov-2 disease with reinfection. Comput Biol Chem. 2022;98.",
+        "DOI": "10.1016/j.compbiolchem.2022.107678"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Coutinho RM , Marquitti FMD , Ferreira LS , Borges ME , da Silva RLP , Canton O , et al. Modelbased estimation of transmissibility and reinfection of SARS-CoV-2 P.1 variant. Communications Medicine. 2021;1(1).",
+        "DOI": "10.1038/s43856-021-00048-6"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pulliam JRC , van Schalkwyk C , Govender N , von Gottberg A , Cohen C , Groome MJ , et al. Increased risk of SARS-CoV-2 reinfection associated with emergence of Omicron in South Africa. Science (1979). 2022;376(376).",
+        "DOI": "10.1126/science.abn4947"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gibbons CL , Mangen MJJ , Plass D , Havelaar AH , Brooke RJ , Kramarz P , et al. Measuring underreporting and under-ascertainment in infectious disease datasets: A comparison of methods. BMC Public Health. 2014;14(14).",
+        "DOI": "10.1186/1471-2458-14-147"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lau H , Khosrawipour T , Kocbach P , Ichii H , Bania J , Khosrawipour V. Evaluating the massive underreporting and undertesting of COVID-19 cases in multiple global epicenters. Pulmonology. 2021;27(27).",
+        "DOI": "10.1016/j.pulmoe.2020.05.015"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahmandad H , Lim TY , Sterman J. Behavioral dynamics of COVID-19: estimating underreporting, multiple waves, and adherence fatigue across 92 nations. Syst Dyn Rev. 2021;37(37).",
+        "DOI": "10.1002/sdr.1673"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Banerjee I , Robinson J , Sathian B. COVID-19: Are reinfections a global health threat? Nepal J Epidemiol. 2021;11(11).",
+        "DOI": "10.3126/nje.v11i1.34903"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.12",
+        "unstructured": "Robinson S. Simulation verification, validation and confidence: A tutorial. Transactions of the Society for Computer Simulation. 1999;16(16)."
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei Y , Sha F , Zhao Y , Jiang Q , Hao Y , Chen F. Better modelling of infectious diseases: Lessons from covid-19 in China. The BMJ. 2021;375.",
+        "DOI": "10.1136/bmj.n2365"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sargent RG . Verification and Validation of Simulation Models: An Advanced Tutorial. In: Proceedings - Winter Simulation Conference. 2020.",
+        "DOI": "10.1109/WSC48552.2020.9384052"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pulliam JRC , van Schalkwyk C , Govender N , von Gottberg A , Cohen C , Groome MJ , et al. Data for Increased risk of SARS-CoV-2 reinfection associated with emergence of Omicron in South Africa. 2022 Feb 16 [cited 2023 Jul 20]; Available from: https://zenodo.org/record/6108448",
+        "DOI": "10.1101/2021.11.11.21266068"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.16",
+        "unstructured": "Team RC . R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing.2021."
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gelman A , Rubin DB . Inference from iterative simulation using multiple sequences. Statistical Science. 1992;7(7).",
+        "DOI": "10.1214/ss/1177011136"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brooks SP , Gelman A. General methods for monitoring convergence of iterative simulations)? Journal of Computational and Graphical Statistics. 1998;7(7).",
+        "DOI": "10.2307/1390675"
+      },
+      {
+        "key": "2023092614300615000_2023.09.21.23295891v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2021.708523"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.21.23295891",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:41:35Z",
+      "timestamp": 1768506095000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.09.21.23295891"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "references-count": 19,
+    "URL": "https://doi.org/10.1101/2023.09.21.23295891",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1012792",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

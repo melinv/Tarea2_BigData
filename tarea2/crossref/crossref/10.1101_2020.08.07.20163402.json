@@ -1,0 +1,462 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T20:06:12Z",
+      "timestamp": 1768593972979,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 19,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The outbreak of coronavirus disease 2019 (COVID-19) has become a global pandemic acute infectious disease, especially with the features of possible asymptomatic carriers and high contagiousness. It causes acute respiratory distress syndrome and results in a high mortality rate if pneumonia is involved. Currently, it is difficult to quickly identify asymptomatic cases or COVID-19 patients with pneumonia due to limited access to reverse transcription-polymerase chain reaction (RT-PCR) nucleic acid tests and CT scans, which facilitates the spread of the disease at the community level, and contributes to the overwhelming of medical resources in intensive care units.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Goal</jats:title>\n                  <jats:p>This study aimed to develop a scientific and rigorous clinical diagnostic tool for the rapid prediction of COVID-19 cases based on a COVID-19 clinical case database in China, and to assist global frontline doctors to efficiently and precisely diagnose asymptomatic COVID-19 patients and cases who had a false-negative RT-PCR test result.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>With online consent, and the approval of the ethics committee of Zhongshan Hospital Fudan Unversity (approval number B2020-032R) to ensure that patient privacy is protected, clinical information has been uploaded in real-time through the New Coronavirus Intelligent Auto-diagnostic Assistant Application of cloud plus terminal (nCapp) by doctors from different cities (Wuhan, Shanghai, Harbin, Dalian, Wuxi, Qingdao, Rizhao, and Bengbu) during the COVID-19 outbreak in China. By quality control and data anonymization on the platform, a total of 3,249 cases from COVID-19 high-risk groups were collected. These patients had SARS-CoV-2 RT-PCR test results and chest CT scans, both of which were used as the gold standard for the diagnosis of COVID-19 and COVID-19 pneumonia. In particular, the dataset included 137 indeterminate cases who initially did not have RT-PCR tests and subsequently had positive RT-PCR results, 62 suspected cases who initially had false-negative RT-PCR test results and subsequently had positive RT-PCR results, and 122 asymptomatic cases who had positive RT-PCR test results, amongst whom 31 cases were diagnosed. We also integrated the function of a survey in nCapp to collect user feedback from frontline doctors.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>We applied the statistical method of a multi-factor regression model to the training dataset (1,624 cases) and developed a prediction model for COVID-19 with 9 clinical indicators that are fast and accessible: \u2018Residing or visiting history in epidemic regions\u2019, \u2018Exposure history to COVID-19 patient\u2019, \u2018Dry cough\u2019, \u2018Fatigue\u2019, \u2018Breathlessness\u2019, \u2018No body temperature decrease after antibiotic treatment\u2019, \u2018Fingertip blood oxygen saturation \u226493%\u2019, \u2018Lymphopenia\u2019, and \u2018C-reactive protein (CRP) increased\u2019. The area under the receiver operating characteristic (ROC) curve (AUC) for the model was 0.88 (95% CI: 0.86, 0.89) in the training dataset and 0.84 (95% CI: 0.82, 0.86) in the validation dataset (1,625 cases). To ensure the sensitivity of the model, we used a cutoff value of 0.09. The sensitivity and specificity of the model were 98.0% (95% CI: 96.9%, 99.1%) and 17.3% (95% CI: 15.0%, 19.6%), respectively, in the training dataset, and 96.5% (95% CI: 95.1%, 98.0%) and 18.8% (95% CI: 16.4%, 21.2%), respectively, in the validation dataset. In the subset of the 137 indeterminate cases who initially did not have RT-PCR tests and subsequently had positive RT-PCR results, the model predicted 132 cases, accounting for 96.4% (95% CI: 91.7%, 98.8%) of the cases. In the subset of the 62 suspected cases who initially had false-negative RT-PCR test results and subsequently had positive RT-PCR results, the model predicted 59 cases, accounting for 95.2% (95% CI: 86.5%, 99.0%) of the cases. Considering the specificity of the model, we used a cutoff value of 0.32. The sensitivity and specificity of the model were 83.5% (95% CI: 80.5%, 86.4%) and 83.2% (95% CI: 80.9%, 85.5%), respectively, in the training dataset, and 79.6% (95% CI: 76.4%, 82.8%) and 81.3% (95% CI: 78.9%, 83.7%), respectively, in the validation dataset, which is very close to the published AI model.</jats:p>\n                  <jats:p>The results of the online survey \u2018Questionnaire Star\u2019 showed that 90.9% of nCapp users in WeChat mini programs were \u2018satisfied\u2019 or \u2018very satisfied\u2019 with the tool. The WeChat mini program received a significantly higher satisfaction rate than other platforms, especially for \u2018availability and sharing convenience of the App\u2019 and \u2018fast speed of log-in and data entry\u2019.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion</jats:title>\n                  <jats:p>With the assistance of nCapp, a mobile-based diagnostic tool developed from a large database that we collected from COVID-19 high-risk groups in China, frontline doctors can rapidly identify asymptomatic patients and avoid misdiagnoses of cases with false-negative RT-PCR results. These patients require timely isolation or close medical supervision. By applying the model, medical resources can be allocated more reasonably, and missed diagnoses can be reduced. In addition, further education and interaction among medical professionals can improve the diagnostic efficiency for COVID-19, thus avoiding the transmission of the disease from asymptomatic patients at the community level.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.08.07.20163402",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2020-08-11T19:51:02Z",
+      "timestamp": 1597175462000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Large-Scale Clinical Validation Study Using nCapp Cloud Plus Terminal by Frontline Doctors for the Rapid Diagnosis of COVID-19 and COVID-19 pneumonia in China"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8928-143X",
+        "authenticated-orcid": false,
+        "given": "Dawei",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Tao",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Deng",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ziqiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lichuan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jie",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kui",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Li",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lin",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lin",
+        "family": "Tong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chaomin",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yaoli",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chunling",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maosong",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhenju",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiwei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fei",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hai",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jian",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jinming",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chunhua",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hongqing",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu",
+        "family": "Shang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Linian",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianping",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yang",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Charles A.",
+        "family": "Powell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuanlin",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0119-8990",
+        "authenticated-orcid": false,
+        "given": "Chunxue",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.1",
+        "unstructured": "WHO. Novel Coronavirus (2019-nCoV) situation reports. 2020 [cited 2020 Feb 9th]. Available from: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.2",
+        "unstructured": "Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE. Available from: https://gisanddata.maps.arcgis.eom/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.3",
+        "unstructured": "China NHCoPsRo. Guideline of Treatment on new coronavirus infectious pneumonia (5 th edition); 2020."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.4",
+        "unstructured": "China NHCoPsRo. Guideline of Treatment on new coronavirus infectious pneumonia (7th edition); 2020."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.5",
+        "unstructured": "WHO. Clinical management of severe acute respiratory infection when novel coronavirus (nCoV) infection is suspected; 2020."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moghadas SM , Shoukat A , Fitzpatrick MC , Wells CR , Sah P , Pandey A , Sachs JD , Wang Z , Meyers LA , Singer BH , Galvani AP . Projecting hospital utilization during the COVID-19 outbreaks in the United States. Proc Natl Acad Sci U S A 2020.",
+        "DOI": "10.1073/pnas.2004064117"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guan W-j , Ni Z-y , Hu Y , Liang W-h , Ou C-q , He J-x , Liu L , Shan H , Lei C-l , Hui DSC , Du B , Li L-j , Zeng G , Yuen K-Y , Chen R-c , Tang C-l , Wang T , Chen P-y , Xiang J , Li S-y , Wang J-l , Liang Z-j , Peng Y-x , Wei L , Liu Y , Hu Y-h , Peng P , Wang J-m , Liu J-y , Chen Z , Li G , Zheng Z-j , Qiu S-q , Luo J , Ye C-j , Zhu S-y , Zhong N-s . Clinical Characteristics of Coronavirus Disease 2019 in China. New England Journal of Medicine 2020.",
+        "DOI": "10.1101/2020.02.06.20020974"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1016/j.ceh.2020.03.001",
+        "article-title": "Chinese experts\u2019 consensus on the Internet of Things-aided diagnosis and treatment of coronavirus disease 2019 (COVID-19)",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "Clinical eHealth"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ceh.2020.02.001",
+        "article-title": "Prospect and application of Internet of Things technology for prevention of SARIs",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "Clinical eHealth"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mei X , Lee H-C , Diao K , Huang M , Lin B , Liu C , Xie Z , Ma Y , Robson PM , Chung M , Bernheim A , Mani V , Calcagno C , Li K , Li S , Shan H , Lv J , Zhao T , Xia J , Long Q , Steinberger S , Jacobi A , Deyer T , Luksza M , Liu F , Little BP , Fayad ZA , Yang Y . Artificial intelligence-enabled rapid diagnosis of COVID-19 patients. medRxiv 2020: 2020.2004.2012.20062661",
+        "DOI": "10.1101/2020.04.12.20062661"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li Q , Guan X , Wu P , Wang X , Zhou L , Tong Y , Ren R , Leung KSM , Lau EHY , Wong JY , Xing X , Xiang N , Wu Y , Li C , Chen Q , Li D , Liu T , Zhao J , Liu M , Tu W , Chen C , Jin L , Yang R , Wang Q , Zhou S , Wang R , Liu H , Luo Y , Liu Y , Shao G , Li H , Tao Z , Yang Y , Deng Z , Liu B , Ma Z , Zhang Y , Shi G , Lam TTY , Wu JT , Gao GF , Cowling BJ , Yang B , Leung GM , Feng Z . Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. New England Journal of Medicine 2020",
+        "DOI": "10.1056/NEJMoa2001316"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim JY , Ko J-H , Kim Y , Kim Y-J , Kim J-M , Chung Y-S , Kim HM , Han M-G , Kim SY , Chin BS . Viral Load Kinetics of SARS-CoV-2 Infection in First Two Patients in Korea. J Korean Med Sci 2020; 35.",
+        "DOI": "10.3346/jkms.2020.35.e86"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2020.03.003"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.14",
+        "unstructured": "Ai T , Yang Z , Hou H , Zhan C , Chen C , Lv W , Tao Q , Sun Z , Xia L . Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases. Radiology; 0: 200642."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.15",
+        "first-page": "m800",
+        "article-title": "Coronavirus disease 2019 (covid-19): a guide for UK GPs",
+        "volume": "368",
+        "year": "2020",
+        "journal-title": "BMJj"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.16",
+        "unstructured": "Niederman MS , Richeldi L , Chotirmall SH , Bai C . Rising to the Challenge of the Novel SARS-coronavirus-2 (SARS-CoV-2): Advice for Pulmonary and Critical Care and an Agenda for Research. American Journal of Respiratory and Critical Care Medicine; 0: null."
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1083",
+        "DOI": "10.1186/s12889-019-7417-6",
+        "article-title": "A study protocol for a randomised controlled trial evaluating the use of information communication technology (WhatsApp/WeChat) to deliver brief motivational interviewing (i-BMI) in promoting smoking cessation among smokers with chronic diseases",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "BMC Public Health"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.18",
+        "first-page": "288",
+        "article-title": "[Current status of diagnosis and treatment of community-acquired pneumonia in Shanghai revealed by a questionnaire analysis]",
+        "volume": "41",
+        "year": "2018",
+        "journal-title": "Zhonghua Jie He He Hu Xi Za Zhi"
+      },
+      {
+        "key": "2021013107350817000_2020.08.07.20163402v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "689",
+        "DOI": "10.1016/S0140-6736(20)30260-9",
+        "article-title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+        "volume": "395",
+        "year": "2020",
+        "journal-title": "The Lancet"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.07.20163402",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:50:48Z",
+      "timestamp": 1768485048000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.08.07.20163402"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "references-count": 19,
+    "URL": "https://doi.org/10.1101/2020.08.07.20163402",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.ceh.2022.07.004",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

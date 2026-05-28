@@ -1,0 +1,1070 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T13:15:50Z",
+      "timestamp": 1768569350923,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          25
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 146,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T00:00:00Z",
+          "timestamp": 1758758400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>A wide range of epidemiological modeling approaches have been applied to the SARS-CoV-2 pan-demic, which presents an opportunity to assess common approaches applied to specific research questions. Spatial models interrogate how heterogeneities and host movement dynamics influence local and regional patterns of dis-ease, issues that were of great interest for understanding and controlling SARS-CoV-2.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>Here we present a systematic review of spatial epidemiological modeling approaches of SARS-CoV-2. We describe common themes and highlight unique strategies, providing a foundation for researchers to devise spatial models most appropriate for future pathogens and epidemics. Our review also categorizes the research questions that were addressed with spatial models, highlights parameter estimation techniques, and describes the cyber infrastructure used for model development.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We conducted a systematic review using Web of Science and a standardized set of key-words, followed by thorough examination of abstracts and full texts to determine which studies met our inclusion criteria. To guide our description and comparisons of models, we developed a Geography, Population, Movement (GPM) framework that conceptualizes the interactions between three distinct subcomponents of any spatial model. The geographic model represents the physical arena in which the model is implemented, the intra-population model describes the transmission and disease processes that occur within distinct spatial units of the geography, and the movement model describes the algorithms that dictate how hosts move among spatial units within the geography.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The search identified a total of 193 articles, of which 109 were included in our review. The most abundant intra-population modeling methods were agent-based (47.7%) and compartmental modeling (29.4%) approaches. Movement models ranged in complexity, with the most complex models implementing commuter movement among many points of interest in the geographic arena, which were sometimes parameterized by fine-scale mobility data. Geographic models ranged from describing microcosms, such as single classrooms, all the way up to multi-country models. Of the 63.3% of models studies that specified the programming language used, we detected ten different languages, with Matlab and Python being the most frequent, although only 30.6% of studies provided open-access code for their models. We also described eight specialized software systems that were used to construct agent-based or compartment models of COVID-19.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our review identified and characterized a variety of spatial modeling strategies and software that were usefully employed to address many relevant epidemiological questions for COVID-19. Future research is needed to quantitatively assess which modeling approaches are most appropriate in specific situations, to answer specific questions, or to apply to certain disease systems. Moreover, future cyber-infrastructure could help to modularize and standardize modeling approaches, which would increase transparency and reproducibility, and which would facilitate a detailed examination of which model attributes relate to model performance in a variety of contexts.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.09.24.25336493",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2025-09-25T20:35:20Z",
+      "timestamp": 1758832520000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Systematic Review of Spatial Epidemiological Modeling Approaches Applied During the COVID-19 Pandemic"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4598-8510",
+        "authenticated-orcid": false,
+        "given": "Kayode",
+        "family": "Oshinubi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ye",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eck",
+        "family": "Doerry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Esma S.",
+        "family": "Gel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Crystal",
+        "family": "Hepp",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tim",
+        "family": "Lant",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sanjay",
+        "family": "Mehrotra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Samantha",
+        "family": "Sabo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2320-5773",
+        "authenticated-orcid": false,
+        "given": "Joseph",
+        "family": "Mihaljevic",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.1",
+        "unstructured": "World Health Organization. Who coronavirus (covid-19) dashboard. https://covid19.who.int/, 2019. Accessed: 2023-03-30."
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.2",
+        "unstructured": "WHO. Covid-19 vaccines. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines, 2019. Accessed: 2023-03-30."
+      },
+      {
+        "issue": "4",
+        "key": "2025092708050649000_2025.09.24.25336493v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "176",
+        "DOI": "10.1136/bmjebm-2020-111426",
+        "article-title": "Covid-19 and the us response: accelerating health inequities",
+        "volume": "26",
+        "year": "2021",
+        "journal-title": "BMJ evidence-based medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2025092708050649000_2025.09.24.25336493v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e99",
+        "DOI": "10.1017/cts.2021.23",
+        "article-title": "Health disparities and equity in the era of covid-19",
+        "volume": "5",
+        "year": "2021",
+        "journal-title": "Journal of clinical and translational science"
+      },
+      {
+        "issue": "1",
+        "key": "2025092708050649000_2025.09.24.25336493v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1186/s40249-022-01001-y",
+        "article-title": "Compartmental structures used in modeling covid-19: a scoping review",
+        "volume": "11",
+        "year": "2022",
+        "journal-title": "Infectious diseases of poverty"
+      },
+      {
+        "issue": "5",
+        "key": "2025092708050649000_2025.09.24.25336493v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1112",
+        "DOI": "10.1080/24694452.2022.2161986",
+        "article-title": "Spatiotemporal heterogeneities in the causal effects of mobility intervention policies during the covid-19 outbreak: A spatially interrupted time-series (sits) analysis",
+        "volume": "113",
+        "year": "2023",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "issue": "6",
+        "key": "2025092708050649000_2025.09.24.25336493v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1419",
+        "DOI": "10.1080/24694452.2023.2182758",
+        "article-title": "Developing a place\u2013time-specific transmissibility index to measure and examine the spatiotemporally varying transmissibility of covid-19",
+        "volume": "113",
+        "year": "2023",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCAS.2021.3118100"
+      },
+      {
+        "issue": "8",
+        "key": "2025092708050649000_2025.09.24.25336493v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1704",
+        "DOI": "10.1080/24694452.2023.2278689",
+        "article-title": "The networked community of urban mobility during the pandemic",
+        "volume": "114",
+        "year": "2024",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "issue": "8",
+        "key": "2025092708050649000_2025.09.24.25336493v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1693",
+        "DOI": "10.1080/24694452.2023.2266021",
+        "article-title": "A spatial network-based assessment of individual exposure to covid-19",
+        "volume": "114",
+        "year": "2024",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24694452.2022.2149460"
+      },
+      {
+        "issue": "7",
+        "key": "2025092708050649000_2025.09.24.25336493v1.12",
+        "first-page": "2023",
+        "article-title": "American inequality meets covid-19: Uneven spread of the disease across communities",
+        "volume": "111",
+        "year": "2021",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24694452.2021.1904819"
+      },
+      {
+        "issue": "3",
+        "key": "2025092708050649000_2025.09.24.25336493v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1080/24694452.2022.2130143",
+        "article-title": "A systematic review of covid-19 geographical research: Machine learning and bibliometric approach",
+        "volume": "113",
+        "year": "2023",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1134695"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11434-014-0499-8"
+      },
+      {
+        "issue": "9",
+        "key": "2025092708050649000_2025.09.24.25336493v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2084",
+        "DOI": "10.1080/24694452.2023.2216296",
+        "article-title": "Spatiotemporal transmission model to simulate an interregional epidemic spreading",
+        "volume": "113",
+        "year": "2023",
+        "journal-title": "Annals of the American Association of Geographers"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1708856115"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2009.11.002"
+      },
+      {
+        "issue": "9",
+        "key": "2025092708050649000_2025.09.24.25336493v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0001058",
+        "DOI": "10.1371/journal.pgph.0001058",
+        "article-title": "A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of covid-19",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "PLOS global public health"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epidem.2014.07.001"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jocs.2010.07.002"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.23",
+        "article-title": "Comparison of combination methods to create calibrated ensemble forecasts for seasonal influenza in the us",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.24",
+        "article-title": "Data-centric epidemic forecasting: A survey",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/systems3040309"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpubh.2022.1033432"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.1003583"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pntd.0009603"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.29",
+        "unstructured": "D. Bernoulli . Essai d\u2019une nouvelle analyse de la mortalit\u00e9 caus\u00e9e par la petite v\u00e9role, et des avantages de l\u2019inoculation pour la pr\u00e9venir. M\u00e9m. Math. Phys. Acad. Roy. Sci. Paris, pages 1\u201345, 1760."
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biology9090299"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmaa.2021.125171"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mma.8068"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physa.2021.126223"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.idm.2021.10.001"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "L012201",
+        "DOI": "10.1103/PhysRevE.107.L012201",
+        "article-title": "Periodic epidemic outbursts explained by local saturation of clusters",
+        "volume": "107",
+        "year": "2023",
+        "journal-title": "Phys. Rev. E"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.9382"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/math11061336"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/pr8101304"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adts.202100157"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12879-017-2382-0"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0245787"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fabian Lorig , Emil Johansson , and Paul Davidsson . Agent-based social simulation of the covid-19 pandemic: A systematic review. Journal of Artificial Societies and Social Simulation, 24(3), 2021.",
+        "DOI": "10.18564/jasss.4601"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249644"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marlon N Gonzaga , Marcelo M de Oliveira , and Allbens AP Faria . Spatial scale effects in covid-19 spread models. Complex Systems, 32(1), 2023.",
+        "DOI": "10.25088/ComplexSystems.32.1.71"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "104161",
+        "DOI": "10.1016/j.cities.2022.104161",
+        "article-title": "Simulating exposure-related human mobility behavior at the neighborhood-level under covid-19 in porto alegre, brazil",
+        "volume": "134",
+        "year": "2023",
+        "journal-title": "Cities"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/electronics9061018"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.27025"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.104.024412"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2022/7546393"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.idm.2021.02.004"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sysconle.2022.105240"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3934/mbe.2020266"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1177",
+        "DOI": "10.1007/s00466-021-01986-7",
+        "article-title": "Adaptive mesh refinement and coarsening for diffusion\u2013reaction epidemiological models",
+        "volume": "67",
+        "year": "2021",
+        "journal-title": "Computational Mechanics"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "CM Wachira , GO Lawi , LO Omondi , et al. Travelling wave analysis of a diffusive covid-19 model. Journal of Applied Mathematics, 2022, 2022.",
+        "DOI": "10.1155/2022/1476607"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3934/mbe.2022388"
+      },
+      {
+        "issue": "1",
+        "key": "2025092708050649000_2025.09.24.25336493v1.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.3390/pathogens12010088",
+        "article-title": "Mathematical modelling of the spatial distribution of a covid-19 outbreak with vaccination using diffusion equation",
+        "volume": "12",
+        "year": "2023",
+        "journal-title": "Pathogens"
+      },
+      {
+        "issue": "4",
+        "key": "2025092708050649000_2025.09.24.25336493v1.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.5206/mase/14150",
+        "article-title": "A diffusive seir model for community transmission of covid-19 epidemics: Application to brazil",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Mathematics in Applied Sciences and Engineering"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.58",
+        "article-title": "Modelling the spatial spread of covid-19 in agerman district using a diffusion model",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.59",
+        "article-title": "Scalable computational algorithms for geo-spatial covid-19 spread in high performance computing",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sste.2023.100568"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0232391"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph19148267"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-15478-y"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268820001983"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5220/0010130000930103"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2022.111279"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3531006"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yuan Yuan , Jingtao Ding , Huandong Wang , Depeng Jin , and Yong Li . Activity trajectory generation via modeling spatiotemporal dynamics. In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pages 4752\u20134762, 2022.",
+        "DOI": "10.1145/3534678.3542671"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v36i11.21479"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app12189236"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3053268"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jth.2022.101373"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2021.0304"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1009284"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.75",
+        "unstructured": "SafeGraph. Mobility data. http://www.safegraph.com/, 2022. Accessed: 2023-03-30."
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.arcontrol.2021.04.006"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEEM50564.2021.9672878"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0066086"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su142315764"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/vaccines9111242"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.healthplace.2020.102404"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fevo.2022.958651"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tra.2022.05.002"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bdr.2021.100275"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjinnov-2021-000677"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maria Regina Justina Estuar , Roland Abao , Jelly Aureus , Zachary Pangan , Lenard Paulo Tamayo , Elvira de Lara-Tuprio , Timothy Robin Teng , and Rey Rodrigueza . Development of an explicit agent-based simulation toolkit for opening of schools: An implementation of comokit for universities in the philippines. In Gabriele Meiselwitz , editor, Social Computing and Social Media: Applications in Education and Commerce, pages 48\u201366, Cham, 2022. Springer International Publishing.",
+        "DOI": "10.1007/978-3-031-05064-0_4"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EMBC46164.2021.9629754"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsos.210787"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjgh-2020-003727"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSS.2022.3185371"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-09942-y"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/14780771221089886"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249644"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.94",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simranpreet Kaur and Pooya Moradian Zadeh . An agent-based model to study the impact of nonpharmaceutical interventions during covid-19 pandemic on social isolation. In 2021 IEEE Symposium on Computers and Communications (ISCC), pages 1\u20136. IEEE, 2021.",
+        "DOI": "10.1109/ISCC53001.2021.9631551"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2020.103827"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13721-022-00385-z"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s41745-020-00210-4"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/fi14030083"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eclinm.2020.100718"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/tropicalmed7030045"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biology11020190"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-86297-w"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2112182119"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.heliyon.2020.e05722"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.healthplace.2021.102622"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-21553-1"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2023321118"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2012002117"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/13658816.2021.1873999"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0249644"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3934/mbe.2022147"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.112",
+        "unstructured": "Centers for Disease Control , Prevention, et al. Public health guidance for community-related exposure. 2020, 2020."
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021GH000427"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1009557"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2022.107029"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SSCI50451.2021.9660184"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biology9110373"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jinf.2020.05.037"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tra.2022.10.004"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSS.2021.3114504"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fams.2022.886082"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijgi10080509"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JBHI.2022.3160243"
+      },
+      {
+        "issue": "1",
+        "key": "2025092708050649000_2025.09.24.25336493v1.124",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0277505",
+        "DOI": "10.1371/journal.pone.0277505",
+        "article-title": "A flexible age-dependent, spatially-stratified predictive model for the spread of covid-19, accounting for multiple viral variants and vaccines",
+        "volume": "18",
+        "year": "2023",
+        "journal-title": "Plos one"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-021-07186-5"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adts.202000298"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/00375497231152458"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-18775-8"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fbuil.2021.654279"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.130",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1007/s10707-018-00339-6",
+        "article-title": "Building, composing and experimenting complex spatial models with the gama platform",
+        "volume": "23",
+        "year": "2019",
+        "journal-title": "GeoInformatica"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.131",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kay W Axhausen , Andreas Horni , and Kai Nagel . The multi-agent transport simulation MATSim. Ubiquity Press, 2016.",
+        "DOI": "10.5334/baw"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.132",
+        "first-page": "16",
+        "volume-title": "In International conference on complex systems",
+        "volume": "21",
+        "year": "2004"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.133",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marco D\u2019Orazio , Gabriele Bernardini , and Enrico Quagliarini . A probabilistic model to evaluate the effectiveness of main solutions to covid-19 spreading in university buildings according to proximity and time-based consolidated criteria. In Building simulation, volume 14, pages 1795\u20131809. Springer, 2021.",
+        "DOI": "10.1007/s12273-021-0770-2"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.134",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1009284"
+      },
+      {
+        "issue": "7",
+        "key": "2025092708050649000_2025.09.24.25336493v1.135",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009146",
+        "DOI": "10.1371/journal.pcbi.1009146",
+        "article-title": "Openabm-covid19\u2014an agent-based model for non-pharmaceutical interventions against covid-19 including contact tracing",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.136",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Samuel M Jenness , Steven M Goodreau , and Martina Morris . Epimodel: an r package for mathematical modeling of infectious disease over networks. Journal of statistical software, 84, 2018.",
+        "DOI": "10.18637/jss.v084.i08"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.137",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ningyezi Peng and Xintao Liu . The impact of urban scaling structure on the local-scale transmission of covid-19: A case study of the omicron wave in hong kong using agent-based modeling. Annals of the American Association of Geographers, pages 1\u201319, 2024.",
+        "DOI": "10.1080/24694452.2024.2313517"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.138",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dan Zou , Suhong Zhou , Yitong Liao , and Linsen Wang . Spatiotemporal variations of covid-19 variants in 100 countries: Exploring spatial patterns and time-lag effects. Annals of the American Association of Geographers, pages 1\u201321, 2024.",
+        "DOI": "10.1080/24694452.2024.2346728"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.139",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0041728"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.140",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34171/mjiri.34.27"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.141",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11356-020-11188-y"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.142",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.idm.2022.06.008"
+      },
+      {
+        "issue": "3",
+        "key": "2025092708050649000_2025.09.24.25336493v1.143",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1010856",
+        "DOI": "10.1371/journal.pcbi.1010856",
+        "article-title": "An implementation framework to improve the transparency and reproducibility of computational models of infectious diseases",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "PLOS Computational Biology"
+      },
+      {
+        "issue": "10",
+        "key": "2025092708050649000_2025.09.24.25336493v1.144",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1003793",
+        "DOI": "10.1371/journal.pmed.1003793",
+        "article-title": "Recommended reporting items for epidemic forecasting and prediction research: The epiforge 2020 guidelines",
+        "volume": "18",
+        "year": "2021",
+        "journal-title": "PLoS medicine"
+      },
+      {
+        "issue": "1",
+        "key": "2025092708050649000_2025.09.24.25336493v1.145",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.3233/DS-190026",
+        "article-title": "Towards fair principles for research software",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "Data Science"
+      },
+      {
+        "key": "2025092708050649000_2025.09.24.25336493v1.146",
+        "unstructured": "Emily Howerton , Lucie Contamin , Luke C Mullany , Michelle Qin , Nicholas G Reich , Samantha Bents , Rebecca K Borchering , Sung-mok Jung , Sara L Loo , Claire P Smith , et al. Informing pandemic response in the face of uncertainty. an evaluation of the us covid-19 scenario modeling hub. medRxiv, 2023."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.24.25336493",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:46:52Z",
+      "timestamp": 1768510012000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.09.24.25336493"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          25
+        ]
+      ]
+    },
+    "references-count": 146,
+    "URL": "https://doi.org/10.1101/2025.09.24.25336493",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          25
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T15:50:40Z",
+      "timestamp": 1768492240493,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ]
+    },
+    "group-title": "Systems Biology",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2020-08-01T00:00:00Z",
+          "timestamp": 1596240000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  For an emerging disease like COVID-19, systems immunology tools may quickly identify and quantitatively characterize cells associated with disease progression or clinical response. With repeated sampling, immune monitoring creates a real-time portrait of the cells reacting to a novel virus before disease specific knowledge and tools are established. However, single cell analysis tools can struggle to reveal rare cells that are under 0.1% of the population. Here, the machine learning workflow Tracking Responders Expanding (T-REX) was created to identify changes in both very rare and common cells in diverse human immune monitoring settings. T-REX identified cells that were highly similar in phenotype and localized to hotspots of significant change during rhinovirus and SARS-CoV-2 infections. Specialized reagents used to detect the rhinovirus-specific CD4\n                  <jats:sup>+</jats:sup>\n                  cells, MHCII tetramers, were not used during unsupervised analysis and instead \u2018left out\u2019 to serve as a test of whether T-REX identified biologically significant cells. In the rhinovirus challenge study, T-REX identified virus-specific CD4\n                  <jats:sup>+</jats:sup>\n                  T cells based on these cells being a distinct phenotype that expanded by \u226595% following infection. T-REX successfully identified hotspots containing virus-specific T cells using pairs of samples comparing Day 7 of infection to samples taken either prior to infection (Day 0) or after clearing the infection (Day 28). Mapping pairwise comparisons in samples according to both the direction and degree of change provided a framework to compare systems level immune changes during infectious disease or therapy response. This revealed that the magnitude and direction of systemic immune change in some COVID-19 patients was comparable to that of blast crisis acute myeloid leukemia patients undergoing induction chemotherapy and characterized the identity of the immune cells that changed the most. Other COVID-19 patients instead matched an immune trajectory like that of individuals with rhinovirus infection or melanoma patients receiving checkpoint inhibitor therapy. T-REX analysis of paired blood samples provides an approach to rapidly identify and characterize mechanistically significant cells and to place emerging diseases into a systems immunology context.\n                </jats:p>",
+    "DOI": "10.1101/2020.07.31.190454",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2020-08-02T06:02:56Z",
+      "timestamp": 1596348176000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Unsupervised machine learning reveals key immune cell subsets in COVID-19, rhinovirus infection, and cancer therapy"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5944-750X",
+        "authenticated-orcid": false,
+        "given": "Sierra M.",
+        "family": "Barone",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9318-3760",
+        "authenticated-orcid": false,
+        "given": "Alberta G.A.",
+        "family": "Paul",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3203-3264",
+        "authenticated-orcid": false,
+        "given": "Lyndsey M.",
+        "family": "Muehling",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3981-8681",
+        "authenticated-orcid": false,
+        "given": "Joanne A.",
+        "family": "Lannigan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4843-4599",
+        "authenticated-orcid": false,
+        "given": "William W.",
+        "family": "Kwok",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ronald B.",
+        "family": "Turner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8915-4334",
+        "authenticated-orcid": false,
+        "given": "Judith A.",
+        "family": "Woodfolk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9428-8866",
+        "authenticated-orcid": false,
+        "given": "Jonathan M.",
+        "family": "Irish",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.ejca.2016.03.085",
+        "article-title": "Systems immune monitoring in cancer therapy",
+        "volume": "61",
+        "year": "2016",
+        "journal-title": "European journal of cancer"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.3768"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.3034"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0100334"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1084",
+        "DOI": "10.1002/cyto.a.23030",
+        "article-title": "Comparison of clustering methods for high-dimensional single-cell flow and mass cytometry data",
+        "volume": "89",
+        "year": "2016",
+        "journal-title": "Cytometry. Part A : the journal of the International Society for Analytical Cytology"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2015.05.008"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nri.2016.56"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrc1804"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/2326-6066.CIR-17-0692"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1198704"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.1991"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van Gassen, S. et al. FlowSOM: Using self-organizing maps for visualization and interpretation of cytometry data. Cytometry. Part A : the journal of the International Society for Analytical Cytology (2015).",
+        "DOI": "10.1002/cyto.a.22625"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2015.05.047"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1408792111"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leelatian, N. et al. Unsupervised machine learning reveals risk stratifying glioblastoma tumor cells. eLife 9 (2020).",
+        "DOI": "10.7554/eLife.56879"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.2594"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.17",
+        "unstructured": "Krijthe, J. , van der Maaten, R. & Rtsne, L. (2015)."
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "5415",
+        "DOI": "10.1038/s41467-019-13055-y",
+        "article-title": "Automated optimized parameters for T-distributed stochastic neighbor embedding improve visualization and analysis of large datasets",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Becht, E. et al. Dimensionality reduction for visualizing single-cell data using UMAP. Nature biotechnology (2018).",
+        "DOI": "10.1038/nbt.4314"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McInnes, L. , Healy, J. & Melville, J. Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426 (2018).",
+        "DOI": "10.21105/joss.00861"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1038/nmeth.4149",
+        "article-title": "Characterizing cell subsets using marker enrichment modeling",
+        "volume": "14",
+        "year": "2017",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.3006"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3324/haematol.2018.193441"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burns, T.J. , Nolan, G.P. & Samusik, N. Continuous visualization of differences between biological conditions in single-cell data. BioRxiv, 337485 (2018).",
+        "DOI": "10.1101/337485"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mathew, D. et al. Deep immune profiling of COVID-19 patients reveals distinct immunotypes with therapeutic implications. Science (2020).",
+        "DOI": "10.1126/science.abc8511"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "107923",
+        "DOI": "10.1016/j.celrep.2020.107923",
+        "article-title": "Human Immune System Variation during 1 Year",
+        "volume": "32",
+        "year": "2020",
+        "journal-title": "Cell reports"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1523",
+        "DOI": "10.1111/febs.14730",
+        "article-title": "Beyond the message: advantages of snapshot proteomics with single-cell mass cytometry in solid tumors",
+        "volume": "286",
+        "year": "2019",
+        "journal-title": "The FEBS journal"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2016.04.019"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferrer-Font, L. et al. High-Dimensional Data Analysis Algorithms Yield Comparable Results for Mass Cytometry and Spectral Flow Cytometry Data. Cytometry. Part A : the journal of the International Society for Analytical Cytology (2020).",
+        "DOI": "10.1002/cyto.a.24016"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, L.M. , Lannigan, J. & Jaimes, M.C. OMIP-069: Forty-Color Full Spectrum Flow Cytometry Panel for Deep Immunophenotyping of Major Cell Subsets in Human Peripheral Blood. Cytometry. Part A : the journal of the International Society for Analytical Cytology (2020).",
+        "DOI": "10.1002/cyto.a.24213"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muehling, L.M. et al. Human TH1 and TH2 cells targeting rhinovirus and allergen coordinately promote allergic asthma. The Journal of allergy and clinical immunology (2020).",
+        "DOI": "10.1016/j.jaci.2020.03.037"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1093/infdis/jix514",
+        "article-title": "Single-Cell Tracking Reveals a Role for Pre-Existing CCR5+ Memory Th1 Cells in the Control of Rhinovirus-A39 After Experimental Challenge in Humans",
+        "volume": "217",
+        "year": "2018",
+        "journal-title": "The Journal of infectious diseases"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.33",
+        "unstructured": "Rodriguez, L. et al. Systems-level immunomonitoring from acute to recovery phase of severe COVID-19. medRxiv, 2020.2006.2003.20121582 (2020)."
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1446",
+        "DOI": "10.3389/fimmu.2020.01446",
+        "article-title": "The COVID-19 Cytokine Storm; What We Know So Far",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Frontiers in immunology"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/2326-6066.CIR-15-0213"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0153207",
+        "DOI": "10.1371/journal.pone.0153207",
+        "article-title": "High-Dimensional Analysis of Acute Myeloid Leukemia Reveals Phenotypic Changes in Persistent Cells during Induction Therapy",
+        "volume": "11",
+        "year": "2016",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.1600663"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.38",
+        "first-page": "10 21 11",
+        "article-title": "Generating Quantitative Cell Identity Labels with Marker Enrichment Modeling (MEM)",
+        "volume": "83",
+        "year": "2018",
+        "journal-title": "Current protocols in cytometry / editorial board, J. Paul Robinson, managing editor \u2026 [et al.]"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.39",
+        "first-page": "727",
+        "article-title": "FlowRepository: a resource of annotated flow cytometry datasets associated with peer-reviewed publications",
+        "volume": "81",
+        "year": "2012",
+        "journal-title": "Cytometry. Part A : the journal of the International Society for Analytical Cytology"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2048",
+        "DOI": "10.1016/j.jaci.2017.08.020",
+        "article-title": "TH1 signatures are present in the lower airways of children with severe asthma, regardless of allergic status",
+        "volume": "141",
+        "year": "2018",
+        "journal-title": "The Journal of allergy and clinical immunology"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Turner, J.S. et al. Impaired Cellular Immune Responses During the First Week of Severe Acute Influenza Infection. The Journal of infectious diseases (2020).",
+        "DOI": "10.1093/infdis/jiaa226"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shilts, J. & Wright, G.J. No evidence for basigin/CD147 as a direct SARS-CoV-2 spike binding receptor. bioRxiv, 2020.2007.2025.221036 (2020).",
+        "DOI": "10.1101/2020.07.25.221036"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1002/cyto.a.23001",
+        "article-title": "Cluster stability in the analysis of mass cytometry data",
+        "volume": "91",
+        "year": "2017",
+        "journal-title": "Cytometry. Part A : the journal of the International Society for Analytical Cytology"
+      },
+      {
+        "key": "2024080409170154000_2020.07.31.190454v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0151859"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.31.190454",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:41:11Z",
+      "timestamp": 1768437671000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.07.31.190454"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2020.07.31.190454",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          1
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

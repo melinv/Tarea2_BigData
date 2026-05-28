@@ -1,0 +1,561 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:25:27Z",
+      "timestamp": 1768501527625,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          2
+        ]
+      ]
+    },
+    "group-title": "Biophysics",
+    "reference-count": 65,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  In this article, I present a new model of the interaction of the main protease (M\n                  <jats:sup>pro</jats:sup>\n                  ) from SARS-CoV-2 virus with its substrate. The reaction scheme used to describe this mechanism is an extension of the well-known Michaelis-Menten model proposed in 1913 by Leonor Michaelis and Maud Menten [1]. The model I present here takes into account that one M\n                  <jats:sup>pro</jats:sup>\n                  enzyme monomer interacts with another M\n                  <jats:sup>pro</jats:sup>\n                  monomer in the presence of the substrate, leading to the formation of an enzyme dimer bound to one substrate molecule. Indeed, this dimer is formed by the sequentially binding of one M\n                  <jats:sup>pro</jats:sup>\n                  enzyme monomer to one molecule of substrate, followed by another M\n                  <jats:sup>pro</jats:sup>\n                  enzyme monomer binding to this M\n                  <jats:sup>pro</jats:sup>\n                  -substrate complex. This reaction mechanism is also known in the literature as substrate-induced dimerization [3]. Starting from this new reaction scheme established for this catalytic mechanism, I derived a mathematical expression describing the catalytic rate of the active M\n                  <jats:sup>pro</jats:sup>\n                  enzyme dimer as a function of the substrate concentration [\n                  <jats:italic>S</jats:italic>\n                  ]. The plot corresponding to this substrate-induced dimerization reaction shows a function\n                  <jats:italic>f</jats:italic>\n                  ([\n                  <jats:italic>S</jats:italic>\n                  ]) that is not monotonic,\n                  <jats:italic>i</jats:italic>\n                  .\n                  <jats:italic>e</jats:italic>\n                  . not strictly increasing or decreasing, but with a second derivative initially negative and then becoming positive after having passed the\n                  <jats:italic>V</jats:italic>\n                  <jats:sub>\n                    <jats:italic>max</jats:italic>\n                  </jats:sub>\n                  point. This is typically a type of curve showing a phenomenon like the one of substrate inhibition (for instance, inhibition by excess-substrate [7]). The graphical representation of this process shows an interesting behaviour: from zero\n                  <jats:italic>\u03bc</jats:italic>\n                  M/s, the reaction rate increases progressively, similar to the kind of curve described by the Michaelis-Menten model. However, after having reached its maximum catalytic rate,\n                  <jats:italic>V</jats:italic>\n                  <jats:sub>\n                    <jats:italic>max</jats:italic>\n                  </jats:sub>\n                  , the reaction rate decreases progressively as we continue to increase the substrate concentration. I propose an explanation to this interesting behavior. At the moment where\n                  <jats:italic>V</jats:italic>\n                  <jats:sub>\n                    <jats:italic>cat</jats:italic>\n                  </jats:sub>\n                  is maximum, we can assume that, in theory, every single substrate molecule in solution is bound to two enzyme monomers (\n                  <jats:italic>i</jats:italic>\n                  .\n                  <jats:italic>e</jats:italic>\n                  . to one active dimer). The catalytic rate is thus theoretically maximized. At the time where the reaction rate begins to decrease, we observe a new phenomenon that appears: the enzyme monomers begin to be \u201cdiluted\u201d in the solution containing the excess substrate. The dimers begin to dissociate and to bind increasingly to the substrate as inactive monomers instead of active dimers. Hence, it is more and more unlikely for the enzyme monomers to sequentially bind twice to the same substrate molecule (here, [\n                  <jats:italic>E</jats:italic>\n                  ]\n                  <jats:italic>\u226a</jats:italic>\n                  [\n                  <jats:italic>S</jats:italic>\n                  ]). Thus, at this stage, the substrate-induced dimerization occurs less often. At the limit, when the substrate is in high excess, there is virtually no more dimerization which occurs. This is one example of excess-substrate inhibition. Furthermore, after having established this fact, I wanted to see if this catalytic behavior was also observed\n                  <jats:italic>in vitro</jats:italic>\n                  . Therefore, I conducted an experiment where I measured the catalytic rate of the M\n                  <jats:sup>pro</jats:sup>\n                  dimer for different substrate concentrations. The properties of my substrate construct were such, that I could determine the catalytic rate of the enzyme dimer by directly measuring the spectrophotometric absorbance of the cleaved substrate at\n                  <jats:italic>\u03bb</jats:italic>\n                  = 405 nm. The results show explicitly \u2014 within a margin of error \u2014 that the overall shape of the experimental curve looks like the one of the theoretical curve. I thus conclude that the biochemical behavior of the M\n                  <jats:sup>pro</jats:sup>\n                  <jats:italic>in vitro</jats:italic>\n                  follows a new path when it is in contact with its substrate: an excess substrate concentration decreases the activity of the enzyme by the phenomenon of a type of excess-substrate inhibition. This finding could open a new door in the discovery of drugs directed against the M\n                  <jats:sup>pro</jats:sup>\n                  enzyme of the SARS-CoV-2 virus, acting on the inhibition by excess-substrate of the M\n                  <jats:sup>pro</jats:sup>\n                  enzyme, this protein being a key component in the metabolism of the virus. Furthermore, I have established that the maximum of the fitted curve,\n                  <jats:italic>V</jats:italic>\n                  <jats:sub>\n                    <jats:italic>max</jats:italic>\n                  </jats:sub>\n                  , depends only on [\n                  <jats:italic>E</jats:italic>\n                  ]\n                  <jats:sub>\n                    <jats:italic>T</jats:italic>\n                  </jats:sub>\n                  and not on [\n                  <jats:italic>S</jats:italic>\n                  ].\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"490203v1_inline1.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  exhibits the same dependence pattern. Therefore, if I keep [\n                  <jats:italic>E</jats:italic>\n                  ]\n                  <jats:sub>\n                    <jats:italic>T</jats:italic>\n                  </jats:sub>\n                  close to zero, the catalytic rate of the enzyme will also be greatly reduced, which can be understood intuitively. Finally, if we dilute the enzyme sufficiently in the host cell by injecting a suitably high concentration of the octapeptide substrate AVLQSGFR (an inhibitor of the original substrate), this artificial substrate will bind to the \u201cintermediate\u201d dimer from the polypeptide and prevent the precursor M\n                  <jats:sup>pro</jats:sup>\n                  from auto-cleaving and dimerizing due to the \u201cdistorted key\u201d effect of the octapeptide on the \u201cintermediate\u201d dimer. The precursor peptide M\n                  <jats:sup>pro</jats:sup>\n                  will auto-cleave to a lesser extent than in the absence of the artificial octapeptide and thus the concentration of the total enzyme [\n                  <jats:italic>E</jats:italic>\n                  ]\n                  <jats:sub>\n                    <jats:italic>T</jats:italic>\n                  </jats:sub>\n                  will be lowered in the cell. It would therefore be possible to control the virulence of the virus by adjusting the concentration of the artificial inhibitory octapeptide. However, this is only speculation and has yet to be verified in practice.\n                </jats:p>",
+    "DOI": "10.1101/2022.05.01.490203",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2022-05-02T22:55:12Z",
+      "timestamp": 1651532112000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "SARS-CoV-2 Main Protease: a Kinetic Approach"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Thierry",
+        "family": "Rebetez",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.1",
+        "first-page": "333",
+        "article-title": "Die Kinetik der Invertinwirkung",
+        "volume": "49",
+        "year": "1913",
+        "journal-title": "Biochemische Zeitschrift"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bpj.2009.12.4272"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M510745200"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M115.651463"
+      },
+      {
+        "issue": "4",
+        "key": "2022050410501254000_2022.05.01.490203v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1093",
+        "DOI": "10.3866/PKU.WHXB20100449",
+        "article-title": "Substrate Binding and Homo-Dimerization of SARS 3CL Proteinase Are Mutual Allosteric Effectors",
+        "volume": "26",
+        "year": "2010",
+        "journal-title": "Acta Phys. -Chim. Sin"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13238-010-0011-4"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bies.200900167"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.8",
+        "unstructured": "Gibson, P. G. , Qin, L. , Puah, S. H. 2020. COVID-19 Acute Respiratory Distress Syndrome (ARDS): Clinical Features and Differences From Typical Pre-COVID-19 ARDS. Australasian Medical Publishing Company."
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Que, Y. , et al. 2021. Cytokine Release Syndrome in COVID-19: a Major Mechanism of Morbidity and Mortality. International Reviews of Immunology.",
+        "DOI": "10.1080/08830185.2021.1884248"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "e395",
+        "DOI": "10.1097/JOM.0000000000002193",
+        "article-title": "SARS-Cov-2: The Relevance and Prevention of Aerosol Transmission",
+        "volume": "63",
+        "year": "2021",
+        "journal-title": "Journal of Occupational and Environmental Medicine"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cytogfr.2020.05.010"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.12.039"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-021-02483-w"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-021-02383-z"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.15",
+        "unstructured": "World Health Organization. 2022. Technology Transfer in Low-Income Countries."
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13238-011-1034-1"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.76"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M510745200"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444913001315"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M310875200"
+      },
+      {
+        "issue": "12",
+        "key": "2022050410501254000_2022.05.01.490203v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0144865",
+        "DOI": "10.1371/journal.pone.0144865",
+        "article-title": "Critical Assessment of the Important Residues Involved in the Dimerization and Catalysis of MERS Coronavirus Main Protease",
+        "volume": "10",
+        "year": "2015",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "issue": "10",
+        "key": "2022050410501254000_2022.05.01.490203v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0240079",
+        "DOI": "10.1371/journal.pone.0240079",
+        "article-title": "Biochemical Screening for SARS-CoV-2 Main Protease Inhibitors",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/138161206779010369"
+      },
+      {
+        "issue": "6",
+        "key": "2022050410501254000_2022.05.01.490203v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1021/acscombsci.0c00058",
+        "article-title": "Targeting the Dimerization of the Main Protease of Coronaviruses: a Potential Broad-Spectrum Therapeutic Strategy",
+        "volume": "22",
+        "year": "2020",
+        "journal-title": "ACS Comb Sci"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb3405"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/bi036022q"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.27",
+        "first-page": "177",
+        "article-title": "Processing of the Human Coronavirus Replicase Polyproteins by the Virus-Encoded 3C-Like Proteinase: Identification of Proteolytic Products and Cleavage Sites Common to pp1a and pp1ab",
+        "volume": "73",
+        "year": "1998",
+        "journal-title": "J. Virol"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1038/s42003-022-03090-9",
+        "article-title": "Identification of SARS-CoV-2 Inhibitors Targeting Mpro and PLpro Using In-Cell-Protease Assay",
+        "volume": "5",
+        "year": "2022",
+        "journal-title": "Commun. Biol"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "100847",
+        "DOI": "10.1016/j.bbrep.2020.100847",
+        "article-title": "Analysis of Non-Structural Proteins, NSPs of SARS-CoV-2 as Targets for Computational Drug Designing",
+        "volume": "25",
+        "year": "2021",
+        "journal-title": "Bioch. and Biophys. Reports"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bzowka, M. , et al. Structural and Evolutionary Analysis Indicate That the SARS-CoV-2 Mpro Is a Challenging Target for Small-Molecule Inhibitor Design. Int. J. Mol. Sci. 21(9): 3099",
+        "DOI": "10.3390/ijms21093099"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0006-291X(03)01342-1"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "16938",
+        "DOI": "10.1016/S0021-9258(19)85285-7",
+        "article-title": "A Vectorized Sequence-Coupling Model for Predicting HIV Protease Cleavage Sites in Proteins",
+        "volume": "268",
+        "year": "1993",
+        "journal-title": "J. Biol. Chem"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1002/(SICI)1097-0134(199601)24:1<51::AID-PROT4>3.0.CO;2-R",
+        "article-title": "Predicting HIV Protease Cleavage Sites in Proteins by a Discriminant Function Method",
+        "volume": "24",
+        "year": "1996",
+        "journal-title": "Proteins: Structure, Function and Genetics"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hsu, M.F. , et al. Mechanism of the Maturation Process of SARS-CoV 3CL Protease. J. Biol. Chem. 280: 31257\u201331266.",
+        "DOI": "10.1074/jbc.M502577200"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0006-3495(94)80615-0"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "292",
+        "DOI": "10.1186/s40064-015-1082-8",
+        "article-title": "Analysis of the Substrate Inhibition of Complete and Partial Types",
+        "volume": "4",
+        "year": "2015",
+        "journal-title": "SpringerPlus"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kokkonen, P. et al. Substrate Inhibition by the Blockage of Product Release and Its Control by Tunnel Engineering. 2021. RSC Chemical Biology 2: 645\u2013655.",
+        "DOI": "10.1039/D0CB00171F"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.2174/1573406053765468",
+        "article-title": "Application of Bioinformatics in Search for Cleavable Peptides of SARS-CoV Mpro and Chemical Modification of Octapeptides",
+        "volume": "1",
+        "year": "2005",
+        "journal-title": "Medicinal Chemistry"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "607",
+        "DOI": "10.3390/biom11040607",
+        "article-title": "SARS-CoV-2 PLpro. A Potential Target for Peptidomimetics and Small-Molecule Inhibitors",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Biomolecules"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4039/Ent91293-5"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4039/Ent91385-7"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stephens, D.W. and Krebs, J.R. 1986. Foraging Theory. Princeton University Press.",
+        "DOI": "10.1515/9780691206790"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja01318a036"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/283161"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.45",
+        "unstructured": "Thiollay, J.-M. 1988. Prey Availability Limiting an Island Population of Peregrine Falcons in Tunisia. In T. J. Cade , J. H. Enderson , C. G. Thelander , and C. M. White , eds. Peregrine Falcon Populations: Their Management and Recovery. Peregrine Fund, Boise, ID. Pages 701\u2013710."
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.46",
+        "first-page": "489",
+        "article-title": "Arms Races Between and Within Species",
+        "volume": "202",
+        "year": "1979",
+        "journal-title": "Proc. R. Soc. lond. B"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1098/rsbl.2011.0103",
+        "article-title": "Dome-Shaped Functional Response Induced by Nutrient Imbalance of the Prey",
+        "volume": "7",
+        "year": "2011",
+        "journal-title": "Biology Letters"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1578"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aobpla/plu066"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1933728"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/284844"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1111/j.1439-0310.1986.tb00915.x",
+        "article-title": "Cooperative Hunting and its Relationship to Foraging Success and Prey Size in an Avian Predator",
+        "volume": "73",
+        "year": "1986",
+        "journal-title": "Ethology"
+      },
+      {
+        "issue": "2",
+        "key": "2022050410501254000_2022.05.01.490203v1.53",
+        "first-page": "123",
+        "article-title": "Cooperative Hunting of Jackdaws by the Lanner Falcon (Falco Biarmicus)",
+        "volume": "33",
+        "year": "1999",
+        "journal-title": "Journal of Raptor Research"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1312102"
+      },
+      {
+        "issue": "3",
+        "key": "2022050410501254000_2022.05.01.490203v1.55",
+        "first-page": "292",
+        "article-title": "An Example of Cooperative Hunting by Saker Falcons in Hungary",
+        "volume": "38",
+        "year": "2004",
+        "journal-title": "Journal of Raptor Research"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.56",
+        "first-page": "355",
+        "article-title": "Why Bonelli\u2019s Eagles Hunt in Pair: an Assessment of Individual and Paired Hunting Successes",
+        "volume": "91",
+        "year": "1994",
+        "journal-title": "Journal of the Bombay Natural History Society"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.57",
+        "first-page": "2",
+        "article-title": "The Golden Eagle in Cochise County, Arizona",
+        "volume": "33",
+        "year": "1916",
+        "journal-title": "Oologist"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.58",
+        "unstructured": "Hunsicker, G. R. 1972. Nesting Behavior of the Golden Eagle, Aquila chrysaetos, in San Diego County, California. Master\u2019s Thesis. University of California, Riverside."
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gentleman, W. , et al. 2003. Functional Responses for Zooplankton Feeding on Multiple Resources: a Review of Assumptions and Biological Dynamics. Deep-Sea Research II. 2847\u20132875.",
+        "DOI": "10.1016/j.dsr2.2003.07.001"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S1464793103006286"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0003-3472(86)80208-1"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsos.160564"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/293466a0"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.64",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1007/s00265-018-2609-0",
+        "article-title": "Complex Patterns of Collective Escape in Starling Flocks Under Predation",
+        "volume": "73",
+        "year": "2019",
+        "journal-title": "Behavioral Ecology and Sociobiology"
+      },
+      {
+        "key": "2022050410501254000_2022.05.01.490203v1.65",
+        "unstructured": "Le journal de Sa\u00f4ne-et-Loire. 2nd April 2018. Trois Buses et Deux Faucons Ont Chass\u00e9 les Pigeons de la Ville."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.01.490203",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:59:29Z",
+      "timestamp": 1768445969000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.01.490203"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          2
+        ]
+      ]
+    },
+    "references-count": 65,
+    "URL": "https://doi.org/10.1101/2022.05.01.490203",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          2
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

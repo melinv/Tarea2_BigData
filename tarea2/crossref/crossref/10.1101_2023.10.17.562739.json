@@ -1,0 +1,324 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:21:48Z",
+      "timestamp": 1768508508114,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          17
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 31,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Cytokine interaction activity modeling is a pressing problem since uncontrolled cytokine influx is at fault in a variety of medical conditions, including viral infections like COVID19, and cancer. Accurate knowledge of cytokine activity levels can be leveraged to provide tailored treatment recommendations based on individual patients\u2019 transcriptomics data. Here, we describe a novel method named Single cell transcriptomics-level Cytokine Activity Prediction and Estimation (SCAPE) that can predict cell-level cytokine activity from scRNA-seq data. SCAPE generates activity estimates using cytokine-specific gene sets constructed using information from the CytoSig and Reactome databases and scored with a modified version of the Variance-adjusted Mahalanobis (VAM) method adjusted for negative weights. We validate SCAPE using both simulated and real single cell RNA-sequencing (scRNA-seq) data. For the simulation study, we perturb real scRNA-seq data to reflect the expected stimulation signature of up to 41 cytokines, including chemokines, interleukins and growth factors. For the real data evaluation, we use publicly accessible scRNA-seq data that captures cytokine stimulation and blockade experiment conditions and a COVID19 transcriptomics data. As demonstrated by these evaluations, our approach can accurately estimate cell-level cytokine activity from scRNA-seq data. Our model has the potential to be incorporated in clinical settings as a way to estimate cytokine signaling for different cell populations within an impacted tissue sample.</jats:p>",
+    "DOI": "10.1101/2023.10.17.562739",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2023-10-17T20:35:17Z",
+      "timestamp": 1697574917000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Single cell transcriptomics-level Cytokine Activity Prediction and Estimation (SCAPE)"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5325-1768",
+        "authenticated-orcid": false,
+        "given": "Azka",
+        "family": "Javaid",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6794-9945",
+        "authenticated-orcid": false,
+        "given": "H. Robert",
+        "family": "Frost",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Giavridis , S. J. C. van der Stegen , J. Eyquem , M. Hamieh , A. Piersigilli and M. Sadelain , CAR t cell\u2013induced cytokine release syndrome is mediated by macrophages and abated by IL-1 blockade, 24, 731 Number: 6 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41591-018-0041-7"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Cabello-Aguilar , M. Alame , F. Kon-Sun-Tack , C. Fau , M. Lacroix and J. Colinge , Single-CellSignalR: inference of intercellular networks from single-cell transcriptomics, 48, p. e55.",
+        "DOI": "10.1093/nar/gkaa183"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.3",
+        "unstructured": "Y. Wang , R. Wang , S. Zhang , S. Song , C. Jiang , G. Han , M. Wang , J. Ajani , A. Futreal and L. Wang , iTALK: an r package to characterize and illustrate intercellular communication Pages: 507871 Section: New Results."
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Efremova , M. Vento-Tormo , S. A. Teichmann and R. Vento-Tormo , CellPhoneDB: inferring cell\u2013cell communication from combined expression of multi-subunit ligand\u2013receptor complexes, 15, 1484 Number: 4 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41596-020-0292-x"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. R. Vahid , A. H. Kurlovs , T. Andreani , F. Aug\u00e9 , R. Olfati-Saber , E. de Rinaldis , F. Rapaport and V. Savova , DiSiR: fast and robust method to identify ligand\u2013receptor interactions at subunit level from single-cell RNA-sequencing data, 5, p. qad030.",
+        "DOI": "10.1093/nargab/lqad030"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. K. Shalek and M. Benson , Single-cell analyses to tailor treatments, 9, p. eaan4730 Publisher: American Association for the Advancement of Science.",
+        "DOI": "10.1126/scitranslmed.aan4730"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Browaeys , W. Saelens and Y. Saeys , NicheNet: modeling intercellular communication by linking ligands to target genes, 17, 159 Number: 2 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41592-019-0667-5"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Armingol , A. Officer , O. Harismendy and N. E. Lewis , Deciphering cell\u2013cell interactions and communication from gene expression, 22, 71 Number: 2 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41576-020-00292-x"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Stoeckius , C. Hafemeister , W. Stephenson , B. Houck-Loomis , P. K. Chattopadhyay , H. Swerd-low , R. Satija and P. Smibert , Simultaneous epitope and transcriptome measurement in single cells, 14, 865 Number: 9 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/nmeth.4380"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Liao , Y. Liu , J. Yuan , Y. Wen , G. Xu , J. Zhao , L. Cheng , J. Li , X. Wang , F. Wang , L. Liu Amit , S. Zhang and Z. Zhang , Single-cell landscape of bronchoalveolar immune cells in patients with COVID-19, 26, 842 Number: 6 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41591-020-0901-9"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Jiang , Y. Zhang , B. Ru , Y. Yang , T. Vu , R. Paul , A. Mirza , G. Altan-Bonnet , L. Liu , E. Ruppin , L. Wakefield and K. W. Wucherpfennig , Systematic investigation of cytokine signaling activity at the tissue and single-cell levels, 18, 1181 Number: 10 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41592-021-01274-5"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.12",
+        "first-page": "D687",
+        "volume": "50",
+        "year": "2022",
+        "journal-title": "The reactome pathway knowledgebase"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Leinonen , H. Sugawara and M. Shumway , The sequence read archive, 39, D19.",
+        "DOI": "10.1093/nar/gkq1019"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.14",
+        "first-page": "D70",
+        "volume": "48",
+        "year": "2019",
+        "journal-title": "The european nucleotide archive in"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Barrett , S. E. Wilhite , P. Ledoux , C. Evangelista , I. F. Kim , M. Tomashevsky , K. A. Marshall , K. H. Phillippy , P. M. Sherman , M. Holko , A. Yefanov , H. Lee , N. Zhang , C. L. Robertson , N. Serova , S. Davis and A. Soboleva , NCBI GEO: archive for functional genomics data sets\u2014update, 41, D991.",
+        "DOI": "10.1093/nar/gks1193"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Parkinson , M. Kapushesky , M. Shojatalab , N. Abeygunawardena , R. Coulson , A. Farne , E. Holloway , N. Kolesnykov , P. Lilja , M. Lukk , R. Mani , T. Rayner , A. Sharma , E. William , U. Sarkans and A. Brazma , ArrayExpress\u2014a public database of microarray experiments and gene expression profiles, 35, D747.",
+        "DOI": "10.1093/nar/gkl995"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. A. Ramilowski , T. Goldberg , J. Harshbarger , E. Kloppmann , M. Lizio , V. P. Satagopam , M. Itoh , H. Kawaji , P. Carninci , B. Rost and A. R. R. Forrest , A draft network of ligand\u2013receptormediated multicellular signalling in human, 6, p. 7866 Number: 1 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/ncomms8866"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. R. Frost , Variance-adjusted mahalanobis (VAM): a fast and accurate method for cell-specific gene set scoring, 48, p. e94.",
+        "DOI": "10.1093/nar/gkaa582"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. R. Frost , Reconstruction set test (RESET): a computationally efficient method for single sample gene set testing based on randomized reduced rank reconstruction error Pages: 2023.04.03.535366 Section: New Results.",
+        "DOI": "10.1101/2023.04.03.535366"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Javaid and H. R. Frost , STREAK: A supervised cell surface receptor abundance estimation strategy for single cell RNA-sequencing data using feature selection and thresholded gene set scoring, 19, p. e1011413 Publisher: Public Library of Science.",
+        "DOI": "10.1371/journal.pcbi.1011413"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2019.05.031"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Cano-Gamez , B. Soskic , T. I. Roumeliotis , E. So , D. J. Smyth , M. Baldrighi , D. Will\u00e9 , N. Nakic , J. Esparza-Gordillo , C. G. C. Larminie , P. G. Bronson , D. F. Tough , W. C. Rowan , J. S. Choudhary and G. Trynka , Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ t cells to cytokines, 11, p. 1801 Number: 1 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41467-020-15543-y"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. R. Frost , Reconstruction set test (RESET): a computationally efficient method for single sample gene set testing based on randomized reduced rank reconstruction error Pages: 2023.04.03.535366 Section: New Results.",
+        "DOI": "10.1101/2023.04.03.535366"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Lause , P. Berens and D. Kobak , Analytic pearson residuals for normalization of single-cell RNA-seq UMI data, 22, p. 258.",
+        "DOI": "10.1186/s13059-021-02451-7"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Aschenbrenner , M. Quaranta , S. Banerjee , N. Ilott , J. Jansen , B. Steere , Y.-H. Chen , S. Ho , K. Cox , C. V. Arancibia-C\u00e1rcamo , M. Coles , E. Gaffney , S. P. Travis , L. Denson , S. Kugathasan , J. Schmitz , F. Powrie , S. N. Sansom and H. H. Uhlig , Deconvolution of monocyte responses in inflammatory bowel disease reveals an IL-1 cytokine network that regulates IL-23 in genetic and acquired IL-10 resistance, 70, 1023.",
+        "DOI": "10.1136/gutjnl-2020-321731"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. D. Jackson , J. L. Everman , M. Chioccioli , L. Feriani , K. C. Goldfarbmuren , S. P. Sajuthi , C. L. Rios , R. Powell , M. Armstrong , J. Gomez , C. Michel , C. Eng , S. S. Oh , J. Rodriguez-Santana , P. Cicuta , N. Reisdorph , E. G. Burchard and M. A. Seibold , Single-cell and population transcriptomics reveal pan-epithelial remodeling in type 2-high asthma, 32, p. 107872.",
+        "DOI": "10.1016/j.celrep.2020.107872"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Hao , S. Hao , E. Andersen-Nissen , W. M. M. III , S. Zheng , A. Butler , M. J. Lee , A. J. Wilk , C. Darby , M. Zagar , P. Hoffman , M. Stoeckius , E. Papalexi , E. P. Mimitou , J. Jain , A. Srivastava , T. Stuart , L. B. Fleming , B. Yeung , A. J. Rogers , J. M. McElrath , C. A. Blish , R. Gottardo , P. Smibert and R. Satija , Integrated analysis of multimodal single-cell data, Cell (2021).",
+        "DOI": "10.1101/2020.10.12.335331"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4096"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3192"
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.30",
+        "unstructured": "R Core Team, R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria, (2023)."
+      },
+      {
+        "key": "2023102004151338000_2023.10.17.562739v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. M. Del Valle , S. Kim-Schulze , H.-H. Huang , N. D. Beckmann , S. Nirenberg , B. Wang , Y. Lavin , T. H. Swartz , D. Madduri , A. Stock , T. U. Marron , H. Xie , M. Patel , K. Tuballes , O. Van Oekelen , A. Rahman , P. Kovatch , J. A. Aberg , E. Schadt , S. Jagannath , M. Mazumdar , A. W. Charney , A. Firpo-Betancourt , D. R. Mendu , J. Jhang , D. Reich , K. Sigel , C. Cordon-Cardo , M. Feldmann , S. Parekh , M. Merad and S. Gnjatic , An inflammatory cytokine signature predicts COVID-19 severity and survival, 26, 1636 Number: 10 Publisher: Nature Publishing Group.",
+        "DOI": "10.1038/s41591-020-1051-9"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.17.562739",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:23:17Z",
+      "timestamp": 1768454597000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.17.562739"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          17
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1101/2023.10.17.562739",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

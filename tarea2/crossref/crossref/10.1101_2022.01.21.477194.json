@@ -1,0 +1,220 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:04:31Z",
+      "timestamp": 1768500271149,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 7,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:p>Viral sequence data from clinical samples frequently contain human contamination, which must be removed prior to sharing for legal and ethical reasons. To enable host read removal for SARS-CoV-2 sequencing data on low-specification laptops, we developed ReadItAndKeep, a fast lightweight tool for Illumina and nanopore data that only keeps reads matching the SARS-CoV-2 genome. Peak RAM usage is typically below 10MB, and runtime less than one minute. We show that by excluding the polyA tail from the viral reference, ReadItAndKeep prevents bleed-through of human reads, whereas mapping to the human genome lets some reads escape. We believe our test approach (including all possible reads from the human genome, human samples from each of the 26 populations in the 1000 genomes data, and a diverse set of SARS-CoV-2 genomes) will also be useful for others.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    ReadItAndKeep is implemented in C++, released under the MIT license, and available from\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/GenomePathogenAnalysisService/read-it-and-keep\">https://github.com/GenomePathogenAnalysisService/read-it-and-keep</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.01.21.477194",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2022-01-21T19:00:12Z",
+      "timestamp": 1642791612000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "ReadItAndKeep: rapid decontamination of SARS-CoV-2 sequencing reads"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8060-4335",
+        "authenticated-orcid": false,
+        "given": "Martin",
+        "family": "Hunt",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jeremy",
+        "family": "Swann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3480-3819",
+        "authenticated-orcid": false,
+        "given": "Bede",
+        "family": "Constantinides",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0912-4483",
+        "authenticated-orcid": false,
+        "given": "Philip W",
+        "family": "Fowler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8466-7547",
+        "authenticated-orcid": false,
+        "given": "Zamin",
+        "family": "Iqbal",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "7",
+        "key": "2022012411151434000_2022.01.21.477194v1.1",
+        "first-page": "e000393",
+        "article-title": "Evaluation of methods for detecting human reads in microbial sequencing datasets",
+        "volume": "6",
+        "author": "A. SarahYR 2020 Walker",
+        "year": "2020",
+        "journal-title": "Microbial Genomics"
+      },
+      {
+        "key": "2022012411151434000_2022.01.21.477194v1.2",
+        "unstructured": "Heng Li . Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv:1303.3997 [q-bio], May 2013. arXiv: 1303.3997."
+      },
+      {
+        "issue": "4",
+        "key": "2022012411151434000_2022.01.21.477194v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1038/nmeth.1923",
+        "article-title": "Fast gapped-read alignment with Bowtie 2",
+        "volume": "9",
+        "year": "2012",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2022012411151434000_2022.01.21.477194v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-019-1891-0"
+      },
+      {
+        "key": "2022012411151434000_2022.01.21.477194v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marta Byrska-Bishop , Uday S. Evani , Xuefang Zhao , Anna O. Basile , Haley J. Abel , Allison A. Regier , Andre Corvelo , Wayne E. Clarke , Rajeeva Musunuri , Kshithija Nagulapalli , Susan Fairley , Alexi Runnels , Lara Winterkorn , Ernesto Lowy-Gallego , The Human Genome Structural Variation Consortium, Paul Flicek , Soren Germer , Harrison Brand , Ira M. Hall , Michael E. Talkowski , Giuseppe Narzisi , and Michael C. Zody . High coverage whole genome sequencing of the expanded 1000 genomes project cohort including 602 trios. bioRxiv, 2021.",
+        "DOI": "10.1101/2021.02.06.430068"
+      },
+      {
+        "key": "2022012411151434000_2022.01.21.477194v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4060"
+      },
+      {
+        "key": "2022012411151434000_2022.01.21.477194v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aine O\u2019Toole , Emily Scher , Anthony Underwood , Ben Jackson , Verity Hill , John T McCrone , Rachel Colquhoun , Chris Ruis , Khalil Abu-Dahab , Ben Taylor , Corin Yeats , Louis Du Plessis , Daniel Maloney , Nathan Medd , Stephen W Attwood , David M Aanensen , Edward C Holmes , Oliver G Pybus , and Andrew Rambaut . Assignment of Epidemiological Lineages in an Emerging Pandemic Using the Pangolin Tool. Virus Evolution, page veab064, July 2021.",
+        "DOI": "10.1093/ve/veab064"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.01.21.477194",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:36:07Z",
+      "timestamp": 1768444567000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.01.21.477194"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    },
+    "references-count": 7,
+    "URL": "https://doi.org/10.1101/2022.01.21.477194",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/bioinformatics/btac311",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:36:42Z",
+      "timestamp": 1768552602727,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 35,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Objectives</jats:title>\n                  <jats:p>Integrating electronic health records (EHR) data from several clinical sites offers great opportunities to improve estimation with a more general population compared to analyses based on a single clinical site. However, sharing patient-level data across sites is practically challenging due to concerns about maintaining patient privacy. The objective of this study is to develop a novel distributed algorithm to integrate heterogeneous EHR data from multiple clinical sites without sharing patient-level data.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>The proposed distributed algorithm for binary regression can effectively account for between-site heterogeneity and is communication-efficient. Our method is built on a pairwise likelihood function in the extended Mantel-Haenszel regression, which is known to be statistically highly efficient. We construct a surrogate pairwise likelihood function through approximating the target pairwise likelihood by its surrogate. We show that the proposed surrogate pairwise likelihood leads to a consistent and asymptotically normal estimator by effective communication without sharing individual patient-level data. We study the empirical performance of the proposed method through a systematic simulation study and an application with data of 14,215 COVID-19 patients from 230 clinical sites at UnitedHealth Group Clinical Research Database.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The proposed method was shown to perform close to the gold standard approach under extensive simulation settings. When the event rate is &lt;5%, the relative bias of the proposed estimator is 30% smaller than that of the meta-analysis estimator. The proposed method retained high accuracy across different sample sizes and event rates compared with meta-analysis. In the data evaluation, the proposed estimate has a relative bias &lt;9% when the event rate is &lt;1%, whereas the meta-analysis estimate has a relative bias at least 10% higher than that of the proposed method.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our simulation study and data application demonstrate that the proposed distributed algorithm provides an estimator that is robust to heterogeneity in event rates when effectively integrating data from multiple clinical sites. Our algorithm is therefore an effective alternative to both meta-analysis and existing distributed algorithms for modeling heterogeneous multi-site binary outcomes.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.11.17.20220681",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2020-11-18T20:01:31Z",
+      "timestamp": 1605729691000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "An efficient distributed algorithm with application to COVID-19 data from heterogeneous clinical sites"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1213-6699",
+        "authenticated-orcid": false,
+        "given": "Jiayi",
+        "family": "Tong",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chongliang",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Md Nazmul",
+        "family": "Islam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Natalie",
+        "family": "Sheils",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John",
+        "family": "Buresh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mackenzie",
+        "family": "Edmondson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter A.",
+        "family": "Merkel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ebbing",
+        "family": "Lautenbach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rui",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0835-0788",
+        "authenticated-orcid": false,
+        "given": "Yong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.1"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.2",
+        "unstructured": "Food US, Administration D, Others. Use of real-world evidence to support regulatory decision-making for medical devices: guidance for industry and Food and Drug Administration staff. Silver Spring, MD: US Food and Drug Administration 2017."
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.3",
+        "unstructured": "Food US , Administration D , Others. Use of electronic health record data in clinical investigations: guidance for industry. Silver Spring, MD: US Department of Health and Human Services 2018."
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.4",
+        "unstructured": "Center for Drug Evaluation and Research. Submitting Documents Using Real-World Data and Real-World Evidence. FDA Med Bull www.fda.gov/regulatory-information/search-fda-guidance-documents/submitting-documents-using-real-world-data-and-real-world-evidence-fda-drugs-and-biologics-guidance"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.5",
+        "first-page": "1d",
+        "article-title": "Health information technology: integration of clinical workflow into meaningful use of electronic health records",
+        "volume": "7",
+        "year": "2010",
+        "journal-title": "Perspect Health Inf Manag"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.3001456"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2012-000878"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-157-3-201208070-00012"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2481",
+        "DOI": "10.1001/jama.2016.16459",
+        "article-title": "Creating Local Learning Health Systems: Think Globally, Act Locally",
+        "volume": "316",
+        "year": "2016",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-151-5-200909010-00139"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/MLR.0b013e3181d9919f"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.12",
+        "first-page": "574",
+        "article-title": "Observational Health Data Sciences and Informatics (OHDSI): Opportunities for Observational Researchers",
+        "volume": "216",
+        "year": "2015",
+        "journal-title": "Stud Health Technol Inform"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2011-000376"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2014-002743"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2014-002747"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pds.2343"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu H-DI . Effect of Ignoring Heterogeneity in Hazards Regression. In: Balakrishnan N , Nikulin MS , Mesbah M , et al. , eds. Parametric and Semiparametric Models with Applications to Reliability, Survival Analysis, and Quality of Life. Boston, MA: : Birkh\u00e4user Boston 2004. 239\u201350.",
+        "DOI": "10.1007/978-0-8176-8206-4_16"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "115",
+        "DOI": "10.1146/annurev-biodatasci-080917-013416",
+        "article-title": "Privacy Policy and Technology in Biomedical Data Science",
+        "volume": "1",
+        "year": "2018",
+        "journal-title": "Annu Rev Biomed Data Sci"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jamia.2009.002725"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jamia.2009.000026"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2012-000936"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2018.1755"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1510502113"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1093/jamia/ocx105",
+        "article-title": "Uncovering exposures responsible for birth season--disease effects: a global study",
+        "volume": "25",
+        "year": "2018",
+        "journal-title": "J Am Med Inform Assoc"
+      },
+      {
+        "issue": "7",
+        "key": "2020112015100906000_2020.11.17.20220681v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1028",
+        "DOI": "10.1093/jamia/ocaa044",
+        "article-title": "Learning from local to global-an efficient distributed algorithm for modeling time-to-event data",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "Journal of the American Medical Informatics Association"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2012-000862"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocv083"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/amiajnl-2014-002751"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.29",
+        "unstructured": "Duan R , Boland MR , Moore JH , Chen Y. ODAL: a one-shot distributed algorithm to perform logistic regressions on electronic health records data from multiple clinical sites. In: Altman RB , Dunker AK , Hunter L , Ritchie MD , Murray T , Klein TE , eds. Pacific Symposium on Biocomputing 2019. Singapore: World Scientific; 30\u201341."
+      },
+      {
+        "issue": "3",
+        "key": "2020112015100906000_2020.11.17.20220681v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1093/jamia/ocz199",
+        "article-title": "Learning from electronic health records across multiple sites: A communication-efficient and privacy-preserving distributed algorithm",
+        "volume": "27",
+        "year": "2020",
+        "journal-title": "Journal of the American Medical Informatics Association"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2531813"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.32",
+        "first-page": "695",
+        "article-title": "Robust-ODAL: Learning from heterogeneous health systems without sharing patient-level data",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Pacific Symposium on Biocomputing"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2018.1429274"
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.34",
+        "unstructured": "Epic. https://www.epic.com (accessed 15 Oct 2020)."
+      },
+      {
+        "key": "2020112015100906000_2020.11.17.20220681v1.35",
+        "unstructured": "Home. https://www.cerner.com (accessed 15 Oct 2020)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.11.17.20220681",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:58:54Z",
+      "timestamp": 1768485534000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.11.17.20220681"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1101/2020.11.17.20220681",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

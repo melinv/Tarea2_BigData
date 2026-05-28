@@ -1,0 +1,409 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:07:48Z",
+      "timestamp": 1768565268712,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "group-title": "Public and Global Health",
+    "reference-count": 34,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>In this paper, we introduce a machine-learning approach to detecting COVID-19-positive cases from self-reported information. Specifically, the proposed method builds a tree-based binary classification model that includes a recursive feature elimination step. Based on Shapley values, the recursive feature elimination method preserves the most relevant features without compromising the detection performance. In contrast to previous approaches that use a limited set of selected features, the machine learning approach constructs a detection engine that considers the full set of features reported by respondents. Various versions of the proposed approach were implemented using three different binary classifiers: random forest (RF), light gradient boosting (LGB), and extreme gradient boosting (XGB). We consistently evaluate the performance of the implemented versions of the proposed detection approach on data extracted from the University of Maryland Global COVID-19 Trends and Impact Survey (UMD-CTIS) for four different countries: Brazil, Canada, Japan, and South Africa, and two periods: 2020 and 2021. We also compare the performance of the proposed approach to those obtained by state-of-the-art methods under various quality metrics: F1-score, sensitivity, specificity, precision, receiver operating characteristic (ROC), and area under ROC curve (AUC). It should be noted that the proposed machine learning approach outperformed state-of-the-art detection techniques in terms of the F1-score metric. In addition, this work shows the normalized daily case curves obtained by the proposed approach for the four countries. It should note that the estimated curves are compared to those reported in official reports. Finally, we perform an explainability analysis, using Shapley and relevance ranking of the classification models, to identify the most significant variables contributing to detecting COVID-19-positive cases. This analysis allowed us to determine the relevance of each feature and the corresponding contribution to the detection task.</jats:p>",
+    "DOI": "10.1101/2023.05.26.23290608",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2023-06-05T17:30:16Z",
+      "timestamp": 1685986216000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Feature Selection for an Explainability Analysis in Detection of COVID-19 Active Cases from Facebook User-Based Online Surveys"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Jes\u00fas",
+        "family": "Rufino",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0000-1073",
+        "authenticated-orcid": false,
+        "given": "Juan Marcos",
+        "family": "Ram\u00edrez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jose",
+        "family": "Aguilar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlos",
+        "family": "Baquero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jaya",
+        "family": "Champati",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Davide",
+        "family": "Frey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rosa Elvira",
+        "family": "Lillo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6501-2377",
+        "authenticated-orcid": false,
+        "given": "Antonio",
+        "family": "Fern\u00e1ndez-Anta",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2196-x"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. M. Astley , G. Tuli , K. A. Mc Cord-De Iaco , E. L. Cohn , B. Rader , S. Chiu , X. Deng , K. Stewart , T. H. Farag , K. M. Barkume , et al., Global monitoring of the impact of covid-19 pandemic through online surveys sampled from the facebook user base, medRxiv (2021).",
+        "DOI": "10.1101/2021.07.05.21259989"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Akinbami , L. Petersen , S. Sami , N. Vuong , S. Lukacs , L. Mackey , J. Atas , B. LaFleur , COVID-19 symptoms and SARS-CoV-2 antibody positivity in a large survey of first responders and healthcare personnel, may-july 2020., Clinical Infectious Diseases: an Official Publication of the Infectious Diseases Society of America (2021).",
+        "DOI": "10.1093/cid/ciab080"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Klompas , Coronavirus disease 2019 (covid-19): protecting hospitals from the invisible, 2020.",
+        "DOI": "10.7326/M20-0751"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Zoabi , S. Deri-Rozov , N. Shomron , Machine learning-based prediction of covid-19 diagnosis based on symptoms, npj digital medicine 4 (2021) 1\u20135.",
+        "DOI": "10.1038/s41746-020-00372-6"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1947",
+        "DOI": "10.1007/s42399-020-00603-7",
+        "article-title": "A symptom-based rule for diagnosis of covid-19",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "SN comprehensive clinical medicine"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0916-2"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMp2016259"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "972",
+        "DOI": "10.1038/s41562-020-00944-2",
+        "article-title": "Population-scale longitudinal mapping of covid-19 symptoms, behaviour and testing",
+        "volume": "4",
+        "year": "2020",
+        "journal-title": "Nature human behaviour"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. T. Roland , J. G. Gurrola , P. A. Loftus , S. W. Cheung , J. L. Chang , Smell and taste symptom-based predictive model for covid-19 diagnosis, in: International forum of allergy & rhinology, volume 10, Wiley Online Library, pp. 832\u2013838.",
+        "DOI": "10.1002/alr.22602"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.11",
+        "unstructured": "Coronavirus Disease 2019 (COVID-19) 2020 Interim Case Definition, Approved April 5, 2020, National Notifiable Diseases Surveillance System (NNDSS) (2020)."
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.12",
+        "unstructured": "World Health Organization, Coronavirus disease (COVID-19) Q&A, https://www.who.int/news-room/q-a-detail/ coronavirus-disease-covid-19, 2020. Accessed: 2021-06-02."
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. \u00c1lvarez , C. Baquero , E. Cabana , J. P. Champati , A. F. Anta , D. Frey , A. Garcia-Agundez , C. Georgiou , M. Goessens , H. Hern\u00e1ndez , R. Lillo , R. Menezes , R. Moreno , N. Nicolaou , O. Ojo , A. Ortega , E. Rausell , J. Rufino , E. Stavrakis , G. Jeevan , C. Glorioso , Estimating Active Cases of COVID-19, medRxiv (2021).",
+        "DOI": "10.1101/2021.12.09.21267355"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.14",
+        "first-page": "e822",
+        "volume": "73",
+        "year": "2021",
+        "journal-title": "Coronavirus Disease 2019 Symptoms and Severe Acute Respiratory Syndrome Coronavirus 2 Antibody Positivity in a Large Survey of First Responders and Healthcare Personnel, May-July 2020, Clinical infectious diseases : an official publication of the Infectious Diseases Society of America"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. A. Salomon , A. Reinhart , A. Bilinski , E. J. Chua , W. La Motte-Kerr , M. M. R\u00f6nn , M. B. Reitsma , K. A. Morris , S. LaRocca , T. H. Farag , et al., The US COVID-19 Trends and Impact Survey: Continuous real-time measurement of COVID-19 symptoms, risks, protective behaviors, testing, and vaccination, Proceedings of the National Academy of Sciences 118 (2021).",
+        "DOI": "10.1073/pnas.2111454118"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Bhattacharya , P. Ranjan , A. Kumar , M. Brijwal , R. M. Pandey , N. Mahishi , U. Baitha , S. Pandey , A. Mittal , N. Wig , Development and validation of a clinical symptom-based scoring system for diagnostic evaluation of covid-19 patients presenting to outpatient department in a pandemic situation, Cureus 13 (2021).",
+        "DOI": "10.7759/cureus.13681"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Shoer , T. Karady , A. Keshet , S. Shilo , H. Rossman , A. Gavrieli , T. Meir , A. Lavon , D. Kolobkov , I. Kalka , et al., Who should we test for covid-19? a triage model built from national symptom surveys, Medrxiv (2020).",
+        "DOI": "10.1101/2020.05.18.20105569"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. P\u00e9rez-G\u00f3mez , R. Pastor-Barriuso , M. P\u00e9rez-Olmeda , M. A. Hern\u00e1n , J. Oteo-Iglesias , N. F. de Larrea , A. Fern\u00e1ndez-Garc\u00eda , M. Mart\u00edn , P. Fern\u00e1ndez-Navarro , I. Cruz , et al., Ene-covid nationwide serosurvey served to characterize asymptomatic infections and to develop a symptom-based risk score to predict covid-19, Journal of clinical epidemiology (2021).",
+        "DOI": "10.1016/j.jclinepi.2021.06.005"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.19",
+        "first-page": "1",
+        "article-title": "Symptom-based early-stage differentiation between sars-cov-2 versus other respiratory tract infections\u2014upper silesia pilot study",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.20",
+        "unstructured": "F. Kreuter , N. Barkay , A. Bilinski , A. Bradford , S. Chiu , R. Eliat , J. Fan , T. Galili , D. Haimovich , B. Kim , et al., Partnering with a global platform to inform research and public policy making, in: Survey Research Methods, volume 14, pp. 159\u2013163."
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "115219",
+        "DOI": "10.1016/j.eswa.2021.115219",
+        "article-title": "A novel self-learning feature selection approach based on feature attributions",
+        "volume": "183",
+        "year": "2021",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Holzinger , G. Langs , H. Denk , K. Zatloukal , H. M\u00fcller , Causability and explainability of artificial intelligence in medicine, Interdiscip Rev Data Min Knowl Discov. 9 (2019).",
+        "DOI": "10.1002/widm.1312"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Nyrup , D. Robinson , Explanatory pragmatism: a context-sensitive framework for explainable medical ai, Ethics Inf Technol. 24 (2022).",
+        "DOI": "10.1007/s10676-022-09632-3"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4594",
+        "DOI": "10.1080/10106049.2021.1892210",
+        "article-title": "Decision tree based ensemble machine learning approaches for landslide susceptibility mapping",
+        "volume": "37",
+        "year": "2022",
+        "journal-title": "Geocarto International"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Yasir , A. M. Karim , S. K. Malik , A. A. Bajaffer , E. I. Azhar , Application of decision-tree-based machine learning algorithms for prediction of antimicrobial resistance, Antibiotics 11 (2022).",
+        "DOI": "10.3390/antibiotics11111593"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "e12857",
+        "DOI": "10.1111/exsy.12857",
+        "article-title": "Multi-view rank-based random forest: A new algorithm for prediction in esports",
+        "volume": "39",
+        "year": "2022",
+        "journal-title": "Expert Systems"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1016/j.ins.2021.12.111",
+        "article-title": "Implementing local-explainability in gradient boosting trees: Feature contribution",
+        "volume": "589",
+        "year": "2022",
+        "journal-title": "Information Sciences"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.28",
+        "first-page": "245",
+        "article-title": "A survey on the explainability of supervised machine learning",
+        "volume": "70",
+        "year": "2021",
+        "journal-title": "J. Artif. Int. Res"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.29",
+        "unstructured": "O. Biran , C. V. Cotton , Explanation and justification in machine learning : A survey or, in: IJCAI 2017 Workshop on Explainable Artificial Intelligence (XAI)."
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "100180",
+        "DOI": "10.1016/j.imu.2019.100180",
+        "article-title": "A random forest based predictor for medical data classification using feature ranking",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "Informatics in Medicine Unlocked"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Messalas , Y. Kanellopoulos , C. Makris , Model-agnostic interpretability with shapley values, in: 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), pp. 1\u20137.",
+        "DOI": "10.1109/IISA.2019.8900669"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "641237",
+        "DOI": "10.3389/fcomp.2021.641237",
+        "article-title": "The coronasurveys system for covid-19 incidence data collection and processing",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Frontiers in Computer Science"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Mullol , I. Alobid , F. Mari\u00f1o-S\u00e1nchez , A. Izquierdo-Dom\u00ednguez , C. Marin , L. Klimek , D. Wang , Z. Liu , The loss of smell and taste in the covid-19 outbreak: a tale of many countries, Curr Allergy Asthma Rep. 20 (2020).",
+        "DOI": "10.1007/s11882-020-00961-1"
+      },
+      {
+        "key": "2023060823151075000_2023.05.26.23290608v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Hannum , R. Koch , V. Ramirez , S. Marks , A. Toskala , R. Herriman , C. Lin , P. Joseph , R. DR ., Taste loss as a distinct symptom of covid-19: A systematic review and meta-analysis, Chem Senses (2022).",
+        "DOI": "10.1101/2021.10.09.21264771"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.26.23290608",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:34:37Z",
+      "timestamp": 1768505677000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.05.26.23290608"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "references-count": 34,
+    "URL": "https://doi.org/10.1101/2023.05.26.23290608",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

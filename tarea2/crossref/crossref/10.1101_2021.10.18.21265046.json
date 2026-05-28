@@ -1,0 +1,523 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:52:37Z",
+      "timestamp": 1768553557819,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 53,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Forecasting healthcare demand is essential in epidemic settings, both to inform situational awareness and facilitate resource planning. Ideally, forecasts should be robust across time and locations. During the COVID-19 pandemic in England, it is an ongoing concern that demand for hospital care for COVID-19 patients in England will exceed available resources.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We made weekly forecasts of daily COVID-19 hospital admissions for National Health Service (NHS) Trusts in England between August 2020 and April 2021 using three disease-agnostic forecasting models: a mean ensemble of autoregressive time series models, a linear regression model with 7-day-lagged local cases as a predictor, and a scaled convolution of local cases and a delay distribution. We compared their point and probabilistic accuracy to a mean-ensemble of them all, and to a simple baseline model of no change from the last day of admissions. We measured predictive performance using the Weighted Interval Score (WIS) and considered how this changed in different scenarios (the length of the predictive horizon, the date on which the forecast was made, and by location), as well as how much admissions forecasts improved when future cases were known.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>All models outperformed the baseline in the majority of scenarios. Forecasting accuracy varied by forecast date and location, depending on the trajectory of the outbreak, and all individual models had instances where they were the top- or bottom-ranked model. Forecasts produced by the mean-ensemble were both the most accurate and most consistently accurate forecasts amongst all the models considered. Forecasting accuracy was improved when using future observed, rather than forecast, cases, especially at longer forecast horizons.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Assuming no change in current admissions is rarely better than including at least a trend. Using confirmed COVID-19 cases as a predictor can improve admissions forecasts in some scenarios, but this is variable and depends on the ability to make consistently good case forecasts. However, ensemble forecasts can make forecasts that make consistently more accurate forecasts across time and locations. Given minimal requirements on data and computation, our admissions forecasting ensemble could be used to anticipate healthcare needs in future epidemic or pandemic settings.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.10.18.21265046",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2021-10-18T23:53:09Z",
+      "timestamp": 1634601189000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Comparative assessment of methods for short-term forecasts of COVID-19 hospital admissions in England at the local level"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6385-2652",
+        "authenticated-orcid": false,
+        "given": "Sophie",
+        "family": "Meakin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8057-8037",
+        "authenticated-orcid": false,
+        "given": "Sam",
+        "family": "Abbott",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7750-5280",
+        "authenticated-orcid": false,
+        "given": "Nikos",
+        "family": "Bosse",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6206-7134",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Munday",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4094-1476",
+        "authenticated-orcid": false,
+        "given": "Hugo",
+        "family": "Gruson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2683-0849",
+        "authenticated-orcid": false,
+        "given": "Joel",
+        "family": "Hellewell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2049-3423",
+        "authenticated-orcid": false,
+        "given": "Katherine",
+        "family": "Sherratt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "CMMID COVID-19 Working Group",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3406",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Funk",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "706",
+        "DOI": "10.1186/s12889-021-10611-4",
+        "article-title": "Age-dependence of healthcare interventions for COVID-19 in Ontario, Canada",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "BMC Public Health"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30243-7"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.1186/s12916-021-02096-0",
+        "article-title": "The association between mechanical ventilator compatible bed occupancy and mortality risk in intensive care patients with COVID-19: a national retrospective cohort study",
+        "volume": "19",
+        "year": "2021",
+        "journal-title": "BMC Med"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n339"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/currents.outbreaks.406ae55e83ec0b5193e30856b9235ed2"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1194",
+        "DOI": "10.1093/aje/kwx008",
+        "article-title": "Real-Time Assessment of Health-Care Requirements During the Zika Virus Epidemic in Martinique",
+        "volume": "186",
+        "year": "2017",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-018-05810-w"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.11.11.20220962"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.9",
+        "unstructured": "Arslan N , S\u00fcrer O , Morton DP , Yang H , Lachmann M , Woody S , et al. COVID-19 alert stages, healthcare projections and mortality patterns in Austin, Texas, May 2021. 2021. Available: https://covid-19.tacc.utexas.edu/media/filer_public/15/4d/154defa8-9217-478e-a459-8fc4144c61b5/austin_covid_alert_stage_and_mortality_trends_-_ut_-_may_2021.pdf"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "e27888",
+        "DOI": "10.2196/27888",
+        "article-title": "How New Mexico Leveraged a COVID-19 Case Forecasting Model to Preemptively Address the Health Care Needs of the State: Quantitative Analysis",
+        "volume": "7",
+        "year": "2021",
+        "journal-title": "JMIR Public Health Surveill"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "566",
+        "DOI": "10.1186/s12913-021-06509-x",
+        "article-title": "Importance of patient bed pathways and length of stay differences in predicting COVID-19 hospital bed occupancy in England",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "BMC Health Serv Res"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12916-020-01646-2"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1186/s12873-020-00395-y",
+        "article-title": "A unified machine learning approach to time series forecasting applied to demand at emergency departments",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "BMC Emerg Med"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1016/j.orhc.2017.08.003",
+        "article-title": "Development, implementation and evaluation of a tool for forecasting short term demand for beds in an intensive care unit",
+        "volume": "15",
+        "year": "2017",
+        "journal-title": "Operations Research for Health Care"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paireau J , Andronico A , Hoz\u00e9 N , Layan M , Crepey P. An ensemble model based on early predictors to forecast COVID-19 healthcare demand in France. 2021. https://hal.sorbonne-universite.fr/METIS-EHESP/pasteur-03149082v1. Accessed 18 January 2022.",
+        "DOI": "10.1073/pnas.2103302119"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2020-042712"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph17207560"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.18",
+        "unstructured": "Hyndman RJ , Athanasopoulos G. Forecasting: principles and practice. OTexts; 2018."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1005910",
+        "DOI": "10.1371/journal.pcbi.1005910",
+        "article-title": "Prediction of infectious disease epidemics via weighted density ensembles",
+        "volume": "14",
+        "year": "2018",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.3957489"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.02.03.21250974"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.08.19.20177493"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "5173",
+        "DOI": "10.1038/s41467-021-25207-0",
+        "article-title": "A pre-registered short-term forecasting study of COVID-19 in Germany and Poland during the second wave",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1812594116"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.EPIDEM.2017.08.002."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2016.0410"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.02.25.21252363"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.28",
+        "unstructured": "NHS Authorities and Trusts. https://www.nhs.uk/ServiceDirectories/Pages/NHSTrustListing.aspx. Accessed 9 Jun 2021."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.4447465"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.03290"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.31",
+        "first-page": "1",
+        "article-title": "A method of establishing groups of equal amplitude in plant sociology based on similarity of species content and its application to analyses of the vegetation on Danish commons",
+        "volume": "5",
+        "year": "1948",
+        "journal-title": "Biol Skar"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.32",
+        "unstructured": "Abbott S , Hickson J , Ellis P , Badr HS , Allen J , Munday JD , et al. COVID-19: National and Subnational estimates for the United Kingdom. https://epiforecastsio/covid/posts/national/united-kingdom/. Accessed on 16 October 2020."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v027.i08"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.34",
+        "unstructured": "Hyndman R , Athanasopoulos G , Bergmeir C , Caceres G , Chhay L , O\u2019Hara-Wild M , et al. forecast: Forecasting functions for time series and linear models. 2021. Available: https://pkg.robjhyndman.com/forecast/"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.35",
+        "unstructured": "Shaub D , Ellis P. forecastHybrid: Convenient Functions for Ensemble Time Series Forecasts. 2020. Available: https://gitlab.com/dashaub/forecastHybrid"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.3833807"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zivot E , Wang J. Modeling Financial Time Series with S-PLUS. 2003rd ed. New York, NY: Springer Science & Business Media; 2003.",
+        "DOI": "10.1007/978-0-387-21763-5"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2807/1560-7917.ES.2020.25.17.2000257"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.12688/wellcomeopenres.16006.1",
+        "article-title": "Estimating the time-varying reproduction number of SARS-CoV-2 using national and subnational case counts",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Wellcome Open Res"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.41",
+        "unstructured": "ONS Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland. 2021. https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland. Accessed 18 January 2022."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214506000001437"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1008618",
+        "DOI": "10.1371/journal.pcbi.1008618",
+        "article-title": "Evaluating epidemic forecasts in an interval format",
+        "volume": "17",
+        "year": "2021",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.4618017"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.45",
+        "unstructured": "NHS COVID-19 Hospital Activity. https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-hospital-activity/. Accessed 29 September 2021."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.46",
+        "unstructured": "Vaccinations in England. In: Coronavirus (COVID-19) in the UK. https://coronavirus.data.gov.uk/details/vaccinations?areaType=nation&areaName=England. Accessed 29 Sep 2021."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.47",
+        "unstructured": "Reich NG , Tibshirani RJ , Ray EL , Rosenfeld R. On the predictability of COVID-19. International Institute of Forecasters. https://forecasters.org/blog/2021/09/28/on-the-predictability-of-covid-19/. Accessed 29 September 2021."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1007486",
+        "DOI": "10.1371/journal.pcbi.1007486",
+        "article-title": "Accuracy of real-time multi-model ensemble forecasts for seasonal influenza in the U.S",
+        "volume": "15",
+        "year": "2019",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hec.1639"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-88-470-5480-6_6"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gasparrini A. Distributed lag linear and non-linear models in R: the package dlnm. J Stat Softw. 2011. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/pmc3191524/",
+        "DOI": "10.18637/jss.v043.i08"
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.52",
+        "unstructured": "Brooks LC , Ray EL , Bien J , Bracher J , Rumack A , Tibshirani RJ , et al. Comparing ensemble approaches for short-term probabilistic covid-19 forecasts in the US. International Institute of Forecasters.https://forecasters.org/blog/2020/10/28/comparing-ensemble-approaches-for-short-term-probabilistic-covid-19-forecasts-in-the-u-s/. Accessed 18 January 2022."
+      },
+      {
+        "key": "2022012105051859000_2021.10.18.21265046v3.53",
+        "unstructured": "Meakin S , Abbott S. epiforecasts/covid19-hospital-activity. 2021. Available: https://github.com/epiforecasts/covid19-hospital-activity"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.10.18.21265046",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:27:50Z",
+      "timestamp": 1768487270000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.10.18.21265046"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "references-count": 53,
+    "URL": "https://doi.org/10.1101/2021.10.18.21265046",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1186/s12916-022-02271-x",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          18
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

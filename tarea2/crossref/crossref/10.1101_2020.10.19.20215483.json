@@ -1,0 +1,253 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T07:57:43Z",
+      "timestamp": 1768550263764,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 18,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>The pandemic of Covid-19 has caused tremendous losses to lives and economy in the entire world. The machine learning models have been applied to the radiological images of the Covid-19 positive patients for disease prediction and severity assessment. However, a segmentation model for detecting the opacity regions like haziness, ground-glass opacity and lung consolidation from the Covid-19 positive chest X-rays is still lacking.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The recently published collection of the radiological images for a rural population in United States had made the development of such a model a possibility, for the high quality images and consistent clinical measurements. We manually annotated 221 chest X-ray images with the lung fields and the opacity regions and trained a segmentation model for the opacity region using the Unet framework and the Resnet18 backbone. In addition, we applied the percentage of the opacity region over the area of the total lung fields for predicting the severity of patients.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The model has a good performance regarding the overlap between the predicted and the manually labelled opacity regions. The performance is comparable for both the testing data set and the validation data set which comes from very diverse sources. However, careful manual examinations by experienced radiologists show mistakes in the predictions, which could be caused by the anatomical complexities. Nevertheless, the percentage of the opacity region can predict the severity of the patients well in regards to the ICU admissions and mortality.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>In view of the above, our model is a successful first try in the development of a segmentation model for the opacity regions for the Covid-19 positive chest X-rays. However, additional work is needed before a robust model can be developed for the ultimate goal of the implementations in the clinical setting.</jats:p>\n                  <jats:p>\n                    Model and supporting materials can be found in\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/haimingt/opacity_segmentation_covid_chest_X_ray\">https://github.com/haimingt/opacity_segmentation_covid_chest_X_ray</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.10.19.20215483",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2020-10-21T08:55:23Z",
+      "timestamp": 1603270523000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Deep learning segmentation model for automated detection of the opacity regions in the chest X-rays of the Covid-19 positive patients and the application for disease severity"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7058-349X",
+        "authenticated-orcid": false,
+        "given": "Haiming",
+        "family": "Tang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4010-1514",
+        "authenticated-orcid": false,
+        "given": "Nanfei",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5071-7582",
+        "authenticated-orcid": false,
+        "given": "Haoran",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbe.2020.08.005"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/info11020125"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11548-019-01917-1"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.4",
+        "unstructured": "Centers for Disease Control and Prevention (2020 (accessed October 16, 2020)) Covidview: A weekly surveillance summary of u.s. covid-19 activity. URL https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covidview/index.html"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10278-013-9622-7"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.6",
+        "first-page": "11856",
+        "volume": "2005",
+        "year": "2020",
+        "journal-title": "Predicting covid-19 pneumonia severity on chest x-ray with deep learning"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11547-020-01232-9"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.8",
+        "unstructured": "Desai S , Baghal A , Wongsurawat T , Al-Shukri S , Gates K , Farmer P , Rutherford M , Blake G , Nolan T , Powell T , Sexton K , Bennett W , Prior F (2020) Data from chest imaging with clinical and genomic correlates representing a rural covid-19 positive population. The Cancer Imaging Archive (TCIA) URL https://doi.org/10.7937/tcia.2020.py71-5978"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11548-019-02115-9"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/ryai.2020200079"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahman MA , Wang Y (2016) Optimizing intersection-over-union in deep neural networks for image segmentation. In: Advances in Visual Computing, Springer International Publishing, Cham, pp 234\u2013244",
+        "DOI": "10.1007/978-3-319-50835-1_22"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ronneberger O , Fischer P , Brox T (2015) U-net: Convolutional networks for biomedical image segmentation. In: Medical Image Computing and Computer-Assisted Intervention \u2013 MICCAI 2015, Springer International Publishing, Cham, pp 234\u2013241",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.15",
+        "unstructured": "Signoroni A , Savardi M , Benini S , Adami N , Leonardi R , Gibellini P , Vaccher F , Ravanelli M , Borghesi A , Maroldi R , Farina D (2020) End-to-end learning for semiquantitative rating of covid-19 severity on chest x-rays. 2006.04603"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-67558-928"
+      },
+      {
+        "key": "2022022410000691000_2020.10.19.20215483v2.17",
+        "unstructured": "Wada K (2016) labelme: Image Polygonal Annotation with Python. URL https://github.com/wkentaro/labelme"
+      },
+      {
+        "issue": "6",
+        "key": "2022022410000691000_2020.10.19.20215483v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1423",
+        "DOI": "10.1016/j.cell.2020.04.045",
+        "article-title": "Clinically applicable ai system for accurate diagnosis, quantitative measurements, and prognosis of covid-19 pneumonia using computed tomography",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.10.19.20215483",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:56:55Z",
+      "timestamp": 1768485415000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.10.19.20215483"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 18,
+    "URL": "https://doi.org/10.1101/2020.10.19.20215483",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2026-05-04T17:52:50Z",
+      "timestamp": 1777917170293,
+      "version": "3.51.4"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          25
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 72,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurate stratification of patients with post-acute sequelae of SARS-CoV-2 infection (PASC, or long COVID) would allow precision clinical management strategies. However, the natural history of long COVID is incompletely understood and characterized by an extremely wide range of manifestations that are difficult to analyze computationally. In addition, the generalizability of machine learning classification of COVID-19 clinical outcomes has rarely been tested. We present a method for computationally modeling PASC phenotype data based on electronic healthcare records (EHRs) and for assessing pairwise phenotypic similarity between patients using semantic similarity. Our approach defines a nonlinear similarity function that maps from a feature space of phenotypic abnormalities to a matrix of pairwise patient similarity that can be clustered using unsupervised machine learning procedures. Using k-means clustering of this similarity matrix, we found six distinct clusters of PASC patients, each with distinct profiles of phenotypic abnormalities. There was a significant association of cluster membership with a range of pre-existing conditions and with measures of severity during acute COVID-19. Two of the clusters were associated with severe manifestations and displayed increased mortality. We assigned new patients from other healthcare centers to one of the six clusters on the basis of maximum semantic similarity to the original patients. We show that the identified clusters were generalizable across different hospital systems and that the increased mortality rate was consistently observed in two of the clusters. Semantic phenotypic clustering can provide a foundation for assigning patients to stratified subgroups for natural history or therapy studies on PASC.</jats:p>",
+    "DOI": "10.1101/2022.05.24.22275398",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2022-05-27T16:55:16Z",
+      "timestamp": 1653670516000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Generalizable Long COVID Subtypes: Findings from the NIH N3C and RECOVER Programs"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2170-2250",
+        "authenticated-orcid": false,
+        "given": "Justin T.",
+        "family": "Reese",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4557-5492",
+        "authenticated-orcid": false,
+        "given": "Hannah",
+        "family": "Blau",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Timothy",
+        "family": "Bergquist",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Johanna J.",
+        "family": "Loomba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8169-9049",
+        "authenticated-orcid": false,
+        "given": "Tiffany",
+        "family": "Callahan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bryan",
+        "family": "Laraway",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Corneliu",
+        "family": "Antonescu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elena",
+        "family": "Casiraghi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben",
+        "family": "Coleman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Gargano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kenneth J.",
+        "family": "Wilkins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1269-2038",
+        "authenticated-orcid": false,
+        "given": "Luca",
+        "family": "Cappelletti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9806-3493",
+        "authenticated-orcid": false,
+        "given": "Tommaso",
+        "family": "Fontana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nariman",
+        "family": "Ammar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Blessy",
+        "family": "Antony",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3688-4672",
+        "authenticated-orcid": false,
+        "given": "T. M.",
+        "family": "Murali",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guy",
+        "family": "Karlebach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Julie A",
+        "family": "McMurry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Moffitt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jineta",
+        "family": "Banerjee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anthony E.",
+        "family": "Solomonides",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hannah",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristin",
+        "family": "Kostka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giorgio",
+        "family": "Valentini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Sahner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher G.",
+        "family": "Chute",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Charisse",
+        "family": "Madlock-Brown",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9114-8737",
+        "authenticated-orcid": false,
+        "given": "Melissa A",
+        "family": "Haendel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0736-9199",
+        "authenticated-orcid": false,
+        "given": "Peter N.",
+        "family": "Robinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "the RECOVER Consortium",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.1",
+        "unstructured": "Weekly operational update on COVID-19 - 30 March 2022 (available at https://www.who.int/publications/m/item/weekly-operational-update-on-covid-1930-march-2022)."
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "869",
+        "DOI": "10.1016/j.dsx.2021.04.007",
+        "article-title": "Long COVID: An overview",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "Diabetes Metab. Syndr"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.1003773"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjgh-2021-005427"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01283-z"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.n1648"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(21)00703-9/ATTACHMENT/31179DEC-CF64-455B-BD13-6EF0045B7DD6/MMC1.PDF"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmicb.2021.698169"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1839",
+        "DOI": "10.1093/infdis/jiab490",
+        "article-title": "Markers of Immune Activation and Inflammation in Individuals With Postacute Sequelae of Severe Acute Respiratory Syndrome Coronavirus 2 Infection",
+        "volume": "224",
+        "year": "2021",
+        "journal-title": "J. Infect. Dis"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "542",
+        "DOI": "10.1016/j.immuni.2022.01.017",
+        "article-title": "Immuno-proteomic profiling reveals aberrant immune cell regulation in the airways of individuals with ongoing post-COVID-19 respiratory disease",
+        "volume": "55",
+        "year": "2022",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2021.700782"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2022.01.014"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijid.2021.10.045"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21203/rs.3.rs-1139035/v1"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1042/BCJ20220016"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "895",
+        "DOI": "10.1016/j.molmed.2021.06.002",
+        "article-title": "Insights from myalgic encephalomyelitis/chronic fatigue syndrome may help unravel the pathogenesis of postacute COVID-19 syndrome",
+        "volume": "27",
+        "year": "2021",
+        "journal-title": "Trends Mol. Med"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2024358118"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "ofac060",
+        "DOI": "10.1093/ofid/ofac060",
+        "article-title": "All-Ireland Infectious Diseases (AIID) Cohort Study Group, Identification of Distinct Long COVID Clinical Phenotypes Through Cluster Analysis of Self-Reported Symptoms",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Open Forum Infect Dis"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "103722",
+        "DOI": "10.1016/j.ebiom.2021.103722",
+        "article-title": "Characterizing Long COVID: Deep Phenotype of a Complex Condition",
+        "volume": "74",
+        "year": "2021",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2008.09.017"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1043"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41436-021-01120-1"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.160325.113"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "403",
+        "DOI": "10.1016/j.ajhg.2020.06.021",
+        "article-title": "Interpretable Clinical Genomics with a Likelihood Ratio Paradigm",
+        "volume": "107",
+        "year": "2020",
+        "journal-title": "Am. J. Hum. Genet"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.3484"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2009.09.003"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocu023"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TVCG.2014.2346248"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01292-y"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/23744235.2021.1924397"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "705247",
+        "DOI": "10.3389/fmed.2021.705247",
+        "article-title": "Elevations in Liver Transaminases in COVID-19: (How) Are They Related?",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Front. Med"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.cca.2020.06.033",
+        "article-title": "Hyperferritinemia in critically ill COVID-19 patients - Is ferritin the product of inflammation or a pathogenic mediator?",
+        "volume": "509",
+        "year": "2020",
+        "journal-title": "Clin. Chim. Acta"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "642922",
+        "DOI": "10.3389/fphys.2021.642922",
+        "article-title": "A High Percentage of Patients Recovered From COVID-19 but Discharged With Abnormal Liver Function Tests",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Front. Physiol"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/j.dsx.2021.01.003",
+        "article-title": "Hypocalcemia is associated with severe COVID-19: A systematic review and meta-analysis",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "Diabetes Metab. Syndr"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "16290",
+        "DOI": "10.1038/s41598-021-95397-6",
+        "article-title": "Altered platelet and coagulation function in moderate-to-severe COVID-19",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Sci. Rep"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thoraxjnl-2020-216377"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s15010-022-01784-0"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "6566",
+        "DOI": "10.1002/jmv.27198",
+        "article-title": "Post-COVID syndrome: A single-center questionnaire study on 1007 participants recovered from COVID-19",
+        "volume": "93",
+        "year": "2021",
+        "journal-title": "J. Med. Virol"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/d41586-021-01511-z"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.72500"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s15010-022-01822-x"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/JOURNAL.PONE.0264331"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "101019",
+        "DOI": "10.1016/j.eclinm.2021.101019",
+        "article-title": "Characterizing long COVID in an international cohort: 7 months of symptoms and their impact",
+        "volume": "38",
+        "year": "2021",
+        "journal-title": "EClinicalMedicine"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1037/met0000204",
+        "article-title": "Assessing the robustness of cluster solutions obtained from sparse count matrices",
+        "volume": "24",
+        "year": "2019",
+        "journal-title": "Psychol. Methods"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41436-020-0923-1"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2035790"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1038/s41586-021-03553-9",
+        "article-title": "High-dimensional characterization of post-acute sequelae of COVID-19",
+        "volume": "594",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2021436"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa051693"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "e8",
+        "DOI": "10.1016/S2213-2600(20)30530-0",
+        "article-title": "Corticosteroids for COVID-19: the search for an optimum duration of therapy",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Lancet Respir Med"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1066",
+        "DOI": "10.1159/000513346",
+        "article-title": "Sex Disparities in COVID-19 Severity and Outcome: Are Men Weaker or Women Stronger?",
+        "volume": "111",
+        "year": "2021",
+        "journal-title": "Neuroendocrinology"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.52",
+        "first-page": "20406223221076890",
+        "article-title": "Neurological manifestations of long-COVID syndrome: a narrative review",
+        "volume": "13",
+        "year": "2022",
+        "journal-title": "Ther. Adv. Chronic Dis"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.09.28.21264259"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jcm11020413"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.11.27.21266944"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.2147/CLEP.S344515",
+        "article-title": "Positive Predictive Value of the ICD-10 Diagnosis Code for Long-COVID",
+        "volume": "14",
+        "year": "2022",
+        "journal-title": "Clin. Epidemiol"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. W. Larsen , L. E. Stiles , R. Shaik , L. Schneider , S. Muppidi , C. T. Tsui , M. G. Miglis , Characterization of Autonomic Symptom Burden in Long COVID: A Global Survey of 2,314 Adults. medRxiv, 2022.04.25.22274300 (2022).",
+        "DOI": "10.1101/2022.04.25.22274300"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1004268"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkw1039"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1399-0004.2010.01436.x"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajhg.2015.05.020"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkt1026"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746-019-0110-4"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.64",
+        "unstructured": "OMOP2OBO (available at https://zenodo.org/communities/omop2obo)."
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/baab069"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000443"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.67",
+        "unstructured": "D. Arthur , S. Vassilvitskii , k-means++: the advantages of careful seeding. SODA \u201807 (2007) (available at https://www.semanticscholar.org/paper/5e0c61b7ee4a2de183a197f32c5013ad109531fa)."
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1348/000711005X48266"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmva.2007.07.002"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2670010"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.71",
+        "doi-asserted-by": "crossref",
+        "first-page": "112817",
+        "DOI": "10.1016/j.eswa.2019.07.034",
+        "article-title": "Evaluation and selection of clustering methods using a hybrid group MCDM",
+        "volume": "138",
+        "year": "2019",
+        "journal-title": "Expert Syst. Appl"
+      },
+      {
+        "key": "2022072203251030000_2022.05.24.22275398v2.72",
+        "doi-asserted-by": "crossref",
+        "first-page": "427",
+        "DOI": "10.1093/jamia/ocaa196",
+        "article-title": "N3C Consortium, The National COVID Cohort Collaborative (N3C): Rationale, design, infrastructure, and deployment",
+        "volume": "28",
+        "year": "2021",
+        "journal-title": "J. Am. Med. Inform. Assoc"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.05.24.22275398",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:43:32Z",
+      "timestamp": 1768488212000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.05.24.22275398"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          25
+        ]
+      ]
+    },
+    "references-count": 72,
+    "URL": "https://doi.org/10.1101/2022.05.24.22275398",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          25
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

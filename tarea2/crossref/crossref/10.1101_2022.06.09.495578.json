@@ -1,0 +1,336 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T18:04:21Z",
+      "timestamp": 1768500261125,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          11
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 28,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>The ability to predict the correct ligand binding pose for proteinligand complex is vital for drug design. Recently several machine learning methods have suggested knowledge based scoring functions for binding energy prediction. In this study, we propose a reinforcement learning (RL) based model, PandoraRL, where the RL agent helps the ligand traverse to the optimal binding pose. The underlying representation of molecules utilizes generalized graph convolution to represent the protein ligand complex with various atomic and spatial features. The representation consists of edges formed on the basis of inter molecular interactions such as hydrogen bonds, hydrophobic interactions, etc, and nodes representing atomic features. This study presents our initial model which can train on a protein-ligand pair and predict optimal binding pose for a different ligand with the same protein. To the best of our knowledge, this is the first time an RL based approach has been put forward for predicting optimized ligand pose.</jats:p>\n                <jats:sec>\n                  <jats:title>CCS CONCEPTS</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>\n                        <jats:bold>Computing methodologies</jats:bold>\n                        \u2192\n                        <jats:bold>Reinforcement learning</jats:bold>\n                        .\n                      </jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2022.06.09.495578",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2022-06-11T23:10:11Z",
+      "timestamp": 1654989011000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "PandoraRL: DQN and Graph Convolution based ligand pose learning for SARS-COV1 Mprotease"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Justin",
+        "family": "Jose",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7977-4639",
+        "authenticated-orcid": false,
+        "given": "Ujjaini",
+        "family": "Alam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0343-9484",
+        "authenticated-orcid": false,
+        "given": "Pooja",
+        "family": "Arora",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9186-9697",
+        "authenticated-orcid": false,
+        "given": "Divye",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nidhi",
+        "family": "Jatana",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.1",
+        "first-page": "2020",
+        "article-title": "DEELIG: A Deep Learning Approach to Predict Protein-Ligand Binding Affinity",
+        "volume": "15",
+        "year": "2021",
+        "journal-title": "Bioinform Biol Insights"
+      },
+      {
+        "issue": "4",
+        "key": "2022061401350557000_2022.06.09.495578v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1021/acscentsci.6b00367",
+        "article-title": "Low data drug discovery with one-shot learning",
+        "volume": "3",
+        "year": "2017",
+        "journal-title": "ACS central science"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm100112j"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/092986706778521797"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C7MD00381A"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.6",
+        "unstructured": "David Duvenaud , Dougal Maclaurin , Jorge Aguilera-Iparraguirre , Rafael G\u00f3mez-Bombarelli , Timothy Hirzel , Al\u00e1n Aspuru-Guzik , and Ryan P. Adams . 2015. Convolutional Networks on Graphs for Learning Molecular Fingerprints. In Proceedings of the 28th International Conference on Neural Information Processing Systems - Volume 2 (Montreal, Canada) (NIPS\u201915). MIT Press, Cambridge, MA, USA, 2224\u20132232."
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.7",
+        "unstructured": "Alex M Fout . 2017. Protein interface prediction using graph convolutional networks. Ph. D. Dissertation. Colorado State University."
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.8",
+        "unstructured": "Scott Fujimoto , Herke van Hoof , and David Meger . 2018. Addressing Function Approximation Error in Actor-Critic Methods. arXiv:1802.09477 [cs.AI]"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.9",
+        "unstructured": "Octavian-Eugen Ganea , Xinyuan Huang , Charlotte Bunne , Yatao Bian , Regina Barzilay , Tommi S. Jaakkola , and Andreas Krause . 2021. Independent SE(3)-Equivariant Models for End-to-End Rigid Protein Docking. arXiv:2111.07786 https://arxiv.org/abs/2111.07786"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.10",
+        "unstructured": "Aric A. Hagberg , Daniel A. Schult , and Pieter J. Swart . 2008. Exploring Network Structure, Dynamics, and Function using NetworkX. In Proceedings of the 7th Python in Science Conference, Ga\u00ebl Varoquaux , Travis Vaught , and Jarrod Millman (Eds.). Pasadena, CA USA, 11\u201315."
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.11",
+        "unstructured": "Justin Jose , Kritika Gupta , Ujjaini Alam , Nidhi Jatana , and Pooja Arora . 2021. Reinforcement Learning Based Approach for Ligand Pose Prediction. https://doi.org/10.1101/2021.04.10.438538 bioRxiv:https://www.biorxiv.org/content/10.1101/2021.04.10.438538v1"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.12",
+        "unstructured": "Guohao Li , Chenxin Xiong , Ali Thabet , and Bernard Ghanem . 2020. DeeperGCN: All You Need to Train Deeper GCNs. arXiv:2006.07739 [cs.LG]"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.13",
+        "unstructured": "Timothy P. Lillicrap , Jonathan J. Hunt , Alexander Pritzel , Nicolas Heess , Tom Erez , Yuval Tassa , David Silver , and Daan Wierstra . 2015. Continuous Control With Deep Reinforcement Learning. CoRR (2015). arXiv:1509.02971 [cs.LG] http://arxiv.org/abs/1509.02971v6"
+      },
+      {
+        "issue": "12",
+        "key": "2022061401350557000_2022.06.09.495578v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1033",
+        "DOI": "10.1038/s42256-021-00409-9",
+        "article-title": "A geometric deep learning approach to predict binding conformations of bioactive molecules",
+        "volume": "3",
+        "year": "2021",
+        "journal-title": "Nature Machine Intelligence"
+      },
+      {
+        "issue": "2",
+        "key": "2022061401350557000_2022.06.09.495578v1.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.2174/157340911795677602",
+        "article-title": "Molecular docking: a powerful approach for structure-based drug discovery",
+        "volume": "7",
+        "year": "2011",
+        "journal-title": "Current computer-aided drug design"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.16",
+        "unstructured": "Volodymyr Mnih , Koray Kavukcuoglu , David Silver , Alex Graves , Ioannis Antonoglou , Daan Wierstra , and Martin A. Riedmiller . 2013. Playing Atari with Deep Reinforcement Learning. arXiv:1312.5602 http://arxiv.org/abs/1312.5602"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14236"
+      },
+      {
+        "issue": "1",
+        "key": "2022061401350557000_2022.06.09.495578v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1186/1758-2946-3-33",
+        "article-title": "Open Babel: an Open Chemical Toolbox",
+        "volume": "3",
+        "year": "2011",
+        "journal-title": "Journal of Cheminformatics"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tips.2011.07.002"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.20084"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.21",
+        "doi-asserted-by": "crossref",
+        "first-page": "106678",
+        "DOI": "10.1016/j.asoc.2020.106678",
+        "article-title": "QN-Docking: An innovative molecular docking methodology based on Q-Networks",
+        "volume": "96",
+        "year": "2020",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.str.2011.03.019"
+      },
+      {
+        "issue": "8",
+        "key": "2022061401350557000_2022.06.09.495578v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4023",
+        "DOI": "10.3390/ijms22084023",
+        "article-title": "A Cascade graph convolutional network for predicting protein\u2013ligand binding affinity",
+        "volume": "22",
+        "year": "2021",
+        "journal-title": "International journal of molecular sciences"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.24",
+        "unstructured": "Hannes St\u00e4rk , Octavian-Eugen Ganea , Lagnajit Pattanaik , Regina Barzilay , and Tommi Jaakkola . 2022. EquiBind: Geometric Deep Learning for Drug Binding Structure Prediction. https://doi.org/10.48550/ARXIV.2202.05146"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.9b00628"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.21334"
+      },
+      {
+        "key": "2022061401350557000_2022.06.09.495578v1.27",
+        "unstructured": "Chenran Wang . 2022. Machine Learning Methods for Protein Design and Protein-Ligand Docking. https://diginole.lib.fsu.edu/islandora/object/fsu:777813"
+      },
+      {
+        "issue": "18",
+        "key": "2022061401350557000_2022.06.09.495578v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "10520",
+        "DOI": "10.1021/acs.chemrev.8b00728",
+        "article-title": "Concepts of artificial intelligence for computer-assisted drug discovery",
+        "volume": "119",
+        "year": "2019",
+        "journal-title": "Chemical reviews"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.09.495578",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T03:12:17Z",
+      "timestamp": 1768446737000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.09.495578"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          11
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1101/2022.06.09.495578",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          11
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

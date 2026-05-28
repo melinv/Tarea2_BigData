@@ -1,0 +1,509 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:24:40Z",
+      "timestamp": 1768551880553,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 60,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We present an explainable AI framework to predict mortality after a positive COVID-19 diagnosis based solely on data routinely collected in electronic healthcare records (EHRs) obtained prior to diagnosis. We grounded our analysis on the \u00bd Million people UK Biobank and linked NHS COVID-19 records. We developed a method to capture the complexities and large variety of clinical codes present in EHRs, and we show that these have a larger impact on risk than all other patient data but age. We use a form of clustering for natural language processing of the clinical codes, specifically, topic modelling by Latent Dirichlet Allocation (LDA), to generate a succinct digital fingerprint of a patient\u2019s full secondary care clinical history, i.e. their comorbidities and past interventions. These digital comorbidity fingerprints offer immediately interpretable clinical descriptions that are meaningful, e.g. grouping cardiovascular disorders with common risk factors but also novel groupings that are not obvious. The comorbidity fingerprints differ in both their breadth and depth from existing observational disease associations in the COVID-19 literature. Taking this data-driven approach allows us to avoid human-induction bias and confirmation bias during selection of what are important potential predictors of COVID-19 mortality. Together with age, these digital fingerprints are the single most important factor in our predictor. This holds the potential for improving individual risk profiling for clinical decisions and the identification of groups for public health interventions such as vaccine programmes. Combining our digital precondition fingerprints with demographic characteristics allow us to match or exceed the performance of existing state-of-the-art COVID-19 mortality predictors (EHCF) which have been developed through expert consensus. Our precondition fingerprinting and entire mortality prediction analytics pipeline are designed so as to be rapidly redeployable, e.g. for COVID-19 variants or other pre-existing diseases.</jats:p>",
+    "DOI": "10.1101/2021.03.29.21254579",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2021-03-31T14:10:28Z",
+      "timestamp": 1617199828000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Clustering of patient comorbidities within electronic medical records enables high-precision COVID-19 mortality prediction"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2236-1862",
+        "authenticated-orcid": false,
+        "given": "Erwann Le",
+        "family": "Lannou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0337-0827",
+        "authenticated-orcid": false,
+        "given": "Benjamin",
+        "family": "Post",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2213-6585",
+        "authenticated-orcid": false,
+        "given": "Shlomi",
+        "family": "Haar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4545-8413",
+        "authenticated-orcid": false,
+        "given": "Stephen J.",
+        "family": "Brett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9791-3006",
+        "authenticated-orcid": false,
+        "given": "Balasundaram",
+        "family": "Kadirvelu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0813-7207",
+        "authenticated-orcid": false,
+        "given": "A. Aldo",
+        "family": "Faisal",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.1",
+        "unstructured": "WHO. WHO Director-General\u2019s opening remarks at the media briefing on COVID-19 - 11 March 2020. https://www.who.int/director-general/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020 (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.2",
+        "unstructured": "WHO. Coronavirus disease (COVID-19): Weekly Epidemiological Update. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arabi, Y. M. , Murthy, S. & Webb, S . COVID-19: a novel coronavirus and a novel challenge for critical care. Intensive Care Med. 1\u20134 (2020).",
+        "DOI": "10.1007/s00134-020-05955-1"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1545",
+        "DOI": "10.1001/jama.2020.4031",
+        "article-title": "Critical care utilization for the COVID-19 outbreak in Lombardy, Italy: early experience and forecast during an emergency response",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Jama"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jordan, R. E. , Adab, P. & Cheng, K. K. Covid-19: risk factors for severe disease and death. (2020).",
+        "DOI": "10.1136/bmj.m1198"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.6",
+        "first-page": "1775",
+        "article-title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "Jama"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, F. et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet (2020).",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.8",
+        "unstructured": "Garg, S . Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019\u2014COVID-NET, 14 States, March 1--30, 2020. MMWR. Morb. Mortal. Wkly. Rep. 69, (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.9",
+        "unstructured": "Richardson, S. , et al. Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalized with COVID-19 in the New York City area. Jama (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.3389/fpubh.2020.00152",
+        "article-title": "Gender differences in patients with COVID-19: Focus on severity and mortality",
+        "volume": "8",
+        "year": "2020",
+        "journal-title": "Front. Public Heal"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-020-02926-2"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Docherty, A. B. et al. Features of 16,749 hospitalised UK patients with COVID-19 using the ISARIC WHO Clinical Characterisation Protocol. medRxiv (2020).",
+        "DOI": "10.1101/2020.04.23.20076042"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.14",
+        "first-page": "24",
+        "article-title": "ICNARC report on COVID-19 in critical care",
+        "volume": "26",
+        "year": "2020",
+        "journal-title": "Publ. online"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patel, B. V et al. Natural history, trajectory, and management of mechanically ventilated COVID-19 patients in the United Kingdom. medRxiv (2020).",
+        "DOI": "10.1101/2020.11.10.20226688"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.16",
+        "unstructured": "Wynants, L. et al. Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal. bmj 369, (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.17",
+        "unstructured": "Digital, N. Covid-19\u2014high risk shielded patient list identification methodology. https://digital.nhs.uk/coronavirus/shielded-patient-list/methodology."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.18",
+        "unstructured": "CDC. Covid-19: People at Increased Risk. https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clift, A. K. et al. Living risk prediction algorithm (QCOVID) for risk of hospital admission and mortality from coronavirus 19 in adults: national derivation and validation cohort study. bmj 371, (2020).",
+        "DOI": "10.1136/bmj.m3731"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.20",
+        "unstructured": "The Academy of Medical Sciences. Multimorbidity: a priority for global health research. https://Acmedsci.Ac.Uk/Policy/Policy-Projects/Multiple-Morbidities-As-a-Global-Health-Challenge (2015)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(12)60240-2"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-019-0038-z"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pmed.1001779"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.24",
+        "first-page": "e000397",
+        "article-title": "Dynamic linkage of COVID-19 test results between Public Health England\u2019s second generation surveillance system and UK biobank",
+        "volume": "6",
+        "year": "2020",
+        "journal-title": "Microb. genomics"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0213653"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0214365"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2015-007825"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/25655"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jain, V. & Yuan, J.-M. Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection. medRxiv (2020).",
+        "DOI": "10.1101/2020.03.15.20035360"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, T. et al. Clinical characteristics of 113 deceased patients with coronavirus disease 2019: retrospective study. Bmj 368, (2020).",
+        "DOI": "10.1136/bmj.m1091"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.2648"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R\u00f6der, M. , Both, A. & Hinneburg, A. Exploring the space of topic coherence measures. in Proceedings of the eighth ACM international conference on Web search and data mining 399\u2013 408 (2015).",
+        "DOI": "10.1145/2684822.2685324"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.33",
+        "unstructured": "Carr, E. et al. Supplementing the National Early Warning Score (NEWS2) for anticipating early deterioration among patients with COVID-19 infection. medRxiv (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.34",
+        "unstructured": "Zhang, H. , et al. Risk prediction for poor outcome and death in hospital in-patients with COVID-19: derivation in Wuhan, China and external validation in London, UK. (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.35",
+        "unstructured": ". Knight , S. R., et al . Risk stratification of patients admitted to hospital in the United Kingdom with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: development and validation of a multivariable prediction model for mortality. Br. Med. J. (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williams, R. D. , et al. Seek COVER: Development and validation of a personalized risk calculator for COVID-19 outcomes in an international network. medRxiv (2020).",
+        "DOI": "10.1101/2020.05.26.20112649"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.37",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.1186/s12889-021-10427-2",
+        "article-title": "UK prevalence of underlying conditions which increase the risk of severe COVID-19 disease: a point prevalence study using electronic health records",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "BMC Public Health"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-16780-x"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwx246"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0174944"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(15)60175-1"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.42",
+        "unstructured": "Gov.UK. Coronavirus (COVID-19) cases in the UK. https://web.archive.org/web/20200502045059/ https://coronavirus.data.gov.uk/ (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(07)60924-6"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1745-6215-16-1"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.45",
+        "unstructured": "GOV.UK. New UK-wide methodology agreed to record COVID-19 deaths. (2020)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.50"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocw042"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.48",
+        "unstructured": "Black, D . Inequalities in health: the Black report. (Penguin Books, 1982)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/jmlr.2003.3.4-5.993"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.50",
+        "first-page": "77",
+        "volume-title": "Commun",
+        "volume": "55",
+        "year": "2012"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0307752101"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Syed, S. & Spruit, M . Full-text or abstract? Examining topic coherence scores using latent dirichlet allocation. in 2017 IEEE International conference on data science and advanced analytics (DSAA) 165\u2013174 (2017).",
+        "DOI": "10.1109/DSAA.2017.61"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.53",
+        "unstructured": "Rehurek, R. & Sojka, P . Software Framework for Topic Modelling with Large Corpora. Proc. Lr. 2010 Work. New Challenges NLP Fram. (2010)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.55",
+        "unstructured": "Pedregosa, F. , et al. Scikit-learn: Machine learning in Python. J. Mach. Learn. Res. (2011)."
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-1228-x"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1301",
+        "DOI": "10.1002/widm.1301",
+        "article-title": "Hyperparameters and tuning strategies for random forest",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Wiley Interdiscip. Rev. Data Min. Knowl. Discov"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.58",
+        "first-page": "6673",
+        "article-title": "To tune or not to tune the number of trees in random forest",
+        "volume": "18",
+        "year": "2017",
+        "journal-title": "J. Mach. Learn. Res"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1002/widm.1072",
+        "article-title": "Overview of random forest methodology and practical guidance with emphasis on computational biology and bioinformatics",
+        "volume": "2",
+        "year": "2012",
+        "journal-title": "Wiley Interdiscip. Rev. Data Min. Knowl. Discov"
+      },
+      {
+        "key": "2021040208550612000_2021.03.29.21254579v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-0995-8"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.29.21254579",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:12:05Z",
+      "timestamp": 1768486325000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.03.29.21254579"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1101/2021.03.29.21254579",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

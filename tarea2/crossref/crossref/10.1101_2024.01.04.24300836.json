@@ -1,0 +1,373 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:51:13Z",
+      "timestamp": 1768567873104,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          4
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Introduction</jats:title>\n                  <jats:p>Rapid antigen testing for SARS-CoV-2 is an important tool for the timely diagnosis of COVID-19, especially in at-home settings. However, the interpretation of test results can be subjective and prone to error. We describe an automated image analysis pipeline to accurately classify test types and results without human intervention using a dataset of 51,274 rapid antigen test images across three distinct test card brands.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>The proposed method classifies participant-submitted images into four categories: positive for SARS-CoV-2, negative for SARS-CoV-2, invalid/uncertain, and unclassifiable. The model includes four stages: test card classification and region of interest detection using image-matching algorithms, elimination of invalid results using a developed Siamese neural network, and test result classification using transfer learning.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The model accuracy was very good for test-card classification (100%), region of interest detection (83.5%), and identification of invalid results ranging from 95.6% to 100% for different test types. Performance of the model for test result classification varied by tests; the model\u2019s sensitivity, specificity, and precision for Abbott BinaxNOW\u2122 was 0.761, 0.989, and 0.946, BD Veritor\u2122 At-Home COVID-19 Test was 0.955, 0.993, and 0.877, and for QuickVue\u00ae At-Home OTC COVID-19 Test was 0.816, 0.988, and 0.930.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>The proposed method improved the interpretation of rapid antigen tests, particularly in invalid result detection compared to human-read, and offers a great opportunity for standardization of rapid antigen test interpretation and for providing feedback to participants with invalid tests.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2024.01.04.24300836",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2024-01-10T01:44:28Z",
+      "timestamp": 1704851068000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Automated Classification of At-home SARS-CoV-2 Lateral Flow Assay Test Results using Image Matching and Transfer Learning: multiple-pipeline study"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7793-2752",
+        "authenticated-orcid": false,
+        "given": "Meysam",
+        "family": "Safarzadeh",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Carly",
+        "family": "Herbert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven Koon",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pamela",
+        "family": "Stamegna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yurima",
+        "family": "Guilarte-Walker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Colton",
+        "family": "Wright",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thejas",
+        "family": "Suvarna",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chris",
+        "family": "Nowak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vik",
+        "family": "Kheterpal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shishir",
+        "family": "Pandey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Biqi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Honghuang",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laurel",
+        "family": "O\u2019Connor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nathaniel",
+        "family": "Hafer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katherine",
+        "family": "Luzuriaga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuka",
+        "family": "Manabe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John",
+        "family": "Broach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Adrian H",
+        "family": "Zai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David D",
+        "family": "McManus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xian",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Apurv",
+        "family": "Soni",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.1",
+        "unstructured": "\u201cWorld Health Organization declares global emergency_ A review of the 2019 novel coronavirus (COVID-19) | Elsevier Enhanced Reader.\u201d Accessed: Sep. 16, 2022. [Online]. Available: https://reader.elsevier.com/reader/sd/pii/S1743919120301977?token=D0D03718274003A59DD6FFFC4F927626F37B1BAC7D007F0C2644BFECA8F4A6DD4278BAA9AA883514D187651ECF14D69B&originRegion=us-east-1&originCreation=20220917024212"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40200-022-01002-6"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsnano.1c02981"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.4",
+        "unstructured": "C. for D . and R. Health , \u201cIn Vitro Diagnostics EUAs - Antigen Diagnostic Tests for SARS-CoV-2,\u201d FDA, Aug. 2023, Accessed: Aug. 31, 2023. [Online]. Available: https://www.fda.gov/medical-devices/covid-19-emergency-use-authorizations-medical-devices/in-vitro-diagnostics-euas-antigen-diagnostic-tests-sars-cov-2"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(21)00048-7"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2022.14205"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43856-022-00146-z"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.2609795"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2019893118"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Soni et al., \u201cFinding a Needle in the Haystack: Design and Implementation of a Digital Site-less Clinical Study of Serial Rapid Antigen Testing to Identify Asymptomatic SARS-CoV-2 Infection,\u201d medRxiv, 2022.",
+        "DOI": "10.1101/2022.08.04.22278274"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2196/38113"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.1999.790410"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW.2018.00060"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00499"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126544"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.16",
+        "doi-asserted-by": "crossref",
+        "first-page": "366",
+        "DOI": "10.1016/j.patrec.2020.04.005",
+        "article-title": "BEBLID: Boosted efficient binary local image descriptor",
+        "volume": "133",
+        "year": "2020",
+        "journal-title": "Pattern Recognit. Lett"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.17",
+        "unstructured": "A. Kolesnikov et al., \u201cBig Transfer (BiT): General Visual Representation Learning,\u201d ArXiv191211370 Cs, May 2020, Accessed: Mar. 29, 2022. [Online]. Available: http://arxiv.org/abs/1912.11370"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00138"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.20",
+        "unstructured": "\u201c O. Chum , T. Werner , and J. Matas : Two-view Geometry Estimation Unaffected by a Dominant Plane; CVPR 2005 Two-view Geometry Estimation Unaffected by a Dominant Plane.\u201d"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.02.16.22271042"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.3861638"
+      },
+      {
+        "key": "2024010921463075000_2024.01.04.24300836v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diagmicrobio.2022.115763"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.04.24300836",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:47:46Z",
+      "timestamp": 1768506466000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2024.01.04.24300836"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          4
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2024.01.04.24300836",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          4
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

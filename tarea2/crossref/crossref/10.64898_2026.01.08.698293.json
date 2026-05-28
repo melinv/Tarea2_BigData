@@ -1,0 +1,485 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2026-01-12T23:18:13Z",
+      "timestamp": 1768259893152,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 26,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              9
+            ]
+          ],
+          "date-time": "2026-01-09T00:00:00Z",
+          "timestamp": 1767916800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Genome BC Sector Innovation Program"
+      },
+      {
+        "name": "NRC Digital Health and Geospatial Analytics Program"
+      },
+      {
+        "DOI": "10.13039/501100001804",
+        "name": "Canada Research Chairs",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "CRC-2021-00232 X.Z"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CRC-2021-00232 X.Z"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001804",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000245",
+        "name": "Michael Smith Health Research BC",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "CH-2022-2553 X.Z."
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CH-2022-2553 X.Z."
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000245",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "id": [
+          {
+            "id": "https://ror.org/00cjrc276",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Bronchoalveolar lavage (BAL) single-cell RNA sequencing (scRNA-seq) offers rich insights into pulmonary immune dynamics, yet consistent cell-type annotation remains elusive. Existing methods often rely on a single reference, risking inconsistency and domain shift across datasets. A BAL-specific, high-resolution annotation framework is critically needed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We developed BAL-EA (BAL Ensemble Annotation), a BAL-centric automated annotation framework that integrates robust, cross-study marker discovery with ensemble machine learning. BAL-EA harmonizes BAL cell identities into a three-tier taxonomy (11 major lineages, 13 refined classes, 21 fine-grained subtypes) compatible with the Human Lung Cell Atlas (HLCA) while capturing lavage-enriched biology. Marker catalogues were derived via reproducibility-guided differential expression across at least 10 independent sub-studies, ensuring resilience to dataset-specific bias. Comparative benchmarking was performed against six leading annotation tools using independent BAL datasets.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We assembled the largest BAL scRNA-seq atlas to date, integrating more than 347,333 lung cells from HLCA, multiple public BAL datasets, and the largest inhouse BAL cohort ever reported (241,924 cells from 30 individuals). BAL-EA outperformed existing annotation tools, achieving balanced macro-F1 scores over 0.95 for key lineages such as alveolar macrophages (AM), non-alveolar macrophages, and epithelial cells. Application to Chronic Obstructive Pulmonary Disease (COPD) BAL samples revealed reproducible disease-associated shifts, including increased neutrophils and CCL2-positive macrophages alongside reduced AM in COPD patients, findings validated in independent COVID-19 BAL datasets. The released atlas includes harmonized multi-resolution annotations, robust marker panels, pretrained models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>This work contributes the most comprehensive BAL scRNA-seq atlas, introduces a novel BAL-specific annotation framework (BAL-EA), standardizes BAL taxonomy at three resolutions, and provides rigorously validated marker gene resources. Together, these advances deliver a powerful reference for reproducible BAL scRNA-seq analysis and lay the foundation for clinical and translational applications in respiratory disease research.</jats:p>\n                </jats:sec>",
+    "DOI": "10.64898/2026.01.08.698293",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2026-01-10T02:25:18Z",
+      "timestamp": 1768011918000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A standardized atlas of human bronchoalveolar lavage cells built using scalable ensemble annotation and cross-study robust markers"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Yushan",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Statistics, University of Victoria, 3800 Finnerty Rd, Victoria, V8P 5C2, BC, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Ziying",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Digital Technologies Research Centre, National Research Council Canada, 1200 Montreal Road, Ottawa, K1A 0R6, ON, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Kailun",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Statistics, University of Victoria, 3800 Finnerty Rd, Victoria, V8P 5C2, BC, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Belaid",
+        "family": "Moa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Victoria, 3800 Finnerty Rd, Victoria, V8P 5C2, BC, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Janice M.",
+        "family": "Leung",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Respirology, Department of Medicine, University of British Columbia, 1081 Burrard Street, Vancouver, V6Z 1Y6, BC, Canada"
+          },
+          {
+            "name": "UBC Centre for Heart Lung Innovation, St. Paul\u2019s Hospital, Vancouver, V6Z 1Y6, BC, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Firoozeh V.",
+        "family": "Gerayeli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Respirology, Department of Medicine, University of British Columbia, 1081 Burrard Street, Vancouver, V6Z 1Y6, BC, Canada"
+          },
+          {
+            "name": "UBC Centre for Heart Lung Innovation, St. Paul\u2019s Hospital, Vancouver, V6Z 1Y6, BC, Canada"
+          },
+          {
+            "name": "Channing Division of Network Medicine, Brigham and Women\u2019s Hospital, Boston, MA, USA"
+          },
+          {
+            "name": "Harvard Medical School, Boston, MA"
+          }
+        ]
+      },
+      {
+        "given": "Don D.",
+        "family": "Sin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Respirology, Department of Medicine, University of British Columbia, 1081 Burrard Street, Vancouver, V6Z 1Y6, BC, Canada"
+          },
+          {
+            "name": "UBC Centre for Heart Lung Innovation, St. Paul\u2019s Hospital, Vancouver, V6Z 1Y6, BC, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3044-621X",
+        "authenticated-orcid": false,
+        "given": "Xiaojian",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Digital Technologies Research Centre, National Research Council Canada, 1200 Montreal Road, Ottawa, K1A 0R6, ON, Canada"
+          },
+          {
+            "name": "Ottawa Institute of Systems Biology, Department of Biochemistry, Microbiology and Immunology, University of Ottawa, 451 Smyth Road, Ottawa, K1H 8M5, ON, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4728-2343",
+        "authenticated-orcid": false,
+        "given": "Xuekui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Statistics, University of Victoria, 3800 Finnerty Rd, Victoria, V8P 5C2, BC, Canada"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ernst, A. & Herth, F. J. F . (eds) Principles and Practice of Interventional Pulmonology (Springer, New York, NY, 2013).",
+        "DOI": "10.1007/978-1-4614-4292-9"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2144/btn-2023-0017"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.4046/trd.2024.0001",
+        "article-title": "What Single Cell RNA Sequencing Has Taught Us about Chronic Obstructive Pulmonary Disease",
+        "volume": "87",
+        "year": "2024",
+        "journal-title": "Tuberculosis and Respiratory Diseases"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41591-020-0901-9"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wauters, E. et al. Discriminating mild from critical COVID-19 by innate and adaptive immune single-cell profiling of bronchoalveolar lavages. Cell Research 31 (2021).",
+        "DOI": "10.1101/2020.07.09.196519"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-03148-w"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "680",
+        "DOI": "10.1007/s13238-020-00752-4",
+        "article-title": "Single-cell analysis reveals bronchoalveolar epithelial dysfunction in COVID-19 patients",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Protein & Cell"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0602-4"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, X. et al. ScRNA-seq expression of IFI27 and APOC2 identifies four alveolar macrophage superclusters in healthy BALF. Life Science Alliance 5 (2022).",
+        "DOI": "10.1101/2022.01.30.478325"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.202005-1989OC"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2771",
+        "DOI": "10.3390/cells12242771",
+        "article-title": "Single-cell sequencing of lung macrophages and monocytes reveals novel therapeutic targets in copd",
+        "volume": "12",
+        "year": "2023",
+        "journal-title": "Cells"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-023-02327-2"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41590-018-0276-y"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1038/nmeth.4644",
+        "article-title": "scmap: projection of single-cell RNA-seq data across data sets",
+        "volume": "15",
+        "year": "2018",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0205499"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz543"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z. et al. SCINA: A Semi-Supervised Subtyping Algorithm of Single Cells and Bulk Samples. Genes 10, 531 (2019).",
+        "DOI": "10.3390/genes10070531"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abdelaal, T. et al. A comparison of automatic cell identification methods for single-cell rna sequencing data. Genome Biology 20, 194 (2019).",
+        "DOI": "10.1186/s13059-019-1795-z"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morse, C. et al. Proliferating SPP1/MERTK-expressing macrophages in idiopathic pulmonary fibrosis. The European Respiratory Journal 54, 1802441 (2019).",
+        "DOI": "10.1183/13993003.02441-2018"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "3264",
+        "DOI": "10.1016/j.csbj.2025.07.019",
+        "article-title": "Pclda: An interpretable cell annotation tool for single-cell rna-sequencing data based on simple statistical methods",
+        "volume": "27",
+        "year": "2025",
+        "journal-title": "Computational and Structural Biotechnology Journal"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.CELL.2021.04.048"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41576-018-0088-9"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20188746"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.20209620"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wolf, F. A. , Angerer, P. & Theis, F. J . SCANPY: large-scale single-cell gene expression data analysis. Genome Biology 19, 15 (2018).",
+        "DOI": "10.1186/s13059-017-1382-0"
+      },
+      {
+        "key": "2026011210352151000_2026.01.08.698293v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/j.cels.2018.11.005",
+        "article-title": "Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data",
+        "volume": "8",
+        "year": "2019",
+        "journal-title": "Cell systems"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.08.698293",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2026-01-12T18:35:29Z",
+      "timestamp": 1768242929000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.08.698293"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.64898/2026.01.08.698293",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

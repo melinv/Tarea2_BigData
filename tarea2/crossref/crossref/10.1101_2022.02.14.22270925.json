@@ -1,0 +1,896 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:40:18Z",
+      "timestamp": 1768556418067,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          17
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 133,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>COVID-19 is a new multi-organ disease, caused by the SARS-CoV-2 virus, resulting in considerable worldwide morbidity and mortality. While many recognized pathophysiological mechanisms are involved, their exact causal relationships remain opaque. A better understanding is needed for predicting their progression, targeting therapeutic approaches, and improving patient outcomes. While many mathematical causal models describe COVID-19 epidemiology, none have been developed for its pathophysiology. The virus\u2019s rapid and extensive spread and therapeutic responses made this particularly difficult. Initially, no large patient datasets were publicly available, and their data remains limited. The medical literature was flooded with unfiltered, technical and sometimes conflicting pre-review reports. Clinicians in many countries had little time for academic consultations, and in-person meetings were unsafe.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods and Findings</jats:title>\n                  <jats:p>In early 2020, we began a major project to develop causal models of the pathophysiological processes underlying the disease\u2019s clinical manifestations. We used Bayesian network (BN) models, because they provide both powerful tools for calculation and clear maps of probabilistic causal influence between semantically meaningful variables, as directed acyclic graphs (DAGs). Hence, they can incorporate expert opinion and numerical data, and produce explainable results. Dynamic causal BNs, which represent successive \u201ctime slices\u201d of the system, can capture feedback loops and long-term disease progression.</jats:p>\n                  <jats:p>To obtain the likely causal structures, we used extensive elicitation of expert opinion in structured online sessions. Centered in Australia, with its exceptionally low COVID-19 burden, we managed to obtain many consultation hours. Groups of clinical and other subject matter specialists, all independent volunteers, were enlisted to filter, interpret and discuss the literature and develop a current consensus. We aimed to capture the experts\u2019 understanding, so we encouraged discussion and inclusion of theoretically salient latent (i.e., unobservable) variables, documented supporting literature while noting controversies, and allowed experts to propose mechanisms by extrapolation from other diseases. Intermediary experts with some combined expertise facilitated the exchange of knowledge to BN modelers and vice versa. Our method was iterative and incremental: we systematically refined and checked the group output with one-on-one follow-up meetings with the original and new experts to validate previous results. In total, 35 experts contributed 126 face-to-face hours, and could review our products.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our method demonstrates and describes an improved procedure for developing BNs via expert elicitation, which can be implemented rapidly by other teams modeling emergent complex phenomena. The results presented are two key models, for the initial infection of the respiratory tract and the possible progression to complications, as causal DAGs and BNs with corresponding verbal descriptions, dictionaries and sources. These are the first published causal models of COVID-19 pathophysiology, with three anticipated applications: (i) making expert knowledge freely available in a readily understandable and updatable form; (ii) guiding design and analysis of observational and clinical studies, by identifying potential mediators, confounders, and modifiers of treatment effects; (iii) developing and validating parameterized automated tools for causal reasoning and decision support, in clinical and policy settings. We are currently developing such tools for the initial diagnosis, resource management, and prognosis of COVID-19, parameterized using the ISARIC and LEOSS databases.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.02.14.22270925",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          17
+        ]
+      ],
+      "date-time": "2022-02-17T17:50:12Z",
+      "timestamp": 1645120212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Modeling COVID-19 disease processes by remote elicitation of causal Bayesian networks from medical experts"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Steven",
+        "family": "Mascaro",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yue",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Owen",
+        "family": "Woodberry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Erik P.",
+        "family": "Nyberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ross",
+        "family": "Pearson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4005-9886",
+        "authenticated-orcid": false,
+        "given": "Jessica",
+        "family": "Ramsay",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ariel",
+        "family": "Mace",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Foley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tom",
+        "family": "Snelling",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ann E.",
+        "family": "Nicholson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "COVID BN Advisory Group",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/medethics-2020-106494"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Korb KB , Nicholson AE . Bayesian Artificial Intelligence. 2nd ed. Boca Raton: Chapman & Hall / CRC Press; 2011.",
+        "DOI": "10.1201/b10391"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mma.6345"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.02.20.20023572"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2468-2667(21)00002-5"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5694/mja2.50606"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30144-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40249-020-00683-6"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.9",
+        "article-title": "Dynamic causal modelling of COVID-19",
+        "year": "2020",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.10",
+        "article-title": "Estimating required \u2018lockdown\u2019 cycles before immunity to SARS-CoV-2: Model-based analyses of susceptible population sizes, \u2018S0\u2019, in seven European countries including the UK and Ireland",
+        "year": "2020",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/13669877.2020.1756381"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pearl J. Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference. San Mateo: Morgan Kaufmann; 1988.",
+        "DOI": "10.1016/B978-0-08-051489-5.50008-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Spirtes P , Glymour CN , Scheines R. Causation, Prediction, and Search. 2nd ed. Cambridge, MA: MIT Press; 2000.",
+        "DOI": "10.7551/mitpress/1754.001.0001"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bostrom N , Yudkowsky E. The ethics of artificial intelligence. In: Frankish K , Ramsey WM , editors. The Cambridge Handbook of Artificial Intelligence. Cambridge University Press; 2014. p. 316\u2013334.",
+        "DOI": "10.1017/CBO9781139046855.020"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.15",
+        "unstructured": "Hennessy C , Bugar\u00edn A , Reiter E. Explaining Bayesian Networks in Natural Language: State of the Art and Challenges. In: 2nd Workshop on Interactive Natural Language Technology for Explainable Artificial Intelligence. Dublin, Ireland: Association for Computational Linguistics; 2020. p. 28\u201333. Available from: https://aclanthology.org/2020.nl4xai-1.7."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10506-016-9183-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Keppens J. Explainable Bayesian Network Query Results via Natural Language Generation Systems. In: Proceedings of the Seventeenth International Conference on Artificial Intelligence and Law. ICAIL \u201819. New York, NY, USA: Association for Computing Machinery; 2019. p. 42\u201351.",
+        "DOI": "10.1145/3322640.3326716"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.18",
+        "unstructured": "Kyrimi E , Marsh W. A Progressive Explanation of Inference in \u2018Hybrid\u2019 Bayesian Networks for Supporting Clinical Decision Making. In: Antonucci A , Corani G , de Campos Cp , editors. Probabilistic Graphical Models - Eighth International Conference (PGM 2016), Lugano, Switzerland, September 6\u20139, 2016. Proceedings. vol. 52 of JMLR Workshop and Conference Proceedings. JMLR.org; 2016. p. 275\u2013286."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/risa.13759"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Biran O , McKeown K. Human-Centric Justification of Machine Learning Predictions. In: Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, IJCAI-17; 2017. p. 1461\u20131467.",
+        "DOI": "10.24963/ijcai.2017/202"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-17419-7"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O\u2019Donnell RT , Allison L , Korb KB . Learning Hybrid Bayesian Networks by MML. In: Sattar A , Kang B , editors. AI 2006: Advances in Artificial Intelligence. Berlin: Springer; 2006. p. 192\u2013203.",
+        "DOI": "10.1007/11941439_23"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qre.410"
+      },
+      {
+        "issue": "1",
+        "key": "2022021906200584000_2022.02.14.22270925v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.ress.2005.11.037",
+        "article-title": "Bayesian networks in reliability",
+        "volume": "92",
+        "year": "2007",
+        "journal-title": "Reliability Engineering and System Safety"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2016.04.012"
+      },
+      {
+        "issue": "9",
+        "key": "2022021906200584000_2022.02.14.22270925v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0183580",
+        "DOI": "10.1371/journal.pone.0183580",
+        "article-title": "Individual versus group decision making: Jurors\u2019 reliance on central and peripheral information to evaluate expert testimony",
+        "volume": "12",
+        "year": "2017",
+        "journal-title": "PLOS One"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wcs.1184"
+      },
+      {
+        "issue": "3",
+        "key": "2022021906200584000_2022.02.14.22270925v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1257/jep.26.3.157",
+        "article-title": "Groups make better self-interested decisions",
+        "volume": "26",
+        "year": "2012",
+        "journal-title": "Journal of Economic Perspectives"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/a0022734"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hackman JR , Katz N. 32. In: Fiske ST , Gilbert DT , Lindzey G , editors. Group behavior and performance. New York: Wiley; 2010. p. 1208\u20131251.",
+        "DOI": "10.1002/9780470561119.socpsy002032"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.112.2.494"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kahneman D , Slovic P , Tversky A , editors. Judgment Under Uncertainty: Heuristics and Biases. New York: Cambridge University Press; 1982.",
+        "DOI": "10.1017/CBO9780511809477"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stettinger M , Felfernig A , Leitner G , Reiterer S. Counteracting anchoring effects in group decision making. In: 23rd International Conference on User Modeling, Adaptation, and Personalization,. UMAP 2015. Cham: Springer; 2015. p. 118\u2013130.",
+        "DOI": "10.1007/978-3-319-20267-9_10"
+      },
+      {
+        "issue": "2",
+        "key": "2022021906200584000_2022.02.14.22270925v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1002/j.2162-6057.2006.tb01267.x",
+        "article-title": "Errors in creative thought? Cognitive biases in a complex processing activity",
+        "volume": "40",
+        "year": "2006",
+        "journal-title": "The Journal of Creative Behavior"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9280.2009.02333.x"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/isre.1050.0051"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.37",
+        "unstructured": "Linstone HA , Turoff M. The Delphi Method: Techniques and Applications. London: Addison-Wesley; 1975."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-1625(91)90039-I"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.39",
+        "unstructured": "Laskey KB , Mahoney SM . Network fragments: Representing knowledge for constructing probabilistic models. In: Proceedings of the Thirteenth Conference on Uncertainty in Artificial Intelligence,. UAI\u201997. San Francisco: Morgan Kaufmann; 1997. p. 334\u2013341."
+      },
+      {
+        "issue": "4",
+        "key": "2022021906200584000_2022.02.14.22270925v1.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.1109/69.868902",
+        "article-title": "Network engineering for agile belief network models",
+        "volume": "12",
+        "year": "2000",
+        "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.41",
+        "unstructured": "Boneh T. Ontology and Bayesian decision networks for supporting the meteorological forecasting process [PhD thesis]. Monash University. Melbourne, Australia; 2010."
+      },
+      {
+        "issue": "1",
+        "key": "2022021906200584000_2022.02.14.22270925v1.42",
+        "first-page": "61",
+        "article-title": "The \u201cJury Fallacy\u201d and the use of Bayesian Networks to present Probabilistic Legal Arguments",
+        "volume": "37",
+        "year": "2000",
+        "journal-title": "Mathematics Today"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.43",
+        "first-page": "61",
+        "article-title": "A spiral model of software development and enhancement",
+        "volume": "5",
+        "year": "1988",
+        "journal-title": "Computer"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.44",
+        "unstructured": "Cox BJ , Novobilski A. Object-Oriented Programming; An Evolutionary Approach. 2nd ed. USA: Addison-Wesley; 1991."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/opre.7.5.646"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0278-7393.30.2.299"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1539-6924.2009.01337.x"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/2041210X.12857"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ssci.2016.03.001"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0950268821001357"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12931-020-01455-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/jphil20091061128"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyaa213"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMc2001737"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41593-020-00758-5"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abc5801"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30193-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41577-020-0343-0"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41419-020-03252-9"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa410"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.vph.2021.106829"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30937-5"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-020-03398-0"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmv.26152"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-020-03062-7"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5455/medarh.2017.71.66-68"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rmed.2015.05.020"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphys.2020.587013"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2020.8907"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphys.2021.640973"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/ajrccm.149.1.8111603"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms21218081"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jth.14844"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/ajplung.00195.2020"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcrc.2020.09.021"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2015432"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2020203557"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30407-0"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.thromres.2020.11.017"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30370-2"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ALN.0000000000003578"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12931-020-01462-5"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30367-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1076029620962853"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpcardiol.2020.100618"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/CIRCRESAHA.115.301146"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/CCE.0000000000000372"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41401-020-00554-8"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/dmp.2020.235"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0868-6"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30937-5"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30193-4"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/ajplung.00195.2020"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30407-0"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/CIRCRESAHA.115.301146"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.02524-2020"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa410"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.98",
+        "unstructured": "S. Baron , M. Fons , and T. Albrecht , \u201cViral Pathogenesis,\u201d in Medical Microbiology, 4th ed., S. Baron , Ed. Galveston (TX): University of Texas Medical Branch at Galveston, 1996. Accessed: Sep. 20, 2021. [Online]. Available: http://www.ncbi.nlm.nih.gov/books/NBK8149/"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2353/ajpath.2007.061088"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ALN.0000000000003578"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12931-020-01462-5"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ejhf.2058"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-015-0741-z"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.104",
+        "unstructured": "\u201cFull article: A multidisciplinary consensus on dehydration: definitions, diagnostic methods and clinical implications.\u201d https://www.tandfonline.com/doi/full/10.1080/07853890.2019.1628352 (accessed Sep. 20, 2021)."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.105",
+        "unstructured": "\u201cPhysiology, Peripheral Vascular Resistance - StatPearls - NCBI Bookshelf.\u201d https://www.ncbi.nlm.nih.gov/books/NBK538308/ (accessed Sep. 24, 2021)."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0004563220922255"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/eurheartj/suz220"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ncp.10199"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrneph.2010.33"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-015-0896-7"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5049/EBP.2020.18.2.23"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jth.14844"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcrc.2020.09.021"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.01608-2020"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2147/CIA.S57548"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.116",
+        "unstructured": "\u201cCerebral Circulation: XII. The Effect on Pial Vessels of Variations in The Oxygen and Carbon Dioxide Content of The Blood | Archives of Neurology & Psychiatry | JAMA Network.\u201d https://jamanetwork.com/journals/archneurpsyc/article-abstract/644583 (accessed Sep. 24, 2021)."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apsb.2012.12.007"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.blre.2021.100864"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/heartjnl-2016-309530"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/CIRCULATIONAHA.120.047911"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.121",
+        "unstructured": "\u201cCovid-19 and the cardiovascular system: a comprehensive review | Journal of Human Hypertension.\u201d https://www.nature.com/articles/s41371-020-0387-4 (accessed Sep. 20, 2021)."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10741-020-10008-2"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3748/wjg.v26.i19.2286"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.124",
+        "unstructured": "\u201cCOVID-19 and Liver Dysfunction: Current Insights and Emergent Therapeutic Strategies.\u201d https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132016/ (accessed Sep. 24, 2021)."
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13613-018-0391-9"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/SHK.0000000000001659"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)31759-1"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.128",
+        "doi-asserted-by": "crossref",
+        "unstructured": "\u201cBone Marrow and Peripheral Blood Findings in Patients Infected by SARS-CoV-2 | American Journal of Clinical Pathology | Oxford Academic.\u201d https://academic.oup.com/ajcp/article/155/5/627/6121360 (accessed Sep. 20, 2021).",
+        "DOI": "10.1093/ajcp/aqaa274"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-021-06461-8"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.clnu.2014.08.017"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13054-019-2718-9"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.132",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/2110-5820-3-15"
+      },
+      {
+        "key": "2022021906200584000_2022.02.14.22270925v1.133",
+        "unstructured": "\u201cHepatic Encephalopathy | NEJM.\u201d https://www.nejm.org/doi/full/10.1056/NEJMra1600561 (accessed Sep. 24, 2021)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.14.22270925",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:36:54Z",
+      "timestamp": 1768487814000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.02.14.22270925"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          17
+        ]
+      ]
+    },
+    "references-count": 133,
+    "URL": "https://doi.org/10.1101/2022.02.14.22270925",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

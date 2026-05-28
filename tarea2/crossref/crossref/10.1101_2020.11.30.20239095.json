@@ -1,0 +1,595 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:07:57Z",
+      "timestamp": 1768550877235,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "group-title": "Oncology",
+    "reference-count": 23,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Cancer patients are at increased risk of severe COVID-19. As COVID-19 presentation and outcomes are heterogeneous in cancer patients, decision-making tools for hospital admission, severity prediction and increased monitoring for early intervention are critical.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To identify features of COVID-19 in cancer patients predicting severe disease and build a decision-support online tool; COVID-19 Risk in Oncology Evaluation Tool (CORONET)</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Method</jats:title>\n                  <jats:p>Data was obtained for consecutive patients with active cancer with laboratory confirmed COVID-19 presenting in 12 hospitals throughout the United Kingdom (UK). Univariable logistic regression was performed on pre-specified features to assess their association with admission (\u226524 hours inpatient), oxygen requirement and death. Multivariable logistic regression and random forest models (RFM) were compared with patients randomly split into training and validation sets. Cost function determined cut-offs were defined for admission/death using RFM. Performance was assessed by sensitivity, specificity and Brier scores (BS). The CORONET model was then assessed in the entire cohort to build the online CORONET tool.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Training and validation sets comprised 234 and 66 patients respectively with median age 69 (range 19-93), 54% males, 46% females, 71% vs 29% had solid and haematological cancers. The RFM, selected for further development, demonstrated superior performance over logistic regression with AUROC predicting admission (0.85 vs. 0.78) and death (0.76 vs. 0.72). C-reactive protein was the most important feature predicting COVID-19 severity. CORONET cut-offs for admission and mortality of 1.05 and 1.8 were established. In the training set, admission prediction sensitivity and specificity were 94.5% and 44.3% with BS 0.118; mortality sensitivity and specificity were 78.5% and 57.2% with BS 0.364. In the validation set, admission sensitivity and specificity were 90.7% and 42.9% with BS 0.148; mortality sensitivity and specificity were 92.3% and 45.8% with BS 0.442. In the entire cohort, the CORONET decision support tool recommended admission of 99% of patients requiring oxygen and of 99% of patients who died.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions and Relevance</jats:title>\n                  <jats:p>CORONET, a decision support tool validated in hospitals throughout the UK showed promise in aiding decisions regarding admission and predicting COVID-19 severity in patients with cancer presenting to hospital. Future work will validate and refine the tool in further datasets.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.11.30.20239095",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2020-12-03T09:49:59Z",
+      "timestamp": 1606988999000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Establishment of CORONET; COVID-19 Risk in Oncology Evaluation Tool to identify cancer patients at low versus high risk of severe complications of COVID-19 infection upon presentation to hospital"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2540-2009",
+        "authenticated-orcid": false,
+        "given": "R.J.",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6938-4685",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7053-4919",
+        "authenticated-orcid": false,
+        "given": "O.",
+        "family": "Wysocki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4545-8296",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Shotton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5389-3741",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Tivey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L.",
+        "family": "Lever",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Woodcock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9769-9940",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Angelakas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "T.",
+        "family": "Aung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1832-548X",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Banfill",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5773-8650",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Baxter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3297-9957",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Bhogal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H.",
+        "family": "Boyce",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8994-4056",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Copson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "E.",
+        "family": "Dickens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8060-4722",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Eastlake",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H.",
+        "family": "Frost",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0922-2665",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Gomes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D.M",
+        "family": "Graham",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "C.",
+        "family": "Hague",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Harrison",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "L.",
+        "family": "Horsley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Huddar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Z.",
+        "family": "Hudson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "U. T.",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Maynard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H.",
+        "family": "McKenzie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0933-646X",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Robinson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Rowe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anne",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lance",
+        "family": "Turtle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.",
+        "family": "Sheehan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Stockdale",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Weaver",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "S.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1678-7974",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Wilson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.",
+        "family": "Hoskins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J.",
+        "family": "Stevenson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "P.",
+        "family": "Fitzpatrick",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "C.",
+        "family": "Palmieri",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8376-9779",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Landers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6114-1956",
+        "authenticated-orcid": false,
+        "given": "T",
+        "family": "Cooksley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1726-8850",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Dive",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.",
+        "family": "Freitas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A. C.",
+        "family": "Armstrong",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong E , Du H , Gardner L. An interactive web-based dashboard to track COVID-19 in real time [Internet]. Vol. 20, The Lancet Infectious Diseases. Lancet Publishing Group; 2020 [cited 2020 Oct 3]. p. 533\u20134. Available from: https://www.who.int/china/news/",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "issue": "18",
+        "key": "2020120522150792000_2020.11.30.20239095v1.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1708",
+        "DOI": "10.1056/NEJMoa2002032",
+        "article-title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+        "volume": "382",
+        "year": "2020",
+        "journal-title": "N Engl J Med [Internet]"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horby P , Lim WS , Emberson J , Mafham M , Bell J , Linsell L , et al. Dexamethasone for COVID-19-Preliminary Report Effect of Dexamethasone in Hospitalized Patients with COVID-19-Preliminary Report RECOVERY Collaborative Group* [Internet]. medRxiv. Cold Spring Harbor Laboratory Press; 2020 Jun [cited 2020 Jul 2]. Available from: https://www.medrxiv.org/content/10.1101/2020.06.22.20137273v1",
+        "DOI": "10.1101/2020.06.22.20137273"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang W , Guan W , Chen R , Wang W , Li J , Xu K , et al. Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China. Vol. 21, The Lancet Oncology. Lancet Publishing Group; 2020. p. 335\u20137.",
+        "DOI": "10.1016/S1470-2045(20)30096-6"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.5",
+        "unstructured": "Collaborative TO , Williamson E , Walker AJ , Bhaskaran KJ , Bacon S , Bates C , et al. OpenSAFELY: factors associated with COVID-19-related hospital death in the linked electronic health records of 17 million adult NHS patients. medRxiv. 2020 May 7;2020.05.06.20092999."
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee LYW , Cazier JB , Starkey T , Turnbull CD , Kerr R , Middleton G. COVID-19 mortality in patients with cancer on chemotherapy or other anticancer treatments: a prospective cohort study. Lancet [Internet]. 2020 May [cited 2020 May 31];0(0). Available from: https://linkinghub.elsevier.com/retrieve/pii/S0140673620311739",
+        "DOI": "10.1016/j.annonc.2020.08.1742"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.7",
+        "unstructured": "Kuderer NM , Choueiri TK , Shah DP , Shyr Y , Rubinstein SM , Rivera DR , et al. Clinical impact of COVID-19 on patients with cancer (CCC19): a cohort study. Lancet [Internet]. 2020 May [cited 2020 May 31];0(0). Available from: https://linkinghub.elsevier.com/retrieve/pii/S0140673620311879"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.ejca.2020.08.011",
+        "article-title": "Mortality in patients with cancer and coronavirus disease 2019: A systematic review and pooled analysis of 52 studies",
+        "volume": "139",
+        "year": "2020",
+        "journal-title": "Eur J Cancer"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.9",
+        "unstructured": "Albiges L , Foulon S , Bayle A , Gachot B , Pommeret F , Willekens C , et al. Determinants of the outcomes of patients with cancer infected with SARS-CoV-2: results from the Gustave Roussy cohort. Nat Cancer [Internet]. 2020 Sep 22 [cited 2020 Oct 3];1\u201311. Available from: http://www.nature.com/articles/s43018-020-00120-5"
+      },
+      {
+        "issue": "10",
+        "key": "2020120522150792000_2020.11.30.20239095v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1309",
+        "DOI": "10.1016/S1470-2045(20)30442-3",
+        "article-title": "COVID-19 prevalence and mortality in patients with cancer and the effect of primary tumour subtype and patient demographics: a prospective cohort study",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "Lancet Oncol [Internet]"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu C , Chen X , Cai Y , Xia J , Zhou X , Xu S , et al. Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China. JAMA Intern Med [Internet]. 2020 Mar 13 [cited 2020 May 12]; Available from: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2763184",
+        "DOI": "10.1001/jamainternmed.2020.0994"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.12",
+        "unstructured": "Williamson EJ , Walker AJ , Bhaskaran K , Bacon S , Bates C , Morton CE , et al. OpenSAFELY: factors associated with COVID-19 death in 17 million patients. Nature [Internet]. 2020 Jul 8 [cited 2020 Jul 8];1\u201311. Available from: http://www.nature.com/articles/s41586-020-2521-4"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynants L , Van Calster B , Bonten MMJ , Collins GS , Debray TPA , De Vos M , et al. Prediction models for diagnosis and prognosis of covid-19 infection: Systematic review and critical appraisal. BMJ. 2020 Apr 7;369.",
+        "DOI": "10.1101/2020.03.24.20041020"
+      },
+      {
+        "key": "#cr-split#-2020120522150792000_2020.11.30.20239095v1.14.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henry BM , De Oliveira MHS , Benoit S , Plebani M , Lippi G. Hematologic, biochemical and immune biomarker abnormalities associated with severe illness and mortality in coronavirus disease 2019 (COVID-19): A meta-analysis [Internet]. Vol. 58, Clinical Chemistry and Laboratory Medicine. De Gruyter",
+        "DOI": "10.1515/cclm-2020-0369"
+      },
+      {
+        "key": "#cr-split#-2020120522150792000_2020.11.30.20239095v1.14.2",
+        "unstructured": "2020 [cited 2020 Oct 4]. p. 1021-8. Available from: https://pubmed.ncbi.nlm.nih.gov/32286245/"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.15",
+        "first-page": "18",
+        "article-title": "Prediction models for diagnosis and prognosis of covid-19: Systematic review and critical appraisal",
+        "volume": "369",
+        "year": "2020",
+        "journal-title": "BMJ [Internet]"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.16",
+        "first-page": "22",
+        "article-title": "Risk stratification of patients admitted to hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: Development and validation of the 4C Mortality Score",
+        "volume": "370",
+        "year": "2020",
+        "journal-title": "BMJ [Internet]"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.17",
+        "unstructured": "Health Research Authority. Guidance for using patient data-Health Research Authority [Internet]. 2020 [cited 2020 Aug 23]. Available from: https://www.hra.nhs.uk/covid-19-research/guidance-using-patient-data/"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee RJ , Wysocki O , Bhogal T. Longitudinal characterisation of haematological and biochemical parameters in cancer patients prior to and during COVID-19 reveals features associated with outcome. ESMO Open. 2020;",
+        "DOI": "10.1016/j.esmoop.2020.100005"
+      },
+      {
+        "issue": "10",
+        "key": "2020120522150792000_2020.11.30.20239095v1.19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1465",
+        "DOI": "10.1158/2159-8290.CD-20-0773",
+        "article-title": "Clinical Portrait of the SARS-CoV-2 Epidemic in European Patients with Cancer",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Cancer Discov [Internet]"
+      },
+      {
+        "issue": "7",
+        "key": "2020120522150792000_2020.11.30.20239095v1.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "935",
+        "DOI": "10.1158/2159-8290.CD-20-0516",
+        "article-title": "Case Fatality Rate of Cancer Patients with COVID-19 in a New York Hospital System",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Cancer Discov [Internet]"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.21",
+        "unstructured": "National Early Warning Score (NEWS) 2 | RCP London [Internet]. [cited 2020 Oct 4]. Available from: https://www.rcplondon.ac.uk/projects/outputs/national-early-warning-score-news-2"
+      },
+      {
+        "key": "2020120522150792000_2020.11.30.20239095v1.22",
+        "unstructured": "NEWS (or NEWS2) score when assessing possible COVID-19 patients in primary care? - CEBM [Internet]. [cited 2020 Oct 4]. Available from: https://www.cebm.net/covid-19/should-we-use-the-news-or-news2-score-when-assessing-patients-with-possible-covid-19-in-primary-care/"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.11.30.20239095",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:00:16Z",
+      "timestamp": 1768485616000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.11.30.20239095"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1101/2020.11.30.20239095",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1200/cci.21.00177",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

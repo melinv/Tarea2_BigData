@@ -1,0 +1,600 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:53:12Z",
+      "timestamp": 1768499592908,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          3
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 61,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Phylogenetics has been foundational to SARS-CoV-2 research and public health policy, assisting in genomic surveillance, contact tracing, and assessing emergence and spread of new variants. However, phylogenetic analyses of SARS-CoV-2 have often relied on tools designed for\n                  <jats:italic>de novo</jats:italic>\n                  phylogenetic inference, in which all data are collected before any analysis is performed and the phylogeny is inferred once from scratch. SARS-CoV-2 datasets do not fit this mould. There are currently over 10 million sequenced SARS-CoV-2 genomes in online databases, with tens of thousands of new genomes added every day. Continuous data collection, combined with the public health relevance of SARS-CoV-2, invites an \u201conline\u201d approach to phylogenetics, in which new samples are added to existing phylogenetic trees every day. The extremely dense sampling of SARS-CoV-2 genomes also invites a comparison between likelihood and parsimony approaches to phylogenetic inference. Maximum likelihood (ML) methods are more accurate when there are multiple changes at a single site on a single branch, but this accuracy comes at a large computational cost, and the dense sampling of SARS-CoV-2 genomes means that these instances will be extremely rare because each internal branch is expected to be extremely short. Therefore, it may be that approaches based on maximum parsimony (MP) are sufficiently accurate for reconstructing phylogenies of SARS-CoV-2, and their simplicity means that they can be applied to much larger datasets. Here, we evaluate the performance of\n                  <jats:italic>de novo</jats:italic>\n                  and online phylogenetic approaches, and ML and MP frameworks, for inferring large and dense SARS-CoV-2 phylogenies. Overall, we find that online phylogenetics produces similar phylogenetic trees to\n                  <jats:italic>de novo</jats:italic>\n                  analyses for SARS-CoV-2, and that MP optimizations produce more accurate SARS-CoV-2 phylogenies than do ML optimizations. Since MP is thousands of times faster than presently available implementations of ML and online phylogenetics is faster than\n                  <jats:italic>de novo</jats:italic>\n                  , we therefore propose that, in the context of comprehensive genomic epidemiology of SARS-CoV-2, MP online phylogenetics approaches should be favored.\n                </jats:p>",
+    "DOI": "10.1101/2021.12.02.471004",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2021-12-04T00:10:14Z",
+      "timestamp": 1638576614000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Online Phylogenetics using Parsimony Produces Slightly Better Trees and is Dramatically More Efficient for Large SARS-CoV-2 Phylogenies than\n                  <i>de novo</i>\n                  and Maximum-Likelihood Approaches"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6334-5186",
+        "authenticated-orcid": false,
+        "given": "Bryan",
+        "family": "Thornlow",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Kramer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cheng",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1776-8564",
+        "authenticated-orcid": false,
+        "given": "Nicola",
+        "family": "De Maio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jakob",
+        "family": "McBroome",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Angie S.",
+        "family": "Hinrichs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Lanfear",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yatish",
+        "family": "Turakhia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Russell",
+        "family": "Corbett-Detig",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Annavajhala M.K. , Mohri H. , Wang P. , Nair M. , Zucker J.E. , Sheng Z. , Gomez-Simmonds A. , Kelley A.L. , Tagliavia M. , Huang Y. , Bedford T. , Ho D.D. , Uhlemann A.-C. 2021. A Novel and Expanding SARS-CoV-2 Variant, B.1.526, Identified in New York. medRxiv.",
+        "DOI": "10.1101/2021.02.23.21252259"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "DOI": "10.1093/sysbio/syy054",
+        "article-title": "EPA-ng: Massively Parallel Evolutionary Placement of Genetic Sequences",
+        "volume": "68",
+        "year": "2019",
+        "journal-title": "Syst. Biol"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/syr010"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0241405",
+        "DOI": "10.1371/journal.pone.0241405",
+        "article-title": "SARS-CoV-2 transmission routes from genetic data: A Danish case study",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1562",
+        "DOI": "10.1002/jmv.25797",
+        "article-title": "Phylogenetic analysis of the first four SARS-CoV-2 cases in Chile",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "J. Med. Virol"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e99",
+        "DOI": "10.1016/S2666-5247(20)30054-9",
+        "article-title": "An integrated national scale SARS-CoV-2 genomic surveillance network",
+        "volume": "1",
+        "author": "COVID-19 Genomics UK (COG-UK) Consortium",
+        "year": "2020",
+        "journal-title": "Lancet Microbe"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Maio N. , Kalaghatgi P. , Turakhia Y. , Corbett-Detig R. , Minh B.Q. , Goldman N. 2022. Maximum likelihood pandemic-scale phylogenetics. bioRxiv.:2022.03.22.485312.",
+        "DOI": "10.1101/2022.03.22.485312"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Maio N. , Walker C.R. , Turakhia Y. , Lanfear R. , Corbett-Detig R. , Goldman N. 2021a. Mutation Rates and Selection on Synonymous Mutations in SARS-CoV-2. Genome Biol. Evol. 13.",
+        "DOI": "10.1093/gbe/evab087"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Maio N. , Weilguny L. , Walker C.R. , Turakhia Y. , Corbett-Detig R. , Goldman N. 2021b. phastSim: efficient simulation of sequence evolution for pandemic-scale datasets. bioRxiv.",
+        "DOI": "10.1101/2021.03.15.435416"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abb9263"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/sysbio/27.4.401"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "490",
+        "DOI": "10.1093/sysbio/syx090",
+        "article-title": "Effective Online Bayesian Phylogenetics via Sequential Monte Carlo with Guided Proposals",
+        "volume": "67",
+        "year": "2018",
+        "journal-title": "Syst. Biol"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-021-07708-w"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msaa047"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc1917"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.16"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2992396"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "16048",
+        "DOI": "10.1038/nmicrobiol.2016.48",
+        "article-title": "A new view of the tree of life",
+        "volume": "1",
+        "year": "2016",
+        "journal-title": "Nat Microbiol"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu053"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.20",
+        "doi-asserted-by": "crossref",
+        "first-page": "5179",
+        "DOI": "10.1016/j.cell.2021.08.014",
+        "article-title": "Generation and transmission of interlineage recombinants in the SARS-CoV-2 pandemic",
+        "volume": "184",
+        "author": "COVID-19 Genomics UK (COG-UK) Consortium",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kalantar K.L. , Carvalho T. , de Bourcy C.F.A. , Dimitrov B. , Dingle G. , Egger R. , Han J. , Holmes O.B. , Juan Y.-F. , King R. , Kislyuk A. , Lin M.F. , Mariano M. , Morse T. , Reynoso L.V. , Cruz D.R. , Sheu J. , Tang J. , Wang J. , Zhang M.A. , Zhong E. , Ahyong V. , Lay S. , Chea S. , Bohl J.A. , Manning J.E. , Tato C. M. , DeRisi J.L. 2020. IDseq\u2014An open source cloud-based pipeline and analysis service for metagenomic pathogen detection and monitoring. Gigascience. 9.",
+        "DOI": "10.1093/gigascience/giaa111"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "7045",
+        "DOI": "10.1002/jcp.30367",
+        "article-title": "Higher infectivity of the SARS-CoV-2 new variants is associated with K417N/T, E484K, and N501Y mutants: An insight from structural data",
+        "volume": "236",
+        "year": "2021",
+        "journal-title": "J. Cell. Physiol"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature02917"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4453",
+        "DOI": "10.1093/bioinformatics/btz305",
+        "article-title": "RAxML-NG: a fast, scalable and user-friendly tool for maximum likelihood phylogenetic inference",
+        "volume": "35",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "544",
+        "DOI": "10.1016/j.tig.2020.05.009",
+        "article-title": "Tracking the Genomic Footprints of SARS-CoV-2 Transmission",
+        "volume": "36",
+        "year": "2020",
+        "journal-title": "Trends Genet"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.26",
+        "unstructured": "Lanfear R. , Mansfield R. 2020. roblanf/sarscov2phylo: 13-11-20.."
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li X. , Giorgi E.E. , Marichannegowda M.H. , Foley B. , Xiao C. , Kong X.-P. , Chen Y. , Gnanakaran S. , Korber B. , Gao F. 2020. Emergence of SARS-CoV-2 through recombination and strong purifying selection. Sci Adv. 6.",
+        "DOI": "10.1126/sciadv.abb9153"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "997",
+        "DOI": "10.1016/j.cell.2020.04.023",
+        "article-title": "Genomic Epidemiology of SARS-CoV-2 in Guangdong Province, China",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)302518"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-538"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "5819",
+        "DOI": "10.1093/molbev/msab264",
+        "article-title": "A Daily-Updated Database and Tools for Comprehensive SARS-CoV-2 Mutation-Annotated Trees",
+        "volume": "38",
+        "year": "2021",
+        "journal-title": "Mol. Biol. Evol"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1263",
+        "DOI": "10.1016/S1473-3099(20)30562-4",
+        "article-title": "Rapid implementation of SARS-CoV-2 sequencing to investigate cases of health-care associated COVID-19: a prospective genomic surveillance study",
+        "volume": "20",
+        "year": "2020",
+        "journal-title": "Lancet Infect. Dis"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msaa015"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "5558",
+        "DOI": "10.1038/s41467-020-19346-z",
+        "article-title": "Revealing fine-scale spatiotemporal differences in SARS-CoV-2 introduction and spread",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paradis E. , Schliep K. 2019. ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics.",
+        "DOI": "10.1093/bioinformatics/bty633"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.24171/j.phrp.2021.12.1.06",
+        "article-title": "Genomic Surveillance of SARS-CoV-2: Distribution of Clades in the Republic of Korea in 2020",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Osong Public Health Res Perspect"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4229"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peng J. , Liu J. , Mann S.A. , Mitchell A.M. , Laurie M.T. , Sunshine S. , Pilarowski G. , Ayscue P. , Kistler A. , Vanaerschot M. , Li L.M. , McGeever A. , Chow E.D. , Marquez C. , Nakamura R. , Rubio L. , Chamie G. , Jones D. , Jacobo J. , Rojas S. , Rojas S. , Tulier-Laiwa V. , Black D. , Martinez J. , Naso J. , Schwab J. , Petersen M. , Havlir D. , DeRisi J. , IDseq Team. 2021. Estimation of secondary household attack rates for emergent spike L452R SARS-CoV-2 variants detected by genomic surveillance at a community-based testing site in San Francisco. Clin. Infect. Dis.",
+        "DOI": "10.1101/2021.03.01.21252705"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2148-5-50"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0009490"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0025-5564(81)90043-2"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.43",
+        "unstructured": "Sanderson T. 2021a. taxonium: Explore very large trees in the browser. Github. https://github.com/theosanderson/taxonium"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanderson T. 2021b. Chronumental: time tree estimation from very large phylogenies. bioRxiv.:2021.10.27.465994.",
+        "DOI": "10.1101/2021.10.27.465994"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "D92",
+        "DOI": "10.1093/nar/gkaa1023",
+        "article-title": "GenBank",
+        "volume": "49",
+        "year": "2021",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shu Y. , McCauley J. 2017. GISAID: Global initiative on sharing all influenza data \u2013 from vision to reality. Eurosurveillance. 22.",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skidmore P.T. , Kaelin E.A. , Holland L.R.A. , Maqsood R. 2021. Emergence of a SARS-CoV-2 E484K variant of interest in Arizona. medRxiv.",
+        "DOI": "10.1101/2021.03.26.21254367"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btu033"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Steel M.A. , Penny D. 1993. Distributions of tree comparison metrics\u2014some new results. Syst. Biol.",
+        "DOI": "10.2307/2992536"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/106351501753328848"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "e8",
+        "DOI": "10.1016/j.jinf.2021.01.007",
+        "article-title": "Introduction of the South African SARS-CoV-2 variant 501Y.V2 into the UK",
+        "volume": "82",
+        "year": "2021",
+        "journal-title": "J. Infect"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "438",
+        "DOI": "10.1038/s41586-021-03402-9",
+        "article-title": "Detection of a SARS-CoV-2 variant of concern in South Africa",
+        "volume": "592",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thornlow B. , Hinrichs A.S. , Jain M. , Dhillon N. , La S. , Kapp J.D. , Anigbogu I. , Cassatt-Johnstone M. , McBroome J. , Haeussler M. , Turakhia Y. , Chang T. , Olsen H.E. , Sanford J. , Stone M. , Vaske O. , Bjork I. , Akeson M. , Shapiro B. , Haussler D. , Kilpatrick A.M. , Corbett-Detig R. 2021a. A new SARS-CoV-2 lineage that shares mutations with known Variants of Concern is rejected by automated sequence repository quality control. bioRxiv.",
+        "DOI": "10.1101/2021.04.05.438352"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.54",
+        "unstructured": "Thornlow B. , roblanf , Corbett-Detig R. , Turakhia Y. , Cheng Y. 2021b. bpt26/parsimony:."
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tian F. , Tong B. , Sun L. , Shi S. , Zheng B. , Wang Z. , Dong X. , Zheng P. 2021. Mutation N501Y in RBD of Spike Protein Strengthens the Interaction between COVID-19 and its Receptor ACE2. bioRxiv.:2021.02.14.431117.",
+        "DOI": "10.1101/2021.02.14.431117"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00862-7"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Turakhia Y. , Thornlow B. , Hinrichs A.S. , Mcbroome J. 2021b. Pandemic-Scale phylogenomics reveals elevated recombination rates in the SARS-CoV-2 spike region. bioRxiv.",
+        "DOI": "10.1101/2021.08.04.455157"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0248371"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang W. , Barbetti J. , Wong T. , Thornlow B. , Corbett-Detig R. , Turakhia Y. , Lanfear R. , Minh B.Q. 2022. DecentTree: Scalable Neighbour-Joining for the Genomic Era. bioRxiv.:2022.04.10.487712.",
+        "DOI": "10.1101/2022.04.10.487712"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wertheim J.O. , Steel M. , Sanderson M.J. 2021. Accuracy in near-perfect virus phylogenies. Syst. Biol.",
+        "DOI": "10.1101/2021.05.06.442951"
+      },
+      {
+        "key": "2022052002550778000_2021.12.02.471004v2.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ye C. , Thornlow B. , Hinrichs A. , Torvi D. , Lanfear R. , Corbett-Detig R. , Turakhia Y. 2022. matOptimize: A parallel tree optimization method enables online phylogenetics for SARS-CoV-2. bioRxiv.:2022.01.12.475688.",
+        "DOI": "10.1101/2022.01.12.475688"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.02.471004",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:26:55Z",
+      "timestamp": 1768444015000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.02.471004"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          3
+        ]
+      ]
+    },
+    "references-count": 61,
+    "URL": "https://doi.org/10.1101/2021.12.02.471004",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

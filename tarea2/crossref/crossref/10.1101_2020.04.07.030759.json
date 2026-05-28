@@ -1,0 +1,641 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2026-01-22T07:45:35Z",
+      "timestamp": 1769067935154,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          9
+        ]
+      ]
+    },
+    "group-title": "Genomics",
+    "reference-count": 69,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We propose an efficient framework for genetic subtyping of SARS-CoV-2, the novel coronavirus that causes the COVID-19 pandemic. Efficient viral subtyping enables visualization and modeling of the geographic distribution and temporal dynamics of disease spread. Subtyping thereby advances the development of effective containment strategies and, potentially, therapeutic and vaccine strategies. However, identifying viral subtypes in real-time is challenging: SARS-CoV-2 is a novel virus, and the pandemic is rapidly expanding. Viral subtypes may be difficult to detect due to rapid evolution; founder effects are more significant than selection pressure; and the clustering threshold for subtyping is not standardized. We propose to identify mutational signatures of available SARS-CoV-2 sequences using a population-based approach: an entropy measure followed by frequency analysis. These signatures, Informative Subtype Markers (ISMs), define a compact set of nucleotide sites that characterize the most variable (and thus most informative) positions in the viral genomes sequenced from different individuals. Through ISM compression, we find that certain distant nucleotide variants covary, including non-coding and ORF1ab sites covarying with the D614G spike protein mutation which has become increasingly prevalent as the pandemic has spread.</jats:p>\n                <jats:p>\n                  ISMs are also useful for downstream analyses, such as spatiotemporal visualization of viral dynamics. By analyzing sequence data available in the GISAID database, we validate the utility of ISM-based subtyping by comparing spatiotemporal analyses using ISMs to epidemiological studies of viral transmission in Asia, Europe, and the United States. In addition, we show the relationship of ISMs to phylogenetic reconstructions of SARS-CoV-2 evolution, and therefore, ISMs can play an important complementary role to phylogenetic tree-based analysis, such as is done in the Nextstrain [1] project. The developed pipeline dynamically generates ISMs for newly added SARS-CoV-2 sequences and updates the visualization of pandemic spatiotemporal dynamics, and is available on Github at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/EESI/ISM\">https://github.com/EESI/ISM</jats:ext-link>\n                  and via an interactive website at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://covid19-ism.coe.drexel.edu/\">https://covid19-ism.coe.drexel.edu/</jats:ext-link>\n                  .\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>The novel coronavirus responsible for COVID-19, SARS-CoV-2, expanded to reportedly 8.7 million confirmed cases worldwide by June 21, 2020. The global SARS-CoV-2 pandemic highlights the importance of tracking viral transmission dynamics in real-time. Through June 2020, researchers have obtained genetic sequences of SARS-CoV-2 from over 47,000 samples from infected individuals worldwide. Since the virus readily mutates, each sequence of an infected individual contains useful information linked to the individual\u2019s exposure location and sample date. But, there are over 30,000 bases in the full SARS-CoV-2 genome\u2014so tracking genetic variants on a whole-sequence basis becomes unwieldy. We describe a method to instead efficiently identify and label genetic variants, or \u201csubtypes\u201d of SARS-CoV-2. Applying this method results in a compact, 11 base-long compressed label, called an Informative Subtype Marker or \u201cISM\u201d. We define viral subtypes for each ISM, and show how regional distribution of subtypes track the progress of the pandemic. Major findings include (1) covarying nucleotides with the spike protein which has spread rapidly and (2) tracking emergence of a local subtype across the United States connected to Asia and distinct from the outbreak in New York, which is found to be connected to Europe.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.04.07.030759",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2020-04-10T04:55:11Z",
+      "timestamp": 1586494511000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Genetic Grouping of SARS-CoV-2 Coronavirus Sequences using Informative Subtype Markers for Pandemic Spread Visualization"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6873-6098",
+        "authenticated-orcid": false,
+        "given": "Zhengqiao",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Bahrad A.",
+        "family": "Sokhansanj",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Charvi",
+        "family": "Malhotra",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kitty",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1763-5750",
+        "authenticated-orcid": false,
+        "given": "Gail L.",
+        "family": "Rosen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "23",
+        "key": "2020071211250550000_2020.04.07.030759v5.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4121",
+        "DOI": "10.1093/bioinformatics/bty407",
+        "article-title": "Nextstrain: real-time tracking of pathogen evolution",
+        "volume": "34",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2001316"
+      },
+      {
+        "issue": "4",
+        "key": "2020071211250550000_2020.04.07.030759v5.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.46234/ccdcw2020.017",
+        "article-title": "A novel coronavirus genome identified in a cluster of pneumonia cases\u2014Wuhan, China 2019-2020",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "China CDC Weekly"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Benvenuto D , Giovanetti M , Salemi M , Prosperi M , Flora C , Alcantara L , et al. The global spread of 2019-nCoV: a molecular evolutionary analysis. Pathogens and Global Health. 2020 02;.",
+        "DOI": "10.1080/20477724.2020.1725339"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JVI.00694-10"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shu Y , McCauley J. GISAID: Global initiative on sharing all influenza data \u2013 from vision to reality. Eurosurveillance. 2017;22(13). Available from: https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2017.22.13.30494.",
+        "DOI": "10.2807/1560-7917.ES.2017.22.13.30494"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2004999117"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li X , Giorgi EE , Marichannegowda MH , Foley B , Xiao C , Kong XP , et al. Emergence of SARS-CoV-2 through recombination and strong purifying selection. Science Advances. 2020;6(27). Available from: https://advances.sciencemag.org/content/6/27/eabb9153.",
+        "DOI": "10.1126/sciadv.abb9153"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Korber B , Fischer W , Gnanakaran S , Yoon H , Theiler J , Abfalterer W , et al. Spike mutation pipeline reveals the emergence of a more transmissible form of SARS-CoV-2. bioRxiv. 2020;Available from: https://www.biorxiv.org/content/early/2020/05/05/2020.04.29.069054.",
+        "DOI": "10.1101/2020.04.29.069054"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rambaut A , Holmes EC , Hill V , O\u2019Toole \u00c1 , McCrone J , Ruis C , et al. A dynamic nomenclature proposal for SARS-CoV-2 to assist genomic epidemiology. bioRxiv. 2020;Available from: https://www.biorxiv.org/content/early/2020/04/19/2020.04.17.046086.",
+        "DOI": "10.1101/2020.04.17.046086"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.11",
+        "first-page": "212",
+        "article-title": "The 2019 novel coronavirus resource",
+        "volume": "42",
+        "year": "2020",
+        "journal-title": "Yi chuan = Hereditas"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang X , Wu C , Li X , Song Y , Yao X , Wu X , et al. On the origin and continuing evolution of SARS-CoV-2. National Science Review. 2020 03;Nwaa036. Available from: https://doi.org/10.1093/nsr/nwaa036.",
+        "DOI": "10.1093/nsr/nwaa036"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang C , Liu Z , Chen Z , Huang X , Xu M , He T , et al. The establishment of reference sequence for SARS-CoV-2 and variation analysis. Journal of Medical Virology. 2020;n/a(n/a). Available from: https://onlinelibrary.wiley.com/doi/abs/10.1002/jmv.25762.",
+        "DOI": "10.1002/jmv.25762"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sekizuka T , Itokawa K , Kageyama T , Saito S , Takayama I , Asanuma H , et al. Haplotype networks of SARS-CoV-2 infections in the Diamond Princess cruise ship outbreak. medRxiv. 2020;Available from: https://www.medrxiv.org/content/early/2020/03/27/2020.03.23.20041970.",
+        "DOI": "10.1101/2020.03.23.20041970"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang M , Li M , Ren R , Brave A , Werf Svd , Chen EQ , et al. International expansion of a novel SARS-CoV-2 mutant. medRxiv. 2020;Available from: https://www.medrxiv.org/content/early/2020/03/17/2020.03.15.20035204.",
+        "DOI": "10.1101/2020.03.15.20035204"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia Y , Yang C , Zhang M , Yang X , Li J , Liu J , et al. Characterization of eight novel full-length genomes of SARS-CoV-2 among imported COVID-19 cases from abroad in Yunnan, China. The Journal of Infection. 2020;.",
+        "DOI": "10.1016/j.jinf.2020.05.016"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng X , Gu W , Federman S , du Plessis L , Pybus OG , Faria NR , et al. Genomic surveillance reveals multiple introductions of SARS-CoV-2 into Northern California. Science (New York, Ny). 2020;.",
+        "DOI": "10.1126/science.abb9263"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "990",
+        "DOI": "10.1016/j.cell.2020.04.021",
+        "article-title": "Coast-to-Coast Spread of SARS-CoV-2 during the Early Epidemic in the United States",
+        "volume": "181",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang L , Jackson CB , Mou H , Ojha A , Rangarajan ES , Izard T , et al. The D614G mutation in the SARS-CoV-2 spike protein reduces S1 shedding and increases infectivity. bioRxiv. 2020;Available from: https://www.biorxiv.org/content/early/2020/06/12/2020.06.12.148726.",
+        "DOI": "10.1101/2020.06.12.148726"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen Z , Xiao Y , Kang L , Ma W , Shi L , Zhang L , et al. Genomic diversity of SARS-CoV-2 in Coronavirus Disease 2019 patients. Clinical Infectious Diseases. 2020 03;Ciaa203. Available from: https://doi.org/10.1093/cid/ciaa203.",
+        "DOI": "10.1093/cid/ciaa203"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Karamitros T , Papadopoulou G , Bousali M , Mexias A , Tsiodras S , Mentis A. SARS-CoV-2 exhibits intra-host genomic plasticity and low-frequency polymorphic quasispecies. bioRxiv. 2020;Available from: https://www.biorxiv.org/content/early/2020/03/28/2020.03.27.009480.",
+        "DOI": "10.1101/2020.03.27.009480"
+      },
+      {
+        "issue": "1",
+        "key": "2020071211250550000_2020.04.07.030759v5.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1038/s41564-018-0296-2",
+        "article-title": "Tracking virus outbreaks in the twenty-first century",
+        "volume": "4",
+        "year": "2019",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "issue": "4",
+        "key": "2020071211250550000_2020.04.07.030759v5.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.1186/gm440",
+        "article-title": "Genomics and outbreak investigation: from sequence to consequence",
+        "volume": "5",
+        "year": "2013",
+        "journal-title": "Genome Medicine"
+      },
+      {
+        "issue": "7",
+        "key": "2020071211250550000_2020.04.07.030759v5.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "876",
+        "DOI": "10.1038/s41564-020-0738-5",
+        "article-title": "Phylogenetic interpretation during outbreaks requires caution",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature Microbiology"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.25",
+        "unstructured": "Year-letter Genetic Clade Naming for SARS-CoV-2 on Nextstain.org. Nextstrainorg. June 2, 2020;Available from: https://nextstrain.org/blog/2020-06-02-SARSCoV2-clade-naming."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/CMR.17.4.840-862.2004"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.27",
+        "first-page": "697",
+        "article-title": "16S ribosomal DNA amplification for phylogenetic study",
+        "volume": "173 2",
+        "year": "1991",
+        "journal-title": "Journal of bacteriology"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40168-015-0117-2"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.29",
+        "unstructured": "McDonald D , Hyde E , Debelius JW , Morton JT , Gonzalez A , Ackermann G , et al. American Gut: an Open Platform for Citizen Science Microbiome Research. mSystems. 2018;3(3). Available from: https://msystems.asm.org/content/3/3/e00031-18."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1038/nmeth.f.303",
+        "article-title": "QIIME allows analysis of high-throughput community sequencing data. Nat Met 7: 335-336",
+        "volume": "7",
+        "year": "2010",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkt1244"
+      },
+      {
+        "issue": "12",
+        "key": "2020071211250550000_2020.04.07.030759v5.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1111",
+        "DOI": "10.1111/2041-210X.12114",
+        "article-title": "Oligotyping: differentiating between closely related microbial taxa using 16S rRNA gene data",
+        "volume": "4",
+        "year": "2013",
+        "journal-title": "Methods in Ecology and Evolution"
+      },
+      {
+        "issue": "8",
+        "key": "2020071211250550000_2020.04.07.030759v5.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2026",
+        "DOI": "10.1016/j.meegid.2011.09.013",
+        "article-title": "An entropy-based approach for the identification of phylogenetically informative genomic regions of Papillomavirus",
+        "volume": "11",
+        "year": "2011",
+        "journal-title": "Infection, Genetics and Evolution"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1109/TCBB.2006.9",
+        "article-title": "Gene mapping and marker clustering using Shannon\u2019s mutual information",
+        "volume": "3",
+        "year": "2006",
+        "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.1538-7305.1948.tb01338.x"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.36",
+        "first-page": "1188",
+        "article-title": "WebLogo: a sequence logo generator",
+        "volume": "14 6",
+        "year": "2004",
+        "journal-title": "Genome research"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhowmik D , Pal S , Lahiri A , Talukdar A , Paul S. Emergence of multiple variants of SARS-CoV-2 with signature structural changes. bioRxiv. 2020;Available from: https://www.biorxiv.org/content/early/2020/04/29/2020.04.26.062471.",
+        "DOI": "10.1101/2020.04.26.062471"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/mst010"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/Mcse.2014.80"
+      },
+      {
+        "issue": "1",
+        "key": "2020071211250550000_2020.04.07.030759v5.40",
+        "first-page": "4",
+        "volume": "83",
+        "author": "Nomenclature for incompletely specified bases in nucleic acid sequences",
+        "year": "1986",
+        "journal-title": "Recommendations 1984. Nomenclature Committee of the International Union of Biochemistry (NC-IUB). Proceedings of the National Academy of Sciences"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10. 1109/MCSE.2007.55."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.42",
+        "unstructured": "Inc PT . Collaborative data science. Montreal, QC: Plotly Technologies Inc.; 2015. Available from: https://plot.ly."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.43",
+        "unstructured": "P Legendre LL . Numerical Ecology, Volume 24. Elsevier; 2008."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature07331"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beals EW . Bray-Curtis Ordination: An Effective Strategy for Analysis of Multivariate Ecological Data. In: Advances in Ecological Research. Elsevier; 1984. p. 1\u201355. Available from: https://doi.org/10.1016%2Fs0065-2504%2808%2960168-3.",
+        "DOI": "10.1016/S0065-2504(08)60168-3"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.46",
+        "unstructured": "Rosenberg A , Hirschberg J. V-Measure: A Conditional Entropy-Based External Cluster Evaluation Measure. In: EMNLP-CoNLL; 2007.."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Korber B , Fischer WM , Gnanakaran S , Yoon H , Theiler J , Abfalterer W , et al. Tracking changes in SARS-CoV-2 Spike: evidence that D614G increases infectivity of the COVID-19 virus. Cell. XXXX 2020/07/02;Available from: https://doi.org/10.1016/j.cell.2020.06.043.",
+        "DOI": "10.1016/j.cell.2020.06.043"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grubaugh ND , Hanage WP , Rasmussen AL . Making sense of mutation: what D614G means for the COVID-19 pandemic remains unclear. Cell. XXXX 2020/07/02;Available from: https://doi.org/10.1016/j.cell.2020.06.040.",
+        "DOI": "10.1016/j.cell.2020.06.040"
+      },
+      {
+        "issue": "1",
+        "key": "2020071211250550000_2020.04.07.030759v5.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "2342",
+        "DOI": "10.1038/s41467-019-10280-3",
+        "article-title": "Structure of the SARS-CoV nsp12 polymerase bound to nsp7 and nsp8 co-factors",
+        "volume": "10",
+        "year": "2019",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "issue": "1",
+        "key": "2020071211250550000_2020.04.07.030759v5.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1620",
+        "DOI": "10.1038/s41467-020-15562-9",
+        "article-title": "Characterization of spike glycoprotein of SARS-CoV-2 on virus entry and its immune cross-reactivity with SARS-CoV",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Walls AC , Park YJ , Tortorici MA , Wall A , McGuire AT , Veesler D. Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein. Cell. XXXX 2020/04/06;Available from: https://doi.org/10.1016/j.cell.2020.02.058.",
+        "DOI": "10.1016/j.cell.2020.02.058"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.52",
+        "first-page": "23280",
+        "article-title": "Recombinant severe acute respiratory syndrome (SARS) coronavirus nucleocapsid protein forms a dimer through its C-terminal domain",
+        "volume": "280 24",
+        "year": "2005",
+        "journal-title": "The Journal of biological chemistry"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.53",
+        "unstructured": "To KKW , yin Tsang OT , shing Leung W , Tam AR , chiu Wu T , Lung DC , et al. Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2: an observational cohort study. The Lancet Infectious diseases. 2020;."
+      },
+      {
+        "issue": "1",
+        "key": "2020071211250550000_2020.04.07.030759v5.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1080/22221751.2020.1719902",
+        "article-title": "Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Emerging Microbes & Infections"
+      },
+      {
+        "issue": "1",
+        "key": "2020071211250550000_2020.04.07.030759v5.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1186/s13578-020-00404-4",
+        "article-title": "SARS-CoV-2 and COVID-19: The most important research questions",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Cell & Bioscience"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.56",
+        "first-page": "849",
+        "article-title": "On measures of gametic disequilibrium",
+        "volume": "120 3",
+        "year": "1988",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isabel S , Gra\u00f1a-Miraglia L , Gutierrez JM , Bundalovic-Torma C , Groves HE , Isabel MDR , et al. Evolutionary and structural analyses of SARS-CoV-2 D614G spike protein mutation now documented worldwide. bioRxiv. 2020;.",
+        "DOI": "10.1101/2020.06.08.140459"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhattacharyya C , Das C , Ghosh A , Singh AK , Mukherjee S , Majumder PP , et al. Global Spread of SARS-CoV-2 Subtype with Spike Protein Mutation D614G is Shaped by Human Genomic Variations that Regulate Expression of TMPRSS2 and MX1 Genes. bioRxiv. 2020;.",
+        "DOI": "10.1101/2020.05.04.075911"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M20-0504"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lorenzo-Redondo R , Nam HH , Roberts SC , Simons LM , Jennings LJ , Qi C , et al. A Unique Clade of SARS-CoV-2 Viruses is Associated with Lower Viral Loads in Patient Upper Airways. medRxiv : the preprint server for health sciences. 2020;.",
+        "DOI": "10.1101/2020.05.19.20107144"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gonzalez-Reiche AS , Hernandez MM , Sullivan MA , Ciferri B , Alshammary H , Obla A , et al. Introductions and early spread of SARS-CoV-2 in the New York City area. medRxiv. 2020;.",
+        "DOI": "10.1126/science.abc1917"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.63",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.24272/j.issn.2095-8137.2020.022",
+        "article-title": "Decoding the evolution and transmissions of the novel pneumonia coronavirus (SARS-CoV-2 / HCoV-19) using whole genomic data",
+        "volume": "41",
+        "year": "2020",
+        "journal-title": "Zoological Research"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Worobey M , Pekar JE , Larsen BB , Nelson MI , Hill V , Joy JB , et al. The emergence of SARS-CoV-2 in Europe and the US. bioRxiv. 2020;.",
+        "DOI": "10.1101/2020.05.21.109322"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.65",
+        "first-page": "203",
+        "article-title": "The origin of SARS-CoV-2 in Istanbul: Sequencing findings from the epicenter of the pandemic in Turkey",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "Northern Clinics of Istanbul"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller D , Martin MA , Harel N , Kustin T , Tirosh O , Meir M , et al. Full genome viral sequences inform patterns of SARS-CoV-2 spread into and within Israel. medRxiv. 2020;.",
+        "DOI": "10.1101/2020.05.21.20104521"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Price MN , Dehal PS , Arkin AP . FastTree 2 \u2013 Approximately Maximum-Likelihood Trees for Large Alignments. PLoS ONE. 2010;5.",
+        "DOI": "10.1371/journal.pone.0009490"
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.68",
+        "unstructured": "Coronavirus: Outbreak spreads in Europe from Italy, available at https://www.bbc.com/news/world-europe-51638095, last accessed 2020-04-05. BBC News. February 26, 2020;Available from: https://www.bbc.com/news/world-europe-51638095."
+      },
+      {
+        "key": "2020071211250550000_2020.04.07.030759v5.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro863"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.04.07.030759",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T00:12:49Z",
+      "timestamp": 1768435969000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.04.07.030759"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          9
+        ]
+      ]
+    },
+    "references-count": 69,
+    "URL": "https://doi.org/10.1101/2020.04.07.030759",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pcbi.1008269",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          9
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T13:30:23Z",
+      "timestamp": 1767187823834,
+      "version": "3.48.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 19,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              29
+            ]
+          ],
+          "date-time": "2025-12-29T00:00:00Z",
+          "timestamp": 1766966400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "JP24H00737"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JP24H00737"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "JP22H04925(PAGS)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JP22H04925(PAGS)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "JP23K28183"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JP23K28183"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "award": [
+          "JPMJCR23N1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JPMJCR23N1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/00097mb19",
+            "id-type": "ROR",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>\n                    RNA molecules adopt dynamic ensembles of secondary structures, where the local structural context of each nucleotide\u2013such as whether it resides in a stem or a specific type of loop\u2013strongly shapes molecular interactions and regulatory function. Structural-context probabilities therefore provide a more functionally informative view of RNA folding than the minimum free energy structures or base-pairing probabilities. However, existing tools either require\n                    <jats:italic>O</jats:italic>\n                    (\n                    <jats:italic>N</jats:italic>\n                    <jats:sup>3</jats:sup>\n                    ) time or employ span-restricted approximations that omit long-range base-pairs, limiting their applicability to large and biologically important RNAs.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We introduce LinearCapR, enabling linear-time, span-unrestricted computation of structural-context marginalized probabilities, using beam-pruned Stochastic Context Free Grammar-based computation. LinearCapR retains global ensemble features lost by span-limited methods and yields superior predictive power on bpRNA-1m(90) dataset, especially for multiloops and exterior regions, as well as long-distance stems. LinearCapR supports analysis of long RNAs, demonstrated on the full genome of SARS-CoV-2.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>LinearCapR provides the first base-pair-span-unrestricted, linear-time framework for RNA structural-context analysis, retaining key thermodynamic ensemble features essential for functional interpretation. It enables large-scale studies of viral genomes, long non-coding RNAs, and downstream analyses such as RNA-binding protein site prediction.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The source code of LinearCapR is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/hoget157/LinearCapR\">https://github.com/hoget157/LinearCapR</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>",
+    "DOI": "10.64898/2025.12.26.696559",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T02:30:18Z",
+      "timestamp": 1767061818000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "LinearCapR: Linear-time computation of per-nucleotide structural-context probabilities of RNA without base-pair span limits"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-7123-9585",
+        "authenticated-orcid": false,
+        "given": "Takumi",
+        "family": "Otagaki",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Department of Computational Biology and Medical Sciences (CBMS), The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8561, Japan"
+          }
+        ]
+      },
+      {
+        "given": "Hiroaki",
+        "family": "Hosokawa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Computational Biology and Medical Sciences (CBMS), The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8561, Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4442-6049",
+        "authenticated-orcid": false,
+        "given": "Tsukasa",
+        "family": "Fukunaga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biosciences and Informatics, Faculty of Science and Technology, Keio University, Kanagawa, Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4611-2142",
+        "authenticated-orcid": false,
+        "given": "Junichi",
+        "family": "Iwakiri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Computational Biology and Medical Sciences (CBMS), The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8561, Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1059-2519",
+        "authenticated-orcid": false,
+        "given": "Goro",
+        "family": "Terai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Computational Biology and Medical Sciences (CBMS), The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8561, Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0909-4982",
+        "authenticated-orcid": false,
+        "given": "Kiyoshi",
+        "family": "Asai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Department of Computational Biology and Medical Sciences (CBMS), The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8561, Japan"
+          }
+        ]
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btk014"
+      },
+      {
+        "issue": "2",
+        "key": "2025123105251915000_2025.12.26.696559v1.2",
+        "first-page": "201",
+        "article-title": "Hierarchical phrase-based translation",
+        "volume": "33",
+        "year": "2007",
+        "journal-title": "Comput. Linguist. Assoc. Comput. Linguist"
+      },
+      {
+        "issue": "6-7",
+        "key": "2025123105251915000_2025.12.26.696559v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1337",
+        "DOI": "10.1007/s00285-011-0493-6",
+        "article-title": "On the page number of RNA secondary structures with pseudoknots",
+        "volume": "65",
+        "year": "2012",
+        "journal-title": "J. Math. Biol"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky285"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btl246"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2014-15-1-r16"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkg006"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz375"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btv372"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm591"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W.-J. C. Lai , M. Kayedkhordeh , E. V. Cornell , E. Farah , S. Bellaousov , R. Rietmeijer , E. Salsi , D. H. Mathews , and D. N. Ermolenko . mRNAs and lncRNAs intrinsically form secondary structures with short end-to-end distances. Nat. Commun., 9(1):4328, Oct. 2018.",
+        "DOI": "10.1038/s41467-018-06792-z"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0401799101"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/bip.360290621"
+      },
+      {
+        "issue": "8",
+        "key": "2025123105251915000_2025.12.26.696559v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "446",
+        "DOI": "10.1145/366707.367561",
+        "article-title": "Certification of algorithms 63, 64 and 65, partition, quicksort, and find",
+        "volume": "6",
+        "year": "1963",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Rangan , I. N. Zheludev , and R. Das . RNA genome conservation and secondary structure in SARS-CoV-2 and SARS-related viruses. bioRxivorg, page 2020.03.27.012906, Apr. 2020.",
+        "DOI": "10.1101/2020.03.27.012906"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKAA921"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkq642"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa460"
+      },
+      {
+        "key": "2025123105251915000_2025.12.26.696559v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.2468181"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.26.696559",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T13:25:28Z",
+      "timestamp": 1767187528000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.26.696559"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ]
+    },
+    "references-count": 19,
+    "URL": "https://doi.org/10.64898/2025.12.26.696559",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

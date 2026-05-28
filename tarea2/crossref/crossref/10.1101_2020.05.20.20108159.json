@@ -1,0 +1,391 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T06:56:26Z",
+      "timestamp": 1768546586392,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 29,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>To develop an automated measure of COVID-19 pulmonary disease severity on chest radiographs (CXRs), for longitudinal disease evaluation and clinical risk stratification.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Materials and Methods</jats:title>\n                  <jats:p>A convolutional Siamese neural network-based algorithm was trained to output a measure of pulmonary disease severity on anterior-posterior CXRs (pulmonary x-ray severity (PXS) score), using weakly-supervised pretraining on ~160,000 images from CheXpert and transfer learning on 314 CXRs from patients with COVID-19. The algorithm was evaluated on internal and external test sets from different hospitals, containing 154 and 113 CXRs respectively. The PXS score was correlated with a radiographic severity score independently assigned by two thoracic radiologists and one in-training radiologist. For 92 internal test set patients with follow-up CXRs, the change in PXS score was compared to radiologist assessments of change. The association between PXS score and subsequent intubation or death was assessed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The PXS score correlated with the radiographic pulmonary disease severity score assigned to CXRs in the COVID-19 internal and external test sets (\u03c1=0.84 and \u03c1=0.78 respectively). The direction of change in PXS score in follow-up CXRs agreed with radiologist assessment (\u03c1=0.74). In patients not intubated on the admission CXR, the PXS score predicted subsequent intubation or death within three days of hospital admission (area under the receiver operator characteristic curve=0.80 (95%CI 0.75-0.85)).</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>A Siamese neural network-based severity score automatically measures COVID-19 pulmonary disease severity in chest radiographs, which can be scaled and rapidly deployed for clinical triage and workflow optimization.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>SUMMARY</jats:title>\n                  <jats:p>A convolutional Siamese neural network-based algorithm can calculate a continuous radiographic pulmonary disease severity score in COVID-19 patients, which can be used for longitudinal disease evaluation and clinical risk stratification.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>KEY RESULTS</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>A Siamese neural network-based severity score correlates with radiologist-annotated pulmonary disease severity on chest radiographs from patients with COVID-19 (\u03c1=0.84 and \u03c1=0.78 in internal and external test sets respectively).</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The direction of change in the severity score in follow-up radiographs is concordant with radiologist assessment (\u03c1=0.74).</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>The admission chest radiograph severity score can help predict subsequent intubation or death within three days of admission (receiver operator characteristic area under the curve=0.80).</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>",
+    "DOI": "10.1101/2020.05.20.20108159",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ],
+      "date-time": "2020-05-26T13:15:22Z",
+      "timestamp": 1590498922000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "title": [
+      "Automated assessment of COVID-19 pulmonary disease severity on chest radiographs using convolutional Siamese neural networks"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6207-4940",
+        "authenticated-orcid": false,
+        "given": "Matthew D.",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Nishanth Thumbavanam",
+        "family": "Arun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mishka",
+        "family": "Gidwani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ken",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Francis",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Brent P.",
+        "family": "Little",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dexter P.",
+        "family": "Mendoza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Min",
+        "family": "Lang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Susanna I.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aileen",
+        "family": "O\u2019Shea",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anushri",
+        "family": "Parakh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Praveer",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jayashree",
+        "family": "Kalpathy-Cramer",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.1",
+        "unstructured": "ACR Recommendations for the use of Chest Radiography and Computed Tomography (CT) for Suspected COVID-19 Infection | American College of Radiology. https://www.acr.org/Advocacy-and-Economics/ACR-Position-Statements/Recommendations-for-Chest-Radiography-and-CT-for-Suspected-COVID19-Infection. Accessed March 27, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.2",
+        "unstructured": "Rubin GD , Haramati LB , Kanne JP , et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology. Radiological Society of North America; 2020; 201365http://pubs.rsna.org/doi/10.1148/radiol.2020201365. Accessed April 14, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.3",
+        "unstructured": "Wong HYF , Lam HYS , Fong AH-T , et al. Frequency and Distribution of Chest Radiographic Findings in COVID-19 Positive Patients. Radiology. Radiological Society of North America; 2019;201160http://pubs.rsna.org/doi/10.1148/radiol.2020201160. Accessed March 27, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1378/chest.110.2.343"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jamda.2006.02.004"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jhm.955"
+      },
+      {
+        "issue": "1",
+        "key": "2020122313233240000_2020.05.20.20108159v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1038/s41746-020-0255-1",
+        "article-title": "Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "npj Digit Med"
+      },
+      {
+        "issue": "04",
+        "key": "2020122313233240000_2020.05.20.20108159v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "669",
+        "DOI": "10.1142/S0218001493000339",
+        "article-title": "Signature Verification using a \u201cSiamese\u201d Time Delay Neural Network",
+        "volume": "07",
+        "year": "1993",
+        "journal-title": "Int J Pattern Recognit Artif Intell"
+      },
+      {
+        "key": "#cr-split#-2020122313233240000_2020.05.20.20108159v1.9.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hadsell R , Chopra S , LeCun Y . Dimensionality Reduction by Learning an Invariant Mapping. 2006 IEEE Comput Soc Conf Comput Vis Pattern Recognit - Vol 2. IEEE",
+        "DOI": "10.1109/CVPR.2006.100"
+      },
+      {
+        "key": "#cr-split#-2020122313233240000_2020.05.20.20108159v1.9.2",
+        "unstructured": "p. 1735-1742 http://ieeexplore.ieee.org/document/1640964/. Accessed June 9, 2019."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.10",
+        "unstructured": "Irvin J , Rajpurkar P , Ko M , et al. CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison. 2019;http://arxiv.org/abs/1901.07031. Accessed January 4, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/thoraxjnl-2017-211280"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30566-3"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.13",
+        "unstructured": "Huang G , Liu Z , van der Maaten L , Weinberger KQ . Densely Connected Convolutional Networks. Proc - 30th IEEE Conf Comput Vis Pattern Recognition, CVPR 2017. Institute of Electrical and Electronics Engineers Inc.; 2016;2017-January:2261-2269http://arxiv.org/abs/1608.06993. Accessed March 29, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.14",
+        "unstructured": "Zeiler MD , Fergus R . Visualizing and Understanding Convolutional Networks. 2013;http://arxiv.org/abs/1311.2901. Accessed December 7, 2019."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.15",
+        "unstructured": "Phua J , Weng L , Ling L , et al. Intensive care management of coronavirus disease 2019 (COVID-19): challenges and recommendations. Lancet Respir Med Elsevier; 2020;0(0)http://www.ncbi.nlm.nih.gov/pubmed/32272080. Accessed April 14, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taylor E , Haven K , Reed P , et al. A chest radiograph scoring system in patients with severe acute respiratory infection: A validation study. BMC Med Imaging. BioMed Central Ltd.; 2015; 15(1).",
+        "DOI": "10.1186/s12880-015-0103-y"
+      },
+      {
+        "issue": "5",
+        "key": "2020122313233240000_2020.05.20.20108159v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0197418",
+        "DOI": "10.1371/journal.pone.0197418",
+        "article-title": "ProGression of the Radiologic Severity Index predicts mortality in patients with parainfluenza virus-associated lower respiratory infections",
+        "volume": "13",
+        "year": "2018",
+        "journal-title": "PLoS One. Public Library of Science"
+      },
+      {
+        "issue": "9",
+        "key": "2020122313233240000_2020.05.20.20108159v1.18",
+        "first-page": "559",
+        "article-title": "Admission chest radiographs predict illness severity for children hospitalized with pneumonia",
+        "volume": "9",
+        "year": "2014",
+        "journal-title": "J Hosp Med. John Wiley and Sons Inc"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.19",
+        "unstructured": "Rajpurkar P , Irvin J , Zhu K , et al. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. 2017;http://arxiv.org/abs/1711.05225. Accessed January 4, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1148/radiol.2017162326"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hurt B , Kligerman S , Hsiao A . Deep Learning Localization of Pneumonia. J Thorac Imaging. Ovid Technologies (Wolters Kluwer Health); 2020;1.",
+        "DOI": "10.1097/RTI.0000000000000512"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.22",
+        "unstructured": "Liao R , Rubin J , Lam G , et al. Semi-supervised Learning for Quantification of Pulmonary Edema in Chest X-Ray Images. 2019;http://arxiv.org/abs/1902.10785. Accessed January 4, 2020."
+      },
+      {
+        "issue": "1",
+        "key": "2020122313233240000_2020.05.20.20108159v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1016/j.jemermed.2009.10.018",
+        "article-title": "Ability of Physicians to Diagnose Congestive Heart Failure Based on Chest X-Ray",
+        "volume": "40",
+        "year": "2011",
+        "journal-title": "J Emerg Med"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hammon M , Dankerl P , Voit-Hohne HL , et al. Improving diagnostic accuracy in assessing pulmonary edema on bedside chest radiographs using a standardized scoring approach. BMC Anesthesiol. BioMed Central; 2014;14:94 http://www.ncbi.nlm.nih.gov/pubmed/25364301. Accessed January 4, 2020.",
+        "DOI": "10.1186/1471-2253-14-94"
+      },
+      {
+        "issue": "1",
+        "key": "2020122313233240000_2020.05.20.20108159v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e190015",
+        "DOI": "10.1148/ryai.2019190015",
+        "article-title": "The Effect of Image Resolution on Deep Learning in Radiography",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Radiol Artif Intell"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3493",
+        "DOI": "10.1118/1.3611983",
+        "article-title": "SU-E-T-33: Pydicom: An Open Source DICOM Library",
+        "volume": "38",
+        "year": "2011",
+        "journal-title": "Med Phys"
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.27",
+        "unstructured": "The OpenCV Library | Dr Dobb\u2019s. https://www.drdobbs.com/open-source/the-opencv-library/184404319. Accessed April 12, 2020."
+      },
+      {
+        "key": "2020122313233240000_2020.05.20.20108159v1.28",
+        "unstructured": "Kingma DP , Ba J . Adam: A Method for Stochastic Optimization. 2014;http://arxiv.org/abs/1412.6980. Accessed June 16, 2019."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.05.20.20108159",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:41:19Z",
+      "timestamp": 1768484479000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.05.20.20108159"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1101/2020.05.20.20108159",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1148/ryai.2020200079",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

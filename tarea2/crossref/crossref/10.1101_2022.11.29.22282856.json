@@ -1,0 +1,367 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T11:44:34Z",
+      "timestamp": 1768563874429,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          29
+        ]
+      ]
+    },
+    "group-title": "Radiology and Imaging",
+    "reference-count": 38,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Advances in the field of image classification using convolutional neural networks (CNNs) have greatly improved the accuracy of medical image diagnosis by radiologists. Numerous research groups have applied CNN methods to diagnose respiratory illnesses from chest x-rays, and have extended this work to prove the feasibility of rapidly diagnosing COVID-19 to high degrees of accuracy. One issue in previous research has been the use of datasets containing only a few hundred images of chest x-rays containing COVID-19, causing CNNs to overfit the image data. This leads to a lower accuracy when the model attempts to classify new images, as would be clinically expected of it. In this work, we present a model trained on the COVID-QU-Ex dataset, overall containing 33,920 chest x-ray images, with an equal share of COVID-19, Non-COVID pneumonia, and Normal images. The model itself is an ensemble of pre-trained CNNs (ResNet50, VGG19, VGG16) and GLCM textural features. It achieved a 98.34% binary classification accuracy (COVID-19/no COVID-19) on a balanced test dataset of 6581 chest x-rays, and 94.68% for distinguishing between COVID-19, Non-COVID pneumonia and normal chest x-rays. Also, we herein discuss the effects of dataset size, demonstrating that a 98.82% 3-class accuracy can be achieved using the model if the training dataset only contains a few thousand images, but that generalisability of the model suffers with such small datasets.</jats:p>",
+    "DOI": "10.1101/2022.11.29.22282856",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2022-11-30T01:57:14Z",
+      "timestamp": 1669773434000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "The Detection of COVID-19 in Chest X-Rays Using Ensemble CNN Techniques"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Domantas",
+        "family": "Kuzinkovas",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sandhya",
+        "family": "Clement",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12985-021-01489-0"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jnci/djy222"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-76550-z"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sysarc.2020.101830"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10439-022-02958-5"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jksuci.2020.12.010"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.33889/ijmems.2020.5.4.052"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imu.2020.100505"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/sym14051003"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.irbm.2019.10.006"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34740/KAGGLE/DSV/3122958"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/access.2020.3010287"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2021.104319"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.14",
+        "unstructured": "R. Mostafiz . \u201cChest-X-ray\u201d GitHub. 2020. Available: https://github.com/rafid909/Chest-X-ray"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.15",
+        "article-title": "COVID-19 image data collection",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34740/KAGGLE/DSV/1019469"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17632/rscbjbr9sj.2"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.18",
+        "unstructured": "Smazzanti. \u201cmRMR Python Package\u201d GitHub. 2022. Available: https://github.com/smazzanti/mrmr"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.19",
+        "unstructured": "F. Chollet , F and others. (2015). Keras. Available: https://keras.io/"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tsmc.1973.4309314"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1524/auto.2011.0951"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/s0219720005001004"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.159"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DSAA.2019.00059"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-10-213"
+      },
+      {
+        "issue": "1",
+        "key": "2022120420000565000_2022.11.29.22282856v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "602",
+        "DOI": "10.1080/21642583.2014.956265",
+        "article-title": "Random forests: From early developments to recent advancements",
+        "volume": "2",
+        "year": "2014",
+        "journal-title": "Systems Science & Control Engineering"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1016/j.patcog.2015.11.015",
+        "article-title": "Overfitting in linear feature extraction for classification of high-dimensional image data",
+        "volume": "53",
+        "year": "2016",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1213/ANE.0000000000005247"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCES51350.2021.9489012"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Majumder and M. A. Ullah , \u201cFeature extraction from Dermoscopy images for melanoma diagnosis,\u201d SN Applied Sciences, vol. 1, no. 7, 2019.",
+        "DOI": "10.1007/s42452-019-0786-8"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2013.6638963"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2021/9961998"
+      },
+      {
+        "issue": "22",
+        "key": "2022120420000565000_2022.11.29.22282856v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "31515",
+        "DOI": "10.1007/s11042-019-07984-5",
+        "article-title": "Automated TB classification using ensemble of Deep Architectures",
+        "volume": "78",
+        "year": "2019",
+        "journal-title": "Multimedia Tools and Applications"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Futoma , M. Simons , T. Panch , F. Doshi-Velez , and L. A. Celi , \u201cThe myth of generalisability in Clinical Research and machine learning in Health Care,\u201d The Lancet Digital Health, vol. 2, no. 9, 2020.",
+        "DOI": "10.1016/S2589-7500(20)30186-2"
+      },
+      {
+        "issue": "2",
+        "key": "2022120420000565000_2022.11.29.22282856v2.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "796",
+        "DOI": "10.3390/app11020796",
+        "article-title": "Impact of dataset size on classification performance: An empirical evaluation in the medical domain",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Applied Sciences"
+      },
+      {
+        "key": "2022120420000565000_2022.11.29.22282856v2.37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Prusa , T. M. Khoshgoftaar , and N. Seliya , \u201cThe effect of dataset size on training tweet sentiment classifiers,\u201d 2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA), 2015.",
+        "DOI": "10.1109/ICMLA.2015.22"
+      },
+      {
+        "issue": "1",
+        "key": "2022120420000565000_2022.11.29.22282856v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1609/aaai.v25i1.7926",
+        "article-title": "Linear discriminant analysis: New formulations and overfit analysis",
+        "volume": "25",
+        "year": "2011",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.29.22282856",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:23:14Z",
+      "timestamp": 1768504994000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.11.29.22282856"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          29
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2022.11.29.22282856",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.3390/info14070370",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          29
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

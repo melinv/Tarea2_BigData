@@ -1,0 +1,399 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T13:02:25Z",
+      "timestamp": 1768568545967,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          5
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 44,
+    "publisher": "openRxiv",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2025-02-05T00:00:00Z",
+          "timestamp": 1738713600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>In pharmacoepidemiologic studies of COVID-19, there were concerns about bias from residual confounding. We applied high-dimensional propensity scores (HDPS) to a case study investigating the role of inhaled corticosteroids (ICS) in COVID-19 to adjust for unmeasured confounding.</jats:p>\n                <jats:p>\n                  We selected patients with chronic obstructive pulmonary disease on 01 March 2020 from Clinical Practice Research Datalink (CPRD) Aurum, comparing ICS/LABA/(+-LAMA) and LABA/LAMA users. ICS effects on the outcomes COVID-19 hospitalisation and death were assessed through weighted and unweighted Cox proportional hazards models. HDPS were estimated from primary care clinical records, prescriptions and hospitalisations. SNOMED-CT codes and dictionary of medicines and devices codes from CPRD Aurum were mapped to International Classification of Disease 10\n                  <jats:sup>th</jats:sup>\n                  revision codes and British National Formulary paragraphs respectively. We estimated propensity scores (PS) combining prespecified and HDPS covariates, selecting the top 100, 250, 500, 750 and 1000 covariates ranked by confounding potential.\n                </jats:p>\n                <jats:p>When excluding triple therapy users, the conventional PS-weighted estimates showed weak evidence of increased risk of COVID-19 hospitalisation among ICS users (HR 1.19 (95% CI 0.92-1.54)). Results varied slightly based on the number of covariates included in HDPS (HR using 100 HDPS covariates 1.01 (95% CI 0.76-1.33), HR using 250 HDPS covariates 1.24 (95% CI 0.83-1.87)).</jats:p>\n                <jats:p>For COVID-19 death, conventional PS-weighted models showed weak evidence of harm of ICS when excluding triple therapy users (HR 1.24 (95% CI 0.87-1.75)). HDPS-weighting moved estimates toward the null, suggesting no effect of ICS (HR using 250 HDPS covariates excluding triple therapy 1.08 (95% CI 0.73- 1.59)).</jats:p>\n                <jats:p>HDPS may have provided better confounding control for COVID-19 deaths and may be able to partially compensate for suboptimal comparison groups. HDPS results can be sensitive to the number of covariates included, highlighting the importance of sensitivity analyses.</jats:p>\n                <jats:sec>\n                  <jats:title>Key points</jats:title>\n                  <jats:list list-type=\"bullet\">\n                    <jats:list-item>\n                      <jats:p>Residual confounding, including residual confounding by indication, is a major concern in pharmacoepidemiologic studies of COVID-19 outcomes.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>We apply high-dimensional propensity scores (HDPS) to adjust for residual confounding in a case study of inhaled corticosteroids (ICS) on COVID-19 hospitalisation and death in CPRD Aurum.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>Conventional PS-weighted analyses suggested harmful effects of ICS on COVID-19 hospitalisation and, to a lesser extent, deaths.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>HDPS weighted analyses of COVID-19 hospitalisations were sensitive to the number of covariates included, with results moving towards the null for smaller number of covariates and away from the null when including more covariates, while for deaths, estimates moved towards the null consistently.</jats:p>\n                    </jats:list-item>\n                    <jats:list-item>\n                      <jats:p>HDPS demonstrated promise in addressing confounding even when comparison groups are suboptimal, but its performance depends on the careful selection and ranking of covariates.</jats:p>\n                    </jats:list-item>\n                  </jats:list>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Plain Language Summary</jats:title>\n                  <jats:p>A key challenge when researching the effects of medications using electronic health records is accounting for the fact that people who receive different medications often differ in important ways. Such differences, called confounding, is typically accounted for using statistical methods which require researchers to pre-specify all important confounders. A newer method, called high-dimensional propensity scores (HDPS), uses a data-driven approach to select what confounders to account for instead. These methods have not yet been applied to studies of inhaled corticosteroids and COVID-19 outcomes, an area where studies have found conflicting findings. We used electronic health records from the UK to compare the risk of COVID-19 hospitalisation and death among patients with chronic obstructive pulmonary disease taking two different treatments (ICS/LABA and LABA/LAMA) using both conventional and HDPS methods. Our findings showed that HDPS can reduce important differences between patients (confounding), but that the results can be sensitive to the number of covariates included. This demonstrates the value of HDPS and the need for researchers to run their analysis using several different assumptions.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2025.02.04.25321459",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          5
+        ]
+      ],
+      "date-time": "2025-02-05T20:05:36Z",
+      "timestamp": 1738785936000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Adjusting for residual confounding using high-dimensional propensity scores in a study of inhaled corticosteroids and COVID-19 outcomes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1481-3331",
+        "authenticated-orcid": false,
+        "given": "Marleen",
+        "family": "Bokern",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "John",
+        "family": "Tazare",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1408-7907",
+        "authenticated-orcid": false,
+        "given": "Christopher T.",
+        "family": "Rentsch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0149-4869",
+        "authenticated-orcid": false,
+        "given": "Jennifer K.",
+        "family": "Quint",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ian",
+        "family": "Douglas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anna",
+        "family": "Schultze",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0b013e3181a663cc"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(21)01744-X"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(21)00160-0"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj-2021-068060"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2209421"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/JAMAINTERNMED.2021.6759"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(20)30415-X"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(21)00095-3"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pds.70086"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48329/my9s-4x08"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ije/dyz034"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.12",
+        "unstructured": "Hospital Episode Statistics (HES) Admitted Patient Care and CPRD primary care data Documentation (set 21). 2021. Available at: https://www.cprd.com/sites/default/files/2022-02/Documentation_HES_OP_set21.pdf. Accessed December 9, 2021."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.13",
+        "unstructured": "Clinical Practice Research Datalink. CPRD linked data | CPRD. Available at: https://www.cprd.com/linked-data#HES%20Admitted%20Patient%20Care%20data. Accessed December 9, 2021."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.14",
+        "unstructured": "ONS death registration data and CPRD primary care data Documentation (set 21) Version 2.5. 2021."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2014-005540"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/fmch-2021-001143"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0151357"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.b2393"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12963-023-00302-0"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1475-6773.12182"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pds.5121"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.22",
+        "unstructured": "SNOMED CT UK Data Migration Workbench - TRUD. Available at: https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/7/items/98/releases. Accessed October 8, 2024."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pds.5412"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.24",
+        "unstructured": "BNF to dictionary of medicines and devices (dm+d) map - now available | Bennett Institute for Applied Data Science. 2023. Available at: https://www.bennett.ox.ac.uk/blog/2023/11/bnf-to-dictionary-of-medicines-and-devices-dm-d-map-now-available/. Accessed June 19, 2024."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pds.3773"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-9681(66)90062-2"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.27",
+        "unstructured": "StataCorp. Stata Statistical Software: Release 17 College Station. StataCorp LLC. 2021."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.28",
+        "unstructured": "Team RCR. A language and environment for statistical computing. R Foundation for Statistical Computing. 2024. Available at: https://www.R-project.org/."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/dom.13893"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamainternmed.2014.6512"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bcp.15099"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bcp.14728"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcjd.2021.12.005"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2213-2600(18)30368-0"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.g2780"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.k2693"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2017-019638"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bcp.13208"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/bcp.15787"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjopen-2018-023830"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-33483-y"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/PDS.5029"
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.43",
+        "unstructured": "Deaths registered weekly in England and Wales, provisional - Office for National Statistics. Available at: https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales. Accessed October 5, 2022."
+      },
+      {
+        "key": "2025020623450979000_2025.02.04.25321459v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.congress-2022.644"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.02.04.25321459",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T20:27:13Z",
+      "timestamp": 1768508833000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.02.04.25321459"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          5
+        ]
+      ]
+    },
+    "references-count": 44,
+    "URL": "https://doi.org/10.1101/2025.02.04.25321459",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          5
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

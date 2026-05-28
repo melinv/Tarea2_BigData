@@ -1,0 +1,585 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:12:58Z",
+      "timestamp": 1768551178404,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 66,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                  <jats:title>BACKGROUND</jats:title>\n                  <jats:p>Diabetes and hypertension are among top public health priorities, particularly in low and middle-income countries where their health and socioeconomic impact is exacerbated by the quality and accessibility of health care. Moreover, their connection with severe or deadly COVID-19 illness has further increased their societal relevance. Tools for early detection of these chronic diseases enable interventions to prevent high-impact complications, such as loss of sight and kidney failure. Similarly, prognostic tools for COVID-19 help stratify the population to prioritize protection and vaccination of high-risk groups, optimize medical resources and tests, and raise public awareness.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>METHODS</jats:title>\n                  <jats:p>We developed and validated state-of-the-art risk models for the presence of undiagnosed diabetes, hypertension, visual complications associated with diabetes and hypertension, and the risk of severe COVID-19 illness (if infected). The models were estimated using modern methods from the field of statistical learning (e.g., gradient boosting trees), and were trained on publicly available data containing health and socioeconomic information representative of the Mexican population. Lastly, we assembled a short integrated questionnaire and deployed a free online tool for massifying access to risk assessment.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>RESULTS</jats:title>\n                  <jats:p>Our results show substantial improvements in accuracy and algorithmic equity (balance of accuracy across population subgroups), compared to established benchmarks. In particular, the models: i) reached state-of-the-art sensitivity and specificity rates of 90% and 56% (0.83 AUC) for diabetes, 80% and 64% (0.79 AUC) for hypertension, 90% and 56% (0.84 AUC) for visual diminution as a complication, and 90% and 60% (0.84 AUC) for development of severe COVID disease; and ii) achieved substantially higher equity in sensitivity across gender, indigenous/non-indigenous, and regional populations. In addition, the most relevant features used by the models were in line with risk factors commonly identified by previous studies. Finally, the online platform was deployed and made accessible to the public on a massive scale.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>CONCLUSIONS</jats:title>\n                  <jats:p>The use of large databases representative of the Mexican population, coupled with modern statistical learning methods, allowed the development of risk models with state-of-the-art accuracy and equity for two of the most relevant chronic diseases, their eye complications, and COVID-19 severity. These tools can have a meaningful impact on democratizing early detection, enabling large-scale preventive strategies in low-resource health systems, increasing public awareness, and ultimately raising social well-being.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2021.01.18.21250034",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ],
+      "date-time": "2021-01-20T14:41:04Z",
+      "timestamp": 1611153664000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "State-of-the-Art Risk Models for Diabetes, Hypertension, Visual Diminution, and COVID-19 Severity in Mexico"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Heladio",
+        "family": "Amaya",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1289-9730",
+        "authenticated-orcid": false,
+        "given": "Jennifer",
+        "family": "Enciso",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniela",
+        "family": "Meizner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alex",
+        "family": "Pentland",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alejandro",
+        "family": "Noriega",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.1",
+        "unstructured": "Country profiles: Mexico. institute for health metrics and evaluation. http://www.healthdata.org/ mexico. Accessed: 2020-11-30."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.2",
+        "unstructured": "Instituto mexicano para la competitividad (imco). kilos de m\u00e1s, pesos de menos. el costo de la obesidad en m\u00e9xico. 2015. https://imco.org.mx/wp-content/uploads/2015/01/20150127_ObesidadEnMexico_DocumentoCompleto.pdf. Accessed: 2020-12-10."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.3",
+        "unstructured": "Secretar\u00eda de salud. gu\u00eda de pr\u00e1ctica cl\u00ednica, diagn\u00f3stico y tratamiento de retinopat\u00eda diab\u00e9tica. 2015. http://www.cenetec.salud.gob.mx/descargas/gpc/CatalogoMaestro/171_GPC_RETINOPATIA_DIABETICA/Imss_171RR.pdf. Accessed: 2020-12-10."
+      },
+      {
+        "issue": "Supplement 1",
+        "key": "2021012504000514000_2021.01.18.21250034v2.4",
+        "first-page": "S4",
+        "volume": "43",
+        "author": "Summary of revisions: Standards of medical care in diabetes\u20142020",
+        "year": "2019",
+        "journal-title": "Diabetes Care"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Abbasi , L. Peelen , E. Corpeleijn , Y. T. van der Schouw , R. Stolk , A. Spijkerman , A D. vander , K. Moons , G. Navis , S. Bakker , and J. Beulens . Prediction models for risk of developing type 2 diabetes: systematic literature search and independent external validation study. The BMJ, 345, 2012.",
+        "DOI": "10.1136/bmj.e5900"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq134"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.7",
+        "first-page": "01",
+        "article-title": "Validation of the findrisk score as a screening tool for people with impaired glucose regulation in latin america using modified score points for waist circumference according to the validated regional cutoff values for abdominal obesity",
+        "volume": "37",
+        "year": "2012",
+        "journal-title": "Minerva Endocrinol"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00125-011-2257-7"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/0003-4819-151-11-200912010-00005"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Barcel\u00f3 , A. Arredondo , A. Gordillo-Tobar , J. Segovia , and Anthony Qiang. The cost of diabetes in latin america and the caribbean in 2015: Evidence for decision and policy makers. Journal of Global Health, 7, 2017.",
+        "DOI": "10.7189/jogh.07.020410"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1016/j.pcd.2018.07.015",
+        "article-title": "Diagnostic accuracy of the finnish diabetes risk score (findrisc) for undiagnosed t2dm in peruvian population",
+        "volume": "12",
+        "year": "2018",
+        "journal-title": "Primary Care Diabetes"
+      },
+      {
+        "issue": "2",
+        "key": "2021012504000514000_2021.01.18.21250034v2.12",
+        "first-page": "71",
+        "article-title": "How does hypertension affect your eyes?",
+        "volume": "26",
+        "year": "2011",
+        "journal-title": "Journal of Human Hypertension"
+      },
+      {
+        "issue": "12",
+        "key": "2021012504000514000_2021.01.18.21250034v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.15585/mmwr.mm6912e2",
+        "article-title": "evere outcomes among patients with coronavirus disease 2019 (COVID-19) \u2014 united states, february 12\u2013march 16, 2020",
+        "volume": "69",
+        "year": "2020",
+        "journal-title": "MMWR. Morbidity and Mortality Weekly Report"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carissa Bonner , M. A. Fajardo , Samuel Hui , Renee Stubbs , and L. Trevena . Clinical validity, understandability, and actionability of online cardiovascular disease risk calculators: Systematic review. Journal of Medical Internet Research, 20, 2018.",
+        "DOI": "10.2196/jmir.8538"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Borzouei and A. Soltanian . Application of an artificial neural network model for diagnosing type 2 diabetes mellitus and determining the relative importance of risk factors. Epidemiology and Health, 40, 2018.",
+        "DOI": "10.4178/epih.e2018007"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781107415324.004"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1573",
+        "DOI": "10.1111/dme.14114",
+        "article-title": "Risk scores for type 2 diabetes mellitus in latin america: a systematic review of population-based studies",
+        "volume": "36",
+        "year": "2019",
+        "journal-title": "Diabetic Medicine"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.diabres.2017.03.023"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.19",
+        "unstructured": "Consejo Nacional de Ciencia y Tecnolog\u00eda. Covid-19 tablero m\u00e9xico. https://datos.covid-19.conacyt.mx/, 2020. Accessed: 2020-11-24."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.20",
+        "unstructured": "Instituto Nacional de los Pueblos Ind\u00edgenas. Indicadores Socioecon\u00f3micos de los Pueblos Ind\u00edgenas de M\u00e9xico, 2015."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.21",
+        "unstructured": "Instituto Mexicano del Seguro Social. Dise\u00f1a IMSS calculadora para evaluar nivel de gravedad a la salud en caso de padecer COVID-19."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edgar Denova-Guti\u00e9rrez , Hugo Lopez-Gatell , Jose L. Alomia-Zegarra, Ruy L\u00f3pez-Ridaura , Christian A. Zaragoza-Jimenez, Dwigth D. Dyer-Leal, RicardoCort\u00e9s-Alcala , Tania Villa-Reyes , Rosaura Guti\u00e9rrez-Vargas , Kathia Rodr\u00edguez-Gonz\u00e1lez , Carlos Escondrillas-Maya , Tonatiuh Barrientos-Guti\u00e9rrez , Juan A. Rivera, and Sim\u00f3n Barquera . The association of obesity, type 2 diabetes, and hypertension with severe coronavirus disease 2019 on admission among mexican patients. Obesity, 28(10), October 2020.",
+        "DOI": "10.1002/oby.22946"
+      },
+      {
+        "issue": "11",
+        "key": "2021012504000514000_2021.01.18.21250034v2.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.1016/S2213-8587(15)00291-0",
+        "article-title": "Orchard, Xavier Pi-Sunyer, David Schade, and Marinella Temprosa. Long-term effects of lifestyle intervention or metformin on diabetes development and microvascular complications over 15-year follow-up: The diabetes prevention program outcomes study",
+        "volume": "3",
+        "year": "2015",
+        "journal-title": "The Lancet Diabetes and Endocrinology"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.24",
+        "unstructured": "Direcci\u00f3n General de Epidemiolog\u00eda. Covid-19. Technical report, Secretar\u00eda de Salud, 2020."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bradley Efron and Robert Tibshirani. An introduction to the bootstrap. Number 57 in Monographs on statistics and applied probability. Chapman & Hall, New York, 1993.",
+        "DOI": "10.1007/978-1-4899-4541-9"
+      },
+      {
+        "issue": "11",
+        "key": "2021012504000514000_2021.01.18.21250034v2.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2174",
+        "DOI": "10.1007/s00125-017-4386-0",
+        "article-title": "Individualised variable-interval risk-based screening for sight-threatening diabetic retinopathy: the liverpool risk calculation engine",
+        "volume": "60",
+        "year": "2017",
+        "journal-title": "Diabetologia"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2005.10.010"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.28",
+        "unstructured": "International Diabetes Federation. Idf diabetes atlas, 9th edn. https://www.diabetesatlas.org, 2019. Accessed: 2021-01-04."
+      },
+      {
+        "issue": "5",
+        "key": "2021012504000514000_2021.01.18.21250034v2.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1189",
+        "DOI": "10.1214/aos/1013203450",
+        "article-title": "Greedy function approximation: A gradient boosting machine",
+        "volume": "29",
+        "year": "2001",
+        "journal-title": "The Annals of Statistics"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Selene Ghisolfi , Ingvild Alm\u00e5s , Justin C Sandefur , Tillman von Carnap , Jesse Heitner , and Tessa Bold . Predicted COVID-19 fatality rates based on age, sex, comorbidities and health system capacity. BMJ Global Health, 5(9), 2020. Publisher: BMJ Specialist Journals _eprint: https://gh.bmj.com/content/5/9/e003094.full.pdf.",
+        "DOI": "10.1136/bmjgh-2020-003094"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/diacare.27.3.727"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7861/clinmedicine.13-1-27"
+      },
+      {
+        "issue": "0",
+        "key": "2021012504000514000_2021.01.18.21250034v2.33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1214/07-EJS004",
+        "article-title": "Forward stagewise regression and the monotone lasso",
+        "volume": "1",
+        "year": "2007",
+        "journal-title": "Electronic Journal of Statistics"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Trevor Hastie , Robert Tibshirani , and Jerome Friedman . The Elements of Statistical Learning. Springer Series in Statistics. Springer New York, New York, NY, 2009.",
+        "DOI": "10.1007/978-0-387-84858-7"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc07-1150"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/diacare.18.3.382"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc11-1468"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Kakadiaris , Michalis Vrigkas , A. Yen , T. Kuznetsova , M. Budoff , and M. Naghavi . Machine learning outperforms acc/aha cvd risk calculator in mesa. Journal of the American Heart Association: Cardiovascular and Cerebrovascular Disease, 7, 2018.",
+        "DOI": "10.1161/JAHA.118.009476"
+      },
+      {
+        "issue": "10",
+        "key": "2021012504000514000_2021.01.18.21250034v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "800",
+        "DOI": "10.1111/j.1751-7176.2010.00343.x",
+        "article-title": "Colindres, and Heejung Bang. A hypertension risk score for middle-aged and older adults",
+        "volume": "12",
+        "year": "2010",
+        "journal-title": "The Journal of Clinical Hypertension"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hugo Larochelle , Dumitru Erhan , Aaron Courville , James Bergstra , and Yoshua Bengio . An empirical evaluation of deep architectures on problems with many factors of variation. In Proceedings of the 24th international conference on Machine learning - ICML \u201807. ACM Press, 2007.",
+        "DOI": "10.1145/1273496.1273556"
+      },
+      {
+        "issue": "8",
+        "key": "2021012504000514000_2021.01.18.21250034v2.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1081",
+        "DOI": "10.1001/jamainternmed.2020.2033",
+        "article-title": "Development and validation of a clinical risk score to predict the occurrence of critical illness in hospitalized patients with COVID-19",
+        "volume": "180",
+        "year": "2020",
+        "journal-title": "JAMA Internal Medicine"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/diacare.26.3.725"
+      },
+      {
+        "issue": "1",
+        "key": "2021012504000514000_2021.01.18.21250034v2.43",
+        "first-page": "33",
+        "article-title": "The financial and health burden of diabetic ambulatory care sensitive hospitalisations in mexico",
+        "volume": "58",
+        "year": "2016",
+        "journal-title": "Salud Publica Mex"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.44",
+        "first-page": "86",
+        "article-title": "[clinical effect of lifestyle modification on cardiovascular risk in prehypertensives: Prehiper i study]",
+        "volume": "62",
+        "year": "2009",
+        "journal-title": "Revista espanola de cardiologia"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.45",
+        "unstructured": "Mathematica. 19 and me: A covid-19 risk calculator. https://19andme.covid19.mathematica. org/, 2020. Accessed: 2020-09-04."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.46",
+        "unstructured": "Kathryn L. McCance and Sue E. Huether , editors. Pathophysiology: the biologic basis for disease in adults and children. Elsevier, St. Louis, Missouri, eighth edition edition, 2019."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kenny Mendoza-Herrera , Amado D. Quezada , An-drea Pedroza-Tob\u00edas , Cesar Hern\u00e1ndez-Alcaraz , Jans Fromow-Guerra , and Sim\u00f3n Barquera . A di-abetic retinopathy screening tool for low-income adults in mexico. Preventing Chronic Disease, 14, October 2017.",
+        "DOI": "10.5888/pcd14.170157"
+      },
+      {
+        "issue": "11",
+        "key": "2021012504000514000_2021.01.18.21250034v2.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "2086",
+        "DOI": "10.1007/s00134-020-06256-3",
+        "article-title": "Hospital mortality in mechanically ventilated COVID-19 patients in mexico",
+        "volume": "46",
+        "year": "2020",
+        "journal-title": "Intensive Care Medicine"
+      },
+      {
+        "issue": "3-4",
+        "key": "2021012504000514000_2021.01.18.21250034v2.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "432",
+        "DOI": "10.1016/j.aogh.2017.07.001",
+        "article-title": "Transculturalizing diabetes prevention in latin america",
+        "volume": "83",
+        "year": "2017",
+        "journal-title": "Annals of Global Health"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Noble , R. Mathur , T. Dent , C. Meads , and T. Greenhalgh . Risk models and scores for type 2 diabetes: systematic review. The BMJ, 343, 2011.",
+        "DOI": "10.1136/bmj.d7163"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.51",
+        "first-page": "472",
+        "article-title": "wPredictive Models for Diabetic Retinopathy from Non-Image Teleretinal Screening Data",
+        "volume": "2019",
+        "year": "2019",
+        "journal-title": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2010.08.007"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Markus Ojala and Gemma C. Garriga . Permutation tests for studying classifier performance. In 2009 Ninth IEEE International Conference on Data Mining. IEEE, December 2009.",
+        "DOI": "10.1109/ICDM.2009.108"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.54",
+        "unstructured": "World Health Organization. Hypertension. https://www.who.int/news-room/fact-sheets/detail/hypertension, 2010. Accessed: 2021-01-04."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.55",
+        "unstructured": "World Health Organization. Coronavirus. https://www.who.int/health-topics/coronavirus, 2020. Accessed: 2020-09-20."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.56",
+        "unstructured": "World Health Organization. Who coronavirus disease (covid-19) dashboard. https://covid19.who.int/, 2020. Accessed: 2021-01-04."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sajida Perveen , M. Shahbaz , K. Keshavjee , and A. Guergachi . Prognostic modeling and prevention of diabetes using machine learning technique. Scientific Reports, 9, 2019.",
+        "DOI": "10.1038/s41598-019-49563-6"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.58",
+        "unstructured": "E. Puentes-Rosas , S. Sesma , and O. G\u00f3mez-Dant\u00e9s . Estimaci\u00f3n de la poblaci\u00f3n con seguro de salud en m\u00e9xico mediante una encuesta nacional. Salud P\u00fablica de M\u00e9xico, 2015."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.59",
+        "unstructured": "Germ\u00e1n Rodr\u00edguez. Lecture notes on generalized linear models. https://data.princeton.edu/ wws509/notes/, 2007."
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.60",
+        "unstructured": "T. Shamah-Levy , E. Vielma-Orozco , O. Heredia-Hern\u00e1ndez , M. Romero-Mart\u00ednez , J. Mojica-Cuevas , L. Cuevas-Nasu , J. A. Santaella-Castell , and J. Rivera-Dommarco . National survey of health and nutrition 2018-19. national results [encuesta nacional de salud y nutrici\u00f3n 2018-19. resultados nacionales]. Technical report, Instituto Nacional de Salud P\u00fablica, 2020."
+      },
+      {
+        "issue": "1",
+        "key": "2021012504000514000_2021.01.18.21250034v2.61",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58",
+        "year": "1996",
+        "journal-title": "Journal of the Royal Statistical Society: Series B (Methodological)"
+      },
+      {
+        "issue": "S9",
+        "key": "2021012504000514000_2021.01.18.21250034v2.62",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1186/s12859-018-2277-0",
+        "article-title": "Predicting diabetic retinopathy and identifying interpretable biomedical features using machine learning algorithms",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patrick G. T. Walker , Charles Whittaker , Oliver J Watson , Marc Baguelin , Peter Winskill , Arran Hamlet , Bimandra A. Djafaara , Zulma Cucunub\u00e1 , Daniela Olivera Mesa , Will Green , Hayley Thompson , Shevanthi Nayagam , Kylie E. C. Ainslie , Sangeeta Bhatia , Samir Bhatt , Adhiratha Boonyasiri , Olivia Boyd , Nicholas F. Brazeau , Lorenzo Cattarino , Gina Cuomo-Dannenburg , Amy Dighe , Christl A. Donnelly , Ilaria Dorigatti , Sabine L. van Elsland , Rich FitzJohn , Han Fu , Katy A.M. Gaythorpe , Lily Geidelberg , Nicholas Grassly , David Haw , Sarah Hayes , Wes Hins-ley , Natsuko Imai , David Jorgensen , Edward Knock , Daniel Laydon , Swapnil Mishra , Gemma Nedjati-Gilani , Lucy C. Okell , H. Juliette Unwin , Robert Verity , Michaela Vollmer , Caroline E. Wal-ters , Haowei Wang , Yuanrong Wang , Xiaoyue Xi , David G Lalloo , Neil M. Ferguson , and Azra C. Ghani . The impact of COVID-19 and strategies for mitigation and suppression in low- and middle-income countries. Science, page eabc0035, June 2020.",
+        "DOI": "10.1126/science.abc0035"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2521-4"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMra032865"
+      },
+      {
+        "key": "2021012504000514000_2021.01.18.21250034v2.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2337/dc11-1909"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.18.21250034",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:03:42Z",
+      "timestamp": 1768485822000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.01.18.21250034"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "references-count": 66,
+    "URL": "https://doi.org/10.1101/2021.01.18.21250034",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          20
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

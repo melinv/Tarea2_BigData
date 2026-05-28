@@ -1,0 +1,396 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:07:44Z",
+      "timestamp": 1768496864608,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          21
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 25,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          21
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Phylogenetics has played a pivotal role in the genomic epidemiology of SARS-CoV-2, such as tracking the emergence and global spread of variants, and scientific communication. However, the rapid accumulation of genomic data from around the world \u2014 with over two million genomes currently available in the GISAID database \u2014 is testing the limits of standard phylogenetic methods. Here, we describe a new approach to rapidly analyze and visualize large numbers of SARS-CoV-2 genomes. Using Python, genomes are filtered for problematic sites, incomplete coverage, and excessive divergence from a strict molecular clock. All differences from the reference genome, including indels, are extracted using minimap2, and compactly stored as a set of features for each genome. For each Pango lineage (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://cov-lineages.org\">https://cov-lineages.org</jats:ext-link>\n                  ), we collapse genomes with identical features into \u2018variants\u2019, generate 100 bootstrap samples of the feature set union to generate weights, and compute the symmetric differences between the weighted feature sets for every pair of variants. The resulting distance matrices are used to generate neigihbor-joining trees in RapidNJ and converted into a majority-rule consensus tree for the lineage. Branches with support values below 50% or mean lengths below 0.5 differences are collapsed, and tip labels on affected branches are mapped to internal nodes as directly-sampled ancestral variants. Currently, we process about million genomes in approximately nine hours on 34 cores. The resulting trees are visualized using the JavaScript framework D3.js as \u2018beadplots\u2019, in which variants are represented by horizontal line segments, annotated with beads representing samples by collection date. Variants are linked by vertical edges to represent branches in the consensus tree. These visualizations are published at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://filogeneti.ca/CoVizu\">https://filogeneti.ca/CoVizu</jats:ext-link>\n                  . All source code was released under an MIT license at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/PoonLab/covizu\">https://github.com/PoonLab/covizu</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2021.07.20.453079",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          21
+        ]
+      ],
+      "date-time": "2021-07-21T20:50:11Z",
+      "timestamp": 1626900611000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "CoVizu: Rapid analysis and visualization of the global diversity of SARS-CoV-2 genomes"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8242-7862",
+        "authenticated-orcid": false,
+        "given": "Roux-Cil",
+        "family": "Ferreira",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Emmanuel",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gopi",
+        "family": "Gugan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kaitlyn",
+        "family": "Wade",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Molly",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6120-7211",
+        "authenticated-orcid": false,
+        "given": "Laura Mu\u00f1oz",
+        "family": "Baena",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Connor",
+        "family": "Chato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bonnie",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6620-8694",
+        "authenticated-orcid": false,
+        "given": "Abayomi S.",
+        "family": "Olabode",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3779-154X",
+        "authenticated-orcid": false,
+        "given": "Art F. Y.",
+        "family": "Poon",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "2021072307450996000_2021.07.20.453079v1.1",
+        "first-page": "2000044",
+        "article-title": "Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2008-3"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.3",
+        "unstructured": "Rambaut A , Andersen K . Preliminary Phylogenetic Analysis of 11 nCoV2019 Genomes, 2020-01-19; 2020. https://virological.org/t/preliminary-phylogenetic-analysis-of-11-ncov2019-genomes-2020-01-19/329/1."
+      },
+      {
+        "issue": "4",
+        "key": "2021072307450996000_2021.07.20.453079v1.4",
+        "first-page": "2000058",
+        "article-title": "Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020",
+        "volume": "25",
+        "year": "2020",
+        "journal-title": "Eurosurveillance"
+      },
+      {
+        "issue": "1",
+        "key": "2021072307450996000_2021.07.20.453079v1.5",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1002/gch2.1018",
+        "article-title": "Data, disease and diplomacy: GISAID\u2019s innovative contribution to global health",
+        "volume": "1",
+        "year": "2017",
+        "journal-title": "Global Challenges"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.6"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ve/vex042"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abc0523"
+      },
+      {
+        "issue": "1",
+        "key": "2021072307450996000_2021.07.20.453079v1.9",
+        "first-page": "20",
+        "article-title": "Segmented: an R package to fit regression models with broken-line relationships",
+        "volume": "8",
+        "year": "2008",
+        "journal-title": "R news"
+      },
+      {
+        "issue": "5",
+        "key": "2021072307450996000_2021.07.20.453079v1.10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1777",
+        "DOI": "10.1093/molbev/msaa314",
+        "article-title": "Phylogenetic analysis of SARS-CoV-2 data is difficult",
+        "volume": "38",
+        "year": "2021",
+        "journal-title": "Molecular biology and evolution"
+      },
+      {
+        "issue": "11",
+        "key": "2021072307450996000_2021.07.20.453079v1.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1009175",
+        "DOI": "10.1371/journal.pgen.1009175",
+        "article-title": "Stability of SARS-CoV-2 phylogenies",
+        "volume": "16",
+        "year": "2020",
+        "journal-title": "PLoS genetics"
+      },
+      {
+        "issue": "10",
+        "key": "2021072307450996000_2021.07.20.453079v1.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "3061",
+        "DOI": "10.1093/molbev/msaa136",
+        "article-title": "PIQMEE: Bayesian Phylodynamic Method for Analysis of Large Data Sets with Duplicate Sequences",
+        "volume": "37",
+        "year": "2020",
+        "journal-title": "Molecular biology and evolution"
+      },
+      {
+        "issue": "11",
+        "key": "2021072307450996000_2021.07.20.453079v1.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1403",
+        "DOI": "10.1038/s41564-020-0770-5",
+        "article-title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty191"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.15",
+        "unstructured": "De Maio N , Walker C , Borges R , Weilguny L , Slodkowicz G , Goldman N . Issues with SARS-CoV-2 sequencing data; 2020. https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473."
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.16",
+        "unstructured": "Rambaut A , et al. Phylodynamic Analysis\u2014 176 genomes\u2014 6 Mar 2020. http://virologicalorg/t/phylodynamic-analysis-176-genomes-6-mar-2020/356;accessed 2020-11-24."
+      },
+      {
+        "issue": "3",
+        "key": "2021072307450996000_2021.07.20.453079v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "article-title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+        "volume": "17",
+        "year": "2020",
+        "journal-title": "Nature methods"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0009490"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-13-1"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oxfordjournals.molbev.a040454"
+      },
+      {
+        "key": "2021072307450996000_2021.07.20.453079v1.21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simonsen M , Mailund T , Pedersen CN . Inference of large phylogenies using neighbour-joining. In: International Joint Conference on Biomedical Engineering Systems and Technologies. Springer; 2010. p. 334\u2013344.",
+        "DOI": "10.1007/978-3-642-18472-7_26"
+      },
+      {
+        "issue": "5",
+        "key": "2021072307450996000_2021.07.20.453079v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "655",
+        "DOI": "10.1016/j.jpdc.2007.09.005",
+        "article-title": "MPI for Python: Performance improvements and MPI-2 extensions",
+        "volume": "68",
+        "year": "2008",
+        "journal-title": "Journal of Parallel and Distributed Computing"
+      },
+      {
+        "issue": "13",
+        "key": "2021072307450996000_2021.07.20.453079v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1001/jama.2021.2088",
+        "article-title": "SARS-CoV-2 viral variants\u2014tackling a moving target",
+        "volume": "325",
+        "year": "2021",
+        "journal-title": "Jama"
+      },
+      {
+        "issue": "6516",
+        "key": "2021072307450996000_2021.07.20.453079v1.24",
+        "doi-asserted-by": "crossref",
+        "first-page": "564",
+        "DOI": "10.1126/science.abc8169",
+        "article-title": "The emergence of SARS-CoV-2 in Europe and North America",
+        "volume": "370",
+        "year": "2020",
+        "journal-title": "Science (New York, NY)"
+      },
+      {
+        "issue": "6",
+        "key": "2021072307450996000_2021.07.20.453079v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "809",
+        "DOI": "10.1038/s41588-021-00862-7",
+        "article-title": "Ultrafast Sample placement on Existing tRees (UShER) enables real-time phylogenetics for the SARS-CoV-2 pandemic",
+        "volume": "53",
+        "year": "2021",
+        "journal-title": "Nature Genetics"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.20.453079",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T01:58:51Z",
+      "timestamp": 1768442331000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.07.20.453079"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          21
+        ]
+      ]
+    },
+    "references-count": 25,
+    "URL": "https://doi.org/10.1101/2021.07.20.453079",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1093/ve/veab092",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          21
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

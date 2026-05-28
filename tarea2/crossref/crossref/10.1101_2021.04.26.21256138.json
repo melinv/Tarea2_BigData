@@ -1,0 +1,341 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T08:17:52Z",
+      "timestamp": 1768551472699,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          28
+        ]
+      ]
+    },
+    "group-title": "Infectious Diseases (except HIV/AIDS)",
+    "reference-count": 20,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>With over 83 million cases and 1.8 million deaths reported worldwide by the end of 2020 for SARS-CoV-2 (COVID-19), there is an urgent need to enhance identification of high-risk populations to properly evaluate therapy effectiveness with real-world evidence and improve outcomes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>Baseline and daily indicators were evaluated using electronic health records for 46,971 patients hospitalized with COVID-19 from 176 HCA Healthcare-affiliated hospitals, presenting from March to September 2020, to develop a real-time risk model (RTRM) of all-cause, hospitalized mortality. Patient facility, dates-of-care, clinico-demographics, comorbidities, vitals, laboratory markers, and respiratory support findings were aggregated in a logistic regression model.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>\n                    The RTRM predicted overall mortality as well as mortality 1, 3, and 7 days in advance with an area under the receiver operating characteristic curve (AUCROC) of 0.905, 0.911, 0.905, and 0.901 respectively, significantly outperforming a combined model of age and daily modified WHO progression scale (all\n                    <jats:italic>p</jats:italic>\n                    &lt;0.0001; AUCROC, 0.846, 0.848, 0.850, and 0.852). The RTRM delineated risk at presentation from ongoing risk associated with medical care and showed that mortality rates decreased over time due to both decreased severity and changes in care.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Interpretation</jats:title>\n                  <jats:p>To our knowledge, this study is the largest of its kind to comprehensively evaluate predictors and incorporate daily risk measures of COVID-19 mortality. The RTRM validates current literature trends in mortality across time and allows direct translation for research and clinical applications.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Research in context</jats:title>\n                  <jats:sec>\n                    <jats:title>Evidence before this study</jats:title>\n                    <jats:p>Due to the rapidly evolving nature of the COVID-19 pandemic, the body of evidence and published literature was considered prior to study initiation and throughout the course of the study. Although at study initiation there was a growing consensus that age and disease severity at presentation were the greatest contributors to predicting in-hospital mortality, there was less of a consensus on the key demographics, comorbidities, vitals and laboratory values. In addition, early on, most potential predictors of in-hospital mortality had been assessed by univariable analysis. In April of 2020, a systematic review of prediction studies for COVID-19 revealed that there were only 8 publications for prognosis of hospital mortality. All were deemed to have high potential for bias due to low sample size, model overfitting, vague reporting and/or insufficient follow-up. Over the duration of the study, in-hospital prediction models were published ranging from simplified scores to machine learning. There were at least 8 prediction studies that were published during the course of our own that had comparable sample size or extensive multivariable analysis with the greatest accuracy of prediction reported as 74%. Moreover, a report in December of 2020 independently validated 4 simple prediction models, with none achieving greater than an AUCROC of 0.72%. Lastly, an eight-variable score developed by a UK consortium on a comparable sample size demonstrated an AUCROC of 0.77. To our knowledge, however, none to-date have modeled daily risk beyond baseline.</jats:p>\n                    <jats:p>We frequently assessed World Health Organization (WHO) resources as well as queried both MedRXIV and PubMed with the search terms \u201cCOVID\u201d, \u201cprediction\u201d, \u201chospital\u201d and \u201cmortality\u201d to ensure we were assessing all potential predictors of hospitalized mortality. The last search was performed on January 5, 2021 with the addition of \u201cmulti\u201d, \u201cdaily\u201d, \u201creal time\u201d or \u201clongitudinal\u201d terms to confirm the novelty of our study. No date restrictions or language filters were applied.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Added value of this study</jats:title>\n                    <jats:p>To our knowledge, this study is the largest and most geographically diverse of its kind to comprehensively evaluate predictors of in-hospital COVID-19 mortality that are available retrospectively in electronic health records and to incorporate longitudinal, daily risk measures to create risk trajectories over the entire hospital stay. Not only does our Real-Time Risk Model (RTRM) validate current literature, demonstrating reduced mortality over the course of the COVID-19 pandemic and identifying age and WHO severity as major drivers of mortality in regards to baseline characteristics, but it also outperforms a model of age and daily WHO score combined, achieving an AUCROC of 0.91 on the test set. Furthermore, the fact that the RTRM delineates risk at baseline from risk over the course of care allows more granular interpretation of the impact of various parameters on mortality risk, as demonstrated in the current study using both sex disparity and calendar epochs that were based on evolving treatment recommendations as proofs-of-principle.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Implications of all the available evidence</jats:title>\n                    <jats:p>The goal of the RTRM was to create a flexible tool that could be used to assess intervention and treatment efficacy in real-world, evidence-based studies as well as provide real-time risk assessment to aid clinical decisions and resourcing with further development. Implications of this work are broad. The depth of the multi-facility, harmonized electronic health record (EHR) dataset coupled with the transparency we provide in the RTRM results provides a resource for others to interpret impact of markers of interest and utilize data that is relevant to their own studies. The RTRM will allow optimal matching in retrospective cohort studies and provide a more granular endpoint for evaluation of interventions beyond general effectiveness, such as optimal delivery, including dosing and timing, and identification of the population/s benefiting from an intervention or combination of interventions. In addition, beyond the scope of the current study, the RTRM and its resultant daily risk scores allow for flexibility in developing prediction models for other clinical outcomes, such as progression of pulmonary disease, need for invasive mechanical ventilation, and development of sepsis and/or multiorgan failure, all of which could provide a framework for real-time personalized care.</jats:p>\n                  </jats:sec>\n                </jats:sec>",
+    "DOI": "10.1101/2021.04.26.21256138",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2021-04-28T17:17:53Z",
+      "timestamp": 1619630273000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Development of a Real-Time Risk Model (RTRM) for Predicting In-Hospital COVID-19 Mortality"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5127-4034",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Schlauch",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8635-9705",
+        "authenticated-orcid": false,
+        "given": "Arielle M.",
+        "family": "Fisher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jessica",
+        "family": "Correia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaotong",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Casey",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3858-2734",
+        "authenticated-orcid": false,
+        "given": "Angela",
+        "family": "Junglen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1501-2931",
+        "authenticated-orcid": false,
+        "given": "Howard A.",
+        "family": "Burris",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3748-7492",
+        "authenticated-orcid": false,
+        "given": "Lindsay E.",
+        "family": "Sears",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gregg",
+        "family": "Fromell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mick",
+        "family": "Correll",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2462-0186",
+        "authenticated-orcid": false,
+        "given": "Charles F.",
+        "family": "LeMaistre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6472-939X",
+        "authenticated-orcid": false,
+        "given": "Shanna A. Arnold",
+        "family": "Egloff",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.1",
+        "unstructured": "WHO. Pneumonia of unknown cause \u2013 China. 2020/01/05 2020. https://www.who.int/csr/don/05-january-2020-pneumonia-of-unkown-cause-china/en/ (accessed 2020/12/07."
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.2",
+        "unstructured": "JHU. Coronavirus Resource Center. 2020. https://coronavirus.jhu.edu/ (accessed 2020/12/07."
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30120-1"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30483-7"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gupta RK , Marks M , Samuels THA , et al. Systematic evaluation and external validation of 22 prognostic models among hospitalised adults with COVID-19: An observational cohort study. Eur Respir J 2020.",
+        "DOI": "10.1101/2020.07.24.20149815"
+      },
+      {
+        "issue": "10",
+        "key": "2021043010301025000_2021.04.26.21256138v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e516",
+        "DOI": "10.1016/S2589-7500(20)30217-X",
+        "article-title": "Clinical features of COVID-19 mortality: development and validation of a clinical prediction model",
+        "volume": "2",
+        "year": "2020",
+        "journal-title": "Lancet Digit Health"
+      },
+      {
+        "issue": "1",
+        "key": "2021043010301025000_2021.04.26.21256138v1.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "18716",
+        "DOI": "10.1038/s41598-020-75767-2",
+        "article-title": "Machine learning prediction for mortality of patients diagnosed with COVID-19: a nationwide Korean cohort study",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "7",
+        "key": "2021043010301025000_2021.04.26.21256138v1.8",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0236618",
+        "DOI": "10.1371/journal.pone.0236618",
+        "article-title": "Prediction model and risk scores of ICU admission and mortality in COVID-19",
+        "volume": "15",
+        "year": "2020",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m1328"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horwitz LI , Jones SA , Cerfolio RJ , et al. Trends in COVID-19 Risk-Adjusted Mortality Rates. J Hosp Med 2020.",
+        "DOI": "10.1101/2020.08.11.20172775"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.11",
+        "unstructured": "CDC. COVIDView: A weekly Surveillance Summary of U.S. COVID-19 Actvity. 2020/12/04 2020. https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covidview/index.html (accessed 2020/12/07."
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.m3339"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0236554"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm6945e2"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chopra V , Flanders SA , O\u2019Malley M , Malani AN , Prescott HC . Sixty-Day Outcomes Among Patients Hospitalized With COVID-19. Ann Intern Med 2020.",
+        "DOI": "10.7326/M20-5661"
+      },
+      {
+        "issue": "1548-7660",
+        "key": "2021043010301025000_2021.04.26.21256138v1.16",
+        "first-page": "1",
+        "article-title": "mice: Multivariate Imputation by Chained Equations in R",
+        "volume": "45",
+        "year": "2011",
+        "journal-title": "Journal of Statistical Software"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rubin DB . Multiple Imputation for Nonresponse in Surveys: 1987 John Wiley & Sons, Inc. ; 1987.",
+        "DOI": "10.1002/9780470316696"
+      },
+      {
+        "issue": "3",
+        "key": "2021043010301025000_2021.04.26.21256138v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1080/00401706.2015.1054436",
+        "article-title": "Orthogonalizing EM: A design-based least squares algorithm",
+        "volume": "58",
+        "year": "2016",
+        "journal-title": "Technometrics"
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.19",
+        "unstructured": "Huling JD , Qian PZG . Fast Penalized Regression and Cross Validation for Tall Data with the oem Package. Journal of Statistical Software 2018; VV(II)."
+      },
+      {
+        "key": "2021043010301025000_2021.04.26.21256138v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.04.26.21256138",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:14:10Z",
+      "timestamp": 1768486450000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2021.04.26.21256138"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          28
+        ]
+      ]
+    },
+    "references-count": 20,
+    "URL": "https://doi.org/10.1101/2021.04.26.21256138",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          28
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

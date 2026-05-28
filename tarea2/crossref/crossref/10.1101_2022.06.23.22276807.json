@@ -1,0 +1,385 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:54:46Z",
+      "timestamp": 1768557286848,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          23
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 37,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The COVID-19 pandemic has highlighted the critical role of genomic surveillance for guiding policy and control strategies. Timeliness is key, but rapid deployment of existing surveillance is difficult because most approaches are based on sequence alignment and phylogeny. Millions of SARS-CoV-2 genomes have been assembled, the largest collection of sequence data in history. Phylogenetic methods are ill equipped to handle this sheer scale. We introduce a pan-genomic measure that examines the information diversity of a k-mer library drawn from a country\u2019s complete set of clinical, pooled, or wastewater sequence. Quantifying diversity is central to ecology. Studies that measure the diversity of various environments increasingly use the concept of Hill numbers, or the effective number of species in a sample, to provide a simple metric for comparing species diversity across environments. The more diverse the sample, the higher the Hill number. We adopt this ecological approach and consider each k-mer an individual and each genome a transect in the pan-genome of the species. Applying Hill numbers in this way allows us to summarize the temporal trajectory of pandemic variants by collapsing each day\u2019s assemblies into genomic equivalents. For pooled or wastewater sequence, we instead compare sets of days represented by survey sequence divorced from individual infections. We do both calculations quickly, without alignment or trees, using modern genome sketching techniques to accommodate millions of genomes or terabases of raw sequence in one condensed view of pandemic dynamics. Using data from the UK, USA, and South Africa, we trace the ascendance of new variants of concern as they emerge in local populations months before these variants are named and added to phylogenetic databases. Using data from San Diego wastewater, we monitor these same population changes from raw, unassembled sequence. This history of emerging variants senses all available data as it is sequenced, intimating variant sweeps to dominance or declines to extinction at the leading edge of the COVID19 pandemic. The surveillance technique we introduce in a SARS-CoV-2 context here can operate on genomic data generated over any pandemic time course and is organism agnostic.</jats:p>\n                <jats:sec>\n                  <jats:title>One-Sentence Summary</jats:title>\n                  <jats:p>We implement pathogen surveillance from sequence streams in real-time, requiring neither references or phylogenetics.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Main Text</jats:title>\n                  <jats:p>The COVID-19 pandemic has been fueled by the repeated emergence of SARS-CoV-2 variants, a few of which have propelled worldwide, asynchronous waves of infection(1). First arising in late 2019 in Wuhan, China, the spread of the D614G mutation led to sequential waves of Variants of Concern (VOC) about nine months later, significantly broadening the pandemic\u2019s reach and challenging concerted efforts at its control (2). Beta and Gamma variants drove regional resurgences, but Alpha, Delta and Omicron occurred globally (3)(4). The advent of each variant led to the near extinction of the population within which it arose (5). The architecture of this pandemic is therefore marked by periods of transition, tipping a population towards an emerging variant of concern followed by its near complete sweep to dominance.</jats:p>\n                  <jats:p>At the pandemic\u2019s outset, epidemiological work was focused on transmission networks, but SARS-CoV-2\u2019s high rates of infection quickly outstripped our ability to trace it(2). When it became clear that even focused global efforts would only characterize a fraction of infections, researchers turned to phylodynamic approaches to understand SARS-CoV-2\u2019s population structure(6)(7). Genomics was at the center of this effort. Rapid sequencing and whole genome phylogeny updated in quasi real time enabled epidemic surveillance that was a few weeks to a month behind the edge of the pandemic curve(8). In a crisis of COVID-19\u2019s scale and speed, eliminating this analysis lag can mean the difference between timely, reasonable public health response and failure to understand and anticipate the disease\u2019s next turn.</jats:p>\n                  <jats:p>Phylodynamics is predicated on genetic variation. Without variation, phylogenetic approaches yield star trees with no evolutionary structure. The high mutation rate among pathogens, especially among RNA viruses like SARS-CoV2, ensures the accumulation of sufficient diversity to reconstruct pathogen evolutionary history even over the relatively short time scales that comprise an outbreak. But as a genomic surveillance technique, phylodynamics is costly. Tools like Nextstrain align genomes, reconstruct phylogenies, and date internal nodes using Bayesian and likelihood approaches(9). These techniques are among the most computationally expensive algorithms in bioinformatics. Intractable beyond a few thousand sequences, phylodynamic approaches must operate on population subsamples, and subsamples are subject to the vagaries of data curation. More importantly, phylodynamic approaches are yoked to references. Most techniques are ill-equipped to respond to evolutionary novelty. We argue that genomic surveillance should herald the appearance of previously unseen variants without having to resort to comparison with assembled and curated genomes, and the lag between variant discovery and a database update is often months. Surveillance is currently hamstrung by the historical bias inherent to marker-based analysis. The existing pandemic toolbox therefore lacks unbiased approaches to quickly model the population genomics of all sequences available.</jats:p>\n                  <jats:p>We propose a method that summarizes the temporal trajectory of pandemic variants by collapsing each day\u2019s assemblies into a single metric. In the case of pooled or wastewater sequence, this same metric is repurposed to measure survey sequence compression across days. Our method does not subsample, perform alignments, or build trees, but still describes the major arcs of the COVID19 pandemic. Our inspiration comes from long standing definitions of diversity used in ecology. We employ Hill numbers (10)(11), extensions of Shannon\u2019s theory of information entropy(12). Rather than using these numbers to compute traditional ecological quantities like the diversity of species in an area, we use them to compute the diversity of genomic information. For example, we envision each unique k-mer a species and each genome a transect sampled from the pan-genome. Applying Hill numbers in this way allows us to measure a collection of genomes in terms of genomic equivalents, or a set of sequence pools as the effective number of sets. We show that tracing a pandemic curve with these new metrics enables the use of sequence as a real time sensor, tracking both the emergence of variants over time and the extent of their spread.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2022.06.23.22276807",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2022-06-23T21:40:16Z",
+      "timestamp": 1656020416000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Hill numbers at the edge of a pandemic: rapid SARS-COV2 surveillance using clinical, pooled, or wastewater sequence as a sensor for population change"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Apurva",
+        "family": "Narechania",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Dean",
+        "family": "Bobo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kevin",
+        "family": "Deitz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rob",
+        "family": "Desalle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul",
+        "family": "Planet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Barun",
+        "family": "Mathema",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koelle K , Martin MA , Antia R , Lopman B , Dean NE. The changing epidemiology of SARS-CoV-2 Science. 2022 Mar 11;375(6585):1116\u201321.",
+        "DOI": "10.1126/science.abm4915"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li R , Pei S , Chen B , Song Y , Zhang T , Yang W , et al. Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2). Science. 2020 May;368(6490):489\u201393.",
+        "DOI": "10.1126/science.abb3221"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dhar MS , Marwal R , Vs R , Ponnusamy K , Jolly B , Bhoyar RC , et al. Genomic characterization and epidemiology of an emerging SARS-CoV-2 variant in Delhi, India. Science. 2021 Nov 19;374(6570):995\u20139.",
+        "DOI": "10.1101/2021.06.02.21258076"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.4",
+        "unstructured": "Viana R , Moyo S , Amoako DG , Tegally H , Scheepers C , Althaus CL , et al. Rapid epidemic expansion of the SARS-CoV-2 Omicron variant in southern Africa. Nature. 2022 Mar 24;603(7902):679\u201386."
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.06.043"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grenfell BT , Pybus OG , Gog JR , Wood JLN , Daly JM , Mumford JA , et al. Unifying the Epidemiological and Evolutionary Dynamics of Pathogens. Science. 2004 Jan 16;303(5656):327\u201332.",
+        "DOI": "10.1126/science.1090727"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Volz EM , Koelle K, Bedford T. Viral Phylodynamics. Wodak S, editor. PLoS Comput Biol. 2013 Mar 21;9(3):e1002947.",
+        "DOI": "10.1371/journal.pcbi.1002947"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg.2017.88"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hadfield J , Megill C, Bell SM, Huddleston J, Potter B, Callender C, et al. Nextstrain: real-time tracking of pathogen evolution. Kelso J, editor. Bioinformatics. 2018 Dec 1;34(23):4121\u20133.",
+        "DOI": "10.1093/bioinformatics/bty407"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1934352"
+      },
+      {
+        "issue": "4",
+        "key": "2023101108300610000_2022.06.23.22276807v3.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "804",
+        "DOI": "10.1111/1755-0998.13014",
+        "article-title": "A guide to the application of Hill numbers to DNA-based diversity analyses",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "Mol Ecol Resour"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/584091.584093"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.13",
+        "unstructured": "Brown P , Pietra SD , Pietra VD , Lai J , Mercer R . An Estimate of an Upper Bound for the Entropy of English. CL. 1992;"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/06-1736.1"
+      },
+      {
+        "issue": "4",
+        "key": "2023101108300610000_2022.06.23.22276807v3.15",
+        "doi-asserted-by": "crossref",
+        "first-page": "516",
+        "DOI": "10.1111/j.1600-0706.2011.19267.x",
+        "article-title": "The decomposition of Shannon\u2019s entropy and a confidence interval for beta diversity",
+        "volume": "121",
+        "year": "2012",
+        "journal-title": "Oikos"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marcon E , Scotti I, H\u00e9rault B, Rossi V, Lang G. Generalization of the Partitioning of Shannon Diversity. Thioulouse J, editor. PLoS ONE. 2014 Mar 6;9(3):e90289.",
+        "DOI": "10.1371/journal.pone.0090289"
+      },
+      {
+        "issue": "1",
+        "key": "2023101108300610000_2022.06.23.22276807v3.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1214/aoms/1177729694",
+        "article-title": "On Information and Sufficiency",
+        "volume": "22",
+        "year": "1951",
+        "journal-title": "Ann Math Stat"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2290726"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0506758102"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2017.00165"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-genom-120219-080406"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41588-021-00862-7"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.23",
+        "unstructured": "Broder AZ. On the resemblance and containment of documents. In: Proceedings Compression and Complexity of SEQUENCES 1997 (Cat No97TB100171) [Internet]. Salerno, Italy: IEEE Comput. Soc; 1998 [cited 2022 May 25]. p. 21\u20139. Available from: http://ieeexplore.ieee.org/document/666900/"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-016-0997-x"
+      },
+      {
+        "issue": "3",
+        "key": "2023101108300610000_2022.06.23.22276807v3.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1006/jcss.1997.1534",
+        "article-title": "Size-Estimation Framework with Applications to Transitive Closure and Reachability",
+        "volume": "55",
+        "year": "1997",
+        "journal-title": "J Comput Syst Sci"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "The COVID-19 Genomics UK (COG-UK) consortium. An integrated national scale SARS-CoV-2 genomic surveillance network. Lancet Microbe. 2020 Jul;1(3):e99\u2013100.",
+        "DOI": "10.1016/S2666-5247(20)30054-9"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.27",
+        "first-page": "eabg3055",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "Estimated transmissibility and impact of SARS-CoV"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.28",
+        "first-page": "10904",
+        "volume": "19",
+        "year": "2022",
+        "journal-title": "COVID"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.29",
+        "first-page": "eabo5395",
+        "article-title": "Ward T",
+        "volume": "2",
+        "year": "2022",
+        "journal-title": "The rapid replacement of the SARS-CoV"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gonzalez-Reiche AS , Hernandez MM , Sullivan MJ , Ciferri B , Alshammary H , Obla A , et al. Introductions and early spread of SARS-CoV-2 in the New York City area. Science. 2020 Jul 17;369(6501):297\u2013301.",
+        "DOI": "10.1126/science.abc1917"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Worobey M , Pekar J , Larsen BB , Nelson MI , Hill V , Joy JB , et al. The emergence of SARS-CoV-2 in Europe and North America. Science. 2020 Oct 30;370(6516):564\u201370.",
+        "DOI": "10.1126/science.abc8169"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tegally H , Wilkinson E , Giovanetti M , Iranzadeh A , Fonseca V , Giandhari J , et al. Detection of a SARS-CoV-2 variant of concern in South Africa. Nature. 2021 Apr 15;592(7854):438\u201343.",
+        "DOI": "10.1038/s41586-021-03402-9"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.33",
+        "unstructured": "Karthikeyan S , Levy JI , De Hoff P , Humphrey G , Birmingham A , Jepsen K , et al. Wastewater sequencing reveals early cryptic SARS-CoV-2 variant transmission. Nature. 2022 Sep 1;609(7925):101\u20138."
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.191692.115"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-9525(00)02024-2"
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.36",
+        "unstructured": "Wilkinson E , Giovanetti M , Tegally H , San JE , Lessells R , Cuadros D , et al. A year of genomic surveillance reveals how the SARS-CoV-2 pandemic unfolded in Africa. Science. 2021 Oct 22;374(6566):423\u201331."
+      },
+      {
+        "key": "2023101108300610000_2022.06.23.22276807v3.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/msb.202110673"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.23.22276807",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:45:37Z",
+      "timestamp": 1768488337000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.06.23.22276807"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          23
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1101/2022.06.23.22276807",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          23
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

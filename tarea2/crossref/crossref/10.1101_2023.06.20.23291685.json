@@ -1,0 +1,359 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T12:00:58Z",
+      "timestamp": 1768564858772,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 40,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To create and validate an ensemble of machine learning algorithms to accurately predict ICU admission or mortality upon initial presentation to the emergency department.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>This is a retrospective cohort study of a multicenter hospital system in the United States. The electronic health record was queried from March 2020 to December 2021 for patients who presented to the emergency department who were subsequently COVID-positive. Associated patient demographics, vitals, and laboratory vitals were obtained. High-risk individuals were defined as those who required ICU admission or died; low-risk individuals did not meet those criteria. The dataset was split into a 3:1 training to testing dataset. A machine learning ensemble stack was built to predict ICU admission and mortality.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Of the 3,142 hospital admissions with a COVID positive test, there were 1,128 (36%) individuals labeled as high-risk, and 2,014 (64%) as low-risk. We obtained 147 unique variables. CRP, LDH, procalcitonin, glucose, anion gap, creatinine, age, oxygen saturation, oxygen device, and obtainment of an ABG were chosen. Six machine learning models were then trained over model-specific hyperparameters, and then assessed on the testing dataset, generating an area under the receiver operator curve of 0.751, with a specificity of 95% in predicting high-risk individuals based on an initial emergency department assessment.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>A novel machine learning model was generated to predict ICU admission and patient mortality from a multicenter hospital system and validated on unseen data.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2023.06.20.23291685",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2023-06-24T03:57:53Z",
+      "timestamp": 1687579073000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Multicenter analysis of COVID-19 hospitalizations and stacking machine learning algorithms for prediction of high-risk patients"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Reid",
+        "family": "Shaw",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Bassily",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Love",
+        "family": "Patel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Timothy",
+        "family": "O\u2019Connor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Rafidi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Perry",
+        "family": "Formanek",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abm0620"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2116597"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmoa2021436"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/nejmsb2005114"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.resuscitation.2012.12.016"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/qjmed/94.10.521"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmjqs-2014-002845"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2016.0288"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2020.5191"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-92146-7"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-75767-2"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12911-021-01742-0"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/cancers14051291"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:MACH.0000015881.36452.6e"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-14225-8"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-9681(87)90171-8"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1994.10476866"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.19",
+        "unstructured": "R Core Team. R: A language and environment for statistical computing. R Found Stat Comput. 2019."
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.20",
+        "unstructured": "Kuhn M , Wickham H. Tidymodels: a collection of packages for modeling and machine learning using tidyverse principles. 2020. https://www.tidymodels.org."
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.01686"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Couch S , Kuhn M. stacks: Tidy Model Stacking. 2020. https://cran.r-project.org/package=stacks.",
+        "DOI": "10.32614/CRAN.package.stacks"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kuhn M. workflowsets: Create a Collection of \u201ctidymodels\u201d Workflows. 2021. https://cran.r-project.org/package=workflowsets.",
+        "DOI": "10.32614/CRAN.package.workflowsets"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-12-77"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.25",
+        "unstructured": "Wickham H , Bryan J. readxl: Read Excel Files. 2019. https://cran.r-project.org/package=readxl."
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.26",
+        "unstructured": "Neuwirth E. RColorBrewer: ColorBrewer Palettes. 2014. https://cran.r-project.org/package=RColorBrewer."
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.4679424"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.28",
+        "unstructured": "Schloerke B , Cook D , Larmarange J , et al. GGally: Extension to \u201cggplot2.\u201d 2020. https://cran.r-project.org/package=GGally."
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.29",
+        "unstructured": "Taiyun Wei , Simko V. R package \u201ccorrplot\u201d: Visualization of a Correlation Matrix. 2017. https://github.com/taiyun/corrplot."
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15585/mmwr.mm7010e4"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/medicina56090455"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s2214-109x(22)00114-0"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5937/jomb0-27554"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41379-020-00700-x"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajem.2020.05.073"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41581-020-00356-5"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2006392117"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj-2021-069761"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbi.2016.09.013"
+      },
+      {
+        "key": "2023062408200480000_2023.06.20.23291685v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jamia/ocz088"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.20.23291685",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T19:35:57Z",
+      "timestamp": 1768505757000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2023.06.20.23291685"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1101/2023.06.20.23291685",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

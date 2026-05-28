@@ -1,0 +1,167 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T09:04:11Z",
+      "timestamp": 1768554251160,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          6
+        ]
+      ]
+    },
+    "group-title": "Epidemiology",
+    "reference-count": 8,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We have successfully modeled every USA CoVID-19 wave using:\n                  <jats:disp-formula id=\"ueqn1\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"22270491v1_ueqn1.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  where\n                  <jats:italic>N</jats:italic>\n                  (\n                  <jats:italic>t</jats:italic>\n                  ) is the total number of new CoVID-19 cases above a prior baseline, and\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>R</jats:italic>\n                  </jats:sub>\n                  sets the doubling time\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>dbl</jats:italic>\n                  </jats:sub>\n                  =\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>R</jats:italic>\n                  </jats:sub>\n                  (ln 2). The new parameters {\n                  <jats:italic>\u03b1</jats:italic>\n                  <jats:sub>\n                    <jats:italic>S</jats:italic>\n                  </jats:sub>\n                  ;\n                  <jats:italic>\u03b4</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  } measure mitigation efforts among the\n                  <jats:italic>uninfected population</jats:italic>\n                  , with {\n                  <jats:italic>\u03b1</jats:italic>\n                  <jats:sub>\n                    <jats:italic>S</jats:italic>\n                  </jats:sub>\n                  &gt; 0} being associated with\n                  <jats:italic>Social Distancing</jats:italic>\n                  and\n                  <jats:italic>vaccinations</jats:italic>\n                  ; while {\n                  <jats:italic>\u03b4</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  &gt; 0 }is associated with\n                  <jats:italic>mask-wearing</jats:italic>\n                  , which gives a faster\n                  <jats:inline-formula>\n                    <jats:alternatives>\n                      <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"22270491v1_inline1.gif\"/>\n                    </jats:alternatives>\n                  </jats:inline-formula>\n                  post-peak\n                  <jats:italic>drop-off</jats:italic>\n                  . The predicted pandemic wave end is when\n                  <jats:italic>N</jats:italic>\n                  (\n                  <jats:italic>t</jats:italic>\n                  ) no longer increases.\n                </jats:p>\n                <jats:p>\n                  Using data from 11/15/21-12/30/21, our prior\n                  <jats:italic>medrxiv</jats:italic>\n                  .\n                  <jats:italic>org</jats:italic>\n                  preprint* showed this initial\n                  <jats:italic>Omicron</jats:italic>\n                  CoVID-19 wave had values that matched the\n                  <jats:italic>initial</jats:italic>\n                  stage of the prior USA Winter 2020 resurgence {\n                  <jats:italic>t</jats:italic>\n                  <jats:sub>\n                    <jats:italic>R</jats:italic>\n                  </jats:sub>\n                  \u22488 05\n                  <jats:italic>days</jats:italic>\n                  ;\n                  <jats:italic>\u03b1</jats:italic>\n                  <jats:sub>\n                    <jats:italic>S</jats:italic>\n                  </jats:sub>\n                  \u2248 0 011\n                  <jats:italic>/ day</jats:italic>\n                  }, when practically no one was vaccinated. In addition, this\n                  <jats:italic>initial</jats:italic>\n                  Winter 2021 wave showed virtually no\n                  <jats:italic>mask-wearing</jats:italic>\n                  {\n                  <jats:italic>\u03b4</jats:italic>\n                  <jats:sub>\n                    <jats:italic>o</jats:italic>\n                  </jats:sub>\n                  <jats:italic>\u2248 \u00d7</jats:italic>\n                  0 001 10\n                  <jats:sup>\u22123</jats:sup>\n                  /\n                  <jats:italic>day</jats:italic>\n                  }, making it capable of infecting virtually everyone. These parameter values indicated that the\n                  <jats:italic>Omicron</jats:italic>\n                  variant was likely evading the vaccines in people who thought they were protected.\n                </jats:p>\n                <jats:p>\n                  As a result, stopping the\n                  <jats:italic>Omicron</jats:italic>\n                  CoVID-19 spread must once again rely on enhanced\n                  <jats:italic>Social Distancing</jats:italic>\n                  and\n                  <jats:italic>mask-wearing</jats:italic>\n                  , just like the initial pandemic wave in March 2020. Analyzing the USA follow-on data from 12/25/21-1/31/22 shows that people did exactly that after the\n                  <jats:italic>Christmas Holiday</jats:italic>\n                  season, resulting in the following model parameters and values:\n                  <jats:disp-formula id=\"ueqn2\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"22270491v1_ueqn2.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  for this wave by itself, with all prior waves subtracted out as a baseline. Combining all the USA CoVID-19 waves gives these updated totals:\n                  <jats:disp-formula id=\"ueqn3\">\n                    <jats:alternatives>\n                      <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"22270491v1_ueqn3.gif\" position=\"float\" orientation=\"portrait\"/>\n                    </jats:alternatives>\n                  </jats:disp-formula>\n                  assuming no future CoVID-19 Resurgence (\n                  <jats:italic>with 4 Figures</jats:italic>\n                  ).\n                </jats:p>\n                <jats:p>\n                  <jats:italic>*(10</jats:italic>\n                  .\n                  <jats:italic>1101_2021</jats:italic>\n                  .\n                  <jats:italic>10</jats:italic>\n                  .\n                  <jats:italic>15</jats:italic>\n                  .\n                  <jats:italic>21265078)</jats:italic>\n                </jats:p>",
+    "DOI": "10.1101/2022.02.04.22270491",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2022-02-07T00:00:14Z",
+      "timestamp": 1644192014000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "USA Winter 2021 CoVID-19 Resurgence Post-Christmas Update"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2044-3461",
+        "authenticated-orcid": false,
+        "given": "Genghmun",
+        "family": "Eng",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.1",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2020.05.04.20091207v1 \u201cInitialModel for the Impact of Social Distancing on CoVID-19 Spread\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.2",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2020.06.30.20143149v1 \u201cOrthogonal Functions for Evaluating Social Distancing Impact on CoVID-19 Spread\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.3",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2020.08.07.20169904 \u201cModel to Describe Fast Shutoff of CoVID-19 Pandemic Spread\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.4",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2020.09.16.20196063 \u201cInitial Model for USA CoVID-19 Resurgence\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.5",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2021.08.16.21262150 \u201cThe IHME vs Me: Modeling USA CoVID-19 Spread, Early Data to the Fifth Wave\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.6",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2021.10.15.21265078 \u201cUpdated Model for the USA Summer 2021 CoVID-19 Resurgence\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.7",
+        "unstructured": "https://medrxiv.org/cgi/content/short/2022.01.06.22268868 \u201cModeling the USA Winter 2021 CoVID-19 Resurgence\u201d"
+      },
+      {
+        "key": "2022020900150752000_2022.02.04.22270491v1.8",
+        "unstructured": "www.bing.com/covid/local/unitedstates?form=COVD07"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.04.22270491",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T14:35:57Z",
+      "timestamp": 1768487757000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2022.02.04.22270491"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          6
+        ]
+      ]
+    },
+    "references-count": 8,
+    "URL": "https://doi.org/10.1101/2022.02.04.22270491",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

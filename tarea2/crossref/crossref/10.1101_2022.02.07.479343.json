@@ -1,0 +1,637 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T17:16:21Z",
+      "timestamp": 1768497381076,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          7
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 61,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          20
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Machine learning was shown to be effective at identifying distinctive genomic signatures among viral sequences. These signatures are defined as pervasive motifs in the viral genome that allow discrimination between species or variants. In the context of SARS-CoV-2, the identification of these signatures can assist in taxonomic and phylogenetic studies, improve in the recognition and definition of emerging variants, and aid in the characterization of functional properties of polymorphic gene products. In this paper, we assess KEVOLVE, an approach based on a genetic algorithm with a machine-learning kernel, to identify multiple genomic signatures based on minimal sets of\n                  <jats:italic>k</jats:italic>\n                  -mers. In a comparative study, in which we analyzed large SARS-CoV-2 genome dataset, KEVOLVE was more effective at identifying variant-discriminative signatures than several gold-standard statistical tools. Subsequently, these signatures were characterized using a new extension of KEVOLVE (KANALYZER) to highlight variations of the discriminative signatures among different classes of variants, their genomic location, and the mutations involved. The majority of identified signatures were associated with known mutations among the different variants, in terms of functional and pathological impact based on available literature. Here we showed that KEVOLVE is a robust machine learning approach to identify discriminative signatures among SARS-CoV-2 variants, which are frequently also biologically relevant, while bypassing multiple sequence alignments. The source code of the method and additional resources are available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/bioinfoUQAM/KEVOLVE\">https://github.com/bioinfoUQAM/KEVOLVE</jats:ext-link>\n                  .\n                </jats:p>",
+    "DOI": "10.1101/2022.02.07.479343",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          8
+        ]
+      ],
+      "date-time": "2022-02-08T00:20:14Z",
+      "timestamp": 1644279614000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Machine learning-based approach KEVOLVE efficiently identifies SARS-CoV-2 variant-specific genomic signatures"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "given": "Dylan",
+        "family": "Lebatteux",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5857-3176",
+        "authenticated-orcid": false,
+        "given": "Hugo",
+        "family": "Soudeyns",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9545-6024",
+        "authenticated-orcid": false,
+        "given": "Isabelle",
+        "family": "Boucoiran",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5743-3606",
+        "authenticated-orcid": false,
+        "given": "Soren",
+        "family": "Gantt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abdoulaye Banir\u00e9",
+        "family": "Diallo",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu N , Zhang D , Wang W , Li X , Yang B , Song J , et al. A novel coronavirus from patients with pneumonia in China, 2019. New England journal of medicine. 2020;.",
+        "DOI": "10.1056/NEJMoa2001017"
+      },
+      {
+        "issue": "4",
+        "key": "2023062222501592000_2022.02.07.479343v2.2",
+        "doi-asserted-by": "crossref",
+        "first-page": "536",
+        "DOI": "10.1038/s41564-020-0695-z",
+        "volume": "5",
+        "author": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+        "year": "2020",
+        "journal-title": "Nature microbiology"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1473-3099(20)30134-1"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30251-8/ATTACHMENT/1686D69B-3F2C44B2-A8A5-C648EF9D1C2B/MMC1.PDF"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2286-9"
+      },
+      {
+        "issue": "6",
+        "key": "2023062222501592000_2022.02.07.479343v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "660",
+        "DOI": "10.1002/jmv.25754",
+        "article-title": "From SARS and MERS CoVs to SARS-CoV-2: Moving toward more biased codon usage in viral structural and nonstructural genes",
+        "volume": "92",
+        "year": "2020",
+        "journal-title": "Journal of medical virology"
+      },
+      {
+        "issue": "12",
+        "key": "2023062222501592000_2022.02.07.479343v2.7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1075",
+        "DOI": "10.1038/s10038-020-0808-9",
+        "article-title": "SARS-CoV-2 genomic variations associated with mortality rate of COVID-19",
+        "volume": "65",
+        "year": "2020",
+        "journal-title": "Journal of human genetics"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04266-9"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/pathogens9050324"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0232391"
+      },
+      {
+        "issue": "1",
+        "key": "2023062222501592000_2022.02.07.479343v2.11",
+        "first-page": "1",
+        "article-title": "Classification and specific primer design for accurate detection of SARS-CoV-2 using deep learning",
+        "volume": "11",
+        "year": "2021",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "issue": "4",
+        "key": "2023062222501592000_2022.02.07.479343v2.12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1453",
+        "DOI": "10.1111/tbed.13588",
+        "article-title": "Supporting pandemic response using genomics and bioinformatics: A case study on the emergent SARS-CoV-2 outbreak",
+        "volume": "67",
+        "year": "2020",
+        "journal-title": "Transboundary and emerging diseases"
+      },
+      {
+        "issue": "1",
+        "key": "2023062222501592000_2022.02.07.479343v2.13",
+        "first-page": "1",
+        "article-title": "Profiling SARS-CoV-2 mutation fingerprints that range from the viral pangenome to individual infection quasispecies",
+        "volume": "13",
+        "year": "2021",
+        "journal-title": "Genome medicine"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Slezak T , Hart B , Jaing C. Design of genomic signatures for pathogen identification and characterization. In: Microbial Forensics. Elsevier; 2020. p. 299\u2013312.",
+        "DOI": "10.1016/B978-0-12-815379-6.00020-9"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkh340"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btm404"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbx108"
+      },
+      {
+        "issue": "2",
+        "key": "2023062222501592000_2022.02.07.479343v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "426",
+        "DOI": "10.1093/bib/bbx067",
+        "article-title": "Alignment-free inference of hierarchical and reticulate phylogenomic relationships",
+        "volume": "20",
+        "year": "2019",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lange K. Mathematical and statistical methods for genetic analysis. vol. 488. Springer; 2002.",
+        "DOI": "10.1007/978-0-387-21750-5"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt0704-909"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-016-1145-3"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2323"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1151532"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.24",
+        "unstructured": "Bailey TL , Elkan C , et al. Fitting a mixture model by expectation maximization to discover motifs in bipolymers. 1994;."
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv416"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-1"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab203%J"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg3920"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-016-1452-4"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0206409"
+      },
+      {
+        "issue": "6",
+        "key": "2023062222501592000_2022.02.07.479343v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1089/cmb.2018.0239",
+        "article-title": "Toward an alignment-free method for feature extraction and accurate classification of viral sequences",
+        "volume": "26",
+        "year": "2019",
+        "journal-title": "Journal of Computational Biology"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lebatteux D , Diallo AB . Combining a genetic algorithm and ensemble method to improve the classification of viruses. In: 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE; 2021. p. 688\u2013693.",
+        "DOI": "10.1109/BIBM52615.2021.9669670"
+      },
+      {
+        "issue": "1",
+        "key": "2023062222501592000_2022.02.07.479343v2.33",
+        "first-page": "1",
+        "article-title": "Viral phylogenomics using an alignment-free method: A three-step approach to determine optimal length of k-mer",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Narlikar L , Gordan R , Hartemink AJ . Nucleosome occupancy information improves de novo motif discovery. In: Annual International Conference on Research in Computational Molecular Biology. Springer; 2007. p. 107\u2013121.",
+        "DOI": "10.1007/978-3-540-71681-5_8"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab1112"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lebatteux D , Soudeyns H , Boucoiran I , Gantt S , Diallo AB . KANALYZER: a method to identify variations of discriminative k-mers in genomic sequences. In: 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society; 2022. p. 757\u2013762.",
+        "DOI": "10.1109/BIBM55620.2022.9995370"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.ppat.1010627"
+      },
+      {
+        "issue": "3",
+        "key": "2023062222501592000_2022.02.07.479343v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0259610",
+        "DOI": "10.1371/journal.pone.0259610",
+        "article-title": "Profiling RT-LAMP tolerance of sequence variation for SARS-CoV-2 RNA detection",
+        "volume": "17",
+        "year": "2022",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "10",
+        "key": "2023062222501592000_2022.02.07.479343v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "5729",
+        "DOI": "10.1002/jmv.27132",
+        "article-title": "Molecular biology of the SARs-CoV-2 spike protein: A review of current knowledge",
+        "volume": "93",
+        "year": "2021",
+        "journal-title": "Journal of Medical Virology"
+      },
+      {
+        "issue": "5",
+        "key": "2023062222501592000_2022.02.07.479343v2.40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1295",
+        "DOI": "10.1016/j.cell.2020.08.012",
+        "article-title": "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding",
+        "volume": "182",
+        "year": "2020",
+        "journal-title": "cell"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.41",
+        "doi-asserted-by": "crossref",
+        "first-page": "e70658",
+        "DOI": "10.7554/eLife.70658",
+        "article-title": "Effects of common mutations in the SARS-CoV-2 Spike RBD and its ligand, the human ACE2 receptor on binding affinity and kinetics",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Elife"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nelson G , Buzko O , Spilman P , Niazi K , Rabizadeh S , Soon-Shiong P. Molecular dynamic simulation reveals E484K mutation enhances spike RBD-ACE2 affinity and the combination of E484K, K417N and N501Y mutations (501Y. V2 variant) induces conformational change greater than N501Y mutant alone, potentially resulting in an escape mutant. BioRxiv. 2021;.",
+        "DOI": "10.1101/2021.01.13.426558"
+      },
+      {
+        "issue": "7855",
+        "key": "2023062222501592000_2022.02.07.479343v2.43",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.1038/s41586-021-03324-6",
+        "article-title": "mRNA vaccine-elicited antibodies to SARS-CoV-2 and circulating variants",
+        "volume": "592",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "5",
+        "key": "2023062222501592000_2022.02.07.479343v2.44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1808",
+        "DOI": "10.1002/jmv.27601",
+        "article-title": "Emergence of Omicron third lineage BA. 3 and its importance",
+        "volume": "94",
+        "year": "2022",
+        "journal-title": "Journal of medical virology"
+      },
+      {
+        "issue": "6",
+        "key": "2023062222501592000_2022.02.07.479343v2.45",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.3390/vaccines9060616",
+        "article-title": "A unique SARS-CoV-2 spike protein P681H variant detected in Israel",
+        "volume": "9",
+        "year": "2021",
+        "journal-title": "Vaccines"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.46",
+        "doi-asserted-by": "crossref",
+        "first-page": "102779",
+        "DOI": "10.1016/j.jaut.2021.102779",
+        "article-title": "Omicron SARS-CoV-2 variant: Unique features and their impact on pre-existing antibodies",
+        "volume": "126",
+        "year": "2022",
+        "journal-title": "Journal of autoimmunity"
+      },
+      {
+        "issue": "4",
+        "key": "2023062222501592000_2022.02.07.479343v2.47",
+        "doi-asserted-by": "crossref",
+        "first-page": "838",
+        "DOI": "10.1002/mco2.110",
+        "article-title": "SARS-CoV-2 Omicron variant: characteristics and prevention",
+        "volume": "2",
+        "year": "2021",
+        "journal-title": "MedComm"
+      },
+      {
+        "issue": "5",
+        "key": "2023062222501592000_2022.02.07.479343v2.48",
+        "first-page": "e1721",
+        "article-title": "SARS-CoV-2 variants and spike mutations involved in second wave of COVID-19 pandemic in India",
+        "volume": "69",
+        "year": "2022",
+        "journal-title": "Transboundary and Emerging Diseases"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.49",
+        "doi-asserted-by": "crossref",
+        "first-page": "750725",
+        "DOI": "10.3389/fmicb.2021.750725",
+        "article-title": "Biological significance of the genomic variation and structural dynamics of SARS-CoV-2 B. 1.617",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Frontiers in Microbiology"
+      },
+      {
+        "issue": "6573",
+        "key": "2023062222501592000_2022.02.07.479343v2.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1353",
+        "DOI": "10.1126/science.abl9463",
+        "article-title": "Membrane fusion and immune evasion by the spike protein of SARS-CoV-2 Delta variant",
+        "volume": "374",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41579-021-00573-0"
+      },
+      {
+        "issue": "9",
+        "key": "2023062222501592000_2022.02.07.479343v2.52",
+        "doi-asserted-by": "crossref",
+        "first-page": "2332",
+        "DOI": "10.1016/j.cell.2021.03.028",
+        "article-title": "N-terminal domain antigenic mapping reveals a site of vulnerability for SARS-CoV-2",
+        "volume": "184",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "7",
+        "key": "2023062222501592000_2022.02.07.479343v2.53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1124",
+        "DOI": "10.1016/j.chom.2021.06.006",
+        "article-title": "SARS-CoV-2 spike L452R variant evades cellular immunity and increases infectivity",
+        "volume": "29",
+        "year": "2021",
+        "journal-title": "Cell host & microbe"
+      },
+      {
+        "issue": "2",
+        "key": "2023062222501592000_2022.02.07.479343v2.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "110218",
+        "DOI": "10.1016/j.celrep.2021.110218",
+        "article-title": "The SARS-CoV-2 Lambda variant exhibits enhanced infectivity and immune resistance",
+        "volume": "38",
+        "year": "2022",
+        "journal-title": "Cell reports"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thakur S , Sasi S , Pillai SG , Nag A , Shukla D , Singhal R , et al. SARS-CoV-2 Mutations and Their Impact on Diagnostics, Therapeutics and Vaccines. Frontiers in Medicine. 2022;9.",
+        "DOI": "10.3389/fmed.2022.815389"
+      },
+      {
+        "issue": "1",
+        "key": "2023062222501592000_2022.02.07.479343v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "885",
+        "DOI": "10.1080/22221751.2021.1922097",
+        "article-title": "Emerging variants of concern in SARS-CoV-2 membrane protein: a highly conserved target with potential pathological and therapeutic implications",
+        "volume": "10",
+        "year": "2021",
+        "journal-title": "Emerging microbes & infections"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.57",
+        "doi-asserted-by": "crossref",
+        "first-page": "105404",
+        "DOI": "10.1016/j.micpath.2022.105404",
+        "article-title": "Genomic characterization unravelling the causative role of SARS-CoV-2 Delta variant of lineage B. 1.617. 2 in 2nd wave of COVID-19 pandemic in Chhattisgarh, India",
+        "volume": "164",
+        "year": "2022",
+        "journal-title": "Microbial Pathogenesis"
+      },
+      {
+        "issue": "6575",
+        "key": "2023062222501592000_2022.02.07.479343v2.58",
+        "doi-asserted-by": "crossref",
+        "first-page": "1626",
+        "DOI": "10.1126/science.abl6184",
+        "article-title": "Rapid assessment of SARS-CoV-2\u2013evolved variants using virus-like particles",
+        "volume": "374",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2021.11.005"
+      },
+      {
+        "key": "2023062222501592000_2022.02.07.479343v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40745-015-0040-1"
+      },
+      {
+        "issue": "1",
+        "key": "2023062222501592000_2022.02.07.479343v2.61",
+        "first-page": "1",
+        "article-title": "The spike gene target failure (SGTF) genomic signature is highly accurate for the identification of Alpha and Omicron SARS-CoV-2 variants",
+        "volume": "12",
+        "year": "2022",
+        "journal-title": "Scientific Reports"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.02.07.479343",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T02:40:26Z",
+      "timestamp": 1768444826000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.02.07.479343"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          7
+        ]
+      ]
+    },
+    "references-count": 61,
+    "URL": "https://doi.org/10.1101/2022.02.07.479343",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1371/journal.pone.0296627",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          7
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": [
+      {
+        "name": "medRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2026-01-17T05:34:40Z",
+      "timestamp": 1768628080537,
+      "version": "3.49.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "group-title": "Health Informatics",
+    "reference-count": 21,
+    "publisher": "openRxiv",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Rapid identification of COVID-19 is important for delivering care expediently and maintaining infection control. The early clinical course of SARS-CoV-2 infection can be difficult to distinguish from other undifferentiated medical presentations to hospital, however for operational reasons SARS-CoV-2 PCR testing can take up to 48 hours. Artificial Intelligence (AI) methods, trained using routinely collected clinical data, may allow front-door screening for COVID-19 within the first hour of presentation.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>\n                    Demographic, routine and prior clinical data were extracted for 170,510 sequential presentations to emergency and acute medical departments at a large UK teaching hospital group. We applied multivariate logistic regression, random forests and extreme gradient boosted trees to distinguish emergency department (ED) presentations and admissions due to COVID-19 from pre-pandemic controls. We performed stepwise addition of clinical feature sets and assessed performance using stratified 10-fold cross validation. Models were calibrated during training to achieve sensitivities of 70, 80 and 90% for identifying patients with COVID-19. To simulate real-world performance at different stages of an epidemic, we generated test sets with varying prevalences of COVID-19 and assessed predictive values. We prospectively validated our models for all patients presenting or admitted to our hospital group between 20\n                    <jats:sup>th</jats:sup>\n                    April and 6\n                    <jats:sup>th</jats:sup>\n                    May 2020, comparing model predictions to PCR test results.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Presentation laboratory blood tests, point of care blood gas, and vital signs measurements for 115,394 emergency presentations and 72,310 admissions were analysed. Presentation laboratory tests and vital signs were most predictive of COVID-19 (maximum area under ROC curve [AUROC] 0.904 and 0.823, respectively). Sequential addition of informative variables improved model performance to AUROC 0.942.</jats:p>\n                  <jats:p>We developed two early-detection models to identify COVID-19, achieving sensitivities and specificities of 77.4% and 95.7% for our ED model amongst patients attending hospital, and 77.4% and 94.8% for our Admissions model amongst patients being admitted. Both models offer high negative predictive values (&gt;99%) across a range of prevalences (&lt;5%). In a two-week prospective validation period, our ED and Admissions models demonstrated 92.3% and 92.5% accuracy (AUROC 0.881 and 0.871 respectively) for all patients presenting or admitted to a large UK teaching hospital group. A sensitivity analysis to account for uncertainty in negative PCR results improves apparent accuracy (95.1% and 94.1%) and NPV (99.0% and 98.5%). Three laboratory blood markers, Eosinophils, Basophils, and C-Reactive Protein, alongside Calcium measured on blood-gas, and presentation Oxygen requirement were the most informative variables in our models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>Artificial intelligence techniques perform effectively as a screening test for COVID-19 in emergency departments and hospital admission units. Our models support rapid exclusion of the illness using routinely collected and readily available clinical measurements, guiding streaming of patients during the early phase of admission.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Brief</jats:title>\n                  <jats:p>The early clinical course of SARS-CoV-2 infection can be difficult to distinguish from other undifferentiated medical presentations to hospital, however viral specific real-time polymerase chain reaction (RT-PCR) testing has limited sensitivity and can take up to 48 hours for operational reasons. In this study, we develop two early-detection models to identify COVID-19 using routinely collected data typically available within one hour (laboratory tests, blood gas and vital signs) during 115,394 emergency presentations and 72,310 admissions to hospital. Our emergency department (ED) model achieved 77.4% sensitivity and 95.7% specificity (AUROC 0.939) for COVID-19 amongst all patients attending hospital, and Admissions model achieved 77.4% sensitivity and 94.8% specificity (AUROC 0.940) for the subset admitted to hospital. Both models achieve high negative predictive values (&gt;99%) across a range of prevalences (&lt;5%), facilitating rapid exclusion during triage to guide infection control. We prospectively validated our models across all patients presenting and admitted to a large UK teaching hospital group in a two-week test period, achieving 92.3% (n= 3,326, NPV: 97.6%, AUROC: 0.881) and 92.5% accuracy (n=1,715, NPV: 97.7%, AUROC: 0.871) in comparison to RT-PCR results. Sensitivity analyses to account for uncertainty in negative PCR results improves apparent accuracy (95.1% and 94.1%) and NPV (99.0% and 98.5%). Our artificial intelligence models perform effectively as a screening test for COVID-19 in emergency departments and hospital admission units, offering high impact in settings where rapid testing is unavailable.</jats:p>\n                </jats:sec>",
+    "DOI": "10.1101/2020.07.07.20148361",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2020-07-08T13:22:28Z",
+      "timestamp": 1594214548000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Artificial intelligence driven assessment of routinely collected healthcare data is an effective screening test for COVID-19 in patients presenting to hospital"
+    ],
+    "prefix": "10.64898",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2391-5361",
+        "authenticated-orcid": false,
+        "given": "Andrew AS",
+        "family": "Soltan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5870-4030",
+        "authenticated-orcid": false,
+        "given": "Samaneh",
+        "family": "Kouchaki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1552-5630",
+        "authenticated-orcid": false,
+        "given": "Tingting",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2898-1790",
+        "authenticated-orcid": false,
+        "given": "Dani",
+        "family": "Kiyasseh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3417-0123",
+        "authenticated-orcid": false,
+        "given": "Zaamin B.",
+        "family": "Hussain",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tim",
+        "family": "Peto",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew J",
+        "family": "Brent",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5095-6367",
+        "authenticated-orcid": false,
+        "given": "David W.",
+        "family": "Eyre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Clifton",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "54368",
+    "reference": [
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.1",
+        "unstructured": "Organisation, W. H. Rolling updates on coronavirus disease (COVID-19). Available at: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen. (accessed: 3rd July 2020)"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.2",
+        "first-page": "1",
+        "article-title": "Novel Coronavirus during the early outbreak period: Epidemiology, causes, clinical manifestation and diagnosis, prevention and control",
+        "volume": "9",
+        "year": "2020",
+        "journal-title": "Infect. Dis. Poverty"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2002032"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1061",
+        "DOI": "10.1001/jama.2020.1585",
+        "article-title": "Clinical Characteristics of 138 Hospitalized Patients with 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+        "volume": "323",
+        "year": "2020",
+        "journal-title": "JAMA - J. Am. Med. Assoc"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrad.2020.108961"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.6",
+        "unstructured": "United Kingdom National Health Service. Guidance and standard operating procedure: COVID-19 virus testing in NHS laboratories. United Kingdom Natl. Heal. Serv. Guidel. (2020)."
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa722"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JCM.02015-19"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsnano.0c02624"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.10",
+        "first-page": "299",
+        "article-title": "Clinical Characteristics and Blood Test Results in COVID-19 Patients",
+        "volume": "50",
+        "year": "2020",
+        "journal-title": "Ann. Clin. Lab. Sci"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2020.04.22.20075143"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.3551355"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.annemergmed.2017.08.005"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0916-2"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7326/M14-0697"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.16",
+        "first-page": "1",
+        "article-title": "Features of 20 133 UK patients in hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: Prospective observational cohort study",
+        "volume": "369",
+        "year": "2020",
+        "journal-title": "BMJ"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "117788",
+        "DOI": "10.1016/j.lfs.2020.117788",
+        "article-title": "The role of biomarkers in diagnosis of COVID-19 \u2013 A systematic review",
+        "volume": "254",
+        "year": "2020",
+        "journal-title": "Life Sci"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0931-3"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.19",
+        "unstructured": "Wynants, L. et al. Prediction models for diagnosis and prognosis of covid-19 infection: Systematic review and critical appraisal. BMJ 369, (2020)."
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1183/13993003.00775-2020"
+      },
+      {
+        "key": "2021010810001464000_2020.07.07.20148361v1.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cid/ciaa322"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.07.07.20148361",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T13:47:25Z",
+      "timestamp": 1768484845000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://medrxiv.org/lookup/doi/10.1101/2020.07.07.20148361"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "references-count": 21,
+    "URL": "https://doi.org/10.1101/2020.07.07.20148361",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/S2589-7500(20)30274-0",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          8
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}
